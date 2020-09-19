@@ -1,0 +1,6 @@
+﻿#Modifiers granted from pet animals
+
+elephant_story_riding_modifier = {
+	icon = dog_positive
+	health = 0.2
+}
