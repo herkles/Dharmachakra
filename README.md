@@ -16,12 +16,11 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - new tenet set up for Jains
 - NOT ACHIEVEMENT COMPATIBLE!
 
-
 ## Manual Installation Steps
 
 DO NOT manually download the master branch unless you know what you're doing as it is the WIP version that is constantly being updated!
 
-1. Go to https://github.com/herkles/Dharmachakra/releases and find the latest version you wish to download.
+1. Go to <https://github.com/herkles/Dharmachakra/releases> and find the latest version you wish to download.
 2. Extract the .zip file to Documents\Paradox Interactive\Crusader Kings III\mod
 3. Launch CKIII and select VIET Events in the launcher.
 4. Enjoy and play!
