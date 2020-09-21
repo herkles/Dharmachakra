@@ -1,6 +1,5 @@
 Dharmachakra is as the title indicates a mod dedicated to India and the neighboring Regions like Tibet and Burma, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and the religions that have been influenced by them. There is a new religious map, tweaked tenets and doctrines, bald Buddhist monks and nuns, and more.
 
-
 [h2]Features​[/h2]
 These are some of the features of the mod.
 [list]
@@ -13,7 +12,6 @@ These are some of the features of the mod.
     [*] Advaita Vedanta as a faith has been removed(those characters are now Smartist)
 [/list]
 
-
 [h2]Tenet changes[/h2]
 [list]
     [*]Digamabara Jains: Monasticism, Dharmic Pacifism, Ritual Hospitality
@@ -23,7 +21,6 @@ These are some of the features of the mod.
     [*]Suryaism: Sun Worship, Esotericism, and Inner Journey
     [*]Shaivism: Reincarnation, Monasticism, Esotericism
 [/list]
-
 
 I welcome any and all feedback - I am still getting the hang of CK3 modding atm. So please let me know if you encounter any bugs, find things imbalanced, if you have any suggestions, or anything else about the mod. I hope to add more decisions, events, and mechanics with future updates to the mod.
 
