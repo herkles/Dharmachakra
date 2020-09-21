@@ -4,5 +4,6 @@ tags={
 	"Gameplay"
 }
 name="Dharmachakra"
+picture="thumbnail.png"
 supported_version="1.0.3"
 path="mod/dharmachakra"
