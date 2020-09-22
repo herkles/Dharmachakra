@@ -7,14 +7,8 @@ Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the n
 Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
 
 ## Features
-
-- New religious map for India and Burma in 867 and 1066
-- New Hindu Sects of Suyraism and Shrautism
-- Bald Buddhist Monks and Nuns
-- Digambara and Yapaniya Jains are only naked if they are monks
-- Buddhist and Jain temple holders and court chaplains are monks
-- new tenet set up for Jains
-- NOT ACHIEVEMENT COMPATIBLE!
+ - You can now fire councilors again
+ - Suryaism is now known as Suara
 
 ## Manual Installation Steps
 
