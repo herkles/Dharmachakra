@@ -1936,6 +1936,7 @@
 		}
 		parameters = {
 			hostility_override_eastern_hostility_doctrine = 2
+			meditation_mechanics_active = yes
 		}
 		traits = {
 			virtues = { honest }
