@@ -6,13 +6,11 @@ Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the n
 
 Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
 
-## changelog
+## Changelog
 
-    - sky rituals are now for all Tibetan faiths
-    - Gyur Bön's tenets are now: Esotericism, Monasticism, Eastern Syncretism
-    - Khyarwé Bön's tenets are now: Esotericism, Human Sacrifice, Ritual Celebrations
-    - Eastern Syncretism now allows you to meditate
-    
+- You can now fire councilors again
+- Suryaism is now known as Saura
+- separated the elephant pet stuff into their own files for better compatibility with other mods
 
 ## Manual Installation Steps
 
