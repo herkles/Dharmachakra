@@ -9,7 +9,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 ## Changelog
 
 - You can now fire councilors again
-- Suryaism is now known as Suara
+- Suryaism is now known as Saura
 - separated the elephant pet stuff into their own files for better compatibility with other mods
 
 ## Manual Installation Steps
