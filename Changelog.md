@@ -8,9 +8,10 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- You can now fire councilors again
-- Suryaism is now known as Saura
-- separated the elephant pet stuff into their own files for better compatibility with other mods
+- Bon Religions now have the Tibetan Sky Burial Doctrine
+- Gyur Bön's tenets are now: Esotericism, Monasticism, Eastern Syncretism
+- Khyarwé Bön's tenets are now: Esotericism, Human, Sacrifice, Ritual Celebrations
+- Eastern Syncretism now allows you to meditate
 
 ## Manual Installation Steps
 
