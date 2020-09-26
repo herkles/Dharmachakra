@@ -58,9 +58,7 @@ buddhist_retreat_decision = {
 	selection_tooltip = buddhist_retreat_decision_tooltip
 
 	is_shown = {
-		faith = {
-			has_doctrine_parameter = meditation_mechanics_active
-		}
+		religion = religion:buddhism_religion
 		holds_landed_title = yes
 	}
 
@@ -74,7 +72,7 @@ buddhist_retreat_decision = {
 
 	effect = {
 		custom_tooltip = buddhist_retreat_tooltip
-		trigger_event = religious_decision.0201
+		trigger_event = dharma_buddhism.100
 	}
 
 	ai_check_interval = 60

@@ -1,0 +1,75 @@
+﻿l_english:
+    
+dharma_buddhism.100.t:0 "Departing for a Spiritual Retreat"
+dharma_buddhism.100.desc:0 "Even if I am a well-off [Root.GetTitle] who has everything in the world, I feel like I am still lacking, spiritually. I've decided to thus go to one of monastaries in the region, and participate in a spiritual retreat for an extended period of time."
+dharma_buddhism.100.depart:0 "Onwards to the Monastary"
+dharma_buddhism.100.optout:0 "On second thought"
+
+dharma_buddhism.101.t:0 "Arriving at the Monastary"
+dharma_buddhism.101.desc:0 "The journey to the temple was more strenuous than I expected, but we have arrived nonetheless. I engage in the normal formalities upon reaching the temple - prostrating before Lord Buddha, bestowing gifts upon the monks, and so on. Eventually, I remove all my luxurious clothing and put on the humble robes of an ascetic.\n\nAs night comes, I am shown to my dormitory where I will be sleeping during my stay. It's a change from the luxurious palace rooms, but I'll get used to it. After all, I'll be staying for..."
+dharma_buddhism.101.three:0 "Three Months"
+dharma_buddhism.101.six:0 "Six Months"
+dharma_buddhism.101.twelve:0 "One Year"
+
+dharma_buddhism.102.t:0 "Back to basics"
+dharma_buddhism.102.desc:0 "My attempts at more complicated meditation techniques have failed these past couple of days. Thus, I've decided that while meditating today, I'll practice one of the most basic meditation techniques - trying to focus only on my breathing, and the sensation of my breath going in and out of my body"
+dharma_buddhism.102.a:0 "In and out"
+
+dharma_buddhism.103.t:0 "Monastic Food"
+dharma_buddhism.103.desc:0 "During these meditation retreats, were not supposed to eat a lot - just enough to sustain ourselves. That said, since I am a [Root.GetTitle], I could easily get away with taking more food than I am normally given."
+dharma_buddhism.103.a:0 "I must bear through it"
+
+dharma_buddhism.104.t:0 "Meditating"
+dharma_buddhism.104.desc:0 "I'm attempting to meditate with my eyes half-open, as some of the monks have recommended. Still, it's distracting - I'm trying to clear my mind of useless thoughts, yet with my eyes half-open, I can still see some of things happening around me."
+dharma_buddhism.104.a:0 "Better try it with my eyes shut for now"
+
+dharma_buddhism.105.t:0 "Uncomfortable Robes"
+dharma_buddhism.105.desc:0 "I have to wear the robes of other monastics on the retreat, in addition to being simple robes for a [root.GetTitle], they are rather uncomfortable!"
+dharma_buddhism.105.a:0 "I must bear with them, to focus on my concentration"
+
+dharma_buddhism.106.t:0 "Numb Legs"
+dharma_buddhism.106.desc:0 "When today's last meditation session ended, my legs were so numb I couldn't walk. However, one of the monks noticed my trouble, and he showed me some techniques to relieve my legs of numbness I was previously unaware of."
+dharma_buddhism.106.a:0 "What a kind monk"
+
+dharma_buddhism.107.t:0 "An Exam"
+dharma_buddhism.107.desc:0 "As usual, some of the monks and retreat participants are engaging in spiritual discussion and debate, and I decide to observe. Suddenly, a senior monk of great age brings forth a chair and sets it before everyone.'Can anyone prove that this chair's true essence is that of emptiness, prove that it is an illusion in our mind?' he asks.\n\nThe others eagerly begin making their cases, citing the sutras or referencing ideas about the mindstream and dependent origination, saying the chair is like this and that. However, none of their answers satisfies the old monk. Finally, one monk - who had been silent for some time - speaks up, and asks, 'What chair are we arguing about?''"
+dharma_buddhism.107.a:0 "I see the old monk smiling"
+
+dharma_buddhism.108.t:0 "The Nature of Emptiness"
+dharma_buddhism.108.desc:0 "I am participating in a philosophical discussion with one of the senior monks to prove how much of the Dharma I've learned. I proclaim, The true nature of everything is emptiness. The Buddhas and Bodhisattvas do not exist. There is no realization, no delusion, no sage. There is no giving and nothing to be received.\n\nThe senior monk is silent, his face unmoving. Is he thinking? Suddenly - WHACK - he hits me on the head. I am angered, but the monk patiently asks me:"
+dharma_buddhism.108.a:0 "If nothing exists, where did that anger come from?"
+
+dharma_buddhism.109.t:0 "To Know and Not Know"
+dharma_buddhism.109.desc:0 "There is a kind and patient senior monk at the temple who has always provided me with good advice and insight. After a meditation session, I ask him, 'What happens to an enlightened man after death?'\nHe replies, I don't know.\nI subsequently ask, But aren't you a master?\n'Yes',he says, 'But not a dead one.''"
+dharma_buddhism.109.a:0 "Oh! The future is unforseeable. I must focus on the present"
+dharma_buddhism.109.b:0 "Ah. A wise man knows that he knows nothing."
+
+dharma_buddhism.110.t:0 "Distract self or not?"
+dharma_buddhism.110.desc:0 "Sitting still is so difficult! How do these monks manage it? My buttocks are in pain, I am constantly falling asleep... it is so difficult to concentrate while meditating. I could just pretend to be meditating while thinking about other things - that would be much easier, but then that would defeat the purpose of meditation."
+dharma_buddhism.110.a:0 "I take a deep breath, then redouble my efforts to concentrate."
+dharma_buddhism.110.b:0 "My mind starts wandering to pleasurable thoughts"
+
+dharma_buddhism.111.t:0 "Whack"
+dharma_buddhism.111.desc:0 "Pleasurable fantasies overtake my mind while I'm supposed to be meditation. Delicious wines, scrumptious foods, sweet, salty, spicy, and the most beautiful women, with luscious curves and - WHACK! Suddenly, one of the higher-ranked monks patrolling the meditation room birches one of the novice monks who was falling asleep."
+dharma_buddhism.111.a:0 "Back to meditating! Breathe in, breath out"
+
+dharma_buddhism.112.t:0 "Energized"
+dharma_buddhism.112.desc:0 "Usually during retreats, participants sleep very little - a few hours a night, in fact. Yet, I've never felt more energized. The senior monks say that if one meditates well, one can reduce the need to sleep."
+dharma_buddhism.112.a:0 "Amazing"
+
+dharma_buddhism.113.t:0 "Going Outside"
+dharma_buddhism.113.desc:0 "I've decided to meditate outside today, rather than inside. Not everyone chooses to meditate this way, preferring the comforts of the inside, but some have said that meditating outside is a very different experience. As I sit down and begin meditating, I can already feel the difference.\n\nNormally, I am so busy with work that I rarely think about what is happening in the world around me. I hear the birds, the insects, the rustling of the trees, the wind as it blows from the heavens above"
+dharma_buddhism.113.a:0 "This is refreshing.;"
+
+dharma_buddhism.114.t:0 "Questions and Answers"
+dharma_buddhism.114.desc:0 "When I begun doing meditation retreats, I used to probe many different spiritual and philosophical questions and provide myself of many different answers. As I have gained more and more insight, I notice I have less and less questions, and less and less answers"
+dharma_buddhism.114.a:0 "The masters say this is a good thing"
+
+dharma_buddhism.115.t:0 "Heightened Senses"
+dharma_buddhism.115.desc:0 "My efforts in meditation has given me much insight into natural phenomena. With greater concentration and patience, I discern minute details about the world I would have never noticed otherwise."
+dharma_buddhism.115.a:0 "I must not, however, get so attached to such abilities"
+
+dharma_buddhism.116.t:0 "The Retreat Ends"
+dharma_buddhism.116.desc:0 "My spiritual retreat has ended. I feel strange, even frightened, leaving the temple and readjusting to normal life. The retreat was a strange, uncomfortable experience, after all, and I still think of it as rather difficult, yet I learned much.\n\nCompassion. Mindfulness. Patience. Inner peace.\n\nI have been exposed to the Dharma in ways I could not have possibly imagined. Can I possibly put these lessons to practice"
+dharma_buddhism.116.a:0 "Time to return Home"
+
