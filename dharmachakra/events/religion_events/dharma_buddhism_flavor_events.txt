@@ -13,69 +13,6 @@
 # Meditation Retreat scripts
 #######################################
 
-scripted_trigger religious_decision_0201_can_meditate_in_terrain_trigger = {
-	religious_decision_0201_has_two_meditation_options_trigger = no
-	any_sub_realm_barony = {
-		NOT = { this = root.capital_barony }
-		title_province = {				
-			terrain = $TERRAIN$
-		}		
-	}
-}
-
-scripted_trigger religious_decision_0201_has_two_meditation_options_trigger = {
-	# Stops after we've found 2 good places for meditation (don't want to overload the player).
-	calc_true_if = {
-		amount >= 2
-		has_character_flag = meditation_option_plains
-		has_character_flag = meditation_option_hills
-		has_character_flag = meditation_option_steppe
-		has_character_flag = meditation_option_forest
-		has_character_flag = meditation_option_drylands
-		has_character_flag = meditation_option_mountains
-		has_character_flag = meditation_option_wetlands
-		has_character_flag = meditation_option_jungle
-		has_character_flag = meditation_option_desert
-	}
-}
-
-scripted_effect save_meditation_option_effect = {
-	add_character_flag = meditation_option_$TERRAIN$
-	random_sub_realm_barony = {
-		limit = {
-			NOT = { this = root.capital_barony }
-			title_province = {				
-				terrain = $TERRAIN$
-			}
-		}
-		save_scope_as = $TERRAIN$_location
-	}
-}
-
-scripted_effect meditate_at_location_effect = {
-	if = {
-		limit = {
-			can_join_activities = yes
-		}
-		set_variable ={
-			name = meditation_location
-			value = scope:$TERRAIN$_location
-		}
-		scope:$TERRAIN$_location = {
-			title_province = {	
-				spawn_activity = {
-					owner = root
-					type = activity_meditation
-				}	
-			}
-		}
-		add_character_modifier = {
-			modifier = meditating_in_seclusion_modifier
-			days = meditation_duration
-		}
-	}
-}
-
 scripted_effect improve_meditation_skill = {
 	if = {
 		limit = {
@@ -158,12 +95,12 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 
 	option = {# Three month Retreat
 		name = dharma_buddhism.101.three
-		trigger_event = { id = dharma_buddhism.109 days = 90 }
+		trigger_event = { id = dharma_buddhism.116 days = 90 }
 		hidden_effect = {
 			random_list = {
 				20 = {
 					trigger_event = { id = dharma_buddhism.102 days = 30 }
-					trigger_event = { id = dharma_buddhism.109 days = 60 }
+					trigger_event = { id = dharma_buddhism.108 days = 60 }
 					trigger_event = { id = dharma_buddhism.105 days = 85 }
 				}
 				20 = {
@@ -191,13 +128,13 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 	}
 	option = {# Six Month Retreat
 		name = dharma_buddhism.0201.six
-		trigger_event = { id = dharma_buddhism.109 days = 182 }
+		trigger_event = { id = dharma_buddhism.116 days = 182 }
 		hidden_effect = {
 			random_list = {
 				20 = {
 					trigger_event = { id = dharma_buddhism.102 days = 45 }
 					trigger_event = { id = dharma_buddhism.103 days = 90 }
-					trigger_event = { id = dharma_buddhism.109 days = 135 }
+					trigger_event = { id = dharma_buddhism.106 days = 135 }
 					trigger_event = { id = dharma_buddhism.110 days = 180 }			
 				}
 				20 = {
@@ -231,7 +168,7 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 	}
 	option = {# Twelve Month Retreat-
 		name = dharma_buddhism.0201.twelve
-		trigger_event = { id = dharma_buddhism.109 days = 365 }
+		trigger_event = { id = dharma_buddhism.116 days = 365 }
 		hidden_effect = {
 			random_list = {
 				20 = {
@@ -239,7 +176,7 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 					trigger_event = { id = dharma_buddhism.107 days = 146 }
 					trigger_event = { id = dharma_buddhism.111 days = 219 }
 					trigger_event = { id = dharma_buddhism.110 days = 292 }
-					trigger_event = { id = dharma_buddhism.109 days = 350 }
+					trigger_event = { id = dharma_buddhism.134 days = 350 }
 					
 				}
 				20 = {
@@ -252,7 +189,7 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 				20 = {
 					trigger_event = { id = dharma_buddhism.104 days = 73 }
 					trigger_event = { id = dharma_buddhism.103 days = 146 }
-					trigger_event = { id = dharma_buddhism.109 days = 219 }
+					trigger_event = { id = dharma_buddhism.102 days = 219 }
 					trigger_event = { id = dharma_buddhism.111 days = 292 }
 					trigger_event = { id = dharma_buddhism.113 days = 350 }
 				}
@@ -266,7 +203,7 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 				20 = {
 					trigger_event = { id = dharma_buddhism.106 days = 73 }
 					trigger_event = { id = dharma_buddhism.108 days = 146 }
-					trigger_event = { id = dharma_buddhism.109 days = 219 }
+					trigger_event = { id = dharma_buddhism.111 days = 219 }
 					trigger_event = { id = dharma_buddhism.115 days = 292 }
 					trigger_event = { id = dharma_buddhism.113 days = 350 }
 				}
@@ -297,7 +234,7 @@ dharma_buddhism.102 = {# Back to basics
 		name = dharma_buddhism.102.a
 		stress_impact = {
 			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
+			diligent = miniscule_stress_impact_loss
 		}
 		hidden_effect = {
 
@@ -322,10 +259,8 @@ dharma_buddhism.103 = {# monastic food
 		name = dharma_buddhism.103.a
 		stress_impact = {
 			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			Temperate = miniscule_stress_impact_loss
+			gluttonous = minor_stress_gain
 		}
 	}
 }
@@ -345,13 +280,6 @@ dharma_buddhism.104 = {# Meditate with eyes shut
 
 	option = {
 		name = dharma_buddhism.104.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
-		}
 	}
 }
 
@@ -371,11 +299,9 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 	option = {
 		name = dharma_buddhism.105.a
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			base = miniscule_stress_impact_loss
+			Humble = miniscule_stress_impact_loss
+			arrogant = miniscule_stress_impact_gain
 		}
 	}
 }
@@ -396,11 +322,7 @@ dharma_buddhism.106 = {# Numb legs
 	option = {
 		name = dharma_buddhism.106.a
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			base = miniscule_stress_impact_gain
 		}
 	}
 }
@@ -424,13 +346,7 @@ dharma_buddhism.107 = {# An exam
 
 	option = {
 		name = dharma_buddhism.107.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
-		}
+		add_piety = minor_piety_value
 	}
 }
 
@@ -449,48 +365,13 @@ dharma_buddhism.108 = {# Master's wisdom
 
 	option = {
 		name = dharma_buddhism.108.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
-		}
+		add_piety = minor_piety_value
 	}
 }
 
 #######################################
 # Meditation Retreat Novice Events
 #######################################
-
-dharma_buddhism.109 = {# Calmness and self-control
-	type = character_event
-	title = dharma_buddhism.109.t
-	desc = dharma_buddhism.109.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}
-
-	option = {
-		name = dharma_buddhism.109.a
-	}
-
-	option = {
-		name = dharma_buddhism.109.b
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
-		}
-	}
-}
 
 dharma_buddhism.110 = {# Distract self or not?
 	type = character_event
@@ -507,23 +388,17 @@ dharma_buddhism.110 = {# Distract self or not?
 
 	option = {
 		name = dharma_buddhism.110.a
+		add_piety = miniscule_piety_value
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			base = miniscule_stress_impact_gain
 		}
 	}
 
 	option = {
 		name = dharma_buddhism.110.b
+		add_piety = miniscule_piety_value
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			base = miniscule_stress_impact_loss
 		}
 	}
 }
@@ -545,10 +420,7 @@ dharma_buddhism.111 = {# Whack!
 		name = dharma_buddhism.111.a
 		stress_impact = {
 			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			diligent = miniscule_stress_impact_loss
 		}
 	}
 }
@@ -569,11 +441,7 @@ dharma_buddhism.112 = {# Energized!
 	option = {
 		name = dharma_buddhism.112.a
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			base = miniscule_stress_impact_loss
 		}
 	}
 }
@@ -597,7 +465,9 @@ dharma_buddhism.113 = {# Going outside
 
 	option = {
 		name = dharma_buddhism.113.a
-
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
 	}
 }
 
@@ -617,11 +487,7 @@ dharma_buddhism.114 = {# Questions and Answers
 	option = {
 		name = dharma_buddhism.114.a
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			base = miniscule_stress_impact_loss
 		}
 	}
 }
@@ -641,12 +507,9 @@ dharma_buddhism.115 = {# Heightened Senses
 
 	option = {
 		name = dharma_buddhism.115.a
+		add_piety = minor_piety_value
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
-		}
-		hidden_effect = {
-			
+			base = miniscule_stress_impact_loss
 		}
 	}
 }
@@ -665,14 +528,107 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 	}
 	left_portrait = root
 
-	option = {
-		name = dharma_buddhism.116.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = medium_stress_impact_loss
+	immediate = {
+		random_list = {
+			20 = {
+				add_character_flag = buddhist_retreat_better_person
+			}
+			20 = {
+				add_character_flag = buddhist_retreat_mystic
+			}
+			20 = {
+				add_character_flag = buddhist_retreat_pious
+			}
+			20 = {
+				add_character_flag = buddhist_retreat_nothing
+			}
 		}
-		hidden_effect = {
-			
+	}
+
+	option = {
+		name = {
+			trigger = { has_character_flag = buddhist_retreat_better_person }
+			text = religious_decision.0211.better
+		}
+		name = {
+			trigger = { has_character_flag = buddhist_retreat_mystic }
+			text = religious_decision.0211.mystic
+		}
+		name = {
+			trigger = { has_character_flag = buddhist_retreat_pious }
+			text = religious_decision.0211.pious
+		}
+		name = {
+			trigger = { has_character_flag = buddhist_retreat_nothing }
+			text = religious_decision.0211.nothing
+		}
+		# The actual effects of your retreat
+		if = {# Better Person
+			limit = {has_character_flag = buddhist_retreat_pious }
+			add_stress = minor_stress_loss
+			improve_meditation_skill = yes
+			random_list = {
+				10 = {
+					trigger = {	has_trait = gluttonous }
+					remove_trait = gluttonous
+					add_trait_force_tooltip = temperate
+				}
+				10 = {
+					trigger = {	has_trait = greedy }
+					remove_trait = greedy
+					add_trait_force_tooltip = generous
+				}
+				10 = {
+					trigger = {	has_trait = ambitious }
+					remove_trait = ambitious
+					add_trait_force_tooltip = content
+				}
+				10 = {
+					trigger = {	has_trait = lustful }
+					remove_trait = lustful
+					add_trait_force_tooltip = chaste
+				}
+				10 = {
+					trigger = {	has_trait = deceitful }
+					remove_trait = deceitful
+					add_trait_force_tooltip = honest
+				}
+				10 = {
+					trigger = {	has_trait = sadistic }
+					remove_trait = sadistic
+					add_trait_force_tooltip = callous
+				}
+				10 = {
+					trigger = {	has_trait = impatient }
+					remove_trait = impatient
+					add_trait_force_tooltip = patient
+				}
+			}
+		}
+		else_if = {# mystic
+			limit = {has_character_flag = meditation_medium_stress_loss }
+			random_list = {
+				5 = {
+					add_trait = mystic_3
+				}
+				10 = {
+					add_trait = mystic_2
+				}
+				15 = {
+					add_trait = mystic_1
+				}
+			}
+			improve_meditation_skill = yes
+		}
+		else_if = {# Piety
+			limit = {has_character_flag = meditation_medium_stress_loss }
+			add_piety = major_piety_value
+			improve_meditation_skill = yes
+		}
+		else_if = {# Nothing
+			limit = {has_character_flag = meditation_medium_stress_loss }
+			add_stress = medium_stress_loss
+			improve_meditation_skill = yes
 		}
 	}
 
@@ -685,7 +641,10 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 		remove_character_flag = meditation_reflection
 		remove_character_flag = meditation_major_stress_loss
 		remove_character_flag = meditation_medium_stress_loss
-		remove_character_flag = meditation_minor_stress_loss
+		remove_character_flag = buddhist_retreat_better_person
+		remove_character_flag = buddhist_retreat_mystic
+		remove_character_flag = buddhist_retreat_pious
+		remove_character_flag = buddhist_retreat_nothing
 
 		# Run the activity clean-up event.
 		trigger_event = {

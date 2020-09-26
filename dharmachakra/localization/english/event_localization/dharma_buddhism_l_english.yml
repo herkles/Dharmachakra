@@ -39,11 +39,6 @@ dharma_buddhism.108.t:0 "The Nature of Emptiness"
 dharma_buddhism.108.desc:0 "I am participating in a philosophical discussion with one of the senior monks to prove how much of the Dharma I've learned. I proclaim, The true nature of everything is emptiness. The Buddhas and Bodhisattvas do not exist. There is no realization, no delusion, no sage. There is no giving and nothing to be received.\n\nThe senior monk is silent, his face unmoving. Is he thinking? Suddenly - WHACK - he hits me on the head. I am angered, but the monk patiently asks me:"
 dharma_buddhism.108.a:0 "If nothing exists, where did that anger come from?"
 
-dharma_buddhism.109.t:0 "To Know and Not Know"
-dharma_buddhism.109.desc:0 "There is a kind and patient senior monk at the temple who has always provided me with good advice and insight. After a meditation session, I ask him, 'What happens to an enlightened man after death?'\nHe replies, I don't know.\nI subsequently ask, But aren't you a master?\n'Yes',he says, 'But not a dead one.''"
-dharma_buddhism.109.a:0 "Oh! The future is unforseeable. I must focus on the present"
-dharma_buddhism.109.b:0 "Ah. A wise man knows that he knows nothing."
-
 dharma_buddhism.110.t:0 "Distract self or not?"
 dharma_buddhism.110.desc:0 "Sitting still is so difficult! How do these monks manage it? My buttocks are in pain, I am constantly falling asleep... it is so difficult to concentrate while meditating. I could just pretend to be meditating while thinking about other things - that would be much easier, but then that would defeat the purpose of meditation."
 dharma_buddhism.110.a:0 "I take a deep breath, then redouble my efforts to concentrate."
@@ -71,5 +66,8 @@ dharma_buddhism.115.a:0 "I must not, however, get so attached to such abilities"
 
 dharma_buddhism.116.t:0 "The Retreat Ends"
 dharma_buddhism.116.desc:0 "My spiritual retreat has ended. I feel strange, even frightened, leaving the temple and readjusting to normal life. The retreat was a strange, uncomfortable experience, after all, and I still think of it as rather difficult, yet I learned much.\n\nCompassion. Mindfulness. Patience. Inner peace.\n\nI have been exposed to the Dharma in ways I could not have possibly imagined. Can I possibly put these lessons to practice"
-dharma_buddhism.116.a:0 "Time to return Home"
+dharma_buddhism.116.better:0 "Time to return Home,a changed [root.GetWomanMan]"
+dharma_buddhism.116.mystic:0 "Time to return Home, with much insight"
+dharma_buddhism.116.pious:0 "Time to return Home, having learned much of the Buddha's dharma"
+dharma_buddhism.116.nothing:0 "Time to return Home"
 
