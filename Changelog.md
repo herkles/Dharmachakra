@@ -12,6 +12,8 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Gyur Bön's tenets are now: Esotericism, Monasticism, Eastern Syncretism
 - Khyarwé Bön's tenets are now: Esotericism, Human, Sacrifice, Ritual Celebrations
 - Eastern Syncretism now allows you to meditate
+- Indian Kingdoms now use primogenture instead of confederate partition
+- Buddhists can take the decision to go on a Buddhist retreat
 
 ## Manual Installation Steps
 
