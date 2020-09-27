@@ -1,4 +1,4 @@
-﻿pet_elephant_decision = {
+﻿pet_elephant_decision = {# Pet Elephant decision
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
 
 	desc = elephant_dog_decision_desc
@@ -51,7 +51,7 @@
 	}
 }
 
-buddhist_retreat_decision = {
+buddhist_retreat_decision = {# Go on a Buddhist Retreat
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 
 	desc = buddhist_retreat_decision_desc

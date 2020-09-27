@@ -1,0 +1,48 @@
+﻿declare_kumari_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	major = yes
+	desc = declare_kumari_desc
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_lowborn = no
+		has_primary_title = title:k_himalaya
+		culture = culture:nepali
+		OR = {
+			faith.religion = faith:hellenic_pagan.religion
+			religion = religion:hinduism_religion
+			religion = religion:mundhum_religion
+		}
+	}
+
+	is_valid = {
+		culture_era = culture_era_late_medieval
+		has_primary_title = title:k_himalaya
+		culture = culture:nepali
+		culture_head = yes
+	}
+	
+	is_valid_showing_failures_only = {
+		NOR = {
+			has_trait = content
+			has_trait = humble
+		}	
+	}
+
+	cost = {
+		piety = 2500
+	}
+
+	effect = {
+		trigger_event = dharma_nepal.100
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
