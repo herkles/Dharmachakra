@@ -10,7 +10,8 @@
 		has_primary_title = title:k_himalaya
 		culture = culture:nepali
 		OR = {
-			faith.religion = faith:hellenic_pagan.religion
+			faith.religion = faith:mahayana.religion
+			faith.religion = faith:vajrayana.religion
 			religion = religion:hinduism_religion
 			religion = religion:mundhum_religion
 		}
@@ -25,9 +26,8 @@
 	
 	is_valid_showing_failures_only = {
 		NOR = {
-			has_trait = content
-			has_trait = humble
-		}	
+			has_trait = cynical
+		}
 	}
 
 	cost = {

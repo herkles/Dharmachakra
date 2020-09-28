@@ -1,0 +1,180 @@
+﻿namespace = dharma_nepal
+
+#######################################
+#									  #
+# 	  Kumari Living Godddesses        #
+#									  #
+#######################################
+
+
+#######################################
+# Meditation Retreat scripts
+#######################################
+
+
+#######################################
+# Setting up the Kumari Events
+#######################################
+
+dharma_nepal.100 = {# Establishing the Tradition
+	type = character_event
+	title = dharma_nepal.100.t
+	desc = dharma_nepal.100.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+
+	}
+
+	option = {# A new Nepali Tradition
+		name = dharma_nepal.100
+	}
+
+	after = {
+		custom_tooltip = dharma_nepal.1001.player_warning
+	}
+}
+
+#######################################
+# Choosing a new Kumari
+#######################################
+
+dharma_nepal.101 = {# Kumari needs replacement
+	type = character_event
+	title = dharma_nepal.102.t
+	desc = {
+		triggered_desc = {# Kumari died of illness
+			trigger = {
+				NOR = {
+					religion = religion:zoroastrianism_religion
+					religion = religion:zunism_religion
+				}
+			}
+			desc = religious_decision.102.desc.illness
+		}
+		triggered_desc = {# Kumari was killed
+			trigger = {
+				OR = {
+					religion = religion:zoroastrianism_religion
+					religion = religion:zunism_religion
+				}
+			}
+			desc = religious_decision.102.desc.murdered
+		}
+		triggered_desc = {# Kumari turned of age
+			trigger = {
+				OR = {
+					religion = religion:zoroastrianism_religion
+					religion = religion:zunism_religion
+				}
+			}
+			desc = religious_decision.102.desc.woman
+		}
+	}
+	theme = grief
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+
+	}
+
+	option = {# The gods have cursed us! - death by illness
+		name = dharma_nepal.102.a.illness
+	}
+	
+	option = {# a great sacriliage has taken place!
+		name = dharma_nepal.102.a.murdered
+	}
+
+	option = {# The Kumari has become a woman
+		name = dharma_nepal.102.a.woman
+	}
+
+	after = {
+		custom_tooltip = dharma_nepal.1001.player_warning
+	}
+}
+
+dharma_nepal.102 = {# A new Kumari is chosen
+	type = character_event
+	title = dharma_nepal.103.t
+	desc = dharma_nepal.103.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+
+	}
+
+	option = {# Praise the Goddess!
+		name = dharma_nepal.103.a
+	}
+
+
+	after = {
+		custom_tooltip = dharma_nepal.1001.player_warning
+	}
+}
+
+dharma_nepal.103 = {# Parents are notified of their daughter being chosen as Kumari
+	type = character_event
+	title = dharma_nepal.104.t
+	desc = dharma_nepal.104.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+
+	}
+
+	option = {# This is a great Honor
+		name = dharma_nepal.104.a
+	}
+
+	after = {
+		custom_tooltip = dharma_nepal.1001.player_warning
+	}
+}
+
+dharma_nepal.104 = {# relatives of the former Kumari are notifed
+	type = character_event
+	title = dharma_nepal.105.t
+	desc = dharma_nepal.105.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+
+	}
+
+	option = {# She is mortal once more. 
+		name = dharma_nepal.105.a
+	}
+
+	after = {
+		custom_tooltip = dharma_nepal.1001.player_warning
+	}
+}
+
+#######################################
+# Kumari Flavor Events
+#######################################
+
+
+
