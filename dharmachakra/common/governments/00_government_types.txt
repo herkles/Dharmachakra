@@ -52,6 +52,18 @@ theocracy_government = {
 				has_doctrine = doctrine_theocracy_lay_clergy
 			}
 		}
+		NOT = {
+			OR = {
+				AND = {
+					NOT = { has_trait = devoted }
+					faith = { religion_tag = buddhism_religion }
+				}
+				AND = {
+					NOT = { has_trait = devoted }
+					faith = { religion_tag = jainism_religion }	
+				}
+			}
+		}
 	}
 
 	vassal_contract = { theocracy_government_obligations }
