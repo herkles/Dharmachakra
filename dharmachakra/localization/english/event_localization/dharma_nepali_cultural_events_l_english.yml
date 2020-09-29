@@ -20,18 +20,51 @@
  dharma_nepal.103.desc:0 "Your [ROOT.Char.Custom2('RelationToMe', ROOT.Var('kumari').Char)] has been chosen as the next Kumari. For the next several years, she will no longer live with you but at the Kumari Palace. It is expected that you no longer treat her as your [ROOT.Char.Custom2('RelationToMe', ROOT.Var('kumari').Char)] but worship her as the incarnation of the Goddess. Despite these changes that will happen to her and to you, many look to your family as being blessed to for the Goddess to choose to incarnate into one of the Girls of your family."
  dharma_nepal.103.a:0 "This is a great blessing"
 
-  dharma_nepal.104.t:0 "title"
- dharma_nepal.104.desc:0 "Desc"
- dharma_nepal.104.a:0 "Option"
+ dharma_nepal.104.t:0 "[ROOT.Var('kumari').Char.GetFirstName] is no longer the Kumari"
+ dharma_nepal.104.desc:0 "[ROOT.Var('kumari').Char.GetFirstName] has had her first period and as such the Goddess is no longer manifasting in her. Still it is a great blessing for our family that she was chosen to be the incarnation of the Goddess and many still see our family and [ROOT.Var('kumari').Char.GetFirstName] in particular is still regarded as particularly holy even if she is no longer a living Goddess. "
+ dharma_nepal.104.a:0 "Welcome home,[ROOT.Char.Custom2('RelationToMe', ROOT.Var('kumari').Char)]"
 
-  dharma_nepal.105.t:0 "title"
+ dharma_nepal.105.t:0 "title"
  dharma_nepal.105.desc:0 "Desc"
  dharma_nepal.105.a:0 "Option"
 
-  dharma_nepal.106.t:0 "title"
+ dharma_nepal.106.t:0 "title"
  dharma_nepal.106.desc:0 "Desc"
  dharma_nepal.106.a:0 "Option"
 
-  dharma_nepal.0302.t:0 "title"
- dharma_nepal.0302.desc:0 "Desc"
- dharma_nepal.0302.a:0 "Option"
+ dharma_nepal.107.t:0 "title"
+ dharma_nepal.107.desc:0 "Desc"
+ dharma_nepal.107.a:0 "Option"
+ 
+ dharma_nepal.108.t:0 "title"
+ dharma_nepal.108.desc:0 "Desc"
+ dharma_nepal.108.a:0 "Option"
+
+ dharma_nepal.109.t:0 "title"
+ dharma_nepal.109.desc:0 "Desc"
+ dharma_nepal.109.a:0 "Option"
+
+ dharma_nepal.110.t:0 "title"
+ dharma_nepal.110.desc:0 "Desc"
+ dharma_nepal.110.a:0 "Option"
+
+ dharma_nepal.111.t:0 "title"
+ dharma_nepal.111.desc:0 "Desc"
+ dharma_nepal.111.a:0 "Option"
+
+ dharma_nepal.112.t:0 "title"
+ dharma_nepal.112.desc:0 "Desc"
+ dharma_nepal.112.a:0 "Option"
+
+ dharma_nepal.113.t:0 "title"
+ dharma_nepal.113.desc:0 "Desc"
+ dharma_nepal.113.a:0 "Option"
+
+ dharma_nepal.114.t:0 "title"
+ dharma_nepal.114.desc:0 "Desc"
+ dharma_nepal.114.a:0 "Option"
+
+ dharma_nepal.115.t:0 "title"
+ dharma_nepal.115.desc:0 "Desc"
+ dharma_nepal.115.a:0 "Option"
+

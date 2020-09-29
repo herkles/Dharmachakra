@@ -1,7 +1,7 @@
 ﻿bon_religion = {
-	family = rf_pagan
+	family = rf_eastern
 	graphical_faith = dharmic_gfx
-	doctrine = pagan_hostility_doctrine
+	doctrine = eastern_hostility_doctrine
 
 	pagan_roots = yes
 	
@@ -213,7 +213,7 @@
 
 			doctrine = tenet_esotericism
 			doctrine = tenet_monasticism
-			doctrine = tenet_eastern_syncretism
+			doctrine = tenet_inner_journey
 		}
 
 		old_bon = {
