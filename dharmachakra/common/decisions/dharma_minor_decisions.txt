@@ -1,4 +1,4 @@
-﻿pet_elephant_decision = {
+﻿pet_elephant_decision = {# Pet Elephant decision
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
 
 	desc = elephant_dog_decision_desc
@@ -48,5 +48,42 @@
 			add = 50
 			stress > high_stress
 		}
+	}
+}
+
+buddhist_retreat_decision = {# Go on a Buddhist Retreat
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+
+	desc = buddhist_retreat_decision_desc
+	selection_tooltip = buddhist_retreat_decision_tooltip
+
+	is_shown = {
+		religion = religion:buddhism_religion
+		holds_landed_title = yes
+	}
+
+	is_valid = {
+
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = buddhist_retreat_tooltip
+		trigger_event = dharma_buddhism.100
+	}
+
+	ai_check_interval = 60
+	cooldown = { months = 36 }	
+
+	ai_potential = {
+		is_at_war = no
+		stress >= 75
+	}
+
+	ai_will_do = {
+		base = 100
 	}
 }

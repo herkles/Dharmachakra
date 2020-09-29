@@ -8,8 +8,16 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- Updated the mod to 1.1
-- Fixed a bug where theocracies would convert to feudal
+
+- Bon Religions now have the Tibetan Sky Burial Doctrine
+- Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
+- Gyur Bön's tenets are now: Esotericism, Monasticism, Inner Journey
+- Khyarwé Bön's tenets are now: Esotericism, Human, Sacrifice, Ritual Celebrations
+- Kiratism's tenets are now: Reincarnation, Ancestor Worship, Ritual Celebrations
+- Yumaism's tenets are now: Ancestor Worship, Ritual Celebrations, Sacred Childbirth
+- Indian Kingdoms now use primogenture instead of confederate partition
+- Buddhists can take the decision to go on a Buddhist retreat
+- Nepali kings can introduce the custom of the Kumari once you are at the late Medieval Era
 
 ## Manual Installation Steps
 

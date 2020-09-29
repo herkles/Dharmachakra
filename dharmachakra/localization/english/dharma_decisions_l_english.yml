@@ -1,0 +1,11 @@
+﻿l_english:
+
+ buddhist_retreat_decision:0 "Go on a Buddhist Retreat"
+ buddhist_retreat_decision_desc:0 "You can go on a retreat to a local Buddhist Monastary to focus on the teachings of the Buddha. "
+ buddhist_retreat_decision_tooltip:0 "You will speend some time on a spiritual retreat"
+ buddhist_retreat_tooltip:0 ""
+ buddhist_retreat_decision_confirm:0 "Go on the Retreat"
+
+ declare_kumari_decision:0 "Establish the Kumari Tradition"
+ declare_kumari_decision_desc:0 "The worship of virgins has been present among the Nepali for centuries. These virgins are treated with the utmost respect and are sometimes even worshiped. With the recent improvements to the adminstration, priests have petitioned to formally establishe the rules for the young girls who would be the incarnation of the Goddess. This would formalize the rules of this tradition and add some popular support and legitimacy to our rule. "
+ declare_kumari_decision_confirm:0 "Formalize the Kumari Tradition"
