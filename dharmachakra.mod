@@ -1,9 +1,9 @@
-version="1.0.0"
+version="1.0.2"
 tags={
 	"Religion"
 	"Gameplay"
 }
 name="Dharmachakra"
 picture="thumbnail.png"
-supported_version="1.0.3"
+supported_version="1.1.*"
 path="mod/dharmachakra"

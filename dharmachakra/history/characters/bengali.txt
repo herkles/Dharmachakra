@@ -1142,6 +1142,7 @@
 	dynasty = 1044026
 	religion = "mahayana"
 	culture = "bengali"
+	trait = devoted
 	1027.1.1 = {
 		birth = yes
 	}
@@ -2781,6 +2782,7 @@
 	dynasty = 1044331
 	religion = "mahayana"
 	culture = "bengali"
+	trait = devoted
 	father = 191512
 	800.1.1 = {
 		birth = yes
@@ -3350,7 +3352,7 @@
 191527 = {
 	name = "Devarshi" #Fictional
 	dynasty = 1044355 #
-	religion = "svetambara"
+	religion = "shaivism"
 	culture = "bengali"
 	father = 191526
 	830.1.1 = {
@@ -3395,6 +3397,7 @@
 	religion = "svetambara"
 	culture = "bengali"
 	father = 191529
+	trait = devoted
 	1040.1.1 = {
 		birth = yes
 	}

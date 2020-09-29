@@ -53,10 +53,15 @@ theocracy_government = {
 			}
 		}
 		NOT = {
-			NOT = { has_trait = devoted }
 			OR = {
- 					faith = { religion_tag = buddhism_religion }
- 					faith = { religion_tag = jainism_religion }	
+				AND = {
+					NOT = { has_trait = devoted }
+					faith = { religion_tag = buddhism_religion }
+				}
+				AND = {
+					NOT = { has_trait = devoted }
+					faith = { religion_tag = jainism_religion }	
+				}
 			}
 		}
 	}

@@ -1,12 +1,13 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.0.1 "Agni" (Released 23/09/2020)
+## Latest Version: 1.0.2 "Chandra" (Released 29/09/2020)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
 Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
 
 ## Changelog
+
 
 - Bon Religions now have the Tibetan Sky Burial Doctrine
 - Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
