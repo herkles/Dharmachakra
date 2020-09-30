@@ -548,19 +548,19 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 	option = {
 		name = {
 			trigger = { has_character_flag = buddhist_retreat_better_person }
-			text = religious_decision.0211.better
+			text = dharma_buddhism.0211.better
 		}
 		name = {
 			trigger = { has_character_flag = buddhist_retreat_mystic }
-			text = religious_decision.0211.mystic
+			text = dharma_buddhism.0211.mystic
 		}
 		name = {
 			trigger = { has_character_flag = buddhist_retreat_pious }
-			text = religious_decision.0211.pious
+			text = dharma_buddhism.0211.pious
 		}
 		name = {
 			trigger = { has_character_flag = buddhist_retreat_nothing }
-			text = religious_decision.0211.nothing
+			text = dharma_buddhism.0211.nothing
 		}
 		# The actual effects of your retreat
 		if = {# Better Person
@@ -663,3 +663,193 @@ dharma_buddhism.117 = {# End meditation
 		}
 	}
 }
+
+#######################################
+#									  #
+# 	    Picking a Tibetan Deity       #
+#									  #
+#######################################
+
+dharma_buddhism.200 = {
+	type = character_event
+	title = dharma_buddhism.200.t
+	desc = {
+		desc = dharma_buddhism.200.desc.start
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = faith:vaishnavism
+				}
+				desc = dharma_buddhism.200.desc.vaishnavism
+			}
+			triggered_desc = {
+				trigger = {
+					faith = faith:shaivism
+				}
+				desc = dharma_buddhism.200.desc.shaivism
+			}
+			triggered_desc = {
+				trigger = {
+					faith = faith:smartism
+				}
+				desc = dharma_buddhism.200.desc.smartism
+			}
+			desc = dharma_buddhism.200.desc.generic
+		}
+		desc = dharma_buddhism.200.desc.end
+	}
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	# Bon Deities
+	option = {# Sipe Gyalmo
+		name = dharma_buddhism.200.gyalmo
+		trigger = {
+			religion = religion:bon_religion
+			NOT = { has_character_modifier = tibet_deity_sipe_gyalmo }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_sipe_gyalmo }
+	}
+
+	option = {# Shenlha Okar
+		name = dharma_buddhism.200.shenlha
+		trigger = {
+			religion = religion:bon_religion
+			NOT = { has_character_modifier = tibet_deity_shenlha_okar }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_shenlha_okar }
+	}
+
+	option = { # Tonpa Shenrab
+		name = dharma_buddhism.200.shenrab
+		trigger = {
+			religion = religion:bon_religion
+			NOT = { has_character_modifier = tibet_deity_tonpa_shenrab }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_tonpa_shenrab }
+	}
+
+	option = {# Yeshe Walmo
+		name = dharma_buddhism.200.yeshe
+		trigger = {
+			religion = religion:bon_religion
+			NOT = { has_character_modifier = tibet_deity_yeshe_walmo }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_yeshe_walmo }
+	}
+
+	option = {# ZhangZhung Meri
+		name = dharma_buddhism.200.zhangzhung
+		trigger = {
+			religion = religion:bon_religion
+			NOT = { has_character_modifier = tibet_deity_zhangzhung_meri }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_zhangzhung_meri }
+	}
+
+	option = {# Zhambala
+		name = dharma_buddhism.200.zhambala
+		trigger = {
+			religion = religion:bon_religion
+			NOT = { has_character_modifier = tibet_deity_Zhambala }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_Zhambala }
+	}
+
+	option = {# Sherab Chamma
+		name = dharma_buddhism.200.chamma
+		trigger = {
+			religion = religion:bon_religion
+			NOT = { has_character_modifier = tibet_deity_sherab_chamma }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_sherab_chamma }
+	}
+
+	# Nang Chos Deities
+	option = {# Palden Lhamo
+		name = dharma_buddhism.200.palden
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_character_modifier = tibet_deity_palden_lhamo }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_palden_lhamo }
+	}
+
+	option = {# Tara
+		name = dharma_buddhism.200.tara
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_character_modifier = tibet_deity_tara }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_tara }
+	}
+
+	option = {# Avalokiteśvara
+		name = dharma_buddhism.200.avalokitesvara
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_character_modifier = tibet_deity_avalokitesvara }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_avalokitesvara }
+	}
+
+	option = {# Yamantaka
+		name = dharma_buddhism.200.yamantaka
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_character_modifier = tibet_deity_yamantaka }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_yamantaka }
+	}
+
+	option = {# Kurukullā
+		name = dharma_buddhism.200.kurkulla
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_character_modifier = tibet_deity_kurukulla }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_kurukulla }
+	}
+
+	option = {# Hevajra
+		name = dharma_buddhism.200.hevajra
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_character_modifier = tibet_deity_hevajra }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_hevajra }
+	}
+
+	option = {# Vajrayogini
+		name = dharma_buddhism.200.vajrayogini
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_character_modifier = tibet_deity_vajrayogini }
+		}
+		set_tibet_deity_effect = { TIBETDEITY = tibet_deity_vajrayogini }
+	}
+
+	# Opt-Out
+	option = {
+		name = dharma_buddhism.200.optout
+		flavor = dharma_buddhism.200.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

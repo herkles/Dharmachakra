@@ -8,7 +8,6 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-
 - Bon Religions now have the Tibetan Sky Burial Doctrine
 - Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
 - Gyur Bön's tenets are now: Esotericism, Monasticism, Inner Journey
