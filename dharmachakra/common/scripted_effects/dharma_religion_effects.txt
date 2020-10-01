@@ -1,6 +1,9 @@
 ﻿
-# Used to set a Tibet's personal god.
-set_yidam_effect = {
+
+
+
+# Used to set a Hindu's personal god.
+set_tibet_deity_effect = {
 	# Remove any previous personal god relation.
 	if = {	
 		limit = {
@@ -32,9 +35,9 @@ set_yidam_effect = {
 	}
 	else_if = {	
 		limit = {
-			has_character_modifier = tibet_deity_zhangzhung_meri
+			has_character_modifier = tibet_deity_takla_mebar
 		}
-		remove_character_modifier = tibet_deity_zhangzhung_meri
+		remove_character_modifier = tibet_deity_takla_mebar
 		add_piety = massive_piety_loss
 	}
 	else_if = {	

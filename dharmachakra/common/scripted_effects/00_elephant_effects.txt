@@ -176,7 +176,7 @@ remove_elephant_story_modifiers_effect = {
 }
 
 #Effect to transfer the story to another character
-transfer_cat_story_cycle_to_effect = {
+transfer_elephant_story_cycle_to_effect = {
 	remove_cat_story_modifiers_effect = yes
 
 	$CHARACTER$ = {

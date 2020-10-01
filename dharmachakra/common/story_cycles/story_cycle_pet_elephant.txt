@@ -2,7 +2,7 @@
 
 	on_setup = {
 		assign_elephant_gender_effect = { GENDER = random }
-		assign_elephant_fur_color_effect = { COLOR = random }
+		assign_elephant_skin_color_effect = { COLOR = random }
 		set_variable = {
 			name = elephant_age_variable
 			value = 0
@@ -322,7 +322,7 @@
 		}
 	}
 
-	Something happens - random events
+	# Something happens - random events
 	effect_group = {
 		days = { 275 400 }
 		chance = 50

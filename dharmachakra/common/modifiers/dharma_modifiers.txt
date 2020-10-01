@@ -1,5 +1,11 @@
 ﻿#Modifiers granted from pet animals
 
+elephant_story_modifier = {
+	icon = dog_positive
+	prowess = 1
+	diplomacy = 1 # todo some attribute increase, this is copyed from dog_story_modifier 
+}
+
 elephant_story_riding_modifier = {
 	icon = dog_positive
 	health = 0.2

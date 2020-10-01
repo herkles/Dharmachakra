@@ -27,7 +27,7 @@ dharma_nepal.100 = {# Establishing the Tradition
 	}
 	
 	immediate = {
-		any_child = {
+		random_child = {
 			limit = {
 				age <= 8
 				age >= 2
@@ -61,9 +61,7 @@ dharma_nepal.101 = {# Kumari needs replacement
 		triggered_desc = {# Kumari died of illness
 			trigger = {
 				scope:kumari = {
-					death = {
-						death_reason = death_ill
-					}
+					death_reason = death_ill
 				}
 			}
 			desc = religious_decision.102.desc.illness
@@ -71,9 +69,7 @@ dharma_nepal.101 = {# Kumari needs replacement
 		triggered_desc = {# Kumari was killed
 			trigger = {
 				scope:kumari = {
-					death = {
-						death_reason = death_murder
-					}
+					death_reason = death_murder
 				}
 			}
 			desc = religious_decision.102.desc.murdered
@@ -81,7 +77,7 @@ dharma_nepal.101 = {# Kumari needs replacement
 		triggered_desc = {# Kumari turned of age
 			trigger = {
 				scope:kumari = {
-					death = natural
+					death_reason = death_old_age
 				}
 			}
 			desc = religious_decision.102.desc.woman
@@ -127,7 +123,7 @@ dharma_nepal.102 = {# A new Kumari is chosen
 	}
 	
 	immediate = {
-		any_child = {
+		random_child = {
 			limit = {
 				age <= 8
 				age >= 2
@@ -149,11 +145,12 @@ dharma_nepal.102 = {# A new Kumari is chosen
 
 
 	after = {
-		random_relation = {
+		random_relation = { # todo
 			type = kumari
-			 limit = {
-			 hidden_effect = {
-			 	trigger_event = dharma_nepal.103
+			limit = {
+			}
+			hidden_effect = {
+				trigger_event = dharma_nepal.103
 			}
 		}
 	}

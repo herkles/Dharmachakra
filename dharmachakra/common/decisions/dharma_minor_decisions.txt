@@ -23,7 +23,7 @@
 		custom_tooltip = elephant_decision_effect_tooltip
 
 		trigger_event = {
-			on_action = story_cycle_dog_elephant_decision_on_actions
+			on_action = story_cycle_elephant_pet_decision_on_actions
 		}
 	}
 	

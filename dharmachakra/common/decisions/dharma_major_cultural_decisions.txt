@@ -18,10 +18,12 @@
 	}
 
 	is_valid = {
-		culture_era = culture_era_late_medieval
+		root.culture = {
+			has_cultural_era_or_later = culture_era_late_medieval
+			culture_head = root
+		}
 		has_primary_title = title:k_himalaya
 		culture = culture:nepali
-		culture_head = yes
 	}
 	
 	is_valid_showing_failures_only = {

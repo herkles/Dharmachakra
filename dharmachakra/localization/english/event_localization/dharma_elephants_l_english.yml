@@ -67,5 +67,5 @@
 
 #Elephant dies :(
  dharma_elephants.215.t:0 "[ROOT.Char.Custom('elephantStoryName')]: Day of Sorrow"
- dharma_elephants.215.desc:0 "[ROOT.Char.Custom('elephantStoryName')] is not as young as [ROOT.Char.Custom('elephantStorySheHe')] once was, and as [ROOT.Char.Custom('elephantStorySheHe')] lays down in the royal stables, I can feel [ROOT.Char.Custom('elephantStoryHerHim')] trembling.\n\ I gently stroke [ROOT.Char.Custom('elephantStoryHerHis')] [ROOT.Char.Custom('elephantFurColor')] skin. As the night falls, I know that  [ROOT.Char.Custom('elephantStorySheHe')] won't wake again."
+ dharma_elephants.215.desc:0 "[ROOT.Char.Custom('elephantStoryName')] is not as young as [ROOT.Char.Custom('elephantStorySheHe')] once was, and as [ROOT.Char.Custom('elephantStorySheHe')] lays down in the royal stables, I can feel [ROOT.Char.Custom('elephantStoryHerHim')] trembling.\n\n I gently stroke [ROOT.Char.Custom('elephantStoryHerHis')] [ROOT.Char.Custom('elephantFurColor')] skin. As the night falls, I know that  [ROOT.Char.Custom('elephantStorySheHe')] won't wake again."
  dharma_elephants.215.a:0 "I will miss you, [ROOT.Char.Custom('elephantStoryName')]!"

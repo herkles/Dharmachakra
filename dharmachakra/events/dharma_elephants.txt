@@ -72,7 +72,7 @@ dharma_elephants.101 = {# Crazed elephant runs amuck
 	}
 
 	immediate = {
-		set_character_flag = crazed_elephant
+		add_character_flag = crazed_elephant
 	}
 
 	option = {
@@ -126,7 +126,7 @@ dharma_elephants.102 = {# Crazed elephant is killed by soldiers in a messy way
 
 	option = {
 		name = dharma_elephants.102.a
-		capital_province = {
+		capital_county = {
 			add_county_modifier = {
 				modifier = governance_1054_upset_peasants_modifier
 				years = 2
@@ -148,8 +148,8 @@ dharma_elephants.103 = {# Crazed elephant is killed by soldiers in a discrete wa
 	option = {
 		name = dharma_elephants.103.a
 		add_prestige = minor_prestige_gain
-		capital_province = {
-			add_province_modifier = {
+		capital_county = {
+			add_county_modifier = {
 				modifier = governance_1054_satisfied_peasants_modifier
 				years = 2
 			}
@@ -173,7 +173,7 @@ dharma_elephants.104 = {# Crazed elephant kills people, then escapes
 	option = {
 		name = dharma_elephants.104.a
 		add_prestige = minor_prestige_loss
-		capital_province = {
+		capital_county = {
 			add_county_modifier = {
 				modifier = governance_1052_resentful_serfs_modifier
 				years = 2
@@ -195,8 +195,8 @@ dharma_elephants.105 = {# Crazed elephant is captured
 	option = {
 		name = dharma_elephants.105.a
 		add_prestige = minor_prestige_gain
-		capital_province = {
-			add_province_modifier = {
+		capital_county = {
+			add_county_modifier = {
 				modifier = governance_1054_satisfied_peasants_modifier
 				years = 2
 			}
@@ -224,7 +224,7 @@ dharma_elephants.106 = {# Temple elephants are dying
 	option = {
 		name = dharma_elephants.106.b
 		remove_short_term_gold = medium_gold_value
-		add_piety = minior_piety_gain
+		add_piety = minor_piety_gain
 		capital_province = {
 			add_province_modifier = {
 				modifier = governance_1054_satisfied_peasants_modifier
@@ -252,7 +252,7 @@ dharma_elephants.200 = {# Name your elephant
 		capital_province = {
 			OR = {
 				geographical_region = world_india
-				region = world_africa
+				geographical_region = world_africa
 			}
 		}
 	}
@@ -261,7 +261,7 @@ dharma_elephants.200 = {# Name your elephant
 		#To give some options to show
 		assign_name_options_elephant_story_cycle_effect = yes
 		assign_name_options_elephant_story_cycle_effect = yes
-		assign_name_options_Elephant_story_cycle_effect = yes
+		assign_name_options_elephant_story_cycle_effect = yes
 		play_music_cue = "mx_cue_low_key_positive"
 	}
 
@@ -271,7 +271,7 @@ dharma_elephants.200 = {# Name your elephant
 		controller = {
 			type = text
 			data = {
-				variable = story_cycle_elephant_name
+				key = story_cycle_elephant_name
 				default = {
 					localization_key = elephant_name_raja
 					trigger = {
@@ -466,8 +466,8 @@ dharma_elephants.205 = {# Make him a war elephant?
 		name = dharma_elephants.205.b
 		stress_impact = {
 			base = minor_stress_impact_loss
-			Craven = medium_stress_impact_loss
-			Compassionate = medium_stress_impact_loss
+			craven = medium_stress_impact_loss
+			compassionate = medium_stress_impact_loss
 		}
 	}
 

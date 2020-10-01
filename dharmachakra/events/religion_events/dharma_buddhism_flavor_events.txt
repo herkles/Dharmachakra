@@ -176,7 +176,7 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 					trigger_event = { id = dharma_buddhism.107 days = 146 }
 					trigger_event = { id = dharma_buddhism.111 days = 219 }
 					trigger_event = { id = dharma_buddhism.110 days = 292 }
-					trigger_event = { id = dharma_buddhism.134 days = 350 }
+					trigger_event = { id = dharma_buddhism.114 days = 350 }
 					
 				}
 				20 = {
@@ -259,7 +259,7 @@ dharma_buddhism.103 = {# monastic food
 		name = dharma_buddhism.103.a
 		stress_impact = {
 			base = minor_stress_gain
-			Temperate = miniscule_stress_impact_loss
+			temperate = miniscule_stress_impact_loss
 			gluttonous = minor_stress_gain
 		}
 	}
@@ -300,7 +300,7 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 		name = dharma_buddhism.105.a
 		stress_impact = {
 			base = miniscule_stress_impact_loss
-			Humble = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
 			arrogant = miniscule_stress_impact_gain
 		}
 	}
