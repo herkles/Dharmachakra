@@ -91,8 +91,8 @@ buddhist_retreat_decision = {# Go on a Buddhist Retreat
 select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 	picture = "gfx/interface/illustrations/decisions/tibetan_deities.dds"
 
-	desc = select_personal_deity_decision_desc
-	selection_tooltip = select_personal_deity_decision_tooltip
+	desc = select_personal_deity_tibet_decision_desc
+	selection_tooltip = select_personal_yidam_decision_tooltip
 
 	is_shown = {
 		faith = {
@@ -108,8 +108,8 @@ select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 	}
 
 	effect = {
-		custom_tooltip = select_personal_deity_decision_tt
-		trigger_event = religious_decision.0101
+		custom_tooltip = select_personal_yidam_decision_tt
+		trigger_event = dharma_buddhism.200
 	}
 
 	ai_check_interval = 96
@@ -122,7 +122,7 @@ select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 			has_character_modifier = tibet_deity_shenlha_okar # Shenlha Okar
 			has_character_modifier = tibet_deity_tonpa_shenrab # Tonpa Shenrab
 			has_character_modifier = tibet_deity_yeshe_walmo # Yeshe Walmo
-			has_character_modifier = tibet_deity_zhangzhung_meri # Zhangzhung Meri
+			has_character_modifier = tibet_deity_takla_mebar # Takla Mebar
 			has_character_modifier = tibet_deity_Zhambala # Zhambala
 			has_character_modifier = tibet_deity_sherab_chamma # Sherab Chamma
 			# Buddhist Tibetan Deities
@@ -130,7 +130,6 @@ select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 			has_character_modifier = tibet_deity_tara # Tara
 			has_character_modifier = tibet_deity_avalokitesvara  # Avalokiteśvara 
 			has_character_modifier = tibet_deity_yamantaka # Yamantaka
-			has_character_modifier = tibet_deity_kurukulla # Kurukullā
 			has_character_modifier = tibet_deity_hevajra # Hevajra
 			has_character_modifier = tibet_deity_vajrayogini # Vajrayogini
 		}

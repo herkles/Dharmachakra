@@ -1,3 +1,44 @@
 ﻿l_english:
 elephant_story_riding_modifier:0 "Ridding Elephant"
 elephant_story_riding_modifier_desc:0 "This character enjoys frequent rides with their elephant"
+
+####### Tibetan Bon Deities #######
+tibet_deity_sipe_gyalmo:0 "Devoted to Sipe Gyalmo"
+tibet_deity_sipe_gyalmo_desc:0 "This character's Yidam is Sipe Gyalmo, the Queen of the Universe"
+
+tibet_deity_shenlha_okar:0 "Devoted to Shenlha Okar"
+tibet_deity_shenlha_okar_desc:0 "This character's Yidam is Shenlha Okar, The Sangye of Compassion"
+
+tibet_deity_tonpa_shenrab:0 "Devoted to Tonpa Shenrab"
+tibet_deity_tonpa_shenrab_desc:0 "This character's Yidam is Tonpa Shenrab, the Completely Enlightened One"
+
+tibet_deity_yeshe_walmo:0 "Devoted to Yeshe Walmo"
+tibet_deity_yeshe_walmo_desc:0 "This character's Yidam is Yeshe Walmo,protector of all Bön wisdom"
+
+tibet_deity_takla_mebar:0 "Devoted to Takla Mebar"
+tibet_deity_takla_mebar_desc:0 "This character's Yidam is Takla Mebar, The Flaming Tiger God"
+
+tibet_deity_Zhambala:0 "Devoted to Zamba Lha"
+tibet_deity_Zhambala_desc:0 "This character's Yidam is Zamba Lha, who manifests wealth and prosperity"
+
+tibet_deity_sherab_chamma:0 "Devoted to Sherab Chamma"
+tibet_deity_sherab_chamma_desc:0 "This character's Yidam is Sherab Chamma, Mother of all Enlightened Ones"
+####### Tibetan Buddhist Deities #######
+tibet_deity_palden_lhamo:0 "Devoted to Palden Lhamo"
+tibet_deity_palden_lhamo_desc:0 "This character's Yidam is Palden Lhamo, whose wisdom and compassion overcome every obstacle"
+
+tibet_deity_tara:0 "Devoted to Tara"
+tibet_deity_tara_desc:0 "This character's Yidam is Tara, The mother of liberation"
+
+tibet_deity_avalokitesvara:0 "Devoted to Avalokiteśvara"
+tibet_deity_avalokitesvara_desc:0 "This character's Yidam is Avalokiteśvara, who embodies the compassion of all Buddhas"
+
+tibet_deity_yamantaka:0 "Devoted to Yamantaka"
+tibet_deity_yamantaka_desc:0 "This character's Yidam is Yamantaka, the conquerer of the Lord of Death"
+
+tibet_deity_hevajra:0 "Devoted to Hevajra"
+tibet_deity_hevajra_desc:0 "This character's Yidam is Hevajra, the fierce medition deity"
+
+tibet_deity_vajrayogini:0 "Devoted to Vajrayogini"
+tibet_deity_vajrayogini_desc:0 "This character's Yidam is Vajrayogini, the dakini of all BuddhaS"
+

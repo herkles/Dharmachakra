@@ -84,13 +84,6 @@ set_bhakti_effect = {
 	}
 	else_if = {	
 		limit = {
-			has_character_modifier = tibet_deity_kurukulla
-		}
-		remove_character_modifier = tibet_deity_kurukulla
-		add_piety = massive_piety_loss
-	}
-	else_if = {	
-		limit = {
 			has_character_modifier = tibet_deity_hevajra
 		}
 		remove_character_modifier = tibet_deity_hevajra
@@ -109,5 +102,5 @@ set_bhakti_effect = {
 		add_piety = medium_piety_loss
 	}
 
-	add_character_modifier = $TIBETDEITY$
+	add_character_modifier = $YIDAM$
 }

@@ -9,3 +9,10 @@
  declare_kumari_decision:0 "Establish the Kumari Tradition"
  declare_kumari_decision_desc:0 "The worship of virgins has been present among the Nepali for centuries. These virgins are treated with the utmost respect and are sometimes even worshiped. With the recent improvements to the adminstration, priests have petitioned to formally establishe the rules for the young girls who would be the incarnation of the Goddess. This would formalize the rules of this tradition and add some popular support and legitimacy to our rule. "
  declare_kumari_decision_confirm:0 "Formalize the Kumari Tradition"
+
+
+ select_personal_deity_tibet_decision:0 "Select a personal Yidam"
+ select_personal_deity_tibet_decision_desc:0 "#F A Yidam is a meditational Deity to help one reach spiritual enlightenment. By focusing on a particular Yidam it can help me on my path to become a fully enlightened being. \n\nI should contemplate the various divine beings and decide which one calls to me the most.#!"
+ select_personal_deity_tibet_decision_confirm:0 "Contemplate a Yidam"
+ select_personal_yidam_decision_tooltip:0 "Think about who your Yidam should be."
+ select_personal_yidam_decision_tt:0 "You gain a modifier associated with your selected Yidam"

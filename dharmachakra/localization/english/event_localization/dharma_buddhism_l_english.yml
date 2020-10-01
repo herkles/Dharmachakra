@@ -1,5 +1,7 @@
 ﻿l_english:
-    
+
+
+######## BUDDHIST RETREAT ########
 dharma_buddhism.100.t:0 "Departing for a Spiritual Retreat"
 dharma_buddhism.100.desc:0 "Even if I am a well-off [Root.GetTitle] who has everything in the world, I feel like I am still lacking, spiritually. I've decided to thus go to one of monastaries in the region, and participate in a spiritual retreat for an extended period of time."
 dharma_buddhism.100.depart:0 "Onwards to the Monastary"
@@ -71,3 +73,37 @@ dharma_buddhism.116.mystic:0 "Time to return Home, with much insight"
 dharma_buddhism.116.pious:0 "Time to return Home, having learned much of the Buddha's dharma"
 dharma_buddhism.116.nothing:0 "Time to return Home"
 
+######## BUDDHIST RETREAT ########
+ dharma_buddhism.200.t:0 "Yidam"
+  dharma_buddhism.200.desc:0 "A Yidam is a meditational Deity to help one reach spiritual enlightenment. By devoting myself to one of them, it will help me focus on full enlightenment.\n\n[ROOT.Char.GetFaith.GetNameNoTooltip] focuses on the veneration of"
+ # Bon Deities
+ dharma_buddhism.200.gyalmo:0 "Sipe Gyalmo, the Queen of the Universe who frightens evil and protects and heals all sentient beings."
+ dharma_buddhism.200.shenlha:0 "Shenlha Okar, The Sangye of Compassion"
+ dharma_buddhism.200.shenrab:0 "Tonpa Shenrab, the Completely Enlightened One who is the Founder of Bön"
+ dharma_buddhism.200.yeshe:0 "Yeshe Walmo, She is the preserver and protector of all Bön wisdom "
+ dharma_buddhism.200.takla:0 "Takla Mebar, The Flaming Tiger God"
+ dharma_buddhism.200.zhambala:0 "Zamba Lha, Prosperity Deity is the deity who manifests wealth and prosperity"
+ dharma_buddhism.200.chamma:0 "Sherab Chamma, Mother of all Enlightened Ones and source of all love and Compassion."
+ # Buddhist Deities
+ dharma_buddhism.200.palden:0 "Palden Lhamo the wrathful protective goddess whose wisdom and compassion overcome every obstacle."
+ dharma_buddhism.200.tara:0 "Tara, The mother of liberation and the Bodhisattva of compassion and action."
+ dharma_buddhism.200.avalokitesvara:0 "Avalokiteśvara the bodhisattva who embodies the compassion of all Buddhas."
+ dharma_buddhism.200.yamantaka:0 "Yamantaka, the conquerer of the Lord of Death"
+ dharma_buddhism.200.hevajra:0 "Hevajra, the fierce medition deity"
+ dharma_buddhism.200.vajrayogini:0 "Vajrayogini, the dakini of all Buddhas"
+ # Opt out
+ dharma_buddhism.200.optout:0 "I am not yet ready to decide."
+
+######## Flavor Events ########
+
+
+######## Flavor Events ########
+
+
+######## Flavor Events ########
+
+
+######## Flavor Events ########
+
+
+######## Flavor Events ########
