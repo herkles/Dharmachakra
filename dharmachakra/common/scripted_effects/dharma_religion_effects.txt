@@ -1,9 +1,6 @@
 ﻿
-
-
-
-# Used to set a Hindu's personal god.
-set_bhakti_effect = {
+# Used to set a Tibet's personal god.
+set_yidam_effect = {
 	# Remove any previous personal god relation.
 	if = {	
 		limit = {

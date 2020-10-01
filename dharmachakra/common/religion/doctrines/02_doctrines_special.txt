@@ -128,6 +128,7 @@ divine_destiny = {
 	}
 }
 
+# Tibetan Sky Burials
 doctrine_sky_burials = {
 	group = "special"
 	is_available_on_create = {
@@ -140,7 +141,6 @@ doctrine_sky_burials = {
 		}
 	}
 }
-
 
 #Game rule only
 full_tolerance = {

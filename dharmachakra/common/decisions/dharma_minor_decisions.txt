@@ -52,7 +52,7 @@
 }
 
 buddhist_retreat_decision = {# Go on a Buddhist Retreat
-	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds"
 
 	desc = buddhist_retreat_decision_desc
 	selection_tooltip = buddhist_retreat_decision_tooltip
@@ -95,8 +95,9 @@ select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 	selection_tooltip = select_personal_yidam_decision_tooltip
 
 	is_shown = {
-		faith = {
-
+		OR = {
+			religion = religion:bon_religion
+			faith = faith:lamaism
 		}
 	}
 
