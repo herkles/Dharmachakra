@@ -17,6 +17,7 @@
  select_personal_yidam_decision_tt:0 "You gain a modifier associated with your selected Yidam"
 
 select_personal_nat_decision:0 "Select Personal Nat"
-select_personal_nat_decision_desc:0:0 ""
-
-
+select_personal_nat_decision_desc:0:0 "#F A Nat is a spirit within Burmese Belief that can help one reach spiritual enlightenment or protect one from harm. By focusing on a particular Yidam it can help me on my path to become a fully enlightened being. \n\nI should contemplate the various divine beings and decide which one calls to me the most.#!"
+select_personal_nat_decision_confirm:0 "Contemplate a Nat"
+select_personal_nat_decision_tooltip:0 "Think about who your Yidam should be."
+select_personal_nat_decision_tt:0 "You gain a modifier associated with your selected Yidam"

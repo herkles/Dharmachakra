@@ -95,7 +95,7 @@ dharma_buddhism.116.nothing:0 "Time to return Home"
  dharma_buddhism.200.optout:0 "I am not yet ready to decide."
 ######## BUDDHIST Deities - Burmese ########
  dharma_buddhism.201.t:0 "Personal Nat"
- dharma_buddhism.201.desc:0 "A Nat is a Burmese Spirit   to help one reach spiritual enlightenment. By devoting myself to one of them, it will help me focus on full enlightenment.\n\n[ROOT.Char.GetFaith.GetNameNoTooltip] focuses on the veneration of"
+ dharma_buddhism.201.desc:0 "A Nat is a Burmese Spirit to help one reach spiritual enlightenment. By devoting myself to one of them, it will help me focus on full enlightenment.\n\n[ROOT.Char.GetFaith.GetNameNoTooltip] focuses on the veneration of"
  # Ari Deities
  dharma_buddhism.201.thagyamin:0 "Thagyamin, The King of the Gods"
  dharma_buddhism.201.mahagiri:0 "Mahagiri, Lord of the Great Mountain"
