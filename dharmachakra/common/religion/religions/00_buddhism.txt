@@ -347,6 +347,7 @@
 			doctrine = doctrine_witchcraft_accepted
 			doctrine = doctrine_clerical_marriage_allowed
 			doctrine = doctrine_clerical_gender_male_only
+			doctrine = cultural_religion
 
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_esotericism
@@ -377,6 +378,7 @@
 			doctrine = doctrine_deviancy_accepted
 			doctrine = doctrine_witchcraft_accepted
 			doctrine = tibetan_sky_burials
+			doctrine = cultural_religion
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_monasticism

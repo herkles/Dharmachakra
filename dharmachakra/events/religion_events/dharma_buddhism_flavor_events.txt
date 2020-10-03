@@ -666,11 +666,11 @@ dharma_buddhism.117 = {# End meditation
 
 #######################################
 #									  #
-# 	    Picking a Tibetan Deity       #
+#      Picking Buddhist Deities       #
 #									  #
 #######################################
 
-dharma_buddhism.200 = {
+dharma_buddhism.200 = {# Tibetan Buddhist Deities
 	type = character_event
 	title = dharma_buddhism.200.t
 	desc = dharma_buddhism.200.desc
@@ -812,4 +812,136 @@ dharma_buddhism.200 = {
 		}		
 	}
 }
+
+dharma_buddhism.201 = {# Burmese Buddhist Deities
+	type = character_event
+	title = dharma_buddhism.201.t
+	desc = dharma_buddhism.201.desc
+	theme = faith
+	override_background = {
+		event_background = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	# Ari Deities
+	option = {# Thagyamin
+		name = dharma_buddhism.201.thagyamin
+		trigger = {
+			faith = faith:ari
+			NOT = { has_character_modifier = nat_ari_thagyamin }
+		}
+		set_nat_effect = { NAT = nat_ari_thagyamin }
+	}
+
+	option = {# Mahagiri
+		name = dharma_buddhism.201.mahagiri
+		trigger = {
+			faith = faith:ari
+			NOT = { has_character_modifier = nat_ari_mahagiri }
+		}
+		set_nat_effect = { NAT = nat_ari_mahagiri }
+	}
+
+	option = { # Hnamadawgyi
+		name = dharma_buddhism.201.hnamadawgyi
+		trigger = {
+			faith = faith:ari
+			NOT = { has_character_modifier = nat_ari_hnamadawgyi }
+		}
+		set_nat_effect = { NAT = nat_ari_hnamadawgyi }
+	}
+
+	option = {# Ponmagyi
+		name = dharma_buddhism.201.ponmagyi
+		trigger = {
+			faith = faith:ari
+			NOT = { has_character_modifier = nat_ari_ponmagyi }
+		}
+		set_nat_effect = { NAT = nat_ari_ponmagyi }
+	}
+
+	option = {# Sīvali
+		name = dharma_buddhism.201.sivalia
+		trigger = {
+			OR = {
+				faith = faith:ari
+				faith = faith:theravada
+			}
+			NOT = { has_character_modifier = nat_ari_sivali }
+		}
+		set_nat_effect = { NAT = nat_ari_sivali }
+	}
+
+	option = {# Shwe Nabay
+		name = dharma_buddhism.201.nabay
+		trigger = {
+			faith = faith:ari
+			NOT = { has_character_modifier = nat_ari_shwe_nabay }
+		}
+		set_nat_effect = { NAT = nat_ari_shwe_nabay }
+	}
+
+	# Burmese Therevada Deities
+	option = {# Thurathadi
+		name = dharma_buddhism.201.thurathadi
+		trigger = {
+			faith = faith:theravada
+			NOT = { has_character_modifier = nat_therevada_thurathadi }
+		}
+		set_nat_effect = { NAT = nat_therevada_thurathadi }
+	}
+
+	option = {# Lokanat
+		name = dharma_buddhism.201.lokanat
+		trigger = {
+			faith = faith:theravada
+			NOT = { has_character_modifier = nat_therevada_lokanat }
+		}
+		set_nat_effect = { NAT = nat_therevada_lokanat }
+	}
+
+	option = {# Panhtwar
+		name = dharma_buddhism.201.panhtwar
+		trigger = {
+			faith = faith:theravada
+			NOT = { has_character_modifier = nat_therevada_panhtwar }
+		}
+		set_nat_effect = { NAT = nat_therevada_panhtwar }
+	}
+
+	option = {# Shin Upagutta
+		name = dharma_buddhism.201.shin
+		trigger = {
+			faith = faith:theravada
+			NOT = { has_character_modifier = nat_therevada_shin_upagutta }
+		}
+		set_nat_effect = { NAT = nat_therevada_shin_upagutta }
+	}
+
+	option = {# Manimekhala
+		name = dharma_buddhism.201.manimekhala
+		trigger = {
+			faith = faith:theravada
+			NOT = { has_character_modifier = nat_therevada_manimekhala }
+		}
+		set_nat_effect = { NAT = nat_therevada_manimekhala }
+	}
+
+	# Opt-Out
+	option = {
+		name = dharma_buddhism.201.optout
+		flavor = dharma_buddhism.201.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+
+
+
+
 

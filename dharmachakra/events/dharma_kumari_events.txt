@@ -111,12 +111,35 @@ dharma_nepal.101 = {# Kumari needs replacement
 	}
 
 	after = {
-		clear_saved_scope = kumari
 		trigger_event = { id = dharma_nepal.102 days = 30 }
 	}
 }
 
-dharma_nepal.102 = {# A new Kumari is chosen
+dharma_nepal.102 = {# relatives of the former Kumari are notifed
+	type = character_event
+	title = dharma_nepal.102.t
+	desc = dharma_nepal.102.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+
+	}
+
+	option = {# She is mortal once more. 
+		name = dharma_nepal.102.a
+	}
+
+	after = {
+		clear_saved_scope = kumari
+		trigger_event = { id = dharma_nepal.103 days = 30 }
+	}
+}
+
+dharma_nepal.103 = {# A new Kumari is chosen
 	type = character_event
 	title = dharma_nepal.103.t
 	desc = dharma_nepal.103.desc
@@ -152,14 +175,16 @@ dharma_nepal.102 = {# A new Kumari is chosen
 		random_relation = {
 			type = kumari
 			 limit = {
+
+			 }
 			 hidden_effect = {
-			 	trigger_event = dharma_nepal.103
+			 	trigger_event = dharma_nepal.104
 			}
 		}
 	}
 }
 
-dharma_nepal.103 = {# Parents are notified of their daughter being chosen as Kumari
+dharma_nepal.104 = {# Parents are notified of their daughter being chosen as Kumari
 	type = character_event
 	title = dharma_nepal.104.t
 	desc = dharma_nepal.104.desc
@@ -178,7 +203,11 @@ dharma_nepal.103 = {# Parents are notified of their daughter being chosen as Kum
 	}
 }
 
-dharma_nepal.1041 = {# relatives of the former Kumari are notifed
+#######################################
+# Kumari Flavor Events
+#######################################
+
+dharma_nepal.105 = {# Kumari Puja
 	type = character_event
 	title = dharma_nepal.105.t
 	desc = dharma_nepal.105.desc
@@ -201,9 +230,72 @@ dharma_nepal.1041 = {# relatives of the former Kumari are notifed
 	}
 }
 
-#######################################
-# Kumari Flavor Events
-#######################################
+dharma_nepal.106 = {# Kumari Omens - good
+	type = character_event
+	title = dharma_nepal.105.t
+	desc = dharma_nepal.105.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
 
+	}
 
+	option = {# She is mortal once more. 
+		name = dharma_nepal.105.a
+	}
+
+	after = {
+
+	}
+}
+
+dharma_nepal.107 = {# Kumari Omens - Bad
+	type = character_event
+	title = dharma_nepal.105.t
+	desc = dharma_nepal.105.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+
+	}
+
+	option = {# She is mortal once more. 
+		name = dharma_nepal.105.a
+	}
+
+	after = {
+
+	}
+}
+
+dharma_nepal.110 = {# abolish the tradition
+	type = character_event
+	title = dharma_nepal.105.t
+	desc = dharma_nepal.105.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	immediate = {
+
+	}
+
+	option = {# She is mortal once more. 
+		name = dharma_nepal.105.a
+	}
+
+	after = {
+
+	}
+}
 

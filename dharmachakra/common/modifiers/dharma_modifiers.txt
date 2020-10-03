@@ -89,3 +89,88 @@ tibet_deity_vajrayogini = {# Vajrayogini
 	diplomacy = 2
 }
 
+
+###### Burmese Ari Deities Modifiers #####
+
+nat_ari_thagyamin = {# Thagyamin, The King of the Gods
+	icon = martial_positive
+	martial = 1
+	controlled_province_advantage = 2
+}
+
+nat_ari_mahagiri = {# Mahagiri, Lord of the Great Mountain
+	icon = martial_positive
+	martial = 1
+	prowess = 1
+}
+
+nat_ari_hnamadawgyi = {# Hnamadawgyi, The Royal Sister
+	icon = family_positive
+	close_relative_opinion = 5
+	dynasty_opinion = 5
+}
+
+nat_ari_ponmagyi = {# Ponmagyi, The Nat of Rice and Fertility
+	icon = social_positive
+	stewardship = 1
+	domain_tax_mult = 0.05
+	fertility = 0.25
+}
+
+nat_ari_sivali = {# Sivali, The Arhat that protects travelers and homes
+	icon = learning_positive
+	learning = 1
+	monthly_piety_gain_mult = 0.1
+}
+
+nat_ari_shwe_nabay = {# Shwe Nabay, the Attractive Wife.
+	icon = family_positive
+	spouse_opinion = 5
+	attraction_opinion = 5
+}
+
+###### Burmese Therevada Buddhist Deities Modifiers #####
+
+nat_therevada_thurathadi = {# Thurathadi, Nat of Eloquance
+	icon = prowess_positive
+	attacker_advantage = 3
+	prowess = 4
+}
+
+nat_therevada_lokanat = {# Lokanat
+	icon = diplomacy_positive
+	learning = 2
+	diplomacy = 2
+}
+
+nat_therevada_panhtwar = {# Panhtwar, Protectoress of the country.
+	icon = social_positive
+	county_opinion_add = 5
+	vassal_opinion = 5
+	controlled_province_advantage = 1
+}
+
+nat_therevada_shin_upagutta = {# Shin Upagutta, Arhat that protects people from Danger
+	icon = martial_positive
+	martial = 1
+	monthly_prestige_gain_mult = 0.2
+}
+
+nat_therevada_manimekhala = {# Manimekhala, The Guardian of the Sea. 
+	icon = stewardship_positive
+	stewardship = 3
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
