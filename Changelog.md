@@ -17,6 +17,9 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Indian Kingdoms now use primogenture instead of confederate partition
 - Buddhists can take the decision to go on a Buddhist retreat
 - Nepali kings can introduce the custom of the Kumari once you are at the late Medieval Era
+- 24 Buddhist Flavor Events
+- number Hindu Flavor Events
+- Number Jain Flavor Events
 
 ## Manual Installation Steps
 

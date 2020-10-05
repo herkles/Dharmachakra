@@ -1,0 +1,265 @@
+﻿namespace = dharma_jainism
+
+
+#######################################
+#									  #
+#        Jainism Flavor Events        #
+#									  #
+#######################################
+
+
+#######################################
+# Visiting Monks 
+#######################################
+dharma_jainism.001 = {# jain Monk comes to visit
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+dharma_jainism.001 = {# Donations for the Monk
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+dharma_jainism.001 = {# Meditating with the Monk
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+dharma_jainism.001 = {# Fasting with the Monk
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+dharma_jainism.001 = {# Zealous Child seeks to become a monk/nun
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+dharma_jainism.001 = {# jain Ordination Ceremony
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+#######################################
+# Visiting Monks 
+#######################################
+dharma_jainism.001 = {# Non-Indian merchants upset about naked Jain ascetics
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+dharma_jainism.001 = {# Meditating on the Five Great Vows
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+dharma_jainism.001 = {# Auspecious Dream - hidden
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}
+
+dharma_jainism.001 = {# Auspecious Dream - 
+	type = character_event
+	title = dharma_jainism.102.t
+	desc = dharma_jainism.102.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {
+		name = dharma_jainism.102.a
+		stress_impact = {
+			base = minor_stress_gain
+			diligent = miniscule_stress_impact_loss
+		}
+		hidden_effect = {
+
+		}
+	}
+}

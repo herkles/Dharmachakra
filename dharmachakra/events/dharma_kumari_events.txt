@@ -48,8 +48,6 @@ dharma_nepal.100 = {# Establishing the Tradition
 	}
 }
 
-
-
 #######################################
 # Choosing a new Kumari
 #######################################

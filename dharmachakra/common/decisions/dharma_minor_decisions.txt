@@ -143,7 +143,7 @@ select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 }
 
 select_personal_nat_decision = {# Burmese Gods and Goddesses
-	picture = "gfx/interface/illustrations/decisions/tibetan_deities.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 
 	desc = select_personal_nat_decision_desc
 	selection_tooltip = select_personal_nat_decision_tooltip
@@ -197,7 +197,7 @@ select_personal_nat_decision = {# Burmese Gods and Goddesses
 	}
 }
 
-select_personal_deity_decision = {
+select_personal_deity_decision = {# Bhakti 
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 
 	desc = select_personal_deity_decision_desc
@@ -248,4 +248,39 @@ select_personal_deity_decision = {
 	}
 }
 
+select_hindu_philosophy_decision = {# Āstika 
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 
+	desc = select_hindu_philosophy_decision_desc
+	selection_tooltip = select_hindu_philosophy_decision_tooltip
+
+	is_shown = {
+		religion = religion:hinduism_religion
+		OR = {
+			has_focus_or_focus_trait_trigger = { FOCUS = learning_scholarship_focus }
+			has_focus_or_focus_trait_trigger = { FOCUS = learning_scholarship_focus }
+		}
+	}
+
+	is_valid = {
+	}
+
+	is_valid_showing_failures_only = {
+	}
+
+	effect = {
+		custom_tooltip = select_hindu_philosophy_decision_tt
+		trigger_event = religious_decision.0101
+	}
+
+	ai_check_interval = 96
+	cooldown = { months = 36 }	
+
+	ai_potential = {
+		piety >= minor_piety_value
+	}
+
+	ai_will_do = {
+		base = 20
+	}
+}

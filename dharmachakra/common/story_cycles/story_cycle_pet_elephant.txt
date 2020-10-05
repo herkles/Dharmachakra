@@ -322,7 +322,7 @@
 		}
 	}
 
-	Something happens - random events
+	# Something happens - random events
 	effect_group = {
 		days = { 275 400 }
 		chance = 50
