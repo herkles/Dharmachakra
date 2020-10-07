@@ -75,5 +75,58 @@ nat_therevada_shin_upagutta_desc:0 "this character's personal Nat is Shin Upagut
 nat_therevada_manimekhala:0 "Devoted to Manimekhala"
 nat_therevada_manimekhala_desc:0 "this character's personal Nat is Manimekhala, The Guardian of the Sea."
 
+#######################################
+# Province Modifiers
+#######################################
+upset_peasants:0 "Upset Peasant"
+upset_peasants_desc:0 "The peasants of this county are upset with their ruler"
+
+happy_monks:0 "Happy Monks"
+happy_monks_desc:0 "This character's recent actions have pleased the monks at the local monestary."
+
+upset_monks:0 "Unhappy Monks"
+upset_monks_desc:0 "This character's recent actions have displeased the monks at the local monestary."
+#######################################
+# Visiting Monks 
+#######################################
+busy_doing_activities:0 "Busy"
+busy_doing_activities_desc:0 "This character is currently busy with various other actions and activities."
+
+nalanda_learning_books:0 "Studying holy Texts"
+nalanda_learning_books_desc:0 "This character is studying holy texts."
+
+nalanda_learning_medicine:0 "Studying Medicine"
+nalanda_learning_medicine_desc:0 "This character is studying medical texts."
+
+nalanda_learning_logic:0 "Studying Logic"
+nalanda_learning_logic_desc:0 "This character is studying Logic."
+
+nalanda_learning_astrology:0 "Studying Astrology"
+nalanda_learning_astrology_desc:0 "This character is studying astrological texts.."
+
+nalanda_learning_yoga:0 "Studying Yoga"
+nalanda_learning_yoga_desc:0 "This character is studying Yoga"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

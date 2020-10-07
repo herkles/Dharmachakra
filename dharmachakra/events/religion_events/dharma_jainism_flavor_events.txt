@@ -13,8 +13,8 @@
 #######################################
 dharma_jainism.001 = {# jain Monk comes to visit
 	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
+	title = dharma_jainism.001.t
+	desc = dharma_jainism.001.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -25,7 +25,7 @@ dharma_jainism.001 = {# jain Monk comes to visit
 	}	
 
 	option = {
-		name = dharma_jainism.102.a
+		name = dharma_jainism.001.a
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss
@@ -36,10 +36,10 @@ dharma_jainism.001 = {# jain Monk comes to visit
 	}
 }
 
-dharma_jainism.001 = {# Donations for the Monk
+dharma_jainism.002 = {# Donations for the Monk
 	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
+	title = dharma_jainism.002.t
+	desc = dharma_jainism.002.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -50,7 +50,7 @@ dharma_jainism.001 = {# Donations for the Monk
 	}	
 
 	option = {
-		name = dharma_jainism.102.a
+		name = dharma_jainism.002.a
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss
@@ -61,10 +61,10 @@ dharma_jainism.001 = {# Donations for the Monk
 	}
 }
 
-dharma_jainism.001 = {# Meditating with the Monk
+dharma_jainism.003 = {# Meditating with the Monk
 	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
+	title = dharma_jainism.003.t
+	desc = dharma_jainism.003.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -75,7 +75,7 @@ dharma_jainism.001 = {# Meditating with the Monk
 	}	
 
 	option = {
-		name = dharma_jainism.102.a
+		name = dharma_jainism.003.a
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss
@@ -86,10 +86,10 @@ dharma_jainism.001 = {# Meditating with the Monk
 	}
 }
 
-dharma_jainism.001 = {# Fasting with the Monk
+dharma_jainism.004 = {# Fasting with the Monk
 	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
+	title = dharma_jainism.004.t
+	desc = dharma_jainism.004.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -100,7 +100,7 @@ dharma_jainism.001 = {# Fasting with the Monk
 	}	
 
 	option = {
-		name = dharma_jainism.102.a
+		name = dharma_jainism.004.a
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss
@@ -111,10 +111,10 @@ dharma_jainism.001 = {# Fasting with the Monk
 	}
 }
 
-dharma_jainism.001 = {# Zealous Child seeks to become a monk/nun
+dharma_jainism.005 = {# Zealous Child seeks to become a monk/nun
 	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
+	title = dharma_jainism.005.t
+	desc = dharma_jainism.005.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -125,32 +125,7 @@ dharma_jainism.001 = {# Zealous Child seeks to become a monk/nun
 	}	
 
 	option = {
-		name = dharma_jainism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
-		}
-	}
-}
-
-dharma_jainism.001 = {# jain Ordination Ceremony
-	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {
-		name = dharma_jainism.102.a
+		name = dharma_jainism.005.a
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss
@@ -164,10 +139,10 @@ dharma_jainism.001 = {# jain Ordination Ceremony
 #######################################
 # Visiting Monks 
 #######################################
-dharma_jainism.001 = {# Non-Indian merchants upset about naked Jain ascetics
+dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
+	title = dharma_jainism.006.t
+	desc = dharma_jainism.006.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -178,7 +153,7 @@ dharma_jainism.001 = {# Non-Indian merchants upset about naked Jain ascetics
 	}	
 
 	option = {
-		name = dharma_jainism.102.a
+		name = dharma_jainism.006.a
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss
@@ -189,10 +164,10 @@ dharma_jainism.001 = {# Non-Indian merchants upset about naked Jain ascetics
 	}
 }
 
-dharma_jainism.001 = {# Meditating on the Five Great Vows
+dharma_jainism.007 = {# Meditating on the Five Great Vows
 	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
+	title = dharma_jainism.007.t
+	desc = dharma_jainism.007.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -203,7 +178,7 @@ dharma_jainism.001 = {# Meditating on the Five Great Vows
 	}	
 
 	option = {
-		name = dharma_jainism.102.a
+		name = dharma_jainism.007.a
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss
@@ -214,10 +189,10 @@ dharma_jainism.001 = {# Meditating on the Five Great Vows
 	}
 }
 
-dharma_jainism.001 = {# Auspecious Dream - hidden
+dharma_jainism.008 = {# Auspecious Dream - 
 	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
+	title = dharma_jainism.008.t
+	desc = dharma_jainism.008.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -228,32 +203,7 @@ dharma_jainism.001 = {# Auspecious Dream - hidden
 	}	
 
 	option = {
-		name = dharma_jainism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
-		}
-	}
-}
-
-dharma_jainism.001 = {# Auspecious Dream - 
-	type = character_event
-	title = dharma_jainism.102.t
-	desc = dharma_jainism.102.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {
-		name = dharma_jainism.102.a
+		name = dharma_jainism.008.a
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss

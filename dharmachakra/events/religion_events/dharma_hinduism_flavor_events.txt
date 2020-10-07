@@ -9,10 +9,10 @@
 #######################################
 # Picking a Philosophical School 
 #######################################
-dharma_hinduism.001 = {# Picking a Philosophical School
+dharma_hinduism.100 = {# Picking a Philosophical School
 	type = character_event
-	title = dharma_hinduism.102.t
-	desc = dharma_hinduism.102.desc
+	title = dharma_hinduism.100.t
+	desc = dharma_hinduism.100.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -23,22 +23,22 @@ dharma_hinduism.001 = {# Picking a Philosophical School
 	}	
 
 	option = {# Samkhya
-		name = dharma_hinduism.102.samkhya
+		name = dharma_hinduism.100.samkhya
 	}
 	option = {# Yoga
-		name = dharma_hinduism.102.yoga
+		name = dharma_hinduism.100.yoga
 	}
 	option = {# Nyaya
-		name = dharma_hinduism.102.nyaya
+		name = dharma_hinduism.100.nyaya
 	}
 	option = {# Vaisheshika
-		name = dharma_hinduism.102.vaisheshika
+		name = dharma_hinduism.100.vaisheshika
 	}
 	option = {# Mīmāṃsā
-		name = dharma_hinduism.102.mimamsa
+		name = dharma_hinduism.100.mimamsa
 	}
 	option = {# Vedanta
-		name = dharma_hinduism.102.vedanta
+		name = dharma_hinduism.100.vedanta
 	}
 }
 #######################################

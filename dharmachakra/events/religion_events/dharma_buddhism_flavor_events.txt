@@ -13,8 +13,8 @@
 #######################################
 dharma_buddhism.001 = {# Buddhist Monks comes to visit
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.001.t
+	desc = dharma_buddhism.001.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -25,7 +25,7 @@ dharma_buddhism.001 = {# Buddhist Monks comes to visit
 	}	
 
 	option = {# You can Stay monk
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.001.stay
 		hidden_effect = {
 			random_list = {
 				20 = {
@@ -55,8 +55,8 @@ dharma_buddhism.001 = {# Buddhist Monks comes to visit
 
 dharma_buddhism.002 = {# Dharma Talk
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.002.t
+	desc = dharma_buddhism.002.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -67,7 +67,7 @@ dharma_buddhism.002 = {# Dharma Talk
 	}	
 
 	option = {# I shall Meditate on this further
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.002.meditate
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 			gluttonous = miniscule_stress_impact_gain
@@ -82,8 +82,8 @@ dharma_buddhism.002 = {# Dharma Talk
 
 dharma_buddhism.003 = {# Making Merit - Buddhist monk asks me for donations
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -94,7 +94,7 @@ dharma_buddhism.003 = {# Making Merit - Buddhist monk asks me for donations
 	}	
 
 	option = {# Here you go
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.003.donate
 		remove_short_term_gold = 20
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -108,8 +108,8 @@ dharma_buddhism.003 = {# Making Merit - Buddhist monk asks me for donations
 
 dharma_buddhism.004 = {# Meditate with Monk? 
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.004.t
+	desc = dharma_buddhism.004.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -120,19 +120,19 @@ dharma_buddhism.004 = {# Meditate with Monk?
 	}	
 
 	option = {# Saddly I am busy
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.004.busy
 		add_piety = -25
 	}
 	option = {# Om Mani Padme Hum
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.004.mani
 		add_piety = 25
 	}
 }
 
 dharma_buddhism.005 = {# Vegetarian Monk suggests Vegetarianism
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.005.t
+	desc = dharma_buddhism.005.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -143,18 +143,18 @@ dharma_buddhism.005 = {# Vegetarian Monk suggests Vegetarianism
 	}	
 
 	option = {# take up Vegetarianism
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.005.vegetarian
 		# add_trait = vegetarian
 	}
 	option = {# Thanks but no thanks
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.005.meat
 	}
 }
 
 dharma_buddhism.006 = {# Zealous non-heir child wishes to become a monastic
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.006.t
+	desc = dharma_buddhism.006.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -165,19 +165,19 @@ dharma_buddhism.006 = {# Zealous non-heir child wishes to become a monastic
 	}	
 
 	option = {# Absolutly Not!
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.006.no
 		# Child hates you
 	}
 	option = {# You have my Blessing
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.006.yes
 		trigger_event = { id = dharma_buddhism.102 days = 30 }
 	}
 }
 
 dharma_buddhism.007 = {# Ordination for your child to be a Bikkhu/Bhikkhuni
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.007.t
+	desc = dharma_buddhism.007.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -188,7 +188,7 @@ dharma_buddhism.007 = {# Ordination for your child to be a Bikkhu/Bhikkhuni
 	}	
 
 	option = {# This is a great day
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.007.monk
 		# Child gets the trait devoted as they become a monk
 	}
 }
@@ -197,8 +197,8 @@ dharma_buddhism.007 = {# Ordination for your child to be a Bikkhu/Bhikkhuni
 #######################################
 dharma_buddhism.008 = {# Invitation to Visit Nalanda
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.008.t
+	desc = dharma_buddhism.008.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -209,11 +209,11 @@ dharma_buddhism.008 = {# Invitation to Visit Nalanda
 	}	
 	trigger = {
 		any_realm_province = {
-			has_building = house_of_wisdom_01
+			has_building = nalanda_university
 		}
 	}
 	option = {# I shall stay
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.008.stay
 		stress_impact = {
 			base = minor_stress_gain
 			diligent = miniscule_stress_impact_loss
@@ -223,15 +223,16 @@ dharma_buddhism.008 = {# Invitation to Visit Nalanda
 		}
 	}
 	option = {# I shall go
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.008.go
 		trigger_event = { id = dharma_buddhism.009 days = 30 }
+		add_character_modifier = busy_doing_activities
 	}
 }
 
 dharma_buddhism.009 = {# Arriving at Nalanda
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.009.t
+	desc = dharma_buddhism.009.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -242,36 +243,21 @@ dharma_buddhism.009 = {# Arriving at Nalanda
 	}	
 
 	option = {
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.009.arival
 		trigger_event = { id = dharma_buddhism.013 days = 50 }
 		hidden_effect = {
-			trigger_event = { id = dharma_buddhism.013 days = 30 }
-			random_list = {
-				20 = {
-					trigger_event = { id = dharma_buddhism.011 days = 10 }
-					trigger_event = { id = dharma_buddhism.012 days = 20 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.014 days = 10 }
-					trigger_event = { id = dharma_buddhism.015 days = 20 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.011 days = 10 }
-					trigger_event = { id = dharma_buddhism.046 days = 20 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.015 days = 10 }
-					trigger_event = { id = dharma_buddhism.016 days = 10 }
-				}
-			}
+			trigger_event = { id = dharma_buddhism.011 days = 10 }
+			trigger_event = { id = dharma_buddhism.013 days = 20 }
+			trigger_event = { id = dharma_buddhism.015 days = 30 }
+			trigger_event = { id = dharma_buddhism.016 days = 40 }
 		}
 	}
 }
 
 dharma_buddhism.011 = {# Visiting the Library
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.011.t
+	desc = dharma_buddhism.011.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -282,56 +268,76 @@ dharma_buddhism.011 = {# Visiting the Library
 	}	
 
 	option = {# Buddhist Texts
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.011.buddhist
 		if = {# Better Person
-			limit = {has_character_flag = buddhist_retreat_pious }
+			limit = { religion = religion:buddhism_religion }
 			add_piety = 10
-			# add learning modifer
+			add_character_modifier = {
+				modifier = nalanda_learning_books
+				months = 4
+			}
 		}
 		else = {
-			# add learning modifier
+			add_character_modifier = {
+				modifier = nalanda_learning_books
+				months = 4
+			}
 		}
 	}
 	option = {# Hindu Texts
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.011.hindu
 		if = {# Better Person
-			limit = {has_character_flag = buddhist_retreat_pious }
+		limit = { religion = religion:hinduism_religion }
 			add_piety = 10
-			# add learning modifer
+			add_character_modifier = {
+				modifier = nalanda_learning_books
+				months = 4
+			}
 		}
 		else = {
-			# add learning modifier
+			add_character_modifier = {
+				modifier = nalanda_learning_books
+				months = 4
+			}
 		}
 	}
 	option = {# Jain Texts
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.011.jain
 		if = {# Better Person
-			limit = {has_character_flag = buddhist_retreat_pious }
+		limit = { religion = religion:jainism_religion }
 			add_piety = 10
-			# add learning modifer
+			add_character_modifier = {
+				modifier = nalanda_learning_books
+				months = 4
+			}
 		}
 		else = {
-			# add learning modifier
+			add_character_modifier = {
+				modifier = nalanda_learning_books
+				months = 4
+			}
 		}
 	}
 	option = {# Medical Texts
-		name = dharma_buddhism.102.a
-		# add character modifer for health		
+		name = dharma_buddhism.011.medical
+		add_character_modifier = {
+			modifier = nalanda_learning_medicine
+			months = 4
+		}
 	}
 	option = {# Astrology Texts
-		name = dharma_buddhism.102.a
-		# add character modifer for learning
-	}
-	option = {# Philosophical Texts
-		name = dharma_buddhism.102.a
-		# add character modifer for learning
+		name = dharma_buddhism.011.astrology
+		add_character_modifier = {
+			modifier = nalanda_learning_astrology
+			months = 4
+		}
 	}
 }
 
 dharma_buddhism.013 = {# Meditating with the Monks
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.013.t
+	desc = dharma_buddhism.013.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -342,42 +348,17 @@ dharma_buddhism.013 = {# Meditating with the Monks
 	}	
 
 	option = {
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.013.energy
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}
 	}
 }
 
-dharma_buddhism.014 = {# Becoming a Buddhist
-	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
-		}
-	}
-}
-
 dharma_buddhism.015 = {# Vegetarian v non-vegetiarian
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.015.t
+	desc = dharma_buddhism.015.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -388,31 +369,25 @@ dharma_buddhism.015 = {# Vegetarian v non-vegetiarian
 	}	
 
 	option = {# Side with the Non Vegetarian Monk
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.015.meat
 		stress_impact = {
-			base = minor_stress_gain
+			base = miniscule_stress_impact_loss
 			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
 		}
 	}
 	option = {# Side with the Vegetarian Monk
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.015.vegetarian
 		stress_impact = {
-			base = minor_stress_gain
+			base = miniscule_stress_impact_loss
 			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
 		}
 	}
 }
 
 dharma_buddhism.016 = {# Recieving an education
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.016.t
+	desc = dharma_buddhism.016.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -423,61 +398,46 @@ dharma_buddhism.016 = {# Recieving an education
 	}	
 
 	option = {# Yoga Class
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
+		name = dharma_buddhism.016.yoga
+		add_character_modifier = {
+			modifier = nalanda_learning_yoga
+			months = 4
 		}
 	}
 	option = {# Class on the Tripitaka
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
+		name = dharma_buddhism.016.book
+		add_character_modifier = {
+			modifier = nalanda_learning_books
+			months = 4
 		}
 	}
 	option = {# Class on Logic
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
+		name = dharma_buddhism.016.logic
+		add_character_modifier = {
+			modifier = nalanda_learning_logic
+			months = 4
 		}
 	}
 	option = {# Class on Medicine
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
+		name = dharma_buddhism.016.medicine
+		add_character_modifier = {
+			modifier = nalanda_learning_medicine
+			months = 4
 		}
 	}
 	option = {# Class on Astrology
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
+		name = dharma_buddhism.016.a
+		add_character_modifier = {
+			modifier = nalanda_learning_astrology
+			months = 4
 		}
 	}
 }
 
 dharma_buddhism.018 = {# Returning Home
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.018.t
+	desc = dharma_buddhism.018.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -488,22 +448,17 @@ dharma_buddhism.018 = {# Returning Home
 	}	
 
 	option = {
-		name = dharma_buddhism.102.a
-		# remove modifer = is_busy
-		stress_impact = {
-			base = miniscule_stress_impact_loss
-		}
+		name = dharma_buddhism.018.home
+		remove_character_modifier = busy_doing_activities
 	}
 }
-
-
 #######################################
 # Merit-Making 
 #######################################
 dharma_buddhism.019 = {# Donating to the local Monks
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.019.t
+	desc = dharma_buddhism.019.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -513,33 +468,25 @@ dharma_buddhism.019 = {# Donating to the local Monks
 		animation = personality_rational
 	}	
 
-	option = {# donate food
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		# add modifer to for less taxes
-	}
+
 	option = {# Donate Supplies
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		# Costs Gold
+		name = dharma_buddhism.019.gold
+		remove_short_term_gold = medium_gold_value
+		add_piety = medium_piety_gain
 	}
 	option = {# Not My concern
-		name = dharma_buddhism.102.a
-		# piety lost and monks unhappy
+		name = dharma_buddhism.019.optout
+		add_character_modifier = {# Unhappy Monks
+			modifier = upset_monks
+			years = 10
+		}	
 	}
-
 }
 
 dharma_buddhism.020 = {# Life Release
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.020.t
+	desc = dharma_buddhism.020.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -550,32 +497,40 @@ dharma_buddhism.020 = {# Life Release
 	}	
 
 	option = {# Let the animal go
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.020.r4elease
+		add_piety = minor_piety_gain
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
+			base = minor_stress_loss
+			compassionate = minor_piety_loss
+			hunter_1 = minor_piety_gain
+			hunter_2 = minor_piety_gain
+			hunter_3 = minor_piety_gain
 		}
 		hidden_effect = {
 
 		}
 	}
 	option = {# Need it for my dinner
-		name = dharma_buddhism.102.a
-		# don't have the trait vegetarian
+		name = dharma_buddhism.020.food
+		trigger = {
+			NOT = { has_character_modifier = vegetarian }
+		}
+		add_piety = minor_piety_loss
 		stress_impact = {
 			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
+			compassionate = minor_piety_gain
+			hunter_1 = minor_piety_loss
+			hunter_2 = minor_piety_loss
+			hunter_3 = minor_piety_loss
 		}
-		hidden_effect = {
 
-		}
 	}
 }
 
 dharma_buddhism.021 = {# Donating to the Poor
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.021.t
+	desc = dharma_buddhism.021.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -586,56 +541,42 @@ dharma_buddhism.021 = {# Donating to the Poor
 	}	
 
 	option = {# Large Donation
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.021.large
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
+			base = medium_stress_impact_loss
 
+			generous = medium_stress_impact_loss
+			profligate = medium_stress_impact_loss
+			
+			greedy = medium_stress_impact_gain
+			improvident = medium_stress_impact_gain
+			zealous = medium_stress_impact_gain
 		}
+		remove_short_term_gold = medium_gold_value
+		add_piety = medium_piety_gain
 	}
 	option = {# Normal Donation
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.021.average
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
+			base = miniscule_stress_impact_loss
 
+			generous = minor_stress_impact_loss
+			profligate = minor_stress_impact_loss
+			
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_gain
+			zealous = minor_stress_impact_gain
 		}
-	}
-}
+		remove_short_term_gold = minor_gold_value
+		add_piety = minor_piety_gain
 
-dharma_buddhism.022 = {# patronizing a monastary
-	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Build a new Monestary
-		name = dharma_buddhism.102.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
-		}
 	}
 }
 
 dharma_buddhism.023 = {# First Harvest Offerings
 	type = character_event
-	title = dharma_buddhism.102.t
-	desc = dharma_buddhism.102.desc
+	title = dharma_buddhism.023.t
+	desc = dharma_buddhism.023.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -646,18 +587,34 @@ dharma_buddhism.023 = {# First Harvest Offerings
 	}	
 
 	option = {# Give to the Monks
-		name = dharma_buddhism.102.a
-		# monks happy
-		# peasants upset
+		name = dharma_buddhism.023.monks
+		add_character_modifier = {# Happy Monks
+			modifier = happy_monks
+			years = 5
+		}
+		capital_province = {
+			add_province_modifier = {# unhappy peasants
+				modifier = upset_peasants
+				years = 2
+			}
+		}	
 	}
 	option = {# Give to the people
-		name = dharma_buddhism.102.a
+		name = dharma_buddhism.023.people
+		add_character_modifier = {# Unhappy Monks
+			modifier = upset_monks
+			years = 5
+		}
+		capital_province = {
+			add_province_modifier = {# Happy peasants
+				modifier = governance_1054_satisfied_peasants_modifier
+				years = 2
+			}
+		}		
 		# monks upset
 		# peasants happy
 	}
 }
-
-
 
 #######################################
 #									  #

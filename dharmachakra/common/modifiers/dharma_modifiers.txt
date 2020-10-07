@@ -160,11 +160,54 @@ nat_therevada_manimekhala = {# Manimekhala, The Guardian of the Sea.
 	icon = stewardship_positive
 	stewardship = 3
 }
-
-
-
-
-
+##########################################
+# Province and character Modifers
+##########################################
+upset_peasants = {
+	icon = county_modifier_opinion_negative
+	county_opinion_add = -10
+}
+happy_monks = {
+	icon = diplomacy_positive
+	monthly_piety = 0.5
+	clergy_opinion = 5
+}
+upset_monks = {
+	icon = piety_negative
+	monthly_piety = -0.5
+	clergy_opinion = -5
+}
+#######################################
+# Nalanda Modifiers
+#######################################
+busy_doing_activities = {
+	icon = piety_negative
+	diplomacy = -2
+	martial = -2
+	stewardship = -2
+	intrigue = -2
+}
+nalanda_learning_books = {
+	icon = learning_positive
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+}
+nalanda_learning_medicine = {
+	icon = health_positive
+	health = 0.05
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+}
+nalanda_learning_logic = {
+	icon = piety_positive
+	diplomacy = 1
+}
+nalanda_learning_astrology = {
+	icon = letter_positive
+	learning = 1
+}
+nalanda_learning_yoga = {
+	icon = health_positive
+	health = 0.25
+}
 
 
 
