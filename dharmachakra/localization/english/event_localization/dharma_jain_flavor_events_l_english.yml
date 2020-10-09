@@ -13,8 +13,8 @@
 
  dharma_jainism.003.t:0 "Meditating with the Monk"
  dharma_jainism.003.desc:0 "The Monk has mentioned that you should spend some time out in the courtyard meditating together. However should you focus on this or should you focus on your worldly duties as a ruler?"
- dharma_jainism.003.busy "Sorry I am busy."
- dharma_jainism.003.meditate "Namo Loe Savva Sahunam"
+ dharma_jainism.003.busy:0 "Sorry I am busy."
+ dharma_jainism.003.meditate:0 "Namo Loe Savva Sahunam"
 
  dharma_jainism.004.t:0 "Fasting with the Monk"
  dharma_jainism.004.desc:0 "The monk that showed up to your court declined any offers of Food explaining that he is currently fasting. He spoke to you for some time about the merits and benefits of fasting even for a short period of time. You have decided to..."

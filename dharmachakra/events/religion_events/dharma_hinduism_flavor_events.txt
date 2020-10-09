@@ -11,8 +11,8 @@
 #######################################
 dharma_hinduism.001 = {# Hindu ascetic comes to visit
 	type = character_event
-	title = dharma_hinduism.100.t
-	desc = dharma_hinduism.100.desc
+	title = dharma_hinduism.001.t
+	desc = dharma_hinduism.001.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -29,7 +29,7 @@ dharma_hinduism.001 = {# Hindu ascetic comes to visit
 	}
 
 	option = {# Samkhya
-		name = dharma_hinduism.100.stay
+		name = dharma_hinduism.001.stay
 		hidden_effect = {
 			trigger_event = { id = dharma_hinduism.002 days = 10 }
 		}
@@ -82,12 +82,12 @@ dharma_hinduism.004 = {# Local Hindu temple asks for donations
 		is_landed = yes	
 	}
 
-	option = {# Samkhya
+	option = {# Donate the gold
 		name = dharma_hinduism.004.donate
 		remove_short_term_gold = medium_gold_value
 		add_piety = medium_piety_gain
 	}
-	option = {# Samkhya
+	option = {# Don't Donate
 		name = dharma_hinduism.004.nodonate
 		add_short_term_gold = medium_gold_value
 		remove_piety = medium_piety_gain

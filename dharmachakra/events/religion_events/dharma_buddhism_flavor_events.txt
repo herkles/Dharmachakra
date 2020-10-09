@@ -205,7 +205,7 @@ dharma_buddhism.009 = {# Arriving at Nalanda
 
 	option = {
 		name = dharma_buddhism.009.arival
-		trigger_event = { id = dharma_buddhism.013 days = 50 }
+		trigger_event = { id = dharma_buddhism.018 days = 50 }
 		hidden_effect = {
 			trigger_event = { id = dharma_buddhism.011 days = 10 }
 			trigger_event = { id = dharma_buddhism.013 days = 20 }
@@ -383,7 +383,7 @@ dharma_buddhism.016 = {# Recieving an education
 		}
 	}
 	option = {# Class on Astrology
-		name = dharma_buddhism.016.a
+		name = dharma_buddhism.016.philosophical
 		add_character_modifier = {
 			modifier = nalanda_learning_astrology
 			months = 4
@@ -439,7 +439,7 @@ dharma_buddhism.019 = {# Donating to the local Monks
 		name = dharma_buddhism.019.optout
 		add_character_modifier = {# Unhappy Monks
 			modifier = upset_monks
-			years = 10
+			years = 3
 		}	
 	}
 }
@@ -463,7 +463,7 @@ dharma_buddhism.020 = {# Life Release
 	}
 
 	option = {# Let the animal go
-		name = dharma_buddhism.020.r4elease
+		name = dharma_buddhism.020.release
 		add_piety = minor_piety_gain
 		stress_impact = {
 			base = minor_stress_loss
@@ -471,9 +471,6 @@ dharma_buddhism.020 = {# Life Release
 			hunter_1 = minor_piety_gain
 			hunter_2 = minor_piety_gain
 			hunter_3 = minor_piety_gain
-		}
-		hidden_effect = {
-
 		}
 	}
 	option = {# Need it for my dinner

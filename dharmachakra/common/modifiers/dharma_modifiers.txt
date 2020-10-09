@@ -188,8 +188,36 @@ nalanda_learning_yoga = {
 	icon = health_positive
 	health = 0.25
 }
-
-
+#######################################
+# Jain Modifiers
+#######################################
+jain_vow_ahimsa = {# Contemplating Ahimsa
+	icon = piety_positive
+	martial = -1
+	prowess = -2
+	monthly_piety_gain_mult = 0.2
+}
+jain_vow_satya = {# Contemplating Satya
+	icon = piety_positive
+	scheme_secrecy = -10
+	scheme_power = -5
+	monthly_piety_gain_mult = 0.2
+}
+jain_vow_asteya = {# Contemplating Asteya
+	icon = piety_positive
+	intrigue = -2
+	monthly_piety_gain_mult = 0.2
+}
+jain_vow_brahamacarya = {# Contemplating Brahamacarya
+	icon = piety_positive
+	fertility = -0.3
+	monthly_piety_gain_mult = 0.2
+}
+jain_vow_aparigraha = {# Contemplating Aparigraha
+	icon = piety_positive
+	monthly_income_mult = -0.1
+	monthly_piety_gain_mult = 0.2
+}
 
 
 

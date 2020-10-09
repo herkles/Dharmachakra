@@ -106,10 +106,23 @@ nalanda_learning_astrology_desc:0 "This character is studying astrological texts
 
 nalanda_learning_yoga:0 "Studying Yoga"
 nalanda_learning_yoga_desc:0 "This character is studying Yoga"
+#######################################
+# Visiting Monks 
+#######################################
+jain_vow_ahimsa:0 "Contemplating Ahimsa"
+jain_vow_ahimsa_desc:0 "This character is focused on contemplating the Vow of Ahimsa or Non-Violence"
 
+jain_vow_satya:0 "Contemplating Satya"
+jain_vow_satya_desc:0 "This character is focused on contemplating the Vow of Satya or Truth."
 
+jain_vow_asteya:0 "Contemplating Asteya"
+jain_vow_asteya_desc:0 "This character is focused on contemplating the Vow of Asteya or not stealing."
 
+jain_vow_brahamacarya:0 "Contemplating Brahamacarya"
+jain_vow_brahamacarya_desc:0 "This character is focused on contemplating the Vow of Brahamacarya or Chastity."
 
+jain_vow_aparigraha:0 "Contemplating Aparigraha"
+jain_vow_aparigraha_desc:0 "This character is focused on contemplating the Vow of Aparigraha or non-possessions."
 
 
 

@@ -82,7 +82,7 @@ dharma_jainism.003 = {# Meditating with the Monk
 		add_piety = -25
 	}
 	option = {# Meditate
-		name = dharma_jainism.003.a
+		name = dharma_jainism.003.meditate
 		add_piety = 25
 	}
 
@@ -101,7 +101,7 @@ dharma_jainism.004 = {# Fasting with the Monk
 	}	
 
 	option = {# fast for a day
-		name = dharma_jainism.004.a
+		name = dharma_jainism.004.fast
 		stress_impact = {
 			base = minor_stress_impact_gain
 			# People with these traits like fasting
@@ -122,7 +122,7 @@ dharma_jainism.004 = {# Fasting with the Monk
 		add_piety = 50
 	}
 	option = {# Don't fast
-		name = dharma_jainism.004.a
+		name = dharma_jainism.004.nofast
 		stress_impact = {
 			# People with these traits like fasting
 			inappetetic = miniscule_stress_impact_gain
@@ -143,7 +143,7 @@ dharma_jainism.004 = {# Fasting with the Monk
 	}
 }
 #######################################
-# Jain Flavor Monks 
+# Jain Flavor Events 
 #######################################
 dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 	type = character_event
@@ -160,12 +160,52 @@ dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 
 	trigger = {
 		is_at_war = no
-		religion = religion:jainism_religion
 		is_landed = yes	
+		capital_province = {
+			geographical_region = world_india
+		}
 	}
 
-	option = {
+	immediate = {
+		random_sub_realm_barony = {
+			title_province = {
+				county = {
+					limit = {
+						geographical_region = world_india
+						is_coastal = yes
+					}
+					save_scope_as = guild_county
+				}
+			}
+		}
+	}
+
+	option = {# So What
 		name = dharma_jainism.006.a
+		scope:guild_county = {
+			add_county_modifier = {
+				modifier = stewardship_domain_special_1500_resentful_guilds
+				days = 1825
+			}
+		}
+	}
+	option = {# tell the Jain ascetics to move
+		trigger = { NOT = { religion = religion:jainism_religion } }
+		name = dharma_jainism.006.move_monk
+		any_courtier = {
+			limit = { religion = religion:jainism_religion }
+			add_opinion = {
+				target = root
+				modifier = impious_opinion
+			}
+		}
+		any_vassal = {
+			limit = { religion = religion:jainism_religion}
+			add_opinion = {
+				target = root
+				modifier = impious_opinion
+			}
+		}
 	}
 
 }
@@ -195,7 +235,6 @@ dharma_jainism.007 = {# Meditating on the Five Great Vows
 			days = 365
 		}
 	}
-
 	option = {# Satya
 		name = dharma_jainism.007.satya
 		add_character_modifier = {
@@ -203,7 +242,6 @@ dharma_jainism.007 = {# Meditating on the Five Great Vows
 			days = 365
 		}
 	}
-
 	option = {# Asteya
 		name = dharma_jainism.007.asteya
 		add_character_modifier = {
@@ -211,7 +249,6 @@ dharma_jainism.007 = {# Meditating on the Five Great Vows
 			days = 365
 		}
 	}
-
 	option = {# Aparigraha
 		name = dharma_jainism.007.aparigraha
 		add_character_modifier = {
@@ -219,7 +256,6 @@ dharma_jainism.007 = {# Meditating on the Five Great Vows
 			days = 365
 		}
 	}
-
 	option = {# Brahamacarya
 		name = dharma_jainism.007.brahmacarya
 		add_character_modifier = {
@@ -229,3 +265,24 @@ dharma_jainism.007 = {# Meditating on the Five Great Vows
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
