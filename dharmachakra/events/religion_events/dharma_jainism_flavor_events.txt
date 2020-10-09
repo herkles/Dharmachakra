@@ -24,18 +24,21 @@ dharma_jainism.001 = {# jain Monk comes to visit
 		animation = personality_rational
 	}	
 
+	trigger = {
+		is_at_war = no
+		religion = religion:jainism_religion
+		is_landed = yes	
+	}
+
 	option = {
 		name = dharma_jainism.001.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
 		hidden_effect = {
-
+			trigger_event = { id = dharma_jainism.002 days = 10 }
+			trigger_event = { id = dharma_jainism.003 days = 15 }
+			trigger_event = { id = dharma_jainism.004 days = 20 }
 		}
 	}
 }
-
 dharma_jainism.002 = {# Donations for the Monk
 	type = character_event
 	title = dharma_jainism.002.t
@@ -49,18 +52,18 @@ dharma_jainism.002 = {# Donations for the Monk
 		animation = personality_rational
 	}	
 
-	option = {
+	option = {# Here you go. 
 		name = dharma_jainism.002.a
+		remove_short_term_gold = 20
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
+			base = miniscule_stress_impact_loss
+			greedy = minor_stress_gain
+			improvident = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
 
 		}
 	}
 }
-
 dharma_jainism.003 = {# Meditating with the Monk
 	type = character_event
 	title = dharma_jainism.003.t
@@ -74,18 +77,16 @@ dharma_jainism.003 = {# Meditating with the Monk
 		animation = personality_rational
 	}	
 
-	option = {
-		name = dharma_jainism.003.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
-		}
+	option = {# sorry I am busy
+		name = dharma_jainism.003.busy
+		add_piety = -25
 	}
-}
+	option = {# Meditate
+		name = dharma_jainism.003.a
+		add_piety = 25
+	}
 
+}
 dharma_jainism.004 = {# Fasting with the Monk
 	type = character_event
 	title = dharma_jainism.004.t
@@ -99,45 +100,50 @@ dharma_jainism.004 = {# Fasting with the Monk
 		animation = personality_rational
 	}	
 
-	option = {
+	option = {# fast for a day
 		name = dharma_jainism.004.a
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
+			base = minor_stress_impact_gain
+			# People with these traits like fasting
+			inappetetic = minor_stress_loss
+			temperate = minor_stress_loss
+			zealous = minor_stress_loss
+			chaste = minor_stress_loss
+			# People with these traits don't like to fast
+			gluttonous = minor_stress_gain
+			temperate = minor_stress_gain
+			lustful = minor_stress_gain
+			comfort_eater = minor_stress_gain
+			hashishiyah = minor_stress_gain
+			rakish = minor_stress_gain
+			drunkard = minor_stress_gain
+			lifestyle_reveler = minor_stress_gain
 		}
-		hidden_effect = {
-
-		}
+		add_piety = 50
 	}
-}
-
-dharma_jainism.005 = {# Zealous Child seeks to become a monk/nun
-	type = character_event
-	title = dharma_jainism.005.t
-	desc = dharma_jainism.005.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {
-		name = dharma_jainism.005.a
+	option = {# Don't fast
+		name = dharma_jainism.004.a
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
+			# People with these traits like fasting
+			inappetetic = miniscule_stress_impact_gain
+			temperate = miniscule_stress_impact_gain
+			zealous = miniscule_stress_impact_gain
+			chaste = miniscule_stress_impact_gain
+			# People with these traits don't like to fast
+			gluttonous = minor_stress_loss
+			temperate = minor_stress_loss
+			lustful = minor_stress_loss
+			comfort_eater = minor_stress_loss
+			hashishiyah = minor_stress_loss
+			rakish = minor_stress_loss
+			drunkard = minor_stress_loss
+			lifestyle_reveler = minor_stress_loss
 		}
-		hidden_effect = {
-
-		}
+		add_piety = -50
 	}
 }
-
 #######################################
-# Visiting Monks 
+# Jain Flavor Monks 
 #######################################
 dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 	type = character_event
@@ -152,18 +158,17 @@ dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 		animation = personality_rational
 	}	
 
+	trigger = {
+		is_at_war = no
+		religion = religion:jainism_religion
+		is_landed = yes	
+	}
+
 	option = {
 		name = dharma_jainism.006.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
-		}
 	}
-}
 
+}
 dharma_jainism.007 = {# Meditating on the Five Great Vows
 	type = character_event
 	title = dharma_jainism.007.t
@@ -177,39 +182,50 @@ dharma_jainism.007 = {# Meditating on the Five Great Vows
 		animation = personality_rational
 	}	
 
-	option = {
-		name = dharma_jainism.007.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
+	trigger = {
+		is_at_war = no
+		religion = religion:jainism_religion
+		is_landed = yes	
+	}
 
+	option = {# Ahimsa
+		name = dharma_jainism.007.ahimsa
+		add_character_modifier = {
+			modifier = jain_vow_ahimsa
+			days = 365
 		}
 	}
-}
 
-dharma_jainism.008 = {# Auspecious Dream - 
-	type = character_event
-	title = dharma_jainism.008.t
-	desc = dharma_jainism.008.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {
-		name = dharma_jainism.008.a
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
+	option = {# Satya
+		name = dharma_jainism.007.satya
+		add_character_modifier = {
+			modifier = jain_vow_satya
+			days = 365
 		}
 	}
+
+	option = {# Asteya
+		name = dharma_jainism.007.asteya
+		add_character_modifier = {
+			modifier = jain_vow_asteya
+			days = 365
+		}
+	}
+
+	option = {# Aparigraha
+		name = dharma_jainism.007.aparigraha
+		add_character_modifier = {
+			modifier = jain_vow_aparigraha
+			days = 365
+		}
+	}
+
+	option = {# Brahamacarya
+		name = dharma_jainism.007.brahmacarya
+		add_character_modifier = {
+			modifier = jain_vow_brahamacarya
+			days = 365
+		}
+	}
+
 }

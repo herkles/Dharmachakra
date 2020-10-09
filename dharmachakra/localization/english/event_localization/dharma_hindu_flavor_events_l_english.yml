@@ -1,0 +1,20 @@
+﻿l_english:
+
+#######################################
+# Hindu Monks and Ascetics
+#######################################
+ dharma_hinduism.001.t:0 "Hindu ascetic comes to visit"
+ dharma_hinduism.001.desc:0 "A Hindu yogi has appeared at your court, seeking audience. He speaks of the many Hindu gods and how to reach for wisdom and power by honoring them and follow the wisdom of the Puranas and Vedas."
+ dharma_hinduism.001.stay:0 "Tell me more..."
+
+ dharma_hinduism.002.t:0 "Tell me more, Hindu ascetic"
+ dharma_hinduism.002.desc:0 "The yogi continues to elaborate on the way of ascetism and yoga and how to live a spiritual life through discipline and mediation."
+ dharma_hinduism.002.meditate:0 "Thank you for your wisdom"
+
+#######################################
+# Hindu Temples
+#######################################
+ dharma_hinduism.004.t:0 "Hindu Priests ask for Donations"
+ dharma_hinduism.004.desc:0 "Priests from a local Hindu temple have approached you, asking for donations. They need to expand the temple with a new building in order to accomodate the growing number of worshipers."
+ dharma_hinduism.004.donate:0 "Here you go"
+ dharma_hinduism.004.nodonate:0 "Sadly I can't spare the change right now"

@@ -24,6 +24,12 @@ dharma_buddhism.001 = {# Buddhist Monks comes to visit
 		animation = personality_rational
 	}	
 
+	trigger = {
+		is_at_war = no
+		religion = religion:buddhism_religion
+		is_landed = yes	
+	}
+
 	option = {# You can Stay monk
 		name = dharma_buddhism.001.stay
 		hidden_effect = {
@@ -52,7 +58,6 @@ dharma_buddhism.001 = {# Buddhist Monks comes to visit
 		}
 	}
 }
-
 dharma_buddhism.002 = {# Dharma Talk
 	type = character_event
 	title = dharma_buddhism.002.t
@@ -75,11 +80,9 @@ dharma_buddhism.002 = {# Dharma Talk
 			temperate = miniscule_stress_impact_loss
 			calm = miniscule_stress_impact_loss
 			arrogant = miniscule_stress_impact_gain
-
 		}
 	}
 }
-
 dharma_buddhism.003 = {# Making Merit - Buddhist monk asks me for donations
 	type = character_event
 	title = dharma_buddhism.003.t
@@ -105,7 +108,6 @@ dharma_buddhism.003 = {# Making Merit - Buddhist monk asks me for donations
 		}
 	}
 }
-
 dharma_buddhism.004 = {# Meditate with Monk? 
 	type = character_event
 	title = dharma_buddhism.004.t
@@ -128,7 +130,6 @@ dharma_buddhism.004 = {# Meditate with Monk?
 		add_piety = 25
 	}
 }
-
 dharma_buddhism.005 = {# Vegetarian Monk suggests Vegetarianism
 	type = character_event
 	title = dharma_buddhism.005.t
@@ -150,48 +151,6 @@ dharma_buddhism.005 = {# Vegetarian Monk suggests Vegetarianism
 		name = dharma_buddhism.005.meat
 	}
 }
-
-dharma_buddhism.006 = {# Zealous non-heir child wishes to become a monastic
-	type = character_event
-	title = dharma_buddhism.006.t
-	desc = dharma_buddhism.006.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Absolutly Not!
-		name = dharma_buddhism.006.no
-		# Child hates you
-	}
-	option = {# You have my Blessing
-		name = dharma_buddhism.006.yes
-		trigger_event = { id = dharma_buddhism.102 days = 30 }
-	}
-}
-
-dharma_buddhism.007 = {# Ordination for your child to be a Bikkhu/Bhikkhuni
-	type = character_event
-	title = dharma_buddhism.007.t
-	desc = dharma_buddhism.007.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# This is a great day
-		name = dharma_buddhism.007.monk
-		# Child gets the trait devoted as they become a monk
-	}
-}
 #######################################
 # Visiting Nalanda
 #######################################
@@ -207,11 +166,14 @@ dharma_buddhism.008 = {# Invitation to Visit Nalanda
 		character = root
 		animation = personality_rational
 	}	
+	
 	trigger = {
+		is_at_war = no
 		any_realm_province = {
 			has_building = nalanda_university
 		}
 	}
+
 	option = {# I shall stay
 		name = dharma_buddhism.008.stay
 		stress_impact = {
@@ -228,7 +190,6 @@ dharma_buddhism.008 = {# Invitation to Visit Nalanda
 		add_character_modifier = busy_doing_activities
 	}
 }
-
 dharma_buddhism.009 = {# Arriving at Nalanda
 	type = character_event
 	title = dharma_buddhism.009.t
@@ -253,7 +214,6 @@ dharma_buddhism.009 = {# Arriving at Nalanda
 		}
 	}
 }
-
 dharma_buddhism.011 = {# Visiting the Library
 	type = character_event
 	title = dharma_buddhism.011.t
@@ -333,7 +293,6 @@ dharma_buddhism.011 = {# Visiting the Library
 		}
 	}
 }
-
 dharma_buddhism.013 = {# Meditating with the Monks
 	type = character_event
 	title = dharma_buddhism.013.t
@@ -354,7 +313,6 @@ dharma_buddhism.013 = {# Meditating with the Monks
 		}
 	}
 }
-
 dharma_buddhism.015 = {# Vegetarian v non-vegetiarian
 	type = character_event
 	title = dharma_buddhism.015.t
@@ -383,7 +341,6 @@ dharma_buddhism.015 = {# Vegetarian v non-vegetiarian
 		}
 	}
 }
-
 dharma_buddhism.016 = {# Recieving an education
 	type = character_event
 	title = dharma_buddhism.016.t
@@ -433,7 +390,6 @@ dharma_buddhism.016 = {# Recieving an education
 		}
 	}
 }
-
 dharma_buddhism.018 = {# Returning Home
 	type = character_event
 	title = dharma_buddhism.018.t
@@ -468,6 +424,11 @@ dharma_buddhism.019 = {# Donating to the local Monks
 		animation = personality_rational
 	}	
 
+	trigger = {
+		is_at_war = no
+		religion = religion:buddhism_religion
+		is_landed = yes	
+	}
 
 	option = {# Donate Supplies
 		name = dharma_buddhism.019.gold
@@ -482,7 +443,6 @@ dharma_buddhism.019 = {# Donating to the local Monks
 		}	
 	}
 }
-
 dharma_buddhism.020 = {# Life Release
 	type = character_event
 	title = dharma_buddhism.020.t
@@ -495,6 +455,12 @@ dharma_buddhism.020 = {# Life Release
 		character = root
 		animation = personality_rational
 	}	
+
+	trigger = {
+		is_at_war = no
+		religion = religion:buddhism_religion
+		is_landed = yes	
+	}
 
 	option = {# Let the animal go
 		name = dharma_buddhism.020.r4elease
@@ -526,7 +492,6 @@ dharma_buddhism.020 = {# Life Release
 
 	}
 }
-
 dharma_buddhism.021 = {# Donating to the Poor
 	type = character_event
 	title = dharma_buddhism.021.t
@@ -539,6 +504,12 @@ dharma_buddhism.021 = {# Donating to the Poor
 		character = root
 		animation = personality_rational
 	}	
+
+	trigger = {
+		is_at_war = no
+		religion = religion:buddhism_religion
+		is_landed = yes	
+	}
 
 	option = {# Large Donation
 		name = dharma_buddhism.021.large
@@ -572,7 +543,6 @@ dharma_buddhism.021 = {# Donating to the Poor
 
 	}
 }
-
 dharma_buddhism.023 = {# First Harvest Offerings
 	type = character_event
 	title = dharma_buddhism.023.t
@@ -585,6 +555,12 @@ dharma_buddhism.023 = {# First Harvest Offerings
 		character = root
 		animation = personality_rational
 	}	
+
+	trigger = {
+		is_at_war = no
+		religion = religion:buddhism_religion
+		is_landed = yes	
+	}
 
 	option = {# Give to the Monks
 		name = dharma_buddhism.023.monks
@@ -615,7 +591,6 @@ dharma_buddhism.023 = {# First Harvest Offerings
 		# peasants happy
 	}
 }
-
 #######################################
 #									  #
 # 	  MEDITATION RETREAT EVENTS       #
@@ -626,7 +601,6 @@ dharma_buddhism.023 = {# First Harvest Offerings
 #######################################
 # Meditation Retreat scripts
 #######################################
-
 scripted_effect improve_meditation_skill = {
 	if = {
 		limit = {
@@ -645,11 +619,9 @@ scripted_effect improve_meditation_skill = {
 	}
 	custom_tooltip = dharma_buddhism.0211.experience
 }
-
 #######################################
 # Meditation Retreat Base Events
 #######################################
-
 dharma_buddhism.100 = {# Departing for the monastasry
 	type = character_event
 	title = dharma_buddhism.100.t
@@ -692,7 +664,6 @@ dharma_buddhism.100 = {# Departing for the monastasry
 		remove_character_flag = planning_an_activity
 	}
 }
-
 dharma_buddhism.101 = {# Arriving at the Monastary
 	type = character_event
 	title = dharma_buddhism.101.t
@@ -826,11 +797,9 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 	}
 	
 }
-
 #######################################
 # Meditation Retreat General Events
 #######################################
-
 dharma_buddhism.102 = {# Back to basics
 	type = character_event
 	title = dharma_buddhism.102.t
@@ -855,7 +824,6 @@ dharma_buddhism.102 = {# Back to basics
 		}
 	}
 }
-
 dharma_buddhism.103 = {# monastic food
 	type = character_event
 	title = dharma_buddhism.103.t
@@ -878,7 +846,6 @@ dharma_buddhism.103 = {# monastic food
 		}
 	}
 }
-
 dharma_buddhism.104 = {# Meditate with eyes shut
 	type = character_event
 	title = dharma_buddhism.104.t
@@ -896,7 +863,6 @@ dharma_buddhism.104 = {# Meditate with eyes shut
 		name = dharma_buddhism.104.a
 	}
 }
-
 dharma_buddhism.105 = {# Uncomfortable robes!
 	type = character_event
 	title = dharma_buddhism.105.t
@@ -919,7 +885,6 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 		}
 	}
 }
-
 dharma_buddhism.106 = {# Numb legs
 	type = character_event
 	title = dharma_buddhism.106.t
@@ -940,11 +905,9 @@ dharma_buddhism.106 = {# Numb legs
 		}
 	}
 }
-
 #######################################
 # Meditation Retreat Rare Events
 #######################################
-
 dharma_buddhism.107 = {# An exam
 	type = character_event
 	title = dharma_buddhism.107.t
@@ -963,7 +926,6 @@ dharma_buddhism.107 = {# An exam
 		add_piety = minor_piety_value
 	}
 }
-
 dharma_buddhism.108 = {# Master's wisdom
 	type = character_event
 	title = dharma_buddhism.108.t
@@ -982,11 +944,9 @@ dharma_buddhism.108 = {# Master's wisdom
 		add_piety = minor_piety_value
 	}
 }
-
 #######################################
 # Meditation Retreat Novice Events
 #######################################
-
 dharma_buddhism.110 = {# Distract self or not?
 	type = character_event
 	title = dharma_buddhism.110.t
@@ -1016,7 +976,6 @@ dharma_buddhism.110 = {# Distract self or not?
 		}
 	}
 }
-
 dharma_buddhism.111 = {# Whack!
 	type = character_event
 	title = dharma_buddhism.111.t
@@ -1038,7 +997,6 @@ dharma_buddhism.111 = {# Whack!
 		}
 	}
 }
-
 dharma_buddhism.112 = {# Energized!
 	type = character_event
 	title = dharma_buddhism.112.t
@@ -1059,11 +1017,9 @@ dharma_buddhism.112 = {# Energized!
 		}
 	}
 }
-
 #######################################
 # Meditation Retreat Experinced Events
 #######################################
-
 dharma_buddhism.113 = {# Going outside
 	type = character_event
 	title = dharma_buddhism.113.t
@@ -1084,7 +1040,6 @@ dharma_buddhism.113 = {# Going outside
 		}
 	}
 }
-
 dharma_buddhism.114 = {# Questions and Answers
 	type = character_event
 	title = dharma_buddhism.114.t
@@ -1105,7 +1060,6 @@ dharma_buddhism.114 = {# Questions and Answers
 		}
 	}
 }
-
 dharma_buddhism.115 = {# Heightened Senses
 	type = character_event
 	title = dharma_buddhism.115.t
@@ -1127,11 +1081,9 @@ dharma_buddhism.115 = {# Heightened Senses
 		}
 	}
 }
-
 #######################################
 # Meditation Retreat Ending Events
 #######################################
-
 dharma_buddhism.116 = {# Departing the Monastary for home
 	type = character_event
 	title = dharma_buddhism.116.t
@@ -1267,7 +1219,6 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 		}
 	}
 }
-
 dharma_buddhism.117 = {# End meditation
 	hidden = yes
 	
@@ -1277,13 +1228,11 @@ dharma_buddhism.117 = {# End meditation
 		}
 	}
 }
-
 #######################################
 #									  #
 #      Picking Buddhist Deities       #
 #									  #
 #######################################
-
 dharma_buddhism.200 = {# Tibetan Buddhist Deities
 	type = character_event
 	title = dharma_buddhism.200.t
@@ -1426,7 +1375,6 @@ dharma_buddhism.200 = {# Tibetan Buddhist Deities
 		}		
 	}
 }
-
 dharma_buddhism.201 = {# Burmese Buddhist Deities
 	type = character_event
 	title = dharma_buddhism.201.t
@@ -1554,8 +1502,3 @@ dharma_buddhism.201 = {# Burmese Buddhist Deities
 		}		
 	}
 }
-
-
-
-
-

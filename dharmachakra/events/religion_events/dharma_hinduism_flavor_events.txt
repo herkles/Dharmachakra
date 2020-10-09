@@ -2,14 +2,14 @@
 
 #######################################
 #									  #
-#     Hindu Philosophical Events      #
+#     Hindu General flavor Events     #
 #									  #
 #######################################
 
 #######################################
-# Picking a Philosophical School 
+# Hindu Monks and Ascetics
 #######################################
-dharma_hinduism.100 = {# Picking a Philosophical School
+dharma_hinduism.001 = {# Hindu ascetic comes to visit
 	type = character_event
 	title = dharma_hinduism.100.t
 	desc = dharma_hinduism.100.desc
@@ -22,54 +22,77 @@ dharma_hinduism.100 = {# Picking a Philosophical School
 		animation = personality_rational
 	}	
 
+	trigger = {
+		is_at_war = no
+		religion = religion:hinduism_religion
+		is_landed = yes	
+	}
+
 	option = {# Samkhya
-		name = dharma_hinduism.100.samkhya
+		name = dharma_hinduism.100.stay
+		hidden_effect = {
+			trigger_event = { id = dharma_hinduism.002 days = 10 }
+		}
 	}
-	option = {# Yoga
-		name = dharma_hinduism.100.yoga
+}
+dharma_hinduism.002 = {# Tell me more, Hindu ascetic
+	type = character_event
+	title = dharma_hinduism.002.t
+	desc = dharma_hinduism.002.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
 	}
-	option = {# Nyaya
-		name = dharma_hinduism.100.nyaya
-	}
-	option = {# Vaisheshika
-		name = dharma_hinduism.100.vaisheshika
-	}
-	option = {# Mīmāṃsā
-		name = dharma_hinduism.100.mimamsa
-	}
-	option = {# Vedanta
-		name = dharma_hinduism.100.vedanta
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Samkhya
+		name = dharma_hinduism.002.meditate
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			gluttonous = miniscule_stress_impact_gain
+			lustful = miniscule_stress_impact_gain
+			temperate = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			arrogant = miniscule_stress_impact_gain
+		}
 	}
 }
 #######################################
-# Samkhya Philosophical Events
+# Hindu Temple
 #######################################
+dharma_hinduism.004 = {# Local Hindu temple asks for donations
+	type = character_event
+	title = dharma_hinduism.004.t
+	desc = dharma_hinduism.004.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
 
-#######################################
-# Yoga Philosophical Events
-#######################################
+	trigger = {
+		is_at_war = no
+		religion = religion:hinduism_religion
+		is_landed = yes	
+	}
 
-#######################################
-# Nyaya Philosophical Events
-#######################################
-
-#######################################
-# Vaisheshika Philosophical Events
-#######################################
-
-#######################################
-# Mīmāṃsā Philosophical Events
-#######################################
-
-#######################################
-# Vedanta Philosophical Events
-#######################################
-
-
-
-
-
-
+	option = {# Samkhya
+		name = dharma_hinduism.004.donate
+		remove_short_term_gold = medium_gold_value
+		add_piety = medium_piety_gain
+	}
+	option = {# Samkhya
+		name = dharma_hinduism.004.nodonate
+		add_short_term_gold = medium_gold_value
+		remove_piety = medium_piety_gain
+	}
+}
 
 
 
