@@ -33,28 +33,9 @@ dharma_buddhism.001 = {# Buddhist Monks comes to visit
 	option = {# You can Stay monk
 		name = dharma_buddhism.001.stay
 		hidden_effect = {
-			random_list = {
-				20 = {
-					trigger_event = { id = dharma_buddhism.002 days = 10 }
-					trigger_event = { id = dharma_buddhism.003 days = 15 }
-					trigger_event = { id = dharma_buddhism.004 days = 20 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.003 days = 10 }
-					trigger_event = { id = dharma_buddhism.004 days = 15 }
-					trigger_event = { id = dharma_buddhism.005 days = 20 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.002 days = 10 }
-					trigger_event = { id = dharma_buddhism.004 days = 15 }
-					trigger_event = { id = dharma_buddhism.005 days = 20 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.002 days = 10 }
-					trigger_event = { id = dharma_buddhism.003 days = 15 }
-					trigger_event = { id = dharma_buddhism.005 days = 20 }
-				}
-			}
+			trigger_event = { id = dharma_buddhism.002 days = 10 }
+			trigger_event = { id = dharma_buddhism.003 days = 15 }
+			trigger_event = { id = dharma_buddhism.004 days = 20 }
 		}
 	}
 }
@@ -123,32 +104,14 @@ dharma_buddhism.004 = {# Meditate with Monk?
 
 	option = {# Saddly I am busy
 		name = dharma_buddhism.004.busy
-		add_piety = -25
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			lazy = minor_stress_impact_loss
+		}
 	}
 	option = {# Om Mani Padme Hum
 		name = dharma_buddhism.004.mani
 		add_piety = 25
-	}
-}
-dharma_buddhism.005 = {# Vegetarian Monk suggests Vegetarianism
-	type = character_event
-	title = dharma_buddhism.005.t
-	desc = dharma_buddhism.005.desc
-	theme = faith
-	override_background = {
-		event_background = throne_room
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# take up Vegetarianism
-		name = dharma_buddhism.005.vegetarian
-		add_trait = vegetarian
-	}
-	option = {# Thanks but no thanks
-		name = dharma_buddhism.005.meat
 	}
 }
 #######################################
@@ -176,13 +139,6 @@ dharma_buddhism.008 = {# Invitation to Visit Nalanda
 
 	option = {# I shall stay
 		name = dharma_buddhism.008.stay
-		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
-		}
 	}
 	option = {# I shall go
 		name = dharma_buddhism.008.go
@@ -466,25 +422,22 @@ dharma_buddhism.020 = {# Life Release
 		name = dharma_buddhism.020.release
 		add_piety = minor_piety_gain
 		stress_impact = {
-			base = minor_stress_loss
-			compassionate = minor_piety_loss
-			hunter_1 = minor_piety_gain
-			hunter_2 = minor_piety_gain
-			hunter_3 = minor_piety_gain
+			base = miniscule_stress_impact_loss
+			compassionate = minor_stress_loss
+			hunter_1 = minor_stress_gain
+			hunter_2 = minor_stress_gain
+			hunter_3 = minor_stress_gain
 		}
 	}
 	option = {# Need it for my dinner
 		name = dharma_buddhism.020.food
-		trigger = {
-			NOT = { has_character_modifier = vegetarian }
-		}
 		add_piety = minor_piety_loss
 		stress_impact = {
-			base = minor_stress_gain
-			compassionate = minor_piety_gain
-			hunter_1 = minor_piety_loss
-			hunter_2 = minor_piety_loss
-			hunter_3 = minor_piety_loss
+			base = miniscule_stress_impact_loss
+			compassionate = minor_stress_gain
+			hunter_1 = minor_stress_loss
+			hunter_2 = minor_stress_loss
+			hunter_3 = minor_stress_loss
 		}
 
 	}
@@ -803,11 +756,7 @@ dharma_buddhism.102 = {# Back to basics
 	option = {
 		name = dharma_buddhism.102.a
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
-		}
-		hidden_effect = {
-
+			base = miniscule_stress_impact_loss
 		}
 	}
 }
@@ -827,8 +776,7 @@ dharma_buddhism.103 = {# monastic food
 	option = {
 		name = dharma_buddhism.103.a
 		stress_impact = {
-			base = minor_stress_gain
-			Temperate = miniscule_stress_impact_loss
+			base = miniscule_stress_impact_loss
 			gluttonous = minor_stress_gain
 		}
 	}
@@ -848,6 +796,9 @@ dharma_buddhism.104 = {# Meditate with eyes shut
 
 	option = {
 		name = dharma_buddhism.104.a
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
 	}
 }
 dharma_buddhism.105 = {# Uncomfortable robes!
@@ -910,7 +861,7 @@ dharma_buddhism.107 = {# An exam
 
 	option = {
 		name = dharma_buddhism.107.a
-		add_piety = minor_piety_value
+		add_piety = 5
 	}
 }
 dharma_buddhism.108 = {# Master's wisdom
@@ -928,7 +879,7 @@ dharma_buddhism.108 = {# Master's wisdom
 
 	option = {
 		name = dharma_buddhism.108.a
-		add_piety = minor_piety_value
+		add_piety = 5
 	}
 }
 #######################################
@@ -979,8 +930,7 @@ dharma_buddhism.111 = {# Whack!
 	option = {
 		name = dharma_buddhism.111.a
 		stress_impact = {
-			base = minor_stress_gain
-			diligent = miniscule_stress_impact_loss
+			base = miniscule_stress_impact_loss
 		}
 	}
 }
@@ -1062,7 +1012,7 @@ dharma_buddhism.115 = {# Heightened Senses
 
 	option = {
 		name = dharma_buddhism.115.a
-		add_piety = minor_piety_value
+		add_piety = 5
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}

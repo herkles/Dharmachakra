@@ -32,6 +32,23 @@ Dharma_events_yearly_pulse = {
 		#chance_to_happen = 99
 		24000 = 0 # 24000
 		
+		#######################################
+		# General Flavor Events
+		#######################################
+		
+		#######################################
+		# Buddhist Flavor Events
+		#######################################
+
+		#######################################
+		# Jain Flavor Events
+		#######################################
+
+		#######################################
+		# Hindu Flavor Events
+		#######################################
+		# Hindu rites of passage
+		100 = dharma_hinduism.011		# Pumsavana - Blessing for the child in the womb
 	}
 }
 
@@ -79,7 +96,12 @@ Dharma_events_tri_yearly_pulse = {
 		
 		# Hindu temples and Ascetics
 		100 = dharma_hinduism.001		# A Hindu Ascetic comes to Visit
-		100 = dharma_hinduism.004		# Hindu Temple asks for Donations
+		100 = dharma_hinduism.005		# Zealous Child Seeks to become a Monk
+		100 = dharma_hinduism.006		# Hindu Temple asks for Donations
+		100 = dharma_hinduism.007		# Local Hindu Temple wants a new Murti statue
+		100 = dharma_hinduism.008		# Recieving Prasada
+		100 = dharma_hinduism.009		# Chanting the Gods mantras
+		100 = dharma_hinduism.010		# Studying the Vedas at the Temple
 	}
 }
 
