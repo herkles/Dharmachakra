@@ -97,7 +97,7 @@ dharma_buddhism.003 = {# Making Merit - Buddhist monk asks me for donations
 	}	
 
 	option = {# Here you go
-		name = dharma_buddhism.003.donate
+		name = dharma_buddhism.003.energy
 		remove_short_term_gold = 20
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -145,7 +145,7 @@ dharma_buddhism.005 = {# Vegetarian Monk suggests Vegetarianism
 
 	option = {# take up Vegetarianism
 		name = dharma_buddhism.005.vegetarian
-		# add_trait = vegetarian
+		add_trait = vegetarian
 	}
 	option = {# Thanks but no thanks
 		name = dharma_buddhism.005.meat
@@ -636,6 +636,8 @@ dharma_buddhism.100 = {# Departing for the monastasry
 	# Option 1: Departing for the monastary
 	option = {
 		name = dharma_buddhism.100.depart
+		add_character_modifier = busy_doing_activities
+		trigger_event = { id = dharma_buddhism.101 days = 30 }
 	}
 
 	# Option 2: On second thought, not today.
@@ -648,18 +650,6 @@ dharma_buddhism.100 = {# Departing for the monastasry
 		}		
 	}
 
-	after = {
-		remove_character_flag = meditation_option_plains
-		remove_character_flag = meditation_option_hills
-		remove_character_flag = meditation_option_steppe
-		remove_character_flag = meditation_option_forest
-		remove_character_flag = meditation_option_drylands
-		remove_character_flag = meditation_option_mountains
-		remove_character_flag = meditation_option_wetlands
-		remove_character_flag = meditation_option_jungle
-		remove_character_flag = meditation_option_desert
-		remove_character_flag = planning_an_activity
-	}
 }
 dharma_buddhism.101 = {# Arriving at the Monastary
 	type = character_event
@@ -1111,19 +1101,19 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 	option = {
 		name = {
 			trigger = { has_character_flag = buddhist_retreat_better_person }
-			text = dharma_buddhism.0211.better
+			text = dharma_buddhism.116.better
 		}
 		name = {
 			trigger = { has_character_flag = buddhist_retreat_mystic }
-			text = dharma_buddhism.0211.mystic
+			text = dharma_buddhism.116.mystic
 		}
 		name = {
 			trigger = { has_character_flag = buddhist_retreat_pious }
-			text = dharma_buddhism.0211.pious
+			text = dharma_buddhism.116.pious
 		}
 		name = {
 			trigger = { has_character_flag = buddhist_retreat_nothing }
-			text = dharma_buddhism.0211.nothing
+			text = dharma_buddhism.116.nothing
 		}
 		# The actual effects of your retreat
 		if = {# Better Person
@@ -1208,6 +1198,7 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 		remove_character_flag = buddhist_retreat_mystic
 		remove_character_flag = buddhist_retreat_pious
 		remove_character_flag = buddhist_retreat_nothing
+		remove_character_modifier = busy_doing_activities
 
 		# Run the activity clean-up event.
 		trigger_event = {

@@ -110,6 +110,7 @@ dharma_buddhism.100.t:0 "Departing for a Spiritual Retreat"
 dharma_buddhism.100.desc:0 "Even if I am a well-off [Root.GetTitle] who has everything in the world, I feel like I am still lacking, spiritually. I've decided to thus go to one of monastaries in the region, and participate in a spiritual retreat for an extended period of time."
 dharma_buddhism.100.depart:0 "Onwards to the Monastary"
 dharma_buddhism.100.optout:0 "On second thought"
+flavor = dharma_buddhism.100.optout.flavor:0 "You decide to not go on a Spiritual Retreat at this point."
 
 dharma_buddhism.101.t:0 "Arriving at the Monastary"
 dharma_buddhism.101.desc:0 "The journey to the temple was more strenuous than I expected, but we have arrived nonetheless. I engage in the normal formalities upon reaching the temple - prostrating before Lord Buddha, bestowing gifts upon the monks, and so on. Eventually, I remove all my luxurious clothing and put on the humble robes of an ascetic.\n\nAs night comes, I am shown to my dormitory where I will be sleeping during my stay. It's a change from the luxurious palace rooms, but I'll get used to it. After all, I'll be staying for..."

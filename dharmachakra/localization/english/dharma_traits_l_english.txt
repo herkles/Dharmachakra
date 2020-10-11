@@ -1,0 +1,8 @@
+﻿l_english:
+ trait_diet_vegetarian:0 "Strict Vegetarian"
+ trait_diet_vegeterian_desc:0 "This person will not eat animal meat and sundries, either for moral, religious, or health reasons."
+ trait_diet_vegeterian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] refuses to eat meat and won't tolerate the heartless slaughter of animials."
+
+ trait_diet_carnivore:0 "Strict Carnivore"
+ trait_diet_carnivore_desc:0 "This person will only eat meat and animal products, either for moral, religious, or health reasons."
+ trait_diet_carnivore_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] refuses to eat anything except meat and loves to hunt animals for sport."

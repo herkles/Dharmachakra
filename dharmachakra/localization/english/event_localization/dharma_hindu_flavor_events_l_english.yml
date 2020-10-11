@@ -11,10 +11,60 @@
  dharma_hinduism.002.desc:0 "The yogi continues to elaborate on the way of ascetism and yoga and how to live a spiritual life through discipline and mediation."
  dharma_hinduism.002.meditate:0 "Thank you for your wisdom"
 
+ dharma_hinduism.003.t:0 "Yoga with the Yogi"
+ dharma_hinduism.003.desc:0 "The Yogi offers you to practice Yoga with you before he departs from your court. Shall you take him up on the offer? "
+ dharma_hinduism.003.busy:0 "Sadly I am Busy"
+ dharma_hinduism.003.yoga:0 "I shall Join you"
+
+ dharma_hinduism.004.t:0 "Tell me more, Hindu ascetic"
+ dharma_hinduism.004.desc:0 "The yogi continues to elaborate on the way of ascetism and yoga and how to live a spiritual life through discipline and mediation."
+ dharma_hinduism.004.busy:0 "Sadly I am Busy"
+ dharma_hinduism.004.meditate:0 "I shall Join you"
+
+ dharma_hinduism.005.t:0 "Child wishes to become a monk"
+ dharma_hinduism.005.desc:0 "Your [child_wants_monk.Custom('GetDaughterSon')] is well known for [child_wants_monk.GetHerHis] piety and zeal. Today [child_wants_monk.GetSheHe] has come to you to ask for your blessings to become a monk. Doing so would mean that [child_wants_monk.GetSheHe] is no longer able to marry and will not be in the line of succession."
+ dharma_hinduism.005.blessings:0 "You have my Blessings"
+ dharma_hinduism.005.no:0 "Absolutely Not"
+
 #######################################
 # Hindu Temples
 #######################################
- dharma_hinduism.004.t:0 "Hindu Priests ask for Donations"
- dharma_hinduism.004.desc:0 "Priests from a local Hindu temple have approached you, asking for donations. They need to expand the temple with a new building in order to accomodate the growing number of worshipers."
- dharma_hinduism.004.donate:0 "Here you go"
- dharma_hinduism.004.nodonate:0 "Sadly I can't spare the change right now"
+ dharma_hinduism.006.t:0 "Hindu Priests ask for Donations"
+ dharma_hinduism.006.desc:0 "Priests from a local Hindu temple have approached you, asking for donations. They need to expand the temple with a new building in order to accomodate the growing number of worshipers."
+ dharma_hinduism.006.donate:0 "Here you go"
+ dharma_hinduism.006.nodonate:0 "Sadly I can't spare the change right now"
+
+ dharma_hinduism.007.t:0 "Local Hindu Temple wants a new Murti statue"
+ dharma_hinduism.007.desc:0 "A local Temple wants to dedicate a new murti statue of [ROOT.Char.GetFaith.random_GoodGodNames] to put in the temple. Will you support the temple and patronize the creation of a new statue?"
+ dharma_hinduism.007.patronize:0 "Here you go."
+ dharma_hinduism.007.no_patronize:0 "Sadly I don't have the money now"
+
+ dharma_hinduism.008.t:0 "Recieving Prasada"
+ dharma_hinduism.008.desc:0 "While at the temple today, you recieved Prasada, holy fruit that was first gifted to the Divine. You felt rather good and energized after leaving the temple today.. "
+ dharma_hinduism.008.prasada:0 "OM "
+
+ dharma_hinduism.009.t:0 "Chanting mantras"
+ dharma_hinduism.009.desc:0 "Today while you were at the temple you meditated and chanted mantras to [ROOT.Char.GetFaith.random_GoodGodNames]. After leaving the temple you felt better then normal"
+ dharma_hinduism.009.donate:0 "Om"
+ 
+ dharma_hinduism.010.t:0 "Studying the Vedas at the Temple"
+ dharma_hinduism.010.desc:0 "During your visit to the local temple, you spent some time studying the vedas. While the ancient holy texts are complicated, you felt that you learned something, you think. "
+ dharma_hinduism.010.donate:0 "Om."
+#######################################
+# Hindu Rites of Passage
+#######################################
+ dharma_hinduism.011.t:0 "Title"
+ dharma_hinduism.011.desc.pumsavana_mother:0 "As my child grows within my belly, today my husband performed the Pumsavana ritual to encourge a healthy child. Various charms were placed around me. I was fed a paste mixed with yoghurt, milk, and Ghee. At the same time, infront of a fire as various ancient Vedic chants were chanted. Followed by a feast for me and my close family."
+ dharma_hinduism.011.desc.pumsavana_mother:0 "My wife's belly grows with my child. I have performed the Pumsavana ritual to encourge a healthy child. I put various charms around her and fed her a paste mixed with yoghurt, milk, and Ghee. At the same time, infront of a fire as various ancient Vedic chants were chanted. Followed by a feast for her and my close family."
+ dharma_hinduism.011.donate:0 "May [ROOT.Char.GetFaith.FertilityGodName] Bless our Child"
+ dharma_hinduism.011.donate:0 "May [ROOT.Char.GetFaith.FertilityGodName] Bless our Child"
+
+
+
+
+
+
+
+
+
+
