@@ -1,13 +1,12 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.0.2 "Chandra" (Released 29/09/2020)
+## Latest Version: 1.0.2 "Tara" (Released 29/09/2020)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
 Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
 
 ## Changelog
-
 
 - Bon Religions now have the Tibetan Sky Burial Doctrine
 - Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
@@ -17,7 +16,12 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Yumaism's tenets are now: Ancestor Worship, Ritual Celebrations, Sacred Childbirth
 - Indian Kingdoms now use primogenture instead of confederate partition
 - Buddhists can take the decision to go on a Buddhist retreat
-- Nepali kings can introduce the custom of the Kumari once you are at the late Medieval Era
+- 16 Buddhist Flavor Events
+- 11 Hindu Flavor Events
+- 9 Jain Flavor Events
+- Ari, Nang Chos, and Bon have the Cultural Religion doctrine where conversion is reduced outside of their cultures
+- Mundhumism, Qiangic, and Donyi-Poloism have the tribal doctrine where conversion is reduced outside of their culture but their counties are more resistant to conversion
+- 1 new loading screen
 
 ## Manual Installation Steps
 

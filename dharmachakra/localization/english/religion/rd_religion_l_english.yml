@@ -569,6 +569,14 @@
  tibetan_sky_burials_name:0 "Tibetan Sky Burials"
  tibetan_sky_burials_desc:0 "The dead should not be imprisoned underground — it is far better to allowed them to be consumed by scavenging birds, where in a final act of generosity they can feed the world which fed them."
 
+doctrine_cultural_religion:0 "Cultural Religion"
+cultural_religion_name:0 "Cultural Religion"
+cultural_religion_desc:0 "Our faith and our culture are intrinsically linked together. This practice strengthens the bonds of our community, though it tends to exclude foreigners."
+
+doctrine_tribal_religion:0 "Tribal Religion"
+tribal_religion_name:0 "Tribal Religion"
+tribal_religion_desc:0 "Our faith and our culture are intrinsically linked together. This practice strengthens the bonds of our community, though it tends to exclude foreigners."
+
  doctrine_gender_name:0 "View on Gender"
  doctrine_gender_male_dominated_name:0 "Male Dominated"
  doctrine_gender_male_dominated_desc:0 "Men are stronger and better equipped to lead us in this harsh and unforgiving world, so we shall entrust them with governing our society."
