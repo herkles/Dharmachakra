@@ -10,6 +10,8 @@ These are some of the features of the mod.
     [*] new tenet set up for Jains​
     [*] Dharmic Pacifism allows you to meditate
     [*] Advaita Vedanta as a faith has been removed(those characters are now Smartist)
+    [*] Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
+    [*] Indians start with primogenture
 [/list]
 
 [h2]Tenet changes[/h2]
@@ -18,7 +20,7 @@ These are some of the features of the mod.
     [*]Yapaniya: Monasticism, Dharmic Pacifism, Sallekhana(Consolamentum)
     [*]Svetemabara Jains: Monasticism, Dharmic Pacifism, Vows of Poverty
     [*]Shrautism: Ritual Hospitality, Legalism, and Esotericism
-    [*]Suryaism: Sun Worship, Esotericism, and Inner Journey
+    [*]Sauraism: Sun Worship, Esotericism, and Inner Journey
     [*]Shaivism: Reincarnation, Monasticism, Esotericism
 [/list]
 
