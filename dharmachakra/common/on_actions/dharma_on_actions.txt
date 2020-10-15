@@ -73,7 +73,7 @@ Dharma_events_tri_yearly_pulse = {
 		#######################################
 		
 		# Buddhist monks
-		100 = dharma_buddhism.001		# Dreamt of battle
+		100 = dharma_buddhism.001		# Buddhist Monk comes to visit.
 		# Buddhist monks
 		100 = dharma_buddhism.019		# Donating to the Local Monks
 		100 = dharma_buddhism.020		# Life Release
@@ -89,7 +89,9 @@ Dharma_events_tri_yearly_pulse = {
 		# General Flavor
 		100 = dharma_jainism.006		# Non-Indian Merchants upset about naked Jain ascetics
 		100 = dharma_jainism.007		# Meditating on the five great Vows
-		
+		100 = dharma_jainism.008		# Doing Holy Fasting
+		100 = dharma_jainism.009		# Patronizing a statue. 
+
 		#######################################
 		# Hindu Flavor Events
 		#######################################
@@ -126,16 +128,25 @@ Dharma_events_five_yearly_pulse = {
 		# Buddhist Flavor Events
 		#######################################
 		
+		# Buddhist Monks
+		100 = dharma_buddhism.005		# Zealous child wishes to become a monk
 		# Visiting Nalanda
 		100 = dharma_buddhism.008		# Invitation to visit Nalanda University
+
 		
 		#######################################
 		# Jain Flavor Events
 		#######################################
-				
+		
+		# Jain Monks
+		100 = dharma_jainism.005		# Zealous child wishes to become a monk
+
+
 		#######################################
 		# Hindu Flavor Events
 		#######################################
-
+		
+		# Hindu Monks
+		100 = dharma_hinduism.005		# Zealous child wishes to become a monk
 	}
 }

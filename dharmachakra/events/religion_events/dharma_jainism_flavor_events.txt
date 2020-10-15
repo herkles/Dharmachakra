@@ -142,6 +142,51 @@ dharma_jainism.004 = {# Fasting with the Monk
 		add_piety = -50
 	}
 }
+dharma_jainism.005 = {# Zealous Child Seeks to become a Monk
+	type = character_event
+	title = dharma_jainism.005.t
+	desc = dharma_jainism.005.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		faith = { has_doctrine = tenet_monasticism }
+		is_at_war = no
+		religion = religion:jainism_religion
+		is_landed = yes	
+		random_child = {# find a random Zealous Child and have him ask to be a monk
+			limit = {
+				age >= 20
+				has_trait = zealous
+				NOT = { has_trait = devoted }
+			}
+			save_scope_as = child_wants_monk
+		}
+	}
+
+	option = {# You can be come a monk
+		name = dharma_jainism.005.blessings
+		scope:child_wants_monk = {
+			add_trait = devoted
+		}
+	}
+	option = {# I do not allow it!
+		name = dharma_jainism.005.no
+		scope:heir = {
+			add_opinion = {
+				target = root
+				modifier = angry_opinion
+				opinion = -20
+			}
+		}
+	}
+}
 #######################################
 # Jain Flavor Events 
 #######################################
@@ -178,10 +223,31 @@ dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 				}
 			}
 		}
+		# Compile list of affected characters for Option B
+		every_vassal = {
+			limit = {
+				religion = religion:jainism_religion
+			}
+			add_to_list = jain_characters
+		}
+		every_courtier = {
+			limit = {
+				religion = religion:jainism_religion
+			}
+			add_to_list = jain_characters
+		}
 	}
 
 	option = {# So What
-		name = dharma_jainism.006.a
+		name = dharma_jainism.006.monks_stay
+		if = {
+			limit = { religion = religion:jainism_religion }
+			add_piety = minor_piety_gain
+		}
+		if = {
+			limit = { NOT = { religion = religion:jainism_religion } }
+			add_piety = miniscule_piety_gain
+		}
 		scope:guild_county = {
 			add_county_modifier = {
 				modifier = stewardship_domain_special_1500_resentful_guilds
@@ -190,20 +256,23 @@ dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 		}
 	}
 	option = {# tell the Jain ascetics to move
-		trigger = { NOT = { religion = religion:jainism_religion } }
-		name = dharma_jainism.006.move_monk
-		any_courtier = {
+		name = dharma_jainism.006.monks_move
+		if = {
 			limit = { religion = religion:jainism_religion }
-			add_opinion = {
-				target = root
-				modifier = impious_opinion
-			}
+			add_piety = minor_piety_loss
 		}
-		any_vassal = {
-			limit = { religion = religion:jainism_religion}
+		if = {
+			limit = { NOT = { religion = religion:jainism_religion } }
+			add_piety = miniscule_piety_loss
+		}
+		every_in_list = {
+			list = jain_characters
+			custom = dharma_jainism.006.every_jain_character
+
 			add_opinion = {
-				target = root
 				modifier = impious_opinion
+				target = root
+				opinion = -20
 			}
 		}
 	}
@@ -265,21 +334,97 @@ dharma_jainism.007 = {# Meditating on the Five Great Vows
 	}
 
 }
+dharma_jainism.008 = {# Fasting
+	type = character_event
+	title = dharma_jainism.008.t
+	desc = dharma_jainism.008.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
 
+	trigger = {
+		is_at_war = no
+		religion = religion:jainism_religion
+		is_landed = yes	
+	}
 
+	option = {# Chauvihar
+		name = dharma_jainism.008.chauvihar
+		flavor = dharma_jainism.008.chauvihar.tt
 
+		add_piety = 2
+	}
+	option = {# Aayambil
+		name = dharma_jainism.008.aayambil
+		flavor = dharma_jainism.008.aayambil.tt
 
+		add_piety = 6
+	}
+	option = {# Aathai - 8 day fast
+		name = dharma_jainism.008.aathai
+		flavor = dharma_jainism.008.aathai.tt
 
+		add_piety = 24
+		add_character_modifier = {
+			modifier = exhausted_modifier
+			days = 11
+		}
+	}
+	option = {# Navai - 9 day fast
+		name = dharma_jainism.008.navai
+		flavor = dharma_jainism.008.navai.tt
 
+		add_piety = 26
+		add_character_modifier = {
+			modifier = exhausted_modifier
+			days = 12
+		}
+	}
+	option = {# Solbhathu - 16 day fast
+		name = dharma_jainism.008.solbhathu
+		flavor = dharma_jainism.008.solbhathu.tt
 
+		add_piety = 35
+		add_character_modifier = {
+			modifier = exhausted_modifier
+			days = 19
+		}
+	}
+}
+dharma_jainism.009 = {# New statue of the tirthankaras
+	type = character_event
+	title = dharma_jainism.009.t
+	desc = dharma_jainism.009.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
 
+	trigger = {
+		is_at_war = no
+		religion = religion:jainism_religion
+		is_landed = yes	
+	}
 
-
-
-
-
-
-
+	option = {# patronize the statue
+		name = dharma_jainism.009.patronize
+		add_gold = -50
+		add_piety = 40
+	}
+	option = {# Sadly I can't afford it atm
+		name = dharma_jainism.009.no_patronize
+		add_piety = -20
+	}
+}
 
 
 

@@ -45,7 +45,7 @@ dharma_buddhism.002 = {# Dharma Talk
 	desc = dharma_buddhism.002.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = wood_temple
 	}
 	left_portrait = {
 		character = root
@@ -70,7 +70,7 @@ dharma_buddhism.003 = {# Making Merit - Buddhist monk asks me for donations
 	desc = dharma_buddhism.003.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = wood_temple
 	}
 	left_portrait = {
 		character = root
@@ -95,7 +95,7 @@ dharma_buddhism.004 = {# Meditate with Monk?
 	desc = dharma_buddhism.004.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = wood_temple
 	}
 	left_portrait = {
 		character = root
@@ -114,6 +114,51 @@ dharma_buddhism.004 = {# Meditate with Monk?
 		add_piety = 25
 	}
 }
+dharma_buddhism.005 = {# Zealous Child Seeks to become a Monk
+	type = character_event
+	title = dharma_buddhism.005.t
+	desc = dharma_buddhism.005.desc
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		faith = { has_doctrine = tenet_monasticism }
+		is_at_war = no
+		religion = religion:buddhism_religion
+		is_landed = yes	
+		random_child = {# find a random Zealous Child and have him ask to be a monk
+			limit = {
+				age >= 20
+				has_trait = zealous
+				NOT = { has_trait = devoted }
+			}
+			save_scope_as = child_wants_monk
+		}
+	}
+
+	option = {# You can be come a monk
+		name = dharma_buddhism.005.blessings
+		scope:child_wants_monk = {
+			add_trait = devoted
+		}
+	}
+	option = {# I do not allow it!
+		name = dharma_buddhism.005.no
+		scope:heir = {
+			add_opinion = {
+				target = root
+				modifier = angry_opinion
+				opinion = -20
+			}
+		}
+	}
+}
 #######################################
 # Visiting Nalanda
 #######################################
@@ -123,7 +168,7 @@ dharma_buddhism.008 = {# Invitation to Visit Nalanda
 	desc = dharma_buddhism.008.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -152,7 +197,7 @@ dharma_buddhism.009 = {# Arriving at Nalanda
 	desc = dharma_buddhism.009.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -176,7 +221,7 @@ dharma_buddhism.011 = {# Visiting the Library
 	desc = dharma_buddhism.011.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -255,7 +300,7 @@ dharma_buddhism.013 = {# Meditating with the Monks
 	desc = dharma_buddhism.013.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -275,7 +320,7 @@ dharma_buddhism.015 = {# Vegetarian v non-vegetiarian
 	desc = dharma_buddhism.015.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -303,7 +348,7 @@ dharma_buddhism.016 = {# Recieving an education
 	desc = dharma_buddhism.016.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -373,7 +418,7 @@ dharma_buddhism.019 = {# Donating to the local Monks
 	desc = dharma_buddhism.019.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = tibetan_temple
 	}
 	left_portrait = {
 		character = root
@@ -405,7 +450,7 @@ dharma_buddhism.020 = {# Life Release
 	desc = dharma_buddhism.020.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = wilderness
 	}
 	left_portrait = {
 		character = root
@@ -448,7 +493,7 @@ dharma_buddhism.021 = {# Donating to the Poor
 	desc = dharma_buddhism.021.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = india_shrine
 	}
 	left_portrait = {
 		character = root
@@ -499,7 +544,7 @@ dharma_buddhism.023 = {# First Harvest Offerings
 	desc = dharma_buddhism.023.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -578,7 +623,7 @@ dharma_buddhism.100 = {# Departing for the monastasry
 	desc = dharma_buddhism.100.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -610,7 +655,7 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 	desc = dharma_buddhism.101.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -746,7 +791,7 @@ dharma_buddhism.102 = {# Back to basics
 	desc = dharma_buddhism.102.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -766,7 +811,7 @@ dharma_buddhism.103 = {# monastic food
 	desc = dharma_buddhism.103.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -787,7 +832,7 @@ dharma_buddhism.104 = {# Meditate with eyes shut
 	desc = dharma_buddhism.104.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -807,7 +852,7 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 	desc = dharma_buddhism.105.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -829,7 +874,7 @@ dharma_buddhism.106 = {# Numb legs
 	desc = dharma_buddhism.106.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -852,7 +897,7 @@ dharma_buddhism.107 = {# An exam
 	desc = dharma_buddhism.107.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -870,7 +915,7 @@ dharma_buddhism.108 = {# Master's wisdom
 	desc = dharma_buddhism.108.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -891,7 +936,7 @@ dharma_buddhism.110 = {# Distract self or not?
 	desc = dharma_buddhism.110.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -920,7 +965,7 @@ dharma_buddhism.111 = {# Whack!
 	desc = dharma_buddhism.111.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -940,7 +985,7 @@ dharma_buddhism.112 = {# Energized!
 	desc = dharma_buddhism.112.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -963,7 +1008,7 @@ dharma_buddhism.113 = {# Going outside
 	desc = dharma_buddhism.113.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -983,7 +1028,7 @@ dharma_buddhism.114 = {# Questions and Answers
 	desc = dharma_buddhism.114.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
@@ -1003,7 +1048,7 @@ dharma_buddhism.115 = {# Heightened Senses
 	desc = dharma_buddhism.115.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = cliff_temple
 	}
 	left_portrait = {
 		character = root
