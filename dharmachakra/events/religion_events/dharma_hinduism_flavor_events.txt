@@ -41,7 +41,7 @@ dharma_hinduism.002 = {# Tell me more, Hindu ascetic
 	desc = dharma_hinduism.002.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = india_shrine
 	}
 	left_portrait = {
 		character = root
@@ -76,7 +76,7 @@ dharma_hinduism.003 = {# Doing Yoga with the Monk
 	desc = dharma_hinduism.003.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = india_shrine
 	}
 	left_portrait = {
 		character = root
@@ -101,7 +101,7 @@ dharma_hinduism.004 = {# Meditating with the Monk
 	desc = dharma_hinduism.004.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = india_shrine
 	}
 	left_portrait = {
 		character = root
@@ -174,7 +174,7 @@ dharma_hinduism.006 = {# Local Hindu temple asks for donations
 	desc = dharma_hinduism.006.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -203,7 +203,7 @@ dharma_hinduism.007 = {# Local Hindu Temple wants a new Murti statue
 	desc = dharma_hinduism.007.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -232,7 +232,7 @@ dharma_hinduism.008 = {# Recieving Prasada
 	desc = dharma_hinduism.001.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -259,7 +259,7 @@ dharma_hinduism.009 = {# Chanting the Gods mantras
 	desc = dharma_hinduism.001.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root
@@ -285,7 +285,7 @@ dharma_hinduism.010 = {# Studying the Vedas at the Temple
 	desc = dharma_hinduism.001.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = forest_temple
 	}
 	left_portrait = {
 		character = root

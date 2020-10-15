@@ -169,7 +169,7 @@ select_personal_nat_decision = {# Burmese Gods and Goddesses
 
 	effect = {
 		custom_tooltip = select_personal_nat_decision_tt
-		trigger_event = dharma_buddhism.200
+		trigger_event = dharma_buddhism.201
 	}
 
 	ai_check_interval = 96

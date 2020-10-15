@@ -50,8 +50,8 @@ tibet_deity_sherab_chamma = {# Great Wisdom Loving Mother
 
 tibet_deity_palden_lhamo = {# Palden_Lhamo
 	icon = prowess_positive
-	attacker_advantage = 3
-	prowess = 4
+	attacker_advantage = 2
+	prowess = 2
 }
 tibet_deity_tara = {# Tara
 	icon = learning_positive
@@ -116,9 +116,9 @@ nat_ari_shwe_nabay = {# Shwe Nabay, the Attractive Wife.
 # Burmese Deities - Thereavada
 ##########################################
 nat_therevada_thurathadi = {# Thurathadi, Nat of Eloquance
-	icon = prowess_positive
-	attacker_advantage = 3
-	prowess = 4
+	icon = diplomacy_positive
+	diplomacy = 2
+	monthly_prestige_gain_mult = 0.2
 }
 nat_therevada_lokanat = {# Lokanat
 	icon = diplomacy_positive
@@ -138,7 +138,8 @@ nat_therevada_shin_upagutta = {# Shin Upagutta, Arhat that protects people from 
 }
 nat_therevada_manimekhala = {# Manimekhala, The Guardian of the Sea. 
 	icon = stewardship_positive
-	stewardship = 3
+	stewardship = 2
+	naval_movement_speed_mult = 0.05
 }
 ##########################################
 # Province and character Modifers

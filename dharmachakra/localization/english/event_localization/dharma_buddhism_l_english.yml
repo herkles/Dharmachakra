@@ -34,7 +34,7 @@ dharma_buddhism.008.monk:0 "This is a blessed Day"
 
 ######## BUDDHIST FLAVOR - VISITING NALANDA ########
 dharma_buddhism.008.t:0 "Invitation to Visit Nalanda"
-dharma_buddhism.008.desc:0 "You have received a visitor - an emissary from the famous university at Nalanda. He tells of you of the research and other work they do there and offers you a formal invitation to visit and see this marvel of Bihar. Should you stay where you are now, or Should you go to the University? "
+dharma_buddhism.008.desc:0 "You have received a visitor - an emissary from the famous university at Nalanda. He tells of you of the research and other work they do there and offers you a formal invitation to visit and see this marvel of Bihar. Should you stay where you are now, or Should you go to the University?"
 dharma_buddhism.008.stay:0 "I shall Stay"
 dharma_buddhism.008.go:0 "I shall Go"    
 
@@ -49,7 +49,6 @@ dharma_buddhism.011.hindu:0 "Hindu Texts"
 dharma_buddhism.011.jain:0 "Jain Texts"
 dharma_buddhism.011.medical:0 "Medicial Texts"
 dharma_buddhism.011.astrology:0 "Astrology Texts"
-dharma_buddhism.011.philosophical:0 "Philosophical Texts"
 
 dharma_buddhism.013.t:0 "Meditating with the Monks"
 dharma_buddhism.013.desc:0 "This morning at the University, you woke with the Monks to meditate with them. After the Meditation session you found yourself more energized and relaxed. "
@@ -107,7 +106,7 @@ dharma_buddhism.023.people:0 "The People get the first offering"
 
 ######## BUDDHIST RETREAT ########
 dharma_buddhism.100.t:0 "Departing for a Spiritual Retreat"
-dharma_buddhism.100.desc:0 "Even if I am a well-off [Root.GetTitle] who has everything in the world, I feel like I am still lacking, spiritually. I've decided to thus go to one of monastaries in the region, and participate in a spiritual retreat for an extended period of time."
+dharma_buddhism.100.desc:0 "Even if I am well-off  who has everything in the world, I feel like I am still lacking, spiritually. I've decided to thus go to one of monastaries in the region, and participate in a spiritual retreat for an extended period of time."
 dharma_buddhism.100.depart:0 "Onwards to the Monastary"
 dharma_buddhism.100.optout:0 "On second thought"
 flavor = dharma_buddhism.100.optout.flavor:0 "You decide to not go on a Spiritual Retreat at this point."
@@ -131,7 +130,7 @@ dharma_buddhism.104.desc:0 "I'm attempting to meditate with my eyes half-open, a
 dharma_buddhism.104.a:0 "Better try it with my eyes shut for now"
 
 dharma_buddhism.105.t:0 "Uncomfortable Robes"
-dharma_buddhism.105.desc:0 "I have to wear the robes of other monastics on the retreat, in addition to being simple robes for a [root.GetTitle], they are rather uncomfortable!"
+dharma_buddhism.105.desc:0 "I have to wear the robes of other monastics on the retreat, in addition to being simple robes for one of my station they are rather uncomfortable!"
 dharma_buddhism.105.a:0 "I must bear with them, to focus on my concentration"
 
 dharma_buddhism.106.t:0 "Numb Legs"
@@ -173,7 +172,7 @@ dharma_buddhism.115.a:0 "I must not, however, get so attached to such abilities"
 
 dharma_buddhism.116.t:0 "The Retreat Ends"
 dharma_buddhism.116.desc:0 "My spiritual retreat has ended. I feel strange, even frightened, leaving the temple and readjusting to normal life. The retreat was a strange, uncomfortable experience, after all, and I still think of it as rather difficult, yet I learned much.\n\nCompassion. Mindfulness. Patience. Inner peace.\n\nI have been exposed to the Dharma in ways I could not have possibly imagined. Can I possibly put these lessons to practice"
-dharma_buddhism.116.better:0 "Time to return Home,a changed [root.GetWomanMan]"
+dharma_buddhism.116.better:0 "Time to return Home changed."
 dharma_buddhism.116.mystic:0 "Time to return Home, with much insight"
 dharma_buddhism.116.pious:0 "Time to return Home, having learned much of the Buddha's dharma"
 dharma_buddhism.116.nothing:0 "Time to return Home"
@@ -190,7 +189,7 @@ dharma_buddhism.116.nothing:0 "Time to return Home"
  dharma_buddhism.200.zhambala:0 "Zamba Lha, Prosperity Deity is the deity who manifests wealth and prosperity"
  dharma_buddhism.200.chamma:0 "Sherab Chamma, Mother of all Enlightened Ones and source of all love and Compassion."
  # Buddhist Deities
- dharma_buddhism.200.palden:0 "Palden Lhamo, whose wisdom and compassion overcome every obstacle."
+ dharma_buddhism.200.palden:0 "Palden Lhamo, The wrathful glorious goddess."
  dharma_buddhism.200.tara:0 "Tara, The mother of liberation and the Bodhisattva of compassion and action."
  dharma_buddhism.200.avalokitesvara:0 "Avalokiteśvara the bodhisattva who embodies the compassion of all Buddhas."
  dharma_buddhism.200.yamantaka:0 "Yamantaka, the conquerer of the Lord of Death"

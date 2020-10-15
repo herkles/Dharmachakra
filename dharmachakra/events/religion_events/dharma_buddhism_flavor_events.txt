@@ -78,7 +78,7 @@ dharma_buddhism.003 = {# Making Merit - Buddhist monk asks me for donations
 	}	
 
 	option = {# Here you go
-		name = dharma_buddhism.003.energy
+		name = dharma_buddhism.003.donate
 		remove_short_term_gold = 20
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -376,15 +376,8 @@ dharma_buddhism.016 = {# Recieving an education
 			months = 4
 		}
 	}
-	option = {# Class on Medicine
-		name = dharma_buddhism.016.medicine
-		add_character_modifier = {
-			modifier = nalanda_learning_medicine
-			months = 4
-		}
-	}
 	option = {# Class on Astrology
-		name = dharma_buddhism.016.philosophical
+		name = dharma_buddhism.016.astrology
 		add_character_modifier = {
 			modifier = nalanda_learning_astrology
 			months = 4
@@ -1351,20 +1344,19 @@ dharma_buddhism.200 = {# Tibetan Buddhist Deities
 	# Opt-Out
 	option = {
 		name = dharma_buddhism.200.optout
-		flavor = dharma_buddhism.200.flavor
-
 		ai_chance = {
 			base = 0
 		}		
 	}
 }
+
 dharma_buddhism.201 = {# Burmese Buddhist Deities
 	type = character_event
 	title = dharma_buddhism.201.t
 	desc = dharma_buddhism.201.desc
 	theme = faith
 	override_background = {
-		event_background = tibetan_temple
+		event_background = wood_temple
 	}
 	left_portrait = {
 		character = root
@@ -1478,8 +1470,6 @@ dharma_buddhism.201 = {# Burmese Buddhist Deities
 	# Opt-Out
 	option = {
 		name = dharma_buddhism.201.optout
-		flavor = dharma_buddhism.201.flavor
-
 		ai_chance = {
 			base = 0
 		}		

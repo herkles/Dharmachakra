@@ -45,7 +45,7 @@ dharma_jainism.002 = {# Donations for the Monk
 	desc = dharma_jainism.002.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = india_shrine
 	}
 	left_portrait = {
 		character = root
@@ -60,7 +60,6 @@ dharma_jainism.002 = {# Donations for the Monk
 			greedy = minor_stress_gain
 			improvident = minor_stress_impact_loss
 			generous = minor_stress_impact_loss
-
 		}
 	}
 }
@@ -70,7 +69,7 @@ dharma_jainism.003 = {# Meditating with the Monk
 	desc = dharma_jainism.003.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = india_shrine
 	}
 	left_portrait = {
 		character = root
@@ -93,7 +92,7 @@ dharma_jainism.004 = {# Fasting with the Monk
 	desc = dharma_jainism.004.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = india_shrine
 	}
 	left_portrait = {
 		character = root
@@ -196,7 +195,7 @@ dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 	desc = dharma_jainism.006.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = india_shrine
 	}
 	left_portrait = {
 		character = root
@@ -267,12 +266,10 @@ dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 		}
 		every_in_list = {
 			list = jain_characters
-			custom = dharma_jainism.006.every_jain_character
-
 			add_opinion = {
-				modifier = impious_opinion
+				modifier = annoyed_opinion
 				target = root
-				opinion = -20
+				opinion = -10
 			}
 		}
 	}
@@ -356,19 +353,29 @@ dharma_jainism.008 = {# Fasting
 	option = {# Chauvihar
 		name = dharma_jainism.008.chauvihar
 		flavor = dharma_jainism.008.chauvihar.tt
-
 		add_piety = 2
+		stress_impact = {
+			base = miniscule_stress_impact_gain
+			gluttonous = minor_stress_gain
+		}
 	}
 	option = {# Aayambil
 		name = dharma_jainism.008.aayambil
 		flavor = dharma_jainism.008.aayambil.tt
-
 		add_piety = 6
+		stress_impact = {
+			base = miniscule_stress_impact_gain
+			gluttonous = minor_stress_gain
+		}
 	}
 	option = {# Aathai - 8 day fast
 		name = dharma_jainism.008.aathai
 		flavor = dharma_jainism.008.aathai.tt
-
+		stress_impact = {
+			base = minor_stress_impact_gain
+			inappetetic = miniscule_stress_impact_gain
+			gluttonous = minor_stress_gain
+		}
 		add_piety = 24
 		add_character_modifier = {
 			modifier = exhausted_modifier
@@ -378,7 +385,11 @@ dharma_jainism.008 = {# Fasting
 	option = {# Navai - 9 day fast
 		name = dharma_jainism.008.navai
 		flavor = dharma_jainism.008.navai.tt
-
+		stress_impact = {
+			base = minor_stress_impact_gain
+			inappetetic = miniscule_stress_impact_gain
+			gluttonous = minor_stress_gain
+		}
 		add_piety = 26
 		add_character_modifier = {
 			modifier = exhausted_modifier
@@ -388,7 +399,11 @@ dharma_jainism.008 = {# Fasting
 	option = {# Solbhathu - 16 day fast
 		name = dharma_jainism.008.solbhathu
 		flavor = dharma_jainism.008.solbhathu.tt
-
+		stress_impact = {
+			base = medium_stress_impact_gain
+			inappetetic = minor_stress_gain
+			gluttonous = medium_stress_gain
+		}
 		add_piety = 35
 		add_character_modifier = {
 			modifier = exhausted_modifier
@@ -402,7 +417,7 @@ dharma_jainism.009 = {# New statue of the tirthankaras
 	desc = dharma_jainism.009.desc
 	theme = faith
 	override_background = {
-		event_background = throne_room
+		event_background = wood_temple
 	}
 	left_portrait = {
 		character = root
@@ -425,9 +440,3 @@ dharma_jainism.009 = {# New statue of the tirthankaras
 		add_piety = -20
 	}
 }
-
-
-
-
-
-
