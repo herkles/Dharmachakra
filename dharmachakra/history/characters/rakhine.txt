@@ -1,11 +1,4 @@
-﻿# Clan
-
-# Clan
-
-# Clan
-
-# clan
-# ARAKANESE RULERS
+﻿# ARAKANESE RULERS
 arakan001 = {
 	name = "Mahataingchandra"
 	dynasty = 2000003 #Candras

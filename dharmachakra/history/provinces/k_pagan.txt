@@ -694,7 +694,7 @@
 9624 = {	# 9624 - Kale
 	
 	# Misc
-	culture = burmese
+	culture = chin
 	religion = ari
 	
 	holding = castle_holding
@@ -708,7 +708,7 @@
 9625 = {	# 9625 - Chin
 	
 	# Misc
-	culture = burmese
+	culture = chin
 	religion = ari
 	
 	holding = none

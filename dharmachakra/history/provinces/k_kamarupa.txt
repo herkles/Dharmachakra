@@ -241,7 +241,7 @@
 826 = {	# 826 - Manipur
 	
 	# Misc
-	culture = assamese
+	culture = chin
 	religion = sedism
 	
 	holding = castle_holding

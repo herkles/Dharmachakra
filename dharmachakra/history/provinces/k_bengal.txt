@@ -316,7 +316,7 @@
 853 = {	# 853 - Unakoti
 	
 	# Misc
-	culture = bengali
+	culture = chin
 	religion = theravada
 	
 	holding = castle_holding
