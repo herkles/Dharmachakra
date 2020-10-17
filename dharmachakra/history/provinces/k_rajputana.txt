@@ -13,7 +13,7 @@
 1172 = {	# 1172 - Gwalior
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = smartism
 	
 	# History

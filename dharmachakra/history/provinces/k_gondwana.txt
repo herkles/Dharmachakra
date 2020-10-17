@@ -173,7 +173,7 @@
 1164 = {	# 1164 - Chauragarh
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	holding = castle_holding
@@ -189,7 +189,7 @@
 1165 = {	# 1165 - Bandhugadha
 	
 	# Misc
-	culture = hindustani
+	culture = awadhi
 	religion = mahayana
 	
 	holding = castle_holding
@@ -202,7 +202,7 @@
 1271 = {	# 1271 - Tripuri
 	
 	# Misc
-	culture = hindustani
+	culture = awadhi
 	religion = vaishnavism
 	
 	holding = castle_holding
@@ -215,7 +215,7 @@
 1272 = {	# 1272 - Ratanpur
 	
 	# Misc
-	culture = hindustani
+	culture = chhattisgarhi
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -231,7 +231,7 @@
 1277 = {	# 1277 - Tummana
 	
 	# Misc
-	culture = hindustani
+	culture = chhattisgarhi
 	religion = vaishnavism
 	
 	holding = castle_holding

@@ -2,7 +2,7 @@
 1141 = {	# 1141 - Kol
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vaishnavism
 	
 	# History
@@ -13,7 +13,7 @@
 1168 = {	# 1168 - Mandawar
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -24,7 +24,7 @@
 1173 = {	# 1173 - Sambhal
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -35,7 +35,7 @@
 1352 = {	# 1352 - Sarasvati
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = kalikula_shaktism
 	terrain = jungle
 	
@@ -47,7 +47,7 @@
 1357 = {	# 1357 - Sripatha
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = smartism
 	
 	# History
@@ -58,7 +58,7 @@
 1358 = {	# 1358 - Vodamayutja
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -69,7 +69,7 @@
 1359 = {	# 1359 - Mathura
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vaishnavism
 	
 	# History
@@ -80,7 +80,7 @@
 1364 = {	# 1364 - Tribandapura
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = kalikula_shaktism
 	
 	# History
@@ -91,7 +91,7 @@
 1365 = {	# 1365 - Indraprastha
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vaishnavism
 	
 	# History
@@ -105,7 +105,7 @@
 1366 = {	# 1366 - Asigarh
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vaishnavism
 	
 	# History
@@ -116,7 +116,7 @@
 1367 = {	# 1367 - Saharanpur
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -127,7 +127,7 @@
 1368 = {	# 1368 - Hastinapura
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vaishnavism
 	
 	# History
@@ -138,7 +138,7 @@
 3447 = {	# 3447 - Dhilika
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -149,7 +149,7 @@
 3448 = {	# 3448 - Jahanpanah
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -160,7 +160,7 @@
 3449 = {	# 3449 - Mirath
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -171,7 +171,7 @@
 3450 = {	# 3450 - Indrasthana
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -182,7 +182,7 @@
 3451 = {	# 3451 - Hapur
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -193,7 +193,7 @@
 3452 = {	# 3452 - Sirhind
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -204,7 +204,7 @@
 3453 = {	# 3453 - Sthanisvara
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -215,7 +215,7 @@
 3454 = {	# 3454 - Samana
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -226,7 +226,7 @@
 3455 = {	# 3455 - Asika
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vaishnavism
 	
 	# History
@@ -237,7 +237,7 @@
 3456 = {	# 3456 - Narabhata
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vaishnavism
 	
 	# History
@@ -248,7 +248,7 @@
 3457 = {	# 3457 - Sunam
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = kalikula_shaktism
 	
 	# History
@@ -259,7 +259,7 @@
 3458 = {	# 3458 - Jajjanir
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = kalikula_shaktism
 	
 	# History
@@ -270,7 +270,7 @@
 3459 = {	# 3459 - Bhatnir
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = kalikula_shaktism
 	
 	# History
@@ -281,7 +281,7 @@
 3460 = {	# 3460 - Krishnajanmabhoomi
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = svetambara
 	
 	holding = church_holding
@@ -294,7 +294,7 @@
 3461 = {	# 3461 - Govardhan
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = svetambara
 	
 	# History
@@ -305,7 +305,7 @@
 3462 = {	# 3462 - Agra
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = svetambara
 	
 	# History
@@ -316,7 +316,7 @@
 3463 = {	# 3463 - Soron
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -327,7 +327,7 @@
 3464 = {	# 3464 - Etah
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -338,7 +338,7 @@
 3465 = {	# 3465 - Dhavalapuri
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = svetambara
 	
 	# History
@@ -349,7 +349,7 @@
 3466 = {	# 3466 - Bayana
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = svetambara
 	
 	# History
@@ -360,7 +360,7 @@
 3467 = {	# 3467 - Bareily
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -371,7 +371,7 @@
 3468 = {	# 3468 - Tilokpur
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -382,7 +382,7 @@
 3469 = {	# 3469 - Ahichatra
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -393,7 +393,7 @@
 3470 = {	# 3470 - Ujhani
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -404,7 +404,7 @@
 3471 = {	# 3471 - Amroha
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -415,7 +415,7 @@
 3472 = {	# 3472 - Bachhraon
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -426,7 +426,7 @@
 3473 = {	# 3473 - Gangadvara
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -437,7 +437,7 @@
 3474 = {	# 3474 - Bijnor
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History
@@ -448,7 +448,7 @@
 3475 = {	# 3475 - Rohtak
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = vajrayana
 	
 	# History

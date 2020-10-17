@@ -41,7 +41,7 @@
 	#b_kadungallur = city
 	
 	# Misc
-	culture = tamil
+	culture = malayali
 	religion = shrautism
 	
 	# History
@@ -122,7 +122,7 @@
 	#b_chaliyam = city
 	
 	# Misc
-	culture = tamil
+	culture = malayali
 	religion = vaishnavism
 	
 	# History
@@ -384,7 +384,7 @@
 	#b_chaliyam = city
 	
 	# Misc
-	culture = tamil
+	culture = malayali
 	religion = vaishnavism
 	
 	# History
@@ -430,7 +430,7 @@
 	#b_kadungallur = city
 	
 	# Misc
-	culture = tamil
+	culture = malayali
 	religion = vaishnavism
 	
 	# History
@@ -453,7 +453,7 @@
 	#b_kadungallur = city
 	
 	# Misc
-	culture = tamil
+	culture = malayali
 	religion = vaishnavism
 	
 	# History
@@ -499,7 +499,7 @@
 	#b_kadungallur = city
 	
 	# Misc
-	culture = tamil
+	culture = malayali
 	religion = vaishnavism
 	
 	# History
@@ -521,7 +521,7 @@
 	#b_nagercoil = castle
 	
 	# Misc
-	culture = tamil
+	culture = malayali
 	religion = shaivism
 	
 	# History

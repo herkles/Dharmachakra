@@ -323,7 +323,7 @@
 	#b_lanji = castle
 	
 	# Misc
-	culture = marathi
+	culture = chhattisgarhi
 	religion = vaishnavism
 	
 	# History

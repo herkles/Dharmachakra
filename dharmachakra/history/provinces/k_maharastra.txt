@@ -25,7 +25,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -251,7 +251,7 @@
 	#b_gondia = city
 	
 	# Misc
-	culture = marathi
+	culture = chhattisgarhi
 	religion = svetambara
 	
 	# History
@@ -321,7 +321,7 @@
 	#b_tryambaka = temple
 	
 	# Misc
-	culture = marathi
+	culture = bhil
 	religion = digambara
 	
 	# History
@@ -517,7 +517,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -539,7 +539,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -561,7 +561,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -583,7 +583,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -605,7 +605,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History

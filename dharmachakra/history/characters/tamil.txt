@@ -40,6 +40,7 @@
 	}
 }
 
+
 189033 = {
 	name = "ParA_ntaka" #Parantaka
 	dynasty = 1043008
