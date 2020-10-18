@@ -116,7 +116,7 @@
 1155 = {	# 1155 - Sripuri
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -129,7 +129,7 @@
 1156 = {	# 1156 - Kodalaka
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = mahayana
 	
 	holding = castle_holding
@@ -142,7 +142,7 @@
 1160 = {	# 1160 - Rayapura
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -203,7 +203,7 @@
 1227 = {	# 1227 - Cakrakuta
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -216,7 +216,7 @@
 1228 = {	# 1228 - Swetakapura
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = vaishnavism
 	
 	holding = castle_holding
@@ -229,7 +229,7 @@
 1229 = {	# 1229 - Khinjali
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = suryaism
 	
 	holding = castle_holding
@@ -242,7 +242,7 @@
 1230 = {	# 1230 - Suvarnapura
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -268,7 +268,7 @@
 1247 = {	# 1247 - Khijjinga
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = mahayana
 	
 	holding = castle_holding
@@ -281,7 +281,7 @@
 1249 = {	# 1249 - Sambalpur
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = mahayana
 	
 	holding = castle_holding
@@ -303,7 +303,7 @@
 	#b_barsoor = temple
 	
 	# Misc
-	culture = oriya
+	culture = sambalpuri
 	religion = kalikula_shaktism
 	terrain = jungle
 	
@@ -323,7 +323,7 @@
 	#b_lanji = castle
 	
 	# Misc
-	culture = chhattisgarhi
+	culture = gondi
 	religion = vaishnavism
 	
 	# History

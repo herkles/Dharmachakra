@@ -135,7 +135,7 @@
 	#b_mansar = temple
 	
 	# Misc
-	culture = marathi
+	culture = gondi
 	religion = svetambara
 	
 	# History
@@ -251,7 +251,7 @@
 	#b_gondia = city
 	
 	# Misc
-	culture = chhattisgarhi
+	culture = gondi
 	religion = svetambara
 	
 	# History
@@ -365,7 +365,7 @@
 	#b_gadchiroli = city
 	
 	# Misc
-	culture = telugu
+	culture = gondi
 	religion = svetambara
 	
 	# History
