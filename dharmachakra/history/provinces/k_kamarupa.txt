@@ -293,7 +293,7 @@
 1245 = {	# 1245 - Srihatta
 	
 	# Misc
-	culture = assamese
+	culture = kachari
 	religion = theravada
 	
 	holding = castle_holding
@@ -319,7 +319,7 @@
 1296 = {	# 1296 - Dimapur
 	
 	# Misc
-	culture = assamese
+	culture = kachari
 	religion = theravada
 	
 	holding = castle_holding

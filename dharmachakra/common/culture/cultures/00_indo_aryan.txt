@@ -3581,4 +3581,119 @@
 		}
 	}
 
+	nagpuri  = {# Nagpuri 
+		
+		color = hsv{ 0.95 0.35 0.7 }
+
+		cadet_dynasty_names = {
+			"dynn_Bhanja"
+			"dynn_Gajapati"
+			"dynn_Mayura"
+			"dynn_Shailobhava"
+			"dynn_Kesari"
+			"dynn_Bhanja"
+			"dynn_Bhauma"
+			"dynn_Bhaumakara"
+			"dynn_Kalinga"
+			"dynn_Nanda"
+			"dynn_Mahameghavahana"
+			"dynn_Satavahana"
+			"dynn_Naga"
+			"dynn_Nala"
+			"dynn_Parvatadvarka"
+			"dynn_Sura"
+			"dynn_Sharabhapuriya"
+			"dynn_Mathara"
+			"dynn_Vigraha"
+			"dynn_Mudgalas"
+			"dynn_Durjaya"
+			"dynn_Shailodbhava"
+			"dynn_Bhaumakara"
+			"dynn_Somvanshi"
+			"dynn_Cindaka_Naga"
+			"dynn_Eastern_Ganga"
+			"dynn_Gajapati"
+			"dynn_Bhoi"
+		}
+
+		dynasty_names = {
+			"dynn_Bhanja"
+			"dynn_Gajapati"
+			"dynn_Mayura"
+			"dynn_Shailobhava"
+			"dynn_Kesari"
+			"dynn_Bhanja"
+			"dynn_Bhauma"
+			"dynn_Bhaumakara"
+			"dynn_Kalinga"
+			"dynn_Nanda"
+			"dynn_Mahameghavahana"
+			"dynn_Satavahana"
+			"dynn_Naga"
+			"dynn_Nala"
+			"dynn_Parvatadvarka"
+			"dynn_Sura"
+			"dynn_Sharabhapuriya"
+			"dynn_Mathara"
+			"dynn_Vigraha"
+			"dynn_Mudgalas"
+			"dynn_Durjaya"
+			"dynn_Shailodbhava"
+			"dynn_Bhaumakara"
+			"dynn_Somvanshi"
+			"dynn_Cindaka_Naga"
+			"dynn_Eastern_Ganga"
+			"dynn_Gajapati"
+			"dynn_Bhoi"
+		}
+
+		male_names = {
+			Anangabhima Anantasaktivarman Anantavarman Apsaradeva Arthapatiraja Ayasobhita Balabhadra Barjena
+			Betta Bhanu Bhavadattavarman Bhimaratha Bhimasena Bhramarbara Bhupendra Bhupendravarman Chandravarman
+			Charamparaja Damodara Danai Danarnava Dayita Dayitavarman Devananda Devendravarman Dharmaraja Dharmarstha
+			Dhruvananda Dibyasingha Digbhanja Durgaraja Durjaya Durjayabhanja Gangadhara Gandhata Gangakavilasa Gayada
+			Gopinatha Gunamaharnava Gunarnava Gundama Hamvira Harekrushna Hastivarman Hemantavarman Indranatha Indravarman
+			Jahangir Janmejaya Jayananda Jayaraja Jayasimha Jayasthambha Jayavarma Jayavarmadeva Kakharua Kalaha Kalahastambha
+			Kalasa Kalua Kalyankalasa Kamarnava Kanchana Kanchanastambha Kapilendra Kapilendradeva Karnadeva Khadaga Kotta
+			Kottabhanja Ksemankaradeva Kulastambha Lakshmikaradeva Madhavaraja Madhavavarman Madhukamarnava Mahendraditya
+			Mahendravarman Mahinda Manamatra Matradhyarya Mukunda Nahusa Nandaprabhanjana Nandaprabhanjanavarman Nandavarman
+			Narasimha Narendra Netta Nettabhanja Padmanava Paramananda Prasannamatra Prataparudra Pravaraja Prithivarman
+			Prithivimaharaja Prithvibhanja Prithvidena Pulindasena Puranjaya Purushottama Rajabhanja Rajaraja Ramachandra
+			Ramachandradeva Ranabhanja Ranabhita Ranadurjaya Ranga Rangabhanja Sailobhava Sainyabita Saktivarman Samantavarman
+			Sambhuyasa Sankaravarman Santikaradeva Sarabha Satru Satrubhanja Satyavarman Sila Silabhanja Sivakaradeva Sivananda
+			Skandavarman Sobhanaraja Solyana Subhakaradeva Sudevaraja Suravala Teja Tejavarsha Tustikara Udaya Udayavarsha Udita
+			Udyotakesari Umavarman Unmattasimha Utidavarsha Vaaraharaja Vajrahasta Vidhyadhara Vidhyadharabhanja Vijaya Vinayaditya
+			Vinita Vishakavarman Vrishadhvaja Vyaghraraja Yayati
+		}
+		female_names = {
+			Ahiavadevi Apsaradevi Bhogavati Dandi Dandimahadevi Dattadevi Devavati Dharma Dharmamahadevi Durlabha Gandharavati
+			Gauri Gaurimahadevi Kalyanavati Karnadevi Kuladevi Lakshmi Lakshmikaradevi Lilavati Mahadevi Nayanadevi Rajasundari
+			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
+		}
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
+		ethnicities = {
+			10 = indian
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_oriya_band" }
+			{ name = "mercenary_company_company_of_odisha" }
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

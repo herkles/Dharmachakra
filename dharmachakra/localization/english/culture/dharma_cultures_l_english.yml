@@ -1,43 +1,8 @@
 ﻿l_english:
- #Dravidian group
- dravidian_group:0 "Dravidian"
- dravidian_group_collective_noun:0 "Dravidians"
- tamil:0 "Tamil"
- tamil_collective_noun:1 "Tamils"
- telugu:0 "Telugu"
- telugu_collective_noun:1 "Telugus"
- kannada:0 "Kannada"
- kannada_collective_noun:1 "Kannadans"
+#New Dravidian Cultures
  malayali:0 "Malayali"
  malayali_collective_noun:1 "Malayalis"
-
- #Indo Aryan
- indo_aryan_group:0 "Indo-Aryan"
- indo_aryan_group_collective_noun:0 "Indo-Aryans"
- bengali:0 "Bengali"
- bengali_collective_noun:0 "Bengali"
- oriya:0 "Oriya"
- oriya_collective_noun:1 "Oriyas"
- assamese:0 "Assamese"
- assamese_collective_noun:0 "Assamese"
- hindustani:0 "Hindustani"
- hindustani_collective_noun:0 "Hindustani"
- gujarati:0 "Gujarati"
- gujarati_collective_noun:1 "Gujarats"
- punjabi:0 "Punjabi"
- punjabi_collective_noun:1 "Punjabs"
- rajput:0 "Rajasthani"
- rajput_collective_noun:1 "Rajasthanis"
- sindhi:0 "Sindhi"
- sindhi_collective_noun:1 "Sindhs"
- marathi:0 "Marathi"
- marathi_collective_noun:1 "Marathis"
- sinhala:0 "Sinhala"
- sinhala_collective_noun:1 "Sinhalas"
- nepali:0 "Nepali"
- nepali_collective_noun:1 "Nepalese"
- kashmiri:0 "Kashmiri"
- kashmiri_collective_noun:0 "Kashmiris"
+# New Indo Aryan Cultures
  konkani:0 "Konkani"
  konkani_collective_noun:0 "Konkanis"
  bihari:0 "Bihari"
@@ -46,55 +11,30 @@
  braj_collective_noun:0 "Brajis"
  awadhi:0 "Awadhi"
  awadhi_collective_noun:0 "Awadhis"
-
  saurashtra:0 "Saurashtra"
  saurashtra_collective_noun:0 "Saurashtrians"
-
  bhil:0 "Bhil"
  bhil_collective_noun:0 "Bhils"
-
  malvi:0 "Malvi"
  malvi_collective_noun:0 "Malvis"
-
  chhattisgarhi:0 "Chhattisgarhi"
  chhattisgarhi_collective_noun:0 "Chhattisgarhis"
- #Iranian group
- iranian_group:0 "Iranian"
- iranian_group_collective_noun:0 "Iranians"
- persian:0 "Persian"
- persian_collective_noun:1 "Persians"
- sogdian:0 "Sogdian"
- sogdian_collective_noun:1 "Sogdians"
- tocharian:0 "Tocharian"
- tocharian_collective_noun:1 "Tocharians"
- kurdish:0 "Kurdish"
- kurdish_collective_noun:1 "Kurds"
+ nagpuri:0 "Nagpuri"
+ nagpuri_collective_noun:0 "Nagpuris"
+
+
+
+# New Iranian Cultures
  afghan:0 "Pashtun"
  afghan_collective_noun:1 "Pashtuns"
- baloch:0 "Baloch"
- baloch_collective_noun:1 "Balochs"
- saka:0 "Saka"
- saka_collective_noun:1 "Sakas"
- daylamite:0 "Daylamite"
- daylamite_collective_noun:0 "Daylamites"
- khwarezmian:0 "Khwarezmian"
- khwarezmian_collective_noun:0 "Khwarezmians"
- tajik:0 "Tajik"
- tajik_collective_noun:0 "Tajiks"
-# Burman Group
- #Burman
- burman_group:0 "Burman"
- burman_group_collective_noun:0 "Burmans"
- burmese:0 "Burmese"
- burmese_collective_noun:0 "Burmese"
- mon:0 "Mon"
- mon_collective_noun:0 "Mons"
+# New Burman Cultures
  rakhine:0 "Rakhine"
  rakhine_collective_noun:0 "Rakhines"
  chin:0 "Chin"
  chin_collective_noun:0 "Chins"
-
-
+# New Tibetan Cultures
+ kachari:0 "Kachari"
+ kachari_collective_noun:0 "Kacharis"
 
 
 

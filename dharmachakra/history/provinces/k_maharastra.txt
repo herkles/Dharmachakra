@@ -321,7 +321,7 @@
 	#b_tryambaka = temple
 	
 	# Misc
-	culture = bhil
+	culture = marathi
 	religion = digambara
 	
 	# History
