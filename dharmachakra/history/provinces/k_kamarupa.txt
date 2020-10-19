@@ -280,7 +280,7 @@
 1244 = {	# 1244 - Kamatapur
 	
 	# Misc
-	culture = assamese
+	culture = rajbongshi
 	religion = vajrayana
 	
 	holding = castle_holding

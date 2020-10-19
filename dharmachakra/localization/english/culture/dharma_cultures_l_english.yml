@@ -3,7 +3,7 @@
  malayali:0 "Malayali"
  malayali_collective_noun:1 "Malayalis"
  gondi:0 "Gondi"
- gondi_collective_noun:1 "gonds"
+ gondi_collective_noun:1 "Gonds"
 # New Indo Aryan Cultures
  konkani:0 "Konkani"
  konkani_collective_noun:0 "Konkanis"
@@ -25,9 +25,11 @@
  nagpuri_collective_noun:0 "Nagpuris"
  sambalpuri:0 "Sambalpuri"
  sambalpuri_collective_noun:0 "Sambalpuris"
+ rajbongshi:0 "Rajbongshi"
+ rajbongshi_collective_noun:1 "Rajbongshis"
 # New Iranian Cultures
  afghan:0 "Pashtun"
- afghan_collective_noun:1 "Pashtuns"
+ afghan_collective_noun:0 "Pashtuns"
 # New Burman Cultures
  rakhine:0 "Rakhine"
  rakhine_collective_noun:0 "Rakhines"
