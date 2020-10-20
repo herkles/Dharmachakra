@@ -136,7 +136,10 @@
 	religion = vaishnavism
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = ajanta_caves_01
+		special_building = ajanta_caves_01
+	}
 }
 
 # 1189 - Amalner
@@ -377,6 +380,10 @@
 	holding = church_holding
 	
 	# History
+	800.1.1 = {
+		special_building_slot = sanchi_01
+		special_building = sanchi_01
+	}
 	1066.1.1 = {
 		religion = smartism
 	}

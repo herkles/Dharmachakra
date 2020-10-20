@@ -21,3 +21,16 @@
 	# History
 }
 
+3282 = {# 1215 - Dhamballi
+	
+	# Misc
+	culture = sinhala
+	religion = theravada
+	
+	# History
+	800.1.1 = {
+		special_building_slot = dambulla_cave_temple_01
+		special_building = dambulla_cave_temple_01
+	}
+
+}

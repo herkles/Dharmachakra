@@ -17,7 +17,9 @@
 	religion = smartism
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = gwalior_fort_01
+	}
 }
 
 # 1174 - Candravati
@@ -29,7 +31,9 @@
 	terrain = desert
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = gwalior_fort_01
+	}
 }
 
 # 1176 - Medantaka
@@ -73,7 +77,9 @@
 	religion = svetambara
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = chittorgarh_01
+	}
 }
 
 # 1304 - Ludrava
@@ -161,7 +167,9 @@
 	religion = svetambara
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = ranthambore_01
+	}
 }
 
 # 3338 - Sheopur

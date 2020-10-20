@@ -258,9 +258,14 @@ katas_raj_temples_01 = {# Katas Raj Temples
 
 	cost_gold = 3000
 
+	character_modifier = {
+		piety_level_impact_mult = 0.5
+	}
 	county_modifier = {
-		tax_mult = 0.05
-	}	
+		tax_mult = 0.2
+		development_growth_factor = 0.25
+		development_growth = 0.2
+	}
 
 	ai_value = {
 		base = 100
@@ -330,9 +335,9 @@ sanchi_01 = {# Sanchi
 	
 	is_enabled = {
 		custom_description = {
-			text = multan_sun_temple_ruins_trigger
+			text = sanchi_trigger
 			scope:holder = {
-				religion = { is_in_family = rf_eastern }
+				faith = { religion_tag = buddhism_religion }
 			}
 		}
 	}
@@ -506,43 +511,6 @@ pabonka_hermitage_01 = {# Pabonka Hermitage
 		development_growth = 0.2
 	}
 		
-	ai_value = {
-		base = 100
-	}
-	
-	type = special
-}
-########## Mogao Caves ##########
-mogao_caves_01 = {# Mogao Caves
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_structure_cathedral_indian.dds"
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	
-	is_enabled = {
-		custom_description = {
-			text = multan_sun_temple_ruins_trigger
-			scope:holder = {
-				religion = { is_in_family = rf_eastern }
-			}
-		}
-	}
-
-	cost_gold = 3000
-
-	character_modifier = {
-		monthly_piety_gain_mult = 0.1
-		diplomacy_per_piety_level = 1
-	}
-	county_modifier = {
-		tax_mult = 0.1
-		development_growth = 0.2
-		development_growth_factor = 0.75
-	}
-	
 	ai_value = {
 		base = 100
 	}
@@ -753,12 +721,18 @@ rani_ki_vav_01 = {# Rani Ki Vav
 
 	cost_gold = 3000
 
-	character_modifier = {
-		monthly_dynasty_prestige_mult = 0.05
-		short_reign_duration_mult = -0.2
-	}
 	county_modifier = {
-		development_growth = 0.1
+		development_growth_factor = 0.3
+		development_growth = 0.3
+		tax_mult = 0.5
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		garrison_size = 1
+		fort_level = 3
+		levy_size = 1
+		defender_advantage = 10
 	}
 		
 	ai_value = {

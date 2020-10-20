@@ -52,6 +52,11 @@
 	religion = digambara
 	
 	# History
+	800.1.1 = {
+		special_building_slot = elephanta_caves_01
+		special_building = elephanta_caves_01
+	}
+
 }
 
 # 1142 - Pratishthana
@@ -1074,6 +1079,10 @@
 	terrain = mountain
 	
 	# History
+	800.1.1 = {
+		special_building_slot = ellora_caves_01
+		special_building = ellora_caves_01
+	}
 }
 
 # 7900 - Jhodga

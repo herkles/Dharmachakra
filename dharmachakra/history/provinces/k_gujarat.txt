@@ -336,7 +336,10 @@
 	religion = digambara
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = palitana_temple_01
+		special_building = palitana_temple_01
+	}
 }
 
 # 3365 - Moherak

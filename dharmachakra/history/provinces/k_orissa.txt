@@ -21,7 +21,9 @@
 	holding = city_holding
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = konark_sun_temple_01
+	}
 }
 
 # 929 - Dhauli
