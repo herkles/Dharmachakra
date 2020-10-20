@@ -694,7 +694,7 @@
 9624 = {	# 9624 - Kale
 	
 	# Misc
-	culture = chin
+	culture = meitei
 	religion = ari
 	
 	holding = castle_holding

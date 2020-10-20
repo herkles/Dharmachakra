@@ -241,7 +241,7 @@
 826 = {	# 826 - Manipur
 	
 	# Misc
-	culture = chin
+	culture = meitei
 	religion = sedism
 	
 	holding = castle_holding

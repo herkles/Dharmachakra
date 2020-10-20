@@ -1,0 +1,142 @@
+﻿l_english:
+# Hindu Temples 
+ building_type_multan_sun_temple_01:0 "Ruins of the Multan Sun Temple"
+ building_type_multan_sun_temple_01_desc:0 "The Multan Sun Temple once a thriving center for the worship of the God Surya has fallen into Ruins. The statue to the God has been destroyed and pale replica was left in its place. A shrewd $rf_eastern$ ruler might even be able to pull a profit from the pilgrims, in addition to gaining some personal insights should anyone decide to restore it."
+ building_type_multan_sun_temple_02:0 "Multan Sun Temple"
+ building_type_multan_sun_temple_02_desc:0 "The ancient temple dedicated to the God Surya has been restored. The golden statue of the Splended Sun has once again been restored to the temple.  The temple is once again decorated with Gold, silver and gems from its doors and pillars to the Shikhara. Pilgrams and travelers a plenty come from near to pay homage to Surya and the other venerated figures within the temple."
+ building_multan_sun_temple_01:0 "$building_type_multan_sun_temple_01$"
+ building_multan_sun_temple_01_desc:0 "$building_type_multan_sun_temple_01_desc$"
+ building_multan_sun_temple_02:0 "$building_type_multan_sun_temple_02$"
+ building_multan_sun_temple_02_desc:0 "$building_type_multan_sun_temple_02_desc$"
+ multan_sun_temple_rebuilt_trigger:0 "The [holder|E] must be of the $rf_eastern$ [religious_family|E]"
+ multan_sun_temple_ruins_trigger:0 "The [holder|E] must be of the $rf_eastern$ [religious_family|E]"
+
+ building_type_ellora_caves_01:0 "Title"
+ building_type_ellora_caves_01_desc:0 "Description"
+ building_ellora_caves_01:0 "$building_type_ellora_caves_01$"
+ building_ellora_caves_01_desc:0 "$building_type_ellora_caves_01_desc$"
+
+ building_type_ajanta_caves_01:0 "Title"
+ building_type_ajanta_caves_01_desc:0 "Description"
+ building_ajanta_caves_01:0 "$building_type_ajanta_caves_01_01$"
+ building_ajanta_caves_01_desc:0 "$building_type_ajanta_caves_01_desc$"
+
+ building_type_pattadakal_01:0 "Title"
+ building_type_pattadakal_01_desc:0 "Description"
+ building_pattadakal_01:0 "$building_type_pattadakal_01$"
+ building_pattadakal_01_desc:0 "$building_type_pattadakal_01_desc$"
+
+ building_elephanta_caves_01:0 "Title"
+ building_type_elephanta_caves_01_desc:0 "Description"
+ building_elephanta_caves_01:0 "$building_elephanta_caves_01$"
+ building_elephanta_caves_01_desc:0 "$building_type_elephanta_caves_01_desc$"
+
+ building_type_katas_raj_temples_01:0 "Title"
+ building_type_katas_raj_temples_01_desc:0 "Description"
+ building_katas_raj_temples_01:0 "$building_type_katas_raj_temples_01$"
+ building_katas_raj_temples_01_desc:0 "$building_type_katas_raj_temples_01_desc$"
+
+ building_type_konark_sun_temple_01:0 "Title"
+ building_type_konark_sun_temple_01_desc:0 "Description"
+ building_konark_sun_temple_01:0 "$building_type_konark_sun_temple_01$"
+ building_konark_sun_temple_01:0 "$building_type_konark_sun_temple_01_desc$"
+
+# Buddhist Temples 
+ building_type_sanchi_01:0 "Title"
+ building_type_sanchi_01_desc:0 "Description"
+ building_sanchi_01:0 "$building_type_sanchi_01$"
+ building_sanchi_01_desc:0 "$building_type_sanchi_01_desc$"
+
+ building_type_lumbini_01:0 "Title"
+ building_type_lumbini_01_desc:0 "Description"
+ building_lumbini_01:0 "$building_type_lumbini_01$"
+ building_lumbini_01_desc:0 "$building_type_lumbini_01_desc$"
+
+ building_type_takht_i_bahi_01:0 "Title"
+ building_type_takht_i_bahi_01_desc:0 "Description"
+ building_takht_i_bahi_01:0 "$building_type_takht_i_bahi_01$"
+ building_takht_i_bahi_01_desc:0 "$building_type_takht_i_bahi_01_desc$"
+
+ building_type_takht_i_bahi_02:0 "Title"
+ building_type_takht_i_bahi_02_desc:0 "Description"
+ building_takht_i_bahi_02:0 "$building_type_takht_i_bahi_02$"
+ building_takht_i_bahi_02_desc:0 "$building_type_takht_i_bahi_02_desc$"
+
+ building_type_dambulla_cave_temple_01:0 "Title"
+ building_type_dambulla_cave_temple_01_desc:0 "Description"
+ building_dambulla_cave_temple_01:0 "$building_type_dambulla_cave_temple_01$"
+ building_dambulla_cave_temple_01_desc:0 "$building_type_dambulla_cave_temple_01_desc$"
+
+ building_type_pabonka_hermitage_01:0 "Title"
+ building_type_pabonka_hermitage_01_desc:0 "Description"
+ building_pabonka_hermitage_01:0 "$building_type_pabonka_hermitage_01$"
+ building_pabonka_hermitage_01_desc:0 "$building_type_pabonka_hermitage_01_desc$"
+
+ building_type_mogao_caves_01:0 "Title"
+ building_type_mogao_caves_01_desc:0 "Description"
+ building_mogao_caves_01:0 "$building_type_mogao_caves_01$"
+ building_mogao_caves_01_desc:0 "$building_type_mogao_caves_01_desc$"
+
+# Jain Temples
+ building_type_palitana_temple_01:0 "Title"
+ building_type_palitana_temple_01_desc:0 "Description"
+ building_palitana_temple_01:0 "$building_type_palitana_temple_01$"
+ building_palitana_temple_01_desc:0 "$building_type_palitana_temple_01_desc$"
+
+# Islamic Mosques
+ building_type_firozkoh_mosque_01:0 "Title"
+ building_type_firozkoh_mosque_01_desc:0 "Description"
+ building_firozkoh_mosque_01:0 "$building_type_firozkoh_mosque_01$"
+ building_firozkoh_mosque_01_desc:0 "$building_type_firozkoh_mosque_01_desc$"
+
+ building_type_adina_mosque_01:0 "Title"
+ building_type_adina_mosque_01_desc:0 "Description"
+ building_adina_mosque_01:0 "$building_type_adina_mosque_01$"
+ building_adina_mosque_01_desc:0 "$building_type_adina_mosque_01_desc$"
+
+# Forts and Castles
+ building_type_chittorgarh_01:0 "Title"
+ building_type_chittorgarh_01_desc:0 "Description"
+ building_chittorgarh_01:0 "$building_type_chittorgarh_01$"
+ building_chittorgarh_01_desc:0 "$building_type_chittorgarh_01_desc$"
+
+ building_type_ranthambore_01:0 "Title"
+ building_type_ranthambore_01_desc:0 "Description"
+ building_ranthambore_01:0 "$building_type_ranthambore_01$"
+ building_ranthambore_01_desc:0 "$building_type_ranthambore_01_desc$"
+
+ building_type_amer_fort_01:0 "Title"
+ building_type_amer_fort_01_desc:0 "Description"
+ building_amer_fort_01:0 "$building_type_amer_fort_01$"
+ building_amer_fort_01_desc:0 "$building_type_amer_fort_01_desc$"
+
+ building_type_jaisalmer_fort_01:0 "Title"
+ building_type_jaisalmer_fort_01_desc:0 "Description"
+ building_jaisalmer_fort_01:0 "$building_type_jaisalmer_fort_01$"
+ building_jaisalmer_fort_01_desc:0 "$building_type_jaisalmer_fort_01_desc$"
+
+ building_type_gwalior_fort_01:0 "Title"
+ building_type_gwalior_fort_01_desc:0 "Description"
+ building_gwalior_fort_01:0 "$building_type_gwalior_fort_01$"
+ building_gwalior_fort_01_desc:0 "$building_type_gwalior_fort_01_desc$"
+
+ building_type_vijaydurg_01:0 "Title"
+ building_type_vijaydurg_01_desc:0 "Description"
+ building_vijaydurg_01:0 "$building_type_vijaydurg_01$"
+ building_vijaydurg_01_desc:0 "$building_type_vijaydurg_01_desc$"
+
+ building_type_yungbulakang_palace_01:0 "Title"
+ building_type_yungbulakang_palace_01_desc:0 "Description"
+ building_yungbulakang_palace_01:0 "$building_type_yungbulakang_palace_01$"
+ building_yungbulakang_palace_01_desc:0 "$building_type_yungbulakang_palace_01_desc$"
+
+ building_type_potala_palace_01:0 "Title"
+ building_type_potala_palace_01_desc:0 "Description"
+ building_potala_palace_01:0 "$building_type_potala_palace_01$"
+ building_potala_palace_01_desc:0 "$building_type_potala_palace_01_desc$"
+
+# Other Buildings
+ building_type_rani_ki_vav_01:0 "Title"
+ building_type_rani_ki_vav_01_desc:0 "Description"
+ building_rani_ki_vav_01:0 "$building_type_ellora_caves_01$"
+ building_rani_ki_vav_01_desc:0 "$building_type_ellora_caves_01_desc$"
