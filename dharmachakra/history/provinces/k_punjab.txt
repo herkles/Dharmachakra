@@ -22,7 +22,7 @@
 1179 = {	# 1179 - Sakala
 	
 	# Misc
-	culture = punjabi
+	culture = pahari
 	religion = vajrayana
 	
 	# History
@@ -77,7 +77,7 @@
 1193 = {	# 1193 - Jalandhar
 	
 	# Misc
-	culture = punjabi
+	culture = pahari
 	religion = vajrayana
 	
 	# History

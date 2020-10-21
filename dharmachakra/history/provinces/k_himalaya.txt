@@ -42,7 +42,7 @@
 	# 9090 - Devalgarh
 	
 	# Misc
-	culture = nepali
+	culture = kumaoni
 	religion = shaivism
 	
 	holding = castle_holding
@@ -56,7 +56,7 @@
 	# 9091 - Kartikeyapura
 	
 	# Misc
-	culture = nepali
+	culture = kumaoni
 	religion = shaivism
 	
 	holding = castle_holding
@@ -70,7 +70,7 @@
 	# 9092 - Champawat
 	
 	# Misc
-	culture = nepali
+	culture = kumaoni
 	religion = shaivism
 	
 	holding = castle_holding
@@ -106,7 +106,7 @@
 9095 = {	# 9095 - Doti
 	
 	# Misc
-	culture = nepali
+	culture = kumaoni
 	religion = shaivism
 	
 	holding = castle_holding

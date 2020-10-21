@@ -1,0 +1,204 @@
+# 4343 - Bamiyan
+
+# 4500 - Ghazna
+
+
+####### Zabulistan ########
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4507 = {# 4507 - Jaldak
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4499 = {# 4499 - Rukhaj
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4489 = {# 4489 - Zamindawr
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4504 = {# 4504 - Kabul
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+	
+	# History
+
+	769.1.1 = {
+		holding = castle_holding
+		special_building = buddhas_of_bamian_01
+	}
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4343 = {# 4343 - Kabul
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+	
+	# History
+
+	769.1.1 = {
+		holding = castle_holding
+		special_building = buddhas_of_bamian_01
+	}
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4500 = {# 4500 - Ghazna
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+
+
+
+
+
+
+
+
