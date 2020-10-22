@@ -70,7 +70,7 @@ dharma_elephants.101 = {# Crazed elephant runs amuck
 	}
 
 	immediate = {
-		set_character_flag = crazed_elephant
+		add_character_flag = crazed_elephant
 	}
 
 	option = {
@@ -142,7 +142,6 @@ dharma_elephants.103 = {# Crazed elephant is killed by soldiers in a discrete wa
 
 	left_portrait = root
 
-
 	option = {
 		name = dharma_elephants.103.a
 		add_prestige = minor_prestige_gain
@@ -163,10 +162,6 @@ dharma_elephants.104 = {# Crazed elephant kills people, then escapes
 	theme = realm
 	left_portrait = root
 
-
-	immediate = {
-		tribal_1001_transfer_liege_title_effect = yes
-	}
 
 	option = {
 		name = dharma_elephants.104.a
@@ -228,7 +223,7 @@ dharma_elephants.106 = {# Temple elephants are dying
 	option = {
 		name = dharma_elephants.106.b
 		remove_short_term_gold = medium_gold_value
-		add_piety = minior_piety_gain
+		add_piety = minor_piety_value
 		capital_province = {
 			add_province_modifier = {
 				modifier = governance_1054_satisfied_peasants_modifier

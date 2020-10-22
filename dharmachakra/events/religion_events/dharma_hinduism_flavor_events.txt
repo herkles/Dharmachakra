@@ -222,14 +222,14 @@ dharma_hinduism.007 = {# Local Hindu Temple wants a new Murti statue
 		add_piety = 40
 	}
 	option = {# patronize the statue
-		name = dharma_hinduism.001.no_patronize
+		name = dharma_hinduism.007.no_patronize
 		add_piety = -20
 	}
 }
 dharma_hinduism.008 = {# Recieving Prasada
 	type = character_event
-	title = dharma_hinduism.001.t
-	desc = dharma_hinduism.001.desc
+	title = dharma_hinduism.008.t
+	desc = dharma_hinduism.008.desc
 	theme = faith
 	override_background = {
 		event_background = forest_temple
@@ -246,7 +246,7 @@ dharma_hinduism.008 = {# Recieving Prasada
 	}
 
 	option = {# Samkhya
-		name = dharma_hinduism.001.prasada
+		name = dharma_hinduism.008.prasada
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 			comfort_eater = minor_stress_loss
@@ -255,8 +255,8 @@ dharma_hinduism.008 = {# Recieving Prasada
 }
 dharma_hinduism.009 = {# Chanting the Gods mantras
 	type = character_event
-	title = dharma_hinduism.001.t
-	desc = dharma_hinduism.001.desc
+	title = dharma_hinduism.009.t
+	desc = dharma_hinduism.009.desc
 	theme = faith
 	override_background = {
 		event_background = forest_temple
@@ -273,7 +273,7 @@ dharma_hinduism.009 = {# Chanting the Gods mantras
 	}
 
 	option = {# Om
-		name = dharma_hinduism.001.stay
+		name = dharma_hinduism.009.stay
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}		
@@ -281,8 +281,8 @@ dharma_hinduism.009 = {# Chanting the Gods mantras
 }
 dharma_hinduism.010 = {# Studying the Vedas at the Temple
 	type = character_event
-	title = dharma_hinduism.001.t
-	desc = dharma_hinduism.001.desc
+	title = dharma_hinduism.010.t
+	desc = dharma_hinduism.010.desc
 	theme = faith
 	override_background = {
 		event_background = forest_temple
@@ -299,7 +299,7 @@ dharma_hinduism.010 = {# Studying the Vedas at the Temple
 	}
 
 	option = {# Vedas
-		name = dharma_hinduism.001.Vedas
+		name = dharma_hinduism.010.Vedas
 		random_list = {
 			20 = { add_prestige = 10 }
 			20 = { add_piety = 10 }

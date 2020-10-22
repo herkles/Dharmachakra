@@ -1,5 +1,5 @@
 ﻿l_english:
-    
+
  dharma_elephants.100.t:0 "Peasants need elephants for clearing forest"
  dharma_elephants.100.desc:0 "A delegation from your subjects has arrived. Large-scale forest clearing work is being done in one of your provinces. Recent illness among the elephants means the peasants don't have enough of the animals to be able to finish in time before the rainy season. They ask you to lend them elephants to speed up the work."
  dharma_elephants.100.a:0 "I will send elephants."
@@ -58,7 +58,7 @@
  dharma_elephants.210.a:0 "My Stable!"
 
  dharma_elephants.211.t:0 "You pet your elephant"
- dharma_elephants.211.desc:0 "As I stroke [ROOT.Char.Custom('DogStoryNamePossessive')] skin I can feel my worries dissipating. To have someone's unwavering loyalty, to know that they will always stay by my side....If only the people around me were more like you [ROOT.Char.Custom('ElephantStoryName')]. \nI ride with [ROOT.Char.Custom('elephantStoryHerHim')] outside the castle, until I am ready to face the world again."
+ dharma_elephants.211.desc:0 "As I stroke [ROOT.Char.Custom('ElephantStoryNamePossessive')] skin I can feel my worries dissipating. To have someone's unwavering loyalty, to know that they will always stay by my side....If only the people around me were more like you [ROOT.Char.Custom('ElephantStoryName')]. \nI ride with [ROOT.Char.Custom('elephantStoryHerHim')] outside the castle, until I am ready to face the world again."
  dharma_elephants.211.a:0 "Thank you my!"
 
  dharma_elephants.212.t:0 "You pet your elephant"
@@ -67,5 +67,5 @@
 
 #Elephant dies :(
  dharma_elephants.215.t:0 "[ROOT.Char.Custom('elephantStoryName')]: Day of Sorrow"
- dharma_elephants.215.desc:0 "[ROOT.Char.Custom('elephantStoryName')] is not as young as [ROOT.Char.Custom('elephantStorySheHe')] once was, and as [ROOT.Char.Custom('elephantStorySheHe')] lays down in the royal stables, I can feel [ROOT.Char.Custom('elephantStoryHerHim')] trembling.\n\ I gently stroke [ROOT.Char.Custom('elephantStoryHerHis')] [ROOT.Char.Custom('elephantFurColor')] skin. As the night falls, I know that  [ROOT.Char.Custom('elephantStorySheHe')] won't wake again."
+ dharma_elephants.215.desc:0 "[ROOT.Char.Custom('elephantStoryName')] is not as young as [ROOT.Char.Custom('elephantStorySheHe')] once was, and as [ROOT.Char.Custom('elephantStorySheHe')] lays down in the royal stables, I can feel [ROOT.Char.Custom('elephantStoryHerHim')] trembling.\n\I gently stroke [ROOT.Char.Custom('elephantStoryHerHis')] [ROOT.Char.Custom('elephantFurColor')] skin. As the night falls, I know that  [ROOT.Char.Custom('elephantStorySheHe')] won't wake again."
  dharma_elephants.215.a:0 "I will miss you, [ROOT.Char.Custom('elephantStoryName')]!"
