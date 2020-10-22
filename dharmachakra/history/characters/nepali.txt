@@ -1,5 +1,4 @@
 ﻿#Licchavi Dynasty
-
 12300 = {
 	name="Sankaradeva"
 	dynasty=19116 #Licchavi
@@ -16,7 +15,6 @@
 		death=yes
 	}
 }
-
 12301 = {
 	name="Ahilyabai"
 	female=yes
@@ -30,7 +28,6 @@
 		death=yes
 	}
 }
-
 12302 = {
 	name="Dharmadeva"
 	dynasty=19116 #Licchavi
@@ -49,7 +46,6 @@
 		death=yes
 	}
 }
-
 12303 = {
 	name="Ambikabai"
 	female=yes
@@ -63,7 +59,6 @@
 		death=yes
 	}
 }
-
 12304 = {
 	name="Manadeva"
 	dynasty=19116 #Licchavi
@@ -82,7 +77,6 @@
 		death=yes
 	}
 }
-
 12305 = {
 	name="Anandibai"
 	female=yes
@@ -96,7 +90,6 @@
 		death=yes
 	}
 }
-
 12306 = {
 	name="Mahideva"
 	dynasty=19116 #Licchavi
@@ -115,7 +108,6 @@
 		death=yes
 	}
 }
-
 12307 = {
 	name="Anubai"
 	female=yes
@@ -129,7 +121,6 @@
 		death=yes
 	}
 }
-
 12308 = {
 	name="Vasantadeva"
 	dynasty=19116 #Licchavi
@@ -148,7 +139,6 @@
 		death=yes
 	}
 }
-
 12309 = {
 	name="Bhiubai"
 	female=yes
@@ -162,7 +152,6 @@
 		death=yes
 	}
 }
-
 12310 = {
 	name="Manudeva"
 	dynasty=19116 #Licchavi
@@ -181,7 +170,6 @@
 		death=yes
 	}
 }
-
 12311 = {
 	name="Deepabai"
 	female=yes
@@ -195,7 +183,6 @@
 		death=yes
 	}
 }
-
 12312 = {
 	name="Vamanadeva"
 	dynasty=19116 #Licchavi
@@ -214,7 +201,6 @@
 		death=yes
 	}
 }
-
 12313 = {
 	name="Durgabai"
 	female=yes
@@ -228,7 +214,6 @@
 		death=yes
 	}
 }
-
 12314 = {
 	name="Ramadeva"
 	dynasty=19116 #Licchavi
@@ -247,7 +232,6 @@
 		death=yes
 	}
 }
-
 12315 = {
 	name="Gangabai"
 	female=yes
@@ -261,7 +245,6 @@
 		death=yes
 	}
 }
-
 12316 = {
 	name="Amaradeva"
 	dynasty=19116 #Licchavi
@@ -280,7 +263,6 @@
 		death=yes
 	}
 }
-
 12317 = {
 	name="Gunvantibai"
 	female=yes
@@ -294,7 +276,6 @@
 		death=yes
 	}
 }
-
 12318 = {
 	name="Gunakamadeva"
 	dynasty=19116 #Licchavi
@@ -313,7 +294,6 @@
 		death=yes
 	}
 }
-
 12319 = {
 	name="Jankibai"
 	female=yes
@@ -327,7 +307,6 @@
 		death=yes
 	}
 }
-
 12320 = {
 	name="Ganadeva"
 	dynasty=19116 #Licchavi
@@ -346,7 +325,6 @@
 		death=yes
 	}
 }
-
 12321 = {
 	name="Jijibai"
 	female=yes
@@ -360,7 +338,6 @@
 		death=yes
 	}
 }
-
 12322 = {
 	name="Gangadeva"
 	dynasty=19116 #Licchavi
@@ -379,7 +356,6 @@
 		death=yes
 	}
 }
-
 12323 = {
 	name="Kamlabai"
 	female=yes
@@ -393,7 +369,6 @@
 		death=yes
 	}
 }
-
 12324 = {
 	name="Manadeva"
 	dynasty=19116 #Licchavi
@@ -412,7 +387,6 @@
 		death=yes
 	}
 }
-
 12325 = {
 	name="Kashibai"
 	female=yes
@@ -426,7 +400,6 @@
 		death=yes
 	}
 }
-
 12326 = {
 	name="Shivadeva"
 	dynasty=19116 #Licchavi
@@ -445,7 +418,6 @@
 		death=yes
 	}
 }
-
 12327 = {
 	name="Laxmibai"
 	female=yes
@@ -459,7 +431,6 @@
 		death=yes
 	}
 }
-
 12328 = {
 	name="Amshuvarman"
 	dynasty=19116 #Licchavi
@@ -478,7 +449,6 @@
 		death=yes
 	}
 }
-
 12329 = {
 	name="Mahadik"
 	female=yes
@@ -492,7 +462,6 @@
 		death=yes
 	}
 }
-
 12330 = {
 	name="Udayadeva"
 	dynasty=19116 #Licchavi
@@ -511,7 +480,6 @@
 		death=yes
 	}
 }
-
 12331 = {
 	name="Mastani"
 	female=yes
@@ -525,7 +493,6 @@
 		death=yes
 	}
 }
-
 12332 = {
 	name="Dhruvadeva"
 	dynasty=19116 #Licchavi
@@ -544,7 +511,6 @@
 		death=yes
 	}
 }
-
 12333 = {
 	name="Putalabai"
 	female=yes
@@ -558,7 +524,6 @@
 		death=yes
 	}
 }
-
 12334 = {
 	name="Bhimarjunadeva"
 	dynasty=19116 #Licchavi
@@ -577,7 +542,6 @@
 		death=yes
 	}
 }
-
 12335 = {
 	name="Rajasbai"
 	female=yes
@@ -591,7 +555,6 @@
 		death=yes
 	}
 }
-
 12336 = {
 	name="Narendradeva"
 	dynasty=19116 #Licchavi
@@ -610,7 +573,6 @@
 		death=yes
 	}
 }
-
 12337 = {
 	name="Rajkunvarbai"
 	female=yes
@@ -624,7 +586,6 @@
 		death=yes
 	}
 }
-
 12338 = {
 	name="Shivadeva"
 	dynasty=19116 #Licchavi
@@ -643,7 +604,6 @@
 		death=yes
 	}
 }
-
 12339 = {
 	name="Ramabai"
 	female=yes
@@ -657,7 +617,6 @@
 		death=yes
 	}
 }
-
 12340 = {
 	name="Jayadeva"
 	dynasty=19116 #Licchavi
@@ -676,7 +635,6 @@
 		death=yes
 	}
 }
-
 12341 = {
 	name="Ranubai"
 	female=yes
@@ -690,7 +648,6 @@
 		death=yes
 	}
 }
-
 12342 = {
 	name="Sankaradeva"
 	dynasty=19116 #Licchavi
@@ -709,7 +666,6 @@
 		death=yes
 	}
 }
-
 12343 = {
 	name="Saibai"
 	female=yes
@@ -723,7 +679,6 @@
 		death=yes
 	}
 }
-
 12344 = {
 	name="Manadeva"
 	dynasty=19116 #Licchavi
@@ -742,7 +697,6 @@
 		death=yes
 	}
 }
-
 12345 = {
 	name="Sagunabai"
 	female=yes
@@ -756,7 +710,6 @@
 		death=yes
 	}
 }
-
 12346 = {
 	name="Baliraja"
 	dynasty=19116 #Licchavi
@@ -775,7 +728,6 @@
 		death=yes
 	}
 }
-
 12347 = {
 	name="Sakavaarbai"
 	female=yes
@@ -789,7 +741,6 @@
 		death=yes
 	}
 }
-
 12348 = {
 	name="Baladeva"
 	dynasty=19116 #Licchavi
@@ -808,7 +759,6 @@
 		death=yes
 	}
 }
-
 12349 = {
 	name="Sayeebai"
 	female=yes
@@ -822,7 +772,6 @@
 		death=yes
 	}
 }
-
 12350 = {
 	name="Manadeva"
 	dynasty=19116 #Licchavi
@@ -841,7 +790,6 @@
 		death=yes
 	}
 }
-
 12351 = {
 	name="Soyarabai"
 	female=yes
@@ -857,7 +805,6 @@
 }
 
 #Thakuri Dynasty
-
 12352 = {
 	name="Raghadeva"
 	dynasty=19117 #Thakuri
@@ -874,7 +821,6 @@
 		death=yes
 	}
 }
-
 12353 = {
 	name="Sujanbai"
 	female=yes
@@ -888,7 +834,6 @@
 		death=yes
 	}
 }
-
 12354 = {
 	name="Sankaradeva"
 	dynasty=19117 #Thakuri
@@ -907,7 +852,6 @@
 		death=yes
 	}
 }
-
 12355 = {
 	name="Tarabai"
 	female=yes
@@ -921,7 +865,6 @@
 		death="930.1.1"
 	}
 }
-
 12356 = {
 	name="Sahadeva"
 	dynasty=19117 #Thakuri
@@ -940,7 +883,6 @@
 		death=yes
 	}
 }
-
 12357 = {
 	name="Yesubai"
 	female=yes
@@ -3402,1140 +3344,9 @@
 	}
 }
 
-#Katyuri dynasty
 
-247112 = {
-	name="Kalasiddhi" #Tantric consort of Padmasambhava
-	female=yes
-	dynasty=105826 #Katyuri
-	religion="vajrayana"
-	culture="nepali"
-	father=247481
-	735.1.1={
-		birth=yes
-	}
-	803.1.1={
-		death=yes
-	}
-}
 
-247478 = {
-	name="Vashudeva"
-	dynasty=105826 #Katyuri
-	religion="vajrayana"
-	culture="nepali"
-	586.1.1={
-		birth=yes
-	}
-	658.1.1={
-		death=yes
-	}
-}
-247479 = {
-	name="Ashokdeva"
-	dynasty=105826 #Katyuri
-	religion="vajrayana"
-	culture="nepali"
-	father=247478
-	612.1.1={
-		birth=yes
-	}
-	684.1.1={
-		death=yes
-	}
-}
-247480 = {
-	name="Rawatdeva"
-	dynasty=105826 #Katyuri
-	religion="vajrayana"
-	culture="nepali"
-	father=247479
-	640.1.1={
-		birth=yes
-	}
-	716.1.1={
-		death=yes
-	}
-}
-247481 = {
-	name="Basudeva"
-	dynasty=105826 #Katyuri
-	religion="vajrayana"
-	culture="nepali"
-	father=247480
-	700.1.1={
-		birth=yes
-	}
-	776.1.1={
-		death=yes
-	}
-}
-247482 = {
-	name="Brahmadeva"
-	dynasty=105826 #Katyuri
-	religion="vajrayana"
-	culture="nepali"
-	father=247481
-	765.1.1={
-		birth=yes
-	}
-	810.1.1={
-		religion="shaivism"
-	
-	}
-	850.1.1={
-		death=yes
-	}
-}
 
-247483 = {
-	name="Basantadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247482
-	810.1.1={
-		birth=yes
-	}
-	870.1.1={
-		death=yes
-	}
-}
-
-247484 = {
-	name="Kharparadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247483
-	830.1.1={
-		birth=yes
-	}
-	880.1.1={
-		death=yes
-	}
-}
-
-247485 = {
-	name="Abhirajadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247484
-	850.1.1={
-		birth=yes
-	}
-	890.1.1={
-		death=yes
-	}
-}
-
-247486 = {
-	name="Tribhuvanarajadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247485
-	870.1.1={
-		birth=yes
-	}
-	900.1.1={
-		death=yes
-	}
-}
-
-247487 = {
-	name="Nimbartadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247484
-	860.1.1={
-		birth=yes
-	}
-	915.1.1={
-		death=yes
-	}
-}
-
-247488 = {
-	name="Ishtaganadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247487
-	880.1.1={
-		birth=yes
-	}
-	930.1.1={
-		death=yes
-	}
-}
-
-247489 = {
-	name="Lalitansuradeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247488
-	900.1.1={
-		birth=yes
-	}
-	955.1.1={
-		death=yes
-	}
-}
-
-247490 = {
-	name="Bhudeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247489
-	920.1.1={
-		birth=yes
-	}
-	970.1.1={
-		death=yes
-	}
-}
-247491 = {
-	name="Salonaditya"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	910.1.1={
-		birth=yes
-	}
-	985.1.1={
-		death=yes
-	}
-}
-
-247492 = {
-	name="Ichchhatadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247491
-	930.1.1={
-		birth=yes
-	}
-	1000.1.1={
-		death=yes
-	}
-}
-
-247493 = {
-	name="Deshtadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247492
-	950.1.1={
-		birth=yes
-	}
-	1015.1.1={
-		death=yes
-	}
-}
-
-247494 = {
-	name="Padmatadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247493
-	966.1.1={
-		birth=yes
-	}
-	1045.1.1={
-		death=yes
-	}
-}
-
-247495 = {
-	name="Subhikshrajyadeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247494
-	982.1.1={
-		birth=yes
-	}
-	1060.1.1={
-		death=yes
-	}
-}
-
-247496 = {
-	name="Narsinghdeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247495
-	998.1.1={
-		birth=yes
-	}
-	1061.1.1={
-		death=yes
-	}
-}
-
-247497 = {
-	name="Pritamdeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247496
-	1014.1.1={
-		birth=yes
-	}
-	1062.1.1={
-		death=yes
-	}
-}
-
-247498 = {
-	name="Dhamdeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247497
-	1030.1.1={
-		birth=yes
-	}
-	1064.1.1={
-		death=yes
-	}
-}
-
-247499 = {
-	name="Biradeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247497
-	1032.1.1={
-		birth=yes
-	}
-	1065.1.1={
-		death=yes
-	}
-}
-
-247500 = {
-	name="Tribhuvanpal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247499
-	1048.1.1={
-		birth=yes
-	}
-	1070.1.1={
-		death=yes
-	}
-}
-
-247501 = {
-	name="Indrapal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247500
-	1068.1.1={
-		birth=yes
-	}
-	1090.1.1={
-		death=yes
-	}
-}
-
-247502 = {
-	name="Lakhanpal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247501
-	1084.1.1={
-		birth=yes
-	}
-	1152.1.1={
-		death=yes
-	}
-}
-
-247503 = {
-	name="Udayapaldeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247502
-	1104.1.1={
-		birth=yes
-	}
-	1181.1.1={
-		death=yes
-	}
-}
-
-247504 = {
-	name="Ananatpaldeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247503
-	1124.1.1={
-		birth=yes
-	}
-	1202.1.1={
-		death=yes
-	}
-}
-
-247505 = {
-	name="Indrapaldeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247504
-	1144.1.1={
-		birth=yes
-	}
-	1214.1.1={
-		death=yes
-	}
-}
-
-247506 = {
-	name="Vijayapaldeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247505
-	1164.1.1={
-		birth=yes
-	}
-	1220.1.1={
-		death=yes
-	}
-}
-
-247507 = {
-	name="Lakshamanpaldeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247506
-	1184.1.1={
-		birth=yes
-	}
-	1223.1.1={
-		death=yes
-	}
-}
-
-247508 = {
-	name="Vallaldeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247507
-	1204.1.1={
-		birth=yes
-	}
-	1250.1.1={
-		death=yes
-	}
-}
-
-247509 = {
-	name="Trilokpal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247499
-	1063.1.1={
-		birth=yes
-	}
-	1150.1.1={
-		death=yes
-	}
-}
-
-247510 = {
-	name="Abhayapala"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247509
-	1140.1.1={
-		birth=yes
-	}
-	1230.1.1={
-		death=yes
-	}
-}
-
-247511 = {
-	name="Nirbhaypal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247510
-	1200.1.1={
-		birth=yes
-	}
-	1280.1.1={
-		death=yes
-	}
-}
-
-247512 = {
-	name="Bharatpal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247511
-	1260.1.1={
-		birth=yes
-	}
-	1340.1.1={
-		death=yes
-	}
-}
-
-247513 = {
-	name="Bhaironpal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247512
-	1290.1.1={
-		birth=yes
-	}
-	1360.1.1={
-		death=yes
-	}
-}
-
-247514 = {
-	name="Bhupal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247513
-	1310.1.1={
-		birth=yes
-	}
-	1380.1.1={
-		death=yes
-	}
-}
-
-247515 = {
-	name="Ratanpal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247514
-	1330.1.1={
-		birth=yes
-	}
-	1400.1.1={
-		death=yes
-	}
-}
-
-247516 = {
-	name="Niranjanmalladeva"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247509
-	1141.1.1={
-		birth=yes
-	}
-	1231.1.1={
-		death=yes
-	}
-}
-
-247517 = {
-	name="Nagimalla"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247516
-	1200.1.1={
-		birth=yes
-	}
-	1279.1.1={
-		death=yes
-	}
-}
-
-247518 = {
-	name="Ripumalla"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247517
-	1260.1.1={
-		birth=yes
-	}
-	1353.1.1={
-		death=yes
-	}
-}
-
-247519 = {
-	name="Niraipal"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247518
-	1310.1.1={
-		birth=yes
-	}
-	1384.1.1={
-		death=yes
-	}
-}
-
-247520 = {
-	name="Nagmalla"
-	dynasty=105826 #Katyuri
-	religion="shaivism"
-	culture="nepali"
-
-	father=247519
-	1330.1.1={
-		birth=yes
-	}
-	1400.1.1={
-		death=yes
-	}
-}
-
-#Chand Dynasty
-
-247521 = {
-	name="Soma"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	913.1.1={
-		birth=yes
-	}
-	975.1.1={
-		death=yes
-	}
-}
-
-247522 = {
-	name="Atma"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247521
-	929.1.1={
-		birth=yes
-	}
-	982.1.1={
-		death=yes
-	}
-}
-
-247523 = {
-	name="Purana"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247522
-	945.1.1={
-		birth=yes
-	}
-	1000.1.1={
-		death=yes
-	}
-}
-
-247524 = {
-	name="Indra"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247523
-	961.1.1={
-		birth=yes
-	}
-	1010.1.1={
-		death=yes
-	}
-}
-
-247525 = {
-	name="Sonsar"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247524
-	977.1.1={
-		birth=yes
-	}
-	1028.1.1={
-		death=yes
-	}
-}
-
-247526 = {
-	name="Sudha"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247525
-	993.1.1={
-		birth=yes
-	}
-	1038.1.1={
-		death=yes
-	}
-}
-
-247527 = {
-	name="Hammira"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247526
-	1009.1.1={
-		birth=yes
-	}
-	1055.1.1={
-		death=yes
-	}
-}
-
-247528 = {
-	name="Bina"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247527
-	1025.1.1={
-		birth=yes
-	}
-	1067.1.1={
-		death=yes
-	}
-}
-
-247529 = {
-	name="Soma"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247525
-	994.1.1={
-		birth=yes
-	}
-	1030.1.1={
-		death=yes
-	}
-}
-
-247530 = {
-	name="Bira"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247529
-	1010.1.1={
-		birth=yes
-	}
-	1080.1.1={
-		death=yes
-	}
-}
-
-247531 = {
-	name="Rupa"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247530
-	1030.1.1={
-		birth=yes
-	}
-	1100.1.1={
-		death=yes
-	}
-}
-
-247532 = {
-	name="Lachchhmi"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247531
-	1050.1.1={
-		birth=yes
-	}
-	1108.1.1={
-		death=yes
-	}
-}
-
-247533 = {
-	name="Dharma"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247532
-	1070.1.1={
-		birth=yes
-	}
-	1127.1.1={
-		death=yes
-	}
-}
-
-247534 = {
-	name="Karma"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247533
-	1090.1.1={
-		birth=yes
-	}
-	1136.1.1={
-		death=yes
-	}
-}
-
-247535 = {
-	name="Kalyan"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247534
-	1110.1.1={
-		birth=yes
-	}
-	1157.1.1={
-		death=yes
-	}
-}
-
-247536 = {
-	name="Nirbhaya"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247535
-	1126.1.1={
-		birth=yes
-	}
-	1164.1.1={
-		death=yes
-	}
-}
-
-247537 = {
-	name="Nara"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247536
-	1142.1.1={
-		birth=yes
-	}
-	1182.1.1={
-		death=yes
-	}
-}
-
-247538 = {
-	name="Nanaki"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247537
-	1158.1.1={
-		birth=yes
-	}
-	1213.1.1={
-		death=yes
-	}
-}
-
-247539 = {
-	name="Rama"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247538
-	1174.1.1={
-		birth=yes
-	}
-	1220.1.1={
-		death=yes
-	}
-}
-
-247540 = {
-	name="Bhikma"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247539
-	1190.1.1={
-		birth=yes
-	}
-	1239.1.1={
-		death=yes
-	}
-}
-
-247541 = {
-	name="Megha"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247540
-	1206.1.1={
-		birth=yes
-	}
-	1248.1.1={
-		death=yes
-	}
-}
-
-247542 = {
-	name="Dhyana"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247541
-	1222.1.1={
-		birth=yes
-	}
-	1262.1.1={
-		death=yes
-	}
-}
-
-247543 = {
-	name="Parbata"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247542
-	1238.1.1={
-		birth=yes
-	}
-	1283.1.1={
-		death=yes
-	}
-}
-
-247544 = {
-	name="Thohar"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247543
-	1254.1.1={
-		birth=yes
-	}
-	1290.1.1={
-		death=yes
-	}
-}
-
-247545 = {
-	name="Kalyan"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247544
-	1270.1.1={
-		birth=yes
-	}
-	1308.1.1={
-		death=yes
-	}
-}
-
-247546 = {
-	name="Guru-Gyan"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247545
-	1286.1.1={
-		birth=yes
-	}
-	1318.1.1={
-		death=yes
-	}
-}
-
-247547 = {
-	name="Udhyan"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247546
-	1302.1.1={
-		birth=yes
-	}
-	1335.1.1={
-		death=yes
-	}
-}
-
-247548 = {
-	name="Atma"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247547
-	1318.1.1={
-		birth=yes
-	}
-	1343.1.1={
-		death=yes
-	}
-}
-
-247549 = {
-	name="Triloki"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247547
-	1319.1.1={
-		birth=yes
-	}
-	1350.1.1={
-		death=yes
-	}
-}
-
-247550 = {
-	name="Damara"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247547
-	1320.1.1={
-		birth=yes
-	}
-	1363.1.1={
-		death=yes
-	}
-}
-
-247551 = {
-	name="Dharma"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247547
-	1321.1.1={
-		birth=yes
-	}
-	1380.1.1={
-		death=yes
-	}
-}
-
-247552 = {
-	name="Abhaya"
-	dynasty=105843 #Chand
-	religion="shaivism"
-	culture="nepali"
-
-	father=247551
-	1337.1.1={
-		birth=yes
-	}
-	1391.1.1={
-		death=yes
-	}
-}
 
 #Parmar Dynasty
 247582 = {
@@ -4834,7 +3645,6 @@
 		death=yes
 	}
 }
-
 247602 = {
 	name="Vikrampal"
 	dynasty=105845 #Parmar
@@ -4849,7 +3659,6 @@
 		death=yes
 	}
 }
-
 247603 = {
 	name="Vichitrpal"
 	dynasty=105845 #Parmar
@@ -4864,7 +3673,6 @@
 		death=yes
 	}
 }
-
 247604 = {
 	name="Hanspal"
 	dynasty=105845 #Parmar
@@ -4879,7 +3687,6 @@
 		death=yes
 	}
 }
-
 247605 = {
 	name="Sonpal"
 	dynasty=105845 #Parmar
@@ -4894,7 +3701,6 @@
 		death=yes
 	}
 }
-
 247606 = {
 	name="Kaadilpal"
 	dynasty=105845 #Parmar
@@ -4909,7 +3715,6 @@
 		death=yes
 	}
 }
-
 247607 = {
 	name="Kamdevpal"
 	dynasty=105845 #Parmar
@@ -4924,7 +3729,6 @@
 		death=yes
 	}
 }
-
 247608 = {
 	name="Sulakshandev"
 	dynasty=105845 #Parmar
@@ -4939,7 +3743,6 @@
 		death=yes
 	}
 }
-
 247609 = {
 	name="Lakhandev"
 	dynasty=105845 #Parmar
@@ -4954,7 +3757,6 @@
 		death=yes
 	}
 }
-
 247610 = {
 	name="Anandpal"
 	dynasty=105845 #Parmar
@@ -4969,7 +3771,6 @@
 		death=yes
 	}
 }
-
 247611 = {
 	name="Purvdev"
 	dynasty=105845 #Parmar
@@ -4984,7 +3785,6 @@
 		death=yes
 	}
 }
-
 247612 = {
 	name="Abhaydev"
 	dynasty=105845 #Parmar
@@ -4999,7 +3799,6 @@
 		death=yes
 	}
 }
-
 247613 = {
 	name="Jayramdev"
 	dynasty=105845 #Parmar
@@ -5014,7 +3813,6 @@
 		death=yes
 	}
 }
-
 247614 = {
 	name="Aasaldev"
 	dynasty=105845 #Parmar
@@ -5029,7 +3827,6 @@
 		death=yes
 	}
 }
-
 247615 = {
 	name="Jagatpal"
 	dynasty=105845 #Parmar
@@ -5044,7 +3841,6 @@
 		death=yes
 	}
 }
-
 247616 = {
 	name="Jeetpal"
 	dynasty=105845 #Parmar
@@ -5059,7 +3855,6 @@
 		death=yes
 	}
 }
-
 247617 = {
 	name="Anantpal"
 	dynasty=105845 #Parmar
@@ -5076,7 +3871,6 @@
 }
 
 #Khasiya Dynasty
-
 247553 = {
 	name="Bijor"
 	dynasty=105844 #Khasiya
@@ -5090,7 +3884,6 @@
 		death=yes
 	}
 }
-
 247554 = {
 	name="Jijar"
 	dynasty=105844 #Khasiya
@@ -5105,7 +3898,6 @@
 		death=yes
 	}
 }
-
 247555 = {
 	name="Jajar"
 	dynasty=105844 #Khasiya
@@ -5120,7 +3912,6 @@
 		death=yes
 	}
 }
-
 247556 = {
 	name="Jar"
 	dynasty=105844 #Khasiya
@@ -5135,7 +3926,6 @@
 		death=yes
 	}
 }
-
 247557 = {
 	name="Kalu"
 	dynasty=105844 #Khasiya
@@ -5150,7 +3940,6 @@
 		death=yes
 	}
 }
-
 247558 = {
 	name="Kalau"
 	dynasty=105844 #Khasiya
@@ -5165,7 +3954,6 @@
 		death=yes
 	}
 }
-
 247559 = {
 	name="Jahal"
 	dynasty=105844 #Khasiya
@@ -5180,7 +3968,6 @@
 		death=yes
 	}
 }
-
 247560 = {
 	name="Mul"
 	dynasty=105844 #Khasiya
@@ -5195,7 +3982,6 @@
 		death=yes
 	}
 }
-
 247561 = {
 	name="Guna"
 	dynasty=105844 #Khasiya
@@ -5210,7 +3996,6 @@
 		death=yes
 	}
 }
-
 247562 = {
 	name="Pida"
 	dynasty=105844 #Khasiya
@@ -5225,7 +4010,6 @@
 		death=yes
 	}
 }
-
 247563 = {
 	name="Nagu"
 	dynasty=105844 #Khasiya
@@ -5240,7 +4024,6 @@
 		death=yes
 	}
 }
-
 247564 = {
 	name="Bhagu"
 	dynasty=105844 #Khasiya
@@ -5255,7 +4038,6 @@
 		death=yes
 	}
 }
-
 247565 = {
 	name="Jayapal"
 	dynasty=105844 #Khasiya
@@ -5270,7 +4052,6 @@
 		death=yes
 	}
 }
-
 247566 = {
 	name="Sonpal"
 	dynasty=105844 #Khasiya
@@ -5285,7 +4066,6 @@
 		death=yes
 	}
 }
-
 247567 = {
 	name="Indrapal"
 	dynasty=105844 #Khasiya
@@ -5300,7 +4080,6 @@
 		death=yes
 	}
 }
-
 247568 = {
 	name="Naagraj"
 	dynasty=105844 #Khasiya
@@ -5315,7 +4094,6 @@
 		death=yes
 	}
 }
-
 247569 = {
 	name="Chaap"
 	dynasty=105844 #Khasiya
@@ -5330,7 +4108,6 @@
 		death=yes
 	}
 }
-
 247570 = {
 	name="Chapilla"
 	dynasty=105844 #Khasiya
@@ -5345,7 +4122,6 @@
 		death=yes
 	}
 }
-
 247571 = {
 	name="Krashichalla"
 	dynasty=105844 #Khasiya
@@ -5360,7 +4136,6 @@
 		death=yes
 	}
 }
-
 247572 = {
 	name="Kradhichalla"
 	dynasty=105844 #Khasiya
@@ -5375,7 +4150,6 @@
 		death=yes
 	}
 }
-
 247573 = {
 	name="Krachalla"
 	dynasty=105844 #Khasiya
@@ -5390,7 +4164,6 @@
 		death=yes
 	}
 }
-
 247574 = {
 	name="Jitarimalla"
 	dynasty=105844 #Khasiya
@@ -5405,7 +4178,6 @@
 		death=yes
 	}
 }
-
 247575 = {
 	name="Ashokmalla"
 	dynasty=105844 #Khasiya
@@ -5420,7 +4192,6 @@
 		death=yes
 	}
 }
-
 247576 = {
 	name="Ashokchalla"
 	dynasty=105844 #Khasiya
@@ -5435,7 +4206,6 @@
 		death=yes
 	}
 }
-
 247577 = {
 	name="Ripumalla"
 	dynasty=105844 #Khasiya
@@ -5450,7 +4220,6 @@
 		death=yes
 	}
 }
-
 247578 = {
 	name="Adityamalla"
 	dynasty=105844 #Khasiya
@@ -5465,7 +4234,6 @@
 		death=yes
 	}
 }
-
 247579 = {
 	name="Punyamalla"
 	dynasty=105844 #Khasiya
@@ -5480,7 +4248,6 @@
 		death=yes
 	}
 }
-
 247580 = {
 	name="Prithvimalla"
 	dynasty=105844 #Khasiya
@@ -5495,7 +4262,6 @@
 		death=yes
 	}
 }
-
 247581 = {
 	name="Suryamalla"
 	dynasty=105844 #Khasiya

@@ -789,3 +789,16 @@
 
 }
 
+# 4517 - Loralai
+4517 = {# 4517 - Loralai
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+	
+	# History
+	1000.1.1 = {
+		religion = ashari
+	}
+}
+
