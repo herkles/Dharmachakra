@@ -457,7 +457,7 @@
 1248 = {	# 1248 - Chutia
 	
 	# Misc
-	culture = nagpuri
+	culture = munda
 	religion = mahayana
 	
 	holding = castle_holding

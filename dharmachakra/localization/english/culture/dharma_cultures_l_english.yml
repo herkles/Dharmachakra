@@ -48,4 +48,13 @@
 # New Iranian Cultures
  afghan:0 "Pashtun"
  afghan_collective_noun:1 "Pashtuns"
-
+# Nuristani Culture Group
+ nuristani_group:0 "Nuristani"
+ nuristani_group_collective_noun:0 "Nuristanis"
+ nuristani:0 "Nuristani"
+ nuristani_collective_noun:1 "Nuristanis"
+# Munda Culture Group
+ munda_group:0 "Munda"
+ munda_group_collective_noun:0 "Mundas"
+ munda:0 "Munda"
+ munda_collective_noun:1 "Mundas"
