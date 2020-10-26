@@ -433,12 +433,12 @@
 		}
 
 		dynasty_names = {
-			"dynn_Cinkaiariyan"
-			"dynn_Aryacakravarti"
+			"dynn_Kolathiri"
+			"dynn_Saamoothiri"
+			"dynn_Perumal"
+			"dynn_Perumpadappu"
 			"dynn_Kulasekhara"
-			"dynn_Samoothiri"
-			"dynn_Perumadappu"
-			"dynn_Kadava"
+			"dynn_Cheraman"
 			{ "dynn_Paraiyar" }
 			{ "dynn_Vishwakarma" }
 			{ "dynn_Aachari" }
@@ -921,14 +921,6 @@
 		color = hsv{ 0.6 0.9 0.7 }
 
 		cadet_dynasty_names = {
-			"dynn_Pattavardhani"
-			"dynn_Katakaraja"
-			"dynn_Durjaya"
-			"dynn_Aryyahu"
-			"dynn_Mitreyu"
-			"dynn_Panara"
-			"dynn_Velanati_Chola"
-			"dynn_Chalukya_Kakatiya"
 			{ "dynn_Nara" }
 			{ "dynn_Naidu" }
 			{ "dynn_Agarwal" }
@@ -990,14 +982,11 @@
 		}
 
 		dynasty_names = {
-			"dynn_Pattavardhani"
-			"dynn_Katakaraja"
-			"dynn_Durjaya"
-			"dynn_Aryyahu"
-			"dynn_Mitreyu"
-			"dynn_Panara"
-			"dynn_Velanati_Chola"
-			"dynn_Chalukya_Kakatiya"
+			"dynn_Chanda"
+			"dynn_Raj_Gondi"
+			"dynn_Ballar_Sahi"
+			"dynn_Haihaya"
+			"dynn_Gadhi"
 			{ "dynn_Nara" }
 			{ "dynn_Naidu" }
 			{ "dynn_Agarwal" }

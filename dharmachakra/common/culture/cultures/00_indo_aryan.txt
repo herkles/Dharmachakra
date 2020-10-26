@@ -283,278 +283,6 @@
 			{ name = "mercenary_company_bengal_host" }
 		}
 	}
-
-	bihari = {# Bihari
-		
-		color = hsv{ 0.035 0.8 0.8 }
-
-		cadet_dynasty_names = {
-			"dynn_Samatata"
-			"dynn_Candravamsa"
-			"dynn_Sena"
-			"dynn_Sur"
-			"dynn_Karnata"
-			"dynn_Gupta"
-			"dynn_Mana"
-			"dynn_Ranaka"
-			"dynn_Gupta"
-			"dynn_Khayarwala"
-			"dynn_Chero"
-			"dynn_Sena"
-			"dynn_Khayarwala"
-			"dynn_Gupta"
-			"dynn_Mana"
-			"dynn_Deva"
-			"dynn_Pattikara"
-			"dynn_Deva"
-			"dynn_Khadi"
-			"dynn_Aparamandara"
-			{ "dynn_Banerjee" }
-			{ "dynn_Bagchi" }
-			{ "dynn_Bhaduri" }
-			{ "dynn_Bhattacharjee" }
-			{ "dynn_Chakraborty" }
-			{ "dynn_Chatterjee" }
-			{ "dynn_Ganguly" }
-			{ "dynn_Goswami" }
-			{ "dynn_Ghoshal" }
-			{ "dynn_Lahiri" }
-			{ "dynn_Maitra" }
-			{ "dynn_Mukherjee" }
-			{ "dynn_Sanyal" }
-			{ "dynn_Sengupta" }
-			{ "dynn_Dasgupta" }
-			{ "dynn_Duttagupta" }
-			{ "dynn_Gupta" }
-			{ "dynn_Sen_Sharma" }
-			{ "dynn_Basu" }
-			{ "dynn_Bose" }
-			{ "dynn_Dutta" }
-			{ "dynn_Ghosh" }
-			{ "dynn_Choudhury" }
-			{ "dynn_Guha" }
-			{ "dynn_Gain" }
-			{ "dynn_Mitra" }
-			{ "dynn_Singh" }
-			{ "dynn_Sinha" }
-			{ "dynn_Sen" }
-			{ "dynn_Pal" }
-			{ "dynn_Dev" }
-			{ "dynn_Palit" }
-			{ "dynn_Chanda" }
-			{ "dynn_Dam" }
-			{ "dynn_Kar" }
-			{ "dynn_Nandi" }
-			{ "dynn_Sarkar" }
-			{ "dynn_Acharya" }
-			{ "dynn_Adhikari" }
-			{ "dynn_Agarwal" }
-			{ "dynn_Bakshi" }
-			{ "dynn_Bangla" }
-			{ "dynn_Barman" }
-			{ "dynn_Basu" }
-			{ "dynn_Bhagat" }
-			{ "dynn_Bhaumik" }
-			{ "dynn_Bhuiyan" }
-			{ "dynn_Biswas" }
-			{ "dynn_Chakrabarti" }
-			{ "dynn_Chand" }
-			{ "dynn_Chaudhary" }
-			{ "dynn_Dasgupta" }
-			{ "dynn_Datta" }
-			{ "dynn_Debnath" }
-			{ "dynn_Devi" }
-			{ "dynn_Dhar" }
-			{ "dynn_Emu" }
-			{ "dynn_Ganguly" }
-			{ "dynn_Ghosh" }
-			{ "dynn_Ghoshal" }
-			{ "dynn_Hazra" }
-			{ "dynn_Hoque" }
-			{ "dynn_Jahan" }
-			{ "dynn_Jarin" }
-			{ "dynn_Jha" }
-			{ "dynn_Jothy" }
-			{ "dynn_Kajal" }
-			{ "dynn_Karal" }
-			{ "dynn_Kumari" }
-			{ "dynn_Lal" }
-			{ "dynn_Maharaj" }
-			{ "dynn_Mahato" }
-			{ "dynn_Mahi" }
-			{ "dynn_Majhi" }
-			{ "dynn_Mandal" }
-			{ "dynn_Miah" }
-			{ "dynn_Mukerjee" }
-			{ "dynn_Munna" }
-			{ "dynn_Nath" }
-			{ "dynn_Noor" }
-			{ "dynn_Pandey" }
-			{ "dynn_Pandit" }
-			{ "dynn_Pradhan" }
-			{ "dynn_Sahoo" }
-			{ "dynn_Sinha" }
-			{ "dynn_Tagore" }
-			{ "dynn_Thapa" }
-		}
-
-		dynasty_names = {
-			"dynn_Samatata"
-			"dynn_Candravamsa"
-			"dynn_Sena"
-			"dynn_Sur"
-			"dynn_Karnata"
-			"dynn_Gupta"
-			"dynn_Mana"
-			"dynn_Ranaka"
-			"dynn_Gupta"
-			"dynn_Khayarwala"
-			"dynn_Chero"
-			"dynn_Sena"
-			"dynn_Khayarwala"
-			"dynn_Gupta"
-			"dynn_Mana"
-			"dynn_Deva"
-			"dynn_Pattikara"
-			"dynn_Deva"
-			"dynn_Khadi"
-			"dynn_Aparamandara"
-			{ "dynn_Banerjee" }
-			{ "dynn_Bagchi" }
-			{ "dynn_Bhaduri" }
-			{ "dynn_Bhattacharjee" }
-			{ "dynn_Chakraborty" }
-			{ "dynn_Chatterjee" }
-			{ "dynn_Ganguly" }
-			{ "dynn_Goswami" }
-			{ "dynn_Ghoshal" }
-			{ "dynn_Lahiri" }
-			{ "dynn_Maitra" }
-			{ "dynn_Mukherjee" }
-			{ "dynn_Sanyal" }
-			{ "dynn_Sengupta" }
-			{ "dynn_Dasgupta" }
-			{ "dynn_Duttagupta" }
-			{ "dynn_Gupta" }
-			{ "dynn_Sen_Sharma" }
-			{ "dynn_Basu" }
-			{ "dynn_Bose" }
-			{ "dynn_Dutta" }
-			{ "dynn_Ghosh" }
-			{ "dynn_Choudhury" }
-			{ "dynn_Guha" }
-			{ "dynn_Gain" }
-			{ "dynn_Mitra" }
-			{ "dynn_Singh" }
-			{ "dynn_Sinha" }
-			{ "dynn_Sen" }
-			{ "dynn_Pal" }
-			{ "dynn_Dev" }
-			{ "dynn_Palit" }
-			{ "dynn_Chanda" }
-			{ "dynn_Dam" }
-			{ "dynn_Kar" }
-			{ "dynn_Nandi" }
-			{ "dynn_Sarkar" }
-			{ "dynn_Acharya" }
-			{ "dynn_Adhikari" }
-			{ "dynn_Agarwal" }
-			{ "dynn_Bakshi" }
-			{ "dynn_Bangla" }
-			{ "dynn_Barman" }
-			{ "dynn_Basu" }
-			{ "dynn_Bhagat" }
-			{ "dynn_Bhaumik" }
-			{ "dynn_Bhuiyan" }
-			{ "dynn_Biswas" }
-			{ "dynn_Chakrabarti" }
-			{ "dynn_Chand" }
-			{ "dynn_Chaudhary" }
-			{ "dynn_Dasgupta" }
-			{ "dynn_Datta" }
-			{ "dynn_Debnath" }
-			{ "dynn_Devi" }
-			{ "dynn_Dhar" }
-			{ "dynn_Emu" }
-			{ "dynn_Ganguly" }
-			{ "dynn_Ghosh" }
-			{ "dynn_Ghoshal" }
-			{ "dynn_Hazra" }
-			{ "dynn_Hoque" }
-			{ "dynn_Jahan" }
-			{ "dynn_Jarin" }
-			{ "dynn_Jha" }
-			{ "dynn_Jothy" }
-			{ "dynn_Kajal" }
-			{ "dynn_Karal" }
-			{ "dynn_Kumari" }
-			{ "dynn_Lal" }
-			{ "dynn_Maharaj" }
-			{ "dynn_Mahato" }
-			{ "dynn_Mahi" }
-			{ "dynn_Majhi" }
-			{ "dynn_Mandal" }
-			{ "dynn_Miah" }
-			{ "dynn_Mukerjee" }
-			{ "dynn_Munna" }
-			{ "dynn_Nath" }
-			{ "dynn_Noor" }
-			{ "dynn_Pandey" }
-			{ "dynn_Pandit" }
-			{ "dynn_Pradhan" }
-			{ "dynn_Sahoo" }
-			{ "dynn_Sinha" }
-			{ "dynn_Tagore" }
-			{ "dynn_Thapa" }
-		}
-	
-		male_names = {
-			Amritnarayan Balabhata Balinarayan Ballalsen Basudevnayaran
-			Bhagadatta Bhairabendranarayan Bhatta Bhavashankari Bhimsingha Birnayaran
-			Chandrasen Chandranarayan Chaturanan Chilarai
-			Danujmadhava Dasharathadeva Devakhadga Devapala Devendranarayan
-			Dhairjendranayaran Dharendranarayan Dharmapala Dhirsingha
-			Gajnarayan Gopala Govindachandra Govindapala
-			Hajo Harendranarayan Haridevnarayan Hariyamandal Hemantasen Indranarayan
-			Jadu Jagaddipendranarayan Jatakhadga Jayanarayan Jayapala Jitendranarayan
-			Kalyanachandra Kamalnarayan Keshabsen Khadgodyama Krishanmishra Krishnaroy
-			Kumarapala Kumudnarayan Ladahachandra Lakshmansen Lakshmichandra Lakshminarayan Lomapada
-			Madanapala Mahendrapala Mahendrasingha Mahindranarayan Mahipala Manava Mukundanarayan
-			Naranarayan Narasingha Narayanapala Narendranarayan Nayapala Nripendranarayan
-			Parikshitnayaran Prananarayan Prannath Pratapnarayan Pratapnarayanroy Pushkaranadhipa
-			Raghudev Rajabhata Rajadinaj Rajaganesha Rajendranarayan Rajrajendranarayan Rajyapala
-			Ramapala Ramnath Ranasura Ranjitsingha Roopnarayan Rudranarayan
-			Samudrasen Shanibhangar Shashanka Shivanarayan Shivendranarayan Shukladhwaj Shurapala
-			Srichandra Srimanta Subarnachandra Sukhdev Suryanarayan Traillokyachandra
-			Udirnakhadga Uditanarayan Upendranayaran Vakapala Vapyata Vigrahapala
-			Vijaynarayan Vijaysen Vijaysingha Virajdendranarayan Vishwarupsen Vishwasingha
-			"Bhairav_Singh" "Bhavesh" "Bhogishwar" "Dev_Singh" "Dhir_Singh" Dhireshwar
-			"Ganeshwar_Singh" "Gang_Dev" Harasimhadeva "Hari_Singh" "Hemant_Sen"
-			"Kameshwar" "Kirti_Singh" Jyotirishwar "Laxman_Sen" "Laxminath_Singh_Dev" Madanpal
-			"Nanya_Dev" "Nar_Singh" "Narsingh_Dev" "Padma_Singh" "Rambhadra_Singh_Dev" Rameshwar
-			"Samant_Sen" "Shakrasingh_Dev" "Shiv_Singh"  "Vallal_Sen" "Vijay_Sen"
-			Agnimitra Andhraka Ayus Bhagabhadra Bhikhari Bhumimitra Devabhuti Ghosha Gopal Govindapal
-			Khsetravridha Maharshi Mahendra Maurayadhwaj Narayana Pulindaka Pusyamitra
-			Sahtiya Susarman Vajramitra Vasudeva Vasujyeshtha Vasumitra
-		}
-		female_names = {
-			Amrapali Amritakala Asima Bhavashankari "Bishwas_Devi" Bhogavati Bibibai Dattadevi Devavati "Devi_Ahiylya" Gandharavati
-			Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata
-			Syamadevi Vijnayavati Vina Yajnavati
-		}
-		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
-		
-		ethnicities = {
-			10 = indian
-		}
-
-		mercenary_names = {
-			{ name = "mercenary_company_company_of_the_delta" }
-			{ name = "mercenary_company_bengal_host" }
-		}
-	}
 	
 	oriya = {# Oriya
 		
@@ -3083,15 +2811,12 @@
 	saurashtra = {# Saurashtra
 		
 		cadet_dynasty_names = {
-			"dynn_Chand"
-			"dynn_Vaghela"
-			"dynn_Vagada"
+			"dynn_Vadher"
+			"dynn_Babi"
+			"dynn_Rawal"
 			"dynn_Jadeja"
-			"dynn_Sanchore"
-			"dynn_Sisodia"
-			"dynn_Rathore"
-			"dynn_Hada"
-			"dynn_Khanzada"			
+			"dynn_Gohil"
+			"dynn_Jethwa"
 			{ "dynn_Bhagat" }
 			{ "dynn_Bhatt" }
 			{ "dynn_Chadhari" }
@@ -3131,15 +2856,12 @@
 		}
 		
 		dynasty_names = {
-			"dynn_Chand"
-			"dynn_Vaghela"
-			"dynn_Vagada"
+			"dynn_Vadher"
+			"dynn_Babi"
+			"dynn_Rawal"
 			"dynn_Jadeja"
-			"dynn_Sanchore"
-			"dynn_Sisodia"
-			"dynn_Rathore"
-			"dynn_Hada"
-			"dynn_Khanzada"
+			"dynn_Gohil"
+			"dynn_Jethwa"
 			{ "dynn_Bhagat" }
 			{ "dynn_Bhatt" }
 			{ "dynn_Chadhari" }
@@ -3239,7 +2961,8 @@
 		color = hsv{ 0.32 0.9 0.7 }
 		
 		cadet_dynasty_names = {
-			"dynn_Kamadeva"
+			"dynn_Chauhan"
+			"dynn_Gohil"
 			{ "dynn_Aavhad" }
 			{ "dynn_Acharya" }
 			{ "dynn_Ahuja" }
@@ -3274,7 +2997,8 @@
 		}
 		
 		dynasty_names = {
-			"dynn_Kamadeva"
+			"dynn_Chauhan"
+			"dynn_Gohil"
 			{ "dynn_Aavhad" }
 			{ "dynn_Acharya" }
 			{ "dynn_Ahuja" }
@@ -3361,7 +3085,7 @@
 		color = hsv{ 0.59 0.55 0.8 }
 		
 		cadet_dynasty_names = {
-			"dynn_Kamadeva"
+			"dynn_Holkar"
 			{ "dynn_Aavhad" }
 			{ "dynn_Acharya" }
 			{ "dynn_Ahuja" }
@@ -3396,7 +3120,7 @@
 		}
 		
 		dynasty_names = {
-			"dynn_Kamadeva"
+			"dynn_Holkar"
 			{ "dynn_Aavhad" }
 			{ "dynn_Acharya" }
 			{ "dynn_Ahuja" }
@@ -3477,174 +3201,25 @@
 			{ name = "mercenary_company_badami_companions" }
 		}
 	}
-		
-	chhattisgarhi  = {# Chhattisgarhi 
-		
-		color = hsv{ 0.95 0.6 0.3 }
-
-		cadet_dynasty_names = {
-			"dynn_Bhanja"
-			"dynn_Gajapati"
-			"dynn_Mayura"
-			"dynn_Shailobhava"
-			"dynn_Kesari"
-			"dynn_Bhanja"
-			"dynn_Bhauma"
-			"dynn_Bhaumakara"
-			"dynn_Kalinga"
-			"dynn_Nanda"
-			"dynn_Mahameghavahana"
-			"dynn_Satavahana"
-			"dynn_Naga"
-			"dynn_Nala"
-			"dynn_Parvatadvarka"
-			"dynn_Sura"
-			"dynn_Sharabhapuriya"
-			"dynn_Mathara"
-			"dynn_Vigraha"
-			"dynn_Mudgalas"
-			"dynn_Durjaya"
-			"dynn_Shailodbhava"
-			"dynn_Bhaumakara"
-			"dynn_Somvanshi"
-			"dynn_Cindaka_Naga"
-			"dynn_Eastern_Ganga"
-			"dynn_Gajapati"
-			"dynn_Bhoi"
-		}
-
-		dynasty_names = {
-			"dynn_Bhanja"
-			"dynn_Gajapati"
-			"dynn_Mayura"
-			"dynn_Shailobhava"
-			"dynn_Kesari"
-			"dynn_Bhanja"
-			"dynn_Bhauma"
-			"dynn_Bhaumakara"
-			"dynn_Kalinga"
-			"dynn_Nanda"
-			"dynn_Mahameghavahana"
-			"dynn_Satavahana"
-			"dynn_Naga"
-			"dynn_Nala"
-			"dynn_Parvatadvarka"
-			"dynn_Sura"
-			"dynn_Sharabhapuriya"
-			"dynn_Mathara"
-			"dynn_Vigraha"
-			"dynn_Mudgalas"
-			"dynn_Durjaya"
-			"dynn_Shailodbhava"
-			"dynn_Bhaumakara"
-			"dynn_Somvanshi"
-			"dynn_Cindaka_Naga"
-			"dynn_Eastern_Ganga"
-			"dynn_Gajapati"
-			"dynn_Bhoi"
-		}
-	
-		male_names = {
-			Anangabhima Anantasaktivarman Anantavarman Apsaradeva Arthapatiraja Ayasobhita Balabhadra Barjena
-			Betta Bhanu Bhavadattavarman Bhimaratha Bhimasena Bhramarbara Bhupendra Bhupendravarman Chandravarman
-			Charamparaja Damodara Danai Danarnava Dayita Dayitavarman Devananda Devendravarman Dharmaraja Dharmarstha
-			Dhruvananda Dibyasingha Digbhanja Durgaraja Durjaya Durjayabhanja Gangadhara Gandhata Gangakavilasa Gayada
-			Gopinatha Gunamaharnava Gunarnava Gundama Hamvira Harekrushna Hastivarman Hemantavarman Indranatha Indravarman
-			Jahangir Janmejaya Jayananda Jayaraja Jayasimha Jayasthambha Jayavarma Jayavarmadeva Kakharua Kalaha Kalahastambha
-			Kalasa Kalua Kalyankalasa Kamarnava Kanchana Kanchanastambha Kapilendra Kapilendradeva Karnadeva Khadaga Kotta
-			Kottabhanja Ksemankaradeva Kulastambha Lakshmikaradeva Madhavaraja Madhavavarman Madhukamarnava Mahendraditya
-			Mahendravarman Mahinda Manamatra Matradhyarya Mukunda Nahusa Nandaprabhanjana Nandaprabhanjanavarman Nandavarman
-			Narasimha Narendra Netta Nettabhanja Padmanava Paramananda Prasannamatra Prataparudra Pravaraja Prithivarman
-			Prithivimaharaja Prithvibhanja Prithvidena Pulindasena Puranjaya Purushottama Rajabhanja Rajaraja Ramachandra
-			Ramachandradeva Ranabhanja Ranabhita Ranadurjaya Ranga Rangabhanja Sailobhava Sainyabita Saktivarman Samantavarman
-			Sambhuyasa Sankaravarman Santikaradeva Sarabha Satru Satrubhanja Satyavarman Sila Silabhanja Sivakaradeva Sivananda
-			Skandavarman Sobhanaraja Solyana Subhakaradeva Sudevaraja Suravala Teja Tejavarsha Tustikara Udaya Udayavarsha Udita
-			Udyotakesari Umavarman Unmattasimha Utidavarsha Vaaraharaja Vajrahasta Vidhyadhara Vidhyadharabhanja Vijaya Vinayaditya
-			Vinita Vishakavarman Vrishadhvaja Vyaghraraja Yayati
-		}
-		female_names = {
-			Ahiavadevi Apsaradevi Bhogavati Dandi Dandimahadevi Dattadevi Devavati Dharma Dharmamahadevi Durlabha Gandharavati
-			Gauri Gaurimahadevi Kalyanavati Karnadevi Kuladevi Lakshmi Lakshmikaradevi Lilavati Mahadevi Nayanadevi Rajasundari
-			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
-		}
-		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
-		
-		ethnicities = {
-			10 = indian
-		}
-
-		mercenary_names = {
-			{ name = "mercenary_company_oriya_band" }
-			{ name = "mercenary_company_company_of_odisha" }
-		}
-	}
 
 	nagpuri  = {# Nagpuri 
 		
 		color = hsv{ 0.95 0.35 0.7 }
 
 		cadet_dynasty_names = {
-			"dynn_Bhanja"
-			"dynn_Gajapati"
-			"dynn_Mayura"
-			"dynn_Shailobhava"
-			"dynn_Kesari"
-			"dynn_Bhanja"
-			"dynn_Bhauma"
-			"dynn_Bhaumakara"
-			"dynn_Kalinga"
-			"dynn_Nanda"
-			"dynn_Mahameghavahana"
-			"dynn_Satavahana"
-			"dynn_Naga"
-			"dynn_Nala"
-			"dynn_Parvatadvarka"
-			"dynn_Sura"
-			"dynn_Sharabhapuriya"
-			"dynn_Mathara"
-			"dynn_Vigraha"
-			"dynn_Mudgalas"
-			"dynn_Durjaya"
-			"dynn_Shailodbhava"
-			"dynn_Bhaumakara"
-			"dynn_Somvanshi"
-			"dynn_Cindaka_Naga"
-			"dynn_Eastern_Ganga"
-			"dynn_Gajapati"
-			"dynn_Bhoi"
+			"dynn_Porohat"
+			"dynn_Nagavamsi"
+			"dynn_Munda"
+			"dynn_Ho"
+			"dynn_Bhuiyan"
 		}
 
 		dynasty_names = {
-			"dynn_Bhanja"
-			"dynn_Gajapati"
-			"dynn_Mayura"
-			"dynn_Shailobhava"
-			"dynn_Kesari"
-			"dynn_Bhanja"
-			"dynn_Bhauma"
-			"dynn_Bhaumakara"
-			"dynn_Kalinga"
-			"dynn_Nanda"
-			"dynn_Mahameghavahana"
-			"dynn_Satavahana"
-			"dynn_Naga"
-			"dynn_Nala"
-			"dynn_Parvatadvarka"
-			"dynn_Sura"
-			"dynn_Sharabhapuriya"
-			"dynn_Mathara"
-			"dynn_Vigraha"
-			"dynn_Mudgalas"
-			"dynn_Durjaya"
-			"dynn_Shailodbhava"
-			"dynn_Bhaumakara"
-			"dynn_Somvanshi"
-			"dynn_Cindaka_Naga"
-			"dynn_Eastern_Ganga"
-			"dynn_Gajapati"
-			"dynn_Bhoi"
+			"dynn_Porohat"
+			"dynn_Nagavamsi"
+			"dynn_Munda"
+			"dynn_Ho"
+			"dynn_Bhuiyan"
 		}
 
 		male_names = {
@@ -3689,89 +3264,38 @@
 		color = hsv{ 0.15 1.0 0.7 }
 
 		cadet_dynasty_names = {
+			"dynn_Nagavamsi"
+			"dynn_Sankara"
+			"dynn_Bhuyavamsha"
+			"dynn_Gangabansi"
+			"dynn_Gangabansi"
 			"dynn_Bhanja"
-			"dynn_Gajapati"
-			"dynn_Mayura"
-			"dynn_Shailobhava"
-			"dynn_Kesari"
-			"dynn_Bhanja"
-			"dynn_Bhauma"
-			"dynn_Bhaumakara"
-			"dynn_Kalinga"
-			"dynn_Nanda"
-			"dynn_Mahameghavahana"
-			"dynn_Satavahana"
-			"dynn_Naga"
-			"dynn_Nala"
-			"dynn_Parvatadvarka"
-			"dynn_Sura"
-			"dynn_Sharabhapuriya"
-			"dynn_Mathara"
-			"dynn_Vigraha"
-			"dynn_Mudgalas"
-			"dynn_Durjaya"
-			"dynn_Shailodbhava"
-			"dynn_Bhaumakara"
-			"dynn_Somvanshi"
-			"dynn_Cindaka_Naga"
-			"dynn_Eastern_Ganga"
-			"dynn_Gajapati"
-			"dynn_Bhoi"
+			"dynn_Karan"
+			"dynn_Keshari"
+			"dynn_Suryavanshi"
+			"dynn_Baghal"
 		}
 
 		dynasty_names = {
+			"dynn_Nagavamsi"
+			"dynn_Sankara"
+			"dynn_Bhuyavamsha"
+			"dynn_Gangabansi"
+			"dynn_Gangabansi"
 			"dynn_Bhanja"
-			"dynn_Gajapati"
-			"dynn_Mayura"
-			"dynn_Shailobhava"
-			"dynn_Kesari"
-			"dynn_Bhanja"
-			"dynn_Bhauma"
-			"dynn_Bhaumakara"
-			"dynn_Kalinga"
-			"dynn_Nanda"
-			"dynn_Mahameghavahana"
-			"dynn_Satavahana"
-			"dynn_Naga"
-			"dynn_Nala"
-			"dynn_Parvatadvarka"
-			"dynn_Sura"
-			"dynn_Sharabhapuriya"
-			"dynn_Mathara"
-			"dynn_Vigraha"
-			"dynn_Mudgalas"
-			"dynn_Durjaya"
-			"dynn_Shailodbhava"
-			"dynn_Bhaumakara"
-			"dynn_Somvanshi"
-			"dynn_Cindaka_Naga"
-			"dynn_Eastern_Ganga"
-			"dynn_Gajapati"
-			"dynn_Bhoi"
+			"dynn_Karan"
+			"dynn_Keshari"
+			"dynn_Suryavanshi"
+			"dynn_Baghal"
 		}
 
 		male_names = {
-			Anangabhima Anantasaktivarman Anantavarman Apsaradeva Arthapatiraja Ayasobhita Balabhadra Barjena
-			Betta Bhanu Bhavadattavarman Bhimaratha Bhimasena Bhramarbara Bhupendra Bhupendravarman Chandravarman
-			Charamparaja Damodara Danai Danarnava Dayita Dayitavarman Devananda Devendravarman Dharmaraja Dharmarstha
-			Dhruvananda Dibyasingha Digbhanja Durgaraja Durjaya Durjayabhanja Gangadhara Gandhata Gangakavilasa Gayada
-			Gopinatha Gunamaharnava Gunarnava Gundama Hamvira Harekrushna Hastivarman Hemantavarman Indranatha Indravarman
-			Jahangir Janmejaya Jayananda Jayaraja Jayasimha Jayasthambha Jayavarma Jayavarmadeva Kakharua Kalaha Kalahastambha
-			Kalasa Kalua Kalyankalasa Kamarnava Kanchana Kanchanastambha Kapilendra Kapilendradeva Karnadeva Khadaga Kotta
-			Kottabhanja Ksemankaradeva Kulastambha Lakshmikaradeva Madhavaraja Madhavavarman Madhukamarnava Mahendraditya
-			Mahendravarman Mahinda Manamatra Matradhyarya Mukunda Nahusa Nandaprabhanjana Nandaprabhanjanavarman Nandavarman
-			Narasimha Narendra Netta Nettabhanja Padmanava Paramananda Prasannamatra Prataparudra Pravaraja Prithivarman
-			Prithivimaharaja Prithvibhanja Prithvidena Pulindasena Puranjaya Purushottama Rajabhanja Rajaraja Ramachandra
-			Ramachandradeva Ranabhanja Ranabhita Ranadurjaya Ranga Rangabhanja Sailobhava Sainyabita Saktivarman Samantavarman
-			Sambhuyasa Sankaravarman Santikaradeva Sarabha Satru Satrubhanja Satyavarman Sila Silabhanja Sivakaradeva Sivananda
-			Skandavarman Sobhanaraja Solyana Subhakaradeva Sudevaraja Suravala Teja Tejavarsha Tustikara Udaya Udayavarsha Udita
-			Udyotakesari Umavarman Unmattasimha Utidavarsha Vaaraharaja Vajrahasta Vidhyadhara Vidhyadharabhanja Vijaya Vinayaditya
-			Vinita Vishakavarman Vrishadhvaja Vyaghraraja Yayati
+			Haria Jugasai Pratapnayan Harirudra Anku Raghunath Biswambhar Raisingh Dusmant "Pratap Deo" Padman "Khadag Rai" Yuvaraj Birabar Harichandra Gopinath Raghuraj Haria Bishwanath Rai Sunder Krishna Barman Biwarta Jagannath Narayana Bebarta Chandra Damodar Jadunath Pradeep
 		}
 		female_names = {
 			Ahiavadevi Apsaradevi Bhogavati Dandi Dandimahadevi Dattadevi Devavati Dharma Dharmamahadevi Durlabha Gandharavati
 			Gauri Gaurimahadevi Kalyanavati Karnadevi Kuladevi Lakshmi Lakshmikaradevi Lilavati Mahadevi Nayanadevi Rajasundari
-			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
+			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati "Giriraj" "Suratarangini Devi" "Malavika Devi"
 		}
 		
 		dynasty_title_names = yes
@@ -3792,10 +3316,14 @@
 		color = hsv{ 0.37 0.8 0.7 }
 		
 		cadet_dynasty_names = {
-			"dynn_Vaidyadeva"
-			"dynn_Ahom"
 			"dynn_Khen"
+			"dynn_Ahom"
+			"dynn_Nagas"
+			"dynn_Chutiya"
+			"dynn_Raikat"
+			"dynn_Koch"
 			"dynn_Sutiya"
+			"dynn_Kachari"
 			"dynn_Barobhyan"
 			{ "dynn_Banerjee" }
 			{ "dynn_Bagchi" }
@@ -3887,10 +3415,14 @@
 		}
 		
 		dynasty_names = {
-			"dynn_Vaidyadeva"
-			"dynn_Ahom"
 			"dynn_Khen"
+			"dynn_Ahom"
+			"dynn_Nagas"
+			"dynn_Chutiya"
+			"dynn_Raikat"
+			"dynn_Koch"
 			"dynn_Sutiya"
+			"dynn_Kachari"
 			"dynn_Barobhyan"
 			{ "dynn_Banerjee" }
 			{ "dynn_Bagchi" }
@@ -3990,7 +3522,7 @@
 			Timgyadeva Tyagasimha Ummoka Vanamalavarmadeva Vigrahastambha Vijaya Virabahu
 		}
 		female_names = {
-			Ahiavadevi Bhogavati Dattadevi Devavati Durlabha Gandharavati Kuladevi Nayanadevi
+			Ahiavadevi Bhogavati Dattadevi Devavati Durlabha Gandharavati Kuladevi Kuranganayani Mangaldahi Nayanadevi
 			Ratnavati Suvrata Syamadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati
 		}
 		
@@ -4153,6 +3685,280 @@
 		ethnicities = {
 			6 = indian
 			4 = asian
+		}
+	}
+
+	bihari = {# Bihari
+		
+		color = hsv{ 0.035 0.8 0.8 }
+
+		cadet_dynasty_names = {
+			"dynn_Samatata"
+			"dynn_Candravamsa"
+			"dynn_Sena"
+			"dynn_Sur"
+			"dynn_Karnata"
+			"dynn_Gupta"
+			"dynn_Mana"
+			"dynn_Ranaka"
+			"dynn_Gupta"
+			"dynn_Khayarwala"
+			"dynn_Chero"
+			"dynn_Sena"
+			"dynn_Khayarwala"
+			"dynn_Gupta"
+			"dynn_Mana"
+			"dynn_Deva"
+			"dynn_Pattikara"
+			"dynn_Deva"
+			"dynn_Khadi"
+			"dynn_Aparamandara"
+			{ "dynn_Banerjee" }
+			{ "dynn_Bagchi" }
+			{ "dynn_Bhaduri" }
+			{ "dynn_Bhattacharjee" }
+			{ "dynn_Chakraborty" }
+			{ "dynn_Chatterjee" }
+			{ "dynn_Ganguly" }
+			{ "dynn_Goswami" }
+			{ "dynn_Ghoshal" }
+			{ "dynn_Lahiri" }
+			{ "dynn_Maitra" }
+			{ "dynn_Mukherjee" }
+			{ "dynn_Sanyal" }
+			{ "dynn_Sengupta" }
+			{ "dynn_Dasgupta" }
+			{ "dynn_Duttagupta" }
+			{ "dynn_Gupta" }
+			{ "dynn_Sen_Sharma" }
+			{ "dynn_Basu" }
+			{ "dynn_Bose" }
+			{ "dynn_Dutta" }
+			{ "dynn_Ghosh" }
+			{ "dynn_Choudhury" }
+			{ "dynn_Guha" }
+			{ "dynn_Gain" }
+			{ "dynn_Mitra" }
+			{ "dynn_Singh" }
+			{ "dynn_Sinha" }
+			{ "dynn_Sen" }
+			{ "dynn_Pal" }
+			{ "dynn_Dev" }
+			{ "dynn_Palit" }
+			{ "dynn_Chanda" }
+			{ "dynn_Dam" }
+			{ "dynn_Kar" }
+			{ "dynn_Nandi" }
+			{ "dynn_Sarkar" }
+			{ "dynn_Acharya" }
+			{ "dynn_Adhikari" }
+			{ "dynn_Agarwal" }
+			{ "dynn_Bakshi" }
+			{ "dynn_Bangla" }
+			{ "dynn_Barman" }
+			{ "dynn_Basu" }
+			{ "dynn_Bhagat" }
+			{ "dynn_Bhaumik" }
+			{ "dynn_Bhuiyan" }
+			{ "dynn_Biswas" }
+			{ "dynn_Chakrabarti" }
+			{ "dynn_Chand" }
+			{ "dynn_Chaudhary" }
+			{ "dynn_Dasgupta" }
+			{ "dynn_Datta" }
+			{ "dynn_Debnath" }
+			{ "dynn_Devi" }
+			{ "dynn_Dhar" }
+			{ "dynn_Emu" }
+			{ "dynn_Ganguly" }
+			{ "dynn_Ghosh" }
+			{ "dynn_Ghoshal" }
+			{ "dynn_Hazra" }
+			{ "dynn_Hoque" }
+			{ "dynn_Jahan" }
+			{ "dynn_Jarin" }
+			{ "dynn_Jha" }
+			{ "dynn_Jothy" }
+			{ "dynn_Kajal" }
+			{ "dynn_Karal" }
+			{ "dynn_Kumari" }
+			{ "dynn_Lal" }
+			{ "dynn_Maharaj" }
+			{ "dynn_Mahato" }
+			{ "dynn_Mahi" }
+			{ "dynn_Majhi" }
+			{ "dynn_Mandal" }
+			{ "dynn_Miah" }
+			{ "dynn_Mukerjee" }
+			{ "dynn_Munna" }
+			{ "dynn_Nath" }
+			{ "dynn_Noor" }
+			{ "dynn_Pandey" }
+			{ "dynn_Pandit" }
+			{ "dynn_Pradhan" }
+			{ "dynn_Sahoo" }
+			{ "dynn_Sinha" }
+			{ "dynn_Tagore" }
+			{ "dynn_Thapa" }
+		}
+
+		dynasty_names = {
+			"dynn_Samatata"
+			"dynn_Candravamsa"
+			"dynn_Sena"
+			"dynn_Sur"
+			"dynn_Karnata"
+			"dynn_Gupta"
+			"dynn_Mana"
+			"dynn_Ranaka"
+			"dynn_Gupta"
+			"dynn_Khayarwala"
+			"dynn_Chero"
+			"dynn_Sena"
+			"dynn_Khayarwala"
+			"dynn_Gupta"
+			"dynn_Mana"
+			"dynn_Deva"
+			"dynn_Pattikara"
+			"dynn_Deva"
+			"dynn_Khadi"
+			"dynn_Aparamandara"
+			"dynn_Oinwara"
+			"dynn_Sugauna"
+			{ "dynn_Banerjee" }
+			{ "dynn_Bagchi" }
+			{ "dynn_Bhaduri" }
+			{ "dynn_Bhattacharjee" }
+			{ "dynn_Chakraborty" }
+			{ "dynn_Chatterjee" }
+			{ "dynn_Ganguly" }
+			{ "dynn_Goswami" }
+			{ "dynn_Ghoshal" }
+			{ "dynn_Lahiri" }
+			{ "dynn_Maitra" }
+			{ "dynn_Mukherjee" }
+			{ "dynn_Sanyal" }
+			{ "dynn_Sengupta" }
+			{ "dynn_Dasgupta" }
+			{ "dynn_Duttagupta" }
+			{ "dynn_Gupta" }
+			{ "dynn_Sen_Sharma" }
+			{ "dynn_Basu" }
+			{ "dynn_Bose" }
+			{ "dynn_Dutta" }
+			{ "dynn_Ghosh" }
+			{ "dynn_Choudhury" }
+			{ "dynn_Guha" }
+			{ "dynn_Gain" }
+			{ "dynn_Mitra" }
+			{ "dynn_Singh" }
+			{ "dynn_Sinha" }
+			{ "dynn_Sen" }
+			{ "dynn_Pal" }
+			{ "dynn_Dev" }
+			{ "dynn_Palit" }
+			{ "dynn_Chanda" }
+			{ "dynn_Dam" }
+			{ "dynn_Kar" }
+			{ "dynn_Nandi" }
+			{ "dynn_Sarkar" }
+			{ "dynn_Acharya" }
+			{ "dynn_Adhikari" }
+			{ "dynn_Agarwal" }
+			{ "dynn_Bakshi" }
+			{ "dynn_Bangla" }
+			{ "dynn_Barman" }
+			{ "dynn_Basu" }
+			{ "dynn_Bhagat" }
+			{ "dynn_Bhaumik" }
+			{ "dynn_Bhuiyan" }
+			{ "dynn_Biswas" }
+			{ "dynn_Chakrabarti" }
+			{ "dynn_Chand" }
+			{ "dynn_Chaudhary" }
+			{ "dynn_Dasgupta" }
+			{ "dynn_Datta" }
+			{ "dynn_Debnath" }
+			{ "dynn_Devi" }
+			{ "dynn_Dhar" }
+			{ "dynn_Emu" }
+			{ "dynn_Ganguly" }
+			{ "dynn_Ghosh" }
+			{ "dynn_Ghoshal" }
+			{ "dynn_Hazra" }
+			{ "dynn_Hoque" }
+			{ "dynn_Jahan" }
+			{ "dynn_Jarin" }
+			{ "dynn_Jha" }
+			{ "dynn_Jothy" }
+			{ "dynn_Kajal" }
+			{ "dynn_Karal" }
+			{ "dynn_Kumari" }
+			{ "dynn_Lal" }
+			{ "dynn_Maharaj" }
+			{ "dynn_Mahato" }
+			{ "dynn_Mahi" }
+			{ "dynn_Majhi" }
+			{ "dynn_Mandal" }
+			{ "dynn_Miah" }
+			{ "dynn_Mukerjee" }
+			{ "dynn_Munna" }
+			{ "dynn_Nath" }
+			{ "dynn_Noor" }
+			{ "dynn_Pandey" }
+			{ "dynn_Pandit" }
+			{ "dynn_Pradhan" }
+			{ "dynn_Sahoo" }
+			{ "dynn_Sinha" }
+			{ "dynn_Tagore" }
+			{ "dynn_Thapa" }
+		}
+
+		male_names = {
+			Amritnarayan Balabhata Balinarayan Ballalsen Basudevnayaran
+			Bhagadatta Bhairabendranarayan Bhatta Bhavashankari Bhimsingha Birnayaran
+			Chandrasen Chandranarayan Chaturanan Chilarai
+			Danujmadhava Dasharathadeva Devakhadga Devapala Devendranarayan
+			Dhairjendranayaran Dharendranarayan Dharmapala Dhirsingha
+			Gajnarayan Gopala Govindachandra Govindapala
+			Hajo Harendranarayan Haridevnarayan Hariyamandal Hemantasen Indranarayan
+			Jadu Jagaddipendranarayan Jatakhadga Jayanarayan Jayapala Jitendranarayan
+			Kalyanachandra Kamalnarayan Keshabsen Khadgodyama Krishanmishra Krishnaroy
+			Kumarapala Kumudnarayan Ladahachandra Lakshmansen Lakshmichandra Lakshminarayan Lomapada
+			Madanapala Mahendrapala Mahendrasingha Mahindranarayan Mahipala Manava Mukundanarayan
+			Naranarayan Narasingha Narayanapala Narendranarayan Nayapala Nripendranarayan
+			Parikshitnayaran Prananarayan Prannath Pratapnarayan Pratapnarayanroy Pushkaranadhipa
+			Raghudev Rajabhata Rajadinaj Rajaganesha Rajendranarayan Rajrajendranarayan Rajyapala
+			Ramapala Ramnath Ranasura Ranjitsingha Roopnarayan Rudranarayan
+			Samudrasen Shanibhangar Shashanka Shivanarayan Shivendranarayan Shukladhwaj Shurapala
+			Srichandra Srimanta Subarnachandra Sukhdev Suryanarayan Traillokyachandra
+			Udirnakhadga Uditanarayan Upendranayaran Vakapala Vapyata Vigrahapala
+			Vijaynarayan Vijaysen Vijaysingha Virajdendranarayan Vishwarupsen Vishwasingha
+			"Bhairav_Singh" "Bhavesh" "Bhogishwar" "Dev_Singh" "Dhir_Singh" Dhireshwar
+			"Ganeshwar_Singh" "Gang_Dev" Harasimhadeva "Hari_Singh" "Hemant_Sen"
+			"Kameshwar" "Kirti_Singh" Jyotirishwar "Laxman_Sen" "Laxminath_Singh_Dev" Madanpal
+			"Nanya_Dev" "Nar_Singh" "Narsingh_Dev" "Padma_Singh" "Rambhadra_Singh_Dev" Rameshwar
+			"Samant_Sen" "Shakrasingh_Dev" "Shiv_Singh"  "Vallal_Sen" "Vijay_Sen"
+			Agnimitra Andhraka Ayus Bhagabhadra Bhikhari Bhumimitra Devabhuti Ghosha Gopal Govindapal
+			Khsetravridha Maharshi Mahendra Maurayadhwaj Narayana Pulindaka Pusyamitra
+			Sahtiya Susarman Vajramitra Vasudeva Vasujyeshtha Vasumitra
+		}
+		female_names = {
+			Amrapali Amritakala Asima Bhavashankari "Bishwas_Devi" Bhogavati Bibibai Dattadevi Devavati "Devi_Ahiylya" Gandharavati
+			Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata
+			Syamadevi Vijnayavati Vina Yajnavati
+		}
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
+		ethnicities = {
+			10 = indian
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_company_of_the_delta" }
+			{ name = "mercenary_company_bengal_host" }
 		}
 	}
 

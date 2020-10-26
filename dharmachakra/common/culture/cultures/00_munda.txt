@@ -27,12 +27,11 @@
 		color = hsv{ 0.95 0.6 0.3 }
 
 		cadet_dynasty_names = {
-			"dynn_Cinkaiariyan"
-			"dynn_Aryacakravarti"
-			"dynn_Kulasekhara"
-			"dynn_Samoothiri"
-			"dynn_Perumadappu"
-			"dynn_Kadava"
+			"dynn_Porohat"
+			"dynn_Nagavamsi"
+			"dynn_Munda"
+			"dynn_Ho"
+			"dynn_Bhuiyan"
 			{ "dynn_Paraiyar" }
 			{ "dynn_Vishwakarma" }
 			{ "dynn_Aachari" }
@@ -144,12 +143,11 @@
 		}
 
 		dynasty_names = {
-			"dynn_Cinkaiariyan"
-			"dynn_Aryacakravarti"
-			"dynn_Kulasekhara"
-			"dynn_Samoothiri"
-			"dynn_Perumadappu"
-			"dynn_Kadava"
+			"dynn_Porohat"
+			"dynn_Nagavamsi"
+			"dynn_Munda"
+			"dynn_Ho"
+			"dynn_Bhuiyan"
 			{ "dynn_Paraiyar" }
 			{ "dynn_Vishwakarma" }
 			{ "dynn_Aachari" }
