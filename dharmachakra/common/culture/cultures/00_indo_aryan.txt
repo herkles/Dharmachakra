@@ -3268,7 +3268,6 @@
 			"dynn_Sankara"
 			"dynn_Bhuyavamsha"
 			"dynn_Gangabansi"
-			"dynn_Gangabansi"
 			"dynn_Bhanja"
 			"dynn_Karan"
 			"dynn_Keshari"
@@ -3280,7 +3279,6 @@
 			"dynn_Nagavamsi"
 			"dynn_Sankara"
 			"dynn_Bhuyavamsha"
-			"dynn_Gangabansi"
 			"dynn_Gangabansi"
 			"dynn_Bhanja"
 			"dynn_Karan"
@@ -3961,5 +3959,4 @@
 			{ name = "mercenary_company_bengal_host" }
 		}
 	}
-
 }

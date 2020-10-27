@@ -316,12 +316,12 @@
 		color = { 1.0 0.8 0.5 }
 
 		cadet_dynasty_names = {
-			"dynn_Cinkaiariyan"
-			"dynn_Aryacakravarti"
+			"dynn_Kolathiri"
+			"dynn_Saamoothiri"
+			"dynn_Perumal"
+			"dynn_Perumpadappu"
 			"dynn_Kulasekhara"
-			"dynn_Samoothiri"
-			"dynn_Perumadappu"
-			"dynn_Kadava"
+			"dynn_Cheraman"
 			{ "dynn_Paraiyar" }
 			{ "dynn_Vishwakarma" }
 			{ "dynn_Aachari" }
