@@ -511,7 +511,7 @@
 1131 = {	# 1131 - Karmanta
 	
 	# Misc
-	culture = bengali
+	culture = kachari
 	religion = theravada
 	
 	holding = castle_holding
@@ -719,7 +719,7 @@
 1325 = {	# 1325 - Madhupur
 	
 	# Misc
-	culture = kachari
+	culture = bengali
 	religion = theravada
 	
 	holding = castle_holding

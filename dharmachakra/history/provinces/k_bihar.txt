@@ -431,7 +431,7 @@
 1237 = {	# 1237 - Rajrappa
 	
 	# Misc
-	culture = nagpuri
+	culture = munda
 	religion = mahayana
 	
 	holding = castle_holding

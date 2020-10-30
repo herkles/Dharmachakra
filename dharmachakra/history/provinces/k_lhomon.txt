@@ -302,7 +302,7 @@
 9157 = {	# 9157 - Itanagar
 	
 	# Misc
-	culture = lhomon
+	culture = tani
 	religion = vaishnavism
 	
 	holding = castle_holding
@@ -482,7 +482,7 @@
 9172 = {	# 9172 - Medog
 	
 	# Misc
-	culture = lhomon #Lhoba
+	culture = tani #Lhoba
 	religion = lamaism
 	
 	holding = castle_holding

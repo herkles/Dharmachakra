@@ -1249,3 +1249,337 @@
 		death=yes
 	}
 }
+
+# Lohara Dynasty
+188405 = {
+	name = "Simharaja"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	910.1.1 = {
+		birth = yes
+	}
+	970.1.1 = {
+		death = yes
+	}
+}
+
+188406 = {
+	name = "Didda"
+	# wife of Ksemagupta Parvagupta, ruler of Kashmir
+	female = yes
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188405
+	930.1.1 = {
+		birth = yes
+	}
+	1003.1.1 = {
+		death = yes
+	}
+}
+
+188407 = {
+	name = "Udayaraja"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188405
+	931.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+
+188408 = {
+	name = "Kantiraja"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188405
+	932.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+
+188409 = {
+	name = "Samgrama"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188407
+	987.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = {
+		death = yes
+	}
+}
+
+188410 = {
+	name = "Vigraha"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188407
+	988.1.1 = {
+		birth = yes
+	}
+	1028.1.22 = {
+		death = yes
+	}
+}
+
+188411 = {
+	name = "Ksitiraja"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188410
+	1018.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+
+188412 = {
+	name = "Bhuvana"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188411
+	1046.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = {
+		death = yes
+	}
+}
+
+188413 = {
+	name = "Hariraja"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188409
+	1008.1.1 = {
+		birth = yes
+	}
+	1028.1.22 = {
+		death = yes
+	}
+}
+
+188414 = {
+	name = "Ananta"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188409
+	1020.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+
+188415 = {
+	name = "Jassaraja"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188408
+	980.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}
+
+188416 = {
+	name = "Gunga"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188415
+	1010.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+188417 = {
+	name = "Malla"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188416
+	1040.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+188418 = {
+	name = "Uccala"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188417
+	1080.1.1 = {
+		birth = yes
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}
+
+188419 = {
+	name = "Kalasa"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188414
+	1048.1.1 = {
+		birth = yes
+	}
+	1089.1.1 = {
+		death = yes
+	}
+}
+
+188420 = {
+	name = "Harsa"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188419
+	1068.1.1 = {
+		birth = yes
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
+
+188421 = {
+	name = "Salhana"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188417
+	1082.1.1 = {
+		birth = yes
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}
+
+188422 = {
+	name = "Sussala"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188417
+	1081.1.1 = {
+		birth = yes
+	}
+	1128.1.1 = {
+		death = yes
+	}
+}
+
+188423 = {
+	name = "Bhoja"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188420
+	1088.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+
+188424 = {
+	name = "Bhiksacara"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188423
+	1104.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+
+188425 = {
+	name = "Jayasimha"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188422
+	1105.1.1 = {
+		birth = yes
+	}
+	1155.1.1 = {
+		death = yes
+	}
+}
+
+188426 = {
+	name = "Paramanuka"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188425
+	1129.1.1 = {
+		birth = yes
+	}
+	1165.1.1 = {
+		death = yes
+	}
+}
+
+188427 = {
+	name = "Vantideva"
+	dynasty = 1042093 # Lohara
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188426
+	1149.1.1 = {
+		birth = yes
+	}
+	1172.1.1 = {
+		death = yes
+	}
+}
+
+
+
+
+
+
+
+
+
+
