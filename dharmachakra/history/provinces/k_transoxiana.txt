@@ -3,7 +3,7 @@
 		
 	# Misc
 	culture = nuristani
-	religion = zun_pagan
+	religion = nuristani_pagan
 	
 	# History
 
@@ -12,7 +12,7 @@
 		
 	# Misc
 	culture = nuristani
-	religion = zun_pagan
+	religion = nuristani_pagan
 	
 	# History
 
