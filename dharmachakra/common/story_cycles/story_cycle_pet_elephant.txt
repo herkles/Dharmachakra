@@ -288,14 +288,14 @@
 		days = 365
 
 		trigger = {
-			exists = var:cat_age_variable
+			exists = var:elephant_age_variable
 		}
 
 		triggered_effect = {
 			trigger = { always = yes }
 			effect = {
 				change_variable = {
-					name = cat_age_variable
+					name = elephant_age_variable
 					add = 1
 				}
 			}

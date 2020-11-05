@@ -46,7 +46,9 @@
 
  dharma_elephants.202.t:0 "Your [get.heir(SonDaughter)] rides your elphant through town"
  dharma_elephants.202.desc:0 "Now that your heir has come of age, to show him off as the future ruler of [getTitle], he has ridden through streets of [getCapital]. The crowds of people came to see their future ruler."
- dharma_elephants.202.a:0 "[get.her(HimHer] has shown himself today"
+ dharma_elephants.202.a_female:0 "[get.her(HimHer] has shown himself today"
+ dharma_elephants.202.a_male:0 "[get.her(HimHer] has shown himself today"
+
 
  dharma_elephants.205.t:0 "Make your Elephant a war elephant?"
  dharma_elephants.205.desc:0 "You have been building up some War Elephants, the question has come to you if you should make [ROOT.Char.Custom('ElephantStoryName')] a war elephant. Should you ride [ROOT.Char.Custom('elephantStoryHerHim')] into battle or should you keep [ROOT.Char.Custom('elephantStoryHerHim')] out of war?"
@@ -67,5 +69,5 @@
 
 #Elephant dies :(
  dharma_elephants.215.t:0 "[ROOT.Char.Custom('elephantStoryName')]: Day of Sorrow"
- dharma_elephants.215.desc:0 "[ROOT.Char.Custom('elephantStoryName')] is not as young as [ROOT.Char.Custom('elephantStorySheHe')] once was, and as [ROOT.Char.Custom('elephantStorySheHe')] lays down in the royal stables, I can feel [ROOT.Char.Custom('elephantStoryHerHim')] trembling.\n\I gently stroke [ROOT.Char.Custom('elephantStoryHerHis')] [ROOT.Char.Custom('elephantFurColor')] skin. As the night falls, I know that  [ROOT.Char.Custom('elephantStorySheHe')] won't wake again."
+ dharma_elephants.215.desc:0 "[ROOT.Char.Custom('elephantStoryName')]: is not as young as [ROOT.Char.Custom('elephantStorySheHe')] once was, and as [ROOT.Char.Custom('elephantStorySheHe')] lays down in the royal stables, I can feel [ROOT.Char.Custom('elephantStoryHerHim')] trembling.\n\nI gently stroke [ROOT.Char.Custom('elephantStoryHerHis')] [ROOT.Char.Custom('elephantFurColor')] skin. As the night falls, I know that  [ROOT.Char.Custom('elephantStorySheHe')] won't wake again."
  dharma_elephants.215.a:0 "I will miss you, [ROOT.Char.Custom('elephantStoryName')]!"

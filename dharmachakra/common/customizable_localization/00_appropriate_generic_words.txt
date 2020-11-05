@@ -12,12 +12,12 @@
 	}
 
 	text = {# Banana
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_banana
 	}
 	
 	text = {# Mango
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_mango
 	}	
 }
@@ -36,12 +36,12 @@ GetSmallFoodIndef = {
 	}
 
 	text = {# Banana
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_banana_indef
 	}
 	
 	text = {# Mango
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_mango_indef
 	}
 }
@@ -75,7 +75,7 @@ GetClothingArticle = {
 	text = {# Sari
 		trigger = {
 			is_female = yes
-			geographical_region = world_india
+			capital_province = { geographical_region = world_india }
 		}
 		localization_key = clothing_word_sari
 	}
@@ -83,29 +83,28 @@ GetClothingArticle = {
 	text = {# Achkan
 		trigger = {
 			is_male = yes
-			geographical_region = world_india
+			capital_province = { geographical_region = world_india }
 		}
 		localization_key = clothing_word_achkan
 	}
 
 	text = {# Sarong
 		trigger = {
-			is_female = yes
-			geographical_region = world_india
+			capital_province = { geographical_region = world_india }
 		}
 		localization_key = clothing_word_sarong
 	}
 
 	text = {# Dhoti
 		trigger = {
-			geographical_region = world_india
+			capital_province = { geographical_region = world_india }
 		}
 		localization_key = clothing_word_dhoti
 	}
 
 	text = {# Mundu
 		trigger = {
-			geographical_region = world_india
+			capital_province = { geographical_region = world_india }
 		}
 		localization_key = clothing_word_mundu
 	}
@@ -139,14 +138,14 @@ GetUpperClothingArticle = {
 	}
 
 	text = {# Mundu
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = clothing_word_mundu
 	}
 
 	text = {# Sari
 		trigger = {
 			is_female = yes
-			geographical_region = world_india
+			capital_province = { geographical_region = world_india }
 		}
 		localization_key = clothing_word_sari
 	}
@@ -154,7 +153,7 @@ GetUpperClothingArticle = {
 	text = {# Achkan
 		trigger = {
 			is_male = yes
-			geographical_region = world_india
+			capital_province = { geographical_region = world_india }
 		}
 		localization_key = clothing_word_achkan
 	}
@@ -176,39 +175,39 @@ GetFoodDetail = {
 		localization_key = food_detail_almond
 	}
 	text = {# Cardamom
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_cardamom
 	}
 	text = {# Clove
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_clove
 	}
 	text = {# Coriander
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_coriander
 	}
 	text = {# Cumin
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_cumin
 	}
 	text = {# Nutmeg
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_nutmeg
 	}
 	text = {# Mace
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_mace
 	}
 	text = {# Fenugreek
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_fenugreek
 	}
 	text = {# Turmeric
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_turmeric
 	}
 	text = {# Saffron
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = food_word_saffron
 	}
 }
@@ -285,19 +284,19 @@ GetExpensiveMeal = {
 	}
 	# Indian Cuisine 
 	text = {# Dal
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = expensive_food_dal
 	}
 	text = {# khichdi
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = expensive_food_khichdi
 	}
 	text = {# Machher Jhol
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = expensive_food_machher_jhol
 	}
 	text = {# Palak Paneer
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = expensive_food_palak_paneer	
 	}
 	text = {# Roasted Turtle
@@ -375,15 +374,15 @@ GetExpensiveDessert = {
 		}
 	}
 	text = {# Payasam
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = expensive_dessert_payasam
 	}
 	text = {# Dahi Vada
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = expensive_dessert_dahi_vada
 	}
 	text = {# Bonda
-		trigger = { geographical_region = world_india }
+		trigger = { capital_province = { geographical_region = world_india } }
 		localization_key = expensive_dessert_bonda
 	}
 }

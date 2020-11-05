@@ -11,7 +11,7 @@ dharma_buddhism.002.meditate:0 "I shall meditate on this further."
 
 dharma_buddhism.003.t:0 "Buddhist monk asks for donations"
 dharma_buddhism.003.desc:0 "While the Monk is staying at your court, you are to provide him with food and donations to get by. He does not ask for much as he has but one meal a day, still as a ruler it is expected of you to tend to your guests."
-dharma_buddhism.004.donate:0 "Here you go. "
+dharma_buddhism.003.donate:0 "Here you go. "
 
 dharma_buddhism.004.t:0 "Meditate with Monk?"
 dharma_buddhism.004.desc:0 "The Monk has mentioned that you should spend some time out in the courtyard meditating together. However should you focus on this or should you focus on your worldly duties as a ruler? "
@@ -71,7 +71,7 @@ dharma_buddhism.016.desc:0 "While you are at the University you have the opprotu
 dharma_buddhism.016.yoga:0 "I shall observe a class on Yoga"
 dharma_buddhism.016.book:0 "I shall observe a class on the Tripitaka"
 dharma_buddhism.016.logic:0 "I shall observe a class on Logic"
-dharma_buddhism.016.medicine:0 "I shall observe a class on Medicine"
+dharma_buddhism.016.astrology:0 "I shall observe a class on Astrology"
 
 dharma_buddhism.018.t:0 "Returning Home"
 dharma_buddhism.018.desc:0 "After some time at Nalanda University, you have returned to [Root.GetCapital]. Visiting the University was quite the experince and you are glad that you went."

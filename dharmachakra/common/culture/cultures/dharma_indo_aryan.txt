@@ -3288,7 +3288,7 @@
 		}
 
 		male_names = {
-			Haria Jugasai Pratapnayan Harirudra Anku Raghunath Biswambhar Raisingh Dusmant "Pratap Deo" Padman "Khadag Rai" Yuvaraj Birabar Harichandra Gopinath Raghuraj Haria Bishwanath Rai Sunder Krishna Barman Biwarta Jagannath Narayana Bebarta Chandra Damodar Jadunath Pradeep
+			Haria Jugasai Pratapnayan Harirudra Anku Raghunath Biswambhar Raisingh Dusmant Pratap_Deo Padman Khadag_Rai Yuvaraj Birabar Harichandra Gopinath Raghuraj Haria Bishwanath Rai Sunder Krishna Barman Biwarta Jagannath Narayana Bebarta Chandra Damodar Jadunath Pradeep
 		}
 		female_names = {
 			Ahiavadevi Apsaradevi Bhogavati Dandi Dandimahadevi Dattadevi Devavati Dharma Dharmamahadevi Durlabha Gandharavati

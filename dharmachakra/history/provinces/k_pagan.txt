@@ -708,7 +708,7 @@
 9625 = {	# 9625 - Chin
 	
 	# Misc
-	culture = chin
+	culture = meitei
 	religion = ari
 	
 	holding = none

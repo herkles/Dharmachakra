@@ -4,6 +4,16 @@
 # Elephants                               #
 ###########################################
 
+scripted_trigger in_india_trigger = {
+	tier = tier_county
+	capital_province = {
+		OR = {
+			geographical_region = world_india
+		}
+	}
+}
+
+
 dharma_elephants.100 = {# Peasants need elephants for clearing forest
 	type = character_event
 	title = dharma_elephants.100.t
@@ -12,9 +22,7 @@ dharma_elephants.100 = {# Peasants need elephants for clearing forest
 	left_portrait = root
 
 	trigger = {
-		capital_province = {
-			geographical_region = world_india
-		}
+		in_india_trigger = yes
 	}
 
 	immediate = {
@@ -122,9 +130,20 @@ dharma_elephants.102 = {# Crazed elephant is killed by soldiers in a messy way
 	left_portrait = root
 
 
+	immediate = {
+		#Find one of our owned counties.
+		random_held_title = {
+			limit = {
+				tier = tier_county
+			}
+			#Save the scope.
+			save_scope_as = target_county
+		}
+	}
+
 	option = {
 		name = dharma_elephants.102.a
-		capital_province = {
+		scope:target_county = {
 			add_county_modifier = {
 				modifier = governance_1054_upset_peasants_modifier
 				years = 2
@@ -162,11 +181,21 @@ dharma_elephants.104 = {# Crazed elephant kills people, then escapes
 	theme = realm
 	left_portrait = root
 
+	immediate = {
+		#Find one of our owned counties.
+		random_held_title = {
+			limit = {
+				tier = tier_county
+			}
+			#Save the scope.
+			save_scope_as = target_county
+		}
+	}
 
 	option = {
 		name = dharma_elephants.104.a
 		add_prestige = minor_prestige_loss
-		capital_province = {
+		scope:target_county = {
 			add_county_modifier = {
 				modifier = governance_1052_resentful_serfs_modifier
 				years = 2
@@ -184,12 +213,22 @@ dharma_elephants.105 = {# Crazed elephant is captured
 
 	left_portrait = root
 
+	immediate = {
+		#Find one of our owned counties.
+		random_held_title = {
+			limit = {
+				tier = tier_county
+			}
+			#Save the scope.
+			save_scope_as = target_county
+		}
+	}
 
 	option = {
 		name = dharma_elephants.105.a
 		add_prestige = minor_prestige_gain
-		capital_province = {
-			add_province_modifier = {
+		scope:target_county = {
+			add_county_modifier = {
 				modifier = governance_1054_satisfied_peasants_modifier
 				years = 2
 			}
@@ -233,10 +272,19 @@ dharma_elephants.106 = {# Temple elephants are dying
 	}
 }
 
-
 ###########################################
 #			Pet Elephants                 #
 ###########################################
+scripted_trigger able_to_have_elephants_trigger = {
+	#Located in an appropriate region.
+	capital_province = { 
+		OR = {
+			geographical_region = world_india
+			region = world_africa
+		}
+	}
+}
+
 dharma_elephants.200 = {# Name your elephant
 	type = character_event
 	title = dharma_elephants.200.t
@@ -248,12 +296,7 @@ dharma_elephants.200 = {# Name your elephant
 	}
 
 	trigger = {
-		capital_province = {
-			OR = {
-				geographical_region = world_india
-				region = world_africa
-			}
-		}
+		able_to_have_elephants_trigger = yes
 	}
 
 	immediate = {
@@ -413,7 +456,7 @@ dharma_elephants.202 = {# Your heir comes to age and rides an elephant
 			text = dharma_elephants.202.a_female
 		}
 		name = {
-			trigger = { scope:story = { var:dog_gender = flag:male } }
+			trigger = { scope:story = { var:elephant_gender = flag:male } }
 			text = dharma_elephants.202.a_male
 		}
 		scope:heir = {
@@ -465,8 +508,8 @@ dharma_elephants.205 = {# Make him a war elephant?
 		name = dharma_elephants.205.b
 		stress_impact = {
 			base = minor_stress_impact_loss
-			Craven = medium_stress_impact_loss
-			Compassionate = medium_stress_impact_loss
+			craven = medium_stress_impact_loss
+			compassionate = medium_stress_impact_loss
 		}
 	}
 
