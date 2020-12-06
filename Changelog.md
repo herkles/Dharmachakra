@@ -8,8 +8,16 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- Added the cultures of Malayali, Konkani, Saurashtra, Braj, awadhi, Malvi, Gondi, Nagpuri, Bihari, Bhil, Rajbongshi, Kachari, Chin, Rakhine
-- Hindustani is now a melting pot culture. It will happen in the late medieval era, if you are of Iranian or Turkic culture and you rule over Braj or Awadhi
+- Overhauled the cultural map of India
+- Updated character's culture to reflect the new cultural map.
+- added the following cultures: Rakhine, Gondi, Konkani, Awadhi, Braj, Saurashtra, Bhil, Malvi, Nagpuri, Sambalpuri, Rajbongshi, Kumaoni, Pahari, Bihari, Munda, Nuristani, Tani, Meitei, Kachari
+- Hindustani is now a melting pot culture. It happens if you are of Iranian or Turkic culture and you rule over Braj or Awadhi
+- Added the following special buildings around India: Multan Sun Temple, Ellora Caves, Ajanta Caves, The Temple Complex of Pattadakal, Elephanta Caves, Katas Raj Temples, Konark Sun Temple, Sanchi, Takht-i-bahi, Dambulla Cave Temples, Pabonka Hermitage, Palitana Temple, Chittorgarh Fort, Ranthambore Fort, Gwalior Fort, Rani Ki Vav
+- Made the Zunist Religion part of the Eastern Family
+- Added the Nuristani faith, it is part of the Zunist Religion
+- Kashmir now is Shivite instead vaishnavite
+- Added various customizable flavor texts for various small things. You should expect to see terms for Indian games, clothing, food and so on pop up in the events that use them.
+- Numerous bug Fixes
 
 
 ## Manual Installation Steps
