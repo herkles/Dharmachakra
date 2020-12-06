@@ -471,11 +471,11 @@ birth.0001 = {
 			}
 		}
 
-		# For Hindus remove the Pumsavana modifier 
-		if = {
-			limit = { has_character_flag = spouse_pumsavana }
-			remove_character_flag = spouse_pumsavana
-		}
+		# # For Hindus remove the Pumsavana modifier 
+		# if = {
+		# 	limit = { has_character_flag = spouse_pumsavana }
+		# 	remove_character_flag = spouse_pumsavana
+		# }
 	}
 }
 
