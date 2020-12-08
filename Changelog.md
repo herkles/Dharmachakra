@@ -19,7 +19,6 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Added various customizable flavor texts for various small things. You should expect to see terms for Indian games, clothing, food and so on pop up in the events that use them.
 - Numerous bug Fixes
 
-
 ## Manual Installation Steps
 
 DO NOT manually download the master branch unless you know what you're doing as it is the WIP version that is constantly being updated!

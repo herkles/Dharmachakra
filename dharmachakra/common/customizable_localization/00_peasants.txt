@@ -2,7 +2,8 @@
 	type = character
 	random_valid = yes
 
-	text = {
+	# General Peasant Professions
+	text = {# Miller
 		trigger = {
 			OR = {
 				AND = {
@@ -27,7 +28,7 @@
 		}
 		localization_key = peasant_profession_miller
 	}
-	text = {
+	text = {# Miller's Wife
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -39,7 +40,7 @@
 		}
 		localization_key = peasant_profession_millers_wife
 	}
-	text = {
+	text = {# Miller's Husband
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -51,108 +52,7 @@
 		}
 		localization_key = peasant_profession_millers_husband
 	}
-
-	text = {
-		trigger = {
-			OR = {
-				AND = {
-					scope:second.faith = {
-						OR = {
-							has_doctrine_parameter = male_dominated_law
-							has_doctrine_parameter = gender_equal_law
-						}
-					}
-					is_male = yes
-				}
-				AND = {
-					scope:second.faith = {
-						OR = {
-							has_doctrine_parameter = female_dominated_law
-							has_doctrine_parameter = gender_equal_law
-						}
-					}
-					is_female = yes
-				}
-			}
-		}
-		localization_key = peasant_profession_reeve
-	}
-	text = {
-		trigger = {
-			scope:second.faith = {
-				OR = {
-					has_doctrine_parameter = male_dominated_law
-					has_doctrine_parameter = gender_equal_law
-				}
-			}
-			is_female = yes
-		}
-		localization_key = peasant_profession_reeves_wife
-	}
-	text = {
-		trigger = {
-			scope:second.faith = {
-				OR = {
-					has_doctrine_parameter = female_dominated_law
-					has_doctrine_parameter = gender_equal_law
-				}
-			}
-			is_female = yes
-		}
-		localization_key = peasant_profession_reeves_husband
-	}
-
-	text = {
-		trigger = {
-			OR = {
-				AND = {
-					scope:second.faith = {
-						OR = {
-							has_doctrine_parameter = male_dominated_law
-							has_doctrine_parameter = gender_equal_law
-						}
-					}
-					is_male = yes
-				}
-				AND = {
-					scope:second.faith = {
-						OR = {
-							has_doctrine_parameter = female_dominated_law
-							has_doctrine_parameter = gender_equal_law
-						}
-					}
-					is_female = yes
-				}
-			}
-		}
-		localization_key = peasant_profession_bailif
-	}
-	text = {
-		trigger = {
-			scope:second.faith = {
-				OR = {
-					has_doctrine_parameter = male_dominated_law
-					has_doctrine_parameter = gender_equal_law
-				}
-			}
-			is_female = yes
-		}
-		localization_key = peasant_profession_bailifs_wife
-	}
-	text = {
-		trigger = {
-			scope:second.faith = {
-				OR = {
-					has_doctrine_parameter = female_dominated_law
-					has_doctrine_parameter = gender_equal_law
-				}
-			}
-			is_female = yes
-		}
-		localization_key = peasant_profession_bailifs_husband
-	}
-
-	text = {
+	text = {# Bowyer
 		trigger = {
 			OR = {
 				AND = {
@@ -177,7 +77,7 @@
 		}
 		localization_key = peasant_profession_bowyer
 	}
-	text = {
+	text = {# Bowyer's wife
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -189,7 +89,7 @@
 		}
 		localization_key = peasant_profession_bowyers_wife
 	}
-	text = {
+	text = {# Bowyer's Husband
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -201,8 +101,7 @@
 		}
 		localization_key = peasant_profession_bowyers_husband
 	}
-
-	text = {
+	text = {# Cobbler
 		trigger = {
 			OR = {
 				AND = {
@@ -227,7 +126,7 @@
 		}
 		localization_key = peasant_profession_cobbler
 	}
-	text = {
+	text = {# Cobbler's Wife
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -239,7 +138,7 @@
 		}
 		localization_key = peasant_profession_cobblers_wife
 	}
-	text = {
+	text = {# Cobbler's Husband
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -251,8 +150,7 @@
 		}
 		localization_key = peasant_profession_cobblers_husband
 	}
-
-	text = {
+	text = {# Night Watchman
 		trigger = {
 			OR = {
 				AND = {
@@ -277,7 +175,7 @@
 		}
 		localization_key = peasant_profession_night_watchman
 	}
-	text = {
+	text = {# Night Watchman's wife
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -289,7 +187,7 @@
 		}
 		localization_key = peasant_profession_night_watchmans_wife
 	}
-	text = {
+	text = {# Night Watchman's husband
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -301,12 +199,10 @@
 		}
 		localization_key = peasant_profession_night_watchmans_husband
 	}
-
-	text = {
+	text = {# Herbalist
 		localization_key = peasant_profession_herbalist
-	}
-	
-	text = {
+	}	
+	text = {# Farmer
 		trigger = {
 			OR = {
 				AND = {
@@ -331,7 +227,7 @@
 		}
 		localization_key = peasant_profession_farmer
 	}
-	text = {
+	text = {# Farmer's wife
 		trigger = {
 			scope:second.faith = {
 				OR = {
@@ -343,14 +239,296 @@
 		}
 		localization_key = peasant_profession_farmers_wife
 	}
-
-	text = {
-		trigger = { is_female = yes }
+	# European Peasant Professions
+	text = {# Reeve
+		trigger = {
+			NOT = { capital_province = { geographical_region = world_india }
+			OR = {
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = male_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_male = yes
+				}
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = female_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_female = yes
+				}
+			}
+		}
+		localization_key = peasant_profession_reeve
+	}
+	text = {# Reeve's Wife
+		trigger = {
+			NOT = { capital_province = { geographical_region = world_india }
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = male_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+		}
+		localization_key = peasant_profession_reeves_wife
+	}
+	text = {# Reeves' Husband
+		trigger = {
+			NOT = { capital_province = { geographical_region = world_india }
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = female_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+		}
+		localization_key = peasant_profession_reeves_husband
+	}
+	text = {# Bailif
+		trigger = {
+			NOT = { capital_province = { geographical_region = world_india }
+			OR = {
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = male_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_male = yes
+				}
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = female_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_female = yes
+				}
+			}
+		}
+		localization_key = peasant_profession_bailif
+	}
+	text = {# Bailif's wife
+		trigger = {
+			NOT = { capital_province = { geographical_region = world_india }
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = male_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+		}
+		localization_key = peasant_profession_bailifs_wife
+	}
+	text = {# Bailif's Husband
+		trigger = {
+			NOT = { capital_province = { geographical_region = world_india }
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = female_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+		}
+		localization_key = peasant_profession_bailifs_husband
+	}
+	text = {# Prioress
+		trigger = { 
+			is_female = yes
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
 		localization_key = peasant_profession_prioress
 	}
-
-	text = {
-		trigger = { is_male = yes }
+	text = {# Prior
+		trigger = { 
+			is_male = yes 
+			faith = {
+				religion_tag = christianity_religion
+			}
+		}
 		localization_key = peasant_profession_prior
+	}
+	# Indian Peasant Professions
+	text = {# Yogi
+		trigger = { 
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_yogi
+	}
+	text = {# Sadhu
+		trigger = { 
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_sadhu
+	}
+	text = {# Ksetrapa
+		trigger = { 
+			capital_province = { geographical_region = world_india
+			OR = {
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = male_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_male = yes
+				}
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = female_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_female = yes
+				}
+			}
+		}
+		localization_key = peasant_profession_ksetrapa
+	}
+	text = {# Ksetrapa's wife
+		trigger = { 
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = male_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_ksetrapa_wife
+	}
+	text = {# Ksetrapa's husband
+		trigger = { 
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = female_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_ksetrapa_husband
+	}
+	text = {# Tarika
+		trigger = { 
+			OR = {
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = male_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_male = yes
+				}
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = female_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_female = yes
+				}
+			}
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_tarika
+	}			
+	text = {# Tarika's wife
+		trigger = { 
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = male_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_tarika_wife
+	}
+	text = {# Tarika's husband
+		trigger = { 
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = female_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_tarika_husband
+	}	
+	text = {# Kulkarni
+		trigger = { 
+			OR = {
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = male_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_male = yes
+				}
+				AND = {
+					scope:second.faith = {
+						OR = {
+							has_doctrine_parameter = female_dominated_law
+							has_doctrine_parameter = gender_equal_law
+						}
+					}
+					is_female = yes
+				}
+			}
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_kulkarni
+	}
+	text = {# Kulkarni's wife
+		trigger = { 
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = male_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peasant_profession_kulkarni_wife
+	}
+	text = {# Kulkarni's husband
+		trigger = { 
+			scope:second.faith = {
+				OR = {
+					has_doctrine_parameter = female_dominated_law
+					has_doctrine_parameter = gender_equal_law
+				}
+			}
+			is_female = yes
+			capital_province = { geographical_region = world_india
+		}
+		localization_key = peaant_profession_prior
 	}
 }
