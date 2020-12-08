@@ -242,7 +242,6 @@
 	# European Peasant Professions
 	text = {# Reeve
 		trigger = {
-			NOT = { capital_province = { geographical_region = world_india }
 			OR = {
 				AND = {
 					scope:second.faith = {
@@ -527,8 +526,8 @@
 				}
 			}
 			is_female = yes
-			capital_province = { geographical_region = world_india
+			capital_province = { geographical_region = world_india }
 		}
-		localization_key = peaant_profession_prior
+	localization_key = peaant_profession_prior
 	}
 }

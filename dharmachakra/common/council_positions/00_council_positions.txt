@@ -364,14 +364,18 @@ councillor_court_chaplain = {
 	valid_character = {
 		exists = root.liege_or_court_owner
 		can_be_court_chaplain_trigger = { COURT_OWNER = root.liege_or_court_owner }
-		OR = {
-			AND = {
-				has_trait = devoted
-				faith = { religion_tag = buddhism_religion }
-			}
-			AND = {
-				has_trait = devoted
-				faith = { religion_tag = jainism_religion }	
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						has_trait = devoted
+						faith = { religion_tag = buddhism_religion }
+					}
+					AND = {
+						has_trait = devoted
+						faith = { religion_tag = jainism_religion }	
+					}
+				}
 			}
 		}
 	}

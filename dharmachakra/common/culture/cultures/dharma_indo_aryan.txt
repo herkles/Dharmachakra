@@ -3293,7 +3293,7 @@
 		female_names = {
 			Ahiavadevi Apsaradevi Bhogavati Dandi Dandimahadevi Dattadevi Devavati Dharma Dharmamahadevi Durlabha Gandharavati
 			Gauri Gaurimahadevi Kalyanavati Karnadevi Kuladevi Lakshmi Lakshmikaradevi Lilavati Mahadevi Nayanadevi Rajasundari
-			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati "Giriraj" "Suratarangini Devi" "Malavika Devi"
+			Ratnavati Suvrata Syamadevi Vakula Vakulamahadevi Vasumati Vijnanavati Vijnayavati Yajiyavati Yajnavati Giriraj Suratarangini_Devi Malavika_Devi
 		}
 		
 		dynasty_title_names = yes
