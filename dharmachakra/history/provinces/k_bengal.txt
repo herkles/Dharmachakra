@@ -317,7 +317,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = theravada
+	religion = sanamahi_pagan
 	
 	holding = castle_holding
 	

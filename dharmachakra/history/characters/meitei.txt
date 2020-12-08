@@ -2,7 +2,7 @@
 manipur001 = {
 	name = "Nongda_Lairen_Pakhangba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	
 	80.1.1 = {
@@ -15,7 +15,7 @@ manipur001 = {
 manipur002 = {
 	name = "Khuiyoi_Tompok"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur001
 	
@@ -29,7 +29,7 @@ manipur002 = {
 manipur003 = {
 	name = "Taothingmang"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur002
 	
@@ -43,7 +43,7 @@ manipur003 = {
 manipur004 = {
 	name = "Khui_Ningonba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur003
 	
@@ -57,7 +57,7 @@ manipur004 = {
 manipur005 = {
 	name = "Pengsiba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur004
 	
@@ -71,7 +71,7 @@ manipur005 = {
 manipur006 = {
 	name = "Kaokhangba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur005
 	
@@ -85,7 +85,7 @@ manipur006 = {
 manipur007 = {
 	name = "Naokhamba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur006
 	
@@ -99,7 +99,7 @@ manipur007 = {
 manipur008 = {
 	name = "Naophangba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur007
 	
@@ -113,7 +113,7 @@ manipur008 = {
 manipur009 = {
 	name = "Sameirang"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur008
 	
@@ -127,7 +127,7 @@ manipur009 = {
 manipur010 = {
 	name = "Urakonthouba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur009
 	
@@ -141,7 +141,7 @@ manipur010 = {
 manipur011 = {
 	name = "Naothingkhon"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur010
 	
@@ -155,7 +155,7 @@ manipur011 = {
 manipur012 = {
 	name = "Khongtekcha"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur011
 	
@@ -169,7 +169,7 @@ manipur012 = {
 manipur013 = {
 	name = "Keirencha"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur012
 	
@@ -183,7 +183,7 @@ manipur013 = {
 manipur014 = {
 	name = "Yaraba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur013
 	
@@ -197,7 +197,7 @@ manipur014 = {
 manipur015 = {
 	name = "Ayangba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur014
 	
@@ -211,7 +211,7 @@ manipur015 = {
 manipur016 = {
 	name = "Ningthoucheng"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur015
 	
@@ -225,7 +225,7 @@ manipur016 = {
 manipur017 = {
 	name = "Chenglie_Ipan_Lanthaba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur016
 	
@@ -239,7 +239,7 @@ manipur017 = {
 manipur018 = {
 	name = "Keiphaba_Yanglon"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur017
 	
@@ -253,7 +253,7 @@ manipur018 = {
 manipur019 = {
 	name = "Irengba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur018
 	
@@ -267,7 +267,7 @@ manipur019 = {
 manipur020 = {
 	name = "Loiumba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur019
 	
@@ -281,7 +281,7 @@ manipur020 = {
 manipur021 = {
 	name = "Loitongba"
 	dynasty = 2000010 #Ningthouja
-	religion = sedism
+	religion = sanamahi_pagan
 	culture = meitei
 	father = manipur020
 	

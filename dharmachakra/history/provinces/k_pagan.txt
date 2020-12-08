@@ -695,7 +695,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = ari
+	religion = sanamahi_pagan
 	
 	holding = castle_holding
 	
@@ -709,7 +709,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = ari
+	religion = sanamahi_pagan
 	
 	holding = none
 	
