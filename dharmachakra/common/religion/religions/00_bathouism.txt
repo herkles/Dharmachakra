@@ -1,4 +1,4 @@
-﻿sanamahism_religion = {
+﻿bathouism_religion = {
 	family = rf_eastern
 	graphical_faith = dharmic_gfx
 	doctrine = eastern_hostility_doctrine
@@ -33,8 +33,17 @@
 	doctrine = tribal_religion
 	
 	traits = {
-		virtues = { temperate content honest forgiving }
-		sins = { greedy wrathful ambitious }
+		virtues = { 
+			temperate 
+			content 
+			honest 
+			generous 
+		}
+		sins = { 
+			lustful
+			greedy
+			deceitful
+		}
 	}
 
 	custom_faith_icons = {
@@ -49,32 +58,32 @@
 
 	localization = {
 		#HighGod
-		HighGodName = sanamahism_high_god_name
-		HighGodNamePossessive = sanamahism_high_god_name_possessive
+		HighGodName = bathouism_high_god_name
+		HighGodNamePossessive = bathouism_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
 
 		#Creator
-		CreatorName = sanamahism_creator_god_name
-		CreatorNamePossessive = sanamahism_creator_god_name_possessive
-		CreatorSheHe = CHARACTER_SHEHE_IT
-		CreatorHerHis = CHARACTER_HERHIS_ITS
-		CreatorHerHim = CHARACTER_HERHIM_IT
+		CreatorName = bathouism_creator_god_name
+		CreatorNamePossessive = bathouism_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod
-		HealthGodName = sanamahism_creator_god_name
-		HealthGodNamePossessive = sanamahism_creator_god_name_possessive
+		HealthGodName = bathouism_health_god_name
+		HealthGodNamePossessive = bathouism_health_god_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_HE
 		HealthGodHerHis = CHARACTER_HERHIS_HIS
 		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
-		FertilityGodName = sanamahism_fertility_god_name
-		FertilityGodNamePossessive = sanamahism_fertility_god_name
-		FertilityGodSheHe = CHARACTER_SHEHE_HE
-		FertilityGodHerHis = CHARACTER_HERHIS_HIS
-		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+		FertilityGodName = bathouism_fertility_god_name
+		FertilityGodNamePossessive = bathouism_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
 
 		#WealthGod
 		WealthGodName = sanamahism_wealth_god_name
@@ -84,63 +93,63 @@
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
 
 		#HouseholdGod
-		HouseholdGodName = sanamahism_household_god_name
-		HouseholdGodNamePossessive = sanamahism_household_god_name_possessive
-		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-		HouseholdGodHerHis = CHARACTER_HERHIS_HER
-		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+		HouseholdGodName = bathouism_household_god_name
+		HouseholdGodNamePossessive = bathouism_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_THEY
+		HouseholdGodHerHis = CHARACTER_HERHIS_THEM
+		HouseholdGodHerHim = CHARACTER_HERHIM_THEIR
 
 		#FateGod
-		FateGodName = sanamahism_fate_god_name
-		FateGodNamePossessive = sanamahism_knowledge_god_name_possessive
+		FateGodName = bathouism_fate_god_name
+		FateGodNamePossessive = bathouism_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_HE
 		FateGodHerHis = CHARACTER_HERHIS_HIS
 		FateGodHerHim = CHARACTER_HERHIM_HIM
 
 		#KnowledgeGod
-		KnowledgeGodName = sanamahism_knowledge_god_name
-		KnowledgeGodNamePossessive = sanamahism_knowledge_god_name_possessive
-		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+		KnowledgeGodName = bathouism_knowledge_god_name
+		KnowledgeGodNamePossessive = bathouism_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WarGod
-		WarGodName = sanamahism_war_god_name
-		WarGodNamePossessive = sanamahism_war_god_name_possessive
-		WarGodSheHe = CHARACTER_SHEHE_SHE
-		WarGodHerHis = CHARACTER_HERHIS_HER
-		WarGodHerHim = CHARACTER_HERHIM_HER
+		WarGodName = bathouism_war_god_name
+		WarGodNamePossessive = bathouism_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
 
 		#TricksterGod
-		TricksterGodName = sanamahism_trickster_god_name
-		TricksterGodNamePossessive = sanamahism_trickster_god_name_possessive
+		TricksterGodName = bathouism_trickster_god_name
+		TricksterGodNamePossessive = bathouism_trickster_god_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_SHE
 		TricksterGodHerHis = CHARACTER_HERHIS_HER
 		TricksterGodHerHim = CHARACTER_HERHIM_HIS
 
 		#NightGod
-		NightGodName = sanamahism_night_god_name
-		NightGodNamePossessive = sanamahism_night_god_name_possessive
+		NightGodName = bathouism_night_god_name
+		NightGodNamePossessive = bathouism_night_god_name_possessive
 		NightGodSheHe = CHARACTER_SHEHE_SHE
 		NightGodHerHis = CHARACTER_HERHIS_HER
 		NightGodHerHim = CHARACTER_HERHIM_HER
 
 		#WaterGod
-		WaterGodName = sanamahism_water_god_name
-		WaterGodNamePossessive = sanamahism_water_god_name_possessive
+		WaterGodName = bathouism_water_god_name
+		WaterGodNamePossessive = bathouism_water_god_name_possessive
 		WaterGodSheHe = CHARACTER_SHEHE_SHE
 		WaterGodHerHis = CHARACTER_HERHIS_HER
 		WaterGodHerHim = CHARACTER_HERHIM_HER
 
 		#DeathGod
-		DeathGodName = sanamahism_death_name
-		DeathGodNamePossessive = sanamahism_death_name_possessive
+		DeathGodName = bathouism_death_name
+		DeathGodNamePossessive = bathouism_death_name_possessive
 		DeathGodSheHe = CHARACTER_SHEHE_HE
 		DeathGodHerHis = CHARACTER_HERHIS_HIS
 		DeathGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WitchGod
-		WitchGodName = sanamahism_witch_name
+		WitchGodName = shaktism_good_god_kali
 		WitchGodHerHis = CHARACTER_HERHIS_HER
 		WitchGodSheHe = CHARACTER_SHEHE_SHE
 		WitchGodHerHim = CHARACTER_HERHIM_HER
@@ -150,50 +159,50 @@
 		PantheonTerm = religion_the_gods
 		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = {
-			sanamahism_high_god_name
-			sanamahism_good_god_pankhangba
-			sanamahism_good_god_atingaa
-			sanamahism_good_god_leimerel_sidabi
-			sanamahism_good_god_emoinu
+			bathouism_high_god_name
+			bathouism_good_god_mainao
+			bathouism_good_god_ailong
+			bathouism_good_god_khoila
+			bathouism_good_god_agrang
+			bathouism_good_god_sanjaborle
+			bathouism_good_god_rajkunbre
 		}
 
 		DevilName = hinduism_devil_name
 		DevilNamePossessive = hinduism_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_THEY
-		DevilHerHis =  CHARACTER_HERHIS_THEIR
+		DevilHerHis = CHARACTER_HERHIS_THEIR
 		DevilHerselfHimself = hinduism_devil_herselfhimself
 		EvilGodNames = {
 			hinduism_devil_name
-			hinduism_war_god_name
-			hinduism_evil_god_vetalas
 			hinduism_evil_god_pishachas
 			hinduism_evil_god_krodha
 		}
-		HouseOfWorship = sanamahism_house_of_worship
-		HouseOfWorshipPlural = sanamahism_house_of_worship_plural
-		ReligiousSymbol = sanamahism_religious_symbol
-		ReligiousText = sanamahism_religious_text
-		ReligiousHeadName = sanamahism_religious_head_title
-		ReligiousHeadTitleName = sanamahism_religious_head_title_name
+		HouseOfWorship = bathouism_house_of_worship
+		HouseOfWorshipPlural = bathouism_house_of_worship_plural
+		ReligiousSymbol = bathouism_religious_symbol
+		ReligiousText = paganism_religious_text
+		ReligiousHeadName = bathouism_religious_head_title
+		ReligiousHeadTitleName = bathouism_religious_head_title_name
 		DevoteeMale = paganism_devotee
 		DevoteeMalePlural = paganism_devoteeplural
 		DevoteeFemale = paganism_devotee
 		DevoteeFemalePlural = paganism_devoteeplural
 		DevoteeNeuter = paganism_devotee
 		DevoteeNeuterPlural = paganism_devoteeplural
-		PriestMale = sanamahism_priest
-		PriestMalePlural = sanamahism_priest_plural
-		PriestFemale = sanamahism_priest_female
-		PriestFemalePlural = sanamahism_priest_female_plural
+		PriestMale = bathouism_priest
+		PriestMalePlural = bathouism_priest_plural
+		PriestFemale = bathouism_priest_female
+		PriestFemalePlural = bathouism_priest_female_plural
 		PriestNeuter = sanamahism_priest
-		PriestNeuterPlural = sanamahism_priest_plural
-		AltPriestTermPlural = sanamahism_priest_term_plural
-		BishopMale = sanamahism_bishop
-		BishopMalePlural = sanamahism_bishop_plural
-		BishopFemale = sanamahism_bishop
-		BishopFemalePlural = sanamahism_bishop_plural
-		BishopNeuter = sanamahism_bishop
-		BishopNeuterPlural = sanamahism_bishop_plural
+		PriestNeuterPlural = bathouism_priest_plural
+		AltPriestTermPlural = bathouism_priest_term_plural
+		BishopMale = bathouism_priest
+		BishopMalePlural = bathouism_priest_plural
+		BishopFemale = bathouism_priest_female
+		BishopFemalePlural = bathouism_priest_female_plural
+		BishopNeuter = bathouism_priest
+		BishopNeuterPlural = bathouism_priest_plural
 		DivineRealm = hinduism_divine_realm
 		PositiveAfterLife = hinduism_positive_afterlife
 		NegativeAfterLife = hinduism_negative_afterlife
@@ -204,10 +213,10 @@
 	}
 
 	faiths = {	
-		sanamahi_pagan = {
-			color = { 0.1 0.5 0.9 }
-			icon = hinduism_custom_2
-			reformed_icon = hinduism_custom_2_reformed
+		bathouism = {
+			color = { 38 63 125 }
+			icon = zunist
+			reformed_icon = zunist_reformed
 			
 			holy_site = kathmandu
 			holy_site = ilam
@@ -219,7 +228,7 @@
 			
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_esotericism
-			doctrine = tenet_ancestor_worship
+			doctrine = tenet_inner_journey
 		}
 	}
 }

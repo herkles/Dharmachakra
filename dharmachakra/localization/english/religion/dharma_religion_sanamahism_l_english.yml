@@ -2,7 +2,7 @@
 
 # Nuristani Religion
  sanamahism_religion:0 "Sanamahism" #lit. Worship of the Gods
- sanamahism_religion_adj:0 "Sanamahist"
+ sanamahism_religion_adj:0 "Sanamahism"
  sanamahism_religion_adherent:0 "Sanamahi"
  sanamahism_religion_adherent_plural:0 "Sanamahis"
  sanamahism_religion_desc:0 "Sanamahism is the religion of the Meitei people. It is an animistic, ancestor-worshipping, shaman-led religious tradition."
@@ -59,7 +59,7 @@
 
  #Nuristani Pagan
  sanamahi_pagan:0 "Sanamahism" # lit. White Stone Worship
- sanamahi_pagan_adj:0 "Sanamahist"
+ sanamahi_pagan_adj:0 "Sanamahism"
  sanamahi_pagan_adherent:0 "Sanamahi"
  sanamahi_pagan_adherent_plural:0 "Sanamahis"
  sanamahi_pagan_desc:0 "Sanamahism is the religion of the Meitei people. It is an animistic, ancestor-worshipping, shaman-led religious tradition."

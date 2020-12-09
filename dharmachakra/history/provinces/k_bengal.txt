@@ -512,7 +512,7 @@
 	
 	# Misc
 	culture = kachari
-	religion = theravada
+	religion = bathouism
 	
 	holding = castle_holding
 	
@@ -707,7 +707,7 @@
 	
 	# Misc
 	culture = kachari
-	religion = theravada
+	religion = bathouism
 	
 	holding = castle_holding
 	
