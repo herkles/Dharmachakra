@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.1.0 "Saraswati" (Released 15/10/2020)
+## Latest Version: 1.2.0 "Saraswati" (Released 26/12/2020)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -17,7 +17,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Added the Nuristani faith, it is part of the Zunist Religion
 - Kashmir now is Shivite instead vaishnavite
 - Added various customizable flavor texts for various small things. You should expect to see terms for Indian games, clothing, food and so on pop up in the events that use them.
-- Numerous bug Fixes
+- added the tribal religions of Bathousim and Sanamahism
 
 ## Manual Installation Steps
 
