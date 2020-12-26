@@ -8,6 +8,7 @@
 	# History
 	1066.1.1 = {
 		religion = zurvanism
+		culture = persian
 	}
 
 }
@@ -40,7 +41,7 @@
 1134 = {	# 1134 - Vamanasthali
 	
 	# Misc
-	culture = gujarati
+	culture = saurashtra
 	religion = yapaniya
 	
 	# History
@@ -51,7 +52,7 @@
 1135 = {	# 1135 - Valabhi
 	
 	# Misc
-	culture = gujarati
+	culture = saurashtra
 	religion = suryaism
 	
 	# History
@@ -62,7 +63,7 @@
 1136 = {	# 1136 - Dvaraka
 	
 	# Misc
-	culture = gujarati
+	culture = saurashtra
 	religion = suryaism
 	
 	# History
@@ -97,7 +98,7 @@
 1266 = {	# 1266 - Somnath
 	
 	# Misc
-	culture = gujarati
+	culture = saurashtra
 	religion = svetambara
 	
 	# History
@@ -108,7 +109,7 @@
 1267 = {	# 1267 - Vardhamana
 	
 	# Misc
-	culture = gujarati
+	culture = saurashtra
 	religion = digambara
 	
 	# History
@@ -119,7 +120,7 @@
 1268 = {	# 1268 - Dhamalpur
 	
 	# Misc
-	culture = gujarati
+	culture = saurashtra
 	religion = svetambara
 	
 	# History
@@ -163,7 +164,7 @@
 1295 = {	# 1295 - Kanthakota
 	
 	# Misc
-	culture = gujarati
+	culture = saurashtra
 	religion = digambara
 	
 	# History
@@ -336,7 +337,10 @@
 	religion = digambara
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = palitana_temple_01
+		special_building = palitana_temple_01
+	}
 }
 
 # 3365 - Moherak

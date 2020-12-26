@@ -403,3 +403,15 @@
 
 }
 
+# 4513 - Sibi
+4513 = {# 4513 - Sibi
+	
+	# Misc
+	culture = afghan
+	religion = mahayana
+	
+	# History
+	1000.1.1 = {
+		religion = ashari
+	}
+}

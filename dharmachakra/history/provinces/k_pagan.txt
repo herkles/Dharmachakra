@@ -352,7 +352,7 @@
 9576 = {	# 9576 - Vaisali
 	
 	# Misc
-	culture = burmese
+	culture = rakhine
 	religion = theravada
 	
 	holding = castle_holding
@@ -412,7 +412,7 @@
 9581 = {	# 9581 - Ramu
 	
 	# Misc
-	culture = burmese
+	culture = rakhine
 	religion = theravada
 	
 	holding = castle_holding
@@ -436,7 +436,7 @@
 9583 = {	# 9583 - Thabeik_Taung/Thabeik Taung
 	
 	# Misc
-	culture = burmese
+	culture = rakhine
 	religion = theravada
 	
 	holding = castle_holding
@@ -460,7 +460,7 @@
 9585 = {	# 9585 - Sandoway
 	
 	# Misc
-	culture = burmese
+	culture = rakhine
 	religion = theravada
 	
 	holding = castle_holding
@@ -694,8 +694,8 @@
 9624 = {	# 9624 - Kale
 	
 	# Misc
-	culture = burmese
-	religion = ari
+	culture = meitei
+	religion = sanamahi_pagan
 	
 	holding = castle_holding
 	
@@ -708,8 +708,8 @@
 9625 = {	# 9625 - Chin
 	
 	# Misc
-	culture = burmese
-	religion = ari
+	culture = meitei
+	religion = sanamahi_pagan
 	
 	holding = none
 	

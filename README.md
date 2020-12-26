@@ -9,16 +9,14 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 ## changelog
 
 - Bon Religions now have the Tibetan Sky Burial Doctrine
-- Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
+- Zunism, Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
 - Gyur Bön's tenets are now: Esotericism, Monasticism, Inner Journey
 - Khyarwé Bön's tenets are now: Esotericism, Human, Sacrifice, Ritual Celebrations
 - Kiratism's tenets are now: Reincarnation, Ancestor Worship, Ritual Celebrations
 - Yumaism's tenets are now: Ancestor Worship, Ritual Celebrations, Sacred Childbirth
 - Indian Kingdoms now use primogenture instead of confederate partition
 - Buddhists can take the decision to go on a Buddhist retreat
-- 16 Buddhist Flavor Events
-- 11 Hindu Flavor Events
-- 9 Jain Flavor Events
+- various hindu, jain, and buddhist flavor events
 - Ari, Nang Chos, and Bon have the Cultural Religion doctrine where conversion is reduced outside of their cultures
 - Mundhumism, Qiangic, and Donyi-Poloism have the tribal doctrine where conversion is reduced outside of their culture but their counties are more resistant to conversion
 - 1 new loading screen

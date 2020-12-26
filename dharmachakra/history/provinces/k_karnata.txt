@@ -192,6 +192,11 @@
 	terrain = hills
 	
 	# History
+	800.1.1 = {
+		special_building_slot = pattadakal_01
+		special_building = pattadakal_01
+	}
+
 }
 
 # 1202 - Kudalasangama

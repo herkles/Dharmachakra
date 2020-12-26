@@ -25,7 +25,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -52,6 +52,11 @@
 	religion = digambara
 	
 	# History
+	800.1.1 = {
+		special_building_slot = elephanta_caves_01
+		special_building = elephanta_caves_01
+	}
+
 }
 
 # 1142 - Pratishthana
@@ -135,7 +140,7 @@
 	#b_mansar = temple
 	
 	# Misc
-	culture = marathi
+	culture = gondi
 	religion = svetambara
 	
 	# History
@@ -251,7 +256,7 @@
 	#b_gondia = city
 	
 	# Misc
-	culture = marathi
+	culture = gondi
 	religion = svetambara
 	
 	# History
@@ -365,7 +370,7 @@
 	#b_gadchiroli = city
 	
 	# Misc
-	culture = telugu
+	culture = gondi
 	religion = svetambara
 	
 	# History
@@ -517,7 +522,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -539,7 +544,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -561,7 +566,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -583,7 +588,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -605,7 +610,7 @@
 	#b_karwar = city
 	
 	# Misc
-	culture = kannada
+	culture = konkani
 	religion = yapaniya
 	
 	# History
@@ -1074,6 +1079,10 @@
 	terrain = mountain
 	
 	# History
+	800.1.1 = {
+		special_building_slot = ellora_caves_01
+		special_building = ellora_caves_01
+	}
 }
 
 # 7900 - Jhodga

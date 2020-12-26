@@ -11,7 +11,7 @@ dharma_buddhism.002.meditate:0 "I shall meditate on this further."
 
 dharma_buddhism.003.t:0 "Buddhist monk asks for donations"
 dharma_buddhism.003.desc:0 "While the Monk is staying at your court, you are to provide him with food and donations to get by. He does not ask for much as he has but one meal a day, still as a ruler it is expected of you to tend to your guests."
-dharma_buddhism.004.donate:0 "Here you go. "
+dharma_buddhism.003.donate:0 "Here you go. "
 
 dharma_buddhism.004.t:0 "Meditate with Monk?"
 dharma_buddhism.004.desc:0 "The Monk has mentioned that you should spend some time out in the courtyard meditating together. However should you focus on this or should you focus on your worldly duties as a ruler? "
@@ -29,7 +29,7 @@ dharma_buddhism.007.no:0 "Absolutly Not!"
 dharma_buddhism.007.yes:0 "You have my blessings"    
 
 dharma_buddhism.008.t:0 "Monastic Ordination"
-dharma_buddhism.008.desc:0 "The day has come when [root.getChildFirstName] will be ordained as a monk. [child.GetSheHe] chanted the mantras and recited the ten precepts. You watched as [child.GetSheHe]  was shaved bald, [get.child.HIsHER] hair falling to the ground. Later after more chanting and bowing to the senior monks, [child.GetHerHim]  recieved the robes of a monk.
+dharma_buddhism.008.desc:0 "The day has come when [root.getChildFirstName] will be ordained as a monk. [child.GetSheHe] chanted the mantras and recited the ten precepts. You watched as [child.GetSheHe]  was shaved bald, [get.child.HIsHER] hair falling to the ground. Later after more chanting and bowing to the senior monks, [child.GetHerHim]  recieved the robes of a monk"
 dharma_buddhism.008.monk:0 "This is a blessed Day"
 
 ######## BUDDHIST FLAVOR - VISITING NALANDA ########
@@ -71,7 +71,7 @@ dharma_buddhism.016.desc:0 "While you are at the University you have the opprotu
 dharma_buddhism.016.yoga:0 "I shall observe a class on Yoga"
 dharma_buddhism.016.book:0 "I shall observe a class on the Tripitaka"
 dharma_buddhism.016.logic:0 "I shall observe a class on Logic"
-dharma_buddhism.016.medicine:0 "I shall observe a class on Medicine"
+dharma_buddhism.016.astrology:0 "I shall observe a class on Astrology"
 
 dharma_buddhism.018.t:0 "Returning Home"
 dharma_buddhism.018.desc:0 "After some time at Nalanda University, you have returned to [Root.GetCapital]. Visiting the University was quite the experince and you are glad that you went."
@@ -109,7 +109,7 @@ dharma_buddhism.100.t:0 "Departing for a Spiritual Retreat"
 dharma_buddhism.100.desc:0 "Even if I am well-off  who has everything in the world, I feel like I am still lacking, spiritually. I've decided to thus go to one of monastaries in the region, and participate in a spiritual retreat for an extended period of time."
 dharma_buddhism.100.depart:0 "Onwards to the Monastary"
 dharma_buddhism.100.optout:0 "On second thought"
-flavor = dharma_buddhism.100.optout.flavor:0 "You decide to not go on a Spiritual Retreat at this point."
+dharma_buddhism.100.optout.flavor:0 "You decide to not go on a Spiritual Retreat at this point."
 
 dharma_buddhism.101.t:0 "Arriving at the Monastary"
 dharma_buddhism.101.desc:0 "The journey to the temple was more strenuous than I expected, but we have arrived nonetheless. I engage in the normal formalities upon reaching the temple - prostrating before Lord Buddha, bestowing gifts upon the monks, and so on. Eventually, I remove all my luxurious clothing and put on the humble robes of an ascetic.\n\nAs night comes, I am shown to my dormitory where I will be sleeping during my stay. It's a change from the luxurious palace rooms, but I'll get used to it. After all, I'll be staying for..."

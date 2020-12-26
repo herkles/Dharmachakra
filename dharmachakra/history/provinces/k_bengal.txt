@@ -158,7 +158,7 @@
 840 = {	# 840 - Ramavati
 	
 	# Misc
-	culture = bengali
+	culture = rajbongshi
 	religion = vajrayana
 	
 	holding = castle_holding
@@ -316,8 +316,8 @@
 853 = {	# 853 - Unakoti
 	
 	# Misc
-	culture = bengali
-	religion = theravada
+	culture = meitei
+	religion = sanamahi_pagan
 	
 	holding = castle_holding
 	
@@ -511,8 +511,8 @@
 1131 = {	# 1131 - Karmanta
 	
 	# Misc
-	culture = bengali
-	religion = theravada
+	culture = kachari
+	religion = bathouism
 	
 	holding = castle_holding
 	
@@ -706,8 +706,8 @@
 1324 = {	# 1324 - Suvarnagram
 	
 	# Misc
-	culture = assamese
-	religion = theravada
+	culture = kachari
+	religion = bathouism
 	
 	holding = castle_holding
 	
@@ -732,7 +732,7 @@
 1381 = {	# 1381 - Pundravardhana
 	
 	# Misc
-	culture = bengali
+	culture = rajbongshi
 	religion = theravada
 	
 	holding = castle_holding

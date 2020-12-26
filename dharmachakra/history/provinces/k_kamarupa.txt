@@ -241,8 +241,8 @@
 826 = {	# 826 - Manipur
 	
 	# Misc
-	culture = assamese
-	religion = sedism
+	culture = meitei
+	religion = sanamahi_pagan
 	
 	holding = castle_holding
 	
@@ -255,7 +255,7 @@
 	
 	# Misc
 	culture = assamese
-	religion = sedism
+	religion = sanamahi_pagan
 	
 	holding = none
 	
@@ -280,7 +280,7 @@
 1244 = {	# 1244 - Kamatapur
 	
 	# Misc
-	culture = assamese
+	culture = rajbongshi
 	religion = vajrayana
 	
 	holding = castle_holding
@@ -293,8 +293,8 @@
 1245 = {	# 1245 - Srihatta
 	
 	# Misc
-	culture = assamese
-	religion = theravada
+	culture = kachari
+	religion = bathouism
 	
 	holding = castle_holding
 	
@@ -319,8 +319,8 @@
 1296 = {	# 1296 - Dimapur
 	
 	# Misc
-	culture = assamese
-	religion = theravada
+	culture = kachari
+	religion = bathouism
 	
 	holding = castle_holding
 	

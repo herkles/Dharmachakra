@@ -2,7 +2,7 @@
 1147 = {	# 1147 - Mandapika
 	
 	# Misc
-	culture = hindustani
+	culture = bhil
 	religion = digambara
 	
 	# History
@@ -24,7 +24,7 @@
 1149 = {	# 1149 - Dhara
 	
 	# Misc
-	culture = hindustani
+	culture = bhil
 	religion = digambara
 	
 	# History
@@ -42,7 +42,7 @@
 1150 = {	# 1150 - Sarangpur
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -56,7 +56,7 @@
 1170 = {	# 1170 - Vidisa
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	terrain = jungle
 	
@@ -71,7 +71,7 @@
 1182 = {	# 1182 - Bawangaja
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = digambara
 	
 	# History
@@ -82,7 +82,7 @@
 1183 = {	# 1183 - Borgarh
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = digambara
 	
 	# History
@@ -136,7 +136,10 @@
 	religion = vaishnavism
 	
 	# History
-
+	800.1.1 = {
+		special_building_slot = ajanta_caves_01
+		special_building = ajanta_caves_01
+	}
 }
 
 # 1189 - Amalner
@@ -176,7 +179,7 @@
 1262 = {	# 1262 - Thalner
 	
 	# Misc
-	culture = marathi
+	culture = bhil
 	religion = digambara
 	
 	# History
@@ -212,7 +215,7 @@
 1288 = {	# 1288 - Ujjayini
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -223,7 +226,7 @@
 1289 = {	# 1289 - Dadhipadra
 	
 	# Misc
-	culture = rajput
+	culture = bhil
 	religion = digambara
 	
 	# History
@@ -234,7 +237,7 @@
 1298 = {	# 1298 - Chanderi
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = smartism
 	
 	# History
@@ -252,7 +255,7 @@
 1299 = {	# 1299 - Candhoba
 	
 	# Misc
-	culture = hindustani
+	culture = braj
 	religion = svetambara
 	
 	# History
@@ -266,7 +269,7 @@
 3315 = {	# 3315 - Jhansi
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = smartism
 	
 	# History
@@ -277,7 +280,7 @@
 3316 = {	# 3316 - Luacchagiri
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = smartism
 	
 	holding = church_holding
@@ -290,7 +293,7 @@
 3317 = {	# 3317 - Guna
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -304,7 +307,7 @@
 3318 = {	# 3318 - Garh_Kundar
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = smartism
 	
 	# History
@@ -315,7 +318,7 @@
 3319 = {	# 3319 - Jarai_ka_Math
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = smartism
 	
 	# History
@@ -326,7 +329,7 @@
 3320 = {	# 3320 - Kadwaya
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -340,7 +343,7 @@
 3321 = {	# 3321 - Raisin
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	terrain = jungle
 	
@@ -355,7 +358,7 @@
 3322 = {	# 3322 - Sironj
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	terrain = jungle
 	
@@ -370,13 +373,17 @@
 3323 = {	# 3323 - Sanchi
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	terrain = jungle
 	
 	holding = church_holding
 	
 	# History
+	800.1.1 = {
+		special_building_slot = sanchi_01
+		special_building = sanchi_01
+	}
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -387,7 +394,7 @@
 3324 = {	# 3324 - Bhojpur
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	terrain = jungle
 	
@@ -402,7 +409,7 @@
 3325 = {	# 3325 - Ashta
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -416,7 +423,7 @@
 3326 = {	# 3326 - Jhalawar
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -430,7 +437,7 @@
 3327 = {	# 3327 - Gagraun
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -470,7 +477,7 @@
 3330 = {	# 3330 - Betma
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = digambara
 	
 	# History
@@ -481,7 +488,7 @@
 3331 = {	# 3331 - Depalpur
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = digambara
 	
 	# History
@@ -492,7 +499,7 @@
 3332 = {	# 3332 - Dharampuri
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = digambara
 	
 	# History
@@ -514,7 +521,7 @@
 3334 = {	# 3334 - Dewas
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	holding = church_holding
@@ -527,7 +534,7 @@
 3335 = {	# 3335 - Maksi
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -538,7 +545,7 @@
 3336 = {	# 3336 - Mehidpur
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History
@@ -549,7 +556,7 @@
 3337 = {	# 3337 - Agar
 	
 	# Misc
-	culture = hindustani
+	culture = malvi
 	religion = svetambara
 	
 	# History

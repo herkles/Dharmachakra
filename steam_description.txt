@@ -5,12 +5,15 @@ These are some of the features of the mod.
 [list]
     [*] New religious map for India and Burma in 867 and 1066​
     [*] New Hindu Sects of Suyraism and Shrautism​
+    [*] The folk religions of Bathousim and Sanamahism
+    [*] revamped cultural map
+    [*] more special buildings in the Indian Subcontient
     [*] Bald Buddhist Monks and Nuns​
-    [*]Buddhist and Jain temple holders and court chaplains are monks​
+    [*] Buddhist and Jain temple holders and court chaplains are monks​
     [*] new tenet set up for Jains​
     [*] Dharmic Pacifism allows you to meditate
     [*] Advaita Vedanta as a faith has been removed(those characters are now Smartist)
-    [*] Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
+    [*] Zunism, Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
     [*] Indians start with primogenture
 [/list]
 
