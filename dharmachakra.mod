@@ -5,5 +5,5 @@ tags={
 }
 name="Dharmachakra"
 picture="thumbnail.png"
-supported_version="1.2.*"
+supported_version="1.4.*"
 path="mod/dharmachakra"
