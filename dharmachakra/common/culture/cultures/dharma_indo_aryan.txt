@@ -286,7 +286,7 @@
 	
 	oriya = {# Oriya
 		
-		color = { 0.8 0.4 0.0 }
+		color = {136 8 8 }
 
 		cadet_dynasty_names = {
 			"dynn_Bhanja"
@@ -389,7 +389,7 @@
 	
 	assamese = {# Assamese
 		
-		color = { 0.6 0.3 0.0 }
+		color = {  224 60 49   }
 		
 		cadet_dynasty_names = {
 			"dynn_Vaidyadeva"
@@ -700,7 +700,7 @@
 			{ "dynn_Yadav" }
 		}
 		
-		color = { 0.4 0.2 0.2 }
+		color = { 128 0 32 }
 	
 		male_names = {
 			Abhayapala Acharya Ahila Ajairaja Ajayapala Ajay-Singh Alhana Allat Amarangeya Ambra-Prasad Amritapala Anahilla
@@ -1418,7 +1418,7 @@
 			{ "dynn_Vinda" }
 		}
 		
-		color = { 1.0 0.2 0.0 }
+		color = { 124 10 2 }
 	
 		male_names = {
 			Abdullah Abdurrashid Abdurrahman Alauddin "Ali_Sher" Amar Arnel Asamuddin Aziz
@@ -1446,7 +1446,7 @@
 
 	marathi = {# Marathi
 		
-		color = { 0.8 0.2 0.0 }
+		color = { 194 24 7 }
 		
 		cadet_dynasty_names = {
 			"dynn_Kamadeva"
@@ -1568,7 +1568,7 @@
 
 	konkani  = {# Konkani
 		
-		color = hsv{ 0.015 0.95 0.7 }
+		color = hsv{  224 17 95 }
 		
 		cadet_dynasty_names = {
 			"dynn_Kamadeva"
@@ -1690,7 +1690,7 @@
 	
 	kashmiri = {# Kashmiri
 		
-		color = { 0.6 0.4 0.3 }
+		color = { 128 0 0 }
 		cadet_dynasty_names = {
 			"dynn_Karkota"
 			"dynn_Utpala"
@@ -1801,7 +1801,7 @@
 
 	sinhala = {# Sinhala
 		
-		color = { 1.0 0.3 0.3 }
+		color = { 178 34 34}
 		cadet_dynasty_names = {
 			"dynn_Moriya"
 			"dynn_Kalinga"
@@ -1923,7 +1923,7 @@
 
 	nepali = { # (Newar, Garwhali, Kuamoni, Khasa, Gorkha, Tamangic, etc.)
 		
-		color = { 0.65 0.25 0.1  }
+		color = { 164 90 82  }
 
 		dynasty_names = {
 			"dynn_Licchavi"
@@ -2000,7 +2000,7 @@
 
 	awadhi = {# Awadhi -
 		
-		color = { 0.8 0.3 0.3 }
+		color = {150 0 24 }
 
 		cadet_dynasty_names = {
 			"dynn_Katyuri"
@@ -2270,7 +2270,7 @@
 
 	braj = {# Braj 
 		
-		color = hsv{ 0.95 0.8 0.7 }
+		color = { 234 60 83 }
 
 		cadet_dynasty_names = {
 			"dynn_Katyuri"
@@ -2540,7 +2540,7 @@
 
 	hindustani = {# Hindustani - a melting pot of Awadhi and Braj
 		
-		color = { 1.0 0.0 0.0 }
+		color = { 126 25 27 }
 
 		cadet_dynasty_names = {
 			"dynn_Katyuri"
@@ -2900,7 +2900,7 @@
 			{ "dynn_Yadav" }
 		}
 		
-		color = hsv{ 0.07 1.0 0.9 }
+		color = { 255 8 0 }
 	
 		male_names = {
 			Abhayapala Acharya Ahila Ajairaja Ajayapala Ajay-Singh Alhana Allat Amarangeya Ambra-Prasad Amritapala Anahilla
@@ -2958,7 +2958,7 @@
 
 	bhil  = {# Bhils 
 		
-		color = hsv{ 0.32 0.9 0.7 }
+		color = { 202 52 51 }
 		
 		cadet_dynasty_names = {
 			"dynn_Chauhan"
@@ -3082,7 +3082,7 @@
 
 	malvi  = {# Malwi 
 		
-		color = hsv{ 0.59 0.55 0.8 }
+		color = { 180 55 87 }
 		
 		cadet_dynasty_names = {
 			"dynn_Holkar"
@@ -3204,7 +3204,7 @@
 
 	nagpuri  = {# Nagpuri 
 		
-		color = hsv{ 0.95 0.35 0.7 }
+		color = { 94 25 20 }
 
 		cadet_dynasty_names = {
 			"dynn_Porohat"
@@ -3261,7 +3261,7 @@
 
 	sambalpuri = {# Sambalpuri 
 		
-		color = hsv{ 0.15 1.0 0.7 }
+		color = { 189 32 49 }
 
 		cadet_dynasty_names = {
 			"dynn_Nagavamsi"
@@ -3311,7 +3311,7 @@
 
 	rajbongshi = {# rajbongshi
 		
-		color = hsv{ 0.37 0.8 0.7 }
+		color = { 184 15 10 }
 		
 		cadet_dynasty_names = {
 			"dynn_Khen"
@@ -3534,7 +3534,7 @@
 
 	kumaoni = { # Kumaoni
 		
-		color = { 0.8 0.3 0.8 }
+		color = { 240 128 128 }
 
 		dynasty_names = {
 			"dynn_Licchavi"
@@ -3611,7 +3611,7 @@
 
 	pahari = { # pahari
 		
-		color = { 210 150 255 }
+		color = {255 90 95 }
 
 		dynasty_names = {
 			"dynn_Licchavi"
@@ -3688,7 +3688,7 @@
 
 	bihari = {# Bihari
 		
-		color = hsv{ 0.035 0.8 0.8 }
+		color = { 219 0 7 }
 
 		cadet_dynasty_names = {
 			"dynn_Samatata"

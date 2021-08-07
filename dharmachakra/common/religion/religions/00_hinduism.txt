@@ -10,7 +10,7 @@
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
-	doctrine = doctrine_monogamy
+	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_none
 	doctrine = doctrine_consanguinity_restricted
@@ -30,7 +30,7 @@
 	doctrine = doctrine_clerical_succession_temporal_appointment
 	
 	#Special Doctrines
-	#doctrine = special_doctrine_is_hinduism_faith
+	doctrine = special_doctrine_is_hinduism_faith
 
 	traits = {
 		virtues = {
@@ -226,7 +226,7 @@
 			holy_site = ujjayini
 			holy_site = dwarka
 
-			doctrine = tenet_reincarnation
+			doctrine = tenet_monasticism
 			doctrine = tenet_bhakti
 			doctrine = tenet_esotericism
 
@@ -355,7 +355,7 @@
 			holy_site = ujjayini
 			holy_site = dwarka
 
-			doctrine = tenet_reincarnation
+			doctrine = tenet_bhakti
 			doctrine = tenet_monasticism
 			doctrine = tenet_esotericism
 
@@ -433,7 +433,7 @@
 			holy_site = ujjayini
 			holy_site = dwarka
 
-			doctrine = tenet_reincarnation
+			doctrine = tenet_inner_journey
 			doctrine = tenet_monasticism
 			doctrine = tenet_bhakti
 
@@ -490,9 +490,10 @@
 			holy_site = ujjayini
 			holy_site = dwarka
 
-			doctrine = tenet_reincarnation
+			doctrine = tenet_bhakti
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_inner_journey
+
 			doctrine = sampradaya_shaktism_doctrine
 
 			localization = {
@@ -523,9 +524,10 @@
 			holy_site = ujjayini
 			holy_site = dwarka
 
-			doctrine = tenet_reincarnation
+			doctrine = tenet_bhakti
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_esotericism
+
 			doctrine = sampradaya_shaktism_doctrine
 
 			localization = {
@@ -546,7 +548,7 @@
 		# Ganaptism faiths
 		ganaptism = {
 			color = { 0.9 0.2 0.3 }
-			icon = shaivism
+			icon = hinduism_custom_1
 
 			holy_site = varanasi
 			holy_site = ayodhya
@@ -669,7 +671,7 @@
 		# Shrautism faiths
 		shrautism = {
 			color = { 1.0 0.3 0.3 }
-			icon = smartism
+			icon = hinduism_custom_2
 
 			holy_site = varanasi
 			holy_site = ayodhya

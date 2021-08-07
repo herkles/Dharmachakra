@@ -24,7 +24,7 @@
 
 	munda = {# Munda People
 		
-		color = hsv{ 0.95 0.6 0.3 }
+		color = { 50 50 50 }
 
 		cadet_dynasty_names = {
 			"dynn_Porohat"

@@ -128,6 +128,22 @@ divine_destiny = {
 	}
 }
 
+#Teaching of the Vedas
+is_hinduism_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_hinduism_faith
+	}
+
+	special_doctrine_is_hinduism_faith = {
+		parameters = {
+			reincarnation_resistance_to_conversion = yes
+			reincarnation_events_active = yes
+		}
+	}
+}
+
 # Tibetan Sky Burials
 doctrine_sky_burials = {
 	group = "special"

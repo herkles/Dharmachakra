@@ -52,7 +52,13 @@
 			}
 		}
 		parameters = {
-			hostility_same_religion = 0
+				hostility_override_sampradaya_shaktism_doctrine = 0
+				hostility_override_sampradaya_shaivism_doctrine = 0
+				hostility_override_sampradaya_vaishnavism_doctrine = 0
+				hostility_override_sampradaya_saurism_doctrine = 0
+				hostility_override_sampradaya_ganapatism_doctrine = 0
+				hostility_override_sampradaya_kaumaram_doctrine = 0
+				hostility_override_sampradaya_smhrautism_doctrine = 0
 		}
 	}
 
