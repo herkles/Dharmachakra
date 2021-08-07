@@ -76,7 +76,7 @@
 	
 	# Misc
 	culture = marathi
-	religion = digambara
+	religion = vaishnavism
 	
 	# History
 }
@@ -214,7 +214,7 @@
 	
 	# Misc
 	culture = marathi
-	religion = digambara
+	religion = ganaptism
 	terrain = jungle
 	
 	# History

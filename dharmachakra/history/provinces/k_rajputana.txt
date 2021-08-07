@@ -131,7 +131,7 @@
 	
 	# Misc
 	culture = rajput
-	religion = kalikula_shaktism
+	religion = suryaism
 	
 	# History
 

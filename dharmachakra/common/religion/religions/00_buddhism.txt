@@ -225,7 +225,7 @@
 		}
 
 		mahayana = {
-			color = { 0.8 0.3 0.2 }
+			color = { 255 191 0 }
 			icon = mahayana
 
 			holy_site = kusinagara

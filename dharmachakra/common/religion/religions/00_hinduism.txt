@@ -215,7 +215,8 @@
 	faiths = {
 		# Vaishnavist faiths
 		vaishnavism = {
-			color = { 1.0 0.0 0.0 }
+			color = { 0.45 0.0 0.0 }
+
 			icon = hinduism
 
 			holy_site = varanasi
@@ -279,7 +280,7 @@
 			}
 		}
 		krishnaism = {
-			color = { 1.0 0.0 0.5 }
+			color = { 202 52 51 }
 			icon = krishnaism
 
 			holy_site = varanasi
@@ -344,7 +345,7 @@
 		}
 		# Shaivism faiths
 		shaivism = {
-			color = { 0.9 0.2 0.3 }
+			color = { 128 0 32 }
 			icon = shaivism
 
 			holy_site = varanasi
@@ -422,7 +423,7 @@
 		}
 		# Smartism faiths
 		smartism = {
-			color = { 1.0 0.3 0.3 }
+			color = { 86 3 25 }
 			icon = smartism
 
 			holy_site = varanasi
@@ -479,7 +480,7 @@
 		}		
 		# Shaktism faiths
 		srikula_shaktism = {
-			color = { 0.7 0.5 0.0 }
+			color = { 0.8 0.3 0.2 }
 			icon = srikula_shaktism
 
 			holy_site = varanasi
@@ -513,7 +514,7 @@
 			}
 		}
 		kalikula_shaktism = {
-			color = { 0.5 0.2 0.0 }
+			color = {255 90 95 }
 			icon = kalikula_shaktism
 
 			holy_site = varanasi
@@ -547,7 +548,7 @@
 		}
 		# Ganaptism faiths
 		ganaptism = {
-			color = { 0.9 0.2 0.3 }
+			color = { 124 10 2 }
 			icon = hinduism_custom_1
 
 			holy_site = varanasi
@@ -616,7 +617,7 @@
 		}		
 		# Saurism faiths
 		suryaism = {
-			color = { 0.8 0.2 0.0 }
+			color = { 124 10 2 }
 			icon = advaitism
 
 			holy_site = varanasi
@@ -670,7 +671,7 @@
 		}
 		# Shrautism faiths
 		shrautism = {
-			color = { 1.0 0.3 0.3 }
+			color = { 128 0 32 }
 			icon = hinduism_custom_2
 
 			holy_site = varanasi
@@ -789,7 +790,7 @@
 		}		
 		# Kaumaram faiths
 		kaumaram = {
-			color = { 0.9 0.2 0.3 }
+			color = hsv{ 0.97 1 0.7 }
 			icon = shaivism
 
 			holy_site = varanasi

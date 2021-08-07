@@ -36,7 +36,7 @@
 	
 	# Misc
 	culture = braj
-	religion = kalikula_shaktism
+	religion = vaishnavism
 	terrain = jungle
 	
 	# History
@@ -81,7 +81,7 @@
 	
 	# Misc
 	culture = braj
-	religion = kalikula_shaktism
+	religion = vaishnavism
 	
 	# History
 
