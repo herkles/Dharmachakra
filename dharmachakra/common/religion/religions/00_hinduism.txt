@@ -544,7 +544,74 @@
 			}
 		}
 		# Ganaptism faiths
-		
+		ganaptism = {
+			color = { 0.9 0.2 0.3 }
+			icon = shaivism
+
+			holy_site = varanasi
+			holy_site = ayodhya
+			holy_site = mathura
+			holy_site = haridwar
+			holy_site = kanchipuram
+			holy_site = ujjayini
+			holy_site = dwarka
+
+			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_esotericism
+
+			doctrine = sampradaya_ganapatism_doctrine
+
+			localization = {
+				HighGodName = ganaptism_high_god_name
+				HighGodNamePossessive = ganaptism_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+					
+				#FertilityGod
+				FertilityGodName = ganaptism_fertility_god_name
+				FertilityGodNamePossessive = ganaptism_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+			
+				#WealthGod
+				WealthGodName = ganaptism_wealth_god_name
+				WealthGodNamePossessive = ganaptism_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+					
+				#KnowledgeGod
+				KnowledgeGodName = ganaptism_knowledge_god_name
+				KnowledgeGodNamePossessive = ganaptism_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+			
+				#WarGod
+				WarGodName = ganaptism_war_god_name
+				WarGodNamePossessive = ganaptism_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+			
+				GoodGodNames = {
+					ganaptism_high_god_name
+					ganaptism_high_god_name_alternate
+					hinduism_good_god_shiva
+					ganaptism_good_god_buddhi
+					ganaptism_good_god_siddhi
+					ganaptism_good_god_riddhi
+					ganaptism_good_god_parvati
+					ganaptism_good_god_vinayaki
+					ganaptism_good_god_ksema
+					ganaptism_good_god_labha
+					ganaptism_good_god_shubha
+				}
+			}
+		}		
 		# Saurism faiths
 		suryaism = {
 			color = { 0.8 0.2 0.0 }
@@ -719,6 +786,72 @@
 			
 		}		
 		# Kaumaram faiths
+		kaumaram = {
+			color = { 0.9 0.2 0.3 }
+			icon = shaivism
+
+			holy_site = varanasi
+			holy_site = ayodhya
+			holy_site = mathura
+			holy_site = haridwar
+			holy_site = kanchipuram
+			holy_site = ujjayini
+			holy_site = dwarka
+
+			doctrine = tenet_communal_identity
+			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_ritual_hospitality
+
+			doctrine = sampradaya_kaumaram_doctrine
+
+			localization = {
+				HighGodName = kaumaram_high_god_name
+				HighGodNamePossessive = kaumaram_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+			
+				#HealthGod
+				HealthGodName = kaumaram_health_god_name
+				HealthGodNamePossessive = kaumaram_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_HE
+				HealthGodHerHis = CHARACTER_HERHIS_HIS
+				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#FertilityGod
+				FertilityGodName = kaumaram_fertility_god_name
+				FertilityGodNamePossessive = kaumaram_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+					
+				#KnowledgeGod
+				KnowledgeGodName = kaumaram_knowledge_god_name
+				KnowledgeGodNamePossessive = kaumaram_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+			
+				#WarGod
+				WarGodName = kaumaram_war_god_name
+				WarGodNamePossessive = kaumaram_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+			
+				GoodGodNames = {
+					kaumaram_high_god_name
+					kaumaram_high_god_name_alternate
+					hinduism_good_god_shiva
+					hinduism_good_god_ganesh
+
+					kaumaram_good_god_parvati
+					kaumaram_good_god_valli
+					kaumaram_good_god_devasena
+					kaumaram_good_god_idumban
+				}
+			}
+		}
 
 	}
 }

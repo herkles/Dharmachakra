@@ -247,3 +247,68 @@
 
  shrautism_water_god_name:0 "Varuna"
  shrautism_water_god_name_possessive:0 "Varuna's"
+
+#Ganaptism
+ ganaptism:0 "Ganapatya"
+ ganaptism_adj:0 "Ganaptism"
+ ganaptism_adherent:0 "Ganapatya"
+ ganaptism_adherent_plural:0 "Ganapatyas"
+ ganaptismm_desc:0 "Ganapatya is the worship of Ganesha as the Supreme being, the eternal Brahman."
+
+ ganaptism_good_god_buddhi:0 "Buddhi"
+ ganaptism_good_god_siddhi:0 "Siddhi"
+ ganaptism_good_god_riddhi:0 "Riddhi"
+ ganaptism_good_god_vinayaki:0 "Vinayaki"
+ ganaptism_good_god_parvati:0 "Parvati"
+ ganaptism_good_god_ksema:0 "Ksema"
+ ganaptism_good_god_labha:0 "Labha"
+ ganaptism_good_god_shubha:0 "Shubha"
+
+ ganaptism_high_god_name:0 "Ganesha"
+ ganaptism_high_god_name_possessive:0 "Ganesha's"
+ ganaptism_high_god_name_alternate:0 "Mahaganapati"
+ ganaptism_high_god_name_alternate_possessive:0 "Mahaganapati's"
+
+ ganaptism_fertility_god_name:0 "Parvati"
+ ganaptism_fertility_god_name_possessive:0 "Parvati's"
+
+ ganaptism_wealth_god_name:0 "Labha"
+ ganaptism_wealth_god_name_possessive:0 "Labha's"
+
+ ganaptism_knowledge_god_name:0 "Ganesha"
+ ganaptism_knowledge_god_name_possessive:0 "Ganesha's"
+
+ ganaptism_war_god_name:0 "Skanda"
+ ganaptism_war_god_name_possessive:0 "Skanda's"
+
+#Kaumaram
+ kaumaram:0 "kaumaram"
+ kaumaram_adj:0 "kaumaram"
+ kaumaram_adherent:0 "kaumaram"
+ kaumaram_adherent_plural:0 "kaumaram"
+ kaumaram_desc:0 "kaumaram is the worship of Murugan as the Supreme being, lord of the Trimurti, the eternal Brahman, and the cause of all things and the foundation of the world."
+
+ kaumaram_good_god_parvati:0 "Parvati"
+ kaumaram_good_god_valli:0 "Valli"
+ kaumaram_good_god_devasena:0 "Devasena"
+ kaumaram_good_god_idumban:0 "Idumban"
+
+ kaumaram_high_god_name:0 "Murugan"
+ kaumaram_high_god_name_possessive:0 "Murugan's"
+ kaumaram_high_god_name:0 "Kumara"
+ kaumaram_high_god_name_possessive:0 "Kumara's"
+
+ kaumaram_health_god_name:0 "Vaidyanatha"
+ kaumaram_health_god_name_possessive:0 "Vaidyanatha's"
+
+ kaumaram_fertility_god_name:0 "Parvati"
+ kaumaram_fertility_god_name_possessive:0 "Parvati's"
+
+ kaumaram_knowledge_god_name:0 "Ganesha"
+ kaumaram_knowledge_god_name_possessive:0 "Ganesha's"
+
+ kaumaram_war_god_name:0 "Murugan"
+ kaumaram_war_god_name_possessive:0 "Murugan's"
+
+
+
