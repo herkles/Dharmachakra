@@ -1,7 +1,7 @@
 ﻿188000 = {
 	name = "Chanduka"
 	dynasty = 1042066
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191612
 	650.1.1 = {
@@ -15,7 +15,7 @@
 	name = "Nagabhata"
 	# Nagabhata I Pratihara
 	dynasty = 1042066
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188000
 	705.1.1 = {
@@ -29,7 +29,7 @@
 	name = "Vinaykpala" # random name
 	# brother of Nagabhata I
 	dynasty = 1042066
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188000
 	710.1.1 = {
@@ -42,7 +42,7 @@
 188003 = {
 	name = "Kakustha"
 	dynasty = 1042066
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188002
 	730.1.1 = {
@@ -55,7 +55,7 @@
 188004 = {
 	name = "Devasakti"
 	dynasty = 1042066
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188002
 	732.1.1 = {
@@ -71,7 +71,7 @@
 188005 = {
 	name = "Vatsraja"
 	dynasty = 1042066
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188004
 	mother = 188017
@@ -261,7 +261,7 @@
 	name = "Bhuyika"
 	# wife of Devasakti Pratihara
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	729.1.1 = {
 		birth = yes
@@ -274,7 +274,7 @@
 	name = "Sundarii"
 	# wife of Vatsraja Pratihara
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	750.1.1 = {
 		birth = yes
@@ -287,7 +287,7 @@
 	name = "Ista"
 	# wife of Nagabhata I Pratihara
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	773.1.1 = {
 		birth = yes
@@ -300,7 +300,7 @@
 	name = "Appa"
 	# wife of Ramabhadra Pratihara
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	794.1.1 = {
 		birth = yes
@@ -313,7 +313,7 @@
 	name = "Candrabhattarika"
 	# wife of Mihira Bhoja I Pratihara
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	820.3.8 = {
 		birth = yes
@@ -326,7 +326,7 @@
 	name = "Dehanaga"
 	# wife of Mahendrapala Pratihara
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	839.1.1 = {
 		birth = yes
@@ -339,7 +339,7 @@
 	name = "Mahi"
 	# wife of Mahendrapala Pratihara
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	844.2.22 = {
 		birth = yes
@@ -352,7 +352,7 @@
 	name = "Prasadhana"
 	# wife of Mahipala I
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	869.1.1 = {
 		birth = yes
@@ -365,7 +365,7 @@
 188025 = {
 	name = "Nannuka"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	800.1.1 = {
 		birth = yes
@@ -378,7 +378,7 @@
 188026 = {
 	name = "Vakpati"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188025
 	825.1.1 = {
@@ -392,7 +392,7 @@
 188027 = {
 	name = "Jayasakti"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188026
 	845.1.1 = {
@@ -406,7 +406,7 @@
 188028 = {
 	name = "Vijayasakti"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188026
 	846.1.1 = {
@@ -420,7 +420,7 @@
 188029 = {
 	name = "Rahila"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188028
 	865.1.1 = {
@@ -437,7 +437,7 @@
 188030 = {
 	name = "Rajamati"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	866.1.1 = {
 		birth = yes
@@ -450,7 +450,7 @@
 188031 = {
 	name = "Harsa"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188029
 	mother = 188030
@@ -468,7 +468,7 @@
 188032 = {
 	name = "Kanchuka"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	888.1.1 = {
 		birth = yes
@@ -481,7 +481,7 @@
 188033 = {
 	name = "Yasovarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188031
 	mother = 188032
@@ -499,7 +499,7 @@
 188034 = {
 	name = "Pushpa"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	908.1.1 = {
 		birth = yes
@@ -512,7 +512,7 @@
 188035 = {
 	name = "Dhanga"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188033
 	mother = 188034
@@ -527,7 +527,7 @@
 188036 = {
 	name = "Krishnapa"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188033
 	mother = 188034
@@ -542,7 +542,7 @@
 188037 = {
 	name = "Ganda"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188035
 	965.1.1 = {
@@ -556,7 +556,7 @@
 188038 = {
 	name = "Vidyadhara"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188037
 	985.1.1 = {
@@ -570,7 +570,7 @@
 188039 = {
 	name = "Vijayapala"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188038
 	1005.1.1 = {
@@ -584,7 +584,7 @@
 188040 = {
 	name = "Devavarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188039
 	1025.1.1 = {
@@ -598,7 +598,7 @@
 188041 = {
 	name = "Kirtivarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188039
 	1026.1.1 = {
@@ -615,7 +615,7 @@
 188042 = {
 	name = "Akal"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1028.1.1 = {
 		birth = yes
@@ -628,7 +628,7 @@
 188043 = {
 	name = "Sallaksanavarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188041
 	mother = 188042
@@ -646,7 +646,7 @@
 188044 = {
 	name = "Mahi"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1046.1.1 = {
 		birth = yes
@@ -659,7 +659,7 @@
 188045 = {
 	name = "Jayavarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188043
 	mother = 188044
@@ -674,7 +674,7 @@
 188046 = {
 	name = "Prithvivarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188041
 	mother = 188042
@@ -692,7 +692,7 @@
 188047 = {
 	name = "Kumara"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1068.1.1 = {
 		birth = yes
@@ -705,7 +705,7 @@
 188048 = {
 	name = "Madanavarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188046
 	mother = 188047
@@ -723,7 +723,7 @@
 188049 = {
 	name = "Prabhavati"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1105.1.1 = {
 		birth = yes
@@ -736,7 +736,7 @@
 188050 = {
 	name = "Yasovarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188048
 	mother = 188049
@@ -754,7 +754,7 @@
 188051 = {
 	name = "Dhruva"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1125.1.1 = {
 		birth = yes
@@ -767,7 +767,7 @@
 188052 = {
 	name = "Paramardi"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188050
 	mother = 188051
@@ -785,7 +785,7 @@
 188053 = {
 	name = "Maharani"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1161.1.1 = {
 		birth = yes
@@ -798,7 +798,7 @@
 188054 = {
 	name = "Trailokyavarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188052
 	mother = 188053
@@ -816,7 +816,7 @@
 188055 = {
 	name = "Sanyukta"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1185.1.1 = {
 		birth = yes
@@ -829,7 +829,7 @@
 188056 = {
 	name = "Viravarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188054
 	mother = 188055
@@ -847,7 +847,7 @@
 188057 = {
 	name = "Kalayan"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1229.1.1 = {
 		birth = yes
@@ -860,7 +860,7 @@
 188058 = {
 	name = "Bhojavarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188056
 	mother = 188057
@@ -878,7 +878,7 @@
 188059 = {
 	name = "Kanwar"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1245.1.1 = {
 		birth = yes
@@ -891,7 +891,7 @@
 188060 = {
 	name = "Hammiravarma"
 	dynasty = 1042067 #Chandela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188056
 	mother = 188057
@@ -909,7 +909,7 @@
 188061 = {
 	name = "Damayanti"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1249.1.1 = {
 		birth = yes
@@ -922,7 +922,7 @@
 188074 = {
 	name = "Mulraja" # Mulraja I Solanki
 	dynasty = 1042069
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	922.1.1 = {
 		birth = yes
@@ -938,7 +938,7 @@
 188075 = {
 	name = "Chamundaraja"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188074
 	mother = 188138
@@ -954,7 +954,7 @@
 	# son of Chachini
 	name = "Vallabharaja"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	mother = 188078
 	997.1.1 = {
@@ -969,7 +969,7 @@
 	# son of Chachini
 	name = "Durlabharaja"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	mother = 188078
 	998.1.1 = {
@@ -984,7 +984,7 @@
 	name = "Chachini"
 	female = yes
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188074
 	mother = 188138
@@ -1000,7 +1000,7 @@
 	# son of Chachini
 	name = "Nagraja"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	mother = 188078
 	999.1.1 = {
@@ -1017,7 +1017,7 @@
 188080 = {
 	name = "Laxmidevi"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	998.1.1 = {
 		birth = yes
@@ -1031,7 +1031,7 @@
 	# Bhima I Solanki
 	name = "Bhima"
 	dynasty = 1042069
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188079
 	mother = 188080
@@ -1053,7 +1053,7 @@
 	name = "Udaymati"
 	female = yes
 	# princess of Saurastra Narvahan Khengar
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1018.1.1 = {
 		birth = yes
@@ -1066,7 +1066,7 @@
 188083 = {
 	name = "Baula"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1020.1.1 = {
 		birth = yes
@@ -1079,7 +1079,7 @@
 188084 = {
 	name = "Xemraja"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188081
 	mother = 188083
@@ -1094,7 +1094,7 @@
 188085 = {
 	name = "Mulraja"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188081
 	mother = 188082
@@ -1109,7 +1109,7 @@
 188086 = {
 	name = "Haripala"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188084
 	1069.1.1 = {
@@ -1123,7 +1123,7 @@
 188087 = {
 	name = "Tribhuvanapala"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188086
 	1089.1.1 = {
@@ -1140,7 +1140,7 @@
 188088 = {
 	name = "Kumarapala"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188087
 	mother = 188152
@@ -1148,7 +1148,7 @@
 		birth = yes
 	}
 	1160.1.1 = {
-#REMOVED_TRAIT		 remove_trait = shaivist_srikula_shaktism
+#REMOVED_TRAIT		 remove_trait = shaivist_vaishnavism
 		religion = "svetambara"
 		#REMOVED_TRAIT trait = svetambara_jain
 	}
@@ -1160,7 +1160,7 @@
 188089 = {
 	name = "Karnadeva"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188081
 	mother = 188082
@@ -1180,7 +1180,7 @@
 	name = "Mayanalla" # or Miyanalla
 	# daughter of Jaykeshi, friend of king Tribhuvanmalla
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1065.1.1 = {
 		birth = yes
@@ -1193,7 +1193,7 @@
 188091 = {
 	name = "Jayasimha"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188089
 	mother = 188090
@@ -1208,7 +1208,7 @@
 188092 = {
 	name = "Mahipala"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188087
 	1113.1.1 = {
@@ -1222,7 +1222,7 @@
 188093 = {
 	name = "Ajayapala"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188092
 	trait = callous
@@ -1239,7 +1239,7 @@
 	name = "Mulraja"
 	# Mulraja II Solanki
 	dynasty = 1042069
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188093
 	1156.1.1 = {
@@ -1254,7 +1254,7 @@
 	name = "Bhima"
 	# Bhima II Solanki
 	dynasty = 1042069
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188093
 	1160.1.1 = {
@@ -1271,7 +1271,7 @@
 188096 = {
 	name = "Tribhuvanapala"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188095
 	mother = 191746
@@ -1287,7 +1287,7 @@
 188097 = {
 	name = "Jayasimha"
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188093
 	1165.1.1 = {
@@ -1301,7 +1301,7 @@
 74418 = {
 	name = "Mahadevi"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 
 	840.1.1 = {
@@ -1315,7 +1315,7 @@
 188099 = {
 	name = "Jaya" # fictitious first name
 	dynasty = 1042071 #Jewlia
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	840.1.1 = {
 		birth = yes
@@ -1328,7 +1328,7 @@
 188100 = {
 	name = "Vasudeva"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	521.1.1 = {
 		birth = yes
@@ -1341,7 +1341,7 @@
 188101 = {
 	name = "Samanta"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188100
 	570.1.1 = {
@@ -1355,7 +1355,7 @@
 188102 = {
 	name = "Naradeva" # Purnatalla in other sources
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188101
 	623.1.1 = {
@@ -1369,7 +1369,7 @@
 188103 = {
 	name = "Jayaraja"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188102
 	648.1.1 = {
@@ -1383,7 +1383,7 @@
 188104 = {
 	name = "Vigrharaja" # the I
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188103
 	673.1.1 = {
@@ -1397,7 +1397,7 @@
 188105 = {
 	name = "Chandraraja" # the I
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188104
 	698.1.1 = {
@@ -1411,7 +1411,7 @@
 188106 = {
 	name = "Gopendraraja"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188105
 	723.1.1 = {
@@ -1425,7 +1425,7 @@
 188107 = {
 	name = "Durlabharaja" # the I
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188106
 	748.1.1 = {
@@ -1439,7 +1439,7 @@
 188108 = {
 	name = "Govinda" # the I (aka Guvakaraja)
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188107
 	773.1.1 = {
@@ -1453,7 +1453,7 @@
 188109 = {
 	name = "Chandraraja" # the II
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188108
 	816.1.1 = {
@@ -1467,7 +1467,7 @@
 188110 = {
 	name = "Govinda" # the II
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188109
 	trait = education_martial_3
@@ -1482,7 +1482,7 @@
 188111 = {
 	name = "Chandana"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188110 # described as brother-in-law of Govinda II elsewhere
 	860.1.1 = {
@@ -1501,7 +1501,7 @@
 	name = "Kalavati"
 	female = yes
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188110
 	862.1.1 = {
@@ -1516,7 +1516,7 @@
 	# wife of Chandana Chahamana
 	name = "Rudrani"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	858.1.1 = {
 		birth = yes
@@ -1529,7 +1529,7 @@
 188114 = {
 	name = "Vakpatiraja" # the I
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188111
 	mother = 188113
@@ -1544,7 +1544,7 @@
 188115 = {
 	name = "Singhraja"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188114
 	trait = generous
@@ -1560,7 +1560,7 @@
 	# Founder of Nadol branch in Sirohi
 	name = "Lakshamana"
 	dynasty = 1042081
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188114
 	902.1.1 = {
@@ -1576,7 +1576,7 @@
 	name = "Madhavi"
 	female = yes
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188115
 	938.1.1 = {
@@ -1590,7 +1590,7 @@
 188117 = {
 	name = "Vigraharaja" # the II
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188115
 	940.1.1 = {
@@ -1604,7 +1604,7 @@
 188118 = {
 	name = "Durlabharaja" # the II
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188115
 	942.1.1 = {
@@ -1618,7 +1618,7 @@
 188119 = {
 	name = "Govinda" # the III
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188118
 	962.1.1 = {
@@ -1632,7 +1632,7 @@
 188120 = {
 	name = "Vakapati" # the II
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188119
 	979.1.1 = {
@@ -1646,7 +1646,7 @@
 188121 = {
 	name = "Viryarama"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188119
 	980.1.1 = {
@@ -1660,7 +1660,7 @@
 188122 = {
 	name = "Chamundaraja"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188119
 	985.1.1 = {
@@ -1674,7 +1674,7 @@
 188123 = {
 	name = "Durlabharaja" # the III
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188121
 	1030.1.1 = {
@@ -1688,7 +1688,7 @@
 188124 = {
 	name = "Simghata"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188121
 	1026.1.1 = {
@@ -1702,7 +1702,7 @@
 188125 = {
 	name = "Virasimha"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188121
 	1032.1.1 = {
@@ -1716,7 +1716,7 @@
 188126 = {
 	name = "Vigraharaja" # the III
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188121
 	1039.1.1 = {
@@ -1730,7 +1730,7 @@
 188127 = {
 	name = "Prithviraja" # the I
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188126
 	1064.1.1 = {
@@ -1748,7 +1748,7 @@
 	name = "Rasaladevi"
 	# wife of Prithviraja I Chahamana
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1065.1.1 = {
 		birth = yes
@@ -1761,7 +1761,7 @@
 188129 = {
 	name = "Ajairaja"
 	dynasty = 1042081 #Chahamana of Ajmer
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188127
 	mother = 188128
@@ -1780,7 +1780,7 @@
 	name = "Somalladevi"
 	# wife of Ajairaja Chahamana
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1088.1.1 = {
 		birth = yes
@@ -1793,7 +1793,7 @@
 188131 = {
 	name = "Arnoraja"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188129
 	mother = 188130
@@ -1815,7 +1815,7 @@
 	name = "Kanchandevi"
 	female = yes
 	dynasty = 1042069 #Solanki
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188091 # Jayasimha Solanki
 	1105.1.1 = {
@@ -1830,7 +1830,7 @@
 	# daughter of Marwar ruler of Avichi
 	name = "Sidhawa"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1114.1.1 = {
 		birth = yes
@@ -1843,7 +1843,7 @@
 188134 = {
 	name = "Jagadeva"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188131
 	mother = 188133
@@ -1858,7 +1858,7 @@
 188135 = {
 	name = "Prithviraja" # the II
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188134
 	1150.1.1 = {
@@ -1875,7 +1875,7 @@
 188140 = {
 	name = "Suhava"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1148.1.1 = {
 		birth = yes
@@ -1888,7 +1888,7 @@
 188136 = {
 	name = "Vigraharaja" # the IV
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188131
 	mother = 188133
@@ -1906,7 +1906,7 @@
 188137 = {
 	name = "Desaladevi"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1135.1.1 = {
 		birth = yes
@@ -1919,7 +1919,7 @@
 188139 = {
 	name = "Amarangeya" # or Aparangeya
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188136
 	mother = 188137
@@ -1936,7 +1936,7 @@
 	# founder of Raijada Chahamanas
 	name = "Nagarjuna"
 	dynasty = 1042081 #Chahamana of Raijada
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188136
 	mother = 188137
@@ -1954,7 +1954,7 @@
 188141 = {
 	name = "Someshwara"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188131
 	mother = 188132
@@ -1970,7 +1970,7 @@
 188142 = {
 	name = "Prithviraja" # the III
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188141
 	1149.1.1 = {
@@ -1984,7 +1984,7 @@
 188143 = {
 	name = "Hariraja"
 	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188141
 	1169.1.1 = {
@@ -1998,7 +1998,7 @@
 188145 = {
 	name = "Govinda"
 	dynasty = 1042081 #Chahamana of Ranthambor
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188142
 	1170.1.1 = {
@@ -2026,7 +2026,7 @@
 170151 = {
 	name = "Anangpal" #Anangpal Tomar
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	687.1.1 = {
 		birth = "687.1.1"
@@ -2039,7 +2039,7 @@
 170152 = {
 	name = "Vasudev"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170151
 	705.1.1 = {
@@ -2053,7 +2053,7 @@
 170153 = {
 	name = "Gangeya" #Gangeya Tuar
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170152
 	735.1.1 = {
@@ -2067,7 +2067,7 @@
 170154 = {
 	name = "Prithvimal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170153
 	757.1.1 = {
@@ -2081,7 +2081,7 @@
 170155 = {
 	name = "Jagdev" #or Jaydev
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170154
 	782.1.1 = {
@@ -2095,7 +2095,7 @@
 170156 = {
 	name = "Narpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170155
 	798.1.1 = {
@@ -2109,7 +2109,7 @@
 170157 = {
 	name = "Udaysangh"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170156
 	814.1.1 = {
@@ -2123,7 +2123,7 @@
 170158 = {
 	name = "Jaidas"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170157
 	830.1.1 = {
@@ -2137,7 +2137,7 @@
 170159 = {
 	name = "Vachhal" #or VrikshPal
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170169
 	865.1.1 = {
@@ -2151,7 +2151,7 @@
 170160 = {
 	name = "Bacchdev"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170158
 	852.1.1 = {
@@ -2165,7 +2165,7 @@
 170161 = {
 	name = "Nagdeo"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170169
 	866.1.1 = {
@@ -2179,7 +2179,7 @@
 170162 = {
 	name = "Krishnray"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170169
 	867.1.1 = {
@@ -2193,7 +2193,7 @@
 170163 = {
 	name = "Nihal" #Nihal Ray
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170169
 	869.1.1 = {
@@ -2207,7 +2207,7 @@
 170164 = {
 	name = "Somasi"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170169
 	870.1.1 = {
@@ -2221,7 +2221,7 @@
 170165 = {
 	name = "Harpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170169
 	872.1.1 = {
@@ -2235,7 +2235,7 @@
 170166 = {
 	name = "Pavak"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170159
 	888.1.1 = {
@@ -2249,7 +2249,7 @@
 170167 = {
 	name = "Vihangpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170166
 	915.1.1 = {
@@ -2263,7 +2263,7 @@
 170168 = {
 	name = "Tolpal" #or Gopal
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170167
 	932.1.1 = {
@@ -2277,7 +2277,7 @@
 170169 = {
 	name = "Karnpal" #Karnpal Tuar
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170158
 	849.1.1 = {
@@ -2291,7 +2291,7 @@
 170170 = {
 	name = "Sulakshanpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170168
 	960.1.1 = {
@@ -2305,7 +2305,7 @@
 170171 = {
 	name = "Jaipal" #Jaipal Tuar
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170170
 	976.1.1 = {
@@ -2319,7 +2319,7 @@
 170172 = {
 	name = "Jhetpal" #Jhetpal Tuar
 	dynasty = 1040206
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1046.1.1 = {
@@ -2333,7 +2333,7 @@
 170173 = {
 	name = "Kanvarpal" #or Kumara Pal Tuar
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170171
 	999.1.1 = {
@@ -2348,7 +2348,7 @@
 170174 = {
 	name = "Anangpal" #Anangpal II
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170173
 	1017.1.1 = {
@@ -2362,7 +2362,7 @@
 170175 = {
 	name = "Bhumpal" #Bhumpal Tomar
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1040.1.1 = {
@@ -2376,7 +2376,7 @@
 170176 = {
 	name = "Indrapal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1041.1.1 = {
@@ -2390,7 +2390,7 @@
 170177 = {
 	name = "Rangraj"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1042.1.1 = {
@@ -2404,7 +2404,7 @@
 170178 = {
 	name = "Achal" #Achal Raj
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1043.1.1 = {
@@ -2418,7 +2418,7 @@
 170179 = {
 	name = "Draupad"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1044.1.1 = {
@@ -2432,7 +2432,7 @@
 170180 = {
 	name = "Sisupal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1045.1.1 = {
@@ -2446,7 +2446,7 @@
 170181 = {
 	name = "Surajpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1046.1.1 = {
@@ -2460,7 +2460,7 @@
 170182 = {
 	name = "Tejpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174
 	1039.1.1 = {
@@ -2474,7 +2474,7 @@
 170183 = {
 	name = "Mahipal" #or Junpal
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170182
 	1068.1.1 = {
@@ -2488,7 +2488,7 @@
 170184 = {
 	name = "Anangpal" #Dakatpal (Arkpal or Anangpal III)
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170183
 	1103.1.1 = {
@@ -2502,7 +2502,7 @@
 170185 = {
 	name = "Govindraj" #Govindraj Tanwar
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170184
 	1128.1.1 = {
@@ -2517,7 +2517,7 @@
 	name = "Roopsundari"
 	female = yes
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174 #Anangpal II
 	1048.1.1 = {
@@ -2532,7 +2532,7 @@
 	name = "Kamaladevi"
 	female = yes
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170174 #Anangpal II
 	1049.1.1 = {
@@ -2546,7 +2546,7 @@
 170188 = {
 	name = "Ausan" #Ausan Singh
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170184
 	1129.1.1 = {
@@ -2560,7 +2560,7 @@
 170189 = {
 	name = "Kosal" #Kosal Dev Singh
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170188
 	1153.1.1 = {
@@ -2574,7 +2574,7 @@
 170218 = {
 	name = "Mahendra"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170175
 	1063.1.1 = {
@@ -2588,7 +2588,7 @@
 170219 = {
 	name = "Hirapal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170218
 	1086.1.1 = {
@@ -2602,7 +2602,7 @@
 170220 = {
 	name = "Baghpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170219
 	1107.1.1 = {
@@ -2616,7 +2616,7 @@
 170221 = {
 	name = "Pritampal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170220
 	1136.1.1 = {
@@ -2630,7 +2630,7 @@
 170222 = {
 	name = "Dilippal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170221
 	1155.1.1 = {
@@ -2644,7 +2644,7 @@
 170223 = {
 	name = "Birpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170222
 	1177.1.1 = {
@@ -2658,7 +2658,7 @@
 170224 = {
 	name = "Anuppal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170223
 	1199.1.1 = {
@@ -2672,7 +2672,7 @@
 170225 = {
 	name = "Sonpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170224
 	1228.1.1 = {
@@ -2686,7 +2686,7 @@
 170226 = {
 	name = "Sultanpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170225
 	1254.1.1 = {
@@ -2700,7 +2700,7 @@
 170227 = {
 	name = "Kunwarpal"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170226
 	1278.1.1 = {
@@ -2714,7 +2714,7 @@
 170228 = {
 	name = "Brahmdev"
 	dynasty = 1040200
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170227
 	1298.1.1 = {
@@ -2728,7 +2728,7 @@
 170229 = {
 	name = "Khetrapal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170172
 	1060.1.1 = {
@@ -2742,7 +2742,7 @@
 170230 = {
 	name = "Sukhinpal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170229
 	1076.1.1 = {
@@ -2756,7 +2756,7 @@
 170231 = {
 	name = "Jagatpal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170230
 	1092.1.1 = {
@@ -2770,7 +2770,7 @@
 170232 = {
 	name = "Rampal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170231
 	1108.1.1 = {
@@ -2784,7 +2784,7 @@
 170233 = {
 	name = "Gopal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170232
 	1125.1.1 = {
@@ -2798,7 +2798,7 @@
 170234 = {
 	name = "Arjunpal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170233
 	1142.1.1 = {
@@ -2812,7 +2812,7 @@
 170235 = {
 	name = "Varshpal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170234
 	1159.1.1 = {
@@ -2826,7 +2826,7 @@
 170236 = {
 	name = "Jatanpal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170235
 	1176.1.1 = {
@@ -2840,7 +2840,7 @@
 170237 = {
 	name = "Vidurathpal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170236
 	1193.1.1 = {
@@ -2854,7 +2854,7 @@
 170238 = {
 	name = "Jaganpal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170237
 	1210.1.1 = {
@@ -2868,7 +2868,7 @@
 170239 = {
 	name = "Kiratpal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170238
 	1227.1.1 = {
@@ -2882,7 +2882,7 @@
 170240 = {
 	name = "Kakhopal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170239
 	1253.1.1 = {
@@ -2896,7 +2896,7 @@
 170241 = {
 	name = "Jaspal"
 	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170240
 	1293.1.1 = {
@@ -2910,7 +2910,7 @@
 170288 = {
 	name = "Salunji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170184 #Anangpal III Tomar
 	1130.1.1 = {
@@ -2924,7 +2924,7 @@
 170289 = {
 	name = "Nihaalji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170288
 	1152.1.1 = {
@@ -2938,7 +2938,7 @@
 170290 = {
 	name = "Dothji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170289
 	1178.1.1 = {
@@ -2952,7 +2952,7 @@
 170291 = {
 	name = "Popatrajji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170290
 	1203.1.1 = {
@@ -2966,7 +2966,7 @@
 170292 = {
 	name = "Peepalrajji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170291
 	1229.1.1 = {
@@ -2980,7 +2980,7 @@
 170293 = {
 	name = "Ranaji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170292
 	1253.1.1 = {
@@ -2994,7 +2994,7 @@
 170294 = {
 	name = "Alsiji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170293
 	1272.1.1 = {
@@ -3008,7 +3008,7 @@
 170295 = {
 	name = "Kamalji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170294
 	1295.1.1 = {
@@ -3022,7 +3022,7 @@
 170296 = {
 	name = "Mahipalji"
 	dynasty = 1040200 #Tomara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 170295
 	1327.1.1 = {
@@ -3036,7 +3036,7 @@
 188148 = {
 	name = "Mahisarama"
 	dynasty = 1042081 #Chahamana of Dholpur
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188147
 	775.1.1 = {
@@ -3050,7 +3050,7 @@
 188149 = {
 	name = "Chandamahasena"
 	dynasty = 1042081 #Chahamana of Dholpur
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188148
 	800.1.1 = {
@@ -3064,7 +3064,7 @@
 188150 = {
 	name = "Mahisarama" # fictious name
 	dynasty = 1042081 #Chahamana of Dholpur
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188148
 	825.1.1 = {
@@ -3077,7 +3077,7 @@
 
 188151 = {
 	name = "Sarangadeva" # fictitious name
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1067.1.1 = {
 		birth = yes
@@ -3091,7 +3091,7 @@
 	# wife of Tribhuvanapala Solanki
 	name = "Bhairavi" # fictitious name
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188151
 	1090.1.1 = {
@@ -3105,7 +3105,7 @@
 188153 = {
 	name = "Avidya" # fictitious name
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188151
 	1088.1.1 = {
@@ -3119,7 +3119,7 @@
 188166 = {
 	name = "Dhavala"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	mother = 188153
 	1105.1.1 = {
@@ -3137,7 +3137,7 @@
 	# Holder of Vaghela and Dholka
 	name = "Arnoraja"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188166
 	mother = 188153
@@ -3153,7 +3153,7 @@
 	# Holder of Vaghela and Dholka
 	name = "Lavanaprasada"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188154
 	1160.1.1 = {
@@ -3170,7 +3170,7 @@
 188156 = {
 	name = "Madanarajni"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1162.1.1 = {
 		birth = yes
@@ -3183,7 +3183,7 @@
 188157 = {
 	name = "Viradhavala"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188155
 	mother = 188156
@@ -3200,7 +3200,7 @@
 188158 = {
 	name = "Virama" # also called Visala
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188157
 	1205.1.1 = {
@@ -3214,7 +3214,7 @@
 188159 = {
 	name = "Pratapamalla"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188157
 	1210.1.1 = {
@@ -3228,7 +3228,7 @@
 188160 = {
 	name = "Arjuna"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188159
 	1232.1.1 = {
@@ -3242,7 +3242,7 @@
 188161 = {
 	name = "Saranga"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188160
 	1254.1.1 = {
@@ -3256,7 +3256,7 @@
 188162 = {
 	name = "Rama"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188160
 	1256.1.1 = {
@@ -3270,7 +3270,7 @@
 188163 = {
 	name = "Karna"
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188162
 	1275.9.4 = {
@@ -3288,7 +3288,7 @@
 188164 = {
 	name = "Kaula"
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	trait = beauty_good_1
 	1274.1.4 = {
@@ -3304,7 +3304,7 @@
 	name = "Devala"
 	female = yes
 	dynasty = 1042072 #Vaghela
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188163
 	mother = 188164
@@ -3416,7 +3416,7 @@
 188175 = {
 	name = "Mahipala"
 	dynasty = 1042076 # Kacchapaghata
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1052.1.1 = {
 		birth = yes
@@ -3429,7 +3429,7 @@
 188206 = {
 	name = "Mahahayak"
 	dynasty = 1042079 #Guhilot
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188475
 	835.1.1 = {
@@ -3443,7 +3443,7 @@
 188207 = {
 	name = "Yograj"
 	dynasty = 1042079 #Guhilot
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188485
 	1020.1.1 = {
@@ -3457,7 +3457,7 @@
 188208 = {
 	name = "Sajraj"
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	832.1.1 = {
 		birth = yes
@@ -3470,7 +3470,7 @@
 188209 = {
 	name = "Gajvkatra" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188208
 	868.1.1 = {
@@ -3484,7 +3484,7 @@
 188210 = {
 	name = "Sajraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188209
 	900.1.1 = {
@@ -3498,7 +3498,7 @@
 188211 = {
 	name = "Singhraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188210
 	925.1.1 = {
@@ -3512,7 +3512,7 @@
 188212 = {
 	name = "Sankhpaul" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188211
 	950.1.1 = {
@@ -3526,7 +3526,7 @@
 188213 = {
 	name = "Sajraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188212
 	975.1.1 = {
@@ -3540,7 +3540,7 @@
 188214 = {
 	name = "Kulika" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188213
 	1000.1.1 = {
@@ -3554,7 +3554,7 @@
 188215 = {
 	name = "Karkotak" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188214
 	1025.1.1 = {
@@ -3568,7 +3568,7 @@
 188216 = {
 	name = "Sajraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188215
 	1050.1.1 = {
@@ -3582,7 +3582,7 @@
 188217 = {
 	name = "Padam" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188216
 	1075.1.1 = {
@@ -3596,7 +3596,7 @@
 188218 = {
 	name = "Takshak" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188217
 	1100.1.1 = {
@@ -3610,7 +3610,7 @@
 188219 = {
 	name = "Sajraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188218
 	1125.1.1 = {
@@ -3624,7 +3624,7 @@
 188220 = {
 	name = "Valhana"
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188145
 	1187.1.1 = {
@@ -3638,7 +3638,7 @@
 188221 = {
 	name = "Prahladana"
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188220
 	1203.1.1 = {
@@ -3652,7 +3652,7 @@
 188222 = {
 	name = "Viranarayana"
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188221
 	1219.1.1 = {
@@ -3666,7 +3666,7 @@
 188223 = {
 	name = "Vagbhata"
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188220
 	1204.1.1 = {
@@ -3680,7 +3680,7 @@
 188224 = {
 	name = "Jaitrasimha"
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188223
 	1224.1.1 = {
@@ -3694,7 +3694,7 @@
 188225 = {
 	name = "Suratrana"
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188224
 	1244.1.1 = {
@@ -3708,7 +3708,7 @@
 188226 = {
 	name = "Virama"
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188224
 	1245.1.1 = {
@@ -3722,7 +3722,7 @@
 188227 = {
 	name = "Hammira"
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188224
 	trait = education_martial_4
@@ -3740,7 +3740,7 @@
 	name = "Devalladevi"
 	female = yes
 	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188227
 	1276.1.1 = {
@@ -3754,7 +3754,7 @@
 188229 = {
 	name = "Vajradman"
 	dynasty = 1042076 # Kachwaha 1
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	925.1.1 = {
 		birth = yes
@@ -3767,7 +3767,7 @@
 188230 = {
 	name = "Mangalaraja"
 	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188229
 	945.1.1 = {
@@ -3781,7 +3781,7 @@
 188231 = {
 	name = "Kirtti"
 	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188230
 	970.1.1 = {
@@ -3795,7 +3795,7 @@
 188232 = {
 	name = "Muladeva"
 	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188231
 	1000.1.1 = {
@@ -3809,7 +3809,7 @@
 188233 = {
 	name = "Vajradman" # fictitious name
 	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188232
 	1020.1.1 = {
@@ -3823,7 +3823,7 @@
 188234 = {
 	name = "Mahipal"
 	dynasty = 1042076 # Kachwaha 6
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188233
 	1042.1.1 = {
@@ -3837,7 +3837,7 @@
 188235 = {
 	name = "Arjuna"
 	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188234
 	1065.1.1 = {
@@ -3851,7 +3851,7 @@
 188236 = {
 	name = "Arjuna" # fictitious name
 	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188235
 	1085.1.1 = {
@@ -3865,7 +3865,7 @@
 188237 = {
 	name = "Mahipal" # fictitious name
 	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188236
 	1110.1.1 = {
@@ -3879,7 +3879,7 @@
 188238 = {
 	name = "Vikramasimha"
 	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188237
 	1130.1.1 = {
@@ -3894,7 +3894,7 @@
 188239 = {
 	name = "Satya"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191919
 	950.1.1 = {
@@ -3911,7 +3911,7 @@
 188240 = {
 	name = "Mandalika"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 188239
 	mother = 191925
@@ -3926,7 +3926,7 @@
 188241 = {
 	name = "Chamunda"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 188240
 	1050.1.1 = {
@@ -3939,7 +3939,7 @@
 
 170299 = {
 	name = "Kafur" # Malik Kafur
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	1280.1.1 = {
 		birth = "1280.1.1"
@@ -3949,7 +3949,7 @@
 	}
 	1297.1.1 = {
 		religion = "ashari"
-		#REMOVED_TRAIT remove_trait = vaishnavist_srikula_shaktism
+		#REMOVED_TRAIT remove_trait = vaishnavist_vaishnavism
 		trait = eunuch
 		trait = ambitious
 		employer = 170246
@@ -3965,7 +3965,7 @@
 188176 = {
 	name = "Upendra"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	770.1.1 = {
 		birth = yes
@@ -3978,7 +3978,7 @@
 188177 = {
 	name = "Vairisimha"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188176
 	800.1.1 = {
@@ -3992,7 +3992,7 @@
 188178 = {
 	name = "Siyaka" # the I
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188177
 	831.4.5 = {
@@ -4006,7 +4006,7 @@
 188179 = {
 	name = "Vakpati" # the I
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188178
 	856.9.28 = {
@@ -4020,7 +4020,7 @@
 188180 = {
 	name = "Vairisimha" # the II
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188179
 	880.1.1 = {
@@ -4034,7 +4034,7 @@
 188181 = {
 	name = "Siyaka" # the II
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188180
 	920.1.1 = {
@@ -4048,7 +4048,7 @@
 188182 = {
 	name = "Vakpati" # the II
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188181
 	950.1.1 = {
@@ -4062,7 +4062,7 @@
 188183 = {
 	name = "Sindhu"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188181
 	956.1.1 = {
@@ -4076,7 +4076,7 @@
 188184 = {
 	name = "Bhoja" # the I
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188183
 	trait = scholar
@@ -4091,7 +4091,7 @@
 188185 = {
 	name = "Jayasimha"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188184
 	1035.1.1 = {
@@ -4105,7 +4105,7 @@
 188186 = {
 	name = "Udayaditya"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188183
 	1008.1.1 = {
@@ -4119,7 +4119,7 @@
 188187 = {
 	name = "Lakshmana"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188186
 	1043.3.6 = {
@@ -4133,7 +4133,7 @@
 188188 = {
 	name = "Naravarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188186
 	1061.5.27 = {
@@ -4147,7 +4147,7 @@
 188189 = {
 	name = "Yasovarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188188
 	1080.1.1 = {
@@ -4161,7 +4161,7 @@
 188190 = {
 	name = "Jayavarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188189
 	1100.1.1 = {
@@ -4176,7 +4176,7 @@
 	# Holder of Bhopal during usurpation
 	name = "Lakshmivarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188189
 	1103.1.1 = {
@@ -4191,7 +4191,7 @@
 	# Holder near Bilsa during usurpation
 	name = "Trailokyavarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188189
 	1102.1.1 = {
@@ -4205,7 +4205,7 @@
 188194 = {
 	name = "Harischandra"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188192
 	1130.1.1 = {
@@ -4219,7 +4219,7 @@
 188195 = {
 	name = "Udayavarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188194
 	1170.1.1 = {
@@ -4233,7 +4233,7 @@
 188196 = {
 	name = "Devapala"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188194
 	1180.1.1 = {
@@ -4247,7 +4247,7 @@
 188197 = {
 	name = "Vindhyavarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188190
 	1130.1.1 = {
@@ -4261,7 +4261,7 @@
 188198 = {
 	name = "Subhatavarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188197
 	1160.1.1 = {
@@ -4275,7 +4275,7 @@
 188199 = {
 	name = "Arjunavarman"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188198
 	1180.1.1 = {
@@ -4289,7 +4289,7 @@
 188200 = {
 	name = "Jaitugideva"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188196
 	1200.1.1 = {
@@ -4303,7 +4303,7 @@
 188201 = {
 	name = "Jayavarman" # the II
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188196
 	1201.1.1 = {
@@ -4317,7 +4317,7 @@
 188202 = {
 	name = "Jayasimha" # the II
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188201
 	1230.1.1 = {
@@ -4331,7 +4331,7 @@
 188203 = {
 	name = "Arjunavarman" # the II
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188202
 	1250.1.1 = {
@@ -4345,7 +4345,7 @@
 188204 = {
 	name = "Bhoja"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188202
 	1254.1.1 = {
@@ -4359,7 +4359,7 @@
 188205 = {
 	name = "Mahlakadeva"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188204
 	1282.1.1 = {
@@ -4373,7 +4373,7 @@
 188277 = {
 	name = "Chuda"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	845.1.1 = {
 		birth = yes
@@ -4386,7 +4386,7 @@
 188243 = {
 	name = "Hamir"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188277
 	870.1.1 = {
@@ -4400,7 +4400,7 @@
 188244 = {
 	name = "Mulraj"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188243
 	890.1.1 = {
@@ -4414,7 +4414,7 @@
 188245 = {
 	name = "Grahar"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188244
 	915.1.1 = {
@@ -4428,7 +4428,7 @@
 188246 = {
 	name = "Kawat"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188245
 	938.1.1 = {
@@ -4442,7 +4442,7 @@
 188247 = {
 	name = "Dayaji" # or Diyas
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188246
 	960.1.1 = {
@@ -4456,7 +4456,7 @@
 188248 = {
 	name = "Navghan"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188247
 	1008.1.1 = {
@@ -4470,7 +4470,7 @@
 188249 = {
 	name = "Khengar"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188248
 	1026.1.1 = {
@@ -4484,7 +4484,7 @@
 188250 = {
 	name = "Navghan" # the II
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188249
 	1046.1.1 = {
@@ -4498,7 +4498,7 @@
 188251 = {
 	name = "Khengar" # the II
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188250
 	1066.1.1 = {
@@ -4512,7 +4512,7 @@
 188252 = {
 	name = "Mulraj" # fictitious
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188250
 	1068.1.1 = {
@@ -4526,7 +4526,7 @@
 188253 = {
 	name = "Navghan" # the III
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188252 # fictitious
 	1093.1.1 = {
@@ -4540,7 +4540,7 @@
 188254 = {
 	name = "Kawat" # the II
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188253
 	1113.1.1 = {
@@ -4554,7 +4554,7 @@
 188255 = {
 	name = "Grahar" # the II
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188254
 	1135.1.1 = {
@@ -4568,7 +4568,7 @@
 188256 = {
 	name = "Raisinha"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188255
 	1155.1.1 = {
@@ -4582,7 +4582,7 @@
 188257 = {
 	name = "Mahipal" # the II
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188256
 	1175.1.1 = {
@@ -4596,7 +4596,7 @@
 188258 = {
 	name = "Jaymal"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188257
 	1194.1.1 = {
@@ -4610,7 +4610,7 @@
 188259 = {
 	name = "Mahipal" # III
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188258
 	1214.1.1 = {
@@ -4624,7 +4624,7 @@
 188260 = {
 	name = "Khengar" # III
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188259
 	1232.1.1 = {
@@ -4638,7 +4638,7 @@
 188261 = {
 	name = "Mandlik"
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188260
 	1250.1.1 = {
@@ -4652,7 +4652,7 @@
 188262 = {
 	name = "Navghan" # IV
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188260 # guess
 	1252.1.1 = {
@@ -4666,7 +4666,7 @@
 188263 = {
 	name = "Mahipal" # IV
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188262 # guess
 	1270.1.1 = {
@@ -4680,7 +4680,7 @@
 188264 = {
 	name = "Khengar" # IV
 	dynasty = 1042088 # Chudasama
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188263
 	1292.1.1 = {
@@ -4694,7 +4694,7 @@
 188278 = {
 	name = "Lakho"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188301
 	trait = twin
@@ -4709,7 +4709,7 @@
 188279 = {
 	name = "Rayadhan"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188278
 	1148.1.1 = {
@@ -4723,7 +4723,7 @@
 188280 = {
 	name = "Othaji"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188279
 	1183.1.1 = {
@@ -4737,7 +4737,7 @@
 188281 = {
 	name = "Gaoji"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188280
 	1216.1.1 = {
@@ -4751,7 +4751,7 @@
 188282 = {
 	name = "Vehanji"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188281
 	1246.1.1 = {
@@ -4765,7 +4765,7 @@
 188283 = {
 	name = "Mulvaji"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188282
 	1303.1.1 = {
@@ -4779,7 +4779,7 @@
 188284 = {
 	name = "Gajanji"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188279
 	1185.1.1 = {
@@ -4793,7 +4793,7 @@
 188285 = {
 	name = "Dedaji"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188279
 	1187.1.1 = {
@@ -4807,7 +4807,7 @@
 188286 = {
 	name = "Hothji"
 	dynasty = 1042085 # Jadeja
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188279
 	1189.1.1 = {
@@ -4821,7 +4821,7 @@
 188287 = {
 	name = "Lakhodurado" # or Lakho Ghuraro
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	745.1.1 = {
 		birth = yes
@@ -4834,7 +4834,7 @@
 188288 = {
 	name = "Unad"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188287
 	775.1.1 = {
@@ -4848,7 +4848,7 @@
 188289 = {
 	name = "Sampat"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188288
 	800.1.1 = {
@@ -4862,7 +4862,7 @@
 188290 = {
 	name = "Kakru"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188289
 	830.1.1 = {
@@ -4876,7 +4876,7 @@
 188291 = {
 	name = "Raydhanji"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188290
 	855.1.1 = {
@@ -4890,7 +4890,7 @@
 188292 = {
 	name = "Samejaji" # semi-historical
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188291
 	890.1.1 = {
@@ -4904,7 +4904,7 @@
 188293 = {
 	name = "Sameja" # semi-historical
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188292
 	920.1.1 = {
@@ -4918,7 +4918,7 @@
 188294 = {
 	name = "Munda" # semi-historical
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188293
 	950.1.1 = {
@@ -4932,7 +4932,7 @@
 188295 = {
 	name = "Raukadi" # semi-historical
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188294
 	980.1.1 = {
@@ -4946,7 +4946,7 @@
 188296 = {
 	name = "Jahkra" # semi-historical
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188295
 	1010.1.1 = {
@@ -4960,7 +4960,7 @@
 188297 = {
 	name = "Unad" # made up
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188296
 	1040.1.1 = {
@@ -4974,7 +4974,7 @@
 188298 = {
 	name = "Kakru" # made up
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188297
 	1070.1.1 = {
@@ -4988,7 +4988,7 @@
 188299 = {
 	name = "Jada"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188298
 	1095.1.1 = {
@@ -5002,7 +5002,7 @@
 188300 = {
 	name = "Ghao"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188299
 	1130.1.1 = {
@@ -5016,7 +5016,7 @@
 188301 = {
 	name = "Munda" # made up
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188298
 	1098.1.1 = {
@@ -5030,7 +5030,7 @@
 188302 = {
 	name = "Lakhiar"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188301
 	trait = twin
@@ -5045,7 +5045,7 @@
 188303 = {
 	name = "Mod"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188287
 	779.1.1 = {
@@ -5059,7 +5059,7 @@
 188304 = {
 	name = "Saad"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188303
 	805.1.1 = {
@@ -5073,7 +5073,7 @@
 188305 = {
 	name = "Phool"
 	dynasty = 1042086 # Samma
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188304
 	830.1.1 = {
@@ -5087,7 +5087,7 @@
 188147 = {
 	name = "Isuka"
 	dynasty = 1042081 #Chahamana of Dholpur
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188106 # fictitious connection to Shakambhari Chauhans
 	750.1.1 = {
@@ -5101,7 +5101,7 @@
 188320 = {
 	name = "Jaisimha"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	510.1.1 = {
 		birth = yes
@@ -5114,7 +5114,7 @@
 188321 = {
 	name = "Bahubal"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188320
 	530.1.1 = {
@@ -5128,7 +5128,7 @@
 188322 = {
 	name = "Subahu"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188321
 	550.1.1 = {
@@ -5142,7 +5142,7 @@
 188323 = {
 	name = "Rajh"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188322
 	570.1.1 = {
@@ -5156,7 +5156,7 @@
 188324 = {
 	name = "Gaj"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188323
 	590.1.1 = {
@@ -5170,7 +5170,7 @@
 188325 = {
 	name = "Salivahan"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188324
 	610.1.1 = {
@@ -5184,7 +5184,7 @@
 188326 = {
 	name = "Baland"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188325
 	630.1.1 = {
@@ -5198,7 +5198,7 @@
 188327 = {
 	name = "Bhati"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188326
 	650.1.1 = {
@@ -5212,7 +5212,7 @@
 188328 = {
 	name = "Mangal-Rao"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188327
 	670.1.1 = {
@@ -5226,7 +5226,7 @@
 188329 = {
 	name = "Majam-Rao"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188328
 	690.1.1 = {
@@ -5240,7 +5240,7 @@
 188330 = {
 	name = "Kehar"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188329
 	715.1.1 = {
@@ -5254,7 +5254,7 @@
 188331 = {
 	name = "Tano"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188330
 	770.1.1 = {
@@ -5268,7 +5268,7 @@
 188332 = {
 	name = "Bijairai"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188331
 	810.1.1 = {
@@ -5282,7 +5282,7 @@
 188333 = {
 	name = "Deoraj"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188332
 	850.1.1 = {
@@ -5296,7 +5296,7 @@
 188334 = {
 	name = "Mund"
 	dynasty = 1042091 # Bhatti
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188333
 	900.1.1 = {
@@ -5310,7 +5310,7 @@
 188335 = {
 	name = "Bijairai" # the II
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188334
 	960.1.1 = {
@@ -5324,7 +5324,7 @@
 188336 = {
 	name = "Dusaj"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188335
 	1030.1.1 = {
@@ -5338,7 +5338,7 @@
 188337 = {
 	name = "Lanja"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188336
 	1065.1.1 = {
@@ -5352,7 +5352,7 @@
 188338 = {
 	name = "Bhojdev"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188337
 	1100.1.1 = {
@@ -5366,7 +5366,7 @@
 188339 = {
 	name = "Rawal-Jaisal"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188336
 	1095.1.1 = {
@@ -5380,7 +5380,7 @@
 188340 = {
 	name = "Salivahan" # the II
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188339
 	1140.1.1 = {
@@ -5394,7 +5394,7 @@
 188341 = {
 	name = "Bijal"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188340
 	1170.1.1 = {
@@ -5408,7 +5408,7 @@
 188342 = {
 	name = "Chachack-Deo"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188341
 	1200.1.1 = {
@@ -5422,7 +5422,7 @@
 188343 = {
 	name = "Tej-Rao"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188342
 	1230.1.1 = {
@@ -5436,7 +5436,7 @@
 188344 = {
 	name = "Rawal-Jethsi"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188343
 	1260.1.1 = {
@@ -5450,7 +5450,7 @@
 188345 = {
 	name = "Karan-Singh"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188344
 	1276.1.1 = {
@@ -5464,7 +5464,7 @@
 188346 = {
 	name = "Mulraja"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188345
 	1292.1.1 = {
@@ -5479,7 +5479,7 @@
 188347 = {
 	name = "Ratan"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188346
 	1308.1.1 = {
@@ -5493,7 +5493,7 @@
 188348 = {
 	name = "Lakhan-Sen"
 	dynasty = 1042091 # Bhatti
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188347
 	1324.1.1 = {
@@ -5506,7 +5506,7 @@
 188445 = {
 	name = "Muni"
 	dynasty = 1042081 #Chahamana
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188107 # conjecture
 	775.1.1 = {
@@ -5520,7 +5520,7 @@
 188446 = {
 	name = "Kalahalanga"
 	dynasty = 1042081 #Chahamana
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188445
 	795.1.1 = {
@@ -5534,7 +5534,7 @@
 188447 = {
 	name = "Ghangh" # or Dhandu
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188446
 	815.1.1 = {
@@ -5548,7 +5548,7 @@
 188448 = {
 	name = "Kanho"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188447
 	840.1.1 = {
@@ -5562,7 +5562,7 @@
 188449 = {
 	name = "Harsha" # fictitious
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188448
 	865.1.1 = {
@@ -5576,7 +5576,7 @@
 188450 = {
 	name = "Gangh" # fictitious
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188449
 	890.1.1 = {
@@ -5590,7 +5590,7 @@
 188451 = {
 	name = "Jevara"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188450
 	912.1.1 = {
@@ -5604,7 +5604,7 @@
 188452 = {
 	name = "Gogaji"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188451
 	946.1.1 = {
@@ -5618,7 +5618,7 @@
 188453 = {
 	name = "Naniga"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188452
 	968.1.1 = {
@@ -5632,7 +5632,7 @@
 188454 = {
 	name = "Bairasi" # or Vairasi
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188451
 	950.1.1 = {
@@ -5646,7 +5646,7 @@
 188455 = {
 	name = "Udayaraja"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188454
 	980.1.1 = {
@@ -5660,7 +5660,7 @@
 188456 = {
 	name = "Jasaraja"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188455
 	1010.1.1 = {
@@ -5674,7 +5674,7 @@
 188457 = {
 	name = "Kesoraja"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188456
 	1040.1.1 = {
@@ -5688,7 +5688,7 @@
 188458 = {
 	name = "Vijayaraja"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188457
 	1065.1.1 = {
@@ -5702,7 +5702,7 @@
 188459 = {
 	name = "Padmasi"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188458
 	1090.1.1 = {
@@ -5716,7 +5716,7 @@
 188460 = {
 	name = "Prithviraj"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188459
 	1110.1.1 = {
@@ -5730,7 +5730,7 @@
 188461 = {
 	name = "Lalachanda"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188460
 	1135.1.1 = {
@@ -5744,7 +5744,7 @@
 188462 = {
 	name = "Gopala"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188461
 	1160.1.1 = {
@@ -5758,7 +5758,7 @@
 188463 = {
 	name = "Jaitasi"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188462
 	1185.1.1 = {
@@ -5772,7 +5772,7 @@
 188464 = {
 	name = "Punapala"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188463
 	1205.1.1 = {
@@ -5786,7 +5786,7 @@
 188465 = {
 	name = "Rupa"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188464
 	1230.1.1 = {
@@ -5800,7 +5800,7 @@
 188466 = {
 	name = "Ravana"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188465
 	1255.1.1 = {
@@ -5814,7 +5814,7 @@
 188467 = {
 	name = "Tihunapala"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188466
 	1280.1.1 = {
@@ -5828,7 +5828,7 @@
 188468 = {
 	name = "Moteraya"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188467
 	1305.1.1 = {
@@ -5842,7 +5842,7 @@
 188469 = {
 	name = "Karama-Chanda"
 	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188468
 	1328.1.1 = {
@@ -5859,7 +5859,7 @@
 188470 = {
 	name = "Kalbhoj" # or Bappa Rawal
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	713.1.1 = {
 		birth = yes
@@ -5872,7 +5872,7 @@
 188471 = {
 	name = "Khuman"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188470
 	734.1.1 = {
@@ -5886,7 +5886,7 @@
 188472 = {
 	name = "Mattat"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188471
 	755.1.1 = {
@@ -5900,7 +5900,7 @@
 188473 = {
 	name = "Bhert-Patt" # or Bhartribhatt
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188472
 	773.1.1 = {
@@ -5914,7 +5914,7 @@
 188474 = {
 	name = "Sinha"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188473
 	789.1.1 = {
@@ -5928,7 +5928,7 @@
 188475 = {
 	name = "Khuman"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188474
 	805.1.1 = {
@@ -5942,7 +5942,7 @@
 188476 = {
 	name = "Khuman" # III
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188206
 	865.1.1 = {
@@ -5956,7 +5956,7 @@
 188477 = {
 	name = "Bhert-Patt" # II
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188476
 	890.1.1 = {
@@ -5970,7 +5970,7 @@
 188478 = {
 	name = "Allat"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188477
 	910.1.1 = {
@@ -5984,7 +5984,7 @@
 188479 = {
 	name = "Narwahan"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188478 # conjecture
 	928.1.1 = {
@@ -5998,7 +5998,7 @@
 188480 = {
 	name = "Shaliwahan"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188479
 	946.1.1 = {
@@ -6012,7 +6012,7 @@
 188481 = {
 	name = "Shakti-Kumar"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188479
 	948.1.1 = {
@@ -6026,7 +6026,7 @@
 188482 = {
 	name = "Amba-Prasad"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188481
 	964.1.1 = {
@@ -6040,7 +6040,7 @@
 188483 = {
 	name = "Shuchi-Verma"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188482
 	981.1.1 = {
@@ -6054,7 +6054,7 @@
 188484 = {
 	name = "Nar-Verma"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188483
 	1000.1.1 = {
@@ -6068,7 +6068,7 @@
 188485 = {
 	name = "Keerti-Verma" # or Kirtivarma
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188483
 	1003.1.1 = {
@@ -6082,7 +6082,7 @@
 188486 = {
 	name = "Bairath" # or Vairath
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188207
 	1043.1.1 = {
@@ -6096,7 +6096,7 @@
 188487 = {
 	name = "Hanspal"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188486
 	1063.1.1 = {
@@ -6110,7 +6110,7 @@
 188488 = {
 	name = "Vair-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188487
 	1080.1.1 = {
@@ -6124,7 +6124,7 @@
 188489 = {
 	name = "Vijai-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188488
 	1098.1.1 = {
@@ -6138,7 +6138,7 @@
 188490 = {
 	name = "Ari-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188488
 	1101.1.1 = {
@@ -6152,7 +6152,7 @@
 188491 = {
 	name = "Chaud-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188488
 	1104.1.1 = {
@@ -6166,7 +6166,7 @@
 188492 = {
 	name = "Vikramaditya"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188491
 	1124.1.1 = {
@@ -6180,7 +6180,7 @@
 188493 = {
 	name = "Karan-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188492
 	1141.1.1 = {
@@ -6194,7 +6194,7 @@
 188494 = {
 	name = "Mahap"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188493
 	1158.1.1 = {
@@ -6208,7 +6208,7 @@
 188495 = {
 	name = "Kshem-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188492
 	1142.1.1 = {
@@ -6222,7 +6222,7 @@
 188496 = {
 	name = "Samant-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188495
 	1159.1.1 = {
@@ -6236,7 +6236,7 @@
 188497 = {
 	name = "Kumar-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188495
 	1160.1.1 = {
@@ -6250,7 +6250,7 @@
 188498 = {
 	name = "Mathan-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188495
 	1163.1.1 = {
@@ -6264,7 +6264,7 @@
 188499 = {
 	name = "Padam-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188498
 	1185.1.1 = {
@@ -6278,7 +6278,7 @@
 188500 = {
 	name = "Jaitra-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188498
 	1190.1.1 = {
@@ -6292,7 +6292,7 @@
 188501 = {
 	name = "Tej-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188500
 	1212.1.1 = {
@@ -6306,7 +6306,7 @@
 188502 = {
 	name = "Samar-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188501
 	1238.1.1 = {
@@ -6320,7 +6320,7 @@
 188503 = {
 	name = "Ratan-Singh"
 	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188502
 	1260.1.1 = {
@@ -6334,7 +6334,7 @@
 188504 = {
 	name = "Maldeo"
 	dynasty = 1042081	#Chauhan of Jalor
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191752
 	1280.1.1 = {
@@ -6348,7 +6348,7 @@
 188505 = {
 	name = "Rahap"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188493
 	1157.1.1 = {
@@ -6362,7 +6362,7 @@
 188506 = {
 	name = "Narapati"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188505
 	1173.1.1 = {
@@ -6376,7 +6376,7 @@
 188507 = {
 	name = "Dinakarn"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188506
 	1189.1.1 = {
@@ -6390,7 +6390,7 @@
 188508 = {
 	name = "Jaskarn"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188507
 	1205.1.1 = {
@@ -6404,7 +6404,7 @@
 188509 = {
 	name = "Purnpala"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188508
 	1221.1.1 = {
@@ -6418,7 +6418,7 @@
 188510 = {
 	name = "Prithvipal"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188509
 	1237.1.1 = {
@@ -6432,7 +6432,7 @@
 188511 = {
 	name = "Bhuvan-Singh"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188509
 	1238.1.1 = {
@@ -6446,7 +6446,7 @@
 188512 = {
 	name = "Bhim-Singh"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188509
 	1239.1.1 = {
@@ -6460,7 +6460,7 @@
 188513 = {
 	name = "Jay-Singh"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188509
 	1240.1.1 = {
@@ -6474,7 +6474,7 @@
 188514 = {
 	name = "Lakshaman-Singh"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188513
 	1256.1.1 = {
@@ -6488,7 +6488,7 @@
 188515 = {
 	name = "Ari-Singh"
 	dynasty = 1042098 # Sisodia
-	religion = "kalikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188514
 	1272.1.1 = {
@@ -9805,7 +9805,7 @@
 191859 = {
 	name = "Surapala"
 	dynasty = 1042076	#Kacchapaghata
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191858
 	1110.1.1 = {
@@ -9819,7 +9819,7 @@
 191860 = {
 	name = "Anayapala"
 	dynasty = 1042076	#Kacchapaghata
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191859
 	1130.1.1 = {
@@ -9833,7 +9833,7 @@
 191861 = {
 	name = "Bhartripatta"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	580.1.1 = {
 		birth = yes
@@ -9846,7 +9846,7 @@
 191862 = {
 	name = "Guhila"	#Fictional
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191861
 	600.1.1 = {
@@ -9860,7 +9860,7 @@
 191863 = {
 	name = "Dulha"	#Fictional
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191862
 	620.1.1 = {
@@ -9874,7 +9874,7 @@
 191864 = {
 	name = "Savata"	#Fictional
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191863
 	670.1.1 = {
@@ -9888,7 +9888,7 @@
 191865 = {
 	name = "Dhanika"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191864
 	690.1.1 = {
@@ -9902,7 +9902,7 @@
 191866 = {
 	name = "Auka"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191865
 	710.1.1 = {
@@ -9916,7 +9916,7 @@
 191867 = {
 	name = "Krishna"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191866
 	730.1.1 = {
@@ -9930,7 +9930,7 @@
 191868 = {
 	name = "Sankaragana"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191867
 	750.1.1 = {
@@ -9944,7 +9944,7 @@
 191869 = {
 	name = "Harsha"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191868
 	780.1.1 = {
@@ -9958,7 +9958,7 @@
 191870 = {
 	name = "Guhila"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191869
 	800.1.1 = {
@@ -9972,7 +9972,7 @@
 191871 = {
 	name = "Bhatta"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191870
 	820.1.1 = {
@@ -9986,7 +9986,7 @@
 191872 = {
 	name = "Baladitya"
 	dynasty = 1044386	#Guhilot of Chatsu
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191871
 	850.1.1 = {
@@ -10000,7 +10000,7 @@
 191878 = {
 	name = "Bhallila"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191876
 	840.1.1 = {
@@ -10014,7 +10014,7 @@
 191879 = {
 	name = "Dantivarman"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191878
 	860.1.1 = {
@@ -10028,7 +10028,7 @@
 191880 = {
 	name = "Buddharaja"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191879
 	880.1.1 = {
@@ -10042,7 +10042,7 @@
 191881 = {
 	name = "Govinda"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191879
 	882.1.1 = {
@@ -10056,7 +10056,7 @@
 191882 = {
 	name = "Dantivarman"	#Fictional
 	dynasty = 1044387	#Rashtrakuta of Dhanop
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191881
 	900.1.1 = {
@@ -10070,7 +10070,7 @@
 191883 = {
 	name = "Bhallila"	#Fictional
 	dynasty = 1044387	#Rashtrakuta of Dhanop
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191882
 	920.1.1 = {
@@ -10084,7 +10084,7 @@
 191884 = {
 	name = "Cacca"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191883
 	980.1.1 = {
@@ -10098,7 +10098,7 @@
 191885 = {
 	name = "Siha"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191055
 	1220.1.1 = {
@@ -10112,7 +10112,7 @@
 191886 = {
 	name = "Asthan"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "rajput"
 	father = 191885
 	1240.1.1 = {
@@ -10126,7 +10126,7 @@
 191887 = {
 	name = "Sonam"
 	dynasty = 1044388 #Rathore (founds Idar branch)
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191885
 	1241.1.1 = {
@@ -10140,7 +10140,7 @@
 191888 = {
 	name = "Uja"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191885
 	1242.1.1 = {
@@ -10154,7 +10154,7 @@
 191889 = {
 	name = "Doohad"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191886
 	1260.1.1 = {
@@ -10168,7 +10168,7 @@
 191890 = {
 	name = "Jopsi"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191886
 	1261.1.1 = {
@@ -10182,7 +10182,7 @@
 191891 = {
 	name = "Khimpsao"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191886
 	1262.1.1 = {
@@ -10196,7 +10196,7 @@
 191912 = {
 	name = "Bhupsu"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191886
 	1263.1.1 = {
@@ -10210,7 +10210,7 @@
 191913 = {
 	name = "Dhandul"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191886
 	1264.1.1 = {
@@ -10224,7 +10224,7 @@
 191892 = {
 	name = "Jaitmal"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191886
 	1266.1.1 = {
@@ -10238,7 +10238,7 @@
 191893 = {
 	name = "Bandur"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191886
 	1268.1.1 = {
@@ -10252,7 +10252,7 @@
 191894 = {
 	name = "Uhur"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191886
 	1270.1.1 = {
@@ -10266,7 +10266,7 @@
 191895 = {
 	name = "Raipal"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191889
 	1276.1.1 = {
@@ -10280,7 +10280,7 @@
 191896 = {
 	name = "Kiratpal"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191889
 	1277.1.1 = {
@@ -10294,7 +10294,7 @@
 191897 = {
 	name = "Behar"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191889
 	1278.1.1 = {
@@ -10308,7 +10308,7 @@
 191898 = {
 	name = "Pital"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191889
 	1279.1.1 = {
@@ -10322,7 +10322,7 @@
 191899 = {
 	name = "Jugail"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191889
 	1280.1.1 = {
@@ -10336,7 +10336,7 @@
 191900 = {
 	name = "Dalu"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191889
 	1281.1.1 = {
@@ -10350,7 +10350,7 @@
 191901 = {
 	name = "Begar"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191889
 	1282.1.1 = {
@@ -10364,7 +10364,7 @@
 191902 = {
 	name = "Kanhapal"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191895
 	1292.1.1 = {
@@ -10378,7 +10378,7 @@
 191903 = {
 	name = "Jalhansi"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191902
 	1310.1.1 = {
@@ -10392,7 +10392,7 @@
 191904 = {
 	name = "Chhada"
 	dynasty = 1044388 #Rathore
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191903
 	1326.1.1 = {
@@ -10406,7 +10406,7 @@
 191905 = {
 	name = "Emal"
 	dynasty = 1044388 #Rathore (Idar branch)
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191887
 	1259.1.1 = {
@@ -10420,7 +10420,7 @@
 191906 = {
 	name = "Dhavalma"
 	dynasty = 1044388 #Rathore (Idar branch)
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191905
 	1275.1.1 = {
@@ -10434,7 +10434,7 @@
 191907 = {
 	name = "Lunkaran"
 	dynasty = 1044388 #Rathore (Idar branch)
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191906
 	1291.1.1 = {
@@ -10448,7 +10448,7 @@
 191908 = {
 	name = "Kanhat"
 	dynasty = 1044388 #Rathore (Idar branch)
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191907
 	1310.1.1 = {
@@ -10462,7 +10462,7 @@
 191909 = {
 	name = "Ranmal"
 	dynasty = 1044388 #Rathore (Idar branch)
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191908
 	1330.1.1 = {
@@ -10476,7 +10476,7 @@
 191910 = {
 	name = "Punj"
 	dynasty = 1044388 #Rathore (Idar branch)
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191909
 	1350.1.1 = {
@@ -10490,7 +10490,7 @@
 191914 = {
 	name = "Dhanika"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 188176
 	810.1.1 = {
@@ -10504,7 +10504,7 @@
 191915 = {
 	name = "Chachcha"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191914
 	830.1.1 = {
@@ -10518,7 +10518,7 @@
 191916 = {
 	name = "Dambarasimha"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191915
 	850.1.1 = {
@@ -10532,7 +10532,7 @@
 191917 = {
 	name = "Chamunda"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191915
 	852.1.1 = {
@@ -10546,7 +10546,7 @@
 191918 = {
 	name = "Kankadeva"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191917
 	880.1.1 = {
@@ -10560,7 +10560,7 @@
 191919 = {
 	name = "ChaN_D_apa"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191918
 	920.1.1 = {
@@ -10574,7 +10574,7 @@
 191921 = {
 	name = "Limba"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 188239
 	mother = 191925
@@ -10589,7 +10589,7 @@
 191924 = {
 	name = "Vijaya"
 	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 188241
 	1090.1.1 = {
@@ -10604,7 +10604,7 @@
 	name = "Sahaja"
 	dynasty = 1042081	#Chauhan of Nadol
 	female = yes
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191705
 	981.1.1 = {
@@ -10618,7 +10618,7 @@
 191928 = {
 	name = "Deo"
 	dynasty = 1044390	#Hada-Chauhan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	1210.1.1 = {
 		birth = yes
@@ -10631,7 +10631,7 @@
 191929 = {
 	name = "Sumar"
 	dynasty = 1044390	#Hada-Chauhan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191928
 	1230.1.1 = {
@@ -10645,7 +10645,7 @@
 191930 = {
 	name = "Narpal"
 	dynasty = 1044390	#Hada-Chauhan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191929
 	1250.1.1 = {
@@ -10659,7 +10659,7 @@
 191931 = {
 	name = "Hamir"
 	dynasty = 1044390	#Hada-Chauhan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191930
 	1270.1.1 = {
@@ -10673,7 +10673,7 @@
 191932 = {
 	name = "Bir_Singh"
 	dynasty = 1044390	#Hada-Chauhan
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191931
 	1290.1.1 = {
@@ -10687,7 +10687,7 @@
 191947 = {
 	name = "Sage"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	860.1.1 = {
 		birth = yes
@@ -10700,7 +10700,7 @@
 191948 = {
 	name = "Meghanada"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191947
 	880.1.1 = {
@@ -10714,7 +10714,7 @@
 191959 = {
 	name = "Simhabala"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191948
 	910.1.1 = {
@@ -10728,7 +10728,7 @@
 191949 = {
 	name = "Cachcha"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191959
 	935.1.1 = {
@@ -10742,7 +10742,7 @@
 191950 = {
 	name = "Yasupusta"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191949
 	951.1.1 = {
@@ -10756,7 +10756,7 @@
 191951 = {
 	name = "Uddha"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191950
 	970.1.1 = {
@@ -10770,7 +10770,7 @@
 191952 = {
 	name = "Kirtasi"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191951
 	1000.1.1 = {
@@ -10784,7 +10784,7 @@
 191953 = {
 	name = "Vairisimha"	#Fictional
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191952
 	1050.1.1 = {
@@ -10798,7 +10798,7 @@
 191954 = {
 	name = "Yasupusta"	#Fictional
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191953
 	1100.1.1 = {
@@ -10812,7 +10812,7 @@
 191955 = {
 	name = "Kaduva"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191954
 	1120.1.1 = {
@@ -10826,7 +10826,7 @@
 191956 = {
 	name = "Padamsimha"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191955
 	1150.1.1 = {
@@ -10840,7 +10840,7 @@
 191957 = {
 	name = "Jayatrasyasimha"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191956
 	1180.1.1 = {
@@ -10854,7 +10854,7 @@
 191958 = {
 	name = "Simhabala"
 	dynasty = 1044391 #Dahiya
-	religion = "srikula_shaktism"
+	religion = "vaishnavism"
 	culture = "hindustani"
 	father = 191957
 	1200.1.1 = {

@@ -141,11 +141,11 @@
 	
 	# Misc
 	culture = gondi
-	religion = svetambara
+	religion = suryaism
 	
 	# History
 	1066.1.1 = {
-		religion = vaishnavism
+		religion = suryaism
 	}
 }
 
@@ -257,11 +257,11 @@
 	
 	# Misc
 	culture = gondi
-	religion = svetambara
+	religion = shrautism
 	
 	# History
 	1066.1.1 = {
-		religion = vaishnavism
+		religion = shrautism
 	}
 }
 
@@ -371,11 +371,11 @@
 	
 	# Misc
 	culture = gondi
-	religion = svetambara
+	religion = shrautism
 	
 	# History
 	1066.1.1 = {
-		religion = vaishnavism
+		religion = shrautism
 	}
 }
 

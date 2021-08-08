@@ -43,11 +43,11 @@
 	
 	# Misc
 	culture = malvi
-	religion = svetambara
+	religion = vaishnavism
 	
 	# History
 	1066.1.1 = {
-		religion = srikula_shaktism
+		religion = vaishnavism
 	}
 
 }
@@ -202,11 +202,11 @@
 	
 	# Misc
 	culture = marathi
-	religion = svetambara
+	religion = vaishnavism
 	
 	# History
 	1066.1.1 = {
-		religion = srikula_shaktism
+		religion = vaishnavism
 	}
 
 }

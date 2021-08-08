@@ -209,7 +209,7 @@
 
 	faiths = {
 		theravada = {
-			color = { 0.8 0.4 0.0 }
+			color = { 255 168 54 }
 			icon = buddhism
 
 			holy_site = kusinagara
@@ -225,7 +225,7 @@
 		}
 
 		mahayana = {
-			color = { 255 191 0 }
+			color = { 255 94 14 }
 			icon = mahayana
 
 			holy_site = kusinagara
@@ -240,7 +240,7 @@
 		}
 
 		vajrayana = {
-			color = { 0.9 0.3 0.0 }
+			color = { 245 118 26 }
 			icon = vajrayana
 
 			holy_site = kusinagara
@@ -330,7 +330,7 @@
 		}
 
 		ari = {
-			color = { 0.9 0.3 0.2 }
+			color = { 253 103 58 }
 			icon = exp_ari_buddhism
 
 			holy_site = kusinagara

@@ -539,7 +539,7 @@
 	
 	# Misc
 	culture = bihari
-	religion = vajrayana
+	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
@@ -552,7 +552,7 @@
 	
 	# Misc
 	culture = bihari
-	religion = vajrayana
+	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
@@ -578,7 +578,7 @@
 	
 	# Misc
 	culture = bihari
-	religion = vajrayana
+	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
