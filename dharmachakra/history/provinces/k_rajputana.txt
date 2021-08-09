@@ -128,7 +128,7 @@
 	
 	# Misc
 	culture = rajput
-	religion = suryaism
+	religion = vaishnavism
 	
 	# History
 
@@ -639,7 +639,7 @@
 	
 	# Misc
 	culture = rajput
-	religion = suryaism
+	religion = vaishnavism
 	
 	# History
 

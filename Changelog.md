@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.3.0 "Saraswati" (Released 26/12/2020)
+## Latest Version: 1.3.0 "Vishnu" (Released 26/12/2020)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -15,6 +15,8 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - All hindu faiths have the doctrine 'teaching of the vedas' that gives reincarnation
 - The Somavamsi Dynasty are shavites
 - Added the faiths of Ganaptism and Kaumaram
+- Shakti faiths no longer have the equal doctrines
+- Hinduism now uses consorts and concubines instead of monogamy
 - Gwailor Fort can now only be built in Gwailor.
 
 ## Manual Installation Steps
