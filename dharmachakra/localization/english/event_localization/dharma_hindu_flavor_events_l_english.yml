@@ -58,6 +58,10 @@
  dharma_hinduism.011.desc.pumsavana_father:0 "My wife's belly grows with my child. I have performed the Pumsavana ritual to encourge a healthy child. I put various charms around her and fed her a paste mixed with yoghurt, milk, and Ghee. At the same time, infront of a fire as various ancient Vedic chants were chanted. Followed by a feast for her and my close family."
  dharma_hinduism.011.mother:0 "May [ROOT.Char.GetFaith.FertilityGodName] Bless our Child"
  dharma_hinduism.011.father:0 "May [ROOT.Char.GetFaith.FertilityGodName] Bless our Child"
+#######################################
+# Hindu Bhakti
+#######################################
+ religious_decision.0101.murugan:0 "Murugan, God of War and Victory, and Commander of the Gods"
 
 
 
