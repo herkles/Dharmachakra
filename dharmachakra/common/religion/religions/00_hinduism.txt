@@ -548,7 +548,7 @@
 		}
 		# Ganaptism faiths
 		ganaptism = {
-			color = { 124 10 2 }
+			color = { 215 40 30 }
 			icon = hinduism_custom_1
 
 			holy_site = varanasi

@@ -3,7 +3,7 @@
 	
 	# Misc
 	culture = sindhi
-	religion = ashari
+	religion = suryaism
 	
 	# History
 
@@ -32,7 +32,7 @@
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = pudgalavada
 	}
 
 }
@@ -57,7 +57,7 @@
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = smartism
 	}
 
 }
@@ -67,7 +67,7 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = vaishnavism
 	
 	# History
 
@@ -78,11 +78,11 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = pudgalavada
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = pudgalavada
 	}
 
 }
@@ -92,11 +92,11 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = suryaism
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = suryaism
 	}
 
 }

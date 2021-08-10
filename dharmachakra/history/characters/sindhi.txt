@@ -38,7 +38,7 @@
 178013 = {
 	name = "Abdurrashid" # Fictional
 	dynasty = 1041113
-	religion = "ashari"
+	religion = "pudgalavada"
 	culture = "sindhi"
 	849.1.1 = {
 		birth = "849.1.1"
@@ -50,7 +50,7 @@
 178014 = {
 	name = "Junah" # Fictional
 	dynasty = 1041114
-	religion = "ashari"
+	religion = "suryaism"
 	culture = "sindhi"
 	831.1.1 = {
 		birth = "831.1.1"
@@ -506,7 +506,7 @@
 188561 = {
 	name = "Banhbina" # fictional
 	dynasty = 1041114
-	religion = "smartism"
+	religion = "suryaism"
 	culture = "sindhi"
 	740.1.1 = {
 		birth = yes
@@ -519,7 +519,7 @@
 188562 = {
 	name = "Doda" # fictional
 	dynasty = 1041113
-	religion = "mahayana"
+	religion = "pudgalavada"
 	culture = "sindhi"
 	732.1.1 = {
 		birth = yes

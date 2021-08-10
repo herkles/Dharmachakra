@@ -81,6 +81,13 @@
  mahayana_adherent_plural:0 "Mahayanans"
  mahayana_desc:0 "Release from Samsara is not merely something done individually, but an experience that is shared among sentient beings. Achieving buddhahood is one step on the long path for all sentient beings to be released into Nirvana, and that is the virtuous goal of Samsara."
 
+ #Pudgalavada
+ pudgalavada:0 "Pudgalavada"
+ pudgalavada_adj:0 "Pudgalavada"
+ pudgalavada_adherent:0 "Pudgalavadan"
+ pudgalavada_adherent_plural:0 "Pudgalavadans"
+ pudgalavada_desc:0 "While there is no atman, there is a pudgala(person), which is neither a conditioned dharma nor an unconditioned dharma. The path to enlightenment involves understanding this pudagala through personal experience, reflection and reasoning. "
+
  #Vajrayana
  vajrayana:0 "Vajrayana"
  vajrayana_adj:0 "Vajrayana"
