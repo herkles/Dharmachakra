@@ -6,7 +6,6 @@
 	religion = suryaism
 	
 	# History
-
 }
 
 # 1138 - Bhakkar
@@ -53,13 +52,12 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = shaivism
 	
 	# History
 	800.1.1 = {
-		religion = smartism
+		religion = shaivism
 	}
-
 }
 
 # 1331 - Sonda
@@ -67,7 +65,7 @@
 	
 	# Misc
 	culture = sindhi
-	religion = vaishnavism
+	religion = shaivism
 	
 	# History
 
@@ -106,7 +104,7 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = shaivism
 	
 	# History
 	800.1.1 = {

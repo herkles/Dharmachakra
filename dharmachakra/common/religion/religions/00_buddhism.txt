@@ -220,7 +220,7 @@
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_monasticism
-			doctrine = tenet_literalism
+			doctrine = tenet_dhammavicaya
 			doctrine = doctrine_polygamy
 		}
 
@@ -257,7 +257,7 @@
 			doctrine = doctrine_witchcraft_accepted
 
 			doctrine = tenet_dharmic_pacifism
-			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_monasticism
 			doctrine = tenet_esotericism
 
 			localization = {
@@ -496,7 +496,7 @@
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_monasticism
-			doctrine = tenet_literalism	
+			doctrine = tenet_dhammavicaya	
 		}
 	}
 }
