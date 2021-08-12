@@ -6,13 +6,18 @@ elephant_story_riding_modifier = {
 }
 
 ##########################################
-# Tibetan Deities - Bon
+# Hindu Deities 
 ##########################################
-bhakti_hindu_murugan = {# Murugan God of War
+bhakti_hinduism_murugan = {# Murugan God of War
 	icon = martial_positive
 	martial = medium_skill_bonus
-	tolerance_advantage_mod = 4
 	prowess = 4
+}
+bhakti_hinduism_varuna = {# Varuna God of War
+	icon = martial_positive
+	stewardship = 2
+	tolerance_advantage_mod = 2
+	naval_movement_speed_mult = 0.05
 }
 ##########################################
 # Tibetan Deities - Bon

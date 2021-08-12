@@ -149,6 +149,7 @@
  tenet_dharmic_pacifism_desc:0 "We are all a part of the cosmic order. Violence against anything is violence against everything, oneself included."
 
  tenet_bhakti_name:0 "Bhakti"
+ tenet_bhakti_patron_god_name:0 "Patron Gods"
  tenet_bhakti_desc:0 "Mortals cannot live up to the full glory of the divine, but by selecting a single aspect of divinity to emulate, worship, and devote oneself to, we can come closer to them than would otherwise be possible."
  doctrine_parameter_select_personal_god_active:1 "Rulers can [decide|E] to pick a personal avatar to venerate, gaining a related bonus"
 
@@ -294,6 +295,20 @@
  doctrine_parameter_naked_adherents_active:0 "Adherents do not wear clothes"
  doctrine_parameter_natural_primitivism_law_cost_increase:0 "Law Costs: #N +50%#!"
  
+ tenet_gruesome_festivals_blot_name:0 "Blót"
+ tenet_gruesome_festivals_name:0 "Gruesome Festivals"
+ tenet_gruesome_festivals_desc:0 "We are all born in blood. We survive by the blood of our livestock, our family, our foes. It is only natural that [ROOT.Faith.PantheonTerm] demand their fair share."
+ gruesome_festivals_active_name:0 "ability to conduct grand sacrifices"
+ doctrine_parameter_gruesome_festivals_active:0 "Able to hold grand sacrifices around once a decade for same-[faith|E] subject and [county_opinion|E]"
+
+
+####### NEW TENETS #######
  tenet_dhammavicaya_name:0 "Dhamma Vicaya"
- tenet_dhammavicaya_desc:0 "This concept implies applying discernment to body-mind phenomena in order to apply right effort, giving way to entry into the first jhana. Through analysis, debate, and meditation we can better understand the "
+ tenet_dhammavicaya_desc:0 "This concept implies applying discernment to body-mind phenomena in order to apply right effort, giving way to entry into the first jhana. Through analysis, debate, and meditation we can better understand the path to enlightenment."
  doctrine_parameter_literalist_debate_enabled:0 "May debate other lords of the realm at the cost of [opinion|E], to gain or lose [piety|E]"
+
+ tenet_mahabali_name:0 "Mahabali"
+ tenet_mahabali_desc:0 "For Scripture declares that the killing of sacrificial animals makes them to go up to the heavenly world, and therefore is not of the nature of harm. This is declared in the text, 'The animal killed at the sacrifice having assumed a divine body goes to the heavenly world'; 'with a golden body it ascends to the heavenly world.' Let us celebrate and honor the Gods and give them offerings."
+ hindu_animal_sacrifices_active_name:0 "ability to conduct grand Animal sacrifices"
+ doctrine_parameter_hindu_animal_sacrifices_active:0 "Able to hold grand animal sacrifices around once a decade for same-[faith|E] subject and [county_opinion|E]"
+

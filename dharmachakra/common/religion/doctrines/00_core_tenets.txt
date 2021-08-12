@@ -1435,6 +1435,47 @@
 		}
 	}
 
+	tenet_mahabali = {
+		icon = core_tenet_festivities
+
+		is_shown = {
+			religion_tag = hinduism_religion
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					OR = {
+						religion_tag = hinduism_religion
+						religion_tag = zoroastrianism_religion
+						has_doctrine = pagan_hostility_doctrine
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_ritual_celebrations }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		parameters = {
+			piety_from_feasts_active = yes
+			mandatory_feast_attendance = yes
+			hindu_animal_sacrifices_active = yes
+		}
+
+		character_modifier = {
+			vassal_opinion = 5
+			courtier_opinion = 5
+		}
+	}
+
 	############################
 	# Pagan Faith Tenets  		#
 	############################
@@ -1919,6 +1960,87 @@
 		character_modifier = {
 			ai_war_chance = 0.5
 			ai_war_cooldown = -0.25
+		}
+	}
+
+	tenet_gruesome_festivals = {
+		name = {
+			first_valid = {
+				triggered_desc = {
+					trigger = { religion_tag = germanic_religion }
+					desc = tenet_gruesome_festivals_blot_name
+				}
+				desc = tenet_gruesome_festivals_name
+			}
+		}
+
+		icon = core_tenet_blood_bowl
+
+		piety_cost = {
+			# If you've already got human sacrifice, this is a nice and easy jump.
+			if = {
+				limit = { has_doctrine = tenet_human_sacrifice }
+				value = faith_tenet_cost_low
+			}
+			# Otherwise, follow the same pricing tiers as tenet_human_sacrifice.
+			else_if = {
+				limit = {
+					has_doctrine = pagan_hostility_doctrine
+				}
+				value = faith_tenet_cost_mid
+			}
+			else_if = {
+				limit = {
+					religion_tag = hinduism_religion
+				}
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_massive
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_gruesome_festivals }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			# No HumSac for Abrahamics: 'tis literally the religion-namer.
+			NOR = {
+				religion_tag = christianity_religion
+				religion_tag = judaism_religion
+				religion_tag = islam_religion
+			}
+			# And DLC required.
+			has_fp1_dlc_trigger = yes
+		}
+
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_pacifism_trigger
+				NOT = {
+					flag:tenet_pacifism = { is_in_list = selected_doctrines }
+				}
+			}
+			custom_description = {
+				text = incompatible_tenet_dharmic_pacifism_trigger
+				NOT = {
+					flag:tenet_dharmic_pacifism = { is_in_list = selected_doctrines }
+				}
+			}
+			custom_description = {
+				text = incompatible_tenet_human_sacrifice_trigger
+				NOT = {
+					flag:tenet_human_sacrifice = { is_in_list = selected_doctrines }
+				}
+			}
+		}
+
+		parameters = {
+			human_sacrifice_active = yes
+			gruesome_festivals_active = yes
 		}
 	}
 

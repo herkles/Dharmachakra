@@ -526,7 +526,7 @@
 			holy_site = dwarka
 
 			doctrine = tenet_bhakti
-			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_mahabali
 			doctrine = tenet_esotericism
 
 			doctrine = sampradaya_shaktism_doctrine
@@ -684,7 +684,7 @@
 
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_esotericism
-			doctrine = tenet_legalism
+			doctrine = tenet_mahabali
 
 			doctrine = sampradaya_shrautism_doctrine
 

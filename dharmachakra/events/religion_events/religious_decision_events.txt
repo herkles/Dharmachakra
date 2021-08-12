@@ -743,7 +743,25 @@ religious_decision.0101 = {# Hindu Bhakti
 			NOT = { has_character_modifier = bhakti_smartism_shiva }
 		}
 		set_bhakti_effect = { BHAKTI = bhakti_smartism_shiva }
+	}
+	# Regional Gods
+	option = {# Murugan - Tamil Deity
+		name = religious_decision.0101.murugan
+		trigger = {
+			faith = faith:smartism
+			NOT = { has_character_modifier = bhakti_hinduism_murugan }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_murugan }
+	}
+	option = {# Varuna - Sindhi Deity
+		name = religious_decision.0101.varuna
+		trigger = {
+			faith = faith:smartism
+			NOT = { has_character_modifier = bhakti_hinduism_varuna }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_varuna }
 	}		
+	
 	# Opt-Out
 	option = {# Exit decision
 		name = religious_decision.0101.optout
