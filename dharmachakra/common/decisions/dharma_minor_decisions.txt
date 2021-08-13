@@ -53,6 +53,7 @@ pet_elephant_decision = {# Pet Elephant decision
 		}
 	}
 }
+
 #######################################
 # Select Personal diety
 #######################################
