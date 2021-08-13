@@ -29,6 +29,9 @@
 	doctrine = doctrine_clerical_marriage_disallowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 	
+	#Special Doctrines
+	doctrine = special_doctrine_is_buddhist_faith
+
 	traits = {
 		virtues = {
 			generous
@@ -219,8 +222,9 @@
 			holy_site = dagon
 
 			doctrine = tenet_dharmic_pacifism
-			doctrine = tenet_monasticism
+			doctrine = tenet_adaptive
 			doctrine = tenet_dhammavicaya
+
 			doctrine = doctrine_polygamy
 		}
 
@@ -235,7 +239,7 @@
 			holy_site = amaravati
 
 			doctrine = tenet_dharmic_pacifism
-			doctrine = tenet_monasticism
+			doctrine = tenet_adaptive
 			doctrine = tenet_mendicant_preachers	
 		}
 
@@ -257,7 +261,7 @@
 			doctrine = doctrine_witchcraft_accepted
 
 			doctrine = tenet_dharmic_pacifism
-			doctrine = tenet_monasticism
+			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_esotericism
 
 			localization = {
@@ -351,17 +355,17 @@
 
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_esotericism
-			doctrine = tenet_monasticism
+			doctrine = tenet_astrology
 		}
 		
 		lamaism = { # Nangchos aka Tibetan Buddhism - syncretic of Mahayana, Vajrayana and native Tibetan elements
 			color = { 0.9 0.2 0.0 }
 			icon = lamaism_buddhism
 			
-			holy_site = kusinagara
-			holy_site = bodh_gaya
 			holy_site = lhasa
 			holy_site = sagya
+			holy_site = kusinagara
+			holy_site = bodh_gaya
 			holy_site = purang
 			
 			#TODO - Implement and update to these
@@ -378,10 +382,9 @@
 			doctrine = doctrine_deviancy_accepted
 			doctrine = doctrine_witchcraft_accepted
 			doctrine = tibetan_sky_burials
-			doctrine = cultural_religion
 
 			doctrine = tenet_dharmic_pacifism
-			doctrine = tenet_monasticism
+			doctrine = tenet_communal_identity
 			doctrine = tenet_esotericism
 
 			localization = {
@@ -495,7 +498,7 @@
 			holy_site = amaravati
 
 			doctrine = tenet_dharmic_pacifism
-			doctrine = tenet_monasticism
+			doctrine = tenet_religious_legal_pronouncements
 			doctrine = tenet_dhammavicaya	
 		}
 	}

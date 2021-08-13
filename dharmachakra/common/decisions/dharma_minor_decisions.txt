@@ -167,9 +167,9 @@ select_personal_nat_decision = {# Burmese Gods and Goddesses
 # Hindu Decisions
 #######################################
 hold_vedic_sacrifice_decision = {# Hold a Grand Festival
-	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds"
-	desc = buddhist_retreat_decision_desc
-	selection_tooltip = buddhist_retreat_decision_tooltip
+	picture = "gfx/interface/illustrations/decisions/decision_vedic_sacrifice.dds"
+	desc = hold_vedic_sacrifice_decision_desc
+	selection_tooltip = hold_vedic_sacrifices_decision_tt
 
 	is_shown = {
 		faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
@@ -178,7 +178,7 @@ hold_vedic_sacrifice_decision = {# Hold a Grand Festival
 	}
 
 	is_valid = {
-		NOT = {has_doctrine = tenet_dharmic_pacifism}
+		NOT = { has_doctrine = tenet_dharmic_pacifism }
 		# Must have at least some peasants who are into the idea.
 		any_sub_realm_county = {
 				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
@@ -200,6 +200,7 @@ hold_vedic_sacrifice_decision = {# Hold a Grand Festival
 			}
 	}
 
+	cost = { gold = standard_activity_cost }
 
 	is_valid_showing_failures_only = {
 		is_available_adult = yes
@@ -208,14 +209,8 @@ hold_vedic_sacrifice_decision = {# Hold a Grand Festival
 	effect = {
 		custom_tooltip = hold_vedic_sacrifices_decision_tt
 		save_scope_as = blotter
-		# Path A: you're one of the faithful yourself.
-		if = {
-			limit = {
-				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
-			}
-			custom_tooltip = hold_vedic_sacrifices_decision_tt.piety_gain
-			trigger_event = dharma_hinduism.200
-		}
+		custom_tooltip = hold_vedic_sacrifices_decision_tt.piety_gain
+		trigger_event = dharma_hinduism.200
 	}
 
 	ai_check_interval = 60

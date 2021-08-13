@@ -751,6 +751,18 @@
 	############################
 
 	tenet_adaptive = {
+		name = {
+			first_valid = {
+				triggered_desc = {
+					trigger = {
+						religion_tag = jainism_religion
+					}
+					desc = tenet_adaptive_jain_name
+				}
+				desc = tenet_adaptive_name
+			}
+		}
+
 		icon = core_tenet_cabal
 		piety_cost = {
 			if = {
@@ -1220,8 +1232,6 @@
 			}
 		}
 
-		
-
 		parameters = {
 			meditation_mechanics_active = yes
 		}
@@ -1282,6 +1292,7 @@
 
 		parameters = {
 			reincarnation_resistance_to_conversion = yes
+			reincarnation_events_active = yes
 			holy_wars_forbidden = yes
 			pacifist_opinion_active = yes
 			opinion_of_pacifist_opinion_active = 10

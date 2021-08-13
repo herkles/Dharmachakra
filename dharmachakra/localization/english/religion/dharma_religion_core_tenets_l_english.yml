@@ -137,6 +137,7 @@
 
  #Eastern Tenets
  tenet_adaptive_name:0 "Adaptive"
+ tenet_adaptive_jain_name:0 "Anekantavada"
  tenet_adaptive_desc:0 "Dogmatic adherence to old restrictions only harms the faithful. As long as we stay true to the core beliefs of our faith, we may adapt our laws to the world around us."
  doctrine_parameter_tenet_adaptive_conversion_resistance:0 "County Conversion Resistance: #P +30%#!"
  doctrine_parameter_reduced_vassal_religion_discontent:1 "Infidel [vassals|E] are less likely to join Independence and Populist [factions|E]"

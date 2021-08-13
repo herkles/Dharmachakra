@@ -765,6 +765,12 @@
  special_doctrine_is_hinduism_faith_name:0 "Teachings of the Vedas"
  special_doctrine_is_hinduism_faith_desc:0 "The sacred Vedas are respected throughout the various Sampradayas, their teachings provide wisdom for many to learn from."
 
+ special_doctrine_is_jainism_faith_name:0 "Teachings of Mahavira"
+ special_doctrine_is_jainism_faith_desc:0 "The teachings of the 24th Tirthankara Mahavira who taught the ancient Jain faith. He helped to recreate the Jain Sangha and following his teachings will lead us to moksha."
+
+ special_doctrine_is_buddhist_faith_name:0 "Teachings of Gautama Buddha"
+ special_doctrine_is_buddhist_faith_desc:0 "While many branches have come about since he achieved enlightenment, it is through his teachings that the path to englightenment is found."
+
  special_doctrine_is_jewish_faith_name:0 "Teachings of Moses"
  special_doctrine_is_jewish_faith_desc:0 "Not all among the gentility dwell in sin. There are those who respect God's chosen people, and these deserve a measure of our respect in turn."
  doctrine_parameter_hostility_override_tenet_jewish_syncretism:1 "Non-Jewish [faiths|E] with the $tenet_jewish_syncretism_name$ tenet are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of #V Evil#!"

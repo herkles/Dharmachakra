@@ -77,7 +77,6 @@
  dharma_hinduism.200.prep_start.tt:0 "Preparations for the [blotter.Custom('GruesomeFestivalName')] begin..."
  dharma_hinduism.200.prep_continue.tt:0 "Preparations for the [blotter.Custom('GruesomeFestivalName')] continue..."
 
-
  dharma_hinduism.201.t:0 "$dharma_hinduism.0001.t$"
  dharma_hinduism.201.desc.intro:0 "A [blotter.Custom('GruesomeFestivalName')] can be both a grand and a small affair. By tradition, this festival also includes animal sacrifices. 
  dharma_hinduism.201.desc.vassals_dislike_humsac:0 "there are those amongst my vassals who find the notion barbaric,"

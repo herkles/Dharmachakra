@@ -144,6 +144,38 @@ is_hinduism_faith = {
 	}
 }
 
+#Teaching of Mahavira
+is_jainism_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_jainism_faith
+	}
+
+	special_doctrine_is_jainism_faith = {
+		parameters = {
+			take_vows_active = yes
+			reincarnation_events_active = yes
+		}
+	}
+}
+
+#Teaching of Gautama Buddha
+is_buddhist_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_buddhist_faith
+	}
+
+	special_doctrine_is_buddhist_faith = {
+		parameters = {
+			take_vows_active = yes
+			reincarnation_events_active = yes
+		}
+	}
+}
+
 # Tibetan Sky Burials
 doctrine_sky_burials = {
 	group = "special"
