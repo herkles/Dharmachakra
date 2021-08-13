@@ -1,4 +1,7 @@
-﻿pet_elephant_decision = {# Pet Elephant decision
+﻿#######################################
+# General Decisions
+#######################################
+pet_elephant_decision = {# Pet Elephant decision
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
 
 	desc = elephant_dog_decision_desc
@@ -50,46 +53,9 @@
 		}
 	}
 }
-
-buddhist_retreat_decision = {# Go on a Buddhist Retreat
-	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds"
-
-	desc = buddhist_retreat_decision_desc
-	selection_tooltip = buddhist_retreat_decision_tooltip
-
-	is_shown = {
-		religion = religion:buddhism_religion
-		holds_landed_title = yes
-		NOT = { has_character_modifier = busy_doing_activities }
-	}
-
-	is_valid = {
-
-	}
-
-	is_valid_showing_failures_only = {
-		is_available_adult = yes
-	}
-
-	effect = {
-		custom_tooltip = buddhist_retreat_tooltip
-		trigger_event = dharma_buddhism.100
-	}
-
-	ai_check_interval = 60
-	cooldown = { months = 36 }	
-
-	
-	ai_potential = {
-		is_at_war = no
-		stress >= 75
-	}
-
-	ai_will_do = {
-		base = 100
-	}
-}
-
+#######################################
+# Select Personal diety
+#######################################
 select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 	picture = "gfx/interface/illustrations/decisions/tibetan_deities.dds"
 
@@ -143,7 +109,6 @@ select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 		base = 100
 	}
 }
-
 select_personal_nat_decision = {# Burmese Gods and Goddesses
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 
@@ -198,7 +163,178 @@ select_personal_nat_decision = {# Burmese Gods and Goddesses
 		base = 100
 	}
 }
+#######################################
+# Hindu Decisions
+#######################################
+hold_vedic_sacrifice_decision = {# Hold a Grand Festival
+	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds"
+	desc = buddhist_retreat_decision_desc
+	selection_tooltip = buddhist_retreat_decision_tooltip
 
+	is_shown = {
+		faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+		holds_landed_title = yes
+		NOT = { has_character_modifier = busy_doing_activities }
+	}
+
+	is_valid = {
+		NOT = {has_doctrine = tenet_dharmic_pacifism}
+		# Must have at least some peasants who are into the idea.
+		any_sub_realm_county = {
+				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			}	
+			# Suitable rank required.
+			trigger_if = {
+				limit = {
+					faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+				}
+				OR = {
+					is_independent_ruler = yes
+					highest_held_title_tier >= tier_kingdom
+				}
+			}
+			trigger_else = {
+				highest_held_title_tier >= tier_duchy
+				# Technically, we could make this just mega-stressful, but since you'd have no easy way out, that feels like a newb trap.
+				NOT = { has_trait = zealous }
+			}
+	}
+
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = hold_vedic_sacrifices_decision_tt
+		save_scope_as = blotter
+		# Path A: you're one of the faithful yourself.
+		if = {
+			limit = {
+				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			}
+			custom_tooltip = hold_vedic_sacrifices_decision_tt.piety_gain
+			trigger_event = dharma_hinduism.200
+		}
+	}
+
+	ai_check_interval = 60
+	cooldown = { years = 10 }	
+	
+	ai_potential = {
+		# Has enough gold for the smallest variant.
+		short_term_gold >= medium_gold_value
+		# Is either of a practicing faith, or has a huge percentage of such followers.
+		OR = {
+			faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			any_sub_realm_county = {
+				percent >= 0.35
+				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			}
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+		
+		# Different Faith Block
+		## If not of the faith, you don't want to do it at all outside of extenuating circumstances.
+		modifier = {
+			add = -100
+			NOT = {
+				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			}
+		}
+		## No need to account for zealots, as they cannae take the decision.
+		## Cynical.
+		modifier = {
+			add = 10
+			NOT = {
+				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			}
+			has_trait = cynical
+		}
+		## Otherwise, we only want to do it if basically the whole realm is of some kind of gf-practicing faith.
+		modifier = {
+			add = 25
+			NOT = {
+				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			}
+			any_sub_realm_county = {
+				percent >= 0.75
+				faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			}
+		}
+		# Same Faith Block
+		# Zealous.
+		modifier = {
+			add = 100
+			faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			has_trait = zealous
+		}
+		# Cynical.
+		modifier = {
+			add = -25
+			faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			has_trait = cynical
+		}
+		# You're richer.
+		modifier = {
+			add = 50
+			faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			short_term_gold >= massive_gold_value
+		}
+		modifier = {
+			add = 50
+			faith = { has_doctrine_parameter = hindu_animal_sacrifices_active }
+			short_term_gold >= monumental_gold_value
+		}
+	}
+}
+#######################################
+# Buddhist Decisions
+#######################################
+buddhist_retreat_decision = {# Go on a Buddhist Retreat
+	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds"
+
+	desc = buddhist_retreat_decision_desc
+	selection_tooltip = buddhist_retreat_decision_tooltip
+
+	is_shown = {
+		religion = religion:buddhism_religion
+		holds_landed_title = yes
+		NOT = { has_character_modifier = busy_doing_activities }
+	}
+
+	is_valid = {
+
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = buddhist_retreat_tooltip
+		trigger_event = dharma_buddhism.100
+	}
+
+	ai_check_interval = 60
+	cooldown = { months = 36 }	
+
+	
+	ai_potential = {
+		is_at_war = no
+		stress >= 75
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#######################################
+# Jain Decisions
+#######################################
 initiate_consolamentum_decision = {# Commite Selkhana decision
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 

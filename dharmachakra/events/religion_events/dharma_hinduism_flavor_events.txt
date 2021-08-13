@@ -262,6 +262,1918 @@ dharma_hinduism.010 = {# Studying the Vedas at the Temple
 		}
 	}
 }
+#######################################
+# Animal Sacrifices
+#######################################
+scripted_effect gruesome_sacrifices_clean_up_standard_variables_&_flags_effect = {# Clean up left-over variables due to completion or invalidation.
+	remove_character_flag = gruesome_festivals_can_pick_human_sacrifice
+	remove_variable = piety_gain_standard_animal
+	remove_variable = piety_gain_magnificent_animal
+	remove_variable = vedicsac_faith
+	remove_variable = vedicsac_faith
+}
+scripted_effect gruesome_sacrifices_clean_up_declining_guests_effect = {# Clean up declining guest list: we track this separately, since we don't always want to fire it at the same time.
+	#Shouldn't ever need to be more complicated than this, but might be.
+	clear_variable_list = gf_guests_rejecting_invite_list
+}
+scripted_effect gruesome_sacrifices_chain_invalidated_standard_effect = {# On fail, we send an invalidation toast about the cancellation & recoup most of the spent gold.
+	send_interface_toast = {
+		title = dharma_hinduism.201.blot_invalidation.tt
+		left_icon = scope:blotter
+		custom_tooltip = dharma_hinduism.201.blot_invalidation.costs_recouped.tt
+		hidden_effect = {
+			# Regain *most* of any gold spent.
+			add_gold = gruesome_festival_gold_recoup_value
+			# Regain all prestige.
+			add_prestige_no_experience = gruesome_festival_prestige_cost_value
+			# Clear the cooldown.
+			remove_decision_cooldown = hold_gruesome_festival_decision
+			# Clear up misc leftover stuff.
+			gruesome_sacrifices_clean_up_standard_variables_&_flags_effect = yes
+			gruesome_sacrifices_clean_up_declining_guests_effect = yes
+		}
+	}
+}
+
+dharma_hinduism.200 = {# How big should my blot be/should I even have one?
+
+	type = character_event
+	title = dharma_hinduism.200.t
+	desc = dharma_hinduism.200.desc
+	theme = party
+	left_portrait = {
+		character = scope:blotter
+		animation = personality_bold
+	}
+	override_background = { event_background = study }
+
+	trigger = {
+		# Generic can-continue check.
+		gruesome_sacrifices_grand_blot_can_continue_trigger = yes
+	}
+
+	on_trigger_fail = {
+		# Standard invalidation flow.
+		gruesome_sacrifices_chain_invalidated_standard_effect = yes
+	}
+
+	immediate = {
+		# First off, which faith's sacrifice is this?
+		## If this is a political sacrifice, use the previously-designated political faith.
+		if = {
+			limit = { exists = scope:chosen_faith }
+			scope:chosen_faith = { save_scope_as = gf_faith }
+		}
+		## Otherwise, this is a fervent one, and we just use root's.
+		else = {
+			faith = { save_scope_as = gf_faith }
+		}
+		# Next, we want to pick the minimum-cost option's location.
+		## Grab the capital if they'd be a good fit, or otherwise try to pick somewhere that will be.
+		if = {
+			limit = { capital_county.faith = scope:gf_faith }
+			capital_county = { save_scope_as = capital_county }
+
+		}
+		else_if = {
+			limit = {
+				any_held_title = {
+					tier = tier_county
+					faith = scope:gf_faith
+				}
+			}
+			# Grab the personally-held title of the appropriate faith with the highest levy county.
+			ordered_held_title = {
+				limit = {
+					tier = tier_county
+					faith = scope:gf_faith
+				}
+				order_by = total_county_levies
+				save_scope_as = fallback_location
+			}
+		}
+	}
+
+	# Just a small faithful flock & my court.
+	option = {
+		name = {
+			trigger = { exists = scope:capital_county }
+			text = dharma_hinduism.200.a.capital
+		}
+		name = {
+			trigger = { exists = scope:fallback_location }
+			text = dharma_hinduism.200.a.other
+		}
+		# Gotta have either your capital or a decent fallback.
+		trigger = {
+			OR = {
+				exists = scope:capital_county
+				exists = scope:fallback_location
+			}
+		}
+
+		# Remove gold cost for hosting.
+		remove_short_term_gold = medium_gold_value
+		## Record how much was removed too, just so we know how much to refund in the event of invalidation.
+		set_variable = {
+			name = gf_refund_pot
+			value = medium_gold_value
+		}
+		save_scope_value_as = {
+			name = blot_scale
+			value = flag:small
+		}
+		# Trigger the follow-up in a few months.
+		trigger_event = {
+			id = dharma_hinduism.201
+			months = 3
+		}
+		## And inform the player that they're prepping things...
+		if = {
+			limit = {
+				NOT = { exists = scope:chosen_faith }
+			}
+			custom_tooltip = dharma_hinduism.200.prep_start.tt
+		}
+		else = { custom_tooltip = dharma_hinduism.200.prep_continue.tt }
+
+		stress_impact = {
+			generous = major_stress_impact_gain
+			gregarious = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_greed = 0.5
+				ai_sociability = -0.5
+			}
+			modifier = {	#Weight up for stress.
+				add = 10
+				has_trait = greedy
+			}
+			modifier = {	#Weight up for stress.
+				add = 10
+				has_trait = shy
+			}
+			modifier = {	#Weight down for stress.
+				add = -30
+				has_trait = generous
+			}
+			modifier = {	#Weight down for stress.
+				add = -30
+				has_trait = gregarious
+			}
+		}
+	}
+	
+	# My whole domain.
+	option = {
+		name = dharma_hinduism.200.b
+		# Must have other domain to invite.
+		trigger = {
+			any_held_title = {
+				count >= 2
+				tier = tier_county
+				#faith = scope:gf_faith
+			}
+		}
+
+		# Remove gold cost for hosting.
+		remove_short_term_gold = major_gold_value
+		## Record how much was removed too, just so we know how much to refund in the event of invalidation.
+		set_variable = {
+			name = gf_refund_pot
+			value = major_gold_value
+		}
+		save_scope_value_as = {
+			name = blot_scale
+			value = flag:medium
+		}
+		# Trigger the follow-up in a few months.
+		trigger_event = {
+			id = dharma_hinduism.201
+			months = 3
+		}
+		## And inform the player that they're prepping things...
+		if = {
+			limit = {
+				NOT = { exists = scope:chosen_faith }
+			}
+			custom_tooltip = dharma_hinduism.200.prep_start.tt
+		}
+		else = { custom_tooltip = dharma_hinduism.200.prep_continue.tt }
+
+		stress_impact = {
+			generous = medium_stress_impact_gain
+			gregarious = medium_stress_impact_gain
+			greedy = medium_stress_impact_gain
+			shy = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 0.25
+				ai_greed = -0.25
+			}
+			modifier = {	#Weight down for stress.
+				add = -10
+				has_trait = generous
+			}
+			modifier = {	#Weight down for stress.
+				add = -10
+				has_trait = gregarious
+			}
+			modifier = {	#Weight down for stress.
+				add = -10
+				has_trait = greedy
+			}
+			modifier = {	#Weight down for stress.
+				add = -10
+				has_trait = shy
+			}
+		}
+	}
+	
+	# My entire sub-realm.
+	option = {
+		name = dharma_hinduism.200.c
+		# Must have vassals to invite.
+		trigger = {
+			any_vassal_or_below = { highest_held_title_tier >= tier_county }
+		}
+
+		# Remove gold cost for hosting.
+		remove_short_term_gold = massive_gold_value
+		## Record how much was removed too, just so we know how much to refund in the event of invalidation.
+		set_variable = {
+			name = gf_refund_pot
+			value = massive_gold_value
+		}
+		save_scope_value_as = {
+			name = blot_scale
+			value = flag:large
+		}
+		# Trigger the follow-up in a few months.
+		trigger_event = {
+			id = dharma_hinduism.201
+			months = 3
+		}
+		## And inform the player that they're prepping things...
+		if = {
+			limit = {
+				NOT = { exists = scope:chosen_faith }
+			}
+			custom_tooltip = dharma_hinduism.200.prep_start.tt
+		}
+		else = { custom_tooltip = dharma_hinduism.200.prep_continue.tt }
+
+		stress_impact = {
+			greedy = major_stress_impact_gain
+			shy = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 0.5
+				ai_greed = -0.5
+			}
+			modifier = {	#Weight up for stress.
+				add = 10
+				has_trait = generous
+			}
+			modifier = {	#Weight up for stress.
+				add = 10
+				has_trait = gregarious
+			}
+			modifier = {	#Weight down for stress.
+				add = -30
+				has_trait = greedy
+			}
+			modifier = {	#Weight down for stress.
+				add = -30
+				has_trait = shy
+			}
+		}
+	}
+
+	# ... Actually, y'know what? Just no.
+	option = {
+		name = dharma_hinduism.200.d
+		# Mustn't have already forgone an earlier opt-out.
+		trigger = {
+			NOT = { exists = scope:chosen_faith }
+		}
+
+		# Clear the cooldown.
+		remove_decision_cooldown = hold_gruesome_festival_decision
+		# Refund costs.
+		hidden_effect = {
+			add_prestige_no_experience = gruesome_festival_prestige_cost_value
+		}
+
+		# No stress for opt-out.
+		ai_chance = {
+			# If the AI has taken the decision, the AI should go through with the decision.
+			base = 0
+		}
+	}
+}
+
+scripted_trigger dislikes_animalsac_trigger = {
+	NOR = {
+		has_doctrine_parameter = flower_war_cb_active
+		has_doctrine_parameter = human_sacrifice_active
+		has_doctrine_parameter = gruesome_festivals_active
+	}
+}
+scripted_trigger animal_sacrifices_grand_blot_in_progress_trigger = {
+	# You need at least one county to invite in some capacity.
+	OR = {
+		# If the blot is small, the selected location shouldn't convert.
+		AND = {
+			scope:blot_scale = flag:small
+			OR = {
+				AND = {
+					exists = scope:fallback_location
+					scope:fallback_location.faith = scope:gf_faith
+				}
+				scope:capital_county.faith = scope:gf_faith
+			}
+		}
+		AND = {
+			OR = {
+				scope:blot_scale = flag:medium
+				scope:blot_scale = flag:large
+			}
+			any_sub_realm_county = {
+				faith = { has_doctrine_parameter = gruesome_festivals_active }
+			}
+		}
+	}
+}
+
+dharma_hinduism.201 = {# How big of a sacrifice
+	type = character_event
+	title = dharma_hinduism.201.t
+	desc = {
+		desc = dharma_hinduism.201.desc.intro
+		first_valid = {
+			# Vassals.
+			triggered_desc = {
+				trigger = {
+					any_vassal_or_below = {
+						highest_held_title_tier >= tier_county
+						faith = { dislikes_humsac_trigger = yes }
+					}
+				}
+				desc = dharma_hinduism.201.desc.vassals_dislike_humsac
+			}
+			# Counties.
+			triggered_desc = {
+				trigger = {
+					any_sub_realm_county = {
+						faith = { dislikes_humsac_trigger = yes }
+					}
+				}
+				desc = dharma_hinduism.201.desc.counties_dislike_humsac
+			}
+			# Courtiers.
+			triggered_desc = {
+				trigger = {
+					any_courtier = {
+						faith = { dislikes_humsac_trigger = yes }
+					}
+				}
+				desc = dharma_hinduism.201.desc.courtiers_dislike_humsac
+			}
+			# No issues!
+			desc = dharma_hinduism.201.desc.fallback
+		}
+		desc = dharma_hinduism.201.desc.outro
+	}
+	theme = party
+	left_portrait = {
+		character = scope:blotter
+		animation = personality_rational
+	}
+	override_background = { event_background = feast }
 
 
+	trigger = {
+		# Generic can-continue check.
+		gruesome_sacrifices_grand_blot_can_continue_trigger = yes
+		# Already-started can-continue check.
+		gruesome_sacrifices_grand_blot_in_progress_trigger = yes
+	}
+
+	on_trigger_fail = {
+		# Standard invalidation flow.
+		gruesome_sacrifices_chain_invalidated_standard_effect = yes
+	}
+
+	immediate = {
+		# Set the standard future piety values up as variables so that we can retrieve them through loc.
+		set_variable = {
+			name = piety_gain_standard_animal
+			value = gruesome_festival_regular_animal_piety_value
+		}
+		set_variable = {
+			name = piety_gain_magnificent_animal
+			value = gruesome_festival_magnificent_animal_piety_value
+		}
+		set_variable = {
+			name = piety_gain_standard_human
+			value = gruesome_festival_regular_human_piety_value
+		}
+		set_variable = {
+			name = piety_gain_magnificent_human
+			value = gruesome_festival_magnificent_human_piety_value
+		}
+	}
+
+	
+	option = {# Animals only: regular.
+		name = dharma_hinduism.201.a
+
+		# No gold cost, this is free.
+		# Scope:gf_faith subjects would prefer fancy animals or humans, but this won't offend the HumSac haters.
+		custom_tooltip = dharma_hinduism.201.animals_only.regular.opinion
+		custom_tooltip = dharma_hinduism.201.animals_only.appeased_humsac_haters
+		# Notice that a bit less piety is earnt than the alternatives.
+		if = {
+			limit = { faith = scope:gf_faith }
+			custom_tooltip = dharma_hinduism.201.animals_only.regular.piety
+		}
+		else = { custom_tooltip = dharma_hinduism.201.animals_only.regular.piety.loss }
+		# Save the choice for reference later.
+		save_scope_value_as = {
+			name = blot_sacrifice
+			value = flag:animals_regular
+		}
+		# Aaaand trigger the next event in a beetroot.
+		trigger_event = {
+			id = dharma_hinduism.202
+			months = 3
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			compassionate = medium_stress_impact_loss
+			callous = minor_stress_impact_gain
+			sadistic = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_greed = -0.25
+				ai_zeal = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = greedy
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = compassionate
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = callous
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = sadistic
+			}
+		}
+	}
+	option = {# Animals only: magnificent.
+		name = dharma_hinduism.201.b
+		trigger = {
+			OR = {
+				is_ai = no
+				short_term_gold >= major_gold_value
+			}
+		}
+
+		# Charge a nice chunk of extra silver.
+		remove_short_term_gold = major_gold_value
+		## Record how much was removed too, just so we know how much to refund in the event of invalidation.
+		change_variable = {
+			name = gf_refund_pot
+			add = major_gold_value
+		}
+		# Scope:gf_faith subjects are happier than regular-HumSac, but would still prefer both fanciness *&* HumSac, whilst HumSac-haters won't care.
+		custom_tooltip = dharma_hinduism.201.animals_only.magnificent.opinion
+		custom_tooltip = dharma_hinduism.201.animals_only.appeased_humsac_haters
+		# Notice that a bit less piety is earnt.
+		if = {
+			limit = { faith = scope:gf_faith }
+			custom_tooltip = dharma_hinduism.201.animals_only.magnificent.piety
+		}
+		else = { custom_tooltip = dharma_hinduism.201.animals_only.magnificent.piety.loss }
+		# Save the choice for reference later.
+		save_scope_value_as = {
+			name = blot_sacrifice
+			value = flag:animals_magnificent
+		}
+		# Aaaand trigger the next event in a beetroot.
+		trigger_event = {
+			id = dharma_hinduism.202
+			months = 3
+		}		
+
+		stress_impact = {
+			compassionate = medium_stress_impact_loss
+			callous = minor_stress_impact_gain
+			sadistic = medium_stress_impact_gain
+			greedy = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_zeal = -0.25
+				ai_greed = -0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = compassionate
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = callous
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = sadistic
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = greedy
+			}
+		}
+	}
+	after = {# Give players & hostile vassals a chance to opt out.
+		# Since we only care about counts and above, this is only relevant at the largest possible blot level.
+		if = {
+			limit = { scope:blot_scale = flag:large }
+			every_vassal_or_below = {
+				limit = {
+					highest_held_title_tier >= tier_county
+					OR = {
+						# Players always get a choice.
+						is_ai = no
+						# Rivals always get a choice.
+						any_relation = {
+							type = rival
+							this = scope:blotter
+						}
+					}
+				}
+				trigger_event = dharma_hinduism.203
+			}
+		}
+	}
+}
+
+scripted_trigger gruesome_festivals_available_impressable_nobles = {
+	highest_held_title_tier >= tier_county
+	# Exempt priests, who have their own option.
+	NOT = { has_government = theocracy_government }
+}
+scripted_trigger gruesome_festivals_available_impressable_clergy = {
+	highest_held_title_tier >= tier_county
+	has_government = theocracy_government
+}
+scripted_effect gruesome_festivals_blotter_opinion_gain_of_guests_effect = {
+	reverse_add_opinion = {
+		modifier = pleased_opinion
+		target = scope:blotter
+		opinion = 30
+	}
+}
+
+dharma_hinduism.202 = {# Let the sacrifice begin!
+	type = character_event
+	title = dharma_hinduism.202.t
+	desc = {
+		# How big is the whole affair?
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:blot_scale = flag:small }
+				desc = dharma_hinduism.202.desc.intro.small
+			}
+			triggered_desc = {
+				trigger = { scope:blot_scale = flag:medium }
+				desc = dharma_hinduism.202.desc.intro.medium
+			}
+			triggered_desc = {
+				trigger = { scope:blot_scale = flag:large }
+				desc = dharma_hinduism.202.desc.intro.large
+			}
+		}
+		# What's on the menu?
+		first_valid = {
+			# Adequate animal sacrifice.
+			triggered_desc = {
+				trigger = { scope:blot_sacrifice = flag:animals_regular }
+				desc = dharma_hinduism.202.desc.animals.regular
+			}
+			# Magnificent animal sacrifice.
+			triggered_desc = {
+				trigger = { scope:blot_sacrifice = flag:animals_magnificent }
+				desc = dharma_hinduism.202.desc.animals.magnificent
+			}
+			# Adequate HumSac, sans chief sacrifice.
+			triggered_desc = {
+				trigger = {
+					scope:blot_sacrifice = flag:humans_regular
+					NOT = { exists = scope:unlucky_guest }
+				}
+				desc = dharma_hinduism.202.desc.humans.regular.sans_chief
+			}
+			# Magnificent HumSac, sans chief sacrifice.
+			triggered_desc = {
+				trigger = {
+					scope:blot_sacrifice = flag:humans_magnificent
+					NOT = { exists = scope:unlucky_guest }
+				}
+				desc = dharma_hinduism.202.desc.humans.magnificent.sans_chief
+			}
+			# Adequate HumSac, plus chief sacrifice.
+			triggered_desc = {
+				trigger = {
+					scope:blot_sacrifice = flag:humans_regular
+					exists = scope:unlucky_guest
+				}
+				desc = dharma_hinduism.202.desc.humans.regular.plus_chief
+			}
+			# Magnificent HumSac, plus chief sacrifice.
+			triggered_desc = {
+				trigger = {
+					scope:blot_sacrifice = flag:humans_magnificent
+					exists = scope:unlucky_guest
+				}
+				desc = dharma_hinduism.202.desc.humans.magnificent.plus_chief
+			}
+		}
+		# How is it getting to the menu?
+		## Named sacrifice is present.
+		triggered_desc = {
+			trigger = { exists = scope:unlucky_guest }
+			desc = {
+				first_valid = {
+					# Norse pagans cannibals hang their sacrifices, *then* eat them.
+					triggered_desc = {
+						trigger = { sacrifice_method_hang_n_fang_trigger = yes }
+						desc = dharma_hinduism.202.desc.sacrifice.named.norse_cannibals
+					}
+					# Cannibals execute them, then eat them them.
+					triggered_desc = {
+						trigger = { sacrifice_method_eat_em_trigger = yes }
+						desc = dharma_hinduism.202.desc.sacrifice.named.cannibals
+					}
+					# Norse pagans hang their sacrifices.
+					triggered_desc = {
+						trigger = { sacrifice_method_hang_em_trigger = yes }
+						desc = dharma_hinduism.202.desc.sacrifice.named.norse
+					}
+					# Fallback: disembowl the sacrifice.
+					desc = dharma_hinduism.202.desc.sacrifice.named.fallback
+				}
+			}
+		}
+		## Humans are present.
+		triggered_desc = {
+			trigger = {
+				NOT = { exists = scope:unlucky_guest }
+				OR = {
+					scope:blot_sacrifice = flag:humans_regular
+					scope:blot_sacrifice = flag:humans_magnificent
+				}
+			}
+			desc = {
+				first_valid = {
+					# Norse pagans cannibals hang their sacrifices, *then* eat them.
+					triggered_desc = {
+						trigger = { sacrifice_method_hang_n_fang_trigger = yes }
+						desc = dharma_hinduism.202.desc.sacrifice.unnamed.norse_cannibals
+					}
+					# Cannibals execute them, then eat them them.
+					triggered_desc = {
+						trigger = { sacrifice_method_eat_em_trigger = yes }
+						desc = dharma_hinduism.202.desc.sacrifice.unnamed.cannibals
+					}
+					# Norse pagans hang their sacrifices.
+					triggered_desc = {
+						trigger = { sacrifice_method_hang_em_trigger = yes }
+						desc = dharma_hinduism.202.desc.sacrifice.unnamed.norse
+					}
+					# Fallback: disembowl the sacrifice.
+					desc = dharma_hinduism.202.desc.sacrifice.unnamed.fallback
+				}
+			}
+		}
+		## Only animal sacrifices.
+		triggered_desc = {
+			trigger = {
+				OR = {
+					scope:blot_sacrifice = flag:animals_regular
+					scope:blot_sacrifice = flag:animals_magnificent
+				}
+			}
+			desc = {
+				first_valid = {
+					# No special Norse-cannibal or cannibal variants for animals, as they're just animals.
+					# Norse pagans hang their sacrifices.
+					triggered_desc = {
+						trigger = { sacrifice_method_hang_em_trigger = yes }
+						desc = dharma_hinduism.202.desc.sacrifice.animal.norse
+					}
+					# Fallback: disembowl the sacrifice.
+					desc = dharma_hinduism.202.desc.sacrifice.animal.fallback
+				}
+			}
+		}
+		# And what's your basic take on affairs?
+		first_valid = {
+			# If you don't share the faith, then this is a political ceremony.
+			triggered_desc = {
+				trigger = {
+					NOT = { faith = scope:gf_faith }
+				}
+				desc = dharma_hinduism.202.desc.outro.political
+			}
+			# Otherwise, you're faithful, and it's not.
+			desc = dharma_hinduism.202.desc.outro.faithful
+		}
+	}
+	theme = party
+	left_portrait = {
+		character = scope:blotter
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:unlucky_guest
+		animation = fear
+	}
+	override_background = { event_background = temple }
+
+	trigger = {
+		# DLC check.
+		gruesome_sacrifices_grand_blot_can_continue_trigger = yes
+		# Already-started can-continue check.
+		gruesome_sacrifices_grand_blot_in_progress_trigger = yes
+	}
+
+	on_trigger_fail = {
+		# Standard invalidation flow.
+		gruesome_sacrifices_chain_invalidated_standard_effect = yes
+		# If you have a prisoner marked for sacrifice, relieve them.
+		every_prisoner = {
+			limit = { has_character_modifier = gruesome_festivals_designated_sacrifice_fp1_modifier }
+			designate_gruesome_festivals_sacrifice_modifier_removed_effect = { DESIGNATOR = scope:blotter }
+		}
+	}
+
+	immediate = {
+		# Get the party (audibly) started.
+		play_music_cue = "mx_cue_banquet"
+		# Is it somebody specific's death day?
+		if = {
+			limit = {
+				# We don't actually need to check these scopes, but it's a convenient early out if your dungeon is huge for some reason.
+				OR = {
+					scope:blot_sacrifice = flag:humans_regular
+					scope:blot_sacrifice = flag:humans_magnificent
+				}
+				any_prisoner = { has_character_modifier = gruesome_festivals_designated_sacrifice_fp1_modifier }
+			}
+			# Ahhh, it is! Nab 'em for the murderising & calculate piety to be gained.
+			random_prisoner = {
+				limit = { has_character_modifier = gruesome_festivals_designated_sacrifice_fp1_modifier }
+				# Once for the portrait.
+				save_scope_as = unlucky_guest
+				# And once for loc.
+				save_scope_as = sacrifice
+				#To give accurate death notifications
+				add_character_flag = {
+					flag = is_currently_being_sacrificed
+					days = 1
+				}
+			}
+		}
+		# If someone is dying but we don't care who, generate a dummy sacrifice.
+		else_if = {
+			limit = {
+				NOT = { exists = scope:unlucky_guest }
+				OR = {
+					scope:blot_sacrifice = flag:humans_regular
+					scope:blot_sacrifice = flag:humans_magnificent
+				}
+			}
+			random_dummy_gender_soldier_effect = { SCOPE_NAME = sacrifice }
+		}
+		## Apply piety change for scope:blotter, provided they're of the faith.
+		### Named HumSac.
+		if = {
+			limit = { exists = scope:unlucky_guest }
+			add_piety = gruesome_festival_key_sacrifice_piety_value
+		}
+		### Ordinary animal sacrifice.
+		else_if = {
+			limit = { scope:blot_sacrifice = flag:animals_regular }
+			add_piety = gruesome_festival_regular_animal_piety_value
+		}
+		### Magnificent animal sacrifice.
+		else_if = {
+			limit = { scope:blot_sacrifice = flag:animals_magnificent }
+			add_piety = gruesome_festival_magnificent_animal_piety_value
+		}
+		### Ordinary unnamed HumSac.
+		else_if = {
+			limit = { scope:blot_sacrifice = flag:humans_regular }
+			add_piety = gruesome_festival_regular_human_piety_value
+		}
+		### Magnificent unnamed HumSac.
+		else_if = {
+			limit = { scope:blot_sacrifice = flag:humans_magnificent }
+			add_piety = gruesome_festival_magnificent_human_piety_value
+		}
+		## Big RIP, scope:unlucky_guest.
+		if = {
+			limit = { exists = scope:unlucky_guest }
+			# Sort opinions and kinslaying.
+			add_kinslayer_trait_or_nothing_effect = { VICTIM = scope:unlucky_guest}
+			execute_opinion_effect = {
+				VICTIM = scope:unlucky_guest
+				EXECUTIONER = scope:blotter
+			}
+			# Are you HumSac'ing the HoF of a faith that doesn't practice HumSac?
+			## We hide this, since it's too late for you to do anything about now and it's more fun/terrifying to find out about it *after* the sacrifice.
+			hidden_effect = {
+				humsacd_a_hof_effect = {
+					SACRIFICER = scope:blotter
+					SACRIFICED_HOF = scope:unlucky_guest
+				}
+			}
+			## And are you actually humsac'ing your *OWN* HoF?
+			if = {
+				limit = { scope:blotter.faith.religious_head = scope:unlucky_guest }
+				# Inform players that they're an abysmal, abysmal faith adherent.
+				every_player = {
+					limit = {
+						NOT = { this = scope:blotter }
+						faith = scope:unlucky_guest.faith
+					}
+					trigger_event = dharma_hinduism.0023
+				}
+				# Update scope:blotter's HumSac'd HoFs kill tally manually, since we're not going through the usual effect.
+				add_to_variable_list = {
+					name = humsacd_hofs
+					target = scope:unlucky_guest.faith
+				}
+				# And tell scope:blotter they dun goofed.
+				trigger_event = {
+					id = dharma_hinduism.0024
+					# We give it a day's delay, since they _might_ have taken a conversion option in the event itself, in which case the follow-up event is invalid.
+					days = 1
+				}
+			}
+			# How exactly do they die?
+			scope:unlucky_guest = {
+				# Cannibalist Germanic pagans will hang them, then eat them.
+				trigger_event = dharma_hinduism.1000
+				if = {
+					limit = { sacrifice_method_hang_n_fang_trigger = yes }
+					death = {
+						killer = scope:blotter
+						death_reason = death_ritually_hung_then_eaten
+					}
+				}
+				# All other Germanic pagans will hang them.
+				else_if = {
+					limit = { sacrifice_method_eat_em_trigger = yes }
+					death = {
+						killer = scope:blotter
+						death_reason = death_ritually_eaten
+					}
+				}
+				# All other cannibals will just eat them.
+				else_if = {
+					limit = { sacrifice_method_hang_em_trigger = yes }
+					death = {
+						killer = scope:blotter
+						death_reason = death_ritually_hung
+					}
+				}
+				# Fallback deaths go here; variants should be added above this point.
+				else = {
+					death = {
+						killer = scope:blotter
+						death_reason = death_sacrificed_to_gods
+					}
+				}
+			}
+		}
+		## Naturally, if appropriate, you become a cannibal.
+		if = {
+			limit = {
+				OR = {
+					scope:blot_sacrifice = flag:humans_regular
+					scope:blot_sacrifice = flag:humans_magnificent
+				}
+				scope:gf_faith = { has_doctrine_parameter = cannibalism_legal }
+				NOT = { has_trait = cannibal }
+			}
+			add_trait = cannibal
+		}
+		# Take care of happy subjects.
+		## Build a list of affected happy subjects.
+		### Small first.
+		if = {
+			limit = { scope:blot_scale = flag:small }
+			# Nab all courtiers & guests.
+			every_courtier_or_guest = {
+				limit = { faith = scope:gf_faith }
+				add_to_list = happified_character_subjects_list
+			}
+			# If it exists, nab the fallback county.
+			if = {
+				limit = { exists = scope:fallback_location }
+				scope:fallback_location = { add_to_list = happified_title_subjects_list }
+			}
+			# Otherwise, nab the capital.
+			else = {
+				capital_county = { add_to_list = happified_title_subjects_list }
+			}
+		}
+		### Then try a medium list.
+		else_if = {
+			limit = { scope:blot_scale = flag:medium }
+			# Nab all courtiers & guests.
+			every_courtier_or_guest = {
+				limit = { faith = scope:gf_faith }
+				add_to_list = happified_character_subjects_list
+			}
+			# Also nab all barons in your domain.
+			every_vassal = {
+				limit = {
+					highest_held_title_tier = tier_barony
+					faith = scope:gf_faith
+				}
+				add_to_list = happified_character_subjects_list
+			}
+			# Nab your domain titles.
+			every_held_title = {
+				limit = {
+					tier = tier_county
+					faith = scope:gf_faith
+				}
+				add_to_list = happified_title_subjects_list
+			}
+		}
+		### Finally, try a large list.
+		else_if = {
+			limit = { scope:blot_scale = flag:large }
+			# Nab all courtiers & guests.
+			every_courtier_or_guest = {
+				limit = { faith = scope:gf_faith }
+				add_to_list = happified_character_subjects_list
+			}
+			# Also nab all vassals and sub-vassals.
+			every_vassal_or_below = {
+				limit = { faith = scope:gf_faith }
+				add_to_list = happified_character_subjects_list
+			}
+			# Nab all sub-realm titles.
+			every_sub_realm_county = {
+				limit = { faith = scope:gf_faith }
+				add_to_list = happified_title_subjects_list
+			}
+		}
+		### Aaaand remove anyone who spurned the invitation explicitly.
+		if = {
+			limit = {
+				has_variable_list = gf_guests_rejecting_invite_list
+				any_in_list = {
+					variable = gf_guests_rejecting_invite_list
+					count >= 1
+					# Account for people who might have converted in the meanwhilst.
+					faith = scope:gf_faith
+				}
+			}
+			every_in_list = {
+				variable = gf_guests_rejecting_invite_list
+				# TIT-25457
+				remove_from_list = happified_title_subjects_list
+			}
+		}
+		## Happify them appropriately.
+		### First we do characters.
+		if = {
+			limit = {
+				any_in_list = {
+					list = happified_character_subjects_list
+					count >= 1
+				}
+			}
+			every_in_list = {
+				list = happified_character_subjects_list
+				custom = dharma_hinduism.202.happy_characters_list
+				add_opinion = {
+					target = scope:blotter
+					modifier = fp1_held_grand_sacrifice_opinion
+				}
+				# And gain some opinion back from scope:blotter for turning up.
+				hidden_effect = { gruesome_festivals_blotter_opinion_gain_of_guests_effect = yes }
+			}
+		}
+		### Then we do titles.
+		if = {
+			limit = {
+				any_in_list = {
+					list = happified_title_subjects_list
+					count >= 1
+				}
+			}
+			every_in_list = {
+				list = happified_title_subjects_list
+				custom = dharma_hinduism.202.happy_titles_list
+				add_county_modifier = {
+					modifier = held_grand_sacrifice_fp1_modifier
+					years = 7
+				}
+			}
+		}
+		# Take care of unhappy subjects.
+		## Is building a list of unhappy subjects necessary?
+		if = {
+			limit = {
+				OR = {
+					scope:blot_sacrifice = flag:humans_regular
+					scope:blot_sacrifice = flag:humans_magnificent
+				}
+			}	
+			# If so, then we build one.
+			## Grabbing all sub-realm characters who dislike HumSac.
+			every_courtier_or_guest = {
+				limit = {
+					faith = { dislikes_humsac_trigger = yes }
+				}
+				add_to_list = unhappified_character_subjects_list
+			}
+			every_vassal_or_below = {
+				limit = {
+					faith = { dislikes_humsac_trigger = yes }
+				}
+				add_to_list = unhappified_character_subjects_list
+			}
+			## Then all sub-realm counties.
+			every_sub_realm_county = {
+				limit = {
+					faith = { dislikes_humsac_trigger = yes }
+				}
+				add_to_list = unhappified_title_subjects_list
+			}
+			# Before unhappifying them to taste.
+			## Again, first characters.
+			if = {
+				limit = {
+					any_in_list = {
+						list = unhappified_character_subjects_list
+						count >= 1
+					}
+				}
+				every_in_list = {
+					list = unhappified_character_subjects_list
+					custom = dharma_hinduism.202.unhappy_characters_list
+					add_opinion = {
+						target = scope:blotter
+						modifier = fp1_held_human_sacrifice_opinion
+					}
+				}
+			}
+			## Then counties.
+			if = {
+				limit = {
+					any_in_list = {
+						list = unhappified_title_subjects_list
+						count >= 1
+					}
+				}
+				every_in_list = {
+					list = unhappified_title_subjects_list
+					custom = dharma_hinduism.202.unhappy_titles_list
+					add_county_modifier = {
+						modifier = held_human_sacrifice_fp1_modifier
+						years = 7
+					}
+				}
+				# Flag this character as having upset people.
+				set_variable = {
+					name = offended_counties_with_humsac
+					value = yes
+					years = 7
+				}
+			}
+		}
+		# Cannibalism cleanup.
+		## Specifically, we want every ranking guest who might have gotten some human meat reserved to become a cannibal. We do this later in the block so that we've already built a solid list of invited vassals.
+		if = {
+			limit = {
+				OR = {
+					scope:blot_sacrifice = flag:humans_regular
+					scope:blot_sacrifice = flag:humans_magnificent
+				}
+				scope:gf_faith = { has_doctrine_parameter = cannibalism_legal }
+			}
+			hidden_effect = {
+				every_in_list = {
+					list = happified_title_subjects_list
+					limit = {
+						# Filter out lowborns.
+						exists = dynasty
+						NOT = { has_trait = cannibal }
+					}
+					send_interface_toast = {
+						title = dharma_hinduism.202.attendee_became_cannibal
+						left_icon = scope:blotter
+						add_trait = cannibal
+					}
+				}
+			}
+		}
+		# Set up var:gf_faith for custom loc to work; not used in strictly every permutation, but doesn't really need an if gate on it.
+		set_variable = {
+			name = gf_faith
+			value = scope:gf_faith
+		}
+	}
+
+	option = {# Faithful: focus on the faith.
+		name = dharma_hinduism.202.a
+		# Only available if you follow the scope:gf_faith & have priests to impress at all.
+		trigger = {
+			faith = {
+				this = scope:gf_faith
+				has_doctrine = doctrine_theocracy_temporal
+			}
+		}
+
+		# Your commitment to ritual earns you opinion with the priestly classes.
+		if = {
+			limit = {
+				any_learning_councillor = { exists = this }
+			}
+			every_learning_councillor = {
+				add_opinion = {
+					target = scope:blotter
+					modifier = pleased_opinion
+					opinion = 50
+				}
+			}
+		}
+		if = {
+			limit = {
+				any_in_list = {
+					list = happified_character_subjects_list
+					gruesome_festivals_available_impressable_clergy = yes
+				}
+			}
+			every_in_list = {
+				list = happified_character_subjects_list
+				custom = dharma_hinduism.202.b.clergy_list
+				limit = { gruesome_festivals_available_impressable_clergy = yes }
+				add_opinion = {
+					target = scope:blotter
+					modifier = pleased_opinion
+					opinion = 40
+				}
+			}
+		}
+
+		stress_impact = {
+			zealous = major_stress_impact_loss
+			cynical = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_zeal = 0.5
+				ai_sociability = -0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = zealous
+			}
+			modifier = {	# Weight down for stress.
+				add = 10
+				has_trait = cynical
+			}
+		}
+	}
+	
+	option = {	# Faithful: focus on the nobility.
+		name = dharma_hinduism.202.b
+		# Must have actually got some other landed nobility coming, and be of the faith and able to take part fully.
+		trigger = {
+			faith = scope:gf_faith
+			any_in_list = {
+				list = happified_character_subjects_list
+				gruesome_festivals_available_impressable_nobles = yes
+			}
+		}
+
+		# The nobles appreciate the extra attention you grace them with.
+		every_in_list = {
+			list = happified_character_subjects_list
+			custom = dharma_hinduism.202.b.nobility_list
+			limit = { gruesome_festivals_available_impressable_nobles = yes }
+			add_opinion = {
+				target = scope:blotter
+				modifier = pleased_opinion
+				opinion = 20
+			}
+		}
+
+		stress_impact = {
+			arrogant = medium_stress_impact_loss
+			humble = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 0.5
+				ai_energy = -0.25	# Just because there's a lot fewer nobles than peasants.
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = arrogant
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = humble
+			}
+		}
+	}
+	
+	option = {	# Faithful: focus on the commoners.
+		name = dharma_hinduism.202.c
+		# Must be of the faith and able to take part fully.
+		trigger = { faith = scope:gf_faith }
+
+		# The commoners appreciate the extra attention.
+		every_in_list = {
+			list = happified_title_subjects_list
+			custom = dharma_hinduism.202.happy_titles_list
+			remove_county_modifier = held_grand_sacrifice_fp1_modifier
+			add_county_modifier = {
+				modifier = commoners_grand_sacrifice_fp1_modifier
+				years = 7
+			}
+		}
+
+		stress_impact = {
+			humble = major_stress_impact_loss
+			arrogant = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_energy = 0.25	# Just because there's a lot fewer nobles than peasants.
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = humble
+			}
+			modifier = {	# Weight down for stress.
+				add = -30
+				has_trait = arrogant
+			}
+		}
+	}
+
+	option = {	# Political: engage no more than is necessary.
+		name = dharma_hinduism.202.d
+		# Must be an outsider.
+		trigger = {
+			NOT = { faith = scope:gf_faith }
+		}
+
+		# You console yourself with a minor moral victory.
+		add_stress = medium_stress_loss
+
+		stress_impact = {
+			arrogant = major_stress_impact_loss
+			humble = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_zeal = 0.5
+				ai_sociability = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = arrogant
+			}
+			modifier = {	# Weight down for stress.
+				add = -30
+				has_trait = humble
+			}
+		}
+	}
+
+	
+	option = {# Political: engage wholeheartedly.
+		name = dharma_hinduism.202.e
+		# Must be an outsider.
+		trigger = {
+			NOT = { faith = scope:gf_faith }
+		}
+
+		# The commoners appreciate the extra attention.
+		every_in_list = {
+			list = happified_title_subjects_list
+			custom = dharma_hinduism.202.happy_titles_list
+			remove_county_modifier = held_grand_sacrifice_fp1_modifier
+			add_county_modifier = {
+				modifier = commoners_grand_sacrifice_fp1_modifier
+				years = 10
+			}
+		}
+
+		stress_impact = {
+			humble = major_stress_impact_loss
+			arrogant = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 0.5
+				ai_zeal = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = humble
+			}
+			modifier = {	# Weight down for stress.
+				add = -30
+				has_trait = arrogant
+			}
+		}
+	}
+
+	after = {
+		# Clean-up flags and variables.
+		gruesome_sacrifices_clean_up_standard_variables_&_flags_effect = yes
+		# Take care of anyone who insulted you by not showing up.
+		trigger_event = {
+			id = dharma_hinduism.204
+			months = 3
+		}
+	}
+}
+
+scripted_effect gruesome_festivals_turn_down_invitation_effect = {
+	# Add this character to scope:blotter's list of non-attendees.
+	save_temporary_scope_as = current_rejecter
+	scope:blotter = {
+		add_to_variable_list = {
+			name = gf_guests_rejecting_invite_list
+			target = scope:current_rejecter
+		}
+	}
+}
+
+dharma_hinduism.203 = {# Vassal: chance to decline invitation.
+	type = character_event
+	title = dharma_hinduism.203.t
+	desc = {
+		desc = dharma_hinduism.203.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:gf_faith = { has_doctrine_parameter = cannibalism_legal }
+				}
+				desc = dharma_hinduism.203.desc.cannibal_blot
+			}
+			desc = dharma_hinduism.203.desc.fallback
+		}
+		desc = dharma_hinduism.203.desc.outro
+	}
+	theme = party
+	left_portrait = {
+		character = scope:blotter
+		animation = personality_honorable
+	}
+	override_background = { event_background = throne_room }
+
+	# We divide our options between gaining the cannibal trait and not gaining the cannibal trait.
+	## If gaining the cannibal trait, we make a bigger deal about attending, since we don't want the player to accidentally become a cannibal because they weren't paying attention.
+	## If not gaining the cannibal trait (because no human flesh is being served or because you're already a cannibal), our options are a bit more varied.
+
+	# Non-Cannibal Gain: go graciously.
+	option = {
+		name = dharma_hinduism.203.a
+		trigger = { gruesome_festivals_will_gain_cannibal_trait_trigger = no }
+
+		# Get some opinion with scope:blotter for turning up.
+		show_as_tooltip = { gruesome_festivals_blotter_opinion_gain_of_guests_effect = yes }
+
+		stress_impact = {
+			forgiving = minor_stress_impact_loss
+			gregarious = medium_stress_impact_loss
+			vengeful = minor_stress_impact_gain
+			shy = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 0.5
+				ai_vengefulness = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = forgiving
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = gregarious
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = vengeful
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = shy
+			}
+		}
+	}
+
+	# Non-Cannibal Gain: tell 'em to get stuffed.
+	option = {
+		name = dharma_hinduism.203.b
+		trigger = { gruesome_festivals_will_gain_cannibal_trait_trigger = no }
+
+		# Scope:blotter will doubtless notice you failed to turn up.
+		custom_tooltip = dharma_hinduism.203.b.tt
+		gruesome_festivals_turn_down_invitation_effect = yes
+
+		stress_impact = {
+			vengeful = minor_stress_impact_loss
+			shy = medium_stress_impact_loss
+			forgiving = minor_stress_impact_gain
+			gregarious = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_vengefulness = 0.5
+				ai_sociability = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = vengeful
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = shy
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = forgiving
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = gregarious
+			}
+		}
+	}
+
+	# Will Become Cannibal: go, and enjoy the HumSac to the fullest.
+	option = {
+		name = dharma_hinduism.203.c
+		trigger = { gruesome_festivals_will_gain_cannibal_trait_trigger = yes }
+
+		# You'll eventually gain the cannibal trait, too.
+		show_as_tooltip = { add_trait = cannibal }
+		# Get some opinion with scope:blotter for turning up.
+		show_as_tooltip = { gruesome_festivals_blotter_opinion_gain_of_guests_effect = yes }
+
+		stress_impact = {
+			forgiving = minor_stress_impact_loss
+			gregarious = medium_stress_impact_loss
+			sadistic = medium_stress_impact_loss
+			vengeful = minor_stress_impact_gain
+			shy = medium_stress_impact_gain
+			compassionate = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 0.5
+				ai_vengefulness = -0.5
+				ai_compassion = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = forgiving
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = gregarious
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = sadistic
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = vengeful
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = shy
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = compassionate
+			}
+		}
+	}
+
+	# Will Become Cannibal: go, but refuse to partake in human flesh.
+	option = {
+		name = dharma_hinduism.203.d
+		trigger = { gruesome_festivals_will_gain_cannibal_trait_trigger = yes }
+
+		# Costs you a bit of extra piety, but you do opt out of the cannibal option.
+		add_piety = medium_piety_loss
+		# Get some opinion with scope:blotter for turning up.
+		show_as_tooltip = { gruesome_festivals_blotter_opinion_gain_of_guests_effect = yes }
+
+		stress_impact = {
+			forgiving = minor_stress_impact_loss
+			gregarious = medium_stress_impact_loss
+			compassionate = medium_stress_impact_loss
+			vengeful = minor_stress_impact_gain
+			shy = medium_stress_impact_gain
+			sadistic = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_sociability = 0.5
+				ai_compassion = 0.5
+				ai_vengefulness = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = forgiving
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = gregarious
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = compassionate
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = vengeful
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = shy
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = sadistic
+			}
+		}
+	}
+
+	# Will Become Cannibal: not a chance in GetFaith.GetNegativeAfterLife!
+	option = {
+		name = dharma_hinduism.203.e
+		trigger = { gruesome_festivals_will_gain_cannibal_trait_trigger = yes }
+
+		# Costs you a bit of extra piety, but you do opt out of the cannibal option.
+		add_piety = medium_piety_loss
+		# Scope:blotter will doubtless notice you failed to turn up.
+		custom_tooltip = dharma_hinduism.203.e.tt
+		gruesome_festivals_turn_down_invitation_effect = yes
+
+		stress_impact = {
+			vengeful = minor_stress_impact_loss
+			shy = medium_stress_impact_loss
+			forgiving = minor_stress_impact_gain
+			gregarious = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_vengefulness = 0.5
+				ai_sociability = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = vengeful
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = shy
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = forgiving
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = gregarious
+			}
+		}
+	}
+}
+dharma_hinduism.204 = {# Blotter: at least one vassal declined your invitation.
+	type = character_event
+	title = dharma_hinduism.204.t
+	desc = {
+		desc = dharma_hinduism.204.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists= scope:decliner_2 }
+				desc = dharma_hinduism.204.desc.multiple_decliners
+			}
+			desc = dharma_hinduism.204.desc.single_decliner
+		}
+		desc = dharma_hinduism.204.desc.outro
+	}
+	theme = party
+	left_portrait = {
+		character = scope:decliner_1
+		animation = personality_honorable
+	}
+	right_portrait = {
+		character = scope:decliner_2
+		animation = personality_honorable
+	}
+	lower_left_portrait = { character = scope:decliner_3 }
+	lower_center_portrait = { character = scope:decliner_4 }
+	lower_right_portrait = { character = scope:decliner_5 }
+	override_background = { event_background = throne_room }
+
+	trigger = {
+		# Do you have the appropriate variable list, and is there anyone actually in it?
+		has_variable_list = gf_guests_rejecting_invite_list
+		any_in_list = {
+			variable = gf_guests_rejecting_invite_list
+			count >= 1
+		}
+	}
+
+	immediate = {
+		# Work out which of our decliners is the worst and why.
+		ordered_in_list = {
+			variable = gf_guests_rejecting_invite_list
+			max = gruesome_festival_gf_guests_rejecting_invite_list_max_value
+			order_by = {
+				value = 0
+				
+				# Weight up players a little.
+				if = {
+					limit = { is_ai = no }
+					add = 10
+				}
+				# Then weight up by rank.
+				## Kings.
+				if = {
+					limit = { highest_held_title_tier >= tier_kingdom }
+					add = 25
+				}
+				## Dukes.
+				if = {
+					limit = { highest_held_title_tier = tier_duchy }
+					add = 10
+				}
+				# And add a little for every held county.
+				every_held_title = {
+					limit = { tier = tier_county }
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					NOT = { exists = scope:decliner_1 }
+				}
+				save_scope_as = decliner_1
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						this = scope:decliner_1
+						exists = scope:decliner_2
+					}
+				}
+				save_scope_as = decliner_2
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						this = scope:decliner_1
+						this = scope:decliner_2
+						exists = scope:decliner_3
+					}
+				}
+				save_scope_as = decliner_3
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						this = scope:decliner_1
+						this = scope:decliner_2
+						this = scope:decliner_3
+						exists = scope:decliner_4
+					}
+				}
+				save_scope_as = decliner_4
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						this = scope:decliner_1
+						this = scope:decliner_2
+						this = scope:decliner_3
+						this = scope:decliner_4
+						exists = scope:decliner_5
+					}
+				}
+				save_scope_as = decliner_5
+			}
+		}
+		# Add them to a list for easy general management if there's more than one.
+		scope:decliner_1 = { add_to_list = decliners_list }
+		if = {
+			limit = { exists = scope:decliner_2 }
+			add_to_list = decliners_list
+		}
+		if = {
+			limit = { exists = scope:decliner_3 }
+			add_to_list = decliners_list
+		}
+		if = {
+			limit = { exists = scope:decliner_4 }
+			add_to_list = decliners_list
+		}
+		if = {
+			limit = { exists = scope:decliner_5 }
+			add_to_list = decliners_list
+		}
+		# Clean up the variable list.
+		gruesome_sacrifices_clean_up_declining_guests_effect = yes
+	}
+
+	# Only the arch-offender annoys me!
+	option = {
+		name = dharma_hinduism.204.a
+
+		# Inform scope:decliner_1.
+		hidden_effect = {
+			scope:decliner_1 = {
+				send_interface_toast = {	
+					title = dharma_hinduism.204.a.decliner_toast.t
+					left_icon = scope:blotter
+					show_as_tooltip = {
+						progress_towards_rival_effect = {
+							CHARACTER = scope:blotter
+							OPINION = -30
+						}
+					}
+				}
+			}
+		}
+		# Then actual rivalry/opinion loss.
+		progress_towards_rival_effect = {
+			CHARACTER = scope:decliner_1
+			OPINION = -30
+		}
+
+		stress_impact = {
+			forgiving = minor_stress_impact_loss
+			vengeful = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_vengefulness = 0.5
+				ai_rationality = -0.25
+			}
+			modifier = {	# Weight up for stress.
+				add = 10
+				has_trait = forgiving
+			}
+			modifier = {	# Weight down for stress.
+				add = -10
+				has_trait = vengeful
+			}
+		}
+	}
+
+	# Damn and blast the whole lot of them!
+	option = {
+		name = dharma_hinduism.204.b
+		# Only available if more than one of them turned you down.
+		trigger = { exists = scope:decliner_2 }
+
+		# Inform the decliners.
+		hidden_effect = {
+			every_in_list = {
+				list = decliners_list
+				send_interface_toast = {	
+					title = dharma_hinduism.204.a.decliner_toast.t
+					left_icon = scope:blotter
+					show_as_tooltip = {
+						progress_towards_rival_effect = {
+							CHARACTER = scope:blotter
+							OPINION = -30
+						}
+					}
+				}
+			}
+		}
+		# Then actual rivalry/opinion loss.
+		every_in_list = {
+			list = decliners_list
+			custom = dharma_hinduism.204.b.all_decliners_list
+			progress_towards_rival_effect = {
+				CHARACTER = scope:blotter
+				OPINION = -30
+			}
+		}
+
+		stress_impact = {
+			forgiving = major_stress_impact_loss
+			vengeful = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_vengefulness = 0.75
+				ai_rationality = -0.50
+			}
+			modifier = {	# Weight up for stress.
+				add = 30
+				has_trait = forgiving
+			}
+			modifier = {	# Weight down for stress.
+				add = -30
+				has_trait = vengeful
+			}
+		}
+	}
+
+	# Bah, who cares about a bunch of no-shows?
+	option = {
+		name = {
+			trigger = {
+				NOT = { exists = scope:decliner_2 }
+			}
+			text = dharma_hinduism.204.c.singular
+		}
+		name = {
+			trigger = { exists = scope:decliner_2 }
+			text = dharma_hinduism.204.c.plural
+		}
+
+		# Carefreeeeeeee!
+		add_stress = medium_stress_loss
+		# But it was still a slight.
+		add_prestige = minor_prestige_loss
+
+		stress_impact = {
+			forgiving = medium_stress_impact_loss
+			vengeful = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_rationality = 0.25
+				ai_vengefulness = -0.5
+			}
+			modifier = {	# Weight up for stress.
+				add = 20
+				has_trait = forgiving
+			}
+			modifier = {	# Weight down for stress.
+				add = -20
+				has_trait = vengeful
+			}
+		}
+	}
+}
 

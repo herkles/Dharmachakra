@@ -20,6 +20,8 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Gwailor Fort can now only be built in Gwailor.
 - added the Pudgalavada branch of Buddhism, present in 867 in Sindh
 - The Saindhava Dynasty are now both Sindhi and Shaivites
+- added the Mahabali tenet for Kalikula shaktism and Shrautism
+
 
 ## Manual Installation Steps
 

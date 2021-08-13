@@ -41,7 +41,7 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = suryaism
 	
 	# History
 

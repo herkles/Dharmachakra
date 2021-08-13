@@ -566,6 +566,17 @@ scripted_trigger is_vaguely_tamil_bhakti_trigger = {
 	}
 }
 
+scripted_trigger is_vaguely_sindhi_bhakti_trigger = {
+	OR = {
+		has_culture = culture:sindhi
+		# We deliberately use the de jure rather than the geographical area to make this at least a *little* more fluid.
+		AND = {
+			is_landed = yes
+			capital_county.kingdom = title:k_sindh
+		}
+	}
+}
+
 religious_decision.0101 = {# Hindu Bhakti
 	type = character_event
 	title = religious_decision.0101.t
@@ -748,7 +759,7 @@ religious_decision.0101 = {# Hindu Bhakti
 	option = {# Murugan - Tamil Deity
 		name = religious_decision.0101.murugan
 		trigger = {
-			faith = faith:smartism
+			is_vaguely_tamil_bhakti_trigger = yes
 			NOT = { has_character_modifier = bhakti_hinduism_murugan }
 		}
 		set_bhakti_effect = { BHAKTI = bhakti_hinduism_murugan }
@@ -756,7 +767,7 @@ religious_decision.0101 = {# Hindu Bhakti
 	option = {# Varuna - Sindhi Deity
 		name = religious_decision.0101.varuna
 		trigger = {
-			faith = faith:smartism
+			is_vaguely_sindhi_bhakti_trigger = yes
 			NOT = { has_character_modifier = bhakti_hinduism_varuna }
 		}
 		set_bhakti_effect = { BHAKTI = bhakti_hinduism_varuna }
