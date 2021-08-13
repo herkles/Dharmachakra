@@ -20,7 +20,6 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Gwailor Fort can now only be built in Gwailor.
 - added the Pudgalavada branch of Buddhism, present in 867 in Sindh
 - The Saindhava Dynasty are now both Sindhi and Shaivites
-- added the Mahabali tenet for Kalikula shaktism and Shrautism
 - Jainism now has the teachings of mahavira special doctrine that gives them reincarnation and monasticism
 - Svetembara tenets are now: Dharmic Pacifism, adaptive, vows of poverty
 - Digambara tenets are now: Dharmic Pacifism, Ritual Hospitality, Vows of Poverty
@@ -32,8 +31,8 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - ari tenets are now: Ritual Celebrations, Astrology, Esotericism
 - nang chos tenets are now: Dharmic Pacifism, Communal Identity, Esotericism
 - pudgalavada tenets are: Dharmic Pacifism, Religious Law, Dhamma Vicaya
-
-
+- Old Bon has Grusome Festivals if you have the DLC instead of Human Sacrifices
+- Budhists, Hindus, or Jains won't do Grusome festivals
 
 ## Manual Installation Steps
 

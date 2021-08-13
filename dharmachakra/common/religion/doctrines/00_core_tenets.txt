@@ -1445,48 +1445,6 @@
 			literalist_debate_enabled = yes
 		}
 	}
-
-	tenet_mahabali = {
-		icon = core_tenet_festivities
-
-		is_shown = {
-			religion_tag = hinduism_religion
-		}
-
-		piety_cost = {
-			if = {
-				limit = {
-					OR = {
-						religion_tag = hinduism_religion
-						religion_tag = zoroastrianism_religion
-						has_doctrine = pagan_hostility_doctrine
-					}
-				}
-				value = faith_tenet_cost_low
-			}
-			else = {
-				value = faith_tenet_cost_mid
-			}
-
-			# Multiplier for keeping same tenet
-			if = {
-				limit = { has_doctrine = tenet_ritual_celebrations }
-				multiply = faith_unchanged_doctrine_cost_mult
-			}
-		}
-
-		parameters = {
-			piety_from_feasts_active = yes
-			mandatory_feast_attendance = yes
-			hindu_animal_sacrifices_active = yes
-		}
-
-		character_modifier = {
-			vassal_opinion = 5
-			courtier_opinion = 5
-		}
-	}
-
 	############################
 	# Pagan Faith Tenets  		#
 	############################
