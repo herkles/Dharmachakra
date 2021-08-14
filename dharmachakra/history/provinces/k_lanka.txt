@@ -6,7 +6,7 @@
 	
 	# Misc
 	culture = tamil
-	religion = theravada
+	religion = shaivism
 	
 	# History
 }

@@ -1,4 +1,7 @@
-﻿pet_elephant_decision = {# Pet Elephant decision
+﻿#######################################
+# General Decisions
+#######################################
+pet_elephant_decision = {# Pet Elephant decision
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
 
 	desc = elephant_dog_decision_desc
@@ -50,46 +53,9 @@
 		}
 	}
 }
-
-buddhist_retreat_decision = {# Go on a Buddhist Retreat
-	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds"
-
-	desc = buddhist_retreat_decision_desc
-	selection_tooltip = buddhist_retreat_decision_tooltip
-
-	is_shown = {
-		religion = religion:buddhism_religion
-		holds_landed_title = yes
-		NOT = { has_character_modifier = busy_doing_activities }
-	}
-
-	is_valid = {
-
-	}
-
-	is_valid_showing_failures_only = {
-		is_available_adult = yes
-	}
-
-	effect = {
-		custom_tooltip = buddhist_retreat_tooltip
-		trigger_event = dharma_buddhism.100
-	}
-
-	ai_check_interval = 60
-	cooldown = { months = 36 }	
-
-	
-	ai_potential = {
-		is_at_war = no
-		stress >= 75
-	}
-
-	ai_will_do = {
-		base = 100
-	}
-}
-
+#######################################
+# Select Personal diety
+#######################################
 select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 	picture = "gfx/interface/illustrations/decisions/tibetan_deities.dds"
 
@@ -143,7 +109,6 @@ select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 		base = 100
 	}
 }
-
 select_personal_nat_decision = {# Burmese Gods and Goddesses
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 
@@ -198,58 +163,54 @@ select_personal_nat_decision = {# Burmese Gods and Goddesses
 		base = 100
 	}
 }
+#######################################
+# Hindu Decisions
+#######################################
 
-select_personal_deity_decision = {# Bhakti 
-	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+#######################################
+# Buddhist Decisions
+#######################################
+buddhist_retreat_decision = {# Go on a Buddhist Retreat
+	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds"
 
-	desc = select_personal_deity_decision_desc
-	selection_tooltip = select_personal_deity_decision_tooltip
+	desc = buddhist_retreat_decision_desc
+	selection_tooltip = buddhist_retreat_decision_tooltip
 
 	is_shown = {
-		faith = {
-			has_doctrine_parameter = select_personal_god_active
-		}
+		religion = religion:buddhism_religion
+		holds_landed_title = yes
+		NOT = { has_character_modifier = busy_doing_activities }
 	}
 
 	is_valid = {
+
 	}
 
 	is_valid_showing_failures_only = {
+		is_available_adult = yes
 	}
 
 	effect = {
-		custom_tooltip = select_personal_deity_decision_tt
-		trigger_event = religious_decision.0101
+		custom_tooltip = buddhist_retreat_tooltip
+		trigger_event = dharma_buddhism.100
 	}
 
-	ai_check_interval = 96
+	ai_check_interval = 60
 	cooldown = { months = 36 }	
 
+	
 	ai_potential = {
-		piety >= minor_piety_value
-		NOR = {
-			has_character_modifier = bhakti_hinduism_ganga
-			has_character_modifier = bhakti_hinduism_saraswati
-			has_character_modifier = bhakti_hinduism_kali
-			has_character_modifier = bhakti_hinduism_kubera
-			has_character_modifier = bhakti_vaishnavism_lakishmi
-			has_character_modifier = bhakti_vaishnavism_jagganath
-			has_character_modifier = bhakti_vaishnavism_hayagriva
-			has_character_modifier = bhakti_shaivism_parvati
-			has_character_modifier = bhakti_shaivism_virabhadra
-			has_character_modifier = bhakti_shaivism_munishwarar
-			has_character_modifier = bhakti_shaivism_dakshinamoorthy
-			has_character_modifier = bhakti_smartism_ganesha
-			has_character_modifier = bhakti_smartism_vishnu
-			has_character_modifier = bhakti_smartism_shiva
-		}
+		is_at_war = no
+		stress >= 75
 	}
 
 	ai_will_do = {
 		base = 100
 	}
 }
-
+#######################################
+# Jain Decisions
+#######################################
 initiate_consolamentum_decision = {# Commite Selkhana decision
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 

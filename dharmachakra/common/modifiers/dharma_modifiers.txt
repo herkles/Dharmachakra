@@ -6,6 +6,20 @@ elephant_story_riding_modifier = {
 }
 
 ##########################################
+# Hindu Deities 
+##########################################
+bhakti_hinduism_murugan = {# Murugan God of War
+	icon = martial_positive
+	martial = medium_skill_bonus
+	prowess = 4
+}
+bhakti_hinduism_varuna = {# Varuna God of War
+	icon = martial_positive
+	stewardship = 2
+	tolerance_advantage_mod = 2
+	naval_movement_speed_mult = 0.05
+}
+##########################################
 # Tibetan Deities - Bon
 ##########################################
 tibet_deity_sipe_gyalmo = {# Queen of the Universe, is the chief wrathful protector Goddess

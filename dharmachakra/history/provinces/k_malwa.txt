@@ -3,7 +3,7 @@
 	
 	# Misc
 	culture = bhil
-	religion = digambara
+	religion = vaishnavism
 	
 	# History
 
@@ -25,7 +25,7 @@
 	
 	# Misc
 	culture = bhil
-	religion = digambara
+	religion = shaivism
 	
 	# History
 	769.1.1 = {
@@ -43,11 +43,11 @@
 	
 	# Misc
 	culture = malvi
-	religion = svetambara
+	religion = vaishnavism
 	
 	# History
 	1066.1.1 = {
-		religion = srikula_shaktism
+		religion = vaishnavism
 	}
 
 }
@@ -180,7 +180,7 @@
 	
 	# Misc
 	culture = bhil
-	religion = digambara
+	religion = shrautism
 	
 	# History
 
@@ -202,11 +202,11 @@
 	
 	# Misc
 	culture = marathi
-	religion = svetambara
+	religion = vaishnavism
 	
 	# History
 	1066.1.1 = {
-		religion = srikula_shaktism
+		religion = vaishnavism
 	}
 
 }
@@ -227,7 +227,7 @@
 	
 	# Misc
 	culture = bhil
-	religion = digambara
+	religion = suryaism
 	
 	# History
 

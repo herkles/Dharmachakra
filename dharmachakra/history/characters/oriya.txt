@@ -310,7 +310,7 @@
 	name = "Janmejaya" #first of the later Somavamsis
 	dynasty = 1029196
 	father = 191231
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	830.1.1 = {
 		birth = yes
@@ -322,7 +322,7 @@
 189189 = {
 	name = "Yayati" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189188
 	890.1.1 = {
@@ -335,7 +335,7 @@
 189190 = {
 	name = "Bhimaratha" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189189
 	921.1.1 = {
@@ -348,7 +348,7 @@
 189191 = {
 	name = "Dharmaratha" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189190
 	953.1.1 = {
@@ -361,7 +361,7 @@
 189192 = {
 	name = "Nahusa" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189191
 	970.1.1 = {
@@ -374,7 +374,7 @@
 189193 = {
 	name = "Indranatha" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189191
 	971.1.1 = {
@@ -387,7 +387,7 @@
 189194 = {
 	name = "Yayati" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189193
 	990.1.1 = {
@@ -400,7 +400,7 @@
 189195 = {
 	name = "Udyotakesari" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189194
 	1010.1.1 = {
@@ -413,7 +413,7 @@
 189196 = {
 	name = "Janmejaya" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189195
 	1030.1.1 = {
@@ -426,7 +426,7 @@
 189197 = {
 	name = "Puranjaya" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189196
 	1049.1.1 = {
@@ -439,7 +439,7 @@
 189198 = {
 	name = "Janemajaya" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189196
 	1050.1.1 = {
@@ -452,7 +452,7 @@
 189199 = {
 	name = "Karnadeva" #
 	dynasty = 1029196
-	religion = "kalikula_shaktism"
+	religion = "shaivism"
 	culture = "oriya"
 	father = 189197
 	1066.1.1 = {
@@ -1756,7 +1756,7 @@
 	female = yes
 	father = 189188
 	dynasty = 1029196
-	religion = "krishnaism"
+	religion = "shaivism"
 	culture = "oriya"
 	850.1.1 = {
 		birth = yes
@@ -2430,7 +2430,7 @@
 191223 = {
 	name = "Udayana"
 	dynasty = 1029196
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	630.1.1 = {
 		birth = yes
@@ -2444,7 +2444,7 @@
 	name = "Judrabala"
 	dynasty = 1029196
 	father = 191223
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	660.1.1 = {
 		birth = yes
@@ -2458,7 +2458,7 @@
 	name = "Nannadeva"
 	dynasty = 1029196
 	father = 191224
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	690.1.1 = {
 		birth = yes
@@ -2472,7 +2472,7 @@
 	name = "Isanadeva"
 	dynasty = 1029196
 	father = 191225
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	720.1.1 = {
 		birth = yes
@@ -2486,7 +2486,7 @@
 	name = "Bhavadeva"
 	dynasty = 1029196
 	father = 191226
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	760.1.1 = {
 		birth = yes
@@ -2500,7 +2500,7 @@
 	name = "Chandragupta"
 	dynasty = 1029196
 	father = 191225
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	730.1.1 = {
 		birth = yes
@@ -2514,7 +2514,7 @@
 	name = "Tivaraja"
 	dynasty = 1029196
 	father = 191225
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	732.1.1 = {
 		birth = yes
@@ -2528,7 +2528,7 @@
 	name = "Haragupta"
 	dynasty = 1029196
 	father = 191228
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	780.1.1 = {
 		birth = yes
@@ -2542,7 +2542,7 @@
 	name = "Balarjuna_Sivagupta"
 	dynasty = 1029196
 	father = 191230
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	805.1.1 = {
 		birth = yes
@@ -2556,7 +2556,7 @@
 	name = "Ranakesari"
 	dynasty = 1029196
 	father = 191230
-	religion = "vaishnavism"
+	religion = "shaivism"
 	culture = "oriya"
 	806.1.1 = {
 		birth = yes

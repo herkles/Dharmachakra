@@ -551,7 +551,7 @@
 	
 	# Misc
 	culture = oriya
-	religion = theravada
+	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
@@ -577,7 +577,7 @@
 	
 	# Misc
 	culture = bengali
-	religion = theravada
+	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
@@ -590,7 +590,7 @@
 	
 	# Misc
 	culture = bengali
-	religion = theravada
+	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	

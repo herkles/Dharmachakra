@@ -3,10 +3,9 @@
 	
 	# Misc
 	culture = sindhi
-	religion = ashari
+	religion = suryaism
 	
 	# History
-
 }
 
 # 1138 - Bhakkar
@@ -28,13 +27,15 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = pudgalavada
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = pudgalavada
 	}
-
+	1000.1.1 = {
+		religion = ismaili
+	}
 }
 
 # 1297 - Debul
@@ -42,7 +43,7 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = suryaism
 	
 	# History
 
@@ -53,13 +54,12 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = shaivism
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = shaivism
 	}
-
 }
 
 # 1331 - Sonda
@@ -67,7 +67,7 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = shaivism
 	
 	# History
 
@@ -78,13 +78,15 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = pudgalavada
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = pudgalavada
 	}
-
+	1000.1.1 = {
+		religion = ismaili
+	}
 }
 
 # 1336 - Vijnot
@@ -92,11 +94,11 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = suryaism
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = suryaism
 	}
 
 }
@@ -106,7 +108,7 @@
 	
 	# Misc
 	culture = sindhi
-	religion = smartism
+	religion = shaivism
 	
 	# History
 	800.1.1 = {

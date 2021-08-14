@@ -810,7 +810,7 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 	option = {
 		name = dharma_buddhism.105.a
 		stress_impact = {
-			base = miniscule_stress_impact_loss
+			base = miniscule_stress_impact_gain
 			humble = miniscule_stress_impact_loss
 			arrogant = miniscule_stress_impact_gain
 		}
@@ -923,7 +923,7 @@ dharma_buddhism.111 = {# Whack!
 	option = {
 		name = dharma_buddhism.111.a
 		stress_impact = {
-			base = miniscule_stress_impact_loss
+			base = miniscule_stress_impact_gain
 		}
 	}
 }
@@ -1304,7 +1304,6 @@ dharma_buddhism.200 = {# Tibetan Buddhist Deities
 		}		
 	}
 }
-
 dharma_buddhism.201 = {# Burmese Buddhist Deities
 	type = character_event
 	title = dharma_buddhism.201.t

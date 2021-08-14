@@ -76,7 +76,7 @@
  hinduism_religious_symbol:0 "Om"
  hinduism_religious_text:0 "Vedas"
 
- #Vaishnavism
+#Vaishnavism
  vaishnavism:0 "Vaishnavism"
  vaishnavism_adj:1 "Vaishnavite"
  vaishnavism_adherent:0 "Vaishnava"
@@ -94,7 +94,7 @@
  vaishnavism_trickster_god_name:0 "Krishna"
  vaishnavism_trickster_god_name_possessive:0 "Krishna"
 
- #Shaivism
+#Shaivism
  shaivism:0 "Shaivism"
  shaivism_adj:1 "Shaivite"
  shaivism_adherent:0 "Shaivite"
@@ -116,7 +116,7 @@
  shaivism_war_god_name:0 "Vīrabhadra"
  shaivism_war_god_name_possessive:0 "Vīrabhadra"
 
- #Srikula Shaktism
+#Srikula Shaktism
  srikula_shaktism:0 "Srikula Shaktism"
  srikula_shaktism_adj:0 "Srikula"
  srikula_shaktism_adherent:0 "Srikulaite"
@@ -130,14 +130,14 @@
  shaktism_good_god_kali_possessive:0 "Kali's"
  shaktism_good_god_chandi:0 "Chandi"
 
- #Kalikula Shaktism
+#Kalikula Shaktism
  kalikula_shaktism:0 "Kalikula Shaktism"
  kalikula_shaktism_adj:0 "Kalikula"
  kalikula_shaktism_adherent:0 "Kalikulaite"
  kalikula_shaktism_adherent_plural:0 "Kalikulaites"
  kalikula_shaktism_desc:0 "Shaktism believes in the Great Goddess as the Supreme Being from which springs all existence. The Kalikula worship Kali as the one who can give guidance, good rebirth and ultimately moksha."
 
- #Smartism
+#Smartism
  smartism:1 "Smartism"
  smartism_adj:1 "Smarta"
  smartism_adherent:1 "Smarta"
@@ -153,7 +153,7 @@
  smartism_war_god_name:0 "Devi"
  smartism_war_god_name_possessive:0 "Devi's"
 
- #Krishnaism
+#Krishnaism
  krishnaism:0 "Krishnaism"
  krishnaism_adj:0 "Krishnaite"
  krishnaism_adherent:0 "Krishnaite"
@@ -162,14 +162,14 @@
  krishnaism_high_god_name:0 "Krishna"
  krishnaism_high_god_name_possessive:0 "Krishna's"
 
- #Advaitism
+#Advaitism
  advaitism:0 "Advaita Vedanta"
  advaitism_adj:0 "Advaita"
  advaitism_adherent:0 "Advaita Vedantin"
  advaitism_adherent_plural:0 "Advaita Vedantins"
  advaitism_desc:0 "Unlike many Hindu faiths, Advaita Vedanta emphasizes the unity of the Atman, the true self, with the Brahman, the truest reality, and believes that moksha can be achieved in life as well as death."
 
- #Suryaism
+#Suryaism
  suryaism:0 "Saura"
  suryaism_adj:0 "Saurite"
  suryaism_adherent:0 "Saurite"
@@ -193,7 +193,7 @@
  suryaism_war_god_name:0 "Revanta"
  suryaism_war_god_name_possessive:0 "Revanta's"
 
- ##Shrautism
+##Shrautism
  shrautism:0 "Shrautism"
  shrautism_adj:0 "Shrautist"
  shrautism_adherent:0 "Shrautist"
@@ -247,3 +247,65 @@
 
  shrautism_water_god_name:0 "Varuna"
  shrautism_water_god_name_possessive:0 "Varuna's"
+
+#Ganaptism
+ ganaptism:0 "Ganapatya"
+ ganaptism_adj:0 "Ganaptism"
+ ganaptism_adherent:0 "Ganapatya"
+ ganaptism_adherent_plural:0 "Ganapatyas"
+ ganaptismm_desc:0 "Ganapatya is the worship of Ganesha as the Supreme being, the eternal Brahman."
+
+ ganaptism_good_god_buddhi:0 "Buddhi"
+ ganaptism_good_god_siddhi:0 "Siddhi"
+ ganaptism_good_god_riddhi:0 "Riddhi"
+ ganaptism_good_god_vinayaki:0 "Vinayaki"
+ ganaptism_good_god_parvati:0 "Parvati"
+ ganaptism_good_god_ksema:0 "Ksema"
+ ganaptism_good_god_labha:0 "Labha"
+ ganaptism_good_god_shubha:0 "Shubha"
+
+ ganaptism_high_god_name:0 "Ganesha"
+ ganaptism_high_god_name_possessive:0 "Ganesha's"
+ ganaptism_high_god_name_alternate:0 "Mahaganapati"
+ ganaptism_high_god_name_alternate_possessive:0 "Mahaganapati's"
+
+ ganaptism_fertility_god_name:0 "Parvati"
+ ganaptism_fertility_god_name_possessive:0 "Parvati's"
+
+ ganaptism_wealth_god_name:0 "Labha"
+ ganaptism_wealth_god_name_possessive:0 "Labha's"
+
+ ganaptism_knowledge_god_name:0 "Ganesha"
+ ganaptism_knowledge_god_name_possessive:0 "Ganesha's"
+
+ ganaptism_war_god_name:0 "Skanda"
+ ganaptism_war_god_name_possessive:0 "Skanda's"
+
+#Kaumaram
+ kaumaram:0 "Kaumaram"
+ kaumaram_adj:0 "Kaumaram"
+ kaumaram_adherent:0 "Kaumaram"
+ kaumaram_adherent_plural:0 "Kaumaram"
+ kaumaram_desc:0 "Kaumaram is the worship of Murugan as the Supreme being, lord of the Trimurti, the eternal Brahman, and the cause of all things and the foundation of the world."
+
+ kaumaram_good_god_parvati:0 "Parvati"
+ kaumaram_good_god_valli:0 "Valli"
+ kaumaram_good_god_devasena:0 "Devasena"
+ kaumaram_good_god_idumban:0 "Idumban"
+
+ kaumaram_high_god_name:0 "Murugan"
+ kaumaram_high_god_name_possessive:0 "Murugan's"
+ kaumaram_high_god_name:0 "Kumara"
+ kaumaram_high_god_name_possessive:0 "Kumara's"
+
+ kaumaram_health_god_name:0 "Vaidyanatha"
+ kaumaram_health_god_name_possessive:0 "Vaidyanatha's"
+
+ kaumaram_fertility_god_name:0 "Parvati"
+ kaumaram_fertility_god_name_possessive:0 "Parvati's"
+
+ kaumaram_knowledge_god_name:0 "Ganesha"
+ kaumaram_knowledge_god_name_possessive:0 "Ganesha's"
+
+ kaumaram_war_god_name:0 "Murugan"
+ kaumaram_war_god_name_possessive:0 "Murugan's"

@@ -31,9 +31,6 @@
 	terrain = desert
 	
 	# History
-	800.1.1 = {
-		special_building_slot = gwalior_fort_01
-	}
 }
 
 # 1176 - Medantaka
@@ -131,7 +128,7 @@
 	
 	# Misc
 	culture = rajput
-	religion = kalikula_shaktism
+	religion = vaishnavism
 	
 	# History
 
@@ -642,7 +639,7 @@
 	
 	# Misc
 	culture = rajput
-	religion = suryaism
+	religion = vaishnavism
 	
 	# History
 
