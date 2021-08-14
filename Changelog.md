@@ -33,7 +33,6 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - nang chos tenets are now: Dharmic Pacifism, Communal Identity, Esotericism
 - pudgalavada tenets are: Dharmic Pacifism, Religious Law, Dhamma Vicaya
 - Old Bon has Grusome Festivals if you have the DLC instead of Human Sacrifices
-- Budhists, Hindus, or Jains won't do Grusome festivals
 
 ## Manual Installation Steps
 
