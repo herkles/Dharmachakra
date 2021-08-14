@@ -560,7 +560,7 @@
 			holy_site = dwarka
 
 			doctrine = tenet_ritual_hospitality
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_inner_journey
 			doctrine = tenet_esotericism
 
 			doctrine = sampradaya_ganapatism_doctrine
@@ -802,7 +802,7 @@
 			holy_site = dwarka
 
 			doctrine = tenet_communal_identity
-			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_inner_journey
 			doctrine = tenet_ritual_hospitality
 
 			doctrine = sampradaya_kaumaram_doctrine

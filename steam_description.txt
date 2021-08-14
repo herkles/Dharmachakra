@@ -25,6 +25,15 @@ These are some of the features of the mod.
     [*]Shrautism: Ritual Hospitality, Legalism, and Esotericism
     [*]Sauraism: Sun Worship, Esotericism, and Inner Journey
     [*]Shaivism: Reincarnation, Monasticism, Esotericism
+    [*]Shaivism: Reincarnation, Monasticism, Esotericism
+    [*]Shaivism: Reincarnation, Monasticism, Esotericism
+    [*]Shaivism: Reincarnation, Monasticism, Esotericism
+    [*]Shaivism: Reincarnation, Monasticism, Esotericism
+    [*]Shaivism: Reincarnation, Monasticism, Esotericism
+    [*]Shaivism: Reincarnation, Monasticism, Esotericism
+    [*]Shaivism: Reincarnation, Monasticism, Esotericism
+    [*]Shaivism: Reincarnation, Monasticism, Esotericism
+
 [/list]
 
 I welcome any and all feedback - I am still getting the hang of CK3 modding atm. So please let me know if you encounter any bugs, find things imbalanced, if you have any suggestions, or anything else about the mod. I hope to add more decisions, events, and mechanics with future updates to the mod.
