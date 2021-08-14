@@ -13,13 +13,14 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Changed the colors of Dharmic religions
 - Revised tenets for Hindu Faiths, shaktism and Shaivism now have Bhakti
 - All hindu faiths have the doctrine 'teaching of the vedas' that gives reincarnation
-- The Somavamsi Dynasty are Shaivites
 - Added the faiths of Ganaptism and Kaumaram
 - Shakti faiths no longer have the equal doctrines
-- Hinduism now uses consorts and concubines instead of monogamy
+- Jainism now uses consorts and concubines instead of monogamy
+- Hinduism now uses polygamy instead of monogamy
 - Gwailor Fort can now only be built in Gwailor.
 - added the Pudgalavada branch of Buddhism, present in 867 in Sindh
 - The Saindhava Dynasty are now both Sindhi and Shaivites
+- The Somavamsi Dynasty are Shaivites
 - Jainism now has the teachings of mahavira special doctrine that gives them reincarnation and monasticism
 - Svetembara tenets are now: Dharmic Pacifism, adaptive, vows of poverty
 - Digambara tenets are now: Dharmic Pacifism, Ritual Hospitality, Vows of Poverty
