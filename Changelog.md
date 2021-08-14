@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.3.0 "Vishnu" (Released 26/12/2020)
+## Latest Version: 1.3.0 "Vishnu" (Released 14/08/2021)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
