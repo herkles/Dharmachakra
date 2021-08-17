@@ -1260,6 +1260,9 @@
 		parameters = {
 			select_personal_god_active = yes
 		}
+		traits = {
+			virtues = { poet }
+		}
 	}
 
 	tenet_dharmic_pacifism = { #Mix of reincarnation and pacifism rites
