@@ -48,7 +48,7 @@ Dharma_events_yearly_pulse = {
 		# Hindu Flavor Events
 		#######################################
 		# Hindu rites of passage
-		100 = dharma_hinduism.011		# Pumsavana - Blessing for the child in the womb
+		#100 = dharma_hinduism.011		# Pumsavana - Blessing for the child in the womb
 	}
 }
 
