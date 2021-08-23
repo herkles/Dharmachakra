@@ -11,6 +11,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - included RICE files for better compatiablity
 - Bhakti is known as patron gods for non hindus
 - Added some new loading screens
+- localization bug fixes
 
 ## Manual Installation Steps
 
