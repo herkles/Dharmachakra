@@ -13,7 +13,6 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Added some new loading screens
 - localization bug fixes
 
-
 ## Manual Installation Steps
 
 DO NOT manually download the master branch unless you know what you're doing as it is the WIP version that is constantly being updated!
