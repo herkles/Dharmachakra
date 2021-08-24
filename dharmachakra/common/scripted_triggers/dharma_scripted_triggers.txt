@@ -2,3 +2,7 @@
 	basic_is_valid_for_yearly_events_trigger = yes
 	is_adult = yes
 }
+
+is_dharmachakra_loaded = {
+	always = yes
+}

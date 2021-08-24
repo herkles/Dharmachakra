@@ -26,9 +26,9 @@
  building_pattadakal_01:0 "$building_type_pattadakal_01$"
  building_pattadakal_01_desc:0 "$building_type_pattadakal_01_desc$"
 
- building_elephanta_caves_01:0 "Elephanta Caves"
+ building_type_elephanta_caves_01:0 "Elephanta Caves"
  building_type_elephanta_caves_01_desc:0 "Elephanta Caves are a collection of cave temples predominantly dedicated to the Hindu god Shiva. They are on Elephanta Island, or Gharapuri (literally "the city of caves").The Elephanta Caves contain rock cut stone sculptures that show syncretism of Hindu and Buddhist ideas and iconography."
- building_elephanta_caves_01:0 "$building_elephanta_caves_01$"
+ building_elephanta_caves_01:0 "$building_type_elephanta_caves_01$"
  building_elephanta_caves_01_desc:0 "$building_type_elephanta_caves_01_desc$"
 
  building_type_katas_raj_temples_01:0 "Katas Raj Temples "

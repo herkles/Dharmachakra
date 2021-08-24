@@ -1249,6 +1249,15 @@
 	}
 
 	tenet_bhakti = {
+		name = {
+			first_valid = {
+				triggered_desc = {
+					trigger = { religion_tag = hinduism_religion }
+					desc = tenet_bhakti_name
+				}
+				desc = tenet_bhakti_patron_god_name
+			}
+		}
 		icon = core_tenet_bhakti
 
 		piety_cost = faith_tenet_cost_mid
