@@ -227,7 +227,6 @@
 
 			doctrine = doctrine_polygamy
 		}
-
 		mahayana = {
 			color = { 255 128 0 }
 			icon = mahayana
@@ -242,7 +241,6 @@
 			doctrine = tenet_adaptive
 			doctrine = tenet_mendicant_preachers	
 		}
-
 		vajrayana = {
 			color = { 0.9 0.3 0.0 }
 			icon = vajrayana
@@ -332,7 +330,6 @@
 
 			}
 		}
-
 		ari = {
 			color = { 253 103 58 }
 			icon = exp_ari_buddhism
@@ -356,8 +353,7 @@
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_esotericism
 			doctrine = tenet_astrology
-		}
-		
+		}	
 		lamaism = { # Nangchos aka Tibetan Buddhism - syncretic of Mahayana, Vajrayana and native Tibetan elements
 			color = { 0.9 0.2 0.0 }
 			icon = lamaism_buddhism
@@ -486,7 +482,6 @@
 				}
 			}
 		}
-
 		pudgalavada = {
 			color = { 255 94 14 }
 			icon = buddhism_custom_3
