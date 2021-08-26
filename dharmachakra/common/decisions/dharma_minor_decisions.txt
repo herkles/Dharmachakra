@@ -164,17 +164,16 @@ select_personal_nat_decision = {# Burmese Gods and Goddesses
 	}
 }
 select_personal_deity_buddhist_decision = {# Buddhist Gods and Goddesses
-	picture = "gfx/interface/illustrations/decisions/tibetan_deities.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_buddhist_meditation.dds"
 
-	desc = select_personal_deity_tibet_decision_desc
-	selection_tooltip = select_personal_yidam_decision_tooltip
+	desc = select_personal_deity_buddhist_decision_desc
+	selection_tooltip = select_personal_deity_buddhist_decision_tooltip
 
 	is_shown = {
 		OR = {
 			faith = faith:theravada
 			faith = faith:mahayana
 			faith = faith:vajrayana
-
 		}
 	}
 
