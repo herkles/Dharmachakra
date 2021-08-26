@@ -59,10 +59,33 @@
  dharma_jainism.009.desc:0 "A local Monestary wants to dedicate a new statue of [ROOT.Char.GetFaith.random_GoodGodNames] to put in the Monestary. Will you support the Monestary and patronize the creation of a new statue?"
  dharma_jainism.009.patronize:0 "Here you go."
  dharma_jainism.009.no_patronize:0 "Sadly I don't have the money now"
+#######################################
+# Mahamastakabhisheka Festival
+#######################################
+dharma_jainism.100.t:0 "Preparing for the Mahamastakabhisheka Festival"
+dharma_jainism.100.desc:0 "The Mahamastakabhisheka festival is dedicated to Bahubali also known as Gommateshwara. The festival is where the grand statue of Gommateshwara is anoited with Purified water and sandalwood paste along with other offerings including milk, sugarcane juice, saffron paste, and more. It will take some to arrive at the village for the festival, still it will likely be worth the trip."
+dharma_jainism.100.a:0 "Time to pack my bags."
 
+dharma_jainism.101.t:0 "Arriving in Shravanabelagola "
+dharma_jainism.101.desc:0 "I have arrived at the village of Shravanabelagola. Even from here I can see the statue of Gommateshware in the distance."
+dharma_jainism.101.a:0 "Now to climb the grand Staircase"
 
+dharma_jainism.102.t:0 "Climbing the grand staircase"
+dharma_jainism.102.desc:0 "There are a number of steps to climb the hill to the statue. I now see the giant granit statue of the naked Bahubali, serene and upright. "
+dharma_jainism.102.a:0 "After many steps, I have reached the base of the statue"
 
+dharma_jainism.103.t:0 "The grand Anointing of the Statue"
+dharma_jainism.103.desc:0 "Now comes the main part of the procession where the offerings of purified water, sandalwood paste milk, sugarcane juice, saffron paste, sandalwood, turmeric, and vermilion. \n\nI can lead the ceremony by climbing the 700 steps to the top to pour the various offerings, or help the monks carry 1008 vessals to the top, alternatively I could stay at the base of the statue and offer at the bottom."
+dharma_jainism.103.lead:0 "I will lead the procession"
+dharma_jainism.103.help:0 "I shall help the monks"
+dharma_jainism.103.participate:0 "I shall give my offerings at the base"
 
+dharma_jainism.104.t:0 "Meditating on Bahubali's teachings"
+dharma_jainism.104.desc:0 "After the Anointing of the Statue of Bahubali, a number of monks are leading talks on compassion and and non-violence. I chose to listen to the monks speaking about Bahubali's..."
+dharma_jainism.104.compassion:0 "Compassion"
+dharma_jainism.104.ahimsa:0 "Non-Violence"
 
-
+dharma_jainism.105.t:0 "Mahamastakabhisheka concludes"
+dharma_jainism.105.desc:0 "I have returned home after celebrating the Mahamastakabhisheka. It will be at least another twelve years till I can attend the festival again."
+dharma_jainism.105.a:0 "It is good to be back home"
 

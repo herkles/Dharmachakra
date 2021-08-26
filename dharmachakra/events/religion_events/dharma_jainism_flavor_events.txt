@@ -511,7 +511,7 @@ dharma_jainism.103 = {# The grand Anointing of the Statue
 	}
 	
 	option = {# I will personally lead the anointing
-		name = dharma_jainism.103.a
+		name = dharma_jainism.103.lead
 		add_prestige = 30
 		add_piety = 10
 		stress_impact = {
@@ -525,7 +525,7 @@ dharma_jainism.103 = {# The grand Anointing of the Statue
 		}
 	}	
 	option = {# Help the monks with the anointing
-		name = dharma_jainism.103.b
+		name = dharma_jainism.103.help
 		add_prestige = 10
 		add_piety = 10
 		stress_impact = {
@@ -539,7 +539,7 @@ dharma_jainism.103 = {# The grand Anointing of the Statue
 		}
 	}	
 	option = {# Stay on the ground floor
-		name = dharma_jainism.103.c
+		name = dharma_jainism.103.participate
 		add_piety = 30
 		trigger_event = {
 			id = dharma_jainism.104
@@ -559,7 +559,7 @@ dharma_jainism.104 = {# Meditating on Bahubali's teachings
 	}
 	
 	option = {# Compassion
-		name = dharma_jainism.104.a 
+		name = dharma_jainism.104.compassion
 
 		random_list = {
 			30 = {
@@ -591,7 +591,7 @@ dharma_jainism.104 = {# Meditating on Bahubali's teachings
 		}
 	}
 	option = {# Non-Violence
-		name = dharma_jainism.104.a
+		name = dharma_jainism.104.ahimsa
 		random_list = {
 			30 = {
 				if = {
@@ -629,10 +629,7 @@ dharma_jainism.105 = {# Mahamastakabhisheka concludes
 	
 	option = {# Back Home
 		name = dharma_jainism.105.a
-		add_character_modifier = {
-			modifier = RICE_pamir_recently_organized_chawmos
-			years = 3
-		}
+		add_piety = 50
 	}
 
 	after = {
