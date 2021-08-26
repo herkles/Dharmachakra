@@ -4,9 +4,6 @@
 #         Temple Backgrounds		  #
 #									  #
 #######################################
-
-
-
 tibetan_temple = {# Tibetan Temple
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/tibetan_temple.dds"
