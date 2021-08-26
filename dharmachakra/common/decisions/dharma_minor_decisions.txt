@@ -356,11 +356,11 @@ initiate_consolamentum_decision = {# Commite Selkhana decision
 		}
 	}
 }
-dharma_attend_ahamastakabhisheka_festival = {# Jain Mahamastakabhisheka festival
+dharma_attend_mahamastakabhisheka_festival = {# Jain Mahamastakabhisheka festival
 	picture = "gfx/interface/illustrations/decisions/dharma_decision_jain_festival.dds" 
 	ai_check_interval = 24
 	cooldown = { days = 4380 } # It is a 12 year festival
-	desc = dharma_attend_ahamastakabhisheka_festival_desc
+	desc = dharma_attend_mahamastakabhisheka_festival_desc
 	
 	is_shown = {
 		is_ruler = yes
