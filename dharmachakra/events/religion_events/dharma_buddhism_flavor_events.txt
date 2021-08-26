@@ -1470,14 +1470,18 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 	option = {# Bhaisajyaguru
 		name = dharma_buddhism.202.bhaisajyaguru
 		trigger = {
-			faith = faith:mahayana
+			OR = { 
+				faith = faith:mahayana
+				faith = faith:vajrayana
+
+			}
 			NOT = { has_character_modifier = buddhist_deity_bhaisajyaguru }
 		}
 		set_yidam_effect = { YIDAM = buddhist_deity_bhaisajyaguru }
 	}	
 	# Indian Mahayana
 	option = {# Vasudhara
-		name = dharma_buddhism.203.vasudhara
+		name = dharma_buddhism.202.vasudhara
 		trigger = {
 			AND = {
 				faith = faith:mahayana
@@ -1493,11 +1497,14 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 	option = {# Vajrapani
 		name = dharma_buddhism.202.vajrapani
 		trigger = {
-			AND = {
-				faith = faith:mahayana
-				OR = {
-					culture_group = culture_group:indo_aryan_group
-					culture_group = culture_group:dravidian_group
+			OR = {
+				faith = faith:vajrayana
+				AND = {
+					faith = faith:mahayana
+					OR = {
+						culture_group = culture_group:indo_aryan_group
+						culture_group = culture_group:dravidian_group
+					}
 				}
 			}
 			NOT = { has_character_modifier = buddhist_deity_vajrapani }
@@ -1507,11 +1514,14 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 	option = {# Manjushri
 		name = dharma_buddhism.202.manjushri
 		trigger = {
-			AND = {
-				faith = faith:mahayana
-				OR = {
-					culture_group = culture_group:indo_aryan_group
-					culture_group = culture_group:dravidian_group
+			OR = {
+				faith = faith:vajrayana
+				AND = {
+					faith = faith:mahayana
+					OR = {
+						culture_group = culture_group:indo_aryan_group
+						culture_group = culture_group:dravidian_group
+					}
 				}
 			}
 			NOT = { has_character_modifier = buddhist_deity_manjushri }
@@ -1532,38 +1542,9 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 		}
 		set_yidam_effect = { YIDAM = buddhist_deity_samantabhadra }
 	}
-	# Opt-Out
-	option = {
-		name = dharma_buddhism.202.optout
-		ai_chance = {
-			base = 0
-		}		
-	}
-}
-dharma_buddhism.203 = {# Vajarayana Boddhisattvas
-	type = character_event
-	title = dharma_buddhism.203.t
-	desc = dharma_buddhism.203.desc
-	theme = faith
-	override_background = {
-		event_background = tibetan_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}
-
 	# Vajarayana Deities
-	option = {# Manjushri
-		name = dharma_buddhism.203.manjushri
-		trigger = {
-			faith = faith:vajrayana
-			NOT = { has_character_modifier = buddhist_deity_manjushri }
-		}
-		set_yidam_effect = { YIDAM = buddhist_deity_manjushri }
-	}
 	option = {# Tara
-		name = dharma_buddhism.203.tara
+		name = dharma_buddhism.202.tara
 		trigger = {
 			faith = faith:vajrayana
 			NOT = { has_character_modifier = buddhist_deity_tara }
@@ -1571,7 +1552,7 @@ dharma_buddhism.203 = {# Vajarayana Boddhisattvas
 		set_yidam_effect = { YIDAM = buddhist_deity_tara }
 	}
 	option = {# Avalokiteśvara
-		name = dharma_buddhism.203.avalokitesvara
+		name = dharma_buddhism.202.avalokitesvara
 		trigger = {
 			faith = faith:vajrayana
 			NOT = { has_character_modifier = buddhist_deity_avalokitesvara }
@@ -1579,32 +1560,16 @@ dharma_buddhism.203 = {# Vajarayana Boddhisattvas
 		set_yidam_effect = { YIDAM = buddhist_deity_avalokitesvara }
 	}
 	option = {# Ratnasambhava
-		name = dharma_buddhism.203.Ratnasambhava
+		name = dharma_buddhism.202.Ratnasambhava
 		trigger = {
 			faith = faith:vajrayana
 			NOT = { has_character_modifier = buddhist_deity_ratnasambhava }
 		}
 		set_yidam_effect = { YIDAM = buddhist_deity_ratnasambhava }
 	}
-	option = {# Bhaisajyaguru
-		name = dharma_buddhism.203.bhaisajyaguru
-		trigger = {
-			faith = faith:vajrayana
-			NOT = { has_character_modifier = buddhist_deity_bhaisajyaguru }
-		}
-		set_yidam_effect = { YIDAM = buddhist_deity_bhaisajyaguru }
-	}
-	option = {# Vajrapani
-		name = dharma_buddhism.203.vajrasattva
-		trigger = {
-			faith = faith:vajrayana
-			NOT = { has_character_modifier = buddhist_deity_vajrapani }
-		}
-		set_yidam_effect = { YIDAM = buddhist_deity_vajrapani }
-	}
 	# Opt-Out
 	option = {
-		name = dharma_buddhism.203.optout
+		name = dharma_buddhism.202.optout
 		ai_chance = {
 			base = 0
 		}		

@@ -28,6 +28,12 @@
  select_personal_nat_decision_confirm:0 "Contemplate a Nat"
  select_personal_nat_decision_tooltip:0 "Think about who your Nat should be."
  select_personal_nat_decision_tt:0 "You gain a modifier associated with your selected Nat"
+
+ select_personal_deity_buddhist_decision:0 "Select a boddhisattva"
+ select_personal_deity_buddhist_decision_desc:0 "#F Many Buddhists devote themselves to a Meditional Deity, Buddha, or Boddhisattva to help one reach enlightenment. By devoting myself to one of them, it can help me on my path to become a fully enlightened being. \n\nI should contemplate the various divine beings and decide which one calls to me the most.#!"
+ select_personal_deity_buddhist_decision_confirm:0 "Contemplate a boddhisattva"
+ select_personal_deity_buddhist_decision_tooltip:0 "Think about who your boddhisattva should be."
+ select_personal_meditional_deity_decision_tt:0 "You gain a modifier associated with your selected boddhisattva"
 #######################################
 # Jain Decisions
 #######################################

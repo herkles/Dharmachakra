@@ -74,6 +74,33 @@ nat_therevada_shin_upagutta_desc:0 "this character's personal Nat is Shin Upagut
 
 nat_therevada_manimekhala:0 "Devoted to Manimekhala"
 nat_therevada_manimekhala_desc:0 "this character's personal Nat is Manimekhala, The Guardian of the Sea."
+####### Therevade Burmese Deities #######
+buddhist_deity_guanyin:0 "Devoted to Guanyin"
+buddhist_deity_guanyin_desc:0 "This character is devoted to Guanyin, The bodhisattva of Compassion and Mercy."
+
+buddhist_deity_mahasthamaprapta:0 "Devoted to Mahasthamaprapta"
+buddhist_deity_mahasthamaprapta_desc:0 "This character is devoted to Mahasthamaprapta, The Bodhisattva who represents the power of wisdome"
+
+buddhist_deity_ksitigarbha:0 "Devoted to Ksitigarbha"
+buddhist_deity_ksitigarbha_desc:0 "This character is devoted to Ksitigarbha, The Bodhisattva who teaches all six worlds."
+
+buddhist_deity_vasudhara:0 "Devoted to Vasudhara"
+buddhist_deity_vasudhara_desc:0 "This character is devoted to the bodhisattva of wealth, prosperity, and abundance"
+
+buddhist_deity_bhaisajyaguru:0 "Devoted to Bhaisajyaguru"
+buddhist_deity_bhaisajyaguru_desc:0 "This character is devoted to Bhaisajyaguru, The Medicine Buddha who cures suffering"
+
+buddhist_deity_manjushri:0 "Devoted to Manjushri"
+buddhist_deity_manjushri_desc:0 "This character is devoted to Manjushri, Gentle Glory of wisdom"
+
+buddhist_deity_vajrapani:0 "Devoted to Vajrapani"
+buddhist_deity_vajrapani_desc:0 "This character is devoted to Vajrapani, The protector and guide of Gautama Buddha"
+
+buddhist_deity_samantabhadra:0 "Devoted to Samantabhadra"
+buddhist_deity_samantabhadra_desc:0 "This character is devoted to Samantabhadra, The Boddhisattva of practice and meditation"
+
+buddhist_deity_ratnasambhava:0 "Devoted to Ratnasambhava"
+buddhist_deity_ratnasambhava_desc:0 "This character is devoted to Ratnasambhava, one of the Five Dhyani Buddhas destroyer of envy and greed"
 
 #######################################
 # Province Modifiers
