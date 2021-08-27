@@ -428,23 +428,7 @@ dharma_jainism.100 = {# Prepare for the Mahamastakabhisheka Festival
 dharma_jainism.101 = {# arriving in Shravanabelagola 
 	type = character_event
 	title = dharma_jainism.101.t
-	desc = {
-		desc = dharma_jainism.0152.desc
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					has_character_flag = RICE_pamir_chawmos_boys_win
-				}
-				desc = dharma_jainism.0152.desc.boy
-			}
-			triggered_desc = {
-				trigger = {
-					has_character_flag = RICE_pamir_chawmos_girls_win
-				}
-				desc = dharma_jainism.0152.desc.girl
-			}
-		}
-	}
+	desc = dharma_jainism.0152.desc
 	theme = forest_temple
 	
 	left_portrait = {
@@ -464,23 +448,8 @@ dharma_jainism.101 = {# arriving in Shravanabelagola
 dharma_jainism.102 = {# Climbing the grand staircase
 	type = character_event
 	title = dharma_jainism.102.t
-	desc = {
-		desc = dharma_jainism.0152.desc
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					has_character_flag = RICE_pamir_chawmos_boys_win
-				}
-				desc = dharma_jainism.0152.desc.boy
-			}
-			triggered_desc = {
-				trigger = {
-					has_character_flag = RICE_pamir_chawmos_girls_win
-				}
-				desc = dharma_jainism.0152.desc.girl
-			}
-		}
-	}
+	desc = dharma_jainism.0152.desc
+
 	theme = forest_temple
 	
 	left_portrait = {
@@ -647,15 +616,780 @@ dharma_jainism.106 = {# Misc cleanup
 #######################################
 # Paryushana Festival
 #######################################
+dharma_jainism.107 = {# Prepare for the Paryushana Festival
+	type = character_event
+	title = dharma_jainism.0150.t
+	desc = dharma_jainism.0150.desc
+	theme = friendly
+	
+	left_portrait = root
+	
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		# Stop characters from planning multiple activities at once.
+		add_character_flag = planning_an_activity
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0150.a
+		# Choose appropriate location
+		scope:capital_province = {	
+			spawn_activity = {
+				owner = root
+				type = activity_dharma_paryushana_festival
+			}	
+		}
+		trigger_event = { id = dharma_jainism.0153	days = { 2 5 }	}
+	}
+}
+dharma_jainism.108 = {# Inviting the Monks and community for the festival
+	type = character_event
+	title = dharma_jainism.0151.t
+	desc = dharma_jainism.0151.desc
+	theme = realm
+	override_icon = { reference = "gfx/interface/icons/event_types/type_illness.dds" }
+	
+	right_portrait = root
+	
+	option = { # time to invite the local monks
+		name = dharma_jainism.0151.a
+		add_piety = 50
+		add_prestige = -50
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+		}
+		trigger_event = { id = dharma_jainism.0153	days = { 2 5 }	}
+	}	
+}
+dharma_jainism.109 = {# Paryushana begins - Fasting Begins
+	type = character_event
+	title = dharma_jainism.0152.t
+	desc = {
+		desc = dharma_jainism.0152.desc
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_attend_paryushana_festival_digambara_desc
+			}
+			desc = dharma_attend_paryushana_festival_desc
+		}
+	}
+	theme = RICE_theme_pamir_valley
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	option = {# The fast begins
+		name = dharma_jainism.0152.a
+		add_character_modifier = {
+			modifier = dharma_fasting_modifier
+			days = 12
+		}
+		trigger_event = {
+			id = dharma_jainism.0153
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.110 = {# Reading from the Holy Texts 
+	type = character_event
+	title = dharma_jainism.0153.t
+	desc = {
+		desc = dharma_jainism.0152.desc
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_attend_paryushana_festival_digambara_desc
+			}
+			desc = dharma_attend_paryushana_festival_desc
+		}
+	}
+	theme = RICE_theme_tibet_inner_altar_feast
+	
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	option = {# holy texts
+		name = dharma_jainism.0153.a
+		add_prestige = 30
+		add_diplomacy_lifestyle_xp = medium_lifestyle_xp
+		trigger_event = {
+			id = dharma_jainism.0154
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.111 = {# Procession to the main Jain temple
+	type = character_event
+	title = dharma_jainism.0154.t
+	desc = dharma_jainism.0154.desc
+	theme = RICE_theme_tibet_inner_altar
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	option = {# Sheepdogs
+		name = dharma_jainism.0154.a
+		add_piety = 50
+		add_prestige = -50
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+		}
+		trigger_event = {
+			id = dharma_jainism.0155
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.112 = {# Das Dharma - 10 Great Virtues
+	type = character_event
+	title = dharma_jainism.0155.t
+	desc = dharma_jainism.0155.desc
+	theme = RICE_theme_pamir_valley
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	option = {# Ahimsa
+		name = dharma_jainism.007.ahimsa
+		add_character_modifier = {
+			modifier = jain_vow_ahimsa
+			days = 100
+		}
+	}
+	option = {# Satya
+		name = dharma_jainism.007.satya
+		add_character_modifier = {
+			modifier = jain_vow_satya
+			days = 100
+		}
+	}
+	option = {# Asteya
+		name = dharma_jainism.007.asteya
+		add_character_modifier = {
+			modifier = jain_vow_asteya
+			days = 100
+		}
+	}
+	option = {# Aparigraha
+		name = dharma_jainism.007.aparigraha
+		add_character_modifier = {
+			modifier = jain_vow_aparigraha
+			days = 100
+		}
+	}
+	option = {# Brahamacarya
+		name = dharma_jainism.007.brahmacarya
+		add_character_modifier = {
+			modifier = jain_vow_brahamacarya
+			days = 100
+		}
+	}
+}
+dharma_jainism.113 = {# Dhoop Dashami/ Sugandh Dashami - burning of the inceses to burn karma away
+	type = character_event
+	title = dharma_jainism.0156.t
+	desc = dharma_jainism.0156.desc
+	theme = RICE_theme_tibet_inner_altar
+	
+	left_portrait = {
+		character = root
+		animation = personality_compassionate
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					any_child = {
+						age >= 6
+						age <= 8					
+					}
+					any_child = {
+						age >= 9
+						age <= 13
+						is_female = no
+					}
+				}
+			}
+			add_character_flag = RICE_pamir_chawmos_has_kid
+			every_child = {
+				limit = {
+					age >= 6
+					age <= 8				
+				}
+				add_character_modifier = {
+					modifier = RICE_pamir_chailaksambaik
+					years = 3
+				}
+			}
+			every_child = {
+				limit = {
+					age >= 9
+					age <= 13
+					is_female = no				
+				}
+				add_character_modifier = {
+					modifier = RICE_pamir_butsambaik
+					years = 3
+				}
+			}
+		}
+	}
+	
+	option = {# Ok
+		name = dharma_jainism.0156.a
+		add_piety = 50
+		add_prestige = -50
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+			callous = minor_stress_impact_gain
+		}
+		trigger_event = {
+			id = dharma_jainism.0157
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.114 = {# pratikramana - Meditation
+	type = character_event
+	title = dharma_jainism.0157.t
+	desc = dharma_jainism.0157.desc
+	theme = RICE_theme_desert_night
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0157.a
+		add_piety = 50
+		add_prestige = -50
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+			callous = minor_stress_impact_gain
+		}
+		trigger_event = {
+			id = dharma_jainism.0158
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.115 = {# Paryushana asking for forgiveness
+	type = character_event
+	title = dharma_jainism.0159.t
+	desc = dharma_jainism.0159.desc
+	theme = RICE_theme_pamir_valley
+	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0159.a
+		add_piety = 50
+		add_prestige = -50
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+			callous = minor_stress_impact_gain
+		}
+		trigger_event = {
+			id = dharma_jainism.0160
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.116 = {# Paryushana concludes
+	type = character_event
+	title = dharma_jainism.0160.t
+	desc = dharma_jainism.0156.desc
+	theme = RICE_theme_pamir_valley
+	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0160.a
+		add_piety = 50
+		add_prestige = -50
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+			callous = minor_stress_impact_gain
+		}
+		add_character_modifier = {
+			modifier = exhausted_modifier
+			days = 11
+		}
+		hidden_effect = { trigger_event = { id = dharma_jainism.0161 days = 1 } }
 
+	}
+}
+dharma_jainism.117 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		scope:activity = {
+			complete_activity = yes
+		}
+	}
+}
 #######################################
 # Mahavir Janma Kalyanak Festival
 #######################################
+dharma_jainism.0150 = {# Prepare for the Chawmos Festival
+	type = character_event
+	title = dharma_jainism.0150.t
+	desc = dharma_jainism.0150.desc
+	theme = friendly
+	
+	left_portrait = root
+	
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		# Stop characters from planning multiple activities at once.
+		add_character_flag = planning_an_activity
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0150.a
+		# Choose appropriate location
+		scope:capital_province = {	
+			spawn_activity = {
+				owner = root
+				type = activity_pamir_chawmos_festival
+			}	
+		}
+	}
+}
+dharma_jainism.0151 = {# Inviting those who are mourning back into the community
+	type = character_event
+	title = dharma_jainism.0151.t
+	desc = dharma_jainism.0151.desc
+	theme = realm
+	override_icon = { reference = "gfx/interface/icons/event_types/type_illness.dds" }
+	
+	right_portrait = root
+	
+	option = { # Yes
+		name = dharma_jainism.0151.a
+		add_piety = 50
+		add_prestige = -50
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+			callous = minor_stress_impact_gain
+		}
+	}	
+	option = { # No
+		name = dharma_jainism.0151.b
+		add_piety = -50
+		stress_impact = {
+			zealous = minor_stress_impact_gain
+			humble = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			gregarious = minor_stress_impact_gain
+		}
+	}
+}
+dharma_jainism.0152 = {# Chawmos begins - Sarazari ritual
+	type = character_event
+	title = dharma_jainism.0152.t
+	desc = {
+		desc = dharma_jainism.0152.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_character_flag = RICE_pamir_chawmos_boys_win
+				}
+				desc = dharma_jainism.0152.desc.boy
+			}
+			triggered_desc = {
+				trigger = {
+					has_character_flag = RICE_pamir_chawmos_girls_win
+				}
+				desc = dharma_jainism.0152.desc.girl
+			}
+		}
+	}
+	theme = RICE_theme_pamir_valley
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	immediate = {
+		random_list = {
+			1 = { add_character_flag = RICE_pamir_chawmos_boys_win }
+			1 = { add_character_flag = RICE_pamir_chawmos_girls_win }
+		}
+	}
+	
+	option = { # Small
+		name = dharma_jainism.0152.a
+		trigger_event = {
+			id = dharma_jainism.0153
+			days = { 2 5 }
+		}
+	}
+	
+	after = {
+		if = {
+			limit = {
+				has_character_flag = RICE_pamir_chawmos_boys_win
+			}
+			remove_character_flag = RICE_pamir_chawmos_boys_win
+		}
+		if = {
+			limit = {
+				has_character_flag = RICE_pamir_chawmos_girls_win
+			}
+			remove_character_flag = RICE_pamir_chawmos_girls_win
+		}		
+	}
+}
+dharma_jainism.0153 = {# Kuta’mru - making sculptures from flour
+	type = character_event
+	title = dharma_jainism.0153.t
+	desc = dharma_jainism.0153.desc
+	theme = RICE_theme_tibet_inner_altar_feast
+	
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	option = { # Sheepdogs
+		name = dharma_jainism.0153.a
+		add_prestige = 30
+		add_diplomacy_lifestyle_xp = medium_lifestyle_xp
+		trigger_event = {
+			id = dharma_jainism.0154
+			days = { 2 5 }
+		}
+	}	
+	option = { # Wild stags
+		name = dharma_jainism.0153.b
+		add_prestige = 20
+		add_piety = 10
+		add_martial_lifestyle_xp = medium_lifestyle_xp
+		trigger_event = {
+			id = dharma_jainism.0154
+			days = { 2 5 }
+		}
+	}	
+	option = { # Cows
+		name = dharma_jainism.0153.c
+		add_prestige = 15
+		add_piety = 15
+		add_stewardship_lifestyle_xp = medium_lifestyle_xp
+		trigger_event = {
+			id = dharma_jainism.0154
+			days = { 2 5 }
+		}
+	}	
+	option = { # Shepards
+		name = dharma_jainism.0153.d
+		add_piety = 20
+		add_prestige = 10
+		add_intrigue_lifestyle_xp = medium_lifestyle_xp
+		trigger_event = {
+			id = dharma_jainism.0154
+			days = { 2 5 }
+		}
+	}	
+	option = { # Goats
+		name = dharma_jainism.0153.e
+		add_piety = 30
+		add_learning_lifestyle_xp = medium_lifestyle_xp
+		trigger_event = {
+			id = dharma_jainism.0154
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.0154 = {# Madahik - food for the dead
+	type = character_event
+	title = dharma_jainism.0154.t
+	desc = dharma_jainism.0154.desc
+	theme = RICE_theme_tibet_inner_altar
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	option = { # Sheepdogs
+		name = dharma_jainism.0154.a
+		trigger_event = {
+			id = dharma_jainism.0155
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.0155 = {# Sawelik Hari - ridding of useless possessions, and theatrical performance of recent events
+	type = character_event
+	title = dharma_jainism.0155.t
+	desc = dharma_jainism.0155.desc
+	theme = RICE_theme_pamir_valley
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	option = { # Things you did
+		name = dharma_jainism.0155.a
+		add_prestige = 15
+		add_piety = 15
+		trigger_event = {
+			id = dharma_jainism.0156
+			days = { 2 5 }
+		}
+	}	
+	option = { # Stuff villagers did
+		name = dharma_jainism.0155.b
+		add_piety = 30
+		trigger_event = {
+			id = dharma_jainism.0156
+			days = { 2 5 }
+		}
+	}	
+	option = { # Faraway events
+		name = dharma_jainism.0155.c
+		add_prestige = 30
+		trigger_event = {
+			id = dharma_jainism.0156
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.0156 = {# Goshnik - children are welcomed into the religion
+	type = character_event
+	title = dharma_jainism.0156.t
+	desc = {
+		desc = dharma_jainism.0156.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_character_flag = RICE_pamir_chawmos_has_kid
+				}
+				desc = dharma_jainism.0156.desc.child
+			}
+		}
+	}
+	theme = RICE_theme_tibet_inner_altar
+	
+	left_portrait = {
+		character = root
+		animation = personality_compassionate
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					any_child = {
+						age >= 6
+						age <= 8					
+					}
+					any_child = {
+						age >= 9
+						age <= 13
+						is_female = no
+					}
+				}
+			}
+			add_character_flag = RICE_pamir_chawmos_has_kid
+			every_child = {
+				limit = {
+					age >= 6
+					age <= 8				
+				}
+				add_character_modifier = {
+					modifier = RICE_pamir_chailaksambaik
+					years = 3
+				}
+			}
+			every_child = {
+				limit = {
+					age >= 9
+					age <= 13
+					is_female = no				
+				}
+				add_character_modifier = {
+					modifier = RICE_pamir_butsambaik
+					years = 3
+				}
+			}
+		}
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0156.a
+		trigger_event = {
+			id = dharma_jainism.0157
+			days = { 2 5 }
+		}
+	}
+	after = {
+		if = {
+			limit = {
+				has_character_flag = RICE_pamir_chawmos_has_kid
+			}
+			remove_character_flag = RICE_pamir_chawmos_has_kid
+		}	
+	}
+}
+dharma_jainism.0157 = {# Ghona Chanja - Balumain comes down to visit
+	type = character_event
+	title = dharma_jainism.0157.t
+	desc = dharma_jainism.0157.desc
+	theme = RICE_theme_desert_night
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0157.a
+		trigger_event = {
+			id = dharma_jainism.0158
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.0158 = {# Lawak Bii’rik - what does the fox say?
+	type = character_event
+	title = dharma_jainism.0158.t
+	desc = dharma_jainism.0158.desc
+	theme = RICE_theme_pamir_road
+	
+	left_portrait = {
+		character = root
+		animation = personality_content
+	}
+	
+	#immediate = {
+	#	capital_province = { save_scope_as = capital_province } #For loc.	
+	#}
+	
+	option = { # Ok
+		name = dharma_jainism.0158.a
+		random_list = {
+			10 = {
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = dharma_jainism.0158.toast.good
+					capital_county = {
+						add_county_modifier = {
+							modifier = RICE_pamir_chawmos_fox_good
+							years = 3
+						}		
+					}
+				}			
+			}
+			25 = {
+				send_interface_toast = {
+					left_icon = ROOT
+					title = dharma_jainism.0158.toast.neutral
+				}			
+			}
+			10 = {
+				send_interface_toast = {
+					type = event_toast_effect_bad
+					left_icon = ROOT
+					title = dharma_jainism.0158.toast.bad
+					capital_county = {
+						add_county_modifier = {
+							modifier = RICE_pamir_chawmos_fox_bad
+							years = 3
+						}		
+					}
+				}			
+			}
+		}
+		trigger_event = {
+			id = dharma_jainism.0159
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.0159 = {# Chawmos final dance
+	type = character_event
+	title = dharma_jainism.0159.t
+	desc = dharma_jainism.0159.desc
+	theme = RICE_theme_pamir_valley
+	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0159.a
+		trigger_event = {
+			id = dharma_jainism.0160
+			days = { 2 5 }
+		}
+	}
+}
+dharma_jainism.0160 = {# Chawmos concludes
 
-
-
-
-
+	type = character_event
+	title = dharma_jainism.0160.t
+	desc = dharma_jainism.0160.desc
+	theme = RICE_theme_pamir_valley
+	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = { # Ok
+		name = dharma_jainism.0160.a
+		add_character_modifier = {
+			modifier = RICE_pamir_recently_organized_chawmos
+			years = 3
+		}
+		trigger_event = {
+			id = dharma_jainism.0161
+			days = 1
+		}
+	}
+}
+dharma_jainism.0161 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		scope:activity = {
+			complete_activity = yes
+		}
+	}
+}
 
 
 
