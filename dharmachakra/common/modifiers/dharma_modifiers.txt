@@ -91,54 +91,7 @@ buddhist_deity_vajrayogini = {# Vajrayogini
 	health = 0.25
 	diplomacy = 2
 }
-##########################################
-# Vajarayana and Mahayana Buddhist Deities
-##########################################
-buddhist_deity_guanyin = {# Guanyin
-	icon = diplomacy_positive
-	learning = 2
-	diplomacy = 2
-}
-buddhist_deity_mahasthamaprapta = {# Mahasthamaprapta
-	icon = diplomacy_positive
-	learning = 2
-	monthly_piety_gain_mult = 0.2
-}
-buddhist_deity_ksitigarbha = {# Ksitigarbha
-	icon = diplomacy_positive
-	monthly_piety_gain_mult = 0.1
-	diplomacy = 2
-}
-buddhist_deity_bhaisajyaguru = {# Bhaisajyaguru
-	icon = diplomacy_positive
-	health = 0.25
-	stress_gain_mult = -0.12
-}
-buddhist_deity_vasudhara = {# Vasudhara
-	icon = diplomacy_positive
-	domain_tax_same_faith_mult = 0.1
-	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
-}
-buddhist_deity_vajrapani = {# Vajrapani
-	icon = diplomacy_positive
-	martial = 1
-	monthly_prestige_gain_mult = 0.2
-}
-buddhist_deity_manjushri = {# Manjushri
-	icon = diplomacy_positive
-	vassal_opinion = 5
-	monthly_piety_gain_mult = 0.2
-}
-buddhist_deity_samantabhadra = {# Samantabhadra
-	icon = diplomacy_positive
-	learning = 2
-	monthly_prestige_gain_mult = 0.2
-}
-buddhist_deity_ratnasambhava = {# Ratnasambhava
-	icon = diplomacy_positive
-	county_opinion_add = 5
-	controlled_province_advantage = 1
-}
+
 ##########################################
 # Burmese Deities - Ari
 ##########################################

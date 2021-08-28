@@ -378,7 +378,7 @@ dharma_attend_mahamastakabhisheka_festival = {# Jain Mahamastakabhisheka festiva
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_ahamastakabhisheka_festival_effect_tooltip
+		custom_tooltip = dharma_attend_mahamastakabhisheka_festival_effect_tooltip
 		trigger_event = { id = pamir.0150 }
 	}
 
