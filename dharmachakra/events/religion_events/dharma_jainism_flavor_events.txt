@@ -618,8 +618,25 @@ dharma_jainism.106 = {# Misc cleanup
 #######################################
 dharma_jainism.107 = {# Prepare for the Paryushana Festival
 	type = character_event
-	title = dharma_jainism.0150.t
-	desc = dharma_jainism.0150.desc
+	title = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.107.digambara.title
+			}
+			desc = dharma_jainism.107.svetembara.title
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.107.digambara.desc
+			}
+			desc = dharma_jainism.107.svetembara.desc
+		}
+	}
+
 	theme = friendly
 	
 	left_portrait = root
@@ -631,7 +648,7 @@ dharma_jainism.107 = {# Prepare for the Paryushana Festival
 	}
 	
 	option = { # Ok
-		name = dharma_jainism.0150.a
+		name = dharma_jainism.107.a
 		# Choose appropriate location
 		scope:capital_province = {	
 			spawn_activity = {
@@ -639,40 +656,47 @@ dharma_jainism.107 = {# Prepare for the Paryushana Festival
 				type = activity_dharma_paryushana_festival
 			}	
 		}
-		trigger_event = { id = dharma_jainism.0153	days = { 2 5 }	}
+		trigger_event = { id = dharma_jainism.108	days = { 2 5 }	}
 	}
 }
 dharma_jainism.108 = {# Inviting the Monks and community for the festival
 	type = character_event
-	title = dharma_jainism.0151.t
-	desc = dharma_jainism.0151.desc
+	title = dharma_jainism.108.t
+	desc = dharma_jainism.108.desc
 	theme = realm
 	override_icon = { reference = "gfx/interface/icons/event_types/type_illness.dds" }
 	
 	right_portrait = root
 	
 	option = { # time to invite the local monks
-		name = dharma_jainism.0151.a
+		name = dharma_jainism.108.a
 		add_piety = 50
 		add_prestige = -50
 		stress_impact = {
 			shy = minor_stress_impact_gain
 			cynical = minor_stress_impact_gain
 		}
-		trigger_event = { id = dharma_jainism.0153	days = { 2 5 }	}
+		trigger_event = { id = dharma_jainism.109	days = { 2 5 }	}
 	}	
 }
 dharma_jainism.109 = {# Paryushana begins - Fasting Begins
 	type = character_event
-	title = dharma_jainism.0152.t
-	desc = {
-		desc = dharma_jainism.0152.desc
+	title = {
 		first_valid = {
 			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
 				trigger = { faith = faith:digambara }
-				desc = dharma_attend_paryushana_festival_digambara_desc
+				desc = dharma_jainism.109.digambara.title
 			}
-			desc = dharma_attend_paryushana_festival_desc
+			desc = dharma_jainism.109.svetembara.title
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.109.digambara.desc
+			}
+			desc = dharma_jainism.109.svetembara.desc
 		}
 	}
 	theme = RICE_theme_pamir_valley
@@ -683,28 +707,27 @@ dharma_jainism.109 = {# Paryushana begins - Fasting Begins
 	}
 	
 	option = {# The fast begins
-		name = dharma_jainism.0152.a
+		name = dharma_jainism.109.a
 		add_character_modifier = {
 			modifier = dharma_fasting_modifier
 			days = 12
 		}
 		trigger_event = {
-			id = dharma_jainism.0153
+			id = dharma_jainism.110
 			days = { 2 5 }
 		}
 	}
 }
 dharma_jainism.110 = {# Reading from the Holy Texts 
 	type = character_event
-	title = dharma_jainism.0153.t
+	title = dharma_jainism.110.t
 	desc = {
-		desc = dharma_jainism.0152.desc
 		first_valid = {
 			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
 				trigger = { faith = faith:digambara }
-				desc = dharma_attend_paryushana_festival_digambara_desc
+				desc = dharma_jainism.110.digambara.desc
 			}
-			desc = dharma_attend_paryushana_festival_desc
+			desc = dharma_jainism.110.svetembara.desc
 		}
 	}
 	theme = RICE_theme_tibet_inner_altar_feast
@@ -715,19 +738,27 @@ dharma_jainism.110 = {# Reading from the Holy Texts
 	}
 	
 	option = {# holy texts
-		name = dharma_jainism.0153.a
+		name = dharma_jainism.110.a
 		add_prestige = 30
 		add_diplomacy_lifestyle_xp = medium_lifestyle_xp
 		trigger_event = {
-			id = dharma_jainism.0154
+			id = dharma_jainism.111
 			days = { 2 5 }
 		}
 	}
 }
 dharma_jainism.111 = {# Procession to the main Jain temple
 	type = character_event
-	title = dharma_jainism.0154.t
-	desc = dharma_jainism.0154.desc
+	title = dharma_jainism.111.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.111.digambara.desc
+			}
+			desc = dharma_jainism.111.svetembara.desc
+		}
+	}
 	theme = RICE_theme_tibet_inner_altar
 	
 	left_portrait = {
@@ -736,7 +767,7 @@ dharma_jainism.111 = {# Procession to the main Jain temple
 	}
 	
 	option = {# Sheepdogs
-		name = dharma_jainism.0154.a
+		name = dharma_jainism.111.a
 		add_piety = 50
 		add_prestige = -50
 		stress_impact = {
@@ -744,15 +775,23 @@ dharma_jainism.111 = {# Procession to the main Jain temple
 			cynical = minor_stress_impact_gain
 		}
 		trigger_event = {
-			id = dharma_jainism.0155
+			id = dharma_jainism.112
 			days = { 2 5 }
 		}
 	}
 }
-dharma_jainism.112 = {# Das Dharma - 10 Great Virtues
+dharma_jainism.112 = {# Das Dharma - 5 Great vows
 	type = character_event
-	title = dharma_jainism.0155.t
-	desc = dharma_jainism.0155.desc
+	title = dharma_jainism.112.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.112.digambara.desc
+			}
+			desc = dharma_jainism.112.svetembara.desc
+		}
+	}
 	theme = RICE_theme_pamir_valley
 	
 	left_portrait = {
@@ -761,45 +800,81 @@ dharma_jainism.112 = {# Das Dharma - 10 Great Virtues
 	}
 	
 	option = {# Ahimsa
-		name = dharma_jainism.007.ahimsa
+		name = dharma_jainism.112.ahimsa
 		add_character_modifier = {
 			modifier = jain_vow_ahimsa
 			days = 100
 		}
+		trigger_event = {
+			id = dharma_jainism.113
+			days = { 2 5 }
+		}
 	}
 	option = {# Satya
-		name = dharma_jainism.007.satya
+		name = dharma_jainism.112.satya
 		add_character_modifier = {
 			modifier = jain_vow_satya
 			days = 100
 		}
+		trigger_event = {
+			id = dharma_jainism.113
+			days = { 2 5 }
+		}
 	}
 	option = {# Asteya
-		name = dharma_jainism.007.asteya
+		name = dharma_jainism.112.asteya
 		add_character_modifier = {
 			modifier = jain_vow_asteya
 			days = 100
 		}
+		trigger_event = {
+			id = dharma_jainism.113
+			days = { 2 5 }
+		}
 	}
 	option = {# Aparigraha
-		name = dharma_jainism.007.aparigraha
+		name = dharma_jainism.112.aparigraha
 		add_character_modifier = {
 			modifier = jain_vow_aparigraha
 			days = 100
 		}
+		trigger_event = {
+			id = dharma_jainism.113
+			days = { 2 5 }
+		}
 	}
 	option = {# Brahamacarya
-		name = dharma_jainism.007.brahmacarya
+		name = dharma_jainism.112.brahmacarya
 		add_character_modifier = {
 			modifier = jain_vow_brahamacarya
 			days = 100
+		}
+		trigger_event = {
+			id = dharma_jainism.113
+			days = { 2 5 }
 		}
 	}
 }
 dharma_jainism.113 = {# Dhoop Dashami/ Sugandh Dashami - burning of the inceses to burn karma away
 	type = character_event
-	title = dharma_jainism.0156.t
-	desc = dharma_jainism.0156.desc
+	title = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.113.digambara.title
+			}
+			desc = dharma_jainism.113.svetembara.title
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.113.digambara.desc
+			}
+			desc = dharma_jainism.113.svetembara.desc
+		}
+	}
 	theme = RICE_theme_tibet_inner_altar
 	
 	left_portrait = {
@@ -848,7 +923,7 @@ dharma_jainism.113 = {# Dhoop Dashami/ Sugandh Dashami - burning of the inceses 
 	}
 	
 	option = {# Ok
-		name = dharma_jainism.0156.a
+		name = dharma_jainism.113.a
 		add_piety = 50
 		add_prestige = -50
 		stress_impact = {
@@ -858,15 +933,23 @@ dharma_jainism.113 = {# Dhoop Dashami/ Sugandh Dashami - burning of the inceses 
 			callous = minor_stress_impact_gain
 		}
 		trigger_event = {
-			id = dharma_jainism.0157
+			id = dharma_jainism.114
 			days = { 2 5 }
 		}
 	}
 }
 dharma_jainism.114 = {# Paryushana asking for forgiveness
 	type = character_event
-	title = dharma_jainism.0159.t
-	desc = dharma_jainism.0159.desc
+	title = dharma_jainism.114.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.114.digambara.desc
+			}
+			desc = dharma_jainism.114.svetembara.desc
+		}
+	}
 	theme = RICE_theme_pamir_valley
 	
 	left_portrait = {
@@ -875,7 +958,7 @@ dharma_jainism.114 = {# Paryushana asking for forgiveness
 	}
 	
 	option = { # Ok
-		name = dharma_jainism.0159.a
+		name = dharma_jainism.114.a
 		add_piety = 50
 		add_prestige = -50
 		stress_impact = {
@@ -885,15 +968,31 @@ dharma_jainism.114 = {# Paryushana asking for forgiveness
 			callous = minor_stress_impact_gain
 		}
 		trigger_event = {
-			id = dharma_jainism.0160
+			id = dharma_jainism.115
 			days = { 2 5 }
 		}
 	}
 }
 dharma_jainism.115 = {# Paryushana concludes
 	type = character_event
-	title = dharma_jainism.0160.t
-	desc = dharma_jainism.0156.desc
+	title = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.115.digambara.title
+			}
+			desc = dharma_jainism.115.svetembara.title
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_jainism.115.digambara.desc
+			}
+			desc = dharma_jainism.115.svetembara.desc
+		}
+	}
 	theme = RICE_theme_pamir_valley
 	
 	left_portrait = {
@@ -902,7 +1001,7 @@ dharma_jainism.115 = {# Paryushana concludes
 	}
 	
 	option = { # Ok
-		name = dharma_jainism.0160.a
+		name = dharma_jainism.115.a
 		add_piety = 50
 		add_prestige = -50
 		stress_impact = {
@@ -915,7 +1014,7 @@ dharma_jainism.115 = {# Paryushana concludes
 			modifier = exhausted_modifier
 			days = 11
 		}
-		hidden_effect = { trigger_event = { id = dharma_jainism.0161 days = 1 } }
+		hidden_effect = { trigger_event = { id = dharma_jainism.116 days = 1 } }
 
 	}
 }
