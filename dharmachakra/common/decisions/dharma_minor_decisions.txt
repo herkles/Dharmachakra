@@ -453,45 +453,4 @@ dharma_attend_paryushana_festival = {# Jain Paryushana festival
 		base = 50
 	}
 }
-dharma_attend_mahavira_festival = {# Jain Mahavir Janma Kalyanak festival
-	picture = "gfx/interface/illustrations/decisions/dharma_decision_jain_festival.dds" 
-	ai_check_interval = 24
-	cooldown = { days = 4380 } # It is a 12 year festival
-	desc = dharma_attend_mahavira_festival_desc
-	
-	is_shown = {
-		is_ruler = yes
-		is_landed = yes
-		religion = religion:jainism_religion
-	}
-	
-	is_valid = {
-		religion = religion:jainism_religion
-		custom_description = {
-			text = dharma_decision_mahavira_month_requirement
-			current_month >= 3
-			current_month <= 4
-		}
-	}
-	
-	is_valid_showing_failures_only = {
-		is_available_adult = yes
-	}
 
-	effect = {
-		custom_tooltip = dharma_attend_mahavira_festival_effect_tooltip
-		trigger_event = { id = pamir.0150 }
-	}
-
-	cost = { 
-		gold = { value = medium_gold_value } # Will depend
-	}	
-
-	ai_potential = {
-		short_term_gold > medium_gold_value
-	}
-
-	ai_will_do = {
-		base = 30
-	}
-}
