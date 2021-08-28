@@ -863,34 +863,7 @@ dharma_jainism.113 = {# Dhoop Dashami/ Sugandh Dashami - burning of the inceses 
 		}
 	}
 }
-dharma_jainism.114 = {# pratikramana - Meditation
-	type = character_event
-	title = dharma_jainism.0157.t
-	desc = dharma_jainism.0157.desc
-	theme = RICE_theme_desert_night
-	
-	left_portrait = {
-		character = root
-		animation = personality_zealous
-	}
-	
-	option = { # Ok
-		name = dharma_jainism.0157.a
-		add_piety = 50
-		add_prestige = -50
-		stress_impact = {
-			shy = minor_stress_impact_gain
-			cynical = minor_stress_impact_gain
-			arrogant = minor_stress_impact_gain
-			callous = minor_stress_impact_gain
-		}
-		trigger_event = {
-			id = dharma_jainism.0158
-			days = { 2 5 }
-		}
-	}
-}
-dharma_jainism.115 = {# Paryushana asking for forgiveness
+dharma_jainism.114 = {# Paryushana asking for forgiveness
 	type = character_event
 	title = dharma_jainism.0159.t
 	desc = dharma_jainism.0159.desc
@@ -917,7 +890,7 @@ dharma_jainism.115 = {# Paryushana asking for forgiveness
 		}
 	}
 }
-dharma_jainism.116 = {# Paryushana concludes
+dharma_jainism.115 = {# Paryushana concludes
 	type = character_event
 	title = dharma_jainism.0160.t
 	desc = dharma_jainism.0156.desc
@@ -946,7 +919,7 @@ dharma_jainism.116 = {# Paryushana concludes
 
 	}
 }
-dharma_jainism.117 = {# Misc cleanup
+dharma_jainism.116 = {# Misc cleanup
 	hidden = yes	
 	immediate = {
 		scope:activity = {
