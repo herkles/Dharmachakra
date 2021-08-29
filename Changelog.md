@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.3.1 "Varaha" (Released 24/08/2021)
+## Latest Version: 1.3.2 "Varaha" (Released 24/08/2021)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -8,10 +8,10 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- included RICE files for better compatiablity
-- Bhakti is known as patron gods for non hindus
-- Added some new loading screens
-- localization bug fixes
+- bug fixes
+- Mahayana and Vajarayana Buddhists can now devote themselves to a Buddha or Boddhisattva
+- Jains can now celebrate the the Paryushana and Mahamastakabhisheka festivals
+- the Gommateshwara Statue can now be built
 
 ## Manual Installation Steps
 

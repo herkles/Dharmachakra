@@ -1,0 +1,56 @@
+﻿#######################################
+# General Decisions
+#######################################
+dharma_rebuild_grand_trunk_road_decision = {# Build the Grand Trunk Road
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	major = yes
+	ai_check_interval = 120
+	desc = dharma_rebuild_grand_trunk_road_desc
+
+	is_shown = {
+		capital_province = { geographical_region = world_india	} 
+		highest_held_title_tier >= tier_duchy
+		# The Grand Trunk Road is completed
+	}
+
+	is_valid = {
+		completely_controls_region = custom_ganges_plain
+		custom_description = {
+			text = capital_province_in_ganges_region
+			capital_province = { geographical_region = custom_ganges_plain }
+		}
+		prestige_level >= 3
+		has_innovation = innovation_development_01
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+	}
+
+	cost = {
+		gold = { value = major_gold_value } # this is expensive and is only going to get expensive from here.
+	}
+
+	effect = {
+		custom_tooltip = dharma_grand_trunk_road_tooltip
+		trigger_event = dharma_trunk.001
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#######################################
+# Hindu Decisions
+#######################################
+
+#######################################
+# Buddhist Decisions
+#######################################
+
+#######################################
+# Jain Decisions
+#######################################
+
+

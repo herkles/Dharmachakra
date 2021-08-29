@@ -73,6 +73,11 @@
  hold_vedic_sacrifice_decision_tt:0 "You invite your subjects to partake in a sacred, and costly, ritual"
  hold_vedic_sacrifice_decision_confirm:0 "In death, rebirth."
 
-
-
+#######################################
+# Major General Decisions
+#######################################
+ dharma_rebuild_grand_trunk_road_decision:0 "Rebuild the Grand Trunk Road"
+ dharma_rebuild_grand_trunk_road_desc:0 "The ancient Grand Trunk Road, also known Uttarapatha, was built by the ancient Mauryan empire. By now though very little remains of that once vital road in the north of India. However a ruler with the money and vision could rebuild such ancient road. "
+ dharma_grand_trunk_road_tooltip:0 "You will start constructing the Grand Trunk Road. Your advisors tell you it will not come cheap."
+  buddhist_retreat_decision_confirm:0 "Let us rebuild the Road!"
 
