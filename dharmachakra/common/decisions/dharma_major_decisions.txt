@@ -20,7 +20,21 @@ dharma_rebuild_grand_trunk_road_decision = {# Build the Grand Trunk Road
 			capital_province = { geographical_region = custom_ganges_plain }
 		}
 		prestige_level >= 3
-		has_innovation = innovation_development_01
+		culture = { has_innovation = innovation_development_01 }
+		OR = {# Must control one of the eastern end points
+			completely_controls = title:c_samatata
+			completely_controls = title:c_bikrampur
+			completely_controls = title:c_tamralipti
+			completely_controls = title:c_candradvipa
+		}
+		OR = {# Must control one of the western end points
+			completely_controls = title:c_kabul
+			completely_controls = title:c_udabhanda
+			completely_controls = title:c_bhera
+			completely_controls = title:c_lahur
+			completely_controls = title:c_delhi
+		}
+
 	}
 
 	is_valid_showing_failures_only = {

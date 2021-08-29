@@ -1,0 +1,736 @@
+﻿namespace = dharma_road
+
+
+#######################################
+#									  #
+#      Grand Trunk Road Events        #
+#									  #
+#######################################
+
+
+#######################################
+# starting the process
+#######################################
+dharma_road.001 = {# The western end point
+	type = character_event
+	title = dharma_buddhism.002.t
+	desc = dharma_buddhism.002.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Kabul shall be the end point
+		trigger = {	completely_controls = title:c_kabul	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+	option = {# Taxila shall be the end point
+		trigger = {	completely_controls = title:c_udabhanda	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+	option = {# Katasraj shall be the end point
+		trigger = {	completely_controls = title:c_bhera	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+	option = {# Lahore shall be the end point
+		trigger = {	completely_controls = title:c_lahur	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+	option = {# Delhi shall be the end point
+		trigger = {	completely_controls = title:c_delhi	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.002 = {# The eastern End point
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Chittagong shall be the end point
+		trigger = {	completely_controls = title:c_samatata	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+	option = {# Bikruampur shall be the end point
+		trigger = {	completely_controls = title:c_bikrampur	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+	option = {# Tamralipta shall be the end point
+		trigger = {	completely_controls = title:c_tamralipti	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+	option = {# Candravipa shall be the end point
+		trigger = {	completely_controls = title:c_candradvipa	} # you got to own the city to build it.
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.003 = {# Which part to start on 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# the eastern
+		name = dharma_buddhism.002.meditate
+	}
+	option = {# the western
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.004 = {# The construction begins
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+#######################################
+# main road sections
+#######################################
+dharma_road.005 = {# Construction in Vanga finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.006 = {# Construction in Suhma finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.007 = {# Construction in Nadia finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.008 = {# Construction in Gauda finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.009 = {# Construction in Chikore finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.010 = {# Construction in Kasi finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.011 = {# Construction in Kannauj finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.012 = {# Construction in Mathura finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.013 = {# Construction in Kuru finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.014 = {# Construction in Lahore Eastern finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.015 = {# Construction in Lahore Western finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.016 = {# Construction in Gandhara finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.017 = {# Construction in Kabulistan finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+#######################################
+# Optional Extensions
+#######################################
+dharma_road.018 = {# Extend the road to Ayodhya?
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.019 = {# Extend the road to Lumbini?
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.020 = {# Extend the road to Multan?
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+##### Optional completions #####
+dharma_road.021 = {# Route to Ayodhya finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.022 = {# Route to Lumbini finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.023 = {# Route to Multan finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+#######################################
+# The Road is finished
+#######################################
+dharma_road.024 = {# The construction ends
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+#######################################
+# Things to happen as you are building
+#######################################
+dharma_road.025 = {# Dealing with Bandits
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.026 = {# Event
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.027 = {# EVENT
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.028 = {# Innovations help improve the construction
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.029 = {# Corrupt officials
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.030 = {# Peasants don't want to work
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.031 = {# EVENT
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.032 = {# Planting trees
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.033 = {# Building Dharmasalas
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.034 = {# Building Stepwells
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.035 = {# Constructing Gardens
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+#######################################
+# Road Flavor(once built)
+#######################################
+dharma_road.036 = {# EVENT
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.037 = {# EVENT
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.038 = {# Town development
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.039 = {# New Town is built
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
