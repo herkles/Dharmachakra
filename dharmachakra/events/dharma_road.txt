@@ -11,7 +11,24 @@
 #######################################
 # starting the process
 #######################################
-dharma_road.001 = {# The western end point
+dharma_road.001 = {# The construction begins
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# Lets get to work
+		name = dharma_buddhism.002.meditate
+	}
+}
+dharma_road.002 = {# The western end point
 	type = character_event
 	title = dharma_buddhism.002.t
 	desc = dharma_buddhism.002.desc
@@ -26,26 +43,56 @@ dharma_road.001 = {# The western end point
 
 	option = {# Kabul shall be the end point
 		trigger = {	completely_controls = title:c_kabul	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.kabul
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_kabul_end_point
+				value = 1
+			}
+		}
 	}
 	option = {# Taxila shall be the end point
 		trigger = {	completely_controls = title:c_udabhanda	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.taxila
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_taxila_end_point
+				value = 1
+			}
+		}
 	}
 	option = {# Katasraj shall be the end point
 		trigger = {	completely_controls = title:c_bhera	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.katasraj
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_katasraj_end_point
+				value = 1
+			}
+		}
 	}
 	option = {# Lahore shall be the end point
 		trigger = {	completely_controls = title:c_lahur	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.lahore
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_lahore_end_point
+				value = 1
+			}
+		}
 	}
 	option = {# Delhi shall be the end point
 		trigger = {	completely_controls = title:c_delhi	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.delhi
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_delhi_end_point
+				value = 1
+			}
+		}
 	}
 }
-dharma_road.002 = {# The eastern End point
+dharma_road.003 = {# The eastern End point
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -60,22 +107,46 @@ dharma_road.002 = {# The eastern End point
 
 	option = {# Chittagong shall be the end point
 		trigger = {	completely_controls = title:c_samatata	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.chittagong
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_chittagong_end_point
+				value = 1
+			}
+		}
 	}
-	option = {# Bikruampur shall be the end point
+	option = {# Bikrampur shall be the end point
 		trigger = {	completely_controls = title:c_bikrampur	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.bikrampur
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_bikrampur_end_point
+				value = 1
+			}
+		}
 	}
 	option = {# Tamralipta shall be the end point
 		trigger = {	completely_controls = title:c_tamralipti	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.Tamralipta
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_tamralipta_end_point
+				value = 1
+			}
+		}
 	}
 	option = {# Candravipa shall be the end point
 		trigger = {	completely_controls = title:c_candradvipa	} # you got to own the city to build it.
-		name = dharma_buddhism.002.meditate
+		name = dharma_buddhism.002.candravipa
+		hidden_effect = {
+			set_variable = {
+				name = dharma_grand_trunk_road_candravipa_end_point
+				value = 1
+			}
+		}
 	}
 }
-dharma_road.003 = {# Which part to start on 
+dharma_road.004 = {# Which part to start on 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -95,7 +166,10 @@ dharma_road.003 = {# Which part to start on
 		name = dharma_buddhism.002.meditate
 	}
 }
-dharma_road.004 = {# The construction begins
+#######################################
+# Eastern Road end points
+#######################################
+dharma_road.005 = {# Construction in Samatata finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -108,14 +182,257 @@ dharma_road.004 = {# The construction begins
 		animation = personality_rational
 	}	
 
+	trigger = {
+		has_variable = dharma_grand_trunk_road_chittagong_end_point
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_samatata
+			}
+			#Save the scope.
+			save_scope_as = target_county_samatata
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_samatata = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.006 = {# Construction in Bikruampur finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		Not = { has_variable = dharma_grand_trunk_road_tamralipta_end_point }
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_bikrampur
+			}
+			#Save the scope.
+			save_scope_as = target_county_bikrampur
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_bikrampur = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.007 = {# Construction in Tamralipta finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		has_variable = dharma_grand_trunk_road_tamralipta_end_point
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_tamralipti
+			}
+			#Save the scope.
+			save_scope_as = target_county_tamralipti
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_tamralipti = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.008 = {# Construction in Candravipa finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		has_variable = dharma_grand_trunk_road_candravipa_end_point
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_candradvipa
+			}
+			#Save the scope.
+			save_scope_as = target_county_candravipa
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_candravipa = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+	
+}
+#######################################
+# Pala kingdom Road sections
+#######################################
+dharma_road.009 = {# Construction in Saptagrama finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_chittagong_end_point
+			has_variable = dharma_grand_trunk_road_bikrampur_end_point
+			has_variable = dharma_grand_trunk_road_candravipa_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_saptagrama
+			}
+			#Save the scope.
+			save_scope_as = target_county_saptagrama
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_saptagrama = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.010 = {# Construction in Nabadwipa finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_chittagong_end_point
+			has_variable = dharma_grand_trunk_road_bikrampur_end_point
+			has_variable = dharma_grand_trunk_road_candravipa_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_nabadwipa
+			}
+			#Save the scope.
+			save_scope_as = target_county_nabadwipa
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_nabadwipa = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.011 = {# Construction in Gauda finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_gauda
+			}
+			#Save the scope.
+			save_scope_as = target_county_gauda
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_gauda = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
 #######################################
-# main road sections
+# Bihar kingdom Road sections
 #######################################
-dharma_road.005 = {# Construction in Vanga finished 
+dharma_road.012 = {# Construction in Mudgagiri finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -128,11 +445,26 @@ dharma_road.005 = {# Construction in Vanga finished
 		animation = personality_rational
 	}	
 
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_mudgagiri
+			}
+			#Save the scope.
+			save_scope_as = target_county_mudgagiri
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_mudgagiri = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-dharma_road.006 = {# Construction in Suhma finished 
+dharma_road.013 = {# Construction in Magadha finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -145,11 +477,26 @@ dharma_road.006 = {# Construction in Suhma finished
 		animation = personality_rational
 	}	
 
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_magadha
+			}
+			#Save the scope.
+			save_scope_as = target_county_magadha
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_magadha = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-dharma_road.007 = {# Construction in Nadia finished 
+dharma_road.014 = {# Construction in Gaya finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -162,11 +509,26 @@ dharma_road.007 = {# Construction in Nadia finished
 		animation = personality_rational
 	}	
 
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_gaya
+			}
+			#Save the scope.
+			save_scope_as = target_county_gaya
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_gaya = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-dharma_road.008 = {# Construction in Gauda finished 
+dharma_road.015 = {# Construction in Sasaram finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -179,11 +541,26 @@ dharma_road.008 = {# Construction in Gauda finished
 		animation = personality_rational
 	}	
 
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_sasaram
+			}
+			#Save the scope.
+			save_scope_as = target_county_sasaram
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_sasaram = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-dharma_road.009 = {# Construction in Chikore finished 
+dharma_road.016 = {# Construction in Chunar finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -196,150 +573,29 @@ dharma_road.009 = {# Construction in Chikore finished
 		animation = personality_rational
 	}	
 
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_chunar
+			}
+			#Save the scope.
+			save_scope_as = target_county_chunar
+		}
 	}
-}
-dharma_road.010 = {# Construction in Kasi finished 
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
 
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.011 = {# Construction in Kannauj finished 
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.012 = {# Construction in Mathura finished 
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.013 = {# Construction in Kuru finished 
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.014 = {# Construction in Lahore Eastern finished 
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.015 = {# Construction in Lahore Western finished 
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.016 = {# Construction in Gandhara finished 
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.017 = {# Construction in Kabulistan finished 
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_chunar = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
 #######################################
-# Optional Extensions
+# Kosala kingdom Road sections
 #######################################
-dharma_road.018 = {# Extend the road to Ayodhya?
+dharma_road.017 = {# Construction in Prayaga finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -352,11 +608,26 @@ dharma_road.018 = {# Extend the road to Ayodhya?
 		animation = personality_rational
 	}	
 
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_prayaga
+			}
+			#Save the scope.
+			save_scope_as = target_county_prayaga
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_prayaga = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-dharma_road.019 = {# Extend the road to Lumbini?
+dharma_road.018 = {# Construction in Asni finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -369,11 +640,26 @@ dharma_road.019 = {# Extend the road to Lumbini?
 		animation = personality_rational
 	}	
 
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_asni
+			}
+			#Save the scope.
+			save_scope_as = target_county_asni
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_asni = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-dharma_road.020 = {# Extend the road to Multan?
+dharma_road.019 = {# Construction in Kanyakubja finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -386,12 +672,29 @@ dharma_road.020 = {# Extend the road to Multan?
 		animation = personality_rational
 	}	
 
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_kanyakubja
+			}
+			#Save the scope.
+			save_scope_as = target_county_kanyakbuja
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_kanyakbuja = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-##### Optional completions #####
-dharma_road.021 = {# Route to Ayodhya finished 
+#######################################
+# Delhi kingdom Road sections
+#######################################
+dharma_road.020 = {# Construction in Kol finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -404,11 +707,26 @@ dharma_road.021 = {# Route to Ayodhya finished
 		animation = personality_rational
 	}	
 
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_kol
+			}
+			#Save the scope.
+			save_scope_as = target_county_kol
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_kol = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-dharma_road.022 = {# Route to Lumbini finished 
+dharma_road.022 = {# Construction in Sthanisvara finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -421,11 +739,35 @@ dharma_road.022 = {# Route to Lumbini finished
 		animation = personality_rational
 	}	
 
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_delhi_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_sthanisvara
+			}
+			#Save the scope.
+			save_scope_as = target_county_sthanisvara
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_sthanisvara = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
-dharma_road.023 = {# Route to Multan finished 
+#######################################
+# Punjab kingdom Road sections
+#######################################
+dharma_road.023 = {# Construction in Trigarta finished 
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
@@ -438,275 +780,269 @@ dharma_road.023 = {# Route to Multan finished
 		animation = personality_rational
 	}	
 
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_delhi_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_trigarta
+			}
+			#Save the scope.
+			save_scope_as = target_county_trigarta
+		}
+	}
+
 	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
+		name = dharma_road.005.build
+		scope:target_county_trigarta = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.024 = {# Construction in Purushapura finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_delhi_end_point
+			has_variable = dharma_grand_trunk_road_lahore_end_point
+			has_variable = dharma_grand_trunk_road_katasraj_end_point
+			has_variable = dharma_grand_trunk_road_taxila_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_purushapura
+			}
+			#Save the scope.
+			save_scope_as = target_county_purushapura
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_purushapura = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+#######################################
+# Western Road end points
+#######################################
+dharma_road.025 = {# Construction in Kabul finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_delhi_end_point
+			has_variable = dharma_grand_trunk_road_lahore_end_point
+			has_variable = dharma_grand_trunk_road_katasraj_end_point
+			has_variable = dharma_grand_trunk_road_taxila_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_kabul
+			}
+			#Save the scope.
+			save_scope_as = target_county_kabul
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_kabul = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.026 = {# Construction in Udabhanda finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_delhi_end_point
+			has_variable = dharma_grand_trunk_road_lahore_end_point
+			has_variable = dharma_grand_trunk_road_katasraj_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_udabhanda
+			}
+			#Save the scope.
+			save_scope_as = target_county_udabhanda
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_udabhanda = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.027 = {# Construction in Bhera finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_delhi_end_point
+			has_variable = dharma_grand_trunk_road_lahore_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_bhera
+			}
+			#Save the scope.
+			save_scope_as = target_county_bhera
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_bhera = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.028 = {# Construction in Lahore finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	trigger = {
+		NOT = {
+			has_variable = dharma_grand_trunk_road_delhi_end_point
+		}		
+	}
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_lahur
+			}
+			#Save the scope.
+			save_scope_as = target_county_lahur
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_lahur = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
+	}
+}
+dharma_road.029 = {# Construction in Delhi finished 
+	type = character_event
+	title = dharma_buddhism.003.t
+	desc = dharma_buddhism.003.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	immediate = {
+		any_held_title = {
+			limit = {
+				title = c_delhi
+			}
+			#Save the scope.
+			save_scope_as = target_county_delhi
+		}
+	}
+
+	option = {# Lets get to work
+		name = dharma_road.005.build
+		scope:target_county_delhi = {
+			add_county_modifier = {
+				modifier = dharma_grand_trunk_road
+			}
+		}
 	}
 }
 #######################################
 # The Road is finished
 #######################################
-dharma_road.024 = {# The construction ends
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-#######################################
-# Things to happen as you are building
-#######################################
-dharma_road.025 = {# Dealing with Bandits
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.026 = {# Event
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.027 = {# EVENT
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.028 = {# Innovations help improve the construction
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.029 = {# Corrupt officials
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.030 = {# Peasants don't want to work
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.031 = {# EVENT
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.032 = {# Planting trees
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.033 = {# Building Dharmasalas
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.034 = {# Building Stepwells
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.035 = {# Constructing Gardens
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-#######################################
-# Road Flavor(once built)
-#######################################
-dharma_road.036 = {# EVENT
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.037 = {# EVENT
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.038 = {# Town development
-	type = character_event
-	title = dharma_buddhism.003.t
-	desc = dharma_buddhism.003.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
-
-	option = {# Lets get to work
-		name = dharma_buddhism.002.meditate
-	}
-}
-dharma_road.039 = {# New Town is built
+dharma_road.030 = {# The construction ends
 	type = character_event
 	title = dharma_buddhism.003.t
 	desc = dharma_buddhism.003.desc
