@@ -1,10 +1,10 @@
-﻿#Modifiers granted from pet animals
-
+﻿##########################################
+# Elephant modifiers
+##########################################
 elephant_story_riding_modifier = {
 	icon = dog_positive
 	health = 0.2
 }
-
 ##########################################
 # Hindu Deities 
 ##########################################
@@ -59,7 +59,7 @@ buddhist_deity_sherab_chamma = {# Great Wisdom Loving Mother
 	close_relative_opinion = 5
 }
 ##########################################
-# Tiobetan Deities - Buddhist
+# Tibetan Deities - Buddhist
 ##########################################
 buddhist_deity_palden_lhamo = {# Palden_Lhamo
 	icon = prowess_positive
@@ -91,7 +91,6 @@ buddhist_deity_vajrayogini = {# Vajrayogini
 	health = 0.25
 	diplomacy = 2
 }
-
 ##########################################
 # Burmese Deities - Ari
 ##########################################
@@ -233,3 +232,220 @@ jain_vow_aparigraha = {# Contemplating Aparigraha
 	monthly_income_mult = -0.1
 	monthly_piety_gain_mult = 0.2
 }
+##########################################
+# animal sacrifice Modifiers 
+##########################################
+dharma_vedic_devi_blessing_small = {
+	icon = piety_positive
+	diplomacy = 1
+	monthly_lifestyle_xp_gain_mult = 0.03
+	monthly_piety = 0.1
+}
+dharma_vedic_devi_blessing_medium = {
+	icon = piety_positive
+	diplomacy = 2
+	monthly_lifestyle_xp_gain_mult = 0.06
+	monthly_piety = 0.3
+}
+dharma_vedic_devi_blessing_large = {
+	icon = piety_positive
+	diplomacy = 3
+	monthly_lifestyle_xp_gain_mult = 0.09
+	monthly_piety = 0.5
+}
+
+dharma_vedic_durga_blessing_small = {
+	icon = piety_positive
+	martial = 1
+	build_gold_cost = -0.05
+	build_piety_cost = -0.05
+	build_prestige_cost = -0.05
+	monthly_piety = 0.1
+}
+dharma_vedic_durga_blessing_medium = {
+	icon = piety_positive
+	martial = 2
+	build_gold_cost = -0.1
+	build_piety_cost = -0.1
+	build_prestige_cost = -0.1
+	monthly_piety = 0.3
+}
+dharma_vedic_durga_blessing_large = {
+	icon = piety_positive
+	martial = 3
+	build_gold_cost = -0.15
+	build_piety_cost = -0.15
+	build_prestige_cost = -0.15
+	monthly_piety = 0.5
+}
+
+dharma_vedic_indra_blessing_small = {
+	icon = piety_positive
+	martial = 1
+	build_gold_cost = -0.05
+	build_piety_cost = -0.05
+	build_prestige_cost = -0.05
+	monthly_piety = 0.1
+}
+dharma_vedic_indra_blessing_medium = {
+	icon = piety_positive
+	martial = 2
+	build_gold_cost = -0.1
+	build_piety_cost = -0.1
+	build_prestige_cost = -0.1
+	monthly_piety = 0.3
+}
+dharma_vedic_indra_blessing_large = {
+	icon = piety_positive
+	martial = 3
+	build_gold_cost = -0.15
+	build_piety_cost = -0.15
+	build_prestige_cost = -0.15
+	monthly_piety = 0.5
+}
+
+dharma_vedic_lakshmi_blessing_small = {
+	icon = piety_positive
+	stewardship = 1
+	prowess = 1
+	monthly_piety = 0.1
+}
+dharma_vedic_lakshmi_blessing_medium = {
+	icon = piety_positive
+	stewardship = 2
+	prowess = 2
+	monthly_piety = 0.3
+}
+dharma_vedic_lakshmi_blessing_large = {
+	icon = piety_positive
+	stewardship = 3
+	prowess = 3
+	monthly_piety = 0.5
+}
+
+
+dharma_vedic_bhaga_blessing_small = {
+	icon = piety_positive
+	stewardship = 1
+	prowess = 1
+	monthly_piety = 0.1
+}
+dharma_vedic_bhaga_blessing_medium = {
+	icon = piety_positive
+	stewardship = 2
+	prowess = 2
+	monthly_piety = 0.3
+}
+dharma_vedic_bhaga_blessing_large = {
+	icon = piety_positive
+	stewardship = 3
+	prowess = 3
+	monthly_piety = 0.5
+}
+
+dharma_vedic_parvati_blessing_small = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.1
+	monthly_dynasty_prestige = 0.1
+	monthly_prestige = 0.1
+	monthly_piety = 0.1
+}
+dharma_vedic_parvati_blessing_medium = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.2
+	monthly_dynasty_prestige = 0.2
+	monthly_prestige = 0.3
+	monthly_piety = 0.3
+}
+dharma_vedic_parvati_blessing_large = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.3
+	monthly_dynasty_prestige = 0.3
+	monthly_prestige = 0.5
+	monthly_piety = 0.5
+}
+
+dharma_vedic_agni_blessing_small = {
+	icon = piety_positive
+	intrigue = 1
+	county_opinion_add = 4
+	monthly_piety = 0.1
+}
+dharma_vedic_agni_blessing_medium = {
+	icon = piety_positive
+	intrigue = 2
+	county_opinion_add = 8
+	monthly_piety = 0.3
+}
+dharma_vedic_agni_blessing_large = {
+	icon = piety_positive
+	intrigue = 3
+	county_opinion_add = 12
+	monthly_piety = 0.5
+}
+
+dharma_vedic_brhaspati_blessing_small = {
+	icon = piety_positive
+	learning = 1
+	character_capital_county_monthly_development_growth_add = 0.2
+	monthly_piety = 0.1
+}
+dharma_vedic_brhaspati_blessing_medium = {
+	icon = piety_positive
+	learning = 2
+	character_capital_county_monthly_development_growth_add = 0.4
+	monthly_piety = 0.3
+}
+dharma_vedic_brhaspati_blessing_large = {
+	icon = piety_positive
+	learning = 3
+	character_capital_county_monthly_development_growth_add = 0.6
+	monthly_piety = 0.5
+}
+
+dharma_vedic_aditi_blessing_small = {
+	icon = piety_positive
+	health = 0.1
+	fertility = 0.04
+	monthly_piety = 0.1
+}
+dharma_vedic_aditi_blessing_medium = {
+	icon = piety_positive
+	health = 0.4
+	fertility = 0.08
+	monthly_piety = 0.3
+}
+dharma_vedic_aditi_blessing_large = {
+	icon = piety_positive
+	health = 0.7
+	fertility = 0.12
+	monthly_piety = 0.5
+}
+
+dharma_vedic_parvati_blessing_small = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.1
+	monthly_dynasty_prestige = 0.1
+	monthly_prestige = 0.1
+	monthly_piety = 0.1
+}
+dharma_vedic_parvati_blessing_medium = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.2
+	monthly_dynasty_prestige = 0.2
+	monthly_prestige = 0.3
+	monthly_piety = 0.3
+}
+dharma_vedic_parvati_blessing_large = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.3
+	monthly_dynasty_prestige = 0.3
+	monthly_prestige = 0.5
+	monthly_piety = 0.5
+}
+
+
+
+
+
+
