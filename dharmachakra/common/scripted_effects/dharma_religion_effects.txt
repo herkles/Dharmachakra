@@ -326,7 +326,7 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_devi_blessing_small
 				years = 5
 			}
 		}
@@ -360,7 +360,7 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_devi_blessing_medium
 				years = 5
 			}
 		}
@@ -394,7 +394,7 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_devi_blessing_large
 				years = 5
 			}
 		}
@@ -434,7 +434,7 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_durga_blessing_small
 				years = 5
 			}
 		}
@@ -468,7 +468,7 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_durga_blessing_medium
 				years = 5
 			}
 		}
@@ -502,7 +502,7 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_durga_blessing_large
 				years = 5
 			}
 		}
@@ -542,7 +542,7 @@ dharma_vedic_indra_goat_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_indra_blessing_small
 				years = 5
 			}
 		}
@@ -576,7 +576,7 @@ dharma_vedic_indra_goat_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_indra_blessing_medium
 				years = 5
 			}
 		}
@@ -610,7 +610,7 @@ dharma_vedic_indra_goat_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_indra_blessing_large
 				years = 5
 			}
 		}
@@ -650,7 +650,7 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_lakshmi_blessing_small
 				years = 5
 			}
 		}
@@ -684,7 +684,7 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_lakshmi_blessing_medium
 				years = 5
 			}
 		}
@@ -718,7 +718,7 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_lakshmi_blessing_large
 				years = 5
 			}
 		}
@@ -758,7 +758,7 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_bhaga_blessing_small
 				years = 5
 			}
 		}
@@ -792,7 +792,7 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_bhaga_blessing_medium
 				years = 5
 			}
 		}
@@ -826,7 +826,7 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_bhaga_blessing_large
 				years = 5
 			}
 		}
@@ -866,7 +866,7 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_parvati_blessing_small
 				years = 5
 			}
 		}
@@ -900,7 +900,7 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_parvati_blessing_medium
 				years = 5
 			}
 		}
@@ -934,7 +934,7 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_parvati_blessing_large
 				years = 5
 			}
 		}
@@ -974,7 +974,7 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_agni_blessing_small
 				years = 5
 			}
 		}
@@ -1008,7 +1008,7 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_agni_blessing_medium
 				years = 5
 			}
 		}
@@ -1042,7 +1042,7 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_agni_blessing_large
 				years = 5
 			}
 		}
@@ -1082,7 +1082,7 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_brhaspati_blessing_small
 				years = 5
 			}
 		}
@@ -1116,7 +1116,7 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_brhaspati_blessing_medium
 				years = 5
 			}
 		}
@@ -1150,7 +1150,7 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_brhaspati_blessing_large
 				years = 5
 			}
 		}
@@ -1190,7 +1190,7 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 				has_character_flag = dharma_animal_sacrifice_horse
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_small
+				modifier = dharma_vedic_aditi_blessing_small
 				years = 5
 			}
 		}
@@ -1224,7 +1224,7 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 				num_virtuous_traits <= 1
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_medium
+				modifier = dharma_vedic_aditi_blessing_medium
 				years = 5
 			}
 		}
@@ -1258,7 +1258,7 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 				num_virtuous_traits <= 2
 			}
 			add_character_modifier = {
-				modifier = RICE_pamir_zun_blessing_large
+				modifier = dharma_vedic_aditi_blessing_large
 				years = 5
 			}
 		}

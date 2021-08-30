@@ -323,7 +323,6 @@ dharma_vedic_lakshmi_blessing_large = {
 	monthly_piety = 0.5
 }
 
-
 dharma_vedic_bhaga_blessing_small = {
 	icon = piety_positive
 	stewardship = 1
@@ -421,31 +420,4 @@ dharma_vedic_aditi_blessing_large = {
 	fertility = 0.12
 	monthly_piety = 0.5
 }
-
-dharma_vedic_parvati_blessing_small = {
-	icon = piety_positive
-	monthly_lifestyle_xp_gain_mult = 0.1
-	monthly_dynasty_prestige = 0.1
-	monthly_prestige = 0.1
-	monthly_piety = 0.1
-}
-dharma_vedic_parvati_blessing_medium = {
-	icon = piety_positive
-	monthly_lifestyle_xp_gain_mult = 0.2
-	monthly_dynasty_prestige = 0.2
-	monthly_prestige = 0.3
-	monthly_piety = 0.3
-}
-dharma_vedic_parvati_blessing_large = {
-	icon = piety_positive
-	monthly_lifestyle_xp_gain_mult = 0.3
-	monthly_dynasty_prestige = 0.3
-	monthly_prestige = 0.5
-	monthly_piety = 0.5
-}
-
-
-
-
-
 
