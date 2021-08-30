@@ -233,34 +233,3 @@ jain_vow_aparigraha = {# Contemplating Aparigraha
 	monthly_income_mult = -0.1
 	monthly_piety_gain_mult = 0.2
 }
-#######################################
-# Grand Trunk Road Modifiers
-#######################################
-dharma_grand_trunk_road_building01 = {# Building the Grand trunk Road
-	icon = county_modifier_development_positive
-	monthly_income_mult = -0.15
-}
-dharma_grand_trunk_road_building02 = {# Building the Grand trunk Road
-	icon = county_modifier_development_positive
-	monthly_income_mult = -0.20
-}
-dharma_grand_trunk_road_building03 = {# Building the Grand trunk Road
-	icon = county_modifier_development_positive
-	monthly_income_mult = -0.25
-}
-dharma_grand_trunk_road_building04 = {# Building the Grand trunk Road
-	icon = county_modifier_development_positive
-	monthly_income_mult = -0.30
-}
-dharma_grand_trunk_road_building05 = {# Building the Grand trunk Road
-	icon = county_modifier_development_positive
-	monthly_income_mult = -0.35
-}
-dharma_grand_trunk_road = {# The Grand trunk Road
-	icon = county_modifier_development_positive
-	development_growth_factor = medium_development_growth_gain
-	monthly_county_control_change_add = 0.1
-	county_opinion_add = 10
-	tax_mult = 0.05
-	movement_speed = 0.1
-}
