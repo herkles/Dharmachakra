@@ -53,7 +53,13 @@ asian_temple = {# Tibetan Monestary
 		ambience = "event:/SFX/Events/Backgrounds/temple_generic"
 	}
 }
-
+asian_temple = {# Tibetan Monestary
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/dharma_temple_interior.dds"
+		environment = "environment_event_temple"
+		ambience = "event:/SFX/Events/Backgrounds/temple_generic"
+	}
+}
 
 
 

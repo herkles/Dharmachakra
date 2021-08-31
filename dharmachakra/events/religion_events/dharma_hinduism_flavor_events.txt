@@ -269,7 +269,7 @@ dharma_hinduism.011 = {# Animal sacrifice - What type of Animals
 	type = character_event
 	title = dharma_hinduism.011.t
 	desc = dharma_hinduism.011.desc
-	theme = RICE_theme_tibet_inner_altar
+	theme = india_shrine
 	
 	left_portrait = {
 		character = root
@@ -284,7 +284,7 @@ dharma_hinduism.011 = {# Animal sacrifice - What type of Animals
 	option = {# Goat
 		name = dharma_hinduism.011.a
 		remove_short_term_gold = 20
-		custom_tooltip = dharma_hinduism.0035.tooltip	
+		custom_tooltip = dharma_hinduism.011.tooltip	
 		add_character_flag = dharma_animal_sacrifice_goat
 		scope:capital_province = {	
 			spawn_activity = {
@@ -302,7 +302,7 @@ dharma_hinduism.011 = {# Animal sacrifice - What type of Animals
 			}
 		}
 		remove_short_term_gold = 30
-		custom_tooltip = dharma_hinduism.0035.tooltip
+		custom_tooltip = dharma_hinduism.011.tooltip
 		add_character_flag = dharma_animal_sacrifice_buffalo
 		# Choose appropriate location
 		scope:capital_province = {	
@@ -321,7 +321,7 @@ dharma_hinduism.011 = {# Animal sacrifice - What type of Animals
 			}
 		}
 		remove_short_term_gold = 40
-		custom_tooltip = dharma_hinduism.0035.tooltip
+		custom_tooltip = dharma_hinduism.011.tooltip
 		add_character_flag = dharma_animal_sacrifice_horse
 		scope:capital_province = {	
 			spawn_activity = {
@@ -335,7 +335,7 @@ dharma_hinduism.012 = {# Animal sacrifice - How Grand of a ceremony
 	type = character_event
 	title = dharma_hinduism.012.t
 	desc = dharma_hinduism.012.desc
-	theme = RICE_theme_tibet_inner_altar
+	theme = india_shrine
 	
 	left_portrait = {
 		character = root
@@ -387,19 +387,19 @@ dharma_hinduism.013 = {# Sacrifice time
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					NOT = { has_faith = faith:zun_pagan }
+					has_faith = faith:kalikula_shaktism
 				}
-				desc = dharma_hinduism.013.desc.goat_small
+				desc = dharma_hinduism.013.desc.shakti
 			}
 			triggered_desc = {
 				trigger = {
-					has_faith = faith:zun_pagan
+					has_faith = faith:shrautism
 				}
-				desc = dharma_hinduism.013.desc.zun
+				desc = dharma_hinduism.013.desc.vedic
 			}
 		}
 	}
-	theme = RICE_theme_pamir_valley
+	theme = india_shrine
 	override_icon = { reference = "gfx/interface/icons/event_types/type_faith.dds" }
 	
 	right_portrait = {
@@ -522,10 +522,6 @@ dharma_hinduism.014 = {# Misc cleanup
 		}
 	}
 }
-
-
-
-
 
 
 

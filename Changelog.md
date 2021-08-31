@@ -12,6 +12,8 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Mahayana and Vajarayana Buddhists can now devote themselves to a Buddha or Boddhisattva
 - Jains can now celebrate the the Paryushana and Mahamastakabhisheka festivals
 - the Gommateshwara Statue can now be built
+- Rajasthanis can worship Devnarayan and Marathi can worship Khandoba
+- Followers of either Kalikula Shaktism or Shrautism can now do animal sacrifices.
 
 ## Manual Installation Steps
 

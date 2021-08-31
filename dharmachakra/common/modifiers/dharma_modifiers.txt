@@ -13,11 +13,22 @@ bhakti_hinduism_murugan = {# Murugan God of War
 	martial = medium_skill_bonus
 	prowess = 4
 }
-bhakti_hinduism_varuna = {# Varuna God of War
+bhakti_hinduism_varuna = {# Varuna god of the Sea
 	icon = martial_positive
 	stewardship = 2
 	tolerance_advantage_mod = 2
 	naval_movement_speed_mult = 0.05
+}
+bhakti_hinduism_khandoba = {# Khandoba he destroyer of Demons
+	icon = martial_positive
+	tolerance_advantage_mod = 4
+	prowess = 4
+}
+bhakti_hinduism_devnarayan = {# Devnarayan Martial incarnation of Vishnu.
+	icon = martial_positive
+	martial = 2
+	tolerance_advantage_mod = 2
+	prowess = 2
 }
 ##########################################
 # Tibetan Deities - Bon
@@ -253,7 +264,7 @@ dharma_vedic_devi_blessing_large = {
 	monthly_lifestyle_xp_gain_mult = 0.09
 	monthly_piety = 0.5
 }
-
+# Durga animal sacrifice Modifiers 
 dharma_vedic_durga_blessing_small = {
 	icon = piety_positive
 	martial = 1
@@ -278,7 +289,7 @@ dharma_vedic_durga_blessing_large = {
 	build_prestige_cost = -0.15
 	monthly_piety = 0.5
 }
-
+# Indra animal sacrifice Modifiers 
 dharma_vedic_indra_blessing_small = {
 	icon = piety_positive
 	martial = 1
@@ -303,7 +314,7 @@ dharma_vedic_indra_blessing_large = {
 	build_prestige_cost = -0.15
 	monthly_piety = 0.5
 }
-
+# Lakshmi animal sacrifice Modifiers 
 dharma_vedic_lakshmi_blessing_small = {
 	icon = piety_positive
 	stewardship = 1
@@ -322,7 +333,7 @@ dharma_vedic_lakshmi_blessing_large = {
 	prowess = 3
 	monthly_piety = 0.5
 }
-
+# Bhaga animal sacrifice Modifiers 
 dharma_vedic_bhaga_blessing_small = {
 	icon = piety_positive
 	stewardship = 1
@@ -341,7 +352,7 @@ dharma_vedic_bhaga_blessing_large = {
 	prowess = 3
 	monthly_piety = 0.5
 }
-
+# Parvati animal sacrifice Modifiers 
 dharma_vedic_parvati_blessing_small = {
 	icon = piety_positive
 	monthly_lifestyle_xp_gain_mult = 0.1
@@ -363,7 +374,7 @@ dharma_vedic_parvati_blessing_large = {
 	monthly_prestige = 0.5
 	monthly_piety = 0.5
 }
-
+# Agni animal sacrifice Modifiers 
 dharma_vedic_agni_blessing_small = {
 	icon = piety_positive
 	intrigue = 1
@@ -382,7 +393,7 @@ dharma_vedic_agni_blessing_large = {
 	county_opinion_add = 12
 	monthly_piety = 0.5
 }
-
+# Brhaspati animal sacrifice Modifiers 
 dharma_vedic_brhaspati_blessing_small = {
 	icon = piety_positive
 	learning = 1
@@ -401,7 +412,7 @@ dharma_vedic_brhaspati_blessing_large = {
 	character_capital_county_monthly_development_growth_add = 0.6
 	monthly_piety = 0.5
 }
-
+# Aditi animal sacrifice Modifiers 
 dharma_vedic_aditi_blessing_small = {
 	icon = piety_positive
 	health = 0.1
