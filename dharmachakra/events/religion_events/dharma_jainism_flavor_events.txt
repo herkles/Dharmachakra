@@ -407,14 +407,18 @@ dharma_jainism.100 = {# Prepare for the Mahamastakabhisheka Festival
 	left_portrait = root
 	
 	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		# Stop characters from planning multiple activities at once.
 		add_character_flag = planning_an_activity
 	}
 	
 	option = {# Time to travel to Shravanabelagola 
 		name = dharma_jainism.100.a
-		trigger_event = {
-			id = dharma_jainism.101
-			days = { 2 20 }
+		scope:capital_province = {	
+			spawn_activity = {
+				owner = root
+				type = activity_dharma_mahamastakabhisheka_festival
+			}	
 		}
 	}
 }
@@ -648,7 +652,6 @@ dharma_jainism.107 = {# Prepare for the Paryushana Festival
 				type = activity_dharma_paryushana_festival
 			}	
 		}
-		trigger_event = { id = dharma_jainism.108	days = { 2 5 }	}
 	}
 }
 dharma_jainism.108 = {# Inviting the Monks and community for the festival

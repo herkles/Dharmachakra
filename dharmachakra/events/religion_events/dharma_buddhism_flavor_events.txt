@@ -540,7 +540,6 @@ dharma_buddhism.023 = {# First Harvest Offerings
 #									  #
 #######################################
 
-
 #######################################
 # Meditation Retreat scripts
 #######################################
@@ -578,19 +577,30 @@ dharma_buddhism.100 = {# Departing for the monastasry
 		animation = personality_rational
 	}
 
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		# Stop characters from planning multiple activities at once.
+		add_character_flag = planning_an_activity
+	}
 
 	# Option 1: Departing for the monastary
 	option = {
 		name = dharma_buddhism.100.depart
-		add_character_modifier = busy_doing_activities
-		trigger_event = { id = dharma_buddhism.101 days = 30 }
+		scope:capital_province = {	
+			spawn_activity = {
+				owner = root
+				type = activity_dharma_buddhist_retreat
+			}	
+		}
 	}
 
 	# Option 2: On second thought, not today.
 	option = {
 		name = dharma_buddhism.100.optout
 		flavor = dharma_buddhism.100.optout.flavor
-
+		hidden_effect = {
+			remove_character_flag = planning_an_activity
+		}
 		ai_chance = {
 			base = 0
 		}		
@@ -1141,7 +1151,7 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 		remove_character_flag = buddhist_retreat_mystic
 		remove_character_flag = buddhist_retreat_pious
 		remove_character_flag = buddhist_retreat_nothing
-		remove_character_modifier = busy_doing_activities
+		remove_character_flag = planning_an_activity
 
 		# Run the activity clean-up event.
 		trigger_event = {
@@ -1592,5 +1602,6 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 		}		
 	}
 }
-
-
+#######################################
+# Vesak Festival 
+#######################################
