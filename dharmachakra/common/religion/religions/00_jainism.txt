@@ -204,10 +204,18 @@
 			icon = jainism
 
 			holy_site = palitana
-			holy_site = shikharj
-			holy_site = ranakpur
-			holy_site = ellora
-			holy_site = sittannavasal
+			holy_site = shikharji
+			holy_site = girnar
+			holy_site = hastinapur
+			holy_site = pawapuri
+			holy_site = mount_abu
+			holy_site = shravana_belgola
+			holy_site = kanakagiri
+			holy_site = kundalpur
+			holy_site = sonagiri
+
+
+
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_ritual_hospitality
@@ -222,10 +230,15 @@
 			icon = svetambara
 
 			holy_site = palitana
-			holy_site = shikharj
-			holy_site = ranakpur
-			holy_site = ellora
-			holy_site = sittannavasal
+			holy_site = shikharji
+			holy_site = girnar
+			holy_site = hastinapur
+			holy_site = pawapuri
+			holy_site = mount_abu
+			holy_site = shravana_belgola
+			holy_site = kanakagiri
+			holy_site = kundalpur
+			holy_site = sonagiri
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_adaptive
@@ -247,17 +260,21 @@
 			icon = yapaniya
 
 			holy_site = palitana
-			holy_site = shikharj
-			holy_site = ranakpur
-			holy_site = ellora
-			holy_site = sittannavasal
+			holy_site = shikharji
+			holy_site = girnar
+			holy_site = hastinapur
+			holy_site = pawapuri
+			holy_site = mount_abu
+			holy_site = shravana_belgola
+			holy_site = kanakagiri
+			holy_site = kundalpur
+			holy_site = sonagiri
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_consolamentum
 
-			doctrine = doctrine_kinslaying_shunned
-			
+			doctrine = doctrine_kinslaying_shunned	
 			doctrine = special_doctrine_naked_priests
 
 			localization = {
