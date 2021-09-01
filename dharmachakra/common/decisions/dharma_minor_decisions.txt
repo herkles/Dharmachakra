@@ -282,18 +282,17 @@ dharma_vedic_animal_sacrifice = {# Hindu Animal Sacrifice
 #######################################
 buddhist_retreat_decision = {# Go on a Buddhist Retreat
 	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds"
-
 	desc = buddhist_retreat_decision_desc
 	selection_tooltip = buddhist_retreat_decision_tooltip
 
 	is_shown = {
 		religion = religion:buddhism_religion
 		holds_landed_title = yes
-		NOT = { has_character_modifier = busy_doing_activities }
 	}
 
 	is_valid = {
-
+		religion = religion:buddhism_religion
+		holds_landed_title = yes
 	}
 
 	is_valid_showing_failures_only = {
@@ -409,6 +408,47 @@ initiate_consolamentum_decision = {# Commite Selkhana decision
 		modifier = {
 			add = 40
 			is_close_family_of = primary_heir
+		}
+	}
+}
+dharma_jain_abdication = {# Abdicate and become a monk
+	picture = "gfx/interface/illustrations/decisions/dharma_decision_jain_holy_day.dds"
+	desc = dharma_jain_abdication_desc
+	selection_tooltip = dharma_jain_abdication_tooltip
+
+	is_shown = {
+		religion = religion:jainism_religion
+		has_trait = zealous
+		holds_landed_title = yes
+		is_at_war = no
+	}
+
+	is_valid = {
+		religion = religion:jainism_religion
+		has_trait = zealous
+		holds_landed_title = yes
+		is_at_war = no
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		trigger_event = dharma_jainism.010
+	}
+
+	ai_check_interval = 96
+
+	ai_potential = {
+		piety >= major_piety_value
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 10
+			age >= 60
 		}
 	}
 }

@@ -14,6 +14,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - the Gommateshwara Statue can now be built
 - Rajasthanis can worship Devnarayan and Marathi can worship Khandoba
 - Followers of either Kalikula Shaktism or Shrautism can now do animal sacrifices.
+- Jain rulers who are zealous can choose to abdicate and become a monk
 
 ## Manual Installation Steps
 

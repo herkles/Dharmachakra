@@ -64,6 +64,11 @@
  dharma_attend_mahavira_festival_effect_tooltip:0 "Attend the Festival."
  dharma_attend_mahavira_festival_confirm:0 "Time to start the preparations."
  dharma_decision_mahavira_month_requirement:0 "You need to start the preparations between March and April"
+# Mahavir Janma Kalyanak Festival
+ dharma_jain_abdication:0 "Attend the Mahavir Janma Kalyanak Festival"
+ dharma_jain_abdication_desc:0 "It has occured to me that maybe the best way to achieve moksha might be to abdicate and join the sangha as a monk."
+ dharma_jain_abdication_tooltip:0 "You will decide if you want to abdicate your throne or not."
+ dharma_jain_abdication_confirm:0 "Time to decide on abdication."
 #######################################
 # Hindu Decisions
 #######################################

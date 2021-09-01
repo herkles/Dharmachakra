@@ -395,6 +395,30 @@ dharma_jainism.009 = {# New statue of the tirthankaras
 		add_piety = -20
 	}
 }
+dharma_jainism.010 = {# abdication
+	type = character_event
+	title = dharma_jainism.010.t
+	desc = dharma_jainism.010.desc
+	theme = faith
+	override_background = {
+		event_background = wood_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+
+	option = {# abdication
+		name = dharma_jainism.010.abdicate
+		add_trait = devoted
+		add_piety_level = 1
+		depose = yes
+	}
+	option = {# Sadly I can't afford it atm
+		name = dharma_jainism.010.no_abdicate
+	}
+
+}
 #######################################
 # Mahamastakabhisheka Festival
 #######################################

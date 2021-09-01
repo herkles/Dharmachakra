@@ -74,6 +74,8 @@
  dharma_hinduism.011.b:0 "Watter Buffalos"
  dharma_hinduism.011.c:0 "Horses"
  dharma_hinduism.011.tooltip:0 "The type of animals you sacrifice will determine how well your sacrifice is perceived by the community and, perhaps, how the deities will respond."
+ activity_vedic_animal_sacrifice:0 "Chinir Festival"
+ activity_vedic_animal_sacrifice_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Animal Sacrifice to the Gods."
 
  dharma_hinduism.012.t:0 "How grand of a Sacrifice"
  dharma_hinduism.012.desc:0 "Now that the chose animal is selected the question is how grand of a sacrifice shall this be? how many of the animal in question, shall we be offering to the Gods."
