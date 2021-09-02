@@ -76,16 +76,6 @@ kanakagiri = {# sacred to Parshvanatha the 23rd Tirthankara
 		monthly_piety_gain_mult = 0.1
 	}
 }
-kundalpur = {# historical Pilgrimage site, sacred to Rishabhanatha
-	county = c_damoh
-	barony = b_damoh
-
-	character_modifier = {
-		name = holy_site_kundalpur_effect_name
-		stewardship = 1
-		courtier_and_guest_opinion = 5
-	}
-}
 sonagiri = {# sacred jain area
 	county = c_vidisa
 	barony = b_raisin

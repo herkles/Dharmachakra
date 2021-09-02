@@ -211,11 +211,7 @@
 			holy_site = mount_abu
 			holy_site = shravana_belgola
 			holy_site = kanakagiri
-			holy_site = kundalpur
 			holy_site = sonagiri
-
-
-
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_ritual_hospitality
@@ -237,7 +233,6 @@
 			holy_site = mount_abu
 			holy_site = shravana_belgola
 			holy_site = kanakagiri
-			holy_site = kundalpur
 			holy_site = sonagiri
 
 			doctrine = tenet_dharmic_pacifism
@@ -267,7 +262,6 @@
 			holy_site = mount_abu
 			holy_site = shravana_belgola
 			holy_site = kanakagiri
-			holy_site = kundalpur
 			holy_site = sonagiri
 
 			doctrine = tenet_dharmic_pacifism

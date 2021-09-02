@@ -348,6 +348,10 @@
 	terrain = jungle
 	
 	# History
+	800.1.1 = {
+		special_building_slot = sonagiri_temple_01
+		special_building = sonagiri_temple_01
+	}
 	1066.1.1 = {
 		religion = smartism
 	}
