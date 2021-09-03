@@ -243,7 +243,6 @@ jain_vow_aparigraha = {# Contemplating Aparigraha
 	monthly_income_mult = -0.1
 	monthly_piety_gain_mult = 0.2
 }
-
 dharma_jain_pilgrimage_five_vows = {# Contemplating Aparigraha
 	icon = piety_positive
 	monthly_income_mult = -0.3
@@ -461,6 +460,25 @@ dharma_vedic_aditi_blessing_large = {
 	icon = piety_positive
 	health = 0.7
 	fertility = 0.12
+	monthly_piety = 0.5
+}
+# Saraswati animal sacrifice Modifiers 
+dharma_vedic_saraswati_blessing_small = {
+	icon = piety_positive
+	learning = 1
+	character_capital_county_monthly_development_growth_add = 0.2
+	monthly_piety = 0.1
+}
+dharma_vedic_saraswati_blessing_medium = {
+	icon = piety_positive
+	learning = 2
+	character_capital_county_monthly_development_growth_add = 0.4
+	monthly_piety = 0.3
+}
+dharma_vedic_saraswati_blessing_large = {
+	icon = piety_positive
+	learning = 3
+	character_capital_county_monthly_development_growth_add = 0.6
 	monthly_piety = 0.5
 }
 
