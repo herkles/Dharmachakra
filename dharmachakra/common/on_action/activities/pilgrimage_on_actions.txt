@@ -3,6 +3,7 @@
 #To send an appropriate start event
 pilgrimage_setup = {
 	events = {
+		pilgrimage.1002 # Jain Vow decision
 		pilgrimage.1001 # Start of generic pilgrimage
 	}
 }

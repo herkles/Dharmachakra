@@ -134,7 +134,7 @@ nalanda_learning_astrology_desc:0 "This character is studying astrological texts
 nalanda_learning_yoga:0 "Studying Yoga"
 nalanda_learning_yoga_desc:0 "This character is studying Yoga"
 #######################################
-# Visiting Monks 
+# Jain Modifiers 
 #######################################
 jain_vow_ahimsa:0 "Contemplating Ahimsa"
 jain_vow_ahimsa_desc:0 "This character is focused on contemplating the Vow of Ahimsa or Non-Violence"
@@ -150,6 +150,15 @@ jain_vow_brahamacarya_desc:0 "This character is focused on contemplating the Vow
 
 jain_vow_aparigraha:0 "Contemplating Aparigraha"
 jain_vow_aparigraha_desc:0 "This character is focused on contemplating the Vow of Aparigraha or non-possessions."
+
+dharma_jain_pilgrimage_five_vows:0 "Pilgrimage - Mahavratas"
+dharma_jain_pilgrimage_five_vows_desc:0 "This character is on a pilgrimage and following the Mahavratas(5 great vows) of Jainism"
+
+dharma_jain_pilgrimage_anuvratas_vow:0 "Pilgrimage - Anuvratas "
+dharma_jain_pilgrimage_anuvratas_vow_desc:0 "This character is on a pilgrimage and following the Jain Anuvratas of the laity."
+
+dharma_jain_pilgrimage_ascetic_vow:0 "Pilgrimage - Ascetic Vow"
+dharma_jain_pilgrimage_ascetic_vow:0 "This character is on a pilgrimage and following the Mahavratas(5 great vows) of Jainism as well following the ascetic rules for fasting."
 #######################################
 # Bhakti Deities
 #######################################

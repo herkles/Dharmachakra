@@ -243,6 +243,38 @@ jain_vow_aparigraha = {# Contemplating Aparigraha
 	monthly_income_mult = -0.1
 	monthly_piety_gain_mult = 0.2
 }
+
+dharma_jain_pilgrimage_five_vows = {# Contemplating Aparigraha
+	icon = piety_positive
+	monthly_income_mult = -0.3
+	fertility = -0.3
+	intrigue = -2
+	scheme_secrecy = -10
+	scheme_power = -5
+	prowess = -2
+	monthly_piety_gain_mult = 0.15
+}
+dharma_jain_pilgrimage_ascetic_vow = {# Contemplating Aparigraha
+	icon = piety_positive
+	monthly_income_mult = -0.3
+	fertility = -0.3
+	intrigue = -2
+	scheme_secrecy = -10
+	scheme_power = -5
+	prowess = -2
+	health = -0.5
+	monthly_piety_gain_mult = 0.35
+}
+dharma_jain_pilgrimage_anuvratas_vow = {# Contemplating Aparigraha
+	icon = piety_positive
+	monthly_income_mult = -0.1
+	fertility = -0.1
+	intrigue = -1
+	scheme_secrecy = -5
+	scheme_power = -3
+	prowess = -1
+	monthly_piety_gain_mult = 0.05
+}
 ##########################################
 # animal sacrifice Modifiers 
 ##########################################

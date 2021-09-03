@@ -58,8 +58,14 @@
  pilgrimage.1001.desc.very_long:0 "\n\nI will be gone for a long time, and I can only pray [ROOT.Char.GetFaith.HighGodNameAlternate] watches over my realm as well."
  pilgrimage.1001.a:0 "It is time to depart."
 
- # Generic Pilgrimage Journey Events 
+ pilgrimage.1002.t:0 "$pilgrimage_header$ Vow to make"
+ pilgrimage.1002.desc:0 "As you make your departure plans, the question of which vow to make has come up. You could take a minor form of the five great vows for pilgrims visiting a holy Tirtha. You could even decide to follow the life style of an ascetic and fast during the trip as you drink limited amounts of boiled water and live off the rations given to you by strangers. Of course you could also just stick to the normal vows of a member of the laity.\n\n\Which vow shall you make?"
+ pilgrimage.1002.a:0 "I shall make the five vows"
+ pilgrimage.1002.b:0 "I shall take the five great vows and fast as well."
+ pilgrimage.1002.c:0 "I will stick to the Anuvratas of the laity"
+ pilgrimage.1002.fasting_tooltip:0 "You will start your fast once you get to your particular pilgrimage location not during the trip to there."
 
+ # Generic Pilgrimage Journey Events 
  pilgrimage.2001.t:0 "$pilgrimage_header$ Bandits!"
  pilgrimage.2001.desc:0 "I wake to the noise of chaos in camp, but it only takes me a few moments to realize what is happening.\n\nWe are under attack!\n\nBandits are swarming our tents and wagons, while our guards do what they can to resist."
  pilgrimage.2001.a:0 "Where is my sword? I will drive these dogs away!"
