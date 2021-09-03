@@ -36,6 +36,20 @@
  pilgrimage.0003.b:0 "The [ROOT.Char.GetFaith.HouseOfWorshipPlural] in [holy_site_8.GetNameNoTierNoTooltip]."
  pilgrimage.0003.c:0 "To [holy_site_9.GetNameNoTierNoTooltip]!"
 
+ pilgrimage.0004.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage"
+ pilgrimage.0004.desc:0 "Taking a pilgrimage and visiting a holy site, known as a tirtha, is a place to help the pilgrim in crossing over the ocean of samsara which is full of pain and misery in order to attain Moksha. While ther are many Tirthas throughout the world, the question is which one I shall out for?"
+ pilgrimage.0004.a:0 "The many temples of Palitana"
+ pilgrimage.0004.b:0 "To Shikharji"
+ pilgrimage.0004.c:0 "To Mount Girnar"
+ pilgrimage.0004.d:0 "Perhaps somewhere else..."
+ pilgrimage.0004.e:0 "I have changed my mind. This is not the right time."
+ pilgrimage.0005.a:0 "To Hastinapur, where 3 tirthakanras were born"
+ pilgrimage.0005.b:0 "To the city of Pawapuri where Mahavira achieved moksha"
+ pilgrimage.0005.c:0 "To Kanakagiri Jain Tirth!"
+ pilgrimage.0005.d:0 "To Sonagiri, sacred to the 8th Tirthankara Chandraprabha"
+ pilgrimage.0005.e:0 "Perhaps somewhere else..."
+ pilgrimage.0005.f:0 "I have changed my mind. This is not the right time."
+
  pilgrimage.1001.t:0 "$pilgrimage_header$ Departure"
  pilgrimage.1001.desc.opening:0 "As I prepare for my journey, I know that I will travel safely under the protection of [ROOT.Char.GetFaith.PantheonTerm]."
  pilgrimage.1001.desc.short:0 "\n\nThough I will not be gone for long, I pray for the wellbeing of the realm in my absence."
@@ -356,19 +370,49 @@
  pilgrimage.5421.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5421.b:0 "$pilgrimage.4001.b$"
 
-   # Jainism
- pilgrimage.5501.t:0 "$pilgrimage_header$ Shikharji"
- pilgrimage.5501.desc:1 "According to the Nirvana Kanda, twenty of the twenty-four Jain tirthankaras attained Moksha here on the mountain of Shikharji. Such a storied history has made this place the most important pilgrimage site in the Jain community, and as my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life."
+# Jainism
+ pilgrimage.5501.t:0 "$pilgrimage_header$ Palitana"
+ pilgrimage.5501.desc:1 "This is the place where the first Tirthankara Rishabhanatha delievered his first sermon here and sanctified the area. There are over three thousand temples at Palitana and is regarded by all Jain sects as being one of the most holist places in the world. climbing the nearby mountain is considered a holy act and it is said to help one reach moksha. As my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life.""
  pilgrimage.5501.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5501.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5502.t:0 "$pilgrimage_header$ Shikharji"
+ pilgrimage.5502.desc:1 "According to the Nirvana Kanda, twenty of the twenty-four Jain tirthankaras attained Moksha here on the mountain of Shikharji. Such a storied history has made this place one of the the most important pilgrimage site in the Jain community, and as my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life."
+ pilgrimage.5502.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5502.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5503.t:0 "$pilgrimage_header$ Girnar"
+ pilgrimage.5503.desc:1 "The 22nd Tirthankara, Neminath, became an ascetic after he saw the slaughter of animals for a feast on his wedding day. He came to Mount Girnar where he achieved omnisience and Moksha while meditating upon the highest peak of Mount Girnar. His bride-to-be Rajulmati would follow Neminath to the sacred mountain and renounced the word to focus on attaining Moksha. After climbing the nearly four thousand steps to reach the first plateau of the mount, I pause to catch my breath. As I gaze up to the peak of the mountain and to the valleys below and the mandirs that surround me, I find myself reflecting on my own journey here and what it means for my life." 
+ pilgrimage.5503.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5503.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5504.t:0 "$pilgrimage_header$ Hastinapur"
+ pilgrimage.5504.desc:1 "The ancient city of Hastinapur is where the 16th Tirthankara, Shantinatha, the 17th Tirthanakara, Kunthunatha, and the 18th Tirthankara, Aranatha, were all born. Such a storied history has made this place one of the most important pilgrimage site in the Jain community, and as my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life."
+ pilgrimage.5504.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5504.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5505.t:0 "$pilgrimage_header$ Pawapuri"
+ pilgrimage.5505.desc:1 "The city of Pawapuri is one of the most holiest places for it is where Mahavira achieved Moksha and where he was cremated at the Jal Mindir Temple. The ancient temple built by Mahavira's brother king Nandivardhan stands as a bastion of serenity by the ponds. As I sit in the temple meditating, I wonder what this means for myself and for my journey to reach Moksha."
+ pilgrimage.5505.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5505.b:0 "$pilgrimage.4001.b$"
   
+ pilgrimage.5506.t:0 "$pilgrimage_header$ Kanakagiri"
+ pilgrimage.5506.desc:1 "The 24th Tirthankara Mahavira visited Kanakagiri and held meetings here in those ancient days. The holy saint Achrya Pujyapada would later establish a monastary here. The ancient Parshvanatha temple at the Kanakagiri Tirth shows a number of rock cut images of Tirthankaras and holy saints. As I sit in the temple meditating, I wonder what this means for myself and for my journey to reach Moksha."
+ pilgrimage.5506.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5506.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5507.t:0 "$pilgrimage_header$ Sonagiri"
+ pilgrimage.5507.desc:1 "Since the time of the 8th Tirthankara, Chandraprabha, countless ascetic saints have achieved moksha here. The 8th Tirthankara has a three meter cut image here. There are numerous temples scattered throughout this sacred site. As I walk around Sonagiri, I find myself reflecting and wondering will I achieve moksha like those ancient saints."
+ pilgrimage.5507.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5507.b:0 "$pilgrimage.4001.b$"
+
  # Zoroastrian
  pilgrimage.5601.t:0 "$pilgrimage_header$ The Divine Consciousness"
  pilgrimage.5601.desc:0 "As I stand upon the slopes of Mount Ushi-darena, the vista of the lower reaches spreads out before me. Faced with the awe-inspiring sight, I cannot help but think about how Zoroaster attained illumination here, receiving the knowledge of Ahura Mazda to spread to the world below. Like most pilgrims here I feel no divine spark of prophecy, yet even still I cannot help but marvel at what lay before me."
  pilgrimage.5601.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5601.b:0 "$pilgrimage.4001.b$"
 
-   # Norse Germanic
+# Norse Germanic
  pilgrimage.5901.t:0 "$pilgrimage_header$ Paderborn!"
  pilgrimage.5901.desc:0 "Deep in the forests of Paderborn once lay Irminsul, the Great Pillar. Erected to honor Odin, the monument was destroyed by Charlemagne during the Saxon Wars, but our people continue to flock to the site where it once stood in honor of its memory. Now I can say that I, too, have made pilgrimage to the sacred place."
  pilgrimage.5901.a:0 "$pilgrimage.4001.a$"
@@ -387,6 +431,6 @@
  pilgrimage.5921.b:0 "$pilgrimage.4001.b$"
 
  # Generic Pilgrimage Return Events
- pilgrimage.9001.t:0 "$pilgrimage_header$ The Return"
+ pilgrimage.9001.t:0 "$pilgrimage_header$ 9999"
  pilgrimage.9001.desc:0 "My journey has been a long one, but I have finally come home again. While much remains the same, something has changed in how the [ROOT.Char.GetFaith.PriestNeuterPlural] and [ROOT.Char.GetFaith.BishopNeuterPlural] treat me.\n\nI have undergone the journey of a holy [ROOT.Char.GetWomanMan], and they insist it has changed something about me, whether I can see it myself or not."
  pilgrimage.9001.a:0 "It is good to be home."

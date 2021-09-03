@@ -3,7 +3,7 @@
 #######################################
 # Jain Holy Sites 
 #######################################
-palitana = {# Vanilla
+palitana = {# Palitana
 	county = c_somnath
 
 	character_modifier = {
@@ -49,15 +49,6 @@ pawapuri = {# sacred Temple where Mahavira was cremated and achieved Nirvana
 		clergy_opinion = 5
 	}
 }
-mount_abu = {# Jain pilgrimage place
-	county = c_godwad
-	barony = b_achalgarh
-
-	character_modifier = {
-		name = holy_site_mount_abu_effect_name
-		health = 0.1
-	}
-}
 shravana_belgola = {# Pilgrimage site for the Gommateshwara statue
 	county = c_mahishaka
 	barony = b_shravana_belgola
@@ -85,7 +76,3 @@ sonagiri = {# sacred jain area
 		direct_vassal_opinion = 5
 	}
 }
-
-
-
-

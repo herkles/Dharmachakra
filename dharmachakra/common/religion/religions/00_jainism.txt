@@ -208,10 +208,9 @@
 			holy_site = girnar
 			holy_site = hastinapur
 			holy_site = pawapuri
-			holy_site = mount_abu
-			holy_site = shravana_belgola
 			holy_site = kanakagiri
 			holy_site = sonagiri
+			holy_site = shravana_belgola
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_ritual_hospitality
@@ -230,10 +229,9 @@
 			holy_site = girnar
 			holy_site = hastinapur
 			holy_site = pawapuri
-			holy_site = mount_abu
-			holy_site = shravana_belgola
 			holy_site = kanakagiri
 			holy_site = sonagiri
+			holy_site = shravana_belgola
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_adaptive
@@ -259,10 +257,9 @@
 			holy_site = girnar
 			holy_site = hastinapur
 			holy_site = pawapuri
-			holy_site = mount_abu
-			holy_site = shravana_belgola
 			holy_site = kanakagiri
 			holy_site = sonagiri
+			holy_site = shravana_belgola
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_ritual_hospitality
