@@ -4,7 +4,6 @@
 pilgrimage_setup = {
 	events = {
 		pilgrimage.1001 # Start of generic pilgrimage
-		#pilgrimage.1002 # Jain vows and fasting
 	}
 }
 
