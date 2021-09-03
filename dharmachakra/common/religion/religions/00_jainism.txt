@@ -70,16 +70,16 @@
 		#HealthGod
 		HealthGodName = jainism_health_god_name
 		HealthGodNamePossessive = jainism_health_god_name_possessive
-		HealthGodSheHe = CHARACTER_SHEHE_HE
-		HealthGodHerHis = CHARACTER_HERHIS_HIS
-		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
 		
 		#FertilityGod
 		FertilityGodName = jainism_fertility_god_name
 		FertilityGodNamePossessive = jainism_fertility_god_name_possessive
-		FertilityGodSheHe = CHARACTER_SHEHE_HE
-		FertilityGodHerHis = CHARACTER_HERHIS_HIS
-		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
 
 		#WealthGod
 		WealthGodName = jainism_wealth_god_name
@@ -133,9 +133,9 @@
 		#WaterGod
 		WaterGodName = jainism_water_god_name
 		WaterGodNamePossessive = jainism_water_god_name_possessive
-		WaterGodSheHe = CHARACTER_SHEHE_HE
-		WaterGodHerHis = CHARACTER_HERHIS_HIS
-		WaterGodHerHim = CHARACTER_HERHIM_HIM
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
 		
 		PantheonTerm = religion_the_gods
 		PantheonTermHasHave = pantheon_term_have
@@ -143,6 +143,26 @@
 			jainism_high_god_name
 			jainism_high_god_alternate
 			jainism_good_god_rishabhanatha
+			jainism_good_god_ajitanatha
+			jainism_good_god_sambhavanatha
+			jainism_good_god_abhinandananatha
+			jainism_good_god_sumatinatha
+			jainism_good_god_padmaprabha
+			jainism_good_god_suparsva
+			jainism_good_god_chandraprabha
+			jainism_good_god_pushpadanta
+			jainism_good_god_shitalanatha
+			jainism_good_god_shreyansanatha
+			jainism_good_god_vasupujya
+			jainism_good_god_vimalanatha
+			jainism_good_god_anantanatha
+			jainism_good_god_dharmanatha
+			jainism_good_god_shantinatha
+			jainism_good_god_aranatha
+			jainism_good_god_mallinatha
+			jainism_good_god_munisuvratanatha
+			jainism_good_god_naminatha
+			jainism_good_god_parshvanatha
 			jainism_good_god_mahavira
 		}
 		DevilName = jainism_devil_name

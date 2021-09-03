@@ -76,3 +76,4 @@ sonagiri = {# sacred jain area
 		direct_vassal_opinion = 5
 	}
 }
+

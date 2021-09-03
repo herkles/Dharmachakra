@@ -73,10 +73,10 @@
  pilgrimage.2001.b.success_title:0 "Safe and Sound"
  pilgrimage.2001.b.failure:0 "The bandits set fire to the wagon"
  pilgrimage.2001.b.failure_title:0 "The Wagon Burns!"
- pilgrimage.2001.c:0 ""Stop this madness! I will pay whatever you want!""
+ pilgrimage.2001.c:0 "'Stop this madness! I will pay whatever you want!'"
 
  pilgrimage.2002.t:0 "$pilgrimage_header$ Love Thy Neighbor"
- pilgrimage.2002.desc:0 "Among my fellow pilgrims, there is a [dummy_gender.GetWomanMan] who preaches compassion and fellowship — until [dummy_gender.GetSheHe] reaches the topic of heathens.\n\nOne evening around the campfire, [dummy_gender.GetSheHe] loudly declares them to be "abominable monsters in the eyes of [ROOT.Char.GetFaith.PantheonTerm]! Deviants and child murderers all!" Most people avert their eyes when [dummy_gender.GetSheHe] looks at them. Tonight, I was not quick enough. "Do you not agree, o [ROOT.Char.GetTitleAsNameNoTooltip]?""
+ pilgrimage.2002.desc:0 "Among my fellow pilgrims, there is a [dummy_gender.GetWomanMan] who preaches compassion and fellowship — until [dummy_gender.GetSheHe] reaches the topic of heathens.\n\nOne evening around the campfire, [dummy_gender.GetSheHe] loudly declares them to be 'abominable monsters in the eyes of [ROOT.Char.GetFaith.PantheonTerm]! Deviants and child murderers all!' Most people avert their eyes when [dummy_gender.GetSheHe] looks at them. Tonight, I was not quick enough. 'Do you not agree, o [ROOT.Char.GetTitleAsNameNoTooltip]?'"
  pilgrimage.2002.a:0 "They are not #EMP all#! that bad."
  pilgrimage.2002.b:0 "I agree, and I would not trust anyone who came to their defense!"
  pilgrimage.2002.c:0 "Truly! They spit in the face of [ROOT.Char.GetFaith.HighGodName]!"
@@ -253,14 +253,9 @@
  pilgrimage.3204.a:0 "I must attempt to alleviate their suffering."
  pilgrimage.3204.b:0 "Such is life in the dry season"
 
-
-
-
-
-
  # Buddhist Pilgrimage Journey Events
  pilgrimage.3301.t:0 "$pilgrimage_header$ Critical Bhikkhu"
- pilgrimage.3301.desc:0 "Along the pilgrim's path I see many wanderers, those who have abandoned the world and freed themselves from all worldly attachments.\n\nToday an elderly wanderer eyes my entourage as [wanderer.GetSheHe] walks beside me. "You bring too much with you. To achieve enlightenment, you must cast off your worldly possessions like me, and travel in naught but simple robes.""
+ pilgrimage.3301.desc:0 "Along the pilgrim's path I see many wanderers, those who have abandoned the world and freed themselves from all worldly attachments.\n\nToday an elderly wanderer eyes my entourage as [wanderer.GetSheHe] walks beside me. 'You bring too much with you. To achieve enlightenment, you must cast off your worldly possessions like me, and travel in naught but simple robes.'"
  pilgrimage.3301.a:0 "I can manage that, at least for this journey."
  pilgrimage.3301.b:0 "But my tent, my blankets? It is too much. I am not ready!"
  pilgrimage.3301.c:0 "Ah, but is against Ṛta for a [ROOT.Char.GetTitleAsNameNoTooltip] to travel in austerity."
@@ -274,7 +269,7 @@
  pilgrimage.4001.b:0 "What's important is that I am seen and heard here."
 
  # The Mystic is there!
- pilgrimage.4002.desc:0 "I am finally here, body and soul, at the end of my great pilgrimage. And who should meet me there but [mystic.GetTitledFirstName], the seeker of true knowledge of the divine?\n\n"Look around you, [ROOT.Char.GetFirstNameNoTooltip]!" [mystic.GetSheHe] says. "Is this glory not as I said it would be?""
+ pilgrimage.4002.desc:0 "I am finally here, body and soul, at the end of my great pilgrimage. And who should meet me there but [mystic.GetTitledFirstName], the seeker of true knowledge of the divine?\n\n'Look around you, [ROOT.Char.GetFirstNameNoTooltip]!'' [mystic.GetSheHe] says. 'Is this glory not as I said it would be?"
  pilgrimage.4002.a:0 "Indeed it is, my friend!"
  pilgrimage.4002.b:0 "It's... something all right."
  pilgrimage.4002.c:0 "Oh yes, I do like what I'm seeing."
@@ -318,7 +313,7 @@
  pilgrimage.5201.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5201.b:0 "$pilgrimage.4001.b$"
 
-   # Hindu
+# Hindu
  pilgrimage.5301.t:0 "$pilgrimage_header$ Varanasi"
  pilgrimage.5301.desc:0 "At last I have arrived in Varanasi. Founded by the god Shiva in far-back antiquity, the great city attracts pilgrims from long and far.\n\nIt is not just Hindu pilgrims who travel here though, as the city is near the site where Gautama Buddha first taught his disciples.\n\nSeeing this mixing of the faithful first-hand, and the knowledge and discussion that flow from it, makes me newly aware of how we all live in this world together."
  pilgrimage.5301.a:0 "$pilgrimage.4001.a$"
@@ -372,7 +367,7 @@
 
 # Jainism
  pilgrimage.5501.t:0 "$pilgrimage_header$ Palitana"
- pilgrimage.5501.desc:1 "This is the place where the first Tirthankara Rishabhanatha delievered his first sermon here and sanctified the area. There are over three thousand temples at Palitana and is regarded by all Jain sects as being one of the most holist places in the world. climbing the nearby mountain is considered a holy act and it is said to help one reach moksha. As my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life.""
+ pilgrimage.5501.desc:1 "This is the place where the first Tirthankara Rishabhanatha delievered his first sermon here and sanctified the area. There are over three thousand temples at Palitana and is regarded by all Jain sects as being one of the most holist places in the world. climbing the nearby mountain is considered a holy act and it is said to help one reach moksha. As my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life."
  pilgrimage.5501.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5501.b:0 "$pilgrimage.4001.b$"
 
@@ -418,7 +413,7 @@
  pilgrimage.5901.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5901.b:0 "$pilgrimage.4001.b$"
 
-   # Tengri
+# Tengri
  pilgrimage.5911.t:0 "$pilgrimage_header$ Open Blue Skies"
  pilgrimage.5911.desc:0 "The world is [ROOT.Char.GetFaith.HighGodNamePossessive] temple, the great blue sky grander than the ceiling of any mosque or church. Here in great open steppes of [destination_title.GetNameNoTierNoTooltip] I feel especially close to [ROOT.Char.GetFaith.PantheonTerm], and find myself reflecting on my journey to reach this sacred place."
  pilgrimage.5911.a:0 "$pilgrimage.4001.a$"
@@ -431,6 +426,6 @@
  pilgrimage.5921.b:0 "$pilgrimage.4001.b$"
 
  # Generic Pilgrimage Return Events
- pilgrimage.9001.t:0 "$pilgrimage_header$ 9999"
+ pilgrimage.9001.t:0 "$pilgrimage_header$ The Return"
  pilgrimage.9001.desc:0 "My journey has been a long one, but I have finally come home again. While much remains the same, something has changed in how the [ROOT.Char.GetFaith.PriestNeuterPlural] and [ROOT.Char.GetFaith.BishopNeuterPlural] treat me.\n\nI have undergone the journey of a holy [ROOT.Char.GetWomanMan], and they insist it has changed something about me, whether I can see it myself or not."
  pilgrimage.9001.a:0 "It is good to be home."
