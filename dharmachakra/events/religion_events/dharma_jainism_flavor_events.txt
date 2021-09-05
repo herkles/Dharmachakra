@@ -145,33 +145,7 @@ dharma_jainism.004 = {# Fasting with the Monk
 		add_piety = -50
 	}
 }
-dharma_jainism.005 = {# Child wishes to become a monk
-	type = character_event
-	title = dharma_jainism.005.t
-	desc = dharma_jainism.005.desc
-	theme = faith
-	override_background = {
-		event_background = wood_temple
-	}
-	left_portrait = {
-		character = root
-		animation = personality_rational
-	}	
 
-	trigger = {
-		is_at_war = no
-		religion = religion:jainism_religion
-		is_landed = yes	
-	}
-
-	option = {# patronize the statue
-		name = dharma_jainism.005.blessings
-	}
-	option = {# Sadly I can't afford it atm
-		name = dharma_jainism.005.no
-		add_piety = -20
-	}
-}
 #######################################
 # Jain Flavor Events 
 #######################################
@@ -757,7 +731,7 @@ dharma_jainism.022 = {# Building animal Shelters
 	}
 	immediate = {
 		add_character_flag = {
-			flag = dharma_jainism_022_event
+			flag = dharma_jainism_event_022
 			years = 20
 		}
 	}
@@ -775,7 +749,7 @@ dharma_jainism.022 = {# Building animal Shelters
 		}
 	}
 	option = {# Sadly I can't afford it atm
-		name = dharma_jainism.022.no_patronize
+		name = dharma_jainism.022.no_help_animals
 		add_piety = medium_piety_loss
 		stress_impact = {
 			zealous = minor_stress_gain 
@@ -985,7 +959,7 @@ dharma_jainism.030 = {# Unable to concentrate in Daily's Meditation
 	}
 
 	option = {# patronize the statue
-		name = dharma_jainism.030.patronize
+		name = dharma_jainism.030.stress
 		stress_impact = {
 			base = miniscule_stress_impact_gain
 		}

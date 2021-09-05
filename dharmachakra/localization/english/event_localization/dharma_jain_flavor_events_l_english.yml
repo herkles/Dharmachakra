@@ -162,7 +162,7 @@
 
  dharma_jainism.030.t:0 "Daily Meditation"
  dharma_jainism.030.desc:0 "It is a common practice for you to meditate at some point in the day. Today's meditation has been one where for some reason you have been unable to focus on the practice and your mind has been wandering."
- dharma_jainism.030.food:0 "I hate it when this happens."
+ dharma_jainism.030.stress:0 "I hate it when this happens."
 
  dharma_jainism.031.t:0 "Teaching [ward.GetTitledFirstName] to meditate"
  dharma_jainism.031.desc:0 "As a parent it is your duty to educate your children and to raise them right. As such today you have been spending time with [ward.GetTitledFirstName] teaching [ward.GetSheHe] how to meditate properly and to follow your lead."
