@@ -21,10 +21,6 @@
  dharma_jainism.004.fast:0 "Fast for a day"
  dharma_jainism.004.nofast:0 "Wish him well on his fast, but not join."
 
- dharma_jainism.005.t:0 "Child wishes to become a monk"
- dharma_jainism.005.desc:0 "Your [child_wants_monk.Custom('GetDaughterSon')] is well known for [child_wants_monk.GetHerHis] piety and zeal. Today [child_wants_monk.GetSheHe] has come to you to ask for your blessings to become a monk. Doing so would mean that [child_wants_monk.GetSheHe] is no longer able to marry and will not be in the line of succession."
- dharma_jainism.005.blessings:0 "You have my Blessings"
- dharma_jainism.005.no:0 "Absolutely Not"
 #######################################
 # Jain General Flavor
 #######################################
@@ -64,6 +60,140 @@
  dharma_jainism.010.desc:0 "You have decided to ponder the merits of Abdicating your throne. If you choose to abdicate and become a monk, you will renounce all worldly possessions and dedicate yourself to living by the five great vows and striving to live a virteous life in order to achieve moksha. Of course doing so includes renouncing the throne, and letting your heir take over. Is this something you wish to go through with?"
  dharma_jainism.010.abdicate:0 "I hereby renounce my throne."
  dharma_jainism.010.no_abdicate:0 "on second thought, no. "
+#######################################
+# jain Vegetarianism
+#######################################
+ dharma_jainism.011.t:0 "Non Jains complaining about Vegetarianism"
+ dharma_jainism.011.desc:0 "A number of courtiers who do not practice vegetarianism have been complaining lately about the court's lack of meat for feasts and banquets. You could give be lientant towards them, or you could try and show them how good vegetarianism is."
+ dharma_jainism.011.meat:0 "Allow them to eat meat"
+ dharma_jainism.011.no_meat:0 "Show them good vegetarianism food"
+
+ dharma_jainism.012.t:0 "Strict Vegetarianism is difficult"
+ dharma_jainism.012.desc:0 "Jain Vegetarian diet forbids root vegetables like garlic and onions as well as mushrooms and honey. It can be difficult practicing the Jain diet and there are times where I struggle"
+ dharma_jainism.012.vegetarianism:0 "I shall stick with the diet"
+ dharma_jainism.012.tempt:0 "I can have just one bite..."
+
+ dharma_jainism.013.t:0 "Enforce Vegetarianism into Law"
+ dharma_jainism.013.desc:0 "One of the monks has proposed that you make vegetarianism into the Law of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] and outlaw the selling of meat. While this will please the Jain community and those that practice Vegetarianism, it will might upset those that do not practice vegetarianism."
+ dharma_jainism.013.law:0 "Enshrine it into law"
+ dharma_jainism.013.no_law:0 "Not at this point."
+
+ dharma_jainism.014.t:0 "Merchants wish to sell meat"
+ dharma_jainism.014.desc:0 "A number of merchants have complained about the law that outlawed selling meat. You could recind the law allowing them to sell it, but doing so will risk angering the monks of the Sangha."
+ dharma_jainism.014.stay:0 "The law stays"
+ dharma_jainism.014.go:0 "The law goes"
+
+ dharma_jainism.015.t:0 "Sharing food with a monk"
+ dharma_jainism.015.desc:0 "A visiting monk has come by and you shared the food with him. The sharing of food with an ascetic does bring some joy and a smile to your face."
+ dharma_jainism.015.food:0 "Sharing food with a strange is one of life's true delights."
+#######################################
+# Jain Flavor Events annual obligations
+#######################################
+ dharma_jainism.016.t:0 "Temple Donations"
+ dharma_jainism.016.desc:0 "A visiting monk has come by asking for donations for a local temple. It is expected that you will offer some donation, but on the other hand, you could always say no."
+ dharma_jainism.016.donate:0 "Of course I shall donate for the temple"
+ dharma_jainism.016.no_donate:0 "Sadly, I need the money."
+
+ dharma_jainism.017.t:0 "Mahapuja"
+ dharma_jainism.017.desc:0 "You have come to the local temple to engage in the rituals of Mahapuja, where you read from the holy texts while the rituals were done to decorate a sacred icon of one of the Tirthankaras. As a [ROOT.Char.GetTitleTierName] you are expected to recite from the texts and meditate with the monks."
+ dharma_jainism.017.mahapuja:0 "A wonderful time"
+
+ dharma_jainism.018.t:0 "Ratri-jagrana"
+ dharma_jainism.018.desc:0 "Ratri-jagrana is the nightly vigil where you stay up all night to sing hymns and meditate. The lack of sleep has been getting to you as you do the meditation, but you will get through it you think...."
+ dharma_jainism.018.wake:0 "I will rest after the vigil"
+ dharma_jainism.018.sleep:0 "I can close my eyes for a few minuetes...."
+
+ dharma_jainism.019.t:0 "Celebrating  [child_monk.GetTitledFirstName] joining the Sangha"
+ dharma_jainism.019.desc:0 "Your [child_monk.Custom('GetDaughterSon')] has recently joined the Jain Sangha. [child_monk.GetSheHe] will be a monastic traveling the land working to achieve moksha. The life will be hard for [child_monk.GetHerHim]. Still this is a proud day."
+ dharma_jainism.019.blessings:0 "Go with my blessings."
+
+ dharma_jainism.020.t:0 "Donating a Tirthankar Icon"
+ dharma_jainism.020.desc:0 "One of the Things you are expected to do once in your life is to donate to support a new icon of one of the Tirthankaras. A local monk has arrived in your court and reminded you about performing this obligation..."
+ dharma_jainism.020.donate:0 "I will gladly donate a tirthankara icon."
+ dharma_jainism.020.not_today:0 "I will gladly donate a tirthankara icon."
+
+ dharma_jainism.021.t:0 "Panch Kalyanaka Pratishtha Mahotsava"
+ dharma_jainism.021.desc:0 "After donating for the icon of the Tirthankara, today is the day for the ritual of Panch Kalyanaka Pratishtha Mahotsava where the Icon is consencrated. The leader of the monastic order leads the rituals that retell the story of the Tirthankara and his life."
+ dharma_jainism.021.ritual:0 "Om Namah Siddhanam"
+#######################################
+# Jainism and Ahisma
+#######################################
+ dharma_jainism.022.t:0 "Sheltering Animals"
+ dharma_jainism.025.desc:0 "As you travel your realm, one of your learned monks suggest to you in building and mainting an animal sancatary in your capital, to treat and nurse injured animals. Of course such sanctuaries are not cheap."
+ dharma_jainism.022.help_animals:0 "A wonderful idea"
+ dharma_jainism.022.no_help_animals:0 "I can't afford the cost"
+
+ dharma_jainism.023.t:0 "War and Ahimsa"
+ dharma_jainism.023.desc:0 "I am currently engaged in a war that I started. As I prepare my armies for the march, one of the monks in my court speaks on the value of Ahimsa and how we must strive for peace and non-violence. As I listen to his words I am..."
+ dharma_jainism.023.end_war:0 "moved to end the war."
+ dharma_jainism.023.war:0 "going to the war room."
+
+ dharma_jainism.024.t:0 "Hunting dispute"
+ dharma_jainism.024.desc:0 "A dispute in one of your provinces has broken out that has been brought to your attention. A wild animal has been killing local peasant's livestock and they have beeseched you to kill the animal doing this. However a local monk disagrees and suggests that you do not kill the animal, imploring you on the virtues of Ahimsa. "
+ dharma_jainism.024.peasants:0 "The peasants are right, the Animal must die."
+ dharma_jainism.024.monk:0 "The Monk is right, the Animal should live."
+
+ dharma_jainism.025.t:0 "The Duties of a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ dharma_jainism.025.desc:0 "A criminal has been dragged before you to decide on their fate. The duties of a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] require you to enforce the law and justice to ensure that violence is limited, sometimes it does mean that violence might have to be done to ensure stability, right? Or should you instead offer this criminal clemency and let them go free?"
+ dharma_jainism.025.free:0 "I shall let them go free."
+ dharma_jainism.025.kill:0 "Their punishment is to be killed for their crimes."
+
+ dharma_jainism.026.t:0 "A hurt  [ROOT.Char.Custom('LocalAnimal')] in the wilderness"
+ dharma_jainism.026.desc:0 "During your travels you come accross a hurt  [ROOT.Char.Custom('LocalAnimal')]. You know it should be treated but the question is what should you do."
+ dharma_jainism.026.heal:0 "I shall attempt to treat the [ROOT.Char.Custom('LocalAnimal')]"
+ dharma_jainism.026.home:0 "My physician at the estate shall treat the wild [ROOT.Char.Custom('LocalAnimal')]."
+
+ dharma_jainism.027.t:0 "Hurt Peasant"
+ dharma_jainism.027.desc:0 "As you travel and survey your realm, you come across a hurt peasant. The question is what should you do? You could help the poor man, or you could just leave him to his fate."
+ dharma_jainism.027.physician:0 "My physician will try and assist you."
+ dharma_jainism.027.money:0 "Here is some money to help you."
+ dharma_jainism.027.no_help:0 "Alas I can do nothing for you."
+#######################################
+# Jain meditation
+#######################################
+ dharma_jainism.028.t:0 "Daily Meditation"
+ dharma_jainism.028.desc:0 "It is a common practice for you to meditate at some point in the day. Today's meditation has been a rather relaxing one, to which you are gratful for."
+ dharma_jainism.028.good:0 "Om"
+
+ dharma_jainism.029.t:0 "Performing Samayika"
+ dharma_jainism.029.desc:0 "Samayika is aimed at developing equanimity and to refrain from injury by focusing at the things you have done wrong and how to avoid them and meditating on the tirthankaras and concentrating on the self. Samayika lasts just under an hour. \n\nAs you sit in your chambers meditating you feel..."
+ dharma_jainism.029.compassion:0 "Compassion for living things."
+ dharma_jainism.029.wander:0 "your mind wandering..."
+
+ dharma_jainism.030.t:0 "Daily Meditation"
+ dharma_jainism.030.desc:0 "It is a common practice for you to meditate at some point in the day. Today's meditation has been one where for some reason you have been unable to focus on the practice and your mind has been wandering."
+ dharma_jainism.030.food:0 "I hate it when this happens."
+
+ dharma_jainism.031.t:0 "Teaching [ward.GetTitledFirstName] to meditate"
+ dharma_jainism.031.desc:0 "As a parent it is your duty to educate your children and to raise them right. As such today you have been spending time with [ward.GetTitledFirstName] teaching [ward.GetSheHe] how to meditate properly and to follow your lead."
+ dharma_jainism.031.teach:0 "breath in, and breath out."
+
+ dharma_jainism.032.t:0 "Learning to Meditate"
+ dharma_jainism.032.desc:0 "My [guardian_parent.Custom('MotherFather')] has brought me to a room and has sat me down. Today I am to learn to meditate, well that is what my [guardian_parent.Custom('MotherFather')] has told me. I follow them, sitting on the floor, closing my eyes as I breath in and out as.."
+ dharma_jainism.032.no_success:0 "my mind wanders"
+ dharma_jainism.032.success:0 "I concentrate on the meditation"
+#######################################
+# Jain Meditation
+#######################################
+ dharma_jainism.033.t:0 "Sharing food with a monk"
+ dharma_jainism.033.desc:0 "A visiting monk has come by and you shared the food with him. The sharing of food with an ascetic does bring some joy and a smile to your face."
+ dharma_jainism.033.food:0 "Sharing food with a strange is one of life's true delights."
+
+ dharma_jainism.034.t:0 "Sharing food with a monk"
+ dharma_jainism.034.desc:0 "A visiting monk has come by and you shared the food with him. The sharing of food with an ascetic does bring some joy and a smile to your face."
+ dharma_jainism.034.food:0 "Sharing food with a strange is one of life's true delights."
+
+ dharma_jainism.035.t:0 "Sharing food with a monk"
+ dharma_jainism.035.desc:0 "A visiting monk has come by and you shared the food with him. The sharing of food with an ascetic does bring some joy and a smile to your face."
+ dharma_jainism.035.food:0 "Sharing food with a strange is one of life's true delights."
+
+ dharma_jainism.036.t:0 "Sharing food with a monk"
+ dharma_jainism.036.desc:0 "A visiting monk has come by and you shared the food with him. The sharing of food with an ascetic does bring some joy and a smile to your face."
+ dharma_jainism.036.food:0 "Sharing food with a strange is one of life's true delights."
+
+ dharma_jainism.037.t:0 "Sharing food with a monk"
+ dharma_jainism.037.desc:0 "A visiting monk has come by and you shared the food with him. The sharing of food with an ascetic does bring some joy and a smile to your face."
+ dharma_jainism.037.food:0 "Sharing food with a strange is one of life's true delights."
 #######################################
 # Mahamastakabhisheka Festival
 #######################################
