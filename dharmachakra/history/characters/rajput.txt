@@ -121,13 +121,20 @@
 	}
 }
 188008 = {
-	name = "Bhoja"
+	name = "Mihira Bhoja"
 	# Mihira Bhoja I Pratihara
 	dynasty = 1042066
 	religion = "vaishnavism"
 	culture = "rajput"
 	father = 188007
 	mother = 188020
+	martial = 11
+	diplomacy = 11
+	intrigue = 8
+	stewardship = 10
+	learning = 10
+	prowess = 11
+	trait = education_martial_3
 	816.4.13 = {
 		birth = yes
 	}

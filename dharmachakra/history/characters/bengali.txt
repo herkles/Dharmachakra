@@ -136,6 +136,13 @@
 	religion = "mahayana"
 	culture = "bengali"
 	father = 190008
+	martial = 8
+	diplomacy = 10
+	intrigue = 8
+	stewardship = 12
+	learning = 13
+	prowess = 8
+	trait = education_stewardship_2
 	839.1.1 = {
 		birth = yes
 	}

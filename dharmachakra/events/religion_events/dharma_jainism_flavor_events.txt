@@ -145,7 +145,6 @@ dharma_jainism.004 = {# Fasting with the Monk
 		add_piety = -50
 	}
 }
-
 #######################################
 # Jain Flavor Events 
 #######################################

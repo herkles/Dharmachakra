@@ -16,6 +16,9 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Followers of either Kalikula Shaktism or Shrautism can now do animal sacrifices.
 - Jain rulers who are zealous can choose to abdicate and become a monk
 - Revised Jain holy sites
+- Jain unique destinations at their holy sites
+- various jain flavor events
+- updated the starting stats and traits of Mihira Bohj, Narayanapala, and Amoghavarsha
 
 ## Manual Installation Steps
 
