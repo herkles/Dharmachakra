@@ -19,6 +19,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Jain unique destinations at their holy sites
 - various jain flavor events
 - updated the starting stats and traits of Mihira Bohj, Narayanapala, and Amoghavarsha
+- Manyakheta is now properly the capital of the Rashtrakutas.
 
 ## Manual Installation Steps
 
