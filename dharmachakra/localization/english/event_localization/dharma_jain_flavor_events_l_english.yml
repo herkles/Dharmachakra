@@ -119,7 +119,7 @@
 # Jainism and Ahisma
 #######################################
  dharma_jainism.022.t:0 "Sheltering Animals"
- dharma_jainism.025.desc:0 "As you travel your realm, one of your learned monks suggest to you in building and mainting an animal sancatary in your capital, to treat and nurse injured animals. Of course such sanctuaries are not cheap."
+ dharma_jainism.022.desc:0 "As you travel your realm, one of your learned monks suggest to you in building and mainting an animal sancatary in your capital, to treat and nurse injured animals. Of course such sanctuaries are not cheap."
  dharma_jainism.022.help_animals:0 "A wonderful idea"
  dharma_jainism.022.no_help_animals:0 "I can't afford the cost"
 
@@ -281,3 +281,48 @@ activity_dharma_paryushana_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessive
  dharma_jainism.115.svetembara.desc:0 "Paryushana has concluded and my fast is now over and the monks have left. It was good to celebrate it once again."
  dharma_jainism.115.digambara.desc:0 ""Das Lakshana Dharma has concluded and my fast is now over and the monks have left. It was good to celebrate it once again."
  dharma_jainism.115.a:0 "It is good to be back home"
+#######################################
+# Mahavir Janma Kalyanak
+#######################################
+ dharma_jainism.117.t:0 "Preparing for the Mahavir Janma Kalyanak Festival"
+ dharma_jainism.117.desc:0 "It is that time of the year where the Mahavir Janma Kalyanak is to be held. The preparations are underway to celebrate the birth of the 24th Tirthankara. "
+ dharma_jainism.117.a:0 "Wonderful."
+ activity_dharma_mahavir_kalyanak_festival:0 "Mahavir Janma Kalyanak Festival"
+ activity_dharma_mahavir_kalyanak_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Attendance of the Mahavir Janma Kalyanak Festival" 
+
+ dharma_jainism.118.t:0 "Mahavir Janma Kalyanak Begins"
+ dharma_jainism.118.desc:0 "All the preparations are finished and it is time to begin the celebrations of Mahavira's birth. As is custom, during the festival itself the Jain community shall be fasting together."
+ dharma_jainism.118.a:0 "Om Namah Siddhanam"
+
+ dharma_jainism.119.t:0 "Visiting the Temple"
+ dharma_jainism.119.desc:0 "You arrive to the Temple for the first part of the festivities of Mahavir JHanma Kalyanak. The local monks are to give a talk on the nature of Ahimsa, Compassion and living a good life. Reading and reciting from the sacred scriptures is also being done."
+ dharma_jainism.119.a:0 "A good Speech"
+
+ dharma_jainism.120.t:0 "Meditating on Mahavira's teachings"
+ dharma_jainism.120.desc:0 "After the Monks gave their speeches, it is time for meditation. As you take your place with the others. As I sit on the floor meditating, the question is what will I meditate on?"
+ dharma_jainism.120.ahimsa:0 "Ahimsa"
+ dharma_jainism.120.compassion:0 "Compassion"
+
+ dharma_jainism.121.t:0 "Annointing the idol"
+ dharma_jainism.121.desc:0 "After the meditation, the monks lead through the annointing of the statue of Mahavira. I watch as the monks ceremonially bath the statue, before placing the idol upon a palanquin."
+ dharma_jainism.121.a:0 "Namo Loe Savva Sahunam"
+
+ dharma_jainism.122.t:0 "The procession of Mahavira's Idol"
+ dharma_jainism.122.desc:0 "The monks lead the statue of Mahavira onto a chariot that pulls the statue of Mahavira through the city. Behind the main statue are smaller idols showing the life of the 24th Tirthankara."
+ dharma_jainism.122.a:0 "Esopanncanamokkaro, savvapavappanasano"
+
+ dharma_jainism.123.t:0 "Providing Charity to the Local Community"
+ dharma_jainism.123.desc:0 "As part of the celebrations of Mahavir Janma Kalyanak it is customary to provide donations to the local community. How much shall you be giving this time?"
+ dharma_jainism.123.small:0 "Small Donation"
+ dharma_jainism.123.medium:0 "A regular Donation"
+ dharma_jainism.123.large:0 "A Grand Donation"
+
+ dharma_jainism.124.t:0 "donating to the local monastic community"
+ dharma_jainism.124.desc:0 "As part of the celebrations of Mahavir Janma Kalyanak it is customary to provide donations to the local monastic community. How much shall you be giving this time?"
+ dharma_jainism.124.small:0 "Small Donation"
+ dharma_jainism.124.medium:0 "A regular Donation"
+ dharma_jainism.124.large:0 "A Grand Donation"
+
+ dharma_jainism.125.t:0 "Mahavir Janma Kalyanak concludes"
+ dharma_jainism.125.desc:0 "Mahavir Janma Kalyanak has come to an end.It has been a grand time celebrating the festivities, but all things must come to an end. With its end also marks the end of the fast. "
+ dharma_jainism.125.a:0 "And, of all auspicious mantras, it is indeed the foremost auspicious one."

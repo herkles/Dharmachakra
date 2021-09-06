@@ -182,6 +182,22 @@ upset_monks = {
 	monthly_piety = -0.5
 	clergy_opinion = -5
 }
+dharma_sad_peasants_festival = {
+	icon = feast_negative
+	general_opinion = -5
+}
+dharma_happy_peasants_festival = {
+	icon = feast_positive
+	general_opinion = 5
+}
+dharma_sad_clergy_festival = {
+	icon = feast_negative
+	clergy_opinion = -5
+}
+dharma_happy_clergy_festival = {
+	icon = feast_positive
+	clergy_opinion = 5
+}
 #######################################
 # Nalanda Modifiers
 #######################################

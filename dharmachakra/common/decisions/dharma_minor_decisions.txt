@@ -475,7 +475,7 @@ dharma_attend_mahamastakabhisheka_festival = {# Jain Mahamastakabhisheka festiva
 
 	effect = {
 		custom_tooltip = dharma_attend_mahamastakabhisheka_festival_effect_tooltip
-		trigger_event = { id = pamir.0150 }
+		trigger_event = { id = dharma_jainism.100 }
 	}
 
 	cost = { 
@@ -502,7 +502,7 @@ dharma_attend_paryushana_festival = {# Jain Paryushana festival
 	}
 	picture = "gfx/interface/illustrations/decisions/dharma_decision_jain_festival.dds" 
 	ai_check_interval = 24
-	cooldown = { days = 4380 } # It is a 12 year festival
+	cooldown = { days = 1095 } # It is an annual festival but let this only happen every couple of years
 	desc = {
 		first_valid = {
 			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
@@ -534,7 +534,7 @@ dharma_attend_paryushana_festival = {# Jain Paryushana festival
 
 	effect = {
 		custom_tooltip = dharma_attend_paryushana_festival_effect_tooltip
-		trigger_event = { id = pamir.0150 }
+		trigger_event = { id = dharma_jainism.107 }
 	}
 
 	cost = { 
@@ -549,4 +549,62 @@ dharma_attend_paryushana_festival = {# Jain Paryushana festival
 		base = 50
 	}
 }
+dharma_attend_mahavir_kalyanak_festival = {# Jain  Mahavir Janma Kalyanak festival
+	title = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_attend_paryushana_festival_digambara
+			}
+			desc = dharma_attend_paryushana_festival
+		}
+	}
+	picture = "gfx/interface/illustrations/decisions/dharma_decision_jain_festival.dds" 
+	ai_check_interval = 24
+	cooldown = { days = 1095 } # It is an annual festival but let this only happen every couple of years
+	desc = {
+		first_valid = {
+			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
+				trigger = { faith = faith:digambara }
+				desc = dharma_attend_paryushana_festival_digambara_desc
+			}
+			desc = dharma_attend_paryushana_festival_desc
+		}
+	}
+	
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		religion = religion:jainism_religion
+	}
+	
+	is_valid = {
+		religion = religion:jainism_religion
+		custom_description = {
+			text = dharma_decision_mahavir_kalyanak_month_requirement
+			current_month >= 3
+			current_month <= 4
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
 
+	effect = {
+		custom_tooltip = dharma_attend_paryushana_festival_effect_tooltip
+		trigger_event = { id = dharma_jainism.117 }
+	}
+
+	cost = { 
+		gold = { value = medium_gold_value } # need the gold to host monks
+	}	
+
+	ai_potential = {
+		short_term_gold > medium_gold_value
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}

@@ -113,6 +113,20 @@ happy_monks_desc:0 "This character's recent actions have pleased the monks at th
 
 upset_monks:0 "Unhappy Monks"
 upset_monks_desc:0 "This character's recent actions have displeased the monks at the local monestary."
+
+dharma_sad_peasants_festival:0 "Sad Peasants"
+dharma_sad_peasants_festivals_desc:0 "At the local festival, the character was stingy with giving out donations, making the local peasants sad."
+
+dharma_happy_peasants_festival:0 "Happy Peasants"
+dharma_happy_peasants_festivals_desc:0 "At the local festival, the character was generious with giving out donations, making the local peasants happy."
+
+dharma_sad_clergy_festival:0 "Unhappy Monks"
+dharma_sad_clergy_festivals_desc:0 "At the local festival, the character was stingy with giving out donations, making the local clergy sad."
+
+dharma_happy_clergy_festival:0 "Unhappy Monks"
+dharma_happy_clergy_festivals_desc:0 "At the local festival, the character was generious with giving out donations, making the local clergy happy."
+
+
 #######################################
 # Visiting Monks 
 #######################################
