@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.3.2 "Varaha" (Released 24/08/2021)
+## Latest Version: 1.3.2 "Mahavira" (Released 24/08/2021)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -20,6 +20,8 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - various jain flavor events
 - updated the starting stats and traits of Mihira Bohj, Narayanapala, and Amoghavarsha
 - Manyakheta is now properly the capital of the Rashtrakutas.
+- Jains no longer hunt
+- Jains have a revised sin and virtue trait system
 
 ## Manual Installation Steps
 

@@ -806,27 +806,11 @@ dharma_attend_paryushana_festival = {# Jain Paryushana festival
 	}
 }
 dharma_attend_mahavir_kalyanak_festival = {# Jain  Mahavir Janma Kalyanak festival
-	title = {
-		first_valid = {
-			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
-				trigger = { faith = faith:digambara }
-				desc = dharma_attend_paryushana_festival_digambara
-			}
-			desc = dharma_attend_paryushana_festival
-		}
-	}
 	picture = "gfx/interface/illustrations/decisions/dharma_decision_jain_festival.dds" 
 	ai_check_interval = 24
 	cooldown = { days = 1095 } # It is an annual festival but let this only happen every couple of years
-	desc = {
-		first_valid = {
-			triggered_desc = {# Digambara's call the festival Das Lakshana instead of Paryushana
-				trigger = { faith = faith:digambara }
-				desc = dharma_attend_paryushana_festival_digambara_desc
-			}
-			desc = dharma_attend_paryushana_festival_desc
-		}
-	}
+	desc = dharma_attend_mahavir_kalyanak_festival_desc
+
 	
 	is_shown = {
 		is_ruler = yes
@@ -848,7 +832,7 @@ dharma_attend_mahavir_kalyanak_festival = {# Jain  Mahavir Janma Kalyanak festiv
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_paryushana_festival_effect_tooltip
+		custom_tooltip = dharma_attend_mahavir_kalyanak_festival_effect_tooltip
 		trigger_event = { id = dharma_jainism.117 }
 	}
 
