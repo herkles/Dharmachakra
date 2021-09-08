@@ -470,12 +470,6 @@ birth.0001 = {
 				}
 			}
 		}
-
-		# # For Hindus remove the Pumsavana modifier 
-		# if = {
-		# 	limit = { has_character_flag = spouse_pumsavana }
-		# 	remove_character_flag = spouse_pumsavana
-		# }
 	}
 }
 
@@ -760,8 +754,115 @@ birth.1001 = {
 				}
 			}
 		}
-
-
+		# Special effects for Jain Auspicious dreams
+		scope:child = {
+			if = {
+				limit = {
+					religion_tag = jainism_religion
+					OR = {
+						scope:mother = { has_character_flag = dharma_jain_dreams_airavata }
+						scope:mother = { has_character_flag = dharma_jain_dreams_vrishabha }
+						scope:mother = { has_character_flag = dharma_jain_dreams_simha }
+						scope:mother = { has_character_flag = dharma_jain_dreams_lakshmi }
+						scope:mother = { has_character_flag = dharma_jain_dreams_phul_mala }
+						scope:mother = { has_character_flag = dharma_jain_dreams_chandra }
+						scope:mother = { has_character_flag = dharma_jain_dreams_surya }
+						scope:mother = { has_character_flag = dharma_jain_dreams_dhvaja }
+						scope:mother = { has_character_flag = dharma_jain_dreams_meena_yugma }
+						scope:mother = { has_character_flag = dharma_jain_dreams_purna_kalasha }
+						scope:mother = { has_character_flag = dharma_jain_dreams_padma_sarovar }
+						scope:mother = { has_character_flag = dharma_jain_dreams_ratnakar }
+						scope:mother = { has_character_flag = dharma_jain_dreams_simhasana }
+						scope:mother = { has_character_flag = dharma_jain_dreams_deva_vimana }
+						scope:mother = { has_character_flag = dharma_jain_dreams_palace }
+						scope:mother = { has_character_flag = dharma_jain_dreams_ratnadhag }
+						scope:mother = { has_character_flag = dharma_jain_dreams_nirdhumra_agni }
+					}
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_airavata }	}
+					add_trait = content
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_vrishabha }	}
+					add_trait = mystic_3
+					add_character_flag = dharma_jain_child_monk
+					faith = { change_fervor = minor_fervor_gain }
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_simha }	}
+					add_trait = brave
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_lakshmi }	}
+					add_trait = temperate
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_phul_mala }	}
+					add_trait = gregarious
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_chandra }	}
+					add_trait = compassionate
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_surya }	}
+					add_trait = mystic_3
+					add_character_flag = dharma_jain_child_monk
+					faith = { change_fervor = minor_fervor_gain }
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_dhvaja }	}
+					add_trait = diligent
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_meena_yugma }	}
+					add_trait = beauty_good_2
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_purna_kalasha }	}
+					add_trait = compassionate
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_padma_sarovar }	}
+					add_trait = mystic_3
+					add_character_flag = dharma_jain_child_monk
+					faith = { change_fervor = minor_fervor_gain }
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_ratnakar }	}
+					add_trait = humble
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_simhasana }	}
+					add_trait = mystic_3
+					add_character_flag = dharma_jain_child_monk
+					faith = { change_fervor = minor_fervor_gain }
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_deva_vimana }	}
+					add_trait = mystic_3
+					add_character_flag = dharma_jain_child_monk
+					faith = { change_fervor = minor_fervor_gain }
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_palace }	}
+					add_trait = mystic_3
+					add_character_flag = dharma_jain_child_monk
+					faith = { change_fervor = minor_fervor_gain }
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_ratnadhag }	}
+					add_trait = temperate
+				}
+				if = {
+					limit = { scope:mother = { has_character_flag = dharma_jain_dreams_nirdhumra_agni }	}
+					add_trait = mystic_3
+					add_character_flag = dharma_jain_child_monk
+					faith = { change_fervor = minor_fervor_gain }
+				}
+			}		
+		}
 		# Special effects for Taltos
 		scope:child = {
 			if = {

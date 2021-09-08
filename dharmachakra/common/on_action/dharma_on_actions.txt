@@ -150,35 +150,12 @@ Dharma_events_five_yearly_pulse = {
 		#######################################
 		# Jain Flavor Events
 		#######################################
-		
+		20 = dharma_jainism.040		# Auspicious dreams - Mother
+		20 = dharma_jainism.041		# Auspicious dreams - Father
+
 		#######################################
 		# Hindu Flavor Events
 		#######################################
-
-		
-		# SIBERIA		
-		100 = siberia.0001	# Siberian Courtier Arrives
-		200 = siberia.0002	# Siberian Courtier Improves skills
-		
-		# SOCOTRA
-		50 = socotra.0010	# Runaway slave escapes to Socotra
-		50 = socotra.0011	# Runaway slave escapes to Socotra - female version
-		50 = socotra.0012	# Bawarij Pirate offers services
-		50 = socotra.0013	# Foreign merchant offers services (can spawn anywhere in the Indian Ocean)
-		50 = socotra.0014	# Foreign sailor offers services (can spawn anywhere in the Indian Ocean)
-		50 = socotra.0015	# Foreign adventurer offers services (can spawn anywhere in the Indian Ocean)
-		
-		# HARRAN
-		50 = harran.0030	# Spawn a Harranian courtier
-		100 = harran.0031	# Harranian courtier writes a treatise
-		
-		# PAMIR
-		50 = pamir.020		# Burusho warrior shows up
-		50 = pamir.021		# Burusho courtiers shows up
-		50 = pamir.022		# "Kafir" warrior shows up
-		50 = pamir.023		# "Kafir" courtiers shows up
-		50 = pamir.024		# Brahui warrior shows up
-		50 = pamir.025		# Brahui courtiers shows up
 		
 	}
 }
