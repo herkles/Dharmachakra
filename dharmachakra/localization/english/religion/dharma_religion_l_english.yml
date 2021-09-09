@@ -237,7 +237,8 @@
  holy_site_kundalpur_effect_name:0 "From [holy_site|E] #weak ($holy_site_kundalpur_name$)#!"
  holy_site_sonagiri_name:0 "Sonagiri"
  holy_site_sonagiri_effect_name:0 "From [holy_site|E] #weak ($holy_site_sonagiri_name$)#!"
-
+ holy_site_ellora_name:0 "Ellora"
+ holy_site_ellora_effect_name:0 "From [holy_site|E] #weak ($holy_site_ellora_name$)#!"
  
  #Holy sites: Tani
  holy_site_itanagar_name:0 "Itanagar"
