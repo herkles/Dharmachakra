@@ -33,7 +33,7 @@
 	doctrine = special_doctrine_is_jainism_faith
 
 	traits = {
-		virtues = { calm compassionate honest forgiving trusting generous chaste improvident inappetetic humble }
+		virtues = { calm compassionate honest forgiving generous chaste improvident inappetetic humble }
 		sins = {  hunter_1 hunter_2 hunter_3 drunkard wrathful sadistic gluttonous lustful greedy callous rakish deceitful }
 	}
 
@@ -231,7 +231,6 @@
 			holy_site = kanakagiri
 			holy_site = sonagiri
 			holy_site = shravana_belgola
-			holy_site = ellora
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_ritual_hospitality
@@ -253,7 +252,6 @@
 			holy_site = kanakagiri
 			holy_site = sonagiri
 			holy_site = shravana_belgola
-			holy_site = ellora
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_adaptive
@@ -282,7 +280,6 @@
 			holy_site = kanakagiri
 			holy_site = sonagiri
 			holy_site = shravana_belgola
-			holy_site = ellora
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_ritual_hospitality

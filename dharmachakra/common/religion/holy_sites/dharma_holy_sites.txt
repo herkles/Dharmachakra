@@ -76,12 +76,3 @@ sonagiri = {# sacred jain area
 		direct_vassal_opinion = 5
 	}
 }
-ellora = {# Ellora Caves, A major pilgrimage location for all three dharmic faiths
-	county = c_devagiri
-	barony = b_elapura
-
-	character_modifier = {
-		name = holy_site_sonagiri_effect_name
-		domain_tax_mult = 0.01 # major center of trade
-	}
-}
