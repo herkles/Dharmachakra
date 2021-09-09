@@ -36,6 +36,20 @@
  pilgrimage.0003.b:0 "The [ROOT.Char.GetFaith.HouseOfWorshipPlural] in [holy_site_8.GetNameNoTierNoTooltip]."
  pilgrimage.0003.c:0 "To [holy_site_9.GetNameNoTierNoTooltip]!"
 
+ pilgrimage.0004.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage"
+ pilgrimage.0004.desc:0 "Taking a pilgrimage and visiting a holy site, known as a tirtha, is a place to help the pilgrim in crossing over the ocean of samsara which is full of pain and misery in order to attain Moksha. While ther are many Tirthas throughout the world, the question is which one I shall out for?"
+ pilgrimage.0004.a:0 "The many temples of Palitana"
+ pilgrimage.0004.b:0 "To Shikharji"
+ pilgrimage.0004.c:0 "To Mount Girnar"
+ pilgrimage.0004.d:0 "Perhaps somewhere else..."
+ pilgrimage.0004.e:0 "I have changed my mind. This is not the right time."
+ pilgrimage.0005.a:0 "To Hastinapur, where 3 tirthakanras were born"
+ pilgrimage.0005.b:0 "To the city of Pawapuri where Mahavira achieved moksha"
+ pilgrimage.0005.c:0 "To Kanakagiri Jain Tirth!"
+ pilgrimage.0005.d:0 "To Sonagiri, sacred to the 8th Tirthankara Chandraprabha"
+ pilgrimage.0005.e:0 "Perhaps somewhere else..."
+ pilgrimage.0005.f:0 "I have changed my mind. This is not the right time."
+
  pilgrimage.1001.t:0 "$pilgrimage_header$ Departure"
  pilgrimage.1001.desc.opening:0 "As I prepare for my journey, I know that I will travel safely under the protection of [ROOT.Char.GetFaith.PantheonTerm]."
  pilgrimage.1001.desc.short:0 "\n\nThough I will not be gone for long, I pray for the wellbeing of the realm in my absence."
@@ -44,8 +58,14 @@
  pilgrimage.1001.desc.very_long:0 "\n\nI will be gone for a long time, and I can only pray [ROOT.Char.GetFaith.HighGodNameAlternate] watches over my realm as well."
  pilgrimage.1001.a:0 "It is time to depart."
 
- # Generic Pilgrimage Journey Events 
+ pilgrimage.1002.t:0 "$pilgrimage_header$ Vow to make"
+ pilgrimage.1002.desc:0 "As you make your departure plans, the question of which vow to make has come up. You could take a minor form of the five great vows for pilgrims visiting a holy Tirtha. You could even decide to follow the life style of an ascetic and fast during the trip as you drink limited amounts of boiled water and live off the rations given to you by strangers. Of course you could also just stick to the normal vows of a member of the laity.\n\n\Which vow shall you make?"
+ pilgrimage.1002.a:0 "I shall make the five vows"
+ pilgrimage.1002.b:0 "I shall take the five great vows and fast as well."
+ pilgrimage.1002.c:0 "I will stick to the Anuvratas of the laity"
+ pilgrimage.1002.fasting_tooltip:0 "You will start your fast once you get to your particular pilgrimage location not during the trip to there."
 
+ # Generic Pilgrimage Journey Events 
  pilgrimage.2001.t:0 "$pilgrimage_header$ Bandits!"
  pilgrimage.2001.desc:0 "I wake to the noise of chaos in camp, but it only takes me a few moments to realize what is happening.\n\nWe are under attack!\n\nBandits are swarming our tents and wagons, while our guards do what they can to resist."
  pilgrimage.2001.a:0 "Where is my sword? I will drive these dogs away!"
@@ -59,10 +79,10 @@
  pilgrimage.2001.b.success_title:0 "Safe and Sound"
  pilgrimage.2001.b.failure:0 "The bandits set fire to the wagon"
  pilgrimage.2001.b.failure_title:0 "The Wagon Burns!"
- pilgrimage.2001.c:0 ""Stop this madness! I will pay whatever you want!""
+ pilgrimage.2001.c:0 "'Stop this madness! I will pay whatever you want!'"
 
  pilgrimage.2002.t:0 "$pilgrimage_header$ Love Thy Neighbor"
- pilgrimage.2002.desc:0 "Among my fellow pilgrims, there is a [dummy_gender.GetWomanMan] who preaches compassion and fellowship — until [dummy_gender.GetSheHe] reaches the topic of heathens.\n\nOne evening around the campfire, [dummy_gender.GetSheHe] loudly declares them to be "abominable monsters in the eyes of [ROOT.Char.GetFaith.PantheonTerm]! Deviants and child murderers all!" Most people avert their eyes when [dummy_gender.GetSheHe] looks at them. Tonight, I was not quick enough. "Do you not agree, o [ROOT.Char.GetTitleAsNameNoTooltip]?""
+ pilgrimage.2002.desc:0 "Among my fellow pilgrims, there is a [dummy_gender.GetWomanMan] who preaches compassion and fellowship — until [dummy_gender.GetSheHe] reaches the topic of heathens.\n\nOne evening around the campfire, [dummy_gender.GetSheHe] loudly declares them to be 'abominable monsters in the eyes of [ROOT.Char.GetFaith.PantheonTerm]! Deviants and child murderers all!' Most people avert their eyes when [dummy_gender.GetSheHe] looks at them. Tonight, I was not quick enough. 'Do you not agree, o [ROOT.Char.GetTitleAsNameNoTooltip]?'"
  pilgrimage.2002.a:0 "They are not #EMP all#! that bad."
  pilgrimage.2002.b:0 "I agree, and I would not trust anyone who came to their defense!"
  pilgrimage.2002.c:0 "Truly! They spit in the face of [ROOT.Char.GetFaith.HighGodName]!"
@@ -239,14 +259,9 @@
  pilgrimage.3204.a:0 "I must attempt to alleviate their suffering."
  pilgrimage.3204.b:0 "Such is life in the dry season"
 
-
-
-
-
-
  # Buddhist Pilgrimage Journey Events
  pilgrimage.3301.t:0 "$pilgrimage_header$ Critical Bhikkhu"
- pilgrimage.3301.desc:0 "Along the pilgrim's path I see many wanderers, those who have abandoned the world and freed themselves from all worldly attachments.\n\nToday an elderly wanderer eyes my entourage as [wanderer.GetSheHe] walks beside me. "You bring too much with you. To achieve enlightenment, you must cast off your worldly possessions like me, and travel in naught but simple robes.""
+ pilgrimage.3301.desc:0 "Along the pilgrim's path I see many wanderers, those who have abandoned the world and freed themselves from all worldly attachments.\n\nToday an elderly wanderer eyes my entourage as [wanderer.GetSheHe] walks beside me. 'You bring too much with you. To achieve enlightenment, you must cast off your worldly possessions like me, and travel in naught but simple robes.'"
  pilgrimage.3301.a:0 "I can manage that, at least for this journey."
  pilgrimage.3301.b:0 "But my tent, my blankets? It is too much. I am not ready!"
  pilgrimage.3301.c:0 "Ah, but is against Ṛta for a [ROOT.Char.GetTitleAsNameNoTooltip] to travel in austerity."
@@ -260,7 +275,7 @@
  pilgrimage.4001.b:0 "What's important is that I am seen and heard here."
 
  # The Mystic is there!
- pilgrimage.4002.desc:0 "I am finally here, body and soul, at the end of my great pilgrimage. And who should meet me there but [mystic.GetTitledFirstName], the seeker of true knowledge of the divine?\n\n"Look around you, [ROOT.Char.GetFirstNameNoTooltip]!" [mystic.GetSheHe] says. "Is this glory not as I said it would be?""
+ pilgrimage.4002.desc:0 "I am finally here, body and soul, at the end of my great pilgrimage. And who should meet me there but [mystic.GetTitledFirstName], the seeker of true knowledge of the divine?\n\n'Look around you, [ROOT.Char.GetFirstNameNoTooltip]!'' [mystic.GetSheHe] says. 'Is this glory not as I said it would be?"
  pilgrimage.4002.a:0 "Indeed it is, my friend!"
  pilgrimage.4002.b:0 "It's... something all right."
  pilgrimage.4002.c:0 "Oh yes, I do like what I'm seeing."
@@ -304,7 +319,7 @@
  pilgrimage.5201.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5201.b:0 "$pilgrimage.4001.b$"
 
-   # Hindu
+# Hindu
  pilgrimage.5301.t:0 "$pilgrimage_header$ Varanasi"
  pilgrimage.5301.desc:0 "At last I have arrived in Varanasi. Founded by the god Shiva in far-back antiquity, the great city attracts pilgrims from long and far.\n\nIt is not just Hindu pilgrims who travel here though, as the city is near the site where Gautama Buddha first taught his disciples.\n\nSeeing this mixing of the faithful first-hand, and the knowledge and discussion that flow from it, makes me newly aware of how we all live in this world together."
  pilgrimage.5301.a:0 "$pilgrimage.4001.a$"
@@ -356,25 +371,55 @@
  pilgrimage.5421.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5421.b:0 "$pilgrimage.4001.b$"
 
-   # Jainism
- pilgrimage.5501.t:0 "$pilgrimage_header$ Shikharji"
- pilgrimage.5501.desc:1 "According to the Nirvana Kanda, twenty of the twenty-four Jain tirthankaras attained Moksha here on the mountain of Shikharji. Such a storied history has made this place the most important pilgrimage site in the Jain community, and as my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life."
+# Jainism
+ pilgrimage.5501.t:0 "$pilgrimage_header$ Palitana"
+ pilgrimage.5501.desc:1 "This is the place where the first Tirthankara Rishabhanatha delievered his first sermon here and sanctified the area. There are over three thousand temples at Palitana and is regarded by all Jain sects as being one of the most holist places in the world. climbing the nearby mountain is considered a holy act and it is said to help one reach moksha. As my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life."
  pilgrimage.5501.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5501.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5502.t:0 "$pilgrimage_header$ Shikharji"
+ pilgrimage.5502.desc:1 "According to the Nirvana Kanda, twenty of the twenty-four Jain tirthankaras attained Moksha here on the mountain of Shikharji. Such a storied history has made this place one of the the most important pilgrimage site in the Jain community, and as my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life."
+ pilgrimage.5502.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5502.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5503.t:0 "$pilgrimage_header$ Girnar"
+ pilgrimage.5503.desc:1 "The 22nd Tirthankara, Neminath, became an ascetic after he saw the slaughter of animals for a feast on his wedding day. He came to Mount Girnar where he achieved omnisience and Moksha while meditating upon the highest peak of Mount Girnar. His bride-to-be Rajulmati would follow Neminath to the sacred mountain and renounced the word to focus on attaining Moksha. After climbing the nearly four thousand steps to reach the first plateau of the mount, I pause to catch my breath. As I gaze up to the peak of the mountain and to the valleys below and the mandirs that surround me, I find myself reflecting on my own journey here and what it means for my life." 
+ pilgrimage.5503.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5503.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5504.t:0 "$pilgrimage_header$ Hastinapur"
+ pilgrimage.5504.desc:1 "The ancient city of Hastinapur is where the 16th Tirthankara, Shantinatha, the 17th Tirthanakara, Kunthunatha, and the 18th Tirthankara, Aranatha, were all born. Such a storied history has made this place one of the most important pilgrimage site in the Jain community, and as my gaze wanders from the highest peaks to the lowest reaches I find myself reflecting on my own journey here and what it means for my life."
+ pilgrimage.5504.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5504.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5505.t:0 "$pilgrimage_header$ Pawapuri"
+ pilgrimage.5505.desc:1 "The city of Pawapuri is one of the most holiest places for it is where Mahavira achieved Moksha and where he was cremated at the Jal Mindir Temple. The ancient temple built by Mahavira's brother king Nandivardhan stands as a bastion of serenity by the ponds. As I sit in the temple meditating, I wonder what this means for myself and for my journey to reach Moksha."
+ pilgrimage.5505.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5505.b:0 "$pilgrimage.4001.b$"
   
+ pilgrimage.5506.t:0 "$pilgrimage_header$ Kanakagiri"
+ pilgrimage.5506.desc:1 "The 24th Tirthankara Mahavira visited Kanakagiri and held meetings here in those ancient days. The holy saint Achrya Pujyapada would later establish a monastary here. The ancient Parshvanatha temple at the Kanakagiri Tirth shows a number of rock cut images of Tirthankaras and holy saints. As I sit in the temple meditating, I wonder what this means for myself and for my journey to reach Moksha."
+ pilgrimage.5506.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5506.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5507.t:0 "$pilgrimage_header$ Sonagiri"
+ pilgrimage.5507.desc:1 "Since the time of the 8th Tirthankara, Chandraprabha, countless ascetic saints have achieved moksha here. The 8th Tirthankara has a three meter cut image here. There are numerous temples scattered throughout this sacred site. As I walk around Sonagiri, I find myself reflecting and wondering will I achieve moksha like those ancient saints."
+ pilgrimage.5507.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5507.b:0 "$pilgrimage.4001.b$"
+
  # Zoroastrian
  pilgrimage.5601.t:0 "$pilgrimage_header$ The Divine Consciousness"
  pilgrimage.5601.desc:0 "As I stand upon the slopes of Mount Ushi-darena, the vista of the lower reaches spreads out before me. Faced with the awe-inspiring sight, I cannot help but think about how Zoroaster attained illumination here, receiving the knowledge of Ahura Mazda to spread to the world below. Like most pilgrims here I feel no divine spark of prophecy, yet even still I cannot help but marvel at what lay before me."
  pilgrimage.5601.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5601.b:0 "$pilgrimage.4001.b$"
 
-   # Norse Germanic
+# Norse Germanic
  pilgrimage.5901.t:0 "$pilgrimage_header$ Paderborn!"
  pilgrimage.5901.desc:0 "Deep in the forests of Paderborn once lay Irminsul, the Great Pillar. Erected to honor Odin, the monument was destroyed by Charlemagne during the Saxon Wars, but our people continue to flock to the site where it once stood in honor of its memory. Now I can say that I, too, have made pilgrimage to the sacred place."
  pilgrimage.5901.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5901.b:0 "$pilgrimage.4001.b$"
 
-   # Tengri
+# Tengri
  pilgrimage.5911.t:0 "$pilgrimage_header$ Open Blue Skies"
  pilgrimage.5911.desc:0 "The world is [ROOT.Char.GetFaith.HighGodNamePossessive] temple, the great blue sky grander than the ceiling of any mosque or church. Here in great open steppes of [destination_title.GetNameNoTierNoTooltip] I feel especially close to [ROOT.Char.GetFaith.PantheonTerm], and find myself reflecting on my journey to reach this sacred place."
  pilgrimage.5911.a:0 "$pilgrimage.4001.a$"

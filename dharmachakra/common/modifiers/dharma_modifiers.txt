@@ -1,10 +1,10 @@
-﻿#Modifiers granted from pet animals
-
+﻿##########################################
+# Elephant modifiers
+##########################################
 elephant_story_riding_modifier = {
 	icon = dog_positive
 	health = 0.2
 }
-
 ##########################################
 # Hindu Deities 
 ##########################################
@@ -13,81 +13,91 @@ bhakti_hinduism_murugan = {# Murugan God of War
 	martial = medium_skill_bonus
 	prowess = 4
 }
-bhakti_hinduism_varuna = {# Varuna God of War
+bhakti_hinduism_varuna = {# Varuna god of the Sea
 	icon = martial_positive
 	stewardship = 2
 	tolerance_advantage_mod = 2
 	naval_movement_speed_mult = 0.05
 }
+bhakti_hinduism_khandoba = {# Khandoba he destroyer of Demons
+	icon = martial_positive
+	tolerance_advantage_mod = 4
+	prowess = 4
+}
+bhakti_hinduism_devnarayan = {# Devnarayan Martial incarnation of Vishnu.
+	icon = martial_positive
+	martial = 2
+	tolerance_advantage_mod = 2
+	prowess = 2
+}
 ##########################################
 # Tibetan Deities - Bon
 ##########################################
-tibet_deity_sipe_gyalmo = {# Queen of the Universe, is the chief wrathful protector Goddess
+buddhist_deity_sipe_gyalmo = {# Queen of the Universe, is the chief wrathful protector Goddess
 	icon = health_positive
 	health = 0.2
 	stress_gain_mult = -0.12
 }
-tibet_deity_shenlha_okar = {# God of Supreme Compassion. 
+buddhist_deity_shenlha_okar = {# God of Supreme Compassion. 
 	icon = diplomacy_positive
 	learning = 1
 	diplomacy = 1
 }
-tibet_deity_tonpa_shenrab = {# the Completely Enlightened One
+buddhist_deity_tonpa_shenrab = {# the Completely Enlightened One
 	icon = learning
 	learning = 2
 	monthly_prestige_gain_mult = 0.2
 }
-tibet_deity_yeshe_walmo = {# Wisdom Protector
+buddhist_deity_yeshe_walmo = {# Wisdom Protector
 	icon = social_positive
 	tolerance_advantage_mod = 2
 	dynasty_opinion = 10
 }
-tibet_deity_takla_mebar = {# Flaming Tiger Deity
+buddhist_deity_takla_mebar = {# Flaming Tiger Deity
 	icon = martial_positive
 	martial = 1
 	controlled_province_advantage = 1
 }
-tibet_deity_Zhambala = {# Prosperity Deity is the deity who manifests wealth and prosperity.
+buddhist_deity_Zhambala = {# Prosperity Deity is the deity who manifests wealth and prosperity.
 	icon = economy_positive
 	domain_tax_same_faith_mult = 0.1
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
 }
-tibet_deity_sherab_chamma = {# Great Wisdom Loving Mother
+buddhist_deity_sherab_chamma = {# Great Wisdom Loving Mother
 	icon = fertility_positive
 	fertility = 0.10
 	attraction_opinion = 5
 	close_relative_opinion = 5
 }
 ##########################################
-# Tiobetan Deities - Buddhist
+# Tibetan Deities - Buddhist
 ##########################################
-
-tibet_deity_palden_lhamo = {# Palden_Lhamo
+buddhist_deity_palden_lhamo = {# Palden_Lhamo
 	icon = prowess_positive
 	attacker_advantage = 2
 	prowess = 2
 }
-tibet_deity_tara = {# Tara
+buddhist_deity_tara = {# Tara
 	icon = learning_positive
 	learning = 2
 	monthly_piety_gain_mult = 0.2
 }
-tibet_deity_avalokitesvara = {# Avalokiteśvara
+buddhist_deity_avalokitesvara = {# Avalokiteśvara
 	icon = diplomacy_positive
 	learning = 2
 	diplomacy = 2
 }
-tibet_deity_yamantaka = {# Yamantaka
+buddhist_deity_yamantaka = {# Yamantaka
 	icon = martial_positive
 	martial = 2
 	controlled_province_advantage = 3
 }
-tibet_deity_hevajra = {# Hevajra
+buddhist_deity_hevajra = {# Hevajra
 	icon = learning_positive
 	learning = 2
 	monthly_prestige_gain_mult = 0.2
 }
-tibet_deity_vajrayogini = {# Vajrayogini
+buddhist_deity_vajrayogini = {# Vajrayogini
 	icon = diplomacy_positive
 	health = 0.25
 	diplomacy = 2
@@ -172,6 +182,22 @@ upset_monks = {
 	monthly_piety = -0.5
 	clergy_opinion = -5
 }
+dharma_sad_peasants_festival = {
+	icon = feast_negative
+	general_opinion = -5
+}
+dharma_happy_peasants_festival = {
+	icon = feast_positive
+	general_opinion = 5
+}
+dharma_sad_clergy_festival = {
+	icon = feast_negative
+	clergy_opinion = -5
+}
+dharma_happy_clergy_festival = {
+	icon = feast_positive
+	clergy_opinion = 5
+}
 #######################################
 # Nalanda Modifiers
 #######################################
@@ -233,6 +259,242 @@ jain_vow_aparigraha = {# Contemplating Aparigraha
 	monthly_income_mult = -0.1
 	monthly_piety_gain_mult = 0.2
 }
-
-
+dharma_jain_pilgrimage_five_vows = {# Contemplating Aparigraha
+	icon = piety_positive
+	monthly_income_mult = -0.3
+	fertility = -0.3
+	intrigue = -2
+	scheme_secrecy = -10
+	scheme_power = -5
+	prowess = -2
+	monthly_piety_gain_mult = 0.15
+}
+dharma_jain_pilgrimage_ascetic_vow = {# Contemplating Aparigraha
+	icon = piety_positive
+	monthly_income_mult = -0.3
+	fertility = -0.3
+	intrigue = -2
+	scheme_secrecy = -10
+	scheme_power = -5
+	prowess = -2
+	health = -0.5
+	monthly_piety_gain_mult = 0.35
+}
+dharma_jain_pilgrimage_anuvratas_vow = {# Contemplating Aparigraha
+	icon = piety_positive
+	monthly_income_mult = -0.1
+	fertility = -0.1
+	intrigue = -1
+	scheme_secrecy = -5
+	scheme_power = -3
+	prowess = -1
+	monthly_piety_gain_mult = 0.05
+}
+##########################################
+# animal sacrifice Modifiers 
+##########################################
+dharma_vedic_devi_blessing_small = {
+	icon = piety_positive
+	diplomacy = 1
+	monthly_lifestyle_xp_gain_mult = 0.03
+	monthly_piety = 0.1
+}
+dharma_vedic_devi_blessing_medium = {
+	icon = piety_positive
+	diplomacy = 2
+	monthly_lifestyle_xp_gain_mult = 0.06
+	monthly_piety = 0.3
+}
+dharma_vedic_devi_blessing_large = {
+	icon = piety_positive
+	diplomacy = 3
+	monthly_lifestyle_xp_gain_mult = 0.09
+	monthly_piety = 0.5
+}
+# Durga animal sacrifice Modifiers 
+dharma_vedic_durga_blessing_small = {
+	icon = piety_positive
+	martial = 1
+	build_gold_cost = -0.05
+	build_piety_cost = -0.05
+	build_prestige_cost = -0.05
+	monthly_piety = 0.1
+}
+dharma_vedic_durga_blessing_medium = {
+	icon = piety_positive
+	martial = 2
+	build_gold_cost = -0.1
+	build_piety_cost = -0.1
+	build_prestige_cost = -0.1
+	monthly_piety = 0.3
+}
+dharma_vedic_durga_blessing_large = {
+	icon = piety_positive
+	martial = 3
+	build_gold_cost = -0.15
+	build_piety_cost = -0.15
+	build_prestige_cost = -0.15
+	monthly_piety = 0.5
+}
+# Indra animal sacrifice Modifiers 
+dharma_vedic_indra_blessing_small = {
+	icon = piety_positive
+	martial = 1
+	build_gold_cost = -0.05
+	build_piety_cost = -0.05
+	build_prestige_cost = -0.05
+	monthly_piety = 0.1
+}
+dharma_vedic_indra_blessing_medium = {
+	icon = piety_positive
+	martial = 2
+	build_gold_cost = -0.1
+	build_piety_cost = -0.1
+	build_prestige_cost = -0.1
+	monthly_piety = 0.3
+}
+dharma_vedic_indra_blessing_large = {
+	icon = piety_positive
+	martial = 3
+	build_gold_cost = -0.15
+	build_piety_cost = -0.15
+	build_prestige_cost = -0.15
+	monthly_piety = 0.5
+}
+# Lakshmi animal sacrifice Modifiers 
+dharma_vedic_lakshmi_blessing_small = {
+	icon = piety_positive
+	stewardship = 1
+	prowess = 1
+	monthly_piety = 0.1
+}
+dharma_vedic_lakshmi_blessing_medium = {
+	icon = piety_positive
+	stewardship = 2
+	prowess = 2
+	monthly_piety = 0.3
+}
+dharma_vedic_lakshmi_blessing_large = {
+	icon = piety_positive
+	stewardship = 3
+	prowess = 3
+	monthly_piety = 0.5
+}
+# Bhaga animal sacrifice Modifiers 
+dharma_vedic_bhaga_blessing_small = {
+	icon = piety_positive
+	stewardship = 1
+	prowess = 1
+	monthly_piety = 0.1
+}
+dharma_vedic_bhaga_blessing_medium = {
+	icon = piety_positive
+	stewardship = 2
+	prowess = 2
+	monthly_piety = 0.3
+}
+dharma_vedic_bhaga_blessing_large = {
+	icon = piety_positive
+	stewardship = 3
+	prowess = 3
+	monthly_piety = 0.5
+}
+# Parvati animal sacrifice Modifiers 
+dharma_vedic_parvati_blessing_small = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.1
+	monthly_dynasty_prestige = 0.1
+	monthly_prestige = 0.1
+	monthly_piety = 0.1
+}
+dharma_vedic_parvati_blessing_medium = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.2
+	monthly_dynasty_prestige = 0.2
+	monthly_prestige = 0.3
+	monthly_piety = 0.3
+}
+dharma_vedic_parvati_blessing_large = {
+	icon = piety_positive
+	monthly_lifestyle_xp_gain_mult = 0.3
+	monthly_dynasty_prestige = 0.3
+	monthly_prestige = 0.5
+	monthly_piety = 0.5
+}
+# Agni animal sacrifice Modifiers 
+dharma_vedic_agni_blessing_small = {
+	icon = piety_positive
+	intrigue = 1
+	county_opinion_add = 4
+	monthly_piety = 0.1
+}
+dharma_vedic_agni_blessing_medium = {
+	icon = piety_positive
+	intrigue = 2
+	county_opinion_add = 8
+	monthly_piety = 0.3
+}
+dharma_vedic_agni_blessing_large = {
+	icon = piety_positive
+	intrigue = 3
+	county_opinion_add = 12
+	monthly_piety = 0.5
+}
+# Brhaspati animal sacrifice Modifiers 
+dharma_vedic_brhaspati_blessing_small = {
+	icon = piety_positive
+	learning = 1
+	character_capital_county_monthly_development_growth_add = 0.2
+	monthly_piety = 0.1
+}
+dharma_vedic_brhaspati_blessing_medium = {
+	icon = piety_positive
+	learning = 2
+	character_capital_county_monthly_development_growth_add = 0.4
+	monthly_piety = 0.3
+}
+dharma_vedic_brhaspati_blessing_large = {
+	icon = piety_positive
+	learning = 3
+	character_capital_county_monthly_development_growth_add = 0.6
+	monthly_piety = 0.5
+}
+# Aditi animal sacrifice Modifiers 
+dharma_vedic_aditi_blessing_small = {
+	icon = piety_positive
+	health = 0.1
+	fertility = 0.04
+	monthly_piety = 0.1
+}
+dharma_vedic_aditi_blessing_medium = {
+	icon = piety_positive
+	health = 0.4
+	fertility = 0.08
+	monthly_piety = 0.3
+}
+dharma_vedic_aditi_blessing_large = {
+	icon = piety_positive
+	health = 0.7
+	fertility = 0.12
+	monthly_piety = 0.5
+}
+# Saraswati animal sacrifice Modifiers 
+dharma_vedic_saraswati_blessing_small = {
+	icon = piety_positive
+	learning = 1
+	character_capital_county_monthly_development_growth_add = 0.2
+	monthly_piety = 0.1
+}
+dharma_vedic_saraswati_blessing_medium = {
+	icon = piety_positive
+	learning = 2
+	character_capital_county_monthly_development_growth_add = 0.4
+	monthly_piety = 0.3
+}
+dharma_vedic_saraswati_blessing_large = {
+	icon = piety_positive
+	learning = 3
+	character_capital_county_monthly_development_growth_add = 0.6
+	monthly_piety = 0.5
+}
 

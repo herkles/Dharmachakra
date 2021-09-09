@@ -8,9 +8,7 @@ namespace = pilgrimage
 # 0001-0999
 # by Petter Vilberg
 ################################
-
-# First selection event
-pilgrimage.0001 = {
+pilgrimage.0001 = {# First selection event
 	type = character_event
 	title = pilgrimage.0001.t
 	desc = pilgrimage.0001.desc
@@ -36,7 +34,6 @@ pilgrimage.0001 = {
 			HOLY_SITE = scope:holy_site_1
 		}
 	}
-
 	option = {
 		name = pilgrimage.0001.b
 		trigger = {
@@ -46,7 +43,6 @@ pilgrimage.0001 = {
 			HOLY_SITE = scope:holy_site_2
 		}
 	}
-
 	option = {
 		name = pilgrimage.0001.c
 		trigger = {
@@ -55,8 +51,7 @@ pilgrimage.0001 = {
 		holy_site_selection_event_option_effect = {
 			HOLY_SITE = scope:holy_site_3
 		}
-	}
-	
+	}	
 	option = { # Switch to the next event
 		name = pilgrimage.0001.d
 		trigger = {
@@ -65,7 +60,6 @@ pilgrimage.0001 = {
 		custom_tooltip = pilgrimage_other_selections_available_tt
 		trigger_event = pilgrimage.0002
 	}
-
 	option = { # I don't want to go on a pilgrimage after all
 		name = pilgrimage.0001.e
 		trigger = {
@@ -76,9 +70,7 @@ pilgrimage.0001 = {
 		remove_character_flag = planning_an_activity
 	}
 }
-
-# Second selection event
-pilgrimage.0002 = {
+pilgrimage.0002 = {# Second selection event
 	type = character_event
 	title = pilgrimage.0001.t
 	desc = pilgrimage.0001.desc
@@ -94,7 +86,6 @@ pilgrimage.0002 = {
 			HOLY_SITE = scope:holy_site_4
 		}
 	}
-
 	option = {
 		name = pilgrimage.0002.b
 		trigger = {
@@ -104,7 +95,6 @@ pilgrimage.0002 = {
 			HOLY_SITE = scope:holy_site_5
 		}
 	}
-
 	option = {
 		name = pilgrimage.0002.c
 		trigger = {
@@ -113,8 +103,7 @@ pilgrimage.0002 = {
 		holy_site_selection_event_option_effect = {
 			HOLY_SITE = scope:holy_site_6
 		}
-	}
-	
+	}	
 	option = { # Switch to the next event
 		name = pilgrimage.0001.d
 		custom_tooltip = pilgrimage_other_selections_available_tt
@@ -128,7 +117,6 @@ pilgrimage.0002 = {
 			trigger_event = pilgrimage.0001
 		}
 	}
-
 	option = { # I don't want to go on a pilgrimage after all
 		name = pilgrimage.0001.e
 		trigger = {
@@ -140,9 +128,7 @@ pilgrimage.0002 = {
 		remove_character_flag = planning_an_activity
 	}
 }
-
-# Third selection event
-pilgrimage.0003 = {
+pilgrimage.0003 = {# Third selection event
 	type = character_event
 	title = pilgrimage.0001.t
 	desc = pilgrimage.0001.desc
@@ -158,17 +144,16 @@ pilgrimage.0003 = {
 			HOLY_SITE = scope:holy_site_7
 		}
 	}
-
 	option = {
 		name = pilgrimage.0003.b
 		trigger = {
 			exists = scope:holy_site_8
+			NOT = { religion = religion:jainism_religion }# The Pilgrimage to Shravana Belgola has its own separate event
 		}
 		holy_site_selection_event_option_effect = {
 			HOLY_SITE = scope:holy_site_8
 		}
 	}
-
 	option = {
 		name = pilgrimage.0003.c
 		trigger = {
@@ -177,24 +162,143 @@ pilgrimage.0003 = {
 		holy_site_selection_event_option_effect = {
 			HOLY_SITE = scope:holy_site_9
 		}
-	}
-	
+	}	
 	option = { # Switch to the next event
 		name = pilgrimage.0001.d
 		custom_tooltip = pilgrimage_other_selections_available_tt
 		trigger_event = pilgrimage.0001
 	}
-
 	option = { # I don't want to go on a pilgrimage after all
 		name = pilgrimage.0001.e
 		remove_character_flag = planning_an_activity
 		remove_decision_cooldown = go_on_pilgrimage_decision
 	}
 }
+##### Jain Pilgrimage Selection #### 
+pilgrimage.0004 = {# Jain First selection event
+	type = character_event
+	title = pilgrimage.0004.t
+	desc = pilgrimage.0004.desc
+	theme = pilgrimage_activity
+	override_background = {
+		event_background = temple
+	}
+	left_portrait = root
 
+	trigger = { 
+		religion = religion:jainism_religion
+	}
 
-# AI Desitnation selection event
-pilgrimage.0999 = {
+	immediate = {
+		# Stop characters from planning multiple activities at once.
+		add_character_flag = {
+			flag = planning_an_activity
+			days = 30
+		}
+
+		set_up_holy_sites_for_selection_effect = yes
+	}
+	
+	option = {
+		name = pilgrimage.0004.a
+		holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_1
+		}
+	}
+	option = {
+		name = pilgrimage.0004.b
+		trigger = {
+			exists = scope:holy_site_2
+		}
+		holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_2
+		}
+	}
+	option = {
+		name = pilgrimage.0004.c
+		trigger = {
+			exists = scope:holy_site_3
+		}
+		holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_3
+		}
+	}	
+	option = { # Switch to the next event
+		name = pilgrimage.0004.d
+		trigger = {
+			exists = scope:holy_site_4
+		}
+		custom_tooltip = pilgrimage_other_selections_available_tt
+		trigger_event = pilgrimage.0005
+	}
+	option = { # I don't want to go on a pilgrimage after all
+		name = pilgrimage.0004.e
+		trigger = {
+			NOT = { exists = scope:holy_site_4 }
+		}
+		remove_decision_cooldown = go_on_pilgrimage_decision
+
+		remove_character_flag = planning_an_activity
+	}
+}
+pilgrimage.0005 = {# Jain Second selection event
+	type = character_event
+	title = pilgrimage.0004.t
+	desc = pilgrimage.0004.desc
+	theme = pilgrimage_activity
+	override_background = {
+		event_background = temple
+	}
+	left_portrait = root
+	
+	option = {
+		name = pilgrimage.0005.a
+		holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_4
+		}
+	}
+	option = {
+		name = pilgrimage.0005.b
+		trigger = {
+			exists = scope:holy_site_5
+		}
+		holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_5
+		}
+	}
+	option = {
+		name = pilgrimage.0005.c
+		trigger = {
+			exists = scope:holy_site_6
+		}
+		holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_6
+		}
+	}
+	option = {
+		name = pilgrimage.0005.d
+		holy_site_selection_event_option_effect = {
+			HOLY_SITE = scope:holy_site_7
+		}
+	}	
+	option = { # Switch to the next event
+		name = pilgrimage.0005.e
+		custom_tooltip = pilgrimage_other_selections_available_tt
+		trigger_event = pilgrimage.0004
+	}
+	option = { # I don't want to go on a pilgrimage after all
+		name = pilgrimage.0005.f
+		trigger = {
+			NOT = { exists = scope:holy_site_7 }
+		}
+
+		remove_decision_cooldown = go_on_pilgrimage_decision
+
+		remove_character_flag = planning_an_activity
+	}
+}
+##### AI Pilgrimage Selection #### 
+pilgrimage.0999 = {# AI Desitnation selection event
 	hidden = yes
 
 	immediate = {
@@ -276,14 +380,12 @@ pilgrimage.0999 = {
 		remove_character_flag = planning_an_activity
 	}
 }
-
-
 ################################
 # Start Events
 # 1001-1999
 # by Petter Vilberg
 ################################
-pilgrimage.1001 = {
+pilgrimage.1001 = {# Departure
 	type = character_event
 	title = pilgrimage.1001.t
 	desc = {
@@ -333,17 +435,52 @@ pilgrimage.1001 = {
 	}
 
 }
+pilgrimage.1002 = {# Jain asctic vows
+	type = character_event
+	title = pilgrimage.1002.t
+	desc = pilgrimage.1002.desc
+	theme = pilgrimage_activity
+	override_background = {
+		event_background = forest_temple
+	}
+	left_portrait = root
 
+	weight_multiplier = {
+		base = 1
+	}
 
+	trigger = { 
+		religion = religion:jainism_religion
+	}
+
+	option = {# Just take the 5 great vows ie fast when you get there
+		name = pilgrimage.1002.a
+		custom_tooltip = pilgrimage.1002.fasting_tooltip
+		add_character_flag = { flag = dharma_jain_pilgrimage_fast_arrival } # So that when you arrive at the holy site you can start fasting
+		add_character_modifier = { modifier = dharma_jain_pilgrimage_five_vows	}
+	}
+	option = {# Live like a monk for the duration of the trip fast the whole time
+		name = pilgrimage.1002.b
+		add_character_modifier = { modifier = dharma_jain_pilgrimage_ascetic_vow }
+	}
+	option = {# Live like a monk for the duration of the trip fast the whole time
+	name = pilgrimage.1002.c
+		custom_tooltip = pilgrimage.1002.fasting_tooltip
+		add_character_flag = { flag = dharma_jain_pilgrimage_fast_arrival } # So that when you arrive at the holy site you can start fasting
+		add_character_modifier = { modifier = dharma_jain_pilgrimage_anuvratas_vow }
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+
+}
 ################################
 # Generic Journey Events
 # 2001-2499
 # by Petter Vilberg
 ################################
-
-### Bandit attack
-# by Petter Vilberg
-pilgrimage.2001 = {
+pilgrimage.2001 = {# Bandit attack
 	type = character_event
 	title = pilgrimage.2001.t
 	desc = pilgrimage.2001.desc
@@ -542,10 +679,7 @@ pilgrimage.2001 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-### Someone truly hates heathens
-# by Petter Vilberg
-pilgrimage.2002 = {
+pilgrimage.2002 = {# Someone truly hates heathens
 	type = character_event
 	title = pilgrimage.2002.t
 	desc = pilgrimage.2002.desc
@@ -646,10 +780,7 @@ pilgrimage.2002 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-### Loss of Companions
-# by Petter Vilberg
-pilgrimage.2003 = {
+pilgrimage.2003 = {# Loss of Companions
 	type = character_event
 	title = pilgrimage.2003.t
 	desc = pilgrimage.2003.desc
@@ -733,18 +864,13 @@ pilgrimage.2003 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-
-### Run into a Potential Friend
-# by Petter Vilberg
-scripted_trigger pilgrimage_2004_potential_friend_trigger = {
+scripted_trigger pilgrimage_2004_potential_friend_trigger = {# Potential Friend Trigger
 	is_ai = yes
 	is_adult = yes
 	faith = root.faith
 	NOT = { is_courtier_of = root }
 }
-
-pilgrimage.2004 = {
+pilgrimage.2004 = {# Run into a Potential Friend
 	type = character_event
 	title = pilgrimage.2004.t
 	desc = pilgrimage.2004.desc
@@ -828,10 +954,7 @@ pilgrimage.2004 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-### A peasant inadvertedly insults you
-# by Petter Vilberg
-pilgrimage.2005 = {
+pilgrimage.2005 = {# A peasant inadvertedly insults you
 	type = character_event
 	title = pilgrimage.2005.t
 	desc = pilgrimage.2005.desc
@@ -934,11 +1057,7 @@ pilgrimage.2005 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-
-### You have gotten lost
-# by Petter Vilberg
-pilgrimage.2006 = {
+pilgrimage.2006 = {# You have gotten lost
 	type = character_event
 	title = pilgrimage.2006.t
 	desc = pilgrimage.2006.desc
@@ -1000,11 +1119,7 @@ pilgrimage.2006 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-
-### Reflections
-# by Petter Vilberg
-pilgrimage.2007 = {
+pilgrimage.2007 = {# Reflections
 	type = character_event
 	title = pilgrimage.2007.t
 	desc = pilgrimage.2007.desc
@@ -1089,10 +1204,7 @@ pilgrimage.2007 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-### Fall Ill
-# by Petter Vilberg
-pilgrimage.2008 = {
+pilgrimage.2008 = {# Fall Ill
 	type = character_event
 	title = pilgrimage.2008.t
 	desc = pilgrimage.2008.desc
@@ -1178,11 +1290,7 @@ pilgrimage.2008 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-
-### Travelling while ill is bad for you
-# by Petter Vilberg
-pilgrimage.2009 = {
+pilgrimage.2009 = {# Travelling while ill is bad for you
 	type = character_event
 	title = pilgrimage.2009.t
 	desc = pilgrimage.2009.desc
@@ -1239,13 +1347,10 @@ pilgrimage.2009 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-### Meet a Mystic chain
-### 2010-2012
-### by Petter Vilberg
-
-# Meet a Mystic on your journey
-scripted_trigger pilgrimage_2010_mystic_ruler = {	
+#######################################
+# Meet a Mystic Events 2010-2012
+#######################################
+scripted_trigger pilgrimage_2010_mystic_ruler = {# Meet a Mystic on your journey
 	faith = root.faith
 	OR = {
 		has_trait = mystic_1
@@ -1272,14 +1377,12 @@ scripted_trigger pilgrimage_2010_mystic_ruler = {
 		}
 	}
 }
-
-scripted_trigger pilgrimage_2010_mystic_home_ruler = {
+scripted_trigger pilgrimage_2010_mystic_home_ruler = {# Meet a Mystic on your journey
 	faith = root.faith
 	NOT = { this = root }
 	exists = capital_province
 }
-
-pilgrimage.2010 = {
+pilgrimage.2010 = {# Meet a Mystic
 	type = character_event
 	title = pilgrimage.2010.t
 	desc = pilgrimage.2010.desc
@@ -1384,9 +1487,7 @@ pilgrimage.2010 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-# The Mystic has a lot to say about your faith
-pilgrimage.2011 = {
+pilgrimage.2011 = {# The Mystic has a lot to say about your faith
 	type = character_event
 	title = pilgrimage.2010.t
 	desc = pilgrimage.2011.desc
@@ -1444,9 +1545,7 @@ pilgrimage.2011 = {
 		}
 	}
 }
-
-# Fallback in case something happened in between events
-pilgrimage.2012 = {
+pilgrimage.2012 = {# Fallback in case something happened in between events
 	type = character_event
 	title = pilgrimage.2010.t
 	desc = pilgrimage.2012.desc
@@ -1473,9 +1572,7 @@ pilgrimage.2012 = {
 		}
 	}
 }
-
-# Outcome of engaging
-pilgrimage.2013 = {
+pilgrimage.2013 = {# Outcome of engaging
 	type = character_event
 	title = pilgrimage.2010.t
 	desc = pilgrimage.2013.desc
@@ -1516,9 +1613,7 @@ pilgrimage.2013 = {
 		}
 	}
 }
-
-# Outcome of sleeping
-pilgrimage.2014 = {
+pilgrimage.2014 = {# Outcome of sleeping
 	type = character_event
 	title = pilgrimage.2010.t
 	desc = pilgrimage.2014.desc
@@ -1563,9 +1658,7 @@ pilgrimage.2014 = {
 		}
 	}
 }
-
-# Outcome of debating
-pilgrimage.2015 = {
+pilgrimage.2015 = {# Outcome of debating
 	type = character_event
 	title = pilgrimage.2010.t
 	desc = pilgrimage.2015.desc
@@ -1610,19 +1703,15 @@ pilgrimage.2015 = {
 		}
 	}
 }
-
-### END Mystic chain
-
-
-
 ################################
 # Sin/Virtue Temptation Journey Events
 # 2501-2999
 # by Sean Hughes
 ################################
 
-### Persistent Pauper
-# by Sean Hughes
+#######################################
+# Wretched Pauper
+#######################################
 scripted_effect generosity_piety_stress_effect = {
 	if = {
 		limit = {
@@ -1649,7 +1738,6 @@ scripted_effect generosity_piety_stress_effect = {
 		vengeful = minor_stress_gain
 	}	
 }
-
 scripted_effect parsimony_piety_stress_effect = {
 	if = {
 		limit = {
@@ -1676,8 +1764,7 @@ scripted_effect parsimony_piety_stress_effect = {
 		trusting = minor_stress_gain
 	}
 }
-
-pilgrimage.2501 = {
+pilgrimage.2501 = {# Wretched Pauper
 	type = character_event
 	title = pilgrimage.2501.t
 	desc = {
@@ -1844,8 +1931,7 @@ pilgrimage.2501 = {
 		}
 	}
 }
-
-pilgrimage.2502 = {
+pilgrimage.2502 = {# Wretched Pauper
 	type = character_event
 	title = pilgrimage.2502.t
 	desc = {
@@ -1961,8 +2047,7 @@ pilgrimage.2502 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-pilgrimage.2503 = {
+pilgrimage.2503 = {# Wretched Pauper
 	type = character_event
 	title = pilgrimage.2503.t
 	desc = pilgrimage.2503.desc
@@ -2009,8 +2094,7 @@ pilgrimage.2503 = {
 	}
 
 }
-
-pilgrimage.2504 = {
+pilgrimage.2504 = {# Wretched Pauper
 	type = character_event
 	title = pilgrimage.2504.t
 	desc = pilgrimage.2504.desc
@@ -2164,10 +2248,9 @@ pilgrimage.2504 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-### Cocky Lordling
-# by Sean Hughes
-
+#######################################
+# Cocky Lordling
+#######################################
 scripted_trigger pilgrimage_2511_valid_lordling = {
 	ai_compassion < 0
 	age >= 13
@@ -2185,8 +2268,7 @@ scripted_trigger pilgrimage_2511_valid_lordling = {
 	}
 	religion = root.religion
 }
-
-pilgrimage.2511 = {
+pilgrimage.2511 = {# Cocky Lordling
 	type = character_event
 	title = pilgrimage.2511.t
 	desc = {
@@ -2439,18 +2521,16 @@ pilgrimage.2511 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
 ################################
 # Religion-specific Journey Events
 # 3001-3999
 # by Sean Hughes
 ################################
 
-# 3001-3100: Christianity
-
-# Zealous priest giving sermon in freezing rains
-# by Sean Hughes
-pilgrimage.3001 = {
+#######################################
+# Christianity Journey Events 3001-3100
+#######################################
+pilgrimage.3001 = {# Zealous priest giving sermon in freezing rains
 	type = character_event
 	title = pilgrimage.3001.t
 	desc = pilgrimage.3001.desc
@@ -2534,10 +2614,7 @@ pilgrimage.3001 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-# Naked preacher claiming to have reclaimed the lost innocence of Adam & Eve
-# by Sean Hughes
-pilgrimage.3002 = {
+pilgrimage.3002 = {# Naked preacher claiming to have reclaimed the lost innocence of Adam & Eve
 	type = character_event
 	title = pilgrimage.3002.t
 	desc = pilgrimage.3002.desc
@@ -2555,7 +2632,6 @@ pilgrimage.3002 = {
 		NOT = {
 			exists = scope:activity.var:had_pilgrimage_3002
 		}
-		NOT = { has_game_rule = never_nudity }
 		religion = religion:christianity_religion
 		faith = {
 			NOR = {
@@ -2767,10 +2843,7 @@ pilgrimage.3002 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}	
 }
-
-# Doomsayer claiming the end is nigh!
-# by Sean Hughes
-pilgrimage.3003 = {
+pilgrimage.3003 = {# Doomsayer claiming the end is nigh!
 	type = character_event
 	title = pilgrimage.3003.t
 	desc = pilgrimage.3003.desc
@@ -2847,12 +2920,10 @@ pilgrimage.3003 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}		
 }
-
-# 3101-3200: Islam
-
-### Irham
-# by Sean Hughes
-pilgrimage.3101 = {
+#######################################
+# Islam Journey Events 3101-3200
+#######################################
+pilgrimage.3101 = {# Irham
 	type = character_event
 	title = pilgrimage.3101.t
 	desc = pilgrimage.3101.desc
@@ -2959,10 +3030,7 @@ pilgrimage.3101 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-### Ziyarat
-# by Sean Hughes
-pilgrimage.3102 = {
+pilgrimage.3102 = {# Ziyarat
 	type = character_event
 	title = pilgrimage.3102.t
 	desc = pilgrimage.3102.desc
@@ -3066,13 +3134,10 @@ pilgrimage.3102 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-
-# 3201-3300: Hinduism
-
-### Ritual Purification
-# by Sean Hughes
-pilgrimage.3201 = {
+#######################################
+# Hinduism Journey Events 3201-3300
+#######################################
+pilgrimage.3201 = {# Ritual Purification
 	type = character_event
 	title = pilgrimage.3201.t
 	desc = pilgrimage.3201.desc
@@ -3126,8 +3191,7 @@ pilgrimage.3201 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
-pilgrimage.3202 = {
+pilgrimage.3202 = {# Holiness of the Forest
 	type = character_event
 	title = pilgrimage.3202.t
 	desc = {
@@ -3168,7 +3232,6 @@ pilgrimage.3202 = {
 			religion = religion:jainism_religion
 			faith = { has_doctrine = tenet_sanctity_of_nature }
 		}
-
 	}
 
 	immediate = {
@@ -3210,8 +3273,6 @@ pilgrimage.3202 = {
 		# Do not run the normal set_up_next_pilgrimage_event effect here, as it's run in the options.
 	}
 }
-
-
 pilgrimage.3203 = {# Troublesome Monsoon
 	type = character_event
 	title = pilgrimage.3203.t
@@ -3247,7 +3308,6 @@ pilgrimage.3203 = {# Troublesome Monsoon
 	option = {
 		trigger = { NOT = { has_trait = cynical }}
 		name = pilgrimage.3203.a
-		custom_tooltip = pilgrimage.3203.a.tt
 		add_piety = minor_piety_gain
 		set_up_next_pilgrimage_event_effect = { DAYS = 40 }
 		random_list = {
@@ -3266,7 +3326,6 @@ pilgrimage.3203 = {# Troublesome Monsoon
 	option = {
 		trigger = { has_trait = cynical }
 		name = pilgrimage.3203.b
-		custom_tooltip = pilgrimage.3203.b.tt
 		add_stress = minor_stress_gain
 		set_up_next_pilgrimage_event_effect = { DAYS = 40 }
 		random_list = {
@@ -3286,7 +3345,6 @@ pilgrimage.3203 = {# Troublesome Monsoon
 		# Do not run the normal set_up_next_pilgrimage_event effect here, as it's run in the options.
 	}
 }
-
 pilgrimage.3204 = {# Dry Season Troubles
  	type = character_event
 	title = pilgrimage.3204.t
@@ -3319,9 +3377,7 @@ pilgrimage.3204 = {# Dry Season Troubles
 	}
 
 	option = {# help the villagers
-		name = pilgrimage.3204.a
-		
-		custom_tooltip = pilgrimage.3204.a.tt
+		name = pilgrimage.3204.a	
 		set_up_next_pilgrimage_event_effect = { DAYS = 20 }
 		remove_short_term_gold = minor_gold_value
 		stress_impact = {
@@ -3334,7 +3390,6 @@ pilgrimage.3204 = {# Dry Season Troubles
 
 	option = {# we can not help them.
 		name = pilgrimage.3204.b
-		custom_tooltip = pilgrimage.3204.b.tt
 		set_up_next_pilgrimage_event_effect = { DAYS = 10 }
 		stress_impact = {
 			generous = minor_stress_gain
@@ -3346,13 +3401,10 @@ pilgrimage.3204 = {# Dry Season Troubles
 		# Do not run the normal set_up_next_pilgrimage_event effect here, as it's run in the options.
 	}
 }
-
-
-# 3301-3400: Buddhism
-
-### Critical Monk
-# by Sean Hughes
-pilgrimage.3301 = {
+#######################################
+# Buddhist Journey Events 3301-3400
+#######################################
+pilgrimage.3301 = {# Critical Monk
 	type = character_event
 	title = pilgrimage.3301.t
 	desc = pilgrimage.3301.desc
@@ -3439,16 +3491,16 @@ pilgrimage.3301 = {
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
+#######################################
+# Jain Journey Events 3301-3400
+#######################################
 
 ################################
 # Generic Destination Events
 # 4001-4999
 # by Petter Vilberg
 ################################
-
-### Generic Destination
-# by Petter Vilberg
-pilgrimage.4001 = {
+pilgrimage.4001 = {# Generic Destination
 	type = character_event
 	title = pilgrimage.4001.t
 	desc = {
@@ -3496,11 +3548,7 @@ pilgrimage.4001 = {
 		}
 	}
 }
-
-
-### The Mystic you met on your journey is there!
-# by Petter Vilberg
-pilgrimage.4002 = {
+pilgrimage.4002 = {# The Mystic you met on your journey is there!
 	type = character_event
 	title = pilgrimage.4001.t
 	desc = pilgrimage.4002.desc
@@ -3580,23 +3628,20 @@ pilgrimage.4002 = {
 		}
 	}
 }
-
-
 ################################
 # Holy Site-specific destination events
 # 5001-5999
 # by Sean Hughes
 ################################
-
 scripted_trigger pilgrimage_is_to = {
 	exists = scope:activity
 	exists = scope:activity.activity_province
 	scope:activity.activity_province.county = title:$DESTINATION$
 }
-
-	# Christian
-# Rome
-pilgrimage.5001 = {
+#######################################
+# Christian Holy Sites 
+#######################################
+pilgrimage.5001 = {# Rome
 	type = character_event
 	title = pilgrimage.5001.t
 	desc = pilgrimage.5001.desc
@@ -3633,9 +3678,7 @@ pilgrimage.5001 = {
 		}
 	}
 }
-
-# Jerusalem
-pilgrimage.5011 = {
+pilgrimage.5011 = {# Jerusalem
 	type = character_event
 	title = pilgrimage.5011.t
 	desc = {
@@ -3686,9 +3729,7 @@ pilgrimage.5011 = {
 		}
 	}
 }
-
-# Constantinople
-pilgrimage.5021 = {
+pilgrimage.5021 = {# Constantinople
 	type = character_event
 	title = pilgrimage.5021.t
 	desc = pilgrimage.5021.desc
@@ -3725,9 +3766,7 @@ pilgrimage.5021 = {
 		}
 	}
 }
-
-# Alexandria
-pilgrimage.5031 = {
+pilgrimage.5031 = {# Alexandria
 	type = character_event
 	title = pilgrimage.5031.t
 	desc = pilgrimage.5031.desc
@@ -3764,11 +3803,10 @@ pilgrimage.5031 = {
 		}
 	}
 }
-
-
-	# Jewish
-# Mount Sinai
-pilgrimage.5101 = {
+#######################################
+# Jewish Holy Sites 
+#######################################
+pilgrimage.5101 = {# Mount Sinai
 	type = character_event
 	title = pilgrimage.5101.t
 	desc = pilgrimage.5101.desc
@@ -3805,10 +3843,10 @@ pilgrimage.5101 = {
 		}
 	}
 }
-
-	# Muslim
-# Medina
-pilgrimage.5201 = {
+#######################################
+# Jewish Holy Sites 
+#######################################
+pilgrimage.5201 = {# Medina
 	type = character_event
 	title = pilgrimage.5201.t
 	desc = pilgrimage.5201.desc
@@ -3845,10 +3883,10 @@ pilgrimage.5201 = {
 		}
 	}
 }
-
-	# Hindu
-# Varanasi
-pilgrimage.5301 = {
+#######################################
+# Hindu Holy Sites 
+#######################################
+pilgrimage.5301 = {# Varanasi
 	type = character_event
 	title = pilgrimage.5301.t
 	desc = pilgrimage.5301.desc
@@ -3885,9 +3923,7 @@ pilgrimage.5301 = {
 		}
 	}
 }
-
-# Ayodhya
-pilgrimage.5311 = {
+pilgrimage.5311 = {# Ayodhya
 	type = character_event
 	title = pilgrimage.5311.t
 	desc = pilgrimage.5311.desc
@@ -3924,9 +3960,7 @@ pilgrimage.5311 = {
 		}
 	}
 }
-
-# Mathura
-pilgrimage.5321 = {
+pilgrimage.5321 = {# Mathura
 	type = character_event
 	title = pilgrimage.5321.t
 	desc = pilgrimage.5321.desc
@@ -3963,9 +3997,7 @@ pilgrimage.5321 = {
 		}
 	}
 }
-
-# Haridwar
-pilgrimage.5331 = {
+pilgrimage.5331 = {# Haridwar
 	type = character_event
 	title = pilgrimage.5331.t
 	desc = pilgrimage.5331.desc
@@ -4002,9 +4034,7 @@ pilgrimage.5331 = {
 		}
 	}
 }
-
-# Kanchipuram
-pilgrimage.5341 = {
+pilgrimage.5341 = {# Kanchipuram
 	type = character_event
 	title = pilgrimage.5341.t
 	desc = pilgrimage.5341.desc
@@ -4041,9 +4071,7 @@ pilgrimage.5341 = {
 		}
 	}
 }
-
-# Ujjayini
-pilgrimage.5351 = {
+pilgrimage.5351 = {# Ujjayini
 	type = character_event
 	title = pilgrimage.5351.t
 	desc = pilgrimage.5351.desc
@@ -4080,9 +4108,7 @@ pilgrimage.5351 = {
 		}
 	}
 }
-
-# Dwarka
-pilgrimage.5361 = {
+pilgrimage.5361 = {# Dwarka
 	type = character_event
 	title = pilgrimage.5361.t
 	desc = pilgrimage.5361.desc
@@ -4119,10 +4145,10 @@ pilgrimage.5361 = {
 		}
 	}
 }
-
-	# Buddhism
-# Bodh Gaya
-pilgrimage.5401 = {
+#######################################
+# Buddhism Holy Sites 
+#######################################
+pilgrimage.5401 = {# Bodh Gaya
 	type = character_event
 	title = pilgrimage.5401.t
 	desc = pilgrimage.5401.desc
@@ -4159,9 +4185,7 @@ pilgrimage.5401 = {
 		}
 	}
 }
-
-# Kushinagar
-pilgrimage.5411 = {
+pilgrimage.5411 = {# Kushinagar
 	type = character_event
 	title = pilgrimage.5411.t
 	desc = pilgrimage.5411.desc
@@ -4198,9 +4222,7 @@ pilgrimage.5411 = {
 		}
 	}
 }
-
-# Sarnath
-pilgrimage.5421 = {
+pilgrimage.5421 = {# Sarnath
 	type = character_event
 	title = pilgrimage.5421.t
 	desc = pilgrimage.5421.desc
@@ -4237,13 +4259,55 @@ pilgrimage.5421 = {
 		}
 	}
 }
-
-	# Jainism
-# Shikharj
-pilgrimage.5501 = {
+#######################################
+# Jain Holy Sites
+#######################################
+pilgrimage.5501 = {# Palitana
 	type = character_event
 	title = pilgrimage.5501.t
 	desc = pilgrimage.5501.desc
+	theme = pilgrimage_activity
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	trigger = {
+		pilgrimage_is_to = { DESTINATION = c_somnath }
+	}
+
+	immediate = {
+		save_holy_site_for_loc_effect = yes
+		if = {
+			limit = { has_character_flag = dharma_jain_pilgrimage_fast_arrival }
+			add_character_modifier = { 
+				modifier = fasting_bad_modifier	
+				days = 30
+			}
+		}
+	}
+	
+	option = {
+		name = pilgrimage.5501.a
+		trigger = { NOT = { has_trait = cynical } }
+		give_pilgrimage_reward_effect = yes
+	}	
+	option = {
+		name = pilgrimage.5501.b
+		trigger = { has_trait = cynical }
+		give_pilgrimage_reward_effect = yes
+	}
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.5502 = {# Shikharji
+	type = character_event
+	title = pilgrimage.5502.t
+	desc = pilgrimage.5502.desc
 	theme = pilgrimage_activity
 	left_portrait = {
 		character = root
@@ -4256,16 +4320,64 @@ pilgrimage.5501 = {
 
 	immediate = {
 		save_holy_site_for_loc_effect = yes
+		if = {
+			limit = { has_character_flag = dharma_jain_pilgrimage_fast_arrival }
+			add_character_modifier = { 
+				modifier = fasting_bad_modifier	
+				days = 30
+			}
+		}
 	}
 	
 	option = {
-		name = pilgrimage.5501.a
+		name = pilgrimage.5502.a
 		trigger = { NOT = { has_trait = cynical } }
 		give_pilgrimage_reward_effect = yes
+	}	
+	option = {
+		name = pilgrimage.5502.b
+		trigger = { has_trait = cynical }
+		give_pilgrimage_reward_effect = yes
+	}
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.5503 = {# Girnar
+	type = character_event
+	title = pilgrimage.5503.t
+	desc = pilgrimage.5503.desc
+	theme = pilgrimage_activity
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	trigger = {
+		pilgrimage_is_to = { DESTINATION = c_bhumilka }
+	}
+
+	immediate = {
+		save_holy_site_for_loc_effect = yes
+		if = {
+			limit = { has_character_flag = dharma_jain_pilgrimage_fast_arrival }
+			add_character_modifier = { 
+				modifier = fasting_bad_modifier	
+				days = 30
+			}
+		}
 	}
 	
 	option = {
-		name = pilgrimage.5501.b
+		name = pilgrimage.5503.a
+		trigger = { NOT = { has_trait = cynical } }
+		give_pilgrimage_reward_effect = yes
+	}	
+	option = {
+		name = pilgrimage.5503.b
 		trigger = { has_trait = cynical }
 		give_pilgrimage_reward_effect = yes
 	}
@@ -4277,10 +4389,183 @@ pilgrimage.5501 = {
 		}
 	}
 }
+pilgrimage.5504 = {# Hastinapur
+	type = character_event
+	title = pilgrimage.5504.t
+	desc = pilgrimage.5504.desc
+	theme = pilgrimage_activity
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
 
-	# Zoroastrian
-# Ushi-darena
-pilgrimage.5601 = {
+	trigger = {
+		pilgrimage_is_to = { DESTINATION = c_hastinapura }
+	}
+
+	immediate = {
+		save_holy_site_for_loc_effect = yes
+		if = {
+			limit = { has_character_flag = dharma_jain_pilgrimage_fast_arrival }
+			add_character_modifier = { 
+				modifier = fasting_bad_modifier	
+				days = 30
+			}
+		}
+	}
+	
+	option = {
+		name = pilgrimage.5504.a
+		trigger = { NOT = { has_trait = cynical } }
+		give_pilgrimage_reward_effect = yes
+	}
+	
+	option = {
+		name = pilgrimage.5504.b
+		trigger = { has_trait = cynical }
+		give_pilgrimage_reward_effect = yes
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.5505 = {# Pawapuri
+	type = character_event
+	title = pilgrimage.5505.t
+	desc = pilgrimage.5505.desc
+	theme = pilgrimage_activity
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	trigger = {
+		pilgrimage_is_to = { DESTINATION = c_magadha }
+	}
+
+	immediate = {
+		save_holy_site_for_loc_effect = yes
+		if = {
+			limit = { has_character_flag = dharma_jain_pilgrimage_fast_arrival }
+			add_character_modifier = { 
+				modifier = fasting_bad_modifier	
+				days = 30
+			}
+		}
+	}
+	
+	option = {
+		name = pilgrimage.5505.a
+		trigger = { NOT = { has_trait = cynical } }
+		give_pilgrimage_reward_effect = yes
+	}	
+	option = {
+		name = pilgrimage.5505.b
+		trigger = { has_trait = cynical }
+		give_pilgrimage_reward_effect = yes
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.5506 = {# Kanakagiri
+	type = character_event
+	title = pilgrimage.5506.t
+	desc = pilgrimage.5506.desc
+	theme = pilgrimage_activity
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	trigger = {
+		pilgrimage_is_to = { DESTINATION = c_koppam }
+	}
+
+	immediate = {
+		save_holy_site_for_loc_effect = yes
+		if = {
+			limit = { has_character_flag = dharma_jain_pilgrimage_fast_arrival }
+			add_character_modifier = { 
+				modifier = fasting_bad_modifier	
+				days = 30
+			}
+		}
+	}
+	
+	option = {
+		name = pilgrimage.5506.a
+		trigger = { NOT = { has_trait = cynical } }
+		give_pilgrimage_reward_effect = yes
+	}	
+	option = {
+		name = pilgrimage.5506.b
+		trigger = { has_trait = cynical }
+		give_pilgrimage_reward_effect = yes
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.5507 = {# Sonagiri
+	type = character_event
+	title = pilgrimage.5507.t
+	desc = pilgrimage.5507.desc
+	theme = pilgrimage_activity
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	trigger = {
+		pilgrimage_is_to = { DESTINATION = c_vidisa }
+	}
+
+	immediate = {
+		save_holy_site_for_loc_effect = yes
+		if = {
+			limit = { has_character_flag = dharma_jain_pilgrimage_fast_arrival }
+			add_character_modifier = { 
+				modifier = fasting_bad_modifier	
+				days = 30
+			}
+		}
+	}
+	
+	option = {
+		name = pilgrimage.5507.a
+		trigger = { NOT = { has_trait = cynical } }
+		give_pilgrimage_reward_effect = yes
+	}	
+	option = {
+		name = pilgrimage.5507.b
+		trigger = { has_trait = cynical }
+		give_pilgrimage_reward_effect = yes
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+#######################################
+# Zoroastrian Holy Sites
+#######################################
+pilgrimage.5601 = {# Ushi-darena
 	type = character_event
 	title = pilgrimage.5601.t
 	desc = pilgrimage.5601.desc
@@ -4317,10 +4602,10 @@ pilgrimage.5601 = {
 		}
 	}
 }
-
-	# Norse Germanic
-# Paderborn
-pilgrimage.5901 = {
+#######################################
+# Norse Holy Sites 
+#######################################
+pilgrimage.5901 = {# Paderborn
 	type = character_event
 	title = pilgrimage.5901.t
 	desc = pilgrimage.5901.desc
@@ -4358,10 +4643,10 @@ pilgrimage.5901 = {
 		}
 	}
 }
-
-	# Tengri
-# Open Blue Skies
-pilgrimage.5911 = {
+#######################################
+# Tengri Holy Sites 
+#######################################
+pilgrimage.5911 = {# Open Blue Skies
 	type = character_event
 	title = pilgrimage.5911.t
 	desc = pilgrimage.5911.desc
@@ -4401,10 +4686,10 @@ pilgrimage.5911 = {
 		}
 	}
 }
-
-	# Sanctity of Nature
-# Sacred Groves
-pilgrimage.5921 = {
+#######################################
+# Sacred Groves Holy Sites 
+#######################################
+pilgrimage.5921 = {# Sacred Groves
 	type = character_event
 	title = pilgrimage.5921.t
 	desc = pilgrimage.5921.desc
@@ -4444,13 +4729,12 @@ pilgrimage.5921 = {
 		}
 	}
 }
-
 ################################
 # Return Events
 # 9001-9999
 # by Petter Vilberg
 ################################
-pilgrimage.9001 = {
+pilgrimage.9001 = {# The Return
 	type = character_event
 	title = pilgrimage.9001.t
 	desc = pilgrimage.9001.desc
@@ -4473,15 +4757,32 @@ pilgrimage.9001 = {
 			complete_activity = yes
 		}
 	}
+
+	after = {
+		if = {
+			limit = { has_character_modifier = dharma_jain_pilgrimage_five_vows }
+			remove_character_modifier = dharma_jain_pilgrimage_five_vows
+		}
+		if = {
+			limit = { has_character_modifier = dharma_jain_pilgrimage_ascetic_vow }
+			remove_character_modifier = dharma_jain_pilgrimage_ascetic_vow
+			add_character_modifier = {
+				modifier = exhausted_modifier
+				days = 60	
+			}
+
+		}
+		if = {
+			limit = { has_character_modifier = dharma_jain_pilgrimage_anuvratas_vow }
+			remove_character_modifier = dharma_jain_pilgrimage_anuvratas_vow
+		}
+	}
+
 }
-
-
-
 ####################
 # Support events
 ####################
-# Fallback in case no journey event fires. That shouldn't be, but just this exists just in case
-pilgrimage.9999 = {
+pilgrimage.9999 = {# Fallback in case no journey event fires. That shouldn't be, but just this exists just in case
 	hidden = yes
 
 	trigger = {
