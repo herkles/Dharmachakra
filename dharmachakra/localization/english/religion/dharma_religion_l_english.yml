@@ -769,7 +769,12 @@
  divine_destiny_doctrine_name:0 "Rightful Rulers of the World"
  divine_destiny_doctrine_desc:0 "We are those who will usher in an era of peace and prosperity for all peoples. We are the rightful rulers of the world."
  doctrine_parameter_divine_destiny_holy_war_cost_reduction:0 "Holy War [piety|e] Cost: #P -50%#!"
- 
+
+ divine_destiny_jain_name:0 "Divine Destiny"
+ divine_destiny_jain_doctrine_name:0 "Rightful Rulers of the World"
+ divine_destiny_jain_doctrine_desc:0 "We are those who will usher in an era of peace and prosperity for all peoples. We are the rightful rulers of the world." 
+ doctrine_parameter_divine_destiny_jain_resistance:0 "County Conversion Resistance: #P +20%#!"
+
  special_doctrine_is_christian_faith_name:0 "Teachings of Jesus"
  special_doctrine_is_christian_faith_desc:0 "There are those in the world who adhere to the teachings of Jesus without acknowledging his divinity. Though blasphemous, we should still show compassion to these misguided souls, as they may one day become converts to the true faith."
  doctrine_parameter_hostility_override_tenet_christian_syncretism:1 "Non-Christian [faiths|E] with the $tenet_christian_syncretism_name$ tenet are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of #V Evil#!"

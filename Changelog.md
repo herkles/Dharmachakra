@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.3.2 "Mahavira" (Released 24/08/2021)
+## Latest Version: 1.3.2 "Mahavira" (Released 09/09/2021)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -8,7 +8,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- bug fixes
+- various bug fixes
 - Mahayana and Vajarayana Buddhists can now devote themselves to a Buddha or Boddhisattva
 - Jains can now celebrate the the Paryushana and Mahamastakabhisheka festivals
 - the Gommateshwara Statue can now be built
@@ -21,7 +21,9 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - updated the starting stats and traits of Mihira Bohj, Narayanapala, and Amoghavarsha
 - Manyakheta is now properly the capital of the Rashtrakutas.
 - Jains no longer hunt
-- Jains have a revised sin and virtue trait system
+- Jains have a revised sin and virtue traits
+- Jains and Buddhists can now take lord of the Sacred River
+- Jains get a different doctrine when becoming the Chakravatin
 
 ## Manual Installation Steps
 

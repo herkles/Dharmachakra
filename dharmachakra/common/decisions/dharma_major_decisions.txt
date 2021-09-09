@@ -63,9 +63,18 @@ become_chakravarti_decision = {# Become Chakravartin
 			add_trait = chakravarti
 			add_prestige = massive_prestige_value
 			add_prestige_level = 2
-			faith = {
-				add_doctrine = divine_destiny_doctrine
-				change_fervor = major_fervor_gain
+			if = {# Jains get a different modifier to reflect the values of ahimsa. 
+				limit = { religion = religion:jainism_religion }
+				faith = {
+					add_doctrine = divine_destiny_jain_doctrine
+					change_fervor = major_fervor_gain
+				}
+			}
+			else = {
+				faith = {
+					add_doctrine = divine_destiny_doctrine
+					change_fervor = major_fervor_gain
+				}
 			}
 		}
 
@@ -118,7 +127,6 @@ take_stewardship_of_the_sacred_river_decision = {# Become Lord/Lady of the Sacre
 			religion = religion:buddhism_religion
 			religion = religion:jainism_religion
 		}
-		religion = religion:hinduism_religion
 		highest_held_title_tier >= tier_duchy
 		NOT = { has_character_modifier = ruler_of_the_ganges_modifier }
 	}
