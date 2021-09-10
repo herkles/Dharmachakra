@@ -319,7 +319,7 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -349,7 +349,7 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -383,7 +383,7 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -427,7 +427,7 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -457,7 +457,7 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -491,7 +491,7 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -535,7 +535,7 @@ dharma_vedic_indra_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -565,7 +565,7 @@ dharma_vedic_indra_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -599,7 +599,7 @@ dharma_vedic_indra_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -643,7 +643,7 @@ dharma_vedic_saraswati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -673,7 +673,7 @@ dharma_vedic_saraswati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -707,7 +707,7 @@ dharma_vedic_saraswati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -751,7 +751,7 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -781,7 +781,7 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -815,7 +815,7 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -859,7 +859,7 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -889,7 +889,7 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -923,7 +923,7 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -967,7 +967,7 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -997,7 +997,7 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1031,7 +1031,7 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1075,7 +1075,7 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1105,7 +1105,7 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1139,7 +1139,7 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1183,7 +1183,7 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1213,7 +1213,7 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1247,7 +1247,7 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1291,7 +1291,7 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1321,7 +1321,7 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15
@@ -1355,7 +1355,7 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 			}
 			modifier = {
 				add = 15
-				has_character_flag = RICE_pamir_goat_sacrifice_large
+				has_character_flag = dharma_animal_sacrifice_large
 			}
 			modifier = {
 				add = 15

@@ -289,7 +289,7 @@ dharma_hinduism.011 = {# Animal sacrifice - What type of Animals
 		scope:capital_province = {	
 			spawn_activity = {
 				owner = root
-				type = activity_pamir_goat_sacrifice
+				type = activity_vedic_animal_sacrifice
 			}	
 		}	
 	}	
@@ -308,7 +308,7 @@ dharma_hinduism.011 = {# Animal sacrifice - What type of Animals
 		scope:capital_province = {	
 			spawn_activity = {
 				owner = root
-				type = activity_pamir_goat_sacrifice
+				type = activity_vedic_animal_sacrifice
 			}	
 		}	
 	}	
@@ -326,7 +326,7 @@ dharma_hinduism.011 = {# Animal sacrifice - What type of Animals
 		scope:capital_province = {	
 			spawn_activity = {
 				owner = root
-				type = activity_pamir_goat_sacrifice
+				type = activity_vedic_animal_sacrifice
 			}	
 		}	
 	}

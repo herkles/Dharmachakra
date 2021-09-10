@@ -74,7 +74,7 @@
  dharma_hinduism.011.b:0 "Watter Buffalos"
  dharma_hinduism.011.c:0 "Horses"
  dharma_hinduism.011.tooltip:0 "The type of animals you sacrifice will determine how well your sacrifice is perceived by the community and, perhaps, how the deities will respond."
- activity_vedic_animal_sacrifice:0 "Chinir Festival"
+ activity_vedic_animal_sacrifice:0 "Animal Sacrifice"
  activity_vedic_animal_sacrifice_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Animal Sacrifice to the Gods."
 
  dharma_hinduism.012.t:0 "How grand of a Sacrifice"
@@ -84,7 +84,7 @@
  dharma_hinduism.012.c:0 "Many animals"
  dharma_hinduism.012.tooltip:0 "The amount of animals you sacrifice will determine how well your sacrifice is perceived by the community and, perhaps, how the deities will respond."
 
-dharma_hinduism.013.t:0 "Sacrifice the Animals!"
+ dharma_hinduism.013.t:0 "Sacrifice the Animals!"
  dharma_hinduism.013.desc.shakti:0 "As a [ROOT.Char.GetFaith.GetAdjective], there is one chief deity we mainly sacrifice to: [ROOT.Char.GetFaith.HighGodName], and all here incarnations. We will bring the animals to a local shrine where in a cleansing ritual the animals can be offered to the Goddess. The question is which aspect of the Supreme Goddess shall we sacrifice to."
  dharma_hinduism.013.desc.vedic:0 "With that in mind, I now need to choose which deity to sacrifice to. We will bring the animals to a local shrine dedicated to that deity - especially one somewhere in the more remote valleys or mountains, untainted by the pollution of impurities - and it is there where we will spill the blood of the animals."
  dharma_hinduism.013.a:0 "May [ROOT.Char.GetFaith.HighGodName] accept my sacrifice!"
