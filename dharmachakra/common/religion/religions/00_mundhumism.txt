@@ -207,29 +207,28 @@
 			icon = hinduism_custom_1
 			reformed_icon = hinduism_custom_1_reformed
 			
-			holy_site = kathmandu
+			holy_site = darjeeling
 			holy_site = ilam
-			holy_site = garwhal
-			holy_site = jumla
-			holy_site = varanasi
+			holy_site = paro
+			holy_site = khotang
+			holy_site = kathmandu
 			
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_reincarnation
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_ancestor_worship
-		}
-		
+		}		
 		yumaism = {
 			color = { 0.8 0.3 0.3 }
 			icon = hinduism_custom_2
 			reformed_icon = hinduism_custom_2_reformed
 			
-			holy_site = kathmandu
+			holy_site = darjeeling
 			holy_site = ilam
-			holy_site = garwhal
-			holy_site = jumla
-			holy_site = varanasi
+			holy_site = paro
+			holy_site = khotang
+			holy_site = kathmandu
 			
 			doctrine = unreformed_faith_doctrine
 			
