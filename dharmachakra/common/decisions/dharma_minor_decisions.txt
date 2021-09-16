@@ -51,7 +51,7 @@ pet_elephant_decision = {# Pet Elephant decision
 		}
 	}
 }
-go_on_pilgrimage_decision = {
+go_on_pilgrimage_decision = {# go on a pilgrimage
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 	ai_check_interval = 60
 
@@ -136,14 +136,24 @@ go_on_pilgrimage_decision = {
 			limit = { is_ai = yes }
 			trigger_event = pilgrimage.0999
 		}
-		if = {
+		if = {# Jain Pilgrimages
 			limit = { religion = religion:jainism_religion }
 			trigger_event = pilgrimage.0004
 		}
-		else = {
+		if = {# Hindu Pilgrimages
+			limit = { religion = religion:hinduism_religion }
+			trigger_event = pilgrimage.0006
+		}
+		if = {# Buddhist Pilgrimages
+			limit = { religion = religion:buddhism_religion }
+			trigger_event = pilgrimage.0030
+		}		
+		else_if = {# Everyone Else
 			limit = { 
 				not = {
 					religion = religion:jainism_religion 
+					religion = religion:hinduism_religion 
+					religion = religion:buddhism_religion 
 				} 
 			}
 			trigger_event = pilgrimage.0001
