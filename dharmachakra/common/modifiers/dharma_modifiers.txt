@@ -102,6 +102,77 @@ buddhist_deity_vajrayogini = {# Vajrayogini
 	health = 0.25
 	diplomacy = 2
 }
+
+buddhist_deity_vasudhara = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_guanyin = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_mahasthamaprapta = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_ksitigarbha = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_bhaisajyaguru = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_vajrapani = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_manjushri = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_samantabhadra = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_vajrayogini = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_vajrayogini = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_vajrayogini = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_vajrayogini = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_vajrayogini = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
+buddhist_deity_vajrayogini = {# Vajrayogini
+	icon = diplomacy_positive
+	health = 0.25
+	diplomacy = 2
+}
 ##########################################
 # Burmese Deities - Ari
 ##########################################

@@ -583,6 +583,43 @@ buddhist_retreat_decision = {# Go on a Buddhist Retreat
 		base = 100
 	}
 }
+dharma_visit_nalanda = {# Go on a Buddhist Retreat
+	picture = "gfx/interface/illustrations/decisions/dharma_decision_pilgrimage.dds"
+	desc = dharma_visit_nalanda_desc
+	selection_tooltip = dharma_visit_nalanda_tooltip
+
+	is_shown = {
+		religion = religion:buddhism_religion
+		holds_landed_title = yes
+	}
+
+	is_valid = {
+		religion = religion:buddhism_religion
+		holds_landed_title = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = dharma_visit_nalanda_tooltip
+		trigger_event = dharma_buddhism.008
+	}
+
+	ai_check_interval = 60
+	cooldown = { months = 36 }	
+
+	
+	ai_potential = {
+		is_at_war = no
+		stress >= 75
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
 #######################################
 # Jain Decisions
 #######################################

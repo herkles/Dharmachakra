@@ -143,9 +143,6 @@ Dharma_events_five_yearly_pulse = {
 		# Buddhist Flavor Events
 		#######################################
 		
-		# Visiting Nalanda
-		50 = dharma_buddhism.008		# Invitation to visit Nalanda University
-
 		#######################################
 		# Jain Flavor Events
 		#######################################
@@ -158,3 +155,35 @@ Dharma_events_five_yearly_pulse = {
 		
 	}
 }
+
+# Nalanda Journey Events
+dharma_nalanda_journey_events = {
+	random_events = {
+		# Generic Pilgrimage Events
+		100 = dharma_buddhism.302 # Visiting the Library
+		100 = dharma_buddhism.303 # Meditating with the Monks
+		100 = dharma_buddhism.304 # Vegetarian v non-vegetiarian
+		100 = dharma_buddhism.305 # Cosmopolitan Experince
+		100 = dharma_buddhism.312 # Learning to love to read
+		100 = dharma_buddhism.315 # Recieving an education
+		50 = dharma_buddhism.306  # Theological Debate
+		25 = dharma_buddhism.310  # Mystical learning
+		25 = dharma_buddhism.307  # Medical learning
+	}
+}
+dharma_nalanda_visit_over_events = {
+	random_events = {
+		# Generic Pilgrimage Events
+		100 = dharma_buddhism.316 # Returning Home!
+	}
+}
+
+
+
+
+
+
+
+
+
+

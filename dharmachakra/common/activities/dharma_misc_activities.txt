@@ -20,6 +20,26 @@ activity_vedic_animal_sacrifice = {# Vedic Animal Sacrifice
 		}	
 	}
 }
+activity_dharma_sharada_peeth = {# Visit Sharada Peeth
+	solo = yes
+	color = { 0.80 0.80 0.18 1 } # Yellow
+	on_spawn = {
+		invite_character_to_activity = activity_owner
+		accept_invitation_for_character = activity_owner
+
+	}
+	on_activate = {
+		activity_owner = {
+			trigger_event = dharma_hinduism.016
+			days = { 10 20 }
+		}
+	}
+	on_complete = {
+		activity_owner = {
+			remove_character_flag = planning_an_activity
+		}	
+	}
+}
 #######################################
 # Jain activities
 #######################################
@@ -98,9 +118,26 @@ activity_dharma_buddhist_retreat = {# Buddhist Retreats
 		}	
 	}
 }
+activity_dharma_visit_nalanda = {# Buddhist Retreats
+	solo = yes
+	color = { 0.80 0.80 0.18 1 } # Yellow
+	on_spawn = {
+		invite_character_to_activity = activity_owner
+		accept_invitation_for_character = activity_owner
 
-
-
-
-
-
+		set_variable = {
+			name = dharma_nalanda_event_counter
+			value = 0
+		}
+	}
+	on_activate = {
+		activity_owner = {
+			trigger_event = dharma_buddharma_buddhismdhism.301
+		}
+	}
+	on_complete = {
+		activity_owner = {
+			remove_character_flag = planning_an_activity
+		}	
+	}
+}
