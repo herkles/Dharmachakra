@@ -1385,6 +1385,7 @@ dharma_buddhism.300 = {# Decide to Visit Nalanda
 
 	option = {# I shall stay
 		name = dharma_buddhism.300.stay
+		remove_decision_cooldown = dharma_learning_visit_cooldown_time
 	}
 	option = {# I shall go
 		name = dharma_buddhism.300.go
@@ -1413,6 +1414,7 @@ dharma_buddhism.301 = {# Arriving at Nalanda
 
 	option = {
 		name = dharma_buddhism.301.arival
+		add_piety = miniscule_piety_value
 	}
 	after = {
 		dharma_set_up_next_nalanda_event_effect = { DAYS = 10 }
@@ -2339,6 +2341,9 @@ dharma_buddhism.316 = {# Returning Home
 
 	option = {
 		name = dharma_buddhism.316.home
+		scope:activity = {
+			complete_activity = yes
+		}
 	}
 }
 dharma_buddhism.317 = {# Misc cleanup
@@ -2349,3 +2354,4 @@ dharma_buddhism.317 = {# Misc cleanup
 		}
 	}
 }
+

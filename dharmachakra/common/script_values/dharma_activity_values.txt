@@ -1,2 +1,7 @@
-﻿dharma_nalanda_visit_threshold = 3
+﻿#####################################
+# Visitng Places
+#####################################
+dharma_nalanda_visit_threshold = 3
+dharma_sharada_peeth_visit_threshold = 3
+dharma_learning_visit_cooldown_time = 4382
 

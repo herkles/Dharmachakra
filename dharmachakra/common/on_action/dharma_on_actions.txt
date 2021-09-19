@@ -178,7 +178,27 @@ dharma_nalanda_visit_over_events = {
 	}
 }
 
-
+# Nalanda Journey Events
+dharma_sharada_peeth_visit_events = {
+	random_events = {
+		# Generic Pilgrimage Events
+		100 = dharma_hinduism.302 # Visiting the Library
+		100 = dharma_hinduism.303 # Meditating with the Monks
+		100 = dharma_hinduism.304 # Vegetarian v non-vegetiarian
+		100 = dharma_hinduism.305 # Cosmopolitan Experince
+		100 = dharma_hinduism.312 # Learning to love to read
+		100 = dharma_hinduism.315 # Recieving an education
+		50 = dharma_hinduism.306  # Theological Debate
+		25 = dharma_hinduism.310  # Mystical learning
+		25 = dharma_hinduism.307  # Medical learning
+	}
+}
+dharma_sharada_peeth_visit_over_events = {
+	random_events = {
+		# Generic Pilgrimage Events
+		100 = dharma_hinduism.316 # Returning Home!
+	}
+}
 
 
 
