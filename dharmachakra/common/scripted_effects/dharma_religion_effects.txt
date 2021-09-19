@@ -1357,7 +1357,7 @@ dharma_set_up_next_nalanda_event_effect = {
 		}
 		if = {
 			limit = {
-				scope:activity.var:journey_event_counter = {
+				scope:activity.var:dharma_nalanda_event_counter = {
 					compare_value <= 5
 				}
 			}

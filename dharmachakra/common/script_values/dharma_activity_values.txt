@@ -1,0 +1,2 @@
+﻿dharma_nalanda_visit_threshold = 3
+
