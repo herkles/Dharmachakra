@@ -103,75 +103,51 @@ buddhist_deity_vajrayogini = {# Vajrayogini
 	diplomacy = 2
 }
 
-buddhist_deity_vasudhara = {# Vajrayogini
+buddhist_deity_vasudhara = {# Vasudhara
+	icon = economy_positive
+	domain_tax_same_faith_mult = 0.1
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+}
+buddhist_deity_guanyin = {# Guanyin
+	icon = learning_positive
+	learning = 2
+	monthly_piety_gain_mult = 0.2
+}
+buddhist_deity_mahasthamaprapta = {# Mahasthamaprapta
+	icon = learning
+	learning = 2
+	monthly_prestige_gain_mult = 0.2
+}
+buddhist_deity_ksitigarbha = {# Ksitigarbha
+	county_opinion_add = 5
+	vassal_opinion = 5
+	controlled_province_advantage = 1
+}
+buddhist_deity_bhaisajyaguru = {# Bhaisajyaguru
+	icon = health_positive
+	health = 0.2
+	stress_gain_mult = -0.12
+}
+buddhist_deity_vajrapani = {# Vajrapani
+	icon = martial_positive
+	martial = 1
+	controlled_province_advantage = 1
+}
+buddhist_deity_manjushri = {# Manjushri
 	icon = diplomacy_positive
 	health = 0.25
 	diplomacy = 2
 }
-buddhist_deity_guanyin = {# Vajrayogini
+buddhist_deity_samantabhadra = {# Samantabhadra
 	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
+	learning = 1
+	diplomacy = 1
 }
-buddhist_deity_mahasthamaprapta = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_ksitigarbha = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_bhaisajyaguru = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_vajrapani = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_manjushri = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_samantabhadra = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_vajrayogini = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_vajrayogini = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_vajrayogini = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_vajrayogini = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_vajrayogini = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
-}
-buddhist_deity_vajrayogini = {# Vajrayogini
-	icon = diplomacy_positive
-	health = 0.25
-	diplomacy = 2
+buddhist_deity_ratnasambhava = {# Ratnasambhava
+	icon = social_positive
+	county_opinion_add = 5
+	vassal_opinion = 5
+	controlled_province_advantage = 1
 }
 ##########################################
 # Burmese Deities - Ari

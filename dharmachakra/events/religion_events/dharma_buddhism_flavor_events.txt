@@ -464,7 +464,6 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 					trigger_event = { id = dharma_buddhism.107 days = 146 }
 					trigger_event = { id = dharma_buddhism.111 days = 219 }
 					trigger_event = { id = dharma_buddhism.110 days = 292 }
-					trigger_event = { id = dharma_buddhism.134 days = 350 }
 					
 				}
 				20 = {
@@ -966,7 +965,7 @@ dharma_buddhism.200 = {# Tibetan Buddhist Deities
 		set_yidam_effect = { YIDAM = buddhist_deity_shenlha_okar }
 	}
 
-	option = { # Tonpa Shenrab
+	option = { # Tonpa Shenrab 
 		name = dharma_buddhism.200.shenrab
 		trigger = {
 			religion = religion:bon_religion
@@ -1415,6 +1414,9 @@ dharma_buddhism.301 = {# Arriving at Nalanda
 	option = {
 		name = dharma_buddhism.301.arival
 	}
+	after = {
+		dharma_set_up_next_nalanda_event_effect = { DAYS = 10 }
+	}
 }
 # Random Nalanda Events
 dharma_buddhism.302 = {# Visiting the Library
@@ -1686,27 +1688,27 @@ dharma_buddhism.306 = {# Theological Debate
 			skill = learning
 			value = very_high_skill_rating
 			15 = {
-				desc = dharma_hinduism.020.busmartaddhist.success
+				desc = dharma_buddhism.306.mahayana.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 0.5
 					min = -14
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.success_title
+					title = dharma_buddhism.306.mahayana.success_title
 					left_icon = root
 					add_prestige = minor_prestige_gain
 				}
 			}
 			25 = {
-				desc = dharma_hinduism.020.smarta.failure
+				desc = dharma_buddhism.306.mahayana.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -0.5
 					min = -9
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.failure_title
+					title = dharma_buddhism.306.mahayana.failure_title
 					left_icon = root
 					add_prestige = minor_prestige_loss
 				}
@@ -1732,27 +1734,27 @@ dharma_buddhism.306 = {# Theological Debate
 			skill = learning
 			value = very_high_skill_rating
 			15 = {
-				desc = dharma_hinduism.020.busmartaddhist.success
+				desc = dharma_buddhism.306.theravada.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 0.5
 					min = -14
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.success_title
+					title = dharma_buddhism.306.theravada.success_title
 					left_icon = root
 					add_prestige = minor_prestige_gain
 				}
 			}
 			25 = {
-				desc = dharma_hinduism.020.smarta.failure
+				desc = dharma_buddhism.306.theravada.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -0.5
 					min = -9
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.failure_title
+					title = dharma_buddhism.306.theravada.failure_title
 					left_icon = root
 					add_prestige = minor_prestige_loss
 				}
@@ -1778,27 +1780,27 @@ dharma_buddhism.306 = {# Theological Debate
 			skill = learning
 			value = very_high_skill_rating
 			15 = {
-				desc = dharma_hinduism.020.busmartaddhist.success
+				desc = dharma_buddhism.306.vajrayana.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 0.5
 					min = -14
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.success_title
+					title = dharma_buddhism.306.vajrayana.success_title
 					left_icon = root
 					add_prestige = minor_prestige_gain
 				}
 			}
 			25 = {
-				desc = dharma_hinduism.020.smarta.failure
+				desc = dharma_buddhism.306.vajrayana.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -0.5
 					min = -9
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.failure_title
+					title = dharma_buddhism.306.vajrayana.failure_title
 					left_icon = root
 					add_prestige = minor_prestige_loss
 				}
@@ -1824,27 +1826,27 @@ dharma_buddhism.306 = {# Theological Debate
 			skill = learning
 			value = very_high_skill_rating
 			15 = {
-				desc = dharma_hinduism.020.busmartaddhist.success
+				desc = dharma_buddhism.306.pudgalavada.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 0.5
 					min = -14
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.success_title
+					title = dharma_buddhism.306.pudgalavada.success_title
 					left_icon = root
 					add_prestige = minor_prestige_gain
 				}
 			}
 			25 = {
-				desc = dharma_hinduism.020.smarta.failure
+				desc = dharma_buddhism.306.pudgalavada.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -0.5
 					min = -9
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.failure_title
+					title = dharma_buddhism.306.pudgalavada.failure_title
 					left_icon = root
 					add_prestige = minor_prestige_loss
 				}
@@ -1870,27 +1872,27 @@ dharma_buddhism.306 = {# Theological Debate
 			skill = learning
 			value = very_high_skill_rating
 			15 = {
-				desc = dharma_hinduism.020.busmartaddhist.success
+				desc = dharma_buddhism.306.tibetan.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 0.5
 					min = -14
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.success_title
+					title = dharma_buddhism.306.tibetan.success_title
 					left_icon = root
 					add_prestige = minor_prestige_gain
 				}
 			}
 			25 = {
-				desc = dharma_hinduism.020.smarta.failure
+				desc = dharma_buddhism.306.tibetan.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -0.5
 					min = -9
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.failure_title
+					title = dharma_buddhism.306.tibetan.failure_title
 					left_icon = root
 					add_prestige = minor_prestige_loss
 				}
@@ -1916,27 +1918,27 @@ dharma_buddhism.306 = {# Theological Debate
 			skill = learning
 			value = very_high_skill_rating
 			15 = {
-				desc = dharma_hinduism.020.busmartaddhist.success
+				desc = dharma_buddhism.306.burman.success
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = 0.5
 					min = -14
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.success_title
+					title = dharma_buddhism.306.burman.success_title
 					left_icon = root
 					add_prestige = minor_prestige_gain
 				}
 			}
 			25 = {
-				desc = dharma_hinduism.020.smarta.failure
+				desc = dharma_buddhism.306.burman.failure
 				compare_modifier = {
 					value = scope:duel_value
 					multiplier = -0.5
 					min = -9
 				}
 				send_interface_toast = {
-					title = dharma_hinduism.020.smarta.failure_title
+					title = dharma_buddhism.306.burman.failure_title
 					left_icon = root
 					add_prestige = minor_prestige_loss
 				}
@@ -2127,7 +2129,7 @@ dharma_buddhism.310 = {# Medical learning
 					min = -9
 				}
 				send_interface_toast = {
-					title = dharma_buddhism.310.a.failure_title
+					title = dharma_buddhism.310.medical.failure_title
 					left_icon = root
 				}
 			}

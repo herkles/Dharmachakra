@@ -352,20 +352,20 @@ select_personal_deity_tibet_decision = {# Tibetan Gods and Goddesses
 		piety >= minor_piety_value
 		NOR = {
 			# Bon Tibetan Deities
-			has_character_modifier = tibet_deity_sipe_gyalmo # Sipe Gyalmo
-			has_character_modifier = tibet_deity_shenlha_okar # Shenlha Okar
-			has_character_modifier = tibet_deity_tonpa_shenrab # Tonpa Shenrab
-			has_character_modifier = tibet_deity_yeshe_walmo # Yeshe Walmo
-			has_character_modifier = tibet_deity_takla_mebar # Takla Mebar
-			has_character_modifier = tibet_deity_Zhambala # Zhambala
-			has_character_modifier = tibet_deity_sherab_chamma # Sherab Chamma
+			has_character_modifier = buddhist_deity_sipe_gyalmo # Sipe Gyalmo
+			has_character_modifier = buddhist_deity_shenlha_okar # Shenlha Okar
+			has_character_modifier = buddhist_deity_tonpa_shenrab # Tonpa Shenrab
+			has_character_modifier = buddhist_deity_yeshe_walmo # Yeshe Walmo
+			has_character_modifier = buddhist_deity_takla_mebar # Takla Mebar
+			has_character_modifier = buddhist_deity_Zhambala # Zhambala
+			has_character_modifier = buddhist_deity_sherab_chamma # Sherab Chamma
 			# Buddhist Tibetan Deities
-			has_character_modifier = tibet_deity_palden_lhamo # Palden_Lhamo
-			has_character_modifier = tibet_deity_tara # Tara
-			has_character_modifier = tibet_deity_avalokitesvara  # Avalokiteśvara 
-			has_character_modifier = tibet_deity_yamantaka # Yamantaka
-			has_character_modifier = tibet_deity_hevajra # Hevajra
-			has_character_modifier = tibet_deity_vajrayogini # Vajrayogini
+			has_character_modifier = buddhist_deity_palden_lhamo # Palden_Lhamo
+			has_character_modifier = buddhist_deity_tara # Tara
+			has_character_modifier = buddhist_deity_avalokitesvara  # Avalokiteśvara 
+			has_character_modifier = buddhist_deity_yamantaka # Yamantaka
+			has_character_modifier = buddhist_deity_hevajra # Hevajra
+			has_character_modifier = buddhist_deity_vajrayogini # Vajrayogini
 		}
 	}
 
@@ -460,20 +460,20 @@ select_personal_deity_buddhist_decision = {# Buddhist Gods and Goddesses
 		piety >= minor_piety_value
 		NOR = {
 			# Bon Tibetan Deities
-			has_character_modifier = tibet_deity_sipe_gyalmo # Sipe Gyalmo
-			has_character_modifier = tibet_deity_shenlha_okar # Shenlha Okar
-			has_character_modifier = tibet_deity_tonpa_shenrab # Tonpa Shenrab
-			has_character_modifier = tibet_deity_yeshe_walmo # Yeshe Walmo
-			has_character_modifier = tibet_deity_takla_mebar # Takla Mebar
-			has_character_modifier = tibet_deity_Zhambala # Zhambala
-			has_character_modifier = tibet_deity_sherab_chamma # Sherab Chamma
+			has_character_modifier = buddhist_deity_sipe_gyalmo # Sipe Gyalmo
+			has_character_modifier = buddhist_deity_shenlha_okar # Shenlha Okar
+			has_character_modifier = buddhist_deity_tonpa_shenrab # Tonpa Shenrab
+			has_character_modifier = buddhist_deity_yeshe_walmo # Yeshe Walmo
+			has_character_modifier = buddhist_deity_takla_mebar # Takla Mebar
+			has_character_modifier = buddhist_deity_Zhambala # Zhambala
+			has_character_modifier = buddhist_deity_sherab_chamma # Sherab Chamma
 			# Buddhist Tibetan Deities
-			has_character_modifier = tibet_deity_palden_lhamo # Palden_Lhamo
-			has_character_modifier = tibet_deity_tara # Tara
-			has_character_modifier = tibet_deity_avalokitesvara  # Avalokiteśvara 
-			has_character_modifier = tibet_deity_yamantaka # Yamantaka
-			has_character_modifier = tibet_deity_hevajra # Hevajra
-			has_character_modifier = tibet_deity_vajrayogini # Vajrayogini
+			has_character_modifier = buddhist_deity_palden_lhamo # Palden_Lhamo
+			has_character_modifier = buddhist_deity_tara # Tara
+			has_character_modifier = buddhist_deity_avalokitesvara  # Avalokiteśvara 
+			has_character_modifier = buddhist_deity_yamantaka # Yamantaka
+			has_character_modifier = buddhist_deity_hevajra # Hevajra
+			has_character_modifier = buddhist_deity_vajrayogini # Vajrayogini
 		}
 	}
 
@@ -604,7 +604,7 @@ dharma_visit_nalanda = {# Go on a Buddhist Retreat
 
 	effect = {
 		custom_tooltip = dharma_visit_nalanda_tooltip
-		trigger_event = dharma_buddhism.008
+		trigger_event = dharma_buddhism.300
 	}
 
 	ai_check_interval = 60

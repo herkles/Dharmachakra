@@ -215,7 +215,7 @@
   dharma_buddhism.301.arival:0 "This is Quite amazing"
 
   dharma_buddhism.302.t:0 "Visiting the Library"
-  dharma_buddhism.011.desc:0 "While at the University you got the chance to visit the famous Library of Nalanda. Its shelves had scrolls and books on many different subjects from around the world. Not just Buddhist texts, but Hindu and Jain text can also be found here as well. However as vast as it is, you do not have an eternity, so you have to decide what books you want to read. "
+  dharma_buddhism.302.desc:0 "While at the University you got the chance to visit the famous Library of Nalanda. Its shelves had scrolls and books on many different subjects from around the world. Not just Buddhist texts, but Hindu and Jain text can also be found here as well. However as vast as it is, you do not have an eternity, so you have to decide what books you want to read. "
   dharma_buddhism.302.buddhist:0 "Buddhist Texts"
   dharma_buddhism.302.hindu:0 "Hindu Texts"    
   dharma_buddhism.302.jain:0 "Jain Texts"
@@ -267,15 +267,15 @@
   dharma_buddhism.306.burman.success_title:0 "Successfully impressed the scholars"
   dharma_buddhism.306.burman.failure:0 "You fail impress the scholars by supporting the Ari position."
   dharma_buddhism.306.burman.failure_title:0 "Failed to impress the scholars"
-  dharma_buddhism.306.stay:0 "Stay out of the debate"
+  dharma_buddhism.306.observe:0 "Stay out of the debate"
 
   dharma_buddhism.307.t:0 "Mystical Learning"
   dharma_buddhism.307.desc:0 "While you are at Nalanda, you encounter a Monk that is willing to help teach you about some more esoteric and mystical Buddhist traditions. However, should you take the offer or should you return to a more general study of the Buddhist texts?"
   dharma_buddhism.307.mystic:0 "I shall study under the mystic"
-  dharma_buddhism.306.mystic.success:0 "You are able to grasp the mystical and esoteric teachings that the Mystic was talking about."
-  dharma_buddhism.306.mystic.success_title:0 "Successfully grasped the Monk's teachings"
-  dharma_buddhism.306.mystic.failure:0 "You fail to grasp the mystical and esoteric teachings that the Mystic was talking about."
-  dharma_buddhism.306.mystic.failure_title:0 "Failed to grasp the Monk's teachings."
+  dharma_buddhism.307.mystic.success:0 "You are able to grasp the mystical and esoteric teachings that the Mystic was talking about."
+  dharma_buddhism.307.mystic.success_title:0 "Successfully grasped the Monk's teachings"
+  dharma_buddhism.307.mystic.failure:0 "You fail to grasp the mystical and esoteric teachings that the Mystic was talking about."
+  dharma_buddhism.307.mystic.failure_title:0 "Failed to grasp the Monk's teachings."
   dharma_buddhism.307.study:0 "I shall study other texts"
 
   dharma_buddhism.310.t:0 "Medical learning"
@@ -285,7 +285,7 @@
   dharma_buddhism.310.medical.success_title:0 "Successfully grasped the Monk's teachings"
   dharma_buddhism.310.medical.failure:0 "You fail to grasp the medical teachings that the Mystic was talking about.."
   dharma_buddhism.310.medical.failure_title:0 "Failed to grasp the Monk's teachings."
-  dharma_buddhism.307.study:0 "I shall study other texts"
+  dharma_buddhism.310.study:0 "I shall study other texts"
 
   dharma_buddhism.312.t:0 "Learning to love to read"
   dharma_buddhism.312.desc:0 "Spending all your time reading and studying at Nalanda, you find yourself find yourself enjoying reading more and more. Do you prefer to read in your library or do you prefer to write your thoughts on the books down? "
