@@ -379,19 +379,15 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 		character = root
 		animation = personality_rational
 	}
-
-	option = {# Three month Retreat
-		name = dharma_buddhism.101.three
-		add_character_flag = dharma_buddhist_retreat_short_flag
-	}
 	option = {# Six Month Retreat
 		name = dharma_buddhism.101.six
-		add_character_flag = dharma_buddhist_retreat_medium_flag
+		hidden_effect = {
+			set_variable = {
+				name = dharma_buddhist_retreat_length
+				value = medium_buddhist_retreat_var
+			}
+		}
 	}
-	option = {# Twelve Month Retreat-
-		name = dharma_buddhism.101.twelve
-		add_character_flag = dharma_buddhist_retreat_long_flag
-	}	
 	after = {
 		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
@@ -428,7 +424,7 @@ dharma_buddhism.102 = {# Back to basics
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -477,7 +473,7 @@ dharma_buddhism.103 = {# monastic food
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -535,7 +531,7 @@ dharma_buddhism.104 = {# Meditate with eyes shut
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -583,7 +579,7 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -633,7 +629,7 @@ dharma_buddhism.106 = {# Numb legs
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -681,7 +677,7 @@ dharma_buddhism.107 = {# An exam
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -726,7 +722,7 @@ dharma_buddhism.108 = {# The Nature of Emptiness
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -771,7 +767,7 @@ dharma_buddhism.109 = {# Master's Wisdom
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -840,7 +836,7 @@ dharma_buddhism.110 = {# Distract self or not?
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -897,7 +893,7 @@ dharma_buddhism.111 = {# Whack!
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -946,7 +942,7 @@ dharma_buddhism.112 = {# Energized!
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -993,7 +989,7 @@ dharma_buddhism.113 = {# Going outside
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1040,7 +1036,7 @@ dharma_buddhism.114 = {# Questions and Answers
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1090,7 +1086,7 @@ dharma_buddhism.115 = {# Heightened Senses
 		
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1138,7 +1134,7 @@ dharma_buddhism.116 = {# Dealing with Boredom
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1204,7 +1200,7 @@ dharma_buddhism.117 = {# Dealing with no pleasure
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1266,7 +1262,7 @@ dharma_buddhism.118 = {# Doing Chores
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1326,7 +1322,7 @@ dharma_buddhism.119 = {# Questions and Answers
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1375,7 +1371,7 @@ dharma_buddhism.120 = {# Meditating by myself
 		
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1426,7 +1422,7 @@ dharma_buddhism.121 = {# Gardening
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1506,7 +1502,7 @@ dharma_buddhism.122 = {# Chant names of Buddhas and Bodhisattvas
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1554,7 +1550,7 @@ dharma_buddhism.123 = {# Buddhist Mantras
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1602,7 +1598,7 @@ dharma_buddhism.124 = {# Walking Meditation
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1650,7 +1646,7 @@ dharma_buddhism.125 = {# Buddha visualization
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1698,7 +1694,7 @@ dharma_buddhism.126 = {# Calmness and self-control
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1767,7 +1763,7 @@ dharma_buddhism.127 = {# Meditating on Food
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1815,7 +1811,7 @@ dharma_buddhism.128 = {# An insect
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1879,7 +1875,7 @@ dharma_buddhism.129 = {# Lotus Position
 		}
 		random_list = {
 			15 = {
-				dharma_set_up_next_buddhist_retreat_event_effect = yes
+				dharma_buddhist_retreat_outcome_effect = yes
 			}
 			85 = {# Rare to improve your chances
 
@@ -1912,13 +1908,16 @@ dharma_buddhism.130 = {# Departing the Monastary for home
 	left_portrait = root
 
 	immediate = {
-
-	}
-
-	
+		random_list = {
+			20 = {	add_character_flag = buddhist_retreat_better_person }
+			10 = {	add_character_flag = buddhist_retreat_mystic }
+			30 = {	add_character_flag = buddhist_retreat_pious }
+			50 = { }
+		}
+	}	
 
 	option = {
-		trigger = {	limit = { has_character_flag = buddhist_retreat_better_person	}	}
+		trigger = {	has_character_flag = buddhist_retreat_better_person	}
 		name = dharma_buddhism.130.better
 		add_stress = minor_stress_loss
 		improve_meditation_skill = yes
@@ -1961,8 +1960,8 @@ dharma_buddhism.130 = {# Departing the Monastary for home
 		}
 	}
 	option = {
+		trigger = {	 has_character_flag = buddhist_retreat_mystic }
 		name = dharma_buddhism.130.mystic
-		trigger = {	limit = { has_character_flag = buddhist_retreat_mystic	}	}
 		random_list = {
 			5 = {
 				add_trait = mystic_3
@@ -1977,20 +1976,41 @@ dharma_buddhism.130 = {# Departing the Monastary for home
 		improve_meditation_skill = yes
 	}
 	option = {
-		trigger = {	limit = { has_character_flag = buddhist_retreat_mystic	}	}
-		name = dharma_buddhism.130.buddhist_retreat_pious
+		trigger = {	has_character_flag = buddhist_retreat_pious	}
+		name = dharma_buddhism.130.pious
 		add_piety = major_piety_value
 		improve_meditation_skill = yes
 	}
 	option = {
-		trigger = {	limit = { has_character_flag = buddhist_retreat_nothing	}	}
-		name = dharma_buddhism.130.buddhist_retreat_nothing
+		trigger = {	
+			NOT = {
+				has_character_flag = buddhist_retreat_better_person	
+				has_character_flag = buddhist_retreat_mystic	
+				has_character_flag = buddhist_retreat_pious	
+			}
+		}
+
+		name = dharma_buddhism.130.nothing
 		add_stress = medium_stress_loss
 		improve_meditation_skill = yes
 	}
 
 
 	after = {
+		# Run the activity clean-up event.
+		trigger_event = {
+			id = dharma_buddhism.131
+			days = 1
+		}
+	}
+}
+dharma_buddhism.131 = {# End meditation
+	hidden = yes
+	
+	immediate = {
+		scope:activity = {
+			complete_activity = yes
+		}
 		# Remove character
 		remove_character_flag = meditation_secret
 		remove_character_flag = meditation_impatient
@@ -2003,22 +2023,6 @@ dharma_buddhism.130 = {# Departing the Monastary for home
 		remove_character_flag = buddhist_retreat_mystic
 		remove_character_flag = buddhist_retreat_pious
 		remove_character_flag = buddhist_retreat_nothing
-		remove_character_flag = planning_an_activity
-
-		# Run the activity clean-up event.
-		trigger_event = {
-			id = dharma_buddhism.117
-			days = 5
-		}
-	}
-}
-dharma_buddhism.131 = {# End meditation
-	hidden = yes
-	
-	immediate = {
-		scope:activity = {
-			complete_activity = yes
-		}
 	}
 }
 #######################################

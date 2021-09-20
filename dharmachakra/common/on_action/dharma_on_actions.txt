@@ -200,7 +200,7 @@ dharma_sharada_peeth_visit_over_events = {
 	}
 }
 # Buddhist Retreat Events
-dharma_nalanda_journey_events = {
+dharma_buddhist_retreat_events = {
 	random_events = {
 		# Generic Pilgrimage Events
 		100 = dharma_buddhism.102 # Back to basics
@@ -233,10 +233,10 @@ dharma_nalanda_journey_events = {
 		100 = dharma_buddhism.129 # Lotus Position
 	}
 }
-dharma_nalanda_visit_over_events = {
+dharma_buddhist_retreat_over_events = {
 	random_events = {
 		# Generic Pilgrimage Events
-		100 = dharma_buddhism.120 # Returning Home!
+		100 = dharma_buddhism.130 # Returning Home!
 	}
 }
 
