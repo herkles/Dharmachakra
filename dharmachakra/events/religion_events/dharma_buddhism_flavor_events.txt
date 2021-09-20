@@ -110,7 +110,7 @@ dharma_buddhism.004 = {# Meditate with Monk?
 	}
 	option = {# Om Mani Padme Hum
 		name = dharma_buddhism.004.mani
-		add_piety = 25
+		add_piety = miniscule_piety_gain
 	}
 }
 #######################################
@@ -380,127 +380,24 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 		animation = personality_rational
 	}
 
-
 	option = {# Three month Retreat
 		name = dharma_buddhism.101.three
-		trigger_event = { id = dharma_buddhism.116 days = 90 }
-		hidden_effect = {
-			random_list = {
-				20 = {
-					trigger_event = { id = dharma_buddhism.102 days = 30 }
-					trigger_event = { id = dharma_buddhism.108 days = 60 }
-					trigger_event = { id = dharma_buddhism.105 days = 85 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.103 days = 30 }
-					trigger_event = { id = dharma_buddhism.110 days = 60 }
-					trigger_event = { id = dharma_buddhism.106 days = 85 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.104 days = 30 }
-					trigger_event = { id = dharma_buddhism.111 days = 60 }
-					trigger_event = { id = dharma_buddhism.102 days = 85 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.105 days = 30 }
-					trigger_event = { id = dharma_buddhism.112 days = 60 }
-					trigger_event = { id = dharma_buddhism.102 days = 85 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.106 days = 30 }
-					trigger_event = { id = dharma_buddhism.114 days = 60 }
-					trigger_event = { id = dharma_buddhism.103 days = 85 }
-				}
-			}
-		}
+		add_character_flag = dharma_buddhist_retreat_short_flag
 	}
 	option = {# Six Month Retreat
 		name = dharma_buddhism.101.six
-		trigger_event = { id = dharma_buddhism.116 days = 182 }
-		hidden_effect = {
-			random_list = {
-				20 = {
-					trigger_event = { id = dharma_buddhism.102 days = 45 }
-					trigger_event = { id = dharma_buddhism.103 days = 90 }
-					trigger_event = { id = dharma_buddhism.106 days = 135 }
-					trigger_event = { id = dharma_buddhism.110 days = 180 }			
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.103 days = 45 }
-					trigger_event = { id = dharma_buddhism.104 days = 90 }
-					trigger_event = { id = dharma_buddhism.110 days = 135 }
-					trigger_event = { id = dharma_buddhism.111 days = 180 }	
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.104 days = 45 }
-					trigger_event = { id = dharma_buddhism.105 days = 90 }
-					trigger_event = { id = dharma_buddhism.111 days = 135 }
-					trigger_event = { id = dharma_buddhism.112 days = 180 }	
-
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.105 days = 45 }
-					trigger_event = { id = dharma_buddhism.106 days = 90 }
-					trigger_event = { id = dharma_buddhism.112 days = 135 }
-					trigger_event = { id = dharma_buddhism.113 days = 180 }	
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.106 days = 45 }
-					trigger_event = { id = dharma_buddhism.107 days = 90 }
-					trigger_event = { id = dharma_buddhism.113 days = 135 }
-					trigger_event = { id = dharma_buddhism.114 days = 180 }
-				}
-			}
-		}
-
+		add_character_flag = dharma_buddhist_retreat_medium_flag
 	}
 	option = {# Twelve Month Retreat-
 		name = dharma_buddhism.101.twelve
-		trigger_event = { id = dharma_buddhism.116 days = 365 }
-		hidden_effect = {
-			random_list = {
-				20 = {
-					trigger_event = { id = dharma_buddhism.102 days = 73 }
-					trigger_event = { id = dharma_buddhism.107 days = 146 }
-					trigger_event = { id = dharma_buddhism.111 days = 219 }
-					trigger_event = { id = dharma_buddhism.110 days = 292 }
-					
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.103 days = 73 }
-					trigger_event = { id = dharma_buddhism.102 days = 146 }
-					trigger_event = { id = dharma_buddhism.113 days = 219 }
-					trigger_event = { id = dharma_buddhism.111 days = 292 }
-					trigger_event = { id = dharma_buddhism.112 days = 350 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.104 days = 73 }
-					trigger_event = { id = dharma_buddhism.103 days = 146 }
-					trigger_event = { id = dharma_buddhism.102 days = 219 }
-					trigger_event = { id = dharma_buddhism.111 days = 292 }
-					trigger_event = { id = dharma_buddhism.113 days = 350 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.105 days = 73 }
-					trigger_event = { id = dharma_buddhism.108 days = 146 }
-					trigger_event = { id = dharma_buddhism.110 days = 219 }
-					trigger_event = { id = dharma_buddhism.112 days = 292 }
-					trigger_event = { id = dharma_buddhism.114 days = 350 }
-				}
-				20 = {
-					trigger_event = { id = dharma_buddhism.106 days = 73 }
-					trigger_event = { id = dharma_buddhism.108 days = 146 }
-					trigger_event = { id = dharma_buddhism.111 days = 219 }
-					trigger_event = { id = dharma_buddhism.115 days = 292 }
-					trigger_event = { id = dharma_buddhism.113 days = 350 }
-				}
-			}
-		}
+		add_character_flag = dharma_buddhist_retreat_long_flag
+	}	
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
-	
 }
 #######################################
-# Meditation Retreat General Events
+# Random Buddhist Retreat Events
 #######################################
 dharma_buddhism.102 = {# Back to basics
 	type = character_event
@@ -515,11 +412,40 @@ dharma_buddhism.102 = {# Back to basics
 		animation = personality_rational
 	}	
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_102
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_102
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.102.a
+		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}
+	}
+
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 dharma_buddhism.103 = {# monastic food
@@ -535,12 +461,49 @@ dharma_buddhism.103 = {# monastic food
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_103
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_103
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.103.a
+		add_piety = miniscule_piety_gain
 		stress_impact = {
-			base = miniscule_stress_impact_loss
+			base = miniscule_stress_impact_gain
 			gluttonous = minor_stress_gain
 		}
+	}
+	option = {
+		name = dharma_buddhism.103.b
+		add_piety = miniscule_piety_loss
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			gluttonous = minor_stress_loss
+		}
+	}
+
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 dharma_buddhism.104 = {# Meditate with eyes shut
@@ -556,11 +519,39 @@ dharma_buddhism.104 = {# Meditate with eyes shut
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_104
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_104
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.104.a
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}
+	}
+
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 dharma_buddhism.105 = {# Uncomfortable robes!
@@ -576,6 +567,30 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_105
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_105
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.105.a
 		stress_impact = {
@@ -583,6 +598,10 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 			humble = miniscule_stress_impact_loss
 			arrogant = miniscule_stress_impact_gain
 		}
+	}
+
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 dharma_buddhism.106 = {# Numb legs
@@ -598,16 +617,41 @@ dharma_buddhism.106 = {# Numb legs
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_106
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_106
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.106.a
 		stress_impact = {
-			base = miniscule_stress_impact_gain
+			base = miniscule_stress_impact_loss
+			compassionate = minor_stress_impact_loss
 		}
 	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
 }
-#######################################
-# Meditation Retreat Rare Events
-#######################################
 dharma_buddhism.107 = {# An exam
 	type = character_event
 	title = dharma_buddhism.107.t
@@ -621,12 +665,39 @@ dharma_buddhism.107 = {# An exam
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_107
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_107
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.107.a
-		add_piety = 5
+		add_piety = miniscule_piety_gain
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
-dharma_buddhism.108 = {# Master's wisdom
+dharma_buddhism.108 = {# The Nature of Emptiness
 	type = character_event
 	title = dharma_buddhism.108.t
 	desc = dharma_buddhism.108.desc
@@ -639,14 +710,107 @@ dharma_buddhism.108 = {# Master's wisdom
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_108
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_108
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.108.a
-		add_piety = 5
+		add_piety = miniscule_piety_gain
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
-#######################################
-# Meditation Retreat Novice Events
-#######################################
+dharma_buddhism.109 = {# Master's Wisdom
+	type = character_event
+	title = dharma_buddhism.109.t
+	desc = dharma_buddhism.109.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_109
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_109
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.109.a
+		add_piety = miniscule_piety_loss
+		stress_impact = {
+			base = miniscule_stress_impact_gain
+			diligent = miniscule_stress_impact_gain
+			ambitious = miniscule_stress_impact_gain
+			scholar = miniscule_stress_impact_gain
+			zealous = miniscule_stress_impact_gain
+			theologian = miniscule_stress_impact_gain
+			lazy = miniscule_stress_impact_loss
+		}
+	}
+	option = {
+		name = dharma_buddhism.109.b
+		trigger = { learning = 15 }
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			diligent = miniscule_stress_impact_loss
+			ambitious = miniscule_stress_impact_loss
+			scholar = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			theologian = miniscule_stress_impact_loss
+			lazy = miniscule_stress_impact_gain
+		}
+	}
+	
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
 dharma_buddhism.110 = {# Distract self or not?
 	type = character_event
 	title = dharma_buddhism.110.t
@@ -660,20 +824,48 @@ dharma_buddhism.110 = {# Distract self or not?
 		animation = personality_rational
 	}
 
-	option = {
-		name = dharma_buddhism.110.a
-		add_piety = miniscule_piety_value
-		stress_impact = {
-			base = miniscule_stress_impact_gain
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_110
 		}
 	}
 
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_110
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+		
+	}
+
+	option = {
+		name = dharma_buddhism.110.a
+		add_piety = minor_piety_gain
+		stress_impact = {
+			base = minor_stress_impact_gain
+		}
+	}
 	option = {
 		name = dharma_buddhism.110.b
-		add_piety = miniscule_piety_value
+		add_piety = minor_piety_loss
 		stress_impact = {
-			base = miniscule_stress_impact_loss
+			base = minor_stress_impact_loss
 		}
+	}
+
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 dharma_buddhism.111 = {# Whack!
@@ -689,11 +881,40 @@ dharma_buddhism.111 = {# Whack!
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_111
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_111
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.111.a
+		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_gain
 		}
+	}
+
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 dharma_buddhism.112 = {# Energized!
@@ -709,16 +930,40 @@ dharma_buddhism.112 = {# Energized!
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_112
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_112
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.112.a
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}
 	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
 }
-#######################################
-# Meditation Retreat Experinced Events
-#######################################
 dharma_buddhism.113 = {# Going outside
 	type = character_event
 	title = dharma_buddhism.113.t
@@ -732,11 +977,38 @@ dharma_buddhism.113 = {# Going outside
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_113
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_113
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.113.a
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 dharma_buddhism.114 = {# Questions and Answers
@@ -752,11 +1024,40 @@ dharma_buddhism.114 = {# Questions and Answers
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_114
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_114
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.114.a
+
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}
+	}
+
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 dharma_buddhism.115 = {# Heightened Senses
@@ -772,21 +1073,838 @@ dharma_buddhism.115 = {# Heightened Senses
 		animation = personality_rational
 	}
 
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_115
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_115
+				value = yes
+			}
+		}
+		
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
 	option = {
 		name = dharma_buddhism.115.a
-		add_piety = 5
+		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.116 = {# Dealing with Boredom
+	type = character_event
+	title = dharma_buddhism.116.t
+	desc = dharma_buddhism.116.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_116
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_116
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.116.a
+		random_list = {
+			5 = {
+				if = {
+					limit = { has_trait = lazy }
+					remove_trait = lazy
+				}
+				add_trait = diligent
+			}
+			95 = {
+				add_piety = minor_piety_gain
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_gain
+			lazy = minor_stress_impact_gain
+			hunter_1 = minor_stress_impact_gain
+			hunter_2 = minor_stress_impact_gain
+			hunter_3 = minor_stress_impact_gain
+			reveler_1 = minor_stress_impact_gain
+			reveler_2 = minor_stress_impact_gain
+			reveler_3 = minor_stress_impact_gain
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.117 = {# Dealing with no pleasure
+	type = character_event
+	title = dharma_buddhism.117.t
+	desc = dharma_buddhism.117.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_117
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_117
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.117.a
+		random_list = {
+			5 = {
+				if = {
+					limit = { has_trait = lustful }
+					remove_trait = lustful
+				}
+				add_trait = chaste
+			}
+			95 = {
+				add_piety = minor_piety_gain
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_gain
+			lustful = minor_stress_impact_gain
+			seducer = minor_stress_impact_gain
+			rakish = minor_stress_impact_gain
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.118 = {# Doing Chores
+	type = character_event
+	title = dharma_buddhism.118.t
+	desc = dharma_buddhism.118.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_118
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_118
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.118.a
+		random_list = {
+			5 = {
+				if = {
+					limit = { has_trait = arrogant }
+					remove_trait = arrogant
+				}
+				add_trait = humble
+			}
+			95 = {
+				add_piety = minor_piety_gain
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_gain
+			arrogant = minor_stress_impact_gain
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.119 = {# Questions and Answers
+	type = character_event
+	title = dharma_buddhism.119.t
+	desc = dharma_buddhism.119.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_119
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_119
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.119.a
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.120 = {# Meditating by myself
+	type = character_event
+	title = dharma_buddhism.120.t
+	desc = dharma_buddhism.120.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_120
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_120
+				value = yes
+			}
+		}
+		
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.120.a
+		add_character_modifier = {
+			modifier = introspective_rest_modifier
+			months = 4
+		}		
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.121 = {# Gardening
+	type = character_event
+	title = dharma_buddhism.121.t
+	desc = dharma_buddhism.121.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_121
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_121
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.121.plants
+		duel = {
+			skill = learning
+			value = very_high_skill_rating
+			10 = {
+				desc = dharma_buddhism.307.plants.success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+					min = -14
+				}
+				send_interface_toast = {
+					title = dharma_buddhism.121.plants.success_title
+					left_icon = root
+					add_prestige = minor_prestige_gain
+					if = {
+						limit = { exists = scope:increase_mystic }
+						change_trait_rank = {
+							trait = lifestyle_mystic
+							rank = 1
+						}
+					}
+				}
+			}
+			15 = {
+				desc = dharma_buddhism.121.plants.failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -0.5
+					min = -9
+				}
+				send_interface_toast = {
+					title = dharma_buddhism.121.plants.failure_title
+					left_icon = root
+				}
+			}
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.122 = {# Chant names of Buddhas and Bodhisattvas
+	type = character_event
+	title = dharma_buddhism.122.t
+	desc = dharma_buddhism.122.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_122
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_122
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.122.a
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.123 = {# Buddhist Mantras
+	type = character_event
+	title = dharma_buddhism.123.t
+	desc = dharma_buddhism.123.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_123
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_123
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.123.a
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.124 = {# Walking Meditation
+	type = character_event
+	title = dharma_buddhism.124.t
+	desc = dharma_buddhism.124.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_124
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_124
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.124.a
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.125 = {# Buddha visualization
+	type = character_event
+	title = dharma_buddhism.125.t
+	desc = dharma_buddhism.125.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_125
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_125
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.125.a
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.126 = {# Calmness and self-control
+	type = character_event
+	title = dharma_buddhism.126.t
+	desc = dharma_buddhism.126.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_126
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_126
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.126.a
+		random_list = {
+			5 = {
+				if = {
+					limit = { has_trait = wrathful }
+					remove_trait = wrathful
+				}
+				add_trait = calm
+			}
+			95 = {
+				add_piety = miniscule_piety_gain
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_gain
+			calm = minor_stress_impact_loss
+			wrathful = minor_stress_impact_gain
+		}
+	}
+	option = {
+		name = dharma_buddhism.126.b
+		add_piety = miniscule_piety_loss
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			calm = minor_stress_impact_gain
+			wrathful = minor_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.127 = {# Meditating on Food
+	type = character_event
+	title = dharma_buddhism.127.t
+	desc = dharma_buddhism.127.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_127
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_127
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.127.a
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.128 = {# An insect
+	type = character_event
+	title = dharma_buddhism.128.t
+	desc = dharma_buddhism.128.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_128
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_128
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.128.a
+		add_piety = miniscule_piety_gain
+		random_list = {
+			5 = {
+				if = {
+					limit = { has_trait = callous }
+					remove_trait = callous
+				}
+				if = {
+					limit = { has_trait = sadistic }
+					remove_trait = sadistic
+				}
+				add_trait = compassionate
+			}
+			95 = {
+				add_piety = miniscule_piety_gain
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
+	}
+}
+dharma_buddhism.129 = {# Lotus Position
+	type = character_event
+	title = dharma_buddhism.129.t
+	desc = dharma_buddhism.129.desc
+	theme = faith
+	override_background = {
+		event_background = cliff_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_dharma_buddhism_129
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_dharma_buddhism_129
+				value = yes
+			}
+		}
+		random_list = {
+			15 = {
+				dharma_set_up_next_buddhist_retreat_event_effect = yes
+			}
+			85 = {# Rare to improve your chances
+
+			}
+		}
+	}
+
+	option = {
+		name = dharma_buddhism.129.a
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+	after = {
+		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}
 }
 #######################################
 # Meditation Retreat Ending Events
 #######################################
-dharma_buddhism.116 = {# Departing the Monastary for home
+dharma_buddhism.130 = {# Departing the Monastary for home
 	type = character_event
-	title = dharma_buddhism.116.t
-	desc = dharma_buddhism.116.desc
+	title = dharma_buddhism.130.t
+	desc = dharma_buddhism.130.desc
 	theme = faith
 	override_background = {
 		event_background = throne_room
@@ -794,108 +1912,83 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 	left_portrait = root
 
 	immediate = {
-		random_list = {
-			20 = {
-				add_character_flag = buddhist_retreat_better_person
-			}
-			20 = {
-				add_character_flag = buddhist_retreat_mystic
-			}
-			20 = {
-				add_character_flag = buddhist_retreat_pious
-			}
-			20 = {
-				add_character_flag = buddhist_retreat_nothing
-			}
-		}
+
 	}
 
+	
+
 	option = {
-		name = {
-			trigger = { has_character_flag = buddhist_retreat_better_person }
-			text = dharma_buddhism.116.better
-		}
-		name = {
-			trigger = { has_character_flag = buddhist_retreat_mystic }
-			text = dharma_buddhism.116.mystic
-		}
-		name = {
-			trigger = { has_character_flag = buddhist_retreat_pious }
-			text = dharma_buddhism.116.pious
-		}
-		name = {
-			trigger = { has_character_flag = buddhist_retreat_nothing }
-			text = dharma_buddhism.116.nothing
-		}
-		# The actual effects of your retreat
-		if = {# Better Person
-			limit = {has_character_flag = buddhist_retreat_pious }
-			add_stress = minor_stress_loss
-			improve_meditation_skill = yes
-			random_list = {
-				10 = {
-					trigger = {	has_trait = gluttonous }
-					remove_trait = gluttonous
-					add_trait_force_tooltip = temperate
-				}
-				10 = {
-					trigger = {	has_trait = greedy }
-					remove_trait = greedy
-					add_trait_force_tooltip = generous
-				}
-				10 = {
-					trigger = {	has_trait = ambitious }
-					remove_trait = ambitious
-					add_trait_force_tooltip = content
-				}
-				10 = {
-					trigger = {	has_trait = lustful }
-					remove_trait = lustful
-					add_trait_force_tooltip = chaste
-				}
-				10 = {
-					trigger = {	has_trait = deceitful }
-					remove_trait = deceitful
-					add_trait_force_tooltip = honest
-				}
-				10 = {
-					trigger = {	has_trait = sadistic }
-					remove_trait = sadistic
-					add_trait_force_tooltip = callous
-				}
-				10 = {
-					trigger = {	has_trait = impatient }
-					remove_trait = impatient
-					add_trait_force_tooltip = patient
-				}
+		trigger = {	limit = { has_character_flag = buddhist_retreat_better_person	}	}
+		name = dharma_buddhism.130.better
+		add_stress = minor_stress_loss
+		improve_meditation_skill = yes
+		random_list = {
+			10 = {
+				trigger = {	has_trait = gluttonous }
+				remove_trait = gluttonous
+				add_trait_force_tooltip = temperate
 			}
-		}
-		else_if = {# mystic
-			limit = {has_character_flag = meditation_medium_stress_loss }
-			random_list = {
-				5 = {
-					add_trait = mystic_3
-				}
-				10 = {
-					add_trait = mystic_2
-				}
-				15 = {
-					add_trait = mystic_1
-				}
+			10 = {
+				trigger = {	has_trait = greedy }
+				remove_trait = greedy
+				add_trait_force_tooltip = generous
 			}
-			improve_meditation_skill = yes
-		}
-		else_if = {# Piety
-			limit = {has_character_flag = meditation_medium_stress_loss }
-			add_piety = major_piety_value
-			improve_meditation_skill = yes
-		}
-		else_if = {# Nothing
-			limit = {has_character_flag = meditation_medium_stress_loss }
-			add_stress = medium_stress_loss
-			improve_meditation_skill = yes
+			10 = {
+				trigger = {	has_trait = ambitious }
+				remove_trait = ambitious
+				add_trait_force_tooltip = content
+			}
+			10 = {
+				trigger = {	has_trait = lustful }
+				remove_trait = lustful
+				add_trait_force_tooltip = chaste
+			}
+			10 = {
+				trigger = {	has_trait = deceitful }
+				remove_trait = deceitful
+				add_trait_force_tooltip = honest
+			}
+			10 = {
+				trigger = {	has_trait = sadistic }
+				remove_trait = sadistic
+				add_trait_force_tooltip = callous
+			}
+			10 = {
+				trigger = {	has_trait = impatient }
+				remove_trait = impatient
+				add_trait_force_tooltip = patient
+			}
 		}
 	}
+	option = {
+		name = dharma_buddhism.130.mystic
+		trigger = {	limit = { has_character_flag = buddhist_retreat_mystic	}	}
+		random_list = {
+			5 = {
+				add_trait = mystic_3
+			}
+			10 = {
+				add_trait = mystic_2
+			}
+			15 = {
+				add_trait = mystic_1
+			}
+		}
+		improve_meditation_skill = yes
+	}
+	option = {
+		trigger = {	limit = { has_character_flag = buddhist_retreat_mystic	}	}
+		name = dharma_buddhism.130.buddhist_retreat_pious
+		add_piety = major_piety_value
+		improve_meditation_skill = yes
+	}
+	option = {
+		trigger = {	limit = { has_character_flag = buddhist_retreat_nothing	}	}
+		name = dharma_buddhism.130.buddhist_retreat_nothing
+		add_stress = medium_stress_loss
+		improve_meditation_skill = yes
+	}
+
 
 	after = {
 		# Remove character
@@ -919,7 +2012,7 @@ dharma_buddhism.116 = {# Departing the Monastary for home
 		}
 	}
 }
-dharma_buddhism.117 = {# End meditation
+dharma_buddhism.131 = {# End meditation
 	hidden = yes
 	
 	immediate = {
@@ -1454,7 +2547,7 @@ dharma_buddhism.302 = {# Visiting the Library
 		name = dharma_buddhism.302.buddhist
 		if = {# Better Person
 			limit = { religion = religion:buddhism_religion }
-			add_piety = 10
+			add_piety = miniscule_piety_gain
 			add_character_modifier = {
 				modifier = nalanda_learning_books
 				months = 4
@@ -1471,7 +2564,7 @@ dharma_buddhism.302 = {# Visiting the Library
 		name = dharma_buddhism.302.hindu
 		if = {# Better Person
 			limit = { religion = religion:hinduism_religion }
-			add_piety = 10
+			add_piety = miniscule_piety_gain
 			add_character_modifier = {
 				modifier = nalanda_learning_books
 				months = 4
@@ -1488,7 +2581,7 @@ dharma_buddhism.302 = {# Visiting the Library
 		name = dharma_buddhism.302.jain
 		if = {# Better Person
 			limit = { religion = religion:jainism_religion }
-			add_piety = 10
+			add_piety = miniscule_piety_gain
 			add_character_modifier = {
 				modifier = nalanda_learning_books
 				months = 4
@@ -1643,7 +2736,7 @@ dharma_buddhism.305 = {# Cosmopolitan Experince
 		}
 		stress_impact = {
 			base = miniscule_stress_impact_loss
-			shy = minior_stress_impact_gain
+			shy = minor_stress_impact_gain
 		}
 	}
 

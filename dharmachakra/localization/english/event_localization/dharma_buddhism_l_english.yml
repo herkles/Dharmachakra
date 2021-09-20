@@ -88,6 +88,7 @@
   dharma_buddhism.103.t:0 "Monastic Food"
   dharma_buddhism.103.desc:0 "During these meditation retreats, were not supposed to eat a lot - just enough to sustain ourselves. That said, since I am a [Root.GetTitle], I could easily get away with taking more food than I am normally given."
   dharma_buddhism.103.a:0 "I must bear through it"
+  dharma_buddhism.103.b:0 "take more food"
 
   dharma_buddhism.104.t:0 "Meditating"
   dharma_buddhism.104.desc:0 "I'm attempting to meditate with my eyes half-open, as some of the monks have recommended. Still, it's distracting - I'm trying to clear my mind of useless thoughts, yet with my eyes half-open, I can still see some of things happening around me."
@@ -108,6 +109,11 @@
   dharma_buddhism.108.t:0 "The Nature of Emptiness"
   dharma_buddhism.108.desc:0 "I am participating in a philosophical discussion with one of the senior monks to prove how much of the Dharma I've learned. I proclaim, The true nature of everything is emptiness. The Buddhas and Bodhisattvas do not exist. There is no realization, no delusion, no sage. There is no giving and nothing to be received.\n\nThe senior monk is silent, his face unmoving. Is he thinking? Suddenly - WHACK - he hits me on the head. I am angered, but the monk patiently asks me:"
   dharma_buddhism.108.a:0 "If nothing exists, where did that anger come from?"
+
+  dharma_buddhism.109.t:0 "To Know and Not Know"
+  dharma_buddhism.109.desc:0 "here is a kind and patient senior monk at the temple who has always provided me with good advice and insight. After a meditation session, I ask him, "What happens to an enlightened man after death?"\nHe replies, "I don"t know."\nI subsequently ask, "But aren"t you a master?"\n"Yes," he says, "But not a dead one"
+  dharma_buddhism.109.a:0 "Oh! The future is unforseeable. I must focus on the present."
+  dharma_buddhism.109.b:0 "Ah. A wise man knows that he knows nothing."
 
   dharma_buddhism.110.t:0 "Distract self or not?"
   dharma_buddhism.110.desc:0 "Sitting still is so difficult! How do these monks manage it? My buttocks are in pain, I am constantly falling asleep... it is so difficult to concentrate while meditating. I could just pretend to be meditating while thinking about other things - that would be much easier, but then that would defeat the purpose of meditation."
@@ -134,12 +140,74 @@
   dharma_buddhism.115.desc:0 "My efforts in meditation has given me much insight into natural phenomena. With greater concentration and patience, I discern minute details about the world I would have never noticed otherwise."
   dharma_buddhism.115.a:0 "I must not, however, get so attached to such abilities"
 
-  dharma_buddhism.116.t:0 "The Retreat Ends"
-  dharma_buddhism.116.desc:0 "My spiritual retreat has ended. I feel strange, even frightened, leaving the temple and readjusting to normal life. The retreat was a strange, uncomfortable experience, after all, and I still think of it as rather difficult, yet I learned much.\n\nCompassion. Mindfulness. Patience. Inner peace.\n\nI have been exposed to the Dharma in ways I could not have possibly imagined. Can I possibly put these lessons to practice"
-  dharma_buddhism.116.better:0 "Time to return Home changed."
-  dharma_buddhism.116.mystic:0 "Time to return Home, with much insight"
-  dharma_buddhism.116.pious:0 "Time to return Home, having learned much of the Buddha's dharma"
-  dharma_buddhism.116.nothing:0 "Time to return Home"
+  dharma_buddhism.116.t:0 "Dealing with Boredom"
+  dharma_buddhism.116.desc:0 "During the retreat, the various activites that I have long enjoyed from feasting to Hunting is not practiced. Instead I am to practice on spiritual meditation and focusing on inner peace. Unfortunatly all I can feel is inner boredom."
+  dharma_buddhism.116.a:0 "I will just have to endure for now."
+
+  dharma_buddhism.117.t:0 "Dealing with no pleasure"
+  dharma_buddhism.117.desc:0 "During the retreat, I am to focus on spiritual matters and this means that I am not able to enjoy the pleasures of the flesh. This focus on chasity and celebrate vows during the retreats has been getting to me."
+  dharma_buddhism.117.a:0 "breath in, breath out, I will enjoy myself afterwards."
+
+  dharma_buddhism.118.t:0 "Doing Chores"
+  dharma_buddhism.118.desc:0 "During the retreat, I am to help the monks with chores around the monastary. This is not what my station normally does. Yet despite this myself..."
+  dharma_buddhism.118.a:0 "Understanding my lessers better"
+  dharma_buddhism.118.b:0 "annoyed that I have to do these chores."
+
+  dharma_buddhism.119.t:0 "Questions and Answers"
+  dharma_buddhism.119.desc:0 "When I begun doing meditation retreats, I used to probe many different spiritual and philosophical questions and provide myself of many different answers. As I have gained more and more insight, I notice I have less and less questions, and less and less answers."
+  dharma_buddhism.119.a:0 "The masters say this is a good thing"
+
+  dharma_buddhism.120.t:0 "Meditating by myself"
+  dharma_buddhism.120.desc:0 "Today I was meditating by myself in the monastary. Instead of meditating with others, and hearing the chanting of other monks, I was by myself, hearing the sounds of nature."
+  dharma_buddhism.120.a:0 "I feel better for the quiet"
+  dharma_buddhism.120.b:0 "The Quiet makes my mind wander"
+
+  dharma_buddhism.121.t:0 "Gardening"
+  dharma_buddhism.121.desc:0 "While I was at the monastary, one of the monks was teaching me about the various plants. Of the course of my time at the monastary on the retreat, I try and study more under the monk to learn more about plants and herbs that he might be able to teach me. "
+  dharma_buddhism.121.plants:0 "Knowledge of plants will lead me to enlightenment"
+  dharma_buddhism.121.plants.success:0 "You are able to grasp the teachings regarding herbalism that the Monk was talking about."
+  dharma_buddhism.121.plants.success_title:0 "Successfully grasped the Monk's teachings"
+  dharma_buddhism.121.plants.failure:0 "You fail to grasp  the teachings regarding herbalism that the Monk was talking about"
+  dharma_buddhism.121.plants.failure_title:0 "Failed to grasp the Monk's teachings."
+
+  dharma_buddhism.122.t:0 "Chant names of Buddhas and Bodhisattvas"
+  dharma_buddhism.122.desc:0 "During my time at the monastary, I join the monks in chanting the names of the Buddhas and Bodhisattvas.."
+  dharma_buddhism.122.a:0 "This should improve my ability to concentrate."
+
+  dharma_buddhism.123.t:0 "Chanting Mantras"
+  dharma_buddhism.123.desc:0 "Today while at the retreat one of the monks have suggested that I continuously (but quietly) chant a mantra or a similar prayer, and focus all my energy on that. That way, I can train my mind to concentrate on one single thing.."
+  dharma_buddhism.123.a:0 "Om Mani Padme Hum"
+
+  dharma_buddhism.124.t:0 "Walking Meditation"
+  dharma_buddhism.124.desc:0 "Today at the monastary, instead of the usual meditation of sititng down and focusing, I did a walking meditation in the monastic garden. Enjoying the fresh air as I moved around, focusing not on my walking but on my breath and inner concentration."
+  dharma_buddhism.124.a:0 "Om"
+
+  dharma_buddhism.125.t:0 "Buddha visualization"
+  dharma_buddhism.125.desc:0 "A method of meditation taught by the masters is so-called visualization meditation, where one focuses on a specific Buddha or Bodhisattva. By meditating on one of the Buddhas, Boddhisattvas or even a meditational deity, the monks say it will help me reach enlightenment."  dharma_buddhism.125.a:0 "I visualize the Buddha I am focused on with all the concentration I can muster!"
+
+  dharma_buddhism.126.t:0 "Calmness and self-control"
+  dharma_buddhism.126.desc:0 "The monks instruct me that meditation is a method for gaining inner peace, as well as a way to see the world more clearly. If I am calm and thoughtful, I'll be wiser in my decisions and more virtuous in my conduct."
+  dharma_buddhism.126.a:0 "I must have a lot of self-control and patience."
+  dharma_buddhism.126.b:0 "Bah, why is this self-control and patience so difficult"
+
+  dharma_buddhism.127.t:0 "Meditating on Food"
+  dharma_buddhism.127.desc:0 "As I eat my vegetarian meal for breakfast, I concentrate on the moment. The food. The texture. The smells. The sensation of my mouth moving up and down, chewing. My hands guiding the food into my mouth. Every inch of my body as it prepares to receive the food."
+  dharma_buddhism.127.a:0 "One must meditate in everything one does"
+
+  dharma_buddhism.128.t:0 "An insect"
+  dharma_buddhism.128.desc:0 "I am meditating outside with several monks. I suddenly notice a small insect crawling under the sun, so I pick it up and leave it under the shade of a tree."
+  dharma_buddhism.128.a:0 "I then return to meditate."
+
+  dharma_buddhism.129.t:0 "Lotus Position"
+  dharma_buddhism.129.desc:0 "Many people, while doing sitting meditation, sit in the so-called half-lotus position, where only one foot is placed on the opposing thigh. Some more flexible individuals, though, can do the so-called full lotus position, where two feet are placed on the opposing thigh. However, few can learn this position without lots of practice.\n\nI myself, after a lot of practice, have managed to master the full lotus position without too much hassle. This should help me improve my meditation, as the monks say it naturally increases one's concentration and mental ability."
+  dharma_buddhism.129.a:0 "Let's do this"
+
+  dharma_buddhism.130.t:0 "The Retreat Ends"
+  dharma_buddhism.130.desc:0 "My spiritual retreat has ended. I feel strange, even frightened, leaving the temple and readjusting to normal life. The retreat was a strange, uncomfortable experience, after all, and I still think of it as rather difficult, yet I learned much.\n\nCompassion. Mindfulness. Patience. Inner peace.\n\nI have been exposed to the Dharma in ways I could not have possibly imagined. Can I possibly put these lessons to practice"
+  dharma_buddhism.130.better:0 "Time to return Home changed."
+  dharma_buddhism.130.mystic:0 "Time to return Home, with much insight"
+  dharma_buddhism.130.pious:0 "Time to return Home, having learned much of the Buddha's dharma"
+  dharma_buddhism.130.nothing:0 "Time to return Home"
 
 #######################################
 # Picking Buddhist Deities

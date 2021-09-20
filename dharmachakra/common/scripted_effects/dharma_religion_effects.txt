@@ -1438,3 +1438,137 @@ dharma_set_up_next_sharada_peeth_event_effect = {# Visiting Sharada Peeth
 		}
 	}
 }
+#######################################
+# Buddhist Retreat Effects
+#######################################
+dharma_set_up_next_buddhist_retreat_event_effect = {# Buddhist Retreat
+	scope:activity = {
+		change_variable = {
+			name = dharma_buddhist_retreat_event_counter
+			add = 1
+		}
+	}
+	save_scope_value_as = {
+		name = event_counter
+		value = scope:activity.var:dharma_buddhist_retreat_event_counter
+	}
+	if = {
+		limit = { # TODO: Is any fallback handling needed in an else here?
+			exists = scope:activity
+		}
+		if = {
+			limit = {
+				scope:activity.var:dharma_buddhist_retreat_event_counter = {
+					compare_value < scope:activity.var:dharma_buddhist_retreat_length
+				}
+			}
+			trigger_event = {
+				on_action = dharma_buddhist_retreat_events
+				days = $DAYS$
+			}
+		}
+		else = {
+			if = { #For event background 
+				limit = { scope:activity.var:dharma_buddhist_retreat_done = no }
+				scope:activity = {
+					set_variable = {
+						name = dharma_buddhist_retreat_done
+						value = yes
+					}
+				}
+			}
+			trigger_event = {
+				on_action = dharma_buddhist_retreat_over_events
+				days = $DAYS$
+			}
+		}
+		scope:activity = {
+			change_variable = {
+				name = dharma_buddhist_retreat_event_counter
+				add = 1
+			}
+		}
+	}
+}
+set_buddhist_retreat_length_variable_effect = {# Variable for how long buddhist retreats will be
+	if = {
+		limit = {
+			has_character_flag = dharma_buddhist_retreat_long_flag
+		}
+		set_variable = {
+			name = dharma_buddhist_retreat_length
+			value = long_buddhist_retreat_var
+		}
+	}
+	else_if = {
+		limit = {
+			has_character_flag = dharma_buddhist_retreat_medium_flag
+		}
+		set_variable = {
+			name = dharma_buddhist_retreat_length
+			value = medium_buddhist_retreat_var
+		}
+	}
+	else = {
+		set_variable = {
+			name = dharma_buddhist_retreat_length
+			value = short_buddhist_retreat_var
+		}
+	}
+}
+dharma_buddhist_retreat_outcome_effect = {# Buddhist Retreat
+	scope:activity = {
+		change_variable = {
+			name = dharma_buddhist_retreat_outcome_counter
+			add = 1
+		}
+	}
+
+	if = {
+		limit = {
+			var:dharma_buddhist_retreat_outcome_counter = {
+				compare_value >= 9
+			}
+		}
+		remove_character_flag = buddhist_retreat_better_person
+		remove_character_flag = buddhist_retreat_pious
+		remove_character_flag = buddhist_retreat_nothing
+		add_character_flag = buddhist_retreat_mystic
+	}
+	else_if = {
+		limit = {
+			var:dharma_buddhist_retreat_outcome_counter = {
+				compare_value >= 6
+			}
+		}
+		remove_character_flag = buddhist_retreat_mystic
+		remove_character_flag = buddhist_retreat_pious
+		remove_character_flag = buddhist_retreat_nothing
+		add_character_flag = buddhist_retreat_better_person
+	}
+	else_if = {
+		limit = {
+			var:dharma_buddhist_retreat_outcome_counter = {
+				compare_value >= 3
+			}
+		}
+		remove_character_flag = buddhist_retreat_better_person
+		remove_character_flag = buddhist_retreat_mystic
+		remove_character_flag = buddhist_retreat_nothing
+		add_character_flag = buddhist_retreat_pious
+	}
+	else = {
+		remove_character_flag = buddhist_retreat_better_person
+		remove_character_flag = buddhist_retreat_mystic
+		remove_character_flag = buddhist_retreat_pious
+		add_character_flag = buddhist_retreat_nothing
+	}
+}
+
+
+
+
+
+
+
+
