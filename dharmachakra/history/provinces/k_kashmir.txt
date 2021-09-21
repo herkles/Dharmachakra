@@ -4,7 +4,8 @@
 	# Misc
 	culture = kashmiri
 	religion = vajrayana
-	
+	special_building_slot = sharada_peeth
+	special_building = sharada_peeth
 	# History
 
 }

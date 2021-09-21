@@ -98,13 +98,20 @@ ellora_caves_01 = {# Ellora Caves
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety_gain_mult = 0.1
-		diplomacy_per_piety_level = 1
+		different_faith_opinion = 5
+		different_culture_opinion = 5
+		monthly_lifestyle_xp_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.05
 	}
+	
 	county_modifier = {
-		tax_mult = 0.1
+		monthly_county_control_change_add = 0.2
+		development_growth_factor = 0.2
 		development_growth = 0.2
-		development_growth_factor = 0.75
+	}
+	
+	province_modifier = {
+		hostile_raid_time = 1.5
 	}
 	
 	ai_value = {
@@ -134,13 +141,19 @@ ajanta_caves_01 = {# Ajanta Caves
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety_gain_mult = 0.1
-		diplomacy_per_piety_level = 1
-	}
+		stress_gain_mult = -0.25
+		cultural_head_fascination_mult = 0.25
+		personal_scheme_power_mult = 0.25
+		hostile_scheme_resistance_mult = 0.25
+		monthly_dynasty_prestige_mult = 0.05
+	}	
+	
 	county_modifier = {
-		tax_mult = 0.1
-		development_growth = 0.2
-		development_growth_factor = 0.75
+		county_opinion_add = 25
+	}
+	
+	province_modifier = {
+		hostile_raid_time = 1.5
 	}
 		
 	ai_value = {
@@ -307,8 +320,961 @@ konark_sun_temple_01 = {# Konark Sun Temple
 	
 	type = special
 }
+# Tamil Temples
+ramanathaswamy_temple_01 = {# Ramanathaswamy Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+madurai_temple_01 = {# Madurai Temples
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+arulmigu_solaimalai_temple_01 = {# Arulmigu Solaimalai Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+subramaniya_swamy_temple_01 = {# Subramaniya Swamy Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+dhandayuthapani_temple_01 = {# Dhandayuthapani Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+kailasanathar_temple_01 = {# Kailasanathar Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+venkateswara_temple_01 = {# Venkateswara Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+# Karnata Temples
+alampur_jogulamba_temple_01 = {# Alampur_Jogulamba Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+# Andhara Temples
+mallikarjuna_temple_01 = {# Mallikarjuna Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+# Maharashtra Temples
+mahalakshmi_temple_01 = {# Mahalakshmi Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+vithoba_temple_01 = {# Vithoba Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+mayureshwar_temple_01 = {# Mayureshwar Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+# Northern Temples
+ujjayini_temple_city_01 = {# Ujjayini Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+krishna_janmasthan_temple_01 = {# Krishna_Janmasthan Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+har_ki_pauri_temple_01 = {# Har Ki Pauri
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+badrinath_temple_01 = {# Badrinath Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+kedarnath_temple_01 = {# Kedarnath Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+# Western Temples
+varanasi_temples_01 = {# Varanasi Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+jagannath_temple_01 = {# Jagannath_Temple Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+kamakhya_temple_01 = {# Kamakhya Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+# Gujarat Temples
+dwarkadhish_temple_01 = {# Dwarkadhish Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+somnath_temple_temple_01 = {# Somnath_temple Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
 #######################################
-#       Buddhist Temples		  #
+#       Buddhist Temples		  	  #
 #######################################
 sanchi_01 = {# Sanchi
 	construction_time = very_slow_construction_time
@@ -494,6 +1460,235 @@ pabonka_hermitage_01 = {# Pabonka Hermitage
 		development_growth = 0.2
 	}
 		
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+maya_devi_temple_01 = {# Maya Devi Temple
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		build_gold_cost = -0.1
+		build_speed = -0.1
+		monthly_piety = 0.3
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+sravasti_01 = {# Shravasti
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		build_gold_cost = -0.1
+		build_speed = -0.1
+		monthly_piety = 0.3
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+sankassa_01 = {# Sankassa
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		build_gold_cost = -0.1
+		build_speed = -0.1
+		monthly_piety = 0.3
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+ratnagiri_01 = {# Ratnagiri
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		build_gold_cost = -0.1
+		build_speed = -0.1
+		monthly_piety = 0.3
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+amaravati_stupa_01 = {# Amaravati_Stupa
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		build_gold_cost = -0.1
+		build_speed = -0.1
+		monthly_piety = 0.3
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+mahamevnaw_01 = {# Mahamevnaw
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		build_gold_cost = -0.1
+		build_speed = -0.1
+		monthly_piety = 0.3
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
 	ai_value = {
 		base = 100
 	}
@@ -903,6 +2098,126 @@ gwalior_fort_01 = {# Gwalior Fort
 	
 	type = special
 }
+potala_palace_01 = {# Potala Palace
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_siro_potala_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		hills_advantage = 5
+		mountains_advantage = 5
+		men_at_arms_maintenance = -0.05
+		army_maintenance_mult = -0.05
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		tax_mult = 0.1
+		levy_size = 0.1
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = 2
+		fort_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	next_building = siro_b_potala_palace_02
+	
+	type = special
+}
+potala_palace_02 = {# Potala Palace
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_siro_potala_palace.dds"	
+
+	can_construct_showing_failures_only = {
+		custom_description = {
+			text = siro_text_development_level
+			value = 60
+			county.development_level >= 60
+		}
+	}
+	
+	cost_gold = 5000
+
+	character_modifier = {
+		hills_advantage = 10
+		mountains_advantage = 10
+		men_at_arms_maintenance = -0.1
+		army_maintenance_mult = -0.1
+		monthly_dynasty_prestige_mult = 0.15
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		levy_size = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = 5
+		monthly_income = 5
+		garrison_size = 1
+		fort_level = 5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+sigiriya_01 = {# Sigirya
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_siro_sigiriya.dds"
+
+	is_enabled = {
+		custom_description = {
+			text = siro_local_sigiriya_trigger
+			scope:holder = {
+				OR = {
+					has_government = theocracy_government
+					has_trait = kinslayer_1
+					has_trait = kinslayer_2
+					has_trait = kinslayer_3
+					has_trait = reclusive
+					has_trait = paranoid
+				}
+			}
+		}
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		diplomacy = -15
+		intrigue = 15
+	}
+
+	province_modifier = {
+		defender_holding_advantage = 15
+		fort_level = 15
+		hostile_raid_time = 5
+	}
+
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
 #######################################
 #       Other Unique Buildings	      #
 #######################################
@@ -940,6 +2255,50 @@ rani_ki_vav_01 = {# Rani Ki Vav
 		defender_advantage = 10
 	}
 		
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+sharada_peeth_01 = {# Sharad Peeth in Kashmir
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_nalanda.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_university_requirement = yes
+	}
+	
+	can_construct = {
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		learning_per_prestige_level = 1
+		stewardship_per_prestige_level = 1
+		monthly_lifestyle_xp_gain_mult = 0.1
+		monthly_dynasty_prestige = 0.25
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
 	ai_value = {
 		base = 100
 	}

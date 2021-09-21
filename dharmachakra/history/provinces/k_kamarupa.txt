@@ -98,7 +98,9 @@
 	# Misc
 	culture = assamese
 	religion = vajrayana
-	
+	special_building_slot = kamakhya_temple_01
+	special_building = kamakhya_temple_01
+
 	holding = city_holding
 	
 	# History

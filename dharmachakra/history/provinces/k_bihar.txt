@@ -397,7 +397,8 @@
 	# Misc
 	culture = bihari
 	religion = vajrayana
-	
+	special_building_slot = varanasi_temples_01
+	special_building = varanasi_temples_01
 	holding = castle_holding
 	
 	# History
