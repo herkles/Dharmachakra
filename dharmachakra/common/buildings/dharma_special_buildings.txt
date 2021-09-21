@@ -320,6 +320,7 @@ konark_sun_temple_01 = {# Konark Sun Temple
 	
 	type = special
 }
+
 # Tamil Temples
 ramanathaswamy_temple_01 = {# Ramanathaswamy Temple
 	construction_time = very_slow_construction_time
@@ -342,20 +343,13 @@ ramanathaswamy_temple_01 = {# Ramanathaswamy Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_piety = 0.1
+		monthly_dynasty_prestige_mult = 0.01
+		stewardship_per_piety_level = 1
 	}
-	
+
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
+		tax_mult = 0.05
 	}
 	
 	ai_value = {
@@ -385,20 +379,21 @@ madurai_temple_01 = {# Madurai Temples
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_dynasty_prestige_mult = 0.01
+		different_faith_opinion = 5
+		religious_vassal_opinion = 5
+		clergy_opinion = 5
+		different_faith_county_opinion_mult = -0.2
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
+		tax_mult = 0.1
+		development_growth_factor = 0.3
+		development_growth = 0.2
 	}
 	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 1
 	}
 	
 	ai_value = {
@@ -428,20 +423,13 @@ arulmigu_solaimalai_temple_01 = {# Arulmigu Solaimalai Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_piety_gain_mult = 0.01
+		county_opinion_add = 5
+		monthly_county_control_change_factor = 0.1
 	}
-	
 	county_modifier = {
-		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
 	}
 	
 	ai_value = {
@@ -471,20 +459,17 @@ subramaniya_swamy_temple_01 = {# Subramaniya Swamy Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		different_faith_opinion = 5
+		faith_conversion_piety_cost_mult = -0.2
+		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.05
 	}
-	
-	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
-	}
-	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 1
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+		development_growth = 0.1
 	}
 	
 	ai_value = {
@@ -514,20 +499,17 @@ dhandayuthapani_temple_01 = {# Dhandayuthapani Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		clergy_opinion = 5
+		monthly_dynasty_prestige_mult = 0.01
+		monthly_county_control_change_factor = 0.01
 	}
-	
+	province_modifier = {
+		monthly_income = 2
+	}
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
 	}
 	
 	ai_value = {
@@ -557,18 +539,14 @@ kailasanathar_temple_01 = {# Kailasanathar Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
-	}
-	
+		monthly_dynasty_prestige_mult = 0.01
+		monthly_county_control_change_add = 0.1
+	}	
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
+		tax_mult = 0.3
+		development_growth_factor = 0.3
+		development_growth = 0.3
 	}
-	
 	province_modifier = {
 		monthly_income = 3
 	}
@@ -600,22 +578,14 @@ venkateswara_temple_01 = {# Venkateswara Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_piety = 0.1
+		monthly_dynasty_prestige_mult = 0.01
+		stewardship_per_piety_level = 1
 	}
-	
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
+		tax_mult = 0.05
 	}
-	
-	province_modifier = {
-		monthly_income = 3
-	}
-	
+
 	ai_value = {
 		base = 100
 	}
@@ -644,18 +614,15 @@ alampur_jogulamba_temple_01 = {# Alampur_Jogulamba Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_piety = 0.1
+		monthly_dynasty_prestige_mult = 0.01
+		monthly_county_control_change_factor = 0.01
 	}
-	
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
-	}
-	
+	}	
 	province_modifier = {
 		monthly_income = 3
 	}
@@ -688,20 +655,18 @@ mallikarjuna_temple_01 = {# Mallikarjuna Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
+		different_faith_opinion = 5
+		religious_vassal_opinion = 10
+		different_faith_county_opinion_mult = -0.15
 		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
-	}
-	
+	}	
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
-	}
-	
+	}	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 2
 	}
 	
 	ai_value = {
@@ -732,20 +697,17 @@ mahalakshmi_temple_01 = {# Mahalakshmi Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		different_faith_opinion = 10
+		faith_conversion_piety_cost_mult = -0.2
+		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.05
 	}
-	
+	province_modifier = {
+		monthly_income = 1.5
+	}
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
-		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
+		development_growth = 0.2
 	}
 	
 	ai_value = {
@@ -775,20 +737,16 @@ vithoba_temple_01 = {# Vithoba Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_piety_gain_mult = 0.05
+		county_opinion_add = 5
+		monthly_county_control_change_factor = 0.1
 	}
-	
-	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
-	}
-	
 	province_modifier = {
 		monthly_income = 3
+	}
+	county_modifier = {
+		development_growth_factor = 0.2
+		development_growth = 0.1
 	}
 	
 	ai_value = {
@@ -820,18 +778,15 @@ mayureshwar_temple_01 = {# Mayureshwar Temple
 	character_modifier = {
 		monthly_piety = 0.3
 		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_county_control_change_factor = 0.1
 	}
-	
+	province_modifier = {
+		monthly_income = 2
+	}
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
 	}
 	
 	ai_value = {
@@ -862,20 +817,17 @@ ujjayini_temple_city_01 = {# Ujjayini Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
+		monthly_piety = 0.25
 		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_county_control_change_factor = 0.1
 	}
-	
+	province_modifier = {
+		monthly_income = 2
+	}
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
 	}
 	
 	ai_value = {
@@ -905,20 +857,17 @@ krishna_janmasthan_temple_01 = {# Krishna_Janmasthan Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
+		monthly_piety = 0.25
 		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		clergy_opinion = 5
+		knight_effectiveness_mult = 0.15
 	}
-	
-	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
-	}
-	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 1
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
 	}
 	
 	ai_value = {
@@ -948,20 +897,19 @@ har_ki_pauri_temple_01 = {# Har Ki Pauri
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
+		monthly_piety = 0.25
 		monthly_dynasty_prestige_mult = 0.05
+		different_faith_opinion = 5
+		different_faith_county_opinion_mult = -0.15
 		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
-	}
-	
+	}	
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
-	}
-	
+	}	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 2
 	}
 	
 	ai_value = {
@@ -991,22 +939,18 @@ badrinath_temple_01 = {# Badrinath Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
+		monthly_piety = 0.2
+		clergy_opinion = 5
+		tyranny_gain_mult = -0.1
 		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
 	}
-	
+	province_modifier = {
+		monthly_income = 2
+	}
 	county_modifier = {
 		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
-	}
-	
+	}	
+
 	ai_value = {
 		base = 100
 	}
@@ -1032,23 +976,14 @@ kedarnath_temple_01 = {# Kedarnath Temple
 	}
 
 	cost_gold = 3000
-
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		piety_level_impact_mult = 0.1
 	}
-	
 	county_modifier = {
 		tax_mult = 0.2
-		development_growth_factor = 0.2
+		development_growth_factor = 0.25
 		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
-	}
+	}	
 	
 	ai_value = {
 		base = 100
@@ -1078,10 +1013,11 @@ varanasi_temples_01 = {# Varanasi Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
+		monthly_piety = 0.25
 		monthly_dynasty_prestige_mult = 0.05
+		different_faith_opinion = 5
+		different_faith_county_opinion_mult = -0.15
 		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
 	}
 	
 	county_modifier = {
@@ -1091,7 +1027,7 @@ varanasi_temples_01 = {# Varanasi Temple
 	}
 	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 2
 	}
 	
 	ai_value = {
@@ -1121,16 +1057,18 @@ jagannath_temple_01 = {# Jagannath_Temple Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
+		monthly_piety = 0.25
 		monthly_dynasty_prestige_mult = 0.05
+		different_faith_opinion = 5
+		different_faith_county_opinion_mult = -0.15
 		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
-	}
-	
+	}	
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
+		defender_holding_advantage = 1
+		tax_mult = 0.1
+		development_growth_factor = 0.1
 		development_growth = 0.1
+		hostile_raid_time = 0.3
 	}
 	
 	province_modifier = {
@@ -1167,17 +1105,14 @@ kamakhya_temple_01 = {# Kamakhya Temple
 		monthly_piety = 0.3
 		monthly_dynasty_prestige_mult = 0.05
 		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
-	}
-	
+	}	
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
+		tax_mult = 0.05
+		development_growth_factor = 0.05
 		development_growth = 0.1
-	}
-	
+	}	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 1
 	}
 	
 	ai_value = {
@@ -1208,10 +1143,10 @@ dwarkadhish_temple_01 = {# Dwarkadhish Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
+		monthly_piety_gain_mult = 0.05
 		monthly_dynasty_prestige_mult = 0.05
+		monthly_piety_gain_per_knight_add = 0.1
 		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
 	}
 	
 	county_modifier = {
@@ -1221,7 +1156,7 @@ dwarkadhish_temple_01 = {# Dwarkadhish Temple
 	}
 	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 2
 	}
 	
 	ai_value = {
@@ -1230,7 +1165,7 @@ dwarkadhish_temple_01 = {# Dwarkadhish Temple
 	
 	type = special
 }
-somnath_temple_temple_01 = {# Somnath_temple Temple
+somnath_temple_temple_01 = {# Somnath temple Temple
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_cathedral_indian.dds"
@@ -1251,20 +1186,16 @@ somnath_temple_temple_01 = {# Somnath_temple Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		monthly_piety = 0.3
-		monthly_dynasty_prestige_mult = 0.05
-		monthly_county_control_change_factor = 0.05
-		monthly_piety_gain_per_happy_powerful_vassal_add = 0.2
+		monthly_piety_gain_mult = 0.05
+		county_opinion_add = 5
+		monthly_county_control_change_factor = 0.1
 	}
-	
+	province_modifier = {
+		monthly_income = 1
+	}
 	county_modifier = {
-		tax_mult = 0.2
 		development_growth_factor = 0.2
 		development_growth = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 3
 	}
 	
 	ai_value = {
@@ -1488,11 +1419,14 @@ maya_devi_temple_01 = {# Maya Devi Temple
 	cost_gold = 3000
 
 	character_modifier = {
-		build_gold_cost = -0.1
-		build_speed = -0.1
-		monthly_piety = 0.3
+		monthly_piety = 0.5
+		clergy_opinion = 5
+		tyranny_gain_mult = -0.1
+		monthly_dynasty_prestige_mult = 0.05
 	}
-	
+	province_modifier = {
+		monthly_income = 2
+	}
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
@@ -1526,15 +1460,18 @@ sravasti_01 = {# Shravasti
 	cost_gold = 3000
 
 	character_modifier = {
-		build_gold_cost = -0.1
-		build_speed = -0.1
-		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_add = 0.5
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.2
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 1
 	}
 	
 	ai_value = {
@@ -1564,11 +1501,10 @@ sankassa_01 = {# Sankassa
 	cost_gold = 3000
 
 	character_modifier = {
-		build_gold_cost = -0.1
-		build_speed = -0.1
-		monthly_piety = 0.3
+		monthly_piety = 0.5
+		clergy_opinion = 5
+		monthly_dynasty_prestige_mult = 0.05
 	}
-	
 	county_modifier = {
 		tax_mult = 0.2
 		development_growth_factor = 0.2
@@ -1602,15 +1538,14 @@ ratnagiri_01 = {# Ratnagiri
 	cost_gold = 3000
 
 	character_modifier = {
-		build_gold_cost = -0.1
-		build_speed = -0.1
-		monthly_piety = 0.3
+		learning_per_prestige_level = 1
+		stewardship_per_prestige_level = 1
+		monthly_lifestyle_xp_gain_mult = 0.1
 	}
 	
 	county_modifier = {
-		tax_mult = 0.2
 		development_growth_factor = 0.2
-		development_growth = 0.2
+		development_growth = 0.1
 	}
 	
 	ai_value = {
@@ -1640,15 +1575,18 @@ amaravati_stupa_01 = {# Amaravati_Stupa
 	cost_gold = 3000
 
 	character_modifier = {
-		build_gold_cost = -0.1
-		build_speed = -0.1
-		monthly_piety = 0.3
-	}
-	
+		monthly_piety = 0.25
+		different_faith_opinion = 5
+		different_faith_county_opinion_mult = -0.15
+		monthly_county_control_change_factor = 0.05
+	}	
 	county_modifier = {
 		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.2
+		development_growth_factor = 0.1
+		development_growth = 0.1
+	}	
+	province_modifier = {
+		monthly_income = 2
 	}
 	
 	ai_value = {
@@ -1677,16 +1615,17 @@ mahamevnaw_01 = {# Mahamevnaw
 
 	cost_gold = 3000
 
-	character_modifier = {
-		build_gold_cost = -0.1
-		build_speed = -0.1
-		monthly_piety = 0.3
+	province_modifier = {
+		monthly_income = 1
 	}
-	
+
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.2
+		development_growth_factor = 0.15
+		county_opinion_add = 25
+	}
+	character_modifier = {
+		health = 0.25
+		monthly_prestige = 1
 	}
 	
 	ai_value = {
@@ -2289,9 +2228,7 @@ sharada_peeth_01 = {# Sharad Peeth in Kashmir
 
 	character_modifier = {
 		learning_per_prestige_level = 1
-		stewardship_per_prestige_level = 1
 		monthly_lifestyle_xp_gain_mult = 0.1
-		monthly_dynasty_prestige = 0.25
 	}
 	
 	county_modifier = {
@@ -2305,5 +2242,3 @@ sharada_peeth_01 = {# Sharad Peeth in Kashmir
 	
 	type = special
 }
-
-
