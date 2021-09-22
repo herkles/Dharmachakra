@@ -255,7 +255,7 @@ set_nat_effect = {# Burmese Deities
 	add_character_modifier = $NAT$
 }
 #######################################
-# Animal Sacrifices
+# Animal Sacrifices 
 #######################################
 dharma_vedic_devi_animal_sacrifice_effect = {
 	random_list = {

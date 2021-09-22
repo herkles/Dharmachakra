@@ -424,7 +424,7 @@ dharma_hinduism.013 = {# Sacrifice time
 		trigger = {
 			NOT = { faith = faith:shrautism	}
 		}
-		dharma_vedic_indra_goat_sacrifice_effect = yes
+		dharma_vedic_durga_animal_sacrifice_effect = yes
 	}	
 	option = {# Wealth God
 		name = dharma_hinduism.013.c
@@ -805,7 +805,7 @@ dharma_hinduism.305 = {# Cosmopolitan Experince
 		}
 		stress_impact = {
 			base = miniscule_stress_impact_loss
-			shy = minior_stress_impact_gain
+			shy = minor_stress_impact_gain
 		}
 	}
 
