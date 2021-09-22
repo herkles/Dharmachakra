@@ -1019,7 +1019,56 @@
  pilgrimage.5921.a:0 "$pilgrimage.4001.a$"
  pilgrimage.5921.b:0 "$pilgrimage.4001.b$"
 
- # Generic Pilgrimage Return Events
+
+
+
+# Visitation Events
+ pilgrimage.7001.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage - Stimulated to theological learning"
+ pilgrimage.7001.desc:0 "This place is invigorating to the mind. Being able to engage with so many great minds of religion and theology has stimulated my understanding and willingness to explore the finer points of the faith. Hours and even days are lost in conversation with Sadhus, Priests and Monks about the deeper meaning of various passages within the various scriptures and texts."
+ pilgrimage.7001.books:0 "The Holy Books will be my priority from now on."
+ pilgrimage.7001.meditation:0 "Enlightenment can only be achieved through Meditation."
+
+ pilgrimage.7002.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage - Strong religious experience"
+ pilgrimage.7002.desc:0 "Purification and Enlightenment have never before felt as tangible as in this place. Pilgrims are circumambulating shrines, sadhus are conveying their blessings upon the faithful and monks and gurus meditate together. I join those in worship that for thousands of years have attended this place and others like it. This is a profound experience unlike anything I have ever felt before."
+ pilgrimage.7002.strong:0 "I cannot wait to tell others about this!"
+
+ pilgrimage.7003.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage - Disappointed in the place"
+ pilgrimage.7003.desc:0 "Many pilgrims have stories of the experiences from their journeys and the great enlightenment or purification achieved in at the destination. I expected much more than I have found here. The place is certainly full of monks, sadhus, priests and holy men but neither circumambulation, meditation or cleansing has left me with anything but an empty feeling of doubt?"
+ pilgrimage.7003.cynic:0 "What is my purpose here?"
+
+ pilgrimage.7004.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage - Mastermind theologian impresses everyone"
+ pilgrimage.7004.desc:0 "Eager to engage other in discussion I rushed right ahead to the centers of learning. I can tell the ideas and thoughts I have had over the years have made an impression on others here. Even great minds, scholars and sadhus alike seem taken by my reasoning and my home-grown theological arguments."
+ pilgrimage.7004.theology:0 "It is but a small contribution to the knowledge of mankind."
+
+ pilgrimage.7005.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage - cosmopolitan experience"
+ pilgrimage.7005.desc:0 "There are people here from every corner of the world. Though we are united in reverence of this holy place their languages, clothes and even the people themselves seem exotic and different. Meeting and conversing with strangers is in itself an experience that will impact me more than the religious aspects of this pilgrimage itself."
+ pilgrimage.7005.talk:0 "I must talk to them all!"
+ pilgrimage.7005.shy:0 "I must observe and learn about the peoples of this world."
+
+ pilgrimage.7006.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage - impressed"
+ pilgrimage.7006.desc:0 "A pilgrimage can be undertaken for many reasons. For some it is a way to atone for past sins, for others a way to repay the universe for what they have. To many the pilgrimage is a great and rejuvenating journey. I feel convinced this is so, for my journey has left me invigorated in a way I have never experienced before."
+ pilgrimage.7006.impressed:0 "Perhaps the time has come to begin the journey home?"
+
+ pilgrimage.7007.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage - Pleasures of the Body"
+ pilgrimage.7007.desc:0 "Like me many others have come here to seek the spiritual experience of their life. To some this is draining but I find it to be quite invigorating. With the appetite of the mind sated perhaps it is time to enjoy myself?"
+ pilgrimage.7007.lust:0 "Yes, why not?"
+ pilgrimage.7007.no_lust:0 "I must exercise control of the body as well as the mind."
+
+ pilgrimage.7008.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage"
+ pilgrimage.7008.desc:0 "A holy place such as this has always attracted mystics, sadhus and yogis. Knowing that their blessings are said to have great power I could not help but seek out one who is said to have a way to heal the sick. I spent some time with this man and ate and drank a variety of things according to his instructions. For the most part it is hard to remember what happened but it appears I slept for several days before leaving him with a feeling of invigoration I have not felt for a long time."
+ pilgrimage.7008.divine_healer:0 "I have been healed by a higher power!"
+ pilgrimage.7008.healer:0 "This man was truly a great healer."
+ pilgrimage.7008.mystic:0 "I must learn more about this mystery!"
+
+ pilgrimage.7009.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage "
+ pilgrimage.7009.desc:0 "No one can explain why, but the affliction which has been tormenting me for these last few weeks seems to have left my body! All of the symptoms are gone and I feel as healthy as ever. By [Root.GetFaith.HighGodName], it is truly a miracle!"
+ pilgrimage.7009.monks:0 "I have been healed by a higher power!"
+
+ pilgrimage.7010.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] Pilgrimage - Enjoying one's self"
+ pilgrimage.7010.desc:0 "Enrichment of the spirit is all well and good but perhaps it is now time to see what the temporal world has to offer. Surely there is both food, good company and good drink to be had nearby? Now that I am here I must sate my appetite for the local delicacies."
+ pilgrimage.7010.drunk:0 "Let us see what this place truly has to offer..."
+ pilgrimage.7010.no_drunk:0 "I must strive to overcome the crass demands of flesh and bone."
+# Generic Pilgrimage Return Events
  pilgrimage.9001.t:0 "$pilgrimage_header$ The Return"
  pilgrimage.9001.desc:0 "My journey has been a long one, but I have finally come home again. While much remains the same, something has changed in how the [ROOT.Char.GetFaith.PriestNeuterPlural] and [ROOT.Char.GetFaith.BishopNeuterPlural] treat me.\n\nI have undergone the journey of a holy [ROOT.Char.GetWomanMan], and they insist it has changed something about me, whether I can see it myself or not."
  pilgrimage.9001.a:0 "It is good to be home."

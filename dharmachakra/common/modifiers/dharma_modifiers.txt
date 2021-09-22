@@ -102,7 +102,6 @@ buddhist_deity_vajrayogini = {# Vajrayogini
 	health = 0.25
 	diplomacy = 2
 }
-
 buddhist_deity_vasudhara = {# Vasudhara
 	icon = economy_positive
 	domain_tax_same_faith_mult = 0.1
@@ -544,4 +543,13 @@ dharma_vedic_saraswati_blessing_large = {
 	character_capital_county_monthly_development_growth_add = 0.6
 	monthly_piety = 0.5
 }
+##########################################
+# Other Modifiers 
+##########################################
+dharma_blessing_of_health = {
+	icon = health_positive
+	health = 0.5
+	stress_gain_mult = -0.33
+}
+
 

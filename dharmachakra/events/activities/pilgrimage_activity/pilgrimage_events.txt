@@ -5643,7 +5643,6 @@ pilgrimage.3217 = {# Stepwell
 		# Do not run the normal set_up_next_pilgrimage_event effect here, as it's run in the options.
 	}
 }
-
 pilgrimage.3218 = {# Seeing an elephant
  	type = character_event
 	title = pilgrimage.3218.t
@@ -5984,7 +5983,6 @@ pilgrimage.3301 = {# Critical Monk
 		set_up_next_pilgrimage_event_effect = { DAYS = 30 }
 	}
 }
-
 #######################################
 # Jain Journey Events 3401-3500
 #######################################
@@ -6338,7 +6336,7 @@ pilgrimage.5101 = {# Mount Sinai
 	}
 }
 #######################################
-# Jewish Holy Sites 
+# Muslim Holy Sites 
 #######################################
 pilgrimage.5201 = {# Medina
 	type = character_event
@@ -6412,7 +6410,7 @@ pilgrimage.5301 = {# Varanasi
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6449,7 +6447,7 @@ pilgrimage.5302 = {# Ayodhya
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6486,7 +6484,7 @@ pilgrimage.5303 = {# Mathura
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6523,7 +6521,7 @@ pilgrimage.5304 = {# Haridwar
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6560,7 +6558,7 @@ pilgrimage.5305 = {# Kanchipuram
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6597,7 +6595,7 @@ pilgrimage.5306 = {# Ujjayini
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6634,7 +6632,7 @@ pilgrimage.5307 = {# Dwarka
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6670,7 +6668,7 @@ pilgrimage.5308 = {# Puri
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6707,7 +6705,7 @@ pilgrimage.5309 = {# Badrinath
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6743,7 +6741,7 @@ pilgrimage.5310 = {# Rameswaram
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6780,7 +6778,7 @@ pilgrimage.5312 = {# Srirangam
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6817,7 +6815,7 @@ pilgrimage.5313 = {# Tirupati
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6854,7 +6852,7 @@ pilgrimage.5317 = {# Jyotisar
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6891,7 +6889,7 @@ pilgrimage.5318 = {# Katasraj
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6928,7 +6926,7 @@ pilgrimage.5319 = {# Prambanan
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -6965,7 +6963,7 @@ pilgrimage.5323 = {# Pura Besakih
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7002,7 +7000,7 @@ pilgrimage.5326 = {# Madurai
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7039,7 +7037,7 @@ pilgrimage.5328 = {# Srisailam
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7076,7 +7074,7 @@ pilgrimage.5331 = {# Somnath
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7113,7 +7111,7 @@ pilgrimage.5334 = {# Baidyanath
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7150,7 +7148,7 @@ pilgrimage.5336 = {# Mahalakshmi
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7187,7 +7185,7 @@ pilgrimage.5338 = {# Ucchi Pillayar
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7224,7 +7222,7 @@ pilgrimage.5344 = {# Mayureshwar
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7261,7 +7259,7 @@ pilgrimage.5346 = {# Girjatmaj
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7298,7 +7296,7 @@ pilgrimage.5347 = {# Multan
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7335,7 +7333,7 @@ pilgrimage.5349 = {# Konark
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7372,7 +7370,7 @@ pilgrimage.5352 = {# Dhandayuthapani
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7412,7 +7410,7 @@ pilgrimage.5401 = {# Bodh Gaya
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7449,7 +7447,7 @@ pilgrimage.5402 = {# Kushinagar
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7486,7 +7484,7 @@ pilgrimage.5403 = {# Sarnath
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7523,7 +7521,7 @@ pilgrimage.5404 = {# Vaishali
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7560,7 +7558,7 @@ pilgrimage.5405 = {# Sravasti
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7597,7 +7595,7 @@ pilgrimage.5406 = {# Sankassa
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7634,7 +7632,7 @@ pilgrimage.5407 = {# Atamasthana
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7671,7 +7669,7 @@ pilgrimage.5408 = {# Dagon
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7708,7 +7706,7 @@ pilgrimage.5409 = {# Pagan
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7745,7 +7743,7 @@ pilgrimage.5410 = {# Kyaikhtiyo
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7782,7 +7780,7 @@ pilgrimage.5411 = {# Borobudur
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7819,7 +7817,7 @@ pilgrimage.5413 = {# Dunhuang
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7856,7 +7854,7 @@ pilgrimage.5414 = {# Bamiyan
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7893,7 +7891,7 @@ pilgrimage.5424 = {# Lhasa
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7930,7 +7928,7 @@ pilgrimage.5429 = {# Namtso
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -7975,7 +7973,7 @@ pilgrimage.5501 = {# Palitana
 	}
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -8017,7 +8015,7 @@ pilgrimage.5502 = {# Shikharji
 	}
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -8060,7 +8058,7 @@ pilgrimage.5503 = {# Girnar
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -8104,7 +8102,7 @@ pilgrimage.5504 = {# Hastinapur
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -8147,7 +8145,7 @@ pilgrimage.5505 = {# Pawapuri
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -8190,7 +8188,7 @@ pilgrimage.5506 = {# Kanakagiri
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -8233,7 +8231,7 @@ pilgrimage.5507 = {# Sonagiri
 
 	after = {
 		trigger_event = {
-			on_action = pilgrimage_return_events
+			on_action = pilgrimage_destination_visit_events
 			days = 30
 		}
 	}
@@ -8396,6 +8394,773 @@ pilgrimage.5921 = {# Sacred Groves
 		name = pilgrimage.5921.b
 		trigger = { has_trait = cynical }
 		give_pilgrimage_reward_effect = yes
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+################################
+# Indian Visitation Events
+# 7001-7999
+################################
+pilgrimage.7001 = {# Stimulated to theological learning
+ 	type = character_event
+	title = pilgrimage.7001.t
+	desc = pilgrimage.7001.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# The study of [Root.Religion.GetScriptureName] will be my priority from now on.
+		name = pilgrimage.7001.books	
+		custom_tooltip = pilgrimage.7001.a.tt
+		random_list = {
+		if = {# Chance to become Zealous
+			limit = { NOT = { has_trait = zealous } }
+			random_list = {
+				30 = { add_trait = zealous }
+				70 = { }
+			}
+		}
+			20 = {	add_learning_lifestyle_xp = major_lifestyle_xp	}
+			60 = {	add_piety = major_piety_gain }
+		}
+		stress_impact = {
+			base = minor_stress_loss
+			calm = minor_stress_loss
+			patient = minor_stress_loss
+			impatient = medium_stress_gain
+		}
+	}
+	option = {# Enlightenment can only be achieved through Meditation.
+		name = pilgrimage.7001.meditation
+		add_piety = minor_piety_gain
+		random_list = {
+			10 = {	improve_meditation_skill = yes	}
+			90 = {	add_piety = minor_piety_gain }
+		}
+		stress_impact = {
+			zealous = minor_stress_gain
+			patient = minor_stress_gain
+		}
+	}
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7002 = {# Strong religious experience
+ 	type = character_event
+	title = pilgrimage.7002.t
+	desc = pilgrimage.7002.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# I cannot wait to tell others about this.
+		name = pilgrimage.7002.strong
+		add_piety = medium_piety_gain
+		if = {# Chance to become Zealous
+			limit = { NOT = { has_trait = zealous } }
+			random_list = {
+				30 = { add_trait = zealous }
+				70 = { }
+			}
+		}	
+		stress_impact = {
+			base = minor_stress_loss
+			theologian = medium_stress_loss
+			humble = medium_stress_loss
+			zealous = medium_stress_loss
+		}
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7003 = {# Disappointed in the place
+ 	type = character_event
+	title = pilgrimage.7003.t
+	desc = pilgrimage.7003.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# I must stay and learn what these people can teach me.
+		name = pilgrimage.7003.cynic
+		add_piety = miniscule_piety_loss
+		if = {
+			limit = { NOT = { has_trait = cynical } }
+			random_list = {
+				30 = { add_trait = cynical }
+				70 = { }
+			}
+		}
+		stress_impact = {
+			base = minor_stress_gain
+			theologian = medium_stress_gain
+			humble = medium_stress_gain
+			zealous = medium_stress_gain
+		}
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7004 = {# Mastermind theologian impresses everyone
+ 	type = character_event
+	title = pilgrimage.7004.t
+	desc = pilgrimage.7004.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		OR = {
+			has_trait = theologian
+			has_trait = scholar
+			has_trait = education_learning_4
+			has_trait = mystic_1
+			has_trait = mystic_2
+			has_trait = mystic_3
+		}
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# I must stay and learn what these people can teach me.
+		name = pilgrimage.7004.theology
+		add_piety = medium_piety_gain
+		add_prestige = medium_prestige_gain
+		stress_impact = {
+			base = medium_stress_loss
+		}
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7005 = {# Learns things of the big world - cosmopolitan experience
+ 	type = character_event
+	title = pilgrimage.7005.t
+	desc = pilgrimage.7005.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# I must talk to them all!
+		name = pilgrimage.7005.talk	
+		random_list = {
+			15 = { add_diplomacy_lifestyle_perk_points = 1	}
+			15 = { add_diplomacy_lifestyle_xp = major_lifestyle_xp	}
+			35 = { 
+				if = {
+					limit = { NOT = { has_trait = gregarious } }
+					add_trait = gregarious
+				}
+				else = { add_prestige = medium_prestige_gain }
+			}
+			35 = { 	add_diplomacy_skill = 1	}
+		}
+		stress_impact = {
+			gregarious = minor_stress_loss
+			diplomat = minor_stress_loss
+			reveler_1 = minor_stress_loss
+			reveler_2 = minor_stress_loss
+			reveler_3 = minor_stress_loss
+			shy = minor_stress_gain
+			paranoid = minor_stress_gain
+			reclusive = minor_stress_gain
+		}
+	}
+	option = {# I must observe and learn about the peoples of this world.
+		name = pilgrimage.7005.shy
+		random_list = {
+			15 = { add_intrigue_lifestyle_perk_points = 1	}
+			15 = { add_intrigue_lifestyle_xp = major_lifestyle_xp	}
+			35 = { 
+				if = {
+					limit = { NOT = { has_trait = shy } }
+					add_trait = shy
+				}
+				else = { add_prestige = medium_piety_gain }
+			}
+			35 = { 	add_intrigue_skill = 1	}
+		}
+		stress_impact = {
+			gregarious = minor_stress_gain
+			diplomat = minor_stress_gain
+			reveler_1 = minor_stress_gain
+			reveler_2 = minor_stress_gain
+			reveler_3 = minor_stress_gain
+			shy = minor_stress_loss
+			paranoid = minor_stress_loss
+			reclusive = minor_stress_loss
+		}
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7006 = {# Generally impressed
+ 	type = character_event
+	title = pilgrimage.7006.t
+	desc = pilgrimage.7006.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# I must stay and learn what these people can teach me.
+		name = pilgrimage.7006.impressed
+		add_piety = minor_piety_gain
+		stress_impact = {
+			base = minor_stress_loss
+		}
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7007 = {# Lustful character enjoys freedom far from home
+ 	type = character_event
+	title = pilgrimage.7007.t
+	desc = pilgrimage.7007.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# I must stay and learn what these people can teach me.
+		name = pilgrimage.7007.lust	
+		add_prestige = medium_piety_loss
+		if = {
+			limit = { has_trait = chaste }
+			random_list = {
+				30 = { remove_trait = chaste }
+				70 = { }
+			}
+		}
+		if = {
+			limit = { NOT = { has_trait = lustful } }
+			random_list = {
+				30 = { add_trait = lustful }
+				70 = { }
+			}
+		}
+		if = {
+			limit = { NOT = { has_trait = rakish } }
+			random_list = {
+				30 = { add_trait = rakish }
+				70 = { }
+			}
+		}
+		stress_impact = {
+			lustful = minor_stress_loss
+			rakish = minor_stress_loss
+			chaste = minor_stress_gain
+			just = minor_stress_gain
+		}
+	}
+	option = {# I don't have the Time.
+		name = pilgrimage.7007.no_lust
+		add_prestige = medium_piety_gain
+		if = {
+			limit = { has_trait = lustful }
+			random_list = {
+				30 = { remove_trait = lustful }
+				70 = { }
+			}
+		}
+		if = {
+			limit = { has_trait = rakish }
+			random_list = {
+				30 = { remove_trait = rakish }
+				70 = { }
+			}
+		}
+		if = {
+			limit = { NOT = { has_trait = chaste } }
+			random_list = {
+				30 = { add_trait = chaste }
+				70 = { }
+			}
+		}
+		stress_impact = {
+			lustful = minor_stress_gain
+			rakish = minor_stress_gain
+			chaste = minor_stress_loss
+			just = minor_stress_loss
+		}
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7008 = {# Curing pilgrim of disease - pilgrim attributes it to divine influence
+ 	type = character_event
+	title = pilgrimage.7008.t
+	desc = pilgrimage.7008.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# I have been healed by a higher power!
+		name = pilgrimage.7008.divine_healer	
+		if = {# No disease means healthy blessing
+			limit = { has_treatable_disease_trigger = no }
+			set_character_flag = pilgrim_blessing
+			add_character_modifier = {
+				name = dharma_blessing_of_health
+				years = 10
+			}
+		}
+		if = {# Wound Heals
+			limit = { has_trait = wounded }
+			remove_trait = wounded
+			add_trait = scarred
+		}
+		if = {# treatable disease recovers
+			limit = { has_treatable_disease_trigger = yes }
+			remove_disease_treatment_effect = yes
+		}		
+		if = {# Chance to become Zealous
+			limit = { NOT = { has_trait = zealous } }
+			random_list = {
+				30 = { add_trait = zealous }
+				70 = { }
+			}
+		}	
+		stress_impact = {
+			base = minor_stress_loss
+		}
+	}
+	option = {# This man was truly a great healer.
+		name = pilgrimage.7008.healer
+		if = {# No disease means healthy blessing
+			limit = { has_treatable_disease_trigger = no }
+			set_character_flag = pilgrim_blessing
+			add_character_modifier = {
+				name = dharma_blessing_of_health
+				years = 10
+			}
+		}
+		if = {# Wound Heals
+			limit = { has_trait = wounded }
+			remove_trait = wounded
+			add_trait = scarred
+		}
+		if = {# treatable disease recovers
+			limit = { has_treatable_disease_trigger = yes }
+			remove_disease_treatment_effect = yes
+		}
+		add_piety = medium_piety_gain
+		stress_impact = {
+			base = minor_stress_loss
+		}
+	}
+	option = {# I must learn more about this mystery!
+		name = pilgrimage.7008.mystic
+		if = {# No disease means healthy blessing
+			limit = { has_treatable_disease_trigger = no }
+			set_character_flag = pilgrim_blessing
+			add_character_modifier = {
+				name = dharma_blessing_of_health
+				years = 10
+			}
+		}
+		if = {# Wound Heals
+			limit = { has_trait = wounded }
+			remove_trait = wounded
+			add_trait = scarred
+		}
+		if = {# treatable disease recovers
+			limit = { has_treatable_disease_trigger = yes }
+			remove_disease_treatment_effect = yes
+		}
+		if = {# Chance to become Zealous
+			limit = { NOT = { has_trait = mystic_3 } }
+			random_list = {
+				30 = { 
+					change_trait_rank = {
+						trait = lifestyle_mystic
+						rank = 1
+					}
+				}
+				70 = { }
+			}
+		}
+		stress_impact = {
+			mystic_1 = minor_stress_loss
+			mystic_2 = minor_stress_loss
+			mystic_3 = minor_stress_loss
+			scholar = minor_stress_loss
+			theologian = minor_stress_loss
+			zealous = minor_stress_loss
+		}
+	}	
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7009 = {# Blessing of health cures disease after having visited the monks
+ 	type = character_event
+	title = pilgrimage.7009.t
+	desc = pilgrimage.7009.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# I must stay and learn what these people can teach me.
+		name = pilgrimage.7009.monks
+		if = {# treatable disease recovers
+			limit = { has_treatable_disease_trigger = yes }
+			remove_disease_treatment_effect = yes
+		}
+		if = {# Chance to remove Cynic Zealous
+			limit = { NOT = { has_trait = cynical } }
+			random_list = {
+				30 = { remove_trait = cynical }
+				70 = { }
+			}
+		}	
+		stress_impact = {
+			base = minor_stress_loss
+			zealous = medium_stress_loss
+			humble = medium_stress_loss
+		}
+	}
+
+	after = {
+		trigger_event = {
+			on_action = pilgrimage_return_events
+			days = 30
+		}
+	}
+}
+pilgrimage.7010 = {# Drunkard/hedonist at holy site
+ 	type = character_event
+	title = pilgrimage.7010.t
+	desc = pilgrimage.7010.desc
+	theme = pilgrimage_activity
+	override_icon = {
+		reference = "gfx/interface/event_window/type_faith.dds"
+	}
+	left_portrait = root
+
+	trigger = {
+		exists = scope:activity
+		NOT = {
+			exists = scope:activity.var:had_pilgrimage_3206
+		}
+		OR = {
+			religion = religion:hinduism_religion
+			religion = religion:buddhism_religion
+			religion = religion:jainism_religion
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = {
+				name = had_pilgrimage_3206
+				value = yes
+			}
+		}
+	}
+
+	option = {# Let us see what this place truly has to offer.
+		name = pilgrimage.7010.drunk
+		if = {
+			limit = { NOT = { has_trait = drunkard } }
+			random_list = {
+				30 = { add_trait = drunkard }
+				70 = { }
+			}
+		}
+		if = {
+			limit = { NOT = { has_trait = reveler_3 } }
+			random_list = {
+				30 = { 
+					change_trait_rank = {
+						trait = lifestyle_reveler
+						rank = 1
+					}
+				}
+				70 = { }
+			}
+		}
+		if = {
+			limit = { has_trait = temperate }
+			random_list = {
+				30 = { remove_trait = temperate }
+				70 = { }
+			}
+		}
+		add_piety = medium_piety_loss
+		stress_impact = {
+			base = minor_stress_loss
+			drunkard = medium_stress_loss
+			reveler_1 = medium_stress_loss
+			reveler_2 = medium_stress_loss
+			reveler_3 = medium_stress_loss
+			temperate = minor_stress_gain
+			zealous = minor_stress_gain
+		}
+	}
+	option = {# I must strive to overcome the crass demands of flesh and bone
+		name = pilgrimage.7010.no_drunk
+		if = {
+			limit = { NOT = { has_trait = temperate } }
+			random_list = {
+				30 = { add_trait = temperate }
+				70 = { }
+			}
+		}
+		add_piety = medium_piety_gain
+		stress_impact = {
+			base = minor_stress_gain
+			drunkard = medium_stress_gain
+			reveler_1 = medium_stress_gain
+			reveler_2 = medium_stress_gain
+			reveler_3 = medium_stress_gain
+			temperate = minor_stress_loss
+			zealous = minor_stress_loss
+		}
 	}
 
 	after = {

@@ -1490,3 +1490,25 @@ dharma_set_up_next_buddhist_retreat_event_effect = {# Visiting Nalanda
 		}
 	}
 }
+#######################################
+# General Effects
+#######################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
