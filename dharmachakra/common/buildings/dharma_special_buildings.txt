@@ -80,7 +80,7 @@ multan_sun_temple_02 = {# Multan rebuilt Temple
 ellora_caves_01 = {# Ellora Caves
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_ellora_caves.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -123,7 +123,7 @@ ellora_caves_01 = {# Ellora Caves
 ajanta_caves_01 = {# Ajanta Caves
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_ajanta_caves.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -325,7 +325,7 @@ konark_sun_temple_01 = {# Konark Sun Temple
 ramanathaswamy_temple_01 = {# Ramanathaswamy Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_brihadeeswarar_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -361,7 +361,7 @@ ramanathaswamy_temple_01 = {# Ramanathaswamy Temple
 madurai_temple_01 = {# Madurai Temples
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_brihadeeswarar_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -405,7 +405,7 @@ madurai_temple_01 = {# Madurai Temples
 arulmigu_solaimalai_temple_01 = {# Arulmigu Solaimalai Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_brihadeeswarar_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -441,7 +441,7 @@ arulmigu_solaimalai_temple_01 = {# Arulmigu Solaimalai Temple
 subramaniya_swamy_temple_01 = {# Subramaniya Swamy Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_brihadeeswarar_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -481,7 +481,7 @@ subramaniya_swamy_temple_01 = {# Subramaniya Swamy Temple
 dhandayuthapani_temple_01 = {# Dhandayuthapani Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_brihadeeswarar_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -521,7 +521,7 @@ dhandayuthapani_temple_01 = {# Dhandayuthapani Temple
 kailasanathar_temple_01 = {# Kailasanathar Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_brihadeeswarar_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -560,7 +560,7 @@ kailasanathar_temple_01 = {# Kailasanathar Temple
 venkateswara_temple_01 = {# Venkateswara Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_brihadeeswarar_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -995,7 +995,7 @@ kedarnath_temple_01 = {# Kedarnath Temple
 varanasi_temples_01 = {# Varanasi Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_mahabodhi_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1039,7 +1039,7 @@ varanasi_temples_01 = {# Varanasi Temple
 jagannath_temple_01 = {# Jagannath_Temple Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_mahabodhi_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1084,7 +1084,7 @@ jagannath_temple_01 = {# Jagannath_Temple Temple
 kamakhya_temple_01 = {# Kamakhya Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_mahabodhi_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1210,7 +1210,7 @@ somnath_temple_temple_01 = {# Somnath temple Temple
 sanchi_01 = {# Sanchi
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_sanchi_stupa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1397,7 +1397,6 @@ pabonka_hermitage_01 = {# Pabonka Hermitage
 	
 	type = special
 }
-
 maya_devi_temple_01 = {# Maya Devi Temple
 	construction_time = very_slow_construction_time
 
@@ -2070,7 +2069,7 @@ potala_palace_01 = {# Potala Palace
 		base = 100
 	}
 	
-	next_building = siro_b_potala_palace_02
+	next_building = potala_palace_02
 	
 	type = special
 }
@@ -2081,7 +2080,7 @@ potala_palace_02 = {# Potala Palace
 
 	can_construct_showing_failures_only = {
 		custom_description = {
-			text = siro_text_development_level
+			text = dharma_text_development_level
 			value = 60
 			county.development_level >= 60
 		}
@@ -2111,46 +2110,6 @@ potala_palace_02 = {# Potala Palace
 		fort_level = 5
 	}
 	
-	ai_value = {
-		base = 100
-	}
-	
-	type = special
-}
-sigiriya_01 = {# Sigirya
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_siro_sigiriya.dds"
-
-	is_enabled = {
-		custom_description = {
-			text = siro_local_sigiriya_trigger
-			scope:holder = {
-				OR = {
-					has_government = theocracy_government
-					has_trait = kinslayer_1
-					has_trait = kinslayer_2
-					has_trait = kinslayer_3
-					has_trait = reclusive
-					has_trait = paranoid
-				}
-			}
-		}
-	}
-	
-	cost_gold = 3000
-
-	character_modifier = {
-		diplomacy = -15
-		intrigue = 15
-	}
-
-	province_modifier = {
-		defender_holding_advantage = 15
-		fort_level = 15
-		hostile_raid_time = 5
-	}
-
 	ai_value = {
 		base = 100
 	}

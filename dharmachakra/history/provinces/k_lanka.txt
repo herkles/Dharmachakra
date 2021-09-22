@@ -39,8 +39,6 @@
 	# Misc
 	culture = sinhala
 	religion = theravada
-	special_building_slot = sigiriya_01
-	special_building = sigiriya_01
 	# History
 }
 3282 = {# 1215 - Dhamballi
