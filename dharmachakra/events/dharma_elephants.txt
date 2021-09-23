@@ -5,12 +5,7 @@
 ###########################################
 
 scripted_trigger in_india_trigger = {
-	tier = tier_county
-	capital_province = {
-		OR = {
-			geographical_region = world_india
-		}
-	}
+	root.capital_province = { geographical_region = world_india }
 }
 
 
