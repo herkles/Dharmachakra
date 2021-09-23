@@ -8,22 +8,11 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- various bug fixes
-- Mahayana and Vajarayana Buddhists can now devote themselves to a Buddha or Boddhisattva
-- Jains can now celebrate the the Paryushana and Mahamastakabhisheka festivals
-- the Gommateshwara Statue can now be built
-- Rajasthanis can worship Devnarayan and Marathi can worship Khandoba
-- Followers of either Kalikula Shaktism or Shrautism can now do animal sacrifices.
-- Jain rulers who are zealous can choose to abdicate and become a monk
-- Revised Jain holy sites
-- Jain unique destinations at their holy sites
-- various jain flavor events
-- updated the starting stats and traits of Mihira Bohj, Narayanapala, and Amoghavarsha
-- Manyakheta is now properly the capital of the Rashtrakutas.
-- Jains no longer hunt
-- Jains have a revised sin and virtue traits
-- Jains and Buddhists can now take lord of the Sacred River
-- Jains get a different doctrine when becoming the Chakravatin
+- Revised and expanded the Buddhist Retreat event decision
+- Decision to visit Nalanda and Sharada Peeth
+- New Holy Sites for Hindu, Buddhist, Sanamhism, Bauthouism, Tani, Kirati, and Bon faiths
+- New Special buildings for many of the holy Sites
+- Pilgrimage events have been updated for the new holy sites.
 
 ## Manual Installation Steps
 

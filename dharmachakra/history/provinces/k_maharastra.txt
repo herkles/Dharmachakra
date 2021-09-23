@@ -736,8 +736,10 @@
 	culture = kannada
 	religion = digambara
 	special_building_slot = vithoba_temple_01
-	special_building = vithoba_temple_01	
 	# History
+	1152.1.1 = {
+		special_building = vithoba_temple_01	
+	}
 }
 
 # 7882 - Karhada

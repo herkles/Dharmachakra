@@ -1739,7 +1739,7 @@ girnar_jain_temples_01 = {# Girnar Jain
 		tax_mult = 0.05
 	}
 	
-	next_building = multan_sun_temple_02
+	next_building = girnar_jain_temples_02
 	
 	ai_value = {
 		base = 100
