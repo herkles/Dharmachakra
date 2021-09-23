@@ -418,7 +418,10 @@ dharma_buddhism.102 = {# Back to basics
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -467,7 +470,10 @@ dharma_buddhism.103 = {# monastic food
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -525,7 +531,10 @@ dharma_buddhism.104 = {# Meditate with eyes shut
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -573,7 +582,10 @@ dharma_buddhism.105 = {# Uncomfortable robes!
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -623,7 +635,10 @@ dharma_buddhism.106 = {# Numb legs
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -671,7 +686,10 @@ dharma_buddhism.107 = {# An exam
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -716,7 +734,10 @@ dharma_buddhism.108 = {# The Nature of Emptiness
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -761,7 +782,10 @@ dharma_buddhism.109 = {# Master's Wisdom
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -830,7 +854,10 @@ dharma_buddhism.110 = {# Distract self or not?
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -887,7 +914,10 @@ dharma_buddhism.111 = {# Whack!
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -936,7 +966,10 @@ dharma_buddhism.112 = {# Energized!
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -983,7 +1016,10 @@ dharma_buddhism.113 = {# Going outside
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1030,7 +1066,10 @@ dharma_buddhism.114 = {# Questions and Answers
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1077,10 +1116,12 @@ dharma_buddhism.115 = {# Heightened Senses
 				value = yes
 			}
 		}
-		
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1128,7 +1169,10 @@ dharma_buddhism.116 = {# Dealing with Boredom
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1194,7 +1238,10 @@ dharma_buddhism.117 = {# Dealing with no pleasure
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1256,7 +1303,10 @@ dharma_buddhism.118 = {# Doing Chores
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1316,7 +1366,10 @@ dharma_buddhism.119 = {# Questions and Answers
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1362,10 +1415,12 @@ dharma_buddhism.120 = {# Meditating by myself
 				value = yes
 			}
 		}
-		
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1416,7 +1471,10 @@ dharma_buddhism.121 = {# Gardening
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1496,7 +1554,10 @@ dharma_buddhism.122 = {# Chant names of Buddhas and Bodhisattvas
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1544,7 +1605,10 @@ dharma_buddhism.123 = {# Buddhist Mantras
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1592,7 +1656,10 @@ dharma_buddhism.124 = {# Walking Meditation
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1640,7 +1707,10 @@ dharma_buddhism.125 = {# Buddha visualization
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1688,7 +1758,10 @@ dharma_buddhism.126 = {# Calmness and self-control
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1757,7 +1830,10 @@ dharma_buddhism.127 = {# Meditating on Food
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1805,7 +1881,10 @@ dharma_buddhism.128 = {# An insect
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1869,7 +1948,10 @@ dharma_buddhism.129 = {# Lotus Position
 		}
 		random_list = {
 			15 = {
-				# dharma_buddhist_retreat_outcome_effect = yes
+				change_variable = {
+					name = dharma_buddhist_retreat_outcome_counter
+					add = 1
+				}
 			}
 			85 = {# Rare to improve your chances
 
@@ -1902,11 +1984,29 @@ dharma_buddhism.130 = {# Departing the Monastary for home
 	left_portrait = root
 
 	immediate = {
-		random_list = {
-			20 = {	add_character_flag = buddhist_retreat_better_person }
-			10 = {	add_character_flag = buddhist_retreat_mystic }
-			30 = {	add_character_flag = buddhist_retreat_pious }
-			50 = { }
+		if = {
+			limit = {
+				var:dharma_buddhist_retreat_outcome_counter = {
+					compare_value <= 9
+				}
+			}
+			add_character_flag = buddhist_retreat_mystic
+		}
+		else_if = {
+			limit = {
+				var:dharma_buddhist_retreat_outcome_counter = {
+					compare_value <= 6
+				}
+			}
+			add_character_flag = buddhist_retreat_better_person
+		}
+		else_if = {
+			limit = {
+				var:dharma_buddhist_retreat_outcome_counter = {
+					compare_value <= 3
+				}
+			}
+			add_character_flag = buddhist_retreat_pious
 		}
 	}	
 

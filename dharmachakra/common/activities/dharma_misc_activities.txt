@@ -116,10 +116,10 @@ activity_dharma_buddhist_retreat = {# Buddhist Retreats
 			value = 0
 		}
 
-		# set_variable = {
-		# 	name = dharma_buddhist_retreat_outcome_counter
-		# 	value = 0
-		# }
+		set_variable = {
+			name = dharma_buddhist_retreat_outcome_counter
+			value = 0
+		}
 	}
 	on_activate = {
 		activity_owner = {
