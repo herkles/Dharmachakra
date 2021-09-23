@@ -379,9 +379,41 @@ dharma_buddhism.101 = {# Arriving at the Monastary
 		character = root
 		animation = personality_rational
 	}
+
+	option = {# Twelve Month Retreat
+		name = dharma_buddhism.101.twelve
+		hidden_effect = {
+			scope:activity = {
+				set_variable = {
+					name = dharma_buddhist_retreate_length_value
+					value = long_buddhist_retreat_var
+				}
+			}
+		}
+	}
 	option = {# Six Month Retreat
 		name = dharma_buddhism.101.six
+		hidden_effect = {
+			scope:activity = {
+				set_variable = {
+					name = dharma_buddhist_retreate_length_value
+					value = medium_buddhist_retreat_var
+				}
+			}
+		}
 	}
+	option = {# Three Month Retreat
+		name = dharma_buddhism.101.three
+		hidden_effect = {
+			scope:activity = {
+				set_variable = {
+					name = dharma_buddhist_retreate_length_value
+					value = short_buddhist_retreat_var
+				}
+			}
+		}
+	}
+
 	after = {
 		dharma_set_up_next_buddhist_retreat_event_effect = { DAYS = 30 }
 	}

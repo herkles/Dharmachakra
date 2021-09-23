@@ -1459,7 +1459,7 @@ dharma_set_up_next_buddhist_retreat_event_effect = {# Visiting Nalanda
 		if = {
 			limit = {
 				scope:activity.var:dharma_buddhist_retreat_event_counter = {
-					compare_value <= 7
+					compare_value <= scope:activity.var:dharma_buddhist_retreate_length_value 
 				}
 			}
 			trigger_event = {

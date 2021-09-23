@@ -8,9 +8,9 @@ dharma_learning_visit_cooldown_time = 4382
 #####################################
 # Buddhist Retreat
 #####################################
-long_buddhist_retreat_var = 12
-medium_buddhist_retreat_var = 6
-short_buddhist_retreat_var = 3
+long_buddhist_retreat_var = 13
+medium_buddhist_retreat_var = 7
+short_buddhist_retreat_var = 4
 
 
 
