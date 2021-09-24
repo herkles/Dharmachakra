@@ -934,3 +934,67 @@ dharma_attend_mahavir_kalyanak_festival = {# Jain  Mahavir Janma Kalyanak festiv
 		base = 50
 	}
 }
+#######################################
+# Cultural Festival Decisions
+#######################################
+dharma_attend_losar_festival = {# Attend Tibetan New Year Losar
+	picture = "gfx/interface/illustrations/decisions/dharma_losar_festival.dds" 
+	ai_check_interval = 24
+	cooldown = { days = 1095 } # It is an annual festival but let this only happen every couple of years
+	desc = dharma_attend_losar_festival_desc
+
+	
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		custom_description = {
+			text = dharma_decision_losar_culture_requirement
+			OR = {
+				has_culture = culture:bodpa
+				has_culture = culture:zhangzhung
+				has_culture = culture:sumpa
+				has_culture = culture:tsangpa
+			}
+		}
+	}
+	
+	is_valid = {
+		custom_description = {
+			text = dharma_decision_losar_month_requirement
+			current_month >= 2
+			current_month <= 3
+		}
+		custom_description = {
+			text = dharma_decision_losar_culture_requirement
+			OR = {
+				has_culture = culture:bodpa
+				has_culture = culture:zhangzhung
+				has_culture = culture:sumpa
+				has_culture = culture:tsangpa
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = dharma_attend_losar_festival_effect_tooltip
+		trigger_event = { id = dharma_festivals.400 }
+	}
+
+	cost = { 
+		gold = { value = medium_gold_value } # need the gold to celebrate the festivities
+	}	
+
+	ai_potential = {
+		short_term_gold > medium_gold_value
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+

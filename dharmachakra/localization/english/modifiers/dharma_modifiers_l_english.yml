@@ -255,7 +255,16 @@ bhakti_hinduism_devnarayan_desc:0 "This character's bhakti is for Devnarayan, Ma
 ###############################################################
 # General Modifiers
 ###############################################################
-dharma_blessing_of_health:0 "Blessing of Health"
-dharma_blessing_of_health_desc:0 "This character believes that they have recieved a health blessing."
+  dharma_blessing_of_health:0 "Blessing of Health"
+  dharma_blessing_of_health_desc:0 "This character believes that they have recieved a health blessing."
+###############################################################
+# Festival Modifiers
+###############################################################
+  dharma_festival_losar_large_gift_modifier:0 "Losar Gift to the commons"
+  dharma_festival_losar_large_gift_modifier_desc:0 "The commoners have recently been granted grand gifts as part of the Losar Celebration."
 
+  dharma_festival_losar_medium_gift_modifier:0 "Losar Gift to the commons"
+  dharma_festival_losar_medium_gift_modifier_desc:0 "The commoners have recently been granted Large gifts as part of the Losar Celebration."
 
+  dharma_festival_losar_small_gift_modifier:0 "Losar Gift to the commons"
+  dharma_festival_losar_small_gift_modifier_desc:0 "The commoners have recently been granted gifts as part of the Losar Celebration."

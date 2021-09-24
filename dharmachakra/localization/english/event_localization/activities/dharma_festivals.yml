@@ -1,0 +1,45 @@
+﻿l_english:
+
+# Tibetan Festivals
+  # Losar
+    dharma_festivals.400.t:0 "Begin the Preparations for Losar?"
+    dharma_festivals.400.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
+    dharma_festivals.400.losar:0 "Lets begin the Preprations"
+    dharma_festivals.400.no_losar:0 "I have better things to do..."
+    activity_dharma_losar_festival:0 "Losar Festival"
+    activity_dharma_losar_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Losar Festival."
+
+    dharma_festivals.401.t:0 "Losar Begins!"
+    dharma_festivals.401.desc:0 "Your servants have informed everyone that the new year festival is now underway. People both great and small are cleaning out their homes, and servants have begun to make guthok and other food. "
+    dharma_festivals.401.addf:0 "Kra Shis Bde Legs Phun Sum Tshogs"
+
+    dharma_festivals.402.t:0 "Lama Losar"
+    dharma_festivals.402.desc:0 "The first day of Losar is Lama Losar, where people pay homage to their gurus and spiritual leaders and visit the monastaries. As I visit the monastary, I can see some peasants making offerings at their household shrines for good harvests in the new year."
+    dharma_festivals.402.guru:0 "Tashi Delek"
+
+    dharma_festivals.403.t:0 "King Losar"
+    dharma_festivals.403.desc:0 "The second day of Losar is King Losar. Here your servants and courtiers pay homage to you and give gifts to you. As you sit in your palace, you recieve numerous guests who have come to offer to you. Some of them have even given gifts to you."
+    dharma_festivals.403.king:0 "Losar Bey Tashi Delek"
+
+    dharma_festivals.404.t:0 "Gifts for the common people"
+    dharma_festivals.404.desc:0 "It is not just the king who recieves a gift on the second day. It is also customary for you to give gifts to the common people to demonstrate your benevolance and genorsity and show how great you are. "
+    dharma_festivals.404.large:0 "A grand gift for the people"
+    dharma_festivals.404.medium:0 "A large gift for the people"
+    dharma_festivals.404.small:0 "A small gift for the people"
+
+    dharma_festivals.405.t:0 "Choe-Kyong Losar"
+    dharma_festivals.405.desc:0 "The third day of Losar is Choe-Kyong Losar, where people go to the Monastaries and temples to offer prayers to [ROOT.Char.GetFaith.HighGodName], [ROOT.Char.GetFaith.random_GoodGodNames], [ROOT.Char.GetFaith.random_GoodGodNames], and other Deities. While people put up prayer flags around the palace and monastaries. Incense is burned to bring prosparity in the new year."
+    dharma_festivals.405.prayers:0 "Tashi Delek!"
+
+    dharma_festivals.406.t:0 "The Dances and Plays"
+    dharma_festivals.406.desc:0 "After the prayers and religious services at the monastary and temples comes the dances and plays. Here people dressed in elaborate masks and costumes dance and tell stories."
+    dharma_festivals.406.dance:0 "What a show"
+
+    dharma_festivals.407.t:0 "Feast with the Family and court"
+    dharma_festivals.407.desc:0 "Following the dances at the monastary, it is tradition to have a feast with the family and court. The servants come and serve you Guthuk, serving chang beer, and plenty of delicacies. "
+    dharma_festivals.407.feast:0 "Prosperity and good Fortune!"
+
+    dharma_festivals.408.t:0 "Losar concludes"
+    dharma_festivals.408.desc:0 "The festivites of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end. "
+    dharma_festivals.408.home:0 "The festivities are now concluded."
+

@@ -551,5 +551,19 @@ dharma_blessing_of_health = {
 	health = 0.5
 	stress_gain_mult = -0.33
 }
-
+##########################################
+# Festival Modifiers 
+##########################################
+dharma_festival_losar_large_gift_modifier = {
+	icon = county_modifier_opinion_positive
+	county_opinion_add = 50
+}
+dharma_festival_losar_medium_gift_modifier = {
+	icon = county_modifier_opinion_positive
+	county_opinion_add = 25
+}
+dharma_festival_losar_small_gift_modifier = {
+	icon = county_modifier_opinion_positive
+	county_opinion_add = 10
+}
 

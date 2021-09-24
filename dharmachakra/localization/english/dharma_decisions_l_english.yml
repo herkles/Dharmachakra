@@ -94,4 +94,27 @@ dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
  dharma_rebuild_grand_trunk_road_desc:0 "The ancient Grand Trunk Road, also known Uttarapatha, was built by the ancient Mauryan empire. By now though very little remains of that once vital road in the north of India. However a ruler with the money and vision could rebuild such ancient road. "
  dharma_grand_trunk_road_tooltip:0 "You will start constructing the Grand Trunk Road. Your advisors tell you it will not come cheap."
   buddhist_retreat_decision_confirm:0 "Let us rebuild the Road!"
+#######################################
+# Festival Decisions
+#######################################
+  # Losar Festival
+    dharma_attend_losar_festival:0 "Celebrate Losar"
+    dharma_attend_losar_festival_desc:0 "Losar is the new year celebration in the Tibetan Calendar. It is one of the most popular celebrations of the Tibetan people."
+    dharma_attend_losar_festival_effect_tooltip:0 "You will begin to make preparations for Losar"
+    dharma_attend_losar_festival_confirm:0 "Let us welcome in the New Year"
+    dharma_decision_losar_culture_requirement:0 "You are part of a Tibetan Culture that celebrates Losar."
+    dharma_decision_losar_month_requirement:0 "Losar takes place around Feburary or March in the Gregorian Calendar."
+
+
+
+
+
+
+
+
+
+
+
+
+
 

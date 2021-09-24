@@ -1,0 +1,484 @@
+﻿namespace = dharma_festivals
+
+#######################################
+#									  #
+#         Hindu Festivals		      #
+#									  #
+#######################################
+
+#######################################
+# Diwali
+#######################################
+
+#######################################
+# Holi
+#######################################
+
+#######################################
+# Janmashtami
+#######################################
+
+#######################################
+# Navaratri
+#######################################
+
+#######################################
+#									  #
+#         Buddhist Festivals		  #
+#									  #
+#######################################
+
+#######################################
+# Vesak
+#######################################
+
+#######################################
+# Buddha Jayanti
+#######################################
+
+#######################################
+#									  #
+#         Tibetan Festivals		      #
+#									  #
+#######################################
+
+#######################################
+# Losar
+#######################################
+dharma_festivals.400 = {# Prepare for the Losar Festival
+	type = character_event
+	title = dharma_festivals.400.t
+	desc = dharma_festivals.400.desc
+	theme = friendly
+	
+	left_portrait = root
+	
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		# Stop characters from planning multiple activities at once.
+		add_character_flag = planning_an_activity
+	}
+	
+	option = {# Time to begin the preparations 
+		name = dharma_festivals.400.losar
+		scope:capital_province = {	
+			spawn_activity = {
+				owner = root
+				type = activity_dharma_losar_festival
+			}	
+		}
+	}
+	option = {# I have better things to do right now
+		name = dharma_festivals.400.no_losar
+		remove_character_flag = planning_an_activity
+	}
+}
+# Starting Losar!
+dharma_festivals.401 = {# Losar Starts
+	type = character_event
+	title = dharma_jainism.401.t
+	desc = dharma_jainism.401.desc
+	theme = dharma_tibet_temple_exterior
+	
+	right_portrait = root
+	
+	option = { # Cleaning the palace
+		name = dharma_festivals.401.clean
+		add_piety = 10
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+		}
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.402
+			days = 1
+		}
+	}
+
+}
+# Main Losar Events - The first three days
+dharma_festivals.402 = {# Lama Losar
+	type = character_event
+	title = dharma_festivals.402.t
+	desc = dharma_festivals.402.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Pay Homage to your guru
+		name = dharma_festivals.402.guru
+		add_piety = minor_piety_gain
+		if = {
+			limit = { exists = cp:councillor_court_chaplain }
+			cp:councillor_court_chaplain = {
+				add_opinion = {
+					target = root
+					modifier = pious_opinion
+					opinion = 30
+				}
+			}
+		}
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.403
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.403 = {# King Losaar 
+	type = character_event
+	title = dharma_festivals.403.t
+	desc = dharma_festivals.403.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# It is their due. 
+		name = dharma_festivals.403.king
+		add_gold = medium_gold_value
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			greedy = minor_stress_impact_loss
+			generous = miniscule_stress_impact_gain
+			shy = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.404
+			days = 1
+		}
+	}
+}
+dharma_festivals.404 = {# Give Gift to the common people 
+	type = character_event
+	title = dharma_festivals.404.t
+	desc = dharma_festivals.404.desc
+	theme = dharma_tibet_temple_exterior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_festivals.404.large
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_losar_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_festivals.404.medium
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_losar_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_festivals.404.small
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_losar_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.405
+			days = 1
+		}
+	}
+}
+dharma_festivals.405 = {# Choe-Kyong Losar 
+	type = character_event
+	title = dharma_festivals.405.t
+	desc = dharma_festivals.405.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Offer to the Meditional Deities and Boddhisattvas 
+		name = dharma_festivals.405.prayers
+		add_piety = minor_piety_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.406
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.406 = {# Tibetan Dances 
+	type = character_event
+	title = dharma_festivals.406.t
+	desc = dharma_festivals.406.desc
+	theme = dharma_tibet_temple_exterior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# What a wonderful Story 
+		name = dharma_festivals.406.dance
+		add_prestige = minor_prestige_gain
+		stress_impact = {
+			base = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.407
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.407 = {# feast with the court 
+	type = character_event
+	title = dharma_festivals.407.t
+	desc = dharma_festivals.407.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# It is their due. 
+		name = dharma_festivals.407.feast
+		add_prestige = minor_prestige_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			family_first = miniscule_stress_impact_loss
+			gluttonous = miniscule_stress_impact_loss
+			drunkard = miniscule_stress_impact_loss
+			comfort_eater = miniscule_stress_impact_loss
+
+			shy = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+			inappetetic = miniscule_stress_impact_gain
+			shy = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.408
+			days = 1
+		}
+	}
+
+}
+# End of Losar
+dharma_festivals.408 = {# Losar concludes
+	type = character_event
+	title = dharma_festivals.408.t
+	desc = dharma_festivals.408.desc
+	theme = throne
+	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.408.home
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.409
+			days = 1	
+		}
+	}
+}
+dharma_festivals.409 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		scope:activity = {
+			complete_activity = yes
+		}
+	}
+}
+#######################################
+# Saka Dawa
+#######################################
+
+#######################################
+#									  #
+#         Burmese Festivals		      #
+#									  #
+#######################################
+
+#######################################
+# Thingyan
+#######################################
+
+#######################################
+# Tazaungdaing
+#######################################
+
+#######################################
+#									  #
+#         Nepalese Festivals		  #
+#									  #
+#######################################
+
+#######################################
+# Dashain
+#######################################
+
+#######################################
+#									  #
+#         Tamili Festivals		      #
+#									  #
+#######################################
+
+#######################################
+# Pongal
+#######################################
+
+#######################################
+# Puthandu
+#######################################
+
+#######################################
+# Thaipusam
+#######################################
+
+#######################################
+#									  #
+#         Sinhalese Festivals		  #
+#									  #
+#######################################
+
+#######################################
+# Aluth Avurudda
+#######################################
+
+#######################################
+#									  #
+#      Kannada/Telugu Festivals	      #
+#									  #
+#######################################
+
+#######################################
+# Ugadi
+#######################################
+
+#######################################
+#									  #
+#         Orissa Festivals		      #
+#									  #
+#######################################
+
+#######################################
+# Ratha Yatra
+#######################################
+
+#######################################
+#									  #
+#         Marathi Festivals		      #
+#									  #
+#######################################
+
+#######################################
+# Gudi Padwa
+#######################################
+
+#######################################
+#									  #
+#       Rajasthani Festivals		  #
+#									  #
+#######################################
+
+#######################################
+# Gangaur
+#######################################
+
+#######################################
+#									  #
+#          Bihari Festivals		      #
+#									  #
+#######################################
+
+#######################################
+# Chhath
+#######################################
+
+#######################################
+#									  #
+#         Bengali Festivals		      #
+#									  #
+#######################################
+
+#######################################
+# Pahela Baishakh
+#######################################
+
