@@ -268,3 +268,11 @@ bhakti_hinduism_devnarayan_desc:0 "This character's bhakti is for Devnarayan, Ma
 
   dharma_festival_losar_small_gift_modifier:0 "Losar Gift to the commons"
   dharma_festival_losar_small_gift_modifier_desc:0 "The commoners have recently been granted gifts as part of the Losar Celebration."
+
+  dharma_festival_pongal_patronized_sugarcane_market_modifier:0 "Patronized Sugarcane Market"
+  dharma_festival_pongal_patronized_sugarcane_market_modifier_desc:0 "The ruler of this province has patronized the local Sugarcane market during Pongal."
+
+  dharma_festival_pongal_sugarcane_market_modifier:0 "Sugarcane Market"
+  dharma_festival_pongal_sugarcane_market_modifier_desc:0 "The sugarcane market during Pongal attracts people and to this province."
+
+

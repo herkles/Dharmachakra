@@ -42,4 +42,64 @@
     dharma_festivals.408.t:0 "Losar concludes"
     dharma_festivals.408.desc:0 "The festivites of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end. "
     dharma_festivals.408.home:0 "The festivities are now concluded."
+# Tamil Festivals
+  # Pongal
+    dharma_festivals.425.t:0 "Begin the Preparations for Pongal?"
+    dharma_festivals.425.desc:0 "It shall soon be time for Pongal, the Harvest festival that falls on the month of Thai according to the Tamil calendar. Dedicated to the Hindu God Surya, the festival marks the end of the winter solistice. Shall you announce that the preparations are to begin."
+    dharma_festivals.425.pongal:0 "Lets begin the Preprations"
+    dharma_festivals.425.no_pongal:0 "I have better things to do..."
+    activity_dharma_pongal_festival:0 "Pongal Festival"
+    activity_dharma_pongal_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Pongal Festival."
+
+    dharma_festivals.426.t:0 "Bhogi Pongal"
+    dharma_festivals.426.desc:0 "The first day of Pongal is Bhogi Pongal. This is the day dedicated to cleaning out one's house or palace of unwanted things. The day begins with a nice relaxing bath for yourself, while the kolam is drawn outside the palace letting everyone know that the festival is begining. In the center of the courtyard a grand bonfire has been built where old items that need to be thrown out can be burned as you make way for the new year."
+    dharma_festivals.426.bonfire:0 "Lerations"
+
+    dharma_festivals.427.t:0 "Surya Pongal"
+    dharma_festivals.427.desc:0 "Surya Pongal is the second day of Pongal, it is this day where the famous rice dish and where the festival gets its name comes from. The family comes together to watch the rice boil over in the special prpeared pot which is often decorated. As the host you are the first to blow the conch horn while others shout Pongalo Pongal as once the rice boils over it symbolically means greater fortunes in the new year. "
+    dharma_festivals.427.surya:0 "Pongalo Pongal, Pongalo Pongal."
+
+    dharma_festivals.428.t:0 "Sugarcane Market"
+    dharma_festivals.428.desc:0 "During Surya Pongal one of the common sights is for there to be sugarcane markets in the town square. As a ruler, you could patronize the market this year or you could just let it be. "
+    dharma_festivals.428.market:0 "Visit the market"
+    dharma_festivals.428.no_market:0 "Leave the market be"
+
+    dharma_festivals.429.t:0 "Mattu Pongal"
+    dharma_festivals.429.desc:0 "The third day of Pongal is honoring the Cows and Oxen and beasts of burden that work the fields. The cattle in your possession are decorated with garlands and given baths and painted. After showing off your cattle, and reminding people how wealthy you are, you visit the local temple to offer prayers. "
+    dharma_festivals.429.mattu:0 "What great beasts they are."
+
+    dharma_festivals.430.t:0 "Jallikattu Performance"
+    dharma_festivals.430.desc:0 "On Mattu Pongal, in addition to honoring cattle and visiting Temples, it is also customary to go and watch a game of Jallikattu. Jallikattu involves releasing a bull into an enclosed area and trying to grab a hold of the humb and bring it to a full stop. The person who can do so the longest wins. You can participate in the activity or you can just watch. "
+    dharma_festivals.430.participate:0 "I shall Participate"
+    dharma_festivals.430.participate.tt_success:0 "You impress everyone by holding onto the Bull the longest."
+    dharma_festivals.430.participate.success_title:0 "You succed at holding onto the Bull."
+    dharma_festivals.430.participate.failure:0 "You try to hold onto the Bull but you fail to do so, and fall onto the ground during the games. "
+    dharma_festivals.430.participate.failure_title:0 "You fail to hold onto the Bull."
+    dharma_festivals.430.participate.critical_failure:0 "You try to hold onto the Bull, but fail to do so and as you fall to the ground, you find yourself being injured by the beast."
+    dharma_festivals.430.participate.critical_failure_title:0 "You are injured trying to hold onto the bull."
+    dharma_festivals.430.watch:0 "I shall watch"
+
+    dharma_festivals.431.t:0 "Kaanum Pongal"
+    dharma_festivals.431.desc:0 "Kaanum Pongal is the fifth day of Pongal where you and your family and court enjoy a feast. Here numerous foods are brought before you and your court, in particular sugarcane and dishes made from sugarcane are brought out while musicians and poets recite tamil poetry for you. "
+    dharma_festivals.431.family:0 "Good food."
+
+    dharma_festivals.432.t:0 "giving gifts to your family members"
+    dharma_festivals.432.desc:0 "One custom of Kaanum Pongal is to give gifts to relatives, the question is whom should you give gifts for?"
+    dharma_festivals.432.everyone:0 "I will give a gift for all my relatives"
+    dharma_festivals.432.spouse:0 "I shall give a gift to my spouses"
+    dharma_festivals.432.sibilings:0 "I shall give a gift to my siblings."
+    dharma_festivals.432.elders:0 "I shall give a gift to my elders."
+    dharma_festivals.432.children:0 "I will give a gift to my children."
+
+    dharma_festivals.433.t:0 "A gift for your commoners and servants?"
+    dharma_festivals.433.desc:0 "Another custom of Pongal is for rulers to give gifts to their servants and the common people. This way one can see the benevolance and greatness of their ruler. What sort of gift shall you give them?"
+    dharma_festivals.433.large:0 "A grand gesture shall do"
+    dharma_festivals.433.medium:0 "A normal gift shall do"
+    dharma_festivals.433.small:0 "A token gift shall do"
+
+    dharma_festivals.434.t:0 "Pongal concludes"
+    dharma_festivals.434.desc:0 "Pongal has finally come to an end"
+    dharma_festivals.434.losar:0 "Till next time!"
+
+
 

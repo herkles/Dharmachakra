@@ -566,4 +566,13 @@ dharma_festival_losar_small_gift_modifier = {
 	icon = county_modifier_opinion_positive
 	county_opinion_add = 10
 }
-
+dharma_festival_pongal_patronized_sugarcane_market_modifier = {
+	icon = county_modifier_development_positive
+	county_opinion_add = 25
+	tax_mult = 0.1
+}
+dharma_festival_pongal_sugarcane_market_modifier = {
+	icon = county_modifier_opinion_positive
+	county_opinion_add = 10
+	tax_mult = 0.05
+}
