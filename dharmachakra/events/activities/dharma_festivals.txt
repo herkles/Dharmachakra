@@ -23,11 +23,427 @@
 #######################################
 # Vesak
 #######################################
+dharma_festivals.200 = {# Prepare for the Vesak Festival
+	type = character_event
+	title = dharma_festivals.200.t
+	desc = dharma_festivals.200.desc
+	theme = friendly
+	
+	left_portrait = root
+	
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		# Stop characters from planning multiple activities at once.
+		add_character_flag = planning_an_activity
+	}
+	
+	option = {# Time to begin the preparations 
+		name = dharma_festivals.200.vesak
+		scope:capital_province = {	
+			spawn_activity = {
+				owner = root
+				type = activity_dharma_vesak_festival
+			}	
+		}
+	}
+	option = {# I have better things to do right now
+		name = dharma_festivals.200.no_vesak
+		remove_character_flag = planning_an_activity
+	}
+}
+# Starting Vesak!
+dharma_festivals.201 = {# Vesak begins
+	type = character_event
+	title = dharma_festivals.201.t
+	desc = dharma_festivals.201.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
 
-#######################################
-# Buddha Jayanti
-#######################################
+	option = {# Vesak begins
+		name = dharma_festivals.201.vesak
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
 
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.202
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.202 = {# The Buddhist Precipets
+	type = character_event
+	title = dharma_festivals.202.t
+	desc = dharma_festivals.202.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Eight Precipts
+		name = dharma_festivals.202.eight
+		add_piety = minor_piety_gain
+		add_character_modifier = {
+			modifier = dharma_buddhist_eight_precipts
+			days = 30
+		}
+	}
+	option = {# five Precipts
+		name = dharma_festivals.202.five
+		add_piety = minor_piety_loss
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.203
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.203 = {# Visiting the monastaries
+	type = character_event
+	title = dharma_festivals.203.t
+	desc = dharma_festivals.203.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Om Mani Pamde Hum
+		name = dharma_festivals.203.temple
+		add_piety = minor_piety_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.204
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.204 = {# Dharma Talk from the monks
+	type = character_event
+	title = dharma_festivals.204.t
+	desc = dharma_festivals.204.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Dharma Talk
+		name = dharma_festivals.204.talk
+		add_piety = minor_piety_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.205
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.205 = {# family feast
+	type = character_event
+	title = dharma_festivals.205.t
+	desc = dharma_festivals.205.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Pru
+		name = dharma_festivals.205.feast
+		add_piety = minor_piety_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.206
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.206 = {# Animal Release
+	type = character_event
+	title = dharma_festivals.206.t
+	desc = dharma_festivals.206.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Pru
+		name = dharma_festivals.206.animal
+		add_piety = minor_piety_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		if = {
+			limit = { any_prisoner = { is_ai = yes } }
+			trigger_event = { 
+				id = dharma_festivals.207
+				days = 1
+			}
+		}
+		else = {
+			trigger_event = { 
+				id = dharma_festivals.208
+				days = 1
+			}
+		}
+	}
+
+}
+dharma_festivals.207 = {# Prisoner Release
+	type = character_event
+	title = dharma_festivals.207.t
+	desc = dharma_festivals.207.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	immediate = {
+		random_prisoner = {
+			save_scope_as = prisoner
+		}
+	}
+
+	option = {# release
+		name = dharma_festivals.207.release
+		add_piety = minor_piety_gain
+		show_as_tooltip = {
+			scope:prisoner = {
+				release_from_prison = yes
+			}
+			scope:prisoner = {
+				add_opinion = {
+					target = root
+					modifier = pleased_opinion
+					opinion = 30
+				}
+			}
+		}
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+	option = {# don't release
+		name = dharma_festivals.207.prison
+		add_prestige = minor_prestige_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.208
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.208 = {# Charity for the commoners
+	type = character_event
+	title = dharma_festivals.208.t
+	desc = dharma_festivals.208.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_festivals.208.large
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_festivals.208.medium
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_festivals.208.small
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.209
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.209 = {# Light Procession
+	type = character_event
+	title = dharma_festivals.209.t
+	desc = dharma_festivals.209.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# light procession
+		name = dharma_festivals.209.light
+		add_piety = minor_piety_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.210
+			days = 1
+		}
+	}
+
+}
+# Ending Vesak
+dharma_festivals.210 = {# Vesak concludes
+	type = character_event
+	title = dharma_festivals.210.t
+	desc = dharma_festivals.210.desc
+	theme = throne
+	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.210.home
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.211
+			days = 1	
+		}
+	}
+}
+dharma_festivals.211 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		scope:activity = {
+			complete_activity = yes
+		}
+	}
+}
 #######################################
 #									  #
 #         Tibetan Festivals		      #
@@ -180,7 +596,7 @@ dharma_festivals.404 = {# Give Gift to the common people
 		remove_short_term_gold = major_gold_value
 		scope:capital_province = {
 			add_county_modifier = {
-				modifier = dharma_festival_losar_large_gift_modifier
+				modifier = dharma_festival_large_gift_modifier
 				days = 365
 			}
 		}
@@ -197,7 +613,7 @@ dharma_festivals.404 = {# Give Gift to the common people
 		remove_short_term_gold = medium_gold_value
 		scope:capital_province = {
 			add_county_modifier = {
-				modifier = dharma_festival_losar_medium_gift_modifier
+				modifier = dharma_festival_medium_gift_modifier
 				days = 365
 			}
 		}
@@ -214,7 +630,7 @@ dharma_festivals.404 = {# Give Gift to the common people
 		remove_short_term_gold = minor_gold_value
 		scope:capital_province = {
 			add_county_modifier = {
-				modifier = dharma_festival_losar_small_gift_modifier
+				modifier = dharma_festival_small_gift_modifier
 				days = 365
 			}
 		}
@@ -864,24 +1280,6 @@ dharma_festivals.435 = {# Misc cleanup
 	}
 }
 #######################################
-# Puthandu
-#######################################
-
-#######################################
-# Thaipusam
-#######################################
-
-#######################################
-#									  #
-#         Sinhalese Festivals		  #
-#									  #
-#######################################
-
-#######################################
-# Aluth Avurudda
-#######################################
-
-#######################################
 #									  #
 #      Kannada/Telugu Festivals	      #
 #									  #
@@ -965,7 +1363,15 @@ dharma_festivals.435 = {# Misc cleanup
 # Dashain
 #######################################
 
+#######################################
+#									  #
+#         Sinhalese Festivals		  #
+#									  #
+#######################################
 
+#######################################
+# Aluth Avurudda
+#######################################
 
 
 

@@ -97,6 +97,12 @@ dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
 #######################################
 # Festival Decisions
 #######################################
+  # Vesak Festival
+    dharma_attend_vesak_festival:0 "Celebrate Vesak"
+    dharma_attend_vesak_festival_desc:0 "Vesak is the time to celebrate the Buddha's birth, enlightenment, and death. It is one of the most sacred times of the year for Buddhists. "
+    dharma_attend_vesak_festival_effect_tooltip:0 "You will begin to make preparations for Vesak"
+    dharma_attend_vesak_festival_confirm:0 "Om Mani Padme Hum"
+    dharma_decision_vesak_month_requirement:0 "Vesak takes place around April, May, or June in the Gregorian Calendar."
   # Losar Festival
     dharma_attend_losar_festival:0 "Celebrate Losar"
     dharma_attend_losar_festival_desc:0 "Losar is the new year celebration in the Tibetan Calendar. It is one of the most popular celebrations of the Tibetan people."

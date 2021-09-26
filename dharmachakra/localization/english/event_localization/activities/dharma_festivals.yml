@@ -1,5 +1,58 @@
 ﻿l_english:
 
+# Buddhist Festivals
+  # Vesak
+    dharma_festivals.200.t:0 "Begin the Preparations for Vesak?"
+    dharma_festivals.200.desc:0 "Vesak is one of the holist Buddhist festivals, celebrating the Birth, Enlightenment, and Death of Gautama Buddha. Shall you announce that the preparations are on their way?"
+    dharma_festivals.200.vesak:0 "Lets begin the Preprations"
+    dharma_festivals.200.no_vesak:0 "I have better things to do..."
+    activity_dharma_vesak_festival:0 "Vesak Festival"
+    activity_dharma_vesak_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Vesak Festival."
+
+    dharma_festivals.201.t:0 "Vesak begins"
+    dharma_festivals.201.desc:0 "Vesak is now here and the festival atmosphere can be felt throughout the palace and into the streets. People are visitng local shrines and temples. Vesak is now here. "
+    dharma_festivals.201.vesak:0 "Let us honor the Buddha"
+
+    dharma_festivals.202.t:0 "The Buddhist Precipets"
+    dharma_festivals.202.desc:0 "During Vesak it is common for Buddhists to take the eight Precepts. They are similar to the five precepts that laity like myself follow, however during Vessak I am to avoid all sexual conduct, luxury, and to eat at the same time as a monks.  "
+    dharma_festivals.202.eight:0 "Eight Precepts for Vesak"
+    dharma_festivals.202.five:0 "I shall stick with the 5 precepts"
+
+    dharma_festivals.203.t:0 "Visiting the monastaries"
+    dharma_festivals.203.desc:0 "As part of Vesak one of the important things to do is to visit the local monastaries and meditate upon the Buddha's life and the idea that nothing is permenant."
+    dharma_festivals.203.temple:0 "Om Mani Padme Hum"
+
+    dharma_festivals.204.t:0 "Dharma Talk from the monks"
+    dharma_festivals.204.desc:0 "After bathing and anointing the statues of the Buddha. The local monks give a dharma talk about peace and happiness for you and your dynasty as well as the common folk. "
+    dharma_festivals.204.talk:0 "Peace and Prosparity"
+
+    dharma_festivals.205.t:0 "Family Feast"
+    dharma_festivals.205.desc:0 "Today is Vesak and you are preparing for your feast with your family and court on this holy occassion. On Vesak, the feasts are to be a vegetarian meal. This is regarded as particular mertious on this holy day."
+    dharma_festivals.205.feast:0 "A wonderful feast."
+
+    dharma_festivals.206.t:0 "Animal Release"
+    dharma_festivals.206.desc:0 "As part of Vesak, it is common for people to engage in life release for animals. Where animals that are in captivity or were going to be eaten are to be released into the wilds to live out the rest of their lives. Fish are let back into rivers and streams, Birds are let loose to fly, animals are let back into the hills and plains. This act is regarded as specially mertious. "
+    dharma_festivals.206.animal:0 "May all living things prosper."
+
+    dharma_festivals.207.t:0 "Prisoner release"
+    dharma_festivals.207.desc:0 "You have several prisoners in your prison. As today is Vesak, a day of charity. a monk suggests releasing some of them. Of course they are in prison for a reason. What shall happen to them?"
+    dharma_festivals.207.release:0 "They will be released"
+    dharma_festivals.207.prison:0 "They shall stay locked up"
+
+    dharma_festivals.208.t:0 "Charity for the commoners"
+    dharma_festivals.208.desc:0 "As part of Vesak, it is common to offer charity to those that need it most. As a ruler, it is customary to offer charity to your common people on this special time. The question is what sort of charity shall you do for them."
+    dharma_festivals.208.large:0 "A grand Gift for the commoners"
+    dharma_festivals.208.medium:0 "A normal gift for the commoners"
+    dharma_festivals.208.small:0 "A small gift for the commoners"
+
+    dharma_festivals.209.t:0 "Light Procession"
+    dharma_festivals.209.desc:0 "At the end of Vesak, everyone gathers near the monastary, both commoner and noble alike. The monks lead in chanting for the public while people hold tea lights and lanterns. As the sun descends and night arrives, it is these lights that light up the sky. After a while the lanterns are released and they are floating away, illuminating the night sky as they help to burn away bad karma."
+    dharma_festivals.209.light:0 "What wonderful lights."
+
+    dharma_festivals.210.t:0 "Vesak Concludes"
+    dharma_festivals.210.desc:0 "The festivites of Vesak are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.210.home:0 "Till next time."
+
 # Tibetan Festivals
   # Losar
     dharma_festivals.400.t:0 "Begin the Preparations for Losar?"
