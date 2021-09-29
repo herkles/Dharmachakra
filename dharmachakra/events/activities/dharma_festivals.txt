@@ -9,7 +9,654 @@
 #######################################
 # Diwali
 #######################################
+dharma_festivals.100 = {# Prepare for the Diwali Festival
+	type = character_event
+	title = dharma_festivals.100.t
+	desc = dharma_festivals.100.desc
+	theme = friendly
+	
+	left_portrait = root
+	
+	immediate = {
+		capital_province = { save_scope_as = capital_province } #For loc.
+		# Stop characters from planning multiple activities at once.
+		add_character_flag = planning_an_activity
+	}
+	
+	option = {# Time to begin the preparations 
+		name = dharma_festivals.100.diwali
+		scope:capital_province = {	
+			spawn_activity = {
+				owner = root
+				type = activity_dharma_vesak_festival
+			}	
+		}
+	}
+	option = {# I have better things to do right now
+		name = dharma_festivals.100.no_diwali
+		remove_character_flag = planning_an_activity
+	}
+}
+# Dhanteras Day one Events
+dharma_festivals.101 = {# Dhanteras
+	type = character_event
+	title = dharma_festivals.210104.t
+	desc = dharma_festivals.101.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
 
+	option = {# Dhanteras
+		name = dharma_festivals.101.diwali
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.102
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.102 = {# Buying gifts for your loved ones
+	type = character_event
+	title = dharma_festivals.102.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					trigger_stuff
+				}
+				desc = dharma_festivals.102.desc.spouses
+			}
+			desc = dharma_festivals.102.desc.spouse
+		}
+	}	
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	immediate = {
+		primary_spouse = {
+			save_scope_as = first_spouse
+		}
+	}
+
+	option = {# Your Husband/Wife
+		trigger = {
+			NOT = {	any_spouse = { count > 1 } }
+		}
+		name = dharma_festivals.204.spouse
+		remove_short_term_gold = medium_gold_value
+		add_character_flag = { flag = diwali_wife_gift }
+		stress_impact = {
+			just = miniscule_stress_impact_loss
+			family_first = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			improvident = miniscule_stress_impact_loss
+		}
+	}
+	option = {# your first Wife
+		trigger = {
+			any_spouse = { count > 1 }
+		}
+		name = dharma_festivals.204.first_spouse
+		remove_short_term_gold = medium_gold_value
+		add_character_flag = { flag = diwali_first_spouse_gift }
+		stress_impact = {
+			seducer = miniscule_stress_impact_loss
+			lustful = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			improvident = miniscule_stress_impact_loss
+		}
+	}	
+	option = {# Your lover
+		name = dharma_festivals.204.lover
+		trigger = {
+			primary_spouse = {
+				NOT = { this = scope:lover }
+			}	
+		}
+		remove_short_term_gold = medium_gold_value
+		add_character_flag = { flag = diwali_lover_gift }
+		stress_impact = {
+			seducer = miniscule_stress_impact_loss
+			lustful = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			improvident = miniscule_stress_impact_loss
+		}
+	}
+	option = {# All your wives
+		name = dharma_festivals.204.spouses
+		trigger = {
+			any_spouse = { count > 1 }
+		}
+		remove_short_term_gold = medium_gold_value
+		add_character_flag = { flag = diwali_wives_gift }
+		stress_impact = {
+			just = miniscule_stress_impact_loss
+			family_first = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			improvident = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.103
+			days = 1
+		}
+	}
+
+}
+# Naraka Chaturdashi Day two Events
+dharma_festivals.103 = {# Naraka Chaturdashi
+	type = character_event
+	title = dharma_festivals.103.t
+	desc = dharma_festivals.103.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Dharma Talk
+		name = dharma_festivals.103.diwali
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.104
+			days = 1
+		}
+	}
+
+}
+# Lakshmi Puja Day three Events
+dharma_festivals.104 = {# Lakshmi Puja
+	type = character_event
+	title = dharma_festivals.104.t
+	desc = dharma_festivals.104.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Dharma Talk
+		name = dharma_festivals.104.lakshmi
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.105
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.105 = {# Family Feast
+	type = character_event
+	title = dharma_festivals.105.t
+	desc = dharma_festivals.105.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Dharma Talk
+		name = dharma_festivals.105.talk
+		add_prestige = minor_prestige_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.106
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.106 = {# Giving the gift to your loved ones
+	type = character_event
+	title = dharma_festivals.106.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Multiple Spouses
+				trigger = {
+					has_character_flag = diwali_wives_gift
+					any_spouse = { count > 1 }
+				}
+				desc = dharma_festivals.106.desc.spouses
+			}
+			triggered_desc = {# first spouse only
+				trigger = {
+					has_character_flag = diwali_first_spouse_gift
+					any_spouse = { count > 1 }
+				}
+				desc = dharma_festivals.106.desc.first_spouse
+			}
+			triggered_desc = {# My lover is not one of my wives
+				trigger = {
+					has_character_flag = diwali_lover_gift
+					any_spouse = {
+						NOT = { this = scope:lover }
+					}				
+				}
+				desc = dharma_festivals.106.desc.lover_not_wife
+			}
+			triggered_desc = {# Lover is one of my wives but not first wife
+				trigger = {
+					has_character_flag = diwali_lover_gift
+					any_spouse = { count > 1 }
+					primary_spouse = {
+						NOT = { this = scope:lover }
+					}		
+				}
+				desc = dharma_festivals.106.desc.lover_wife
+			}
+			desc = dharma_festivals.106.desc.spouse
+		}
+	}	
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	immediate = {
+		primary_spouse = {
+			save_scope_as = first_spouse
+		}
+	}
+
+	option = {# Your spouse gets a gift
+		name = dharma_festivals.106.spouse
+		add_piety = minor_piety_gain
+		any_spouse = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+	}
+	option = {# Your wives get a gift
+		name = dharma_festivals.106.spouses
+		add_piety = minor_piety_gain
+		any_spouse = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+	}
+	option = {# Your first wife gets a gift
+		name = dharma_festivals.106.first_wife
+		add_piety = minor_piety_gain
+		primary_spouse = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		any_spouse = {
+			limit = { 
+				is_alive = yes 
+				NOT = { primary_spouse = scope:first_spouse }
+			}
+			add_opinion = {# They don't like you for not getting a gift
+				modifier = disappointed_opinion
+				target = root
+				opinion = -10
+			}
+			add_opinion = {# They are envious of your First Wife
+				modifier = envy_opinion
+				target = scope:first_spouse
+				opinion = 15
+			}
+		}
+
+	}
+	option = {# Your lover gets a gift
+		name = dharma_festivals.106.lover
+		add_piety = minor_piety_gain
+		scope:lover = {
+			add_opinion = {
+				target = root
+				modifier = lover_breakup_opinion
+				opinion = 15
+			}
+		}
+		any_spouse = {
+			NOT = { this = scope:lover }
+			add_opinion = {# They don't like you for not getting a gift
+				target = root
+				modifier = disappointed_opinion
+				opinion = -10
+			}
+			add_opinion = {# They are envious of your lover
+				target = scope:lover
+				modifier = envy_opinion
+				opinion = -15
+			}
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.107
+			days = 1
+		}
+	}
+
+}
+# Balipratipada Day four Events
+dharma_festivals.107 = {# Balipratipada
+	type = character_event
+	title = dharma_festivals.107.t
+	desc = dharma_festivals.107.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_festivals.107.large
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_festivals.107.medium
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_festivals.107.small
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.108
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.108 = {# pachikalu dice game
+	type = character_event
+	title = dharma_festivals.108.t
+	desc = dharma_festivals.108.desc
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# play dice game
+		name = dharma_festivals.108.play
+		remove_short_term_gold = tiny_gold_value
+		duel = {
+			skill = prowess
+			value = decent_skill_rating
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_festivals.108.play.success
+				send_interface_toast = {
+					title = dharma_festivals.108.play.success_title
+					left_icon = root
+					add_gold = minor_gold_value
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_festivals.108.play.failure
+				send_interface_toast = {	
+					title = dharma_festivals.430.play.failure_title
+					left_icon = root
+				}
+			}
+		}
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			profligate = minor_stress_impact_loss
+
+			shy = miniscule_stress_impact_gain
+			diligent = miniscule_stress_impact_gain
+		}
+	}
+	option = {# don't play
+		name = dharma_festivals.108.dont_play
+		stress_impact = {
+			gregarious = miniscule_stress_impact_gain
+			profligate = minor_stress_impact_gain
+
+			shy = miniscule_stress_impact_loss
+			diligent = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		if = {
+			limit = {
+				any_sibling = { count > 1 }
+				OR = {
+					AND = {# Got to have a brother
+						is_female = yes
+						any_sibling = {
+							NOT = { is_female = yes }
+						}
+					}
+					AND = {# got to have a sister
+						NOT = { is_female = yes }
+						any_sibling = {
+							is_female = yes
+						}
+					}
+				}
+			}
+			trigger_event = { 
+				id = dharma_festivals.109
+				days = 1
+			}
+		}
+		else = {
+			trigger_event = { 
+				id = dharma_festivals.110
+				days = 1
+			}
+		}
+	}
+
+}
+# Bhai Dooj Day five Events
+dharma_festivals.109 = {# Bhai Dooj
+	type = character_event
+	title = dharma_festivals.109.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+				}
+				desc = dharma_festivals.109.desc.sister
+			}
+			desc = dharma_festivals.109.desc.brother
+		}
+	}	
+	theme = dharma_tibet_temple_interior
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	immediate = {
+		random_sibling = {
+			not = { is_female = yes }
+			save_as_scope = brother
+		}
+		random_sibling = {
+			is_female = yes
+			save_as_scope = sister
+		}
+
+	}
+
+	option = {# I have a wonderful sister
+		name = dharma_festivals.204.brother
+		trigger = { not = { is_female = yes	} }
+		add_gold = minor_gold_value
+		add_opinion = {
+			modifier = pleased_opinion
+			target = scope:sister
+			opinion = 15
+		}
+		stress_impact = {
+			base = minor_stress_impact_loss
+		}
+	}
+	option = {# I have a wonderful brother
+		name = dharma_festivals.204.sister
+		trigger = { is_female = yes	}
+		remove_short_term_gold = minor_gold_value
+		any_sibling = {
+			limit = { exists = scope:brother }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.110
+			days = 1
+		}
+	}
+
+}
+# Ending Diwali
+dharma_festivals.110 = {# Diwali concludes
+	type = character_event
+	title = dharma_festivals.110.t
+	desc = dharma_festivals.110.desc
+	theme = throne
+	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.110.home
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.111
+			days = 1	
+		}
+	}
+}
+dharma_festivals.111 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		scope:activity = {
+			complete_activity = yes
+		}
+	}
+}
 #######################################
 # Navaratri
 #######################################
@@ -175,7 +822,7 @@ dharma_festivals.204 = {# Dharma Talk from the monks
 	}
 
 }
-dharma_festivals.205 = {# family feast
+dharma_festivals.205 = {# Family Feast
 	type = character_event
 	title = dharma_festivals.205.t
 	desc = dharma_festivals.205.desc
@@ -1082,7 +1729,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 			add_gold = minor_gold_value
 
 			add_opinion = {
-				modifier = respect_opinion
+				modifier = pleased_opinion
 				target = root
 				opinion = 15
 			}
@@ -1100,7 +1747,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 			limit = { is_alive = yes }
 			add_gold = minor_gold_value
 			add_opinion = {
-				modifier = respect_opinion
+				modifier = pleased_opinion
 				target = root
 				opinion = 15
 			}
@@ -1121,7 +1768,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 			}			
 			add_gold = minor_gold_value
 			add_opinion = {
-				modifier = respect_opinion
+				modifier = pleased_opinion
 				target = root
 				opinion = 15
 			}
@@ -1130,7 +1777,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 			limit = { is_alive = yes }			
 			add_gold = minor_gold_value
 			add_opinion = {
-				modifier = respect_opinion
+				modifier = pleased_opinion
 				target = root
 				opinion = 15
 			}
@@ -1148,7 +1795,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 			limit = { is_alive = yes }
 			add_gold = minor_gold_value
 			add_opinion = {
-				modifier = respect_opinion
+				modifier = pleased_opinion
 				target = root
 				opinion = 15
 			}
@@ -1173,7 +1820,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 			}
 			add_gold = minor_gold_value
 			add_opinion = {
-				modifier = respect_opinion
+				modifier = pleased_opinion
 				target = root
 				opinion = 15
 			}
@@ -1370,7 +2017,7 @@ dharma_festivals.435 = {# Misc cleanup
 #######################################
 
 #######################################
-# Aluth Avurudda
+# Kandy Esala Perahera
 #######################################
 
 
