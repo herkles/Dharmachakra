@@ -472,34 +472,9 @@ dharma_festivals.108 = {# pachikalu dice game
 	option = {# play dice game
 		name = dharma_festivals.108.play
 		remove_short_term_gold = tiny_gold_value
-		duel = {
-			skill = prowess
-			value = decent_skill_rating
-			50 = {
-				compare_modifier = {
-					value = scope:duel_value
-					multiplier = 3.5
-					min = -49
-				}
-				desc = dharma_festivals.108.play.success
-				send_interface_toast = {
-					title = dharma_festivals.108.play.success_title
-					left_icon = root
-					add_gold = minor_gold_value
-				}
-			}
-			50 = {
-				compare_modifier = {
-					value = scope:duel_value
-					multiplier = -3.5
-					min = -49
-				}
-				desc = dharma_festivals.108.play.failure
-				send_interface_toast = {	
-					title = dharma_festivals.430.play.failure_title
-					left_icon = root
-				}
-			}
+		random_list = {
+			50 = { add_gold = minor_gold_value	}
+			50 = { }
 		}
 		stress_impact = {
 			gregarious = miniscule_stress_impact_loss

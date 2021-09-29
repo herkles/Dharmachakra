@@ -583,6 +583,48 @@ dharma_visit_sharada_peeth = {# Go to Sharada Peeth
 		base = 100
 	}
 }
+dharma_attend_diwali_festival = {# Attend Diwali festival
+	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds" 
+	ai_check_interval = 24
+	cooldown = { days = 365 } # It is an annual festival but let this only happen every couple of years
+	desc = dharma_attend_diwali_festival_desc
+	
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		religion = religion:hinduism_religion
+	}
+	
+	is_valid = {
+		religion = religion:hinduism_religion
+		custom_description = {
+			text = dharma_decision_diwali_month_requirement
+			current_month >= 10
+			current_month <= 11
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = dharma_attend_diwali_festival_effect_tooltip
+		trigger_event = { id = dharma_festivals.200 }
+	}
+
+	cost = { 
+		gold = { value = medium_gold_value } # need the gold to celebrate the festivities
+	}	
+
+	ai_potential = {
+		short_term_gold > medium_gold_value
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
 #######################################
 # Buddhist Decisions
 #######################################
@@ -662,7 +704,7 @@ dharma_visit_nalanda = {# Go to Nalanda
 dharma_attend_vesak_festival = {# Attend Vesak festival
 	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds" 
 	ai_check_interval = 24
-	cooldown = { days = 1095 } # It is an annual festival but let this only happen every couple of years
+	cooldown = { days = 365 } # It is an annual festival
 	desc = dharma_attend_vesak_festival_desc
 
 	
@@ -983,7 +1025,7 @@ dharma_attend_mahavir_kalyanak_festival = {# Jain  Mahavir Janma Kalyanak festiv
 dharma_attend_losar_festival = {# Attend Tibetan New Year Losar
 	picture = "gfx/interface/illustrations/decisions/dharma_losar_festival.dds" 
 	ai_check_interval = 24
-	cooldown = { days = 1095 } # It is an annual festival but let this only happen every couple of years
+	cooldown = { days = 365 } # It is an annual festival but let this only happen every couple of years
 	desc = dharma_attend_losar_festival_desc
 
 	
@@ -1042,7 +1084,7 @@ dharma_attend_losar_festival = {# Attend Tibetan New Year Losar
 dharma_attend_pongal_festival = {# Attend Pongal festival
 	picture = "gfx/interface/illustrations/decisions/dharma_indian_festival.dds" 
 	ai_check_interval = 24
-	cooldown = { days = 1095 } # It is an annual festival but let this only happen every couple of years
+	cooldown = { days = 365 } # It is an annual festival but let this only happen every couple of years
 	desc = dharma_attend_losar_festival_desc
 
 	

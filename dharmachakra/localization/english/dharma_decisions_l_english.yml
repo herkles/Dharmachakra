@@ -97,6 +97,12 @@ dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
 #######################################
 # Festival Decisions
 #######################################
+  # Diwali Festival
+    dharma_attend_diwali_festival:0 "Celebrate Diwali"
+    dharma_attend_diwali_festival_desc:0 "Diwali is the festival of Lights. It celebrates the victory of good over and light over darkness. It is one of the more special times of the year for Hindus. "
+    dharma_attend_diwali_festival_effect_tooltip:0 "You will begin to make preparations for Diwali."
+    dharma_attend_diwali_festival_confirm:0 "Om Mani Padme Hum"
+    dharma_decision_diwali_month_requirement:0 "Diwali takes place around October or November in the Gregorian Calendar."
   # Vesak Festival
     dharma_attend_vesak_festival:0 "Celebrate Vesak"
     dharma_attend_vesak_festival_desc:0 "Vesak is the time to celebrate the Buddha's birth, enlightenment, and death. It is one of the most sacred times of the year for Buddhists. "
