@@ -40,7 +40,7 @@ dharma_festivals.100 = {# Prepare for the Diwali Festival
 # Dhanteras Day one Events
 dharma_festivals.101 = {# Dhanteras
 	type = character_event
-	title = dharma_festivals.210104.t
+	title = dharma_festivals.101.t
 	desc = dharma_festivals.101.desc
 	theme = dharma_tibet_temple_interior
 	
@@ -72,7 +72,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					trigger_stuff
+					any_spouse = { count > 1 }
 				}
 				desc = dharma_festivals.102.desc.spouses
 			}
@@ -96,7 +96,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 		trigger = {
 			NOT = {	any_spouse = { count > 1 } }
 		}
-		name = dharma_festivals.204.spouse
+		name = dharma_festivals.102.spouse
 		remove_short_term_gold = medium_gold_value
 		add_character_flag = { flag = diwali_wife_gift }
 		stress_impact = {
@@ -110,7 +110,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 		trigger = {
 			any_spouse = { count > 1 }
 		}
-		name = dharma_festivals.204.first_spouse
+		name = dharma_festivals.102.first_spouse
 		remove_short_term_gold = medium_gold_value
 		add_character_flag = { flag = diwali_first_spouse_gift }
 		stress_impact = {
@@ -121,7 +121,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 		}
 	}	
 	option = {# Your lover
-		name = dharma_festivals.204.lover
+		name = dharma_festivals.102.lover
 		trigger = {
 			primary_spouse = {
 				NOT = { this = scope:lover }
@@ -137,7 +137,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 		}
 	}
 	option = {# All your wives
-		name = dharma_festivals.204.spouses
+		name = dharma_festivals.102.spouses
 		trigger = {
 			any_spouse = { count > 1 }
 		}
@@ -227,7 +227,7 @@ dharma_festivals.105 = {# Family Feast
 	}
 
 	option = {# Dharma Talk
-		name = dharma_festivals.105.talk
+		name = dharma_festivals.105.family
 		add_prestige = minor_prestige_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -300,7 +300,7 @@ dharma_festivals.106 = {# Giving the gift to your loved ones
 	option = {# Your spouse gets a gift
 		name = dharma_festivals.106.spouse
 		add_piety = minor_piety_gain
-		any_spouse = {
+		every_spouse = {
 			limit = { is_alive = yes }
 			add_gold = minor_gold_value
 			add_opinion = {
@@ -313,7 +313,7 @@ dharma_festivals.106 = {# Giving the gift to your loved ones
 	option = {# Your wives get a gift
 		name = dharma_festivals.106.spouses
 		add_piety = minor_piety_gain
-		any_spouse = {
+		every_spouse = {
 			limit = { is_alive = yes }
 			add_gold = minor_gold_value
 			add_opinion = {
@@ -327,7 +327,6 @@ dharma_festivals.106 = {# Giving the gift to your loved ones
 		name = dharma_festivals.106.first_wife
 		add_piety = minor_piety_gain
 		primary_spouse = {
-			limit = { is_alive = yes }
 			add_gold = minor_gold_value
 			add_opinion = {
 				modifier = pleased_opinion
@@ -335,7 +334,7 @@ dharma_festivals.106 = {# Giving the gift to your loved ones
 				opinion = 15
 			}
 		}
-		any_spouse = {
+		every_spouse = {
 			limit = { 
 				is_alive = yes 
 				NOT = { primary_spouse = scope:first_spouse }
@@ -552,19 +551,19 @@ dharma_festivals.109 = {# Bhai Dooj
 
 	immediate = {
 		random_sibling = {
-			not = { is_female = yes }
-			save_as_scope = brother
+			limit = { is_male = yes }
+			save_scope_as = brother
 		}
 		random_sibling = {
-			is_female = yes
-			save_as_scope = sister
+			limit = { is_female = yes }
+			save_scope_as = sister
 		}
 
 	}
 
 	option = {# I have a wonderful sister
-		name = dharma_festivals.204.brother
-		trigger = { not = { is_female = yes	} }
+		name = dharma_festivals.109.brother
+		trigger = { is_male = yes }
 		add_gold = minor_gold_value
 		add_opinion = {
 			modifier = pleased_opinion
@@ -576,11 +575,11 @@ dharma_festivals.109 = {# Bhai Dooj
 		}
 	}
 	option = {# I have a wonderful brother
-		name = dharma_festivals.204.sister
+		name = dharma_festivals.109.sister
 		trigger = { is_female = yes	}
 		remove_short_term_gold = minor_gold_value
 		any_sibling = {
-			limit = { exists = scope:brother }
+			this = scope:brother 
 			add_gold = minor_gold_value
 			add_opinion = {
 				modifier = pleased_opinion
@@ -1106,8 +1105,8 @@ dharma_festivals.400 = {# Prepare for the Losar Festival
 # Starting Losar!
 dharma_festivals.401 = {# Losar Starts
 	type = character_event
-	title = dharma_jainism.401.t
-	desc = dharma_jainism.401.desc
+	title = dharma_festivals.401.t
+	desc = dharma_festivals.401.desc
 	theme = dharma_tibet_temple_exterior
 	
 	right_portrait = root
@@ -1718,7 +1717,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 		name = dharma_festivals.432.spouse
 		add_prestige = medium_prestige_gain
 		remove_short_term_gold = medium_gold_value
-		any_spouse = {
+		every_spouse = {
 			limit = { is_alive = yes }
 			add_gold = minor_gold_value
 			add_opinion = {
@@ -1733,23 +1732,18 @@ dharma_festivals.432 = {# giving gifts to your family members
 		}
 	}
 	option = {# Give gifts to your elders
-		name = dharma_festivals.432.elder
+		name = dharma_festivals.432.elders
 		add_prestige = medium_prestige_gain
 		remove_short_term_gold = medium_gold_value
 		every_close_or_extended_family_member = {
 			limit = { 
 				is_alive = yes 
-				is_grandparent_of = root
+				OR = {
+					is_grandparent_of = root
+					is_parent_of = root
+					is_great_grandparent_of = root
+				}
 			}			
-			add_gold = minor_gold_value
-			add_opinion = {
-				modifier = pleased_opinion
-				target = root
-				opinion = 15
-			}
-		}
-		any_parent = {
-			limit = { is_alive = yes }			
 			add_gold = minor_gold_value
 			add_opinion = {
 				modifier = pleased_opinion
@@ -1763,7 +1757,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 		}
 	}
 	option = {# Give gifts to your siblings
-		name = dharma_festivals.432.sibling
+		name = dharma_festivals.432.siblings
 		add_prestige = medium_prestige_gain
 		remove_short_term_gold = medium_gold_value
 		any_sibling = {
@@ -1852,7 +1846,7 @@ dharma_festivals.433 = {# A gift for your commoners and servants?
 	option = {# A small token gift
 		name = dharma_festivals.433.small
 		add_piety = minor_piety_gain
-		remove_short_term_gold = miniscule_gold_value
+		remove_short_term_gold = tiny_gold_value
 		stress_impact = {
 			greedy = minor_stress_impact_loss
 			improvident = minor_stress_impact_gain

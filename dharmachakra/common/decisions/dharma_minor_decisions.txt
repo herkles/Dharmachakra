@@ -610,7 +610,7 @@ dharma_attend_diwali_festival = {# Attend Diwali festival
 
 	effect = {
 		custom_tooltip = dharma_attend_diwali_festival_effect_tooltip
-		trigger_event = { id = dharma_festivals.200 }
+		trigger_event = { id = dharma_festivals.100 }
 	}
 
 	cost = { 
