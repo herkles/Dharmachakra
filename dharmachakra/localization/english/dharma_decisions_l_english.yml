@@ -122,6 +122,12 @@ dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
     dharma_attend_losar_festival_effect_tooltip:0 "You will begin to make preparations for Pongal"
     dharma_attend_losar_festival_confirm:0 "Pongalo Pongal"
     dharma_decision_losar_month_requirement:0 "Pongal takes place around January in the Gregorian Calendar."
+  # Thaipusam Festival
+    dharma_attend_thaipusam_festival:0 "Celebrate Thaipusam"
+    dharma_attend_thaipusam_festival_desc:0 "Thaipusam is a sacred festival dedicated to Lord Murugan. Honoring the fact that his mother, Parvati gave him the Vel Spear.  "
+    dharma_attend_thaipusam_festival_effect_tooltip:0 "You will begin to make preparations for Thaipusam"
+    dharma_attend_thaipusam_festival_confirm:0 "Om Skandaya Namaha"
+    dharma_decision_thaipusam_month_requirement:0 "Thaipusam takes place around February in the Gregorian Calendar."
 
 
 

@@ -557,12 +557,33 @@ dharma_vedic_saraswati_blessing_large = {
 	monthly_piety = 0.5
 }
 ##########################################
-# Other Modifiers 
+# Blessing Modifiers 
 ##########################################
 dharma_blessing_of_health = {
 	icon = health_positive
 	health = 0.5
 	stress_gain_mult = -0.33
+}
+dharma_wisdom_blessing = {
+	icon = learning_positive
+	monthly_lifestyle_xp_gain_mult = 0.1
+	stress_gain_mult = -0.33
+}
+dharma_piety_blessing = {
+	icon = piety_positive
+	monthly_piety_gain_mult = 0.1
+	religious_vassal_opinion = 10
+}
+dharma_victory_blessing = {
+	icon = martial_positive
+	monthly_martial_lifestyle_xp_gain_mult = 0.1
+	martial = 1
+}
+dharma_fertility_blessing = {
+	icon = fertility_positive
+	fertility = 0.1
+	attraction_opinion = 5
+	close_relative_opinion = 5
 }
 ##########################################
 # Festival Modifiers 

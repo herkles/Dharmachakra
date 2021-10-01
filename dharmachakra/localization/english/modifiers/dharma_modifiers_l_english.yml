@@ -258,10 +258,22 @@ bhakti_hinduism_devnarayan_desc:0 "This character's bhakti is for Devnarayan, Ma
  dharma_vedic_aditi_blessing_large:0 "Aditi's Blessing (Great)"
  dharma_vedic_aditi_blessing_large_desc:0 "People say this character has received a Great blessing from Aditi,The great mother Goddess"
 ###############################################################
-# General Modifiers
+# Blessing Modifiers
 ###############################################################
   dharma_blessing_of_health:0 "Blessing of Health"
   dharma_blessing_of_health_desc:0 "This character believes that they have recieved a health blessing."
+
+  dharma_wisdom_blessing:0 "Blessing of Wisdom"
+  dharma_wisdom_blessing_desc:0 "This character believes that they have recieved a wisdom blessing."
+
+  dharma_piety_blessing:0 "Blessing of Piety"
+  dharma_piety_blessing_desc:0 "This character believes that they have recieved a Piety blessing."
+
+  dharma_victory_blessing:0 "Blessing of Victory"
+  dharma_victory_blessing_desc:0 "This character believes that they have recieved a Victory blessing."
+
+  dharma_fertility_blessing:0 "Blessing of Fertility"
+  dharma_fertility_blessing_desc:0 "This character believes that they have recieved a Fertility blessing."
 ###############################################################
 # Festival Modifiers
 ###############################################################
