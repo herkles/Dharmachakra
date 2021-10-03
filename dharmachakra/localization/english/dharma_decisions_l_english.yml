@@ -128,6 +128,19 @@ dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
     dharma_attend_thaipusam_festival_effect_tooltip:0 "You will begin to make preparations for Thaipusam"
     dharma_attend_thaipusam_festival_confirm:0 "Om Skandaya Namaha"
     dharma_decision_thaipusam_month_requirement:0 "Thaipusam takes place around February in the Gregorian Calendar."
+  # Navaratri Festival
+    dharma_attend_navaratri_festival:0 "Celebrate Navaratri"
+    dharma_attend_navaratri_festival_desc:0 "Navaratri is a nine day festival dedicated to the various incarnations of the Goddess Durga. "
+    dharma_attend_navaratri_festival_effect_tooltip:0 "You will begin to make preparations for Navaratri"
+    dharma_attend_navaratri_festival_confirm:0 "To Maa Durga!"
+    dharma_decision_navaratri_month_requirement:0 "Navaratri takes place around September and October in the Gregorian Calendar."
+
+
+
+
+
+
+
 
 
 

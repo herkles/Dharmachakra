@@ -69,6 +69,73 @@
     dharma_festivals.110.t:0 "Diwali concludes"
     dharma_festivals.110.desc:0 "The festivites of Diwali are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.110.home:0 "Till next time!"
+
+  # Navaratri
+    dharma_festivals.125.t:0 "Begin the Preparations for Navaratri?"
+    dharma_festivals.125.desc:0 "Navaratri is a holy festival for many Hindus. It is the day dedicated to the Goddess Durga and her salying of the buffalo demon Mahishasura. Should the preparations for Navaratri be announced?"
+    dharma_festivals.125.navaratri:0 "Lets begin the Preprations"
+    dharma_festivals.125.no_navaratri:0 "I have better things to do..."
+    activity_dharma_navaratri_festival:0 "Navaratri Festival"
+    activity_dharma_navaratri_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Navaratri Festival."
+
+    dharma_festivals.126.t:0 "Navaratri begins"
+    dharma_festivals.126.desc:0 "Today is the first day of Navaratri, the nine day festival dedicated to the Goddess Durga and her various incarnations. Each day is also associated with a different color. "
+    dharma_festivals.126.navaratri:0 "Om Sarva Mangala Mangalye"
+
+    dharma_festivals.127.t:0 "Temple Visit"
+    dharma_festivals.127.desc:0 "As part of the Navaratri celebration, it is customary to visit the Temples to the Goddess Durga and give her offerings."
+    dharma_festivals.127.temples:0 "To the Goddess Durga and her incarnations"
+
+    dharma_festivals.128.t:0 "Plays about the Goddess"
+    dharma_festivals.128.desc:0 "It is common to see plays of the Goddess Durga and her slaying the Buffalo Demon. "
+    dharma_festivals.128.plays:0 "What a wonderful show"
+
+    dharma_festivals.129.t:0 "Devi Procession"
+    dharma_festivals.129.desc:0 "During Navaratri it is common to see processions of the Goddess Durga and her many incarnations. Idols of the goddess go down the streets of your capital."
+    dharma_festivals.129.navaratri:0 "A great sight."
+
+    dharma_festivals.130.t:0 "Charity for the people"
+    dharma_festivals.130.desc:0 "As part of the celebrations of Navaratri, it is not uncommon to give gifts to the commoners and lower caste people to show your benevolence and magnanimity. The question is what sort of gift to the commoners shall you give?"
+    dharma_festivals.130.large:0 "A grand gift for the people."
+    dharma_festivals.130.medium:0 "A Large gift for the people."
+    dharma_festivals.130.small:0 "A normal sized gift for the people."
+
+    dharma_festivals.131.t:0 "Animal Sacrifice to Durga"
+    dharma_festivals.131.desc:0 "During Navaratri it is common to sacrifice animals to the Goddess Durga. The brahmins lead the sacrifice of the Buffalo, and with a single strike the animal is sacrificed to the Goddess Durga. This shall bring blessings to my realm."
+    dharma_festivals.131.animal_sacrifice:0 "to Maha Durga"
+
+    dharma_festivals.132.t:0 "Family Feast"
+    dharma_festivals.132.desc:0 "Navaratri is a time to get together with friends and family, and so as the festivities are coming to the last days of the event, you hold a feast at your court, where your servants give you and your family and courties various foods to enjoy during this special time of the year. "
+    dharma_festivals.132.food:0 "Thank you Ma Durga for the food!"
+
+    dharma_festivals.133.t:0 "Gifts for your relatives"
+    dharma_festivals.133.desc:0 "During Navaratri it is common to buy gifts for relatives and loved ones. Of your many relatives whom shall you get a gift for? "
+    dharma_festivals.133.everyone:0 "All my relatives"
+    dharma_festivals.133.elders:0 "My Parents"
+    dharma_festivals.133.spouses:0 "My spouse"
+    dharma_festivals.133.siblings:0 "My Siblings"
+    dharma_festivals.133.children:0 "My Children"
+
+    dharma_festivals.134.t:0 "Ramlila Plays"
+    dharma_festivals.134.desc:0 "In the north, in addition to plays about the Goddess Durga it is common to watch Ramlila shows. These are plays which depict the life of Rama according to the Ramayana. Following the plays, effigies of Ravana, Kumbhakarna, and Indrajit are burnt to celebrate the victory of good over evil."
+    dharma_festivals.134.ramlila:0 "What a great show."
+
+    dharma_festivals.135.t:0 "Ayudha Puja"
+    dharma_festivals.135.desc:0 "In the south of India, one of the ways to celebrate Navaratri is to honor and venerate one's pride instruments or weapons and have them blessed. This way that when you go to war to fight your enemies, a little bit of the power that Durga used to slay Mahishasura can be imbued into your weapons. "
+    dharma_festivals.135.weapons:0 "Thank you Ma Durga."
+
+    dharma_festivals.136.t:0 "Garba Dances"
+    dharma_festivals.136.desc:0 "Your courtyard is filled with life and energy today as a number of dancers have come to your court to put on the famous Garba dances. The exquisite dancers twirl in colorful outfits to honor the Goddess and for your court's enjoyment."
+    dharma_festivals.136.garba:0 "What a wonderful display."
+
+    dharma_festivals.137.t:0 "Durga Puja"
+    dharma_festivals.137.desc:0 "Throughout your capital numerous Pandals have been built containing statues of the Goddess Durga. As the days of the festival progress, you have brought your idol to the river bank to be bathed in the water. Here you immerse the idol of the Goddess into the water where it will disolve and symbolic of her return to the Divine Cosmos and her home on mount Kailash. "
+    dharma_festivals.137.durga:0 "A great time."
+
+    dharma_festivals.138.t:0 "Navaratri concludes"
+    dharma_festivals.138.desc:0 "The festivites of Navaratri are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.138.home:0 "Till next time!"
+
 # Buddhist Festivals
   # Vesak
     dharma_festivals.200.t:0 "Begin the Preparations for Vesak?"
@@ -164,6 +231,7 @@
     dharma_festivals.408.t:0 "Losar concludes"
     dharma_festivals.408.desc:0 "The festivites of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end. "
     dharma_festivals.408.home:0 "The festivities are now concluded."
+
 # Tamil Festivals
   # Pongal
     dharma_festivals.425.t:0 "Begin the Preparations for Pongal?"

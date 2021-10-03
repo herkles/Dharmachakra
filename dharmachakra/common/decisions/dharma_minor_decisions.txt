@@ -625,6 +625,59 @@ dharma_attend_diwali_festival = {# Attend Diwali festival
 		base = 50
 	}
 }
+dharma_attend_navaratri_festival = {# Attend Navaratri festival
+	picture = "gfx/interface/illustrations/decisions/decision_buddhist_retreat.dds" 
+	ai_check_interval = 24
+	cooldown = { days = 365 } # It is an annual festival but let this only happen every couple of years
+	desc = dharma_attend_navaratri_festival_desc
+	
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		OR = {# must be a shakti worshiper or your spouse must be a shakti worship
+			faith = faith:kalikula_shaktism
+			faith = faith:srikula_shaktism
+			AND = {
+				religion = { is_in_family = rf_eastern }
+				any_spouse = { 
+					OR = {
+						faith = faith:kalikula_shaktism
+						faith = faith:srikula_shaktism
+					}
+				}
+			}
+		}
+	}
+	
+	is_valid = {
+		custom_description = {
+			text = dharma_decision_navaratri_month_requirement
+			current_month >= 9
+			current_month <= 10
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = dharma_attend_navaratri_festival_effect_tooltip
+		trigger_event = { id = dharma_festivals.125 }
+	}
+
+	cost = { 
+		gold = { value = medium_gold_value } # need the gold to celebrate the festivities
+	}	
+
+	ai_potential = {
+		short_term_gold > medium_gold_value
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
 #######################################
 # Buddhist Decisions
 #######################################

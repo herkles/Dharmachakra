@@ -577,7 +577,7 @@ dharma_piety_blessing = {
 dharma_victory_blessing = {
 	icon = martial_positive
 	monthly_martial_lifestyle_xp_gain_mult = 0.1
-	martial = 1
+	advantage = 2
 }
 dharma_fertility_blessing = {
 	icon = fertility_positive
