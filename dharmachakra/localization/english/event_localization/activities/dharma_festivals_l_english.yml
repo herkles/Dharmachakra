@@ -69,7 +69,6 @@
     dharma_festivals.110.t:0 "Diwali concludes"
     dharma_festivals.110.desc:0 "The festivites of Diwali are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.110.home:0 "Till next time!"
-
   # Navaratri
     dharma_festivals.125.t:0 "Begin the Preparations for Navaratri?"
     dharma_festivals.125.desc:0 "Navaratri is a holy festival for many Hindus. It is the day dedicated to the Goddess Durga and her salying of the buffalo demon Mahishasura. Should the preparations for Navaratri be announced?"
@@ -189,6 +188,43 @@
     dharma_festivals.210.desc:0 "The festivites of Vesak are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.210.home:0 "Till next time."
 
+# Orissa Festivals
+  # Ratha Yatra 
+    dharma_festivals.300.t:0 "Begin the Preparations for Ratha Yatra?"
+    dharma_festivals.300.desc:0 "It shall soon be the time for Ratha Yatra. Ratha Yatra  is a sacred spiritual time dedicated to Lord Jaganath, which involves the chariots of the Gods being pulled through the streets of your city. Shall you announce that  Ratha Yatra is underway this year?"
+    dharma_festivals.300.ratha_yatra:0 "Lets begin the Preprations"
+    dharma_festivals.300.no_ratha_yatra:0 "I have better things to do..."
+    activity_dharma_ratha_yatra_festival:0 "Ratha Yatra  Festival"
+    activity_dharma_pongal_ratha_yatra_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Ratha Yatra  Festival."
+
+    dharma_festivals.301.t:0 "The Chariots arrive"
+    dharma_festivals.301.desc:0 "At last the time for Ratha Yatra is here. The massive idols of Lord Jagannath, His elder brother Balabhadra and his younger sister Subhadra have been built and set up. The idols are placed on chariots which in turn will be pulled by teams of elephants. "
+    dharma_festivals.301.chariot:0 "This is quite the sight."
+
+    dharma_festivals.302.t:0 "Chhera Pahara"
+    dharma_festivals.302.desc:0 "One of the big rites of the Ratha Yatra, is where the host will sweep the street before the chariots with a specially made golden handled broom while sprinkling sandlewood water and powder. Shall you conduct the rite, or shall you delegate the task to someone else."
+    dharma_festivals.302.sweep:0 "I shall conduct the ritual"
+    dharma_festivals.302.no_sweep:0 "A King does not sweep!"
+
+    dharma_festivals.303.t:0 "The Chariot procession"
+    dharma_festivals.303.desc:0 "After the cleansing of the Chariots comes the center of the festival where the idols of the Gods on their chariots are pulled through [capital] streets. Going from one temple to another."
+    dharma_festivals.303.procession:0 "Om Jagannathaya Namaha"
+
+    dharma_festivals.304.t:0 "The Feast"
+    dharma_festivals.304.desc:0 "After the procession of the idols through the city. In contrast to many other festivals, the idols are made from wood and straw and following the procession they along with the chariots are burned and used for fuel to help the temples cook food for your court and the people. /n/nThus later on in the evening, you are in your courtyard with your courtiers and family as your servants bring you food to enjoy together."
+    dharma_festivals.304.family:0 "Good food with family and friends"
+
+    dharma_festivals.305.t:0 "Charity for the commoners"
+    dharma_festivals.305.desc:0 "As part of Ratha Yatra, not only is the wood from the chariots used to support your feast but also to give food to the commoners. In addition to this it is "
+    dharma_festivals.305.large:0 "A Grand Gift for the people"
+    dharma_festivals.305.medium:0 "A Large gift for the People"
+    dharma_festivals.305.small:0 "A small gift for the people"
+
+    dharma_festivals.306.t:0 "Ratha Yatra concludes"
+    dharma_festivals.306.desc:0 "dxfcrrdf"
+    dharma_festivals.306.dddddd:0 "Ldfns"
+
+
 # Tibetan Festivals
   # Losar
     dharma_festivals.400.t:0 "Begin the Preparations for Losar?"
@@ -200,7 +236,7 @@
 
     dharma_festivals.401.t:0 "Losar Begins!"
     dharma_festivals.401.desc:0 "Your servants have informed everyone that the new year festival is now underway. People both great and small are cleaning out their homes, and servants have begun to make guthok and other food. "
-    dharma_festivals.401.clean:0 "Kra Shis Bde Legs Phun Sum Tshogs"
+    dharma_festivals.401.addf:0 "Kra Shis Bde Legs Phun Sum Tshogs"
 
     dharma_festivals.402.t:0 "Lama Losar"
     dharma_festivals.402.desc:0 "The first day of Losar is Lama Losar, where people pay homage to their gurus and spiritual leaders and visit the monastaries. As I visit the monastary, I can see some peasants making offerings at their household shrines for good harvests in the new year."
@@ -277,7 +313,7 @@
     dharma_festivals.432.desc:0 "One custom of Kaanum Pongal is to give gifts to relatives, the question is whom should you give gifts for?"
     dharma_festivals.432.everyone:0 "I will give a gift for all my relatives"
     dharma_festivals.432.spouse:0 "I shall give a gift to my spouses"
-    dharma_festivals.432.siblings:0 "I shall give a gift to my siblings."
+    dharma_festivals.432.sibilings:0 "I shall give a gift to my siblings."
     dharma_festivals.432.elders:0 "I shall give a gift to my elders."
     dharma_festivals.432.children:0 "I will give a gift to my children."
 
@@ -288,8 +324,49 @@
     dharma_festivals.433.small:0 "A token gift shall do"
 
     dharma_festivals.434.t:0 "Pongal concludes"
-    dharma_festivals.434.desc:0 "Pongal has finally come to an end"
-    dharma_festivals.434.home:0 "Till next time!"
+    dharma_festivals.434.desc:0 "The festivites of Pongal are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.434.losar:0 "Till next time!"
+  # Thaipusam 
+    dharma_festivals.440.t:0 "Begin the Preparations for Thaipusam?"
+    dharma_festivals.440.desc:0 "It shall soon be the time for Thaipusam. Thaipusam is a sacred spiritual time dedicated to Lord Murugan. Shall you announce that Thaipusam is underway this year?"
+    dharma_festivals.440.thaipusam:0 "Lets begin the Preprations"
+    dharma_festivals.440.no_thaipusam:0 "I have better things to do..."
+    activity_dharma_thaipusam_festival:0 "Thaipusam Festival"
+    activity_dharma_thaipusam_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Thaipusam Festival."
+
+    dharma_festivals.441.t:0 "Fasting and Preparation"
+    dharma_festivals.441.desc:0 "Thaipusam will be tomorrow and to prepare yourself you have begun to fast and pray as you prepare yourself mentally and spiritually for tomorrow."
+    dharma_festivals.441.fast:0 "Lets begin the Preprations"
+
+    dharma_festivals.442.t:0 "Shall you peirce yourself?"
+    dharma_festivals.442.desc:0 "One of the distinctive elements of Thaipusam is the peiricings that many devotees have to show their devotion to Lord Murugan and to ask for forgiveness and blessings. These body mortificatiosn can range from skewing the cheeks with a small trident or val to many peiricings."
+    dharma_festivals.442.peirce:0 "I shall peirce myself for Lord Murugan"
+    dharma_festivals.442.no_peirce:0 "I have better things to do..."
+
+    dharma_festivals.443.t:0 "Procession to the Temple"
+    dharma_festivals.443.desc.peircing:0 "You proceed to the temple, in a trance like state as you proceed to the Temple of Lord Murugan. Your body skewed with peiricings as you proceed down the street. Along the way you see others carrying pots of milk and dancing as the procession makes their way to the temple."
+    dharma_festivals.443.desc.normal:0 "You proceed to the Temple of Lord Muruugan. As you proceed carrying your offerings, you see numerous people with peiricings and skewers showing their faith. You see other people carrying pots of milk and dancing as the procession makes their way to the temple."
+    dharma_festivals.443.procession:0 "Om Skandaya Namaha"
+
+    dharma_festivals.444.t:0 "Offering to Lord Murugan"
+    dharma_festivals.444.desc:0 "As you reach the temple and perform the Puja and rituals to honor Lord Murugan, what shall you pray for and hope to achieve. "
+    dharma_festivals.444.fertility:0 "For Fertility"
+    dharma_festivals.444.health:0 "For Health"
+    dharma_festivals.444.victory:0 "For Victory"
+    dharma_festivals.444.sins:0 "The removal of my sins"
+    dharma_festivals.444.piety:0 "To Honor Lord Murugan"
+    dharma_festivals.444.wisdom:0 "Wisdom and enlightenment"
+
+    dharma_festivals.445.t:0 "Charity for Murugan"
+    dharma_festivals.445.desc:0 "On Thaipusam it is not uncommon to see people donate and give charity to honor Lord Murugan. What sort of offering shall you give to honor Lord Murugan."
+    dharma_festivals.445.large:0 "A grand donation"
+    dharma_festivals.445.medium:0 "A large donation"
+    dharma_festivals.445.small:0 "A small donation"
+
+    dharma_festivals.446.t:0 "Thaipusam concludes"
+    dharma_festivals.446.desc:0 "The festivites of Thaipusam are now finally over, and the spiritual mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.446.pongal:0 "Lets begin the Preprations"
+
 
 
 
