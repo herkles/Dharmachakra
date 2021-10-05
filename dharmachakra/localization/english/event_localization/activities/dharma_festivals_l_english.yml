@@ -221,9 +221,51 @@
     dharma_festivals.305.small:0 "A small gift for the people"
 
     dharma_festivals.306.t:0 "Ratha Yatra concludes"
-    dharma_festivals.306.desc:0 "dxfcrrdf"
-    dharma_festivals.306.dddddd:0 "Ldfns"
+    dharma_festivals.306.desc:0 "The festivites of Ratha Yatra are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
+    dharma_festivals.306.home:0 "Till next time!"
+# Burmerse Festivals
+  # Thingyan
+    dharma_festivals.315.t:0 "Begin the Preparations for Losar?"
+    dharma_festivals.315.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
+    dharma_festivals.315.losar:0 "Lets begin the Preprations"
+    dharma_festivals.315.no_losar:0 "I have better things to do..."
+    activity_dharma_losar_festival:0 "Losar Festival"
+    activity_dharma_losar_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Losar Festival."
 
+    dharma_festivals.316.t:0 "a-kyo nei"
+    dharma_festivals.316.desc:0 "Thingyan is almost here, today is A-Kyo Nei, which is Thingyan Eve. A number of prayers and rituals preparing one for the festivals occures today, including taking the Buddhist eight precepts."
+    dharma_festivals.202.eight:0 "Eight Precepts for Thingyan"
+    dharma_festivals.202.five:0 "I shall stick with the five precepts"
+
+    dharma_festivals.317.t:0 "a-kya nei"
+    dharma_festivals.317.desc:0 "Today is A-kya Nei, when Thingyan begins. It is the day when Thagya Min makes his descent from the heavens. It is also the time when people come together to throw water at one another and have fun splashing in the water. "
+    dharma_festivals.317.dfafd:0 "Thank you Thagya Min for the water"
+
+    dharma_festivals.318.t:0 "Releasing Fish"
+    dharma_festivals.318.desc:0 "As part of the Thingyan celebrations, one of the common activities that you engage in is to transport fish from drying lakes and rivers to larger lakes and rivers and praying for them after you release them to swim away in peace."
+    dharma_festivals.318.ddfa:0 "I release you once, you release me ten times."
+
+    dharma_festivals.319.t:0 "Charity for the commoners"
+    dharma_festivals.319.desc:0 "During Thingyan it is common to celebrate by giving gifts to the commoners to show your generosity and magnaminious. What sort of gift shall you give the commoners?"
+    dharma_festivals.319.large:0 "A grand gift for the commoners."
+    dharma_festivals.319.medium:0 "A normal gift for the commoners."
+    dharma_festivals.319.small:0 "A token gift for the commoners"
+
+    dharma_festivals.320.t:0 "A-Tet Nei"
+    dharma_festivals.320.desc:0 "After the days of throwing water at one another and fun, a-tet nei arrives which marks the stopping of throwing water. "
+    dharma_festivals.320.thingyan:0 "Till next time"
+
+    dharma_festivals.321.t:0 "Hair Washing ritual"
+    dharma_festivals.321.desc:0 "One of the customs is for royalty to engage in an elaborate ritual to purify themself and cleanse themselves. This also includes a special hair washing ritual using water from Gaungsay Kyun, along with several herbs, melted snow and coconut water to cleanse yourself."
+    dharma_festivals.321.hair:0 "I feel cleansed. "
+
+    dharma_festivals.322.t:0 "Hnit hsan Ta Yet Nei"
+    dharma_festivals.322.desc:0 "The last day of Thingyan, which marks the new year actually begining, culimanates with a feast for you and your court. Your servants have brought out a number of traditional delicies and food for you, your family and cour to enjoy."
+    dharma_festivals.322.feast:0 "Good food and good times"
+
+    dharma_festivals.323.t:0 "Thingyan Ends"
+    dharma_festivals.323.desc:0 "The festivites of Thingyan are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.323.home:0 "Till next time"
 
 # Tibetan Festivals
   # Losar

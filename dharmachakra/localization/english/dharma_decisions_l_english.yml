@@ -138,9 +138,14 @@ dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
     dharma_attend_ratha_yatra_festival:0 "Celebrate Ratha Yatra"
     dharma_attend_ratha_yatra_festival_desc:0 "Ratha Yatra is an Oriya Chariot Festival dedicated to Jagannath."
     dharma_attend_ratha_yatra_festival_effect_tooltip:0 "You will begin to make preparations for Ratha Yatra"
-    dharma_attend_ratha_yatra_festival_confirm:0 "To Maa Durga!"
+    dharma_attend_ratha_yatra_festival_confirm:0 "To Lord Jagannath!"
     dharma_decision_ratha_yatra_month_requirement:0 "Ratha Yatra takes place around June or July in the Gregorian Calendar."
-
+  # Thingyan Festival
+    dharma_attend_thingyan_festival:0 "Celebrate Thingyan"
+    dharma_attend_thingyan_festival_desc:0 "Thingyan is the celebration of the new year in the Burmese Calendar."
+    dharma_attend_thingyan_festival_effect_tooltip:0 "You will begin to make preparations for Thingyan"
+    dharma_attend_thingyan_festival_confirm:0 "Time to celebrate the New Year!"
+    dharma_decision_thingyan_month_requirement:0 "Thingyan takes place around April in the Gregorian Calendar."
 
 
 
