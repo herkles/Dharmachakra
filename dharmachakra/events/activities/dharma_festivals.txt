@@ -79,7 +79,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 			desc = dharma_festivals.102.desc.spouse
 		}
 	}	
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -164,7 +164,7 @@ dharma_festivals.103 = {# Naraka Chaturdashi
 	type = character_event
 	title = dharma_festivals.103.t
 	desc = dharma_festivals.103.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -192,7 +192,7 @@ dharma_festivals.104 = {# Lakshmi Puja
 	type = character_event
 	title = dharma_festivals.104.t
 	desc = dharma_festivals.104.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_interior
 	
 	left_portrait = {
 		character = root
@@ -219,7 +219,7 @@ dharma_festivals.105 = {# Family Feast
 	type = character_event
 	title = dharma_festivals.105.t
 	desc = dharma_festivals.105.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -299,7 +299,7 @@ dharma_festivals.106 = {# Giving the gift to your loved ones
 			desc = dharma_festivals.106.desc.spouse
 		}
 	}	
-	theme = dharma_tibet_temple_interior
+	theme = dharma_india_balcony
 	
 	left_portrait = {
 		character = root
@@ -405,7 +405,7 @@ dharma_festivals.107 = {# Balipratipada
 	type = character_event
 	title = dharma_festivals.107.t
 	desc = dharma_festivals.107.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -476,7 +476,7 @@ dharma_festivals.108 = {# pachikalu dice game
 	type = character_event
 	title = dharma_festivals.108.t
 	desc = dharma_festivals.108.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -557,7 +557,7 @@ dharma_festivals.109 = {# Bhai Dooj
 			desc = dharma_festivals.109.desc.brother
 		}
 	}	
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -620,7 +620,7 @@ dharma_festivals.110 = {# Diwali concludes
 	type = character_event
 	title = dharma_festivals.110.t
 	desc = dharma_festivals.110.desc
-	theme = throne
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -655,8 +655,8 @@ dharma_festivals.111 = {# Misc cleanup
 #######################################
 dharma_festivals.125 = {# Prepare for the Navaratri Festival
 	type = character_event
-	title = dharma_festivals.100.t
-	desc = dharma_festivals.100.desc
+	title = dharma_festivals.125.t
+	desc = dharma_festivals.125.desc
 	theme = friendly
 	
 	left_portrait = root
@@ -668,7 +668,7 @@ dharma_festivals.125 = {# Prepare for the Navaratri Festival
 	}
 	
 	option = {# Time to begin the preparations 
-		name = dharma_festivals.100.navaratri
+		name = dharma_festivals.125.navaratri
 		scope:capital_province = {	
 			spawn_activity = {
 				owner = root
@@ -677,7 +677,7 @@ dharma_festivals.125 = {# Prepare for the Navaratri Festival
 		}
 	}
 	option = {# I have better things to do right now
-		name = dharma_festivals.100.no_navaratri
+		name = dharma_festivals.125.no_navaratri
 		remove_character_flag = planning_an_activity
 	}
 }
@@ -686,7 +686,7 @@ dharma_festivals.126 = {# Navaratri begins Color for each day
 	type = character_event
 	title = dharma_festivals.126.t
 	desc = dharma_festivals.126.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_interior
 	
 	left_portrait = {
 		character = root
@@ -694,7 +694,7 @@ dharma_festivals.126 = {# Navaratri begins Color for each day
 	}
 
 	option = {# Dhanteras
-		name = dharma_festivals.126.diwali
+		name = dharma_festivals.126.navaratri
 		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -728,7 +728,7 @@ dharma_festivals.127 = {# visiting the temples to honor the Goddess
 	type = character_event
 	title = dharma_festivals.127.t
 	desc = dharma_festivals.127.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_interior
 	
 	left_portrait = {
 		character = root
@@ -755,7 +755,7 @@ dharma_festivals.128 = {# Plays about Shakti and Durga
 	type = character_event
 	title = dharma_festivals.128.t
 	desc = dharma_festivals.128.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -772,7 +772,7 @@ dharma_festivals.128 = {# Plays about Shakti and Durga
 
 	after = {
 		trigger_event = { 
-			id = dharma_festivals.101292
+			id = dharma_festivals.128
 			days = 1
 		}
 	}
@@ -782,7 +782,7 @@ dharma_festivals.129 = {# Shakti Procession
 	type = character_event
 	title = dharma_festivals.129.t
 	desc = dharma_festivals.129.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -790,7 +790,7 @@ dharma_festivals.129 = {# Shakti Procession
 	}
 
 	option = {# Dhanteras
-		name = dharma_festivals.129.diwali
+		name = dharma_festivals.129.navaratri
 		add_prestige = minor_prestige_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -809,7 +809,7 @@ dharma_festivals.130 = {# Charity for the people
 	type = character_event
 	title = dharma_festivals.130.t
 	desc = dharma_festivals.130.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -880,7 +880,7 @@ dharma_festivals.131 = {# Animal Sacrifice to Durga
 	type = character_event
 	title = dharma_festivals.131.t
 	desc = dharma_festivals.131.desc
-	theme = dharma_tibet_temple_interior
+	theme = wood_temple
 	
 	left_portrait = {
 		character = root
@@ -901,9 +901,7 @@ dharma_festivals.131 = {# Animal Sacrifice to Durga
 
 	after = {
 		if = {# North India
-			limit = {
-				capital_province = {geographical_region = world_india_rajastan }
-				}
+			limit = { capital_province = { geographical_region = world_india_rajastan } }
 				NOT = {# Gujarati characters do something else
 					has_culture = culture:gujarati
 					has_culture = culture:saurashtra
@@ -913,8 +911,7 @@ dharma_festivals.131 = {# Animal Sacrifice to Durga
 				id = dharma_festivals.134
 				days = 1
 			}
-		}
-		if = {# south India
+			else_if = {# south India
 			limit = {
 				capital_province = {geographical_region = world_india_deccan }
 			}
@@ -923,7 +920,7 @@ dharma_festivals.131 = {# Animal Sacrifice to Durga
 				days = 1
 			}
 		}
-		if = {# Eastern India
+		else_if = {# Eastern India
 			limit = {
 				capital_province = {geographical_region = world_india_bengal }
 			}
@@ -938,16 +935,13 @@ dharma_festivals.131 = {# Animal Sacrifice to Durga
 				days = 1
 			}
 		}
-
-
 	}
-
 }
 dharma_festivals.132 = {# Family Feast
 	type = character_event
 	title = dharma_festivals.132.t
 	desc = dharma_festivals.132.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -982,7 +976,7 @@ dharma_festivals.133 = {# Gifts for your relatives
 	type = character_event
 	title = dharma_festivals.133.t
 	desc = dharma_festivals.133.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -1117,7 +1111,7 @@ dharma_festivals.134 = {# Ramlila - North India
 	type = character_event
 	title = dharma_festivals.134.t
 	desc = dharma_festivals.134.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_india_pyre
 	
 	left_portrait = {
 		character = root
@@ -1144,7 +1138,7 @@ dharma_festivals.135 = {# Ayudha Puja - South India
 	type = character_event
 	title = dharma_festivals.135.t
 	desc = dharma_festivals.135.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_interior
 	
 	left_portrait = {
 		character = root
@@ -1184,7 +1178,7 @@ dharma_festivals.136 = {# Garba Dances - Gujarat
 	type = character_event
 	title = dharma_festivals.136.t
 	desc = dharma_festivals.136.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -1212,7 +1206,7 @@ dharma_festivals.137 = {# Durga Puja - Eastern India
 	type = character_event
 	title = dharma_festivals.137.t
 	desc = dharma_festivals.137.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_interior
 	
 	left_portrait = {
 		character = root
@@ -1308,7 +1302,7 @@ dharma_festivals.201 = {# Vesak begins
 	type = character_event
 	title = dharma_festivals.201.t
 	desc = dharma_festivals.201.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -1335,7 +1329,7 @@ dharma_festivals.202 = {# The Buddhist Precipets
 	type = character_event
 	title = dharma_festivals.202.t
 	desc = dharma_festivals.202.desc
-	theme = dharma_tibet_temple_interior
+	theme = wood_temple
 	
 	left_portrait = {
 		character = root
@@ -1367,7 +1361,7 @@ dharma_festivals.203 = {# Visiting the monastaries
 	type = character_event
 	title = dharma_festivals.203.t
 	desc = dharma_festivals.203.desc
-	theme = dharma_tibet_temple_interior
+	theme = asian_temple
 	
 	left_portrait = {
 		character = root
@@ -1399,7 +1393,7 @@ dharma_festivals.204 = {# Dharma Talk from the monks
 	type = character_event
 	title = dharma_festivals.204.t
 	desc = dharma_festivals.204.desc
-	theme = dharma_tibet_temple_interior
+	theme = asian_temple
 	
 	left_portrait = {
 		character = root
@@ -1431,7 +1425,7 @@ dharma_festivals.205 = {# Family Feast
 	type = character_event
 	title = dharma_festivals.205.t
 	desc = dharma_festivals.205.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -1463,7 +1457,7 @@ dharma_festivals.206 = {# Animal Release
 	type = character_event
 	title = dharma_festivals.206.t
 	desc = dharma_festivals.206.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_bridge
 	
 	left_portrait = {
 		character = root
@@ -1503,7 +1497,7 @@ dharma_festivals.207 = {# Prisoner Release
 	type = character_event
 	title = dharma_festivals.207.t
 	desc = dharma_festivals.207.desc
-	theme = dharma_tibet_temple_interior
+	theme = throne
 	
 	left_portrait = {
 		character = root
@@ -1565,7 +1559,7 @@ dharma_festivals.208 = {# Charity for the commoners
 	type = character_event
 	title = dharma_festivals.208.t
 	desc = dharma_festivals.208.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -1737,7 +1731,7 @@ dharma_festivals.301 = {# The Chariots arrive
 	type = character_event
 	title = dharma_festivals.301.t
 	desc = dharma_festivals.301.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -1764,7 +1758,7 @@ dharma_festivals.302 = {# Chhera Pahara
 	type = character_event
 	title = dharma_festivals.302.t
 	desc = dharma_festivals.302.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -1802,7 +1796,7 @@ dharma_festivals.303 = {# The Chariot procession
 	type = character_event
 	title = dharma_festivals.303.t
 	desc = dharma_festivals.303.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -1829,7 +1823,7 @@ dharma_festivals.304 = {# The feast
 	type = character_event
 	title = dharma_festivals.304.t
 	desc = dharma_festivals.304.desc
-	theme = dharma_tibet_temple_interior
+	theme = throne
 	
 	left_portrait = {
 		character = root
@@ -1872,7 +1866,7 @@ dharma_festivals.305 = {# Charity for the commoners
 	type = character_event
 	title = dharma_festivals.305.t
 	desc = dharma_festivals.305.desc
-	theme = dharma_tibet_temple_interior
+	theme = throne
 	
 	left_portrait = {
 		character = root
@@ -1957,7 +1951,7 @@ dharma_festivals.306 = {# Ratha Yatra concludes
 
 	after = {
 		trigger_event = { 
-			id = dharma_festivals.447
+			id = dharma_festivals.307
 			days = 1	
 		}
 	}
@@ -2012,7 +2006,7 @@ dharma_festivals.316 = {# a-kyo nei - Thingyan Eve
 	type = character_event
 	title = dharma_festivals.316.t
 	desc = dharma_festivals.316.desc
-	theme = dharma_tibet_temple_interior
+	theme = throne
 	
 	left_portrait = {
 		character = root
@@ -2044,7 +2038,7 @@ dharma_festivals.317 = {# a-kya nei
 	type = character_event
 	title = dharma_festivals.301.t
 	desc = dharma_festivals.301.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_bridge
 	
 	left_portrait = {
 		character = root
@@ -2073,7 +2067,7 @@ dharma_festivals.318 = {# Releasing Fish
 	type = character_event
 	title = dharma_festivals.301.t
 	desc = dharma_festivals.301.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_bridge
 	
 	left_portrait = {
 		character = root
@@ -2104,7 +2098,7 @@ dharma_festivals.319 = {# Charity for the commoners
 	type = character_event
 	title = dharma_festivals.301.t
 	desc = dharma_festivals.301.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -2131,7 +2125,7 @@ dharma_festivals.320 = {# a-tet nei
 	type = character_event
 	title = dharma_festivals.301.t
 	desc = dharma_festivals.301.desc
-	theme = dharma_tibet_temple_interior
+	theme = throne
 	
 	left_portrait = {
 		character = root
@@ -2157,7 +2151,7 @@ dharma_festivals.321 = {# Hair washing ritual
 	type = character_event
 	title = dharma_festivals.301.t
 	desc = dharma_festivals.301.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_pond
 	
 	left_portrait = {
 		character = root
@@ -2184,7 +2178,7 @@ dharma_festivals.322 = {# hnit hsan ta yet nei - Day 4
 	type = character_event
 	title = dharma_festivals.301.t
 	desc = dharma_festivals.301.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -2243,7 +2237,7 @@ dharma_festivals.323 = {# Thingyan concludes
 
 	after = {
 		trigger_event = { 
-			id = dharma_festivals.447
+			id = dharma_festivals.324
 			days = 1	
 		}
 	}
@@ -2633,7 +2627,7 @@ dharma_festivals.426 = {# Bhogi Pongal
 	type = character_event
 	title = dharma_festivals.426.t
 	desc = dharma_festivals.426.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_india_pyre
 	
 	left_portrait = {
 		character = root
@@ -2660,7 +2654,7 @@ dharma_festivals.427 = {# Surya Pongal
 	type = character_event
 	title = dharma_festivals.427.t
 	desc = dharma_festivals.427.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_pond
 	
 	left_portrait = {
 		character = root
@@ -2688,7 +2682,7 @@ dharma_festivals.428 = {# Sugarcane Market
 	type = character_event
 	title = dharma_festivals.428.t
 	desc = dharma_festivals.428.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -2738,7 +2732,7 @@ dharma_festivals.429 = {# Mattu Pongal
 	type = character_event
 	title = dharma_festivals.429.t
 	desc = dharma_festivals.429.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_rice_farmers
 	
 	left_portrait = {
 		character = root
@@ -2771,7 +2765,7 @@ dharma_festivals.430 = {# Jallikattu performance
 	type = character_event
 	title = dharma_festivals.430.t
 	desc = dharma_festivals.430.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -2855,7 +2849,7 @@ dharma_festivals.431 = {# Kaanum Pongal
 	type = character_event
 	title = dharma_festivals.431.t
 	desc = dharma_festivals.431.desc
-	theme = dharma_tibet_temple_interior
+	theme = friendly
 	
 	left_portrait = {
 		character = root
@@ -2898,7 +2892,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 	type = character_event
 	title = dharma_festivals.432.t
 	desc = dharma_festivals.432.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_india_balcony
 	
 	left_portrait = {
 		character = root
@@ -3032,7 +3026,7 @@ dharma_festivals.433 = {# A gift for your commoners and servants?
 	type = character_event
 	title = dharma_festivals.433.t
 	desc = dharma_festivals.433.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -3151,7 +3145,7 @@ dharma_festivals.441 = {# fasting and preparation
 	type = character_event
 	title = dharma_festivals.441.t
 	desc = dharma_festivals.441.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_interior
 	
 	left_portrait = {
 		character = root
@@ -3184,7 +3178,7 @@ dharma_festivals.442 = {# Shall you peirce yourself?
 	type = character_event
 	title = dharma_festivals.442.t
 	desc = dharma_festivals.442.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_interior
 	
 	left_portrait = {
 		character = root
@@ -3193,10 +3187,6 @@ dharma_festivals.442 = {# Shall you peirce yourself?
 
 	option = {# I shall peirce myself
 		name = dharma_festivals.442.peirce
-		add_character_modifier = {
-			modifier = dharma_thaipusam_peircing
-			days = 30
-		}
 		add_character_flag = thaipusam_peirce
 		random_list = {
 			10 = {
@@ -3244,7 +3234,7 @@ dharma_festivals.443 = {# Procession to the Temple
 			desc = dharma_festivals.443.desc.normal
 		}
 	}	
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
@@ -3284,7 +3274,7 @@ dharma_festivals.444 = {# Offering to Lord Murugan
 	type = character_event
 	title = dharma_festivals.444.t
 	desc = dharma_festivals.444.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_temple_interior
 	
 	left_portrait = {
 		character = root
@@ -3408,7 +3398,7 @@ dharma_festivals.445 = {# Charity for Murugan
 	type = character_event
 	title = dharma_festivals.445.t
 	desc = dharma_festivals.445.desc
-	theme = dharma_tibet_temple_interior
+	theme = dharma_city_entrence
 	
 	left_portrait = {
 		character = root
