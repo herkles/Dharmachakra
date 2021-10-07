@@ -1187,15 +1187,14 @@ dharma_attend_thaipusam_festival = {# Attend Thaipusam festival
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
-		OR = {# either Tamil Hindus or a follower of Kaumaram
-			AND = {# All Tamil Hindus can celebrate the festival
+		OR = {
+			faith = faith:kaumaram # Kaumaram focuses on Lord Murugan so if you follow it, you can participate regardless of culture.
+			AND = {
 					religion = religion:hinduism_religion
 					has_culture	 = culture:tamil
 				}
 			}
-			faith = faith:kaumaram # Kaumaram focuses on Lord Murugan so if you follow it, you can participate regardless of culture.
 		}
-	}
 	
 	is_valid = {
 		has_culture	 = culture:tamil
@@ -1313,15 +1312,3 @@ dharma_attend_thingyan_festival = {# Attend Thingyan festival
 		base = 50
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
