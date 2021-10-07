@@ -1312,3 +1312,57 @@ dharma_attend_thingyan_festival = {# Attend Thingyan festival
 		base = 50
 	}
 }
+dharma_attend_chhath_festival = {# Attend Chhath festival
+	picture = "gfx/interface/illustrations/decisions/dharma_indian_festival.dds" 
+	ai_check_interval = 24
+	cooldown = { days = 365 } # It is an annual festival but let this only happen every couple of years
+	desc = dharma_attend_chhath_festivall_desc
+
+	
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		OR = {
+			faith = faith:suryaism 
+			AND = {
+				religion = religion:hinduism_religion
+				has_culture	 = culture:bihari
+			}
+		}			
+	}
+	
+	is_valid = {
+		has_culture	= culture:bihari
+		custom_description = {
+			text = dharma_decision_chhath_month_requirement
+			current_month >= 10
+			current_month <= 11
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = dharma_attend_chhath_festival_effect_tooltip
+		trigger_event = { id = dharma_festivals.330 }
+	}
+
+	cost = { 
+		gold = { value = medium_gold_value } # need the gold to celebrate the festivities
+	}	
+
+	ai_potential = {
+		short_term_gold > medium_gold_value
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
+
+
+
+
+
