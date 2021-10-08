@@ -2344,7 +2344,7 @@ dharma_festivals.331 = {# Nahaye Khaye - Day One
 	}
 
 	option = {# release Fish!
-		name = dharma_festivals.331.fish
+		name = dharma_festivals.331.surya
 		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -2375,7 +2375,7 @@ dharma_festivals.332 = {# Rasiaav-Roti - Day Two
 	}
 
 	option = {# release Fish!
-		name = dharma_festivals.332.fish
+		name = dharma_festivals.332.fast
 		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -2406,7 +2406,7 @@ dharma_festivals.333 = {# Sandhya Arghya - Day Three
 	}
 
 	option = {# release Fish!
-		name = dharma_festivals.333.fish
+		name = dharma_festivals.333.honor
 		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -2437,7 +2437,7 @@ dharma_festivals.334 = {# Usha Arghya - Day Four
 	}
 
 	option = {# release Fish!
-		name = dharma_festivals.334.fish
+		name = dharma_festivals.334.feast
 		every_close_or_extended_family_member = {
 			limit = { is_alive = yes }
 			add_opinion = {

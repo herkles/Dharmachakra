@@ -146,7 +146,12 @@ dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
     dharma_attend_thingyan_festival_effect_tooltip:0 "You will begin to make preparations for Thingyan"
     dharma_attend_thingyan_festival_confirm:0 "Time to celebrate the New Year!"
     dharma_decision_thingyan_month_requirement:0 "Thingyan takes place around April in the Gregorian Calendar."
-
+  # Chhath Festival
+    dharma_attend_chhath_festival:0 "Celebrate Chhath"
+    dharma_attend_chhath_festival_desc:0 "Chhath is an ancient festival and celebration dedicated to Surya."
+    dharma_attend_chhath_festival_effect_tooltip:0 "You will begin to make preparations for Chhath"
+    dharma_attend_chhath_festival_confirm:0 "Time to honor the Sun"
+    dharma_decision_chhath_month_requirement:0 "Chhath takes place around October or November in the Gregorian Calendar."
 
 
 

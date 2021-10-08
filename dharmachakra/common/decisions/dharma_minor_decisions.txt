@@ -1316,7 +1316,7 @@ dharma_attend_chhath_festival = {# Attend Chhath festival
 	picture = "gfx/interface/illustrations/decisions/dharma_indian_festival.dds" 
 	ai_check_interval = 24
 	cooldown = { days = 365 } # It is an annual festival but let this only happen every couple of years
-	desc = dharma_attend_chhath_festivall_desc
+	desc = dharma_attend_chhath_festival_desc
 
 	
 	is_shown = {

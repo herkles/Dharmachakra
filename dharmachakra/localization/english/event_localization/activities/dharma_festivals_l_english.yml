@@ -225,12 +225,12 @@
     dharma_festivals.306.home:0 "Till next time!"
 # Burmerse Festivals
   # Thingyan
-    dharma_festivals.315.t:0 "Begin the Preparations for Losar?"
-    dharma_festivals.315.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
-    dharma_festivals.315.losar:0 "Lets begin the Preprations"
-    dharma_festivals.315.no_losar:0 "I have better things to do..."
-    activity_dharma_losar_festival:0 "Losar Festival"
-    activity_dharma_losar_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Losar Festival."
+    dharma_festivals.315.t:0 "Begin the Preparations for Thingyan?"
+    dharma_festivals.315.desc:0 "Losar is the New Year festival for the Burmese People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
+    dharma_festivals.315.thingyan:0 "Lets begin the Preprations"
+    dharma_festivals.315.no_thingyan:0 "I have better things to do..."
+    activity_dharma_thingyan_festival:0 "Thingyan Festival"
+    activity_dharma_thingyan_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Thingyan Festival."
 
     dharma_festivals.316.t:0 "a-kyo nei"
     dharma_festivals.316.desc:0 "Thingyan is almost here, today is A-Kyo Nei, which is Thingyan Eve. A number of prayers and rituals preparing one for the festivals occures today, including taking the Buddhist eight precepts."
@@ -266,7 +266,40 @@
     dharma_festivals.323.t:0 "Thingyan Ends"
     dharma_festivals.323.desc:0 "The festivites of Thingyan are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.323.home:0 "Till next time"
+# Bihari Festivals
+  # Chhath
+    dharma_festivals.330.t:0 "Begin the Preparations for Losar?"
+    dharma_festivals.330.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
+    dharma_festivals.330.chhath:0 "Lets begin the Preprations"
+    dharma_festivals.330.no_chhath:0 "I have better things to do..."
+    activity_dharma_losar_festival:0 "Losar Festival"
+    activity_dharma_losar_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Losar Festival."
 
+    dharma_festivals.331.t:0 "Nahaye Khaye"
+    dharma_festivals.331.desc:0 "Today is the first day of Chhath Puja. After bathing, your palace is cleaned and the food is placed out before the sun so that Surya's rays can shine down upon it. After which this vegetarian meal is eating. Today is a day of cleansing and preparing for the fast. "
+    dharma_festivals.331.surya:0 "Om Surya Devay Namah"
+
+    dharma_festivals.332.t:0 "Rasiaav-Roti"
+    dharma_festivals.332.desc:0 "On the second day of Chhath, the fast begins. During the day, you are not to even have a sip of water. You wait eagerly for the sun to go down, so that you can have your water, kheer, and roti."
+    dharma_festivals.332.fast:0 "Not even a glass of water!"
+
+    dharma_festivals.333.t:0 "Sandhya Arghya"
+    dharma_festivals.333.desc:0 "Today is the third day of Chhath, where you continue fasting as the day before. However, this evening during the twilight hours, you prepare a bamboo basket decorated with fruits, rice laddus, and thekua which you offer to Lord Surya, leading your family and court in the rituals. After the rituals are done sung, and tales of Lord Surya are recited."
+    dharma_festivals.333.honor:0 "Om Surya Devay Namah"
+
+    dharma_festivals.334.t:0 "Usha Arghya"
+    dharma_festivals.334.desc:0 "The final day of Chhath is here. Here you go to the riverbank where rituals and offerings are made to Lord Surya for happiness for your whole fantasy. After which the fast is fully broken in the evening with a vegetarian feast with your court and family."
+    dharma_festivals.334.feast:0 "Thank you Lord Surya"
+
+    dharma_festivals.335.t:0 "Charity for the Commoners"
+    dharma_festivals.335.desc:0 "As Chhath is coming to an end, it is also customary to give the people a gift to show your generosity and greatness and that of Lord Surya. What sort of gift shall you offer?"
+    dharma_festivals.335.large:0 "A grand gift for the People"
+    dharma_festivals.335.medium:0 "A medium Gift for the people"
+    dharma_festivals.335.small:0 "A small gift for the People"
+
+    dharma_festivals.336.t:0 "Chhath concludes"
+    dharma_festivals.336.desc:0 "The festivites of Chhath are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
+    dharma_festivals.336.home:0 "Till next year!"
 # Tibetan Festivals
   # Losar
     dharma_festivals.400.t:0 "Begin the Preparations for Losar?"
