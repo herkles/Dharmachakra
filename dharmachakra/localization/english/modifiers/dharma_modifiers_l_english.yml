@@ -292,4 +292,11 @@ bhakti_hinduism_devnarayan_desc:0 "This character's bhakti is for Devnarayan, Ma
   dharma_festival_pongal_sugarcane_market_modifier:0 "Sugarcane Market"
   dharma_festival_pongal_sugarcane_market_modifier_desc:0 "The sugarcane market during Pongal attracts people and to this province."
 
+  dharma_gangaur_patronized_market:0 "Patronized Gangaur Market"
+  dharma_gangaur_patronized_market_desc:0 "The ruler of this province has patronized the local market during Gangaur."
 
+  dharma_gangaur_market:0 "Gangaur Market"
+  dharma_gangaur_market_desc:0 "The market during Gangaur attracts people and to this province."
+
+  dharma_gangaur_fasting:0 "Fasting during Gangaur"
+  dharma_gangaur_fasting_desc:0 "This character is fasting during the festival of Gangaur."

@@ -1361,7 +1361,51 @@ dharma_attend_chhath_festival = {# Attend Chhath festival
 		base = 50
 	}
 }
+dharma_attend_gangaur_festival = {# Attend Gangaur festival
+	picture = "gfx/interface/illustrations/decisions/dharma_indian_festival.dds" 
+	ai_check_interval = 24
+	cooldown = { days = 365 } # It is an annual festival but let this only happen every couple of years
+	desc = dharma_attend_gangaur_festival_desc
+	
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		OR = {
+			religion = religion:hinduism_religion
+			has_culture	 = culture:rajput
+		}			
+	}
+	
+	is_valid = {
+		has_culture	= culture:rajput
+		custom_description = {
+			text = dharma_decision_gangaur_month_requirement
+			current_month >= 3
+			current_month <= 4
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
 
+	effect = {
+		custom_tooltip = dharma_attend_gangaur_festival_effect_tooltip
+		trigger_event = { id = dharma_festivals.350 }
+	}
+
+	cost = { 
+		gold = { value = medium_gold_value } # need the gold to celebrate the festivities
+	}	
+
+	ai_potential = {
+		short_term_gold > medium_gold_value
+	}
+
+	ai_will_do = {
+		base = 50
+	}
+}
 
 
 

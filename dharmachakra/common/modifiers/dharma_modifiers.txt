@@ -610,3 +610,25 @@ dharma_festival_pongal_sugarcane_market_modifier = {
 	county_opinion_add = 10
 	tax_mult = 0.05
 }
+dharma_gangaur_fasting = {
+	icon = health_negative
+	health = -0.1
+	monthly_piety_gain_mult = 0.15
+}
+dharma_gangaur_patronized_market = {
+	icon = county_modifier_development_positive
+	county_opinion_add = 25
+	tax_mult = 0.1
+}
+dharma_gangaur_market = {
+	icon = county_modifier_opinion_positive
+	county_opinion_add = 10
+	tax_mult = 0.05
+}
+
+
+
+
+
+
+

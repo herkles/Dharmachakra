@@ -300,6 +300,77 @@
     dharma_festivals.336.t:0 "Chhath concludes"
     dharma_festivals.336.desc:0 "The festivites of Chhath are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
     dharma_festivals.336.home:0 "Till next year!"
+# Rajasthani Festivals
+  # Gangaur
+    dharma_festivals.350.t:0 "Begin the Preparations for Gangaur?"
+    dharma_festivals.350.desc:0 "Gangaur is a festival that celebrates Gaur and Gana, local names for Lord Shiva and Ma Parvati. This festival is a colorful festival that both the Rajasthani elites and commoners like to celebrate, especially women. Shall the preprations for this festival of love and maritial bliss be announced?"
+    dharma_festivals.350.gangaur:0 "Lets begin the Preprations"
+    dharma_festivals.350.no_gangaur:0 "I have better things to do..."
+    activity_dharma_gangaur_festival:0 "Gangaur Festival"
+    activity_dharma_gangaur_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Gangaur Festival."
+
+    dharma_festivals.351.t:0 "Gangaur begins"
+    dharma_festivals.351.desc.male:0 "The time for Gangaur is now here, the women in your family and your court have begun to worship the divine couple. The festivites for Gangaur have now begun."
+    dharma_festivals.351.desc.female:0 "The time for Ganguar is now upon you. You and the rest of the ladies of the court have begun to worship the divine couple, with you leading the rest of the ladies in the court. One of the important customs that you begin is a fast, where you eat only one meal per day during the festivals."
+    dharma_festivals.351.gangaur:0 "To Maa Gana and Lord Gaur"
+
+    dharma_festivals.352.t:0 "Holika Ashes and planting seeds"
+    dharma_festivals.352.desc:0 "Gangaur begins a couple days after Holi, thus one of the tasks you lead the women of the court in is to gather the ashes of Holi, and then the sowing of wheat and barley in them. "
+    dharma_festivals.352.ash:0 "Time to gather the ashes."
+
+    dharma_festivals.353.t:0 "Gangaur Melas"
+    dharma_festivals.353.desc:0 "During the Gangaur festivities, numerous markets known as Melas like to pop up. Shall you patronize them this year or shall you just leave the markets be?"
+    dharma_festivals.353.patronizes:0 "I shall patronize them."
+    dharma_festivals.353.market:0 "They shall be left alone"
+
+    dharma_festivals.354.t:0 "Buying gifts for your loved ones?"
+    dharma_festivals.354.desc.spouse:0 "During Gangaur it is common to buy gifts and items for loved ones. In particular, it is customary to get your [spouse.Custom('WifeHusband')] a special gift to show your love for [spouse.GetHerHim]."
+    dharma_festivals.354.desc.spouses:0 "During Gangaur it is common to buy gifts and items for loved ones. In particular it is customary to get your wives something nice on this day, to show your love for them. Of course you could just focus on your first wife, [first_spouse.GetFirstName] a nice gift."
+    dharma_festivals.354.spouse:0 "I shall get [spouse.GetFirstName] a nice gift"
+    dharma_festivals.354.first_spouse:0 "I shall get my first wife something nice."
+    dharma_festivals.354.first_spouse.tooltip:0 "This will anger your other wives"
+    dharma_festivals.354.lover:0 "I will get my lover something instead."
+    dharma_festivals.354.lover.tooltip:0 "This will anger your wives whom are not your lover."
+    dharma_festivals.354.spouses:0 "I will get all my wives something"
+
+    dharma_festivals.355.t:0 "Mehndi and dress"
+    dharma_festivals.355.desc:0 "During the festivities, your husband has presented you a new dress to impress the court and show off the fashion to your court, along with having your hands and arms decorated in elaborate Mehndi."
+    dharma_festivals.355.dress:0 "Thank you, [spouse.GetFirstName]"
+
+    dharma_festivals.356.t:0 "Giving the gift to your loved ones"
+    dharma_festivals.356.desc.spouse:0 "During the festivities you have presented your [spouse.Custom('WifeHusband')] with new clothes and gifts for [spouse.GetHerHim], including a new sari which she wears along with decorating her arms and hands with mehndi. To which [spouse.GetSheHe] is thankful for the gifts. "
+    dharma_festivals.356.desc.spouses:0 "During the festivities you have presented your spouses with new clothes and gifts for your wives, including new saris which they wears along with decorating their arms and hands with mehndi. To which they are thankful for the gifts."
+    dharma_festivals.356.desc.first_spouse:0 "Your first wife [first_spouse.GetFirstName], reacted with joy at the gift that you gave her, and she showed off the new sari to the court, along with decorating her hands and arms in elaborate mehndi. However your other wives are annoyed at the attention she got instead of them. "
+    dharma_festivals.356.desc.lover_not_wife:0 "Your lover [lover.GetFirstName], reacted with joy at the gift that you gave her, she showed off the new sari to the court, along with decorating her hands and arms in elaborate mehndi. However your wife,[spouse.GetFirstName], is annoyed at the attention she got instead of her."
+    dharma_festivals.356.desc.lover_wife:0 "Your lover [lover.GetFirstName], reacted with joy at the gift that you gave her, she showed off the new sari to the court, along with decorating her hands and arms in elaborate mehndi. However your other wives were annoyed at the attention she got instead of them, particularly your first wife, [first_spouse.GetFirstName]"
+    dharma_festivals.356.spouse:0 "[spouse.GetFirstName] loves it."
+    dharma_festivals.356.spouses:0 "My Wives love it."
+    dharma_festivals.356.first_wife:0 "I am glad [first_spouse.GetFirstName] loves it."
+    dharma_festivals.356.lover:0 "I am glad [lover.GetFirstName], loves it."
+
+    dharma_festivals.357.t:0 "Praying for love and fertility"
+    dharma_festivals.357.desc.male_wife:0 "Your wife has been praying lately to Maa Parvati for health, fertility and for your strength to protect her from harm. It is good that you have such a devoted wife, like [spouse.GetFirstName]."
+    dharma_festivals.357.desc.male_wives:0 "Your wives has been praying lately to Maa Parvati for health, fertility and for your strength to protect her from harm. It is good that you have such devoted wives, like [first_spouse.GetFirstName]."
+    dharma_festivals.357.desc.female_married:0 "Today you pray for Love, health, wellness and fertility from Ma Parvati. Along with strength and power for your Husband."
+    dharma_festivals.357.desc.female_unmarried:0 "Today you pray for Love, health, wellness and fertility from Ma Parvati. Along with the Goddess to bless you with a loving, powerful, and handsome man as your husband."
+    dharma_festivals.357.blessing:0 "Thank you Maa Parvati"
+
+    dharma_festivals.358.t:0 "Kathputli Puppet show"
+    dharma_festivals.358.desc:0 "Today before your court, there was a puppet show telling the stories of Lord Shiva and Ma Parvati and their love for one another, and how Shiva became Parvati's husband. The puppet show is done in the Kathputli style with colorful decorated puppets of the characters. "
+    dharma_festivals.358.puppet:0 "What a wonderful Show"
+
+    dharma_festivals.359.t:0 "Gangaur Procession"
+    dharma_festivals.359.desc:0 "The finaly days of Ganguar end with an elaborate procession throughout the capital starting from your palace and passing through the markets, by passing temples, theaters and more as it proceeds throughout the city. The procession is an elaborate demonstration of the Divine couple's grace and demonstrates your power."
+    dharma_festivals.359.procession:0 "A wonderful procession"
+
+    dharma_festivals.360.t:0 "Courtly Feast"
+    dharma_festivals.360.desc.male:0 "As the procession comes to an end so does the fast that the women of your court have been performing. With that you and your court celebrate with a courtly feast. Your servants bring out plenty of sweets and delicacies for you to enjoy"
+    dharma_festivals.360.desc.female:0 "As the procession comes to an end so does your fast. With that you and your court celebrate with a courtly feast. Your servants bring out plenty of sweets and delicacies for you to enjoy."
+    dharma_festivals.360.feast:0 "To a wonderful Gangaur!"
+
+    dharma_festivals.361.t:0 "Gangaur concludes"
+    dharma_festivals.361.desc:0 "The festivites of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.361.home:0 "Till next time!"
 # Tibetan Festivals
   # Losar
     dharma_festivals.400.t:0 "Begin the Preparations for Losar?"

@@ -284,7 +284,7 @@ activity_dharma_ratha_yatra_festival = {# Ratha Yatra Festival
 		}	
 	}
 }
-activity_dharma_thingyan_festival = {# Thingyan Yatra Festival
+activity_dharma_thingyan_festival = {# Thingyan Festival
 	solo = yes
 	color = { 0.80 0.80 0.18 1 } # Yellow
 	on_spawn = {
@@ -302,7 +302,7 @@ activity_dharma_thingyan_festival = {# Thingyan Yatra Festival
 		}	
 	}
 }
-activity_dharma_chhath_festival = {# Chhath Yatra Festival
+activity_dharma_chhath_festival = {# Chhath Festival
 	solo = yes
 	color = { 0.80 0.80 0.18 1 } # Yellow
 	on_spawn = {
@@ -312,6 +312,24 @@ activity_dharma_chhath_festival = {# Chhath Yatra Festival
 	on_activate = {
 		activity_owner = {
 			trigger_event = dharma_festivals.331
+		}
+	}
+	on_complete = {
+		activity_owner = {
+			remove_character_flag = planning_an_activity
+		}	
+	}
+}
+activity_dharma_gangaur_festival = {# Gangaur Festival
+	solo = yes
+	color = { 0.80 0.80 0.18 1 } # Yellow
+	on_spawn = {
+		invite_character_to_activity = activity_owner
+		accept_invitation_for_character = activity_owner
+	}
+	on_activate = {
+		activity_owner = {
+			trigger_event = dharma_festivals.351
 		}
 	}
 	on_complete = {
