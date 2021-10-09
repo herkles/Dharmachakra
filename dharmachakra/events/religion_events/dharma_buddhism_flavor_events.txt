@@ -1751,7 +1751,7 @@ dharma_buddhism.125 = {# Buddha visualization
 	}
 
 	option = {
-		name = dharma_buddhism.125.visualization
+		name = dharma_buddhism.125.a
 		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss

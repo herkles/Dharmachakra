@@ -377,8 +377,8 @@ dharma_festivals.106 = {# Giving the gift to your loved ones
 				opinion = 15
 			}
 		}
-		any_spouse = {
-			NOT = { this = scope:lover }
+		every_spouse = {
+			limit = { NOT = { this = scope:lover } }
 			add_opinion = {# They don't like you for not getting a gift
 				target = root
 				modifier = disappointed_opinion
@@ -593,8 +593,8 @@ dharma_festivals.109 = {# Bhai Dooj
 		name = dharma_festivals.109.sister
 		trigger = { is_female = yes	}
 		remove_short_term_gold = minor_gold_value
-		any_sibling = {
-			this = scope:brother 
+		every_sibling = {
+			limit = { this = scope:brother }
 			add_gold = minor_gold_value
 			add_opinion = {
 				modifier = pleased_opinion
@@ -901,8 +901,9 @@ dharma_festivals.131 = {# Animal Sacrifice to Durga
 
 	after = {
 		if = {# North India
-			limit = { capital_province = { geographical_region = world_india_rajastan } }
-				NOT = {# Gujarati characters do something else
+			limit = { 
+				capital_province = { geographical_region = world_india_rajastan }
+				NOR = {# Gujarati characters do something else
 					has_culture = culture:gujarati
 					has_culture = culture:saurashtra
 				}
@@ -911,7 +912,8 @@ dharma_festivals.131 = {# Animal Sacrifice to Durga
 				id = dharma_festivals.134
 				days = 1
 			}
-			else_if = {# south India
+		}
+		else_if = {# south India
 			limit = {
 				capital_province = {geographical_region = world_india_deccan }
 			}
@@ -1055,7 +1057,7 @@ dharma_festivals.133 = {# Gifts for your relatives
 		name = dharma_festivals.133.siblings
 		add_prestige = medium_prestige_gain
 		remove_short_term_gold = medium_gold_value
-		any_sibling = {
+		every_sibling = {
 			limit = { is_alive = yes }
 			add_gold = minor_gold_value
 			add_opinion = {
@@ -2835,7 +2837,7 @@ dharma_festivals.355 = {# Mehndi and dress
 	option = {# yay gifts
 		name = dharma_festivals.355.dress
 		add_gold = minor_gold_value
-		any_spouse = {
+		every_spouse = {
 			add_opinion = {
 				modifier = pleased_opinion
 				target = root
@@ -2970,8 +2972,8 @@ dharma_festivals.356 = {# Giving the gift
 				opinion = 15
 			}
 		}
-		any_spouse = {
-			NOT = { this = scope:lover }
+		every_spouse = {
+			limit = { NOT = { this = scope:lover } }
 			add_opinion = {# They don't like you for not getting a gift
 				target = root
 				modifier = disappointed_opinion
@@ -3050,7 +3052,7 @@ dharma_festivals.357 = {# Praying for love and fertility
 			}
 		}
 		else = {
-			any_spouse = {
+			every_spouse = {
 				random_list = {
 					70 = { add_piety = minor_piety_gain }
 					30 = {
@@ -3938,7 +3940,7 @@ dharma_festivals.432 = {# giving gifts to your family members
 		name = dharma_festivals.432.siblings
 		add_prestige = medium_prestige_gain
 		remove_short_term_gold = medium_gold_value
-		any_sibling = {
+		every_sibling = {
 			limit = { is_alive = yes }
 			add_gold = minor_gold_value
 			add_opinion = {

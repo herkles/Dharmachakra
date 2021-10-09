@@ -1,58 +1,58 @@
 ﻿#######################################
 # General Decisions
 #######################################
-pet_elephant_decision = {# Pet Elephant decision 
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+# pet_elephant_decision = {# Pet Elephant decision 
+# 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
 
-	desc = pet_elephant_decision_desc
-	selection_tooltip = pet_elephant_decision_tooltip
+# 	desc = pet_elephant_decision_desc
+# 	selection_tooltip = pet_elephant_decision_tooltip
 
-	ai_check_interval = 120
+# 	ai_check_interval = 120
 
-	cooldown = { days = 1825 }
+# 	cooldown = { days = 1825 }
 
-	is_shown = {
-		any_owned_story = {
-			story_type = story_cycle_pet_elephant
-			exists = story_owner.var:story_cycle_elephant_name
-		}
-	}
+# 	is_shown = {
+# 		any_owned_story = {
+# 			story_type = story_cycle_pet_elephant
+# 			exists = story_owner.var:story_cycle_elephant_name
+# 		}
+# 	}
 
-	is_valid_showing_failures_only = {
-		is_available = yes
-	}
+# 	is_valid_showing_failures_only = {
+# 		is_available = yes
+# 	}
 
-	effect = {
-		custom_tooltip = pet_elephant_decision_effect_tooltip
+# 	effect = {
+# 		custom_tooltip = pet_elephant_decision_tooltip
 
-		trigger_event = { 
-			on_action = story_cycle_elephant_pet_decision_on_actions 
-		}
-	}
+# 		trigger_event = { 
+# 			on_action = story_cycle_elephant_pet_decision_on_actions 
+# 		}
+# 	}
 	
-	ai_potential = {
-		always = yes
-	}
+# 	ai_potential = {
+# 		always = yes
+# 	}
 
-	ai_will_do = {
-		base = 0
+# 	ai_will_do = {
+# 		base = 0
 
-		modifier = {
-			add = 25
-			stress > low_medium_stress
-		}
+# 		modifier = {
+# 			add = 25
+# 			stress > low_medium_stress
+# 		}
 
-		modifier = {
-			add = 50
-			stress > medium_stress
-		}
+# 		modifier = {
+# 			add = 50
+# 			stress > medium_stress
+# 		}
 
-		modifier = {
-			add = 50
-			stress > high_stress
-		}
-	}
-}
+# 		modifier = {
+# 			add = 50
+# 			stress > high_stress
+# 		}
+# 	}
+# }
 go_on_pilgrimage_decision = {# go on a pilgrimage
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 	ai_check_interval = 60
@@ -611,7 +611,7 @@ dharma_attend_diwali_festival = {# Attend Diwali festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_diwali_festival_effect_tooltip
+		custom_tooltip = dharma_attend_diwali_festival_tooltip
 		trigger_event = { id = dharma_festivals.100 }
 	}
 
@@ -664,7 +664,7 @@ dharma_attend_navaratri_festival = {# Attend Navaratri festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_navaratri_festival_effect_tooltip
+		custom_tooltip = dharma_attend_navaratri_festival_tooltip
 		trigger_event = { id = dharma_festivals.125 }
 	}
 
@@ -783,7 +783,7 @@ dharma_attend_vesak_festival = {# Attend Vesak festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_vesak_festival_effect_tooltip
+		custom_tooltip = dharma_attend_vesak_festival_tooltip
 		trigger_event = { id = dharma_festivals.200 }
 	}
 
@@ -956,7 +956,7 @@ dharma_attend_mahamastakabhisheka_festival = {# Jain Mahamastakabhisheka festiva
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_mahamastakabhisheka_festival_effect_tooltip
+		custom_tooltip = dharma_attend_mahamastakabhisheka_festival_tooltip
 		trigger_event = { id = dharma_jainism.100 }
 	}
 
@@ -1015,7 +1015,7 @@ dharma_attend_paryushana_festival = {# Jain Paryushana festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_paryushana_festival_effect_tooltip
+		custom_tooltip = dharma_attend_paryushana_festival_tooltip
 		trigger_event = { id = dharma_jainism.107 }
 	}
 
@@ -1058,7 +1058,7 @@ dharma_attend_mahavir_kalyanak_festival = {# Jain  Mahavir Janma Kalyanak festiv
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_mahavir_kalyanak_festival_effect_tooltip
+		custom_tooltip = dharma_attend_mahavir_kalyanak_festival_tooltip
 		trigger_event = { id = dharma_jainism.117 }
 	}
 
@@ -1120,7 +1120,7 @@ dharma_attend_losar_festival = {# Attend Tibetan New Year Losar
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_losar_festival_effect_tooltip
+		custom_tooltip = dharma_attend_losar_festival_tooltip
 		trigger_event = { id = dharma_festivals.400 }
 	}
 
@@ -1163,7 +1163,7 @@ dharma_attend_pongal_festival = {# Attend Pongal festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_pongal_festival_effect_tooltip
+		custom_tooltip = dharma_attend_pongal_festival_tooltip
 		trigger_event = { id = dharma_festivals.425 }
 	}
 
@@ -1212,7 +1212,7 @@ dharma_attend_thaipusam_festival = {# Attend Thaipusam festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_thaipusam_festival_effect_tooltip
+		custom_tooltip = dharma_attend_thaipusam_festival_tooltip
 		trigger_event = { id = dharma_festivals.440 }
 	}
 
@@ -1256,7 +1256,7 @@ dharma_attend_ratha_yatra_festival = {# Attend Ratha Yatra festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_ratha_yatra_festival_effect_tooltip
+		custom_tooltip = dharma_attend_ratha_yatra_festival_tooltip
 		trigger_event = { id = dharma_festivals.300 }
 	}
 
@@ -1298,7 +1298,7 @@ dharma_attend_thingyan_festival = {# Attend Thingyan festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_thingyan_festival_effect_tooltip
+		custom_tooltip = dharma_attend_thingyan_festival_tooltip
 		trigger_event = { id = dharma_festivals.315 }
 	}
 
@@ -1347,7 +1347,7 @@ dharma_attend_chhath_festival = {# Attend Chhath festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_chhath_festival_effect_tooltip
+		custom_tooltip = dharma_attend_chhath_festival_tooltip
 		trigger_event = { id = dharma_festivals.330 }
 	}
 
@@ -1392,7 +1392,7 @@ dharma_attend_gangaur_festival = {# Attend Gangaur festival
 	}
 
 	effect = {
-		custom_tooltip = dharma_attend_gangaur_festival_effect_tooltip
+		custom_tooltip = dharma_attend_gangaur_festival_tooltip
 		trigger_event = { id = dharma_festivals.350 }
 	}
 
