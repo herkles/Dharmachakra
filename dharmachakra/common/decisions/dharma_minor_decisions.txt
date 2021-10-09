@@ -1,58 +1,6 @@
 ﻿#######################################
 # General Decisions
 #######################################
-# pet_elephant_decision = {# Pet Elephant decision 
-# 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
-
-# 	desc = pet_elephant_decision_desc
-# 	selection_tooltip = pet_elephant_decision_tooltip
-
-# 	ai_check_interval = 120
-
-# 	cooldown = { days = 1825 }
-
-# 	is_shown = {
-# 		any_owned_story = {
-# 			story_type = story_cycle_pet_elephant
-# 			exists = story_owner.var:story_cycle_elephant_name
-# 		}
-# 	}
-
-# 	is_valid_showing_failures_only = {
-# 		is_available = yes
-# 	}
-
-# 	effect = {
-# 		custom_tooltip = pet_elephant_decision_tooltip
-
-# 		trigger_event = { 
-# 			on_action = story_cycle_elephant_pet_decision_on_actions 
-# 		}
-# 	}
-	
-# 	ai_potential = {
-# 		always = yes
-# 	}
-
-# 	ai_will_do = {
-# 		base = 0
-
-# 		modifier = {
-# 			add = 25
-# 			stress > low_medium_stress
-# 		}
-
-# 		modifier = {
-# 			add = 50
-# 			stress > medium_stress
-# 		}
-
-# 		modifier = {
-# 			add = 50
-# 			stress > high_stress
-# 		}
-# 	}
-# }
 go_on_pilgrimage_decision = {# go on a pilgrimage
 	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 	ai_check_interval = 60
@@ -552,6 +500,12 @@ dharma_visit_sharada_peeth = {# Go to Sharada Peeth
 	is_shown = {
 		religion = { is_in_family = rf_eastern }
 		holds_landed_title = yes
+		OR = { 
+			capital_province = { geographical_region = world_india }
+			capital_province = { geographical_region = world_tibet }
+			capital_province = { geographical_region = ghw_region_afghanistan }
+			capital_province = { geographical_region = world_burma }
+		}
 	}
 
 	is_valid = {
@@ -652,6 +606,19 @@ dharma_attend_navaratri_festival = {# Attend Navaratri festival
 	}
 	
 	is_valid = {
+		OR = {# must be a shakti worshiper or your spouse must be a shakti worship
+			faith = faith:kalikula_shaktism
+			faith = faith:srikula_shaktism
+			AND = {
+				religion = { is_in_family = rf_eastern }
+				any_spouse = { 
+					OR = {
+						faith = faith:kalikula_shaktism
+						faith = faith:srikula_shaktism
+					}
+				}
+			}
+		}
 		custom_description = {
 			text = dharma_decision_navaratri_month_requirement
 			current_month >= 9
@@ -1192,14 +1159,20 @@ dharma_attend_thaipusam_festival = {# Attend Thaipusam festival
 		OR = {
 			faith = faith:kaumaram # Kaumaram focuses on Lord Murugan so if you follow it, you can participate regardless of culture.
 			AND = {
-					religion = religion:hinduism_religion
-					has_culture	 = culture:tamil
-				}
+				religion = religion:hinduism_religion
+				has_culture	 = culture:tamil
 			}
 		}
+	}
 	
 	is_valid = {
-		has_culture	 = culture:tamil
+		OR = {
+			faith = faith:kaumaram # Kaumaram focuses on Lord Murugan so if you follow it, you can participate regardless of culture.
+			AND = {
+				religion = religion:hinduism_religion
+				has_culture	 = culture:tamil
+			}
+		}
 		custom_description = {
 			text = dharma_decision_thaipusam_month_requirement
 			current_month >= 2
@@ -1244,6 +1217,7 @@ dharma_attend_ratha_yatra_festival = {# Attend Ratha Yatra festival
 	
 	is_valid = {
 		has_culture	 = culture:oriya
+		religion = religion:hinduism_religion
 		custom_description = {
 			text = dharma_decision_ratha_yatra_month_requirement
 			current_month >= 6
@@ -1334,7 +1308,13 @@ dharma_attend_chhath_festival = {# Attend Chhath festival
 	}
 	
 	is_valid = {
-		has_culture	= culture:bihari
+		OR = {
+			faith = faith:suryaism 
+			AND = {
+				religion = religion:hinduism_religion
+				has_culture	 = culture:bihari
+			}
+		}
 		custom_description = {
 			text = dharma_decision_chhath_month_requirement
 			current_month >= 10
@@ -1372,14 +1352,13 @@ dharma_attend_gangaur_festival = {# Attend Gangaur festival
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
-		OR = {
-			religion = religion:hinduism_religion
-			has_culture	 = culture:rajput
-		}			
+		religion = religion:hinduism_religion
+		has_culture	 = culture:rajput		
 	}
 	
 	is_valid = {
-		has_culture	= culture:rajput
+		religion = religion:hinduism_religion
+		has_culture	 = culture:rajput
 		custom_description = {
 			text = dharma_decision_gangaur_month_requirement
 			current_month >= 3
@@ -1408,7 +1387,3 @@ dharma_attend_gangaur_festival = {# Attend Gangaur festival
 		base = 50
 	}
 }
-
-
-
-
