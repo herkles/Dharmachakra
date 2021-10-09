@@ -163,7 +163,7 @@
 					exists = scope:story.var:story_cycle_elephant_name
 				}
 				random_in_list = {
-					list = can_get_elephant
+					list = can_get_elephant 
 					weight = {
 						base = 10
 						modifier = {

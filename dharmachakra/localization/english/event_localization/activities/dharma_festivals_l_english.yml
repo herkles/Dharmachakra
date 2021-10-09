@@ -239,11 +239,11 @@
 
     dharma_festivals.317.t:0 "a-kya nei"
     dharma_festivals.317.desc:0 "Today is A-kya Nei, when Thingyan begins. It is the day when Thagya Min makes his descent from the heavens. It is also the time when people come together to throw water at one another and have fun splashing in the water. "
-    dharma_festivals.317.dfafd:0 "Thank you Thagya Min for the water"
+    dharma_festivals.317.thingyan:0 "Thank you Thagya Min for the water"
 
     dharma_festivals.318.t:0 "Releasing Fish"
     dharma_festivals.318.desc:0 "As part of the Thingyan celebrations, one of the common activities that you engage in is to transport fish from drying lakes and rivers to larger lakes and rivers and praying for them after you release them to swim away in peace."
-    dharma_festivals.318.ddfa:0 "I release you once, you release me ten times."
+    dharma_festivals.318.fish:0 "I release you once, you release me ten times."
 
     dharma_festivals.319.t:0 "Charity for the commoners"
     dharma_festivals.319.desc:0 "During Thingyan it is common to celebrate by giving gifts to the commoners to show your generosity and magnaminious. What sort of gift shall you give the commoners?"
@@ -253,7 +253,7 @@
 
     dharma_festivals.320.t:0 "A-Tet Nei"
     dharma_festivals.320.desc:0 "After the days of throwing water at one another and fun, a-tet nei arrives which marks the stopping of throwing water. "
-    dharma_festivals.320.thingyan:0 "Till next time"
+    dharma_festivals.320.water:0 "Till next time"
 
     dharma_festivals.321.t:0 "Hair Washing ritual"
     dharma_festivals.321.desc:0 "One of the customs is for royalty to engage in an elaborate ritual to purify themself and cleanse themselves. This also includes a special hair washing ritual using water from Gaungsay Kyun, along with several herbs, melted snow and coconut water to cleanse yourself."
@@ -382,7 +382,7 @@
 
     dharma_festivals.401.t:0 "Losar Begins!"
     dharma_festivals.401.desc:0 "Your servants have informed everyone that the new year festival is now underway. People both great and small are cleaning out their homes, and servants have begun to make guthok and other food. "
-    dharma_festivals.401.addf:0 "Kra Shis Bde Legs Phun Sum Tshogs"
+    dharma_festivals.401.clean:0 "Kra Shis Bde Legs Phun Sum Tshogs"
 
     dharma_festivals.402.t:0 "Lama Losar"
     dharma_festivals.402.desc:0 "The first day of Losar is Lama Losar, where people pay homage to their gurus and spiritual leaders and visit the monastaries. As I visit the monastary, I can see some peasants making offerings at their household shrines for good harvests in the new year."
@@ -459,7 +459,7 @@
     dharma_festivals.432.desc:0 "One custom of Kaanum Pongal is to give gifts to relatives, the question is whom should you give gifts for?"
     dharma_festivals.432.everyone:0 "I will give a gift for all my relatives"
     dharma_festivals.432.spouse:0 "I shall give a gift to my spouses"
-    dharma_festivals.432.sibilings:0 "I shall give a gift to my siblings."
+    dharma_festivals.432.siblings:0 "I shall give a gift to my siblings."
     dharma_festivals.432.elders:0 "I shall give a gift to my elders."
     dharma_festivals.432.children:0 "I will give a gift to my children."
 
@@ -471,7 +471,7 @@
 
     dharma_festivals.434.t:0 "Pongal concludes"
     dharma_festivals.434.desc:0 "The festivites of Pongal are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
-    dharma_festivals.434.losar:0 "Till next time!"
+    dharma_festivals.434.home:0 "Till next time!"
   # Thaipusam 
     dharma_festivals.440.t:0 "Begin the Preparations for Thaipusam?"
     dharma_festivals.440.desc:0 "It shall soon be the time for Thaipusam. Thaipusam is a sacred spiritual time dedicated to Lord Murugan. Shall you announce that Thaipusam is underway this year?"
@@ -511,7 +511,7 @@
 
     dharma_festivals.446.t:0 "Thaipusam concludes"
     dharma_festivals.446.desc:0 "The festivites of Thaipusam are now finally over, and the spiritual mood of the festival continue on for many days. Yet still every good thing must come to an end."
-    dharma_festivals.446.pongal:0 "Lets begin the Preprations"
+    dharma_festivals.446.home:0 "Till next Year!"
 
 
 

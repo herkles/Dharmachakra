@@ -1,11 +1,11 @@
 ﻿#######################################
 # General Decisions
 #######################################
-pet_elephant_decision = {# Pet Elephant decision
+pet_elephant_decision = {# Pet Elephant decision 
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
 
-	desc = elephant_dog_decision_desc
-	selection_tooltip = elephant_dog_decision_tooltip
+	desc = pet_elephant_decision_desc
+	selection_tooltip = pet_elephant_decision_tooltip
 
 	ai_check_interval = 120
 
@@ -23,9 +23,11 @@ pet_elephant_decision = {# Pet Elephant decision
 	}
 
 	effect = {
-		custom_tooltip = elephant_decision_effect_tooltip
+		custom_tooltip = pet_elephant_decision_effect_tooltip
 
-		trigger_event = { on_action = story_cycle_elephant_pet_decision_on_actions }
+		trigger_event = { 
+			on_action = story_cycle_elephant_pet_decision_on_actions 
+		}
 	}
 	
 	ai_potential = {
@@ -545,6 +547,7 @@ dharma_visit_sharada_peeth = {# Go to Sharada Peeth
 	picture = "gfx/interface/illustrations/decisions/dharma_decision_pilgrimage.dds"
 	desc = dharma_visit_sharada_peeth_desc
 	selection_tooltip = dharma_visit_sharada_peeth_tooltip
+	cooldown = { days = dharma_learning_visit_cooldown_time }
 
 	is_shown = {
 		religion = { is_in_family = rf_eastern }
@@ -572,7 +575,6 @@ dharma_visit_sharada_peeth = {# Go to Sharada Peeth
 	}
 
 	ai_check_interval = 60
-	cooldown = { days = dharma_learning_visit_cooldown_time }
 	
 	ai_potential = {
 		is_at_war = no
@@ -722,6 +724,7 @@ dharma_visit_nalanda = {# Go to Nalanda
 	picture = "gfx/interface/illustrations/decisions/dharma_decision_pilgrimage.dds"
 	desc = dharma_visit_nalanda_desc
 	selection_tooltip = dharma_visit_nalanda_tooltip
+	cooldown = { days = dharma_learning_visit_cooldown_time }
 
 	is_shown = {
 		religion = { is_in_family = rf_eastern }
@@ -743,7 +746,6 @@ dharma_visit_nalanda = {# Go to Nalanda
 	}
 
 	ai_check_interval = 60
-	cooldown = { days = dharma_learning_visit_cooldown_time }
 	
 	ai_potential = {
 		is_at_war = no

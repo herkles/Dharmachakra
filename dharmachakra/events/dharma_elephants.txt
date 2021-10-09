@@ -7,12 +7,9 @@
 scripted_trigger in_india_trigger = {
 	tier = tier_county
 	capital_province = {
-		OR = {
-			geographical_region = world_india
-		}
+		geographical_region = world_india
 	}
 }
-
 
 dharma_elephants.100 = {# Peasants need elephants for clearing forest
 	type = character_event
@@ -60,7 +57,6 @@ dharma_elephants.100 = {# Peasants need elephants for clearing forest
 		}
 	}
 }
-
 dharma_elephants.101 = {# Crazed elephant runs amuck
 	type = character_event
 	title = dharma_elephants.101.t
@@ -120,7 +116,6 @@ dharma_elephants.101 = {# Crazed elephant runs amuck
 		}
 	}
 }
-
 dharma_elephants.102 = {# Crazed elephant is killed by soldiers in a messy way
 	type = character_event
 	title = dharma_elephants.102.t
@@ -151,7 +146,6 @@ dharma_elephants.102 = {# Crazed elephant is killed by soldiers in a messy way
 		}
 	}
 }
-
 dharma_elephants.103 = {# Crazed elephant is killed by soldiers in a discrete way
 	type = character_event
 	title = dharma_elephants.103.t
@@ -172,7 +166,6 @@ dharma_elephants.103 = {# Crazed elephant is killed by soldiers in a discrete wa
 		}
 	}
 }
-
 dharma_elephants.104 = {# Crazed elephant kills people, then escapes
 	type = character_event
 	title = dharma_elephants.104.t
@@ -203,7 +196,6 @@ dharma_elephants.104 = {# Crazed elephant kills people, then escapes
 		}
 	}
 }
-
 dharma_elephants.105 = {# Crazed elephant is captured
 	type = character_event
 	title = dharma_elephants.105.t
@@ -235,7 +227,6 @@ dharma_elephants.105 = {# Crazed elephant is captured
 		}
 	}
 }
-
 dharma_elephants.106 = {# Temple elephants are dying
 	type = character_event
 	title = dharma_elephants.106.t
@@ -271,7 +262,6 @@ dharma_elephants.106 = {# Temple elephants are dying
 		}
 	}
 }
-
 ###########################################
 #			Pet Elephants                 #
 ###########################################
@@ -368,7 +358,6 @@ dharma_elephants.200 = {# Name your elephant
 		clear_name_options_elephant_story_cycle_effect = yes
 	}
 }
-
 dharma_elephants.201 = {# Ride your elephant, get health modifier
 	type = character_event
 	title = dharma_elephants.201.t
@@ -401,7 +390,6 @@ dharma_elephants.201 = {# Ride your elephant, get health modifier
 		}
 	}
 }
-
 dharma_elephants.202 = {# Your heir comes to age and rides an elephant
 	type = character_event
 	title = dharma_elephants.202.t
@@ -452,7 +440,6 @@ dharma_elephants.202 = {# Your heir comes to age and rides an elephant
 		}
 	}
 }
-
 dharma_elephants.205 = {# Make him a war elephant?
 	type = character_event
 	title = dharma_elephants.205.t
@@ -498,7 +485,6 @@ dharma_elephants.205 = {# Make him a war elephant?
 	}
 
 }
-
 dharma_elephants.210 = {# Elephant is bored and trashes stable
 	type = character_event
 	title = dharma_elephants.210.t
@@ -529,7 +515,6 @@ dharma_elephants.210 = {# Elephant is bored and trashes stable
 		add_prestige = minor_prestige_loss
 	}
 }
-
 dharma_elephants.211 = {# You pet your elephant
 	type = character_event
 	title = dharma_elephants.211.t
@@ -559,7 +544,6 @@ dharma_elephants.211 = {# You pet your elephant
 		add_stress = minor_stress_loss
 	}
 }
-
 dharma_elephants.212 = {# You pet your elephant v.2
 	type = character_event
 	title = dharma_elephants.212.t
@@ -589,7 +573,6 @@ dharma_elephants.212 = {# You pet your elephant v.2
 		add_stress = minor_stress_loss
 	}
 }
-
 dharma_elephants.215 = {# Your Elephant dies
 	type = character_event
 	title = dharma_elephants.215.t

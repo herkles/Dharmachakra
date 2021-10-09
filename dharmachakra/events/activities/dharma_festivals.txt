@@ -2203,7 +2203,7 @@ dharma_festivals.321 = {# Hair washing ritual
 	}
 
 	option = {# Vesak begins
-		name = dharma_festivals.321.chariot
+		name = dharma_festivals.321.hair
 		add_piety = miniscule_piety_gain
 		stress_impact = {
 			base = miniscule_stress_impact_loss
@@ -4455,7 +4455,7 @@ dharma_festivals.446 = {# Thaipusam concludes
 		}
 	}
 }
-dharma_festivals.448 = {# Misc cleanup
+dharma_festivals.447 = {# Misc cleanup
 	hidden = yes	
 	immediate = {
 		remove_character_flag = thaipusam_peirce

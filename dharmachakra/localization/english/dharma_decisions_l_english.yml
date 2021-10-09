@@ -1,5 +1,12 @@
 ﻿l_english:
-
+#######################################
+# Elephant Decisions
+#######################################
+ pet_elephant_decision:0 "Pet [ROOT.Char.Custom('ElephantStoryName')]"
+ elephant_pet_decision_desc:0 "It is time to take a deep breath and find my trusted companion [ROOT.Char.Custom('ElephantStoryName')]. No matter how tough life gets I know [ROOT.Char.Custom('ElephantStorySheHe')] will always be there for me!"
+ pet_elephant_decision_effect_tooltip:0 "You will lose some [stress|E]"
+ pet_elephant_decision_confirm:0 "Pet your elephant"
+ pet_elephant_decision_tooltip:0 "Pet your elephant"
 #######################################
 # Buddhist Decisions
 #######################################
