@@ -697,7 +697,7 @@
 	culture = meitei
 	religion = sanamahi_pagan
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 	1056.1.1 = {
@@ -949,7 +949,7 @@
 	culture = burmese
 	religion = ari
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 	1056.1.1 = {
@@ -1007,7 +1007,7 @@
 	culture = burmese
 	religion = ari
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 	1056.1.1 = {

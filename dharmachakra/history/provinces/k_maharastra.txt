@@ -142,6 +142,8 @@
 	# Misc
 	culture = gondi
 	religion = suryaism
+
+	holding = tribal_holding
 	
 	# History
 	1066.1.1 = {
@@ -259,6 +261,8 @@
 	# Misc
 	culture = gondi
 	religion = shrautism
+
+	holding = tribal_holding
 	
 	# History
 	1066.1.1 = {
@@ -373,6 +377,8 @@
 	# Misc
 	culture = gondi
 	religion = shrautism
+
+	holding = tribal_holding
 	
 	# History
 	1066.1.1 = {

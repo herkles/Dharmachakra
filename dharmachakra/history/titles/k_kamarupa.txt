@@ -44,6 +44,7 @@ k_kamarupa = {
 	}
 	650.1.1 = {
 		holder = 190039 #Salastambha
+		government = feudal_government
 	}
 	670.1.1 = {
 		holder = 190040 #Vijayastambha

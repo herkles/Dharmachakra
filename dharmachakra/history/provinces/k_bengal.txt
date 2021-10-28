@@ -161,7 +161,7 @@
 	culture = rajbongshi
 	religion = vajrayana
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 
@@ -316,10 +316,10 @@
 853 = {	# 853 - Unakoti
 	
 	# Misc
-	culture = meitei
+	culture = tripuri
 	religion = sanamahi_pagan
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 
@@ -511,10 +511,10 @@
 1131 = {	# 1131 - Karmanta
 	
 	# Misc
-	culture = kachari
+	culture = tripuri
 	religion = bathouism
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 
@@ -709,7 +709,7 @@
 	culture = kachari
 	religion = bathouism
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 
@@ -735,7 +735,7 @@
 	culture = rajbongshi
 	religion = theravada
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 

@@ -438,7 +438,7 @@
 	culture = munda
 	religion = mahayana
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 
@@ -464,7 +464,7 @@
 	culture = munda
 	religion = mahayana
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 

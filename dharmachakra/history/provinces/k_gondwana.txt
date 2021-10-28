@@ -176,7 +176,7 @@
 	culture = gondi
 	religion = vaishnavism
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 	1066.1.1 = {
@@ -205,7 +205,7 @@
 	culture = gondi
 	religion = vaishnavism
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 

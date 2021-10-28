@@ -4,6 +4,8 @@
 	# Misc
 	culture = bhil
 	religion = vaishnavism
+
+	holding = tribal_holding
 	
 	# History
 
@@ -181,6 +183,8 @@
 	# Misc
 	culture = bhil
 	religion = shrautism
+
+	holding = tribal_holding
 	
 	# History
 
@@ -229,6 +233,8 @@
 	# Misc
 	culture = bhil
 	religion = suryaism
+
+	holding = tribal_holding
 	
 	# History
 
