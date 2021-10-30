@@ -31,7 +31,7 @@
 	culture = chutia
 	religion = theravada
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 
@@ -272,7 +272,7 @@
 	culture = chutia
 	religion = theravada
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 
@@ -350,7 +350,7 @@
 	culture = chutia
 	religion = theravada
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 

@@ -1,0 +1,21 @@
+﻿
+
+# Chutia Dynasties
+chutaid001 = {
+	name = "Viyutsva" 
+	culture = chutia
+}
+chutaid002 = {
+	name = "Sutiya" 
+	culture = chutia
+}
+chutaid003 = {
+	name = "Diruasa" 
+	culture = chutia
+}
+chutaid004 = {
+	name = "Maramsa" 
+	culture = chutia
+}
+
+

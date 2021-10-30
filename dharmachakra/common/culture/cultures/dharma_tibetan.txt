@@ -1017,7 +1017,7 @@
 			indian_clothing_gfx
 		}
 		
-		color = { 167 199 231 }
+		color = { 0 189 135 }
 		
 		dynasty_name_first = yes
 		
@@ -1136,7 +1136,7 @@
 			indian_clothing_gfx
 		}
 		
-		color = { 231 254 255 }
+		color = { 54 136 117 }
 		
 		dynasty_name_first = yes
 		
@@ -1216,7 +1216,7 @@
 		mat_grm_name_chance = 25
 		mother_name_chance = 0
 	}
-	chutia = { # Dimasa
+	chutia = { # Chutia
 		graphical_cultures = {
 			indian_clothing_gfx
 		}
@@ -1271,6 +1271,7 @@
 		}
 		
 		dynasty_names = {
+			"Viyutsva"
 			"Ardaosa"
 			"Bodosa"
 			"Bathari"
@@ -1316,7 +1317,7 @@
 		}
 		
 		male_names = {
-			"Sudangpha" "Sujangpha" "Siphakpha" "Susenpha" "Suhempha" "Supimpha" "Suhung" "Sutamla" "Supungmung" "Sukhampha Khora Raja" "Suklenmung Garghgaya Raja" "Gobar" "Brajnatha" Balavarman Bhaskarvarman Bhattamahabahu Bhutivarman Birapala Brahmapala Chandramukhavarman Dharmapala Ganapativarman Gopala Harjjaravarman Harshadeva Harshapala Harshavarman Indrapala Jayamala Jayapala Kalyanavarman Kumarapala Mahendravarman Narayanavarman Pralambha Purandelapala Pushyavarman Ratnadhwajpala Ratnapala Salasthamba Samudravarman Sthitavarman Supratisthitavarman Susthitavarman Timgyadeva Tyagasimha Ummoka Vanamalavarmadeva Vigrahastambha Vijaya Virabahu 
+			"Sudangpha" "Sujangpha" "Siphakpha" "Susenpha" "Suhempha" "Supimpha" "Suhung" "Sutamla" "Supungmung" "Sukhampha Khora Raja" "Suklenmung Garghgaya Raja" "Gobar" "Brajnatha" Balavarman Bhaskarvarman Bhattamahabahu Bhutivarman Birapala Brahmapala Chandramukhavarman Dharmapala Ganapativarman Gopala Harjjaravarman Harshadeva Harshapala Harshavarman Indrapala Jayamala Jayapala Kalyanavarman Kumarapala Mahendravarman Narayanavarman Pralambha Purandelapala Pushyavarman Ratnadhwajpala Ratnapala Salasthamba Samudravarman Sthitavarman Supratisthitavarman Susthitavarman Timgyadeva Tyagasimha Ummoka Vanamalavarmadeva Vigrahastambha Vijaya Virabahu Durlabhnarayana Satyanarayana Ratnanarayana Nandi Nandisara Nandisvara Lakshminarayana Dharmanarayana Mukta-dharmanaryana Pratyaksanarayana Yasanarayana Yasamanarayana Purandarnarayana Dhirnarayana
 		}
 		
 		female_names = {
