@@ -411,7 +411,7 @@
 	culture = kirati
 	religion = kiratism
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 }
@@ -471,7 +471,7 @@
 	culture = kirati
 	religion = kiratism
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 }
@@ -543,7 +543,7 @@
 	culture = kirati
 	religion = kiratism
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 }

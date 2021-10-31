@@ -321,7 +321,7 @@
 1296 = {	# 1296 - Dimapur
 	
 	# Misc
-	culture = dimasa
+	culture = kachari
 	religion = bathouism
 	
 	holding = tribal_holding

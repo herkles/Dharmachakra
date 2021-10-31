@@ -17,6 +17,7 @@ chutia002 = {# Satyanarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid001
+	father = chutia001
 
     1361.1.1 = {
         birth = yes
@@ -30,6 +31,7 @@ chutia003 = {# Lakshminarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid001
+	father = chutia002
 
     1388.1.1 = {
         birth = yes
@@ -43,6 +45,7 @@ chutia004 = {# Durlabhnarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid001
+	father = chutia003
 
     1401.1.1 = {
         birth = yes
@@ -56,6 +59,7 @@ chutia005 = {# Pratyksanarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid001
+	father = chutia004
 
     1443.1.1 = {
         birth = yes
@@ -83,6 +87,7 @@ chutia007 = {# Harshadeva
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid002
+	father = chutia006
 
     858.1.1 = {
         birth = yes
@@ -96,6 +101,7 @@ chutia008 = {# Dharmapala
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid002
+	father = chutia007
 
     879.1.1 = {
         birth = yes
@@ -109,6 +115,7 @@ chutia009 = {# Ganapativarman
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid002
+	father = chutia008
 
     892.1.1 = {
         birth = yes
@@ -122,6 +129,7 @@ chutia011 = {# Samudravarman
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid002
+	father = chutia009
 
     931.1.1 = {
         birth = yes
@@ -135,6 +143,7 @@ chutia012 = {# Ratnapala
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid002
+	father = chutia011
 
     978.1.1 = {
         birth = yes
@@ -148,6 +157,7 @@ chutia013 = {# Satyanarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid002
+	father = chutia012
 
     1017.1.1 = {
         birth = yes
@@ -175,6 +185,7 @@ chutia015 = {# Dhirnarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid003
+	father = chutia014
 
     858.1.1 = {
         birth = yes
@@ -188,6 +199,7 @@ chutia016 = {# Dharmanarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid003
+	father = chutia015
 
 	879.1.1 = {
         birth = yes
@@ -201,6 +213,7 @@ chutia017 = {# Yasanarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid003
+	father = chutia016
 
     892.1.1 = {
         birth = yes
@@ -214,6 +227,7 @@ chutia018 = {# Purandarnarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid003
+	father = chutia017
 
     931.1.1 = {
         birth = yes
@@ -227,6 +241,7 @@ chutia019 = {# Lakshminarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid003
+	father = chutia018
 
     978.1.1 = {
         birth = yes
@@ -240,6 +255,7 @@ chutia020 = {# Balavarman
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid003
+	father = chutia019
 
     1017.1.1 = {
         birth = yes
@@ -267,6 +283,7 @@ chutia022 = {# Mahendravarman
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid004
+	father = chutia021
 
     858.1.1 = {
         birth = yes
@@ -280,6 +297,7 @@ chutia023 = {# Pralambha
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid004
+	father = chutia022
 
 	879.1.1 = {
         birth = yes
@@ -293,6 +311,7 @@ chutia024 = {# Yasanarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid004
+	father = chutia023
 
     892.1.1 = {
         birth = yes
@@ -306,6 +325,7 @@ chutia025 = {# Nandisvara
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid004
+	father = chutia024
 
     931.1.1 = {
         birth = yes
@@ -319,6 +339,7 @@ chutia026 = {# Ratnanarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid004
+	father = chutia025
 
     978.1.1 = {
         birth = yes
@@ -332,6 +353,7 @@ chutia027 = {# Dhirnarayana
     religion = "bathouism"
     culture = "chutia"
     dynasty = chutaid004
+	father = chutia026
 
     1017.1.1 = {
         birth = yes

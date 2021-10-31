@@ -13,6 +13,10 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - New Holy Sites for Hindu, Buddhist, Sanamhism, Bauthouism, Tani, Kirati, and Bon faiths
 - New Special buildings for many of the holy Sites
 - Pilgrimage events have been updated for the new holy sites.
+- Various festivals to celebrate throughout south asia have been added
+- Tribal areas are now properly tribal
+- Several new characters have been added
+- added the Chutia and Tripura cultures
 
 ## Manual Installation Steps
 

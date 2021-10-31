@@ -3033,20 +3033,9 @@
 		}
 	
 		male_names = {
-			Abaji Amutrao Bahadur Bahiroji Balaji Bajirao Chimnaji Dattaji Daulatrao Dhanaji Dhondu
-			Ekoji Fatehsinh Gopalrao Hambirao Harirao Jayajirao Jayappa Janakappa Jivajirao
-			Khanderao Krishnarao Madhavrao Mahadji Malerao Malharrao Mankoji Martandrao
-			Moropant Murarirao Nanasaheb Narayanrao Pandurangrao Pratapsinh
-			Raghunathrao Rajaram Ramaswami Ramchandrapant Ramshastri Ranojirao
-			Sadashivrao Sambhaji Sayajirao Serfoji Shahuji Shivaji Shivajirao
-			Tryambakrao Tukkoji Tukojirao Tulojirao Venkatrao Vishwanathpant Yashwantrao
-			Adityavarman Aiyaparaja Anantadeva Aparaditya Aparajita Arikesarin Arthapathi Avasara
-			Bhavadatta Bhima Bhoja Bijjala Chandra Chandraditya Chhadvaideva Chhittaraja
-			Daharasena Dhammayira Gandaraditya Goggiraja Gonka Guhala Guhalladeva Haripaladeva
-			Indradatta Indraraja Jatiga Jayakeshi Jhanjha Kamadeva Kapardin Keshideva Kirtiraja
-			Mallikarjuna Marsimha Mummuniraja Nagarjuna Nagavarma Naivarman Pullashakti Rattaraja
-			Sanaphulla Shashthadeva Shivachitta Skandavarman Soddhala Someshvara Sovideva Suketuvarman
-			Taila Tejahkantha Vappuvanna Vijayaditya Viravarmadeva Vishnuchitta Vyaghrasena
+			Abaji Amutrao Bahadur Bahiroji Balaji Bajirao Chimnaji Dattaji Daulatrao Dhanaji Dhondu Ekoji Fatehsinh Gopalrao Hambirao Harirao Jayajirao Jayappa Janakappa Jivajirao Khanderao Krishnarao Madhavrao Mahadji Malerao Malharrao Mankoji Martandrao Moropant Murarirao Nanasaheb Narayanrao Pandurangrao Pratapsinh Raghunathrao Rajaram Ramaswami Ramchandrapant Ramshastri Ranojirao Sadashivrao Sambhaji Sayajirao Serfoji Shahuji Shivaji Shivajirao Tryambakrao Tukkoji Tukojirao Tulojirao Venkatrao Vishwanathpant Yashwantrao Adityavarman Aiyaparaja Anantadeva Aparaditya Aparajita Arikesarin Arthapathi Avasara	Bhavadatta Bhima Bhoja Bijjala Chandra Chandraditya Chhadvaideva Chhittaraja
+			Daharasena Dhammayira Gandaraditya Goggiraja Gonka Guhala Guhalladeva Haripaladeva Indradatta Indraraja Jatiga Jayakeshi Jhanjha Kamadeva Kapardin Keshideva Kirtiraja Mallikarjuna Marsimha Mummuniraja Nagarjuna Nagavarma Naivarman Pullashakti Rattaraja
+			Sanaphulla Shashthadeva Shivachitta Skandavarman Soddhala Someshvara Sovideva Suketuvarman Taila Tejahkantha Vappuvanna Vijayaditya Viravarmadeva Vishnuchitta Vyaghrasena
 		}
 		female_names = {
 			Ahilyabai Ambikabai Anandibai Anubai Bhiubai Deepabai Durgabai Gangabai Gunvantibai
@@ -3414,13 +3403,7 @@
 		
 		dynasty_names = {
 			"dynn_Khen"
-			"dynn_Ahom"
-			"dynn_Nagas"
-			"dynn_Chutiya"
 			"dynn_Raikat"
-			"dynn_Koch"
-			"dynn_Sutiya"
-			"dynn_Kachari"
 			"dynn_Barobhyan"
 			{ "dynn_Banerjee" }
 			{ "dynn_Bagchi" }

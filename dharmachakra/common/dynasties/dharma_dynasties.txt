@@ -1,6 +1,4 @@
-﻿
-
-# Chutia Dynasties
+﻿# Chutia Dynasties
 chutaid001 = {
 	name = "Viyutsva" 
 	culture = chutia
@@ -17,5 +15,50 @@ chutaid004 = {
 	name = "Maramsa" 
 	culture = chutia
 }
+# Tripuri Dynasties
+tripurid001 = {
+	name = "Hirimba" 
+	culture = tripuri
+}
+# Rajbongshi Dynasties
+rajbongshid001 = {
+	name = "dynn_Dutta" 
+	culture = rajbongshi
+}
+rajbongshid002 = {
+	name = "dynn_Biswas" 
+	culture = rajbongshi
+}
+rajbongshid003 = {
+	name = "dynn_Miah" 
+	culture = rajbongshi
+}
+# Munda Dynasties
+mundad001 = {
+	name = "dynn_Gounder" 
+	culture = tripuri
+}
+mundad002 = {
+	name = "dynn_Paraiya" 
+	culture = tripuri
+}
+# Tripuri Dynasties
+bhild001 = {
+	name = "dynn_Chauhan" 
+	culture = tripuri
+}
+bhild002 = {
+	name = "dynn_Gohil" 
+	culture = tripuri
+}
+bhild003 = {
+	name = "dynn_Deshpande" 
+	culture = tripuri
+}
+bhild004 = {
+	name = "dynn_Doshi" 
+	culture = tripuri
+}
+
 
 
