@@ -1794,8 +1794,8 @@ c_rothas = {
 }
 c_rajrappa = {
 	855.1.1 = {
-		holder = munda001 = {# Pralambha
-		liege = d_jharkand
+		holder = munda001 # Pralambha
+		liege = k_bengal
 	}
 	878.1.1 = {
 		holder = munda002 #Kadarangkonda
@@ -1832,8 +1832,17 @@ c_rajrappa = {
 
 }
 c_munda = {
+	750.1.1 = {
+		holder = 191421 #Pasna
+	}
+	780.1.1 = {
+		holder = 191422 #Kramaditya
+	}
+	820.1.1 = {
+		holder = 191423 #Sugana
+	}
 	855.1.1 = {
-		holder = munda008 = {# Pralambha
+		holder = munda008 # Pralambha
 	}
 	878.1.1 = {
 		holder = munda009 #Kadarangkonda

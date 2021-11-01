@@ -234,7 +234,7 @@
 	culture = bhil
 	religion = suryaism
 
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 

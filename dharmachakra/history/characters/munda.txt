@@ -1,7 +1,7 @@
 ﻿### Fictional Tribal Chiefs of rajrappa county
 munda001 = {# Irattapadikonda
     name = "Irattapadikonda"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad001
 
@@ -14,7 +14,7 @@ munda001 = {# Irattapadikonda
 }
 munda002 = {# Kotukulapattan
     name = "Kotukulapattan"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad001
 	father = munda001
@@ -28,7 +28,7 @@ munda002 = {# Kotukulapattan
 }
 munda003 = {# Nirupatunkavarman
     name = "Nirupatunkavarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad001
 	father = munda002
@@ -42,7 +42,7 @@ munda003 = {# Nirupatunkavarman
 }
 munda004 = {# Tiruccirrampalapattan
     name = "Tiruccirrampalapattan"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad001
 	father = munda003
@@ -56,7 +56,7 @@ munda004 = {# Tiruccirrampalapattan
 }
 munda005 = {# Varakunan
     name = "Varakunan"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad001
 	father = munda004
@@ -70,7 +70,7 @@ munda005 = {# Varakunan
 }
 munda006 = {# Amarapuyankan
     name = "Amarapuyankan"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad001
 	father = munda005
@@ -84,7 +84,7 @@ munda006 = {# Amarapuyankan
 }
 munda007 = {# Arulmolivarman
     name = "Arulmolivarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad001
 	father = munda006
@@ -99,7 +99,7 @@ munda007 = {# Arulmolivarman
 ### Fictional Tribal Chiefs of Munda county
 munda008 = {# Pralambha
     name = "Pralambha"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad002
 
@@ -112,7 +112,7 @@ munda008 = {# Pralambha
 }
 munda009 = {# Kadarangkonda
     name = "Kadarangkonda"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad002
 	father = munda008
@@ -126,7 +126,7 @@ munda009 = {# Kadarangkonda
 }
 munda010 = {# Karunandadakkan
     name = "Karunandadakkan"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad002
 	father = munda009
@@ -140,7 +140,7 @@ munda010 = {# Karunandadakkan
 }
 munda011 = {# Cadayan
     name = "Cadayan"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad002
 	father = munda010
@@ -154,7 +154,7 @@ munda011 = {# Cadayan
 }
 munda012 = {# Kurian
     name = "Kurian"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad002
 	father = munda011
@@ -168,7 +168,7 @@ munda012 = {# Kurian
 }
 munda013 = {# Rapanmar
     name = "Rapanmar"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad002
 	father = munda012
@@ -182,7 +182,7 @@ munda013 = {# Rapanmar
 }
 munda014 = {# Parakesaripanmar
     name = "Parakesaripanmar"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "munda"
     dynasty = mundad002
 	father = munda014

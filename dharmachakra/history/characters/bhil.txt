@@ -96,7 +96,7 @@ bhil007 = {# Vyaghrasena
         death = yes
     }
 }
-### Fictional Tribal Chiefs of Dhara county
+### Fictional Tribal Chiefs of Betma Barony
 bhil008 = {# Haripaladeva
     name = "Haripaladeva"
     religion = "shaivism"

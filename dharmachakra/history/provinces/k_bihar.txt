@@ -436,7 +436,7 @@
 	
 	# Misc
 	culture = munda
-	religion = mahayana
+	religion = kalikula_shaktism
 	
 	holding = tribal_holding
 	
@@ -462,7 +462,7 @@
 	
 	# Misc
 	culture = munda
-	religion = mahayana
+	religion = kalikula_shaktism
 	
 	holding = tribal_holding
 	
