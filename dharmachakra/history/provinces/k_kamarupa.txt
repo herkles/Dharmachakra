@@ -283,7 +283,7 @@
 	
 	# Misc
 	culture = rajbongshi
-	religion = vajrayana
+	religion = kalikula_shaktism
 	
 	holding = tribal_holding
 	

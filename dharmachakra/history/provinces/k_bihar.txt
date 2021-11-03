@@ -436,7 +436,7 @@
 	
 	# Misc
 	culture = munda
-	religion = kalikula_shaktism
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -462,7 +462,7 @@
 	
 	# Misc
 	culture = munda
-	religion = kalikula_shaktism
+	religion = sarnaism
 	
 	holding = tribal_holding
 	

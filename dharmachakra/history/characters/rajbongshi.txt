@@ -1,7 +1,7 @@
 ﻿### Fictional Tribal Chiefs of Kamatapur county
 rajbongshi001 = {# Ratnapala
     name = "Ratnapala"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid001
 
@@ -14,7 +14,7 @@ rajbongshi001 = {# Ratnapala
 }
 rajbongshi002 = {# Balavarman
     name = "Balavarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid001
 	father = rajbongshi001
@@ -28,7 +28,7 @@ rajbongshi002 = {# Balavarman
 }
 rajbongshi003 = {# Harshavarman
     name = "Harshavarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid001
 	father = rajbongshi002
@@ -42,7 +42,7 @@ rajbongshi003 = {# Harshavarman
 }
 rajbongshi004 = {# Vanamalavarmadeva
     name = "Vanamalavarmadeva"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid001
 	father = rajbongshi003
@@ -56,7 +56,7 @@ rajbongshi004 = {# Vanamalavarmadeva
 }
 rajbongshi005 = {# Vijaya
     name = "Vijaya"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid001
 	father = rajbongshi004
@@ -70,7 +70,7 @@ rajbongshi005 = {# Vijaya
 }
 rajbongshi006 = {# Narayanavarman
     name = "Narayanavarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid001
 	father = rajbongshi005
@@ -84,7 +84,7 @@ rajbongshi006 = {# Narayanavarman
 }
 rajbongshi007 = {# Indrapala
     name = "Indrapala"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid001
 	father = rajbongshi006
@@ -99,7 +99,7 @@ rajbongshi007 = {# Indrapala
 ### Fictional Tribal Chiefs of Pundravardhana county
 rajbongshi008 = {# Pralambha
     name = "Pralambha"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
 	father = rajbongshi007
@@ -113,7 +113,7 @@ rajbongshi008 = {# Pralambha
 }
 rajbongshi009 = {# Harshapala
     name = "Harshapala"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
 	father = rajbongshi008
@@ -127,7 +127,7 @@ rajbongshi009 = {# Harshapala
 }
 rajbongshi010 = {# Pushyavarman
     name = "Pushyavarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
 	father = rajbongshi009
@@ -141,7 +141,7 @@ rajbongshi010 = {# Pushyavarman
 }
 rajbongshi011 = {# Salasthamba
     name = "Salasthamba"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
 	father = rajbongshi010
@@ -155,7 +155,7 @@ rajbongshi011 = {# Salasthamba
 }
 rajbongshi012 = {# Ganapativarman
     name = "Ganapativarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
 	father = rajbongshi011
@@ -169,7 +169,7 @@ rajbongshi012 = {# Ganapativarman
 }
 rajbongshi013 = {# Ummoka
     name = "Ummoka"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
 	father = rajbongshi012
@@ -183,7 +183,7 @@ rajbongshi013 = {# Ummoka
 }
 rajbongshi014 = {# Vigrahastambha
     name = "Vigrahastambha"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
 	father = rajbongshi014
@@ -198,7 +198,7 @@ rajbongshi014 = {# Vigrahastambha
 ### Fictional Tribal Chiefs of Kotivarsa county
 rajbongshi015 = {# Birapala
     name = "Birapala"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid003
 
@@ -211,7 +211,7 @@ rajbongshi015 = {# Birapala
 }
 rajbongshi016 = {# Bhaskarvarman
     name = "Bhaskarvarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid003
 	father = rajbongshi015
@@ -225,7 +225,7 @@ rajbongshi016 = {# Bhaskarvarman
 }
 rajbongshi017 = {# Mahendravarman
     name = "Mahendravarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid003
 	father = rajbongshi016
@@ -239,7 +239,7 @@ rajbongshi017 = {# Mahendravarman
 }
 rajbongshi018 = {# Ganapativarman
     name = "Ganapativarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid003
 	father = rajbongshi017
@@ -253,7 +253,7 @@ rajbongshi018 = {# Ganapativarman
 }
 rajbongshi019 = {# Samudravarman
     name = "Samudravarman"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid003
 	father = rajbongshi018
@@ -267,7 +267,7 @@ rajbongshi019 = {# Samudravarman
 }
 rajbongshi020 = {# Ratnapala
     name = "Ratnapala"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid003
 	father = rajbongshi019
@@ -281,7 +281,7 @@ rajbongshi020 = {# Ratnapala
 }
 rajbongshi021 = {# Satyanarayana
     name = "Satyanarayana"
-    religion = "bathouism"
+    religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid003
 	father = rajbongshi020

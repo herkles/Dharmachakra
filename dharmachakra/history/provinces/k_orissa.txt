@@ -120,7 +120,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = kalikula_shaktism
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -133,7 +133,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = mahayana
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -146,7 +146,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = kalikula_shaktism
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -208,7 +208,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = kalikula_shaktism
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -221,7 +221,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = vaishnavism
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -234,7 +234,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = suryaism
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -247,7 +247,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = kalikula_shaktism
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -273,7 +273,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = mahayana
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -286,7 +286,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = mahayana
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -308,7 +308,7 @@
 	
 	# Misc
 	culture = sambalpuri
-	religion = kalikula_shaktism
+	religion = sarnaism
 	terrain = jungle
 
 	holding = tribal_holding
@@ -331,7 +331,7 @@
 	
 	# Misc
 	culture = gondi
-	religion = vaishnavism
+	religion = koyapunem
 
 	holding = tribal_holding
 	

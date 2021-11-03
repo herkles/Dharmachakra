@@ -295,7 +295,7 @@ bhil021 = {# Shivajirao
 ### Fictional Tribal Chiefs of Thalner county
 bhil022 = {# Daulatrao
     name = "Daulatrao"
-    religion = "shrautism"
+    religion = "suryaism"
     culture = "bhil"
     dynasty = bhild004
 
@@ -308,7 +308,7 @@ bhil022 = {# Daulatrao
 }
 bhil023 = {# Jayajirao
     name = "Jayajirao"
-    religion = "shrautism"
+    religion = "suryaism"
     culture = "bhil"
     dynasty = bhild004
 	father = bhil022
@@ -322,7 +322,7 @@ bhil023 = {# Jayajirao
 }
 bhil024 = {# Pratapsinh
     name = "Pratapsinh"
-    religion = "shrautism"
+    religion = "suryaism"
     culture = "bhil"
     dynasty = bhild004
 	father = bhil023
@@ -336,7 +336,7 @@ bhil024 = {# Pratapsinh
 }
 bhil025 = {# Sambhaji
     name = "Sambhaji"
-    religion = "shrautism"
+    religion = "suryaism"
     culture = "bhil"
     dynasty = bhild004
 	father = bhil024
@@ -350,7 +350,7 @@ bhil025 = {# Sambhaji
 }
 bhil026 = {# Aiyaparaja
     name = "Aiyaparaja"
-    religion = "shrautism"
+    religion = "suryaism"
     culture = "bhil"
     dynasty = bhild004
 	father = bhil025
@@ -364,7 +364,7 @@ bhil026 = {# Aiyaparaja
 }
 bhil027 = {# Bijjala
     name = "Bijjala"
-    religion = "shrautism"
+    religion = "suryaism"
     culture = "bhil"
     dynasty = bhild004
 	father = bhil026
@@ -378,7 +378,7 @@ bhil027 = {# Bijjala
 }
 bhil028 = {# Gonka
     name = "Gonka"
-    religion = "shrautism"
+    religion = "suryaism"
     culture = "bhil"
     dynasty = bhild004
 	father = bhil027

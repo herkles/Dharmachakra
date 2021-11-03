@@ -174,13 +174,13 @@
 	
 	# Misc
 	culture = gondi
-	religion = vaishnavism
+	religion = koyapunem
 	
 	holding = tribal_holding
 	
 	# History
 	1066.1.1 = {
-		religion = vaishnavism
+		religion = koyapunem
 	}
 
 }
@@ -202,10 +202,10 @@
 1271 = {	# 1271 - Tripuri
 	
 	# Misc
-	culture = gondi
+	culture = awadhi
 	religion = vaishnavism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 
