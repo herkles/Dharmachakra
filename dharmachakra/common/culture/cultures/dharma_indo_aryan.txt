@@ -3248,7 +3248,7 @@
 		}
 	}
 
-	sambalpuri = {# Sambalpuri 
+	sambalpuri = {# Sambalpuri
 		
 		color = { 189 32 49 }
 

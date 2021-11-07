@@ -175,11 +175,11 @@ gondi007 = {# Vyaghrasena
     }
 }
 ### Fictional Tribal Chiefs of Kiranapura county
-gondi001 = {# Abaji
+gondi008 = {# Abaji
     name = "Abaji"
     religion = "koyapunem"
     culture = "gondi"
-    dynasty = gondid001
+    dynasty = gondid002
 
     833.1.1 = {
         birth = yes
@@ -188,11 +188,11 @@ gondi001 = {# Abaji
         death = yes
     }
 }
-gondi002 = {# Amutrao
+gondi009 = {# Amutrao
     name = "Amutrao"
     religion = "koyapunem"
     culture = "gondi"
-    dynasty = gondid001
+    dynasty = gondid002
 	father = gondi001
 
     858.1.1 = {
@@ -202,11 +202,11 @@ gondi002 = {# Amutrao
         death = yes
     }
 }
-gondi003 = {# Madhavrao
+gondi010 = {# Madhavrao
     name = "Madhavrao"
     religion = "koyapunem"
     culture = "gondi"
-    dynasty = gondid001
+    dynasty = gondid002
 	father = gondi002
 
     879.1.1 = {
@@ -216,11 +216,11 @@ gondi003 = {# Madhavrao
         death = yes
     }
 }
-gondi004 = {# Moropant
+gondi011 = {# Moropant
     name = "Moropant"
     religion = "koyapunem"
     culture = "gondi"
-    dynasty = gondid001
+    dynasty = gondid002
 	father = gondi003
 
     892.1.1 = {
@@ -230,11 +230,11 @@ gondi004 = {# Moropant
         death = yes
     }
 }
-gondi005 = {# Chhadvaideva
+gondi012 = {# Chhadvaideva
     name = "Chhadvaideva"
     religion = "koyapunem"
     culture = "gondi"
-    dynasty = gondid001
+    dynasty = gondid002
 	father = gondi004
 
     931.1.1 = {
@@ -244,11 +244,11 @@ gondi005 = {# Chhadvaideva
         death = yes
     }
 }
-gondi006 = {# Shashthadeva
+gondi013 = {# Shashthadeva
     name = "Shashthadeva"
     religion = "koyapunem"
     culture = "gondi"
-    dynasty = gondid001
+    dynasty = gondid002
 	father = gondi005
 
     978.1.1 = {
@@ -258,11 +258,11 @@ gondi006 = {# Shashthadeva
         death = yes
     }
 }
-gondi007 = {# Vyaghrasena
+gondi014 = {# Vyaghrasena
     name = "Vyaghrasena"
     religion = "koyapunem"
     culture = "gondi"
-    dynasty = gondid001
+    dynasty = gondid002
 	father = gondi006
 
     1017.1.1 = {
@@ -273,7 +273,7 @@ gondi007 = {# Vyaghrasena
     }
 }
 ### Tribal Chiefs of Ramagiri county
-191362 = {# Name
+191362 = {# Brijnath
 	name = "Brijnath"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -285,7 +285,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191363 = {# Name
+191363 = {# Radhakant
 	name = "Radhakant"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -298,7 +298,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191364 = {# Name
+191364 = {# Mukund
 	name = "Mukund"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -311,7 +311,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191365 = {# Name
+191365 = {# Ramavriksha
 	name = "Ramavriksha"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -324,7 +324,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191366 = {# Name
+191366 = {# Siyaram
 	name = "Siyaram"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -337,7 +337,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191367 = {# Name
+191367 = {# Ram
 	name = "Ram"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -350,7 +350,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191368 = {# Name
+191368 = {# Suryakant
 	name = "Suryakant"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -363,7 +363,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191369 = {# Name
+191369 = {# Mangal
 	name = "Mangal"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -376,7 +376,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191370 = {# Name
+191370 = {# Kumar
 	name = "Kumar"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -389,7 +389,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191371 = {# Name
+191371 = {# Yogendra
 	name = "Yogendra"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -402,7 +402,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191372 = {# Name
+191372 = {# Siyaram
 	name = "Siyaram"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -415,7 +415,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191373 = {# Name
+191373 = {# Radhakant
 	name = "Radhakant"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"
@@ -428,7 +428,7 @@ gondi007 = {# Vyaghrasena
 		death = yes
 	}
 }
-191374 = {# Name
+191374 = {# Hardeva
 	name = "Hardeva"	#Fictional
 	dynasty = 1044340 #Malviyas of Ramagiri
 	religion = "koyapunem"

@@ -138,7 +138,6 @@ d_dadhipadra = {
 	}
 	843.1.1 = {
 		holder = 188178 # Siyaka I
-		set_capital_county = title:c_dhara
 	}
 	893.1.1 = {
 		holder = 188179 # Vakpati I

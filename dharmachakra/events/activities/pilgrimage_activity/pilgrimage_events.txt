@@ -6893,80 +6893,6 @@ pilgrimage.5318 = {# Katasraj
 		}
 	}
 }
-pilgrimage.5319 = {# Prambanan
-	type = character_event
-	title = pilgrimage.5319.t
-	desc = pilgrimage.5319.desc
-	theme = pilgrimage_activity
-	left_portrait = {
-		character = root
-		animation = happiness
-	}
-
-	trigger = {
-		pilgrimage_is_to = { DESTINATION = c_mataram }
-	}
-
-	immediate = {
-		save_holy_site_for_loc_effect = yes
-	}
-	
-	option = {
-		name = pilgrimage.5312.a
-		trigger = { NOT = { has_trait = cynical } }
-		give_pilgrimage_reward_effect = yes
-	}
-	
-	option = {
-		name = pilgrimage.5312.b
-		trigger = { has_trait = cynical }
-		give_pilgrimage_reward_effect = yes
-	}
-
-	after = {
-		trigger_event = {
-			on_action = pilgrimage_return_events
-			days = 30
-		}
-	}
-}
-pilgrimage.5323 = {# Pura Besakih
-	type = character_event
-	title = pilgrimage.5323.t
-	desc = pilgrimage.5323.desc
-	theme = pilgrimage_activity
-	left_portrait = {
-		character = root
-		animation = happiness
-	}
-
-	trigger = {
-		pilgrimage_is_to = { DESTINATION = c_bali_sea }
-	}
-
-	immediate = {
-		save_holy_site_for_loc_effect = yes
-	}
-	
-	option = {
-		name = pilgrimage.5312.a
-		trigger = { NOT = { has_trait = cynical } }
-		give_pilgrimage_reward_effect = yes
-	}
-	
-	option = {
-		name = pilgrimage.5312.b
-		trigger = { has_trait = cynical }
-		give_pilgrimage_reward_effect = yes
-	}
-
-	after = {
-		trigger_event = {
-			on_action = pilgrimage_return_events
-			days = 30
-		}
-	}
-}
 pilgrimage.5326 = {# Madurai
 	type = character_event
 	title = pilgrimage.5326.t
@@ -7736,43 +7662,6 @@ pilgrimage.5410 = {# Kyaikhtiyo
 	
 	option = {
 		name = pilgrimage.5410.b
-		trigger = { has_trait = cynical }
-		give_pilgrimage_reward_effect = yes
-	}
-
-	after = {
-		trigger_event = {
-			on_action = pilgrimage_return_events
-			days = 30
-		}
-	}
-}
-pilgrimage.5411 = {# Borobudur
-	type = character_event
-	title = pilgrimage.5411.t
-	desc = pilgrimage.5411.desc
-	theme = pilgrimage_activity
-	left_portrait = {
-		character = root
-		animation = happiness
-	}
-
-	trigger = {
-		pilgrimage_is_to = { DESTINATION = c_mamrati }
-	}
-
-	immediate = {
-		save_holy_site_for_loc_effect = yes
-	}
-	
-	option = {
-		name = pilgrimage.5411.a
-		trigger = { NOT = { has_trait = cynical } }
-		give_pilgrimage_reward_effect = yes
-	}
-	
-	option = {
-		name = pilgrimage.5411.b
 		trigger = { has_trait = cynical }
 		give_pilgrimage_reward_effect = yes
 	}

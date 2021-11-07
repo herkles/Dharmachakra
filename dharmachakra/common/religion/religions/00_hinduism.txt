@@ -79,9 +79,9 @@
 		#HealthGod
 		HealthGodName = hinduism_health_god_name
 		HealthGodNamePossessive = hinduism_health_god_name_possessive
-		HealthGodSheHe = CHARACTER_SHEHE_SHE
-		HealthGodHerHis = CHARACTER_HERHIS_HER
-		HealthGodHerHim = CHARACTER_HERHIM_HER
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
 		FertilityGodName = hinduism_fertility_god_name
@@ -291,6 +291,24 @@
 					hinduism_good_god_krishna
 					hinduism_good_god_shakti
 					hinduism_good_god_narayana
+					vaishnavism_good_god_matsya
+					vaishnavism_good_god_kurma
+					vaishnavism_good_god_varaha
+					vaishnavism_good_god_narasimha
+					vaishnavism_good_god_vamana
+					vaishnavism_good_god_parashurama
+					vaishnavism_good_god_rama					
+					vaishnavism_good_god_kalki
+					vaishnavism_good_god_hayagriva
+					vaishnavism_good_god_dhanvantari
+					vaishnavism_good_god_dattatreya
+					vaishnavism_good_god_mohini
+					vaishnavism_good_god_shesha					
+					vaishnavism_good_god_hanuman
+					vaishnavism_good_god_lakshmi					
+					vaishnavism_good_god_bhumi
+					vaishnavism_good_god_sita
+					vaishnavism_good_god_radha
 				}
 			}
 		}
@@ -468,6 +486,18 @@
 					hinduism_good_god_vishnu
 					hinduism_good_god_shakti
 					hinduism_good_god_ganesh
+					shaivism_good_god_murugan
+					shaivism_good_god_aiyanar
+					shaivism_good_god_virabhadra
+					shaivism_good_god_rudra
+					shaivism_good_god_bhairava
+					shaivism_good_god_nataraja
+					shaivism_good_god_dakshinamurthy
+					shaivism_good_god_nandi
+					shaivism_good_god_vaitheeswaran
+					shaivism_good_god_parvati
+
+
 				}
 			}
 		}
@@ -582,6 +612,31 @@
 				HighGodNameSheHe = CHARACTER_SHEHE_SHE
 				HighGodHerselfHimself = CHARACTER_HERSELF
 				HighGodHerHis = CHARACTER_HERHIS_HER
+
+				CreatorName = shaktism_creator_god_name
+				CreatorNamePossessive = shaktism_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				HealthGodName = shaktism_health_god_name
+				HealthGodNamePossessive = shaktism_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+
+				WealthGodName = shaktism_wealth_god_name
+				WealthGodNamePossessive = shaktism_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				NightGodName = shaktism_night_god_name
+				NightGodNamePossessive = shaktism_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
 				GoodGodNames = {
 					shaktism_good_god_sundari
 					hinduism_high_god_name_alternate
@@ -589,6 +644,28 @@
 					shaktism_good_god_chandi
 					shaktism_good_god_parvati
 					shaktism_good_god_kali
+
+					shaktism_good_god_mahadevi
+					shaktism_good_god_saraswati
+					shaktism_good_god_lakshmi
+					shaktism_good_god_sati
+					shaktism_good_god_durga
+					shaktism_good_god_radha
+					shaktism_good_god_sita
+					shaktism_good_god_brahmani
+					shaktism_good_god_varahi
+					shaktism_good_god_chamunda
+					shaktism_good_god_indrani
+					shaktism_good_god_shailaputri
+					shaktism_good_god_brahmacharini
+					shaktism_good_god_chandraghanta
+					shaktism_good_god_kushmanda
+					shaktism_good_god_katyayani
+					shaktism_good_god_skandamata
+					shaktism_good_god_katyayani
+					shaktism_good_god_kalaratri
+					shaktism_good_god_mahagauri
+					shaktism_good_god_siddhidhatri
 				}
 			}
 		}
@@ -633,12 +710,69 @@
 				HighGodNameSheHe = CHARACTER_SHEHE_SHE
 				HighGodHerselfHimself = CHARACTER_HERSELF
 				HighGodHerHis = CHARACTER_HERHIS_HER
+
+
+				CreatorName = shaktism_creator_god_name
+				CreatorNamePossessive = shaktism_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+
+				HealthGodName = shaktism_health_god_name
+				HealthGodNamePossessive = shaktism_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+
+				WealthGodName = shaktism_wealth_god_name
+				WealthGodNamePossessive = shaktism_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+
+				NightGodName = shaktism_night_god_name
+				NightGodNamePossessive = shaktism_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
 				GoodGodNames = {
-					shaktism_good_god_kali
-					shaktism_good_god_chandi
 					shaktism_good_god_sundari
+					hinduism_high_god_name_alternate
 					shaktism_good_god_devi
+					shaktism_good_god_chandi
 					shaktism_good_god_parvati
+					shaktism_good_god_kali
+
+					shaktism_good_god_mahadevi
+					shaktism_good_god_saraswati
+					shaktism_good_god_lakshmi
+					shaktism_good_god_sati
+					shaktism_good_god_durga
+					shaktism_good_god_radha
+					shaktism_good_god_sita
+					shaktism_good_god_brahmani
+					shaktism_good_god_varahi
+					shaktism_good_god_chamunda
+					shaktism_good_god_indrani
+					shaktism_good_god_shailaputri
+					shaktism_good_god_brahmacharini
+					shaktism_good_god_chandraghanta
+					shaktism_good_god_kushmanda
+					shaktism_good_god_katyayani
+					shaktism_good_god_skandamata
+					shaktism_good_god_katyayani
+					shaktism_good_god_kalaratri
+					shaktism_good_god_mahagauri
+					shaktism_good_god_siddhidhatri
+
+					shaktism_good_god_tara
+					shaktism_good_god_bhuvaneshvari
+					shaktism_good_god_bhairavi
+					shaktism_good_god_chhinnamasta
+					shaktism_good_god_bagalamukhi
+					shaktism_good_god_matangi
+					shaktism_good_god_kamalatmika
 				}
 			}
 		}
@@ -1150,15 +1284,13 @@
 				HighGodNameSheHe = CHARACTER_SHEHE_HE
 				HighGodHerselfHimself = CHARACTER_HERHIM_HIM
 				HighGodHerHis = CHARACTER_HERHIS_HIS
-				HighGodNameAlternate = hinduism_high_god_name_alternate
-				HighGodNameAlternatePossessive = hinduism_high_god_name_alternate_possessive
 			
 				#HealthGod
 				HealthGodName = koyapunem_health_god_name
 				HealthGodNamePossessive = koyapunem_health_god_name_possessive
-				HealthGodSheHe = CHARACTER_SHEHE_HE
-				HealthGodHerHis = CHARACTER_HERHIS_HIS
-				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
 				
 				#FertilityGod
 				FertilityGodName = koyapunem_fertility_god_name
@@ -1177,16 +1309,16 @@
 				#HouseholdGod
 				HouseholdGodName = koyapunem_household_god_name
 				HouseholdGodNamePossessive = koyapunem_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_HE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
-				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
 			
 				#FateGod
 				FateGodName = koyapunem_fate_god_name
 				FateGodNamePossessive = koyapunem_fate_god_name_possessive
-				FateGodSheHe = CHARACTER_SHEHE_HE
-				FateGodHerHis = CHARACTER_HERHIS_HIS
-				FateGodHerHim = CHARACTER_HERHIM_HIM
+				FateGodSheHe = CHARACTER_SHEHE_SHE
+				FateGodHerHis = CHARACTER_HERHIS_HER
+				FateGodHerHim = CHARACTER_HERHIM_HER
 			
 				#KnowledgeGod
 				KnowledgeGodName = koyapunem_knowledge_god_name
@@ -1201,14 +1333,7 @@
 				WarGodSheHe = CHARACTER_SHEHE_HE
 				WarGodHerHis = CHARACTER_HERHIS_HIS
 				WarGodHerHim = CHARACTER_HERHIM_HIM
-				
-				#NightGod
-				NightGodName = koyapunem_night_god_name
-				NightGodNamePossessive = hinduism_night_god_name_possessive
-				NightGodSheHe = CHARACTER_SHEHE_SHE
-				NightGodHerHis = CHARACTER_HERHIS_HER
-				NightGodHerHim = CHARACTER_HERHIM_HER
-			
+					
 				#WaterGod
 				WaterGodName = koyapunem_water_god_name
 				WaterGodNamePossessive = hinduism_water_god_name_possessive
@@ -1217,7 +1342,21 @@
 				WaterGodHerHim = CHARACTER_HERHIM_HER
 			
 				GoodGodNames = {
-					koyapunem_good_god_rudra
+					koyapunem_good_god_angadevs
+					koyapunem_good_god_ravana
+					koyapunem_good_god_kankali
+					koyapunem_good_god_dulha
+					koyapunem_good_god_gansam
+					koyapunem_good_god_hardul
+					koyapunem_good_god_bhivsen
+					koyapunem_good_god_awal
+					koyapunem_good_god_bhum
+					koyapunem_good_god_auwal
+					koyapunem_good_god_thankur
+					koyapunem_good_god_hulera
+					koyapunem_good_god_narayan
+					koyapunem_good_god_kodapen
+					koyapunem_good_god_maswasi
 				}
 				DevilName = hinduism_devil_name
 				DevilNamePossessive = hinduism_devil_name_possessive
@@ -1226,9 +1365,7 @@
 				DevilHerselfHimself = hinduism_devil_herselfhimself
 				EvilGodNames = {
 					hinduism_devil_name
-					koyapunem_evil_god_vetalas
-					koyapunem_evil_god_vritra
-					koyapunem_evil_god_pishachas
+					koyapunem_evil_god_maitya_pen
 				}
 			}
 		}

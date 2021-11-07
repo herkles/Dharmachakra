@@ -1,6 +1,6 @@
-### legendary rulers of the Twipura Kingdom(duchy of Sutiya)
-tripuri001 = {# Hamtor Fa
-    name = "Hamtor Fa"
+﻿### legendary rulers of the Twipura Kingdom(duchy of Sutiya)
+tripuri001 = {# Hamtor_Fa
+    name = "Hamtor_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -13,8 +13,8 @@ tripuri001 = {# Hamtor Fa
         death = yes
     }
 }
-tripuri002 = {# Jangi Fa
-    name = "Jangi Fa"
+tripuri002 = {# Jangi_Fa
+    name = "Jangi_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -58,8 +58,8 @@ tripuri004 = {# Sebrai
         death = yes
     }
 }
-tripuri005 = {# Durgur Fa
-    name = "Durgur Fa"
+tripuri005 = {# Durgur_Fa
+    name = "Durgur_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -73,8 +73,8 @@ tripuri005 = {# Durgur Fa
         death = yes
     }
 }
-tripuri006 = {# Kharung Fa
-    name = "Kharung Fa"
+tripuri006 = {# Kharung_Fa
+    name = "Kharung_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -103,8 +103,8 @@ tripuri007 = {# Sengfanai
         death = yes
     }
 }
-tripuri008 = {# Lalit Rai
-    name = "Lalit Rai"
+tripuri008 = {# Lalit_Rai
+    name = "Lalit_Rai"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -118,8 +118,8 @@ tripuri008 = {# Lalit Rai
         death = yes
     }
 }
-tripuri009 = {# Mukunda Fa 
-    name = "Mukunda Fa"
+tripuri009 = {# Mukunda_Fa 
+    name = "Mukunda_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -133,8 +133,8 @@ tripuri009 = {# Mukunda Fa
         death = yes
     }
 }
-tripuri010 = {# Kamal Rai
-    name = "Kamal Rai"
+tripuri010 = {# Kamal_Rai
+    name = "Kamal_Rai"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -163,8 +163,8 @@ tripuri011 = {# Krishnadas
         death = yes
     }
 }
-tripuri012 = {# Jash Fa
-    name = "Jash Fa"
+tripuri012 = {# Jash_Fa
+    name = "Jash_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -178,8 +178,8 @@ tripuri012 = {# Jash Fa
         death = yes
     }
 }
-tripuri013 = {# Muchung Fa
-    name = "Muchung Fa"
+tripuri013 = {# Muchung_Fa
+    name = "Muchung_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -193,8 +193,8 @@ tripuri013 = {# Muchung Fa
         death = yes
     }
 }
-tripuri014 = {# Sadhu Rai
-    name = "Sadhu Rai"
+tripuri014 = {# Sadhu_Rai
+    name = "Sadhu_Rai"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -208,8 +208,8 @@ tripuri014 = {# Sadhu Rai
         death = yes
     }
 }
-tripuri015 = {# Ratap Rai
-    name = "Ratap Rai"
+tripuri015 = {# Ratap_Rai
+    name = "Ratap_Rai"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -328,8 +328,8 @@ tripuri022 = {# Sengkwchak
         death = yes
     }
 }
-tripuri023 = {# Sengthum Fa
-    name = "Sengthum Fa"
+tripuri023 = {# Sengthum_Fa
+    name = "Sengthum_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -343,8 +343,8 @@ tripuri023 = {# Sengthum Fa
         death = yes
     }
 }
-tripuri024 = {# Achong Fa 
-    name = "Achong Fa"
+tripuri024 = {# Achong_Fa 
+    name = "Achong_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -358,8 +358,8 @@ tripuri024 = {# Achong Fa
         death = yes
     }
 }
-tripuri025 = {# Khichung Fa
-    name = "Khichung Fa"
+tripuri025 = {# Khichung_Fa
+    name = "Khichung_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -373,8 +373,8 @@ tripuri025 = {# Khichung Fa
         death = yes
     }
 }
-tripuri026 = {# Dangar Fa
-    name = "Dangar Fa"
+tripuri026 = {# Dangar_Fa
+    name = "Dangar_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -388,8 +388,8 @@ tripuri026 = {# Dangar Fa
         death = yes
     }
 }
-tripuri027 = {# Raja Fa
-    name = "Raja Fa"
+tripuri027 = {# Raja_Fa
+    name = "Raja_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -404,8 +404,8 @@ tripuri027 = {# Raja Fa
     }
 }
 ### Historical rulers of the Twipura Kingdom(duchy of Sutiya)
-tripuri028 = {# Chhengthung Fa
-    name = "Chhengthung Fa"
+tripuri028 = {# Chhengthung_Fa
+    name = "Chhengthung_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -418,8 +418,8 @@ tripuri028 = {# Chhengthung Fa
         death = yes
     }
 }
-tripuri029 = {# Dangar Fa
-    name = "Dangar Fa"
+tripuri029 = {# Dangar_Fa
+    name = "Dangar_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001
@@ -432,8 +432,8 @@ tripuri029 = {# Dangar Fa
         death = yes
     }
 }
-tripuri030 = {# Ratna Fa 
-    name = "Ratna Fa"
+tripuri030 = {# Ratna_Fa 
+    name = "Ratna_Fa"
     religion = "bathouism"
     culture = "tripuri"
     dynasty = tripurid001

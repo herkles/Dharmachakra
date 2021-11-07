@@ -5,6 +5,7 @@
  hinduism_religion_adherent_plural:0 "Hindus"
  hinduism_religion_desc:0 "Hinduism is a dharma, a way of life, that includes a multitude of gods and religious practices. Shared is the belief in samsara, the endless cycle of the soul's continuous rebirth into the world, and moksha, the freeing from that cycle."
 
+#Generic Hindu God names
  hinduism_high_god_name:0 "Brahman"
  hinduism_high_god_name_possessive:0 "Brahman's"
  hinduism_high_god_shehe:0 "It"
@@ -27,7 +28,44 @@
  hinduism_evil_god_vetalas:0 "The Vetalas"
  hinduism_evil_god_pishachas:0 "The Pishachas"
  hinduism_evil_god_krodha:0 "Krodha"
+
+ hinduism_creator_god_name:0 "Brahma"
+ hinduism_creator_god_name_possessive:0 "Brahma's"
+
+ hinduism_health_god_name:0 "Dhanvantari"
+ hinduism_health_god_name_possessive:0 "Dhanvantari's"
+
+ hinduism_fertility_god_name:0 "Parvati"
+ hinduism_fertility_god_name_possessive:0 "Parvati's"
+
+ hinduism_wealth_god_name:0 "Kubera"
+ hinduism_wealth_god_name_possessive:0 "Kubera's"
+
+ hinduism_household_god_name:0 "Parvati"
+ hinduism_household_god_name_possessive:0 "Parvati's"
+
+ hinduism_fate_god_name:0 "karma"
+ hinduism_fate_god_name_possessive:0 "karma's"
+
+ hinduism_knowledge_god_name:0 "Saraswati"
+ hinduism_knowledge_god_name_possessive:0 "Saraswati's"
+
+ hinduism_war_god_name:0 "Durga"
+ hinduism_war_god_name_possessive:0 "Durga's"
+
+ hinduism_trickster_god_name:0 "Krishna"
+ hinduism_trickster_god_name_possessive:0 "Krishna's"
+
+ hinduism_night_god_name:0 "Nindra"
+ hinduism_night_god_name_possessive:0 "Nindra's"
+
+ hinduism_water_god_name:0 "Yami"
+ hinduism_water_god_name_possessive:0 "Yami's"
+
+ hinduism_death_name:0 "Yama"
+ hinduism_death_name_possessive:0 "Yama's"
  
+# Hindu Religious titles
  hinduism_religious_head_title:1 "Swami"
  hinduism_religious_head_title_name:0 "Sampradaya"
  hinduism_devotee_male:0 "sanyasi"
@@ -42,93 +80,162 @@
  hinduism_bishop:0 "swami"
  hinduism_bishop_plural:0 "swamis"
 
- hinduism_creator_god_name:0 "Brahma"
- hinduism_creator_god_name_possessive:0 "Brahma's"
- hinduism_health_god_name:0 "Ganga"
- hinduism_health_god_name_possessive:0 "Ganga's"
- hinduism_fertility_god_name:0 "Gayatri"
- hinduism_fertility_god_name_possessive:0 "Gayatri's"
- hinduism_wealth_god_name:0 "Kubera"
- hinduism_wealth_god_name_possessive:0 "Kubera's"
- hinduism_household_god_name:0 "Parvati"
- hinduism_household_god_name_possessive:0 "Parvati's"
- hinduism_fate_god_name:0 "karma"
- hinduism_fate_god_name_possessive:0 "karma's"
- hinduism_knowledge_god_name:0 "Saraswati"
- hinduism_knowledge_god_name_possessive:0 "Saraswati's"
- hinduism_war_god_name:0 "Kali"
- hinduism_war_god_name_possessive:0 "Kali's"
- hinduism_trickster_god_name:0 "Krishna"
- hinduism_trickster_god_name_possessive:0 "Krishna's"
- hinduism_night_god_name:0 "Nindra"
- hinduism_night_god_name_possessive:0 "Nindra's"
- hinduism_water_god_name:0 "Yami"
- hinduism_water_god_name_possessive:0 "Yami's"
-
 # places, symbols, and things
  hinduism_house_of_worship:0 "temple"
  hinduism_house_of_worship_plural:0 "temples"
  hinduism_divine_realm:0 "Sumeru"
  hinduism_positive_afterlife:0 "Svarga"
  hinduism_negative_afterlife:0 "Naraka"
- hinduism_death_name:0 "Yama"
- hinduism_death_name_possessive:0 "Yama's"
  hinduism_religious_symbol:0 "Om"
  hinduism_religious_text:0 "Vedas"
 
 #Vaishnavism
- vaishnavism:0 "Vaishnavism"
- vaishnavism_adj:1 "Vaishnavite"
- vaishnavism_adherent:0 "Vaishnava"
- vaishnavism_adherent_plural:0 "Vaishnavas"
- vaishnavism_desc:0 "In Vaishnavism, Vishnu is the Supreme Lord, and the most important devas are his many incarnated avatars, such as Rama and Krishna. Each of these various incarnations work to restore balance to the universe."
- vaishnavism_high_god_name:0 "Vishnu"
- vaishnavism_high_god_name_possessive:0 "Vishnu's"
+  vaishnavism:0 "Vaishnavism"
+  vaishnavism_adj:1 "Vaishnavite"
+  vaishnavism_adherent:0 "Vaishnava"
+  vaishnavism_adherent_plural:0 "Vaishnavas"
+  vaishnavism_desc:0 "In Vaishnavism, Vishnu is the Supreme Lord, and the most important devas are his many incarnated avatars, such as Rama and Krishna. Each of these various incarnations work to restore balance to the universe."
+  vaishnavism_high_god_name:0 "Vishnu"
+  vaishnavism_high_god_name_possessive:0 "Vishnu's"
 
- vaishnavism_wealth_god_name:0 "Lakishmi"
- vaishnavism_wealth_god_name_possessive:0 "Lakishmi's"
- vaishnavism_knowledge_god_name:0 "Hayagriva"
- vaishnavism_knowledge_god_name_possessive:0 "Hayagriva's"
- vaishnavism_war_god_name:0 "Jagganath"
- vaishnavism_war_god_name_possessive:0 "Jagganath"
- vaishnavism_trickster_god_name:0 "Krishna"
- vaishnavism_trickster_god_name_possessive:0 "Krishna"
+  # The various gods in Vaishnavism
+  vaishnavism_wealth_god_name:0 "Lakishmi"
+  vaishnavism_wealth_god_name_possessive:0 "Lakishmi's"
+
+  vaishnavism_knowledge_god_name:0 "Hayagriva"
+  vaishnavism_knowledge_god_name_possessive:0 "Hayagriva's"
+
+  vaishnavism_war_god_name:0 "Jagganath"
+  vaishnavism_war_god_name_possessive:0 "Jagganath"
+
+  vaishnavism_trickster_god_name:0 "Krishna"
+  vaishnavism_trickster_god_name_possessive:0 "Krishna"
+  
+  # The Avatars of Vishnu are good gods for Vaishnavism
+    vaishnavism_good_god_matsya:0 "Matsya"
+    vaishnavism_good_god_kurma:0 "Kurma"
+    vaishnavism_good_god_varaha:0 "Varaha"
+    vaishnavism_good_god_narasimha:0 "Narasimha"
+    vaishnavism_good_god_vamana:0 "Vamana"
+    vaishnavism_good_god_parashurama:0 "Parashurama"
+    vaishnavism_good_god_rama:0 "Rama"
+    vaishnavism_good_god_kalki:0 "Kalki"
+    vaishnavism_good_god_hayagriva:0 "Hayagriva"
+    vaishnavism_good_god_dhanvantari:0 "Dhanvantari"
+    vaishnavism_good_god_dattatreya:0 "Dattatreya"
+    vaishnavism_good_god_mohini:0 "Mohini"
+  # Other Vaishanvism Good Goods
+    vaishnavism_good_god_hanuman:0 "Hanuman"
+    vaishnavism_good_god_shesha:0 "Shesha"
+    vaishnavism_good_god_lakshmi:0 "Lakshmi"
+    vaishnavism_good_god_bhumi:0 "Bhumi"
+    vaishnavism_good_god_sita:0 "Sita"
+    vaishnavism_good_god_radha:0 "Radha"
 
 #Shaivism
- shaivism:0 "Shaivism"
- shaivism_adj:1 "Shaivite"
- shaivism_adherent:0 "Shaivite"
- shaivism_adherent_plural:0 "Shaivites"
- shaivism_desc:0 "Shaivites worship Shiva, the creator and destroyer of worlds, as the Supreme Being that exists in all things. In the same fashion as Shiva works to maintain balance and preserve the universe, the faithful must strive to bring balance into their lives."
- shaivism_high_god_name:0 "Shiva"
- shaivism_high_god_name_possessive:0 "Shiva's"
+  shaivism:0 "Shaivism"
+  shaivism_adj:1 "Shaivite"
+  shaivism_adherent:0 "Shaivite"
+  shaivism_adherent_plural:0 "Shaivites"
+  shaivism_desc:0 "Shaivites worship Shiva, the creator and destroyer of worlds, as the Supreme Being that exists in all things. In the same fashion as Shiva works to maintain balance and preserve the universe, the faithful must strive to bring balance into their lives."
+  shaivism_high_god_name:0 "Shiva"
+  shaivism_high_god_name_possessive:0 "Shiva's"
 
- shaivism_health_god_name:0 "Vaitheeswaran"
- shaivism_health_god_name_possessive:0 "Vaitheeswaran's"
- shaivism_fertility_god_name:0 "Parvati"
- shaivism_fertility_god_name_possessive:0 "Parvati's"
- shaivism_wealth_god_name:0 "Bhairava"
- shaivism_wealth_god_name_possessive:0 "Bhairava's"
- shaivism_household_god_name:0 "Munīshwarar"
- shaivism_household_god_name_possessive:0 "Munīshwarar's"
- shaivism_knowledge_god_name:0 "Dakshinamoorthy"
- shaivism_knowledge_god_name_possessive:0 "Dakshinamoorthy's"
- shaivism_war_god_name:0 "Vīrabhadra"
- shaivism_war_god_name_possessive:0 "Vīrabhadra"
+  # Various deities of Shaivism
+    shaivism_health_god_name:0 "Vaitheeswaran"
+    shaivism_health_god_name_possessive:0 "Vaitheeswaran's"
+
+    shaivism_fertility_god_name:0 "Parvati"
+    shaivism_fertility_god_name_possessive:0 "Parvati's"
+
+    shaivism_wealth_god_name:0 "Bhairava"
+    shaivism_wealth_god_name_possessive:0 "Bhairava's"
+
+    shaivism_household_god_name:0 "Munīshwarar"
+    shaivism_household_god_name_possessive:0 "Munīshwarar's"
+
+    shaivism_knowledge_god_name:0 "Dakshinamoorthy"
+    shaivism_knowledge_god_name_possessive:0 "Dakshinamoorthy's"
+
+    shaivism_war_god_name:0 "Vīrabhadra"
+    shaivism_war_god_name_possessive:0 "Vīrabhadra"
+
+  # Good deities of Shaivism
+    shaivism_good_god_murugan:0 "Murugan"
+    shaivism_good_god_aiyanar:0 "Aiyanar"
+    shaivism_good_god_virabhadra:0 "Virabhadra"
+    shaivism_good_god_rudra:0 "Rudra"
+    shaivism_good_god_bhairava:0 "Bhairava"
+    shaivism_good_god_nataraja:0 "Nataraja"
+    shaivism_good_god_dakshinamurthy:0 "Dakshinamurthy"
+    shaivism_good_god_nandi:0 "Nandi"
+    shaivism_good_god_vaitheeswaran:0 "Vaitheeswaran"
+    shaivism_good_god_parvati:0 "Parvati"
 
 #Srikula Shaktism
- srikula_shaktism:0 "Srikula Shaktism"
- srikula_shaktism_adj:0 "Srikula"
- srikula_shaktism_adherent:0 "Srikulaite"
- srikula_shaktism_adherent_plural:0 "Srikulaites"
- srikula_shaktism_desc:0 "Shaktism believes in the Great Goddess as the Supreme Being from which springs all existence. The Srikula worship Tripura Sundari as the highest aspect of the Goddess, and the source of all Shakti, the energy of the universe."
- shaktism_good_god_sundari:0 "Tripura Sundari"
- shaktism_good_god_sundari_possessive:0 "Tripura Sundari's"
- shaktism_good_god_devi:0 "Devi"
- shaktism_good_god_parvati:0 "Parvati"
- shaktism_good_god_kali:0 "Kali"
- shaktism_good_god_kali_possessive:0 "Kali's"
- shaktism_good_god_chandi:0 "Chandi"
+  srikula_shaktism:0 "Srikula Shaktism"
+  srikula_shaktism_adj:0 "Srikula"
+  srikula_shaktism_adherent:0 "Srikulaite"
+  srikula_shaktism_adherent_plural:0 "Srikulaites"
+  srikula_shaktism_desc:0 "Shaktism believes in the Great Goddess as the Supreme Being from which springs all existence. The Srikula worship Tripura Sundari as the highest aspect of the Goddess, and the source of all Shakti, the energy of the universe."
+
+  # Various deities of Srikula Shaktism
+    srikula_shaktism_high_god_name:0 "Tripura Sundari"
+    srikula_shaktism_high_god_name_possessive:0 "Tripura Sundari's"
+
+    shaktism_creator_god_name:0 "Mahadevi"
+    shaktism_creator_god_name_possessive:0 "Mahadevi's"
+
+    shaktism_health_god_name:0 "Ganga"
+    shaktism_health_god_name_possessive:0 "Ganga's"
+
+    shaktism_wealth_god_name:0 "Lakshmi"
+    shaktism_wealth_god_name_possessive:0 "Lakshmi's"
+
+    shaktism_night_god_name:0 "Bhairava"
+    shaktism_night_god_name_possessive:0 "Bhairava's"
+
+  # Shaktisim good deities
+    # Devi
+      shaktism_good_god_devi:0 "Devi"
+      shaktism_good_god_chandi:0 "Chandi"
+      shaktism_good_god_mahadevi:0 "Mahadevi"
+      shaktism_good_god_saraswati:0 "Saraswati"
+      shaktism_good_god_lakshmi:0 "Lakshmi"
+      shaktism_good_god_parvati:0 "Parvati"
+      shaktism_good_god_sati:0 "Sati"
+      shaktism_good_god_durga:0 "Durga"
+      shaktism_good_god_mahakali:0 "Mahakali"
+      shaktism_good_god_bhadrakali:0 "Bhadrakali"
+      shaktism_good_god_radha:0 "Radha"
+      shaktism_good_god_sita:0 "Sita"
+    # Matrikas
+      shaktism_good_god_brahmani:0 "Brahmani"
+      shaktism_good_god_varahi:0 "Varahi"
+      shaktism_good_god_indrani:0 "Indrani"
+      shaktism_good_god_chamunda:0 "Chamunda"
+    # Mahavidya
+      shaktism_good_god_kali:0 "Kali"
+      shaktism_good_god_kali_possessive:0 "Kali's"
+      shaktism_good_god_sundari:0 "Tripura Sundari"
+      shaktism_good_god_sundari_possessive:0 "Tripura Sundari's"
+      shaktism_good_god_tara:0 "Tara"
+      shaktism_good_god_bhuvaneshvari:0 "Bhuvaneshvari"
+      shaktism_good_god_bhairavi:0 "Bhairavi"
+      shaktism_good_god_chhinnamasta:0 "Chhinnamasta"
+      shaktism_good_god_bagalamukhi:0 "Bagalamukhi"
+      shaktism_good_god_matangi:0 "Matangi"
+      shaktism_good_god_kamalatmika:0 "Kamalatmika"
+    # Navadurga
+      shaktism_good_god_shailaputri:0 "Shailaputri"
+      shaktism_good_god_brahmacharini:0 "Brahmacharini"
+      shaktism_good_god_chandraghanta:0 "Chandraghanta"
+      shaktism_good_god_kushmanda:0 "Kushmanda"
+      shaktism_good_god_skandamata:0 "Skandamata"
+      shaktism_good_god_katyayani:0 "Katyayani"
+      shaktism_good_god_kalaratri:0 "Kalaratri"
+      shaktism_good_god_mahagauri:0 "Mahagauri"
+      shaktism_good_god_siddhidhatri:0 "Siddhidhatri"
 
 #Kalikula Shaktism
  kalikula_shaktism:0 "Kalikula Shaktism"
@@ -193,7 +300,7 @@
  suryaism_war_god_name:0 "Revanta"
  suryaism_war_god_name_possessive:0 "Revanta's"
 
-##Shrautism
+#Shrautism
  shrautism:0 "Shrautism"
  shrautism_adj:0 "Shrautist"
  shrautism_adherent:0 "Shrautist"
@@ -325,6 +432,56 @@
  koyapunem_adherent:0 "Koyapunem"
  koyapunem_adherent_plural:0 "Koyapunem"
  koyapunem_desc:0 "Koyapunem is the tribal religion of the Gond people. They follow a principal of munjok which focuses on cooperation, non-violence and self-defense. Being in harmony with nature is another element that is important to the Gondi people that follow Koyapeunem. "
+
+ koyapunem_high_god_name:0 "Kupar Lingo"
+ koyapunem_high_god_name_possessive:0 "Kupar Lingo's"
+
+ koyapunem_good_god_ravana:0 "Ravana"
+ koyapunem_good_god_kankali:0 "Mata Kali Kankali"
+ koyapunem_good_god_dulha:0 "Dulha-Pen"
+ koyapunem_good_god_gansam:0 "Gansam"
+ koyapunem_good_god_hardul:0 "Hardul"
+ koyapunem_good_god_bhivsen:0 "Bhivsen"
+ koyapunem_good_god_awal:0 "Nat Awal"
+ koyapunem_good_god_bhum:0 "Bhum"
+ koyapunem_good_god_auwal:0 "Nat Auwal"
+ koyapunem_good_god_thankur:0 "Thakur Deo"
+ koyapunem_good_god_hulera:0 "Hulera-Pen"
+ koyapunem_good_god_narayan:0 "Narayan-Pen"
+ koyapunem_good_god_kodapen:0 "Kodapen"
+ koyapunem_good_god_maswasi:0 "Maswasi Pen"
+ koyapunem_good_god_angadevs:0 "Angadevs"
+
+ koyapunem_evil_god_maitya_pen:0 "Maitya-Pen"
+
+ koyapunem_health_god_name:0 "Nat Auwal"
+ koyapunem_health_god_name_possessive:0 "Nat Auwal's"
+
+ koyapunem_fertility_god_name:0 "Dharti Mata"
+ koyapunem_fertility_god_name_possessive:0 "Dharti Mata's"
+
+ koyapunem_wealth_god_name:0 "Bhivsen"
+ koyapunem_wealth_god_name_possessive:0 "Bhivsen's"
+
+ koyapunem_household_god_name:0 "Nat Auwal"
+ koyapunem_household_god_name_possessive:0 "Nat Auwal's"
+
+ koyapunem_fate_god_name:0 "Mata Kali Kankali"
+ koyapunem_fate_god_name_possessive:0 "Mata Kali Kankali's"
+
+ koyapunem_knowledge_god_name:0 "Bhum"
+ koyapunem_knowledge_god_name_possessive:0 "Bhum's"
+
+ koyapunem_war_god_name:0 "Gansam"
+ koyapunem_war_god_name_possessive:0 "Gansam's"
+
+ koyapunem_night_god_name:0 "Chandra"
+ koyapunem_night_god_name_possessive:0 "Chandra's"
+
+ koyapunem_water_god_name:0 "Kanya"
+ koyapunem_water_god_name_possessive:0 "Kanya's"
+
+
 
 
 

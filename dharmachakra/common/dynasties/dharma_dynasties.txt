@@ -42,7 +42,7 @@ mundad002 = {
 	name = "dynn_Paraiya" 
 	culture = tripuri
 }
-# Tripuri Dynasties
+# Bhil Dynasties
 bhild001 = {
 	name = "dynn_Chauhan" 
 	culture = tripuri
@@ -59,6 +59,30 @@ bhild004 = {
 	name = "dynn_Doshi" 
 	culture = tripuri
 }
-
-
+# Samblpuri Dynasties
+sambalpurid001 = {
+	name = "dynn_Sankara" 
+	culture = tripuri
+}
+sambalpurid002 = {
+	name = "dynn_Baghal" 
+	culture = tripuri
+}
+sambalpurid003 = {
+	name = "dynn_Keshari" 
+	culture = tripuri
+}
+sambalpurid004 = {
+	name = "dynn_Bhanja" 
+	culture = tripuri
+}
+# Munda Dynasties
+gondid001 = {
+	name = "dynn_Chavali" 
+	culture = tripuri
+}
+gondid002 = {
+	name = "dynn_Mekala" 
+	culture = tripuri
+}
 

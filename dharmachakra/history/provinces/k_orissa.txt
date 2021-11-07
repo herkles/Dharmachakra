@@ -122,7 +122,7 @@
 	culture = sambalpuri
 	religion = sarnaism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 
@@ -132,10 +132,10 @@
 1156 = {	# 1156 - Kodalaka
 	
 	# Misc
-	culture = sambalpuri
-	religion = sarnaism
+	culture = oriya
+	religion = kalikula_shaktism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 
@@ -210,7 +210,7 @@
 	culture = sambalpuri
 	religion = sarnaism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 
@@ -220,10 +220,10 @@
 1228 = {	# 1228 - Swetakapura
 	
 	# Misc
-	culture = sambalpuri
-	religion = sarnaism
+	culture = oriya
+	religion = kalikula_shaktism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 
@@ -233,10 +233,10 @@
 1229 = {	# 1229 - Khinjali
 	
 	# Misc
-	culture = sambalpuri
-	religion = sarnaism
+	culture = oriya
+	religion = kalikula_shaktism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 
@@ -272,10 +272,10 @@
 1247 = {	# 1247 - Khijjinga
 	
 	# Misc
-	culture = sambalpuri
-	religion = sarnaism
+	culture = oriya
+	religion = kalikula_shaktism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 
