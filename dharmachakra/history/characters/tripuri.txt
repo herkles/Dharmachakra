@@ -65,7 +65,7 @@ tripuri005 = {# Durgur_Fa
     dynasty = tripurid001
 	father = tripuri004
 
-    715.1.1 = {
+    728.1.1 = {
         birth = yes
     }
 	# ascendes the throne on 730.1.1
@@ -125,7 +125,7 @@ tripuri009 = {# Mukunda_Fa
     dynasty = tripurid001
 	father = tripuri008
 
-    833.1.1 = {
+    855.1.1 = {
         birth = yes
     }
 	# ascendes the throne on 866.1.1
@@ -185,7 +185,7 @@ tripuri013 = {# Muchung_Fa
     dynasty = tripurid001
 	father = tripuri012
 
-    95.1.1 = {
+    965.1.1 = {
         birth = yes
     }
 	# ascendes the throne on 998.1.1

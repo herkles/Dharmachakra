@@ -166,8 +166,8 @@ munda012 = {# Kurian
         death = yes
     }
 }
-munda013 = {# Rapanmar
-    name = "Rapanmar"
+munda013 = {# Periyapillai
+    name = "Periyapillai"
     religion = "sarnaism"
     culture = "munda"
     dynasty = mundad002
@@ -185,7 +185,7 @@ munda014 = {# Parakesaripanmar
     religion = "sarnaism"
     culture = "munda"
     dynasty = mundad002
-	father = munda014
+	father = munda013
 
     1017.1.1 = {
         birth = yes

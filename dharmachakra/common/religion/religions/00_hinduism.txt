@@ -1134,7 +1134,8 @@
 		# Tribal faiths
 		sarnaism = {
 			color = { 135 206 235 }
-			icon = hinduism_custom_2
+			icon = dharma_sarnaism_icon_old
+			reformed_icon = dharma_sarnaism_icon_old
 
 			# Sapta Puri Holy Sites
 			holy_site = varanasi
@@ -1257,6 +1258,7 @@
 		koyapunem = {
 			color = { 20 52 164 }
 			icon = hinduism_custom_2
+			reformed_icon = hinduism_custom_2_reformed
 
 			# Sapta Puri Holy Sites
 			holy_site = varanasi

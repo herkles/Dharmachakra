@@ -102,7 +102,6 @@ rajbongshi008 = {# Pralambha
     religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
-	father = rajbongshi007
 
     833.1.1 = {
         birth = yes
@@ -186,7 +185,7 @@ rajbongshi014 = {# Vigrahastambha
     religion = "kalikula_shaktism"
     culture = "rajbongshi"
     dynasty = rajbongshid002
-	father = rajbongshi014
+	father = rajbongshi013
 
     1017.1.1 = {
         birth = yes
