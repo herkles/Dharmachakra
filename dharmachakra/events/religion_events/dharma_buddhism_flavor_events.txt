@@ -2605,7 +2605,7 @@ dharma_buddhism.300 = {# Decide to Visit Nalanda
 		add_character_flag = planning_an_activity
 	}
 
-	option = {# I shall stay
+	option = {# I shall stay 
 		name = dharma_buddhism.300.stay
 		hidden_effect = {
 			remove_decision_cooldown = dharma_learning_visit_cooldown_time
