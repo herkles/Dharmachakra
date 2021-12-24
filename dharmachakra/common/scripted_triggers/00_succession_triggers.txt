@@ -22,8 +22,14 @@ historical_succession_access_single_heir_succession_law_trigger = {
 	OR = {
 		has_title = title:e_byzantium
 		#Add any subsequent exceptions here.
-		culture_group = culture_group:indo_aryan_group
-		culture_group = culture_group:dravidian_group
+		AND = {
+			highest_held_title_tier >= tier_county
+			culture_group = culture_group:indo_aryan_group
+		}
+		AND = {
+			highest_held_title_tier >= tier_county
+			culture_group = culture_group:dravidian_group
+		}
 	}
 }
 
