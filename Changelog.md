@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.3.5 "Mahavira" (Released 09/09/2021)
+## Latest Version: 1.3.6 "Devi" (Released 27/12/2021)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -17,7 +17,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Tribal areas are now properly tribal
 - Several new characters have been added
 - added the Chutia and Tripura cultures
-- Added tribal faiths of sarnaism and 
+- Added tribal faiths of sarnaism and koyapunem
 - Various bug fixes
 
 ## Manual Installation Steps
