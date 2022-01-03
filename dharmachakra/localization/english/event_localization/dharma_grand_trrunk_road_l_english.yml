@@ -28,7 +28,7 @@
  dharma_road.003.west:0 "West"
 
  dharma_road.004.t:0 "The Construction now begins"
- dharma_road.004.desc:0 "Now that everything has been planned. The peasants and labourers are being sent to the fields to start the digging and laying the ground for the Grand Trunk Road"
+ dharma_road.004.desc:0 "Now that everything has been planned. The peasants and laborers are being sent to the fields to start the digging and laying the ground for the Grand Trunk Road"
  dharma_road.004.a:0 "Time to get to work"
 #######################################
 # main road sections
@@ -93,12 +93,12 @@
  dharma_road.018.nobuild:0 "Do not add the road extension"
 
  dharma_road.019.t:0 "Extend the Road to Lumbini?"
- dharma_road.019.desc:0 "A number of buddhist monks have come to your court to ask for the Grand Trunk Road to be extended northward to the city of Lumbini, the birthplace of Siddhartha Gautama. However some of our advisors note that this will add more costs to building the road."
+ dharma_road.019.desc:0 "A number of Buddhist monks have come to your court to ask for the Grand Trunk Road to be extended northward to the city of Lumbini, the birthplace of Siddhartha Gautama. However some of our advisors note that this will add more costs to building the road."
  dharma_road.019.build:0 "add the extension to Lumbini"
  dharma_road.019.nobuild:0 "Do not add the road extension"
 
  dharma_road.020.t:0 "Extend the Road to Multan?"
- dharma_road.020.desc:0 "Several Brahmins and court officals have proposed extending the road to the city of Multan, one of the centers to the God Surya. However some of our advisors note that this will add more costs to building the road."
+ dharma_road.020.desc:0 "Several Brahmins and court officials have proposed extending the road to the city of Multan, one of the centers to the God Surya. However some of our advisors note that this will add more costs to building the road."
  dharma_road.020.build:0 "add the extension to Multan"
  dharma_road.020.nobuild:0 "Do not add the road extension"
 ##### Optional completions #####
@@ -176,11 +176,11 @@
  dharma_road.027.a:0 "Option"
 
  dharma_road.028.t:0 "New Innovations help to improve construction"
- dharma_road.028.desc:0 "As the Road is being built some of our latest scholars have found solutions to improve the road efficency."
+ dharma_road.028.desc:0 "As the Road is being built some of our latest scholars have found solutions to improve the road efficiency."
  dharma_road.028.a:0 "Great News"
 
  dharma_road.029.t:0 "Corrupt Officials"
- dharma_road.029.desc:0 "Some local officals are siphoning the money for their own pockets, this has angered some of the peasants and is slowing the construction down."
+ dharma_road.029.desc:0 "Some local officials are siphoning the money for their own pockets, this has angered some of the peasants and is slowing the construction down."
  dharma_road.029.a:0 "Curses"
 
  dharma_road.030.t:0 "Peasants don't want to work"
@@ -221,7 +221,7 @@
  dharma_road.037.a:0 "Option"
 
  dharma_road.038.t:0 "Town Development"
- dharma_road.038.desc:0 "One of the Towns along the Grand Trunk Road has found its fortunes increasing as of late. Merchants, Pilgrims, and travellers have been coming to the city more and more. "
+ dharma_road.038.desc:0 "One of the Towns along the Grand Trunk Road has found its fortunes increasing as of late. Merchants, Pilgrims, and travelers have been coming to the city more and more. "
  dharma_road.038.a:0 "Interesting"
 
  dharma_road.039.t:0 "New Community built"

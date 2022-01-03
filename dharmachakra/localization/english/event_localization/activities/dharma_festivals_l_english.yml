@@ -2,8 +2,8 @@
 # Hindu Festivals
   # Diwali
     dharma_festivals.100.t:0 "Begin the Preparations for Diwali?"
-    dharma_festivals.100.desc:0 "Diwali is one of the most sacred days for Hindus. The festival of lights celebrates the victory of light over darkness and good over evil. Numerous different traditions abound about Diwali, and the festivities are strongly connected to the Goddess Lakshmi, though other deities such as Sita, Rama, Ganesha, Krishna, jsut to name a few are also honored. Should the preparations for Diwali be announced?"
-    dharma_festivals.100.diwali:0 "Lets begin the Preprations"
+    dharma_festivals.100.desc:0 "Diwali is one of the most sacred days for Hindus. The festival of lights celebrates the victory of light over darkness and good over evil. Numerous different traditions abound about Diwali, and the festivities are strongly connected to the Goddess Lakshmi, though other deities such as Sita, Rama, Ganesha, Krishna, just to name a few are also honored. Should the preparations for Diwali be announced?"
+    dharma_festivals.100.diwali:0 "Lets begin the Preparations"
     dharma_festivals.100.no_diwali:0 "I have better things to do..."
     activity_dharma_diwali_festival:0 "Diwali Festival"
     activity_dharma_diwali_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Diwali Festival."
@@ -46,10 +46,10 @@
     dharma_festivals.106.lover:0 "I am glad [lover.GetFirstName], loves it."
 
     dharma_festivals.107.t:0 "Balipratipada"
-    dharma_festivals.107.desc:0 "The fourth day of Diwali is dedicated to Mahabali, who was a mangamious king and companion to Lord Vishnu's avatar of Vamana. Along with continuing to burn lights, it is also common on this day to be a charitable and practice Dana and give to the commoners and try and be like Bali. "
-    dharma_festivals.107.large:0 "A grand denotion to the people"
-    dharma_festivals.107.medium:0 "A large denotion to the people"
-    dharma_festivals.107.small:0 "A small denotion to the people"
+    dharma_festivals.107.desc:0 "The fourth day of Diwali is dedicated to Mahabali, who was a magnanimous king and companion to Lord Vishnu's avatar of Vamana. Along with continuing to burn lights, it is also common on this day to be a charitable and practice Dana and give to the commoners and try and be like Bali. "
+    dharma_festivals.107.large:0 "A grand donation to the people"
+    dharma_festivals.107.medium:0 "A large donation to the people"
+    dharma_festivals.107.small:0 "A small donation to the people"
 
     dharma_festivals.108.t:0 "Play Pachikalu"
     dharma_festivals.108.desc:0 "On Balipratipada, it is common to engage in a dice gambling game called Pachikalu. Legends have the Gods Shiva, Ganesha, and Murugan, along with Shiva's wife Parvati playing the game. Shall you bet some money and play. Or will you sit this one out?"
@@ -61,18 +61,18 @@
     dharma_festivals.108.dont_play:0 "I will sit the game out"
 
     dharma_festivals.109.t:0 "Bhai Dooj"
-    dharma_festivals.109.desc.sister:0 "Today is Bahi Dooj, the day final day of Diwali. Today I have my servants prepare a meal for my brother, [brother.GetFirstName], of his favorite sweets and food. Today is a time for praying for [brother.GetFirstName] and ensuring his success and in turn my own. Before the feast, I place a red tilka mark upon his forhead. After the feast, I recieve a small gift. "
-    dharma_festivals.109.desc.brother:0 "Today is Bhai Dooj, the final day of Diwali. On this day my sister, [sister.GetFirstName], has had the servants serve me a meal of my favorite meal while praying for success and for me to protect her. After she places a red Tilka upon my forhead, I decide to give her a small gift to celebrate the day."
+    dharma_festivals.109.desc.sister:0 "Today is Bahi Dooj, the day final day of Diwali. Today I have my servants prepare a meal for my brother, [brother.GetFirstName], of his favorite sweets and food. Today is a time for praying for [brother.GetFirstName] and ensuring his success and in turn my own. Before the feast, I place a red tilka mark upon his forehead. After the feast, I receive a small gift. "
+    dharma_festivals.109.desc.brother:0 "Today is Bhai Dooj, the final day of Diwali. On this day my sister, [sister.GetFirstName], has had the servants serve me a meal of my favorite meal while praying for success and for me to protect her. After she places a red Tilka upon my forehead, I decide to give her a small gift to celebrate the day."
     dharma_festivals.109.sister:0 "What a wonderful brother, [brother.GetFirstName] is"
     dharma_festivals.109.brother:0 "What a wonderful Sister, [sister.GetFirstName] is"
 
     dharma_festivals.110.t:0 "Diwali concludes"
-    dharma_festivals.110.desc:0 "The festivites of Diwali are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.110.desc:0 "The festivities of Diwali are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.110.home:0 "Till next time!"
   # Navaratri
     dharma_festivals.125.t:0 "Begin the Preparations for Navaratri?"
-    dharma_festivals.125.desc:0 "Navaratri is a holy festival for many Hindus. It is the day dedicated to the Goddess Durga and her salying of the buffalo demon Mahishasura. Should the preparations for Navaratri be announced?"
-    dharma_festivals.125.navaratri:0 "Lets begin the Preprations"
+    dharma_festivals.125.desc:0 "Navaratri is a holy festival for many Hindus. It is the day dedicated to the Goddess Durga and her slaying of the buffalo demon Mahishasura. Should the preparations for Navaratri be announced?"
+    dharma_festivals.125.navaratri:0 "Lets begin the Preparations"
     dharma_festivals.125.no_navaratri:0 "I have better things to do..."
     activity_dharma_navaratri_festival:0 "Navaratri Festival"
     activity_dharma_navaratri_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Navaratri Festival."
@@ -104,7 +104,7 @@
     dharma_festivals.131.animal_sacrifice:0 "to Maha Durga"
 
     dharma_festivals.132.t:0 "Family Feast"
-    dharma_festivals.132.desc:0 "Navaratri is a time to get together with friends and family, and so as the festivities are coming to the last days of the event, you hold a feast at your court, where your servants give you and your family and courties various foods to enjoy during this special time of the year. "
+    dharma_festivals.132.desc:0 "Navaratri is a time to get together with friends and family, and so as the festivities are coming to the last days of the event, you hold a feast at your court, where your servants give you and your family and courtiers various foods to enjoy during this special time of the year. "
     dharma_festivals.132.food:0 "Thank you Ma Durga for the food!"
 
     dharma_festivals.133.t:0 "Gifts for your relatives"
@@ -128,45 +128,45 @@
     dharma_festivals.136.garba:0 "What a wonderful display."
 
     dharma_festivals.137.t:0 "Durga Puja"
-    dharma_festivals.137.desc:0 "Throughout your capital numerous Pandals have been built containing statues of the Goddess Durga. As the days of the festival progress, you have brought your idol to the river bank to be bathed in the water. Here you immerse the idol of the Goddess into the water where it will disolve and symbolic of her return to the Divine Cosmos and her home on mount Kailash. "
+    dharma_festivals.137.desc:0 "Throughout your capital numerous Pandals have been built containing statues of the Goddess Durga. As the days of the festival progress, you have brought your idol to the river bank to be bathed in the water. Here you immerse the idol of the Goddess into the water where it will dissolve and symbolic of her return to the Divine Cosmos and her home on mount Kailash. "
     dharma_festivals.137.durga:0 "A great time."
 
     dharma_festivals.138.t:0 "Navaratri concludes"
-    dharma_festivals.138.desc:0 "The festivites of Navaratri are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.138.desc:0 "The festivities of Navaratri are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.138.home:0 "Till next time!"
 
 # Buddhist Festivals
   # Vesak
     dharma_festivals.200.t:0 "Begin the Preparations for Vesak?"
     dharma_festivals.200.desc:0 "Vesak is one of the holist Buddhist festivals, celebrating the Birth, Enlightenment, and Death of Gautama Buddha. Shall you announce that the preparations are on their way?"
-    dharma_festivals.200.vesak:0 "Lets begin the Preprations"
+    dharma_festivals.200.vesak:0 "Lets begin the Preparations"
     dharma_festivals.200.no_vesak:0 "I have better things to do..."
     activity_dharma_vesak_festival:0 "Vesak Festival"
     activity_dharma_vesak_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Vesak Festival."
 
     dharma_festivals.201.t:0 "Vesak begins"
-    dharma_festivals.201.desc:0 "Vesak is now here and the festival atmosphere can be felt throughout the palace and into the streets. People are visitng local shrines and temples. Vesak is now here. "
+    dharma_festivals.201.desc:0 "Vesak is now here and the festival atmosphere can be felt throughout the palace and into the streets. People are visiting local shrines and temples. Vesak is now here. "
     dharma_festivals.201.vesak:0 "Let us honor the Buddha"
 
-    dharma_festivals.202.t:0 "The Buddhist Precipets"
+    dharma_festivals.202.t:0 "The Buddhist Precepts"
     dharma_festivals.202.desc:0 "During Vesak it is common for Buddhists to take the eight Precepts. They are similar to the five precepts that laity like myself follow, however during Vessak I am to avoid all sexual conduct, luxury, and to eat at the same time as a monks.  "
     dharma_festivals.202.eight:0 "Eight Precepts for Vesak"
     dharma_festivals.202.five:0 "I shall stick with the 5 precepts"
 
-    dharma_festivals.203.t:0 "Visiting the monastaries"
-    dharma_festivals.203.desc:0 "As part of Vesak one of the important things to do is to visit the local monastaries and meditate upon the Buddha's life and the idea that nothing is permenant."
+    dharma_festivals.203.t:0 "Visiting the monasteries"
+    dharma_festivals.203.desc:0 "As part of Vesak one of the important things to do is to visit the local monasteries and meditate upon the Buddha's life and the idea that nothing is permanent."
     dharma_festivals.203.temple:0 "Om Mani Padme Hum"
 
     dharma_festivals.204.t:0 "Dharma Talk from the monks"
     dharma_festivals.204.desc:0 "After bathing and anointing the statues of the Buddha. The local monks give a dharma talk about peace and happiness for you and your dynasty as well as the common folk. "
-    dharma_festivals.204.talk:0 "Peace and Prosparity"
+    dharma_festivals.204.talk:0 "Peace and Prosperity"
 
     dharma_festivals.205.t:0 "Family Feast"
-    dharma_festivals.205.desc:0 "Today is Vesak and you are preparing for your feast with your family and court on this holy occassion. On Vesak, the feasts are to be a vegetarian meal. This is regarded as particular mertious on this holy day."
+    dharma_festivals.205.desc:0 "Today is Vesak and you are preparing for your feast with your family and court on this holy occasion. On Vesak, the feasts are to be a vegetarian meal. This is regarded as particular meritorious on this holy day."
     dharma_festivals.205.feast:0 "A wonderful feast."
 
     dharma_festivals.206.t:0 "Animal Release"
-    dharma_festivals.206.desc:0 "As part of Vesak, it is common for people to engage in life release for animals. Where animals that are in captivity or were going to be eaten are to be released into the wilds to live out the rest of their lives. Fish are let back into rivers and streams, Birds are let loose to fly, animals are let back into the hills and plains. This act is regarded as specially mertious. "
+    dharma_festivals.206.desc:0 "As part of Vesak, it is common for people to engage in life release for animals. Where animals that are in captivity or were going to be eaten are to be released into the wilds to live out the rest of their lives. Fish are let back into rivers and streams, Birds are let loose to fly, animals are let back into the hills and plains. This act is regarded as specially meritorious."
     dharma_festivals.206.animal:0 "May all living things prosper."
 
     dharma_festivals.207.t:0 "Prisoner release"
@@ -181,18 +181,18 @@
     dharma_festivals.208.small:0 "A small gift for the commoners"
 
     dharma_festivals.209.t:0 "Light Procession"
-    dharma_festivals.209.desc:0 "At the end of Vesak, everyone gathers near the monastary, both commoner and noble alike. The monks lead in chanting for the public while people hold tea lights and lanterns. As the sun descends and night arrives, it is these lights that light up the sky. After a while the lanterns are released and they are floating away, illuminating the night sky as they help to burn away bad karma."
+    dharma_festivals.209.desc:0 "At the end of Vesak, everyone gathers near the monastery, both commoner and noble alike. The monks lead in chanting for the public while people hold tea lights and lanterns. As the sun descends and night arrives, it is these lights that light up the sky. After a while the lanterns are released and they are floating away, illuminating the night sky as they help to burn away bad karma."
     dharma_festivals.209.light:0 "What wonderful lights."
 
     dharma_festivals.210.t:0 "Vesak Concludes"
-    dharma_festivals.210.desc:0 "The festivites of Vesak are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.210.desc:0 "The festivities of Vesak are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.210.home:0 "Till next time."
 
 # Orissa Festivals
   # Ratha Yatra 
     dharma_festivals.300.t:0 "Begin the Preparations for Ratha Yatra?"
     dharma_festivals.300.desc:0 "It shall soon be the time for Ratha Yatra. Ratha Yatra  is a sacred spiritual time dedicated to Lord Jaganath, which involves the chariots of the Gods being pulled through the streets of your city. Shall you announce that  Ratha Yatra is underway this year?"
-    dharma_festivals.300.ratha_yatra:0 "Lets begin the Preprations"
+    dharma_festivals.300.ratha_yatra:0 "Lets begin the Preparations"
     dharma_festivals.300.no_ratha_yatra:0 "I have better things to do..."
     activity_dharma_ratha_yatra_festival:0 "Ratha Yatra  Festival"
     activity_dharma_pongal_ratha_yatra_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Ratha Yatra  Festival."
@@ -202,7 +202,7 @@
     dharma_festivals.301.chariot:0 "This is quite the sight."
 
     dharma_festivals.302.t:0 "Chhera Pahara"
-    dharma_festivals.302.desc:0 "One of the big rites of the Ratha Yatra, is where the host will sweep the street before the chariots with a specially made golden handled broom while sprinkling sandlewood water and powder. Shall you conduct the rite, or shall you delegate the task to someone else."
+    dharma_festivals.302.desc:0 "One of the big rites of the Ratha Yatra, is where the host will sweep the street before the chariots with a specially made golden handled broom while sprinkling sandalwood water and powder. Shall you conduct the rite, or shall you delegate the task to someone else."
     dharma_festivals.302.sweep:0 "I shall conduct the ritual"
     dharma_festivals.302.no_sweep:0 "A King does not sweep!"
 
@@ -221,23 +221,23 @@
     dharma_festivals.305.small:0 "A small gift for the people"
 
     dharma_festivals.306.t:0 "Ratha Yatra concludes"
-    dharma_festivals.306.desc:0 "The festivites of Ratha Yatra are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
+    dharma_festivals.306.desc:0 "The festivities of Ratha Yatra are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
     dharma_festivals.306.home:0 "Till next time!"
-# Burmerse Festivals
+# Burmese Festivals
   # Thingyan
     dharma_festivals.315.t:0 "Begin the Preparations for Thingyan?"
-    dharma_festivals.315.desc:0 "Losar is the New Year festival for the Burmese People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
-    dharma_festivals.315.thingyan:0 "Lets begin the Preprations"
+    dharma_festivals.315.desc:0 "Losar is the New Year festival for the Burmese People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preparations are underway for this year festivities?"
+    dharma_festivals.315.thingyan:0 "Lets begin the Preparations"
     dharma_festivals.315.no_thingyan:0 "I have better things to do..."
     activity_dharma_thingyan_festival:0 "Thingyan Festival"
     activity_dharma_thingyan_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Thingyan Festival."
 
-    dharma_festivals.316.t:0 "a-kyo nei"
-    dharma_festivals.316.desc:0 "Thingyan is almost here, today is A-Kyo Nei, which is Thingyan Eve. A number of prayers and rituals preparing one for the festivals occures today, including taking the Buddhist eight precepts."
+    dharma_festivals.316.t:0 "A-Kyo Nei"
+    dharma_festivals.316.desc:0 "Thingyan is almost here, today is A-Kyo Nei, which is Thingyan Eve. A number of prayers and rituals preparing one for the festivals occurs today, including taking the Buddhist eight precepts."
     dharma_festivals.202.eight:0 "Eight Precepts for Thingyan"
     dharma_festivals.202.five:0 "I shall stick with the five precepts"
 
-    dharma_festivals.317.t:0 "a-kya nei"
+    dharma_festivals.317.t:0 "A-Kya Nei"
     dharma_festivals.317.desc:0 "Today is A-kya Nei, when Thingyan begins. It is the day when Thagya Min makes his descent from the heavens. It is also the time when people come together to throw water at one another and have fun splashing in the water. "
     dharma_festivals.317.thingyan:0 "Thank you Thagya Min for the water"
 
@@ -246,31 +246,31 @@
     dharma_festivals.318.fish:0 "I release you once, you release me ten times."
 
     dharma_festivals.319.t:0 "Charity for the commoners"
-    dharma_festivals.319.desc:0 "During Thingyan it is common to celebrate by giving gifts to the commoners to show your generosity and magnaminious. What sort of gift shall you give the commoners?"
+    dharma_festivals.319.desc:0 "During Thingyan it is common to celebrate by giving gifts to the commoners to show your generosity and magnanimous. What sort of gift shall you give the commoners?"
     dharma_festivals.319.large:0 "A grand gift for the commoners."
     dharma_festivals.319.medium:0 "A normal gift for the commoners."
     dharma_festivals.319.small:0 "A token gift for the commoners"
 
     dharma_festivals.320.t:0 "A-Tet Nei"
-    dharma_festivals.320.desc:0 "After the days of throwing water at one another and fun, a-tet nei arrives which marks the stopping of throwing water. "
+    dharma_festivals.320.desc:0 "After the days of throwing water at one another and fun, A-Tet Nei arrives which marks the stopping of throwing water. "
     dharma_festivals.320.water:0 "Till next time"
 
     dharma_festivals.321.t:0 "Hair Washing ritual"
-    dharma_festivals.321.desc:0 "One of the customs is for royalty to engage in an elaborate ritual to purify themself and cleanse themselves. This also includes a special hair washing ritual using water from Gaungsay Kyun, along with several herbs, melted snow and coconut water to cleanse yourself."
+    dharma_festivals.321.desc:0 "One of the customs is for royalty to engage in an elaborate ritual to purify themselves and cleanse themselves. This also includes a special hair washing ritual using water from Gaungsay Kyun, along with several herbs, melted snow and coconut water to cleanse yourself."
     dharma_festivals.321.hair:0 "I feel cleansed. "
 
     dharma_festivals.322.t:0 "Hnit hsan Ta Yet Nei"
-    dharma_festivals.322.desc:0 "The last day of Thingyan, which marks the new year actually begining, culimanates with a feast for you and your court. Your servants have brought out a number of traditional delicies and food for you, your family and cour to enjoy."
+    dharma_festivals.322.desc:0 "The last day of Thingyan, which marks the new year actually beginning, culminates with a feast for you and your court. Your servants have brought out a number of traditional delicacies and food for you, your family and court to enjoy."
     dharma_festivals.322.feast:0 "Good food and good times"
 
     dharma_festivals.323.t:0 "Thingyan Ends"
-    dharma_festivals.323.desc:0 "The festivites of Thingyan are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.323.desc:0 "The festivities of Thingyan are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.323.home:0 "Till next time"
 # Bihari Festivals
   # Chhath
     dharma_festivals.330.t:0 "Begin the Preparations for Losar?"
-    dharma_festivals.330.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
-    dharma_festivals.330.chhath:0 "Lets begin the Preprations"
+    dharma_festivals.330.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preparations are underway for this year festivities?"
+    dharma_festivals.330.chhath:0 "Lets begin the Preparations"
     dharma_festivals.330.no_chhath:0 "I have better things to do..."
     activity_dharma_losar_festival:0 "Losar Festival"
     activity_dharma_losar_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Losar Festival."
@@ -298,19 +298,19 @@
     dharma_festivals.335.small:0 "A small gift for the People"
 
     dharma_festivals.336.t:0 "Chhath concludes"
-    dharma_festivals.336.desc:0 "The festivites of Chhath are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
+    dharma_festivals.336.desc:0 "The festivities of Chhath are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
     dharma_festivals.336.home:0 "Till next year!"
 # Rajasthani Festivals
   # Gangaur
     dharma_festivals.350.t:0 "Begin the Preparations for Gangaur?"
-    dharma_festivals.350.desc:0 "Gangaur is a festival that celebrates Gaur and Gana, local names for Lord Shiva and Ma Parvati. This festival is a colorful festival that both the Rajasthani elites and commoners like to celebrate, especially women. Shall the preprations for this festival of love and maritial bliss be announced?"
-    dharma_festivals.350.gangaur:0 "Lets begin the Preprations"
+    dharma_festivals.350.desc:0 "Gangaur is a festival that celebrates Gaur and Gana, local names for Lord Shiva and Ma Parvati. This festival is a colorful festival that both the Rajasthani elites and commoners like to celebrate, especially women. Shall the preparations for this festival of love and marital bliss be announced?"
+    dharma_festivals.350.gangaur:0 "Lets begin the Preparations"
     dharma_festivals.350.no_gangaur:0 "I have better things to do..."
     activity_dharma_gangaur_festival:0 "Gangaur Festival"
     activity_dharma_gangaur_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Gangaur Festival."
 
     dharma_festivals.351.t:0 "Gangaur begins"
-    dharma_festivals.351.desc.male:0 "The time for Gangaur is now here, the women in your family and your court have begun to worship the divine couple. The festivites for Gangaur have now begun."
+    dharma_festivals.351.desc.male:0 "The time for Gangaur is now here, the women in your family and your court have begun to worship the divine couple. The festivities for Gangaur have now begun."
     dharma_festivals.351.desc.female:0 "The time for Ganguar is now upon you. You and the rest of the ladies of the court have begun to worship the divine couple, with you leading the rest of the ladies in the court. One of the important customs that you begin is a fast, where you eat only one meal per day during the festivals."
     dharma_festivals.351.gangaur:0 "To Maa Gana and Lord Gaur"
 
@@ -360,7 +360,7 @@
     dharma_festivals.358.puppet:0 "What a wonderful Show"
 
     dharma_festivals.359.t:0 "Gangaur Procession"
-    dharma_festivals.359.desc:0 "The finaly days of Ganguar end with an elaborate procession throughout the capital starting from your palace and passing through the markets, by passing temples, theaters and more as it proceeds throughout the city. The procession is an elaborate demonstration of the Divine couple's grace and demonstrates your power."
+    dharma_festivals.359.desc:0 "The final days of Ganguar end with an elaborate procession throughout the capital starting from your palace and passing through the markets, by passing temples, theaters and more as it proceeds throughout the city. The procession is an elaborate demonstration of the Divine couple's grace and demonstrates your power."
     dharma_festivals.359.procession:0 "A wonderful procession"
 
     dharma_festivals.360.t:0 "Courtly Feast"
@@ -369,13 +369,13 @@
     dharma_festivals.360.feast:0 "To a wonderful Gangaur!"
 
     dharma_festivals.361.t:0 "Gangaur concludes"
-    dharma_festivals.361.desc:0 "The festivites of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.361.desc:0 "The festivities of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.361.home:0 "Till next time!"
 # Tibetan Festivals
   # Losar
     dharma_festivals.400.t:0 "Begin the Preparations for Losar?"
-    dharma_festivals.400.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
-    dharma_festivals.400.losar:0 "Lets begin the Preprations"
+    dharma_festivals.400.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preparations are underway for this year festivities?"
+    dharma_festivals.400.losar:0 "Lets begin the Preparations"
     dharma_festivals.400.no_losar:0 "I have better things to do..."
     activity_dharma_losar_festival:0 "Losar Festival"
     activity_dharma_losar_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Losar Festival."
@@ -385,50 +385,50 @@
     dharma_festivals.401.clean:0 "Kra Shis Bde Legs Phun Sum Tshogs"
 
     dharma_festivals.402.t:0 "Lama Losar"
-    dharma_festivals.402.desc:0 "The first day of Losar is Lama Losar, where people pay homage to their gurus and spiritual leaders and visit the monastaries. As I visit the monastary, I can see some peasants making offerings at their household shrines for good harvests in the new year."
+    dharma_festivals.402.desc:0 "The first day of Losar is Lama Losar, where people pay homage to their gurus and spiritual leaders and visit the monasteries. As I visit the monastery, I can see some peasants making offerings at their household shrines for good harvests in the new year."
     dharma_festivals.402.guru:0 "Tashi Delek"
 
     dharma_festivals.403.t:0 "King Losar"
-    dharma_festivals.403.desc:0 "The second day of Losar is King Losar. Here your servants and courtiers pay homage to you and give gifts to you. As you sit in your palace, you recieve numerous guests who have come to offer to you. Some of them have even given gifts to you."
+    dharma_festivals.403.desc:0 "The second day of Losar is King Losar. Here your servants and courtiers pay homage to you and give gifts to you. As you sit in your palace, you receive numerous guests who have come to offer to you. Some of them have even given gifts to you."
     dharma_festivals.403.king:0 "Losar Bey Tashi Delek"
 
     dharma_festivals.404.t:0 "Gifts for the common people"
-    dharma_festivals.404.desc:0 "It is not just the king who recieves a gift on the second day. It is also customary for you to give gifts to the common people to demonstrate your benevolance and genorsity and show how great you are. "
+    dharma_festivals.404.desc:0 "It is not just the king who receives a gift on the second day. It is also customary for you to give gifts to the common people to demonstrate your benevolence and generosity and show how great you are. "
     dharma_festivals.404.large:0 "A grand gift for the people"
     dharma_festivals.404.medium:0 "A large gift for the people"
     dharma_festivals.404.small:0 "A small gift for the people"
 
     dharma_festivals.405.t:0 "Choe-Kyong Losar"
-    dharma_festivals.405.desc:0 "The third day of Losar is Choe-Kyong Losar, where people go to the Monastaries and temples to offer prayers to [ROOT.Char.GetFaith.HighGodName], [ROOT.Char.GetFaith.random_GoodGodNames], [ROOT.Char.GetFaith.random_GoodGodNames], and other Deities. While people put up prayer flags around the palace and monastaries. Incense is burned to bring prosparity in the new year."
+    dharma_festivals.405.desc:0 "The third day of Losar is Choe-Kyong Losar, where people go to the Monasteries and temples to offer prayers to [ROOT.Char.GetFaith.HighGodName], [ROOT.Char.GetFaith.random_GoodGodNames], [ROOT.Char.GetFaith.random_GoodGodNames], and other Deities. While people put up prayer flags around the palace and monasteries. Incense is burned to bring prosperity in the new year."
     dharma_festivals.405.prayers:0 "Tashi Delek!"
 
     dharma_festivals.406.t:0 "The Dances and Plays"
-    dharma_festivals.406.desc:0 "After the prayers and religious services at the monastary and temples comes the dances and plays. Here people dressed in elaborate masks and costumes dance and tell stories."
+    dharma_festivals.406.desc:0 "After the prayers and religious services at the monastery and temples comes the dances and plays. Here people dressed in elaborate masks and costumes dance and tell stories."
     dharma_festivals.406.dance:0 "What a show"
 
     dharma_festivals.407.t:0 "Feast with the Family and court"
-    dharma_festivals.407.desc:0 "Following the dances at the monastary, it is tradition to have a feast with the family and court. The servants come and serve you Guthuk, serving chang beer, and plenty of delicacies. "
+    dharma_festivals.407.desc:0 "Following the dances at the monastery, it is tradition to have a feast with the family and court. The servants come and serve you Guthuk, serving chang beer, and plenty of delicacies. "
     dharma_festivals.407.feast:0 "Prosperity and good Fortune!"
 
     dharma_festivals.408.t:0 "Losar concludes"
-    dharma_festivals.408.desc:0 "The festivites of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end. "
+    dharma_festivals.408.desc:0 "The festivities of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end. "
     dharma_festivals.408.home:0 "The festivities are now concluded."
 
 # Tamil Festivals
   # Pongal
     dharma_festivals.425.t:0 "Begin the Preparations for Pongal?"
-    dharma_festivals.425.desc:0 "It shall soon be time for Pongal, the Harvest festival that falls on the month of Thai according to the Tamil calendar. Dedicated to the Hindu God Surya, the festival marks the end of the winter solistice. Shall you announce that the preparations are to begin."
-    dharma_festivals.425.pongal:0 "Lets begin the Preprations"
+    dharma_festivals.425.desc:0 "It shall soon be time for Pongal, the Harvest festival that falls on the month of Thai according to the Tamil calendar. Dedicated to the Hindu God Surya, the festival marks the end of the winter solstice. Shall you announce that the preparations are to begin."
+    dharma_festivals.425.pongal:0 "Lets begin the Preparations"
     dharma_festivals.425.no_pongal:0 "I have better things to do..."
     activity_dharma_pongal_festival:0 "Pongal Festival"
     activity_dharma_pongal_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Pongal Festival."
 
     dharma_festivals.426.t:0 "Bhogi Pongal"
-    dharma_festivals.426.desc:0 "The first day of Pongal is Bhogi Pongal. This is the day dedicated to cleaning out one's house or palace of unwanted things. The day begins with a nice relaxing bath for yourself, while the kolam is drawn outside the palace letting everyone know that the festival is begining. In the center of the courtyard a grand bonfire has been built where old items that need to be thrown out can be burned as you make way for the new year."
+    dharma_festivals.426.desc:0 "The first day of Pongal is Bhogi Pongal. This is the day dedicated to cleaning out one's house or palace of unwanted things. The day begins with a nice relaxing bath for yourself, while the kolam is drawn outside the palace letting everyone know that the festival is beginning. In the center of the courtyard a grand bonfire has been built where old items that need to be thrown out can be burned as you make way for the new year."
     dharma_festivals.426.bonfire:0 "Lerations"
 
     dharma_festivals.427.t:0 "Surya Pongal"
-    dharma_festivals.427.desc:0 "Surya Pongal is the second day of Pongal, it is this day where the famous rice dish and where the festival gets its name comes from. The family comes together to watch the rice boil over in the special prpeared pot which is often decorated. As the host you are the first to blow the conch horn while others shout Pongalo Pongal as once the rice boils over it symbolically means greater fortunes in the new year. "
+    dharma_festivals.427.desc:0 "Surya Pongal is the second day of Pongal, it is this day where the famous rice dish and where the festival gets its name comes from. The family comes together to watch the rice boil over in the special prepared pot which is often decorated. As the host you are the first to blow the conch horn while others shout Pongalo Pongal as once the rice boils over it symbolically means greater fortunes in the new year. "
     dharma_festivals.427.surya:0 "Pongalo Pongal, Pongalo Pongal."
 
     dharma_festivals.428.t:0 "Sugarcane Market"
@@ -444,7 +444,7 @@
     dharma_festivals.430.desc:0 "On Mattu Pongal, in addition to honoring cattle and visiting Temples, it is also customary to go and watch a game of Jallikattu. Jallikattu involves releasing a bull into an enclosed area and trying to grab a hold of the humb and bring it to a full stop. The person who can do so the longest wins. You can participate in the activity or you can just watch. "
     dharma_festivals.430.participate:0 "I shall Participate"
     dharma_festivals.430.participate.success:0 "You impress everyone by holding onto the Bull the longest."
-    dharma_festivals.430.participate.success_title:0 "You succed at holding onto the Bull."
+    dharma_festivals.430.participate.success_title:0 "You succeed at holding onto the Bull."
     dharma_festivals.430.participate.failure:0 "You try to hold onto the Bull but you fail to do so, and fall onto the ground during the games. "
     dharma_festivals.430.participate.failure_title:0 "You fail to hold onto the Bull."
     dharma_festivals.430.participate.critical_failure:0 "You try to hold onto the Bull, but fail to do so and as you fall to the ground, you find yourself being injured by the beast."
@@ -452,7 +452,7 @@
     dharma_festivals.430.watch:0 "I shall watch"
 
     dharma_festivals.431.t:0 "Kaanum Pongal"
-    dharma_festivals.431.desc:0 "Kaanum Pongal is the fifth day of Pongal where you and your family and court enjoy a feast. Here numerous foods are brought before you and your court, in particular sugarcane and dishes made from sugarcane are brought out while musicians and poets recite tamil poetry for you. "
+    dharma_festivals.431.desc:0 "Kaanum Pongal is the fifth day of Pongal where you and your family and court enjoy a feast. Here numerous foods are brought before you and your court, in particular sugarcane and dishes made from sugarcane are brought out while musicians and poets recite Tamil poetry for you. "
     dharma_festivals.431.family:0 "Good food."
 
     dharma_festivals.432.t:0 "giving gifts to your family members"
@@ -464,34 +464,34 @@
     dharma_festivals.432.children:0 "I will give a gift to my children."
 
     dharma_festivals.433.t:0 "A gift for your commoners and servants?"
-    dharma_festivals.433.desc:0 "Another custom of Pongal is for rulers to give gifts to their servants and the common people. This way one can see the benevolance and greatness of their ruler. What sort of gift shall you give them?"
+    dharma_festivals.433.desc:0 "Another custom of Pongal is for rulers to give gifts to their servants and the common people. This way one can see the benevolence and greatness of their ruler. What sort of gift shall you give them?"
     dharma_festivals.433.large:0 "A grand gesture shall do"
     dharma_festivals.433.medium:0 "A normal gift shall do"
     dharma_festivals.433.small:0 "A token gift shall do"
 
     dharma_festivals.434.t:0 "Pongal concludes"
-    dharma_festivals.434.desc:0 "The festivites of Pongal are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.434.desc:0 "The festivities of Pongal are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.434.home:0 "Till next time!"
   # Thaipusam 
     dharma_festivals.440.t:0 "Begin the Preparations for Thaipusam?"
     dharma_festivals.440.desc:0 "It shall soon be the time for Thaipusam. Thaipusam is a sacred spiritual time dedicated to Lord Murugan. Shall you announce that Thaipusam is underway this year?"
-    dharma_festivals.440.thaipusam:0 "Lets begin the Preprations"
+    dharma_festivals.440.thaipusam:0 "Lets begin the Preparations"
     dharma_festivals.440.no_thaipusam:0 "I have better things to do..."
     activity_dharma_thaipusam_festival:0 "Thaipusam Festival"
     activity_dharma_thaipusam_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Thaipusam Festival."
 
     dharma_festivals.441.t:0 "Fasting and Preparation"
     dharma_festivals.441.desc:0 "Thaipusam will be tomorrow and to prepare yourself you have begun to fast and pray as you prepare yourself mentally and spiritually for tomorrow."
-    dharma_festivals.441.fast:0 "Lets begin the Preprations"
+    dharma_festivals.441.fast:0 "Lets begin the Preparations"
 
     dharma_festivals.442.t:0 "Shall you peirce yourself?"
-    dharma_festivals.442.desc:0 "One of the distinctive elements of Thaipusam is the peiricings that many devotees have to show their devotion to Lord Murugan and to ask for forgiveness and blessings. These body mortificatiosn can range from skewing the cheeks with a small trident or val to many peiricings."
+    dharma_festivals.442.desc:0 "One of the distinctive elements of Thaipusam is the piercings that many devotees have to show their devotion to Lord Murugan and to ask for forgiveness and blessings. These body mortifications can range from skewing the cheeks with a small trident or val to many piercings."
     dharma_festivals.442.peirce:0 "I shall peirce myself for Lord Murugan"
     dharma_festivals.442.no_peirce:0 "I have better things to do..."
 
     dharma_festivals.443.t:0 "Procession to the Temple"
-    dharma_festivals.443.desc.peircing:0 "You proceed to the temple, in a trance like state as you proceed to the Temple of Lord Murugan. Your body skewed with peiricings as you proceed down the street. Along the way you see others carrying pots of milk and dancing as the procession makes their way to the temple."
-    dharma_festivals.443.desc.normal:0 "You proceed to the Temple of Lord Muruugan. As you proceed carrying your offerings, you see numerous people with peiricings and skewers showing their faith. You see other people carrying pots of milk and dancing as the procession makes their way to the temple."
+    dharma_festivals.443.desc.peircing:0 "You proceed to the temple, in a trance like state as you proceed to the Temple of Lord Murugan. Your body skewed with piercings as you proceed down the street. Along the way you see others carrying pots of milk and dancing as the procession makes their way to the temple."
+    dharma_festivals.443.desc.normal:0 "You proceed to the Temple of Lord Muruugan. As you proceed carrying your offerings, you see numerous people with piercings and skewers showing their faith. You see other people carrying pots of milk and dancing as the procession makes their way to the temple."
     dharma_festivals.443.procession:0 "Om Skandaya Namaha"
 
     dharma_festivals.444.t:0 "Offering to Lord Murugan"
@@ -510,9 +510,7 @@
     dharma_festivals.445.small:0 "A small donation"
 
     dharma_festivals.446.t:0 "Thaipusam concludes"
-    dharma_festivals.446.desc:0 "The festivites of Thaipusam are now finally over, and the spiritual mood of the festival continue on for many days. Yet still every good thing must come to an end."
+    dharma_festivals.446.desc:0 "The festivities of Thaipusam are now finally over, and the spiritual mood of the festival continue on for many days. Yet still every good thing must come to an end."
     dharma_festivals.446.home:0 "Till next Year!"
-
-
 
 

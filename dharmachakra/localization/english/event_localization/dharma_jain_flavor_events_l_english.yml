@@ -51,20 +51,20 @@
  dharma_jainism.008.solbhathu:0 "Solbhathu"
  dharma_jainism.008.solbhathu.tt:0 "You will fast without eating for 16 days, drinking only boiled water."
 
- dharma_jainism.009.t:0 "Local Jain Monestary wants a new statue"
- dharma_jainism.009.desc:0 "A local Monestary wants to dedicate a new statue of [ROOT.Char.GetFaith.random_GoodGodNames] to put in the Monestary. Will you support the Monestary and patronize the creation of a new statue?"
+ dharma_jainism.009.t:0 "Local Jain Monastery wants a new statue"
+ dharma_jainism.009.desc:0 "A local Monastery wants to dedicate a new statue of [ROOT.Char.GetFaith.random_GoodGodNames] to put in the Monastery. Will you support the Monastery and patronize the creation of a new statue?"
  dharma_jainism.009.patronize:0 "Here you go."
  dharma_jainism.009.no_patronize:0 "Sadly I don't have the money now"
 
  dharma_jainism.010.t:0 "Abdication?"
- dharma_jainism.010.desc:0 "You have decided to ponder the merits of Abdicating your throne. If you choose to abdicate and become a monk, you will renounce all worldly possessions and dedicate yourself to living by the five great vows and striving to live a virteous life in order to achieve moksha. Of course doing so includes renouncing the throne, and letting your heir take over. Is this something you wish to go through with?"
+ dharma_jainism.010.desc:0 "You have decided to ponder the merits of Abdicating your throne. If you choose to abdicate and become a monk, you will renounce all worldly possessions and dedicate yourself to living by the five great vows and striving to live a virtuous life in order to achieve moksha. Of course doing so includes renouncing the throne, and letting your heir take over. Is this something you wish to go through with?"
  dharma_jainism.010.abdicate:0 "I hereby renounce my throne."
  dharma_jainism.010.no_abdicate:0 "on second thought, no. "
 #######################################
-# jain Vegetarianism
+# Jain Vegetarianism
 #######################################
  dharma_jainism.011.t:0 "Non Jains complaining about Vegetarianism"
- dharma_jainism.011.desc:0 "A number of courtiers who do not practice vegetarianism have been complaining lately about the court's lack of meat for feasts and banquets. You could give be lientant towards them, or you could try and show them how good vegetarianism is."
+ dharma_jainism.011.desc:0 "A number of courtiers who do not practice vegetarianism have been complaining lately about the court's lack of meat for feasts and banquets. You could give be lenient towards them, or you could try and show them how good vegetarianism is."
  dharma_jainism.011.meat:0 "Allow them to eat meat"
  dharma_jainism.011.no_meat:0 "Show them good vegetarianism food"
 
@@ -79,7 +79,7 @@
  dharma_jainism.013.no_law:0 "Not at this point."
 
  dharma_jainism.014.t:0 "Merchants wish to sell meat"
- dharma_jainism.014.desc:0 "A number of merchants have complained about the law that outlawed selling meat. You could recind the law allowing them to sell it, but doing so will risk angering the monks of the Sangha."
+ dharma_jainism.014.desc:0 "A number of merchants have complained about the law that outlawed selling meat. You could rescind the law allowing them to sell it, but doing so will risk angering the monks of the Sangha."
  dharma_jainism.014.stay:0 "The law stays"
  dharma_jainism.014.go:0 "The law goes"
 
@@ -101,7 +101,7 @@
  dharma_jainism.018.t:0 "Ratri-jagrana"
  dharma_jainism.018.desc:0 "Ratri-jagrana is the nightly vigil where you stay up all night to sing hymns and meditate. The lack of sleep has been getting to you as you do the meditation, but you will get through it you think...."
  dharma_jainism.018.wake:0 "I will rest after the vigil"
- dharma_jainism.018.sleep:0 "I can close my eyes for a few minuetes...."
+ dharma_jainism.018.sleep:0 "I can close my eyes for a few minutes...."
 
  dharma_jainism.019.t:0 "Celebrating  [child_monk.GetTitledFirstName] joining the Sangha"
  dharma_jainism.019.desc:0 "Your [child_monk.Custom('GetDaughterSon')] has recently joined the Jain Sangha. [child_monk.GetSheHe] will be a monastic traveling the land working to achieve moksha. The life will be hard for [child_monk.GetHerHim]. Still this is a proud day."
@@ -109,17 +109,17 @@
 
  dharma_jainism.020.t:0 "Donating a Tirthankar Icon"
  dharma_jainism.020.desc:0 "One of the Things you are expected to do once in your life is to donate to support a new icon of one of the Tirthankaras. A local monk has arrived in your court and reminded you about performing this obligation..."
- dharma_jainism.020.donate:0 "I will gladly donate a tirthankara icon."
- dharma_jainism.020.not_today:0 "I will gladly donate a tirthankara icon."
+ dharma_jainism.020.donate:0 "I will gladly donate a Tirthankara icon."
+ dharma_jainism.020.not_today:0 "I will gladly donate a Tirthankara icon."
 
  dharma_jainism.021.t:0 "Panch Kalyanaka Pratishtha Mahotsava"
- dharma_jainism.021.desc:0 "After donating for the icon of the Tirthankara, today is the day for the ritual of Panch Kalyanaka Pratishtha Mahotsava where the Icon is consencrated. The leader of the monastic order leads the rituals that retell the story of the Tirthankara and his life."
+ dharma_jainism.021.desc:0 "After donating for the icon of the Tirthankara, today is the day for the ritual of Panch Kalyanaka Pratishtha Mahotsava where the Icon is consecrated. The leader of the monastic order leads the rituals that retell the story of the Tirthankara and his life."
  dharma_jainism.021.ritual:0 "Om Namah Siddhanam"
 #######################################
 # Jainism and Ahisma
 #######################################
  dharma_jainism.022.t:0 "Sheltering Animals"
- dharma_jainism.022.desc:0 "As you travel your realm, one of your learned monks suggest to you in building and mainting an animal sancatary in your capital, to treat and nurse injured animals. Of course such sanctuaries are not cheap."
+ dharma_jainism.022.desc:0 "As you travel your realm, one of your learned monks suggest to you in building and maintaining an animal sanctuary in your capital, to treat and nurse injured animals. Of course such sanctuaries are not cheap."
  dharma_jainism.022.help_animals:0 "A wonderful idea"
  dharma_jainism.022.no_help_animals:0 "I can't afford the cost"
 
@@ -129,7 +129,7 @@
  dharma_jainism.023.war:0 "going to the war room."
 
  dharma_jainism.024.t:0 "Hunting dispute"
- dharma_jainism.024.desc:0 "A dispute in one of your provinces has broken out that has been brought to your attention. A wild animal has been killing local peasant's livestock and they have beeseched you to kill the animal doing this. However a local monk disagrees and suggests that you do not kill the animal, imploring you on the virtues of Ahimsa. "
+ dharma_jainism.024.desc:0 "A dispute in one of your provinces has broken out that has been brought to your attention. A wild animal has been killing local peasant's livestock and they have beseeched you to kill the animal doing this. However a local monk disagrees and suggests that you do not kill the animal, imploring you on the virtues of Ahimsa. "
  dharma_jainism.024.peasants:0 "The peasants are right, the Animal must die."
  dharma_jainism.024.monk:0 "The Monk is right, the Animal should live."
 
@@ -139,7 +139,7 @@
  dharma_jainism.025.kill:0 "Their punishment is to be killed for their crimes."
 
  dharma_jainism.026.t:0 "A hurt  [ROOT.Char.Custom('LocalAnimal')] in the wilderness"
- dharma_jainism.026.desc:0 "During your travels you come accross a hurt  [ROOT.Char.Custom('LocalAnimal')]. You know it should be treated but the question is what should you do."
+ dharma_jainism.026.desc:0 "During your travels you come across a hurt  [ROOT.Char.Custom('LocalAnimal')]. You know it should be treated but the question is what should you do."
  dharma_jainism.026.heal:0 "I shall attempt to treat the [ROOT.Char.Custom('LocalAnimal')]"
  dharma_jainism.026.home:0 "My physician at the estate shall treat the wild [ROOT.Char.Custom('LocalAnimal')]."
 
@@ -152,11 +152,11 @@
 # Jain meditation
 #######################################
  dharma_jainism.028.t:0 "Daily Meditation"
- dharma_jainism.028.desc:0 "It is a common practice for you to meditate at some point in the day. Today's meditation has been a rather relaxing one, to which you are gratful for."
+ dharma_jainism.028.desc:0 "It is a common practice for you to meditate at some point in the day. Today's meditation has been a rather relaxing one, to which you are grateful for."
  dharma_jainism.028.good:0 "Om"
 
  dharma_jainism.029.t:0 "Performing Samayika"
- dharma_jainism.029.desc:0 "Samayika is aimed at developing equanimity and to refrain from injury by focusing at the things you have done wrong and how to avoid them and meditating on the tirthankaras and concentrating on the self. Samayika lasts just under an hour. \n\nAs you sit in your chambers meditating you feel..."
+ dharma_jainism.029.desc:0 "Samayika is aimed at developing equanimity and to refrain from injury by focusing at the things you have done wrong and how to avoid them and meditating on the Tirthankaras and concentrating on the self. Samayika lasts just under an hour. \n\nAs you sit in your chambers meditating you feel..."
  dharma_jainism.029.compassion:0 "Compassion for living things."
  dharma_jainism.029.wander:0 "your mind wandering..."
 
@@ -173,11 +173,11 @@
  dharma_jainism.032.no_success:0 "my mind wanders"
  dharma_jainism.032.success:0 "I concentrate on the meditation"
 #######################################
-# Jain Auspcious Dreams
+# Jain Auspicious Dreams
 #######################################
- dharma_jainism.040.t:0 "Auspecious Dreams"
+ dharma_jainism.040.t:0 "Auspicious Dreams"
  dharma_jainism.040.desc.airavata:0 "I walk out of the palace and I see a great white elephant in the courtyard. The Elephant is no ordinary elephant for it has four tusks and is larger than any elephant. Upon each tusk sits a monk, nun, a layman, and laywoman, easily sitting upon the tusk. Yet looking at I do not feel fear but warmth and happiness.  \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born with good and gentle character."
- dharma_jainism.040.desc.vrishabha:0 "I walk out of the palace and into the courtyard where I see a majestic Bull sitting there. Light from the sky shinning down upon it. I feel a sense of wisdom eminating from the bull. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be a great religious teacher."
+ dharma_jainism.040.desc.vrishabha:0 "I walk out of the palace and into the courtyard where I see a majestic Bull sitting there. Light from the sky shinning down upon it. I feel a sense of wisdom emanating from the bull. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be a great religious teacher."
  dharma_jainism.040.desc.simha:0 "I walk out of the palace and into the courtyard where I see a large Lion there. Larger than any normal lion. Yet it is not aggressive toward me. There is then a dark cloud that comes toward me but with its massive paw the Lion swats the cloud away breaking the darkness.  \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born brave and strong."
  dharma_jainism.040.desc.lakshmi:0 "I find myself walking through the palace and I find myself in the Throne room and there I see a bright light and as I walk closer I see the Goddess Lakshmi smiling and welcoming me closer. She hands me a pink a lotus flower to me and I feel a sense of joy come over me.  \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born and bring wealth and prosperity to the realm."
  dharma_jainism.040.desc.phul_mala:0 "I find myself walking through the palace and as I walk to the courtyard looking at the reflection of water, I notice that there are a pair of garlands crowned upon my head. Then I notice a crowd of people who are happy and respectful to me.  \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be popular and have the respect of the people."
@@ -188,37 +188,37 @@
  dharma_jainism.040.desc.purna_kalasha:0 "I walk through the palace I come to my throne room. There I find two large vases that are larger and more ornate than any other vases I have seen before. They are filled to the brim with lotus flowers. A warm gentle feeling comes upon me as I approach the vases. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born with compassion for all living beings."
  dharma_jainism.040.desc.padma_sarovar:0 "I walk out into the courtyard and I find that I am now in the center of a lake that is shaped like a lotus flower. All around the palace are the calm celestial waters. A warmth of joy crosses over me as I explore the courtyard. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born and be unattached to worldly possessions."
  dharma_jainism.040.desc.ratnakar:0 "I walk out of the courtyard and I find myself staring not at the gardens but at the great ocean that never ends. I find myself upon a small boat where all around me is water. Yet for as rough as it might seem, I feel a sense of joy. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born to achieve omniscience and spiritual liberation."
- dharma_jainism.040.desc.simhasana:0 "As I walk through the palace I enter the throne room, but instead of the usual thrones I notice that the throne is large, larger than any other throne. Respledent with gold shining throughout the room and as I step forward I notice that there are diamonds set in the throne itself.\n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born as one of the great religious teachers of the world."
+ dharma_jainism.040.desc.simhasana:0 "As I walk through the palace I enter the throne room, but instead of the usual thrones I notice that the throne is large, larger than any other throne. Resplendent with gold shining throughout the room and as I step forward I notice that there are diamonds set in the throne itself.\n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born as one of the great religious teachers of the world."
  dharma_jainism.040.desc.deva_vimana:0 "I walk through the palace and as I turn a corner I notice that it changes to a palace in the sky. Gold and celestial with chariots around. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born with great wisdom that even the Gods will respect."
- dharma_jainism.040.desc.palace:0 "I walk through the palace but it then starts to change and transform. I am now in the palace of Nagendra, the Lord of the devas of the Nagakumara. Yet here I find a warmth and happiness, joy and contenment as I explore the serpentine palace.\n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born with avadhi Jnana, a type of clairvoyant knowledge."
- dharma_jainism.040.desc.ratnadhag:0 "I walk through the palace and at the banquet hall is are giant vases containting jewels and gems of all stripes. Golds, rubes, emeralds, sapphires all are there. As I approach a feel a sense of warmth and understanding. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born with virtue and wisdom."
- dharma_jainism.040.desc.nirdhumra_agni:0 "I walk through the palace and as I enter the courtyard I see a great fire but this is no ordinary fire. This fire emites no smoke. There is a warmth, and a golden glow to it. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born and burn away their karmas and attain moksha."
+ dharma_jainism.040.desc.palace:0 "I walk through the palace but it then starts to change and transform. I am now in the palace of Nagendra, the Lord of the devas of the Nagakumara. Yet here I find a warmth and happiness, joy, and contentment as I explore the serpentine palace.\n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born with avadhi Jnana, a type of clairvoyant knowledge."
+ dharma_jainism.040.desc.ratnadhag:0 "I walk through the palace and at the banquet hall is are giant vases containing jewels and gems of all stripes. Golds, rubes, emeralds, sapphires all are there. As I approach a feel a sense of warmth and understanding. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born with virtue and wisdom."
+ dharma_jainism.040.desc.nirdhumra_agni:0 "I walk through the palace and as I enter the courtyard I see a great fire but this is no ordinary fire. This fire emits no smoke. There is a warmth, and a golden glow to it. \n\nI then find myself back in my bed, that was just a dream but it was no ordinary dream but it was a sign that the child in my womb will be born and burn away their karmas and attain moksha."
  dharma_jainism.040.dream:0 "This is great news"
 
- dharma_jainism.041.t:0 "Auspecious Dreams"
- dharma_jainism.041.desc.airavata:0 "My wife [spouse.GetFirstName] tells me of a Dream where she saw a great white elephant in the Courtyard. The Elephant was no ordinary elephant for it has four tusks and is larger than any elephant. Upon each tusk sits a monk, nun, a layman, and laywoman, easily sitting upon the tusk. Yet looking at she did not feel fear but warmth and happiness. This is an auspecious sign that our child wil be born with good and gentle character."
- dharma_jainism.041.desc.vrishabha:0 "My wife [spouse.GetFirstName] tells me of a Dream where she saw a majestic Bull sitting in the Courtyard. Light from the sky shinning down upon it. She felt a sense of sense of wisdom and kindness from the bull. This is an auspecious sign that our child wil be a great religious teacher."
- dharma_jainism.041.desc.simha:0 "'I walk out of the palace and into the courtyard where I see a large Lion there. Larger than any normal lion. Yet it is not aggressive toward me. There is then a dark cloud that comes toward me but with its massive paw the Lion swats the cloud away breaking the darkness.' \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will be born brave and strong"
- dharma_jainism.041.desc.lakshmi:0 "'I find myself walking through the palace and I find myself in the Throne room and there I see a bright light and as I walk closer I see the Goddess Lakshmi smiling and welcoming me closer. She hands me a pink a lotus flower to me and I feel a sense of joy come over me.'  \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will be born and bring wealth and prosperity to the realm."
- dharma_jainism.041.desc.phul_mala:0 ""I find myself walking through the palace and as I walk to the courtyard looking at the reflection of water, I notice that there are a pair of garlands crowned upon my head. Then I notice a crowd of people who are happy and respectful to me."\n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will be popular and have the respect of the people."
- dharma_jainism.041.desc.chandra:0 ""I am walking through the palace courtyard when I notice that there is a chariot being pulled by an antelope in the center. Stepping into the chariot, I see a gentle and kind driver who starts to fly towards the moon. Yet throughout this whole experince I feel peace and contentment." \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born to help others and bring peace to the world."
- dharma_jainism.041.desc.surya:0 "I am walking through the palace courtyard when I notice that there is a golden chariot pulled by seven horses. I get into the chariot and it takes me to the sky and we fly past the sun. I feel warmth, joy and happiness.  \n\nMy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born and have supreme knowledge"
- dharma_jainism.041.desc.dhvaja:0 ""I walk through the palace and as I enter the palace courtyard I see new banners. Large banners dipicting a lion held a loft by a golden stick." \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born a good and wise leader."
- dharma_jainism.041.desc.meena_yugma:0 ""As I walk through the palace courtyard I notice two large and golden fishes in the pond. as I approach I feel a sense of joy and wonder, their shimmering scales easily being reflected in the water." \n\nMy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born handsome and beautiful."
- dharma_jainism.041.desc.purna_kalasha:0 ""I walk through the palace I come to my throne room. There I find two large vases that are larger and more ornate than any other vases I have seen before. They are filled to the brim with lotus flowers. A warm gentle feeling comes upon me as I approach the vases." \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born with compassion for all living beings."
- dharma_jainism.041.desc.padma_sarovar:0 ""I walk out into the courtyard and I find that I am now in the center of a lake that is shaped like a lotus flower. All around the palace are the calm celestial waters. A warmth of joy crosses over me as I explore the courtyard." \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born and be unattached to worldly possessions."
- dharma_jainism.041.desc.ratnakar:0 ""I walk out of the courtyard and I find myself staring not at the gardens but at the great ocean that never ends. I find myself upon a small boat where all around me is water. Yet for as rough as it might seem, I feel a sense of joy." \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born to achieve omniscience and spiritual liberation."
- dharma_jainism.041.desc.simhasana:0 ""As I walk through the palace I enter the throne room, but instead of the usual thrones I notice that the throne is large, larger than any other throne. Respledent with gold shining throughout the room and as I step forward I notice that there are diamonds set in the throne itself." \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born as one of the great religious teachers of the world."
- dharma_jainism.041.desc.deva_vimana:0 ""I walk through the palace and as I turn a corner I notice that it changes to a palace in the sky. Gold and celestial with chariots around.""  \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born with great wisdom that even the Gods will respect."
- dharma_jainism.041.desc.palace:0 ""I walk through the palace but it then starts to change and transform. I am now in the palace of Nagendra, the Lord of the devas of the Nagakumara. Yet here I find a warmth and happiness, joy and contenment as I explore the serpentine palace." \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born with avadhi Jnana, a type of clairvoyant knowledge."
- dharma_jainism.041.desc.ratnadhag:0 ""I walk through the palace and at the banquet hall is are giant vases containting jewels and gems of all stripes. Golds, rubes, emeralds, sapphires all are there. As I approach a feel a sense of warmth and understanding."  \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born with virtue and wisdom."
- dharma_jainism.041.desc.nirdhumra_agni:0 ""I walk through the palace and as I enter the courtyard I see a great fire but this is no ordinary fire. This fire emites no smoke. There is a warmth, and a golden glow to it."  \n\nmy wife [spouse.GetFirstName] says telling me of an auspecious dream that she had. This is a sign that my child will born and burn away their karmas and attain moksha."
+ dharma_jainism.041.t:0 "Auspicious Dreams"
+ dharma_jainism.041.desc.airavata:0 "My wife [spouse.GetFirstName] tells me of a Dream where she saw a great white elephant in the Courtyard. The Elephant was no ordinary elephant for it has four tusks and is larger than any elephant. Upon each tusk sits a monk, nun, a layman, and laywoman, easily sitting upon the tusk. Yet looking at she did not feel fear but warmth and happiness. This is an auspicious sign that our child wil be born with good and gentle character."
+ dharma_jainism.041.desc.vrishabha:0 "My wife [spouse.GetFirstName] tells me of a Dream where she saw a majestic Bull sitting in the Courtyard. Light from the sky shinning down upon it. She felt a sense of sense of wisdom and kindness from the bull. This is an auspicious sign that our child wil be a great religious teacher."
+ dharma_jainism.041.desc.simha:0 "'I walk out of the palace and into the courtyard where I see a large Lion there. Larger than any normal lion. Yet it is not aggressive toward me. There is then a dark cloud that comes toward me but with its massive paw the Lion swats the cloud away breaking the darkness.' \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will be born brave and strong"
+ dharma_jainism.041.desc.lakshmi:0 "'I find myself walking through the palace and I find myself in the Throne room and there I see a bright light and as I walk closer I see the Goddess Lakshmi smiling and welcoming me closer. She hands me a pink a lotus flower to me and I feel a sense of joy come over me.'  \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will be born and bring wealth and prosperity to the realm."
+ dharma_jainism.041.desc.phul_mala:0 ""I find myself walking through the palace and as I walk to the courtyard looking at the reflection of water, I notice that there are a pair of garlands crowned upon my head. Then I notice a crowd of people who are happy and respectful to me."\n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will be popular and have the respect of the people."
+ dharma_jainism.041.desc.chandra:0 ""I am walking through the palace courtyard when I notice that there is a chariot being pulled by an antelope in the center. Stepping into the chariot, I see a gentle and kind driver who starts to fly towards the moon. Yet throughout this whole experience I feel peace and contentment." \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born to help others and bring peace to the world."
+ dharma_jainism.041.desc.surya:0 "I am walking through the palace courtyard when I notice that there is a golden chariot pulled by seven horses. I get into the chariot and it takes me to the sky and we fly past the sun. I feel warmth, joy and happiness.  \n\nMy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born and have supreme knowledge"
+ dharma_jainism.041.desc.dhvaja:0 ""I walk through the palace and as I enter the palace courtyard I see new banners. Large banners depicting a lion held a loft by a golden stick." \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born a good and wise leader."
+ dharma_jainism.041.desc.meena_yugma:0 ""As I walk through the palace courtyard I notice two large and golden fishes in the pond. as I approach I feel a sense of joy and wonder, their shimmering scales easily being reflected in the water." \n\nMy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born handsome and beautiful."
+ dharma_jainism.041.desc.purna_kalasha:0 ""I walk through the palace I come to my throne room. There I find two large vases that are larger and more ornate than any other vases I have seen before. They are filled to the brim with lotus flowers. A warm gentle feeling comes upon me as I approach the vases." \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born with compassion for all living beings."
+ dharma_jainism.041.desc.padma_sarovar:0 ""I walk out into the courtyard and I find that I am now in the center of a lake that is shaped like a lotus flower. All around the palace are the calm celestial waters. A warmth of joy crosses over me as I explore the courtyard." \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born and be unattached to worldly possessions."
+ dharma_jainism.041.desc.ratnakar:0 ""I walk out of the courtyard and I find myself staring not at the gardens but at the great ocean that never ends. I find myself upon a small boat where all around me is water. Yet for as rough as it might seem, I feel a sense of joy." \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born to achieve omniscience and spiritual liberation."
+ dharma_jainism.041.desc.simhasana:0 ""As I walk through the palace I enter the throne room, but instead of the usual thrones I notice that the throne is large, larger than any other throne. Resplendent with gold shining throughout the room and as I step forward I notice that there are diamonds set in the throne itself." \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born as one of the great religious teachers of the world."
+ dharma_jainism.041.desc.deva_vimana:0 ""I walk through the palace and as I turn a corner I notice that it changes to a palace in the sky. Gold and celestial with chariots around.""  \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born with great wisdom that even the Gods will respect."
+ dharma_jainism.041.desc.palace:0 ""I walk through the palace but it then starts to change and transform. I am now in the palace of Nagendra, the Lord of the devas of the Nagakumara. Yet here I find a warmth and happiness, joy, and contentment as I explore the serpentine palace." \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born with avadhi Jnana, a type of clairvoyant knowledge."
+ dharma_jainism.041.desc.ratnadhag:0 ""I walk through the palace and at the banquet hall is are giant vases containing jewels and gems of all stripes. Golds, rubes, emeralds, sapphires all are there. As I approach a feel a sense of warmth and understanding."  \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born with virtue and wisdom."
+ dharma_jainism.041.desc.nirdhumra_agni:0 ""I walk through the palace and as I enter the courtyard I see a great fire but this is no ordinary fire. This fire emits no smoke. There is a warmth, and a golden glow to it."  \n\nmy wife [spouse.GetFirstName] says telling me of an auspicious dream that she had. This is a sign that my child will born and burn away their karmas and attain moksha."
  dharma_jainism.041.dream:0 "This is great news"
 #######################################
 # Mahamastakabhisheka Festival
 #######################################
  dharma_jainism.100.t:0 "Preparing for the Mahamastakabhisheka Festival"
- dharma_jainism.100.desc:0 "The Mahamastakabhisheka festival is dedicated to Bahubali also known as Gommateshwara. The festival is where the grand statue of Gommateshwara is anoited with Purified water and sandalwood paste along with other offerings including milk, sugarcane juice, saffron paste, and more. It will take some to arrive at the village for the festival, still it will likely be worth the trip."
+ dharma_jainism.100.desc:0 "The Mahamastakabhisheka festival is dedicated to Bahubali also known as Gommateshwara. The festival is where the grand statue of Gommateshwara is anointed with Purified water and sandalwood paste along with other offerings including milk, sugarcane juice, saffron paste, and more. It will take some to arrive at the village for the festival, still it will likely be worth the trip."
  dharma_jainism.100.a:0 "Time to pack my bags."
  activity_dharma_mahamastakabhisheka_festival:0 "Mahamastakabhisheka Festival"
  activity_dharma_mahamastakabhisheka_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Attendance of the Mahamastakabhisheka Festival" 
@@ -228,16 +228,16 @@
  dharma_jainism.101.a:0 "Now to climb the grand Staircase"
 
  dharma_jainism.102.t:0 "Climbing the grand staircase"
- dharma_jainism.102.desc:0 "There are a number of steps to climb the hill to the statue. I now see the giant granit statue of the naked Bahubali, serene and upright. "
+ dharma_jainism.102.desc:0 "There are a number of steps to climb the hill to the statue. I now see the giant granite statue of the naked Bahubali, serene and upright. "
  dharma_jainism.102.a:0 "After many steps, I have reached the base of the statue"
 
- dharma_jainism.103.t:0 "The grand Anointing of the Statue"
- dharma_jainism.103.desc:0 "Now comes the main part of the procession where the offerings of purified water, sandalwood paste milk, sugarcane juice, saffron paste, sandalwood, turmeric, and vermilion. \n\nI can lead the ceremony by climbing the 700 steps to the top to pour the various offerings, or help the monks carry 1008 vessals to the top, alternatively I could stay at the base of the statue and offer at the bottom."
+ dharma_jainism.103.t:0 "The Grand Anointing of the Statue"
+ dharma_jainism.103.desc:0 "Now comes the main part of the procession where the offerings of purified water, sandalwood paste milk, sugarcane juice, saffron paste, sandalwood, turmeric, and vermilion. \n\nI can lead the ceremony by climbing the 700 steps to the top to pour the various offerings, or help the monks carry 1008 vessels to the top, alternatively I could stay at the base of the statue and offer at the bottom."
  dharma_jainism.103.lead:0 "I will lead the procession"
  dharma_jainism.103.help:0 "I shall help the monks"
  dharma_jainism.103.participate:0 "I shall give my offerings at the base"
 
- dharma_jainism.104.t:0 "Meditating on Bahubali's teachings"
+ dharma_jainism.104.t:0 "Meditating on Bahubali's Teachings"
  dharma_jainism.104.desc:0 "After the Anointing of the Statue of Bahubali, a number of monks are leading talks on compassion and and non-violence. I chose to listen to the monks speaking about Bahubali's..."
  dharma_jainism.104.compassion:0 "Compassion"
  dharma_jainism.104.ahimsa:0 "Non-Violence"
@@ -276,7 +276,7 @@ activity_dharma_paryushana_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessive
  dharma_jainism.111.lead:0 "I shall lead the procession."
  dharma_jainism.111.nolead:0 "The monks shall lead."
 
- dharma_jainism.112.t:0 "The five great virtues"
+ dharma_jainism.112.t:0 "The Five Great Virtues"
  dharma_jainism.112.svetembara.desc:0 "As part of the Paryushana celebrations it is customary to meditate upon the Five Great Vows. The question is which one shall I focus on meditating on?"
  dharma_jainism.112.digambara.desc:0 "As part of the Das Lakshana Dharma celebrations it is customary to meditate upon the Five Great Vows. The question is which one shall I focus on meditating on? "
  dharma_jainism.112.ahimsa:0 "Ahimsa"
@@ -287,8 +287,8 @@ activity_dharma_paryushana_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessive
 
  dharma_jainism.113.digambara.title:0 "Sugandh Dashami"
  dharma_jainism.113.svetembara.title:0 "Dhoop Dashami"
- dharma_jainism.113.svetembara.desc:0 "As part of the Paryushana celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder infront of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul. "
- dharma_jainism.113.digambara.desc:0 "As part of the Das Lakshana Dharma celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder infront of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul."
+ dharma_jainism.113.svetembara.desc:0 "As part of the Paryushana celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder in front of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul. "
+ dharma_jainism.113.digambara.desc:0 "As part of the Das Lakshana Dharma celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder in front of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul."
  dharma_jainism.113.a:0 "burn my karma away."
 
  dharma_jainism.114.t:0 "Asking for Forgiveness"
@@ -323,8 +323,8 @@ activity_dharma_paryushana_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessive
  dharma_jainism.120.ahimsa:0 "Ahimsa"
  dharma_jainism.120.compassion:0 "Compassion"
 
- dharma_jainism.121.t:0 "Annointing the idol"
- dharma_jainism.121.desc:0 "After the meditation, the monks lead through the annointing of the statue of Mahavira. I watch as the monks ceremonially bath the statue, before placing the idol upon a palanquin."
+ dharma_jainism.121.t:0 "Anointing the idol"
+ dharma_jainism.121.desc:0 "After the meditation, the monks lead through the anointing of the statue of Mahavira. I watch as the monks ceremonially bath the statue, before placing the idol upon a palanquin."
  dharma_jainism.121.a:0 "Namo Loe Savva Sahunam"
 
  dharma_jainism.122.t:0 "The procession of Mahavira's Idol"

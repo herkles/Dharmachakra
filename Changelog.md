@@ -2,7 +2,7 @@
 
 ## Latest Version: 1.3.6 "Devi" (Released 27/12/2021)
 
-Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
+Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontinent and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
 Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
 
@@ -13,11 +13,11 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - New Holy Sites for Hindu, Buddhist, Sanamhism, Bauthouism, Tani, Kirati, and Bon faiths
 - New Special buildings for many of the holy Sites
 - Pilgrimage events have been updated for the new holy sites.
-- Various festivals to celebrate throughout south asia have been added
+- Various festivals to celebrate throughout south Asia have been added
 - Tribal areas are now properly tribal
 - Several new characters have been added
 - added the Chutia and Tripura cultures
-- Added tribal faiths of sarnaism and koyapunem
+- Added tribal faiths of Sarnaism and koyapunem
 - Various bug fixes
 
 ## Manual Installation Steps
