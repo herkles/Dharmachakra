@@ -1,0 +1,9 @@
+﻿historical_succession_access_india_single_heir_succession_law_trigger = {
+	highest_held_title_tier >= tier_county
+	OR = {
+		culture = { has_cultural_pillar = heritage_indo_aryan }
+		culture = { has_cultural_pillar = heritage_dravidian }
+
+	}
+}
+
