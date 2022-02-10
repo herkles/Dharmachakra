@@ -9,6 +9,7 @@
 		tradition_philosopher_culture
 		tradition_religious_patronage
 		tradition_agrarian
+		tradition_artisans
 	}
 	
 	name_list = name_list_bengali
