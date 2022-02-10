@@ -3,7 +3,6 @@
 	OR = {
 		culture = { has_cultural_pillar = heritage_indo_aryan }
 		culture = { has_cultural_pillar = heritage_dravidian }
-
 	}
 }
 

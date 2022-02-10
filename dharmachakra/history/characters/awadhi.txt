@@ -1,7 +1,4 @@
-﻿# Rashtrakutas of Kanyakubja
-
-
-# Fictional Dynasty - Manusukhani
+﻿# Fictional Dynasty - Manusukhani
 178003 = {
 	name = "Jaganpala" # Fictional
 	dynasty = 1041103
@@ -305,7 +302,6 @@
 		death = yes
 	}
 }
-
 # Gopala
 191430 = {
 	name = "Gopala"
@@ -352,7 +348,6 @@
 		death = yes
 	}
 }
-
 191040 = {
 	name = "Nattadevi"	#Fictional
 	female = yes
@@ -365,7 +360,6 @@
 		death = yes
 	}
 }
-
 191027 = {
 	name = "Shankaragana"
 	dynasty = 1044309 #Kalachuri
@@ -623,26 +617,6 @@
 		death = yes
 	}
 }
-
-
-
-
-
-
-# Temple Holders
-
-# Mayors
-
-# Barons
-
-
-######################
-#
-#
-#		Dead Families
-#
-############################
-
 # Gahirawar
 191018 = {
 	name = "Karamchand"	#Semi-Legendary
@@ -743,25 +717,6 @@
 		death = yes
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 190217 = {
@@ -870,8 +825,6 @@
 		death = yes
 	}
 }
-
-
 178004 = {
 	name = "Kunwar" # Fictional
 	dynasty = 1041104
@@ -884,9 +837,6 @@
 		death = yes
 	}
 }
-
-
-
 191001 = {
 	name = "Yasodevi"
 	female = yes
@@ -902,9 +852,6 @@
 		death = yes
 	}
 }
-
-
-
 191016 = {
 	name = "Krsnapa"	#Fictional
 	dynasty = 1044303 #Kuru
@@ -917,13 +864,6 @@
 		death = yes
 	}
 }
-
-
-
-
-
-
-
 191043 = {
 	name = "Sanyukta"	#Fictional
 	female = yes
@@ -936,7 +876,6 @@
 		death = yes
 	}
 }
-
 191042 = {
 	name = "Kanchuka"	#Fictional
 	female = yes
@@ -1027,7 +966,6 @@
 		death = yes
 	}
 }
-
 191345 = {
 	name = "Kalingaraja"
 	dynasty = 1044338	#Cedi
@@ -1339,8 +1277,6 @@
 		death = yes
 	}
 }
-
-
 191469 = {
 	name = "Sindur_Mati_Sahiba"
 	female = yes
@@ -1577,15 +1513,6 @@
 		death = yes
 	}
 }
-
-
-
-
-
-
-
-
-
 191698 = {
 	name = "Mahipala"
 	dynasty = 1044376 #Surasena

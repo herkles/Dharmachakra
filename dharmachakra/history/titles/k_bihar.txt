@@ -184,6 +184,7 @@ k_bihar = {
 	#Lasting independence from 1338
 }
 
+
 d_magadha = {
 	867.1.1 = { change_development_level = 18 }
 	1066.1.1 = { change_development_level = 25 }
@@ -324,6 +325,8 @@ d_magadha = {
 		holder = 170282 #Bahram Khan
 	}
 }
+
+
 c_magadha = {
 	490.1.1 = {
 		holder = 191088	#Krisnagupta
@@ -494,6 +497,8 @@ c_magadha = {
 		liege = k_bihar
 	}
 }
+
+
 c_mudgagiri = {
 	755.1.1 = {
 		holder = 190027 #Gopala Pala
@@ -639,6 +644,8 @@ c_mudgagiri = {
 		liege = k_bihar
 	}
 }
+
+
 c_gaya = {
 	740.1.1 = {
 		holder = 191510
@@ -689,6 +696,8 @@ c_gaya = {
 	}
 
 }
+
+
 c_sasaram = {
 	750.1.1 = {
 		holder = 191518 #Bhars
@@ -793,6 +802,7 @@ c_sasaram = {
 	}
 }
 
+
 d_tirabhukti = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
@@ -832,6 +842,8 @@ d_tirabhukti = {
 		holder = 0
 	}
 }
+
+
 c_mithila = {
 	725.1.1 = {
 		holder = 191303	#Ramagupta
@@ -948,6 +960,8 @@ c_mithila = {
 		liege = k_bihar
 	}
 }
+
+
 c_simaramapura = {
 	725.1.1 = {
 		holder = 191303	#Ramagupta
@@ -989,6 +1003,8 @@ c_simaramapura = {
 		liege = e_rajastan
 	}
 }
+
+
 c_kusinagara = {
 	750.1.1 = {
 		holder = 191298 #Jayaditya I
@@ -1120,6 +1136,8 @@ c_kusinagara = {
 		holder = 170258 #Muhammad
 	}
 }
+
+
 c_bangaon = {
 	725.1.1 = {
 		holder = 191303	#Ramagupta
@@ -1237,6 +1255,7 @@ c_bangaon = {
 	}
 }
 
+
 d_kasi = {
 	867.1.1 = { change_development_level = 18 }
 	1066.1.1 = { change_development_level = 25 }
@@ -1281,6 +1300,8 @@ d_kasi = {
 		holder = 0
 	}
 }
+
+
 c_jaunpur = {
 	750.1.1 = {
 		holder = 191518 #Bhars
@@ -1382,6 +1403,8 @@ c_jaunpur = {
 		holder = 170258 #Muhammad
 	}
 }
+
+
 c_varanasi = {
 	750.1.1 = {
 		holder = 191518 #Bhars
@@ -1484,6 +1507,8 @@ c_varanasi = {
 		holder = 170258 #Muhammad
 	}
 }
+
+
 c_chunar = {
 	700.1.1 = {
 		liege = d_jejakabhukti
@@ -1628,6 +1653,7 @@ c_chunar = {
 	}
 }
 
+
 d_jharkand = {
 	867.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 5 }
@@ -1643,6 +1669,8 @@ d_jharkand = {
 		holder = 0
 	}
 }
+
+
 c_jharkand = {
 	740.1.1 = {
 		holder = 191522 #Tribal Cheifs
@@ -1704,6 +1732,8 @@ c_jharkand = {
 	}
 	#Baghela dynasty continues to present day
 }
+
+
 c_rothas = {
 	750.1.1 = {
 		holder = 191518 #Bhars
@@ -1792,30 +1822,31 @@ c_rothas = {
 		holder = 170282 #Bahram Khan
 	}
 }
+
+
 c_rajrappa = {
-	855.1.1 = {
-		holder = munda001 # Pralambha
+	740.1.1 = {
+		holder = 191525
+	}
+	800.1.1 = {
+		holder = 191526
+	}
+	850.1.1 = {
+		holder = 191527
+	}
+	858.1.1 = {
+		government = theocracy_government
 		liege = k_bengal
 	}
-	878.1.1 = {
-		holder = munda002 #Kadarangkonda
+	920.1.1 = {
+		holder = 191528
 	}
-	903.1.1 = {
-		holder = munda003 #Karunandadakkan
+	990.1.1 = {
+		holder = 191529
 	}
-	919.1.1 = {
-		holder = munda004 #Cadayan
+	1060.1.1 = {
+		holder = 191530
 	}
-	956.1.1 = {
-		holder = munda005 #Kurian
-	}
-	993.1.1 = {
-		holder = munda006 #Rapanmar
-	}
-	1037.1.1 = {
-		holder = munda007 #Parakesaripanmar
-	}
-
 	1130.1.1 = {
 		holder = 191531
 		liege = k_bihar
@@ -1831,6 +1862,8 @@ c_rajrappa = {
 	}
 
 }
+
+
 c_munda = {
 	750.1.1 = {
 		holder = 191421 #Pasna
@@ -1841,28 +1874,27 @@ c_munda = {
 	820.1.1 = {
 		holder = 191423 #Sugana
 	}
-	855.1.1 = {
-		holder = munda008 # Pralambha
+	860.1.1 = {
+		holder = 191424 #Komta
 	}
-	878.1.1 = {
-		holder = munda009 #Kadarangkonda
+	900.1.1 = {
+		holder = 191425 #Pasna
 	}
-	903.1.1 = {
-		holder = munda010 #Karunandadakkan
+	940.1.1 = {
+		holder = 191426 #Sugana
 	}
-	919.1.1 = {
-		holder = munda011 #Cadayan
+	980.1.1 = {
+		holder = 191427 #Suryaditya
 	}
-	956.1.1 = {
-		holder = munda012 #Kurian
+	1010.1.1 = {
+		holder = 191428 #Vikramaditya
 	}
-	993.1.1 = {
-		holder = munda013 #Rapanmar
+	1040.1.1 = {
+		holder = 191429 #Kramaditya
 	}
-	1037.1.1 = {
-		holder = munda014 #Parakesaripanmar
+	1063.1.1 = {
+		holder = 191080 #Mundas
 	}
-
 	1100.1.1 = {
 		holder = 191081 #Mundas
 	}
@@ -1883,6 +1915,8 @@ c_munda = {
 	}
 
 }
+
+
 c_damin_i_koh = {
 	760.1.1 = {
 		holder = 191405 #Varnamana
@@ -1938,3 +1972,4 @@ c_damin_i_koh = {
 		holder = 191420 #Varnamana
 	}
 }
+

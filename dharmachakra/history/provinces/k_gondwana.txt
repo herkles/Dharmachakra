@@ -173,7 +173,7 @@
 1164 = {	# 1164 - Chauragarh
 	
 	# Misc
-	culture = gondi
+	culture = gond
 	religion = koyapunem
 	
 	holding = tribal_holding

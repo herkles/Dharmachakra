@@ -46,34 +46,6 @@ oriya = { # Indo-Aryan
 		10 = indian
 	}
 }
-assamese = { # Indo-Aryan
-	color = { 0.6 0.3 0.0 }
-	
-	ethos = ethos_communal
-	heritage = heritage_indo_aryan
-	language = language_magadhan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_collective_lands
-		tradition_jungle_warriors
-	}
-	
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_assamese
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = indian
-	}
-}
 hindustani = { # Indo-Aryan
 	color = hindustani
 	
@@ -300,7 +272,7 @@ nepali = { # (Newar, Garwhali, Kuamoni, Khasa, Gorkha, Tamangic, etc.)
 	
 	ethos = ethos_communal
 	heritage = heritage_indo_aryan
-	language = language_pahari
+	language = language_nepali
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
@@ -326,7 +298,7 @@ bihari = {# Bihari
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -351,7 +323,7 @@ konkani = {# Konkani
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_konkani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -376,7 +348,7 @@ awadhi = {# Awadhi
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_awadhi
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -400,7 +372,7 @@ braj = {# braj
 	color = { 234 60 83 }	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_braj
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -425,7 +397,7 @@ saurashtra = {# saurashtra
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -450,7 +422,7 @@ bhil = {# bhil
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_bhil
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -475,7 +447,7 @@ nagpuri = {# nagpuri
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_nagpuri
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -500,7 +472,7 @@ sambalpuri = {# sambalpuri
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_sambalpuri
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -525,7 +497,7 @@ kumaoni = {# kumaoni
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_nepali
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -550,7 +522,7 @@ pahari = {# pahari
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_pahari
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -575,7 +547,7 @@ rajbongshi = {# rajbongshi
 	
 	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_rajasthani
+	language = language_rajbongshi
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_warrior_culture
@@ -591,6 +563,34 @@ rajbongshi = {# rajbongshi
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
+	ethnicities = {
+		10 = indian
+	}
+}
+kamarupi = {# kamarupi
+	color = { 0.6 0.3 0.0 }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_kamarupi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_collective_lands
+		tradition_jungle_warriors
+	}
+	
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_kamarupi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
 	ethnicities = {
 		10 = indian
 	}

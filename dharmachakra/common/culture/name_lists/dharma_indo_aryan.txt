@@ -358,7 +358,7 @@ name_list_oriya = {
 		{ name = "mercenary_company_company_of_odisha" }
 	}
 }
-name_list_assamese = {
+name_list_kamarupi = {
 
 	cadet_dynasty_names = {
 		"dynn_Vaidyadeva"
