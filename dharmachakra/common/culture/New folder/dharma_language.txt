@@ -135,7 +135,6 @@ language_kashmiri = {# Kashmiri and dardic dialects
 	
 	color = kashmiri
 }
-
 language_sanskrit = {# Sanskrit
 	type = language
 	is_shown = {
@@ -204,7 +203,7 @@ language_braj = {# Braj
 	
 	color = kashmiri
 }
-language_awadhi = {# awadhi
+language_awadhi = {# Awadhi
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
@@ -238,7 +237,7 @@ language_bhil = {# Bhil
 	
 	color = kashmiri
 }
-language_sambalpuri = {# sambalpuri
+language_sambalpuri = {# Sambalpuri
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
@@ -289,7 +288,7 @@ language_kamarupi = {# Kamarupi
 	
 	color = kashmiri
 }
-language_rajbongshi = {# rajbongshi
+language_rajbongshi = {# Rajbongshi
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
@@ -340,7 +339,7 @@ language_nuristani = {# Nuristani
 	
 	color = burmese
 }
-language_nagpuri = {# nagpuri
+language_nagpuri = {# Nagpuri
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {

@@ -149,9 +149,10 @@ kachari = { # Kachari (North East Bodo-Kachari peoples: Boro, Mech, Dimasa, Mora
 	language = language_kachari
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_himalayan_settlers
-		tradition_equal_inheritance
-		tradition_mountaineers
+		tradition_isolationist	
+		tradition_strength_in_numbers
+		tradition_sacred_groves
+		tradition_jungle_dwellers
 	}
 	
 	name_list = name_list_kachari
@@ -167,14 +168,15 @@ kachari = { # Kachari (North East Bodo-Kachari peoples: Boro, Mech, Dimasa, Mora
 }
 tripuri = { # Tripuri
 	color = { 54 136 117 }	
-	ethos = ethos_egalitarian
+	ethos = ethos_communal
 	heritage = heritage_tibetan
 	language = language_kokborok
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_himalayan_settlers
-		tradition_equal_inheritance
-		tradition_mountaineers
+		tradition_isolationist	
+		tradition_strength_in_numbers
+		tradition_sacred_groves
+		tradition_jungle_dwellers
 	}
 	
 	name_list = name_list_tripuri
@@ -196,9 +198,9 @@ chutia = { # Chutia
 	language = language_kachari
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_himalayan_settlers
-		tradition_equal_inheritance
-		tradition_mountaineers
+		tradition_isolationist	
+		tradition_jungle_warriors
+		tradition_sacred_groves
 	}
 	
 	name_list = name_list_chutia
@@ -220,9 +222,9 @@ meitei = { # Meitei
 	language = language_meitei
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_himalayan_settlers
-		tradition_equal_inheritance
-		tradition_mountaineers
+		tradition_isolationist	
+		tradition_agrarian
+		tradition_sacred_groves
 	}
 	
 	name_list = name_list_meitei
@@ -245,8 +247,8 @@ tani = { # Tani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_equal_inheritance
-		tradition_mountaineers
+		tradition_medicinal_plants
+		tradition_sacred_mountains
 	}
 	
 	name_list = name_list_tani

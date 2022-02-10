@@ -17,6 +17,8 @@
 		tradition_metal_craftsmanship #Wootz Steel
 		tradition_seafaring
 		tradition_parochialism
+		tradition_poetry
+		tradition_garuda_warriors
 	}
 	
 	ethnicities = {
@@ -123,7 +125,8 @@ malayali = {# Malayali
 	traditions = {
 		tradition_metal_craftsmanship #Wootz Steel
 		tradition_seafaring
-		tradition_parochialism
+		tradition_religion_blending
+
 	}
 	
 	ethnicities = {

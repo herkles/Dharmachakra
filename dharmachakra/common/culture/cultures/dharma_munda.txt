@@ -16,11 +16,7 @@
 	traditions = {
 		tradition_jungle_warriors
 		tradition_sacred_groves
-	}
-	
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
+		tradition_isolationist
 	}
 
 	ethnicities = {

@@ -296,15 +296,15 @@ nepali = { # (Newar, Garwhali, Kuamoni, Khasa, Gorkha, Tamangic, etc.)
 bihari = {# Bihari
 	color = { 219 0 7 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_courtly
 	heritage = heritage_indo_aryan
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
 		tradition_khadga_puja
+		tradition_religion_blending
+		tradition_court_eunuchs
+		tradition_religious_patronage
 	}
 
 	name_list = name_list_bihari
@@ -326,10 +326,10 @@ konkani = {# Konkani
 	language = language_konkani
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
 		tradition_khadga_puja
+		tradition_maritime_mercantilism
+		tradition_religious_patronage
+		tradition_modest
 	}
 
 	name_list = name_list_konkani
@@ -346,15 +346,15 @@ konkani = {# Konkani
 awadhi = {# Awadhi
 	color = {150 0 24 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
 	language = language_awadhi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_agrarian
+		tradition_ruling_caste
+		tradition_court_eunuchs
+		tradition_city_keepers
 	}
 
 	name_list = name_list_awadhi
@@ -370,15 +370,15 @@ awadhi = {# Awadhi
 }
 braj = {# braj
 	color = { 234 60 83 }	
-	ethos = ethos_bellicose
+	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
 	language = language_braj
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_agrarian
+		tradition_ruling_caste
+		tradition_court_eunuchs
+		tradition_city_keepers
 	}
 
 	name_list = name_list_braj
@@ -395,15 +395,15 @@ braj = {# braj
 saurashtra = {# saurashtra
 	color = { 255 8 0 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_vegetarianism
+		tradition_religion_blending
+		tradition_seafaring
+		tradition_esteemed_hospitality
 	}
 
 	name_list = name_list_saurashtra
@@ -420,15 +420,14 @@ saurashtra = {# saurashtra
 bhil = {# bhil
 	color = { 202 52 51 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_communal
 	heritage = heritage_indo_aryan
 	language = language_bhil
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_sacred_groves
+		tradition_collective_lands
+		tradition_isolationist
 	}
 
 	name_list = name_list_bhil
@@ -445,15 +444,14 @@ bhil = {# bhil
 nagpuri = {# nagpuri
 	color = { 94 25 20 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_communal
 	heritage = heritage_indo_aryan
 	language = language_nagpuri
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
 		tradition_khadga_puja
+		tradition_sacred_groves
+		tradition_religion_blending
 	}
 
 	name_list = name_list_nagpuri
@@ -470,15 +468,14 @@ nagpuri = {# nagpuri
 sambalpuri = {# sambalpuri
 	color = { 189 32 49 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_communal
 	heritage = heritage_indo_aryan
 	language = language_sambalpuri
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_hill_dwellers
+		tradition_isolationist
+		tradition_sacred_groves
 	}
 
 	name_list = name_list_sambalpuri
@@ -495,15 +492,14 @@ sambalpuri = {# sambalpuri
 kumaoni = {# kumaoni
 	color = { 240 128 128 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_communal
 	heritage = heritage_indo_aryan
 	language = language_nepali
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_himalayan_settlers
+		tradition_martial_admiration
+		tradition_religious_patronage
 	}
 
 	name_list = name_list_kumaoni
@@ -520,15 +516,14 @@ kumaoni = {# kumaoni
 pahari = {# pahari
 	color = {255 90 95 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_communal
 	heritage = heritage_indo_aryan
 	language = language_pahari
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_himalayan_settlers
+		tradition_martial_admiration
+		tradition_religious_patronage
 	}
 
 	name_list = name_list_pahari
@@ -545,15 +540,14 @@ pahari = {# pahari
 rajbongshi = {# rajbongshi
 	color = { 184 15 10 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_communal
 	heritage = heritage_indo_aryan
 	language = language_rajbongshi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_agrarian
+		tradition_isolationist
+		tradition_sacred_groves
 	}
 
 	name_list = name_list_rajbongshi
@@ -570,13 +564,15 @@ rajbongshi = {# rajbongshi
 kamarupi = {# kamarupi
 	color = { 0.6 0.3 0.0 }
 	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_indo_aryan
 	language = language_kamarupi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_collective_lands
+		tradition_khadga_puja
 		tradition_jungle_warriors
+		tradition_religion_blending
+		tradition_mendicant_mystics
 	}
 	
 	dlc_tradition = {

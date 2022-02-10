@@ -136,14 +136,17 @@
 9559 = {	# 9559 - Kyaukse
 	
 	# Misc
-	culture = burmese
+	culture = pyu
 	religion = ari
 	
 	holding = castle_holding
 	
 	# History
+	873.1.1 = {
+		culture = burmese
+	}
 	1056.1.1 = {
-		religion = ari
+		religion = theravada
 	}
 
 }
@@ -177,14 +180,17 @@
 9562 = {	# 9562 - Minbu
 	
 	# Misc
-	culture = burmese
+	culture = pyu
 	religion = ari
 	
 	holding = castle_holding
 	
 	# History
+	882.1.1 = {
+		culture = burmese
+	}
 	1056.1.1 = {
-		religion = ari
+		religion = theravada
 	}
 }
 9563 = {	# 9563 - Salin
@@ -274,14 +280,17 @@
 9571 = {	# 9571 - Yamethin
 	
 	# Misc
-	culture = burmese
+	culture = pyu
 	religion = ari
 	
 	holding = castle_holding
 	
 	# History
-	1056.1.1 = {
-		religion = ari
+	933.1.1 = {
+		culture = burmese
+	}
+	1050.1.1 = {
+		religion = theravada
 	}
 	
 }
@@ -290,13 +299,14 @@
 9572 = {	# 9572 - Shwemyo
 	
 	# Misc
-	culture = burmese
+	culture = pyu
 	religion = ari
-	
-	holding = none
-	
-	# History
-	1056.1.1 = {
+
+	holding = castle_holding
+	882.1.1 = {
+		culture = burmese
+	}
+	1223.1.1 = {
 		religion = theravada
 	}
 
@@ -306,13 +316,16 @@
 9573 = {	# 9573 - Binnaka
 	
 	# Misc
-	culture = burmese
+	culture = pyu
 	religion = ari
 	
 	holding = city_holding
 	
 	# History
-	1056.1.1 = {
+	933.1.1 = {
+		culture = burmese
+	}
+	1156.1.1 = {
 		religion = theravada
 	}
 
@@ -495,14 +508,14 @@
 9588 = {	# 9588 - Sriksetra
 	
 	# Misc
-	culture = burmese
-	religion = ari
+	culture = pyu
+	religion = theravada
 	
 	holding = castle_holding
 	
 	# History
-	1056.1.1 = {
-		religion = ari
+	1193.1.1 = {
+		culture = burmese
 	}
 
 }
@@ -563,13 +576,16 @@
 9593 = {	# 9593 - Toungoo
 	
 	# Misc
-	culture = burmese
+	culture = pyu
 	religion = mahayana
 	
 	holding = castle_holding
 	
 	# History
-	1056.1.1 = {
+	882.1.1 = {
+		culture = burmese
+	}
+	1236.1.1 = {
 		religion = theravada
 	}
 
