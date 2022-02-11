@@ -6,6 +6,7 @@
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_philosopher_culture
 		tradition_religious_patronage
 		tradition_agrarian
@@ -31,6 +32,7 @@ oriya = { # Indo-Aryan
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_culinary_art
 		tradition_seafaring
 		tradition_lords_of_the_elephant
@@ -80,6 +82,7 @@ gujarati = { # Indo-Aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_vegetarianism
 		tradition_religion_blending
 		tradition_seafaring
@@ -105,6 +108,7 @@ punjabi = { # Indo-Aryan
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_wedding_ceremonies
 		tradition_storytellers
 		tradition_agrarian
@@ -129,6 +133,7 @@ rajput = { # Indo-Aryan - #Renamed to Rajasthani
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_warrior_culture
 		tradition_quarrelsome
 		tradition_mystical_ancestors
@@ -154,6 +159,7 @@ malvi = { # Indo-Aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_fervent_temple_builders
 		tradition_mystical_ancestors
 		tradition_khadga_puja
@@ -179,6 +185,7 @@ sindhi = { # Indo-Aryan
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_poetry
 		tradition_seafaring
 		tradition_mendicant_mystics
@@ -203,6 +210,7 @@ marathi = { # Indo-Aryan
 	language = language_marathi
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_hard_working
 		tradition_modest
 		tradition_pastoralists
@@ -227,6 +235,7 @@ kashmiri = { # Indo-Aryan Dardic
 	language = language_kashmiri
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_himalayan_settlers
 		tradition_poetry
 		tradition_equal_inheritance
@@ -252,6 +261,7 @@ sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
 	language = language_sinhalese
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_ruling_caste
 		tradition_fervent_temple_builders
 		tradition_city_keepers
@@ -276,6 +286,7 @@ nepali = { # (Newar, Garwhali, Kuamoni, Khasa, Gorkha, Tamangic, etc.)
 	language = language_nepali
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_himalayan_settlers
 		tradition_martial_admiration
 		tradition_religious_patronage
@@ -302,6 +313,7 @@ bihari = {# Bihari
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_khadga_puja
 		tradition_religion_blending
 		tradition_court_eunuchs
@@ -327,6 +339,7 @@ konkani = {# Konkani
 	language = language_konkani
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_khadga_puja
 		tradition_maritime_mercantilism
 		tradition_religious_patronage
@@ -352,6 +365,7 @@ awadhi = {# Awadhi
 	language = language_awadhi
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_agrarian
 		tradition_ruling_caste
 		tradition_court_eunuchs
@@ -376,6 +390,7 @@ braj = {# braj
 	language = language_braj
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_agrarian
 		tradition_ruling_caste
 		tradition_court_eunuchs
@@ -401,6 +416,7 @@ saurashtra = {# saurashtra
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_vegetarianism
 		tradition_religion_blending
 		tradition_seafaring
@@ -450,6 +466,7 @@ nagpuri = {# nagpuri
 	language = language_nagpuri
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_khadga_puja
 		tradition_sacred_groves
 		tradition_religion_blending
@@ -498,6 +515,7 @@ kumaoni = {# kumaoni
 	language = language_nepali
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_himalayan_settlers
 		tradition_martial_admiration
 		tradition_religious_patronage
@@ -522,6 +540,7 @@ pahari = {# pahari
 	language = language_pahari
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_himalayan_settlers
 		tradition_martial_admiration
 		tradition_religious_patronage
@@ -546,6 +565,7 @@ rajbongshi = {# rajbongshi
 	language = language_rajbongshi
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_agrarian
 		tradition_isolationist
 		tradition_sacred_groves
@@ -570,15 +590,11 @@ kamarupi = {# kamarupi
 	language = language_kamarupi
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_caste_system
 		tradition_khadga_puja
 		tradition_jungle_warriors
 		tradition_religion_blending
 		tradition_mendicant_mystics
-	}
-	
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
 	}
 	
 	name_list = name_list_kamarupi

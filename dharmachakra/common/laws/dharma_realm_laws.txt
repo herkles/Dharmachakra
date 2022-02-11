@@ -1,0 +1,154 @@
+﻿@caste_status_cooldown_years = 50
+
+caste_status = {
+	default = caste_status_1
+	flag = realm_law
+	
+	caste_status_0 = {# Super Relaxed Status
+		modifier = {
+			direct_vassal_opinion = 10
+		}
+
+		can_keep = { realm_law_use_caste_system = yes }
+
+		can_pass = {
+			trigger_if = {
+				limit = {
+					NOT = { has_realm_law = caste_status_2 }
+					NOT = { has_realm_law = caste_status_3 }
+
+				}
+				has_realm_law = caste_status_2
+				custom_description = {
+					subject = root
+					text = "has_crown_authority_cooldown"
+				}
+			}
+			root.culture = { has_innovation = innovation_royal_prerogative }
+		}
+
+
+	}	
+	caste_status_1 = {# Relaxed Caste
+		modifier = {
+			direct_vassal_opinion = -10
+		}
+
+		can_keep = { realm_law_use_caste_system = yes }
+
+		can_pass = {
+			trigger_if = {
+				limit = {
+					NOT = { has_realm_law = caste_status_3 }
+				}
+				has_realm_law = caste_status_2
+				custom_description = {
+					subject = root
+					text = "has_crown_authority_cooldown"
+				}
+			}
+			root.culture = { has_innovation = innovation_royal_prerogative }
+		}
+		
+		pass_cost = {
+
+		}
+		
+		on_pass = {
+			# Increment cooldown breaker tally, if appropriate.
+			calculate_authority_cooldown_break_effect = yes
+			# Set regular cooldown.
+			set_variable = {
+				name = caste_status_cooldown
+				years = @caste_status_cooldown_years
+			}
+		}
+
+		ai_will_do = {
+
+		}
+	}
+	caste_status_2 = {# strict Caste
+		modifier = {
+			direct_vassal_opinion = -10
+		}
+
+		can_keep = { realm_law_use_caste_system = yes }
+
+		can_pass = {
+			trigger_if = {
+				limit = {
+					NOT = { has_realm_law = caste_status_0 }
+				}
+				has_realm_law = caste_status_2
+				custom_description = {
+					subject = root
+					text = "has_crown_authority_cooldown"
+				}
+			}
+			root.culture = { has_innovation = innovation_royal_prerogative }
+		}
+		
+		pass_cost = {
+
+		}
+		
+		on_pass = {
+			# Increment cooldown breaker tally, if appropriate.
+			calculate_authority_cooldown_break_effect = yes
+			# Set regular cooldown.
+			set_variable = {
+				name = caste_status_cooldown
+				years = @caste_status_cooldown_years
+			}
+		}
+
+		ai_will_do = {
+
+		}
+	}
+	caste_status_3 = {# Super Strict Caste
+		modifier = {
+			direct_vassal_opinion = -10
+		}
+
+		can_keep = { realm_law_use_caste_system = yes }
+
+		can_pass = {
+			trigger_if = {
+				limit = {
+					NOT = { has_realm_law = caste_status_0 }
+					NOT = { has_realm_law = caste_status_1 }
+
+				}
+				has_realm_law = caste_status_2
+				custom_description = {
+					subject = root
+					text = "has_crown_authority_cooldown"
+				}
+			}
+			root.culture = { has_innovation = innovation_royal_prerogative }
+		}
+		
+		pass_cost = {
+
+		}
+		
+		on_pass = {
+			# Increment cooldown breaker tally, if appropriate.
+			calculate_authority_cooldown_break_effect = yes
+			# Set regular cooldown.
+			set_variable = {
+				name = caste_status_cooldown
+				years = @caste_status_cooldown_years
+			}
+		}
+
+		ai_will_do = {
+
+		}
+	}
+
+
+
+}

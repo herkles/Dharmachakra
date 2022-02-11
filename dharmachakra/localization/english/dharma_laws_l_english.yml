@@ -1,0 +1,13 @@
+﻿l_english:
+  caste_status:0 "[caste_status|E]"
+  caste_status_0:0 "Lax Caste System"
+  caste_status_0_effects_not_in_prev:0 "The Caste System is rather laxly enforced in one's realm!"
+  caste_status_1:0 "Slightly Relaxed Caste System"
+  caste_status_1_effects:1 "The Caste System is enforced though slightly on the relaxed side."
+  caste_status_2:0 "Slightly Strict Caste System"
+  caste_status_2_effects:1 "The Caste System is enforced though slightly on the strict side."
+  caste_status_3:0 "Strictly Caste System"
+  caste_status_3_effects_not_in_prev:0 "The Caste System is rather strictly enforced in one's realm!"
+  CASTE_STATUSIS_ON_COOLDOWN:2 "You recently changed the status of the Caste System in your Realm. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'caste_status_cooldown') )]"
+ 
+
