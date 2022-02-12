@@ -12,10 +12,3 @@ long_buddhist_retreat_var = 13
 medium_buddhist_retreat_var = 7
 short_buddhist_retreat_var = 4
 
-
-
-
-
-
-
-

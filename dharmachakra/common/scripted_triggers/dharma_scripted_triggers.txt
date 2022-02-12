@@ -3,10 +3,6 @@
 	is_adult = yes
 }
 
-realm_law_use_caste_system = {
-	culture = { has_cultural_tradition = tradition_caste_system }
-}
-
 is_dharmachakra_loaded = {
 	always = yes
 }

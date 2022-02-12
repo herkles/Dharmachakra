@@ -362,7 +362,7 @@ awadhi = {# Awadhi
 	
 	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
-	language = language_awadhi
+	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
@@ -387,7 +387,7 @@ braj = {# braj
 	color = { 234 60 83 }	
 	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
-	language = language_braj
+	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
@@ -595,6 +595,33 @@ kamarupi = {# kamarupi
 		tradition_jungle_warriors
 		tradition_religion_blending
 		tradition_mendicant_mystics
+	}
+	
+	name_list = name_list_kamarupi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+hindustani_proper = {# Hindustani 
+	color = { 0.6 0.3 0.0 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_indo_aryan
+	language = language_hindi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caste_system
+		tradition_khadga_puja
+		tradition_philosopher_culture
+		tradition_music_theory
+		tradition_gardening
+		tradition_lords_of_the_elephant
 	}
 	
 	name_list = name_list_kamarupi

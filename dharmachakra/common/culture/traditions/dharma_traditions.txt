@@ -11,16 +11,33 @@ tradition_caste_system = {# The Indian Caste System
 		4 = king.dds
 	}
 	
+	is_shown = {
+		any_culture_county = {
+			title_province = {
+				geographical_region = world_india
+			}
+		}
+	}
 	can_pick = {
-		
+		any_culture_county = {
+			title_province = {
+				geographical_region = world_india
+			}
+		}
 	}
-	
-	culture_modifier = {
-		cultural_acceptance_gain_mult = -0.25
-	}
+
 	character_modifier = {
+		castle_holding_holding_build_gold_cost = -0.15
+		feudal_government_tax_contribution_mult = 0.1
+		tyranny_loss_mult = -0.50
 	}
-	
+
+	parameters = {
+		dislikes_marrying_outside_of_culture = yes
+		peasant_and_populist_factions_less_common = yes
+		city_buildings_less_control = yes
+	}
+
 	cost = {
 		prestige = {
 			add = {
@@ -29,13 +46,7 @@ tradition_caste_system = {# The Indian Caste System
 				format = "BASE_VALUE_FORMAT"
 			}
 			if = {
-				limit = {
-					NOR = {
-						any_in_list = { list = traits this = flag:ethos_communal }
-						any_in_list = { list = traits this = flag:ethos_egalitarian }
-						#any_in_list = { list = traits this = flag:ethos_bureaucratic }
-					}
-				}
+				limit = { any_in_list = { list = traits this = flag:ethos_egalitarian } }
 				add = {
 					value = tradition_incompatible_ethos_penalty
 					desc = not_communal_or_egalitarian_desc
