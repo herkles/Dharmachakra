@@ -610,6 +610,8 @@ kamarupi = {# kamarupi
 }
 hindustani_proper = {# Hindustani 
 	color = { 0.6 0.3 0.0 }
+	created = 1206.1.1
+	parents = { awadhi turkish }
 	
 	ethos = ethos_courtly
 	heritage = heritage_indo_aryan
@@ -617,14 +619,14 @@ hindustani_proper = {# Hindustani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
-		tradition_khadga_puja
+		tradition_court_eunuchs
 		tradition_philosopher_culture
 		tradition_music_theory
 		tradition_gardening
 		tradition_lords_of_the_elephant
 	}
 	
-	name_list = name_list_kamarupi
+	name_list = name_list_hindustani
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -633,6 +635,9 @@ hindustani_proper = {# Hindustani
 	
 	ethnicities = {
 		10 = indian
+
+
+		
 	}
 }
 ############ For Rice Compitability ############

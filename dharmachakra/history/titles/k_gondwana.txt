@@ -2,9 +2,24 @@
 k_gondwana = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
-	
+
 	920.1.1 = {
 		holder = 190203 #Yuvaraja Cedi
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_language = language_rajasthani
+					if = {
+						limit = { NOT = { knows_court_language_of = this } }
+						learn_court_language_of = this
+					}
+				}
+			}
+		}
 	}
 	945.1.1 = {
 		holder = 190204 #Lakshmanaraja Cedi
@@ -485,20 +500,27 @@ c_tummana = {
 		holder = 191387#Srivardhana II Sailavamsa
 		liege = d_dahala
 	}
+	750.1.1 = {
+		holder = 191482 # Patel
+		liege = d_dahala
+	}
 	780.1.1 = {
-		holder = 191388 #Cedi?
+		holder = 191483 #Mukhia
 	}
-	825.1.1 = {
-		holder = 191321 #Laksmanaraja Cedi
+	810.1.1 = {
+		holder = 191484 #Mahji
 	}
-	845.1.1 = {
-		holder = 190200 #Kokkala Cedi
+	830.1.1 = {
+		holder = 191485 #Mukhia
 	}
-	890.1.1 = {
-		holder = 190201 #Sankaragana Cedi
+	860.1.1 = {
+		holder = 191486 #Mahji
 	}
-	910.1.1 = {
-		holder = 190202 #Balaharsha Cedi
+	880.1.1 = {
+		holder = 191487 #Patel
+	}
+	920.1.1 = {
+		holder = 190203 #Yuvaraja Cedi
 	}
 	915.1.1 = {
 		holder = 190203 #Yuvaraja Cedi

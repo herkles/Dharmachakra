@@ -1,313 +1,11 @@
-﻿# Fictional Dynasty - Manusukhani
-178003 = {
-	name = "Jaganpala" # Fictional
-	dynasty = 1041103
-	religion = "vajrayana"
-	culture = "awadhi"
-	829.1.1 = {
-		birth = yes
-	}
-	892.1.1 = {
-		death = yes
-	}
-}
-# Chedi
-191262 = {
-	name = "Ambikadevi"
-	dynasty = 1044019	#Cedis
-	female = yes
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191319
-	710.1.1 = {
-		birth = yes
-	}
-	790.1.1 = {
-		death = yes
-	}
-}
-191317 = {
-	name = "Vamaraja"
-	dynasty = 1044019	#Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	620.1.1 = {
-		birth = yes
-	}
-	700.1.1 = {
-		death = yes
-	}
-}
-191318 = {
-	name = "Gunasagara"	#Fictional, the 2 generations between Vamaraja and Sankaragana are unkown
-	dynasty = 1044019	#Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191317
-	650.1.1 = {
-		birth = yes
-	}
-	730.1.1 = {
-		death = yes
-	}
-}
-191319 = {
-	name = "Mayuraja"	#Fictional
-	dynasty = 1044019	#Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191318
-	670.1.1 = {
-		birth = yes
-	}
-	750.1.1 = {
-		death = yes
-	}
-}
-191320 = {
-	name = "Sankaragana"
-	dynasty = 1044019	#Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191319
-	720.1.1 = {
-		birth = yes
-	}
-	780.1.1 = {
-		death = yes
-	}
-}
-191388 = {
-	name = "Krishnaraja" #Fictional, name unkown
-	dynasty = 1044019	#Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191320
-	750.1.1 = {
-		birth = yes
-	}
-	825.1.1 = {
-		death = yes
-	}
-}
-191321 = {
-	name = "Laksmanaraja"
-	dynasty = 1044019	#Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191388
-	800.1.1 = {
-		birth = yes
-	}
-	845.1.1 = {
-		death = yes
-	}
-}
-190200 = {
-	name = "Kokkala"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191321
-	820.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
-190201 = {
-	name = "Sankaragana"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190200
-	841.1.1 = {
-		birth = yes
-	}
-	910.1.1 = {
-		death = yes
-	}
-}
-190202 = {
-	name = "Balaharsha"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190201
-	861.1.1 = {
-		birth = yes
-	}
-	915.1.1 = {
-		death = yes
-	}
-}
-190203 = {
-	name = "Yuvaraja"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190201
-	879.1.1 = {
-		birth = yes
-	}
-	898.1.1 = {
-		add_spouse = 191688
-	}
-	945.1.1 = {
-		death = yes
-	}
-}
-190204 = {
-	name = "Lakshmanaraja"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190203
-	mother = 191688
-	900.1.1 = {
-		birth = yes
-	}
-	969.1.1 = {
-		death = yes
-	}
-}
-190205 = {
-	name = "Sankaragana"
-	dynasty = 1044019 #Cedi
-	religion = "smartism"
-	culture = "awadhi"
-	father = 190204
-	928.1.1 = {
-		birth = yes
-	}
-	980.1.1 = {
-		death = yes
-	}
-}
-190206 = {
-	name = "Yuvaraja"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190204
-	949.1.1 = {
-		birth = yes
-	}
-	990.1.1 = {
-		death = yes
-	}
-}
-190207 = {
-	name = "Kokkala"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190206
-	970.1.1 = {
-		birth = yes
-	}
-	1015.1.1 = {
-		death = yes
-	}
-}
-190208 = {
-	name = "Gangeyadeva"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190207
-	996.1.1 = {
-		birth = yes
-	}
-	1042.1.1 = {
-		death = yes
-	}
-}
-190209 = {
-	name = "Karnadeva"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190208
-	1016.1.1 = {
-		birth = yes
-	}
-	1073.1.1 = {
-		death = yes
-	}
-}
-190210 = {
-	name = "Yashkarna"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190208
-	1038.1.1 = {
-		birth = yes
-	}
-	1123.1.1 = {
-		death = yes
-	}
-}
-190211 = {
-	name = "Gayakarna"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190210
-	1065.1.1 = {
-		birth = yes
-	}
-	1153.1.1 = {
-		death = yes
-	}
-}
-190212 = {
-	name = "Narasimha"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190211
-	1096.1.1 = {
-		birth = yes
-	}
-	1163.1.1 = {
-		death = yes
-	}
-}
-190213 = {
-	name = "Jayasimha"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190211
-	1111.1.1 = {
-		birth = yes
-	}
-	1188.1.1 = {
-		death = yes
-	}
-}
-190214 = {
-	name = "Vijayasimha"
-	dynasty = 1044019 #Cedi
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 190213
-	1151.1.1 = {
-		birth = yes
-	}
-	1211.1.1 = {
-		death = yes
-	}
-}
-# Gopala
-191430 = {
+﻿#######################################
+# Gopala Dynasty
+#######################################
+191430 = {# Gopala
 	name = "Gopala"
 	dynasty = 1044347 # Gopala
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "malvi"
 	trait = content
 	1040.1.1 = {
 		birth = yes
@@ -319,8 +17,10 @@
 		death = yes
 	}
 }
-# Kalachuri
-191025 = {
+#######################################
+# Kalachuri Dynasty
+#######################################
+191025 = {# Rajaputra
 	name = "Rajaputra"
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -332,7 +32,7 @@
 		death = yes
 	}
 }
-191026 = {
+191026 = {# Shivaraja
 	name = "Shivaraja"
 	dynasty = 1044309 #Kalachuri
 	religion = "vaishnavism"
@@ -348,11 +48,11 @@
 		death = yes
 	}
 }
-191040 = {
+191040 = {# Nattadevi
 	name = "Nattadevi"	#Fictional
 	female = yes
 	religion = "vaishnavism"
-	culture = "hindustani"
+	culture = "awadhi"
 	735.1.1 = {
 		birth = yes
 	}
@@ -360,7 +60,7 @@
 		death = yes
 	}
 }
-191027 = {
+191027 = {# Shankaragana
 	name = "Shankaragana"
 	dynasty = 1044309 #Kalachuri
 	religion = "vaishnavism"
@@ -374,7 +74,7 @@
 		death = yes
 	}
 }
-191028 = {
+191028 = {# Gunasagara
 	name = "Gunasagara"	#I
 	dynasty = 1044309 #Kalachuri
 	religion = "vaishnavism"
@@ -390,11 +90,11 @@
 		death = yes
 	}
 }
-191041 = {
+191041 = {# Karmavati
 	name = "Karmavati"	#Fictional
 	female = yes
 	religion = "vaishnavism"
-	culture = "hindustani"
+	culture = "awadhi"
 	840.1.1 = {
 		birth = yes
 	}
@@ -402,7 +102,7 @@
 		death = yes
 	}
 }
-191029 = {
+191029 = {# Ullabha
 	name = "Ullabha"
 	dynasty = 1044309 #Kalachuri
 	religion = "vaishnavism"
@@ -416,7 +116,7 @@
 		death = yes
 	}
 }
-191030 = {
+191030 = {# Bhamanadeva
 	name = "Bhamanadeva"
 	dynasty = 1044309 #Kalachuri
 	religion = "vaishnavism"
@@ -430,7 +130,7 @@
 		death = yes
 	}
 }
-191031 = {
+191031 = {# Shankaragana
 	name = "Shankaragana"
 	dynasty = 1044309 #Kalachuri
 	religion = "vaishnavism"
@@ -443,7 +143,7 @@
 		death = yes
 	}
 }
-191032 = {
+191032 = {# Mugdhatunga
 	name = "Mugdhatunga"
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -456,7 +156,7 @@
 		death = yes
 	}
 }
-191033 = {
+191033 = {# Gunasagara
 	name = "Gunasagara"	#II
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -472,7 +172,19 @@
 		death = yes
 	}
 }
-191034 = {
+191042 = {# Kanchuka
+	name = "Kanchuka"	#Fictional
+	female = yes
+	religion = "smartism"
+	culture = "awadhi"
+	955.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+191034 = {# Sivaraja
 	name = "Sivaraja"
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -486,7 +198,7 @@
 		death = yes
 	}
 }
-191035 = {
+191035 = {# Bhamana
 	name = "Bhamana"
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -499,7 +211,7 @@
 		death = yes
 	}
 }
-191036 = {
+191036 = {# Shankaragana
 	name = "Shankaragana"
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -512,7 +224,7 @@
 		death = yes
 	}
 }
-191037 = {
+191037 = {# Bhima
 	name = "Bhima"
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -525,7 +237,7 @@
 		death = yes
 	}
 }
-191038 = {
+191038 = {# Vyasa
 	name = "Vyasa"
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -539,7 +251,7 @@
 		death = yes
 	}
 }
-191039 = {
+191039 = {# Sodhadeva
 	name = "Sodhadeva"
 	dynasty = 1044309 #Kalachuri
 	religion = "smartism"
@@ -552,8 +264,10 @@
 		death = yes
 	}
 }
-# Malhi
-178005 = {
+#######################################
+# Malhi Dynasty
+#######################################
+178005 = {# Tolpal
 	name = "Tolpal" # Fictional
 	dynasty = 1041105
 	religion = "vaishnavism"
@@ -565,8 +279,10 @@
 		death = yes
 	}
 }
-# Guatam
-191988 = {
+#######################################
+# Gautam Dynasty
+#######################################
+191988 = {# Sisupal
 	name = "Sisupal"	#Fictional
 	dynasty = 1044397 #Gautam
 	religion = "vaishnavism"
@@ -578,8 +294,10 @@
 		death = yes
 	}
 }
-# Malayaketu 
-191298 = {
+#######################################
+# Malayaketu Dynasty
+#######################################
+191298 = {# Jayaditya
 	name = "Jayaditya"
 	dynasty = 1044335	#Malayaketu
 	religion = "smartism"
@@ -591,7 +309,7 @@
 		death = yes
 	}
 }
-191299 = {
+191299 = {# Jayaditya
 	name = "Jayaditya"
 	dynasty = 1044335	#Malayaketu
 	religion = "smartism"
@@ -604,7 +322,7 @@
 		death = yes
 	}
 }
-191300 = {
+191300 = {# Jayaditya
 	name = "Jayaditya"
 	dynasty = 1044335	#Malayaketu
 	religion = "vaishnavism"
@@ -617,8 +335,10 @@
 		death = yes
 	}
 }
-# Gahirawar
-191018 = {
+#######################################
+# Gahirawar Dynasty
+#######################################
+191018 = {# Karamchand
 	name = "Karamchand"	#Semi-Legendary
 	dynasty = 1044308 #Gahirawar
 	religion = "vaishnavism"
@@ -633,7 +353,7 @@
 		death = yes
 	}
 }
-191019 = {
+191019 = {# Ranasimha
 	name = "Ranasimha"	#Semi-Legendary
 	dynasty = 1044308 #Gahirawar
 	religion = "vaishnavism"
@@ -647,7 +367,7 @@
 		death = yes
 	}
 }
-191020 = {
+191020 = {# Naranath
 	name = "Naranath"	#Semi-Legendary
 	dynasty = 1044308 #Gahirawar
 	religion = "vaishnavism"
@@ -657,11 +377,13 @@
 	710.1.1 = {
 		birth = yes
 	}
+	#736.1.1 = {
+	#}
 	750.1.1 = {
 		death = yes
 	}
 }
-191021 = {
+191021 = {# Jayasimha
 	name = "Jayasimha"	#Semi-Legendary
 	dynasty = 1044308 #Gahirawar
 	religion = "vaishnavism"
@@ -677,7 +399,19 @@
 		death = yes
 	}
 }
-191022 = {
+191043 = {# Sanyukta
+	name = "Sanyukta"	#Fictional
+	female = yes
+	religion = "vaishnavism"
+	culture = "awadhi"
+	740.1.1 = {
+		birth = yes
+	}
+	788.1.1 = {
+		death = yes
+	}
+}
+191022 = {# Jagannatharaya
 	name = "Jagannatharaya"	#Semi-Legendary
 	dynasty = 1044308 #Gahirawar
 	religion = "vaishnavism"
@@ -691,7 +425,7 @@
 		death = yes
 	}
 }
-191023 = {
+191023 = {# Narasimha
 	name = "Narasimha"	#Semi-Legendary
 	dynasty = 1044308 #Gahirawar
 	religion = "vaishnavism"
@@ -704,7 +438,7 @@
 		death = yes
 	}
 }
-191024 = {
+191024 = {# Indrajit
 	name = "Indrajit"	#Semi-Legendary
 	dynasty = 1044308 #Gahirawar
 	religion = "smartism"
@@ -717,9 +451,50 @@
 		death = yes
 	}
 }
-
-
-190217 = {
+#######################################
+# Kuru Dynasty
+#######################################
+191016 = {# Krsnapa
+	name = "Krsnapa"	#Fictional
+	dynasty = 1044303 #Kuru
+	religion = "vaishnavism"
+	culture = "awadhi"
+	720.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Gahadvala Dynasty
+#######################################
+190215 = {# Mahitala
+	name = "Mahitala"
+	dynasty = 1044030 #Gahadvala
+	religion = "vaishnavism"
+	culture = "awadhi"
+	1026.1.1 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+190216 = {# Candradeva
+	name = "Candradeva"
+	dynasty = 1044030 #Gahadvala
+	religion = "vaishnavism"
+	culture = "awadhi"
+	father = 190215
+	1049.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+190217 = {# Madanacandra
 	name = "Madanacandra"
 	dynasty = 1044030 #Gahadvala
 	religion = "vaishnavism"
@@ -732,7 +507,7 @@
 		death = yes
 	}
 }
-190218 = {
+190218 = {# Govindacandra
 	name = "Govindacandra"
 	dynasty = 1044030 #Gahadvala
 	religion = "vaishnavism"
@@ -748,7 +523,7 @@
 		death = yes
 	}
 }
-190219 = {
+190219 = {# Vijayacandra
 	name = "Vijayacandra"
 	dynasty = 1044030 #Gahadvala
 	religion = "vaishnavism"
@@ -762,10 +537,10 @@
 		death = yes
 	}
 }
-190220 = {
+190220 = {# Jayacandra
 	name = "Jayacandra"
 	dynasty = 1044030 #Gahadvala
-	religion = "smartism"
+	religion = "vaishnavism"
 	culture = "awadhi"
 	father = 190219
 	1154.1.1 = {
@@ -775,7 +550,7 @@
 		death = yes
 	}
 }
-190221 = {
+190221 = {# Hariscandra
 	name = "Hariscandra"
 	dynasty = 1044030 #Gahadvala
 	religion = "vaishnavism"
@@ -788,7 +563,7 @@
 		death = yes
 	}
 }
-190222 = {
+190222 = {# Adakkamalla
 	name = "Adakkamalla"
 	dynasty = 1044030 #Gahadvala
 	religion = "vaishnavism"
@@ -801,97 +576,10 @@
 		death = yes
 	}
 }
-190117 = {
-	name = "Salisuka"
-	dynasty = 1044022
-	religion = "vaishnavism"
-	culture = "awadhi"
-	1032.1.1 = {
-		birth = yes
-	}
-	1077.1.1 = {
-		death = yes
-	}
-}
-190118 = {
-	name = "Satadhanva"
-	dynasty = 1044023
-	religion = "vaishnavism"
-	culture = "awadhi"
-	1024.1.1 = {
-		birth = yes
-	}
-	1081.1.1 = {
-		death = yes
-	}
-}
-178004 = {
-	name = "Kunwar" # Fictional
-	dynasty = 1041104
-	religion = "vajrayana"
-	culture = "awadhi"
-	839.1.1 = {
-		birth = yes
-	}
-	892.1.1 = {
-		death = yes
-	}
-}
-191001 = {
-	name = "Yasodevi"
-	female = yes
-	religion = "vaishnavism"
-	culture = "awadhi"
-	704.1.1 = {
-		birth = yes
-	}
-	720.1.1 = {
-		trait = education_intrigue_3
-	}
-	760.1.1 = {
-		death = yes
-	}
-}
-191016 = {
-	name = "Krsnapa"	#Fictional
-	dynasty = 1044303 #Kuru
-	religion = "vaishnavism"
-	culture = "awadhi"
-	720.1.1 = {
-		birth = yes
-	}
-	810.1.1 = {
-		death = yes
-	}
-}
-191043 = {
-	name = "Sanyukta"	#Fictional
-	female = yes
-	religion = "vaishnavism"
-	culture = "awadhi"
-	740.1.1 = {
-		birth = yes
-	}
-	788.1.1 = {
-		death = yes
-	}
-}
-191042 = {
-	name = "Kanchuka"	#Fictional
-	female = yes
-	religion = "smartism"
-	culture = "awadhi"
-	955.1.1 = {
-		birth = yes
-	}
-	1050.1.1 = {
-		death = yes
-	}
-}
-191056 = {
+191056 = {# Vijay Chand
 	name = "Vijay_Chand"
 	dynasty = 1044030 #Gahadvala
-	religion = "smartism"
+	religion = "vaishnavism"
 	culture = "awadhi"
 	father = 190222
 	1190.1.1 = {
@@ -901,7 +589,7 @@
 		death = yes
 	}
 }
-191057 = {
+191057 = {# Vikramajit
 	name = "Vikramajit"	#Fictional
 	dynasty = 1044030 #Gahadvala
 	religion = "smartism"
@@ -914,10 +602,10 @@
 		death = yes
 	}
 }
-191058 = {
+191058 = {# Jodh Rai
 	name = "Jodh_Rai"	#Fictional
 	dynasty = 1044030
-	religion = "smartism"
+	religion = "vaishnavism"
 	culture = "awadhi"
 	father = 191057
 	1230.1.1 = {
@@ -927,10 +615,10 @@
 		death = yes
 	}
 }
-191059 = {
+191059 = {# Vikramajit
 	name = "Vikramajit"	#Fictional
 	dynasty = 1044030
-	religion = "smartism"
+	religion = "vaishnavism"
 	culture = "awadhi"
 	father = 191058
 	1260.1.1 = {
@@ -940,10 +628,10 @@
 		death = yes
 	}
 }
-191060 = {
+191060 = {# Jodh Rai
 	name = "Jodh_Rai"	#Fictional
 	dynasty = 1044030
-	religion = "smartism"
+	religion = "vaishnavism"
 	culture = "awadhi"
 	father = 191059
 	1320.1.1 = {
@@ -953,10 +641,10 @@
 		death = yes
 	}
 }
-191061 = {
+191061 = {# Vikramajit
 	name = "Vikramajit"	#Fictional
 	dynasty = 1044030
-	religion = "smartism"
+	religion = "vaishnavism"
 	culture = "awadhi"
 	father = 191060
 	1380.1.1 = {
@@ -966,7 +654,10 @@
 		death = yes
 	}
 }
-191345 = {
+#######################################
+# Haihaya Dynasty
+#######################################
+191345 = {# Kalingaraja
 	name = "Kalingaraja"
 	dynasty = 1044338	#Cedi
 	religion = "vaishnavism"
@@ -979,11 +670,11 @@
 		death = yes
 	}
 }
-191346 = {
+191346 = {# Kamalaraja
 	name = "Kamalaraja"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191345
 	990.1.1 = {
 		birth = yes
@@ -992,11 +683,11 @@
 		death = yes
 	}
 }
-191347 = {
+191347 = {# Ratnadeva
 	name = "Ratnadeva"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191346
 	1010.1.1 = {
 		birth = yes
@@ -1005,11 +696,11 @@
 		death = yes
 	}
 }
-191348 = {
+191348 = {# Prthvideva
 	name = "Prthvideva"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191347
 	1040.1.1 = {
 		birth = yes
@@ -1018,11 +709,11 @@
 		death = yes
 	}
 }
-191349 = {
+191349 = {# Jajalladeva
 	name = "Jajalladeva"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191348
 	1070.1.1 = {
 		birth = yes
@@ -1031,11 +722,11 @@
 		death = yes
 	}
 }
-191350 = {
+191350 = {# Ratnadeva
 	name = "Ratnadeva" #II
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191349
 	1100.1.1 = {
 		birth = yes
@@ -1044,11 +735,11 @@
 		death = yes
 	}
 }
-191351 = {
+191351 = {# Prthvideva
 	name = "Prthvideva" #II
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191350
 	1130.1.1 = {
 		birth = yes
@@ -1057,11 +748,11 @@
 		death = yes
 	}
 }
-191352 = {
+191352 = {# Jajalladeva
 	name = "Jajalladeva" #II
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191351
 	1150.1.1 = {
 		birth = yes
@@ -1070,11 +761,11 @@
 		death = yes
 	}
 }
-191353 = {
+191353 = {# Ratnadeva
 	name = "Ratnadeva" #III
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191352
 	1170.1.1 = {
 		birth = yes
@@ -1083,7 +774,7 @@
 		death = yes
 	}
 }
-191354 = {
+191354 = {# Pratapamalla
 	name = "Pratapamalla"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
@@ -1096,11 +787,11 @@
 		death = yes
 	}
 }
-191355 = {	#From this point on genealogies are conflicting, likely this isn't right
+191355 = {# Laxmideo
 	name = "Laxmideo"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191354
 	1190.1.1 = {
 		birth = yes
@@ -1109,11 +800,11 @@
 		death = yes
 	}
 }
-191356 = {
+191356 = {# Simhana
 	name = "Simhana"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191355
 	1210.1.1 = {
 		birth = yes
@@ -1122,11 +813,11 @@
 		death = yes
 	}
 }
-191357 = {
+191357 = {# Danghira
 	name = "Danghira"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191356
 	1230.1.1 = {
 		birth = yes
@@ -1135,11 +826,11 @@
 		death = yes
 	}
 }
-191358 = {
+191358 = {# Ramachandra
 	name = "Ramachandra"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191357
 	1260.1.1 = {
 		birth = yes
@@ -1148,11 +839,11 @@
 		death = yes
 	}
 }
-191359 = {
+191359 = {# Ratanasena
 	name = "Ratanasena"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191358
 	1300.1.1 = {
 		birth = yes
@@ -1161,11 +852,11 @@
 		death = yes
 	}
 }
-191360 = {
+191360 = {# Vahar
 	name = "Vahar"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191359
 	1340.1.1 = {
 		birth = yes
@@ -1174,11 +865,11 @@
 		death = yes
 	}
 }
-191361 = {
+191361 = {# Kamaldeva
 	name = "Kamaldeva"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191360
 	1360.1.1 = {
 		birth = yes
@@ -1187,7 +878,92 @@
 		death = yes
 	}
 }
-191381 = {
+#######################################
+# Khichar Dynasty
+#######################################
+191960 = {# Virbhan
+	name = "Virbhan"
+	dynasty = 1044392	#Khichar
+	religion = "vaishnavism"
+	culture = "awadhi"
+	740.1.1 = {
+		birth = yes
+	}
+	795.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Yayvapala Dynasty
+#######################################
+191823 = {# Chahada
+	name = "Chahada"
+	dynasty = 1044382	#Yayvapala
+	religion = "vaishnavism"
+	culture = "awadhi"
+	1180.1.1 = {
+		birth = yes
+	}
+	1254.1.1 = {
+		death = yes
+	}
+}
+191824 = {# Nrivarman
+	name = "Nrivarman"
+	dynasty = 1044382	#Yayvapala
+	religion = "vaishnavism"
+	culture = "awadhi"
+	father = 191823
+	1200.1.1 = {
+		birth = yes
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+191825 = {# Asalla
+	name = "Asalla"
+	dynasty = 1044382	#Yayvapala
+	religion = "vaishnavism"
+	culture = "awadhi"
+	father = 191824
+	1220.1.1 = {
+		birth = yes
+	}
+	1279.1.1 = {
+		death = yes
+	}
+}
+191826 = {# Gopala
+	name = "Gopala"
+	dynasty = 1044382	#Yayvapala
+	religion = "vaishnavism"
+	culture = "awadhi"
+	father = 191825
+	1240.1.1 = {
+		birth = yes
+	}
+	1291.1.1 = {
+		death = yes
+	}
+}
+191827 = {# Ganapati
+	name = "Ganapati"
+	dynasty = 1044382	#Yayvapala
+	religion = "vaishnavism"
+	culture = "awadhi"
+	father = 191824
+	1260.1.1 = {
+		birth = yes
+	}
+	1298.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Sailavamsa Dynasty
+#######################################
+191381 = {# Srivardhana
 	name = "Srivardhana"
 	dynasty = 1044342	#Sailavamsa
 	religion = "vaishnavism"
@@ -1199,7 +975,7 @@
 		death = yes
 	}
 }
-191382 = {
+191382 = {# Prithuvardhana
 	name = "Prithuvardhana"
 	dynasty = 1044342	#Sailavamsa
 	religion = "vaishnavism"
@@ -1212,7 +988,7 @@
 		death = yes
 	}
 }
-191383 = {
+191383 = {# Sauvardhana
 	name = "Sauvardhana"
 	dynasty = 1044342	#Sailavamsa
 	religion = "shaivism"
@@ -1225,7 +1001,7 @@
 		death = yes
 	}
 }
-191384 = {
+191384 = {# Prithuvardhana
 	name = "Prithuvardhana"	#Fictional name, the name of this son is not known
 	dynasty = 1044342	#Sailavamsa
 	religion = "shaivism"
@@ -1238,7 +1014,7 @@
 		death = yes
 	}
 }
-191385 = {
+191385 = {# Jayavardhana
 	name = "Jayavardhana"	#I
 	dynasty = 1044342	#Sailavamsa
 	religion = "shaivism"
@@ -1251,7 +1027,7 @@
 		death = yes
 	}
 }
-191386 = {
+191386 = {# Srivardhana
 	name = "Srivardhana"	#II
 	dynasty = 1044342	#Sailavamsa
 	religion = "shaivism"
@@ -1264,7 +1040,7 @@
 		death = yes
 	}
 }
-191387 = {
+191387 = {# Jayavardhana
 	name = "Jayavardhana"	#II
 	dynasty = 1044342	#Sailavamsa
 	religion = "shaivism"
@@ -1277,7 +1053,7 @@
 		death = yes
 	}
 }
-191469 = {
+191469 = {# Sindur Mati Sahiba
 	name = "Sindur_Mati_Sahiba"
 	female = yes
 	religion = "shaivism"
@@ -1289,37 +1065,26 @@
 		death = yes
 	}
 }
-191475 = {
-	name = "Padma"
-	female = yes
-	dynasty = 1044338 # Hayhaya
-	religion = "shaivism"
-	culture = "awadhi"
-	father = 191355
-	1220.1.1 = {
-		birth = yes
-	}
-	1275.1.1 = {
-		death = yes
-	}
-}
-191482 = {
+#######################################
+# Baland Dynasty
+#######################################
+191482 = {# Patel
 	name = "Patel"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	700.1.1 = {
 		birth = yes
 	}
 	780.1.1 = {
 		death = yes
 	}
-}	
-191483 = {
+}
+191483 = {# Mukhia
 	name = "Mukhia"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191482
 	720.1.1 = {
 		birth = yes
@@ -1328,11 +1093,11 @@
 		death = yes
 	}
 }
-191484 = {
+191484 = {# Mahji
 	name = "Mahji"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191483
 	750.1.1 = {
 		birth = yes
@@ -1341,11 +1106,11 @@
 		death = yes
 	}
 }
-191485 = {
+191485 = {# Mukhia
 	name = "Mukhia"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191484
 	800.1.1 = {
 		birth = yes
@@ -1354,11 +1119,11 @@
 		death = yes
 	}
 }
-191486 = {
+191486 = {# Mahji
 	name = "Mahji"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191485
 	820.1.1 = {
 		birth = yes
@@ -1367,11 +1132,11 @@
 		death = yes
 	}
 }
-191487 = {
+191487 = {# Patel
 	name = "Patel"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191486
 	840.1.1 = {
 		birth = yes
@@ -1380,11 +1145,14 @@
 		death = yes
 	}
 }
-191504 = {
+#######################################
+# Rajgond Dynasty
+#######################################
+191504 = {# Narsinha
 	name = "Narsinha"
 	dynasty = 1044352 #Rajgond
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	1170.1.1 = {
 		birth = yes
 	}
@@ -1392,11 +1160,11 @@
 		death = yes
 	}
 }
-191505 = {
+191505 = {# Ramchandra
 	name = "Ramchandra"
 	dynasty = 1044352 #Rajgond
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191504
 	1190.1.1 = {
 		birth = yes
@@ -1405,11 +1173,11 @@
 		death = yes
 	}
 }
-191506 = {
+191506 = {# Krishna
 	name = "Krishna"
 	dynasty = 1044352 #Rajgond
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191505
 	1210.1.1 = {
 		birth = yes
@@ -1418,11 +1186,11 @@
 		death = yes
 	}
 }
-191507 = {
+191507 = {# Rudra
 	name = "Rudra"
 	dynasty = 1044352 #Rajgond
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191506
 	1230.1.1 = {
 		birth = yes
@@ -1431,11 +1199,11 @@
 		death = yes
 	}
 }
-191508 = {
+191508 = {# Jagannatha
 	name = "Jagannatha"
 	dynasty = 1044352 #Rajgond
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191507
 	1250.1.1 = {
 		birth = yes
@@ -1444,11 +1212,11 @@
 		death = yes
 	}
 }
-191509 = {
+191509 = {# Vasudeva
 	name = "Vasudeva"
 	dynasty = 1044352 #Rajgond
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	father = 191508
 	1270.1.1 = {
 		birth = yes
@@ -1457,11 +1225,14 @@
 		death = yes
 	}
 }
-191518 = {
+#######################################
+# Bhar Dynasty
+#######################################
+191518 = {# Jhetpala
 	name = "Jhetpala"	#Fictional
 	dynasty = 1044353 #Bhar
 	religion = "shaivism"
-	culture = "awadhi"
+	culture = "gond"
 	720.1.1 = {
 		birth = yes
 	}
@@ -1472,7 +1243,7 @@
 		death = yes
 	}
 }
-191519 = {
+191519 = {# Narpal
 	name = "Narpal"	#Fictional
 	dynasty = 1044353 #Bhar
 	religion = "shaivism"
@@ -1486,7 +1257,7 @@
 		death = yes
 	}
 }
-191520 = {
+191520 = {# Kanchuka
 	name = "Kanchuka"	#Fictional
 	female = yes
 	religion = "shaivism"
@@ -1498,7 +1269,7 @@
 		death = yes
 	}
 }
-191521 = {
+191521 = {# Narpal
 	name = "Narpal"	#Fictional
 	dynasty = 1044353 #Bhar
 	female = yes
@@ -1513,7 +1284,10 @@
 		death = yes
 	}
 }
-191698 = {
+#######################################
+# Surasena Dynasty
+#######################################
+191698 = {# Mahipala
 	name = "Mahipala"
 	dynasty = 1044376 #Surasena
 	religion = "vaishnavism"
@@ -1525,92 +1299,6 @@
 		death = yes
 	}
 }
-191823 = {
-	name = "Chahada"
-	dynasty = 1044382	#Yayvapala
-	religion = "vaishnavism"
-	culture = "awadhi"
-	1180.1.1 = {
-		birth = yes
-	}
-	1254.1.1 = {
-		death = yes
-	}
-}
-191824 = {
-	name = "Nrivarman"
-	dynasty = 1044382	#Yayvapala
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191823
-	1200.1.1 = {
-		birth = yes
-	}
-	1260.1.1 = {
-		death = yes
-	}
-}
-191825 = {
-	name = "Asalla"
-	dynasty = 1044382	#Yayvapala
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191824
-	1220.1.1 = {
-		birth = yes
-	}
-	1279.1.1 = {
-		death = yes
-	}
-}
-191826 = {
-	name = "Gopala"
-	dynasty = 1044382	#Yayvapala
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191825
-	1240.1.1 = {
-		birth = yes
-	}
-	1291.1.1 = {
-		death = yes
-	}
-}
-191827 = {
-	name = "Ganapati"
-	dynasty = 1044382	#Yayvapala
-	religion = "vaishnavism"
-	culture = "awadhi"
-	father = 191824
-	1260.1.1 = {
-		birth = yes
-	}
-	1298.1.1 = {
-		death = yes
-	}
-}
-191926 = {
-	name = "Laihini"	#Fictional
-	female = yes
-	religion = "vaishnavism"
-	culture = "awadhi"
-	750.1.1 = {
-		birth = yes
-	}
-	810.1.1 = {
-		death = yes
-	}
-}
-191960 = {
-	name = "Virbhan"
-	dynasty = 1044392	#Khichar
-	religion = "vaishnavism"
-	culture = "awadhi"
-	740.1.1 = {
-		birth = yes
-	}
-	795.1.1 = {
-		death = yes
-	}
-}
+
+
 

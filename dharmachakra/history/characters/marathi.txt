@@ -303,7 +303,7 @@
 74492 = {
 	name = "Kapardin"
 	dynasty = 12322
-	religion = "vaishnavism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 
 	762.1.1 = {
@@ -317,7 +317,7 @@
 74493 = {
 	name = "Pullashkati"
 	dynasty = 12322
-	religion = "vaishnavism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74492
 
@@ -332,7 +332,7 @@
 74494 = {
 	name = "Kapardin"
 	dynasty = 12322
-	religion = "vaishnavism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74493
 
@@ -350,7 +350,7 @@
 74495 = {
 	name = "Vappuvanna"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74494
 	mother = 74517
@@ -369,7 +369,7 @@
 74496 = {
 	name = "Jhanha"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74495
 	mother = 74518
@@ -385,7 +385,7 @@
 74497 = {
 	name = "Goggiraja"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74495
 	mother = 74518
@@ -401,7 +401,7 @@
 74498 = {
 	name = "Vajjada"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74497
 
@@ -416,7 +416,7 @@
 74499 = {
 	name = "Chhadvaideva"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74497
 
@@ -431,7 +431,7 @@
 74500 = {
 	name = "Aparajita"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74498
 
@@ -446,7 +446,7 @@
 74501 = {
 	name = "Vajjada"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74500
 
@@ -462,7 +462,7 @@
 	name = "Kundaladevi"
 	dynasty = 12322
 	female = yes
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74501
 
@@ -477,7 +477,7 @@
 74503 = {
 	name = "Arikesarin"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74500
 
@@ -492,7 +492,7 @@
 74504 = {
 	name = "Chhittaraja"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74501
 
@@ -507,7 +507,7 @@
 74505 = {
 	name = "Nagarjuna"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74504
 
@@ -522,7 +522,7 @@
 74506 = {
 	name = "Mummuniraja"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74504
 
@@ -540,7 +540,7 @@
 74507 = {
 	name = "Anantadeva"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74506
 	mother = 74519
@@ -559,7 +559,7 @@
 74508 = {
 	name = "Aparaditya"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74507
 	mother = 74520
@@ -578,7 +578,7 @@
 74509 = {
 	name = "Haripaladeva"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74507
 	mother = 74520
@@ -594,7 +594,7 @@
 74510 = {
 	name = "Mallikarjuna"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74508
 	mother = 74521
@@ -613,7 +613,7 @@
 74511 = {
 	name = "Aparaditya"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74510
 	mother = 74522
@@ -629,7 +629,7 @@
 74512 = {
 	name = "Anantadeva"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74510
 	mother = 74522
@@ -648,7 +648,7 @@
 74513 = {
 	name = "Aparaditya"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74512
 	mother = 74523
@@ -667,7 +667,7 @@
 74514 = {
 	name = "Keshideva"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74513
 	mother = 74524
@@ -686,7 +686,7 @@
 74515 = {
 	name = "Anantadeva"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74514
 	mother = 74525
@@ -702,7 +702,7 @@
 74516 = {
 	name = "Someshvara"
 	dynasty = 12322
-	religion = "shaivism"
+	religion = "srikula_shaktism"
 	culture = "marathi"
 	father = 74514
 	mother = 74525
@@ -916,7 +916,7 @@
 74541 = {
 	name = "Shashthadeva"
 	dynasty = 12324
-	religion = "smartism"
+	religion = "shaivism"
 	culture = "marathi"
 	father = 74540
 
@@ -965,7 +965,7 @@
 74544 = {
 	name = "Jayakeshi"
 	dynasty = 12324
-	religion = "srikula_shaktism"
+	religion = "shaivism"
 	culture = "marathi"
 	father = 74541
 	mother = 74502
@@ -973,7 +973,7 @@
 	1028.1.1 = {
 		birth = yes
 	}
-	1050.1.1 = {
+	1040.1.1 = {
 		add_spouse = 74558
 	}
 	1080.1.1 = {
@@ -984,12 +984,12 @@
 74545 = {
 	name = "Guhalladeva"
 	dynasty = 12324
-	religion = "srikula_shaktism"
+	religion = "shaivism"
 	culture = "marathi"
 	father = 74544
 	mother = 74558
 
-	1051.1.1 = {
+	1046.1.1 = {
 		birth = yes
 	}
 	1125.1.1 = {
@@ -1000,12 +1000,12 @@
 74546 = {
 	name = "Vijayaditya"
 	dynasty = 12324
-	religion = "srikula_shaktism"
+	religion = "shaivism"
 	culture = "marathi"
 	father = 74544
 	mother = 74558
 
-	1057.1.1 = {
+	1048.1.1 = {
 		birth = yes
 	}
 	1081.1.1 = {
@@ -1222,7 +1222,7 @@
 	religion = "shaivism"
 	culture = "marathi"
 
-	1030.1.1 = {
+	1020.1.1 = {
 		birth = yes
 	}
 	1093.1.1 = {
@@ -1367,7 +1367,7 @@
 	father = 74544
 	mother = 74558
 
-	1060.1.1 = {
+	1045.1.1 = {
 		birth = yes
 	}
 	1122.1.1 = {
@@ -2128,12 +2128,94 @@
 		death = yes
 	}
 }
+191323 = {
+	name = "Kurumpruhoda"
+	dynasty = 1044336	#Mana
+	religion = "shaivism"
+	culture = "gond"
+	620.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+
+191324 = {
+	name = "Soorjat_Badwaik"
+	dynasty = 1044336	#Mana
+	religion = "shaivism"
+	culture = "gond"
+	father = 191323
+	680.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+191325 = {
+	name = "Kurumpruhoda"	#Names are really only known for the first two rulers
+	dynasty = 1044336	#Mana
+	religion = "shaivism"
+	culture = "gond"
+	father = 191324
+	700.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+191326 = {
+	name = "Soorjat_Badwaik"
+	dynasty = 1044336	#Mana
+	religion = "shaivism"
+	culture = "gond"
+	father = 191325
+	730.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+
+191327 = {
+	name = "Kurumpruhoda"
+	dynasty = 1044336	#Mana
+	religion = "shaivism"
+	culture = "gond"
+	father = 191326
+	753.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+
+191328 = {
+	name = "Soorjat_Badwaik"
+	dynasty = 1044336	#Mana
+	religion = "shaivism"
+	culture = "gond"
+	father = 191327
+	780.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
 
 191329 = {
 	name = "Bhim_Ballal_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	850.1.1 = {
 		birth = yes
 	}
@@ -2146,7 +2228,7 @@
 	name = "Kharja_Ballal_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191329
 	870.1.1 = {
 		birth = yes
@@ -2160,7 +2242,7 @@
 	name = "Hir_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191330
 	900.1.1 = {
 		birth = yes
@@ -2174,7 +2256,7 @@
 	name = "Andiya_Ballal_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191331
 	920.1.1 = {
 		birth = yes
@@ -2188,7 +2270,7 @@
 	name = "Talwar_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191332
 	950.1.1 = {
 		birth = yes
@@ -2202,7 +2284,7 @@
 	name = "Kesar_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191333
 	1000.1.1 = {
 		birth = yes
@@ -2216,7 +2298,7 @@
 	name = "Dinkar_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191334
 	1050.1.1 = {
 		birth = yes
@@ -2230,7 +2312,7 @@
 	name = "Ram_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191335
 	1130.1.1 = {
 		birth = yes
@@ -2244,7 +2326,7 @@
 	name = "Surja_Ballal_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191336
 	1150.1.1 = {
 		birth = yes
@@ -2258,7 +2340,7 @@
 	name = "Khandkya_Ballal_Singh"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191337
 	1200.1.1 = {
 		birth = yes
@@ -2272,7 +2354,7 @@
 	name = "Hir_Sah"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191338
 	1260.1.1 = {
 		birth = yes
@@ -2289,7 +2371,7 @@
 	name = "Bhuma"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191339	#Adopted by Hir Sahs widow Hirabai
 	mother = 191344	#Adopted by Hir Sahs widow Hirabai
 	1320.1.1 = {
@@ -2304,7 +2386,7 @@
 	name = "Lokba"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191339	#Adopted by Hir Sahs widow Hirabai
 	mother = 191344	#Adopted by Hir Sahs widow Hirabai
 	1321.1.1 = {
@@ -2319,7 +2401,7 @@
 	name = "Kondya_Sah"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191341
 	1370.1.1 = {
 		birth = yes
@@ -2333,7 +2415,7 @@
 	name = "Babji_Ballal_Sah"
 	dynasty = 1044337	#Chanda
 	religion = "shaivism"
-	culture = "marathi"
+	culture = "gond"
 	father = 191342
 	1425.1.1 = {
 		birth = yes
@@ -2411,6 +2493,186 @@
 	}
 }
 
+191362 = {
+	name = "Brijnath"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "digambara"
+	culture = "marathi"
+	700.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+191363 = {
+	name = "Radhakant"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "digambara"
+	culture = "marathi"
+	father = 191362
+	750.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+191364 = {
+	name = "Mukund"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "digambara"
+	culture = "marathi"
+	father = 191363
+	800.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+
+191365 = {
+	name = "Ramavriksha"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "digambara"
+	culture = "marathi"
+	father = 191364
+	850.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+
+191366 = {
+	name = "Siyaram"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191365
+	900.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+
+191367 = {
+	name = "Ram"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191366
+	950.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+
+191368 = {
+	name = "Suryakant"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191367
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+191369 = {
+	name = "Mangal"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191368
+	1050.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+
+191370 = {
+	name = "Kumar"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191369
+	1100.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+191371 = {
+	name = "Yogendra"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191370
+	1150.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+
+191372 = {
+	name = "Siyaram"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191371
+	1200.1.1 = {
+		birth = yes
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+
+191373 = {
+	name = "Radhakant"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191372
+	1250.1.1 = {
+		birth = yes
+	}
+	1330.1.1 = {
+		death = yes
+	}
+}
+
+191374 = {
+	name = "Hardeva"	#Fictional
+	dynasty = 1044340 #Malviyas of Ramagiri
+	religion = "srikula_shaktism"
+	culture = "marathi"
+	father = 191373
+	1300.1.1 = {
+		birth = yes
+	}
+	1380.1.1 = {
+		death = yes
+	}
+}
 
 191375 = {
 	name = "Kamdeo"	#Historical

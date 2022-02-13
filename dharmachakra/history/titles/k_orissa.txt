@@ -183,6 +183,8 @@ d_tosali = {
 		holder = 189177 #Bhanudeva
 	}
 }
+
+
 c_kataka = {
 	736.1.1 = {
 		holder = 191169	#Ksemankaradeva
@@ -312,6 +314,8 @@ c_kataka = {
 		holder = 189177 #Bhanudeva
 	}
 }
+
+
 c_viraja = {
 	736.1.1 = {
 		holder = 191169	#Ksemankaradeva
@@ -439,6 +443,8 @@ c_viraja = {
 	}
 
 }
+
+
 c_khinjali_mandala = {
 	740.1.1 = {
 		liege = "d_tosali"
@@ -546,6 +552,8 @@ c_khinjali_mandala = {
 	}
 
 }
+
+
 c_kodalaka_mandala = {
 	740.1.1 = {
 		holder = 191240 #Kanchanastambha Sulki
@@ -661,6 +669,8 @@ c_kodalaka_mandala = {
 	}
 
 }
+
+
 c_khijjingakota = {
 	740.1.1 = {
 		liege = "d_tosali"
@@ -759,6 +769,7 @@ c_khijjingakota = {
 
 }
 
+
 d_daksina_kosala = {
 	670.1.1 = {
 		holder = 191223	#Udayana
@@ -836,6 +847,8 @@ d_daksina_kosala = {
 		holder = 191361 #Kamaldeva
 	}
 }
+
+
 c_rayapura = {
 	760.1.1 = {
 		holder = 191295 #Nandivarman
@@ -926,6 +939,8 @@ c_rayapura = {
 		holder = 191361 #Kamaldeva
 	}
 }
+
+
 c_sripuri = {
 	670.1.1 = {
 		holder = 191223	#Udayana
@@ -1025,6 +1040,8 @@ c_sripuri = {
 		holder = 191361 #Kamaldeva
 	}
 }
+
+
 c_suvarnapura = {
 	670.1.1 = {
 		holder = 191223	#Udayana
@@ -1125,6 +1142,8 @@ c_suvarnapura = {
 		holder = 189177 #Bhanudeva
 	}
 }
+
+
 c_sambalpur = {
 	670.1.1 = {
 		holder = 191223	#Udayana
@@ -1222,6 +1241,8 @@ c_sambalpur = {
 		holder = 189177 #Bhanudeva
 	}
 }
+
+
 c_kiranapura = {
 	#Nagas of Kawardha
 	740.1.1 = {
@@ -1311,6 +1332,7 @@ c_kiranapura = {
 	}
 
 }
+
 
 d_kalinga = {
 	496.1.1 = {
@@ -1455,6 +1477,8 @@ d_kalinga = {
 		holder = 189177 #Bhanudeva
 	}
 }
+
+
 c_kalinganagar = {
 	496.1.1 = {
 		holder = 191188 #Indravarma
@@ -1596,6 +1620,8 @@ c_kalinganagar = {
 		holder = 189177 #Bhanudeva
 	}
 }
+
+
 c_puri = {
 	660.1.1 = {
 		holder = 191304 #Sailodbhava
@@ -1683,6 +1709,8 @@ c_puri = {
 		holder = 189177 #Bhanudeva
 	}
 }
+
+
 c_swetaka_mandala = {
 	720.1.1 = {
 		holder = 191233  #Jayavarmadeva
@@ -1788,6 +1816,8 @@ c_swetaka_mandala = {
 		holder = 189177 #Bhanudeva
 	}
 }
+
+
 c_vizagipatam = {
 	496.1.1 = {
 		holder = 191188 #Indravarma
@@ -1930,6 +1960,7 @@ c_vizagipatam = {
 	}
 }
 
+
 d_dandakaranya = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
@@ -1980,6 +2011,8 @@ d_dandakaranya = {
 		holder = 191261#Bhatai Dev
 	}
 }
+
+
 c_cakrakuta = {
 	760.1.1 = {
 		holder = 191243#Vallabharaja
@@ -2042,6 +2075,8 @@ c_cakrakuta = {
 		holder = 191261#Bhatai Dev
 	}
 }
+
+
 c_barasuru = {
 	760.1.1 = {
 		holder = 191243#Vallabharaja
@@ -2073,8 +2108,13 @@ c_barasuru = {
 	1065.1.1 = {
 		holder = 191251#Madhurantaka
 	}
+	1066.1.1 = {
+		holder = 189108 #Kulottunga (Rajiga)
+		liege = k_tamilakam
+	}
 	1069.1.1 = {
 		holder = 191252#Somesvara
+		liege = d_dandakaranya
 	}
 	1108.1.1 = {
 		holder = 191253#Somesvara
@@ -2105,3 +2145,4 @@ c_barasuru = {
 	}
 
 }
+
