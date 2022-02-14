@@ -15,7 +15,6 @@
 		death = yes
 	}
 }
-
 74474 = {
 	name = "Jatiga"
 	dynasty = 12321
@@ -29,7 +28,6 @@
 		death = yes
 	}
 }
-
 74475 = {
 	name = "Naivarman"
 	dynasty = 12321
@@ -44,7 +42,6 @@
 		death = yes
 	}
 }
-
 74476 = {
 	name = "Chandra"
 	dynasty = 12321
@@ -59,7 +56,6 @@
 		death = yes
 	}
 }
-
 74477 = {
 	name = "Jatiga"
 	dynasty = 12321
@@ -74,7 +70,6 @@
 		death = yes
 	}
 }
-
 74478 = {
 	name = "Gonka"
 	dynasty = 12321
@@ -89,7 +84,6 @@
 		death = yes
 	}
 }
-
 74479 = {
 	name = "Guhala"
 	dynasty = 12321
@@ -104,7 +98,6 @@
 		death = yes
 	}
 }
-
 74480 = {
 	name = "Marsimha"
 	dynasty = 12321
@@ -122,7 +115,6 @@
 		death = yes
 	}
 }
-
 74481 = {
 	name = "Guhala"
 	dynasty = 12321
@@ -138,7 +130,6 @@
 		death = yes
 	}
 }
-
 74482 = {
 	name = "Bhoja"
 	dynasty = 12321
@@ -154,7 +145,6 @@
 		death = yes
 	}
 }
-
 74483 = {
 	name = "Ballala"
 	dynasty = 12321
@@ -170,7 +160,6 @@
 		death = yes
 	}
 }
-
 74484 = {
 	name = "Gonka"
 	dynasty = 12321
@@ -189,7 +178,6 @@
 		death = yes
 	}
 }
-
 74485 = {
 	name = "Gandaraditya"
 	dynasty = 12321
@@ -208,7 +196,6 @@
 		death = yes
 	}
 }
-
 74486 = {
 	name = "Vijayaditya"
 	dynasty = 12321
@@ -227,7 +214,6 @@
 		death = yes
 	}
 }
-
 74487 = {
 	name = "Bhoja"
 	dynasty = 12321
@@ -243,7 +229,6 @@
 		death = yes
 	}
 }
-
 74488 = {
 	name = "Jinal"
 	female = yes
@@ -257,7 +242,6 @@
 		death = yes
 	}
 }
-
 74489 = {
 	name = "Rasna"
 	female = yes
@@ -271,7 +255,6 @@
 		death = yes
 	}
 }
-
 74490 = {
 	name = "Bairavi"
 	female = yes
@@ -285,7 +268,6 @@
 		death = yes
 	}
 }
-
 74491 = {
 	name = "Warda"
 	female = yes
@@ -299,7 +281,6 @@
 		death = yes
 	}
 }
-
 74492 = {
 	name = "Kapardin"
 	dynasty = 12322
@@ -313,7 +294,6 @@
 		death = yes
 	}
 }
-
 74493 = {
 	name = "Pullashkati"
 	dynasty = 12322
@@ -328,7 +308,6 @@
 		death = yes
 	}
 }
-
 74494 = {
 	name = "Kapardin"
 	dynasty = 12322
@@ -346,7 +325,6 @@
 		death = yes
 	}
 }
-
 74495 = {
 	name = "Vappuvanna"
 	dynasty = 12322
@@ -365,7 +343,6 @@
 		death = yes
 	}
 }
-
 74496 = {
 	name = "Jhanha"
 	dynasty = 12322
@@ -381,7 +358,6 @@
 		death = yes
 	}
 }
-
 74497 = {
 	name = "Goggiraja"
 	dynasty = 12322
@@ -397,7 +373,6 @@
 		death = yes
 	}
 }
-
 74498 = {
 	name = "Vajjada"
 	dynasty = 12322
@@ -412,7 +387,6 @@
 		death = yes
 	}
 }
-
 74499 = {
 	name = "Chhadvaideva"
 	dynasty = 12322
@@ -427,7 +401,6 @@
 		death = yes
 	}
 }
-
 74500 = {
 	name = "Aparajita"
 	dynasty = 12322
@@ -442,7 +415,6 @@
 		death = yes
 	}
 }
-
 74501 = {
 	name = "Vajjada"
 	dynasty = 12322
@@ -457,7 +429,6 @@
 		death = yes
 	}
 }
-
 74502 = {
 	name = "Kundaladevi"
 	dynasty = 12322
@@ -473,7 +444,6 @@
 		death = yes
 	}
 }
-
 74503 = {
 	name = "Arikesarin"
 	dynasty = 12322
@@ -488,7 +458,6 @@
 		death = yes
 	}
 }
-
 74504 = {
 	name = "Chhittaraja"
 	dynasty = 12322
@@ -503,7 +472,6 @@
 		death = yes
 	}
 }
-
 74505 = {
 	name = "Nagarjuna"
 	dynasty = 12322
@@ -518,7 +486,6 @@
 		death = yes
 	}
 }
-
 74506 = {
 	name = "Mummuniraja"
 	dynasty = 12322
@@ -536,7 +503,6 @@
 		death = yes
 	}
 }
-
 74507 = {
 	name = "Anantadeva"
 	dynasty = 12322
@@ -555,7 +521,6 @@
 		death = yes
 	}
 }
-
 74508 = {
 	name = "Aparaditya"
 	dynasty = 12322
@@ -574,7 +539,6 @@
 		death = yes
 	}
 }
-
 74509 = {
 	name = "Haripaladeva"
 	dynasty = 12322
@@ -590,7 +554,6 @@
 		death = yes
 	}
 }
-
 74510 = {
 	name = "Mallikarjuna"
 	dynasty = 12322
@@ -609,7 +572,6 @@
 		death = yes
 	}
 }
-
 74511 = {
 	name = "Aparaditya"
 	dynasty = 12322
@@ -625,7 +587,6 @@
 		death = yes
 	}
 }
-
 74512 = {
 	name = "Anantadeva"
 	dynasty = 12322
@@ -644,7 +605,6 @@
 		death = yes
 	}
 }
-
 74513 = {
 	name = "Aparaditya"
 	dynasty = 12322
@@ -663,7 +623,6 @@
 		death = yes
 	}
 }
-
 74514 = {
 	name = "Keshideva"
 	dynasty = 12322
@@ -682,7 +641,6 @@
 		death = yes
 	}
 }
-
 74515 = {
 	name = "Anantadeva"
 	dynasty = 12322
@@ -698,7 +656,6 @@
 		death = yes
 	}
 }
-
 74516 = {
 	name = "Someshvara"
 	dynasty = 12322
@@ -714,7 +671,6 @@
 		death = yes
 	}
 }
-
 74517 = {
 	name = "Mika"
 	female = yes
@@ -728,7 +684,6 @@
 		death = yes
 	}
 }
-
 74518 = {
 	name = "Harika"
 	female = yes
@@ -742,7 +697,6 @@
 		death = yes
 	}
 }
-
 74519 = {
 	name = "Yayati"
 	female = yes
@@ -756,7 +710,6 @@
 		death = yes
 	}
 }
-
 74520 = {
 	name = "Asmi"
 	female = yes
@@ -770,7 +723,6 @@
 		death = yes
 	}
 }
-
 74521 = {
 	name = "Preeti"
 	female = yes
@@ -784,7 +736,6 @@
 		death = yes
 	}
 }
-
 74522 = {
 	name = "Induprabha"
 	female = yes
@@ -798,7 +749,6 @@
 		death = yes
 	}
 }
-
 74523 = {
 	name = "Dhuthi"
 	female = yes
@@ -812,7 +762,6 @@
 		death = yes
 	}
 }
-
 74524 = {
 	name = "Kavana"
 	female = yes
@@ -826,7 +775,6 @@
 		death = yes
 	}
 }
-
 74525 = {
 	name = "Rijul"
 	female = yes
@@ -840,7 +788,6 @@
 		death = yes
 	}
 }
-
 74536 = {
 	name = "Jagrati"
 	female = yes
@@ -854,7 +801,6 @@
 		death = yes
 	}
 }
-
 74537 = {
 	name = "Ramila"
 	female = yes
@@ -868,7 +814,6 @@
 		death = yes
 	}
 }
-
 74538 = {
 	name = "Shashthadeva"
 	dynasty = 12324
@@ -882,7 +827,6 @@
 		death = yes
 	}
 }
-
 74539 = {
 	name = "Nagavarma"
 	dynasty = 12324
@@ -897,7 +841,6 @@
 		death = yes
 	}
 }
-
 74540 = {
 	name = "Guhalladeva"
 	dynasty = 12324
@@ -912,7 +855,6 @@
 		death = yes
 	}
 }
-
 74541 = {
 	name = "Shashthadeva"
 	dynasty = 12324

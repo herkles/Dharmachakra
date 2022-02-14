@@ -16,7 +16,6 @@
 		death=yes
 	}
 }
-
 12301 = {
 	name="Ahilyabai"
 	female=yes
@@ -30,7 +29,6 @@
 		death=yes
 	}
 }
-
 12302 = {
 	name="Dharmadeva"
 	dynasty=19116 #Licchavi
@@ -49,7 +47,6 @@
 		death=yes
 	}
 }
-
 12303 = {
 	name="Ambikabai"
 	female=yes
@@ -63,7 +60,6 @@
 		death=yes
 	}
 }
-
 12304 = {
 	name="Manadeva"
 	dynasty=19116 #Licchavi
@@ -82,7 +78,6 @@
 		death=yes
 	}
 }
-
 12305 = {
 	name="Anandibai"
 	female=yes
@@ -96,7 +91,6 @@
 		death=yes
 	}
 }
-
 12306 = {
 	name="Mahideva"
 	dynasty=19116 #Licchavi
@@ -115,7 +109,6 @@
 		death=yes
 	}
 }
-
 12307 = {
 	name="Anubai"
 	female=yes
@@ -129,7 +122,6 @@
 		death=yes
 	}
 }
-
 12308 = {
 	name="Vasantadeva"
 	dynasty=19116 #Licchavi
@@ -148,7 +140,6 @@
 		death=yes
 	}
 }
-
 12309 = {
 	name="Bhiubai"
 	female=yes
@@ -162,7 +153,6 @@
 		death=yes
 	}
 }
-
 12310 = {
 	name="Manudeva"
 	dynasty=19116 #Licchavi
@@ -181,7 +171,6 @@
 		death=yes
 	}
 }
-
 12311 = {
 	name="Deepabai"
 	female=yes
@@ -195,7 +184,6 @@
 		death=yes
 	}
 }
-
 12312 = {
 	name="Vamanadeva"
 	dynasty=19116 #Licchavi
@@ -214,7 +202,6 @@
 		death=yes
 	}
 }
-
 12313 = {
 	name="Durgabai"
 	female=yes
@@ -228,7 +215,6 @@
 		death=yes
 	}
 }
-
 12314 = {
 	name="Ramadeva"
 	dynasty=19116 #Licchavi
@@ -247,7 +233,6 @@
 		death=yes
 	}
 }
-
 12315 = {
 	name="Gangabai"
 	female=yes
@@ -261,7 +246,6 @@
 		death=yes
 	}
 }
-
 12316 = {
 	name="Amaradeva"
 	dynasty=19116 #Licchavi
@@ -280,7 +264,6 @@
 		death=yes
 	}
 }
-
 12317 = {
 	name="Gunvantibai"
 	female=yes
@@ -294,7 +277,6 @@
 		death=yes
 	}
 }
-
 12318 = {
 	name="Gunakamadeva"
 	dynasty=19116 #Licchavi
@@ -313,7 +295,6 @@
 		death=yes
 	}
 }
-
 12319 = {
 	name="Jankibai"
 	female=yes
@@ -327,7 +308,6 @@
 		death=yes
 	}
 }
-
 12320 = {
 	name="Ganadeva"
 	dynasty=19116 #Licchavi
@@ -346,7 +326,6 @@
 		death=yes
 	}
 }
-
 12321 = {
 	name="Jijibai"
 	female=yes
@@ -360,7 +339,6 @@
 		death=yes
 	}
 }
-
 12322 = {
 	name="Gangadeva"
 	dynasty=19116 #Licchavi
@@ -379,7 +357,6 @@
 		death=yes
 	}
 }
-
 12323 = {
 	name="Kamlabai"
 	female=yes
@@ -393,7 +370,6 @@
 		death=yes
 	}
 }
-
 12324 = {
 	name="Manadeva"
 	dynasty=19116 #Licchavi
@@ -412,7 +388,6 @@
 		death=yes
 	}
 }
-
 12325 = {
 	name="Kashibai"
 	female=yes
@@ -426,7 +401,6 @@
 		death=yes
 	}
 }
-
 12326 = {
 	name="Shivadeva"
 	dynasty=19116 #Licchavi
@@ -445,7 +419,6 @@
 		death=yes
 	}
 }
-
 12327 = {
 	name="Laxmibai"
 	female=yes
@@ -459,7 +432,6 @@
 		death=yes
 	}
 }
-
 12328 = {
 	name="Amshuvarman"
 	dynasty=19116 #Licchavi
@@ -478,7 +450,6 @@
 		death=yes
 	}
 }
-
 12329 = {
 	name="Mahadik"
 	female=yes
@@ -492,7 +463,6 @@
 		death=yes
 	}
 }
-
 12330 = {
 	name="Udayadeva"
 	dynasty=19116 #Licchavi
@@ -511,7 +481,6 @@
 		death=yes
 	}
 }
-
 12331 = {
 	name="Mastani"
 	female=yes
@@ -525,7 +494,6 @@
 		death=yes
 	}
 }
-
 12332 = {
 	name="Dhruvadeva"
 	dynasty=19116 #Licchavi
@@ -544,7 +512,6 @@
 		death=yes
 	}
 }
-
 12333 = {
 	name="Putalabai"
 	female=yes
@@ -558,7 +525,6 @@
 		death=yes
 	}
 }
-
 12334 = {
 	name="Bhimarjunadeva"
 	dynasty=19116 #Licchavi
@@ -577,7 +543,6 @@
 		death=yes
 	}
 }
-
 12335 = {
 	name="Rajasbai"
 	female=yes
@@ -591,7 +556,6 @@
 		death=yes
 	}
 }
-
 12336 = {
 	name="Narendradeva"
 	dynasty=19116 #Licchavi
@@ -610,7 +574,6 @@
 		death=yes
 	}
 }
-
 12337 = {
 	name="Rajkunvarbai"
 	female=yes
@@ -624,7 +587,6 @@
 		death=yes
 	}
 }
-
 12338 = {
 	name="Shivadeva"
 	dynasty=19116 #Licchavi
@@ -643,7 +605,6 @@
 		death=yes
 	}
 }
-
 12339 = {
 	name="Ramabai"
 	female=yes
@@ -657,7 +618,6 @@
 		death=yes
 	}
 }
-
 12340 = {
 	name="Jayadeva"
 	dynasty=19116 #Licchavi
@@ -676,7 +636,6 @@
 		death=yes
 	}
 }
-
 12341 = {
 	name="Ranubai"
 	female=yes
@@ -690,7 +649,6 @@
 		death=yes
 	}
 }
-
 12342 = {
 	name="Sankaradeva"
 	dynasty=19116 #Licchavi
@@ -709,7 +667,6 @@
 		death=yes
 	}
 }
-
 12343 = {
 	name="Saibai"
 	female=yes
@@ -723,7 +680,6 @@
 		death=yes
 	}
 }
-
 12344 = {
 	name="Manadeva"
 	dynasty=19116 #Licchavi
@@ -742,7 +698,6 @@
 		death=yes
 	}
 }
-
 12345 = {
 	name="Sagunabai"
 	female=yes
@@ -756,7 +711,6 @@
 		death=yes
 	}
 }
-
 12346 = {
 	name="Baliraja"
 	dynasty=19116 #Licchavi
@@ -775,7 +729,6 @@
 		death=yes
 	}
 }
-
 12347 = {
 	name="Sakavaarbai"
 	female=yes
@@ -789,7 +742,6 @@
 		death=yes
 	}
 }
-
 12348 = {
 	name="Baladeva"
 	dynasty=19116 #Licchavi
@@ -808,7 +760,6 @@
 		death=yes
 	}
 }
-
 12349 = {
 	name="Sayeebai"
 	female=yes
@@ -822,7 +773,6 @@
 		death=yes
 	}
 }
-
 12350 = {
 	name="Manadeva"
 	dynasty=19116 #Licchavi
@@ -841,7 +791,6 @@
 		death=yes
 	}
 }
-
 12351 = {
 	name="Soyarabai"
 	female=yes
@@ -874,7 +823,6 @@
 		death=yes
 	}
 }
-
 12353 = {
 	name="Sujanbai"
 	female=yes
@@ -888,7 +836,6 @@
 		death=yes
 	}
 }
-
 12354 = {
 	name="Sankaradeva"
 	dynasty=19117 #Thakuri
@@ -907,7 +854,6 @@
 		death=yes
 	}
 }
-
 12355 = {
 	name="Tarabai"
 	female=yes
@@ -921,7 +867,6 @@
 		death="930.1.1"
 	}
 }
-
 12356 = {
 	name="Sahadeva"
 	dynasty=19117 #Thakuri
@@ -940,7 +885,6 @@
 		death=yes
 	}
 }
-
 12357 = {
 	name="Yesubai"
 	female=yes
@@ -954,7 +898,6 @@
 		death=yes
 	}
 }
-
 12358 = {
 	name="Vikramadeva"
 	dynasty=19117 #Thakuri
@@ -973,7 +916,6 @@
 		death=yes
 	}
 }
-
 12359 = {
 	name="Ahilyabai"
 	female=yes
@@ -987,7 +929,6 @@
 		death=yes
 	}
 }
-
 12360 = {
 	name="Gunakamadeva"
 	dynasty=19117 #Thakuri
@@ -1006,7 +947,6 @@
 		death=yes
 	}
 }
-
 12361 = {
 	name="Ambikabai"
 	female=yes
@@ -1020,7 +960,6 @@
 		death=yes
 	}
 }
-
 12362 = {
 	name="Narendradeva"
 	dynasty=19117 #Thakuri
@@ -1039,7 +978,6 @@
 		death=yes
 	}
 }
-
 12363 = {
 	name="Anandibai"
 	female=yes
@@ -1053,7 +991,6 @@
 		death=yes
 	}
 }
-
 12364 = {
 	name="Udayadeva"
 	dynasty=19117 #Thakuri
@@ -1072,7 +1009,6 @@
 		death=yes
 	}
 }
-
 12365 = {
 	name="Anubai"
 	female=yes
@@ -1086,7 +1022,6 @@
 		death=yes
 	}
 }
-
 12366 = {
 	name="Nirbhayadeva"
 	dynasty=19117 #Thakuri
@@ -1105,7 +1040,6 @@
 		death=yes
 	}
 }
-
 12367 = {
 	name="Bhiubai"
 	female=yes
@@ -1119,7 +1053,6 @@
 		death=yes
 	}
 }
-
 12368 = {
 	name="Rudradeva"
 	dynasty=19117 #Thakuri
@@ -1135,7 +1068,6 @@
 		death=yes
 	}
 }
-
 12370 = {
 	name="Bhojadeva"
 	dynasty=19117 #Thakuri
@@ -1151,7 +1083,6 @@
 		death=yes
 	}
 }
-
 12372 = {
 	name="Laksmikadeva"
 	dynasty=19117 #Thakuri
@@ -1170,7 +1101,6 @@
 		death=yes
 	}
 }
-
 12373 = {
 	name="Gangabai"
 	female=yes
@@ -1184,7 +1114,6 @@
 		death=yes
 	}
 }
-
 12374 = {
 	name="Vijayakamadeva"
 	dynasty=19117 #Thakuri
@@ -1203,7 +1132,6 @@
 		death=yes
 	}
 }
-
 12375 = {
 	name="Gunvantibai"
 	female=yes
@@ -1219,7 +1147,6 @@
 }
 
 #Nuwakot Thakuri Dynasty
-
 12376 = {
 	name="Bhaskaradeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1236,7 +1163,6 @@
 		death=yes
 	}
 }
-
 12377 = {
 	name="Jankibai"
 	female=yes
@@ -1250,7 +1176,6 @@
 		death=yes
 	}
 }
-
 12378 = {
 	name="Baladeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1269,7 +1194,6 @@
 		death=yes
 	}
 }
-
 12380 = {
 	name="Yisadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1288,7 +1212,6 @@
 		death=yes
 	}
 }
-
 12381 = {
 	name="Kamlabai"
 	female=yes
@@ -1302,8 +1225,6 @@
 		death="1049.1.1"
 	}
 }
-
-
 12379 = {
 	name="Kamlabai"
 	female=yes
@@ -1317,7 +1238,6 @@
 		death=yes
 	}
 }
-
 12382 = {
 	name="Pradymnakamadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1336,7 +1256,6 @@
 		death=yes
 	}
 }
-
 12383 = {
 	name="Kashibai"
 	female=yes
@@ -1350,7 +1269,6 @@
 		death=yes
 	}
 }
-
 12439 = {
 	name="Nagarjunadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1369,7 +1287,6 @@
 		death=yes
 	}
 }
-
 12384 = {
 	name="Laxmibai"
 	female=yes
@@ -1383,7 +1300,6 @@
 		death=yes
 	}
 }
-
 12385 = {
 	name="Sankaradeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1402,7 +1318,6 @@
 		death=yes
 	}
 }
-
 12386 = {
 	name="Mahadik"
 	female=yes
@@ -1416,7 +1331,6 @@
 		death=yes
 	}
 }
-
 12387 = {
 	name="Shivadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1435,7 +1349,6 @@
 		death=yes
 	}
 }
-
 12388 = {
 	name="Mastani"
 	female=yes
@@ -1449,7 +1362,6 @@
 		death=yes
 	}
 }
-
 12389 = {
 	name="Indradeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1468,7 +1380,6 @@
 		death=yes
 	}
 }
-
 12390 = {
 	name="Putalabai"
 	female=yes
@@ -1482,7 +1393,6 @@
 		death=yes
 	}
 }
-
 12391 = {
 	name="Manadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1501,7 +1411,6 @@
 		death=yes
 	}
 }
-
 12392 = {
 	name="Rajasbai"
 	female=yes
@@ -1515,7 +1424,6 @@
 		death=yes
 	}
 }
-
 12393 = {
 	name="Narendradeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1534,7 +1442,6 @@
 		death=yes
 	}
 }
-
 12394 = {
 	name="Rajkunvarbai"
 	female=yes
@@ -1548,7 +1455,6 @@
 		death=yes
 	}
 }
-
 12395 = {
 	name="Anandadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1567,7 +1473,6 @@
 		death=yes
 	}
 }
-
 12396 = {
 	name="Ramabai"
 	female=yes
@@ -1581,7 +1486,6 @@
 		death=yes
 	}
 }
-
 12397 = {
 	name="Mahendradeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1600,7 +1504,6 @@
 		death=yes
 	}
 }
-
 12398 = {
 	name="Ranubai"
 	female=yes
@@ -1614,7 +1517,6 @@
 		death=yes
 	}
 }
-
 12399 = {
 	name="Rudradeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1633,7 +1535,6 @@
 		death=yes
 	}
 }
-
 12400 = {
 	name="Saibai"
 	female=yes
@@ -1647,7 +1548,6 @@
 		death=yes
 	}
 }
-
 12401 = {
 	name="Amritadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1666,7 +1566,6 @@
 		death=yes
 	}
 }
-
 12402 = {
 	name="Sagunabai"
 	female=yes
@@ -1680,7 +1579,6 @@
 		death=yes
 	}
 }
-
 12403 = {
 	name="Somesvaradeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1699,7 +1597,6 @@
 		death=yes
 	}
 }
-
 12404 = {
 	name="Sakavaarbai"
 	female=yes
@@ -1713,7 +1610,6 @@
 		death=yes
 	}
 }
-
 12405 = {
 	name="Gunakamadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1732,7 +1628,6 @@
 		death=yes
 	}
 }
-
 12406 = {
 	name="Sayeebai"
 	female=yes
@@ -1746,7 +1641,6 @@
 		death=yes
 	}
 }
-
 12407 = {
 	name="Laksmikadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1765,7 +1659,6 @@
 		death=yes
 	}
 }
-
 12408 = {
 	name="Soyarabai"
 	female=yes
@@ -1779,7 +1672,6 @@
 		death=yes
 	}
 }
-
 12409 = {
 	name="Vijayakamadeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1798,7 +1690,6 @@
 		death=yes
 	}
 }
-
 12410 = {
 	name="Sujanbai"
 	female=yes
@@ -1814,7 +1705,6 @@
 }
 
 #Suryavamsa Dynasty
-
 12411 = {
 	name="Vamadeva"
 	dynasty=19119 #Suryavamsa
@@ -1831,7 +1721,6 @@
 		death=yes
 	}
 }
-
 12412 = {
 	name="Tarabai"
 	female=yes
@@ -1845,7 +1734,6 @@
 		death=yes
 	}
 }
-
 12413 = {
 	name="Harshadeva"
 	dynasty=19119 #Suryavamsa
@@ -1864,7 +1752,6 @@
 		death=yes
 	}
 }
-
 12414 = {
 	name="Yesubai"
 	female=yes
@@ -1880,7 +1767,6 @@
 }
 
 #Malla Dynasty
-
 12415 = {
 	name="Arideva"
 	dynasty=19120 #Malla
@@ -1897,7 +1783,6 @@
 		death=yes
 	}
 }
-
 12416 = {
 	name="Ahilyabai"
 	female=yes
@@ -1911,7 +1796,6 @@
 		death=yes
 	}
 }
-
 12417 = {
 	name="Ranasura"
 	dynasty=19120 #Malla
@@ -1930,7 +1814,6 @@
 		death=yes
 	}
 }
-
 12418 = {
 	name="Ambikabai"
 	female=yes
@@ -1944,7 +1827,6 @@
 		death=yes
 	}
 }
-
 12419 = {
 	name="Abhaya"
 	dynasty=19120 #Malla
@@ -1963,7 +1845,6 @@
 		death=yes
 	}
 }
-
 12420 = {
 	name="Anandibai"
 	female=yes
@@ -1977,7 +1858,6 @@
 		death=yes
 	}
 }
-
 12421 = {
 	name="Jayadeva"
 	dynasty=19120 #Malla
@@ -1996,7 +1876,6 @@
 		death=yes
 	}
 }
-
 12422 = {
 	name="Anubai"
 	female=yes
@@ -2010,7 +1889,6 @@
 		death=yes
 	}
 }
-
 12423 = {
 	name="Jayabhimadeva"
 	dynasty=19120 #Malla
@@ -2029,7 +1907,6 @@
 		death=yes
 	}
 }
-
 12424 = {
 	name="Bhiubai"
 	female=yes
@@ -2043,7 +1920,6 @@
 		death=yes
 	}
 }
-
 12425 = {
 	name="Jayasimha"
 	dynasty=19120 #Malla
@@ -2062,7 +1938,6 @@
 		death=yes
 	}
 }
-
 12426 = {
 	name="Deepabai"
 	female=yes
@@ -2076,7 +1951,6 @@
 		death=yes
 	}
 }
-
 12427 = {
 	name="Ananta"
 	dynasty=19120 #Malla
@@ -2095,7 +1969,6 @@
 		death=yes
 	}
 }
-
 12428 = {
 	name="Durgabai"
 	female=yes
@@ -2109,7 +1982,6 @@
 		death=yes
 	}
 }
-
 12429 = {
 	name="Jayananadadeva"
 	dynasty=19120 #Malla
@@ -2128,7 +2000,6 @@
 		death=yes
 	}
 }
-
 12430 = {
 	name="Gangabai"
 	female=yes
@@ -2142,7 +2013,6 @@
 		death=yes
 	}
 }
-
 12433 = {
 	name="Jayarudra"
 	dynasty=19120 #Malla
@@ -2161,7 +2031,6 @@
 		death=yes
 	}
 }
-
 12434 = {
 	name="Jankibai"
 	female=yes
@@ -2175,7 +2044,6 @@
 		death=yes
 	}
 }
-
 12431 = {
 	name="Jayari"
 	dynasty=19120 #Malla
@@ -2194,7 +2062,6 @@
 		death=yes
 	}
 }
-
 12432 = {
 	name="Gunvantibai"
 	female=yes
@@ -2208,7 +2075,6 @@
 		death=yes
 	}
 }
-
 12435 = {
 	name="Jayari"
 	dynasty=19120 #Malla
@@ -2227,7 +2093,6 @@
 		death=yes
 	}
 }
-
 12436 = {
 	name="Jijibai"
 	female=yes
@@ -2241,7 +2106,6 @@
 		death=yes
 	}
 }
-
 12437 = {
 	name="Jayarjuna"
 	dynasty=19120 #Malla
@@ -2260,7 +2124,6 @@
 		death=yes
 	}
 }
-
 12438 = {
 	name="Kamlabai"
 	female=yes
@@ -2274,7 +2137,6 @@
 		death=yes
 	}
 }
-
 12369 = {
 	name="Anandadeva"
 	dynasty=19120 #Malla
@@ -2293,7 +2155,6 @@
 		death=yes
 	}
 }
-
 12371 = {
 	name="Gangabai"
 	female=yes
@@ -2307,8 +2168,6 @@
 		death=yes
 	}
 }
-
-
 12440 = {
 	name="Tiray" # Fictional
 	dynasty=19136
@@ -2323,7 +2182,6 @@
 		death=yes
 	}
 }
-
 12441 = {
 	name="Vishal" # Fictional
 	dynasty=19137
@@ -2338,7 +2196,6 @@
 		death=yes
 	}
 }
-
 247080 = {
 	name="Bhrikuti_Devi"
 	female=yes
@@ -2354,7 +2211,6 @@
 		death=yes
 	}
 }
-
 247113 = {
 	name="Sakya_Devi" #Tantric consort of Padmasambhava
 	female=yes
@@ -2384,7 +2240,6 @@
 		death=yes
 	}
 }
-
 247409 = {
 	name="Dharmadeva"
 	dynasty=105817 #Licchavi
@@ -2398,7 +2253,6 @@
 		death=yes
 	}
 }
-
 247410 = {
 	name="Manadeva"
 	dynasty=105817 #Licchavi
@@ -2412,7 +2266,6 @@
 		death=yes
 	}
 }
-
 247411 = {
 	name="Mahideva"
 	dynasty=105817 #Licchavi
@@ -2426,7 +2279,6 @@
 		death=yes
 	}
 }
-
 247412 = {
 	name="Vasantadeva"
 	dynasty=105817 #Licchavi
@@ -2440,7 +2292,6 @@
 		death=yes
 	}
 }
-
 247413 = {
 	name="Manudeva"
 	dynasty=105817 #Licchavi
@@ -2454,7 +2305,6 @@
 		death=yes
 	}
 }
-
 247414 = {
 	name="Vamanadeva"
 	dynasty=105817 #Licchavi
@@ -2468,7 +2318,6 @@
 		death=yes
 	}
 }
-
 247415 = {
 	name="Ramadeva"
 	dynasty=105817 #Licchavi
@@ -2482,7 +2331,6 @@
 		death=yes
 	}
 }
-
 247416 = {
 	name="Amaradeva"
 	dynasty=105817 #Licchavi
@@ -2496,7 +2344,6 @@
 		death=yes
 	}
 }
-
 247417 = {
 	name="Gunakamadeva"
 	dynasty=105817 #Licchavi
@@ -2510,7 +2357,6 @@
 		death=yes
 	}
 }
-
 247418 = {
 	name="Ganadeva"
 	dynasty=105817 #Licchavi
@@ -2524,7 +2370,6 @@
 		death=yes
 	}
 }
-
 247419 = {
 	name="Gangadeva"
 	dynasty=105817 #Licchavi
@@ -2538,7 +2383,6 @@
 		death=yes
 	}
 }
-
 247420 = {
 	name="Manadeva"
 	dynasty=105817 #Licchavi
@@ -2552,7 +2396,6 @@
 		death=yes
 	}
 }
-
 247421 = {
 	name="Shivadeva"
 	dynasty=105817 #Licchavi
@@ -2566,7 +2409,6 @@
 		death=yes
 	}
 }
-
 247422 = {
 	name="Amshuvarman"
 	dynasty=105817 #Licchavi
@@ -2580,7 +2422,6 @@
 		death=yes
 	}
 }
-
 247423 = {
 	name="Udayadeva"
 	dynasty=105817 #Licchavi
@@ -2594,7 +2435,6 @@
 		death=yes
 	}
 }
-
 247424 = {
 	name="Dhruvadeva"
 	dynasty=105817 #Licchavi
@@ -2608,7 +2448,6 @@
 		death=yes
 	}
 }
-
 247425 = {
 	name="Bhimarjunadeva"
 	dynasty=105817 #Licchavi
@@ -2622,7 +2461,6 @@
 		death=yes
 	}
 }
-
 247426 = {
 	name="Narendradeva"
 	dynasty=105817 #Licchavi
@@ -2636,7 +2474,6 @@
 		death=yes
 	}
 }
-
 247427 = {
 	name="Shivadeva"
 	dynasty=105817 #Licchavi
@@ -2650,7 +2487,6 @@
 		death=yes
 	}
 }
-
 247428 = {
 	name="Jayadeva"
 	dynasty=105817 #Licchavi
@@ -2664,7 +2500,6 @@
 		death=yes
 	}
 }
-
 247429 = {
 	name="Sankaradeva"
 	dynasty=105817 #Licchavi
@@ -2678,7 +2513,6 @@
 		death=yes
 	}
 }
-
 247430 = {
 	name="Manadeva"
 	dynasty=105817 #Licchavi
@@ -2692,7 +2526,6 @@
 		death=yes
 	}
 }
-
 247431 = {
 	name="Baliraja"
 	dynasty=105817 #Licchavi
@@ -2706,7 +2539,6 @@
 		death=yes
 	}
 }
-
 247432 = {
 	name="Baladeva"
 	dynasty=105817 #Licchavi
@@ -2720,7 +2552,6 @@
 		death=yes
 	}
 }
-
 247433 = {
 	name="Manadeva"
 	dynasty=105817 #Licchavi
@@ -2749,7 +2580,6 @@
 		death=yes
 	}
 }
-
 247435 = {
 	name="Sankaradeva"
 	dynasty=105839 #Thakuri
@@ -2763,7 +2593,6 @@
 		death=yes
 	}
 }
-
 247436 = {
 	name="Sahadeva"
 	dynasty=105839 #Thakuri
@@ -2777,7 +2606,6 @@
 		death=yes
 	}
 }
-
 247437 = {
 	name="Vikramadeva"
 	dynasty=105839 #Thakuri
@@ -2791,7 +2619,6 @@
 		death=yes
 	}
 }
-
 247438 = {
 	name="Gunakamadeva"
 	dynasty=105839 #Thakuri
@@ -2805,7 +2632,6 @@
 		death=yes
 	}
 }
-
 247439 = {
 	name="Narendradeva"
 	dynasty=105839 #Thakuri
@@ -2819,7 +2645,6 @@
 		death=yes
 	}
 }
-
 247440 = {
 	name="Udayadeva"
 	dynasty=105839 #Thakuri
@@ -2833,7 +2658,6 @@
 		death=yes
 	}
 }
-
 247441 = {
 	name="Nirbhayadeva"
 	dynasty=105839 #Thakuri
@@ -2847,7 +2671,6 @@
 		death=yes
 	}
 }
-
 247442 = {
 	name="Rudradeva"
 	dynasty=105839 #Thakuri
@@ -2861,7 +2684,6 @@
 		death=yes
 	}
 }
-
 247443 = {
 	name="Bhojadeva"
 	dynasty=105839 #Thakuri
@@ -2875,7 +2697,6 @@
 		death=yes
 	}
 }
-
 247444 = {
 	name="Laksmikadeva"
 	dynasty=105839 #Thakuri
@@ -2889,7 +2710,6 @@
 		death=yes
 	}
 }
-
 247445 = {
 	name="Vijayakamadeva"
 	dynasty=105839 #Thakuri
@@ -2919,7 +2739,6 @@
 		death=yes
 	}
 }
-
 247447 = {
 	name="Yisadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -2934,7 +2753,6 @@
 		death=yes
 	}
 }
-
 247448 = {
 	name="Baladeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -2949,7 +2767,6 @@
 		death=yes
 	}
 }
-
 247449 = {
 	name="Pradymnakamadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -2964,7 +2781,6 @@
 		death=yes
 	}
 }
-
 247450 = {
 	name="Nagarjunadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -2979,7 +2795,6 @@
 		death=yes
 	}
 }
-
 247451 = {
 	name="Sankaradeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -2994,7 +2809,6 @@
 		death=yes
 	}
 }
-
 247452 = {
 	name="Shivadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3009,7 +2823,6 @@
 		death=yes
 	}
 }
-
 247453 = {
 	name="Indradeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3024,7 +2837,6 @@
 		death=yes
 	}
 }
-
 247454 = {
 	name="Manadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3039,7 +2851,6 @@
 		death=yes
 	}
 }
-
 247455 = {
 	name="Narendradeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3054,7 +2865,6 @@
 		death=yes
 	}
 }
-
 247456 = {
 	name="Anandadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3069,7 +2879,6 @@
 		death=yes
 	}
 }
-
 247457 = {
 	name="Mahendradeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3084,7 +2893,6 @@
 		death=yes
 	}
 }
-
 247458 = {
 	name="Rudradeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3099,7 +2907,6 @@
 		death=yes
 	}
 }
-
 247720 = {
 	name="Amritadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3114,7 +2921,6 @@
 		death=yes
 	}
 }
-
 247459 = {
 	name="Somesvaradeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3129,7 +2935,6 @@
 		death=yes
 	}
 }
-
 247460 = {
 	name="Gunakamadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3144,7 +2949,6 @@
 		death=yes
 	}
 }
-
 247461 = {
 	name="Laksmikadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3159,7 +2963,6 @@
 		death=yes
 	}
 }
-
 247462 = {
 	name="Vijayakamadeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -3176,7 +2979,6 @@
 }
 
 #Suryavamsa Dynasty
-
 247463 = {
 	name="Vamadeva"
 	dynasty=105841 #Suryavamsa
@@ -3190,7 +2992,6 @@
 		death=yes
 	}
 }
-
 247464 = {
 	name="Harshadeva"
 	dynasty=105841 #Suryavamsa
@@ -3221,7 +3022,6 @@
 		death=yes
 	}
 }
-
 247466 = {
 	name="Ranasura"
 	dynasty=105842 #Malla
@@ -3236,7 +3036,6 @@
 		death=yes
 	}
 }
-
 247467 = {
 	name="Abhaya"
 	dynasty=105842 #Malla
@@ -3251,7 +3050,6 @@
 		death=yes
 	}
 }
-
 247468 = {
 	name="Jayadeva"
 	dynasty=105842 #Malla
@@ -3266,7 +3064,6 @@
 		death=yes
 	}
 }
-
 247469 = {
 	name="Jayabhimadeva"
 	dynasty=105842 #Malla
@@ -3281,7 +3078,6 @@
 		death=yes
 	}
 }
-
 247470 = {
 	name="Jayasimha"
 	dynasty=105842 #Malla
@@ -3296,7 +3092,6 @@
 		death=yes
 	}
 }
-
 247471 = {
 	name="Ananta"
 	dynasty=105842 #Malla
@@ -3311,7 +3106,6 @@
 		death=yes
 	}
 }
-
 247472 = {
 	name="Jayananadadeva"
 	dynasty=105842 #Malla
@@ -3326,7 +3120,6 @@
 		death=yes
 	}
 }
-
 247473 = {
 	name="Jayarudra"
 	dynasty=105842 #Malla
@@ -3341,7 +3134,6 @@
 		death=yes
 	}
 }
-
 247474 = {
 	name="Jayari"
 	dynasty=105842 #Malla
@@ -3356,7 +3148,6 @@
 		death=yes
 	}
 }
-
 247475 = {
 	name="Jayari"
 	dynasty=105842 #Malla
@@ -3371,7 +3162,6 @@
 		death=yes
 	}
 }
-
 247476 = {
 	name="Jayarjuna"
 	dynasty=105842 #Malla
@@ -3386,7 +3176,6 @@
 		death=yes
 	}
 }
-
 247477 = {
 	name="Anandadeva"
 	dynasty=105842 #Malla
@@ -3418,7 +3207,6 @@
 		death=yes
 	}
 }
-
 247478 = {
 	name="Vashudeva"
 	dynasty=105826 #Katyuri
@@ -3487,7 +3275,6 @@
 		death=yes
 	}
 }
-
 247483 = {
 	name="Basantadeva"
 	dynasty=105826 #Katyuri
@@ -3502,7 +3289,6 @@
 		death=yes
 	}
 }
-
 247484 = {
 	name="Kharparadeva"
 	dynasty=105826 #Katyuri
@@ -3517,7 +3303,6 @@
 		death=yes
 	}
 }
-
 247485 = {
 	name="Abhirajadeva"
 	dynasty=105826 #Katyuri
@@ -3532,7 +3317,6 @@
 		death=yes
 	}
 }
-
 247486 = {
 	name="Tribhuvanarajadeva"
 	dynasty=105826 #Katyuri
@@ -3547,7 +3331,6 @@
 		death=yes
 	}
 }
-
 247487 = {
 	name="Nimbartadeva"
 	dynasty=105826 #Katyuri
@@ -3562,7 +3345,6 @@
 		death=yes
 	}
 }
-
 247488 = {
 	name="Ishtaganadeva"
 	dynasty=105826 #Katyuri
@@ -3577,7 +3359,6 @@
 		death=yes
 	}
 }
-
 247489 = {
 	name="Lalitansuradeva"
 	dynasty=105826 #Katyuri
@@ -3592,7 +3373,6 @@
 		death=yes
 	}
 }
-
 247490 = {
 	name="Bhudeva"
 	dynasty=105826 #Katyuri
@@ -3620,7 +3400,6 @@
 		death=yes
 	}
 }
-
 247492 = {
 	name="Ichchhatadeva"
 	dynasty=105826 #Katyuri
@@ -3635,7 +3414,6 @@
 		death=yes
 	}
 }
-
 247493 = {
 	name="Deshtadeva"
 	dynasty=105826 #Katyuri
@@ -3650,7 +3428,6 @@
 		death=yes
 	}
 }
-
 247494 = {
 	name="Padmatadeva"
 	dynasty=105826 #Katyuri
@@ -3665,7 +3442,6 @@
 		death=yes
 	}
 }
-
 247495 = {
 	name="Subhikshrajyadeva"
 	dynasty=105826 #Katyuri
@@ -3680,7 +3456,6 @@
 		death=yes
 	}
 }
-
 247496 = {
 	name="Narsinghdeva"
 	dynasty=105826 #Katyuri
@@ -3695,7 +3470,6 @@
 		death=yes
 	}
 }
-
 247497 = {
 	name="Pritamdeva"
 	dynasty=105826 #Katyuri
@@ -3710,7 +3484,6 @@
 		death=yes
 	}
 }
-
 247498 = {
 	name="Dhamdeva"
 	dynasty=105826 #Katyuri
@@ -3725,7 +3498,6 @@
 		death=yes
 	}
 }
-
 247499 = {
 	name="Biradeva"
 	dynasty=105826 #Katyuri
@@ -3740,7 +3512,6 @@
 		death=yes
 	}
 }
-
 247500 = {
 	name="Tribhuvanpal"
 	dynasty=105826 #Katyuri
@@ -3755,7 +3526,6 @@
 		death=yes
 	}
 }
-
 247501 = {
 	name="Indrapal"
 	dynasty=105826 #Katyuri
@@ -3770,7 +3540,6 @@
 		death=yes
 	}
 }
-
 247502 = {
 	name="Lakhanpal"
 	dynasty=105826 #Katyuri
@@ -3785,7 +3554,6 @@
 		death=yes
 	}
 }
-
 247503 = {
 	name="Udayapaldeva"
 	dynasty=105826 #Katyuri
@@ -3800,7 +3568,6 @@
 		death=yes
 	}
 }
-
 247504 = {
 	name="Ananatpaldeva"
 	dynasty=105826 #Katyuri
@@ -3815,7 +3582,6 @@
 		death=yes
 	}
 }
-
 247505 = {
 	name="Indrapaldeva"
 	dynasty=105826 #Katyuri
@@ -3830,7 +3596,6 @@
 		death=yes
 	}
 }
-
 247506 = {
 	name="Vijayapaldeva"
 	dynasty=105826 #Katyuri
@@ -3845,7 +3610,6 @@
 		death=yes
 	}
 }
-
 247507 = {
 	name="Lakshamanpaldeva"
 	dynasty=105826 #Katyuri
@@ -3860,7 +3624,6 @@
 		death=yes
 	}
 }
-
 247508 = {
 	name="Vallaldeva"
 	dynasty=105826 #Katyuri
@@ -3875,7 +3638,6 @@
 		death=yes
 	}
 }
-
 247509 = {
 	name="Trilokpal"
 	dynasty=105826 #Katyuri
@@ -3890,7 +3652,6 @@
 		death=yes
 	}
 }
-
 247510 = {
 	name="Abhayapala"
 	dynasty=105826 #Katyuri
@@ -3905,7 +3666,6 @@
 		death=yes
 	}
 }
-
 247511 = {
 	name="Nirbhaypal"
 	dynasty=105826 #Katyuri
@@ -3920,7 +3680,6 @@
 		death=yes
 	}
 }
-
 247512 = {
 	name="Bharatpal"
 	dynasty=105826 #Katyuri
@@ -3935,7 +3694,6 @@
 		death=yes
 	}
 }
-
 247513 = {
 	name="Bhaironpal"
 	dynasty=105826 #Katyuri
@@ -3950,7 +3708,6 @@
 		death=yes
 	}
 }
-
 247514 = {
 	name="Bhupal"
 	dynasty=105826 #Katyuri
@@ -3965,7 +3722,6 @@
 		death=yes
 	}
 }
-
 247515 = {
 	name="Ratanpal"
 	dynasty=105826 #Katyuri
@@ -3980,7 +3736,6 @@
 		death=yes
 	}
 }
-
 247516 = {
 	name="Niranjanmalladeva"
 	dynasty=105826 #Katyuri
@@ -3995,7 +3750,6 @@
 		death=yes
 	}
 }
-
 247517 = {
 	name="Nagimalla"
 	dynasty=105826 #Katyuri
@@ -4010,7 +3764,6 @@
 		death=yes
 	}
 }
-
 247518 = {
 	name="Ripumalla"
 	dynasty=105826 #Katyuri
@@ -4025,7 +3778,6 @@
 		death=yes
 	}
 }
-
 247519 = {
 	name="Niraipal"
 	dynasty=105826 #Katyuri
@@ -4040,7 +3792,6 @@
 		death=yes
 	}
 }
-
 247520 = {
 	name="Nagmalla"
 	dynasty=105826 #Katyuri
@@ -4071,7 +3822,6 @@
 		death=yes
 	}
 }
-
 247522 = {
 	name="Atma"
 	dynasty=105843 #Chand
@@ -4086,7 +3836,6 @@
 		death=yes
 	}
 }
-
 247523 = {
 	name="Purana"
 	dynasty=105843 #Chand
@@ -4101,7 +3850,6 @@
 		death=yes
 	}
 }
-
 247524 = {
 	name="Indra"
 	dynasty=105843 #Chand
@@ -4116,7 +3864,6 @@
 		death=yes
 	}
 }
-
 247525 = {
 	name="Sonsar"
 	dynasty=105843 #Chand
@@ -4131,7 +3878,6 @@
 		death=yes
 	}
 }
-
 247526 = {
 	name="Sudha"
 	dynasty=105843 #Chand
@@ -4146,7 +3892,6 @@
 		death=yes
 	}
 }
-
 247527 = {
 	name="Hammira"
 	dynasty=105843 #Chand
@@ -4161,7 +3906,6 @@
 		death=yes
 	}
 }
-
 247528 = {
 	name="Bina"
 	dynasty=105843 #Chand
@@ -4176,7 +3920,6 @@
 		death=yes
 	}
 }
-
 247529 = {
 	name="Soma"
 	dynasty=105843 #Chand
@@ -4191,7 +3934,6 @@
 		death=yes
 	}
 }
-
 247530 = {
 	name="Bira"
 	dynasty=105843 #Chand
@@ -4206,7 +3948,6 @@
 		death=yes
 	}
 }
-
 247531 = {
 	name="Rupa"
 	dynasty=105843 #Chand
@@ -4221,7 +3962,6 @@
 		death=yes
 	}
 }
-
 247532 = {
 	name="Lachchhmi"
 	dynasty=105843 #Chand
@@ -4236,7 +3976,6 @@
 		death=yes
 	}
 }
-
 247533 = {
 	name="Dharma"
 	dynasty=105843 #Chand
@@ -4251,7 +3990,6 @@
 		death=yes
 	}
 }
-
 247534 = {
 	name="Karma"
 	dynasty=105843 #Chand
@@ -4266,7 +4004,6 @@
 		death=yes
 	}
 }
-
 247535 = {
 	name="Kalyan"
 	dynasty=105843 #Chand
@@ -4281,7 +4018,6 @@
 		death=yes
 	}
 }
-
 247536 = {
 	name="Nirbhaya"
 	dynasty=105843 #Chand
@@ -4296,7 +4032,6 @@
 		death=yes
 	}
 }
-
 247537 = {
 	name="Nara"
 	dynasty=105843 #Chand
@@ -4311,7 +4046,6 @@
 		death=yes
 	}
 }
-
 247538 = {
 	name="Nanaki"
 	dynasty=105843 #Chand
@@ -4326,7 +4060,6 @@
 		death=yes
 	}
 }
-
 247539 = {
 	name="Rama"
 	dynasty=105843 #Chand
@@ -4341,7 +4074,6 @@
 		death=yes
 	}
 }
-
 247540 = {
 	name="Bhikma"
 	dynasty=105843 #Chand
@@ -4356,7 +4088,6 @@
 		death=yes
 	}
 }
-
 247541 = {
 	name="Megha"
 	dynasty=105843 #Chand
@@ -4371,7 +4102,6 @@
 		death=yes
 	}
 }
-
 247542 = {
 	name="Dhyana"
 	dynasty=105843 #Chand
@@ -4386,7 +4116,6 @@
 		death=yes
 	}
 }
-
 247543 = {
 	name="Parbata"
 	dynasty=105843 #Chand
@@ -4401,7 +4130,6 @@
 		death=yes
 	}
 }
-
 247544 = {
 	name="Thohar"
 	dynasty=105843 #Chand
@@ -4416,7 +4144,6 @@
 		death=yes
 	}
 }
-
 247545 = {
 	name="Kalyan"
 	dynasty=105843 #Chand
@@ -4431,7 +4158,6 @@
 		death=yes
 	}
 }
-
 247546 = {
 	name="Guru-Gyan"
 	dynasty=105843 #Chand
@@ -4446,7 +4172,6 @@
 		death=yes
 	}
 }
-
 247547 = {
 	name="Udhyan"
 	dynasty=105843 #Chand
@@ -4461,7 +4186,6 @@
 		death=yes
 	}
 }
-
 247548 = {
 	name="Atma"
 	dynasty=105843 #Chand
@@ -4476,7 +4200,6 @@
 		death=yes
 	}
 }
-
 247549 = {
 	name="Triloki"
 	dynasty=105843 #Chand
@@ -4491,7 +4214,6 @@
 		death=yes
 	}
 }
-
 247550 = {
 	name="Damara"
 	dynasty=105843 #Chand
@@ -4506,7 +4228,6 @@
 		death=yes
 	}
 }
-
 247551 = {
 	name="Dharma"
 	dynasty=105843 #Chand
@@ -4521,7 +4242,6 @@
 		death=yes
 	}
 }
-
 247552 = {
 	name="Abhaya"
 	dynasty=105843 #Chand
@@ -4550,7 +4270,6 @@
 		death=yes
 	}
 }
-
 247583 = {
 	name="Shyampal"
 	dynasty=105845 #Parmar
@@ -4564,7 +4283,6 @@
 		death=yes
 	}
 }
-
 247584 = {
 	name="Padupal"
 	dynasty=105845 #Parmar
@@ -4578,7 +4296,6 @@
 		death=yes
 	}
 }
-
 247585 = {
 	name="Abhigatpal"
 	dynasty=105845 #Parmar
@@ -4592,7 +4309,6 @@
 		death=yes
 	}
 }
-
 247586 = {
 	name="Saugatpal"
 	dynasty=105845 #Parmar
@@ -4606,7 +4322,6 @@
 		death=yes
 	}
 }
-
 247587 = {
 	name="Ratanpal"
 	dynasty=105845 #Parmar
@@ -4624,7 +4339,6 @@
 		death=yes
 	}
 }
-
 247588 = {
 	name="Saalipal"
 	dynasty=105845 #Parmar
@@ -4639,7 +4353,6 @@
 		death=yes
 	}
 }
-
 247589 = {
 	name="Vidhipal"
 	dynasty=105845 #Parmar
@@ -4654,7 +4367,6 @@
 		death=yes
 	}
 }
-
 247590 = {
 	name="Madanpal"
 	dynasty=105845 #Parmar
@@ -4669,7 +4381,6 @@
 		death=yes
 	}
 }
-
 247591 = {
 	name="Bhaktipal"
 	dynasty=105845 #Parmar
@@ -4684,7 +4395,6 @@
 		death=yes
 	}
 }
-
 247592 = {
 	name="Jaychandpal"
 	dynasty=105845 #Parmar
@@ -4699,7 +4409,6 @@
 		death=yes
 	}
 }
-
 247593 = {
 	name="Prithveepal"
 	dynasty=105845 #Parmar
@@ -4714,7 +4423,6 @@
 		death=yes
 	}
 }
-
 247594 = {
 	name="Mednisenpal"
 	dynasty=105845 #Parmar
@@ -4729,7 +4437,6 @@
 		death=yes
 	}
 }
-
 247595 = {
 	name="Agastipal"
 	dynasty=105845 #Parmar
@@ -4744,7 +4451,6 @@
 		death=yes
 	}
 }
-
 247596 = {
 	name="Suratipal"
 	dynasty=105845 #Parmar
@@ -4759,7 +4465,6 @@
 		death=yes
 	}
 }
-
 247597 = {
 	name="Jaypal"
 	dynasty=105845 #Parmar
@@ -4774,7 +4479,6 @@
 		death=yes
 	}
 }
-
 247598 = {
 	name="Anantpal"
 	dynasty=105845 #Parmar
@@ -4789,7 +4493,6 @@
 		death=yes
 	}
 }
-
 247599 = {
 	name="Anandpal"
 	dynasty=105845 #Parmar
@@ -4804,7 +4507,6 @@
 		death=yes
 	}
 }
-
 247600 = {
 	name="Vibhogpal"
 	dynasty=105845 #Parmar
@@ -4819,7 +4521,6 @@
 		death=yes
 	}
 }
-
 247601 = {
 	name="Suvayaanupal"
 	dynasty=105845 #Parmar
@@ -4834,7 +4535,6 @@
 		death=yes
 	}
 }
-
 247602 = {
 	name="Vikrampal"
 	dynasty=105845 #Parmar
@@ -4849,7 +4549,6 @@
 		death=yes
 	}
 }
-
 247603 = {
 	name="Vichitrpal"
 	dynasty=105845 #Parmar
@@ -4864,7 +4563,6 @@
 		death=yes
 	}
 }
-
 247604 = {
 	name="Hanspal"
 	dynasty=105845 #Parmar
@@ -4879,7 +4577,6 @@
 		death=yes
 	}
 }
-
 247605 = {
 	name="Sonpal"
 	dynasty=105845 #Parmar
@@ -4894,7 +4591,6 @@
 		death=yes
 	}
 }
-
 247606 = {
 	name="Kaadilpal"
 	dynasty=105845 #Parmar
@@ -4909,7 +4605,6 @@
 		death=yes
 	}
 }
-
 247607 = {
 	name="Kamdevpal"
 	dynasty=105845 #Parmar
@@ -4924,7 +4619,6 @@
 		death=yes
 	}
 }
-
 247608 = {
 	name="Sulakshandev"
 	dynasty=105845 #Parmar
@@ -4939,7 +4633,6 @@
 		death=yes
 	}
 }
-
 247609 = {
 	name="Lakhandev"
 	dynasty=105845 #Parmar
@@ -4954,7 +4647,6 @@
 		death=yes
 	}
 }
-
 247610 = {
 	name="Anandpal"
 	dynasty=105845 #Parmar
@@ -4969,7 +4661,6 @@
 		death=yes
 	}
 }
-
 247611 = {
 	name="Purvdev"
 	dynasty=105845 #Parmar
@@ -4984,7 +4675,6 @@
 		death=yes
 	}
 }
-
 247612 = {
 	name="Abhaydev"
 	dynasty=105845 #Parmar
@@ -4999,7 +4689,6 @@
 		death=yes
 	}
 }
-
 247613 = {
 	name="Jayramdev"
 	dynasty=105845 #Parmar
@@ -5014,7 +4703,6 @@
 		death=yes
 	}
 }
-
 247614 = {
 	name="Aasaldev"
 	dynasty=105845 #Parmar
@@ -5029,7 +4717,6 @@
 		death=yes
 	}
 }
-
 247615 = {
 	name="Jagatpal"
 	dynasty=105845 #Parmar
@@ -5044,7 +4731,6 @@
 		death=yes
 	}
 }
-
 247616 = {
 	name="Jeetpal"
 	dynasty=105845 #Parmar
@@ -5059,7 +4745,6 @@
 		death=yes
 	}
 }
-
 247617 = {
 	name="Anantpal"
 	dynasty=105845 #Parmar
@@ -5076,7 +4761,6 @@
 }
 
 #Khasiya Dynasty
-
 247553 = {
 	name="Bijor"
 	dynasty=105844 #Khasiya
@@ -5090,7 +4774,6 @@
 		death=yes
 	}
 }
-
 247554 = {
 	name="Jijar"
 	dynasty=105844 #Khasiya
@@ -5105,7 +4788,6 @@
 		death=yes
 	}
 }
-
 247555 = {
 	name="Jajar"
 	dynasty=105844 #Khasiya
@@ -5120,7 +4802,6 @@
 		death=yes
 	}
 }
-
 247556 = {
 	name="Jar"
 	dynasty=105844 #Khasiya
@@ -5135,7 +4816,6 @@
 		death=yes
 	}
 }
-
 247557 = {
 	name="Kalu"
 	dynasty=105844 #Khasiya
@@ -5150,7 +4830,6 @@
 		death=yes
 	}
 }
-
 247558 = {
 	name="Kalau"
 	dynasty=105844 #Khasiya
@@ -5165,7 +4844,6 @@
 		death=yes
 	}
 }
-
 247559 = {
 	name="Jahal"
 	dynasty=105844 #Khasiya
@@ -5180,7 +4858,6 @@
 		death=yes
 	}
 }
-
 247560 = {
 	name="Mul"
 	dynasty=105844 #Khasiya
@@ -5195,7 +4872,6 @@
 		death=yes
 	}
 }
-
 247561 = {
 	name="Guna"
 	dynasty=105844 #Khasiya
@@ -5210,7 +4886,6 @@
 		death=yes
 	}
 }
-
 247562 = {
 	name="Pida"
 	dynasty=105844 #Khasiya
@@ -5225,7 +4900,6 @@
 		death=yes
 	}
 }
-
 247563 = {
 	name="Nagu"
 	dynasty=105844 #Khasiya
@@ -5240,7 +4914,6 @@
 		death=yes
 	}
 }
-
 247564 = {
 	name="Bhagu"
 	dynasty=105844 #Khasiya
@@ -5255,7 +4928,6 @@
 		death=yes
 	}
 }
-
 247565 = {
 	name="Jayapal"
 	dynasty=105844 #Khasiya
@@ -5270,7 +4942,6 @@
 		death=yes
 	}
 }
-
 247566 = {
 	name="Sonpal"
 	dynasty=105844 #Khasiya
@@ -5285,7 +4956,6 @@
 		death=yes
 	}
 }
-
 247567 = {
 	name="Indrapal"
 	dynasty=105844 #Khasiya
@@ -5300,7 +4970,6 @@
 		death=yes
 	}
 }
-
 247568 = {
 	name="Naagraj"
 	dynasty=105844 #Khasiya
@@ -5315,7 +4984,6 @@
 		death=yes
 	}
 }
-
 247569 = {
 	name="Chaap"
 	dynasty=105844 #Khasiya
@@ -5330,7 +4998,6 @@
 		death=yes
 	}
 }
-
 247570 = {
 	name="Chapilla"
 	dynasty=105844 #Khasiya
@@ -5345,7 +5012,6 @@
 		death=yes
 	}
 }
-
 247571 = {
 	name="Krashichalla"
 	dynasty=105844 #Khasiya
@@ -5360,7 +5026,6 @@
 		death=yes
 	}
 }
-
 247572 = {
 	name="Kradhichalla"
 	dynasty=105844 #Khasiya
@@ -5375,7 +5040,6 @@
 		death=yes
 	}
 }
-
 247573 = {
 	name="Krachalla"
 	dynasty=105844 #Khasiya
@@ -5390,7 +5054,6 @@
 		death=yes
 	}
 }
-
 247574 = {
 	name="Jitarimalla"
 	dynasty=105844 #Khasiya
@@ -5405,7 +5068,6 @@
 		death=yes
 	}
 }
-
 247575 = {
 	name="Ashokmalla"
 	dynasty=105844 #Khasiya
@@ -5420,7 +5082,6 @@
 		death=yes
 	}
 }
-
 247576 = {
 	name="Ashokchalla"
 	dynasty=105844 #Khasiya
@@ -5435,7 +5096,6 @@
 		death=yes
 	}
 }
-
 247577 = {
 	name="Ripumalla"
 	dynasty=105844 #Khasiya
@@ -5450,7 +5110,6 @@
 		death=yes
 	}
 }
-
 247578 = {
 	name="Adityamalla"
 	dynasty=105844 #Khasiya
@@ -5465,7 +5124,6 @@
 		death=yes
 	}
 }
-
 247579 = {
 	name="Punyamalla"
 	dynasty=105844 #Khasiya
@@ -5480,7 +5138,6 @@
 		death=yes
 	}
 }
-
 247580 = {
 	name="Prithvimalla"
 	dynasty=105844 #Khasiya
@@ -5495,7 +5152,6 @@
 		death=yes
 	}
 }
-
 247581 = {
 	name="Suryamalla"
 	dynasty=105844 #Khasiya

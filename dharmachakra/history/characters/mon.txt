@@ -1,6 +1,7 @@
-﻿### MON KINGDOM RULERS
-# PEGU RULERS
-mon001 = {
+﻿#######################################
+# Chakhar Dynasty
+#######################################
+mon001 = {# Pyinzala
 	name = "Pyinzala" #Fictional father of Thamala and Wimala to make them brothers
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -12,8 +13,7 @@ mon001 = {
 		death = yes
 	}
 }
-
-mon002 = {
+mon002 = {# Thamala
 	name = "Thamala" #Legendary founder of Pegu
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -26,8 +26,7 @@ mon002 = {
 		death = yes
 	}
 }
-
-mon003 = {
+mon003 = {# Wimala
 	name = "Wimala" #Brother of Thamala
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -40,8 +39,7 @@ mon003 = {
 		death = yes
 	}
 }
-
-mon004 = {
+mon004 = {# Atha
 	name = "Atha" #Nephew to Wimala - Son of Thamala?
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -54,8 +52,7 @@ mon004 = {
 		death = yes
 	}
 }
-
-mon005 = {
+mon005 = {# Areindama
 	name = "Areindama" #Son of Atha
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -68,8 +65,7 @@ mon005 = {
 		death = yes
 	}
 }
-
-mon006 = {
+mon006 = {# Takayutpi
 	name = "Takayutpi" #A monk - Fictional name
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -84,8 +80,7 @@ mon006 = {
 		death = yes
 	}
 }
-
-mon007 = {
+mon007 = {# Geinda
 	name = "Geinda"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -98,8 +93,7 @@ mon007 = {
 		death = yes
 	}
 }
-
-mon008 = {
+mon008 = {# Migadeippagyi
 	name = "Migadeippagyi"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -112,8 +106,7 @@ mon008 = {
 		death = yes
 	}
 }
-
-mon009 = {
+mon009 = {# Geissadiya
 	name = "Geissadiya"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -126,8 +119,7 @@ mon009 = {
 		death = yes
 	}
 }
-
-mon010 = {
+mon010 = {# Karawika
 	name = "Karawika"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -140,8 +132,7 @@ mon010 = {
 		death = yes
 	}
 }
-
-mon011 = {
+mon011 = {# Pyinzala
 	name = "Pyinzala"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -154,8 +145,7 @@ mon011 = {
 		death = yes
 	}
 }
-
-mon012 = {
+mon012 = {# Attatha
 	name = "Attatha"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -168,8 +158,7 @@ mon012 = {
 		death = yes
 	}
 }
-
-mon013 = {
+mon013 = {# Anuyama
 	name = "Anuyama"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -182,8 +171,7 @@ mon013 = {
 		death = yes
 	}
 }
-
-mon014 = {
+mon014 = {# Migadeippange
 	name = "Migadeippange"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -196,8 +184,7 @@ mon014 = {
 		death = yes
 	}
 }
-
-mon015 = {
+mon015 = {# Ekkathamanta
 	name = "Ekkathamanta"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -210,8 +197,7 @@ mon015 = {
 		death = yes
 	}
 }
-
-mon016 = {
+mon016 = {# Uppala
 	name = "Uppala"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -224,8 +210,7 @@ mon016 = {
 		death = yes
 	}
 }
-
-mon017 = {
+mon017 = {# Pontarika
 	name = "Pontarika"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -238,8 +223,7 @@ mon017 = {
 		death = yes
 	}
 }
-
-mon018 = {
+mon018 = {# Tissa
 	name = "Tissa"
 	dynasty = 2000004 #Hanthawaddy
 	religion = theravada
@@ -252,9 +236,10 @@ mon018 = {
 		death = yes
 	}
 }
-
-# THATON RULERS
-mon022 = {
+#######################################
+# Chakhar Dynasty
+#######################################
+mon022 = {# Dhamma
 	name = "Dhamma"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -267,7 +252,7 @@ mon022 = {
 		death = yes
 	}
 }
-mon023 = {
+mon023 = {# Maha Seitta
 	name = "Maha_Seitta"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -281,7 +266,7 @@ mon023 = {
 		death = yes
 	}
 }
-mon024 = {
+mon024 = {# Ganda
 	name = "Ganda"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -295,7 +280,7 @@ mon024 = {
 		death = yes
 	}
 }
-mon025 = {
+mon025 = {# Zeya
 	name = "Zeya"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -309,7 +294,7 @@ mon025 = {
 		death = yes
 	}
 }
-mon026 = {
+mon026 = {# Thumana
 	name = "Thumana"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -323,7 +308,7 @@ mon026 = {
 		death = yes
 	}
 }
-mon027 = {
+mon027 = {# Maddaka
 	name = "Maddaka"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -337,7 +322,7 @@ mon027 = {
 		death = yes
 	}
 }
-mon028 = {
+mon028 = {# Aminna
 	name = "Aminna"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -351,7 +336,7 @@ mon028 = {
 		death = yes
 	}
 }
-mon029 = {
+mon029 = {# Udinna
 	name = "Udinna"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -365,7 +350,7 @@ mon029 = {
 		death = yes
 	}
 }
-mon030 = {
+mon030 = {# Manuha
 	name = "Manuha"
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -380,7 +365,7 @@ mon030 = {
 		death = yes
 	}
 }
-mon031 = {
+mon031 = {# Maradi
 	name = "Maradi" #Fictional son to have a playable vassal under Pagan in 1066
 	dynasty = 2000005 #Thaton
 	religion = theravada
@@ -394,9 +379,42 @@ mon031 = {
 		death = yes
 	}
 }
-
-# OTHER MON CHARACTERS
-mon050 = {
+#######################################
+# Athinkha Dynasty
+#######################################
+mon051 = {# Athinkha
+	name = "Athinkha" #Fictional ruler to split up the Irrawaddy Delta
+	dynasty = 2000011 #Athinkha
+	religion = theravada
+	culture = mon
+	
+	835.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Wunna Dynasty
+#######################################
+mon052 = {# Katha_Wunna
+	name = "Katha_Wunna" #Fictional ruler to split up the Irrawaddy Delta
+	dynasty = 2000012 #Wunna
+	religion = theravada
+	culture = mon
+	
+	1040.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Other Characters
+#######################################
+mon050 = {# Shin_Arahan
 	name = "Shin_Arahan" #Primate to Anawrahta
 	religion = theravada
 	culture = mon
@@ -416,30 +434,4 @@ mon050 = {
 	}
 }
 
-mon051 = {
-	name = "Athinkha" #Fictional ruler to split up the Irrawaddy Delta
-	dynasty = 2000011 #Athinkha
-	religion = theravada
-	culture = mon
-	
-	835.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
 
-mon052 = {
-	name = "Katha_Wunna" #Fictional ruler to split up the Irrawaddy Delta
-	dynasty = 2000012 #Wunna
-	religion = theravada
-	culture = mon
-	
-	1040.1.1 = {
-		birth = yes
-	}
-	1080.1.1 = {
-		death = yes
-	}
-}
