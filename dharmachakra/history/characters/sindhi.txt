@@ -1,4 +1,7 @@
-﻿175050 = {
+﻿#######################################
+# Habbari Dynasty
+#######################################
+175050 = {# Umar
 	name = "Umar" # Umar ibn'Abd al-Aziz al'Habbari
 	dynasty = 1043005
 	religion = "ashari"
@@ -10,8 +13,10 @@
 		death = yes
 	}
 }
-
-178011 = {
+#######################################
+# Ghanshani Dynasty
+#######################################
+178011 = {# Genhra
 	name = "Genhra" # Fictional
 	dynasty = 1041111
 	religion = "ashari"
@@ -23,7 +28,22 @@
 		death = "884.1.1"
 	}
 }
-178012 = {
+188564 = {# Arnel
+	name = "Arnel" # fictional
+	dynasty = 1041111
+	religion = "smartism"
+	culture = "sindhi"
+	745.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Doolani Dynasty
+#######################################
+178012 = {# Khafif
 	name = "Khafif" # Fictional
 	dynasty = 1041112
 	religion = "ashari"
@@ -35,7 +55,22 @@
 		death = "869.1.1"
 	}
 }
-178013 = {
+188563 = {# Chanesar
+	name = "Chanesar" # fictional
+	dynasty = 1041112
+	religion = "mahayana"
+	culture = "sindhi"
+	724.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Khetpal Dynasty
+#######################################
+178013 = {# Abdurrashid
 	name = "Abdurrashid" # Fictional
 	dynasty = 1041113
 	religion = "ashari"
@@ -47,7 +82,34 @@
 		death = "876.1.1"
 	}
 }
-178014 = {
+188562 = {# Doda
+	name = "Doda" # fictional
+	dynasty = 1041113
+	religion = "mahayana"
+	culture = "sindhi"
+	732.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Lohi Dynasty
+#######################################
+188561 = {# Banhbina
+	name = "Banhbina" # fictional
+	dynasty = 1041114
+	religion = "smartism"
+	culture = "sindhi"
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+178014 = {# Junah
 	name = "Junah" # Fictional
 	dynasty = 1041114
 	religion = "ashari"
@@ -59,44 +121,10 @@
 		death = "882.1.1"
 	}
 }
-178015 = {
-	name = "Punhun" # Fictional
-	dynasty = 1041115
-	religion = "ashari"
-	culture = "sindhi"
-	839.1.1 = {
-		birth = "839.1.1"
-	}
-	894.1.1 = {
-		death = "894.1.1"
-	}
-}
-178016 = {
-	name = "Shahabuddin" # Fictional
-	dynasty = 1041116
-	religion = "ashari"
-	culture = "sindhi"
-	837.1.1 = {
-		birth = "837.1.1"
-	}
-	901.1.1 = {
-		death = "901.1.1"
-	}
-}
-178017 = {
-	name = "Mahmud" # Fictional
-	dynasty = 1041117
-	religion = "ashari"
-	culture = "sindhi"
-	833.1.1 = {
-		birth = "833.1.1"
-	}
-	888.1.1 = {
-		death = "888.1.1"
-	}
-}
-
-188349 = {
+#######################################
+# Sumra Dynasty
+#######################################
+188349 = {# Khafif
 	name = "Khafif" # I
 	dynasty = 1042090 # Sumra
 	religion = "ismaili" # Ismaili
@@ -108,8 +136,7 @@
 		death = yes
 	}
 }
-
-188350 = {
+188350 = {# Soomar
 	name = "Soomar"
 	dynasty = 1042090 # Sumra
 	religion = "ismaili" # Ismaili
@@ -122,8 +149,7 @@
 		death = yes
 	}
 }
-
-188351 = {
+188351 = {# Bhoongar
 	name = "Bhoongar"
 	dynasty = 1042090 # Sumra
 	religion = "ismaili" # Ismaili
@@ -136,8 +162,7 @@
 		death = yes
 	}
 }
-
-188352 = {
+188352 = {# Dodo
 	name = "Dodo" # the I
 	dynasty = 1042090 # Sumra
 	religion = "ismaili" # Ismaili
@@ -150,8 +175,7 @@
 		death = yes
 	}
 }
-
-188353 = {
+188353 = {# Zainab Tari
 	name = "Zainab_Tari"
 	female = yes
 	dynasty = 1042090 # Sumra
@@ -166,8 +190,7 @@
 		death = yes
 	}
 }
-
-188354 = {
+188354 = {# Sanghar
 	name = "Sanghar"
 	dynasty = 1042090 # Sumra
 	religion = "ashari"
@@ -183,8 +206,206 @@
 		death = yes
 	}
 }
-
-188355 = {
+188360 = {# Hafif
+	name = "Hafif" # fictitious
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	mother = 188353 # fictitious
+	1100.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+188361 = {# Umar
+	name = "Umar" # fictitious
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188360
+	1125.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = {
+		death = yes
+	}
+}
+188362 = {# Bhoongar
+	name = "Bhoongar" # the II
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188360
+	1150.1.1 = {
+		birth = yes
+	}
+	1222.1.1 = {
+		death = yes
+	}
+}
+188363 = {# Gunero
+	name = "Gunero"
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188362 # unclear if true
+	1178.1.1 = {
+		birth = yes
+	}
+	1242.1.1 = {
+		death = yes
+	}
+}
+188364 = {# Muhammad
+	name = "Muhammad-Tur"
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188363
+	1200.1.1 = {
+		birth = yes
+	}
+	1256.1.1 = {
+		death = yes
+	}
+}
+188365 = {# Gunero
+	name = "Gunero" # the II
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188364 # conjecture
+	1220.1.1 = {
+		birth = yes
+	}
+	1259.1.1 = {
+		death = yes
+	}
+}
+188366 = {# Doda
+	name = "Doda" # the III
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188365
+	1238.1.1 = {
+		birth = yes
+	}
+	1273.1.1 = {
+		death = yes
+	}
+}
+188367 = {# NAME
+	name = "Tai"
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188366
+	1254.1.1 = {
+		birth = yes
+	}
+	1283.1.1 = {
+		death = yes
+	}
+}
+188368 = {# Chanesar
+	name = "Chanesar"
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188366
+	1256.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = {
+		death = yes
+	}
+}
+188369 = {# Bhoongar
+	name = "Bhoongar"
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188368
+	1276.1.1 = {
+		birth = yes
+	}
+	1315.1.1 = {
+		death = yes
+	}
+}
+188370 = {# Khafif
+	name = "Khafif" # the III
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188369
+	1296.1.1 = {
+		birth = yes
+	}
+	1333.1.1 = {
+		death = yes
+	}
+}
+188371 = {# Doda
+	name = "Doda" # the IV
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188369
+	1300.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		death = yes
+	}
+}
+188372 = {# Bhungar
+	name = "Bhungar"
+	dynasty = 1042090 # Sumra
+	religion = "ashari"
+	culture = "sindhi"
+	father = 188371
+	1330.1.1 = {
+		birth = yes
+	}
+	1350.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Notani Dynasty
+#######################################
+188557 = {# Sikandar
+	name = "Sikandar" # fictional
+	dynasty = 1041115
+	religion = "smartism"
+	culture = "sindhi"
+	742.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+178015 = {# Punhun
+	name = "Punhun" # Fictional
+	dynasty = 1041115
+	religion = "ashari"
+	culture = "sindhi"
+	839.1.1 = {
+		birth = "839.1.1"
+	}
+	894.1.1 = {
+		death = "894.1.1"
+	}
+}
+#######################################
+# Sumra Dynasty
+#######################################
+188355 = {# Hamun
 	name = "Hamun"
 	dynasty = 214004 # Sumra
 	female = yes
@@ -198,8 +419,7 @@
 		death = yes
 	}
 }
-
-188356 = {
+188356 = {# Umar
 	name = "Umar" # name made up
 	dynasty = 214004 # Sumra
 	religion = "ashari"
@@ -211,8 +431,7 @@
 		death = yes
 	}
 }
-
-188357 = {
+188357 = {# Khafif
 	name = "Khafif" # the II
 	dynasty = 214004 # Sumra (sister-in-law of last Sumra)
 	religion = "ashari"
@@ -225,8 +444,7 @@
 		death = yes
 	}
 }
-
-188358 = {
+188358 = {# Umar
 	name = "Umar"
 	dynasty = 214004 # Sumra (sister-in-law of last Sumra)
 	religion = "ashari"
@@ -239,8 +457,7 @@
 		death = yes
 	}
 }
-
-188359 = {
+188359 = {# Doda
 	name = "Doda" # the II
 	dynasty = 214004 # Sumra
 	religion = "ashari"
@@ -253,191 +470,10 @@
 		death = yes
 	}
 }
-
-
-188360 = {
-	name = "Hafif" # fictitious
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	mother = 188353 # fictitious
-	1100.1.1 = {
-		birth = yes
-	}
-	1150.1.1 = {
-		death = yes
-	}
-}
-
-188361 = {
-	name = "Umar" # fictitious
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188360
-	1125.1.1 = {
-		birth = yes
-	}
-	1175.1.1 = {
-		death = yes
-	}
-}
-
-188362 = {
-	name = "Bhoongar" # the II
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188360
-	1150.1.1 = {
-		birth = yes
-	}
-	1222.1.1 = {
-		death = yes
-	}
-}
-
-188363 = {
-	name = "Gunero"
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188362 # unclear if true
-	1178.1.1 = {
-		birth = yes
-	}
-	1242.1.1 = {
-		death = yes
-	}
-}
-
-
-188364 = {
-	name = "Muhammad-Tur"
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188363
-	1200.1.1 = {
-		birth = yes
-	}
-	1256.1.1 = {
-		death = yes
-	}
-}
-
-188365 = {
-	name = "Gunero" # the II
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188364 # conjecture
-	1220.1.1 = {
-		birth = yes
-	}
-	1259.1.1 = {
-		death = yes
-	}
-}
-
-188366 = {
-	name = "Doda" # the III
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188365
-	1238.1.1 = {
-		birth = yes
-	}
-	1273.1.1 = {
-		death = yes
-	}
-}
-
-188367 = {
-	name = "Tai"
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188366
-	1254.1.1 = {
-		birth = yes
-	}
-	1283.1.1 = {
-		death = yes
-	}
-}
-
-188368 = {
-	name = "Chanesar"
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188366
-	1256.1.1 = {
-		birth = yes
-	}
-	1300.1.1 = {
-		death = yes
-	}
-}
-
-188369 = {
-	name = "Bhoongar"
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188368
-	1276.1.1 = {
-		birth = yes
-	}
-	1315.1.1 = {
-		death = yes
-	}
-}
-
-188370 = {
-	name = "Khafif" # the III
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188369
-	1296.1.1 = {
-		birth = yes
-	}
-	1333.1.1 = {
-		death = yes
-	}
-}
-
-188371 = {
-	name = "Doda" # the IV
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188369
-	1300.1.1 = {
-		birth = yes
-	}
-	1350.1.1 = {
-		death = yes
-	}
-}
-
-188372 = {
-	name = "Bhungar"
-	dynasty = 1042090 # Sumra
-	religion = "ashari"
-	culture = "sindhi"
-	father = 188371
-	1330.1.1 = {
-		birth = yes
-	}
-	1350.1.1 = {
-		death = yes
-	}
-}
-188556 = {
+#######################################
+# Sawai Dynasty
+#######################################
+188556 = {# Taghlak
 	name = "Taghlak" # fictional
 	dynasty = 1041116
 	religion = "mahayana"
@@ -449,21 +485,34 @@
 		death = yes
 	}
 }
-
-188557 = {
-	name = "Sikandar" # fictional
-	dynasty = 1041115
-	religion = "smartism"
+178016 = {# Shahabuddin
+	name = "Shahabuddin" # Fictional
+	dynasty = 1041116
+	religion = "ashari"
 	culture = "sindhi"
-	742.1.1 = {
-		birth = yes
+	837.1.1 = {
+		birth = "837.1.1"
 	}
-	800.1.1 = {
-		death = yes
+	901.1.1 = {
+		death = "901.1.1"
 	}
 }
-
-188558 = {
+#######################################
+# Bhambhani Dynasty
+#######################################
+178017 = {# Mahmud
+	name = "Mahmud" # Fictional
+	dynasty = 1041117
+	religion = "ashari"
+	culture = "sindhi"
+	833.1.1 = {
+		birth = "833.1.1"
+	}
+	888.1.1 = {
+		death = "888.1.1"
+	}
+}
+188558 = {# Munzir
 	name = "Munzir" # fictional
 	dynasty = 1041117
 	religion = "smartism"
@@ -475,8 +524,7 @@
 		death = yes
 	}
 }
-
-188559 = {
+188559 = {# Shahabuddin
 	name = "Shahabuddin" # fictional
 	dynasty = 1041117
 	religion = "smartism"
@@ -489,65 +537,15 @@
 		death = yes
 	}
 }
-
-188560 = {
+#######################################
+# Qalat Dynasty
+#######################################
+188560 = {# Genhra
 	name = "Genhra" # fictional
 	dynasty = 1041118
 	religion = "smartism"
 	culture = "sindhi"
 	737.1.1 = {
-		birth = yes
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
-188561 = {
-	name = "Banhbina" # fictional
-	dynasty = 1041114
-	religion = "smartism"
-	culture = "sindhi"
-	740.1.1 = {
-		birth = yes
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
-188562 = {
-	name = "Doda" # fictional
-	dynasty = 1041113
-	religion = "mahayana"
-	culture = "sindhi"
-	732.1.1 = {
-		birth = yes
-	}
-	780.1.1 = {
-		death = yes
-	}
-}
-
-188563 = {
-	name = "Chanesar" # fictional
-	dynasty = 1041112
-	religion = "mahayana"
-	culture = "sindhi"
-	724.1.1 = {
-		birth = yes
-	}
-	780.1.1 = {
-		death = yes
-	}
-}
-
-188564 = {
-	name = "Arnel" # fictional
-	dynasty = 1041111
-	religion = "smartism"
-	culture = "sindhi"
-	745.1.1 = {
 		birth = yes
 	}
 	800.1.1 = {
