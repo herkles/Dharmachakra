@@ -1,5 +1,6 @@
-﻿#Licchavi Dynasty
-
+﻿#######################################
+# Licchavi Dynasty
+#######################################
 12300 = {
 	name="Sankaradeva"
 	dynasty=19116 #Licchavi
@@ -804,9 +805,9 @@
 		death=yes
 	}
 }
-
-#Thakuri Dynasty
-
+#######################################
+# Thakuri Dynasty
+#######################################
 12352 = {
 	name="Raghadeva"
 	dynasty=19117 #Thakuri
@@ -1146,7 +1147,9 @@
 	}
 }
 
-#Nuwakot Thakuri Dynasty
+#######################################
+# Nuwakot Thakuri Dynasty
+#######################################
 12376 = {
 	name="Bhaskaradeva"
 	dynasty=19118 #Nuwakot Thakuri
@@ -1704,7 +1707,9 @@
 	}
 }
 
-#Suryavamsa Dynasty
+#######################################
+# Suryavamsa Dynasty
+#######################################
 12411 = {
 	name="Vamadeva"
 	dynasty=19119 #Suryavamsa
@@ -1765,8 +1770,9 @@
 		death=yes
 	}
 }
-
-#Malla Dynasty
+#######################################
+# Malla Dynasty
+#######################################
 12415 = {
 	name="Arideva"
 	dynasty=19120 #Malla
@@ -2225,9 +2231,9 @@
 		death=yes
 	}
 }
-
-#Licchavi Dynasty
-
+#######################################
+# Licchavi Dynasty
+#######################################
 247408 = {
 	name="Sankaradeva"
 	dynasty=105817 #Licchavi
@@ -2565,9 +2571,9 @@
 		death=yes
 	}
 }
-
-#Thakuri Dynasty
-
+#######################################
+# Thakuri Dynasty
+#######################################
 247434 = {
 	name="Raghadeva"
 	dynasty=105839 #Thakuri
@@ -2724,8 +2730,9 @@
 	}
 }
 
-#Nuwakot Thakuri Dynasty
-
+#######################################
+# Nuwakot Thakuri Dynasty
+#######################################
 247446 = {
 	name="Bhaskaradeva"
 	dynasty=105840 #Nuwakot Thakuri
@@ -2977,8 +2984,9 @@
 		death=yes
 	}
 }
-
-#Suryavamsa Dynasty
+#######################################
+# Suryavamsa Dynasty
+#######################################
 247463 = {
 	name="Vamadeva"
 	dynasty=105841 #Suryavamsa
@@ -3006,9 +3014,9 @@
 		death=yes
 	}
 }
-
-#Malla Dynasty
-
+#######################################
+# Malla Dynasty
+#######################################
 247465 = {
 	name="Arideva"
 	dynasty=105842 #Malla
@@ -3190,9 +3198,9 @@
 		death=yes
 	}
 }
-
-#Katyuri dynasty
-
+#######################################
+# Katyuri Dynasty
+#######################################
 247112 = {
 	name="Kalasiddhi" #Tantric consort of Padmasambhava
 	female=yes
@@ -3806,9 +3814,9 @@
 		death=yes
 	}
 }
-
-#Chand Dynasty
-
+#######################################
+# Chand Dynasty
+#######################################
 247521 = {
 	name="Soma"
 	dynasty=105843 #Chand
@@ -4256,8 +4264,9 @@
 		death=yes
 	}
 }
-
-#Parmar Dynasty
+#######################################
+# Parmar Dynasty
+#######################################
 247582 = {
 	name="Kanakpal"
 	dynasty=105845 #Parmar
@@ -4759,8 +4768,9 @@
 		death=yes
 	}
 }
-
-#Khasiya Dynasty
+#######################################
+# Khasiya Dynasty
+#######################################
 247553 = {
 	name="Bijor"
 	dynasty=105844 #Khasiya
@@ -5166,3 +5176,5 @@
 		death=yes
 	}
 }
+
+
