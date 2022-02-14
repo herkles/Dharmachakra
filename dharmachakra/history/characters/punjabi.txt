@@ -1,4 +1,7 @@
-﻿178000 = {
+﻿#######################################
+# Baweja Dynasty
+#######################################
+178000 = {
 	name = "Dayaram" # Fictional
 	dynasty = 1041100
 	religion = "mahayana"
@@ -10,7 +13,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# Garcha Dynasty
+#######################################
 178020 = {
 	name = "Farid" # Fictional
 	dynasty = 1041120
@@ -23,6 +28,9 @@
 		death = "884.1.1"
 	}
 }
+#######################################
+# Janda Dynasty
+#######################################
 178021 = {
 	name = "Ajit" # Fictional
 	dynasty = 1041121
@@ -35,6 +43,9 @@
 		death = "884.1.1"
 	}
 }
+#######################################
+# Jhuti Dynasty
+#######################################
 178022 = {
 	name = "Shamsher" # Fictional
 	dynasty = 1041122
@@ -47,54 +58,9 @@
 		death = "884.1.1"
 	}
 }
-178023 = {
-	name = "Prithichand" # Fictional
-	dynasty = 1041123
-	religion = "vaishnavism"
-	culture = "punjabi"
-	834.1.1 = {
-		birth = "834.1.1"
-	}
-	888.1.1 = {
-		death = "884.1.1"
-	}
-}
-178024 = {
-	name = "Khushal" # Fictional
-	dynasty = 1041124
-	religion = "vaishnavism"
-	culture = "punjabi"
-	834.1.1 = {
-		birth = "834.1.1"
-	}
-	888.1.1 = {
-		death = "884.1.1"
-	}
-}
-178025 = {
-	name = "Budh" # Fictional
-	dynasty = 1041125
-	religion = "vaishnavism"
-	culture = "punjabi"
-	834.1.1 = {
-		birth = "834.1.1"
-	}
-	888.1.1 = {
-		death = "884.1.1"
-	}
-}
-178026 = {
-	name = "Mohan" # Fictional
-	dynasty = 1041126
-	religion = "vaishnavism"
-	culture = "punjabi"
-	834.1.1 = {
-		birth = "834.1.1"
-	}
-	888.1.1 = {
-		death = "884.1.1"
-	}
-}
+#######################################
+# Karkota Dynasty
+#######################################
 188373 = {
 	name = "Durlabhavardhana"
 	dynasty = 1042100 # Karkota
@@ -146,7 +112,6 @@
 		death = yes
 	}
 }
-
 188377 = {
 	name = "Lalitadiyta-Muktapida"
 	dynasty = 1042100 # Karkota
@@ -160,7 +125,6 @@
 		death = yes
 	}
 }
-
 188378 = {
 	name = "Kuvalayapida"
 	dynasty = 1042100 # Karkota
@@ -174,7 +138,6 @@
 		death = yes
 	}
 }
-
 188379 = {
 	name = "Vajraditya"
 	dynasty = 1042100 # Karkota
@@ -189,7 +152,6 @@
 		death = yes
 	}
 }
-
 188380 = {
 	name = "Prithvyapida"
 	dynasty = 1042100 # Karkota
@@ -204,7 +166,6 @@
 		death = yes
 	}
 }
-
 188381 = {
 	name = "Jayapida"
 	dynasty = 1042100 # Karkota
@@ -223,7 +184,6 @@
 		death = yes
 	}
 }
-
 188382 = {
 	name = "Durga"
 	female = yes
@@ -236,7 +196,6 @@
 		death = yes
 	}
 }
-
 188383 = {
 	name = "Lalitapida"
 	dynasty = 1042100 # Karkota
@@ -252,7 +211,6 @@
 		death = yes
 	}
 }
-
 188384 = {
 	name = "Samgramapida" # or Prithivyapida
 	dynasty = 1042100 # Karkota
@@ -267,7 +225,6 @@
 		death = yes
 	}
 }
-
 188385 = {
 	name = "Kalyanadevi"
 	female = yes
@@ -280,7 +237,6 @@
 		death = yes
 	}
 }
-
 188386 = {
 	name = "Cippatajayapida"
 	dynasty = 1042100 # Karkota
@@ -295,7 +251,61 @@
 		death = yes
 	}
 }
-
+188392 = {
+	name = "Tribhuvanapida"
+	dynasty = 1042100 # Karkota
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188379
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+188393 = {
+	name = "Ajitapida"
+	dynasty = 1042100 # Karkota
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188392
+	780.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+188394 = {
+	name = "Anangapida"
+	dynasty = 1042100 # Karkota
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188384
+	788.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+188395 = {
+	name = "Utpalapida"
+	dynasty = 1042100 # Karkota
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188393
+	800.1.1 = {
+		birth = yes
+	}
+	856.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Utpala Dynasty
+#######################################
 188387 = {
 	name = "Jayadeva"
 	female = yes
@@ -312,7 +322,6 @@
 		death = yes
 	}
 }
-
 188388 = {
 	name = "Uppa"
 	dynasty = 1042092 # Utpala
@@ -326,7 +335,6 @@
 		death = yes
 	}
 }
-
 188389 = {
 	name = "Utpalaka"
 	dynasty = 1042092 # Utpala
@@ -340,7 +348,6 @@
 		death = yes
 	}
 }
-
 188390 = {
 	name = "Sukhavarma"
 	dynasty = 1042092 # Utpala
@@ -354,7 +361,6 @@
 		death = yes
 	}
 }
-
 188391 = {
 	name = "Avantivarma"
 	dynasty = 1042092 # Utpala
@@ -365,62 +371,6 @@
 		birth = yes
 	}
 	881.1.1 = {
-		death = yes
-	}
-}
-
-188392 = {
-	name = "Tribhuvanapida"
-	dynasty = 1042100 # Karkota
-	religion = "vaishnavism"
-	culture = "kashmiri"
-	father = 188379
-	740.1.1 = {
-		birth = yes
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
-188393 = {
-	name = "Ajitapida"
-	dynasty = 1042100 # Karkota
-	religion = "vaishnavism"
-	culture = "kashmiri"
-	father = 188392
-	780.1.1 = {
-		birth = yes
-	}
-	850.1.1 = {
-		death = yes
-	}
-}
-
-188394 = {
-	name = "Anangapida"
-	dynasty = 1042100 # Karkota
-	religion = "vaishnavism"
-	culture = "kashmiri"
-	father = 188384
-	788.1.1 = {
-		birth = yes
-	}
-	870.1.1 = {
-		death = yes
-	}
-}
-
-188395 = {
-	name = "Utpalapida"
-	dynasty = 1042100 # Karkota
-	religion = "vaishnavism"
-	culture = "kashmiri"
-	father = 188393
-	800.1.1 = {
-		birth = yes
-	}
-	856.1.1 = {
 		death = yes
 	}
 }
@@ -441,7 +391,6 @@
 		death = yes
 	}
 }
-
 188397 = {
 	name = "Gopalavarma"
 	dynasty = 1042092 # Utpala
@@ -456,7 +405,6 @@
 		death = yes
 	}
 }
-
 188398 = {
 	name = "Surgandha"
 	female = yes
@@ -469,7 +417,6 @@
 		death = yes
 	}
 }
-
 188399 = {
 	name = "Suravarman"
 	dynasty = 1042092 # Utpala
@@ -483,7 +430,6 @@
 		death = yes
 	}
 }
-
 188400 = {
 	name = "Sukhavaraman"
 	dynasty = 1042092 # Utpala
@@ -497,7 +443,6 @@
 		death = yes
 	}
 }
-
 188401 = {
 	name = "Nirjitavarman"
 	dynasty = 1042092 # Utpala
@@ -511,7 +456,6 @@
 		death = yes
 	}
 }
-
 188402 = {
 	name = "Partha"
 	dynasty = 1042092 # Utpala
@@ -525,7 +469,6 @@
 		death = yes
 	}
 }
-
 188403 = {
 	name = "Cakravarman"
 	dynasty = 1042092 # Utpala
@@ -539,7 +482,6 @@
 		death = yes
 	}
 }
-
 188404 = {
 	name = "Unmattavanti"
 	dynasty = 1042092 # Utpala
@@ -553,7 +495,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# Lohara Dynasty
+#######################################
 188405 = {
 	name = "Simharaja"
 	dynasty = 1042093 # Lohara
@@ -566,7 +510,6 @@
 		death = yes
 	}
 }
-
 188406 = {
 	name = "Didda"
 	# wife of Ksemagupta Parvagupta, ruler of Kashmir
@@ -582,7 +525,6 @@
 		death = yes
 	}
 }
-
 188407 = {
 	name = "Udayaraja"
 	dynasty = 1042093 # Lohara
@@ -596,7 +538,6 @@
 		death = yes
 	}
 }
-
 188408 = {
 	name = "Kantiraja"
 	dynasty = 1042093 # Lohara
@@ -610,7 +551,6 @@
 		death = yes
 	}
 }
-
 188409 = {
 	name = "Samgrama"
 	dynasty = 1042093 # Lohara
@@ -624,7 +564,6 @@
 		death = yes
 	}
 }
-
 188410 = {
 	name = "Vigraha"
 	dynasty = 1042093 # Lohara
@@ -638,7 +577,6 @@
 		death = yes
 	}
 }
-
 188411 = {
 	name = "Ksitiraja"
 	dynasty = 1042093 # Lohara
@@ -652,7 +590,6 @@
 		death = yes
 	}
 }
-
 188412 = {
 	name = "Bhuvana"
 	dynasty = 1042093 # Lohara
@@ -666,7 +603,6 @@
 		death = yes
 	}
 }
-
 188413 = {
 	name = "Hariraja"
 	dynasty = 1042093 # Lohara
@@ -680,7 +616,6 @@
 		death = yes
 	}
 }
-
 188414 = {
 	name = "Ananta"
 	dynasty = 1042093 # Lohara
@@ -694,7 +629,6 @@
 		death = yes
 	}
 }
-
 188415 = {
 	name = "Jassaraja"
 	dynasty = 1042093 # Lohara
@@ -708,7 +642,6 @@
 		death = yes
 	}
 }
-
 188416 = {
 	name = "Gunga"
 	dynasty = 1042093 # Lohara
@@ -722,7 +655,6 @@
 		death = yes
 	}
 }
-
 188417 = {
 	name = "Malla"
 	dynasty = 1042093 # Lohara
@@ -736,7 +668,6 @@
 		death = yes
 	}
 }
-
 188418 = {
 	name = "Uccala"
 	dynasty = 1042093 # Lohara
@@ -750,7 +681,6 @@
 		death = yes
 	}
 }
-
 188419 = {
 	name = "Kalasa"
 	dynasty = 1042093 # Lohara
@@ -764,7 +694,6 @@
 		death = yes
 	}
 }
-
 188420 = {
 	name = "Harsa"
 	dynasty = 1042093 # Lohara
@@ -778,7 +707,6 @@
 		death = yes
 	}
 }
-
 188421 = {
 	name = "Salhana"
 	dynasty = 1042093 # Lohara
@@ -792,7 +720,6 @@
 		death = yes
 	}
 }
-
 188422 = {
 	name = "Sussala"
 	dynasty = 1042093 # Lohara
@@ -806,7 +733,6 @@
 		death = yes
 	}
 }
-
 188423 = {
 	name = "Bhoja"
 	dynasty = 1042093 # Lohara
@@ -820,7 +746,6 @@
 		death = yes
 	}
 }
-
 188424 = {
 	name = "Bhiksacara"
 	dynasty = 1042093 # Lohara
@@ -834,7 +759,6 @@
 		death = yes
 	}
 }
-
 188425 = {
 	name = "Jayasimha"
 	dynasty = 1042093 # Lohara
@@ -848,7 +772,6 @@
 		death = yes
 	}
 }
-
 188426 = {
 	name = "Paramanuka"
 	dynasty = 1042093 # Lohara
@@ -862,7 +785,6 @@
 		death = yes
 	}
 }
-
 188427 = {
 	name = "Vantideva"
 	dynasty = 1042093 # Lohara
@@ -876,7 +798,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# Vopyadeva Dynasty
+#######################################
 188428 = {
 	name = "Vuppadeva"
 	dynasty = 1042094 # Vopyadeva
@@ -889,7 +813,6 @@
 		death = yes
 	}
 }
-
 188429 = {
 	name = "Vuppadeva"
 	dynasty = 1042094 # Vopyadeva
@@ -903,7 +826,6 @@
 		death = yes
 	}
 }
-
 188430 = {
 	name = "Jassaka"
 	dynasty = 1042094 # Vopyadeva
@@ -917,7 +839,6 @@
 		death = yes
 	}
 }
-
 188431 = {
 	name = "Jagadeva"
 	dynasty = 1042094 # Vopyadeva
@@ -931,7 +852,6 @@
 		death = yes
 	}
 }
-
 188432 = {
 	name = "Rajadeva"
 	dynasty = 1042094 # Vopyadeva
@@ -945,7 +865,6 @@
 		death = yes
 	}
 }
-
 188433 = {
 	name = "Samgramadeva"
 	dynasty = 1042094 # Vopyadeva
@@ -959,7 +878,6 @@
 		death = yes
 	}
 }
-
 188434 = {
 	name = "Ramadeva"
 	dynasty = 1042094 # Vopyadeva
@@ -973,7 +891,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# of Dakhinpara Dynasty
+#######################################
 188435 = {
 	name = "Laksmadeva"
 	dynasty = 1042095 # of Dakhinpara
@@ -987,7 +907,6 @@
 		death = yes
 	}
 }
-
 188436 = {
 	name = "Simhadeva" # fictitious
 	dynasty = 1042095 # of Dakhinpara
@@ -1001,7 +920,6 @@
 		death = yes
 	}
 }
-
 188437 = {
 	name = "Laksmadeva" # fictitious
 	dynasty = 1042095 # of Dakhinpara
@@ -1014,7 +932,6 @@
 		death = yes
 	}
 }
-
 188438 = {
 	name = "Simhadeva"
 	dynasty = 1042095 # of Dakhinpara
@@ -1028,7 +945,6 @@
 		death = yes
 	}
 }
-
 188439 = {
 	name = "Suhadeva"
 	dynasty = 1042095 # of Dakhinpara
@@ -1042,64 +958,6 @@
 		death = yes
 	}
 }
-
-188440 = {
-	name = "Ramacandra"
-	religion = "vaishnavism"
-	culture = "punjabi"
-	1261.1.1 = {
-		birth = yes
-	}
-	1320.6.1 = {
-		death = yes
-	}
-}
-
-188441 = {
-	name = "Kotadevi"
-	female = yes
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = 188440
-	1281.1.1 = {
-		birth = yes
-	}
-	1338.6.1 = {
-		death = yes
-	}
-}
-
-188442 = {
-	name = "Rincana"
-	dynasty = 1042096 # Ladakhi
-	religion = "vaishnavism"
-	culture = "kashmiri"
-	1281.1.1 = {
-		birth = yes
-	}
-	1301.1.1 = {
-		add_spouse = 188441
-	}
-	1323.1.1 = {
-		death = yes
-	}
-}
-
-188443 = {
-	name = "Haidaracandra"
-	dynasty = 1042096 # Ladakhi
-	religion = "vaishnavism"
-	culture = "kashmiri"
-	father = 188442
-	mother = 188441
-	1310.1.1 = {
-		birth = yes
-	}
-	1323.6.1 = {
-		death = yes
-	}
-}
-
 188444 = {
 	name = "Udayanadeva"
 	dynasty = 1042095 # of Dakhinpara
@@ -1116,7 +974,41 @@
 		death = yes
 	}
 }
-
+#######################################
+# Ladakhi Dynasty
+#######################################
+188442 = {
+	name = "Rincana"
+	dynasty = 1042096 # Ladakhi
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	1281.1.1 = {
+		birth = yes
+	}
+	1301.1.1 = {
+		add_spouse = 188441
+	}
+	1323.1.1 = {
+		death = yes
+	}
+}
+188443 = {
+	name = "Haidaracandra"
+	dynasty = 1042096 # Ladakhi
+	religion = "vaishnavism"
+	culture = "kashmiri"
+	father = 188442
+	mother = 188441
+	1310.1.1 = {
+		birth = yes
+	}
+	1323.6.1 = {
+		death = yes
+	}
+}
+#######################################
+# Banu Sama Dynasty
+#######################################
 188528 = {
 	name = "Jahm"
 	dynasty = 1042099 # Banu Sama
@@ -1130,7 +1022,6 @@
 		death = yes
 	}
 }
-
 188537 = {
 	name = "Ismail" # fictitious
 	dynasty = 1042099 # Banu Sama
@@ -1144,7 +1035,6 @@
 		death = yes
 	}
 }
-
 188529 = {
 	name = "Muhammad" # fictitious
 	dynasty = 1042099 # Banu Sama
@@ -1158,7 +1048,6 @@
 		death = yes
 	}
 }
-
 188530 = {
 	name = "Munabbih"
 	dynasty = 1042099 # Banu Sama
@@ -1172,7 +1061,6 @@
 		death = yes
 	}
 }
-
 188531 = {
 	name = "al-Qasim"
 	dynasty = 1042099 # Banu Sama
@@ -1186,7 +1074,6 @@
 		death = yes
 	}
 }
-
 188532 = {
 	name = "Muhammad"
 	dynasty = 1042099 # Banu Sama
@@ -1200,7 +1087,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# Karmatia Dynasty
+#######################################
 188538 = {
 	name = "Farid" # fictional
 	dynasty = 1042101 # Karmatia
@@ -1213,7 +1102,6 @@
 		death = yes
 	}
 }
-
 188539 = {
 	name = "Amir" # fictional
 	dynasty = 1042101 # Karmatia
@@ -1227,7 +1115,6 @@
 		death = yes
 	}
 }
-
 188540 = {
 	name = "Arjun" # fictional
 	dynasty = 1042101 # Karmatia
@@ -1241,7 +1128,6 @@
 		death = yes
 	}
 }
-
 188541 = {
 	name = "Muhammad" # fictional
 	dynasty = 1042101 # Karmatia
@@ -1255,7 +1141,6 @@
 		death = yes
 	}
 }
-
 188542 = {
 	name = "Hasan" # fictional
 	dynasty = 1042101 # Karmatia
@@ -1269,7 +1154,6 @@
 		death = yes
 	}
 }
-
 188543 = {
 	name = "Musa" # fictional
 	dynasty = 1042101 # Karmatia
@@ -1283,16 +1167,32 @@
 		death = yes
 	}
 }
-191017 = {
-	name = "Sher"	#Fictional
-	dynasty = 1044305 #Madra
-	religion = "vaishnavism"
+ghaznavid_vassal_1 = {
+	name = "Rajpal"
+	dynasty = 1042101  #Qarmatia
+	religion = "ashari" #had converted
 	culture = "punjabi"
-	740.1.1 = {
+	father = 188538
+	1050.1.1 = {
 		birth = yes
 	}
-	810.1.1 = {
+	1080.1.1 = {
 		death = yes
+	}
+}
+#######################################
+# Padda Dynasty
+#######################################
+178025 = {
+	name = "Budh" # Fictional
+	dynasty = 1041125
+	religion = "vaishnavism"
+	culture = "punjabi"
+	834.1.1 = {
+		birth = "834.1.1"
+	}
+	888.1.1 = {
+		death = "884.1.1"
 	}
 }
 188552 = {
@@ -1307,7 +1207,6 @@
 		death = yes
 	}
 }
-
 188553 = {
 	name = "Prithichand" # fictional
 	dynasty = 1041125
@@ -1321,7 +1220,21 @@
 		death = yes
 	}
 }
-
+#######################################
+# Kahlon Dynasty
+#######################################
+178023 = {
+	name = "Prithichand" # Fictional
+	dynasty = 1041123
+	religion = "vaishnavism"
+	culture = "punjabi"
+	834.1.1 = {
+		birth = "834.1.1"
+	}
+	888.1.1 = {
+		death = "884.1.1"
+	}
+}
 188554 = {
 	name = "Pheru" # fictional
 	dynasty = 1041123
@@ -1334,7 +1247,21 @@
 		death = yes
 	}
 }
-
+#######################################
+# Nagra Dynasty
+#######################################
+178024 = {
+	name = "Khushal" # Fictional
+	dynasty = 1041124
+	religion = "vaishnavism"
+	culture = "punjabi"
+	834.1.1 = {
+		birth = "834.1.1"
+	}
+	888.1.1 = {
+		death = "884.1.1"
+	}
+}
 188555 = {
 	name = "Lahna" # fictional
 	dynasty = 1041124
@@ -1347,181 +1274,9 @@
 		death = yes
 	}
 }
-188568 = {
-	name = "Lakhmichand" # fictitious holder of Purushapura
-	dynasty = 1042106 # Nagar
-	religion = "mahayana"
-	culture = "punjabi"
-	751.6.30 = {
-		birth = yes
-	}
-	803.1.1 = {
-		death = yes
-	}
-}
-
-188569 = {
-	name = "Zorawar" # fictitious holder of Bannu
-	dynasty = 1042107 # Varna
-	religion = "mahayana"
-	culture = "punjabi"
-	743.4.20 = {
-		birth = yes
-	}
-	803.1.1 = {
-		death = yes
-	}
-}
-191961 = {
-	name = "Sujji"	#Fictional
-	dynasty = 1044393 # Saindhava
-	religion = "kalikula_shaktism"
-	culture = "punjabi"
-	740.1.1 = {
-		birth = yes
-	}
-	764.1.1 = {
-		add_spouse = 191963
-	}
-	780.1.1 = {
-		death = yes
-	}
-}
-
-191962 = {
-	name = "Lothana"	#Fictional
-	dynasty = 1044393 # Saindhava
-	religion = "kalikula_shaktism"
-	culture = "punjabi"
-	father = 191961
-	mother = 191963
-	765.1.1 = {
-		birth = yes
-	}
-	820.1.1 = {
-		death = yes
-	}
-}
-
-
-191963 = {
-	name = "Surgandha"	#Fictional
-	female = yes
-	religion = "kalikula_shaktism"
-	culture = "punjabi"
-	745.1.1 = {
-		birth = yes
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
-191964 = {
-	name = "Kotadevi"	#Fictional
-	dynasty = 1044393 # Saindhava
-	female = yes
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = 191961
-	mother = 191963
-	767.1.1 = {
-		birth = yes
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
-191965 = {
-	name = "Sangiya"	#Fictional
-	dynasty = 1044394 #Takkavishaya
-	religion = "vaishnavism"
-	culture = "punjabi"
-	720.1.1 = {
-		birth = yes
-	}
-	749.1.1 = {
-		add_spouse = 191967
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
-191966 = {
-	name = "Lava"	#Fictional
-	dynasty = 1044394 #Takkavishaya
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = 191965
-	mother = 191967
-	750.1.1 = {
-		birth = yes
-	}
-	830.1.1 = {
-		death = yes
-	}
-}
-
-191967 = {
-	name = "Khivi"	#Fictional
-	female = yes
-	religion = "vaishnavism"
-	culture = "punjabi"
-	730.1.1 = {
-		birth = yes
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
-191968 = {
-	name = "Tripta"	#Fictional
-	dynasty = 1044394 #Takkavishaya
-	female = yes
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = 191965
-	mother = 191967
-	755.1.1 = {
-		birth = yes
-	}
-	820.1.1 = {
-		death = yes
-	}
-}
-
-191969 = {
-	name = "Govinda"	#Fictional
-	dynasty = 1044395
-	religion = "vaishnavism"
-	culture = "punjabi"
-	740.1.1 = {
-		birth = yes
-	}
-	765.1.1 = {
-		add_spouse = 191970
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
-191970 = {
-	name = "Sahaja"	#Fictional
-	female = yes
-	religion = "vaishnavism"
-	culture = "punjabi"
-	745.1.1 = {
-		birth = yes
-	}
-	820.1.1 = {
-		death = yes
-	}
-}
-
+#######################################
+# Gakkhar Dynasty
+#######################################
 191971 = {
 	name = "Zain"
 	dynasty = 1044396 #Gakkhar
@@ -1534,7 +1289,6 @@
 		death = yes
 	}
 }
-
 191972 = {
 	name = "Kai_Gohar"
 	dynasty = 1044396 #Gakkhar
@@ -1548,7 +1302,6 @@
 		death = yes
 	}
 }
-
 191973 = {
 	name = "Bag"
 	dynasty = 1044396 #Gakkhar
@@ -1562,7 +1315,6 @@
 		death = yes
 	}
 }
-
 191974 = {
 	name = "Mahpal"
 	dynasty = 1044396 #Gakkhar
@@ -1576,7 +1328,6 @@
 		death = yes
 	}
 }
-
 191975 = {
 	name = "Mu_azzam"
 	dynasty = 1044396 #Gakkhar
@@ -1590,7 +1341,6 @@
 		death = yes
 	}
 }
-
 191987 = {
 	name = "Sundari"	#Fictional
 	dynasty = 1044396 #Gakkhar
@@ -1605,7 +1355,6 @@
 		death = yes
 	}
 }
-
 191976 = {
 	name = "Asi"
 	dynasty = 1044396 #Gakkhar
@@ -1619,7 +1368,6 @@
 		death = yes
 	}
 }
-
 191977 = {
 	name = "Ragar"
 	dynasty = 1044396 #Gakkhar
@@ -1633,7 +1381,6 @@
 		death = yes
 	}
 }
-
 191978 = {
 	name = "Sipihr"
 	dynasty = 1044396 #Gakkhar
@@ -1647,7 +1394,6 @@
 		death = yes
 	}
 }
-
 191979 = {
 	name = "Surkah"
 	dynasty = 1044396 #Gakkhar
@@ -1661,7 +1407,6 @@
 		death = yes
 	}
 }
-
 191980 = {
 	name = "Fidai"
 	dynasty = 1044396 #Gakkhar
@@ -1675,7 +1420,6 @@
 		death = yes
 	}
 }
-
 191981 = {
 	name = "Mang"
 	dynasty = 1044396 #Gakkhar
@@ -1689,7 +1433,6 @@
 		death = yes
 	}
 }
-
 191982 = {
 	name = "Lahar"
 	dynasty = 1044396 #Gakkhar
@@ -1703,7 +1446,6 @@
 		death = yes
 	}
 }
-
 191983 = {
 	name = "Lakhan"
 	dynasty = 1044396 #Gakkhar
@@ -1717,7 +1459,6 @@
 		death = yes
 	}
 }
-
 191984 = {
 	name = "Haydar"
 	dynasty = 1044396 #Gakkhar
@@ -1731,7 +1472,6 @@
 		death = yes
 	}
 }
-
 191985 = {
 	name = "Kad"
 	dynasty = 1044396 #Gakkhar
@@ -1745,7 +1485,6 @@
 		death = yes
 	}
 }
-
 191986 = {
 	name = "Saiha"
 	dynasty = 1044396 #Gakkhar
@@ -1772,21 +1511,1213 @@
 		death = yes
 	}
 }
+#######################################
+# Katoch Dynasty
+#######################################
+katoch_1 = {
+	name="Adam_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	590.1.1={
+		birth=yes
+	}
+	648.1.1={
+		death=yes
+	}
+}
+katoch_2 = {
+	name="Manorath_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_1
+	607.1.1={
+		birth=yes
+	}
+	656.1.1={
+		death=yes
+	}
+}
+katoch_3 = {
+	name="Suratran_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_2
+	624.1.1={
+		birth=yes
+	}
+	668.1.1={
+		death=yes
+	}
+}
+katoch_4 = {
+	name="Shaktiran_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_3
+	640.1.1={
+		birth=yes
+	}
+	681.1.1={
+		death=yes
+	}
+}
+katoch_5 = {
+	name="Madan_Chandra" #III
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_4
+	656.1.1={
+		birth=yes
+	}
+	688.1.1={
+		death=yes
+	}
+}
+katoch_6 = {
+	name="Gyan_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_5
+	672.1.1={
+		birth=yes
+	}
+	699.1.1={
+		death=yes
+	}
+}
+katoch_7 = {
+	name="Baraha_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_6
+	688.1.1={
+		birth=yes
+	}
+	718.1.1={
+		death=yes
+	}
+}
+katoch_8 = {
+	name="Jaimal_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_7
+	704.1.1={
+		birth=yes
+	}
+	739.1.1={
+		death=yes
+	}
+}
+katoch_9 = {
+	name="Viram_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_8
+	720.1.1={
+		birth=yes
+	}
+	745.1.1={
+		death=yes
+	}
+}
+katoch_10 = {
+	name="Harit_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_9
+	736.1.1={
+		birth=yes
+	}
+	757.1.1={
+		death=yes
+	}
+}
+katoch_11 = {
+	name="Ratan_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_10
+	752.1.1={
+		birth=yes
+	}
+	777.1.1={
+		death=yes
+	}
+}
+katoch_12 = {
+	name="Ashoka_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_11
+	768.1.1={
+		birth=yes
+	}
+	793.1.1={
+		death=yes
+	}
+}
+katoch_13 = {
+	name="Halghar_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_11
+	770.1.1={
+		birth=yes
+	}
+	796.1.1={
+		death=yes
+	}
+}
+katoch_14 = {
+	name="Mubarak_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_13
+	786.1.1={
+		birth=yes
+	}
+	807.1.1={
+		death=yes
+	}
+}
+katoch_15 = {
+	name="Rup_Chandra" #III
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_11
+	772.1.1={
+		birth=yes
+	}
+	810.1.1={
+		death=yes
+	}
+}
+katoch_16 = {
+	name="Parshuram_Chandra" #IV
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_15
+	788.1.1={
+		birth=yes
+	}
+	810.1.1={
+		religion="shaivism"
 
-ghaznavid_vassal_1 = {
-	name = "Rajpal"
-	dynasty = 1042101  #Qarmatia
-	religion = "ashari" #had converted
+	}
+	819.1.1={
+		death=yes
+	}
+}
+katoch_17 = {
+	name="Govind_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="vajrayana"
+	culture="punjabi"
+	father=katoch_16
+	804.1.1={
+		birth=yes
+	}
+	810.1.1={
+		religion="shaivism"
+
+	}
+	828.1.1={
+		death=yes
+	}
+}
+katoch_18 = {
+	name="Govind_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_17
+	820.1.1={
+		birth=yes
+	}
+	852.1.1={
+		death=yes
+	}
+}
+katoch_19 = {
+	name="Balbhadar_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_18
+	836.1.1={
+		birth=yes
+	}
+	855.1.1={
+		death=yes
+	}
+}
+katoch_20 = {
+	name="Hartal_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_18
+	838.1.1={
+		birth=yes
+	}
+	858.1.1={
+		death=yes
+	}
+}
+katoch_21 = {
+	name="Dattar_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_18
+	840.1.1={
+		birth=yes
+	}
+	863.1.1={
+		death=yes
+	}
+}
+katoch_22 = {
+	name="Tattar_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_18
+	843.1.1={
+		birth=yes
+	}
+	865.1.1={
+		death=yes
+	}
+}
+katoch_23 = {
+	name="Abhay_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_19
+	852.1.1={
+		birth=yes
+	}
+	875.1.1={
+		death=yes
+	}
+}
+katoch_24 = {
+	name="Rup_Chandra" #IV
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_20
+	854.1.1={
+		birth=yes
+	}
+	877.1.1={
+		death=yes
+	}
+}
+katoch_25 = {
+	name="Kehari_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_19
+	854.1.1={
+		birth=yes
+	}
+	880.1.1={
+		death=yes
+	}
+}
+katoch_26 = {
+	name="Bhagvat_Chandra" #III
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_24
+	870.1.1={
+		birth=yes
+	}
+	895.1.1={
+		death=yes
+	}
+}
+katoch_27 = {
+	name="Indu_Chandra" #I
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_26
+	886.1.1={
+		birth=yes
+	}
+	908.1.1={
+		death=yes
+	}
+}
+katoch_28 = {
+	name="Surya_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_26
+	888.1.1={
+		birth=yes
+	}
+	912.1.1={
+		death=yes
+	}
+}
+katoch_29 = {
+	name="Harish_Chandra" #V
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_26
+	891.1.1={
+		birth=yes
+	}
+	915.1.1={
+		death=yes
+	}
+}
+katoch_30 = {
+	name="Madhav_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_26
+	893.1.1={
+		birth=yes
+	}
+	918.1.1={
+		death=yes
+	}
+}
+katoch_31 = {
+	name="Vishambhar_Chandra" #III
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_26
+	895.1.1={
+		birth=yes
+	}
+	926.1.1={
+		death=yes
+	}
+}
+katoch_32 = {
+	name="Vidhuvishnu_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_27
+	902.1.1={
+		birth=yes
+	}
+	929.1.1={
+		death=yes
+	}
+}
+katoch_33 = {
+	name="Keshav_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_27
+	905.1.1={
+		birth=yes
+	}
+	932.1.1={
+		death=yes
+	}
+}
+katoch_34 = {
+	name="Vikram_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_27
+	908.1.1={
+		birth=yes
+	}
+	935.1.1={
+		death=yes
+	}
+}
+katoch_35 = {
+	name="Prithvi_Chandra" #I
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_28
+	904.1.1={
+		birth=yes
+	}
+	937.1.1={
+		death=yes
+	}
+}
+katoch_36 = {
+	name="Bhimsen_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_29
+	907.1.1={
+		birth=yes
+	}
+	939.1.1={
+		death=yes
+	}
+}
+katoch_37 = {
+	name="Karuna_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_32
+	918.1.1={
+		birth=yes
+	}
+	945.1.1={
+		death=yes
+	}
+}
+katoch_38 = {
+	name="Kuber_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_31
+	911.1.1={
+		birth=yes
+	}
+	949.1.1={
+		death=yes
+	}
+}
+katoch_39 = {
+	name="Jaya_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_37
+	934.1.1={
+		birth=yes
+	}
+	960.1.1={
+		death=yes
+	}
+}
+katoch_40 = {
+	name="Mahesh_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_39
+	950.1.1={
+		birth=yes
+	}
+	982.1.1={
+		death=yes
+	}
+}
+katoch_41 = {
+	name="Krishan_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_40
+	966.1.1={
+		birth=yes
+	}
+	995.1.1={
+		death=yes
+	}
+}
+katoch_42 = {
+	name="Arjun_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_40
+	968.1.1={
+		birth=yes
+	}
+	1008.1.1={
+		death=yes
+	}
+}
+katoch_43 = {
+	name="Jagdish_Chandra" #III
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_42
+	984.1.1={
+		birth=yes
+	}
+	1039.1.1={
+		death=yes
+	}
+}
+katoch_44 = {
+	name="Indu_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_43
+	1000.1.1={
+		birth=yes
+	}
+	1063.1.1={
+		death=yes
+	}
+}
+katoch_45 = {
+	name="Jagdish_Chandra" #IV
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_44
+	1026.1.1={
+		birth=yes
+	}
+	1081.1.1={
+		death=yes
+	}
+}
+katoch_46 = {
+	name="Bhagvan_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_45
+	1050.1.1={
+		birth=yes
+	}
+	1124.1.1={
+		death=yes
+	}
+}
+katoch_47 = {
+	name="Laxmi_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_46
+	1068.1.1={
+		birth=yes
+	}
+	1150.1.1={
+		death=yes
+	}
+}
+katoch_48 = {
+	name="Vigyat_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_47
+	1084.1.1={
+		birth=yes
+	}
+	1158.1.1={
+		death=yes
+	}
+}
+katoch_49 = {
+	name="Yog_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_48
+	1100.1.1={
+		birth=yes
+	}
+	1168.1.1={
+		death=yes
+	}
+}
+katoch_50 = {
+	name="Padam_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_49
+	1125.1.1={
+		birth=yes
+	}
+	1179.1.1={
+		death=yes
+	}
+}
+katoch_51 = {
+	name="Vishnu_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_50
+	1143.1.1={
+		birth=yes
+	}
+	1185.1.1={
+		death=yes
+	}
+}
+katoch_52 = {
+	name="Shiv_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_51
+	1160.1.1={
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+katoch_53 = {
+	name="Jai_Sinha_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_52
+	1177.1.1={
+		birth=yes
+	}
+	1221.1.1={
+		death=yes
+	}
+}
+katoch_54 = {
+	name="Ishwar_Chandra" #III
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_53
+	1194.1.1={
+		birth=yes
+	}
+	1237.1.1={
+		death=yes
+	}
+}
+katoch_55 = {
+	name="Kedar_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_54
+	1210.1.1={
+		birth=yes
+	}
+	1254.1.1={
+		death=yes
+	}
+}
+katoch_56 = {
+	name="Kalyan_Chandra" #V
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_55
+	1226.1.1={
+		birth=yes
+	}
+	1278.1.1={
+		death=yes
+	}
+}
+katoch_57 = {
+	name="Kaul_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_56
+	1242.1.1={
+		birth=yes
+	}
+	1297.1.1={
+		death=yes
+	}
+}
+katoch_58 = {
+	name="Gambhir_Chandra" #I
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_57
+	1260.1.1={
+		birth=yes
+	}
+	1314.1.1={
+		death=yes
+	}
+}
+katoch_59 = {
+	name="Jai Singh Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_58
+	1280.1.1={
+		birth=yes
+	}
+	1327.1.1={
+		death=yes
+	}
+}
+katoch_60 = {
+	name="Prithvi_Chandra" #II
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_59
+	1296.1.1={
+		birth=yes
+	}
+	1338.1.1={
+		death=yes
+	}
+}
+katoch_61 = {
+	name="Purab_Chandra"
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_60
+	1312.1.1={
+		birth=yes
+	}
+	1358.1.1={
+		death=yes
+	}
+}
+katoch_62 = {
+	name="Rup_Chandra" #V
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_61
+	1328.1.1={
+		birth=yes
+	}
+	1369.1.1={
+		death=yes
+	}
+}
+katoch_63 = {
+	name="Shringar_Chandra" #IV
+	dynasty=punjabi_katoch_dynasty #Katoch
+	religion="shaivism"
+	culture="punjabi"
+	father=katoch_62
+	1344.1.1={
+		birth=yes
+	}
+	1387.1.1={
+		death=yes
+	}
+}
+#######################################
+# dogra Dynasty
+#######################################
+dogra_ruler_0 = {
+	name = "Suraj_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
 	culture = "punjabi"
-	father = 188538
-	1050.1.1 = {
+	830.1.1 = {
 		birth = yes
 	}
-	1080.1.1 = {
+	920.1.1 = {
 		death = yes
 	}
 }
-
+dogra_ruler_1 = {
+	name = "Bhoj_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_0
+	890.1.1 = {
+		birth = yes
+	}
+	987.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_2 = {
+	name = "Avtar_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_1
+	950.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_3 = {
+	name = "Jas_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_2
+	980.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_4 = {
+	name = "Sangram_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_3
+	1020.1.1 = {
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_5 = {
+	name = "Jasaskar"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_4
+	1065.1.1 = {
+		birth = yes
+	}
+	1165.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_6 = {
+	name = "Brij_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_5
+	1125.1.1 = {
+		birth = yes
+	}
+	1216.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_7 = {
+	name = "Narsing_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_6
+	1198.1.1 = {
+		birth = yes
+	}
+	1258.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_8 = {
+	name = "Arjan_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_7
+	1230.1.1 = {
+		birth = yes
+	}
+	1313.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_9 = {
+	name = "Jodh_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_8
+	1280.1.1 = {
+		birth = yes
+	}
+	1361.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_10 = {
+	name = "Mal_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_8
+	1340.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+dogra_ruler_11 = {
+	name = "Hamir_Dev"
+	dynasty = punjabi_dogra_dynasty
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = dogra_ruler_8
+	1380.1.1 = {
+		birth = yes
+	}
+	1423.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Saindhava Dynasty
+#######################################
+191961 = {
+	name = "Sujji"	#Fictional
+	dynasty = 1044393 # Saindhava
+	religion = "kalikula_shaktism"
+	culture = "punjabi"
+	740.1.1 = {
+		birth = yes
+	}
+	764.1.1 = {
+		add_spouse = 191963
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+191962 = {
+	name = "Lothana"	#Fictional
+	dynasty = 1044393 # Saindhava
+	religion = "kalikula_shaktism"
+	culture = "punjabi"
+	father = 191961
+	mother = 191963
+	765.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+191964 = {
+	name = "Kotadevi"	#Fictional
+	dynasty = 1044393 # Saindhava
+	female = yes
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = 191961
+	mother = 191963
+	767.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Takkavishaya Dynasty
+#######################################
+191965 = {
+	name = "Sangiya"	#Fictional
+	dynasty = 1044394 #Takkavishaya
+	religion = "vaishnavism"
+	culture = "punjabi"
+	720.1.1 = {
+		birth = yes
+	}
+	749.1.1 = {
+		add_spouse = 191967
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+191966 = {
+	name = "Lava"	#Fictional
+	dynasty = 1044394 #Takkavishaya
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = 191965
+	mother = 191967
+	750.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+191968 = {
+	name = "Tripta"	#Fictional
+	dynasty = 1044394 #Takkavishaya
+	female = yes
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = 191965
+	mother = 191967
+	755.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Other Characters
+#######################################
+178026 = {
+	name = "Mohan" # Fictional
+	dynasty = 1041126
+	religion = "vaishnavism"
+	culture = "punjabi"
+	834.1.1 = {
+		birth = "834.1.1"
+	}
+	888.1.1 = {
+		death = "884.1.1"
+	}
+}
+188440 = {
+	name = "Ramacandra"
+	religion = "vaishnavism"
+	culture = "punjabi"
+	1261.1.1 = {
+		birth = yes
+	}
+	1320.6.1 = {
+		death = yes
+	}
+}
+188441 = {
+	name = "Kotadevi"
+	female = yes
+	religion = "vaishnavism"
+	culture = "punjabi"
+	father = 188440
+	1281.1.1 = {
+		birth = yes
+	}
+	1338.6.1 = {
+		death = yes
+	}
+}
+191017 = {
+	name = "Sher"	#Fictional
+	dynasty = 1044305 #Madra
+	religion = "vaishnavism"
+	culture = "punjabi"
+	740.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+188568 = {
+	name = "Lakhmichand" # fictitious holder of Purushapura
+	dynasty = 1042106 # Nagar
+	religion = "mahayana"
+	culture = "punjabi"
+	751.6.30 = {
+		birth = yes
+	}
+	803.1.1 = {
+		death = yes
+	}
+}
+188569 = {
+	name = "Zorawar" # fictitious holder of Bannu
+	dynasty = 1042107 # Varna
+	religion = "mahayana"
+	culture = "punjabi"
+	743.4.20 = {
+		birth = yes
+	}
+	803.1.1 = {
+		death = yes
+	}
+}
+191963 = {
+	name = "Surgandha"	#Fictional
+	female = yes
+	religion = "kalikula_shaktism"
+	culture = "punjabi"
+	745.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+191967 = {
+	name = "Khivi"	#Fictional
+	female = yes
+	religion = "vaishnavism"
+	culture = "punjabi"
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+191969 = {
+	name = "Govinda"	#Fictional
+	dynasty = 1044395
+	religion = "vaishnavism"
+	culture = "punjabi"
+	740.1.1 = {
+		birth = yes
+	}
+	765.1.1 = {
+		add_spouse = 191970
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+191970 = {
+	name = "Sahaja"	#Fictional
+	female = yes
+	religion = "vaishnavism"
+	culture = "punjabi"
+	745.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
 ghaznavid_vassal_2 = {
 	name = "Amarji"
 	dynasty = punjabi_varha_dynasty
@@ -1799,7 +2730,6 @@ ghaznavid_vassal_2 = {
 		death = yes
 	}
 }
-
 ghaznavid_vassal_3 = {
 	name = "Abul_Naim" #Abul Naim Zarir Shaybani
 	dynasty = tajik_shaybani_dynasty #Shaybanid
@@ -1821,7 +2751,6 @@ ghaznavid_vassal_3 = {
 		death = yes
 	}
 }
-
 ghaznavid_vassal_4 = {
 	name = "Tilak" #Tilak
 	dynasty = punjabi_tilaki_dynasty #Dynasty Unknown
@@ -1835,1060 +2764,3 @@ ghaznavid_vassal_4 = {
 	}
 }
 
-dogra_ruler_0 = {
-	name = "Suraj_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	830.1.1 = {
-		birth = yes
-	}
-	920.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_1 = {
-	name = "Bhoj_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_0
-	890.1.1 = {
-		birth = yes
-	}
-	987.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_2 = {
-	name = "Avtar_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_1
-	950.1.1 = {
-		birth = yes
-	}
-	1030.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_3 = {
-	name = "Jas_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_2
-	980.1.1 = {
-		birth = yes
-	}
-	1061.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_4 = {
-	name = "Sangram_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_3
-	1020.1.1 = {
-		birth = yes
-	}
-	1095.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_5 = {
-	name = "Jasaskar"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_4
-	1065.1.1 = {
-		birth = yes
-	}
-	1165.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_6 = {
-	name = "Brij_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_5
-	1125.1.1 = {
-		birth = yes
-	}
-	1216.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_7 = {
-	name = "Narsing_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_6
-	1198.1.1 = {
-		birth = yes
-	}
-	1258.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_8 = {
-	name = "Arjan_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_7
-	1230.1.1 = {
-		birth = yes
-	}
-	1313.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_9 = {
-	name = "Jodh_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_8
-	1280.1.1 = {
-		birth = yes
-	}
-	1361.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_10 = {
-	name = "Mal_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_8
-	1340.1.1 = {
-		birth = yes
-	}
-	1400.1.1 = {
-		death = yes
-	}
-}
-
-dogra_ruler_11 = {
-	name = "Hamir_Dev"
-	dynasty = punjabi_dogra_dynasty
-	religion = "vaishnavism"
-	culture = "punjabi"
-	father = dogra_ruler_8
-	1380.1.1 = {
-		birth = yes
-	}
-	1423.1.1 = {
-		death = yes
-	}
-}
-
-#Katoch Dynasty
-
-katoch_1 = {
-	name="Adam_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	590.1.1={
-		birth=yes
-	}
-	648.1.1={
-		death=yes
-	}
-}
-
-katoch_2 = {
-	name="Manorath_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_1
-	607.1.1={
-		birth=yes
-	}
-	656.1.1={
-		death=yes
-	}
-}
-
-katoch_3 = {
-	name="Suratran_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_2
-	624.1.1={
-		birth=yes
-	}
-	668.1.1={
-		death=yes
-	}
-}
-
-katoch_4 = {
-	name="Shaktiran_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_3
-	640.1.1={
-		birth=yes
-	}
-	681.1.1={
-		death=yes
-	}
-}
-
-katoch_5 = {
-	name="Madan_Chandra" #III
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_4
-	656.1.1={
-		birth=yes
-	}
-	688.1.1={
-		death=yes
-	}
-}
-
-katoch_6 = {
-	name="Gyan_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_5
-	672.1.1={
-		birth=yes
-	}
-	699.1.1={
-		death=yes
-	}
-}
-
-katoch_7 = {
-	name="Baraha_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_6
-	688.1.1={
-		birth=yes
-	}
-	718.1.1={
-		death=yes
-	}
-}
-
-katoch_8 = {
-	name="Jaimal_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_7
-	704.1.1={
-		birth=yes
-	}
-	739.1.1={
-		death=yes
-	}
-}
-
-katoch_9 = {
-	name="Viram_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_8
-	720.1.1={
-		birth=yes
-	}
-	745.1.1={
-		death=yes
-	}
-}
-
-katoch_10 = {
-	name="Harit_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_9
-	736.1.1={
-		birth=yes
-	}
-	757.1.1={
-		death=yes
-	}
-}
-
-katoch_11 = {
-	name="Ratan_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_10
-	752.1.1={
-		birth=yes
-	}
-	777.1.1={
-		death=yes
-	}
-}
-
-katoch_12 = {
-	name="Ashoka_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_11
-	768.1.1={
-		birth=yes
-	}
-	793.1.1={
-		death=yes
-	}
-}
-
-katoch_13 = {
-	name="Halghar_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_11
-	770.1.1={
-		birth=yes
-	}
-	796.1.1={
-		death=yes
-	}
-}
-
-katoch_14 = {
-	name="Mubarak_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_13
-	786.1.1={
-		birth=yes
-	}
-	807.1.1={
-		death=yes
-	}
-}
-
-katoch_15 = {
-	name="Rup_Chandra" #III
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_11
-	772.1.1={
-		birth=yes
-	}
-	810.1.1={
-		death=yes
-	}
-}
-
-katoch_16 = {
-	name="Parshuram_Chandra" #IV
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_15
-	788.1.1={
-		birth=yes
-	}
-	810.1.1={
-		religion="shaivism"
-
-	}
-	819.1.1={
-		death=yes
-	}
-}
-
-katoch_17 = {
-	name="Govind_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="vajrayana"
-	culture="punjabi"
-	father=katoch_16
-	804.1.1={
-		birth=yes
-	}
-	810.1.1={
-		religion="shaivism"
-
-	}
-	828.1.1={
-		death=yes
-	}
-}
-
-katoch_18 = {
-	name="Govind_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_17
-	820.1.1={
-		birth=yes
-	}
-	852.1.1={
-		death=yes
-	}
-}
-
-katoch_19 = {
-	name="Balbhadar_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_18
-	836.1.1={
-		birth=yes
-	}
-	855.1.1={
-		death=yes
-	}
-}
-
-katoch_20 = {
-	name="Hartal_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_18
-	838.1.1={
-		birth=yes
-	}
-	858.1.1={
-		death=yes
-	}
-}
-
-katoch_21 = {
-	name="Dattar_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_18
-	840.1.1={
-		birth=yes
-	}
-	863.1.1={
-		death=yes
-	}
-}
-
-katoch_22 = {
-	name="Tattar_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_18
-	843.1.1={
-		birth=yes
-	}
-	865.1.1={
-		death=yes
-	}
-}
-
-katoch_23 = {
-	name="Abhay_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_19
-	852.1.1={
-		birth=yes
-	}
-	875.1.1={
-		death=yes
-	}
-}
-
-katoch_24 = {
-	name="Rup_Chandra" #IV
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_20
-	854.1.1={
-		birth=yes
-	}
-	877.1.1={
-		death=yes
-	}
-}
-
-katoch_25 = {
-	name="Kehari_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_19
-	854.1.1={
-		birth=yes
-	}
-	880.1.1={
-		death=yes
-	}
-}
-
-katoch_26 = {
-	name="Bhagvat_Chandra" #III
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_24
-	870.1.1={
-		birth=yes
-	}
-	895.1.1={
-		death=yes
-	}
-}
-
-katoch_27 = {
-	name="Indu_Chandra" #I
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_26
-	886.1.1={
-		birth=yes
-	}
-	908.1.1={
-		death=yes
-	}
-}
-
-katoch_28 = {
-	name="Surya_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_26
-	888.1.1={
-		birth=yes
-	}
-	912.1.1={
-		death=yes
-	}
-}
-
-katoch_29 = {
-	name="Harish_Chandra" #V
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_26
-	891.1.1={
-		birth=yes
-	}
-	915.1.1={
-		death=yes
-	}
-}
-
-katoch_30 = {
-	name="Madhav_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_26
-	893.1.1={
-		birth=yes
-	}
-	918.1.1={
-		death=yes
-	}
-}
-
-katoch_31 = {
-	name="Vishambhar_Chandra" #III
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_26
-	895.1.1={
-		birth=yes
-	}
-	926.1.1={
-		death=yes
-	}
-}
-
-katoch_32 = {
-	name="Vidhuvishnu_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_27
-	902.1.1={
-		birth=yes
-	}
-	929.1.1={
-		death=yes
-	}
-}
-
-katoch_33 = {
-	name="Keshav_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_27
-	905.1.1={
-		birth=yes
-	}
-	932.1.1={
-		death=yes
-	}
-}
-
-katoch_34 = {
-	name="Vikram_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_27
-	908.1.1={
-		birth=yes
-	}
-	935.1.1={
-		death=yes
-	}
-}
-
-katoch_35 = {
-	name="Prithvi_Chandra" #I
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_28
-	904.1.1={
-		birth=yes
-	}
-	937.1.1={
-		death=yes
-	}
-}
-
-katoch_36 = {
-	name="Bhimsen_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_29
-	907.1.1={
-		birth=yes
-	}
-	939.1.1={
-		death=yes
-	}
-}
-
-katoch_37 = {
-	name="Karuna_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_32
-	918.1.1={
-		birth=yes
-	}
-	945.1.1={
-		death=yes
-	}
-}
-
-katoch_38 = {
-	name="Kuber_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_31
-	911.1.1={
-		birth=yes
-	}
-	949.1.1={
-		death=yes
-	}
-}
-
-katoch_39 = {
-	name="Jaya_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_37
-	934.1.1={
-		birth=yes
-	}
-	960.1.1={
-		death=yes
-	}
-}
-
-katoch_40 = {
-	name="Mahesh_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_39
-	950.1.1={
-		birth=yes
-	}
-	982.1.1={
-		death=yes
-	}
-}
-
-katoch_41 = {
-	name="Krishan_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_40
-	966.1.1={
-		birth=yes
-	}
-	995.1.1={
-		death=yes
-	}
-}
-
-katoch_42 = {
-	name="Arjun_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_40
-	968.1.1={
-		birth=yes
-	}
-	1008.1.1={
-		death=yes
-	}
-}
-
-katoch_43 = {
-	name="Jagdish_Chandra" #III
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_42
-	984.1.1={
-		birth=yes
-	}
-	1039.1.1={
-		death=yes
-	}
-}
-
-katoch_44 = {
-	name="Indu_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_43
-	1000.1.1={
-		birth=yes
-	}
-	1063.1.1={
-		death=yes
-	}
-}
-
-katoch_45 = {
-	name="Jagdish_Chandra" #IV
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_44
-	1026.1.1={
-		birth=yes
-	}
-	1081.1.1={
-		death=yes
-	}
-}
-
-katoch_46 = {
-	name="Bhagvan_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_45
-	1050.1.1={
-		birth=yes
-	}
-	1124.1.1={
-		death=yes
-	}
-}
-
-katoch_47 = {
-	name="Laxmi_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_46
-	1068.1.1={
-		birth=yes
-	}
-	1150.1.1={
-		death=yes
-	}
-}
-
-katoch_48 = {
-	name="Vigyat_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_47
-	1084.1.1={
-		birth=yes
-	}
-	1158.1.1={
-		death=yes
-	}
-}
-
-katoch_49 = {
-	name="Yog_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_48
-	1100.1.1={
-		birth=yes
-	}
-	1168.1.1={
-		death=yes
-	}
-}
-
-katoch_50 = {
-	name="Padam_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_49
-	1125.1.1={
-		birth=yes
-	}
-	1179.1.1={
-		death=yes
-	}
-}
-
-katoch_51 = {
-	name="Vishnu_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_50
-	1143.1.1={
-		birth=yes
-	}
-	1185.1.1={
-		death=yes
-	}
-}
-
-katoch_52 = {
-	name="Shiv_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_51
-	1160.1.1={
-		birth=yes
-	}
-	1200.1.1={
-		death=yes
-	}
-}
-
-katoch_53 = {
-	name="Jai_Sinha_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_52
-	1177.1.1={
-		birth=yes
-	}
-	1221.1.1={
-		death=yes
-	}
-}
-
-katoch_54 = {
-	name="Ishwar_Chandra" #III
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_53
-	1194.1.1={
-		birth=yes
-	}
-	1237.1.1={
-		death=yes
-	}
-}
-
-katoch_55 = {
-	name="Kedar_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_54
-	1210.1.1={
-		birth=yes
-	}
-	1254.1.1={
-		death=yes
-	}
-}
-
-katoch_56 = {
-	name="Kalyan_Chandra" #V
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_55
-	1226.1.1={
-		birth=yes
-	}
-	1278.1.1={
-		death=yes
-	}
-}
-
-katoch_57 = {
-	name="Kaul_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_56
-	1242.1.1={
-		birth=yes
-	}
-	1297.1.1={
-		death=yes
-	}
-}
-
-katoch_58 = {
-	name="Gambhir_Chandra" #I
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_57
-	1260.1.1={
-		birth=yes
-	}
-	1314.1.1={
-		death=yes
-	}
-}
-
-katoch_59 = {
-	name="Jai Singh Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_58
-	1280.1.1={
-		birth=yes
-	}
-	1327.1.1={
-		death=yes
-	}
-}
-
-katoch_60 = {
-	name="Prithvi_Chandra" #II
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_59
-	1296.1.1={
-		birth=yes
-	}
-	1338.1.1={
-		death=yes
-	}
-}
-
-katoch_61 = {
-	name="Purab_Chandra"
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_60
-	1312.1.1={
-		birth=yes
-	}
-	1358.1.1={
-		death=yes
-	}
-}
-
-katoch_62 = {
-	name="Rup_Chandra" #V
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_61
-	1328.1.1={
-		birth=yes
-	}
-	1369.1.1={
-		death=yes
-	}
-}
-
-katoch_63 = {
-	name="Shringar_Chandra" #IV
-	dynasty=punjabi_katoch_dynasty #Katoch
-	religion="shaivism"
-	culture="punjabi"
-	father=katoch_62
-	1344.1.1={
-		birth=yes
-	}
-	1387.1.1={
-		death=yes
-	}
-}
