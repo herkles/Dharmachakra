@@ -17,7 +17,7 @@
 		tradition_caste_system
 		tradition_metal_craftsmanship #Wootz Steel
 		tradition_seafaring
-		tradition_poetry
+		tradition_tamil_thai
 		tradition_garuda_warriors
 	}
 	

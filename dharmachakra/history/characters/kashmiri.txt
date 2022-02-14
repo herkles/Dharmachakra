@@ -1,5 +1,7 @@
-﻿#Shagari Dynasty (Skardu) - historical dynasty/fictional characters
-304662 = {
+﻿#######################################
+# Shagari Dynasty
+#######################################
+304662 = {# Charanpal
 	name="Charanpal"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -11,8 +13,7 @@
 		death=yes
 	}
 }
-
-304663 = {
+304663 = {# Narain
 	name="Narain"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -25,8 +26,7 @@
 		death=yes
 	}
 }
-
-304664 = {
+304664 = {# Ratnakara
 	name="Ratnakara"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -39,8 +39,7 @@
 		death=yes
 	}
 }
-
-304665 = {
+304665 = {# Satyen
 	name="Satyen"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -53,8 +52,7 @@
 		death=yes
 	}
 }
-
-304666 = {
+304666 = {# Gulhana
 	name="Gulhana"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -67,8 +65,7 @@
 		death=yes
 	}
 }
-
-304667 = {
+304667 = {# Utkarsa
 	name="Utkarsa"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -81,8 +78,7 @@
 		death=yes
 	}
 }
-
-304668 = {
+304668 = {# Shambhu
 	name="Shambhu"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -95,8 +91,7 @@
 		death=yes
 	}
 }
-
-304669 = {
+304669 = {# Radda
 	name="Radda"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -109,8 +104,7 @@
 		death=yes
 	}
 }
-
-304670 = {
+304670 = {# Jagadeva
 	name="Jagadeva"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -123,8 +117,7 @@
 		death=yes
 	}
 }
-
-304671 = {
+304671 = {# Omprakash
 	name="Omprakash"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -137,8 +130,7 @@
 		death=yes
 	}
 }
-
-304672 = {
+304672 = {# Jayasimha
 	name="Jayasimha"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -151,8 +143,7 @@
 		death=yes
 	}
 }
-
-304673 = {
+304673 = {# Nanda
 	name="Nanda"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -165,8 +156,7 @@
 		death=yes
 	}
 }
-
-304674 = {
+304674 = {# Tejbahadur
 	name="Tejbahadur"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -179,8 +169,7 @@
 		death=yes
 	}
 }
-
-304675 = {
+304675 = {# Krishan
 	name="Krishan"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -193,8 +182,7 @@
 		death=yes
 	}
 }
-
-304676 = {
+304676 = {# Khayaal
 	name="Khayaal"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -207,8 +195,7 @@
 		death=yes
 	}
 }
-
-304677 = {
+304677 = {# Manohar
 	name="Manohar"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -221,8 +208,7 @@
 		death=yes
 	}
 }
-
-304678 = {
+304678 = {# Rajadeva
 	name="Rajadeva"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -235,8 +221,7 @@
 		death=yes
 	}
 }
-
-304679 = {
+304679 = {# Ksemagupta
 	name="Ksemagupta"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -249,8 +234,7 @@
 		death=yes
 	}
 }
-
-304680 = {
+304680 = {# Pushkar
 	name="Pushkar"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -263,8 +247,7 @@
 		death=yes
 	}
 }
-
-304681 = {
+304681 = {# Damodara
 	name="Damodara"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -277,8 +260,7 @@
 		death=yes
 	}
 }
-
-304682 = {
+304682 = {# Karan
 	name="Karan"
 	dynasty=2003034 # Shagari
 	religion="lamaism"
@@ -291,8 +273,7 @@
 		death=yes
 	}
 }
-
-304683 = {
+304683 = {# Aasha
 	name="Aasha"
 	female=yes
 	dynasty=2003034 # Shagari
@@ -306,11 +287,12 @@
 		death=yes
 	}
 }
-
-#Ibrahim Shah - founder of Maqpon Dynasty
-304684 = {
+#######################################
+# Maqpon Dynasty
+#######################################
+304684 = {# Ibrahim Shah
 	name="Ibrahim"
-	dynasty=2003035 # Shah
+	dynasty=2003036 # Shah
 	religion="sunni"
 	culture="persian"
 	1160.1.1={
@@ -323,8 +305,6 @@
 		death=yes
 	}
 }
-
-#Maqpon Dynasty (Skardu) - historical dynasty/fictional characters
 304685 = {
 	name="Birbal"
 	dynasty=2003036 # Maqpon
@@ -339,8 +319,7 @@
 		death=yes
 	}
 }
-
-304686 = {
+304686 = {# Ganga
 	name="Ganga"
 	dynasty=2003036 # Maqpon
 	religion="sunni"
@@ -353,8 +332,7 @@
 		death=yes
 	}
 }
-
-304687 = {
+304687 = {# Shuhul
 	name="Shuhul"
 	dynasty=2003036 # Maqpon
 	religion="sunni"
@@ -367,8 +345,7 @@
 		death=yes
 	}
 }
-
-304688 = {
+304688 = {# Eshin
 	name="Eshin"
 	dynasty=2003036 # Maqpon
 	religion="sunni"
@@ -381,8 +358,7 @@
 		death=yes
 	}
 }
-
-304689 = {
+304689 = {# Rahul
 	name="Rahul"
 	dynasty=2003036 # Maqpon
 	religion="sunni"
@@ -395,8 +371,7 @@
 		death=yes
 	}
 }
-
-304690 = {
+304690 = {# Arun
 	name="Arun"
 	dynasty=2003036 # Maqpon
 	religion="sunni"
@@ -409,9 +384,10 @@
 		death=yes
 	}
 }
-
-#Astore Dynasty - fictional placeholders
-304691 = {
+#######################################
+# Astore Dynasty
+#######################################
+304691 = {# Damodara 
 	name="Damodara"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -423,8 +399,7 @@
 		death=yes
 	}
 }
-
-304692 = {
+304692 = {# Ramadeva 
 	name="Ramadeva"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -437,8 +412,7 @@
 		death=yes
 	}
 }
-
-304693 = {
+304693 = {# Giridhari 
 	name="Giridhari"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -451,8 +425,7 @@
 		death=yes
 	}
 }
-
-304694 = {
+304694 = {# Gangaram 
 	name="Gangaram"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -465,8 +438,7 @@
 		death=yes
 	}
 }
-
-304695 = {
+304695 = {# Kshemendra 
 	name="Kshemendra"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -479,8 +451,7 @@
 		death=yes
 	}
 }
-
-304696 = {
+304696 = {# Avantivarman 
 	name="Avantivarman"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -493,8 +464,7 @@
 		death=yes
 	}
 }
-
-304697 = {
+304697 = {# Moti 
 	name="Moti"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -507,8 +477,7 @@
 		death=yes
 	}
 }
-
-304698 = {
+304698 = {# Bhaskar 
 	name="Bhaskar"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -521,8 +490,7 @@
 		death=yes
 	}
 }
-
-304699 = {
+304699 = {# Tunga 
 	name="Tunga"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -535,8 +503,7 @@
 		death=yes
 	}
 }
-
-304700 = {
+304700 = {# Rajiv 
 	name="Rajiv"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -549,8 +516,7 @@
 		death=yes
 	}
 }
-
-304701 = {
+304701 = {# Vasudeva 
 	name="Vasudeva"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -563,8 +529,7 @@
 		death=yes
 	}
 }
-
-304702 = {
+304702 = {# Pushkar 
 	name="Pushkar"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -577,8 +542,7 @@
 		death=yes
 	}
 }
-
-304703 = {
+304703 = {# Nidhi 
 	name="Nidhi"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -591,8 +555,7 @@
 		death=yes
 	}
 }
-
-304704 = {
+304704 = {# Salhana 
 	name="Salhana"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -605,8 +568,7 @@
 		death=yes
 	}
 }
-
-304705 = {
+304705 = {# Uccala 
 	name="Uccala"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -619,8 +581,7 @@
 		death=yes
 	}
 }
-
-304706 = {
+304706 = {# Vajraditya 
 	name="Vajraditya"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -633,8 +594,7 @@
 		death=yes
 	}
 }
-
-304707 = {
+304707 = {# Jassaka 
 	name="Jassaka"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -647,8 +607,7 @@
 		death=yes
 	}
 }
-
-304708 = {
+304708 = {# Udayaraja 
 	name="Udayaraja"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -661,8 +620,7 @@
 		death=yes
 	}
 }
-
-304709 = {
+304709 = {# Vuppadeva 
 	name="Vuppadeva"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -675,8 +633,7 @@
 		death=yes
 	}
 }
-
-304710 = {
+304710 = {# Pran 
 	name="Pran"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -689,8 +646,7 @@
 		death=yes
 	}
 }
-
-304711 = {
+304711 = {# Srivar 
 	name="Srivar"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -703,8 +659,7 @@
 		death=yes
 	}
 }
-
-304712 = {
+304712 = {# Ratnakara 
 	name="Ratnakara"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -717,8 +672,7 @@
 		death=yes
 	}
 }
-
-304713 = {
+304713 = {# Lalit 
 	name="Lalit"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -731,8 +685,7 @@
 		death=yes
 	}
 }
-
-304714 = {
+304714 = {# Mohan 
 	name="Mohan"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -745,8 +698,7 @@
 		death=yes
 	}
 }
-
-304715 = {
+304715 = {# Vijayapal 
 	name="Vijayapal"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -759,8 +711,7 @@
 		death=yes
 	}
 }
-
-304716 = {
+304716 = {# Siddharth 
 	name="Siddharth"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -773,8 +724,7 @@
 		death=yes
 	}
 }
-
-304717 = {
+304717 = {# Ksemagupta 
 	name="Ksemagupta"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -787,8 +737,7 @@
 		death=yes
 	}
 }
-
-304718 = {
+304718 = {# Pratapaditya 
 	name="Pratapaditya"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -801,8 +750,7 @@
 		death=yes
 	}
 }
-
-304719 = {
+304719 = {# Trilokinath 
 	name="Trilokinath"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -815,8 +763,7 @@
 		death=yes
 	}
 }
-
-304720 = {
+304720 = {# Motilal 
 	name="Motilal"
 	dynasty=2003037 # Astore
 	religion="lamaism"
@@ -829,9 +776,10 @@
 		death=yes
 	}
 }
-
-#Khapula Dynasty - fictional placeholders
-304721 = {
+#######################################
+# Khapula Dynasty
+#######################################
+304721 = {# Laksmandadeva
 	name="Laksmandadeva"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -843,8 +791,7 @@
 		death=yes
 	}
 }
-
-304722 = {
+304722 = {# Purushottam
 	name="Purushottam"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -857,8 +804,7 @@
 		death=yes
 	}
 }
-
-304723 = {
+304723 = {# Gangaram
 	name="Gangaram"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -871,8 +817,7 @@
 		death=yes
 	}
 }
-
-304724 = {
+304724 = {# Rohit
 	name="Rohit"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -885,8 +830,7 @@
 		death=yes
 	}
 }
-
-304725 = {
+304725 = {# Samgramadeva
 	name="Samgramadeva"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -899,8 +843,7 @@
 		death=yes
 	}
 }
-
-304726 = {
+304726 = {# Siddharth
 	name="Siddharth"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -913,8 +856,7 @@
 		death=yes
 	}
 }
-
-304727 = {
+304727 = {# Vajradeva
 	name="Vajradeva"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -927,8 +869,7 @@
 		death=yes
 	}
 }
-
-304728 = {
+304728 = {# Simhadeva
 	name="Simhadeva"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -941,8 +882,7 @@
 		death=yes
 	}
 }
-
-304729 = {
+304729 = {# Simharaja
 	name="Simharaja"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -955,8 +895,7 @@
 		death=yes
 	}
 }
-
-304730 = {
+304730 = {# Utkarsa
 	name="Utkarsa"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -969,8 +908,7 @@
 		death=yes
 	}
 }
-
-304731 = {
+304731 = {# Kailash
 	name="Kailash"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -983,8 +921,7 @@
 		death=yes
 	}
 }
-
-304732 = {
+304732 = {# Ramchandra
 	name="Ramchandra"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -997,8 +934,7 @@
 		death=yes
 	}
 }
-
-304733 = {
+304733 = {# Vigraharaja
 	name="Vigraharaja"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1011,8 +947,7 @@
 		death=yes
 	}
 }
-
-304734 = {
+304734 = {# Mustafa
 	name="Mustafa"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1025,8 +960,7 @@
 		death=yes
 	}
 }
-
-304735 = {
+304735 = {# Durlabhvardhana
 	name="Durlabhvardhana"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1039,8 +973,7 @@
 		death=yes
 	}
 }
-
-304736 = {
+304736 = {# Khushnaseeb
 	name="Khushnaseeb"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1053,8 +986,7 @@
 		death=yes
 	}
 }
-
-304737 = {
+304737 = {# Avantivarman
 	name="Avantivarman"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1067,8 +999,7 @@
 		death=yes
 	}
 }
-
-304738 = {
+304738 = {# Chandrapida
 	name="Chandrapida"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1081,8 +1012,7 @@
 		death=yes
 	}
 }
-
-304739 = {
+304739 = {# Vajraraja
 	name="Vajraraja"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1095,8 +1025,7 @@
 		death=yes
 	}
 }
-
-304740 = {
+304740 = {# Triloki
 	name="Triloki"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1109,8 +1038,7 @@
 		death=yes
 	}
 }
-
-304741 = {
+304741 = {# Kisan
 	name="Kisan"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1123,8 +1051,7 @@
 		death=yes
 	}
 }
-
-304742 = {
+304742 = {# Satish
 	name="Satish"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1137,8 +1064,7 @@
 		death=yes
 	}
 }
-
-304743 = {
+304743 = {# Phalunga
 	name="Phalunga"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1151,8 +1077,7 @@
 		death=yes
 	}
 }
-
-304744 = {
+304744 = {# Ratnakara
 	name="Ratnakara"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1165,8 +1090,7 @@
 		death=yes
 	}
 }
-
-304745 = {
+304745 = {# Pamposh
 	name="Pamposh"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1179,8 +1103,7 @@
 		death=yes
 	}
 }
-
-304746 = {
+304746 = {# Ravinder
 	name="Ravinder"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1193,8 +1116,7 @@
 		death=yes
 	}
 }
-
-304747 = {
+304747 = {# Naraindas
 	name="Naraindas"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1207,8 +1129,7 @@
 		death=yes
 	}
 }
-
-304748 = {
+304748 = {# Braj
 	name="Braj"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1221,8 +1142,7 @@
 		death=yes
 	}
 }
-
-304749 = {
+304749 = {# Udayaraja
 	name="Udayaraja"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1235,8 +1155,7 @@
 		death=yes
 	}
 }
-
-304750 = {
+304750 = {# Anil
 	name="Anil"
 	dynasty=2003038 # Khapula
 	religion="lamaism"
@@ -1249,7 +1168,10 @@
 		death=yes
 	}
 }
-darada_king_1 = {
+#######################################
+# Darda Dynasty
+#######################################
+darada_king_1 = {# Acalamangala
 	name="Acalamangala"
 	dynasty=kashmiri_darada_dynasty
 	religion="mahayana"
@@ -1261,8 +1183,7 @@ darada_king_1 = {
 		death=yes
 	}
 }
-
-darada_king_2 = {
+darada_king_2 = {# Vidhyadhara
 	name="Vidhyadhara"
 	dynasty=kashmiri_darada_dynasty
 	religion="mahayana"
