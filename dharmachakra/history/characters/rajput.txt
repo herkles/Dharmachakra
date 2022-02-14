@@ -1,4 +1,7 @@
-﻿188000 = {
+﻿#######################################
+# Pratihara Dynasty
+#######################################
+188000 = {# Chanduka
 	name = "Chanduka"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -11,7 +14,7 @@
 		death = yes
 	}
 }
-188001 = {
+188001 = {# Nagabhata
 	name = "Nagabhata"
 	# Nagabhata I Pratihara
 	dynasty = 1042066
@@ -25,7 +28,7 @@
 		death = yes
 	}
 }
-188002 = {
+188002 = {# Vinaykpala
 	name = "Vinaykpala" # random name
 	# brother of Nagabhata I
 	dynasty = 1042066
@@ -39,7 +42,7 @@
 		death = yes
 	}
 }
-188003 = {
+188003 = {# Kakustha
 	name = "Kakustha"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -52,7 +55,7 @@
 		death = yes
 	}
 }
-188004 = {
+188004 = {# Devasakti
 	name = "Devasakti"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -68,7 +71,20 @@
 		death = yes
 	}
 }
-188005 = {
+188017 = {# Bhuyika
+	name = "Bhuyika"
+	# wife of Devasakti Pratihara
+	female = yes
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	729.1.1 = {
+		birth = yes
+	}
+	779.1.1 = {
+		death = yes
+	}
+}
+188005 = {# Vatsraja
 	name = "Vatsraja"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -85,7 +101,7 @@
 		death = yes
 	}
 }
-188006 = {
+188006 = {# Nagabhata
 	name = "Nagabhata"
 	# Nagabhata II Pratihara
 	dynasty = 1042066
@@ -103,7 +119,7 @@
 		death = yes
 	}
 }
-188007 = {
+188007 = {# Ramabhadra
 	name = "Ramabhadra"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -120,7 +136,7 @@
 		death = yes
 	}
 }
-188008 = {
+188008 = {# Mihira Bhoja
 	name = "Bhoja"
 	# Mihira Bhoja I Pratihara
 	dynasty = 1042066
@@ -138,7 +154,7 @@
 		death = yes
 	}
 }
-188009 = {
+188009 = {# Mahendrapala
 	name = "Mahendrapala"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -158,7 +174,7 @@
 		death = yes
 	}
 }
-188010 = {
+188010 = {# Bhoja
 	name = "Bhoja" # Bhoja II
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -172,7 +188,7 @@
 		death = yes
 	}
 }
-188011 = {
+188011 = {# Mahipala
 	name = "Mahipala"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -189,7 +205,7 @@
 		death = yes
 	}
 }
-188012 = {
+188012 = {# Mahendrapala
 	name = "Mahendrapala"
 	# Mahendrapala II Pratihara
 	dynasty = 1042066
@@ -204,7 +220,7 @@
 		death = yes
 	}
 }
-188013 = {
+188013 = {# Devapala
 	name = "Devapala"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -218,7 +234,7 @@
 		death = yes
 	}
 }
-188014 = {
+188014 = {# Vijayapala
 	name = "Vijayapala"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -231,7 +247,7 @@
 		death = yes
 	}
 }
-188015 = {
+188015 = {# Rajyapala
 	name = "Rajyapala"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -244,7 +260,7 @@
 		death = yes
 	}
 }
-188016 = {
+188016 = {# Trilochanpala
 	name = "Trilochanpala"
 	dynasty = 1042066
 	religion = "vaishnavism"
@@ -257,16 +273,340 @@
 		death = yes
 	}
 }
-188017 = {
-	name = "Bhuyika"
-	# wife of Devasakti Pratihara
-	female = yes
-	religion = "srikula_shaktism"
+188146 = {# Yasapala
+	name = "Yasapala"
+	dynasty = 1042066
+	religion = "shaivism"
 	culture = "rajput"
-	729.1.1 = {
+	father = 188016
+	1020.1.1 = {
 		birth = yes
 	}
-	779.1.1 = {
+	1080.1.1 = {
+		death = yes
+	}
+}
+191607 = {# Rajjila
+	name = "Rajjila"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191605
+	mother = 191606
+	552.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+191608 = {# Narabbhata
+	name = "Narabbhata"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191607
+	570.1.1 = {
+		birth = yes
+	}
+	625.1.1 = {
+		death = yes
+	}
+}
+191609 = {# Nagabhata
+	name = "Nagabhata"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191608
+	590.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+191610 = {# Tata
+	name = "Tata"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191609
+	610.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+191611 = {# Yashovardhana
+	name = "Yashovardhana"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191610
+	640.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+191612 = {# Bhoja
+	name = "Bhoja"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191609
+	612.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+191613 = {# Siluka
+	name = "Siluka"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 188000
+	670.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+191615 = {# Jhota
+	name = "Jhota"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191613
+	690.1.1 = {
+		birth = yes
+	}
+	775.1.1 = {
+		death = yes
+	}
+}
+191616 = {# Bhilladitya
+	name = "Bhilladitya"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191615
+	720.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+191617 = {# Kakka
+	name = "Kakka"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191616
+	750.1.1 = {
+		birth = yes
+	}
+	770.1.1 = {
+		add_spouse = 191618
+	}
+	790.1.1 = {
+		remove_spouse = 191618 # Divorced so that he can re-marry without causing errors
+	}
+	790.1.2 = {
+		add_spouse = 191619
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+191618 = {# Padmini
+	name = "Padmini"
+	female = yes
+	religion = "smartism"
+	culture = "rajput"
+	751.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+191619 = {# Durlabha_Devi
+	name = "Durlabha_Devi"
+	female = yes
+	religion = "smartism"
+	culture = "rajput"
+	760.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+191620 = {# Bauka
+	name = "Bauka"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191617
+	mother = 191618
+	772.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+191621 = {# Kakuka
+	name = "Kakuka"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	father = 191617
+	mother = 191619
+	791.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+191624 = {# Dadda
+	name = "Dadda"
+	dynasty = 1042066	#Pratihara
+	religion = "smartism"
+	culture = "rajput"
+	father = 191605
+	mother = 191606
+	554.1.1 = {
+		birth = yes
+	}
+	595.1.1 = {
+		death = yes
+	}
+}
+191625 = {# Jayabhata
+	name = "Jayabhata"
+	dynasty = 1042066	#Pratihara
+	religion = "advaitism"
+	culture = "rajput"
+	father = 191624
+	579.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+191626 = {# Dadda
+	name = "Dadda"	#II
+	dynasty = 1042066	#Pratihara
+	religion = "advaitism"
+	culture = "rajput"
+	father = 191625
+	600.1.1 = {
+		birth = yes
+	}
+	645.1.1 = {
+		death = yes
+	}
+}
+191627 = {# Jayabhata
+	name = "Jayabhata"	#II
+	dynasty = 1042066	#Pratihara
+	religion = "advaitism"
+	culture = "rajput"
+	father = 191626
+	620.1.1 = {
+		birth = yes
+	}
+	665.1.1 = {
+		death = yes
+	}
+}
+191628 = {# Dadda
+	name = "Dadda"	#III
+	dynasty = 1042066	#Pratihara
+	religion = "advaitism"
+	culture = "rajput"
+	father = 191627
+	639.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+191629 = {# Jayabhata
+	name = "Jayabhata"	#III
+	dynasty = 1042066	#Pratihara
+	religion = "advaitism"
+	culture = "gujarati"
+	father = 191628
+	660.1.1 = {
+		birth = yes
+	}
+	715.1.1 = {
+		death = yes
+	}
+}
+191630 = {# Ahirola
+	name = "Ahirola"
+	dynasty = 1042066	#Pratihara
+	religion = "advaitism"
+	culture = "gujarati"
+	father = 191629
+	680.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+191631 = {# Jayabhata
+	name = "Jayabhata" #IV
+	dynasty = 1042066	#Pratihara
+	religion = "advaitism"
+	culture = "gujarati"
+	father = 191630
+	700.1.1 = {
+		birth = yes
+	}
+	738.1.1 = {
+		death = yes
+	}
+}
+191605 = {# Harichandra
+	name = "Harichandra"
+	dynasty = 1042066
+	religion = "smartism"
+	culture = "rajput"
+	530.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		add_spouse = 191606
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+191606 = {# Bhadra
+	name = "Bhadra"
+	female = yes
+	religion = "smartism"
+	culture = "rajput"
+	534.1.1 = {
+		birth = yes
+	}
+	590.1.1 = {
 		death = yes
 	}
 }
@@ -361,7 +701,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# Chandela Dynasty
+#######################################
 188025 = {
 	name = "Nannuka"
 	dynasty = 1042067 #Chandela
@@ -374,7 +716,6 @@
 		death = yes
 	}
 }
-
 188026 = {
 	name = "Vakpati"
 	dynasty = 1042067 #Chandela
@@ -388,7 +729,6 @@
 		death = yes
 	}
 }
-
 188027 = {
 	name = "Jayasakti"
 	dynasty = 1042067 #Chandela
@@ -402,7 +742,6 @@
 		death = yes
 	}
 }
-
 188028 = {
 	name = "Vijayasakti"
 	dynasty = 1042067 #Chandela
@@ -416,7 +755,6 @@
 		death = yes
 	}
 }
-
 188029 = {
 	name = "Rahila"
 	dynasty = 1042067 #Chandela
@@ -433,7 +771,6 @@
 		death = yes
 	}
 }
-
 188030 = {
 	name = "Rajamati"
 	female = yes
@@ -446,7 +783,6 @@
 		death = yes
 	}
 }
-
 188031 = {
 	name = "Harsa"
 	dynasty = 1042067 #Chandela
@@ -464,7 +800,6 @@
 		death = yes
 	}
 }
-
 188032 = {
 	name = "Kanchuka"
 	female = yes
@@ -477,7 +812,6 @@
 		death = yes
 	}
 }
-
 188033 = {
 	name = "Yasovarma"
 	dynasty = 1042067 #Chandela
@@ -495,7 +829,6 @@
 		death = yes
 	}
 }
-
 188034 = {
 	name = "Pushpa"
 	female = yes
@@ -508,7 +841,6 @@
 		death = yes
 	}
 }
-
 188035 = {
 	name = "Dhanga"
 	dynasty = 1042067 #Chandela
@@ -523,7 +855,6 @@
 		death = yes
 	}
 }
-
 188036 = {
 	name = "Krishnapa"
 	dynasty = 1042067 #Chandela
@@ -538,7 +869,6 @@
 		death = yes
 	}
 }
-
 188037 = {
 	name = "Ganda"
 	dynasty = 1042067 #Chandela
@@ -552,7 +882,6 @@
 		death = yes
 	}
 }
-
 188038 = {
 	name = "Vidyadhara"
 	dynasty = 1042067 #Chandela
@@ -566,7 +895,6 @@
 		death = yes
 	}
 }
-
 188039 = {
 	name = "Vijayapala"
 	dynasty = 1042067 #Chandela
@@ -580,7 +908,6 @@
 		death = yes
 	}
 }
-
 188040 = {
 	name = "Devavarma"
 	dynasty = 1042067 #Chandela
@@ -594,7 +921,6 @@
 		death = yes
 	}
 }
-
 188041 = {
 	name = "Kirtivarma"
 	dynasty = 1042067 #Chandela
@@ -611,7 +937,6 @@
 		death = yes
 	}
 }
-
 188042 = {
 	name = "Akal"
 	female = yes
@@ -624,7 +949,6 @@
 		death = yes
 	}
 }
-
 188043 = {
 	name = "Sallaksanavarma"
 	dynasty = 1042067 #Chandela
@@ -642,7 +966,6 @@
 		death = yes
 	}
 }
-
 188044 = {
 	name = "Mahi"
 	female = yes
@@ -655,7 +978,6 @@
 		death = yes
 	}
 }
-
 188045 = {
 	name = "Jayavarma"
 	dynasty = 1042067 #Chandela
@@ -670,7 +992,6 @@
 		death = yes
 	}
 }
-
 188046 = {
 	name = "Prithvivarma"
 	dynasty = 1042067 #Chandela
@@ -688,7 +1009,6 @@
 		death = yes
 	}
 }
-
 188047 = {
 	name = "Kumara"
 	female = yes
@@ -701,7 +1021,6 @@
 		death = yes
 	}
 }
-
 188048 = {
 	name = "Madanavarma"
 	dynasty = 1042067 #Chandela
@@ -719,7 +1038,6 @@
 		death = yes
 	}
 }
-
 188049 = {
 	name = "Prabhavati"
 	female = yes
@@ -732,7 +1050,6 @@
 		death = yes
 	}
 }
-
 188050 = {
 	name = "Yasovarma"
 	dynasty = 1042067 #Chandela
@@ -750,7 +1067,6 @@
 		death = yes
 	}
 }
-
 188051 = {
 	name = "Dhruva"
 	female = yes
@@ -763,7 +1079,6 @@
 		death = yes
 	}
 }
-
 188052 = {
 	name = "Paramardi"
 	dynasty = 1042067 #Chandela
@@ -781,7 +1096,6 @@
 		death = yes
 	}
 }
-
 188053 = {
 	name = "Maharani"
 	female = yes
@@ -794,7 +1108,6 @@
 		death = yes
 	}
 }
-
 188054 = {
 	name = "Trailokyavarma"
 	dynasty = 1042067 #Chandela
@@ -812,7 +1125,6 @@
 		death = yes
 	}
 }
-
 188055 = {
 	name = "Sanyukta"
 	female = yes
@@ -825,7 +1137,6 @@
 		death = yes
 	}
 }
-
 188056 = {
 	name = "Viravarma"
 	dynasty = 1042067 #Chandela
@@ -843,7 +1154,6 @@
 		death = yes
 	}
 }
-
 188057 = {
 	name = "Kalayan"
 	female = yes
@@ -856,7 +1166,6 @@
 		death = yes
 	}
 }
-
 188058 = {
 	name = "Bhojavarma"
 	dynasty = 1042067 #Chandela
@@ -874,7 +1183,6 @@
 		death = yes
 	}
 }
-
 188059 = {
 	name = "Kanwar"
 	female = yes
@@ -887,7 +1195,6 @@
 		death = yes
 	}
 }
-
 188060 = {
 	name = "Hammiravarma"
 	dynasty = 1042067 #Chandela
@@ -905,7 +1212,6 @@
 		death = yes
 	}
 }
-
 188061 = {
 	name = "Damayanti"
 	female = yes
@@ -918,7 +1224,24 @@
 		death = yes
 	}
 }
+191431 = {
+	name = "Madanavarman" #fictional successor of Hammivarman, the dynasty continued but the names are unkown
+	dynasty = 1042067 #Chandela
+	religion = "smartism"
+	culture = "rajput"
+	father = 188060
+	mother = 188061
+	1285.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		death = yes
+	}
+}
 
+#######################################
+# Solanki Dynasty
+#######################################
 188074 = {
 	name = "Mulraja" # Mulraja I Solanki
 	dynasty = 1042069
@@ -934,7 +1257,6 @@
 		death = yes
 	}
 }
-
 188075 = {
 	name = "Chamundaraja"
 	dynasty = 1042069 #Solanki
@@ -949,7 +1271,6 @@
 		death = yes
 	}
 }
-
 188076 = {
 	# son of Chachini
 	name = "Vallabharaja"
@@ -964,7 +1285,6 @@
 		death = yes
 	}
 }
-
 188077 = {
 	# son of Chachini
 	name = "Durlabharaja"
@@ -979,7 +1299,6 @@
 		death = yes
 	}
 }
-
 188078 = {
 	name = "Chachini"
 	female = yes
@@ -995,7 +1314,6 @@
 		death = yes
 	}
 }
-
 188079 = {
 	# son of Chachini
 	name = "Nagraja"
@@ -1013,7 +1331,6 @@
 		death = yes
 	}
 }
-
 188080 = {
 	name = "Laxmidevi"
 	female = yes
@@ -1026,7 +1343,6 @@
 		death = yes
 	}
 }
-
 188081 = {
 	# Bhima I Solanki
 	name = "Bhima"
@@ -1048,7 +1364,6 @@
 		death = yes
 	}
 }
-
 188082 = {
 	name = "Udaymati"
 	female = yes
@@ -1062,7 +1377,6 @@
 		death = yes
 	}
 }
-
 188083 = {
 	name = "Baula"
 	female = yes
@@ -1075,7 +1389,6 @@
 		death = yes
 	}
 }
-
 188084 = {
 	name = "Xemraja"
 	dynasty = 1042069 #Solanki
@@ -1090,7 +1403,6 @@
 		death = yes
 	}
 }
-
 188085 = {
 	name = "Mulraja"
 	dynasty = 1042069 #Solanki
@@ -1105,7 +1417,6 @@
 		death = yes
 	}
 }
-
 188086 = {
 	name = "Haripala"
 	dynasty = 1042069 #Solanki
@@ -1119,7 +1430,6 @@
 		death = yes
 	}
 }
-
 188087 = {
 	name = "Tribhuvanapala"
 	dynasty = 1042069 #Solanki
@@ -1136,7 +1446,6 @@
 		death = yes
 	}
 }
-
 188088 = {
 	name = "Kumarapala"
 	dynasty = 1042069 #Solanki
@@ -1154,7 +1463,6 @@
 		death = yes
 	}
 }
-
 188089 = {
 	name = "Karnadeva"
 	dynasty = 1042069 #Solanki
@@ -1173,7 +1481,6 @@
 		death = yes
 	}
 }
-
 188091 = {
 	name = "Jayasimha"
 	dynasty = 1042069 #Solanki
@@ -1188,7 +1495,6 @@
 		death = yes
 	}
 }
-
 188092 = {
 	name = "Mahipala"
 	dynasty = 1042069 #Solanki
@@ -1202,7 +1508,6 @@
 		death = yes
 	}
 }
-
 188093 = {
 	name = "Ajayapala"
 	dynasty = 1042069 #Solanki
@@ -1217,8 +1522,6 @@
 		death = yes
 	}
 }
-
-
 188094 = {
 	name = "Mulraja"
 	# Mulraja II Solanki
@@ -1233,7 +1536,6 @@
 		death = yes
 	}
 }
-
 188095 = {
 	name = "Bhima"
 	# Bhima II Solanki
@@ -1251,7 +1553,6 @@
 		death = yes
 	}
 }
-
 188096 = {
 	name = "Tribhuvanapala"
 	dynasty = 1042069 #Solanki
@@ -1266,8 +1567,6 @@
 		death = yes
 	}
 }
-
-
 188097 = {
 	name = "Jayasimha"
 	dynasty = 1042069 #Solanki
@@ -1281,520 +1580,6 @@
 		death = yes
 	}
 }
-
-74418 = {
-	name = "Mahadevi"
-	female = yes
-	religion = "srikula_shaktism"
-	culture = "gujarati"
-
-	840.1.1 = {
-		birth = yes
-	}
-	919.1.1 = {
-		death = yes
-	}
-}
-
-188099 = {
-	name = "Jaya" # fictitious first name
-	dynasty = 1042071 #Jewlia
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	840.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-
-188100 = {
-	name = "Vasudeva"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	521.1.1 = {
-		birth = yes
-	}
-	595.1.1 = {
-		death = yes
-	}
-}
-
-188101 = {
-	name = "Samanta"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188100
-	570.1.1 = {
-		birth = yes
-	}
-	668.1.1 = {
-		death = yes
-	}
-}
-
-188102 = {
-	name = "Naradeva" # Purnatalla in other sources
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188101
-	623.1.1 = {
-		birth = yes
-	}
-	693.1.1 = {
-		death = yes
-	}
-}
-
-188103 = {
-	name = "Jayaraja"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188102
-	648.1.1 = {
-		birth = yes
-	}
-	718.1.1 = {
-		death = yes
-	}
-}
-
-188104 = {
-	name = "Vigrharaja" # the I
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188103
-	673.1.1 = {
-		birth = yes
-	}
-	743.1.1 = {
-		death = yes
-	}
-}
-
-188105 = {
-	name = "Chandraraja" # the I
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188104
-	698.1.1 = {
-		birth = yes
-	}
-	768.1.1 = {
-		death = yes
-	}
-}
-
-188106 = {
-	name = "Gopendraraja"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188105
-	723.1.1 = {
-		birth = yes
-	}
-	788.1.1 = {
-		death = yes
-	}
-}
-
-188107 = {
-	name = "Durlabharaja" # the I
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188106
-	748.1.1 = {
-		birth = yes
-	}
-	809.1.1 = {
-		death = yes
-	}
-}
-
-188108 = {
-	name = "Govinda" # the I (aka Guvakaraja)
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188107
-	773.1.1 = {
-		birth = yes
-	}
-	836.1.1 = {
-		death = yes
-	}
-}
-
-188109 = {
-	name = "Chandraraja" # the II
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188108
-	816.1.1 = {
-		birth = yes
-	}
-	880.1.1 = {
-		death = yes
-	}
-}
-
-188110 = {
-	name = "Govinda" # the II
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188109
-	trait = education_martial_3
-	836.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
-
-188111 = {
-	name = "Chandana"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188110 # described as brother-in-law of Govinda II elsewhere
-	860.1.1 = {
-		birth = yes
-	}
-	880.1.1 = {
-		add_spouse = 188113
-	}
-	917.1.1 = {
-		death = yes
-	}
-}
-
-188112 = {
-	# wife of ruler of Kannauj, Bhoja I?
-	name = "Kalavati"
-	female = yes
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188110
-	862.1.1 = {
-		birth = yes
-	}
-	927.1.1 = {
-		death = yes
-	}
-}
-
-188113 = {
-	# wife of Chandana Chahamana
-	name = "Rudrani"
-	female = yes
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	858.1.1 = {
-		birth = yes
-	}
-	920.1.1 = {
-		death = yes
-	}
-}
-
-188114 = {
-	name = "Vakpatiraja" # the I
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188111
-	mother = 188113
-	883.1.1 = {
-		birth = yes
-	}
-	944.1.1 = {
-		death = yes
-	}
-}
-
-188115 = {
-	name = "Singhraja"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188114
-	trait = generous
-	900.1.1 = {
-		birth = yes
-	}
-	973.1.1 = {
-		death = yes
-	}
-}
-
-188116 = {
-	# Founder of Nadol branch in Sirohi
-	name = "Lakshamana"
-	dynasty = 1042081
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188114
-	902.1.1 = {
-		birth = yes
-	}
-	970.1.1 = {
-		death = yes
-	}
-}
-
-188138 = {
-	# daughter of Chauhan Bhoj?, wife of Mulraja I Solanki
-	name = "Madhavi"
-	female = yes
-	dynasty = 1042081 #Chahamana
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188115
-	938.1.1 = {
-		birth = yes
-	}
-	1000.1.1 = {
-		death = yes
-	}
-}
-
-188117 = {
-	name = "Vigraharaja" # the II
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188115
-	940.1.1 = {
-		birth = yes
-	}
-	999.1.1 = {
-		death = yes
-	}
-}
-
-188118 = {
-	name = "Durlabharaja" # the II
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188115
-	942.1.1 = {
-		birth = yes
-	}
-	1012.1.1 = {
-		death = yes
-	}
-}
-
-188119 = {
-	name = "Govinda" # the III
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188118
-	962.1.1 = {
-		birth = yes
-	}
-	1020.1.1 = {
-		death = yes
-	}
-}
-
-188120 = {
-	name = "Vakapati" # the II
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188119
-	979.1.1 = {
-		birth = yes
-	}
-	1030.1.1 = {
-		death = yes
-	}
-}
-
-188121 = {
-	name = "Viryarama"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188119
-	980.1.1 = {
-		birth = yes
-	}
-	1040.1.1 = {
-		death = yes
-	}
-}
-
-188122 = {
-	name = "Chamundaraja"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188119
-	985.1.1 = {
-		birth = yes
-	}
-	1050.1.1 = {
-		death = yes
-	}
-}
-
-188123 = {
-	name = "Durlabharaja" # the III
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188121
-	1030.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-
-188124 = {
-	name = "Simghata"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188121
-	1026.1.1 = {
-		birth = yes
-	}
-	1055.1.1 = {
-		death = yes
-	}
-}
-
-188125 = {
-	name = "Virasimha"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188121
-	1032.1.1 = {
-		birth = yes
-	}
-	1090.1.1 = {
-		death = yes
-	}
-}
-
-188126 = {
-	name = "Vigraharaja" # the III
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188121
-	1039.1.1 = {
-		birth = yes
-	}
-	1105.1.1 = {
-		death = yes
-	}
-}
-
-188127 = {
-	name = "Prithviraja" # the I
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188126
-	1064.1.1 = {
-		birth = yes
-	}
-	1085.1.1 = {
-		add_spouse = 188128
-	}
-	1110.1.1 = {
-		death = yes
-	}
-}
-
-188128 = {
-	name = "Rasaladevi"
-	# wife of Prithviraja I Chahamana
-	female = yes
-	religion = "shaivism"
-	culture = "rajput"
-	1065.1.1 = {
-		birth = yes
-	}
-	1118.1.1 = {
-		death = yes
-	}
-}
-
-188129 = {
-	name = "Ajairaja"
-	dynasty = 1042081 #Chahamana of Ajmer
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188127
-	mother = 188128
-	1086.1.1 = {
-		birth = yes
-	}
-	1104.1.1 = {
-		add_spouse = 188130
-	}
-	1125.1.1 = {
-		death = yes
-	}
-}
-
-188130 = {
-	name = "Somalladevi"
-	# wife of Ajairaja Chahamana
-	female = yes
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	1088.1.1 = {
-		birth = yes
-	}
-	1121.1.1 = {
-		death = yes
-	}
-}
-
-188131 = {
-	name = "Arnoraja"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188129
-	mother = 188130
-	1105.1.1 = {
-		birth = yes
-	}
-	1127.1.1 = {
-		add_spouse = 188132
-	}
-	1130.1.1 = {
-		add_spouse = 188133
-	}
-	1151.1.1 = {
-		death = yes
-	}
-}
-
 188132 = {
 	name = "Kanchandevi"
 	female = yes
@@ -1809,204 +1594,2247 @@
 		death = yes
 	}
 }
-
-188133 = {
-	# daughter of Marwar ruler of Avichi
-	name = "Sidhawa"
+paramara_branch_off_spouse = {
+	name = "Virmati"
+	dynasty = 1042069 #Solanki
+	religion = "shaivism"
 	female = yes
-	religion = "shaivism"
-	culture = "rajput"
-	1114.1.1 = {
+	culture = "gujarati"
+	father = 188081 #Unknown which Chalukya/Chavda/Solanki ruler this was the daughter of.
+	1045.1.1 = {
 		birth = yes
 	}
-	1156.1.1 = {
+	1120.1.1 = {
 		death = yes
 	}
 }
-
-188134 = {
-	name = "Jagadeva"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188131
-	mother = 188133
-	1132.1.1 = {
-		birth = yes
-	}
-	1151.6.1 = {
-		death = yes
-	}
-}
-
-188135 = {
-	name = "Prithviraja" # the II
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188134
-	1150.1.1 = {
-		birth = yes
-	}
-	1166.1.1 = {
-		add_spouse = 188140
-	}
-	1169.1.1 = {
-		death = yes
-	}
-}
-
-188140 = {
-	name = "Suhava"
+191800 = {
+	name = "Saubhagyadevi"
 	female = yes
+	dynasty = 1042069	#Solanki
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 188081
+	mother = 188083
+	1050.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Jewlia Dynasty
+#######################################
+188099 = {
+	name = "Jaya" # fictitious first name
+	dynasty = 1042071 #Jewlia
 	religion = "srikula_shaktism"
 	culture = "rajput"
-	1148.1.1 = {
+	840.1.1 = {
 		birth = yes
 	}
-	1189.1.1 = {
+	900.1.1 = {
 		death = yes
 	}
 }
+#######################################
+# Chahamana Dynasty
+#######################################
+	188100 = {
+		name = "Vasudeva"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		521.1.1 = {
+			birth = yes
+		}
+		595.1.1 = {
+			death = yes
+		}
+	}
+	188101 = {
+		name = "Samanta"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188100
+		570.1.1 = {
+			birth = yes
+		}
+		668.1.1 = {
+			death = yes
+		}
+	}
+	188102 = {
+		name = "Naradeva" # Purnatalla in other sources
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188101
+		623.1.1 = {
+			birth = yes
+		}
+		693.1.1 = {
+			death = yes
+		}
+	}
+	188103 = {
+		name = "Jayaraja"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188102
+		648.1.1 = {
+			birth = yes
+		}
+		718.1.1 = {
+			death = yes
+		}
+	}
+	188104 = {
+		name = "Vigrharaja" # the I
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188103
+		673.1.1 = {
+			birth = yes
+		}
+		743.1.1 = {
+			death = yes
+		}
+	}
+	191925 = {
+		name = "Sahaja"
+		dynasty = 1042081	#Chauhan of Nadol
+		female = yes
+		religion = "srikula_shaktism"
+		culture = "hindustani"
+		father = 191705
+		981.1.1 = {
+			birth = yes
+		}
+		1010.1.1 = {
+			death = yes
+		}
+	}
+	188105 = {
+		name = "Chandraraja" # the I
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188104
+		698.1.1 = {
+			birth = yes
+		}
+		768.1.1 = {
+			death = yes
+		}
+	}
+	188106 = {
+		name = "Gopendraraja"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188105
+		723.1.1 = {
+			birth = yes
+		}
+		788.1.1 = {
+			death = yes
+		}
+	}
+	188107 = {
+		name = "Durlabharaja" # the I
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188106
+		748.1.1 = {
+			birth = yes
+		}
+		809.1.1 = {
+			death = yes
+		}
+	}
+	188108 = {
+		name = "Govinda" # the I (aka Guvakaraja)
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188107
+		773.1.1 = {
+			birth = yes
+		}
+		836.1.1 = {
+			death = yes
+		}
+	}
+	188109 = {
+		name = "Chandraraja" # the II
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188108
+		816.1.1 = {
+			birth = yes
+		}
+		880.1.1 = {
+			death = yes
+		}
+	}
+	188110 = {
+		name = "Govinda" # the II
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188109
+		trait = education_martial_3
+		836.1.1 = {
+			birth = yes
+		}
+		890.1.1 = {
+			death = yes
+		}
+	}
+	188111 = {
+		name = "Chandana"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188110 # described as brother-in-law of Govinda II elsewhere
+		860.1.1 = {
+			birth = yes
+		}
+		880.1.1 = {
+			add_spouse = 188113
+		}
+		917.1.1 = {
+			death = yes
+		}
+	}
+	188112 = {
+		# wife of ruler of Kannauj, Bhoja I?
+		name = "Kalavati"
+		female = yes
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188110
+		862.1.1 = {
+			birth = yes
+		}
+		927.1.1 = {
+			death = yes
+		}
+	}
+	188113 = {
+		# wife of Chandana Chahamana
+		name = "Rudrani"
+		female = yes
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		858.1.1 = {
+			birth = yes
+		}
+		920.1.1 = {
+			death = yes
+		}
+	}
+	188114 = {
+		name = "Vakpatiraja" # the I
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188111
+		mother = 188113
+		883.1.1 = {
+			birth = yes
+		}
+		944.1.1 = {
+			death = yes
+		}
+	}
+	188115 = {
+		name = "Singhraja"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188114
+		trait = generous
+		900.1.1 = {
+			birth = yes
+		}
+		973.1.1 = {
+			death = yes
+		}
+	}
+	188116 = {
+		# Founder of Nadol branch in Sirohi
+		name = "Lakshamana"
+		dynasty = 1042081
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188114
+		902.1.1 = {
+			birth = yes
+		}
+		970.1.1 = {
+			death = yes
+		}
+	}
+	188138 = {
+		# daughter of Chauhan Bhoj?, wife of Mulraja I Solanki
+		name = "Madhavi"
+		female = yes
+		dynasty = 1042081 #Chahamana
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188115
+		938.1.1 = {
+			birth = yes
+		}
+		1000.1.1 = {
+			death = yes
+		}
+	}
+	188117 = {
+		name = "Vigraharaja" # the II
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188115
+		940.1.1 = {
+			birth = yes
+		}
+		999.1.1 = {
+			death = yes
+		}
+	}
+	188118 = {
+		name = "Durlabharaja" # the II
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188115
+		942.1.1 = {
+			birth = yes
+		}
+		1012.1.1 = {
+			death = yes
+		}
+	}
+	188119 = {
+		name = "Govinda" # the III
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188118
+		962.1.1 = {
+			birth = yes
+		}
+		1020.1.1 = {
+			death = yes
+		}
+	}
+	188120 = {
+		name = "Vakapati" # the II
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188119
+		979.1.1 = {
+			birth = yes
+		}
+		1030.1.1 = {
+			death = yes
+		}
+	}
+	188121 = {
+		name = "Viryarama"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188119
+		980.1.1 = {
+			birth = yes
+		}
+		1040.1.1 = {
+			death = yes
+		}
+	}
+	188122 = {
+		name = "Chamundaraja"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188119
+		985.1.1 = {
+			birth = yes
+		}
+		1050.1.1 = {
+			death = yes
+		}
+	}
+	188123 = {
+		name = "Durlabharaja" # the III
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188121
+		1030.1.1 = {
+			birth = yes
+		}
+		1070.1.1 = {
+			death = yes
+		}
+	}
+	188124 = {
+		name = "Simghata"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188121
+		1026.1.1 = {
+			birth = yes
+		}
+		1055.1.1 = {
+			death = yes
+		}
+	}
+	188125 = {
+		name = "Virasimha"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188121
+		1032.1.1 = {
+			birth = yes
+		}
+		1090.1.1 = {
+			death = yes
+		}
+	}
+	188126 = {
+		name = "Vigraharaja" # the III
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188121
+		1039.1.1 = {
+			birth = yes
+		}
+		1105.1.1 = {
+			death = yes
+		}
+	}
+	188127 = {
+		name = "Prithviraja" # the I
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188126
+		1064.1.1 = {
+			birth = yes
+		}
+		1085.1.1 = {
+			add_spouse = 188128
+		}
+		1110.1.1 = {
+			death = yes
+		}
+	}
+	188128 = {
+		name = "Rasaladevi"
+		# wife of Prithviraja I Chahamana
+		female = yes
+		religion = "shaivism"
+		culture = "rajput"
+		1065.1.1 = {
+			birth = yes
+		}
+		1118.1.1 = {
+			death = yes
+		}
+	}
+	188129 = {
+		name = "Ajairaja"
+		dynasty = 1042081 #Chahamana of Ajmer
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188127
+		mother = 188128
+		1086.1.1 = {
+			birth = yes
+		}
+		1104.1.1 = {
+			add_spouse = 188130
+		}
+		1125.1.1 = {
+			death = yes
+		}
+	}
+	188130 = {
+		name = "Somalladevi"
+		# wife of Ajairaja Chahamana
+		female = yes
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		1088.1.1 = {
+			birth = yes
+		}
+		1121.1.1 = {
+			death = yes
+		}
+	}
+	188131 = {
+		name = "Arnoraja"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188129
+		mother = 188130
+		1105.1.1 = {
+			birth = yes
+		}
+		1127.1.1 = {
+			add_spouse = 188132
+		}
+		1130.1.1 = {
+			add_spouse = 188133
+		}
+		1151.1.1 = {
+			death = yes
+		}
+	}
+	188133 = {
+		# daughter of Marwar ruler of Avichi
+		name = "Sidhawa"
+		female = yes
+		religion = "shaivism"
+		culture = "rajput"
+		1114.1.1 = {
+			birth = yes
+		}
+		1156.1.1 = {
+			death = yes
+		}
+	}
+	188134 = {
+		name = "Jagadeva"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188131
+		mother = 188133
+		1132.1.1 = {
+			birth = yes
+		}
+		1151.6.1 = {
+			death = yes
+		}
+	}
+	188135 = {
+		name = "Prithviraja" # the II
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188134
+		1150.1.1 = {
+			birth = yes
+		}
+		1166.1.1 = {
+			add_spouse = 188140
+		}
+		1169.1.1 = {
+			death = yes
+		}
+	}
+	188140 = {
+		name = "Suhava"
+		female = yes
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		1148.1.1 = {
+			birth = yes
+		}
+		1189.1.1 = {
+			death = yes
+		}
+	}
+	188136 = {
+		name = "Vigraharaja" # the IV
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188131
+		mother = 188133
+		1134.1.1 = {
+			birth = yes
+		}
+		1151.1.1 = {
+			add_spouse = 188137
+		}
+		1163.1.1 = {
+			death = yes
+		}
+	}
+	188137 = {
+		name = "Desaladevi"
+		female = yes
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		1135.1.1 = {
+			birth = yes
+		}
+		1169.1.1 = {
+			death = yes
+		}
+	}
+	188139 = {
+		name = "Amarangeya" # or Aparangeya
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188136
+		mother = 188137
+		1152.1.1 = {
+			birth = yes
+		}
+		1165.1.1 = {
+			death = yes
+		}
+	}
+	188144 = {
+		# holder of Gurgaon until 1180
+		# founder of Raijada Chahamanas
+		name = "Nagarjuna"
+		dynasty = 1042081 #Chahamana of Raijada
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188136
+		mother = 188137
+		1153.1.1 = {
+			birth = yes
+		}
+		1180.1.1 = {
+			name = "Raimana" # name changed after defeat by Prithviraj III
+		}
+		1200.1.1 = {
+			death = yes
+		}
+	}
+	188141 = {
+		name = "Someshwara"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188131
+		mother = 188132
+		1129.1.1 = {
+			birth = yes
+		}
+		# add_spouse = Karpuridevi, daughter of Achala of Tripuri
+		1177.1.1 = {
+			death = yes
+		}
+	}
+	188142 = {
+		name = "Prithviraja" # the III
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188141
+		1149.1.1 = {
+			birth = yes
+		}
+		1192.1.1 = {
+			death = yes
+		}
+	}
+	188143 = {
+		name = "Hariraja"
+		dynasty = 1042081 #Chahamana of Shakambhari
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188141
+		1169.1.1 = {
+			birth = yes
+		}
+		1194.1.1 = {
+			death = yes
+		}
+	}
+	188145 = {
+		name = "Govinda"
+		dynasty = 1042081 #Chahamana of Ranthambor
+		religion = "shaivism"
+		culture = "rajput"
+		father = 188142
+		1170.1.1 = {
+			birth = yes
+		}
+		1215.1.1 = {
+			death = yes
+		}
+	}
+	188148 = {
+		name = "Mahisarama"
+		dynasty = 1042081 #Chahamana of Dholpur
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188147
+		775.1.1 = {
+			birth = yes
+		}
+		825.1.1 = {
+			death = yes
+		}
+	}
+	188149 = {
+		name = "Chandamahasena"
+		dynasty = 1042081 #Chahamana of Dholpur
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188148
+		800.1.1 = {
+			birth = yes
+		}
+		860.1.1 = {
+			death = yes
+		}
+	}
+	188150 = {
+		name = "Mahisarama" # fictious name
+		dynasty = 1042081 #Chahamana of Dholpur
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188148
+		825.1.1 = {
+			birth = yes
+		}
+		875.1.1 = {
+			death = yes
+		}
+	}
+	188220 = {
+		name = "Valhana"
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188145
+		1187.1.1 = {
+			birth = yes
+		}
+		1220.1.1 = {
+			death = yes
+		}
+	}
+	188221 = {
+		name = "Prahladana"
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188220
+		1203.1.1 = {
+			birth = yes
+		}
+		1221.1.1 = {
+			death = yes
+		}
+	}
+	188222 = {
+		name = "Viranarayana"
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188221
+		1219.1.1 = {
+			birth = yes
+		}
+		1226.1.1 = {
+			death = yes
+		}
+	}
+	188223 = {
+		name = "Vagbhata"
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188220
+		1204.1.1 = {
+			birth = yes
+		}
+		1253.1.1 = {
+			death = yes
+		}
+	}
+	188224 = {
+		name = "Jaitrasimha"
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188223
+		1224.1.1 = {
+			birth = yes
+		}
+		1285.1.1 = {
+			death = yes
+		}
+	}
+	188225 = {
+		name = "Suratrana"
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188224
+		1244.1.1 = {
+			birth = yes
+		}
+		1300.1.1 = {
+			death = yes
+		}
+	}
+	188226 = {
+		name = "Virama"
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188224
+		1245.1.1 = {
+			birth = yes
+		}
+		1301.7.8 = {
+			death = yes
+		}
+	}
+	188227 = {
+		name = "Hammira"
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188224
+		trait = education_martial_4
+		trait = brave
+		trait = ambitious
+		1246.1.1 = {
+			birth = yes
+		}
+		1301.7.8 = {
+			death = yes
+		}
+	}
+	188228 = {
+		name = "Devalladevi"
+		female = yes
+		dynasty = 1042081 #Chahamana
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188227
+		1276.1.1 = {
+			birth = yes
+		}
+		1301.7.8 = {
+			death = yes
+		}
+	}
+	188147 = {
+		name = "Isuka"
+		dynasty = 1042081 #Chahamana of Dholpur
+		religion = "srikula_shaktism"
+		culture = "rajput"
+		father = 188106 # fictitious connection to Shakambhari Chauhans
+		750.1.1 = {
+			birth = yes
+		}
+		800.1.1 = {
+			death = yes
+		}
+	}
+	188445 = {
+		name = "Muni"
+		dynasty = 1042081 #Chahamana
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188107 # conjecture
+		775.1.1 = {
+			birth = yes
+		}
+		815.1.1 = {
+			death = yes
+		}
+	}
+	188446 = {
+		name = "Kalahalanga"
+		dynasty = 1042081 #Chahamana
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188445
+		795.1.1 = {
+			birth = yes
+		}
+		840.1.1 = {
+			death = yes
+		}
+	}
+	188447 = {
+		name = "Ghangh" # or Dhandu
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188446
+		815.1.1 = {
+			birth = yes
+		}
+		865.1.1 = {
+			death = yes
+		}
+	}
+	188448 = {
+		name = "Kanho"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188447
+		840.1.1 = {
+			birth = yes
+		}
+		890.1.1 = {
+			death = yes
+		}
+	}
+	188449 = {
+		name = "Harsha" # fictitious
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188448
+		865.1.1 = {
+			birth = yes
+		}
+		915.1.1 = {
+			death = yes
+		}
+	}
+	188450 = {
+		name = "Gangh" # fictitious
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188449
+		890.1.1 = {
+			birth = yes
+		}
+		950.1.1 = {
+			death = yes
+		}
+	}
+	188451 = {
+		name = "Jevara"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188450
+		912.1.1 = {
+			birth = yes
+		}
+		980.1.1 = {
+			death = yes
+		}
+	}
+	188452 = {
+		name = "Gogaji"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188451
+		946.1.1 = {
+			birth = yes
+		}
+		1024.1.1 = {
+			death = yes
+		}
+	}
+	188453 = {
+		name = "Naniga"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188452
+		968.1.1 = {
+			birth = yes
+		}
+		1035.1.1 = {
+			death = yes
+		}
+	}
+	188454 = {
+		name = "Bairasi" # or Vairasi
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188451
+		950.1.1 = {
+			birth = yes
+		}
+		1020.1.1 = {
+			death = yes
+		}
+	}
+	188455 = {
+		name = "Udayaraja"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188454
+		980.1.1 = {
+			birth = yes
+		}
+		1055.1.1 = {
+			death = yes
+		}
+	}
+	188456 = {
+		name = "Jasaraja"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188455
+		1010.1.1 = {
+			birth = yes
+		}
+		1075.1.1 = {
+			death = yes
+		}
+	}
+	188457 = {
+		name = "Kesoraja"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188456
+		1040.1.1 = {
+			birth = yes
+		}
+		1095.1.1 = {
+			death = yes
+		}
+	}
+	188458 = {
+		name = "Vijayaraja"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188457
+		1065.1.1 = {
+			birth = yes
+		}
+		1115.1.1 = {
+			death = yes
+		}
+	}
+	188459 = {
+		name = "Padmasi"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188458
+		1090.1.1 = {
+			birth = yes
+		}
+		1135.1.1 = {
+			death = yes
+		}
+	}
+	188460 = {
+		name = "Prithviraj"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188459
+		1110.1.1 = {
+			birth = yes
+		}
+		1160.1.1 = {
+			death = yes
+		}
+	}
+	188461 = {
+		name = "Lalachanda"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188460
+		1135.1.1 = {
+			birth = yes
+		}
+		1185.1.1 = {
+			death = yes
+		}
+	}
+	188462 = {
+		name = "Gopala"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188461
+		1160.1.1 = {
+			birth = yes
+		}
+		1210.1.1 = {
+			death = yes
+		}
+	}
+	188463 = {
+		name = "Jaitasi"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188462
+		1185.1.1 = {
+			birth = yes
+		}
+		1230.1.1 = {
+			death = yes
+		}
+	}
+	### more Chanamans
+	188464 = {
+		name = "Punapala"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188463
+		1205.1.1 = {
+			birth = yes
+		}
+		1255.1.1 = {
+			death = yes
+		}
+	}
+	188465 = {
+		name = "Rupa"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188464
+		1230.1.1 = {
+			birth = yes
+		}
+		1280.1.1 = {
+			death = yes
+		}
+	}
+	188466 = {
+		name = "Ravana"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188465
+		1255.1.1 = {
+			birth = yes
+		}
+		1305.1.1 = {
+			death = yes
+		}
+	}
+	188467 = {
+		name = "Tihunapala"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188466
+		1280.1.1 = {
+			birth = yes
+		}
+		1330.1.1 = {
+			death = yes
+		}
+	}
+	188468 = {
+		name = "Moteraya"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188467
+		1305.1.1 = {
+			birth = yes
+		}
+		1350.1.1 = {
+			death = yes
+		}
+	}
+	188469 = {
+		name = "Karama-Chanda"
+		dynasty = 1042081 #Chahamana of Dadrewa
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 188468
+		1328.1.1 = {
+			birth = yes
+		}
+		1355.1.1 = {
+			religion = ashari
+		}	
+		1388.1.1 = {
+			death = yes
+		}
+	}
+	188504 = {
+		name = "Maldeo"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "kalikula_shaktism"
+		culture = "rajput"
+		father = 191752
+		1280.1.1 = {
+			birth = yes
+		}
+		1326.1.1 = {
+			death = yes
+		}
+	}
+	188518 = {
+		name = "Bhuyikadevi"
+		female = yes
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "smartism"
+		culture = "rajput"
+		father = 188504
+		1300.1.1 = {
+			birth = yes
+		}
+		1364.1.1 = {
+			death = yes
+		}
+	}
+	191699 = {
+		name = "Govindaraja"
+		dynasty = 1042081	#Chauhan of Partapgarh
+		religion = "advaitism"
+		culture = "rajput"
+		father = 188107	#Fictional link, link to main Chahamana branch is speculative (though probable)
+		800.1.1 = {
+			birth = yes
+		}
+		870.1.1 = {
+			death = yes
+		}
+	}
+	191700 = {
+		name = "Durlabharaja"
+		dynasty = 1042081	#Chauhan of Partapgarh
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191699
+		850.1.1 = {
+			birth = yes
+		}
+		900.1.1 = {
+			death = yes
+		}
+	}
+	191701 = {
+		name = "Indraraja"
+		dynasty = 1042081	#Chauhan of Partapgarh
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191699
+		870.1.1 = {
+			birth = yes
+		}
+		946.1.1 = {
+			death = yes
+		}
+	}
+	191702 = {
+		name = "Sobhita"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 188116	#Lakshmana
+		930.1.1 = {
+			birth = yes
+		}
+		980.1.1 = {
+			death = yes
+		}
+	}
+	191703 = {
+		name = "Baliraja"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191702
+		950.1.1 = {
+			birth = yes
+		}
+		993.1.1 = {
+			death = yes
+		}
+	}
+	191704 = {
+		name = "Vigrahapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 188116
+		935.1.1 = {
+			birth = yes
+		}
+		1000.1.1 = {
+			death = yes
+		}
+	}
+	191705 = {
+		name = "Mahendra"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191704
+		955.1.1 = {
+			birth = yes
+		}
+		1010.1.1 = {
+			death = yes
+		}
+	}
+	191706 = {
+		name = "Asvapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191705
+		975.1.1 = {
+			birth = yes
+		}
+		1015.1.1 = {
+			death = yes
+		}
+	}
+	191707 = {
+		name = "Anahilla"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191705
+		977.1.1 = {
+			birth = yes
+		}
+		1050.1.1 = {
+			death = yes
+		}
+	}
+	191708 = {
+		name = "Ahila"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191706
+		995.1.1 = {
+			birth = yes
+		}
+		1020.1.1 = {
+			death = yes
+		}
+	}
+	191709 = {
+		name = "Balaprasada"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191707
+		995.1.1 = {
+			birth = yes
+		}
+		1060.1.1 = {
+			death = yes
+		}
+	}
+	191710 = {
+		name = "Jinduraja"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191707
+		997.1.1 = {
+			birth = yes
+		}
+		1070.1.1 = {
+			death = yes
+		}
+	}
+	191711 = {
+		name = "Prithvipala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191710
+		1016.1.1 = {
+			birth = yes
+		}
+		1088.1.1 = {
+			death = yes
+		}
+	}
+	191712 = {
+		name = "Jojaladeva"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191710
+		1017.1.1 = {
+			birth = yes
+		}
+		1110.1.1 = {
+			death = yes
+		}
+	}
+	191713 = {
+		name = "Asharaja"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191710
+		1020.1.1 = {
+			birth = yes
+		}
+		1040.1.1 = {
+			add_spouse = 191721
+		}
+		#Abdicates in 1118
+		1119.6.1 = {
+			death = yes
+		}
+	}
+	191714 = {
+		name = "Ratnapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191713
+		mother = 191721
+		1042.1.1 = {
+			birth = yes
+		}
+		1132.1.1 = {
+			death = yes
+		}
+	}
+	191715 = {
+		name = "Rayapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191714
+		1100.1.1 = {
+			birth = yes
+		}
+		1121.1.1 = {
+			add_spouse = 191744
+		}
+		1125.1.1 = {
+			add_spouse = 191718
+		}
+		1147.1.1 = {
+			death = yes
+		}
+	}
+	191744 = {
+		name = "Padmaladevi"
+		female = yes
+		religion = "advaitism"
+		culture = "rajput"
+		1105.1.1 = {
+			birth = yes
+		}
+		1170.1.1 = {
+			death = yes
+		}
+	}
+	191716 = {
+		name = "Sahajapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191715
+		mother = 191744
+		1126.1.1 = {
+			birth = yes
+		}
+		1149.1.1 = {
+			death = yes
+		}
+	}
+	191717 = {
+		name = "Sahanapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191715
+		mother = 191744
+		1128.1.1 = {
+			birth = yes
+		}
+		1170.1.1 = {
+			death = yes
+		}
+	}
+	191718 = {
+		name = "Manaladevi"
+		female = yes
+		religion = "advaitism"
+		culture = "rajput"
+		1109.1.1 = {
+			birth = yes
+		}
+		1180.1.1 = {
+			death = yes
+		}
+	}
+	191719 = {
+		name = "Rudrapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191715
+		mother = 191718
+		1130.1.1 = {
+			birth = yes
+		}
+		1200.1.1 = {
+			death = yes
+		}
+	}
+	191720 = {
+		name = "Amritapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191715
+		mother = 191718
+		1135.1.1 = {
+			birth = yes
+		}
+		1190.1.1 = {
+			death = yes
+		}
+	}
+	191721 = {
+		name = "Delhanadevi"
+		female = yes
+		religion = "advaitism"
+		culture = "rajput"
+		1024.1.1 = {
+			birth = yes
+		}
+		1080.1.1 = {
+			death = yes
+		}
+	}
+	191722 = {
+		name = "Katudeva"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191713
+		mother = 191721
+		1044.6.1 = {
+			birth = yes
+		}
+		1144.1.1 = {
+			death = yes
+		}
+	}
+	191723 = {
+		name = "Jayatasiha"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191722
+		1110.1.1 = {
+			birth = yes
+		}
+		1130.1.1 = {
+			add_spouse = 191724
+		}
+		1145.1.1 = {
+			death = yes
+		}
+	}
+	191724 = {
+		name = "Tihunaka"
+		female = yes
+		religion = "advaitism"
+		culture = "rajput"
+		1111.1.1 = {
+			birth = yes
+		}
+		1160.1.1 = {
+			death = yes
+		}
+	}
+	191725 = {
+		name = "Alhana"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "advaitism"
+		culture = "rajput"
+		father = 191713
+		mother = 191721
+		1066.1.1 = {
+			birth = yes
+		}
+		1082.1.1 = {
+			add_spouse = 191726
+		}
+		1082.5.1 = {
+			add_spouse = 191727
+		}
+		1164.1.1 = {
+			death = yes
+		}
+	}
 
-188136 = {
-	name = "Vigraharaja" # the IV
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188131
-	mother = 188133
-	1134.1.1 = {
-		birth = yes
+	191727 = {
+		name = "Nainsi"
+		female = yes
+		religion = "advaitism"
+		culture = "rajput"
+		1066.1.1 = {
+			birth = yes
+		}
+		1130.1.1 = {
+			death = yes
+		}
 	}
-	1151.1.1 = {
-		add_spouse = 188137
+	191728 = {
+		name = "Kelhana"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191725
+		mother = 191726
+		1121.1.1 = {
+			birth = yes
+		}
+		1137.1.1 = {
+			add_spouse = 191734
+		}
+		1138.1.1 = {
+			add_spouse = 191735
+		}
+		1174.1.1 = {
+			death = yes
+		}
 	}
-	1163.1.1 = {
-		death = yes
+	191729 = {
+		name = "Gajasimha"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191725
+		mother = 191726
+		1123.1.1 = {
+			birth = yes
+		}
+		1184.1.1 = {
+			death = yes
+		}
 	}
-}
-
-188137 = {
-	name = "Desaladevi"
-	female = yes
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	1135.1.1 = {
-		birth = yes
+	191730 = {
+		name = "Kirtipala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191725
+		mother = 191726
+		1125.1.1 = {
+			birth = yes
+		}
+		1182.1.1 = {
+			death = yes
+		}
 	}
-	1169.1.1 = {
-		death = yes
+	191731 = {
+		name = "Vijayasimha"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191725
+		mother = 191727
+		1082.6.1 = {
+			birth = yes
+		}
+		1110.1.1 = {
+			death = yes
+		}
 	}
-}
-
-188139 = {
-	name = "Amarangeya" # or Aparangeya
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188136
-	mother = 188137
-	1152.1.1 = {
-		birth = yes
+	191732 = {
+		name = "Vijalladeva"
+		dynasty = 1042081	#Chauhan, of unclear family, appointed officer of Chaulukyas
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 188126 #Fictional link
+		1070.1.1 = {
+			birth = yes
+		}
+		1160.1.1 = {
+			death = yes
+		}
 	}
-	1165.1.1 = {
-		death = yes
+	191733 = {
+		name = "Kuntapala"
+		dynasty = 1042081	#Chauhan, of unclear family, appointed officer of Chaulukyas
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 188126 #Fictional link
+		1072.1.1 = {
+			birth = yes
+		}
+		1160.1.1 = {
+			death = yes
+		}
 	}
-}
-
-188144 = {
-	# holder of Gurgaon until 1180
-	# founder of Raijada Chahamanas
-	name = "Nagarjuna"
-	dynasty = 1042081 #Chahamana of Raijada
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188136
-	mother = 188137
-	1153.1.1 = {
-		birth = yes
+	191734 = {
+		name = "Mahibaladevi"
+		female = yes
+		religion = "krishnaism"
+		culture = "rajput"
+		1120.1.1 = {
+			birth = yes
+		}
+		1160.1.1 = {
+			death = yes
+		}
 	}
-	1180.1.1 = {
-		name = "Raimana" # name changed after defeat by Prithviraj III
+	191735 = {
+		name = "Jalhanadevi"
+		female = yes
+		religion = "krishnaism"
+		culture = "rajput"
+		1122.1.1 = {
+			birth = yes
+		}
+		1160.1.1 = {
+			death = yes
+		}
 	}
-	1200.1.1 = {
-		death = yes
+	191736 = {
+		name = "Sringaradevi"
+		dynasty = 1042081	#Chauhan of Nadol
+		female = yes
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191728
+		mother = 191734
+		1145.1.1 = {
+			birth = yes
+		}
+		1200.1.1 = {
+			death = yes
+		}
 	}
-}
-
-188141 = {
-	name = "Someshwara"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188131
-	mother = 188132
-	1129.1.1 = {
-		birth = yes
+	191737 = {
+		name = "Alhanadevi"
+		dynasty = 1042081	#Chauhan of Nadol
+		female = yes
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191728
+		mother = 191735
+		1146.1.1 = {
+			birth = yes
+		}
+		1160.1.1 = {
+			death = yes
+		}
 	}
-	# add_spouse = Karpuridevi, daughter of Achala of Tripuri
-	1177.1.1 = {
-		death = yes
+	191738 = {
+		name = "Chamundaraja"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191728
+		mother = 191735
+		1147.1.1 = {
+			birth = yes
+		}
+		1184.1.1 = {
+			death = yes
+		}
 	}
-}
-
-188142 = {
-	name = "Prithviraja" # the III
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188141
-	1149.1.1 = {
-		birth = yes
+	191739 = {
+		name = "Kumvarasimha"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191728
+		mother = 191734
+		1146.6.1 = {
+			birth = yes
+		}
+		1192.1.1 = {
+			death = yes
+		}
 	}
-	1192.1.1 = {
-		death = yes
+	191740 = {
+		name = "Lakhanapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191730
+		1146.1.1 = {
+			birth = yes
+		}
+		1222.1.1 = {
+			death = yes
+		}
 	}
-}
-
-188143 = {
-	name = "Hariraja"
-	dynasty = 1042081 #Chahamana of Shakambhari
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188141
-	1169.1.1 = {
-		birth = yes
+	191741 = {
+		name = "Sonapala"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191730
+		1148.1.1 = {
+			birth = yes
+		}
+		1192.1.1 = {
+			death = yes
+		}
 	}
-	1194.1.1 = {
-		death = yes
+	191742 = {
+		name = "Jayatashimha"
+		dynasty = 1042081	#Chauhan of Nadol
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191728
+		mother = 191734
+		1150.1.1 = {
+			birth = yes
+		}
+		1192.1.1 = {
+			death = yes
+		}
 	}
-}
-
-188145 = {
-	name = "Govinda"
-	dynasty = 1042081 #Chahamana of Ranthambor
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188142
-	1170.1.1 = {
-		birth = yes
+	191743 = {
+		name = "Samarisimha"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191730
+		1145.1.1 = {
+			birth = yes
+		}
+		1205.1.1 = {
+			death = yes
+		}
 	}
-	1215.1.1 = {
-		death = yes
+	191745 = {
+		name = "Udayasimha"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191743
+		1162.1.1 = {
+			birth = yes
+		}
+		1210.1.1 = {
+			add_spouse = 191749
+		}
+		1259.1.1 = {
+			death = yes
+		}
 	}
-}
-
-188146 = {
-	name = "Yasapala"
-	dynasty = 1042066
-	religion = "shaivism"
-	culture = "rajput"
-	father = 188016
-	1020.1.1 = {
-		birth = yes
+	191746 = {
+		name = "Liladevi"
+		dynasty = 1042081	#Chauhan of Jalor
+		female = yes
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191743
+		1163.1.1 = {
+			birth = yes
+		}
+		1230.1.1 = {
+			death = yes
+		}
 	}
-	1080.1.1 = {
-		death = yes
+	191747 = {
+		name = "Manavasimha"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191743
+		1164.1.1 = {
+			birth = yes
+		}
+		1228.1.1 = {
+			death = yes
+		}
 	}
-}
-
+	191748 = {
+		name = "Chachigadeva"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191745
+		mother = 191749
+		1210.1.1 = {
+			birth = yes
+		}
+		1282.1.1 = {
+			death = yes
+		}
+	}
+	191749 = {
+		name = "Prahladanadevi"
+		female = yes
+		religion = "krishnaism"
+		culture = "rajput"
+		1185.1.1 = {
+			birth = yes
+		}
+		1250.1.1 = {
+			death = yes
+		}
+	}
+	191750 = {
+		name = "Chamundaraja"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191745
+		mother = 191749
+		1212.1.1 = {
+			birth = yes
+		}
+		1295.1.1 = {
+			death = yes
+		}
+	}
+	191751 = {
+		name = "Samantasimha"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191748
+		1230.1.1 = {
+			birth = yes
+		}
+		#Abdicates in 1296
+		1300.1.1 = {
+			death = yes
+		}
+	}
+	191752 = {
+		name = "Kanhadadeva"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191751
+		1250.1.1 = {
+			birth = yes
+		}
+		1316.1.1 = {
+			death = yes
+		}
+	}
+	191753 = {
+		name = "Pratapamalla"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191747
+		1190.1.1 = {
+			birth = yes
+		}
+		1250.1.1 = {
+			death = yes
+		}
+	}
+	191754 = {
+		name = "Vijada"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191753
+		1210.1.1 = {
+			birth = yes
+		}
+		1230.1.1 = {
+			add_spouse = 191755
+		}
+		1290.1.1 = {
+			death = yes
+		}
+	}
+	191755 = {
+		name = "Namalladevi"
+		female = yes
+		religion = "krishnaism"
+		culture = "rajput"
+		1212.1.1 = {
+			birth = yes
+		}
+		1250.1.1 = {
+			death = yes
+		}
+	}
+	191756 = {
+		name = "Lavanyakarna"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191754
+		mother = 191755
+		1230.1.1 = {
+			birth = yes
+		}
+		1311.1.1 = {
+			death = yes
+		}
+	}
+	191757 = {
+		name = "Lumdha"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191754
+		mother = 191755
+		1232.1.1 = {
+			birth = yes
+		}
+		1320.1.1 = {
+			death = yes
+		}
+	}
+	191758 = {
+		name = "Lakshmana"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191754
+		mother = 191755
+		1235.1.1 = {
+			birth = yes
+		}
+		1290.1.1 = {
+			death = yes
+		}
+	}
+	191777 = {
+		name = "Lunavarman"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191754
+		mother = 191755
+		1240.1.1 = {
+			birth = yes
+		}
+		1275.1.1 = {
+			death = yes
+		}
+	}
+	191759 = {
+		name = "Tejasimha"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191757
+		1252.1.1 = {
+			birth = yes
+		}
+		1321.1.1 = {
+			death = yes
+		}
+	}
+	191760 = {
+		name = "Tihunaka"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191757
+		1254.1.1 = {
+			birth = yes
+		}
+		1300.1.1 = {
+			death = yes
+		}
+	}
+	191761 = {
+		name = "Kanhadadeva"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191759
+		1270.1.1 = {
+			birth = yes
+		}
+		1343.1.1 = {
+			death = yes
+		}
+	}
+	191762 = {
+		name = "Samanthasima"
+		dynasty = 1042081	#Chauhan of Sirohi
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191761
+		1290.1.1 = {
+			birth = yes
+		}
+		1360.1.1 = {
+			death = yes
+		}
+	}
+	191763 = {
+		name = "Padmasimha"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191731
+		1099.1.1 = {
+			birth = yes
+		}
+		1120.1.1 = {
+			death = yes
+		}
+	}
+	191778 = {
+		name = "Sobhita"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191763
+		1115.1.1 = {
+			birth = yes
+		}
+		1140.1.1 = {
+			death = yes
+		}
+	}
+	191764 = {
+		name = "Salha"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191778
+		1131.1.1 = {
+			birth = yes
+		}
+		1160.1.1 = {
+			death = yes
+		}
+	}
+	191765 = {
+		name = "Vikramasimha"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191764
+		1147.1.1 = {
+			birth = yes
+		}
+		1180.1.1 = {
+			death = yes
+		}
+	}
+	191766 = {
+		name = "Haripala"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191764
+		1147.1.1 = {
+			birth = yes
+		}
+		1220.1.1 = {
+			death = yes
+		}
+	}
+	191767 = {
+		name = "Sangramasimha"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191765
+		1167.1.1 = {
+			birth = yes
+		}
+		1250.1.1 = {
+			death = yes
+		}
+	}
+	191768 = {
+		name = "Bhimasimha"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191765
+		1168.1.1 = {
+			birth = yes
+		}
+		1240.1.1 = {
+			death = yes
+		}
+	}
+	191769 = {
+		name = "Pratapasimha"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191767
+		1220.1.1 = {
+			birth = yes
+		}
+		1280.1.1 = {
+			death = yes
+		}
+	}
+	191770 = {
+		name = "Vajranga"
+		dynasty = 1042081	#Chauhan of Satyapura
+		religion = "krishnaism"
+		culture = "rajput"
+		father = 191767
+		1250.1.1 = {
+			birth = yes
+		}
+		1321.1.1 = {
+			death = yes
+		}
+	}
+	191807 = {
+		name = "Virama"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "vaishnavism"
+		culture = "rajput"
+		father = 191751
+		1255.1.1 = {
+			birth = yes
+		}
+		1320.1.1 = {
+			death = yes
+		}
+	}
+	191808 = {
+		name = "Sataladeva"
+		dynasty = 1042081	#Chauhan of Jalor
+		religion = "vaishnavism"
+		culture = "rajput"
+		father = 191807
+		1275.1.1 = {
+			birth = yes
+		}
+		1310.6.23 = {
+			death = yes
+		}
+	}
+#######################################
+# Tomara Dynasty
+#######################################
 170151 = {
 	name = "Anangpal" #Anangpal Tomar
 	dynasty = 1040200
@@ -2019,7 +3847,6 @@
 		death = "754.3.1"
 	}
 }
-
 170152 = {
 	name = "Vasudev"
 	dynasty = 1040200
@@ -2033,7 +3860,6 @@
 		death = "773.4.18"
 	}
 }
-
 170153 = {
 	name = "Gangeya" #Gangeya Tuar
 	dynasty = 1040200
@@ -2047,7 +3873,6 @@
 		death = "794.8.16"
 	}
 }
-
 170154 = {
 	name = "Prithvimal"
 	dynasty = 1040200
@@ -2061,7 +3886,6 @@
 		death = "814.3.5"
 	}
 }
-
 170155 = {
 	name = "Jagdev" #or Jaydev
 	dynasty = 1040200
@@ -2075,7 +3899,6 @@
 		death = "834.11.3"
 	}
 }
-
 170156 = {
 	name = "Narpal"
 	dynasty = 1040200
@@ -2089,7 +3912,6 @@
 		death = "849.3.12"
 	}
 }
-
 170157 = {
 	name = "Udaysangh"
 	dynasty = 1040200
@@ -2103,7 +3925,6 @@
 		death = "875.10.23"
 	}
 }
-
 170158 = {
 	name = "Jaidas"
 	dynasty = 1040200
@@ -2117,7 +3938,6 @@
 		death = "897.1.1"
 	}
 }
-
 170159 = {
 	name = "Vachhal" #or VrikshPal
 	dynasty = 1040200
@@ -2131,7 +3951,6 @@
 		death = "919.4.22"
 	}
 }
-
 170160 = {
 	name = "Bacchdev"
 	dynasty = 1040200
@@ -2145,7 +3964,6 @@
 		death = "909.1.1"
 	}
 }
-
 170161 = {
 	name = "Nagdeo"
 	dynasty = 1040200
@@ -2159,7 +3977,6 @@
 		death = "923.1.1"
 	}
 }
-
 170162 = {
 	name = "Krishnray"
 	dynasty = 1040200
@@ -2173,7 +3990,6 @@
 		death = "916.1.1"
 	}
 }
-
 170163 = {
 	name = "Nihal" #Nihal Ray
 	dynasty = 1040200
@@ -2187,7 +4003,6 @@
 		death = "933.1.1"
 	}
 }
-
 170164 = {
 	name = "Somasi"
 	dynasty = 1040200
@@ -2201,7 +4016,6 @@
 		death = "904.1.1"
 	}
 }
-
 170165 = {
 	name = "Harpal"
 	dynasty = 1040200
@@ -2215,7 +4029,6 @@
 		death = "913.1.1"
 	}
 }
-
 170166 = {
 	name = "Pavak"
 	dynasty = 1040200
@@ -2229,7 +4042,6 @@
 		death = "940.10.27"
 	}
 }
-
 170167 = {
 	name = "Vihangpal"
 	dynasty = 1040200
@@ -2243,7 +4055,6 @@
 		death = "961.3.1"
 	}
 }
-
 170168 = {
 	name = "Tolpal" #or Gopal
 	dynasty = 1040200
@@ -2257,7 +4068,6 @@
 		death = "979.6.16"
 	}
 }
-
 170169 = {
 	name = "Karnpal" #Karnpal Tuar
 	dynasty = 1040200
@@ -2271,7 +4081,6 @@
 		death = "882.1.1"
 	}
 }
-
 170170 = {
 	name = "Sulakshanpal"
 	dynasty = 1040200
@@ -2285,7 +4094,6 @@
 		death = "1005.4.26"
 	}
 }
-
 170171 = {
 	name = "Jaipal" #Jaipal Tuar
 	dynasty = 1040200
@@ -2299,7 +4107,6 @@
 		death = "1021.8.29"
 	}
 }
-
 170172 = {
 	name = "Jhetpal" #Jhetpal Tuar
 	dynasty = 1040206
@@ -2313,7 +4120,6 @@
 		death = "1095.1.1"
 	}
 }
-
 170173 = {
 	name = "Kanvarpal" #or Kumara Pal Tuar
 	dynasty = 1040200
@@ -2327,8 +4133,6 @@
 		death = "1051.6.17"
 	}
 }
-
-
 170174 = {
 	name = "Anangpal" #Anangpal II
 	dynasty = 1040200
@@ -2342,7 +4146,6 @@
 		death = "1081.1.5"
 	}
 }
-
 170175 = {
 	name = "Bhumpal" #Bhumpal Tomar
 	dynasty = 1040200
@@ -2356,7 +4159,6 @@
 		death = "1105.1.1"
 	}
 }
-
 170176 = {
 	name = "Indrapal"
 	dynasty = 1040200
@@ -2370,7 +4172,6 @@
 		death = "1099.1.1"
 	}
 }
-
 170177 = {
 	name = "Rangraj"
 	dynasty = 1040200
@@ -2384,7 +4185,6 @@
 		death = "1084.1.1"
 	}
 }
-
 170178 = {
 	name = "Achal" #Achal Raj
 	dynasty = 1040200
@@ -2398,7 +4198,6 @@
 		death = "1102.1.1"
 	}
 }
-
 170179 = {
 	name = "Draupad"
 	dynasty = 1040200
@@ -2412,7 +4211,6 @@
 		death = "1110.1.1"
 	}
 }
-
 170180 = {
 	name = "Sisupal"
 	dynasty = 1040200
@@ -2426,7 +4224,6 @@
 		death = "1083.1.1"
 	}
 }
-
 170181 = {
 	name = "Surajpal"
 	dynasty = 1040200
@@ -2440,7 +4237,6 @@
 		death = "1093.1.1"
 	}
 }
-
 170182 = {
 	name = "Tejpal"
 	dynasty = 1040200
@@ -2454,7 +4250,6 @@
 		death = "1105.2.11"
 	}
 }
-
 170183 = {
 	name = "Mahipal" #or Junpal
 	dynasty = 1040200
@@ -2468,7 +4263,6 @@
 		death = "1151.7.19"
 	}
 }
-
 170184 = {
 	name = "Anangpal" #Dakatpal (Arkpal or Anangpal III)
 	dynasty = 1040200
@@ -2482,7 +4276,6 @@
 		death = "1192.1.1"
 	}
 }
-
 170185 = {
 	name = "Govindraj" #Govindraj Tanwar
 	dynasty = 1040200
@@ -2496,7 +4289,6 @@
 		death = "1195.1.1"
 	}
 }
-
 170186 = {
 	name = "Roopsundari"
 	female = yes
@@ -2511,7 +4303,6 @@
 		death = "1105.1.1"
 	}
 }
-
 170187 = {
 	name = "Kamaladevi"
 	female = yes
@@ -2526,7 +4317,6 @@
 		death = "1102.1.1"
 	}
 }
-
 170188 = {
 	name = "Ausan" #Ausan Singh
 	dynasty = 1040200
@@ -2540,7 +4330,6 @@
 		death = "1208.1.1"
 	}
 }
-
 170189 = {
 	name = "Kosal" #Kosal Dev Singh
 	dynasty = 1040200
@@ -2554,7 +4343,6 @@
 		death = "1229.1.1"
 	}
 }
-
 170218 = {
 	name = "Mahendra"
 	dynasty = 1040200
@@ -2568,7 +4356,6 @@
 		death = "1130.1.1"
 	}
 }
-
 170219 = {
 	name = "Hirapal"
 	dynasty = 1040200
@@ -2582,7 +4369,6 @@
 		death = "1151.1.1"
 	}
 }
-
 170220 = {
 	name = "Baghpal"
 	dynasty = 1040200
@@ -2596,7 +4382,6 @@
 		death = "1175.1.1"
 	}
 }
-
 170221 = {
 	name = "Pritampal"
 	dynasty = 1040200
@@ -2610,7 +4395,6 @@
 		death = "1200.1.1"
 	}
 }
-
 170222 = {
 	name = "Dilippal"
 	dynasty = 1040200
@@ -2624,7 +4408,6 @@
 		death = "1211.1.1"
 	}
 }
-
 170223 = {
 	name = "Birpal"
 	dynasty = 1040200
@@ -2638,7 +4421,6 @@
 		death = "1237.1.1"
 	}
 }
-
 170224 = {
 	name = "Anuppal"
 	dynasty = 1040200
@@ -2652,7 +4434,6 @@
 		death = "1252.1.1"
 	}
 }
-
 170225 = {
 	name = "Sonpal"
 	dynasty = 1040200
@@ -2666,7 +4447,6 @@
 		death = "1304.1.1"
 	}
 }
-
 170226 = {
 	name = "Sultanpal"
 	dynasty = 1040200
@@ -2680,7 +4460,6 @@
 		death = "1319.1.1"
 	}
 }
-
 170227 = {
 	name = "Kunwarpal"
 	dynasty = 1040200
@@ -2694,7 +4473,6 @@
 		death = "1350.1.1"
 	}
 }
-
 170228 = {
 	name = "Brahmdev"
 	dynasty = 1040200
@@ -2708,189 +4486,6 @@
 		death = "1356.1.1"
 	}
 }
-
-170229 = {
-	name = "Khetrapal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170172
-	1060.1.1 = {
-		birth = yes
-	}
-	1117.1.1 = {
-		death = "1117.1.1"
-	}
-}
-
-170230 = {
-	name = "Sukhinpal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170229
-	1076.1.1 = {
-		birth = "1076.1.1"
-	}
-	1134.1.1 = {
-		death = "1134.1.1"
-	}
-}
-
-170231 = {
-	name = "Jagatpal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170230
-	1092.1.1 = {
-		birth = "1092.1.1"
-	}
-	1151.1.1 = {
-		death = "1151.1.1"
-	}
-}
-
-170232 = {
-	name = "Rampal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170231
-	1108.1.1 = {
-		birth = "1108.1.1"
-	}
-	1168.1.1 = {
-		death = "1168.1.1"
-	}
-}
-
-170233 = {
-	name = "Gopal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170232
-	1125.1.1 = {
-		birth = "1125.1.1"
-	}
-	1185.1.1 = {
-		death = "1185.1.1"
-	}
-}
-
-170234 = {
-	name = "Arjunpal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170233
-	1142.1.1 = {
-		birth = "1142.1.1"
-	}
-	1202.1.1 = {
-		death = "1202.1.1"
-	}
-}
-
-170235 = {
-	name = "Varshpal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170234
-	1159.1.1 = {
-		birth = "1159.1.1"
-	}
-	1219.1.1 = {
-		death = "1219.1.1"
-	}
-}
-
-170236 = {
-	name = "Jatanpal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170235
-	1176.1.1 = {
-		birth = "1176.1.1"
-	}
-	1236.1.1 = {
-		death = "1236.1.1"
-	}
-}
-
-170237 = {
-	name = "Vidurathpal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170236
-	1193.1.1 = {
-		birth = "1193.1.1"
-	}
-	1253.1.1 = {
-		death = "1253.1.1"
-	}
-}
-
-170238 = {
-	name = "Jaganpal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170237
-	1210.1.1 = {
-		birth = "1210.1.1"
-	}
-	1270.1.1 = {
-		death = "1270.1.1"
-	}
-}
-
-170239 = {
-	name = "Kiratpal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170238
-	1227.1.1 = {
-		birth = "1227.1.1"
-	}
-	1287.1.1 = {
-		death = "1287.1.1"
-	}
-}
-
-170240 = {
-	name = "Kakhopal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170239
-	1253.1.1 = {
-		birth = "1253.1.1"
-	}
-	1313.1.1 = {
-		death = "1313.1.1"
-	}
-}
-
-170241 = {
-	name = "Jaspal"
-	dynasty = 1040206 #Pathan
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 170240
-	1293.1.1 = {
-		birth = "1293.1.1"
-	}
-	1353.1.1 = {
-		death = "1353.1.1"
-	}
-}
-
 170288 = {
 	name = "Salunji"
 	dynasty = 1040200 #Tomara
@@ -2904,7 +4499,6 @@
 		death = "1183.1.1"
 	}
 }
-
 170289 = {
 	name = "Nihaalji"
 	dynasty = 1040200 #Tomara
@@ -2918,7 +4512,6 @@
 		death = "1195.1.1"
 	}
 }
-
 170290 = {
 	name = "Dothji"
 	dynasty = 1040200 #Tomara
@@ -2932,7 +4525,6 @@
 		death = "1237.1.1"
 	}
 }
-
 170291 = {
 	name = "Popatrajji"
 	dynasty = 1040200 #Tomara
@@ -2946,7 +4538,6 @@
 		death = "1264.1.1"
 	}
 }
-
 170292 = {
 	name = "Peepalrajji"
 	dynasty = 1040200 #Tomara
@@ -2960,7 +4551,6 @@
 		death = "1292.1.1"
 	}
 }
-
 170293 = {
 	name = "Ranaji"
 	dynasty = 1040200 #Tomara
@@ -2974,7 +4564,6 @@
 		death = "1302.1.1"
 	}
 }
-
 170294 = {
 	name = "Alsiji"
 	dynasty = 1040200 #Tomara
@@ -2988,7 +4577,6 @@
 		death = "1323.1.1"
 	}
 }
-
 170295 = {
 	name = "Kamalji"
 	dynasty = 1040200 #Tomara
@@ -3002,7 +4590,6 @@
 		death = "1341.1.1"
 	}
 }
-
 170296 = {
 	name = "Mahipalji"
 	dynasty = 1040200 #Tomara
@@ -3016,90 +4603,181 @@
 		death = "1390.1.1"
 	}
 }
-
-188148 = {
-	name = "Mahisarama"
-	dynasty = 1042081 #Chahamana of Dholpur
+#######################################
+# Pathan Dynasty
+#######################################
+170229 = {
+	name = "Khetrapal"
+	dynasty = 1040206 #Pathan
 	religion = "srikula_shaktism"
 	culture = "rajput"
-	father = 188147
-	775.1.1 = {
+	father = 170172
+	1060.1.1 = {
 		birth = yes
 	}
-	825.1.1 = {
-		death = yes
+	1117.1.1 = {
+		death = "1117.1.1"
 	}
 }
-
-188149 = {
-	name = "Chandamahasena"
-	dynasty = 1042081 #Chahamana of Dholpur
+170230 = {
+	name = "Sukhinpal"
+	dynasty = 1040206 #Pathan
 	religion = "srikula_shaktism"
 	culture = "rajput"
-	father = 188148
-	800.1.1 = {
-		birth = yes
+	father = 170229
+	1076.1.1 = {
+		birth = "1076.1.1"
 	}
-	860.1.1 = {
-		death = yes
+	1134.1.1 = {
+		death = "1134.1.1"
 	}
 }
-
-188150 = {
-	name = "Mahisarama" # fictious name
-	dynasty = 1042081 #Chahamana of Dholpur
+170231 = {
+	name = "Jagatpal"
+	dynasty = 1040206 #Pathan
 	religion = "srikula_shaktism"
 	culture = "rajput"
-	father = 188148
-	825.1.1 = {
-		birth = yes
+	father = 170230
+	1092.1.1 = {
+		birth = "1092.1.1"
 	}
-	875.1.1 = {
-		death = yes
+	1151.1.1 = {
+		death = "1151.1.1"
 	}
 }
-
-188151 = {
-	name = "Sarangadeva" # fictitious name
+170232 = {
+	name = "Rampal"
+	dynasty = 1040206 #Pathan
 	religion = "srikula_shaktism"
 	culture = "rajput"
-	1067.1.1 = {
-		birth = yes
+	father = 170231
+	1108.1.1 = {
+		birth = "1108.1.1"
 	}
-	1120.1.1 = {
-		death = yes
+	1168.1.1 = {
+		death = "1168.1.1"
 	}
 }
-
-188152 = {
-	# wife of Tribhuvanapala Solanki
-	name = "Bhairavi" # fictitious name
-	female = yes
+170233 = {
+	name = "Gopal"
+	dynasty = 1040206 #Pathan
 	religion = "srikula_shaktism"
 	culture = "rajput"
-	father = 188151
-	1090.1.1 = {
-		birth = yes
+	father = 170232
+	1125.1.1 = {
+		birth = "1125.1.1"
 	}
-	1145.1.1 = {
-		death = yes
+	1185.1.1 = {
+		death = "1185.1.1"
 	}
 }
-
-188153 = {
-	name = "Avidya" # fictitious name
-	female = yes
+170234 = {
+	name = "Arjunpal"
+	dynasty = 1040206 #Pathan
 	religion = "srikula_shaktism"
 	culture = "rajput"
-	father = 188151
-	1088.1.1 = {
-		birth = yes
+	father = 170233
+	1142.1.1 = {
+		birth = "1142.1.1"
 	}
-	1145.1.1 = {
-		death = yes
+	1202.1.1 = {
+		death = "1202.1.1"
 	}
 }
-
+170235 = {
+	name = "Varshpal"
+	dynasty = 1040206 #Pathan
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 170234
+	1159.1.1 = {
+		birth = "1159.1.1"
+	}
+	1219.1.1 = {
+		death = "1219.1.1"
+	}
+}
+170236 = {
+	name = "Jatanpal"
+	dynasty = 1040206 #Pathan
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 170235
+	1176.1.1 = {
+		birth = "1176.1.1"
+	}
+	1236.1.1 = {
+		death = "1236.1.1"
+	}
+}
+170237 = {
+	name = "Vidurathpal"
+	dynasty = 1040206 #Pathan
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 170236
+	1193.1.1 = {
+		birth = "1193.1.1"
+	}
+	1253.1.1 = {
+		death = "1253.1.1"
+	}
+}
+170238 = {
+	name = "Jaganpal"
+	dynasty = 1040206 #Pathan
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 170237
+	1210.1.1 = {
+		birth = "1210.1.1"
+	}
+	1270.1.1 = {
+		death = "1270.1.1"
+	}
+}
+170239 = {
+	name = "Kiratpal"
+	dynasty = 1040206 #Pathan
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 170238
+	1227.1.1 = {
+		birth = "1227.1.1"
+	}
+	1287.1.1 = {
+		death = "1287.1.1"
+	}
+}
+170240 = {
+	name = "Kakhopal"
+	dynasty = 1040206 #Pathan
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 170239
+	1253.1.1 = {
+		birth = "1253.1.1"
+	}
+	1313.1.1 = {
+		death = "1313.1.1"
+	}
+}
+170241 = {
+	name = "Jaspal"
+	dynasty = 1040206 #Pathan
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 170240
+	1293.1.1 = {
+		birth = "1293.1.1"
+	}
+	1353.1.1 = {
+		death = "1353.1.1"
+	}
+}
+#######################################
+# Vaghela Dynasty
+#######################################
 188166 = {
 	name = "Dhavala"
 	dynasty = 1042072 #Vaghela
@@ -3116,7 +4794,6 @@
 		death = yes
 	}
 }
-
 188154 = {
 	# Holder of Vaghela and Dholka
 	name = "Arnoraja"
@@ -3132,7 +4809,6 @@
 		death = yes
 	}
 }
-
 188155 = {
 	# Holder of Vaghela and Dholka
 	name = "Lavanaprasada"
@@ -3150,7 +4826,6 @@
 		death = yes
 	}
 }
-
 188156 = {
 	name = "Madanarajni"
 	female = yes
@@ -3163,7 +4838,6 @@
 		death = yes
 	}
 }
-
 188157 = {
 	name = "Viradhavala"
 	dynasty = 1042072 #Vaghela
@@ -3180,7 +4854,6 @@
 		death = yes
 	}
 }
-
 188158 = {
 	name = "Virama" # also called Visala
 	dynasty = 1042072 #Vaghela
@@ -3194,7 +4867,6 @@
 		death = yes
 	}
 }
-
 188159 = {
 	name = "Pratapamalla"
 	dynasty = 1042072 #Vaghela
@@ -3208,7 +4880,6 @@
 		death = yes
 	}
 }
-
 188160 = {
 	name = "Arjuna"
 	dynasty = 1042072 #Vaghela
@@ -3222,7 +4893,6 @@
 		death = yes
 	}
 }
-
 188161 = {
 	name = "Saranga"
 	dynasty = 1042072 #Vaghela
@@ -3236,7 +4906,6 @@
 		death = yes
 	}
 }
-
 188162 = {
 	name = "Rama"
 	dynasty = 1042072 #Vaghela
@@ -3250,7 +4919,6 @@
 		death = yes
 	}
 }
-
 188163 = {
 	name = "Karna"
 	dynasty = 1042072 #Vaghela
@@ -3268,7 +4936,6 @@
 		death = yes
 	}
 }
-
 188164 = {
 	name = "Kaula"
 	female = yes
@@ -3282,7 +4949,6 @@
 		death = yes
 	}
 }
-
 188165 = {
 	# Wife of Khizar Khan
 	name = "Devala"
@@ -3300,7 +4966,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# Pragvata Dynasty
+#######################################
 188168 = {
 	name = "Srimala"
 	dynasty = 1042074 # Pragvata
@@ -3313,7 +4981,6 @@
 		death = yes
 	}
 }
-
 188169 = {
 	name = "Lahadha"
 	dynasty = 1042074 # Pragvata
@@ -3327,7 +4994,6 @@
 		death = yes
 	}
 }
-
 188170 = {
 	name = "Nedha"
 	dynasty = 1042074 # Pragvata
@@ -3341,7 +5007,6 @@
 		death = yes
 	}
 }
-
 188171 = {
 	name = "Vimala"
 	dynasty = 1042074 # Pragvata
@@ -3355,7 +5020,6 @@
 		death = yes
 	}
 }
-
 188172 = {
 	name = "Laliga"
 	dynasty = 1042074 # Pragvata
@@ -3369,7 +5033,6 @@
 		death = yes
 	}
 }
-
 188173 = {
 	name = "Dasaratha"
 	dynasty = 1042074 # Pragvata
@@ -3383,7 +5046,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# Abhira Dynasty
+#######################################
 188174 = {
 	name = "Karakaksha" # made up
 	dynasty = 1042075 # Abhira
@@ -3396,7 +5061,9 @@
 		death = yes
 	}
 }
-
+#######################################
+# Kacchapaghata Dynasty
+#######################################
 188175 = {
 	name = "Mahipala"
 	dynasty = 1042076 # Kacchapaghata
@@ -3410,6 +5077,191 @@
 	}
 }
 
+
+188229 = {
+	name = "Vajradman"
+	dynasty = 1042076 # Kachwaha 1
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	925.1.1 = {
+		birth = yes
+	}
+	975.1.1 = {
+		death = yes
+	}
+}
+188230 = {
+	name = "Mangalaraja"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188229
+	945.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+188231 = {
+	name = "Kirtti"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188230
+	970.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+188232 = {
+	name = "Muladeva"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188231
+	1000.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+188233 = {
+	name = "Vajradman" # fictitious name
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188232
+	1020.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+188234 = {
+	name = "Mahipal"
+	dynasty = 1042076 # Kachwaha 6
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188233
+	1042.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+188235 = {
+	name = "Arjuna"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188234
+	1065.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+188236 = {
+	name = "Arjuna" # fictitious name
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188235
+	1085.1.1 = {
+		birth = yes
+	}
+	1135.1.1 = {
+		death = yes
+	}
+}
+188237 = {
+	name = "Mahipal" # fictitious name
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188236
+	1110.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+188238 = {
+	name = "Vikramasimha"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188237
+	1130.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = {
+		death = yes
+	}
+}
+191857 = {
+	name = "Tihunapaladeva"
+	dynasty = 1042076	#Kacchapaghata
+	religion = "vaishnavism"
+	culture = "malvi"
+	father = 188175
+	1070.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+191858 = {
+	name = "Vijayapala"
+	dynasty = 1042076	#Kacchapaghata
+	religion = "vaishnavism"
+	culture = "malvi"
+	father = 191857
+	1090.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+191859 = {
+	name = "Surapala"
+	dynasty = 1042076	#Kacchapaghata
+	religion = "srikula_shaktism"
+	culture = "malvi"
+	father = 191858
+	1110.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+191860 = {
+	name = "Anayapala"
+	dynasty = 1042076	#Kacchapaghata
+	religion = "srikula_shaktism"
+	culture = "malvi"
+	father = 191859
+	1130.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Guhilot Dynasty
+#######################################
 188206 = {
 	name = "Mahahayak"
 	dynasty = 1042079 #Guhilot
@@ -3423,7 +5275,6 @@
 		death = yes
 	}
 }
-
 188207 = {
 	name = "Yograj"
 	dynasty = 1042079 #Guhilot
@@ -3438,6 +5289,541 @@
 	}
 }
 
+188470 = {
+	name = "Kalbhoj" # or Bappa Rawal
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	713.1.1 = {
+		birth = yes
+	}
+	753.1.1 = {
+		death = yes
+	}
+}
+188471 = {
+	name = "Khuman"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188470
+	734.1.1 = {
+		birth = yes
+	}
+	773.1.1 = {
+		death = yes
+	}
+}
+188472 = {
+	name = "Mattat"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188471
+	755.1.1 = {
+		birth = yes
+	}
+	793.1.1 = {
+		death = yes
+	}
+}
+188473 = {
+	name = "Bhert-Patt" # or Bhartribhatt
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188472
+	773.1.1 = {
+		birth = yes
+	}
+	813.1.1 = {
+		death = yes
+	}
+}
+188474 = {
+	name = "Sinha"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188473
+	789.1.1 = {
+		birth = yes
+	}
+	828.1.1 = {
+		death = yes
+	}
+}
+188475 = {
+	name = "Khuman"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188474
+	805.1.1 = {
+		birth = yes
+	}
+	853.1.1 = {
+		death = yes
+	}
+}
+188476 = {
+	name = "Khuman" # III
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188206
+	865.1.1 = {
+		birth = yes
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+188477 = {
+	name = "Bhert-Patt" # II
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188476
+	890.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		death = yes
+	}
+}
+188478 = {
+	name = "Allat"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188477
+	910.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		death = yes
+	}
+}
+188479 = {
+	name = "Narwahan"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188478 # conjecture
+	928.1.1 = {
+		birth = yes
+	}
+	973.1.1 = {
+		death = yes
+	}
+}
+188480 = {
+	name = "Shaliwahan"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188479
+	946.1.1 = {
+		birth = yes
+	}
+	977.1.1 = {
+		death = yes
+	}
+}
+188481 = {
+	name = "Shakti-Kumar"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188479
+	948.1.1 = {
+		birth = yes
+	}
+	993.1.1 = {
+		death = yes
+	}
+}
+188482 = {
+	name = "Amba-Prasad"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188481
+	964.1.1 = {
+		birth = yes
+	}
+	1007.1.1 = {
+		death = yes
+	}
+}
+188483 = {
+	name = "Shuchi-Verma"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188482
+	981.1.1 = {
+		birth = yes
+	}
+	1021.1.1 = {
+		death = yes
+	}
+}
+188484 = {
+	name = "Nar-Verma"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188483
+	1000.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+188485 = {
+	name = "Keerti-Verma" # or Kirtivarma
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188483
+	1003.1.1 = {
+		birth = yes
+	}
+	1051.1.1 = {
+		death = yes
+	}
+}
+188486 = {
+	name = "Bairath" # or Vairath
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188207
+	1043.1.1 = {
+		birth = yes
+	}
+	1088.1.1 = {
+		death = yes
+	}
+}
+188487 = {
+	name = "Hanspal"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188486
+	1063.1.1 = {
+		birth = yes
+	}
+	1103.1.1 = {
+		death = yes
+	}
+}
+188488 = {
+	name = "Vair-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188487
+	1080.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+188489 = {
+	name = "Vijai-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188488
+	1098.1.1 = {
+		birth = yes
+	}
+	1127.1.1 = {
+		death = yes
+	}
+}
+188490 = {
+	name = "Ari-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188488
+	1101.1.1 = {
+		birth = yes
+	}
+	1138.1.1 = {
+		death = yes
+	}
+}
+188491 = {
+	name = "Chaud-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188488
+	1104.1.1 = {
+		birth = yes
+	}
+	1148.1.1 = {
+		death = yes
+	}
+}
+188492 = {
+	name = "Vikramaditya"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188491
+	1124.1.1 = {
+		birth = yes
+	}
+	1158.1.1 = {
+		death = yes
+	}
+}
+188493 = {
+	name = "Karan-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188492
+	1141.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+188494 = {
+	name = "Mahap"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188493
+	1158.1.1 = {
+		birth = yes
+	}
+	1207.1.1 = {
+		death = yes
+	}
+}
+188495 = {
+	name = "Kshem-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188492
+	1142.1.1 = {
+		birth = yes
+	}
+	1172.1.1 = {
+		death = yes
+	}
+}
+188496 = {
+	name = "Samant-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188495
+	1159.1.1 = {
+		birth = yes
+	}
+	1209.1.1 = {
+		death = yes
+	}
+}
+188497 = {
+	name = "Kumar-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188495
+	1160.1.1 = {
+		birth = yes
+	}
+	1191.1.1 = {
+		death = yes
+	}
+}
+188498 = {
+	name = "Mathan-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188495
+	1163.1.1 = {
+		birth = yes
+	}
+	1211.1.1 = {
+		death = yes
+	}
+}
+188499 = {
+	name = "Padam-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188498
+	1185.1.1 = {
+		birth = yes
+	}
+	1213.1.1 = {
+		death = yes
+	}
+}
+188500 = {
+	name = "Jaitra-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188498
+	1190.1.1 = {
+		birth = yes
+	}
+	1253.1.1 = {
+		death = yes
+	}
+}
+188501 = {
+	name = "Tej-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188500
+	1212.1.1 = {
+		birth = yes
+	}
+	1273.1.1 = {
+		death = yes
+	}
+}
+188502 = {
+	name = "Samar-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188501
+	1238.1.1 = {
+		birth = yes
+	}
+	1302.1.1 = {
+		death = yes
+	}
+}
+188503 = {
+	name = "Ratan-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "rajput"
+	father = 188502
+	1260.1.1 = {
+		birth = yes
+	}
+	1303.8.25 = {
+		death = yes
+	}
+}
+188520 = {
+	name = "Jayat-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "rajput"
+	father = 188496
+	1175.1.1 = {
+		birth = yes
+	}
+	1218.1.1 = {
+		death = yes
+	}
+}
+188521 = {
+	name = "Sinhad-Deo"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "rajput"
+	father = 188496
+	1176.1.1 = {
+		birth = yes
+	}
+	1248.1.1 = {
+		death = yes
+	}
+}
+188522 = {
+	name = "Jay-Singh-Deo"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "rajput"
+	father = 188521
+	1200.1.1 = {
+		birth = yes
+	}
+	1251.1.1 = {
+		death = yes
+	}
+}
+188523 = {
+	name = "Deopali-Deo"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "rajput"
+	father = 188521
+	1201.1.1 = {
+		birth = yes
+	}
+	1278.1.1 = {
+		death = yes
+	}
+}
+188524 = {
+	name = "Virsinh-Deo"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "rajput"
+	father = 188523
+	1240.1.1 = {
+		birth = yes
+	}
+	1303.1.1 = {
+		death = yes
+	}
+}
+188525 = {
+	name = "Bhoo-Chand"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "rajput"
+	father = 188524
+	1260.1.1 = {
+		birth = yes
+	}
+	1331.1.1 = {
+		death = yes
+	}
+}
+188526 = {
+	name = "Dungar-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "rajput"
+	father = 188525
+	1300.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Nagil Dynasty
+#######################################
 188208 = {
 	name = "Sajraj"
 	dynasty = 1042080 #Nagil
@@ -3450,7 +5836,6 @@
 		death = yes
 	}
 }
-
 188209 = {
 	name = "Gajvkatra" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3464,7 +5849,6 @@
 		death = yes
 	}
 }
-
 188210 = {
 	name = "Sajraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3478,7 +5862,6 @@
 		death = yes
 	}
 }
-
 188211 = {
 	name = "Singhraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3492,7 +5875,6 @@
 		death = yes
 	}
 }
-
 188212 = {
 	name = "Sankhpaul" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3506,7 +5888,6 @@
 		death = yes
 	}
 }
-
 188213 = {
 	name = "Sajraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3520,7 +5901,6 @@
 		death = yes
 	}
 }
-
 188214 = {
 	name = "Kulika" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3534,7 +5914,6 @@
 		death = yes
 	}
 }
-
 188215 = {
 	name = "Karkotak" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3548,7 +5927,6 @@
 		death = yes
 	}
 }
-
 188216 = {
 	name = "Sajraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3562,7 +5940,6 @@
 		death = yes
 	}
 }
-
 188217 = {
 	name = "Padam" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3576,7 +5953,6 @@
 		death = yes
 	}
 }
-
 188218 = {
 	name = "Takshak" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3590,7 +5966,6 @@
 		death = yes
 	}
 }
-
 188219 = {
 	name = "Sajraj" # correct dynasty, but names and details unknown
 	dynasty = 1042080 #Nagil
@@ -3604,277 +5979,9 @@
 		death = yes
 	}
 }
-
-188220 = {
-	name = "Valhana"
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188145
-	1187.1.1 = {
-		birth = yes
-	}
-	1220.1.1 = {
-		death = yes
-	}
-}
-
-188221 = {
-	name = "Prahladana"
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188220
-	1203.1.1 = {
-		birth = yes
-	}
-	1221.1.1 = {
-		death = yes
-	}
-}
-
-188222 = {
-	name = "Viranarayana"
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188221
-	1219.1.1 = {
-		birth = yes
-	}
-	1226.1.1 = {
-		death = yes
-	}
-}
-
-188223 = {
-	name = "Vagbhata"
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188220
-	1204.1.1 = {
-		birth = yes
-	}
-	1253.1.1 = {
-		death = yes
-	}
-}
-
-188224 = {
-	name = "Jaitrasimha"
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188223
-	1224.1.1 = {
-		birth = yes
-	}
-	1285.1.1 = {
-		death = yes
-	}
-}
-
-188225 = {
-	name = "Suratrana"
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188224
-	1244.1.1 = {
-		birth = yes
-	}
-	1300.1.1 = {
-		death = yes
-	}
-}
-
-188226 = {
-	name = "Virama"
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188224
-	1245.1.1 = {
-		birth = yes
-	}
-	1301.7.8 = {
-		death = yes
-	}
-}
-
-188227 = {
-	name = "Hammira"
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188224
-	trait = education_martial_4
-	trait = brave
-	trait = ambitious
-	1246.1.1 = {
-		birth = yes
-	}
-	1301.7.8 = {
-		death = yes
-	}
-}
-
-188228 = {
-	name = "Devalladevi"
-	female = yes
-	dynasty = 1042081 #Chahamana
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188227
-	1276.1.1 = {
-		birth = yes
-	}
-	1301.7.8 = {
-		death = yes
-	}
-}
-
-188229 = {
-	name = "Vajradman"
-	dynasty = 1042076 # Kachwaha 1
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	925.1.1 = {
-		birth = yes
-	}
-	975.1.1 = {
-		death = yes
-	}
-}
-
-188230 = {
-	name = "Mangalaraja"
-	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188229
-	945.1.1 = {
-		birth = yes
-	}
-	1000.1.1 = {
-		death = yes
-	}
-}
-
-188231 = {
-	name = "Kirtti"
-	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188230
-	970.1.1 = {
-		birth = yes
-	}
-	1025.1.1 = {
-		death = yes
-	}
-}
-
-188232 = {
-	name = "Muladeva"
-	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188231
-	1000.1.1 = {
-		birth = yes
-	}
-	1050.1.1 = {
-		death = yes
-	}
-}
-
-188233 = {
-	name = "Vajradman" # fictitious name
-	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188232
-	1020.1.1 = {
-		birth = yes
-	}
-	1065.1.1 = {
-		death = yes
-	}
-}
-
-188234 = {
-	name = "Mahipal"
-	dynasty = 1042076 # Kachwaha 6
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188233
-	1042.1.1 = {
-		birth = yes
-	}
-	1100.1.1 = {
-		death = yes
-	}
-}
-
-188235 = {
-	name = "Arjuna"
-	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188234
-	1065.1.1 = {
-		birth = yes
-	}
-	1120.1.1 = {
-		death = yes
-	}
-}
-
-188236 = {
-	name = "Arjuna" # fictitious name
-	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188235
-	1085.1.1 = {
-		birth = yes
-	}
-	1135.1.1 = {
-		death = yes
-	}
-}
-
-188237 = {
-	name = "Mahipal" # fictitious name
-	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188236
-	1110.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-188238 = {
-	name = "Vikramasimha"
-	dynasty = 1042076 # Kachwaha
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188237
-	1130.1.1 = {
-		birth = yes
-	}
-	1175.1.1 = {
-		death = yes
-	}
-}
-
-
+#######################################
+# Paramara Dynasty
+#######################################
 188239 = {
 	name = "Satya"
 	dynasty = 1042077 #Paramara
@@ -3891,7 +5998,6 @@
 		death = yes
 	}
 }
-
 188240 = {
 	name = "Mandalika"
 	dynasty = 1042077 #Paramara
@@ -3906,7 +6012,6 @@
 		death = yes
 	}
 }
-
 188241 = {
 	name = "Chamunda"
 	dynasty = 1042077 #Paramara
@@ -3920,7 +6025,6 @@
 		death = yes
 	}
 }
-
 170299 = {
 	name = "Kafur" # Malik Kafur
 	religion = "srikula_shaktism"
@@ -3944,7 +6048,6 @@
 		death = "1316.4.1"
 	}
 }
-
 188176 = {
 	name = "Upendra"
 	dynasty = 1042077 #Paramara
@@ -3957,7 +6060,6 @@
 		death = yes
 	}
 }
-
 188177 = {
 	name = "Vairisimha"
 	dynasty = 1042077 #Paramara
@@ -3971,7 +6073,6 @@
 		death = yes
 	}
 }
-
 188178 = {
 	name = "Siyaka" # the I
 	dynasty = 1042077 #Paramara
@@ -3985,7 +6086,6 @@
 		death = yes
 	}
 }
-
 188179 = {
 	name = "Vakpati" # the I
 	dynasty = 1042077 #Paramara
@@ -3999,7 +6099,6 @@
 		death = yes
 	}
 }
-
 188180 = {
 	name = "Vairisimha" # the II
 	dynasty = 1042077 #Paramara
@@ -4013,7 +6112,6 @@
 		death = yes
 	}
 }
-
 188181 = {
 	name = "Siyaka" # the II
 	dynasty = 1042077 #Paramara
@@ -4027,7 +6125,6 @@
 		death = yes
 	}
 }
-
 188182 = {
 	name = "Vakpati" # the II
 	dynasty = 1042077 #Paramara
@@ -4041,7 +6138,6 @@
 		death = yes
 	}
 }
-
 188183 = {
 	name = "Sindhu"
 	dynasty = 1042077 #Paramara
@@ -4055,7 +6151,6 @@
 		death = yes
 	}
 }
-
 188184 = {
 	name = "Bhoja" # the I
 	dynasty = 1042077 #Paramara
@@ -4070,7 +6165,6 @@
 		death = yes
 	}
 }
-
 188185 = {
 	name = "Jayasimha"
 	dynasty = 1042077 #Paramara
@@ -4084,7 +6178,6 @@
 		death = yes
 	}
 }
-
 188186 = {
 	name = "Udayaditya"
 	dynasty = 1042077 #Paramara
@@ -4101,7 +6194,6 @@
 		death = yes
 	}
 }
-
 paramara_branch_off = { #While we can be reasonably sure he existed all circumstances of Jagadeva are somewhat uncertain, including exactly where he ruled or who his father was.
 	name = "Jagadeva"
 	dynasty = 1042077 #Paramara
@@ -4119,20 +6211,6 @@ paramara_branch_off = { #While we can be reasonably sure he existed all circumst
 	}
 }
 
-paramara_branch_off_spouse = {
-	name = "Virmati"
-	dynasty = 1042069 #Solanki
-	religion = "shaivism"
-	female = yes
-	culture = "gujarati"
-	father = 188081 #Unknown which Chalukya/Chavda/Solanki ruler this was the daughter of.
-	1045.1.1 = {
-		birth = yes
-	}
-	1120.1.1 = {
-		death = yes
-	}
-}
 
 188187 = {
 	name = "Lakshmana"
@@ -4147,7 +6225,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188188 = {
 	name = "Naravarman"
 	dynasty = 1042077 #Paramara
@@ -4161,7 +6238,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188189 = {
 	name = "Yasovarman"
 	dynasty = 1042077 #Paramara
@@ -4175,7 +6251,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188190 = {
 	name = "Jayavarman"
 	dynasty = 1042077 #Paramara
@@ -4189,7 +6264,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188192 = {
 	# Holder of Bhopal during usurpation
 	name = "Lakshmivarman"
@@ -4204,7 +6278,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188193 = {
 	# Holder near Bilsa during usurpation
 	name = "Trailokyavarman"
@@ -4219,7 +6292,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188194 = {
 	name = "Harischandra"
 	dynasty = 1042077 #Paramara
@@ -4233,7 +6305,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188195 = {
 	name = "Udayavarman"
 	dynasty = 1042077 #Paramara
@@ -4247,7 +6318,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188196 = {
 	name = "Devapala"
 	dynasty = 1042077 #Paramara
@@ -4261,7 +6331,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188197 = {
 	name = "Vindhyavarman"
 	dynasty = 1042077 #Paramara
@@ -4275,7 +6344,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188198 = {
 	name = "Subhatavarman"
 	dynasty = 1042077 #Paramara
@@ -4289,7 +6357,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188199 = {
 	name = "Arjunavarman"
 	dynasty = 1042077 #Paramara
@@ -4303,7 +6370,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188200 = {
 	name = "Jaitugideva"
 	dynasty = 1042077 #Paramara
@@ -4317,7 +6383,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188201 = {
 	name = "Jayavarman" # the II
 	dynasty = 1042077 #Paramara
@@ -4331,7 +6396,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188202 = {
 	name = "Jayasimha" # the II
 	dynasty = 1042077 #Paramara
@@ -4345,7 +6409,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188203 = {
 	name = "Arjunavarman" # the II
 	dynasty = 1042077 #Paramara
@@ -4359,7 +6422,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188204 = {
 	name = "Bhoja"
 	dynasty = 1042077 #Paramara
@@ -4373,7 +6435,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188205 = {
 	name = "Mahlakadeva"
 	dynasty = 1042077 #Paramara
@@ -4388,6 +6449,543 @@ paramara_branch_off_spouse = {
 	}
 }
 
+191784 = {
+	name = "Utpala"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "krishnaism"
+	culture = "rajput"
+	father = 188179
+	900.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+191785 = {
+	name = "Aranya"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191784
+	920.1.1 = {
+		birth = yes
+	}
+	970.1.1 = {
+		death = yes
+	}
+}
+191786 = {
+	name = "Krishna"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191785
+	940.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+191787 = {
+	name = "Dharamivaraha"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191786
+	960.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+191788 = {
+	name = "Dhurbhata"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191787
+	980.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+191789 = {
+	name = "Mahipala"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191787
+	981.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+191790 = {
+	name = "Dandhuka"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191789
+	1001.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		death = yes
+	}
+}
+191791 = {
+	name = "Purnapala"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191790
+	1020.1.1 = {
+		birth = yes
+	}
+	1062.1.1 = {
+		death = yes
+	}
+}
+191792 = {
+	name = "Laihini"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191790
+	female = yes
+	1021.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+191793 = {
+	name = "Dantivarman"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191790
+	1022.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+191794 = {
+	name = "Krishnadeva"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191790
+	1023.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+191795 = {
+	name = "Yogaraja"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191793
+	1040.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+191796 = {
+	name = "Kakaladeva"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191794
+	1041.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+191797 = {
+	name = "Ramadeva"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191795
+	1060.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+191798 = {
+	name = "Vikramasimha"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191796
+	1062.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+191799 = {
+	name = "Yasodhavala"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191796
+	1065.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		add_spouse = 191800
+	}
+	1158.1.1 = {
+		death = yes
+	}
+}
+191801 = {
+	name = "Dharanivaraha"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191799
+	mother = 191800
+	1110.1.1 = {
+		birth = yes
+	}
+	1126.1.1 = {
+		trait = education_martial_4
+	}
+	1165.1.1 = {
+		add_spouse = 191736
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+191802 = {
+	name = "Babhini"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	female = yes
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191799
+	mother = 191800
+	1100.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+191803 = {
+	name = "Praladana"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191799
+	mother = 191800
+	1125.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+191804 = {
+	name = "Somasimha"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191801
+	mother = 191736
+	1166.1.1 = {
+		birth = yes
+	}
+	1243.1.1 = {
+		death = yes
+	}
+}
+191805 = {
+	name = "Krishnaraja"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191804
+	1220.1.1 = {
+		birth = yes
+	}
+	1287.1.1 = {
+		death = yes
+	}
+}
+191806 = {
+	name = "Pratapasimha"
+	dynasty = 1042077	#Paramara of Candravati/Mt Abu
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191804
+	1240.1.1 = {
+		birth = yes
+	}
+	1311.1.1 = {
+		death = yes
+	}
+}
+191809 = {
+	name = "Chandana"
+	dynasty = 1042077	#Paramara of Jalor & Siwana
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 188182 # Vakpati II
+	970.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+191810 = {
+	name = "Devarat"
+	dynasty = 1042077	#Paramara of Jalor & Siwana
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191809
+	990.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+191811 = {
+	name = "Aparajita"
+	dynasty = 1042077	#Paramara of Jalor & Siwana
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191810
+	1010.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+191812 = {
+	name = "Vijjala"
+	dynasty = 1042077	#Paramara of Jalor & Siwana
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191811
+	1030.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+191813 = {
+	name = "Dharavarsha"
+	dynasty = 1042077	#Paramara of Jalor & Siwana
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191812
+	1050.1.1 = {
+		birth = yes
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}
+191814 = {
+	name = "Visala"
+	dynasty = 1042077	#Paramara of Jalor & Siwana
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191813
+	1070.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		add_spouse = 191817
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+191817 = {
+	name = "Melaradevi"
+	female = yes
+	religion = "vaishnavism"
+	culture = "rajput"
+	1060.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+191815 = {
+	name = "Kuntapala"
+	dynasty = 1042077	#Paramara of Jalor & Siwana
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191814
+	mother = 191817
+	1090.1.1 = {
+		birth = yes
+	}
+	1161.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 191730
+		}
+	}
+}
+191816 = {
+	name = "Viranarayana"
+	dynasty = 1042077	#Paramara of Jalor & Siwana
+	religion = "vaishnavism"
+	culture = "rajput"
+	father = 191814
+	mother = 191817
+	1092.1.1 = {
+		birth = yes
+	}
+	1161.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 191730
+		}
+	}
+}
+191914 = {
+	name = "Dhanika"
+	dynasty = 1042077 #Paramara
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188176
+	810.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+191915 = {
+	name = "Chachcha"
+	dynasty = 1042077 #Paramara
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 191914
+	830.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+191916 = {
+	name = "Dambarasimha"
+	dynasty = 1042077 #Paramara
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 191915
+	850.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		death = yes
+	}
+}
+191917 = {
+	name = "Chamunda"
+	dynasty = 1042077 #Paramara
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 191915
+	852.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+191918 = {
+	name = "Kankadeva"
+	dynasty = 1042077 #Paramara
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 191917
+	880.1.1 = {
+		birth = yes
+	}
+	975.1.1 = {
+		death = yes
+	}
+}
+191919 = {
+	name = "ChaN_D_apa"
+	dynasty = 1042077 #Paramara
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 191918
+	920.1.1 = {
+		birth = yes
+	}
+	995.1.1 = {
+		death = yes
+	}
+}
+191921 = {
+	name = "Limba"
+	dynasty = 1042077 #Paramara
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188239
+	mother = 191925
+	1000.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+191924 = {
+	name = "Vijaya"
+	dynasty = 1042077 #Paramara
+	religion = "srikula_shaktism"
+	culture = "hindustani"
+	father = 188241
+	1090.1.1 = {
+		birth = yes
+	}
+	1179.1.1 = {
+		death = yes
+	}
+}
+
+#######################################
+# Chudasama Dynasty
+#######################################
 188277 = {
 	name = "Chuda"
 	dynasty = 1042088 # Chudasama
@@ -4400,7 +6998,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188243 = {
 	name = "Hamir"
 	dynasty = 1042088 # Chudasama
@@ -4414,7 +7011,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188244 = {
 	name = "Mulraj"
 	dynasty = 1042088 # Chudasama
@@ -4428,7 +7024,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188245 = {
 	name = "Grahar"
 	dynasty = 1042088 # Chudasama
@@ -4442,7 +7037,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188246 = {
 	name = "Kawat"
 	dynasty = 1042088 # Chudasama
@@ -4456,7 +7050,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188247 = {
 	name = "Dayaji" # or Diyas
 	dynasty = 1042088 # Chudasama
@@ -4470,7 +7063,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188248 = {
 	name = "Navghan"
 	dynasty = 1042088 # Chudasama
@@ -4484,7 +7076,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188249 = {
 	name = "Khengar"
 	dynasty = 1042088 # Chudasama
@@ -4498,7 +7089,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188250 = {
 	name = "Navghan" # the II
 	dynasty = 1042088 # Chudasama
@@ -4512,7 +7102,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188251 = {
 	name = "Khengar" # the II
 	dynasty = 1042088 # Chudasama
@@ -4526,7 +7115,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188252 = {
 	name = "Mulraj" # fictitious
 	dynasty = 1042088 # Chudasama
@@ -4540,7 +7128,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188253 = {
 	name = "Navghan" # the III
 	dynasty = 1042088 # Chudasama
@@ -4554,7 +7141,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188254 = {
 	name = "Kawat" # the II
 	dynasty = 1042088 # Chudasama
@@ -4568,7 +7154,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188255 = {
 	name = "Grahar" # the II
 	dynasty = 1042088 # Chudasama
@@ -4582,7 +7167,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188256 = {
 	name = "Raisinha"
 	dynasty = 1042088 # Chudasama
@@ -4596,7 +7180,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188257 = {
 	name = "Mahipal" # the II
 	dynasty = 1042088 # Chudasama
@@ -4610,7 +7193,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188258 = {
 	name = "Jaymal"
 	dynasty = 1042088 # Chudasama
@@ -4624,7 +7206,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188259 = {
 	name = "Mahipal" # III
 	dynasty = 1042088 # Chudasama
@@ -4638,7 +7219,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188260 = {
 	name = "Khengar" # III
 	dynasty = 1042088 # Chudasama
@@ -4652,7 +7232,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188261 = {
 	name = "Mandlik"
 	dynasty = 1042088 # Chudasama
@@ -4666,7 +7245,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188262 = {
 	name = "Navghan" # IV
 	dynasty = 1042088 # Chudasama
@@ -4680,7 +7258,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188263 = {
 	name = "Mahipal" # IV
 	dynasty = 1042088 # Chudasama
@@ -4694,7 +7271,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188264 = {
 	name = "Khengar" # IV
 	dynasty = 1042088 # Chudasama
@@ -4708,7 +7284,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Jadeja Dynasty
+#######################################
 188278 = {
 	name = "Lakho"
 	dynasty = 1042085 # Jadeja
@@ -4723,7 +7301,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188279 = {
 	name = "Rayadhan"
 	dynasty = 1042085 # Jadeja
@@ -4737,7 +7314,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188280 = {
 	name = "Othaji"
 	dynasty = 1042085 # Jadeja
@@ -4751,7 +7327,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188281 = {
 	name = "Gaoji"
 	dynasty = 1042085 # Jadeja
@@ -4765,7 +7340,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188282 = {
 	name = "Vehanji"
 	dynasty = 1042085 # Jadeja
@@ -4779,7 +7353,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188283 = {
 	name = "Mulvaji"
 	dynasty = 1042085 # Jadeja
@@ -4793,7 +7366,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188284 = {
 	name = "Gajanji"
 	dynasty = 1042085 # Jadeja
@@ -4807,7 +7379,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188285 = {
 	name = "Dedaji"
 	dynasty = 1042085 # Jadeja
@@ -4821,7 +7392,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188286 = {
 	name = "Hothji"
 	dynasty = 1042085 # Jadeja
@@ -4836,6 +7406,9 @@ paramara_branch_off_spouse = {
 	}
 }
 
+#######################################
+# Samma Dynasty
+#######################################
 188287 = {
 	name = "Lakhodurado" # or Lakho Ghuraro
 	dynasty = 1042086 # Samma
@@ -4848,7 +7421,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188288 = {
 	name = "Unad"
 	dynasty = 1042086 # Samma
@@ -4862,7 +7434,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188289 = {
 	name = "Sampat"
 	dynasty = 1042086 # Samma
@@ -4876,7 +7447,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188290 = {
 	name = "Kakru"
 	dynasty = 1042086 # Samma
@@ -4890,7 +7460,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188291 = {
 	name = "Raydhanji"
 	dynasty = 1042086 # Samma
@@ -4904,7 +7473,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188292 = {
 	name = "Samejaji" # semi-historical
 	dynasty = 1042086 # Samma
@@ -4918,7 +7486,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188293 = {
 	name = "Sameja" # semi-historical
 	dynasty = 1042086 # Samma
@@ -4932,7 +7499,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188294 = {
 	name = "Munda" # semi-historical
 	dynasty = 1042086 # Samma
@@ -4946,7 +7512,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188295 = {
 	name = "Raukadi" # semi-historical
 	dynasty = 1042086 # Samma
@@ -4960,7 +7525,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188296 = {
 	name = "Jahkra" # semi-historical
 	dynasty = 1042086 # Samma
@@ -4974,7 +7538,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188297 = {
 	name = "Unad" # made up
 	dynasty = 1042086 # Samma
@@ -4988,7 +7551,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188298 = {
 	name = "Kakru" # made up
 	dynasty = 1042086 # Samma
@@ -5002,7 +7564,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188299 = {
 	name = "Jada"
 	dynasty = 1042086 # Samma
@@ -5016,7 +7577,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188300 = {
 	name = "Ghao"
 	dynasty = 1042086 # Samma
@@ -5030,7 +7590,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188301 = {
 	name = "Munda" # made up
 	dynasty = 1042086 # Samma
@@ -5044,7 +7603,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188302 = {
 	name = "Lakhiar"
 	dynasty = 1042086 # Samma
@@ -5059,7 +7617,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188303 = {
 	name = "Mod"
 	dynasty = 1042086 # Samma
@@ -5073,7 +7630,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188304 = {
 	name = "Saad"
 	dynasty = 1042086 # Samma
@@ -5087,7 +7643,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188305 = {
 	name = "Phool"
 	dynasty = 1042086 # Samma
@@ -5101,21 +7656,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-188147 = {
-	name = "Isuka"
-	dynasty = 1042081 #Chahamana of Dholpur
-	religion = "srikula_shaktism"
-	culture = "rajput"
-	father = 188106 # fictitious connection to Shakambhari Chauhans
-	750.1.1 = {
-		birth = yes
-	}
-	800.1.1 = {
-		death = yes
-	}
-}
-
+#######################################
+# Bhatti Dynasty
+#######################################
 188320 = {
 	name = "Jaisimha"
 	dynasty = 1042091 # Bhatti
@@ -5128,7 +7671,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188321 = {
 	name = "Bahubal"
 	dynasty = 1042091 # Bhatti
@@ -5142,7 +7684,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188322 = {
 	name = "Subahu"
 	dynasty = 1042091 # Bhatti
@@ -5156,7 +7697,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188323 = {
 	name = "Rajh"
 	dynasty = 1042091 # Bhatti
@@ -5170,7 +7710,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188324 = {
 	name = "Gaj"
 	dynasty = 1042091 # Bhatti
@@ -5184,7 +7723,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188325 = {
 	name = "Salivahan"
 	dynasty = 1042091 # Bhatti
@@ -5198,7 +7736,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188326 = {
 	name = "Baland"
 	dynasty = 1042091 # Bhatti
@@ -5212,7 +7749,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188327 = {
 	name = "Bhati"
 	dynasty = 1042091 # Bhatti
@@ -5226,7 +7762,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188328 = {
 	name = "Mangal-Rao"
 	dynasty = 1042091 # Bhatti
@@ -5240,7 +7775,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188329 = {
 	name = "Majam-Rao"
 	dynasty = 1042091 # Bhatti
@@ -5254,7 +7788,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188330 = {
 	name = "Kehar"
 	dynasty = 1042091 # Bhatti
@@ -5268,7 +7801,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188331 = {
 	name = "Tano"
 	dynasty = 1042091 # Bhatti
@@ -5282,7 +7814,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188332 = {
 	name = "Bijairai"
 	dynasty = 1042091 # Bhatti
@@ -5296,7 +7827,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188333 = {
 	name = "Deoraj"
 	dynasty = 1042091 # Bhatti
@@ -5310,7 +7840,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188334 = {
 	name = "Mund"
 	dynasty = 1042091 # Bhatti
@@ -5324,7 +7853,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188335 = {
 	name = "Bijairai" # the II
 	dynasty = 1042091 # Bhatti
@@ -5338,7 +7866,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188336 = {
 	name = "Dusaj"
 	dynasty = 1042091 # Bhatti
@@ -5352,7 +7879,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188337 = {
 	name = "Lanja"
 	dynasty = 1042091 # Bhatti
@@ -5366,7 +7892,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188338 = {
 	name = "Bhojdev"
 	dynasty = 1042091 # Bhatti
@@ -5380,7 +7905,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188339 = {
 	name = "Rawal-Jaisal"
 	dynasty = 1042091 # Bhatti
@@ -5394,7 +7918,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188340 = {
 	name = "Salivahan" # the II
 	dynasty = 1042091 # Bhatti
@@ -5408,7 +7931,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188341 = {
 	name = "Bijal"
 	dynasty = 1042091 # Bhatti
@@ -5422,7 +7944,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188342 = {
 	name = "Chachack-Deo"
 	dynasty = 1042091 # Bhatti
@@ -5436,7 +7957,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188343 = {
 	name = "Tej-Rao"
 	dynasty = 1042091 # Bhatti
@@ -5450,7 +7970,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188344 = {
 	name = "Rawal-Jethsi"
 	dynasty = 1042091 # Bhatti
@@ -5464,7 +7983,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188345 = {
 	name = "Karan-Singh"
 	dynasty = 1042091 # Bhatti
@@ -5478,7 +7996,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188346 = {
 	name = "Mulraja"
 	dynasty = 1042091 # Bhatti
@@ -5492,8 +8009,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-
 188347 = {
 	name = "Ratan"
 	dynasty = 1042091 # Bhatti
@@ -5507,7 +8022,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188348 = {
 	name = "Lakhan-Sen"
 	dynasty = 1042091 # Bhatti
@@ -5521,848 +8035,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-188445 = {
-	name = "Muni"
-	dynasty = 1042081 #Chahamana
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188107 # conjecture
-	775.1.1 = {
-		birth = yes
-	}
-	815.1.1 = {
-		death = yes
-	}
-}
-
-188446 = {
-	name = "Kalahalanga"
-	dynasty = 1042081 #Chahamana
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188445
-	795.1.1 = {
-		birth = yes
-	}
-	840.1.1 = {
-		death = yes
-	}
-}
-
-188447 = {
-	name = "Ghangh" # or Dhandu
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188446
-	815.1.1 = {
-		birth = yes
-	}
-	865.1.1 = {
-		death = yes
-	}
-}
-
-188448 = {
-	name = "Kanho"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188447
-	840.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
-
-188449 = {
-	name = "Harsha" # fictitious
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188448
-	865.1.1 = {
-		birth = yes
-	}
-	915.1.1 = {
-		death = yes
-	}
-}
-
-188450 = {
-	name = "Gangh" # fictitious
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188449
-	890.1.1 = {
-		birth = yes
-	}
-	950.1.1 = {
-		death = yes
-	}
-}
-
-188451 = {
-	name = "Jevara"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188450
-	912.1.1 = {
-		birth = yes
-	}
-	980.1.1 = {
-		death = yes
-	}
-}
-
-188452 = {
-	name = "Gogaji"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188451
-	946.1.1 = {
-		birth = yes
-	}
-	1024.1.1 = {
-		death = yes
-	}
-}
-
-188453 = {
-	name = "Naniga"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188452
-	968.1.1 = {
-		birth = yes
-	}
-	1035.1.1 = {
-		death = yes
-	}
-}
-
-188454 = {
-	name = "Bairasi" # or Vairasi
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188451
-	950.1.1 = {
-		birth = yes
-	}
-	1020.1.1 = {
-		death = yes
-	}
-}
-
-188455 = {
-	name = "Udayaraja"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188454
-	980.1.1 = {
-		birth = yes
-	}
-	1055.1.1 = {
-		death = yes
-	}
-}
-
-188456 = {
-	name = "Jasaraja"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188455
-	1010.1.1 = {
-		birth = yes
-	}
-	1075.1.1 = {
-		death = yes
-	}
-}
-
-188457 = {
-	name = "Kesoraja"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188456
-	1040.1.1 = {
-		birth = yes
-	}
-	1095.1.1 = {
-		death = yes
-	}
-}
-
-188458 = {
-	name = "Vijayaraja"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188457
-	1065.1.1 = {
-		birth = yes
-	}
-	1115.1.1 = {
-		death = yes
-	}
-}
-
-188459 = {
-	name = "Padmasi"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188458
-	1090.1.1 = {
-		birth = yes
-	}
-	1135.1.1 = {
-		death = yes
-	}
-}
-
-188460 = {
-	name = "Prithviraj"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188459
-	1110.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-188461 = {
-	name = "Lalachanda"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188460
-	1135.1.1 = {
-		birth = yes
-	}
-	1185.1.1 = {
-		death = yes
-	}
-}
-
-188462 = {
-	name = "Gopala"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188461
-	1160.1.1 = {
-		birth = yes
-	}
-	1210.1.1 = {
-		death = yes
-	}
-}
-
-188463 = {
-	name = "Jaitasi"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188462
-	1185.1.1 = {
-		birth = yes
-	}
-	1230.1.1 = {
-		death = yes
-	}
-}
-
-188464 = {
-	name = "Punapala"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188463
-	1205.1.1 = {
-		birth = yes
-	}
-	1255.1.1 = {
-		death = yes
-	}
-}
-
-188465 = {
-	name = "Rupa"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188464
-	1230.1.1 = {
-		birth = yes
-	}
-	1280.1.1 = {
-		death = yes
-	}
-}
-
-188466 = {
-	name = "Ravana"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188465
-	1255.1.1 = {
-		birth = yes
-	}
-	1305.1.1 = {
-		death = yes
-	}
-}
-
-188467 = {
-	name = "Tihunapala"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188466
-	1280.1.1 = {
-		birth = yes
-	}
-	1330.1.1 = {
-		death = yes
-	}
-}
-
-188468 = {
-	name = "Moteraya"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188467
-	1305.1.1 = {
-		birth = yes
-	}
-	1350.1.1 = {
-		death = yes
-	}
-}
-
-188469 = {
-	name = "Karama-Chanda"
-	dynasty = 1042081 #Chahamana of Dadrewa
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188468
-	1328.1.1 = {
-		birth = yes
-	}
-	1355.1.1 = {
-		religion = ashari
-	}	
-	1388.1.1 = {
-		death = yes
-	}
-}
-
-188470 = {
-	name = "Kalbhoj" # or Bappa Rawal
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	713.1.1 = {
-		birth = yes
-	}
-	753.1.1 = {
-		death = yes
-	}
-}
-
-188471 = {
-	name = "Khuman"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188470
-	734.1.1 = {
-		birth = yes
-	}
-	773.1.1 = {
-		death = yes
-	}
-}
-
-188472 = {
-	name = "Mattat"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188471
-	755.1.1 = {
-		birth = yes
-	}
-	793.1.1 = {
-		death = yes
-	}
-}
-
-188473 = {
-	name = "Bhert-Patt" # or Bhartribhatt
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188472
-	773.1.1 = {
-		birth = yes
-	}
-	813.1.1 = {
-		death = yes
-	}
-}
-
-188474 = {
-	name = "Sinha"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188473
-	789.1.1 = {
-		birth = yes
-	}
-	828.1.1 = {
-		death = yes
-	}
-}
-
-188475 = {
-	name = "Khuman"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188474
-	805.1.1 = {
-		birth = yes
-	}
-	853.1.1 = {
-		death = yes
-	}
-}
-
-188476 = {
-	name = "Khuman" # III
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188206
-	865.1.1 = {
-		birth = yes
-	}
-	942.1.1 = {
-		death = yes
-	}
-}
-
-188477 = {
-	name = "Bhert-Patt" # II
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188476
-	890.1.1 = {
-		birth = yes
-	}
-	951.1.1 = {
-		death = yes
-	}
-}
-
-188478 = {
-	name = "Allat"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188477
-	910.1.1 = {
-		birth = yes
-	}
-	953.1.1 = {
-		death = yes
-	}
-}
-
-188479 = {
-	name = "Narwahan"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188478 # conjecture
-	928.1.1 = {
-		birth = yes
-	}
-	973.1.1 = {
-		death = yes
-	}
-}
-
-188480 = {
-	name = "Shaliwahan"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188479
-	946.1.1 = {
-		birth = yes
-	}
-	977.1.1 = {
-		death = yes
-	}
-}
-
-188481 = {
-	name = "Shakti-Kumar"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188479
-	948.1.1 = {
-		birth = yes
-	}
-	993.1.1 = {
-		death = yes
-	}
-}
-
-188482 = {
-	name = "Amba-Prasad"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188481
-	964.1.1 = {
-		birth = yes
-	}
-	1007.1.1 = {
-		death = yes
-	}
-}
-
-188483 = {
-	name = "Shuchi-Verma"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188482
-	981.1.1 = {
-		birth = yes
-	}
-	1021.1.1 = {
-		death = yes
-	}
-}
-
-188484 = {
-	name = "Nar-Verma"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188483
-	1000.1.1 = {
-		birth = yes
-	}
-	1035.1.1 = {
-		death = yes
-	}
-}
-
-188485 = {
-	name = "Keerti-Verma" # or Kirtivarma
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188483
-	1003.1.1 = {
-		birth = yes
-	}
-	1051.1.1 = {
-		death = yes
-	}
-}
-
-188486 = {
-	name = "Bairath" # or Vairath
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188207
-	1043.1.1 = {
-		birth = yes
-	}
-	1088.1.1 = {
-		death = yes
-	}
-}
-
-188487 = {
-	name = "Hanspal"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188486
-	1063.1.1 = {
-		birth = yes
-	}
-	1103.1.1 = {
-		death = yes
-	}
-}
-
-188488 = {
-	name = "Vair-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188487
-	1080.1.1 = {
-		birth = yes
-	}
-	1107.1.1 = {
-		death = yes
-	}
-}
-
-188489 = {
-	name = "Vijai-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188488
-	1098.1.1 = {
-		birth = yes
-	}
-	1127.1.1 = {
-		death = yes
-	}
-}
-
-188490 = {
-	name = "Ari-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188488
-	1101.1.1 = {
-		birth = yes
-	}
-	1138.1.1 = {
-		death = yes
-	}
-}
-
-188491 = {
-	name = "Chaud-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188488
-	1104.1.1 = {
-		birth = yes
-	}
-	1148.1.1 = {
-		death = yes
-	}
-}
-
-188492 = {
-	name = "Vikramaditya"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188491
-	1124.1.1 = {
-		birth = yes
-	}
-	1158.1.1 = {
-		death = yes
-	}
-}
-
-188493 = {
-	name = "Karan-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188492
-	1141.1.1 = {
-		birth = yes
-	}
-	1168.1.1 = {
-		death = yes
-	}
-}
-
-188494 = {
-	name = "Mahap"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188493
-	1158.1.1 = {
-		birth = yes
-	}
-	1207.1.1 = {
-		death = yes
-	}
-}
-
-188495 = {
-	name = "Kshem-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188492
-	1142.1.1 = {
-		birth = yes
-	}
-	1172.1.1 = {
-		death = yes
-	}
-}
-
-188496 = {
-	name = "Samant-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188495
-	1159.1.1 = {
-		birth = yes
-	}
-	1209.1.1 = {
-		death = yes
-	}
-}
-
-188497 = {
-	name = "Kumar-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188495
-	1160.1.1 = {
-		birth = yes
-	}
-	1191.1.1 = {
-		death = yes
-	}
-}
-
-188498 = {
-	name = "Mathan-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188495
-	1163.1.1 = {
-		birth = yes
-	}
-	1211.1.1 = {
-		death = yes
-	}
-}
-
-188499 = {
-	name = "Padam-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188498
-	1185.1.1 = {
-		birth = yes
-	}
-	1213.1.1 = {
-		death = yes
-	}
-}
-
-188500 = {
-	name = "Jaitra-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188498
-	1190.1.1 = {
-		birth = yes
-	}
-	1253.1.1 = {
-		death = yes
-	}
-}
-
-188501 = {
-	name = "Tej-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188500
-	1212.1.1 = {
-		birth = yes
-	}
-	1273.1.1 = {
-		death = yes
-	}
-}
-
-188502 = {
-	name = "Samar-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188501
-	1238.1.1 = {
-		birth = yes
-	}
-	1302.1.1 = {
-		death = yes
-	}
-}
-
-188503 = {
-	name = "Ratan-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 188502
-	1260.1.1 = {
-		birth = yes
-	}
-	1303.8.25 = {
-		death = yes
-	}
-}
-
-188504 = {
-	name = "Maldeo"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "kalikula_shaktism"
-	culture = "rajput"
-	father = 191752
-	1280.1.1 = {
-		birth = yes
-	}
-	1326.1.1 = {
-		death = yes
-	}
-}
-
+#######################################
+# Sisodia Dynasty
+#######################################
 188505 = {
 	name = "Rahap"
 	dynasty = 1042098 # Sisodia
@@ -6376,7 +8051,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188506 = {
 	name = "Narapati"
 	dynasty = 1042098 # Sisodia
@@ -6390,7 +8064,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188507 = {
 	name = "Dinakarn"
 	dynasty = 1042098 # Sisodia
@@ -6404,7 +8077,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188508 = {
 	name = "Jaskarn"
 	dynasty = 1042098 # Sisodia
@@ -6418,7 +8090,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188509 = {
 	name = "Purnpala"
 	dynasty = 1042098 # Sisodia
@@ -6432,7 +8103,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188510 = {
 	name = "Prithvipal"
 	dynasty = 1042098 # Sisodia
@@ -6446,7 +8116,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188511 = {
 	name = "Bhuvan-Singh"
 	dynasty = 1042098 # Sisodia
@@ -6460,7 +8129,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188512 = {
 	name = "Bhim-Singh"
 	dynasty = 1042098 # Sisodia
@@ -6474,7 +8142,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188513 = {
 	name = "Jay-Singh"
 	dynasty = 1042098 # Sisodia
@@ -6488,7 +8155,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188514 = {
 	name = "Lakshaman-Singh"
 	dynasty = 1042098 # Sisodia
@@ -6502,7 +8168,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188515 = {
 	name = "Ari-Singh"
 	dynasty = 1042098 # Sisodia
@@ -6516,7 +8181,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188516 = {
 	name = "Ajay-Singh"
 	dynasty = 1042098 # Sisodia
@@ -6530,7 +8194,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 188517 = {
 	name = "Hammir-Singh"
 	dynasty = 1042098 # Sisodia
@@ -6547,22 +8210,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-188518 = {
-	name = "Bhuyikadevi"
-	female = yes
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "smartism"
-	culture = "rajput"
-	father = 188504
-	1300.1.1 = {
-		birth = yes
-	}
-	1364.1.1 = {
-		death = yes
-	}
-}
-
 188519 = {
 	name = "Kshetra-Singh"
 	dynasty = 1042098 # Sisodia
@@ -6577,104 +8224,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-188520 = {
-	name = "Jayat-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "smartism"
-	culture = "rajput"
-	father = 188496
-	1175.1.1 = {
-		birth = yes
-	}
-	1218.1.1 = {
-		death = yes
-	}
-}
-
-188521 = {
-	name = "Sinhad-Deo"
-	dynasty = 1042079 # Guhilot
-	religion = "smartism"
-	culture = "rajput"
-	father = 188496
-	1176.1.1 = {
-		birth = yes
-	}
-	1248.1.1 = {
-		death = yes
-	}
-}
-
-188522 = {
-	name = "Jay-Singh-Deo"
-	dynasty = 1042079 # Guhilot
-	religion = "smartism"
-	culture = "rajput"
-	father = 188521
-	1200.1.1 = {
-		birth = yes
-	}
-	1251.1.1 = {
-		death = yes
-	}
-}
-
-188523 = {
-	name = "Deopali-Deo"
-	dynasty = 1042079 # Guhilot
-	religion = "smartism"
-	culture = "rajput"
-	father = 188521
-	1201.1.1 = {
-		birth = yes
-	}
-	1278.1.1 = {
-		death = yes
-	}
-}
-
-188524 = {
-	name = "Virsinh-Deo"
-	dynasty = 1042079 # Guhilot
-	religion = "smartism"
-	culture = "rajput"
-	father = 188523
-	1240.1.1 = {
-		birth = yes
-	}
-	1303.1.1 = {
-		death = yes
-	}
-}
-
-188525 = {
-	name = "Bhoo-Chand"
-	dynasty = 1042079 # Guhilot
-	religion = "smartism"
-	culture = "rajput"
-	father = 188524
-	1260.1.1 = {
-		birth = yes
-	}
-	1331.1.1 = {
-		death = yes
-	}
-}
-
-188526 = {
-	name = "Dungar-Singh"
-	dynasty = 1042079 # Guhilot
-	religion = "smartism"
-	culture = "rajput"
-	father = 188525
-	1300.1.1 = {
-		birth = yes
-	}
-	1363.1.1 = {
-		death = yes
-	}
-}
+#######################################
+# Gujar Dynasty
+#######################################
 191009 = {
 	name = "Alakhana"
 	dynasty = 1044306	#Gujar
@@ -6687,7 +8239,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Burdak Dynasty
+#######################################
 191010 = {
 	name = "Mal_Singh"
 	dynasty = 1044307	#Burdak
@@ -6700,7 +8254,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191011 = {
 	name = "Balan_Singh"
 	dynasty = 1044307	#Burdak
@@ -6714,7 +8267,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191012 = {
 	name = "Mal_Singh" #II
 	dynasty = 1044307	#Burdak
@@ -6728,7 +8280,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Matsya Dynasty
+#######################################
 191013 = {
 	name = "Hammira" #fictional
 	dynasty = 1044304	#Matsya
@@ -6741,7 +8295,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191014 = {
 	name = "Kunwar" #fictional
 	dynasty = 1044304	#Matsya
@@ -6754,23 +8307,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-191431 = {
-	name = "Madanavarman" #fictional successor of Hammivarman, the dynasty continued but the names are unkown
-	dynasty = 1042067 #Chandela
-	religion = "smartism"
-	culture = "rajput"
-	father = 188060
-	mother = 188061
-	1285.1.1 = {
-		birth = yes
-	}
-	1340.1.1 = {
-		death = yes
-	}
-}
-
-
+#######################################
+# Baghela Dynasty
+#######################################
 191468 = {
 	name = "Vyaghra_Dev"
 	dynasty = 1044349 # Baghela
@@ -6786,7 +8325,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191470 = {
 	name = "Karnadeva"
 	dynasty = 1044349 # Baghela
@@ -6804,7 +8342,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191471 = {
 	name = "Kirat_Dev"
 	dynasty = 1044349 # Baghela
@@ -6819,7 +8356,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191472 = {
 	name = "Surat_Dev"
 	dynasty = 1044349 # Baghela
@@ -6834,7 +8370,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191473 = {
 	name = "Shyam_Dev"
 	dynasty = 1044349 # Baghela
@@ -6849,7 +8384,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191474 = {
 	name = "Kandhar_Dev"
 	dynasty = 1044349 # Baghela
@@ -6864,7 +8398,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191476 = {
 	name = "Sohaga_Dev"
 	dynasty = 1044349 # Baghela
@@ -6879,7 +8412,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191477 = {
 	name = "Saranga_Dev"
 	dynasty = 1044349 # Baghela
@@ -6893,7 +8425,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191478 = {
 	name = "Bilas_Dev"
 	dynasty = 1044349 # Baghela
@@ -6907,7 +8438,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191479 = {
 	name = "Bhim_Mal"
 	dynasty = 1044349 # Baghela
@@ -6921,7 +8451,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191480 = {
 	name = "Anik_Dev"
 	dynasty = 1044349 # Baghela
@@ -6935,7 +8464,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191481 = {
 	name = "Malkeshwar_Dev"
 	dynasty = 1044349 # Baghela
@@ -6949,7 +8477,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Bundela Dynasty
+#######################################
 191488 = {
 	name = "Pancham_Singh"
 	dynasty = 1044351 #Bundela
@@ -6962,7 +8492,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191489 = {
 	name = "Virbhadra_Singh"
 	dynasty = 1044351 #Bundela
@@ -6976,7 +8505,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191490 = {
 	name = "Karanpal_Singh"
 	dynasty = 1044351 #Bundela
@@ -6990,7 +8518,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191491 = {
 	name = "Kinnar_Singh"
 	dynasty = 1044351 #Bundela
@@ -7004,7 +8531,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191492 = {
 	name = "Shaukan_Singh"
 	dynasty = 1044351 #Bundela
@@ -7018,7 +8544,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191493 = {
 	name = "Nanak_Singh"
 	dynasty = 1044351 #Bundela
@@ -7032,7 +8557,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191494 = {
 	name = "Mohanpal_Singh"
 	dynasty = 1044351 #Bundela
@@ -7046,7 +8570,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191495 = {
 	name = "Abhaybhupati_Singh"
 	dynasty = 1044351 #Bundela
@@ -7060,7 +8583,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191496 = {
 	name = "Arjunpal_Singh"
 	dynasty = 1044351 #Bundela
@@ -7088,7 +8610,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191498 = {
 	name = "Sohanpal_Singh"
 	dynasty = 1044351 #Bundela
@@ -7102,7 +8623,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191499 = {
 	name = "Sahjendra_Singh"
 	dynasty = 1044351 #Bundela
@@ -7116,7 +8636,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191500 = {
 	name = "Nanak_Dev_Singh"
 	dynasty = 1044351 #Bundela
@@ -7130,7 +8649,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191501 = {
 	name = "Prithviraj_Singh"
 	dynasty = 1044351 #Bundela
@@ -7144,7 +8662,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191502 = {
 	name = "Ram_Singh"
 	dynasty = 1044351 #Bundela
@@ -7158,7 +8675,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191503 = {
 	name = "Ramchandra_Singh"
 	dynasty = 1044351 #Bundela
@@ -7172,7 +8688,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Chhinda Dynasty
+#######################################
 191552 = {
 	name = "Birpal"	#Fictional
 	dynasty = 1044360 #Chhinda
@@ -7185,7 +8703,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191553 = {
 	name = "Ram_Singh"	#Fictional
 	dynasty = 1044360 #Chhinda
@@ -7199,7 +8716,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191554 = {
 	name = "Jagatpal"	#Fictional
 	dynasty = 1044360 #Chhinda
@@ -7213,7 +8729,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191555 = {
 	name = "Khetrapal"	#Fictional
 	dynasty = 1044360 #Chhinda
@@ -7227,7 +8742,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191556 = {
 	name = "Gangeya"	#Fictional
 	dynasty = 1044360 #Chhinda
@@ -7241,331 +8755,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-191605 = {
-	name = "Harichandra"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	530.1.1 = {
-		birth = yes
-	}
-	550.1.1 = {
-		add_spouse = 191606
-	}
-	580.1.1 = {
-		death = yes
-	}
-}
-191606 = {
-	name = "Bhadra"
-	female = yes
-	religion = "smartism"
-	culture = "rajput"
-	534.1.1 = {
-		birth = yes
-	}
-	590.1.1 = {
-		death = yes
-	}
-}
-191607 = {
-	name = "Rajjila"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191605
-	mother = 191606
-	552.1.1 = {
-		birth = yes
-	}
-	600.1.1 = {
-		death = yes
-	}
-}
-191608 = {
-	name = "Narabbhata"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191607
-	570.1.1 = {
-		birth = yes
-	}
-	625.1.1 = {
-		death = yes
-	}
-}
-191609 = {
-	name = "Nagabhata"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191608
-	590.1.1 = {
-		birth = yes
-	}
-	650.1.1 = {
-		death = yes
-	}
-}
-191610 = {
-	name = "Tata"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191609
-	610.1.1 = {
-		birth = yes
-	}
-	690.1.1 = {
-		death = yes
-	}
-}
-191611 = {
-	name = "Yashovardhana"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191610
-	640.1.1 = {
-		birth = yes
-	}
-	720.1.1 = {
-		death = yes
-	}
-}
-191612 = {
-	name = "Bhoja"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191609
-	612.1.1 = {
-		birth = yes
-	}
-	690.1.1 = {
-		death = yes
-	}
-}
-191613 = {
-	name = "Siluka"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 188000
-	670.1.1 = {
-		birth = yes
-	}
-	750.1.1 = {
-		death = yes
-	}
-}
-191615 = {
-	name = "Jhota"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191613
-	690.1.1 = {
-		birth = yes
-	}
-	775.1.1 = {
-		death = yes
-	}
-}
-191616 = {
-	name = "Bhilladitya"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191615
-	720.1.1 = {
-		birth = yes
-	}
-	790.1.1 = {
-		death = yes
-	}
-}
-191617 = {
-	name = "Kakka"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191616
-	750.1.1 = {
-		birth = yes
-	}
-	770.1.1 = {
-		add_spouse = 191618
-	}
-	790.1.1 = {
-		remove_spouse = 191618 # Divorced so that he can re-marry without causing errors
-	}
-	790.1.2 = {
-		add_spouse = 191619
-	}
-	830.1.1 = {
-		death = yes
-	}
-}
-191618 = {
-	name = "Padmini"
-	female = yes
-	religion = "smartism"
-	culture = "rajput"
-	751.1.1 = {
-		birth = yes
-	}
-	850.1.1 = {
-		death = yes
-	}
-}
-191619 = {
-	name = "Durlabha_Devi"
-	female = yes
-	religion = "smartism"
-	culture = "rajput"
-	760.1.1 = {
-		birth = yes
-	}
-	840.1.1 = {
-		death = yes
-	}
-}
-191620 = {
-	name = "Bauka"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191617
-	mother = 191618
-	772.1.1 = {
-		birth = yes
-	}
-	850.1.1 = {
-		death = yes
-	}
-}
-191621 = {
-	name = "Kakuka"
-	dynasty = 1042066
-	religion = "smartism"
-	culture = "rajput"
-	father = 191617
-	mother = 191619
-	791.1.1 = {
-		birth = yes
-	}
-	880.1.1 = {
-		death = yes
-	}
-}
-191624 = {
-	name = "Dadda"
-	dynasty = 1042066	#Pratihara
-	religion = "smartism"
-	culture = "rajput"
-	father = 191605
-	mother = 191606
-	554.1.1 = {
-		birth = yes
-	}
-	595.1.1 = {
-		death = yes
-	}
-}
-191625 = {
-	name = "Jayabhata"
-	dynasty = 1042066	#Pratihara
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191624
-	579.1.1 = {
-		birth = yes
-	}
-	620.1.1 = {
-		death = yes
-	}
-}
-191626 = {
-	name = "Dadda"	#II
-	dynasty = 1042066	#Pratihara
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191625
-	600.1.1 = {
-		birth = yes
-	}
-	645.1.1 = {
-		death = yes
-	}
-}
-191627 = {
-	name = "Jayabhata"	#II
-	dynasty = 1042066	#Pratihara
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191626
-	620.1.1 = {
-		birth = yes
-	}
-	665.1.1 = {
-		death = yes
-	}
-}
-191628 = {
-	name = "Dadda"	#III
-	dynasty = 1042066	#Pratihara
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191627
-	639.1.1 = {
-		birth = yes
-	}
-	690.1.1 = {
-		death = yes
-	}
-}
-191629 = {
-	name = "Jayabhata"	#III
-	dynasty = 1042066	#Pratihara
-	religion = "advaitism"
-	culture = "gujarati"
-	father = 191628
-	660.1.1 = {
-		birth = yes
-	}
-	715.1.1 = {
-		death = yes
-	}
-}
-191630 = {
-	name = "Ahirola"
-	dynasty = 1042066	#Pratihara
-	religion = "advaitism"
-	culture = "gujarati"
-	father = 191629
-	680.1.1 = {
-		birth = yes
-	}
-	720.1.1 = {
-		death = yes
-	}
-}
-191631 = {
-	name = "Jayabhata" #IV
-	dynasty = 1042066	#Pratihara
-	religion = "advaitism"
-	culture = "gujarati"
-	father = 191630
-	700.1.1 = {
-		birth = yes
-	}
-	738.1.1 = {
-		death = yes
-	}
-}
-
+#######################################
+# Chauhan of Lata Dynasty
+#######################################
 191637 = {
 	name = "Mahesvardama"
 	dynasty = 1044367	#Chauhan of Lata
@@ -7578,7 +8770,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191638 = {
 	name = "Bhimadama"
 	dynasty = 1044367	#Chauhan of Lata
@@ -7592,7 +8783,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191639 = {
 	name = "Bhartrvaddha"
 	dynasty = 1044367	#Chauhan of Lata
@@ -7606,7 +8796,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191640 = {
 	name = "Haradama"
 	dynasty = 1044367	#Chauhan of Lata
@@ -7620,7 +8809,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191641 = {
 	name = "Dhrubhata"
 	dynasty = 1044367	#Chauhan of Lata
@@ -7634,7 +8822,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191642 = {
 	name = "Bhartrvaddha"
 	dynasty = 1044367	#Chauhan of Lata
@@ -7649,420 +8836,24 @@ paramara_branch_off_spouse = {
 	}
 }
 
-191699 = {
-	name = "Govindaraja"
-	dynasty = 1042081	#Chauhan of Partapgarh
-	religion = "advaitism"
+#######################################
+# Dahiya Dynasty
+#######################################
+191771 = {
+	name = "Vijayaraja"
+	dynasty = 1044377	#Dahiya
+	religion = "krishnaism"
 	culture = "rajput"
-	father = 188107	#Fictional link, link to main Chahamana branch is speculative (though probable)
-	800.1.1 = {
-		birth = yes
-	}
-	870.1.1 = {
-		death = yes
-	}
-}
-
-191700 = {
-	name = "Durlabharaja"
-	dynasty = 1042081	#Chauhan of Partapgarh
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191699
-	850.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-
-191701 = {
-	name = "Indraraja"
-	dynasty = 1042081	#Chauhan of Partapgarh
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191699
-	870.1.1 = {
-		birth = yes
-	}
-	946.1.1 = {
-		death = yes
-	}
-}
-
-191702 = {
-	name = "Sobhita"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 188116	#Lakshmana
-	930.1.1 = {
-		birth = yes
-	}
-	980.1.1 = {
-		death = yes
-	}
-}
-
-191703 = {
-	name = "Baliraja"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191702
-	950.1.1 = {
-		birth = yes
-	}
-	993.1.1 = {
-		death = yes
-	}
-}
-
-191704 = {
-	name = "Vigrahapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 188116
-	935.1.1 = {
-		birth = yes
-	}
-	1000.1.1 = {
-		death = yes
-	}
-}
-
-191705 = {
-	name = "Mahendra"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191704
-	955.1.1 = {
-		birth = yes
-	}
-	1010.1.1 = {
-		death = yes
-	}
-}
-
-191706 = {
-	name = "Asvapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191705
-	975.1.1 = {
-		birth = yes
-	}
-	1015.1.1 = {
-		death = yes
-	}
-}
-
-191707 = {
-	name = "Anahilla"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191705
-	977.1.1 = {
-		birth = yes
-	}
-	1050.1.1 = {
-		death = yes
-	}
-}
-
-191708 = {
-	name = "Ahila"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191706
-	995.1.1 = {
-		birth = yes
-	}
-	1020.1.1 = {
-		death = yes
-	}
-}
-
-191709 = {
-	name = "Balaprasada"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191707
-	995.1.1 = {
-		birth = yes
-	}
-	1060.1.1 = {
-		death = yes
-	}
-}
-
-191710 = {
-	name = "Jinduraja"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191707
-	997.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-
-191711 = {
-	name = "Prithvipala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191710
-	1016.1.1 = {
-		birth = yes
-	}
-	1088.1.1 = {
-		death = yes
-	}
-}
-
-191712 = {
-	name = "Jojaladeva"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191710
-	1017.1.1 = {
-		birth = yes
-	}
-	1110.1.1 = {
-		death = yes
-	}
-}
-
-191713 = {
-	name = "Asharaja"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191710
 	1020.1.1 = {
 		birth = yes
 	}
-	1040.1.1 = {
-		add_spouse = 191721
-	}
-	#Abdicates in 1118
-	1119.6.1 = {
+	1098.1.1 = {
 		death = yes
 	}
 }
-
-191714 = {
-	name = "Ratnapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191713
-	mother = 191721
-	1042.1.1 = {
-		birth = yes
-	}
-	1132.1.1 = {
-		death = yes
-	}
-}
-
-191715 = {
-	name = "Rayapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191714
-	1100.1.1 = {
-		birth = yes
-	}
-	1121.1.1 = {
-		add_spouse = 191744
-	}
-	1125.1.1 = {
-		add_spouse = 191718
-	}
-	1147.1.1 = {
-		death = yes
-	}
-}
-
-191744 = {
-	name = "Padmaladevi"
-	female = yes
-	religion = "advaitism"
-	culture = "rajput"
-	1105.1.1 = {
-		birth = yes
-	}
-	1170.1.1 = {
-		death = yes
-	}
-}
-
-191716 = {
-	name = "Sahajapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191715
-	mother = 191744
-	1126.1.1 = {
-		birth = yes
-	}
-	1149.1.1 = {
-		death = yes
-	}
-}
-
-191717 = {
-	name = "Sahanapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191715
-	mother = 191744
-	1128.1.1 = {
-		birth = yes
-	}
-	1170.1.1 = {
-		death = yes
-	}
-}
-
-191718 = {
-	name = "Manaladevi"
-	female = yes
-	religion = "advaitism"
-	culture = "rajput"
-	1109.1.1 = {
-		birth = yes
-	}
-	1180.1.1 = {
-		death = yes
-	}
-}
-
-191719 = {
-	name = "Rudrapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191715
-	mother = 191718
-	1130.1.1 = {
-		birth = yes
-	}
-	1200.1.1 = {
-		death = yes
-	}
-}
-
-191720 = {
-	name = "Amritapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191715
-	mother = 191718
-	1135.1.1 = {
-		birth = yes
-	}
-	1190.1.1 = {
-		death = yes
-	}
-}
-
-191721 = {
-	name = "Delhanadevi"
-	female = yes
-	religion = "advaitism"
-	culture = "rajput"
-	1024.1.1 = {
-		birth = yes
-	}
-	1080.1.1 = {
-		death = yes
-	}
-}
-
-191722 = {
-	name = "Katudeva"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191713
-	mother = 191721
-	1044.6.1 = {
-		birth = yes
-	}
-	1144.1.1 = {
-		death = yes
-	}
-}
-
-191723 = {
-	name = "Jayatasiha"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191722
-	1110.1.1 = {
-		birth = yes
-	}
-	1130.1.1 = {
-		add_spouse = 191724
-	}
-	1145.1.1 = {
-		death = yes
-	}
-}
-
-191724 = {
-	name = "Tihunaka"
-	female = yes
-	religion = "advaitism"
-	culture = "rajput"
-	1111.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-191725 = {
-	name = "Alhana"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "advaitism"
-	culture = "rajput"
-	father = 191713
-	mother = 191721
-	1066.1.1 = {
-		birth = yes
-	}
-	1082.1.1 = {
-		add_spouse = 191726
-	}
-	1082.5.1 = {
-		add_spouse = 191727
-	}
-	1164.1.1 = {
-		death = yes
-	}
-}
-
+#######################################
+# Rashtrakuta of Hastikund Dynasty
+#######################################
 191726 = {
 	name = "Analladevi"
 	female = yes
@@ -8077,676 +8868,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-191727 = {
-	name = "Nainsi"
-	female = yes
-	religion = "advaitism"
-	culture = "rajput"
-	1066.1.1 = {
-		birth = yes
-	}
-	1130.1.1 = {
-		death = yes
-	}
-}
-
-191728 = {
-	name = "Kelhana"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191725
-	mother = 191726
-	1121.1.1 = {
-		birth = yes
-	}
-	1137.1.1 = {
-		add_spouse = 191734
-	}
-	1138.1.1 = {
-		add_spouse = 191735
-	}
-	1174.1.1 = {
-		death = yes
-	}
-}
-
-191729 = {
-	name = "Gajasimha"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191725
-	mother = 191726
-	1123.1.1 = {
-		birth = yes
-	}
-	1184.1.1 = {
-		death = yes
-	}
-}
-
-191730 = {
-	name = "Kirtipala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191725
-	mother = 191726
-	1125.1.1 = {
-		birth = yes
-	}
-	1182.1.1 = {
-		death = yes
-	}
-}
-
-191731 = {
-	name = "Vijayasimha"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191725
-	mother = 191727
-	1082.6.1 = {
-		birth = yes
-	}
-	1110.1.1 = {
-		death = yes
-	}
-}
-
-191732 = {
-	name = "Vijalladeva"
-	dynasty = 1042081	#Chauhan, of unclear family, appointed officer of Chaulukyas
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 188126 #Fictional link
-	1070.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-191733 = {
-	name = "Kuntapala"
-	dynasty = 1042081	#Chauhan, of unclear family, appointed officer of Chaulukyas
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 188126 #Fictional link
-	1072.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-191734 = {
-	name = "Mahibaladevi"
-	female = yes
-	religion = "krishnaism"
-	culture = "rajput"
-	1120.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-191735 = {
-	name = "Jalhanadevi"
-	female = yes
-	religion = "krishnaism"
-	culture = "rajput"
-	1122.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-191736 = {
-	name = "Sringaradevi"
-	dynasty = 1042081	#Chauhan of Nadol
-	female = yes
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191728
-	mother = 191734
-	1145.1.1 = {
-		birth = yes
-	}
-	1200.1.1 = {
-		death = yes
-	}
-}
-
-191737 = {
-	name = "Alhanadevi"
-	dynasty = 1042081	#Chauhan of Nadol
-	female = yes
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191728
-	mother = 191735
-	1146.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-191738 = {
-	name = "Chamundaraja"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191728
-	mother = 191735
-	1147.1.1 = {
-		birth = yes
-	}
-	1184.1.1 = {
-		death = yes
-	}
-}
-
-191739 = {
-	name = "Kumvarasimha"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191728
-	mother = 191734
-	1146.6.1 = {
-		birth = yes
-	}
-	1192.1.1 = {
-		death = yes
-	}
-}
-
-191740 = {
-	name = "Lakhanapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191730
-	1146.1.1 = {
-		birth = yes
-	}
-	1222.1.1 = {
-		death = yes
-	}
-}
-
-191741 = {
-	name = "Sonapala"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191730
-	1148.1.1 = {
-		birth = yes
-	}
-	1192.1.1 = {
-		death = yes
-	}
-}
-
-191742 = {
-	name = "Jayatashimha"
-	dynasty = 1042081	#Chauhan of Nadol
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191728
-	mother = 191734
-	1150.1.1 = {
-		birth = yes
-	}
-	1192.1.1 = {
-		death = yes
-	}
-}
-
-191743 = {
-	name = "Samarisimha"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191730
-	1145.1.1 = {
-		birth = yes
-	}
-	1205.1.1 = {
-		death = yes
-	}
-}
-
-191745 = {
-	name = "Udayasimha"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191743
-	1162.1.1 = {
-		birth = yes
-	}
-	1210.1.1 = {
-		add_spouse = 191749
-	}
-	1259.1.1 = {
-		death = yes
-	}
-}
-
-191746 = {
-	name = "Liladevi"
-	dynasty = 1042081	#Chauhan of Jalor
-	female = yes
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191743
-	1163.1.1 = {
-		birth = yes
-	}
-	1230.1.1 = {
-		death = yes
-	}
-}
-
-191747 = {
-	name = "Manavasimha"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191743
-	1164.1.1 = {
-		birth = yes
-	}
-	1228.1.1 = {
-		death = yes
-	}
-}
-
-191748 = {
-	name = "Chachigadeva"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191745
-	mother = 191749
-	1210.1.1 = {
-		birth = yes
-	}
-	1282.1.1 = {
-		death = yes
-	}
-}
-
-191749 = {
-	name = "Prahladanadevi"
-	female = yes
-	religion = "krishnaism"
-	culture = "rajput"
-	1185.1.1 = {
-		birth = yes
-	}
-	1250.1.1 = {
-		death = yes
-	}
-}
-
-191750 = {
-	name = "Chamundaraja"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191745
-	mother = 191749
-	1212.1.1 = {
-		birth = yes
-	}
-	1295.1.1 = {
-		death = yes
-	}
-}
-
-191751 = {
-	name = "Samantasimha"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191748
-	1230.1.1 = {
-		birth = yes
-	}
-	#Abdicates in 1296
-	1300.1.1 = {
-		death = yes
-	}
-}
-
-191752 = {
-	name = "Kanhadadeva"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191751
-	1250.1.1 = {
-		birth = yes
-	}
-	1316.1.1 = {
-		death = yes
-	}
-}
-
-191753 = {
-	name = "Pratapamalla"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191747
-	1190.1.1 = {
-		birth = yes
-	}
-	1250.1.1 = {
-		death = yes
-	}
-}
-
-191754 = {
-	name = "Vijada"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191753
-	1210.1.1 = {
-		birth = yes
-	}
-	1230.1.1 = {
-		add_spouse = 191755
-	}
-	1290.1.1 = {
-		death = yes
-	}
-}
-
-191755 = {
-	name = "Namalladevi"
-	female = yes
-	religion = "krishnaism"
-	culture = "rajput"
-	1212.1.1 = {
-		birth = yes
-	}
-	1250.1.1 = {
-		death = yes
-	}
-}
-
-191756 = {
-	name = "Lavanyakarna"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191754
-	mother = 191755
-	1230.1.1 = {
-		birth = yes
-	}
-	1311.1.1 = {
-		death = yes
-	}
-}
-
-191757 = {
-	name = "Lumdha"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191754
-	mother = 191755
-	1232.1.1 = {
-		birth = yes
-	}
-	1320.1.1 = {
-		death = yes
-	}
-}
-
-191758 = {
-	name = "Lakshmana"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191754
-	mother = 191755
-	1235.1.1 = {
-		birth = yes
-	}
-	1290.1.1 = {
-		death = yes
-	}
-}
-
-191777 = {
-	name = "Lunavarman"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191754
-	mother = 191755
-	1240.1.1 = {
-		birth = yes
-	}
-	1275.1.1 = {
-		death = yes
-	}
-}
-
-191759 = {
-	name = "Tejasimha"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191757
-	1252.1.1 = {
-		birth = yes
-	}
-	1321.1.1 = {
-		death = yes
-	}
-}
-
-191760 = {
-	name = "Tihunaka"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191757
-	1254.1.1 = {
-		birth = yes
-	}
-	1300.1.1 = {
-		death = yes
-	}
-}
-
-191761 = {
-	name = "Kanhadadeva"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191759
-	1270.1.1 = {
-		birth = yes
-	}
-	1343.1.1 = {
-		death = yes
-	}
-}
-
-191762 = {
-	name = "Samanthasima"
-	dynasty = 1042081	#Chauhan of Sirohi
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191761
-	1290.1.1 = {
-		birth = yes
-	}
-	1360.1.1 = {
-		death = yes
-	}
-}
-
-191763 = {
-	name = "Padmasimha"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191731
-	1099.1.1 = {
-		birth = yes
-	}
-	1120.1.1 = {
-		death = yes
-	}
-}
-
-191778 = {
-	name = "Sobhita"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191763
-	1115.1.1 = {
-		birth = yes
-	}
-	1140.1.1 = {
-		death = yes
-	}
-}
-
-191764 = {
-	name = "Salha"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191778
-	1131.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-191765 = {
-	name = "Vikramasimha"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191764
-	1147.1.1 = {
-		birth = yes
-	}
-	1180.1.1 = {
-		death = yes
-	}
-}
-
-191766 = {
-	name = "Haripala"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191764
-	1147.1.1 = {
-		birth = yes
-	}
-	1220.1.1 = {
-		death = yes
-	}
-}
-
-191767 = {
-	name = "Sangramasimha"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191765
-	1167.1.1 = {
-		birth = yes
-	}
-	1250.1.1 = {
-		death = yes
-	}
-}
-
-191768 = {
-	name = "Bhimasimha"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191765
-	1168.1.1 = {
-		birth = yes
-	}
-	1240.1.1 = {
-		death = yes
-	}
-}
-
-191769 = {
-	name = "Pratapasimha"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191767
-	1220.1.1 = {
-		birth = yes
-	}
-	1280.1.1 = {
-		death = yes
-	}
-}
-
-191770 = {
-	name = "Vajranga"
-	dynasty = 1042081	#Chauhan of Satyapura
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 191767
-	1250.1.1 = {
-		birth = yes
-	}
-	1321.1.1 = {
-		death = yes
-	}
-}
-
-191771 = {
-	name = "Vijayaraja"
-	dynasty = 1044377	#Dahiya
-	religion = "krishnaism"
-	culture = "rajput"
-	1020.1.1 = {
-		birth = yes
-	}
-	1098.1.1 = {
-		death = yes
-	}
-}
-
 191779 = {
 	name = "Harivarman"
 	dynasty = 1044379 #Rashtrakuta of Hastikundi
@@ -8759,7 +8880,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191780 = {
 	name = "Vidagharaja"
 	dynasty = 1044379 #Rashtrakuta of Hastikundi
@@ -8773,7 +8893,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191781 = {
 	name = "Mammata"
 	dynasty = 1044379 #Rashtrakuta of Hastikundi
@@ -8787,7 +8906,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191782 = {
 	name = "Dhavala"
 	dynasty = 1044379 #Rashtrakuta of Hastikundi
@@ -8801,7 +8919,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191783 = {
 	name = "Balaprsada"
 	dynasty = 1044379 #Rashtrakuta of Hastikundi
@@ -8815,510 +8932,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-191784 = {
-	name = "Utpala"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "krishnaism"
-	culture = "rajput"
-	father = 188179
-	900.1.1 = {
-		birth = yes
-	}
-	950.1.1 = {
-		death = yes
-	}
-}
-
-191785 = {
-	name = "Aranya"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191784
-	920.1.1 = {
-		birth = yes
-	}
-	970.1.1 = {
-		death = yes
-	}
-}
-
-191786 = {
-	name = "Krishna"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191785
-	940.1.1 = {
-		birth = yes
-	}
-	980.1.1 = {
-		death = yes
-	}
-}
-
-191787 = {
-	name = "Dharamivaraha"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191786
-	960.1.1 = {
-		birth = yes
-	}
-	990.1.1 = {
-		death = yes
-	}
-}
-
-191788 = {
-	name = "Dhurbhata"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191787
-	980.1.1 = {
-		birth = yes
-	}
-	1000.1.1 = {
-		death = yes
-	}
-}
-
-191789 = {
-	name = "Mahipala"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191787
-	981.1.1 = {
-		birth = yes
-	}
-	1025.1.1 = {
-		death = yes
-	}
-}
-
-191790 = {
-	name = "Dandhuka"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191789
-	1001.1.1 = {
-		birth = yes
-	}
-	1042.1.1 = {
-		death = yes
-	}
-}
-
-191791 = {
-	name = "Purnapala"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191790
-	1020.1.1 = {
-		birth = yes
-	}
-	1062.1.1 = {
-		death = yes
-	}
-}
-
-191792 = {
-	name = "Laihini"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191790
-	female = yes
-	1021.1.1 = {
-		birth = yes
-	}
-	1090.1.1 = {
-		death = yes
-	}
-}
-
-191793 = {
-	name = "Dantivarman"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191790
-	1022.1.1 = {
-		birth = yes
-	}
-	1080.1.1 = {
-		death = yes
-	}
-}
-
-191794 = {
-	name = "Krishnadeva"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191790
-	1023.1.1 = {
-		birth = yes
-	}
-	1100.1.1 = {
-		death = yes
-	}
-}
-
-191795 = {
-	name = "Yogaraja"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191793
-	1040.1.1 = {
-		birth = yes
-	}
-	1110.1.1 = {
-		death = yes
-	}
-}
-
-191796 = {
-	name = "Kakaladeva"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191794
-	1041.1.1 = {
-		birth = yes
-	}
-	1120.1.1 = {
-		death = yes
-	}
-}
-
-191797 = {
-	name = "Ramadeva"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191795
-	1060.1.1 = {
-		birth = yes
-	}
-	1130.1.1 = {
-		death = yes
-	}
-}
-
-191798 = {
-	name = "Vikramasimha"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191796
-	1062.1.1 = {
-		birth = yes
-	}
-	1150.1.1 = {
-		death = yes
-	}
-}
-
-191799 = {
-	name = "Yasodhavala"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191796
-	1065.1.1 = {
-		birth = yes
-	}
-	1083.1.1 = {
-		add_spouse = 191800
-	}
-	1158.1.1 = {
-		death = yes
-	}
-}
-
-191800 = {
-	name = "Saubhagyadevi"
-	female = yes
-	dynasty = 1042069	#Solanki
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 188081
-	mother = 188083
-	1050.1.1 = {
-		birth = yes
-	}
-	1140.1.1 = {
-		death = yes
-	}
-}
-
-191801 = {
-	name = "Dharanivaraha"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191799
-	mother = 191800
-	1110.1.1 = {
-		birth = yes
-	}
-	1126.1.1 = {
-		trait = education_martial_4
-	}
-	1165.1.1 = {
-		add_spouse = 191736
-	}
-	1200.1.1 = {
-		death = yes
-	}
-}
-
-191802 = {
-	name = "Babhini"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	female = yes
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191799
-	mother = 191800
-	1100.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-
-191803 = {
-	name = "Praladana"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191799
-	mother = 191800
-	1125.1.1 = {
-		birth = yes
-	}
-	1220.1.1 = {
-		death = yes
-	}
-}
-
-191804 = {
-	name = "Somasimha"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191801
-	mother = 191736
-	1166.1.1 = {
-		birth = yes
-	}
-	1243.1.1 = {
-		death = yes
-	}
-}
-
-191805 = {
-	name = "Krishnaraja"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191804
-	1220.1.1 = {
-		birth = yes
-	}
-	1287.1.1 = {
-		death = yes
-	}
-}
-
-191806 = {
-	name = "Pratapasimha"
-	dynasty = 1042077	#Paramara of Candravati/Mt Abu
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191804
-	1240.1.1 = {
-		birth = yes
-	}
-	1311.1.1 = {
-		death = yes
-	}
-}
-
-191807 = {
-	name = "Virama"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191751
-	1255.1.1 = {
-		birth = yes
-	}
-	1320.1.1 = {
-		death = yes
-	}
-}
-
-191808 = {
-	name = "Sataladeva"
-	dynasty = 1042081	#Chauhan of Jalor
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191807
-	1275.1.1 = {
-		birth = yes
-	}
-	1310.6.23 = {
-		death = yes
-	}
-}
-
-191809 = {
-	name = "Chandana"
-	dynasty = 1042077	#Paramara of Jalor & Siwana
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 188182 # Vakpati II
-	970.1.1 = {
-		birth = yes
-	}
-	1030.1.1 = {
-		death = yes
-	}
-}
-
-191810 = {
-	name = "Devarat"
-	dynasty = 1042077	#Paramara of Jalor & Siwana
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191809
-	990.1.1 = {
-		birth = yes
-	}
-	1065.1.1 = {
-		death = yes
-	}
-}
-
-191811 = {
-	name = "Aparajita"
-	dynasty = 1042077	#Paramara of Jalor & Siwana
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191810
-	1010.1.1 = {
-		birth = yes
-	}
-	1080.1.1 = {
-		death = yes
-	}
-}
-
-191812 = {
-	name = "Vijjala"
-	dynasty = 1042077	#Paramara of Jalor & Siwana
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191811
-	1030.1.1 = {
-		birth = yes
-	}
-	1100.1.1 = {
-		death = yes
-	}
-}
-
-191813 = {
-	name = "Dharavarsha"
-	dynasty = 1042077	#Paramara of Jalor & Siwana
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191812
-	1050.1.1 = {
-		birth = yes
-	}
-	1116.1.1 = {
-		death = yes
-	}
-}
-
-191814 = {
-	name = "Visala"
-	dynasty = 1042077	#Paramara of Jalor & Siwana
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191813
-	1070.1.1 = {
-		birth = yes
-	}
-	1090.1.1 = {
-		add_spouse = 191817
-	}
-	1140.1.1 = {
-		death = yes
-	}
-}
-
-191817 = {
-	name = "Melaradevi"
-	female = yes
-	religion = "vaishnavism"
-	culture = "rajput"
-	1060.1.1 = {
-		birth = yes
-	}
-	1110.1.1 = {
-		death = yes
-	}
-}
-
-191815 = {
-	name = "Kuntapala"
-	dynasty = 1042077	#Paramara of Jalor & Siwana
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191814
-	mother = 191817
-	1090.1.1 = {
-		birth = yes
-	}
-	1161.1.1 = {
-		death = {
-			death_reason = death_battle
-			killer = 191730
-		}
-	}
-}
-
-191816 = {
-	name = "Viranarayana"
-	dynasty = 1042077	#Paramara of Jalor & Siwana
-	religion = "vaishnavism"
-	culture = "rajput"
-	father = 191814
-	mother = 191817
-	1092.1.1 = {
-		birth = yes
-	}
-	1161.1.1 = {
-		death = {
-			death_reason = death_battle
-			killer = 191730
-		}
-	}
-}
-
+#######################################
+# Panwars Dynasty
+#######################################
 191818 = {
 	name = "Hathadev"
 	dynasty = 1044380	#Panwars of Vikramapura and Phalodi, vassal cheifs of the Bhattis. Not much known
@@ -9334,7 +8950,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191819 = {
 	name = "Kuntapala"	#Fictional
 	dynasty = 1044380	#Panwars of Vikramapura and Phalodi
@@ -9349,7 +8964,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191820 = {
 	name = "Babhini"	#Fictional
 	female = yes
@@ -9362,7 +8976,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191821 = {
 	name = "Somasimha"	#Fictional
 	dynasty = 1044380	#Panwars of Vikramapura and Phalodi
@@ -9376,7 +8989,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Kachwaha Dynasty
+#######################################
 191828 = {
 	name = "Sodh"
 	dynasty = 1044383	#Kachwaha
@@ -9390,7 +9005,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191829 = {
 	name = "Dulha"
 	dynasty = 1044383	#Kachwaha
@@ -9404,7 +9018,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191830 = {
 	name = "Kunwar_Baikul"
 	dynasty = 1044383	#Kachwaha
@@ -9418,7 +9031,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191831 = {
 	name = "Kankal"
 	dynasty = 1044383	#Kachwaha
@@ -9432,7 +9044,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191832 = {
 	name = "Janad"
 	dynasty = 1044383	#Kachwaha
@@ -9448,7 +9059,6 @@ paramara_branch_off_spouse = {
 		}
 	}
 }
-
 191833 = {
 	name = "Palanasi"
 	dynasty = 1044383	#Kachwaha
@@ -9464,7 +9074,6 @@ paramara_branch_off_spouse = {
 		}
 	}
 }
-
 191834 = {
 	name = "Jaitsi"
 	dynasty = 1044383	#Kachwaha
@@ -9480,7 +9089,6 @@ paramara_branch_off_spouse = {
 		}
 	}
 }
-
 191835 = {
 	name = "Kansi"
 	dynasty = 1044383	#Kachwaha
@@ -9496,7 +9104,6 @@ paramara_branch_off_spouse = {
 		}
 	}
 }
-
 191836 = {
 	name = "Pujana"
 	dynasty = 1044383	#Kachwaha
@@ -9513,7 +9120,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191837 = {
 	name = "Balbhadra"
 	dynasty = 1044383	#Kachwaha
@@ -9529,7 +9135,6 @@ paramara_branch_off_spouse = {
 		}
 	}
 }
-
 191838 = {
 	name = "Bhinsvi"
 	dynasty = 1044383	#Kachwaha
@@ -9545,7 +9150,6 @@ paramara_branch_off_spouse = {
 		}
 	}
 }
-
 191839 = {
 	name = "Malesi"
 	dynasty = 1044383	#Kachwaha
@@ -9559,7 +9163,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191840 = {
 	name = "Byala"
 	dynasty = 1044383	#Kachwaha
@@ -9573,7 +9176,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191841 = {
 	name = "Raja"
 	dynasty = 1044383	#Kachwaha
@@ -9587,7 +9189,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191842 = {
 	name = "Kilhan"
 	dynasty = 1044383	#Kachwaha
@@ -9601,7 +9202,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191843 = {
 	name = "Kantal"
 	dynasty = 1044383	#Kachwaha
@@ -9615,7 +9215,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191844 = {
 	name = "Jansi"
 	dynasty = 1044383	#Kachwaha
@@ -9629,7 +9228,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191845 = {
 	name = "Kumbha"
 	dynasty = 1044383	#Kachwaha
@@ -9643,7 +9241,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191846 = {
 	name = "Ishwar"
 	dynasty = 1044383	#Kachwaha
@@ -9656,7 +9253,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Bargujar Dynasty
+#######################################
 191847 = {
 	name = "Savata"
 	dynasty = 1044384	#Bargujar
@@ -9669,7 +9268,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191848 = {
 	name = "Mathanadeva"
 	dynasty = 1044384	#Bargujar
@@ -9683,7 +9281,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191849 = {
 	name = "Pratap"	#Fictional
 	dynasty = 1044384	#Bargujar
@@ -9697,7 +9294,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191850 = {
 	name = "Mathanadeva"	#Fictional
 	dynasty = 1044384	#Bargujar
@@ -9711,7 +9307,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191851 = {
 	name = "Bhatto"	#Probably a Meena chief rather than a Bargujar
 	dynasty = 1044384	#Bargujar
@@ -9725,7 +9320,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Kacchapaghata Dynasty
+#######################################
 191852 = {
 	name = "Yuvaraja"
 	dynasty = 1044385	#Kacchapaghata
@@ -9738,7 +9335,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191853 = {
 	name = "Arjuna"
 	dynasty = 1044385	#Kacchapaghata
@@ -9752,7 +9348,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191854 = {
 	name = "Abhimanyu"
 	dynasty = 1044385	#Kacchapaghata
@@ -9766,7 +9361,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191855 = {
 	name = "Vijayapala"
 	dynasty = 1044385	#Kacchapaghata
@@ -9780,7 +9374,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191856 = {
 	name = "Vikramasimha"
 	dynasty = 1044385	#Kacchapaghata
@@ -9794,63 +9387,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-191857 = {
-	name = "Tihunapaladeva"
-	dynasty = 1042076	#Kacchapaghata
-	religion = "vaishnavism"
-	culture = "malvi"
-	father = 188175
-	1070.1.1 = {
-		birth = yes
-	}
-	1130.1.1 = {
-		death = yes
-	}
-}
-
-191858 = {
-	name = "Vijayapala"
-	dynasty = 1042076	#Kacchapaghata
-	religion = "vaishnavism"
-	culture = "malvi"
-	father = 191857
-	1090.1.1 = {
-		birth = yes
-	}
-	1150.1.1 = {
-		death = yes
-	}
-}
-
-191859 = {
-	name = "Surapala"
-	dynasty = 1042076	#Kacchapaghata
-	religion = "srikula_shaktism"
-	culture = "malvi"
-	father = 191858
-	1110.1.1 = {
-		birth = yes
-	}
-	1170.1.1 = {
-		death = yes
-	}
-}
-
-191860 = {
-	name = "Anayapala"
-	dynasty = 1042076	#Kacchapaghata
-	religion = "srikula_shaktism"
-	culture = "malvi"
-	father = 191859
-	1130.1.1 = {
-		birth = yes
-	}
-	1190.1.1 = {
-		death = yes
-	}
-}
-
+#######################################
+# Guhilot of Chatsu Dynasty
+#######################################
 191861 = {
 	name = "Bhartripatta"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9863,7 +9402,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191862 = {
 	name = "Guhila"	#Fictional
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9877,7 +9415,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191863 = {
 	name = "Dulha"	#Fictional
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9891,7 +9428,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191864 = {
 	name = "Savata"	#Fictional
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9905,7 +9441,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191865 = {
 	name = "Dhanika"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9919,7 +9454,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191866 = {
 	name = "Auka"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9933,7 +9467,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191867 = {
 	name = "Krishna"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9947,7 +9480,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191868 = {
 	name = "Sankaragana"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9961,7 +9493,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191869 = {
 	name = "Harsha"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9975,7 +9506,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191870 = {
 	name = "Guhila"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -9989,7 +9519,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191871 = {
 	name = "Bhatta"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -10003,7 +9532,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191872 = {
 	name = "Baladitya"
 	dynasty = 1044386	#Guhilot of Chatsu
@@ -10017,7 +9545,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Rashtrakuta of Dhanop Dynasty
+#######################################
 191878 = {
 	name = "Bhallila"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
@@ -10031,7 +9561,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191879 = {
 	name = "Dantivarman"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
@@ -10045,7 +9574,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191880 = {
 	name = "Buddharaja"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
@@ -10059,7 +9587,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191881 = {
 	name = "Govinda"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
@@ -10073,7 +9600,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191882 = {
 	name = "Dantivarman"	#Fictional
 	dynasty = 1044387	#Rashtrakuta of Dhanop
@@ -10087,7 +9613,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191883 = {
 	name = "Bhallila"	#Fictional
 	dynasty = 1044387	#Rashtrakuta of Dhanop
@@ -10101,7 +9626,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191884 = {
 	name = "Cacca"
 	dynasty = 1044387	#Rashtrakuta of Dhanop
@@ -10115,7 +9639,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Rathore Dynasty
+#######################################
 191885 = {
 	name = "Siha"
 	dynasty = 1044388 #Rathore
@@ -10129,7 +9655,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191886 = {
 	name = "Asthan"
 	dynasty = 1044388 #Rathore
@@ -10143,7 +9668,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191887 = {
 	name = "Sonam"
 	dynasty = 1044388 #Rathore (founds Idar branch)
@@ -10157,7 +9681,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191888 = {
 	name = "Uja"
 	dynasty = 1044388 #Rathore
@@ -10171,7 +9694,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191889 = {
 	name = "Doohad"
 	dynasty = 1044388 #Rathore
@@ -10185,7 +9707,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191890 = {
 	name = "Jopsi"
 	dynasty = 1044388 #Rathore
@@ -10199,7 +9720,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191891 = {
 	name = "Khimpsao"
 	dynasty = 1044388 #Rathore
@@ -10213,7 +9733,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191912 = {
 	name = "Bhupsu"
 	dynasty = 1044388 #Rathore
@@ -10227,7 +9746,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191913 = {
 	name = "Dhandul"
 	dynasty = 1044388 #Rathore
@@ -10241,7 +9759,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191892 = {
 	name = "Jaitmal"
 	dynasty = 1044388 #Rathore
@@ -10255,7 +9772,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191893 = {
 	name = "Bandur"
 	dynasty = 1044388 #Rathore
@@ -10269,7 +9785,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191894 = {
 	name = "Uhur"
 	dynasty = 1044388 #Rathore
@@ -10283,7 +9798,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191895 = {
 	name = "Raipal"
 	dynasty = 1044388 #Rathore
@@ -10297,7 +9811,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191896 = {
 	name = "Kiratpal"
 	dynasty = 1044388 #Rathore
@@ -10311,7 +9824,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191897 = {
 	name = "Behar"
 	dynasty = 1044388 #Rathore
@@ -10325,7 +9837,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191898 = {
 	name = "Pital"
 	dynasty = 1044388 #Rathore
@@ -10339,7 +9850,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191899 = {
 	name = "Jugail"
 	dynasty = 1044388 #Rathore
@@ -10353,7 +9863,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191900 = {
 	name = "Dalu"
 	dynasty = 1044388 #Rathore
@@ -10367,7 +9876,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191901 = {
 	name = "Begar"
 	dynasty = 1044388 #Rathore
@@ -10381,7 +9889,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191902 = {
 	name = "Kanhapal"
 	dynasty = 1044388 #Rathore
@@ -10395,7 +9902,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191903 = {
 	name = "Jalhansi"
 	dynasty = 1044388 #Rathore
@@ -10409,7 +9915,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191904 = {
 	name = "Chhada"
 	dynasty = 1044388 #Rathore
@@ -10423,7 +9928,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191905 = {
 	name = "Emal"
 	dynasty = 1044388 #Rathore (Idar branch)
@@ -10437,7 +9941,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191906 = {
 	name = "Dhavalma"
 	dynasty = 1044388 #Rathore (Idar branch)
@@ -10451,7 +9954,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191907 = {
 	name = "Lunkaran"
 	dynasty = 1044388 #Rathore (Idar branch)
@@ -10465,7 +9967,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191908 = {
 	name = "Kanhat"
 	dynasty = 1044388 #Rathore (Idar branch)
@@ -10479,7 +9980,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191909 = {
 	name = "Ranmal"
 	dynasty = 1044388 #Rathore (Idar branch)
@@ -10493,7 +9993,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191910 = {
 	name = "Punj"
 	dynasty = 1044388 #Rathore (Idar branch)
@@ -10507,135 +10006,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
-191914 = {
-	name = "Dhanika"
-	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188176
-	810.1.1 = {
-		birth = yes
-	}
-	885.1.1 = {
-		death = yes
-	}
-}
-
-191915 = {
-	name = "Chachcha"
-	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 191914
-	830.1.1 = {
-		birth = yes
-	}
-	915.1.1 = {
-		death = yes
-	}
-}
-
-191916 = {
-	name = "Dambarasimha"
-	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 191915
-	850.1.1 = {
-		birth = yes
-	}
-	945.1.1 = {
-		death = yes
-	}
-}
-
-191917 = {
-	name = "Chamunda"
-	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 191915
-	852.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
-
-191918 = {
-	name = "Kankadeva"
-	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 191917
-	880.1.1 = {
-		birth = yes
-	}
-	975.1.1 = {
-		death = yes
-	}
-}
-
-191919 = {
-	name = "ChaN_D_apa"
-	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 191918
-	920.1.1 = {
-		birth = yes
-	}
-	995.1.1 = {
-		death = yes
-	}
-}
-
-191921 = {
-	name = "Limba"
-	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188239
-	mother = 191925
-	1000.1.1 = {
-		birth = yes
-	}
-	1045.1.1 = {
-		death = yes
-	}
-}
-
-191924 = {
-	name = "Vijaya"
-	dynasty = 1042077 #Paramara
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 188241
-	1090.1.1 = {
-		birth = yes
-	}
-	1179.1.1 = {
-		death = yes
-	}
-}
-
-191925 = {
-	name = "Sahaja"
-	dynasty = 1042081	#Chauhan of Nadol
-	female = yes
-	religion = "srikula_shaktism"
-	culture = "hindustani"
-	father = 191705
-	981.1.1 = {
-		birth = yes
-	}
-	1010.1.1 = {
-		death = yes
-	}
-}
-
+#######################################
+# Hada-Chauhan Dynasty
+#######################################
 191928 = {
 	name = "Deo"
 	dynasty = 1044390	#Hada-Chauhan
@@ -10648,7 +10021,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191929 = {
 	name = "Sumar"
 	dynasty = 1044390	#Hada-Chauhan
@@ -10662,7 +10034,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191930 = {
 	name = "Narpal"
 	dynasty = 1044390	#Hada-Chauhan
@@ -10676,7 +10047,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191931 = {
 	name = "Hamir"
 	dynasty = 1044390	#Hada-Chauhan
@@ -10690,7 +10060,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191932 = {
 	name = "Bir_Singh"
 	dynasty = 1044390	#Hada-Chauhan
@@ -10704,7 +10073,9 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
+#######################################
+# Dahiya Dynasty
+#######################################
 191947 = {
 	name = "Sage"
 	dynasty = 1044391 #Dahiya
@@ -10717,7 +10088,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191948 = {
 	name = "Meghanada"
 	dynasty = 1044391 #Dahiya
@@ -10731,7 +10101,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191959 = {
 	name = "Simhabala"
 	dynasty = 1044391 #Dahiya
@@ -10745,7 +10114,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191949 = {
 	name = "Cachcha"
 	dynasty = 1044391 #Dahiya
@@ -10759,7 +10127,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191950 = {
 	name = "Yasupusta"
 	dynasty = 1044391 #Dahiya
@@ -10773,7 +10140,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191951 = {
 	name = "Uddha"
 	dynasty = 1044391 #Dahiya
@@ -10787,7 +10153,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191952 = {
 	name = "Kirtasi"
 	dynasty = 1044391 #Dahiya
@@ -10801,7 +10166,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191953 = {
 	name = "Vairisimha"	#Fictional
 	dynasty = 1044391 #Dahiya
@@ -10815,7 +10179,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191954 = {
 	name = "Yasupusta"	#Fictional
 	dynasty = 1044391 #Dahiya
@@ -10829,7 +10192,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191955 = {
 	name = "Kaduva"
 	dynasty = 1044391 #Dahiya
@@ -10843,7 +10205,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191956 = {
 	name = "Padamsimha"
 	dynasty = 1044391 #Dahiya
@@ -10857,7 +10218,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191957 = {
 	name = "Jayatrasyasimha"
 	dynasty = 1044391 #Dahiya
@@ -10871,7 +10231,6 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
-
 191958 = {
 	name = "Simhabala"
 	dynasty = 1044391 #Dahiya
@@ -10885,3 +10244,60 @@ paramara_branch_off_spouse = {
 		death = yes
 	}
 }
+#######################################
+# other Characters
+#######################################
+74418 = {
+	name = "Mahadevi"
+	female = yes
+	religion = "srikula_shaktism"
+	culture = "gujarati"
+
+	840.1.1 = {
+		birth = yes
+	}
+	919.1.1 = {
+		death = yes
+	}
+}
+188151 = {
+	name = "Sarangadeva" # fictitious name
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	1067.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+188152 = {
+	# wife of Tribhuvanapala Solanki
+	name = "Bhairavi" # fictitious name
+	female = yes
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 188151
+	1090.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		death = yes
+	}
+}
+188153 = {
+	name = "Avidya" # fictitious name
+	female = yes
+	religion = "srikula_shaktism"
+	culture = "rajput"
+	father = 188151
+	1088.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		death = yes
+	}
+}
+
+
+
