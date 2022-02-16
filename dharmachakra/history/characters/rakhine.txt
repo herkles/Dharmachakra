@@ -1,102 +1,4 @@
-﻿# ARAKANESE RULERS
-arakan001 = {
-	name = "Mahataingchandra"
-	dynasty = 2000003 #Candras
-	religion = theravada
-	culture = rakhine
-	
-	750.1.1 = {
-		birth = yes
-	}
-	810.1.1 = {
-		death = yes
-	}
-}
-arakan002 = {
-	name = "Suriyataingchandra"
-	dynasty = 2000003 #Candras
-	religion = theravada
-	culture = rakhine
-	father = arakan001
-	
-	780.1.1 = {
-		birth = yes
-	}
-	830.1.1 = {
-		death = yes
-	}
-}
-arakan003 = {
-	name = "Mawlataingchandra"
-	dynasty = 2000003 #Candras
-	religion = theravada
-	culture = rakhine
-	father = arakan002
-	
-	796.1.1 = {
-		birth = yes
-	}
-	849.1.1 = {
-		death = yes
-	}
-}
-arakan004 = {
-	name = "Pawlataingchandra"
-	dynasty = 2000003 #Candras
-	religion = theravada
-	culture = rakhine
-	father = arakan003
-	
-	820.1.1 = {
-		birth = yes
-	}
-	875.1.1 = {
-		death = yes
-	}
-}
-arakan005 = {
-	name = "Kalataingchandra"
-	dynasty = 2000003 #Candras
-	religion = theravada
-	culture = rakhine
-	father = arakan004
-	
-	840.1.1 = {
-		birth = yes
-	}
-	884.1.1 = {
-		death = yes
-	}
-}
-arakan006 = {
-	name = "Tulataingchandra"
-	dynasty = 2000003 #Candras
-	religion = theravada
-	culture = rakhine
-	father = arakan005
-	
-	856.1.1 = {
-		birth = yes
-	}
-	903.1.1 = {
-		death = yes
-	}
-}
-arakan007 = {
-	name = "Sritaingchandra"
-	dynasty = 2000003 #Candras
-	religion = theravada
-	culture = rakhine
-	father = arakan006
-	
-	876.1.1 = {
-		birth = yes
-	}
-	935.1.1 = {
-		death = yes
-	}
-}
-arakan008 = {
+﻿arakan008 = {# Thinhkataingchandra
 	name = "Thinhkataingchandra"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -110,7 +12,7 @@ arakan008 = {
 		death = yes
 	}
 }
-arakan009 = {
+arakan009 = {# Chulataingchandra
 	name = "Chulataingchandra"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -124,62 +26,7 @@ arakan009 = {
 		death = yes
 	}
 }
-arakan010 = {
-	name = "Ananthiri" #Fictional father of Amyahtu, to make Yehpyu his nephew
-	dynasty = 2000006 #Myu
-	religion = theravada
-	culture = rakhine
-	
-	880.1.1 = {
-		birth = yes
-	}
-	964.1.1 = {
-		death = yes
-	}
-}
-arakan011 = {
-	name = "Amyahtu"
-	dynasty = 2000006 #Myu
-	religion = theravada
-	culture = rakhine
-	father = arakan010
-	
-	900.1.1 = {
-		birth = yes
-	}
-	964.1.1 = {
-		death = yes
-	}
-}
-arakan012 = {
-	name = "Thihaba" #Fictional father of Yehpyu
-	dynasty = 2000006 #Myu
-	religion = theravada
-	culture = rakhine
-	father = arakan010
-	
-	910.1.1 = {
-		birth = yes
-	}
-	960.1.1 = {
-		death = yes
-	}
-}
-arakan013 = {
-	name = "Yehpyu"
-	dynasty = 2000006 #Myu
-	religion = theravada
-	culture = rakhine
-	father = arakan012
-	
-	930.1.1 = {
-		birth = yes
-	}
-	994.1.1 = {
-		death = yes
-	}
-}
-arakan014 = {
+arakan014 = {# Ngapinngaton
 	name = "Ngapinngaton"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -193,7 +40,7 @@ arakan014 = {
 		death = yes
 	}
 }
-arakan015 = {
+arakan015 = {# Thuriyaketu
 	name = "Thuriyaketu" #Fictional brother of Chulataingchandra, to make Khittathin his grandnewphew
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -207,7 +54,7 @@ arakan015 = {
 		death = yes
 	}
 }
-arakan016 = {
+arakan016 = {# Thuriyaketu
 	name = "Thuriyaketu" #Fictional father of Khittathin
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -221,7 +68,7 @@ arakan016 = {
 		death = yes
 	}
 }
-arakan017 = {
+arakan017 = {# Khittathin
 	name = "Khittathin"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -235,7 +82,7 @@ arakan017 = {
 		death = yes
 	}
 }
-arakan018 = {
+arakan018 = {# Chandrathin
 	name = "Chandrathin"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -249,7 +96,7 @@ arakan018 = {
 		death = yes
 	}
 }
-arakan019 = {
+arakan019 = {# Minyinpyu
 	name = "Minyinpyu"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -263,7 +110,7 @@ arakan019 = {
 		death = yes
 	}
 }
-arakan020 = {
+arakan020 = {# Nagathuriya
 	name = "Nagathuriya"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -277,7 +124,7 @@ arakan020 = {
 		death = yes
 	}
 }
-arakan021 = {
+arakan021 = {# Suriyayaza
 	name = "Suriyayaza"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -291,7 +138,7 @@ arakan021 = {
 		death = yes
 	}
 }
-arakan022 = {
+arakan022 = {# Ponnaka
 	name = "Ponnaka"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -305,7 +152,7 @@ arakan022 = {
 		death = yes
 	}
 }
-arakan023 = {
+arakan023 = {# Minpyugyi
 	name = "Minpyugyi"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -319,20 +166,7 @@ arakan023 = {
 		death = yes
 	}
 }
-arakan024 = {
-	name = "Sithabin"
-	dynasty = 2000007 #Sithabin
-	religion = theravada
-	culture = rakhine
-	
-	1020.1.1 = {
-		birth = yes
-	}
-	1061.1.1 = {
-		death = yes
-	}
-}
-arakan025 = {
+arakan025 = {# Minnangyi
 	name = "Minnangyi"
 	dynasty = 2000003 #Candras
 	religion = theravada
@@ -346,9 +180,9 @@ arakan025 = {
 		death = yes
 	}
 }
-arakan026 = {
+arakan026 = {# Minlade
 	name = "Minlade"
-	dynasty = 2000003 #Candras
+	dynasty = 2000003 # Candras
 	religion = theravada
 	culture = rakhine
 	father = arakan025
@@ -360,13 +194,3 @@ arakan026 = {
 		death = yes
 	}
 }
-
-
-# Temple Holders
-
-# Mayors
-
-# Barons
-
-
-

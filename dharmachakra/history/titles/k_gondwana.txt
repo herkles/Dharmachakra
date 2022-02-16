@@ -68,7 +68,6 @@ k_gondwana = {
 	}
 }
 
-
 d_dahala = {
 	675.1.1 = {
 		holder = 191317 #Vamaraja Cedi
@@ -140,8 +139,6 @@ d_dahala = {
 		holder = 0
 	}
 }
-
-
 c_tripuri = {
 	675.1.1 = {
 		holder = 191317 #Vamaraja Cedi
@@ -231,8 +228,6 @@ c_tripuri = {
 		holder = 191509 #Gond dynasty of Garha-Mandla
 	}
 }
-
-
 c_chauragarh = {
 	675.1.1 = {
 		holder = 191317 #Vamaraja Cedi
@@ -256,33 +251,28 @@ c_chauragarh = {
 	845.1.1 = {
 		holder = 190200 #Kokkala Cedi
 	}
-	890.1.1 = {
-		holder = 190201 #Sankaragana Cedi
+	850.1.1 = {
+		holder = gondi008 #Manas
 	}
-	910.1.1 = {
-		holder = 190202 #Balaharsha Cedi
+	878.1.1 = {
+		holder = gondi009 #Manas
 	}
-	915.1.1 = {
-		holder = 190203 #Yuvaraja Cedi
+	903.1.1 = {
+		holder = gondi010 #Manas
 	}
-	945.1.1 = {
-		holder = 190204 #Lakshmanaraja Cedi
+	919.1.1 = {
+		holder = gondi011 #Manas
 	}
-	969.1.1 = {
-		holder = 190205 #Sankaragana Cedi
+	956.1.1 = {
+		holder = gondi012 #Manas
 	}
-	980.1.1 = {
-		holder = 190206 #Yuvaraja Cedi
+	993.1.1 = {
+		holder = gondi013 #Manas
 	}
-	990.1.1 = {
-		holder = 190207 #Kokkala Cedi
+	1037.1.1 = {
+		holder = gondi014 #Manas
 	}
-	1015.1.1 = {
-		holder = 190208 #Gangeyadeva Cedi
-	}
-	1042.1.1 = {
-		holder = 190209 #Karnadeva Cedi
-	}
+
 	1073.1.1 = {
 		holder = 190210 #Yashkarna Cedi
 	}
@@ -322,7 +312,6 @@ c_chauragarh = {
 		holder = 191509 #Gond dynasty of Garha-Mandla
 	}
 }
-
 
 d_ratanpur = {
 	760.1.1 = {
@@ -394,101 +383,94 @@ d_ratanpur = {
 		holder = 191361 #Kamaldeva
 	}
 }
-
-
 c_ratanpur = {
-	760.1.1 = {
-		holder = 191295 #Nandivarman
-		liege = d_ratanpur
+	#Nagas of Kawardha
+	740.1.1 = {
+		holder = 191294 #Ramachandra
+		liege = d_dahala
 	}
-	810.1.1 = {
-		holder = 191296 #Vijayaditya
+	780.1.1 = {
+		holder = 191263 #Ahiraja
 	}
-	840.1.1 = {
-		holder = 191297 #Malladeva
+	820.1.1 = {
+		holder = 191264 #Rajalla
 	}
-	870.1.1 = {
-		holder = 175130 #Vikramaditya I Jayameru
+	860.1.1 = {
+		holder = 191265 #Dharnidhara
 	}
-	885.1.1 = {
-		holder = 190200 #Kokkala Cedi
+	920.1.1 = {
+		holder = 191266 #Mahimadeva
 	}
-	890.1.1 = {
-		holder = 190201 #Sankaragana Cedi
-	}
-	910.1.1 = {
-		holder = 190202 #Balaharsha Cedi
-	}
-	915.1.1 = {
-		holder = 190203 #Yuvaraja Cedi
-	}
-	945.1.1 = {
-		holder = 190204 #Lakshmanaraja Cedi
-	}
-	969.1.1 = {
-		holder = 190205 #Sankaragana Cedi
-	}
-	980.1.1 = {
-		holder = 190206 #Yuvaraja Cedi
-	}
-	990.1.1 = {
-		holder = 190207 #Kokkala Cedi
+	960.1.1 = {
+		holder = 191267 #Sarvavandana
 	}
 	1000.1.1 = {
-		holder = 191345 #Kalingaraja
 		liege = d_ratanpur
 	}
 	1030.1.1 = {
-		holder = 191346 #Kamalaraja
+		holder = 191268 #Gopaladeva
 	}
-	1050.1.1 = {
-		holder = 191347 #Ratnadeva - moves capital to Ratanpur
-	}
-	1070.1.1 = {
-		holder = 191348 #Prthvideva
+	1090.1.1 = {
+		holder = 191269 #Naladeva
 	}
 	1100.1.1 = {
-		holder = 191349 #Jajalladeva
+		holder = 191270 #Bhuvanapala
+	}
+	1120.1.1 = {
+		holder = 191271 #Kirtipala
 	}
 	1130.1.1 = {
-		holder = 191350 #Ratnadeva II
+		holder = 191272 #Jayatrapala
+	}
+	1140.1.1 = {
+		holder = 191273 #Mahipala
 	}
 	1150.1.1 = {
-		holder = 191351 #Prthvideva II
+		holder = 191274 #Visamapala
+	}
+	1160.1.1 = {
+		holder = 191275 #Janhu
 	}
 	1170.1.1 = {
-		holder = 191352 #Jajalladeva
+		holder = 191276 #Janapala
 	}
-	1190.1.1 = {
-		holder = 191353 #Ratnadeva III
+	1175.1.1 = {
+		holder = 191277 #Yasoraja
 	}
-	1198.1.1 = {
-		holder = 191354 #Pratapamalla
+	1210.1.1 = {
+		holder = 191278 #Kanhadadeva
+	}
+	1220.1.1 = {
+		holder = 191279 #Laksmavarma
 	}
 	1225.1.1 = {
-		holder = 191355 #Laxmideo
+		liege = d_daksina_kosala
 	}
-	1250.1.1 = {
-		holder = 191356 #Simhana
+	1240.1.1 = {
+		holder = 191280 #Khadgadeva
+	}
+	1260.1.1 = {
+		holder = 191281 #Bhuvanaikamalla
+	}
+	1270.1.1 = {
+		holder = 191282 #Arjuna
 	}
 	1280.1.1 = {
-		holder = 191357 #Danghira
+		holder = 191283 #Bhima
+	}
+	1290.1.1 = {
+		holder = 191284 #Bhoja
 	}
 	1300.1.1 = {
-		holder = 191358 #Ramachandra
+		holder = 191288 #Laksmana
 	}
-	1340.1.1 = {
-		holder = 191359 #Ratanasena
+	1320.1.1 = {
+		holder = 191289 #Ramchandra
 	}
-	1380.1.1 = {
-		holder = 191360 #Vahar
-	}
-	1426.1.1 = {
-		holder = 191361 #Kamaldeva
+	1345.1.1 = {
+		holder = 191290 #Jaya
 	}
 }
-
-
 c_tummana = {
 	690.1.1 = {
 		holder = 191385#Jayavardhana I Sailavamsa
@@ -591,8 +573,6 @@ c_tummana = {
 		holder = 191361 #Kamaldeva
 	}
 }
-
-
 c_bandhugadha = {
 	#Baland Tribe
 	750.1.1 = {

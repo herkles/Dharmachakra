@@ -1,7 +1,7 @@
 ﻿tamil = {# Tamil
 	color = tamil
 	
-	ethos = ethos_communal
+	ethos = ethos_bellicose
 	heritage = heritage_dravidian
 	language = language_tamil
 	martial_custom = martial_custom_male_only
@@ -18,7 +18,7 @@
 		tradition_metal_craftsmanship #Wootz Steel
 		tradition_seafaring
 		tradition_tamil_thai
-		tradition_garuda_warriors
+		tradition_fervent_temple_builders
 	}
 	
 	ethnicities = {
@@ -54,7 +54,7 @@ telugu = {# Telugu
 kannada = {# Kannada
 	color = { 0.8 0.6 0.0 }
 	
-	ethos = ethos_stoic
+	ethos = ethos_courtly
 	heritage = heritage_dravidian
 	language = language_kannada
 	martial_custom = martial_custom_male_only
@@ -96,11 +96,7 @@ gond = {# Gond
 	traditions = {
 		tradition_jungle_warriors
 		tradition_sacred_groves
-	}
-	
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
+		tradition_isolationist
 	}
 
 	ethnicities = {
@@ -125,10 +121,11 @@ malayali = {# Malayali
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
-		tradition_metal_craftsmanship #Wootz Steel
-		tradition_seafaring
-		tradition_religion_blending
 		tradition_caste_system
+		tradition_metal_craftsmanship #Wootz Steel
+		tradition_maritime_mercantilism
+		tradition_religion_blending
+		tradition_city_keepers
 	}
 	
 	ethnicities = {

@@ -47,7 +47,7 @@
 	name = "Khafif" # Fictional
 	dynasty = 1041112
 	religion = "ashari"
-	culture = "sindhi"
+	culture = "pudgalavada"
 	844.1.1 = {
 		birth = "844.1.1"
 	}
@@ -59,7 +59,7 @@
 	name = "Chanesar" # fictional
 	dynasty = 1041112
 	religion = "mahayana"
-	culture = "sindhi"
+	culture = "pudgalavada"
 	724.1.1 = {
 		birth = yes
 	}
@@ -100,7 +100,7 @@
 188561 = {# Banhbina
 	name = "Banhbina" # fictional
 	dynasty = 1041114
-	religion = "smartism"
+	religion = "suryaism"
 	culture = "sindhi"
 	740.1.1 = {
 		birth = yes
@@ -112,7 +112,7 @@
 178014 = {# Junah
 	name = "Junah" # Fictional
 	dynasty = 1041114
-	religion = "ashari"
+	religion = "suryaism"
 	culture = "sindhi"
 	831.1.1 = {
 		birth = "831.1.1"

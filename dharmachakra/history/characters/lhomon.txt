@@ -1075,6 +1075,343 @@
 		death=yes
 	}
 }
-
+#######################################
+# Monyul Dynasty
+#######################################
+304111 = {# Tashiganpa
+	name="Tashiganpa"
+	dynasty=2003008 #Monyul
+	religion="old_bon"
+	culture="lhomon" #Monpa
+	
+	800.1.1={
+		birth=yes
+	}
+	856.1.1={
+		death=yes
+	}
+}
+304112 = {# Wangzob
+	name="Wangzob"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304111 #Tashiganpa
+	
+	825.1.1={
+		birth=yes
+	}
+	877.1.1={
+		death=yes
+	}
+}
+304113 = {# C'anglong
+	name="C_anglong"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304112 #Wangzob
+	
+	850.1.1={
+		birth=yes
+	}
+	905.1.1={
+		death=yes
+	}
+}
+304114 = {# Nim
+	name="Nim"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304113 #C'anglong
+	
+	870.1.1={
+		birth=yes
+	}
+	922.1.1={
+		death=yes
+	}
+}
+304115 = {# Tobgay
+	name="Tobgay"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304114 #Nim
+	
+	890.1.1={
+		birth=yes
+	}
+	946.1.1={
+		death=yes
+	}
+}
+304116 = {# Domchu
+	name="Domchu"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304115 #Tobgay
+	
+	920.1.1={
+		birth=yes
+	}
+	979.1.1={
+		death=yes
+	}
+}
+304117 = {# Trulku
+	name="Trulku"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304116 #Domchu
+	
+	950.1.1={
+		birth=yes
+	}
+	1003.1.1={
+		death=yes
+	}
+}
+304118 = {# Pema
+	name="Pema"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304117 #Trulku
+	
+	975.1.1={
+		birth=yes
+	}
+	1028.1.1={
+		death=yes
+	}
+}
+304119 = {# Dorji
+	name="Dorji"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304118 #Pema
+	
+	1000.1.1={
+		birth=yes
+	}
+	1062.1.1={
+		death=yes
+	}
+}
+304120 = {# Khandu
+	name="Khandu"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304119 #Dorji
+	
+	1020.1.1={
+		birth=yes
+	}
+	1084.1.1={
+		death=yes
+	}
+}
+304121 = {# Ngawang
+	name="Ngawang"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304120 #Khandu
+	
+	1040.1.1={
+		birth=yes
+	}
+	1098.1.1={
+		death=yes
+	}
+}
+304122 = {# Tashi
+	name="Tashi"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304121 #Ngawang
+	
+	1060.1.1={
+		birth=yes
+	}
+	1118.1.1={
+		death=yes
+	}
+}
+304123 = {# Bapu
+	name="Bapu"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304122 #Tashi
+	
+	1080.1.1={
+		birth=yes
+	}
+	1133.1.1={
+		death=yes
+	}
+}
+304124 = {# Bac'og
+	name="Bac'og"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304123 #Tashi
+	
+	1100.1.1={
+		birth=yes
+	}
+	1160.1.1={
+		death=yes
+	}
+}
+304125 = {# Takpon
+	name="Takpon"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304124 #Bac'og
+	
+	1125.1.1={
+		birth=yes
+	}
+	1177.1.1={
+		death=yes
+	}
+}
+304126 = {# Leki
+	name="Leki"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304125 #Takpon
+	
+	1150.1.1={
+		birth=yes
+	}
+	1193.1.1={
+		death=yes
+	}
+}
+304127 = {# Choenzo
+	name="Choenzo"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304126 #Leki
+	
+	1175.1.1={
+		birth=yes
+	}
+	1212.1.1={
+		death=yes
+	}
+}
+304128 = {# Jangcchub
+	name="Jangcchub"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304127 #Choenzo
+	
+	1200.1.1={
+		birth=yes
+	}
+	1248.1.1={
+		death=yes
+	}
+}
+304129 = {# Drugyel
+	name="Drugyel"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304128 #Jangcchub
+	
+	1220.1.1={
+		birth=yes
+	}
+	1276.1.1={
+		death=yes
+	}
+}
+304130 = {# Yeshey
+	name="Yeshey"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304129 #Drugyel
+	
+	1245.1.1={
+		birth=yes
+	}
+	1288.1.1={
+		death=yes
+	}
+}
+304131 = {# Konchhog
+	name="Konchhog"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304130 #Yeshey
+	
+	1270.1.1={
+		birth=yes
+	}
+	1318.1.1={
+		death=yes
+	}
+}
+304132 = {# Norbu
+	name="Norbu"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304131 #Konchhog
+	
+	1290.1.1={
+		birth=yes
+	}
+	1338.1.1={
+		death=yes
+	}
+}
+304133 = {# Kuengzang
+	name="Kuengzang"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304132 #Norbu
+	
+	1310.1.1={
+		birth=yes
+	}
+	1361.1.1={
+		death=yes
+	}
+}
+304134 = {# Wangzom
+	name="Wangzom"
+	dynasty=2003008 #Monyul
+	religion="lamaism"
+	culture="lhomon" #Monpa
+	father=304133 #Kuengzang
+	
+	1328.1.1={
+		birth=yes
+	}
+	1382.1.1={
+		death=yes
+	}
+}
 
 

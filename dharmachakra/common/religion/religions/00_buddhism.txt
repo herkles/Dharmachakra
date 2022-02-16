@@ -31,6 +31,8 @@
 	
 	#Special Doctrines
 	doctrine = special_doctrine_is_buddhist_faith
+	doctrine = special_doctrine_is_eastern_faith
+
 
 	traits = {
 		virtues = {

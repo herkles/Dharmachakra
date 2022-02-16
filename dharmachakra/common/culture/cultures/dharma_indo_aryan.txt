@@ -1,4 +1,4 @@
-﻿bengali = { # Indo-Aryan
+﻿bengali = {# Indo-Aryan
 	color = { 0.45 0.0 0.0 }
 	
 	ethos = ethos_spiritual
@@ -36,6 +36,7 @@ oriya = { # Indo-Aryan
 		tradition_culinary_art
 		tradition_seafaring
 		tradition_lords_of_the_elephant
+		tradition_religious_patronage
 	}
 	
 	name_list = name_list_oriya
@@ -134,7 +135,7 @@ rajput = { # Indo-Aryan - #Renamed to Rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
-		tradition_warrior_culture
+		tradition_dryland_dwellers
 		tradition_quarrelsome
 		tradition_mystical_ancestors
 		tradition_khadga_puja
@@ -187,7 +188,7 @@ sindhi = { # Indo-Aryan
 	traditions = {
 		tradition_caste_system
 		tradition_poetry
-		tradition_seafaring
+		tradition_practiced_pirates
 		tradition_mendicant_mystics
 	}
 	
@@ -239,6 +240,7 @@ kashmiri = { # Indo-Aryan Dardic
 		tradition_himalayan_settlers
 		tradition_poetry
 		tradition_equal_inheritance
+		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_kashmiri
@@ -262,9 +264,10 @@ sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
-		tradition_ruling_caste
+		tradition_seafaring
 		tradition_fervent_temple_builders
 		tradition_city_keepers
+		
 	}
 	
 	name_list = name_list_sinhala
@@ -315,7 +318,6 @@ bihari = {# Bihari
 	traditions = {
 		tradition_caste_system
 		tradition_khadga_puja
-		tradition_religion_blending
 		tradition_court_eunuchs
 		tradition_religious_patronage
 	}
@@ -340,7 +342,6 @@ konkani = {# Konkani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
-		tradition_khadga_puja
 		tradition_maritime_mercantilism
 		tradition_religious_patronage
 		tradition_modest
@@ -367,7 +368,7 @@ awadhi = {# Awadhi
 	traditions = {
 		tradition_caste_system
 		tradition_agrarian
-		tradition_ruling_caste
+		tradition_religious_patronage
 		tradition_court_eunuchs
 		tradition_city_keepers
 	}
@@ -385,14 +386,14 @@ awadhi = {# Awadhi
 }
 braj = {# braj
 	color = { 234 60 83 }	
-	ethos = ethos_spiritual
+	ethos = ethos_courtly
 	heritage = heritage_indo_aryan
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
 		tradition_agrarian
-		tradition_ruling_caste
+		tradition_religious_patronage
 		tradition_court_eunuchs
 		tradition_city_keepers
 	}
@@ -408,7 +409,7 @@ braj = {# braj
 		10 = indian
 	}
 }
-saurashtra = {# saurashtra
+saurashtra = {# saurashtra transfer to divergent culture
 	color = { 255 8 0 }
 	
 	ethos = ethos_spiritual
@@ -461,15 +462,15 @@ bhil = {# bhil
 nagpuri = {# nagpuri
 	color = { 94 25 20 }
 	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_indo_aryan
 	language = language_nagpuri
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
-		tradition_khadga_puja
+		tradition_pastoralists
 		tradition_sacred_groves
-		tradition_religion_blending
+		tradition_family_entrepreneurship
 	}
 
 	name_list = name_list_nagpuri
@@ -507,7 +508,7 @@ sambalpuri = {# sambalpuri
 		10 = indian
 	}
 }
-kumaoni = {# kumaoni
+kumaoni = {# kumaoni moving this to divergent cultures
 	color = { 240 128 128 }
 	
 	ethos = ethos_communal
@@ -591,10 +592,9 @@ kamarupi = {# kamarupi
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caste_system
-		tradition_khadga_puja
+		tradition_jungle_dwellers
 		tradition_jungle_warriors
-		tradition_religion_blending
-		tradition_mendicant_mystics
+		tradition_language_scholars
 	}
 	
 	name_list = name_list_kamarupi

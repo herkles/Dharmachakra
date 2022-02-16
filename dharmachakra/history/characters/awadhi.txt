@@ -5,7 +5,7 @@
 	name = "Gopala"
 	dynasty = 1044347 # Gopala
 	religion = "shaivism"
-	culture = "malvi"
+	culture = "awadhi"
 	trait = content
 	1040.1.1 = {
 		birth = yes
@@ -674,7 +674,7 @@
 	name = "Kamalaraja"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191345
 	990.1.1 = {
 		birth = yes
@@ -687,7 +687,7 @@
 	name = "Ratnadeva"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191346
 	1010.1.1 = {
 		birth = yes
@@ -700,7 +700,7 @@
 	name = "Prthvideva"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191347
 	1040.1.1 = {
 		birth = yes
@@ -713,7 +713,7 @@
 	name = "Jajalladeva"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191348
 	1070.1.1 = {
 		birth = yes
@@ -726,7 +726,7 @@
 	name = "Ratnadeva" #II
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191349
 	1100.1.1 = {
 		birth = yes
@@ -739,7 +739,7 @@
 	name = "Prthvideva" #II
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191350
 	1130.1.1 = {
 		birth = yes
@@ -752,7 +752,7 @@
 	name = "Jajalladeva" #II
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191351
 	1150.1.1 = {
 		birth = yes
@@ -765,7 +765,7 @@
 	name = "Ratnadeva" #III
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191352
 	1170.1.1 = {
 		birth = yes
@@ -791,7 +791,7 @@
 	name = "Laxmideo"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191354
 	1190.1.1 = {
 		birth = yes
@@ -804,7 +804,7 @@
 	name = "Simhana"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191355
 	1210.1.1 = {
 		birth = yes
@@ -817,7 +817,7 @@
 	name = "Danghira"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191356
 	1230.1.1 = {
 		birth = yes
@@ -830,7 +830,7 @@
 	name = "Ramachandra"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191357
 	1260.1.1 = {
 		birth = yes
@@ -843,7 +843,7 @@
 	name = "Ratanasena"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191358
 	1300.1.1 = {
 		birth = yes
@@ -856,7 +856,7 @@
 	name = "Vahar"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191359
 	1340.1.1 = {
 		birth = yes
@@ -869,7 +869,7 @@
 	name = "Kamaldeva"
 	dynasty = 1044338	#Haihaya
 	religion = "vaishnavism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191360
 	1360.1.1 = {
 		birth = yes
@@ -1072,7 +1072,7 @@
 	name = "Patel"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	700.1.1 = {
 		birth = yes
 	}
@@ -1084,7 +1084,7 @@
 	name = "Mukhia"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191482
 	720.1.1 = {
 		birth = yes
@@ -1097,7 +1097,7 @@
 	name = "Mahji"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191483
 	750.1.1 = {
 		birth = yes
@@ -1110,7 +1110,7 @@
 	name = "Mukhia"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191484
 	800.1.1 = {
 		birth = yes
@@ -1123,7 +1123,7 @@
 	name = "Mahji"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191485
 	820.1.1 = {
 		birth = yes
@@ -1136,7 +1136,7 @@
 	name = "Patel"	#Fictional
 	dynasty = 1044350 #Baland
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191486
 	840.1.1 = {
 		birth = yes
@@ -1146,13 +1146,13 @@
 	}
 }
 #######################################
-# Rajgond Dynasty
+# Rajawadhi Dynasty
 #######################################
 191504 = {# Narsinha
 	name = "Narsinha"
-	dynasty = 1044352 #Rajgond
+	dynasty = 1044352 #Rajawadhi
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	1170.1.1 = {
 		birth = yes
 	}
@@ -1162,9 +1162,9 @@
 }
 191505 = {# Ramchandra
 	name = "Ramchandra"
-	dynasty = 1044352 #Rajgond
+	dynasty = 1044352 #Rajawadhi
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191504
 	1190.1.1 = {
 		birth = yes
@@ -1175,9 +1175,9 @@
 }
 191506 = {# Krishna
 	name = "Krishna"
-	dynasty = 1044352 #Rajgond
+	dynasty = 1044352 #Rajawadhi
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191505
 	1210.1.1 = {
 		birth = yes
@@ -1188,9 +1188,9 @@
 }
 191507 = {# Rudra
 	name = "Rudra"
-	dynasty = 1044352 #Rajgond
+	dynasty = 1044352 #Rajawadhi
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191506
 	1230.1.1 = {
 		birth = yes
@@ -1201,9 +1201,9 @@
 }
 191508 = {# Jagannatha
 	name = "Jagannatha"
-	dynasty = 1044352 #Rajgond
+	dynasty = 1044352 #Rajawadhi
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191507
 	1250.1.1 = {
 		birth = yes
@@ -1214,9 +1214,9 @@
 }
 191509 = {# Vasudeva
 	name = "Vasudeva"
-	dynasty = 1044352 #Rajgond
+	dynasty = 1044352 #Rajawadhi
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	father = 191508
 	1270.1.1 = {
 		birth = yes
@@ -1232,7 +1232,7 @@
 	name = "Jhetpala"	#Fictional
 	dynasty = 1044353 #Bhar
 	religion = "shaivism"
-	culture = "gond"
+	culture = "awadhi"
 	720.1.1 = {
 		birth = yes
 	}
@@ -1299,6 +1299,726 @@
 		death = yes
 	}
 }
+#######################################
+# Kachwaha Dynasty
+#######################################
+188229 = {
+	name = "Vajradman"
+	dynasty = 1042076 # Kachwaha 1
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	925.1.1 = {
+		birth = yes
+	}
+	975.1.1 = {
+		death = yes
+	}
+}
+188230 = {
+	name = "Mangalaraja"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188229
+	945.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+188231 = {
+	name = "Kirtti"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188230
+	970.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+188232 = {
+	name = "Muladeva"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188231
+	1000.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+188233 = {
+	name = "Vajradman" # fictitious name
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188232
+	1020.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+188234 = {
+	name = "Mahipal"
+	dynasty = 1042076 # Kachwaha 6
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188233
+	1042.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+188235 = {
+	name = "Arjuna"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188234
+	1065.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+188236 = {
+	name = "Arjuna" # fictitious name
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188235
+	1085.1.1 = {
+		birth = yes
+	}
+	1135.1.1 = {
+		death = yes
+	}
+}
+188237 = {
+	name = "Mahipal" # fictitious name
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188236
+	1110.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+188238 = {
+	name = "Vikramasimha"
+	dynasty = 1042076 # Kachwaha
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 188237
+	1130.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = {
+		death = yes
+	}
+}
+191857 = {
+	name = "Tihunapaladeva"
+	dynasty = 1042076	#Kacchapaghata
+	religion = "vaishnavism"
+	culture = "awadhi"
+	father = 188175
+	1070.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+191858 = {
+	name = "Vijayapala"
+	dynasty = 1042076	#Kacchapaghata
+	religion = "vaishnavism"
+	culture = "awadhi"
+	father = 191857
+	1090.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+191859 = {
+	name = "Surapala"
+	dynasty = 1042076	#Kacchapaghata
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 191858
+	1110.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+191860 = {
+	name = "Anayapala"
+	dynasty = 1042076	#Kacchapaghata
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	father = 191859
+	1130.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
 
-
+#######################################
+# Chandela Dynasty
+#######################################
+188025 = {
+	name = "Nannuka"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	800.1.1 = {
+		birth = yes
+	}
+	845.1.1 = {
+		death = yes
+	}
+}
+188026 = {
+	name = "Vakpati"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188025
+	825.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+188027 = {
+	name = "Jayasakti"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188026
+	845.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+188028 = {
+	name = "Vijayasakti"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188026
+	846.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+188029 = {
+	name = "Rahila"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188028
+	865.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		add_spouse = 188030
+	}
+	905.1.1 = {
+		death = yes
+	}
+}
+188030 = {
+	name = "Rajamati"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	866.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+188031 = {
+	name = "Harsa"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188029
+	mother = 188030
+	885.1.1 = {
+		birth = yes
+	}
+	905.1.1 = {
+		add_spouse = 188032
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+188032 = {
+	name = "Kanchuka"
+	female = yes
+	religion = "srikula_shaktism"
+	culture = "awadhi"
+	888.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+188033 = {
+	name = "Yasovarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188031
+	mother = 188032
+	906.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		add_spouse = 188034
+	}
+	954.1.1 = {
+		death = yes
+	}
+}
+188034 = {
+	name = "Pushpa"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	908.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+188035 = {
+	name = "Dhanga"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188033
+	mother = 188034
+	935.1.1 = {
+		birth = yes
+	}
+	1002.1.1 = {
+		death = yes
+	}
+}
+188036 = {
+	name = "Krishnapa"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188033
+	mother = 188034
+	937.1.1 = {
+		birth = yes
+	}
+	1002.1.1 = {
+		death = yes
+	}
+}
+188037 = {
+	name = "Ganda"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188035
+	965.1.1 = {
+		birth = yes
+	}
+	1015.1.1 = {
+		death = yes
+	}
+}
+188038 = {
+	name = "Vidyadhara"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188037
+	985.1.1 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+188039 = {
+	name = "Vijayapala"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188038
+	1005.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+188040 = {
+	name = "Devavarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188039
+	1025.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+188041 = {
+	name = "Kirtivarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188039
+	1026.1.1 = {
+		birth = yes
+	}
+	1046.1.1 = {
+		add_spouse = 188042
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+188042 = {
+	name = "Akal"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1028.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+188043 = {
+	name = "Sallaksanavarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188041
+	mother = 188042
+	1047.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		add_spouse = 188044
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+188044 = {
+	name = "Mahi"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1046.1.1 = {
+		birth = yes
+	}
+	1105.1.1 = {
+		death = yes
+	}
+}
+188045 = {
+	name = "Jayavarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188043
+	mother = 188044
+	1066.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+188046 = {
+	name = "Prithvivarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188041
+	mother = 188042
+	1064.1.1 = {
+		birth = yes
+	}
+	1087.1.1 = {
+		add_spouse = 188047
+	}
+	1128.1.1 = {
+		death = yes
+	}
+}
+188047 = {
+	name = "Kumara"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1068.1.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}
+188048 = {
+	name = "Madanavarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188046
+	mother = 188047
+	1105.1.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		add_spouse = 188049
+	}
+	1163.1.1 = {
+		death = yes
+	}
+}
+188049 = {
+	name = "Prabhavati"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1105.1.1 = {
+		birth = yes
+	}
+	1165.1.1 = {
+		death = yes
+	}
+}
+188050 = {
+	name = "Yasovarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188048
+	mother = 188049
+	1126.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		add_spouse = 188051
+	}
+	1166.1.1 = {
+		death = yes
+	}
+}
+188051 = {
+	name = "Dhruva"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1125.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+188052 = {
+	name = "Paramardi"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188050
+	mother = 188051
+	1161.1.1 = {
+		birth = yes
+	}
+	1181.1.1 = {
+		add_spouse = 188053
+	}
+	1203.1.1 = {
+		death = yes
+	}
+}
+188053 = {
+	name = "Maharani"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1161.1.1 = {
+		birth = yes
+	}
+	1203.1.1 = {
+		death = yes
+	}
+}
+188054 = {
+	name = "Trailokyavarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188052
+	mother = 188053
+	1185.1.1 = {
+		birth = yes
+	}
+	1205.1.1 = {
+		add_spouse = 188055
+	}
+	1245.1.1 = {
+		death = yes
+	}
+}
+188055 = {
+	name = "Sanyukta"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1185.1.1 = {
+		birth = yes
+	}
+	1245.1.1 = {
+		death = yes
+	}
+}
+188056 = {
+	name = "Viravarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188054
+	mother = 188055
+	1225.1.1 = {
+		birth = yes
+	}
+	1245.1.1 = {
+		add_spouse = 188057
+	}
+	1285.1.1 = {
+		death = yes
+	}
+}
+188057 = {
+	name = "Kalayan"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1229.1.1 = {
+		birth = yes
+	}
+	1289.1.1 = {
+		death = yes
+	}
+}
+188058 = {
+	name = "Bhojavarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188056
+	mother = 188057
+	1247.1.1 = {
+		birth = yes
+	}
+	1265.1.1 = {
+		add_spouse = 188059
+	}
+	1289.1.1 = {
+		death = yes
+	}
+}
+188059 = {
+	name = "Kanwar"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1245.1.1 = {
+		birth = yes
+	}
+	1298.1.1 = {
+		death = yes
+	}
+}
+188060 = {
+	name = "Hammiravarma"
+	dynasty = 1042067 #Chandela
+	religion = "shaivism"
+	culture = "awadhi"
+	father = 188056
+	mother = 188057
+	1250.1.1 = {
+		birth = yes
+	}
+	1266.1.1 = {
+		add_spouse = 188061
+	}
+	1311.1.1 = {
+		death = yes
+	}
+}
+188061 = {
+	name = "Damayanti"
+	female = yes
+	religion = "shaivism"
+	culture = "awadhi"
+	1249.1.1 = {
+		birth = yes
+	}
+	1318.1.1 = {
+		death = yes
+	}
+}
+191431 = {
+	name = "Madanavarman" #fictional successor of Hammivarman, the dynasty continued but the names are unkown
+	dynasty = 1042067 #Chandela
+	religion = "smartism"
+	culture = "awadhi"
+	father = 188060
+	mother = 188061
+	1285.1.1 = {
+		birth = yes
+	}
+	1340.1.1 = {
+		death = yes
+	}
+}
 

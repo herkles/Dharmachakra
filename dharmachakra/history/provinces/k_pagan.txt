@@ -366,24 +366,30 @@
 9576 = {	# 9576 - Vaisali
 	
 	# Misc
-	culture = rakhine
-	religion = theravada
+	culture = bengali
+	religion = mahayana
 	
 	holding = castle_holding
 	
 	# History
-
+	920.1.1 = {
+		culture = rakhine
+		religion = theravada
+	}
 }
 9577 = {	# 9577 - Launggyet
 	
 	# Misc
-	culture = burmese
-	religion = theravada
+	culture = bengali
+	religion = mahayana
 	
 	holding = city_holding
 	
 	# History
-
+	920.1.1 = {
+		culture = rakhine
+		religion = theravada
+	}
 }
 9578 = {	# 9578 - Mrauk_U / Mrauk U
 	
@@ -426,13 +432,16 @@
 9581 = {	# 9581 - Ramu
 	
 	# Misc
-	culture = rakhine
-	religion = theravada
+	culture = bengali
+	religion = mahayana
 	
 	holding = castle_holding
 	
 	# History
-
+	920.1.1 = {
+		culture = rakhine
+		religion = theravada
+	}
 }
 9582 = {	# 9582 - Dianga
 	
@@ -450,8 +459,8 @@
 9583 = {	# 9583 - Thabeik_Taung/Thabeik Taung
 	
 	# Misc
-	culture = rakhine
-	religion = theravada
+	culture = meitei
+	religion = sanamahi_pagan
 	
 	holding = castle_holding
 	
@@ -461,8 +470,8 @@
 9584 = {	# 9584 - Matamuhuri
 	
 	# Misc
-	culture = burmese
-	religion = theravada
+	culture = meitei
+	religion = sanamahi_pagan
 	
 	holding = none
 	
@@ -474,13 +483,16 @@
 9585 = {	# 9585 - Sandoway
 	
 	# Misc
-	culture = rakhine
-	religion = theravada
+	culture = bengali
+	religion = mahayana
 	
 	holding = castle_holding
 	
 	# History
-
+	920.1.1 = {
+		culture = rakhine
+		religion = theravada
+	}
 }
 9586 = {	# 9586 - Ramree
 	

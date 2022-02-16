@@ -4,7 +4,7 @@
 	# Misc
 
 	culture = kashmiri
-	religion = vajrayana
+	religion = kalikula_shaktism
 	special_building_slot = sharada_peeth_01
 	special_building = sharada_peeth_01
 	# History
@@ -194,17 +194,12 @@
 	
 	# Misc
 	culture = kashmiri #Dardic
-	religion = vajrayana
+	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
-	750.1.1 = {
-		religion = old_bon
-	}
-	800.1.1 = {
-		religion = lamaism
-	}
+
 }
 
 # 9025 - Minimarg

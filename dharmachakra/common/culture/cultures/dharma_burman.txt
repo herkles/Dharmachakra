@@ -57,6 +57,8 @@ mon = {# Mon
 ############ New Dharmachakra cultures ############
 rakhine = {# Rakhine
 	color = { 0.6 0.3 0.8 }
+	created = 880.1.1
+	parents = { burmese bengali }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_burman
@@ -72,7 +74,7 @@ rakhine = {# Rakhine
 	
 	traditions = {
 		tradition_burman_royal_army
-		tradition_fervent_temple_builders
+		tradition_fishermen
 		tradition_festivities
 		tradition_religion_blending
 	}
