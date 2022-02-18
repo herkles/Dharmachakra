@@ -1,0 +1,275 @@
+﻿namespace = religious_decision
+
+#########################
+# Select Personal God	#
+# by Sean Hughes		#
+# 0101-0120				#
+#########################
+
+scripted_trigger is_vaguely_tamil_bhakti_trigger = {
+	OR = {
+		has_culture = culture:tamil
+		# We deliberately use the de jure rather than the geographical area to make this at least a *little* more fluid.
+		AND = {
+			is_landed = yes
+			capital_county.kingdom = title:k_tamilakam
+		}
+	}
+}
+
+scripted_trigger is_vaguely_marathi_bhakti_trigger = {
+	OR = {
+		has_culture = culture:marathi
+		# We deliberately use the de jure rather than the geographical area to make this at least a *little* more fluid.
+		AND = {
+			is_landed = yes
+			capital_county.kingdom = title:k_maharastra
+		}
+	}
+}
+
+scripted_trigger is_vaguely_rajput_bhakti_trigger = {
+	OR = {
+		has_culture = culture:rajput
+		# We deliberately use the de jure rather than the geographical area to make this at least a *little* more fluid.
+		AND = {
+			is_landed = yes
+			capital_county.kingdom = title:k_rajputana
+		}
+	}
+}
+
+scripted_trigger is_vaguely_sindhi_bhakti_trigger = {
+	OR = {
+		has_culture = culture:sindhi
+		# We deliberately use the de jure rather than the geographical area to make this at least a *little* more fluid.
+		AND = {
+			is_landed = yes
+			capital_county.kingdom = title:k_sindh
+		}
+	}
+}
+
+religious_decision.0101 = {# Hindu Bhakti
+	type = character_event
+	title = religious_decision.0101.t
+	desc = {
+		desc = religious_decision.0101.desc.start
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					faith = faith:vaishnavism
+				}
+				desc = religious_decision.0101.desc.vaishnavism
+			}
+			triggered_desc = {
+				trigger = {
+					faith = faith:shaivism
+				}
+				desc = religious_decision.0101.desc.shaivism
+			}
+			triggered_desc = {
+				trigger = {
+					faith = faith:smartism
+				}
+				desc = religious_decision.0101.desc.smartism
+			}
+			desc = religious_decision.0101.desc.generic
+		}
+		desc = religious_decision.0101.desc.end
+	}
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	# 'Generic' Hinduism
+	option = {# Ganga
+		name = religious_decision.0101.ganga
+		trigger = {
+			NOR = {
+				# vaishnavism includes this one
+				faith = faith:shaivism
+				faith = faith:smartism
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
+				has_character_modifier = bhakti_hinduism_ganga
+			}
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_ganga }
+	}
+	option = {# Saraswati
+		name = religious_decision.0101.saraswati
+		trigger = {
+			NOR = {
+				faith = faith:vaishnavism
+				faith = faith:shaivism
+				faith = faith:smartism
+				has_character_modifier = bhakti_hinduism_saraswati
+			}
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_saraswati }
+	}
+	option = {# Kali
+		name = religious_decision.0101.kali
+		trigger = {
+			NOR = {
+				faith = faith:vaishnavism
+				faith = faith:shaivism
+				faith = faith:smartism
+				faith = faith:srikula_shaktism
+				has_character_modifier = bhakti_hinduism_kali
+			}
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_kali }
+	}
+	option = {# Kubera
+		name = religious_decision.0101.kubera
+		trigger = {
+			NOR = {
+				faith = faith:vaishnavism
+				faith = faith:shaivism
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
+				# smartism includes this one
+				has_character_modifier = bhakti_hinduism_kubera
+			}
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_kubera }
+	}
+	# Vaishnavism
+	option = {# Lakishmi
+		name = religious_decision.0101.lakishmi
+		trigger = {
+			OR = {
+				faith = faith:srikula_shaktism
+				faith = faith:vaishnavism
+			}
+			NOT = { has_character_modifier = bhakti_vaishnavism_lakishmi }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_vaishnavism_lakishmi }
+	}
+	option = {# Jagganath
+		name = religious_decision.0101.jagganath
+		trigger = {
+			faith = faith:vaishnavism
+			NOT = { has_character_modifier = bhakti_vaishnavism_jagganath }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_vaishnavism_jagganath }
+	}
+	option = {# Hayagriva
+		name = religious_decision.0101.hayagriva
+		trigger = {
+			faith = faith:vaishnavism
+			NOT = { has_character_modifier = bhakti_vaishnavism_hayagriva }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_vaishnavism_hayagriva }
+	}
+	# Shaivism
+	option = {# Parvati
+		name = religious_decision.0101.parvati
+		trigger = {
+			OR = {
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
+				faith = faith:shaivism
+			}
+			NOT = { has_character_modifier = bhakti_shaivism_parvati }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_shaivism_parvati }
+	}
+	option = {# Virabhadra
+		name = religious_decision.0101.virabhadra
+		trigger = {
+			faith = faith:shaivism
+			NOT = { has_character_modifier = bhakti_shaivism_virabhadra }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_shaivism_virabhadra }
+	}
+	option = {# Munishwarar
+		name = religious_decision.0101.munishwarar
+		trigger = {
+			faith = faith:shaivism
+			NOT = { has_character_modifier = bhakti_shaivism_munishwarar }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_shaivism_munishwarar }
+	}
+	option = {# dakshinamoorthy
+		name = religious_decision.0101.dakshinamoorthy
+		trigger = {
+			faith = faith:shaivism
+			NOT = { has_character_modifier = bhakti_shaivism_dakshinamoorthy }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_shaivism_dakshinamoorthy }
+	}
+	# Smartism		
+	option = {# Ganesha
+		name = religious_decision.0101.ganesha
+		trigger = {
+			faith = faith:smartism
+			NOT = { has_character_modifier = bhakti_smartism_ganesha }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_smartism_ganesha }
+	}														
+	option = {# Vishnu
+		name = religious_decision.0101.vishnu
+		trigger = {
+			faith = faith:smartism
+			NOT = { has_character_modifier = bhakti_smartism_vishnu }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_smartism_vishnu }
+	}
+	option = {# Shiva
+		name = religious_decision.0101.shiva
+		trigger = {
+			faith = faith:smartism
+			NOT = { has_character_modifier = bhakti_smartism_shiva }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_smartism_shiva }
+	}
+	# Regional Gods
+	option = {# Murugan - Tamil Deity
+		name = religious_decision.0101.murugan
+		trigger = {
+			is_vaguely_tamil_bhakti_trigger = yes
+			NOT = { has_character_modifier = bhakti_hinduism_murugan }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_murugan }
+	}
+	option = {# Varuna - Sindhi Deity
+		name = religious_decision.0101.varuna
+		trigger = {
+			is_vaguely_sindhi_bhakti_trigger = yes
+			NOT = { has_character_modifier = bhakti_hinduism_varuna }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_varuna }
+	}
+	option = {# Khandoba - Marathi Deity
+		name = religious_decision.0101.khandoba
+		trigger = {
+			is_vaguely_marathi_bhakti_trigger = yes
+			NOT = { has_character_modifier = bhakti_hinduism_khandoba }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_khandoba }
+	}	
+	option = {# Devnarayan - Rajathasni Deity
+		name = religious_decision.0101.devnarayan
+		trigger = {
+			is_vaguely_rajput_bhakti_trigger = yes
+			NOT = { has_character_modifier = bhakti_hinduism_devnarayan }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_devnarayan }
+	}					
+	
+	# Opt-Out
+	option = {# Exit decision
+		name = religious_decision.0101.optout
+		flavor = religious_decision.0101.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+

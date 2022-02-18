@@ -99,13 +99,13 @@ dharma_elephants.101 = {# Crazed elephant runs amuck
 			random_list = {
 				50 = {
 					trigger_event = {
-						id = dharma_elephants.103
+						id = dharma_elephants.104
 						days = { 10 15 }
 					}
 				}
 				50 = {
 					trigger_event = {
-						id = dharma_elephants.104
+						id = dharma_elephants.105
 						days = { 10 15 }
 					}
 				}

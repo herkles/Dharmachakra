@@ -1137,7 +1137,7 @@ dharma_festivals.133 = {# Gifts for your relatives
 
 	after = {
 		trigger_event = { 
-			id = dharma_festivals.102
+			id = dharma_festivals.138
 			days = 1
 		}
 	}
@@ -1280,7 +1280,10 @@ dharma_festivals.138 = {# Navaratri concludes
 	type = character_event
 	title = dharma_festivals.138.t
 	desc = dharma_festivals.138.desc
-	theme = throne
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
 	
 	left_portrait = {
 		character = root
@@ -1555,8 +1558,10 @@ dharma_festivals.207 = {# Prisoner Release
 	type = character_event
 	title = dharma_festivals.207.t
 	desc = dharma_festivals.207.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -1727,8 +1732,10 @@ dharma_festivals.210 = {# Vesak concludes
 	type = character_event
 	title = dharma_festivals.210.t
 	desc = dharma_festivals.210.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -1896,8 +1903,10 @@ dharma_festivals.304 = {# The feast
 	type = character_event
 	title = dharma_festivals.304.t
 	desc = dharma_festivals.304.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -1939,8 +1948,10 @@ dharma_festivals.305 = {# Charity for the commoners
 	type = character_event
 	title = dharma_festivals.305.t
 	desc = dharma_festivals.305.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -2011,8 +2022,10 @@ dharma_festivals.306 = {# Ratha Yatra concludes
 	type = character_event
 	title = dharma_festivals.306.t
 	desc = dharma_festivals.306.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -2079,8 +2092,10 @@ dharma_festivals.316 = {# a-kyo nei - Thingyan Eve
 	type = character_event
 	title = dharma_festivals.316.t
 	desc = dharma_festivals.316.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -2251,8 +2266,10 @@ dharma_festivals.320 = {# a-tet nei
 	type = character_event
 	title = dharma_festivals.320.t
 	desc = dharma_festivals.320.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -2351,8 +2368,10 @@ dharma_festivals.323 = {# Thingyan concludes
 	type = character_event
 	title = dharma_festivals.323.t
 	desc = dharma_festivals.323.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -2628,8 +2647,10 @@ dharma_festivals.336 = {# Chhath concludes
 	type = character_event
 	title = dharma_festivals.336.t
 	desc = dharma_festivals.336.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -3307,8 +3328,10 @@ dharma_festivals.361 = {# Gangaur concludes
 	type = character_event
 	title = dharma_festivals.361.t
 	desc = dharma_festivals.361.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -3668,8 +3691,10 @@ dharma_festivals.408 = {# Losar concludes
 	type = character_event
 	title = dharma_festivals.408.t
 	desc = dharma_festivals.408.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -4213,8 +4238,10 @@ dharma_festivals.434 = {# Pongal concludes
 	type = character_event
 	title = dharma_festivals.434.t
 	desc = dharma_festivals.434.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -4615,8 +4642,10 @@ dharma_festivals.446 = {# Thaipusam concludes
 	type = character_event
 	title = dharma_festivals.446.t
 	desc = dharma_festivals.446.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy

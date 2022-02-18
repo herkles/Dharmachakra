@@ -7,5 +7,5 @@ tags={
 }
 name="Dharmachakra"
 picture="thumbnail.png"
-supported_version="1.5.0.1"
+supported_version="1.5.*"
 remote_file_id="2235344327"

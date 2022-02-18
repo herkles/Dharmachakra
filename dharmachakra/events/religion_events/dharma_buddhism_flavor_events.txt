@@ -271,6 +271,7 @@ dharma_buddhism.023 = {# First Harvest Offerings
 			modifier = happy_monks
 			years = 5
 		}
+	
 		capital_province = {
 			add_province_modifier = {# unhappy peasants
 				modifier = upset_peasants
@@ -2600,7 +2601,7 @@ dharma_buddhism.300 = {# Decide to Visit Nalanda
 	}	
 	
 	immediate = {
-		title:b_pataliputra = { save_scope_as = nalanda_location }
+		title:b_pataliputra = { save_scope_as = nalanda_location } 
 		# Stop characters from planning multiple activities at once.
 		add_character_flag = planning_an_activity
 	}
@@ -2608,7 +2609,7 @@ dharma_buddhism.300 = {# Decide to Visit Nalanda
 	option = {# I shall stay 
 		name = dharma_buddhism.300.stay
 		hidden_effect = {
-			remove_decision_cooldown = dharma_learning_visit_cooldown_time
+			remove_decision_cooldown = dharma_visit_nalanda
 			remove_character_flag = planning_an_activity
 		}
 	}
@@ -3569,6 +3570,10 @@ dharma_buddhism.316 = {# Returning Home
 		scope:activity = {
 			complete_activity = yes
 		}
+	}
+
+	after = {
+		trigger_event = { id = dharma_buddhism.317 days = 10 }
 	}
 }
 dharma_buddhism.317 = {# Misc cleanup

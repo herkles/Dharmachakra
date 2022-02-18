@@ -3243,8 +3243,6 @@ name_list_saurashtra = {
 		{ "dynn_Yadav" }
 	}
 	
-	color = { 255 8 0 }
-
 	male_names = {
 		Abhayapala Acharya Ahila Ajairaja Ajayapala Ajay-Singh Alhana Allat Amarangeya Ambra-Prasad Amritapala Anahilla
 		Ari-Singh Arjunavarman Arnoraja Asaraja Asvapala Balaprasada Baliraja Bhatarka Bhert-Patt Bhima Bhimadeva

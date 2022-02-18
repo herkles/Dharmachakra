@@ -527,7 +527,6 @@ dharma_visit_sharada_peeth = {# Go to Sharada Peeth
 		custom_tooltip = dharma_visit_sharada_peeth_tooltip
 		trigger_event = dharma_hinduism.300
 	}
-
 	ai_check_interval = 60
 	
 	ai_potential = {
@@ -555,8 +554,11 @@ dharma_attend_diwali_festival = {# Attend Diwali festival
 		religion = religion:hinduism_religion
 		custom_description = {
 			text = dharma_decision_diwali_month_requirement
-			current_month >= 10
-			current_month <= 11
+			OR = {
+				current_month >= 10
+				current_month <= 11
+			}
+
 		}
 	}
 	
@@ -621,8 +623,11 @@ dharma_attend_navaratri_festival = {# Attend Navaratri festival
 		}
 		custom_description = {
 			text = dharma_decision_navaratri_month_requirement
-			current_month >= 9
-			current_month <= 10
+			OR = {
+				current_month >= 9
+				current_month <= 10
+			}
+
 		}
 	}
 	
@@ -740,8 +745,11 @@ dharma_attend_vesak_festival = {# Attend Vesak festival
 		religion = religion:buddhism_religion
 		custom_description = {
 			text = dharma_decision_vesak_month_requirement
-			current_month >= 4
-			current_month <= 6
+			OR = {
+				current_month >= 4
+				current_month <= 6
+			}
+
 		}
 	}
 	
@@ -972,8 +980,10 @@ dharma_attend_paryushana_festival = {# Jain Paryushana festival
 		religion = religion:jainism_religion
 		custom_description = {
 			text = dharma_decision_paryushana_month_requirement
-			current_month >= 8
-			current_month <= 10
+			OR = {
+				current_month >= 8
+				current_month <= 10
+			}
 		}
 	}
 	
@@ -1015,8 +1025,11 @@ dharma_attend_mahavir_kalyanak_festival = {# Jain  Mahavir Janma Kalyanak festiv
 		religion = religion:jainism_religion
 		custom_description = {
 			text = dharma_decision_mahavir_kalyanak_month_requirement
-			current_month >= 3
-			current_month <= 4
+			OR = {
+				current_month >= 3
+				current_month <= 4
+			}
+
 		}
 	}
 	
@@ -1068,8 +1081,10 @@ dharma_attend_losar_festival = {# Attend Tibetan New Year Losar
 	is_valid = {
 		custom_description = {
 			text = dharma_decision_losar_month_requirement
-			current_month >= 2
-			current_month <= 3
+			OR = {
+				current_month >= 2
+				current_month <= 3
+			}
 		}
 		custom_description = {
 			text = dharma_decision_losar_culture_requirement
@@ -1120,8 +1135,10 @@ dharma_attend_pongal_festival = {# Attend Pongal festival
 		has_culture	 = culture:tamil
 		custom_description = {
 			text = dharma_decision_pongal_month_requirement
-			current_month >= 1
-			current_month <= 2
+			OR = {
+				current_month >= 1
+				current_month <= 2
+			}
 		}
 	}
 	
@@ -1175,8 +1192,10 @@ dharma_attend_thaipusam_festival = {# Attend Thaipusam festival
 		}
 		custom_description = {
 			text = dharma_decision_thaipusam_month_requirement
-			current_month >= 2
-			current_month <= 3
+			OR = {
+				current_month >= 2
+				current_month <= 3
+			}
 		}
 	}
 	
@@ -1220,8 +1239,11 @@ dharma_attend_ratha_yatra_festival = {# Attend Ratha Yatra festival
 		religion = religion:hinduism_religion
 		custom_description = {
 			text = dharma_decision_ratha_yatra_month_requirement
-			current_month >= 6
-			current_month <= 7
+			OR = {
+				current_month >= 6
+				current_month <= 7
+			}
+
 		}
 	}
 	
@@ -1263,6 +1285,7 @@ dharma_attend_thingyan_festival = {# Attend Thingyan festival
 		culture = { has_cultural_pillar = heritage_burman }
 		custom_description = {
 			text = dharma_decision_thingyan_month_requirement
+			
 			current_month = 5
 		}
 	}

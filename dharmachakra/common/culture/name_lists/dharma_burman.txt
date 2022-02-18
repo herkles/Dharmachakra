@@ -154,6 +154,7 @@ name_list_rakhine = {
 		"dynn_Maingmaw"
 		"dynn_Pinya"
 	}
+
 	
 	male_names = {
 		Kyansittha Kyiso Saw_Lu Sokkate Tannet Theinhko Thurein

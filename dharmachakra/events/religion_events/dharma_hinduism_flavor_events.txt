@@ -554,7 +554,7 @@ dharma_hinduism.300 = {# Decide to Visit Sharada Peeth
 	option = {# I shall stay
 		name = dharma_hinduism.300.stay
 		hidden_effect = {
-			remove_decision_cooldown = dharma_learning_visit_cooldown_time
+			remove_decision_cooldown = dharma_visit_sharada_peeth
 			remove_character_flag = planning_an_activity
 		}
 	}
@@ -1583,6 +1583,10 @@ dharma_hinduism.316 = {# Returning Home
 		scope:activity = {
 			complete_activity = yes
 		}
+	}
+
+	after = {
+		trigger_event = { id = dharma_hinduism.317 days = 10 }
 	}
 }
 dharma_hinduism.317 = {# Misc cleanup

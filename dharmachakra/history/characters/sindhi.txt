@@ -46,8 +46,8 @@
 178012 = {# Khafif
 	name = "Khafif" # Fictional
 	dynasty = 1041112
-	religion = "ashari"
-	culture = "pudgalavada"
+	religion = "pudgalavada"
+	culture = "sindhi"
 	844.1.1 = {
 		birth = "844.1.1"
 	}
@@ -58,8 +58,8 @@
 188563 = {# Chanesar
 	name = "Chanesar" # fictional
 	dynasty = 1041112
-	religion = "mahayana"
-	culture = "pudgalavada"
+	religion = "pudgalavada"
+	culture = "sindhi"
 	724.1.1 = {
 		birth = yes
 	}
