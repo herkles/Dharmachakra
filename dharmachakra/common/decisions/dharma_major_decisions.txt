@@ -67,7 +67,7 @@ become_chakravarti_decision = {# Become Chakravartin
 				limit = { religion = religion:jainism_religion }
 
 				faith = {
-					add_doctrine = divine_destiny_jain_doctrine
+					#add_doctrine = divine_destiny_jain_doctrine
 					change_fervor = {
 						value = major_fervor_gain
 						desc = fervor_gain_chakravarti

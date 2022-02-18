@@ -102,6 +102,7 @@ unreformed_faith = {
 			unreformed_syncretic_recipient_opinion_active = yes
 			opinion_of_unreformed_syncretic_actor_opinion_active = 30
 			conquest_cb_enabled = yes
+			faith_can_raid = yes
 		}
 
 		character_modifier = {
@@ -128,20 +129,20 @@ divine_destiny = {
 	}
 }
 
-divine_destiny_jain = {# Jains do not like war so they get a different Chakravatin doctrine
-	group = "special"
-	is_available_on_create = {
-		has_doctrine = divine_destiny_doctrine
-	}
-	divine_destiny_jain_doctrine = {
-		piety_cost = {
-			value = faith_doctrine_cost_low
-		}
-		parameters = {
-			divine_destiny_jain_resistance = yes
-		}
-	}
-}
+# divine_destiny_jain = {# Jains do not like war so they get a different Chakravatin doctrine
+# 	group = "special"
+# 	is_available_on_create = {
+# 		has_doctrine = divine_destiny_doctrine
+# 	}
+# 	divine_destiny_jain_doctrine = {
+# 		piety_cost = {
+# 			value = faith_doctrine_cost_low
+# 		}
+# 		parameters = {
+# 			divine_destiny_jain_resistance = yes
+# 		}
+# 	}
+# }
 
 #Teaching of the Vedas
 is_hinduism_faith = {

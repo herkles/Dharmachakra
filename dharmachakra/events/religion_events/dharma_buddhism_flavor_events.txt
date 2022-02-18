@@ -271,9 +271,9 @@ dharma_buddhism.023 = {# First Harvest Offerings
 			modifier = happy_monks
 			years = 5
 		}
-	
-		capital_province = {
-			add_province_modifier = {# unhappy peasants
+
+		capital_county = { 
+			add_county_modifier = {# unhappy peasants
 				modifier = upset_peasants
 				years = 2
 			}
@@ -285,14 +285,13 @@ dharma_buddhism.023 = {# First Harvest Offerings
 			modifier = upset_monks
 			years = 5
 		}
-		capital_province = {
-			add_province_modifier = {# Happy peasants
+		capital_county = { 
+			add_county_modifier = {# unhappy peasants
 				modifier = governance_1054_satisfied_peasants_modifier
 				years = 2
 			}
-		}		
-		# monks upset
-		# peasants happy
+		}
+	
 	}
 }
 #######################################
