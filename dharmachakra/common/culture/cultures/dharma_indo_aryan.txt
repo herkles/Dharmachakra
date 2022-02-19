@@ -6,7 +6,7 @@
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_philosopher_culture
 		tradition_religious_patronage
 		tradition_agrarian
@@ -32,7 +32,7 @@ oriya = { # Indo-Aryan
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_culinary_art
 		tradition_seafaring
 		tradition_lords_of_the_elephant
@@ -83,7 +83,7 @@ gujarati = { # Indo-Aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_vegetarianism
 		tradition_religion_blending
 		tradition_seafaring
@@ -109,7 +109,7 @@ punjabi = { # Indo-Aryan
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_wedding_ceremonies
 		tradition_storytellers
 		tradition_agrarian
@@ -134,7 +134,7 @@ rajput = { # Indo-Aryan - #Renamed to Rajasthani
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		tradition_warrior_culture
 		tradition_dryland_dwellers
 		tradition_quarrelsome
 		tradition_mystical_ancestors
@@ -160,7 +160,6 @@ malvi = { # Indo-Aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
 		tradition_fervent_temple_builders
 		tradition_mystical_ancestors
 		tradition_khadga_puja
@@ -186,7 +185,7 @@ sindhi = { # Indo-Aryan
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_poetry
 		tradition_practiced_pirates
 		tradition_mendicant_mystics
@@ -211,7 +210,7 @@ marathi = { # Indo-Aryan
 	language = language_marathi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_hard_working
 		tradition_modest
 		tradition_pastoralists
@@ -236,7 +235,7 @@ kashmiri = { # Indo-Aryan Dardic
 	language = language_kashmiri
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_himalayan_settlers
 		tradition_poetry
 		tradition_equal_inheritance
@@ -263,7 +262,7 @@ sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
 	language = language_sinhalese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_seafaring
 		tradition_fervent_temple_builders
 		tradition_city_keepers
@@ -289,7 +288,7 @@ nepali = { # (Newar, Garwhali, Kuamoni, Khasa, Gorkha, Tamangic, etc.)
 	language = language_nepali
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_himalayan_settlers
 		tradition_martial_admiration
 		tradition_religious_patronage
@@ -316,7 +315,7 @@ bihari = {# Bihari
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_khadga_puja
 		tradition_court_eunuchs
 		tradition_religious_patronage
@@ -341,7 +340,7 @@ konkani = {# Konkani
 	language = language_konkani
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_maritime_mercantilism
 		tradition_religious_patronage
 		tradition_modest
@@ -366,7 +365,7 @@ awadhi = {# Awadhi
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_agrarian
 		tradition_religious_patronage
 		tradition_court_eunuchs
@@ -391,7 +390,7 @@ braj = {# braj
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_agrarian
 		tradition_religious_patronage
 		tradition_court_eunuchs
@@ -417,7 +416,7 @@ saurashtra = {# saurashtra transfer to divergent culture
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_vegetarianism
 		tradition_religion_blending
 		tradition_seafaring
@@ -467,7 +466,7 @@ nagpuri = {# nagpuri
 	language = language_nagpuri
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_pastoralists
 		tradition_sacred_groves
 		tradition_family_entrepreneurship
@@ -516,7 +515,7 @@ kumaoni = {# kumaoni moving this to divergent cultures
 	language = language_nepali
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_himalayan_settlers
 		tradition_martial_admiration
 		tradition_religious_patronage
@@ -541,38 +540,13 @@ pahari = {# pahari
 	language = language_pahari
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_himalayan_settlers
 		tradition_martial_admiration
 		tradition_religious_patronage
 	}
 
 	name_list = name_list_pahari
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
-	ethnicities = {
-		10 = indian
-	}
-}
-rajbongshi = {# rajbongshi
-	color = { 184 15 10 }
-	
-	ethos = ethos_communal
-	heritage = heritage_indo_aryan
-	language = language_rajbongshi
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_caste_system
-		tradition_agrarian
-		tradition_isolationist
-		tradition_sacred_groves
-	}
-
-	name_list = name_list_rajbongshi
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -591,7 +565,7 @@ kamarupi = {# kamarupi
 	language = language_kamarupi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_jungle_dwellers
 		tradition_jungle_warriors
 		tradition_language_scholars
@@ -618,7 +592,7 @@ hindustani_proper = {# Hindustani
 	language = language_hindi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caste_system
+		
 		tradition_court_eunuchs
 		tradition_philosopher_culture
 		tradition_music_theory
@@ -667,4 +641,5 @@ nuristani = {
 		10 = mediterranean
 	}
 }
+
 

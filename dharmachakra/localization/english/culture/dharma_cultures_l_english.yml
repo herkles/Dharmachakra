@@ -49,10 +49,6 @@
  rajput:0 "Rajasthani"
  rajput_collective_noun:1 "Rajasthanis"
 
- rajbongshi:0 "Rajbongshi"
- rajbongshi_collective_noun:1 "Rajbongshis"
- rajbongshi_prefix:0 "Rajbongshi"
-
  kumaoni:0 "Kumaoni"
  kumaoni_collective_noun:1 "Kumaonis"
  kumaoni_prefix:0 "Kumaoni"
@@ -111,3 +107,45 @@
  munda_group_collective_noun:0 "Mundas"
  munda:0 "Munda"
  munda_collective_noun:1 "Mundas"
+
+# Hybrid Cultures
+ himalayan_name:0 "Newar"
+ himalayan_collective_noun:0 "Newars"
+ himalayan_prefix:0 "Newa"
+
+ rajbongshi_name:0 "Rajbonshi"
+ rajbongshi_collective_noun:0 "Rajbonshi"
+ rajbongshi_prefix:0 "Rajbonshi"
+
+ shina_name:0 "Shina"
+ shina_collective_noun:0 "Shins"
+ shina_prefix:0 "Shina"
+
+ nawayath_name:0 "Nawayath"
+ nawayath_collective_noun:0 "Nawayaths"
+ nawayath_prefix:0 "Nawayathi"
+
+ mappila_name:0 "Mappila"
+ mappila_collective_noun:0 "Mappilas"
+ mappila_prefix:0 "Mappila"
+
+# Divergent Cultures
+ dhivehi_name:0 "Dhivehi"
+ dhivehi_collective_noun:0 "Dhivehis"
+ dhivehi_prefix:0 "Dhivehi"
+
+ tharu_name:0 "Tharu"
+ tharu_collective_noun:0 "Tharus"
+ tharu_prefix:0 "Tharu"
+
+ haryanvi_name:0 "Haryanvi"
+ haryanvi_collective_noun:0 "Haryanvis"
+ haryanvi_prefix:0 "Haryanvi"
+
+ chamka_name:0 "Chamka"
+ chamka_collective_noun:0 "Chamkas"
+ chamka_prefix:0 "Chamka"
+
+ kodava_name:0 "Kodava"
+ kodava_collective_noun:0 "Kodavas"
+ kodava_prefix:0 "Kodava"

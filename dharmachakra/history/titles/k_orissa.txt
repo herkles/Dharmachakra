@@ -840,42 +840,26 @@ c_rayapura = {
 		holder = 191295 #Nandivarman
 		liege = d_ratanpur
 	}
-	810.1.1 = {
-		holder = 191296 #Vijayaditya
+	855.1.1 = {
+		holder = sambalpuri001 # Pralambha
 	}
-	840.1.1 = {
-		holder = 191297 #Malladeva
+	878.1.1 = {
+		holder = sambalpuri002 #Kadarangkonda
 	}
-	870.1.1 = {
-		holder = 175130 #Vikramaditya I Jayameru
+	903.1.1 = {
+		holder = sambalpuri003 #Karunandadakkan
 	}
-	895.1.1 = {
-		holder = 189188	#Janamejaya
-		liege = d_daksina_kosala
+	919.1.1 = {
+		holder = sambalpuri004 #Cadayan
 	}
-	922.1.1 = {
-		holder = 189189	#Yayati
+	956.1.1 = {
+		holder = sambalpuri005 #Kurian
 	}
-	955.1.1 = {
-		holder = 189190	#Bhimaratha
+	993.1.1 = {
+		holder = sambalpuri006 #Rapanmar
 	}
-	980.1.1 = {
-		holder = 189191	#Dharamaratha
-	}
-	1005.1.1 = {
-		holder = 189191	#Nahusa
-	}
-	1021.1.1 = {
-		holder = 189193	#Indranatha
-	}
-	1025.1.1 = {
-		holder = 189194	#Yayati
-	}
-	1040.1.1 = {
-		holder = 189195	#Udyotakesari
-	}
-	1065.1.1 = {
-		holder = 189196	#Janmejaya
+	1037.1.1 = {
+		holder = sambalpuri007 #Parakesaripanmar
 	}
 	1085.1.1 = {
 		holder = 189197	#Puranjaya
@@ -1041,36 +1025,29 @@ c_suvarnapura = {
 	800.1.1 = {
 		holder = 191230	#Haragupta
 	}
-	850.1.1 = {
-		holder = 191231	#Balarjuna
+
+	855.1.1 = {
+		holder = sambalpuri008 # Pralambha
 	}
-	882.1.1 = {
-		holder = 189188	#Janamejaya
+	878.1.1 = {
+		holder = sambalpuri009 #Kadarangkonda
 	}
-	922.1.1 = {
-		holder = 189189	#Yayati
+	903.1.1 = {
+		holder = sambalpuri010 #Karunandadakkan
 	}
-	955.1.1 = {
-		holder = 189190	#Bhimaratha
+	919.1.1 = {
+		holder = sambalpuri011 #Cadayan
 	}
-	980.1.1 = {
-		holder = 189191	#Dharamaratha
+	956.1.1 = {
+		holder = sambalpuri012 #Kurian
 	}
-	1005.1.1 = {
-		holder = 189191	#Nahusa
+	993.1.1 = {
+		holder = sambalpuri013 #Rapanmar
 	}
-	1021.1.1 = {
-		holder = 189193	#Indranatha
+	1037.1.1 = {
+		holder = sambalpuri014 #Parakesaripanmar
 	}
-	1025.1.1 = {
-		holder = 189194	#Yayati
-	}
-	1040.1.1 = {
-		holder = 189195	#Udyotakesari
-	}
-	1065.1.1 = {
-		holder = 189196	#Janmejaya
-	}
+
 	1085.1.1 = {
 		holder = 189197	#Puranjaya
 	}
@@ -1985,35 +1962,29 @@ c_barasuru = {
 	850.1.1 = {
 		holder = 191245#Vankhaditya
 	}
-	900.1.1 = {
-		holder = 191246#Naladeva
+
+	855.1.1 = {
+		holder = sambalpuri022 # Pralambha
 	}
-	920.1.1 = {
-		holder = 191247#Rajalla
+	878.1.1 = {
+		holder = sambalpuri023 #Kadarangkonda
 	}
-	945.1.1 = {
-		liege = d_dandakaranya
+	903.1.1 = {
+		holder = sambalpuri024 #Karunandadakkan
 	}
-	970.1.1 = {
-		holder = 191248#Sankhapala
+	919.1.1 = {
+		holder = sambalpuri025 #Cadayan
 	}
-	1021.1.1 = {
-		holder = 191249#Nrapatibhusana
+	956.1.1 = {
+		holder = sambalpuri026 #Kurian
 	}
-	1060.1.1 = {
-		holder = 191250#Jagadekabhusana
+	993.1.1 = {
+		holder = sambalpuri027 #Rapanmar
 	}
-	1065.1.1 = {
-		holder = 191251#Madhurantaka
+	1037.1.1 = {
+		holder = sambalpuri028 #Parakesaripanmar
 	}
-	1066.1.1 = {
-		holder = 189108 #Kulottunga (Rajiga)
-		liege = k_tamilakam
-	}
-	1069.1.1 = {
-		holder = 191252#Somesvara
-		liege = d_dandakaranya
-	}
+
 	1108.1.1 = {
 		holder = 191253#Somesvara
 	}

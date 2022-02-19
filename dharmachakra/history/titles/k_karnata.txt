@@ -53,6 +53,11 @@ k_karnata = {
 		holder = 175030	#Amogavarsha
 
 	}
+	830.1.1 = {# Manyakheta became the capital during the reign of Amoghavarsha
+		effect = {
+			set_capital_county = title:c_kalyani
+		}
+	}
 	878.1.1 = {
 		holder = 74417	#Krishna II
 	}
@@ -150,7 +155,6 @@ k_karnata = {
 		holder = 74584
 	}
 }
-
 
 d_kalyani = {
 	867.1.1 = { change_development_level = 12 }
@@ -261,8 +265,6 @@ d_kalyani = {
 	}
 
 }
-
-
 c_kalyani = {
 	543.1.1 = {
 		holder = 74721
@@ -451,8 +453,6 @@ c_kalyani = {
 		liege = k_maharastra
 	}
 }
-
-
 c_sagar = {
 	757.1.1 = {
 		holder = 192035 #Bhimasakti Sendraka
@@ -576,7 +576,6 @@ c_sagar = {
 	#End of Ruler Placeholder until something better#
 }
 
-
 d_gangavadi = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
@@ -688,7 +687,6 @@ d_gangavadi = {
 		holder = 0
 	}
 }
-
 c_parivi = {
 	#Nidugal Cholas
 	750.1.1 = {
@@ -759,7 +757,6 @@ c_parivi = {
 		liege = e_deccan
 	}
 }
-
 c_srirangapatna = {
 	350.1.1 = {
 		holder = 74676
@@ -875,8 +872,6 @@ c_srirangapatna = {
 		liege = k_karnata
 	}
 }
-
-
 c_mahishaka = {
 	750.1.1 = {
 		holder = 192016 #Mangala Nolambadhiraja
@@ -950,8 +945,6 @@ c_mahishaka = {
 		holder = 74584
 	}
 }
-
-
 c_talakad = {
 	350.1.1 = {
 		holder = 74676
@@ -1088,7 +1081,6 @@ c_talakad = {
 	}
 }
 
-
 d_nulambavadi = {
 	750.1.1 = {
 		holder = 192016 #Mangala Nolambadhiraja
@@ -1138,8 +1130,6 @@ d_nulambavadi = {
 		holder = 0
 	}
 }
-
-
 c_uchangidurga = {
 	750.1.1 = {
 		holder = 192016 #Mangala Nolambadhiraja
@@ -1241,8 +1231,6 @@ c_uchangidurga = {
 		liege = e_deccan
 	}
 }
-
-
 c_gutti = {
 	760.1.1 = {
 		holder = 192019 #Ganda Sankili Vaidumba
@@ -1301,8 +1289,6 @@ c_gutti = {
 		liege = e_deccan
 	}
 }
-
-
 c_adoni = {
 	750.1.1 = {
 		holder = 192016 #Mangala Nolambadhiraja
@@ -1393,8 +1379,6 @@ c_adoni = {
 		liege = e_deccan
 	}
 }
-
-
 c_banavasi = {
 	610.1.1 = {
 		holder = 192001 #Aluvarasa I Alupa
@@ -1485,7 +1469,6 @@ c_banavasi = {
 	}
 }
 
-
 d_raichur_doab = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
@@ -1540,8 +1523,6 @@ d_raichur_doab = {
 		holder = 0
 	}
 }
-
-
 c_idatarainadu = {
 	750.1.1 = {
 		holder = 74712
@@ -1617,8 +1598,6 @@ c_idatarainadu = {
 		liege = e_deccan
 	}
 }
-
-
 c_vatapi = {
 	757.1.1 = {
 		holder = 192035 #Bhimasakti Sendraka
@@ -1698,8 +1677,6 @@ c_vatapi = {
 		liege = e_deccan
 	}
 }
-
-
 c_vaijayanti = {
 	750.1.1 = {
 		holder = 74712
@@ -1776,8 +1753,6 @@ c_vaijayanti = {
 		liege = e_deccan
 	}
 }
-
-
 c_koppam = {
 	750.1.1 = {
 		holder = 74712
@@ -1850,4 +1825,3 @@ c_koppam = {
 		liege = e_deccan
 	}
 }
-

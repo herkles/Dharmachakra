@@ -19,13 +19,4 @@
 		}
 		NOT = { var:escaped_imprisonment_from = $COURT_OWNER$ }
 	}
-	trigger_if = {
-		limit = {
-			OR = {
-				faith = { religion_tag = buddhism_religion }
-				faith = { religion_tag = jainism_religion }
-			}
-		}
-		has_trait = devoted
-	}
 }

@@ -928,3 +928,177 @@ chalukyas_of_lata_3 = {# Trilochanpala
 		death = yes
 	}
 }
+#######################################
+# Vardhamana Capa Dynasty
+#######################################
+191666 = {# Vikramarka
+	name = "Vikramarka"
+	dynasty = 1044370	#Vardhamana Capa
+	religion = "smartism"
+	culture = "gujarati"
+	780.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+191667 = {# Addaka
+	name = "Addaka"
+	dynasty = 1044370	#Vardhamana Capa
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191666
+	800.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+191668 = {# Pulakesi
+	name = "Pulakesi"
+	dynasty = 1044370	#Vardhamana Capa
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191667
+	820.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+191669 = {# Dhruvabhata
+	name = "Dhruvabhata"
+	dynasty = 1044370	#Vardhamana Capa
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191668
+	840.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+191670 = {# Dharanivaraha
+	name = "Dharanivaraha"
+	dynasty = 1044370	#Vardhamana Capa
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191668
+	865.1.1 = {
+		birth = yes
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Calukya Dynasty
+#######################################
+191672 = {# Vahukadhavala
+	name = "Vahukadhavala"	#Fictional, real name is unkown
+	dynasty = 1044371	#Calukya
+	religion = "smartism"
+	culture = "gujarati"
+	700.1.1 = {
+		birth = yes
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+191673 = {# Kalla
+	name = "Kalla"
+	dynasty = 1044371	#Calukya
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191672
+	720.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+191674 = {# Mahalla
+	name = "Mahalla"
+	dynasty = 1044371	#Calukya
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191672
+	725.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+191675 = {# Balavarman
+	name = "Balavarman"	#Fictional, real name unkown
+	dynasty = 1044371	#Calukya
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191674
+	745.1.1 = {
+		birth = yes
+	}
+	825.1.1 = {
+		death = yes
+	}
+}
+191676 = {# Vahukadhavala
+	name = "Vahukadhavala"
+	dynasty = 1044371	#Calukya
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191675
+	765.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+191677 = {# Avanivarman
+	name = "Avanivarman"
+	dynasty = 1044371	#Calukya
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191676
+	795.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+191678 = {# Calukya
+	name = "Balavarman"
+	dynasty = 1044371	#Calukya
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191677
+	820.1.1 = {
+		birth = yes
+	}
+	895.1.1 = {
+		death = yes
+	}
+}
+191679 = {# Avanivarman
+	name = "Avanivarman"
+	dynasty = 1044371	# Calukya
+	religion = "smartism"
+	culture = "gujarati"
+	father = 191678
+	840.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+
