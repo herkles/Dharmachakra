@@ -649,6 +649,9 @@ c_gauda = {
 	1090.1.1 = {
 		holder = 190020 #Ramapala Pala
 	}
+
+
+	
 	1120.1.1 = {
 		holder = 190021 #Kumarapala Pala
 	}
@@ -1904,6 +1907,9 @@ c_harikela = {
 	602.1.1 = {
 		holder = tripuri002 #Jangi Fa
 	}
+	645.1.1 = {
+		liege = d_vanga
+	}
 	675.1.1 = {
 		holder = tripuri003 #Partha
 	}
@@ -1925,6 +1931,7 @@ c_harikela = {
 	}
 	866.1.1 = {
 		holder = tripuri009 #Mukunda Fa
+		liege = 0
 	}
 	900.1.1 = {
 		holder = tripuri010 #Kamal Rai
@@ -1941,6 +1948,9 @@ c_harikela = {
 	1020.1.1 = {
 		holder = tripuri014 #Sadhu Rai
 	}
+	1052.1.1 = {
+		liege = d_vanga
+	}
 	1067.1.1 = {
 		holder = tripuri015 #Ratap Rai
 	}
@@ -1952,6 +1962,7 @@ c_harikela = {
 	}
 	1140.1.1 = {
 		holder = tripuri018 #Beerbahu
+		liege = k_bengal
 	}
 	1159.1.1 = {
 		holder = tripuri019 #Samrat
@@ -1961,15 +1972,23 @@ c_harikela = {
 	}
 	1204.1.1 = {
 		holder = tripuri021 #Meghraj
+		liege = d_vanga
 	}
 	1221.1.1 = {
 		holder = tripuri022 #Sengkwchak
+		liege = 0
+	}
+	1231.1.1 = {
+		liege = d_vanga
 	}
 	1250.1.1 = {
 		holder = tripuri023 #Sengthum Fa
 	}
 	1285.1.1 = {
 		holder = tripuri024 #Achong Fa
+	}
+	1300.1.1 = {
+		liege = 0
 	}
 	1307.1.2 = {
 		holder = tripuri025 #Khichung Fa

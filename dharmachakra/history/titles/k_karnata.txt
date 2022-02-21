@@ -309,36 +309,41 @@ c_kalyani = {
 	793.1.1 = {
 		holder = 74416
 	}
-	860.1.1 = {
-		holder = 178010
-		#liege = k_karnata
+	814.1.1 = {
+		holder = 175030	#Amogavarsha
+
+	}
+	830.1.1 = {# Manyakheta became the capital during the reign of Amoghavarsha
+		effect = {
+			set_capital_county = title:c_kalyani
+		}
 	}
 	878.1.1 = {
-		holder = 74417
+		holder = 74417	#Krishna II
 	}
 	914.1.1 = {
-		holder = 74421
+		holder = 74421	#Indra III
 	}
 	929.1.1 = {
-		holder = 74422
+		holder = 74422	#Amogavarsha
 	}
 	930.1.1 = {
-		holder = 74423
+		holder = 74423	#Govinda IV
 	}
 	934.1.1 = {
-		holder = 74424
+		holder = 74424	#Amogavarsha III
 	}
 	939.1.1 = {
-		holder = 74425
+		holder = 74425	#Krishna III
 	}
 	967.1.1 = {
-		holder = 74426
+		holder = 74426	#Khottiga Amogavarsha
 	}
 	972.1.1 = {
-		holder = 74428
+		holder = 74428	#Karka II
 	}
 	973.1.1 = {
-		holder = 74429
+		holder = 74429	#Indra IV
 	}
 	983.1.1 = {
 		holder = 74437

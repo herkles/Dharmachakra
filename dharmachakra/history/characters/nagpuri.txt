@@ -823,6 +823,19 @@
 #######################################
 # Bana Dynasty
 #######################################
+191297 = {# Malladeva
+	name = "Malladeva" #Fictional
+	dynasty = 1043014
+	religion = "vaishnavism"
+	culture = "nagpuri"
+	father = 191296
+	810.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
 175130 = {# Vikramaditya
 	name = "Vikramaditya"
 	dynasty = 1043014
@@ -861,16 +874,4 @@
 		death = yes
 	}
 }
-191297 = {# Malladeva
-	name = "Malladeva" #Fictional
-	dynasty = 1043014
-	religion = "vaishnavism"
-	culture = "nagpuri"
-	father = 191296
-	810.1.1 = {
-		birth = yes
-	}
-	870.1.1 = {
-		death = yes
-	}
-}
+

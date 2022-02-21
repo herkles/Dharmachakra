@@ -236,7 +236,7 @@
 		death = yes
 	}
 }
-### Historical rulers of the kachari Kingdom(duchy of Sutiya)
+### Historical rulers of the Chutia Kingdom(duchy of Sutiya)
 kachari001 = {# Nandisara
     name = "Nandisara"
     religion = "bathouism"

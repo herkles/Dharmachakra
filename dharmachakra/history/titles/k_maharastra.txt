@@ -731,12 +731,13 @@ c_acalapura = {
 	878.1.1 = {
 		holder = 74417	#Krishna II
 	}
-	#Ruler Placeholder until something better#
 	1042.1.1 = {
-		holder = 74441
+		holder = 190209 #Karnadeva Cedi
+		liege = k_gondwana
 	}
-	1068.1.1 = {
+	1073.1.1 = {
 		holder = 74442
+		liege = k_karnata
 	}
 	1076.1.1 = {
 		holder = 74443
@@ -828,7 +829,7 @@ c_ramagiri = {
 	}
 	830.1.1 = {
 		holder = 191364	#Fictional Pandits
-		liege = k_maharastra
+		liege = k_karnata
 	}
 	880.1.1 = {
 		holder = 191365	#Fictional Pandits
@@ -841,6 +842,9 @@ c_ramagiri = {
 	}
 	1030.1.1 = {
 		holder = 191368	#Fictional Pandits
+	}
+	1045.1.1 = {
+		liege = k_gondwana
 	}
 	1080.1.1 = {
 		holder = 191369	#Fictional Pandits

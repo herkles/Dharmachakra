@@ -696,7 +696,7 @@ d_sutiya = {
 		holder = 191586 #Birpal
 	}
 	1369.1.1 = {
-		holder = chutia001 #Nandisara
+		holder = kachari001 #Nandisara
 	}
 
 }
@@ -776,25 +776,25 @@ c_haruppeswara = {
 	}
 
 	855.1.1 = {
-		holder = chutia021 #Ratnanarayana
+		holder = kachari021 #Ratnanarayana
 	}
 	878.1.1 = {
-		holder = chutia022 #Mahendravarman
+		holder = kachari022 #Mahendravarman
 	}
 	903.1.1 = {
-		holder = chutia023 #Pralambha
+		holder = kachari023 #Pralambha
 	}
 	919.1.1 = {
-		holder = chutia024 #Yasanarayana
+		holder = kachari024 #Yasanarayana
 	}
 	956.1.1 = {
-		holder = chutia025 #Nandisvara
+		holder = kachari025 #Nandisvara
 	}
 	993.1.1 = {
-		holder = chutia026 #Ratnanarayana
+		holder = kachari026 #Ratnanarayana
 	}
 	1037.1.1 = {
-		holder = chutia027 #Dhirnarayana
+		holder = kachari027 #Dhirnarayana
 	}
 	
 	1089.1.1 = {
@@ -914,25 +914,25 @@ c_charaideo = {
 	}
 
 	855.1.1 = {
-		holder = chutia006 #Gopala
+		holder = kachari006 #Gopala
 	}
 	878.1.1 = {
-		holder = chutia007 #Harshadeva
+		holder = kachari007 #Harshadeva
 	}
 	903.1.1 = {
-		holder = chutia008 #Dharmapala
+		holder = kachari008 #Dharmapala
 	}
 	919.1.1 = {
-		holder = chutia009 #Ganapativarman
+		holder = kachari009 #Ganapativarman
 	}
 	956.1.1 = {
-		holder = chutia011 #Samudravarman
+		holder = kachari011 #Samudravarman
 	}
 	993.1.1 = {
-		holder = chutia012 #Ratnapala
+		holder = kachari012 #Ratnapala
 	}
 	1037.1.1 = {
-		holder = chutia013 #Satyanarayana
+		holder = kachari013 #Satyanarayana
 	}
 
 	1089.1.1 = {
@@ -1040,25 +1040,25 @@ c_kundina = {
 	}
 
 	855.1.1 = {
-		holder = chutia014 #Nandisara
+		holder = kachari014 #Nandisara
 	}
 	878.1.1 = {
-		holder = chutia015 #Dhirnarayana
+		holder = kachari015 #Dhirnarayana
 	}
 	903.1.1 = {
-		holder = chutia016 #Dharmanarayana
+		holder = kachari016 #Dharmanarayana
 	}
 	919.1.1 = {
-		holder = chutia017 #Yasanarayana
+		holder = kachari017 #Yasanarayana
 	}
 	956.1.1 = {
-		holder = chutia018 #Purandarnarayana
+		holder = kachari018 #Purandarnarayana
 	}
 	993.1.1 = {
-		holder = chutia019 #Lakshminarayana
+		holder = kachari019 #Lakshminarayana
 	}
 	1037.1.1 = {
-		holder = chutia020 #Balavarman
+		holder = kachari020 #Balavarman
 	}
 
 	1089.1.1 = {

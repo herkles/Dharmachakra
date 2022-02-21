@@ -179,9 +179,7 @@
 	holding = tribal_holding
 	
 	# History
-	1066.1.1 = {
-		religion = koyapunem
-	}
+
 
 }
 
@@ -189,25 +187,34 @@
 1165 = {	# 1165 - Bandhugadha
 	
 	# Misc
-	culture = awadhi
-	religion = mahayana
+	culture = gond
+	religion = koyapunem
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
-
+	1066.1.1 = {
+		holding = castle_holding
+		culture = awadhi
+		religion = vaishnavism
+	}
 }
 
 # 1271 - Tripuri
 1271 = {	# 1271 - Tripuri
 	
 	# Misc
-	culture = awadhi
-	religion = vaishnavism
+	culture = gond
+	religion = koyapunem
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
+	1066.1.1 = {
+		holding = castle_holding
+		culture = awadhi
+		religion = vaishnavism
+	}
 
 }
 
@@ -234,7 +241,7 @@
 	culture = nagpuri
 	religion = vaishnavism
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 
