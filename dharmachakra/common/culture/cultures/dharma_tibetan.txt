@@ -190,30 +190,6 @@ tripuri = { # Tripuri
 		10 = asian
 	}
 }
-chutia = { # Chutia
-	color = { 0 35 102 }
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_tibetan
-	language = language_kachari
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_isolationist	
-		tradition_jungle_warriors
-		tradition_sacred_groves
-	}
-	
-	name_list = name_list_chutia
-
-	coa_gfx = { tibetan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-	ethnicities = {
-		10 = asian
-	}
-}
 meitei = { # Meitei
 	color = hsv{ 0.59 0.55 0.8 }
 	

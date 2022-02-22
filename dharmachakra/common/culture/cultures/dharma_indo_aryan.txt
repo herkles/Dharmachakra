@@ -408,32 +408,6 @@ braj = {# braj
 		10 = indian
 	}
 }
-saurashtra = {# saurashtra transfer to divergent culture
-	color = { 255 8 0 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_sauraseni
-	martial_custom = martial_custom_male_only
-	traditions = {
-		
-		tradition_vegetarianism
-		tradition_religion_blending
-		tradition_seafaring
-		tradition_esteemed_hospitality
-	}
-
-	name_list = name_list_saurashtra
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
-	ethnicities = {
-		10 = indian
-	}
-}
 bhil = {# bhil
 	color = { 202 52 51 }
 	
@@ -497,31 +471,6 @@ sambalpuri = {# sambalpuri
 	}
 
 	name_list = name_list_sambalpuri
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
-	ethnicities = {
-		10 = indian
-	}
-}
-kumaoni = {# kumaoni moving this to divergent cultures
-	color = { 240 128 128 }
-	
-	ethos = ethos_communal
-	heritage = heritage_indo_aryan
-	language = language_nepali
-	martial_custom = martial_custom_male_only
-	traditions = {
-		
-		tradition_himalayan_settlers
-		tradition_martial_admiration
-		tradition_religious_patronage
-	}
-
-	name_list = name_list_kumaoni
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
