@@ -1,5 +1,5 @@
 ﻿#######################################
-# Court Chaplain Terms
+# Religious Holding Terms
 #######################################
 # Bon
 baron_theocracy_male_bon_religion = {
@@ -1335,7 +1335,7 @@ duchy_sindhi_independent = {
 	top_liege = no
 	only_independent = yes
 }
-kingdom_sindhi={
+kingdom_sindhi = {
 	type= title
 	tier = kingdom
 	priority = 143

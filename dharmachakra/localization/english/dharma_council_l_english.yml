@@ -1,4 +1,24 @@
 ﻿l_english:
+# Council Terms
+ dharma_councillor_chancellor:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
+ dharma_councillor_steward:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
+ dharma_councillor_marshal:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
+ dharma_councillor_spymaster:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
+
+ councillor_chancellor:0 "Chancellor"
+ councillor_chancellor_possessive:0 "$dharma_councillor_chancellor$'s"
+ councillor_steward:0 "Steward"
+ councillor_steward_possessive:0 "$dharma_councillor_steward$'s"
+ councillor_marshal:0 "Marshal"
+ councillor_marshal_possessive:0 "$dharma_councillor_marshal$'s"
+ councillor_spymaster:0 "Spymaster"
+ councillor_spymaster_possessive:0 "$dharma_councillor_spymaster$'s"
+
+ dharma_councillor_chancellor: "[ROOT.Char.Custom('CouncilPositionChancellor')]"
+ dharma_councillor_steward: "[ROOT.Char.Custom('CouncilPositionSteward')]"
+ dharma_councillor_marshal: "[ROOT.Char.Custom('CouncilPositionMarshal')]"
+ dharma_councillor_spymaster: "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
+
 #######################################
 # Court Chaplain Terms
 #######################################
@@ -83,6 +103,15 @@
  councillor_court_chaplain_taoism_religion_kingdom_possessive:0 "High Libationer's"
 
 #######################################
+# fall back
+# For everyone else
+#######################################
+  councillor_chancellor_default:0 "Chancellor" 
+  councillor_steward_default:0 "Steward"
+  councillor_marshal_default:0 "Marshal"
+  councillor_spymaster_default:0 "Spymaster"
+
+#######################################
 # Pratihara Officials
 # For the cultures of pratihara Empire
 #######################################
@@ -91,16 +120,16 @@
   councillor_marshal_pratihara_possessive:0 "Baladhikrita's"
 
   # Chancellor
-  councillor_marshal_pratihara:0 "Rastrapati"
-  councillor_marshal_pratihara_possessive:0 "Rastrapati's"
+  councillor_chancellor_pratihara:0 "Rastrapati"
+  councillor_chancellor_pratihara_possessive:0 "Rastrapati's"
 
   # Steward
-  councillor_marshal_pratihara:0 "Kosahigarahivai"
-  councillor_marshal_pratihara_possessive:0 "Kosahigarahivai's"
+  councillor_steward_pratihara:0 "Kosahigarahivai"
+  councillor_steward_pratihara_possessive:0 "Kosahigarahivai's"
 
   # Spymaster - Head of the Pratihara's Police
-  councillor_marshal_pratihara:0 "Dandapasika"
-  councillor_marshal_pratihara_possessive:0 "Dandapasika's"
+  councillor_spymaster_pratihara:0 "Dandapasika"
+  councillor_spymaster_pratihara_possessive:0 "Dandapasika's"
 
 #######################################
 # Pala Officials
@@ -111,56 +140,56 @@
   councillor_marshal_pala_possessive:0 "Rajasthaniya's"
 
   # Chancellor - Foreign Minister
-  councillor_marshal_pala:0 "Mahasandhi-Vigrahika"
-  councillor_marshal_pala_possessive:0 "Mahasandhi-Vigrahika's"
+  councillor_chancellor_pala:0 "Mahasandhi-Vigrahika"
+  councillor_chancellor_pala_possessive:0 "Mahasandhi-Vigrahika's"
 
   # Steward - Head of the empire's tax collection
-  councillor_marshal_pala:0 "Sasthadhikrta"
-  councillor_marshal_pala_possessive:0 "Sasthadhikrta's"
+  councillor_steward_pala:0 "Sasthadhikrta"
+  councillor_steward_pala_possessive:0 "Sasthadhikrta's"
 
   # Spymaster - Head of the Secret Service
-  councillor_marshal_pala:0 "Khola"
-  councillor_marshal_pala_possessive:0 "Khola's"
+  councillor_spymaster_pala:0 "Khola"
+  councillor_spymaster_pala_possessive:0 "Khola's"
 
 #######################################
 # Rashtrakuta Council
 # For Deccan Cultures
 #######################################
   # Marshal
-  councillor_marshal_deccan:0 "Marshal"
-  councillor_marshal_deccan_possessive:0 "Marshal's"
+  councillor_marshal_deccan:0 "Dandanayaka"
+  councillor_marshal_deccan_possessive:0 "Dandanayaka's"
 
   # Chancellor
-  councillor_marshal_deccan:0 "Marshal"
-  councillor_marshal_deccan_possessive:0 "Marshal's"
+  councillor_chancellor_deccan:0 "Pratinidhi"
+  councillor_chancellor_deccan_possessive:0 "Pratinidhi's"
 
   # Steward
-  councillor_marshal_deccan:0 "Marshal"
-  councillor_marshal_deccan_possessive:0 "Marshal's"
+  councillor_steward_deccan:0 "Bhandagarika"
+  councillor_steward_deccan_possessive:0 "Bhandagarika's"
 
   # Spymaster
-  councillor_marshal_deccan:0 "Marshal"
-  councillor_marshal_deccan_possessive:0 "Marshal's"
+  councillor_spymaster_deccan:0 "Choroddharanika"
+  councillor_spymaster_deccan_possessive:0 "Choroddharanika's"
 
 #######################################
 # Chola Council
-# For Dravidian Cultures
+# For chola Cultures
 #######################################
   # Marshal - Commander of Troops
-  councillor_marshal_dravidian:0 "Senapati"
-  councillor_marshal_dravidian_possessive:0 "Senapati's"
+  councillor_marshal_chola:0 "Senapati"
+  councillor_marshal_chola_possessive:0 "Senapati's"
 
   # Chancellor
-  councillor_marshal_dravidian:0 "Tirumantira-Olai"
-  councillor_marshal_dravidian_possessive:0 "Tirumantira-Olai's"
+  councillor_chancellor_chola:0 "Tirumantira-Olai"
+  councillor_chancellor_chola_possessive:0 "Tirumantira-Olai's"
 
   # Steward - Register of Revenue
-  councillor_marshal_dravidian:0 "Variputtaka-Kanakku"
-  councillor_marshal_dravidian_possessive:0 "Variputtaka-Kanakku's"
+  councillor_steward_chola:0 "Variputtaka-Kanakku"
+  councillor_steward_chola_possessive:0 "Variputtaka-Kanakku's"
 
   # Spymaster
-  councillor_marshal_dravidian:0 "Mudhal-Orran"
-  councillor_marshal_dravidian_possessive:0 "Mudhal-Orran's"
+  councillor_spymaster_chola:0 "Mudhal-Orran"
+  councillor_spymaster_chola_possessive:0 "Mudhal-Orran's"
 
 #######################################
 # Somavamsi Council
@@ -171,136 +200,80 @@
   councillor_marshal_oriya_possessive:0 "Samantavigrahika's"
 
   # Chancellor - adminstration of land
-  councillor_marshal_oriya:0 "Niyukta"
-  councillor_marshal_oriya_possessive:0 "Niyukta's"
+  councillor_chancellor_oriya:0 "Niyukta"
+  councillor_chancellor_oriya_possessive:0 "Niyukta's"
 
   # Steward - Collector of Revenue and Taxes
-  councillor_marshal_oriya:0 "Samahatri"
-  councillor_marshal_oriya_possessive:0 "Samahatri's"
+  councillor_steward_oriya:0 "Samahatri"
+  councillor_steward_oriya_possessive:0 "Samahatri's"
 
   # Spymaster - In Charge of the Security of the Somavamsi Kingdom
-  councillor_marshal_oriya:0 "Dandapasika"
-  councillor_marshal_oriya_possessive:0 "Dandapasika's"
+  councillor_spymaster_oriya:0 "Dandapasika"
+  councillor_spymaster_oriya_possessive:0 "Dandapasika's"
 
 #######################################
-# Punjabi Adminstration
-# For the Punjabi cultures
-#######################################
-  # Marshal
-  councillor_marshal_punjabi:0 "Marshal"
-  councillor_marshal_punjabi_possessive:0 "Marshal's"
-
-  # Chancellor
-  councillor_marshal_punjabi:0 "Marshal"
-  councillor_marshal_punjabi_possessive:0 "Marshal's"
-
-  # Steward
-  councillor_marshal_punjabi:0 "Marshal"
-  councillor_marshal_punjabi_possessive:0 "Marshal's"
-
-  # Spymaster
-  councillor_marshal_punjabi:0 "Marshal"
-  councillor_marshal_punjabi_possessive:0 "Marshal's"
-
-#######################################
-# Sindhi Adminstration
-# For Sindhi
+# Sinhala Adminstration
+# For Sinhala
 #######################################
   # Marshal
-  councillor_marshal_sindhi:0 "Marshal"
-  councillor_marshal_sindhi_possessive:0 "Marshal's"
+  councillor_marshal_sinhala:0 "Senevirad"
+  councillor_marshal_sinhala_possessive:0 "Senevirad's"
 
   # Chancellor
-  councillor_marshal_sindhi:0 "Marshal"
-  councillor_marshal_sindhi_possessive:0 "Marshal's"
+  councillor_chancellor_sinhala:0 "Mahasandivigahi"
+  councillor_chancellor_sinhala_possessive:0 "Mahasandivigahi's"
 
   # Steward
-  councillor_marshal_sindhi:0 "Marshal"
-  councillor_marshal_sindhi_possessive:0 "Marshal's"
+  councillor_steward_sinhala:0 "Badakariya"
+  councillor_steward_sinhala_possessive:0 "Badakariya's"
 
   # Spymaster
-  councillor_marshal_sindhi:0 "Marshal"
-  councillor_marshal_sindhi_possessive:0 "Marshal's"
+  councillor_spymaster_sinhala:0 "Rahasadikulava"
+  councillor_spymaster_sinhala_possessive:0 "Rahasadikulava's"
 
 #######################################
 # Kashmiri Adminstration
 # For Kashmiri
 #######################################
   # Marshal
-  councillor_marshal_kashmiri:0 "Marshal"
-  councillor_marshal_kashmiri_possessive:0 "Marshal's"
+  councillor_marshal_kashmiri:0 "Kampanesa"
+  councillor_marshal_kashmiri_possessive:0 "Kampanesa's"
 
   # Chancellor
-  councillor_marshal_kashmiri:0 "Marshal"
-  councillor_marshal_kashmiri_possessive:0 "Marshal's"
+  councillor_chancellor_kashmiri:0 "Mahasandhivigrahika"
+  councillor_chancellor_kashmiri_possessive:0 "Mahasandhivigrahika's"
 
   # Steward
-  councillor_marshal_kashmiri:0 "Marshal"
-  councillor_marshal_kashmiri_possessive:0 "Marshal's"
+  councillor_steward_female_kashmiri:0 "Grhakrtyadhipatni"
+  councillor_steward_female_kashmiri_possessive:0 "Grhakrtyadhipatni's"
+
+  councillor_steward_male_kashmiri:0 "Grhakrtyadhipati"
+  councillor_steward_male_kashmiri_possessive:0 "Grhakrtyadhipati's"
 
   # Spymaster
-  councillor_marshal_kashmiri:0 "Marshal"
-  councillor_marshal_kashmiri_possessive:0 "Marshal's"
+  councillor_spymaster_kashmiri:0 "Rahasadhikrta"
+  councillor_spymaster_kashmiri_possessive:0 "Rahasadhikrta's"
 
 #######################################
 # Nepali Adminstration
-# For Tibetan
+# For Nepali cultures
 #######################################
   # Marshal
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
+  councillor_marshal_nepali:0 "Mahabalahigara"
+  councillor_marshal_nepali_possessive:0 "Mahabalahigara's"
 
   # Chancellor
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
+  councillor_chancellor_nepali:0 "Mahasandivigahi"
+  councillor_chancellor_nepali_possessive:0 "Mahasandivigahi's"
 
   # Steward
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
+  councillor_steward_nepali:0 "Bhamdari"
+  councillor_steward_nepali_possessive:0 "Bhamdari's"
 
   # Spymaster
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
+  councillor_spymaster_nepali:0 "Pekhaka"
+  councillor_spymaster_nepali_possessive:0 "Pekhaka's"
 
-#######################################
-# Lhoman Adminstration
-# For Tibetan
-#######################################
-  # Marshal
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
-
-  # Chancellor
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
-
-  # Steward
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
-
-  # Spymaster
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
-
-#######################################
-# Tibetan Adminstration
-# For Tibetan
-#######################################
-  # Marshal
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
-
-  # Chancellor
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
-
-  # Steward
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
-
-  # Spymaster
-  councillor_marshal_tibetan:0 "Marshal"
-  councillor_marshal_tibetan_possessive:0 "Marshal's"
 
 
 
