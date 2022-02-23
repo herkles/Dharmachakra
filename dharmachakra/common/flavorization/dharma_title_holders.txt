@@ -371,7 +371,7 @@ baron_male_pratihara = {
 	tier = barony
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 baron_female_pratihara = {
@@ -381,7 +381,7 @@ baron_female_pratihara = {
 	tier = barony
 	priority = 103
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 count_male_pratihara = {
@@ -391,7 +391,7 @@ count_male_pratihara = {
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 count_female_pratihara = {
@@ -401,7 +401,7 @@ count_female_pratihara = {
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 count_male_pratihara_independent = {
@@ -411,7 +411,7 @@ count_male_pratihara_independent = {
 	tier = county
 	priority = 114
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 	only_independent = yes
 }
@@ -422,7 +422,7 @@ count_female_pratihara_independent = {
 	tier = county
 	priority = 114
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 	only_independent = yes
 }
@@ -433,7 +433,7 @@ duke_male_pratihara = {
 	tier = duchy
 	priority = 123
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 duke_female_pratihara = {
@@ -443,7 +443,7 @@ duke_female_pratihara = {
 	tier = duchy
 	priority = 123
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 duke_male_pratihara_independent = {
@@ -453,7 +453,7 @@ duke_male_pratihara_independent = {
 	tier = duchy
 	priority = 124
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 	only_independent = yes
 }
@@ -464,7 +464,7 @@ duke_female_pratihara_independent_holder = {
 	tier = duchy
 	priority = 125
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 	only_independent = yes
 	only_holder = yes
@@ -476,7 +476,7 @@ duke_female_pratihara_independent = {
 	tier = duchy
 	priority = 124
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 	only_independent = yes
 }
@@ -487,7 +487,7 @@ king_male_pratihara = {
 	tier = kingdom
 	priority = 143
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 king_female_pratihara = {
@@ -497,7 +497,7 @@ king_female_pratihara = {
 	tier = kingdom
 	priority = 143
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 king_female_pratihara_holder = {
@@ -507,7 +507,7 @@ king_female_pratihara_holder = {
 	tier = kingdom
 	priority = 143
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 	only_holder = yes
 }
@@ -518,7 +518,7 @@ emperor_male_pratihara = {
 	tier = empire
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 emperor_female_pratihara = {
@@ -528,7 +528,7 @@ emperor_female_pratihara = {
 	tier = empire
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 emperor_female_pratihara_holder = {
@@ -538,7 +538,7 @@ emperor_female_pratihara_holder = {
 	tier = empire
 	priority = 154
 	governments = { feudal_government clan_government tribal_government republic_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 barony_castle_pratihara = {
@@ -546,7 +546,7 @@ barony_castle_pratihara = {
 	tier = barony
 	priority = 103
 	holding = castle_holding
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 county_pratihara = {
@@ -554,7 +554,7 @@ county_pratihara = {
 	tier = county
 	priority = 113
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 county_pratihara_independent = {
@@ -562,7 +562,7 @@ county_pratihara_independent = {
 	tier = county
 	priority = 114
 	governments = { feudal_government clan_government tribal_government }
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 	only_independent = yes
 }
@@ -571,7 +571,7 @@ duchy_pratihara = {
 	tier = duchy
 	priority = 123
 	governments = { feudal_government clan_government tribal_government}
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 duchy_pratihara_independent = {
@@ -579,7 +579,7 @@ duchy_pratihara_independent = {
 	tier = duchy
 	priority = 124
 	governments = { feudal_government clan_government tribal_government}
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 	only_independent = yes
 }
@@ -588,7 +588,7 @@ kingdom_pratihara = {
 	tier = kingdom
 	priority = 143
 	governments = { feudal_government clan_government tribal_government}
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 empire_pratihara = {
@@ -596,7 +596,7 @@ empire_pratihara = {
 	tier = empire
 	priority = 153
 	governments = { feudal_government clan_government tribal_government republic_government } ##I assume theocracy was a typo here.
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	top_liege = no
 }
 title_prince_male_pratihara = {
@@ -605,7 +605,7 @@ title_prince_male_pratihara = {
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	governments = { feudal_government clan_government tribal_government }
 }
 title_prince_female_pratihara = {
@@ -614,7 +614,7 @@ title_prince_female_pratihara = {
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	governments = { feudal_government clan_government tribal_government }
 }
 title_prince_male_pratihara_empire = {
@@ -623,7 +623,7 @@ title_prince_male_pratihara_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
 title_prince_female_pratihara_empire = {
@@ -632,7 +632,7 @@ title_prince_female_pratihara_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
 queen_mother_pratihara = {
@@ -641,7 +641,7 @@ queen_mother_pratihara = {
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	governments = { feudal_government clan_government tribal_government }
 }
 empress_mother_pratihara = {
@@ -650,7 +650,7 @@ empress_mother_pratihara = {
 	special = queen_mother
 	tier = empire
 	priority = 150
-	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
 #######################################
@@ -1979,6 +1979,391 @@ barony_tribe_oriya = {
 	priority = 103
 	holding = tribal_holding
 	name_lists = { name_list_oriya name_list_sambalpuri }
+	top_liege = no
+}
+#######################################
+# Sinhala Adminstration
+# For Sinhala
+#######################################
+baron_male_sinhala = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+baron_female_sinhala = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+count_male_sinhala = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+count_female_sinhala = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+count_male_sinhala_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_independent = yes
+}
+count_female_sinhala_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_independent = yes
+}
+duke_male_sinhala = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+duke_female_sinhala = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+duke_male_sinhala_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_sinhala_independent_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_independent = yes
+	only_holder = yes
+}
+duke_female_sinhala_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_independent = yes
+}
+king_male_sinhala = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+king_female_sinhala = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+king_female_sinhala_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_holder = yes
+}
+emperor_male_sinhala = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+emperor_female_sinhala = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+emperor_female_sinhala_holder = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { feudal_government clan_government tribal_government republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+barony_castle_sinhala = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = castle_holding
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+county_sinhala = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+county_sinhala_independent = {
+	type = title
+	tier = county
+	priority = 114
+	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_independent = yes
+}
+duchy_sinhala = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government}
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+duchy_sinhala_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	governments = { feudal_government clan_government tribal_government}
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_independent = yes
+}
+kingdom_sinhala={
+	type= title
+	tier = kingdom
+	priority = 143
+	governments = { feudal_government clan_government tribal_government}
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+empire_sinhala = {
+	type = title
+	tier = empire
+	priority = 153
+	governments = { feudal_government clan_government tribal_government republic_government } ##I assume theocracy was a typo here.
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+title_prince_male_sinhala = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_sinhala }
+	governments = { feudal_government clan_government tribal_government }
+}
+title_prince_female_sinhala = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_sinhala }
+	governments = { feudal_government clan_government tribal_government }
+}
+title_prince_male_sinhala_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 150
+	name_lists = { name_list_sinhala }
+	governments = { feudal_government clan_government tribal_government republic_government }
+}
+title_prince_female_sinhala_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 150
+	name_lists = { name_list_sinhala }
+	governments = { feudal_government clan_government tribal_government republic_government }
+}
+queen_mother_sinhala = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_sinhala }
+	governments = { feudal_government clan_government tribal_government }
+}
+empress_mother_sinhala = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	name_lists = { name_list_sinhala }
+	governments = { feudal_government clan_government tribal_government republic_government }
+}
+baron_republic_male_sinhala = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_sinhala = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_sinhala = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_sinhala = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_sinhala = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+	only_holder = yes
+}
+barony_city_sinhala = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = city_holding
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+county_republic_sinhala = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+duchy_republic_sinhala = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+kingdom_republic_sinhala = {
+	type = title
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_sinhala }
+	top_liege = no
+}
+barony_tribe_sinhala = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
+	name_lists = { name_list_sinhala }
 	top_liege = no
 }
 #######################################
@@ -3662,8 +4047,520 @@ empress_mother_bodpa ={
 	governments = { feudal_government clan_government tribal_government republic_government }
 	top_liege = no
 }
-
-
+#######################################
+# Burmese Adminstration
+# For Burmese and Rahkine
+#######################################
+baron_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { republic_government feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_castle_burmese = {
+	type = title
+	tier = barony
+	priority = 103
+	name_lists = { name_list_burmese name_list_rakhine }
+	holding = castle_holding
+	top_liege = no
+}
+barony_tribe_burmese = {
+	type = title
+	tier = barony
+	priority = 103
+	name_lists = { name_list_burmese name_list_rakhine }
+	holding = tribal_holding
+	top_liege = no
+}
+barony_city_burmese = {
+	type = title
+	tier = barony
+	priority = 103
+	name_lists = { name_list_burmese name_list_rakhine }
+	holding = city_holding
+	top_liege = no
+}
+count_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_male_burmese_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 114
+	tier = county
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+count_female_burmese_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 114
+	tier = county
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+county_burmese = {
+	type = title
+	priority = 113
+	tier = county
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_burmese = {
+	type = title
+	tier = duchy
+	priority = 123
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_burmese_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 124
+	tier = duchy
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+duke_female_burmese_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 124
+	tier = duchy
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+duchy_burmese_independent = {
+	type = title
+	priority = 124
+	tier = duchy
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	only_independent = yes
+	top_liege = no
+}
+king_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_holder_burmese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 144
+	tier = kingdom
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+king_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_burmese = {
+	type = title
+	priority = 143
+	tier = kingdom
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_burmese = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+emperor_female_burmese = {
+	type = character
+	gender = female
+	special = holder
+	priority = 153
+	tier = empire
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_burmese = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_burmese = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_burmese ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+empress_mother_burmese ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	priority = 150
+	name_lists = { name_list_burmese name_list_rakhine }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+#######################################
+# Mon Adminstration
+# For Mon
+#######################################
+baron_mon = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 104
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+	only_holder = yes
+}
+baron_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+baron_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_castle_mon = {
+	type = title
+	tier = barony
+	priority = 103
+	name_lists = { name_list_mon }
+	holding = castle_holding
+	top_liege = no
+}
+count_mon = {
+	type = character
+	special = holder
+	priority = 114
+	tier = county
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+count_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	priority = 113
+	tier = county
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	priority = 113
+	tier = county
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+county_mon = {
+	type = title
+	priority = 113
+	tier = county
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+count_mon_independent = {
+	type = character
+	special = holder
+	priority = 115
+	tier = county
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duke_mon = {
+	type = character
+	special = holder
+	priority = 124
+	tier = duchy
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+}
+duke_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	priority = 123
+	tier = duchy
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	priority = 123
+	tier = duchy
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duchy_mon = {
+	type = title
+	priority = 123
+	tier = duchy
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+duke_male_mon_independent = {
+	type = character
+	gender = male
+	special = holder
+	priority = 125
+	tier = duchy
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duke_female_holder_mon_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 126
+	tier = duchy
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_holder = yes
+	only_independent = yes
+}
+duke_female_mon_independent = {
+	type = character
+	gender = female
+	special = holder
+	priority = 125
+	tier = duchy
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+duchy_mon_independent = {
+	type = title
+	priority = 123
+	tier = duchy
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+	only_independent = yes
+}
+king_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	priority = 143
+	tier = kingdom
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_holder_mon = {
+	type = character
+	gender = female
+	special = holder
+	priority = 144
+	tier = kingdom
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+king_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	priority = 143
+	tier = kingdom
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+kingdom_mon = {
+	type = title
+	priority = 143
+	tier = kingdom
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+emperor_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	priority = 153
+	tier = empire
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government republic_government }
+	top_liege = no
+}
+title_prince_male_mon = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+title_prince_female_mon = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+queen_mother_mon ={
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	priority = 130
+	name_lists = { name_list_mon }
+	governments = { feudal_government clan_government tribal_government }
+	top_liege = no
+}
+barony_city_mon = {
+	type = title
+	tier = barony
+	priority = 103
+	name_lists = { name_list_mon }
+	holding = city_holding
+	top_liege = no
+}
 
 
 

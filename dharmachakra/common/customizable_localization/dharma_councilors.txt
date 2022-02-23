@@ -80,6 +80,21 @@ CouncilPositionChancellor = {
 		}
 		localization_key = councillor_chancellor_nepali
 	}
+	text = {# Burmese
+		trigger = {
+			OR = {
+				liege.culture = { has_name_list = name_list_burmese }
+				liege.culture = { has_name_list = name_list_rakhine }
+			}
+		}
+		localization_key = councillor_marshal_burmese
+	}
+	text = {# Mon
+		trigger = {
+			liege.culture = { has_name_list = name_list_mon }
+		}
+		localization_key = councillor_marshal_mon
+	}
 	text = {# Fall Back
 		localization_key = councillor_chancellor_default
 		fallback = yes

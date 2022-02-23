@@ -274,6 +274,28 @@
   councillor_spymaster_nepali:0 "Pekhaka"
   councillor_spymaster_nepali_possessive:0 "Pekhaka's"
 
+#######################################
+# Burmese Adminstration
+# For Burmese cultures
+#######################################
+  # Marshal
+  councillor_marshal_burmese:0 "Cac Sūkrī"
+
+  # Chancellor
+  councillor_chancellor_nepali:0 "Mahasandivigahi"
+
+  # Steward
+  councillor_steward_nepali:0 "Bhamdari"
+
+  # Spymaster
+  councillor_spymaster_nepali:0 "Pekhaka"
+
+#######################################
+# Mon Adminstration
+# For Mon cultures
+#######################################
+  # Marshal
+  councillor_marshal_mon:0 "Smiṅ Buiw"
 
 
 

@@ -69,7 +69,7 @@
   baron_female_pala:0 "Bhayavalani"
   barony_pala:0 "Bhaya"
 
-  count_male_bengali:0 "Sāmanta"
+  count_male_bengali:0 "Samanta"
   count_female_bengali:0 "Samantani"
   county_bengali:0 "Bisaya"
   
@@ -83,14 +83,14 @@
   duchy_pala:0 "[CHARACTER.Custom('DuchyPala')]"
   marquess_pala:0 "Pantavala"
   march_pala:0 "Pantaēsa"
-  palatine_pala:0 "Rayathanī"
+  palatine_pala:0 "Rayathani"
   duke_default_male_pala:0 "Mahasamanta"
   duke_default_female_pala:0 "Mahasamantani"
   duchy_default_pala:0 "Vukiti"
 
   duke_male_pala_independent_holder:0 "Maharaya"
   duke_male_pala_independent:0 "Mahaëva"
-  duke_female_pala_independent_holder:0 "Maharanī"
+  duke_female_pala_independent_holder:0 "Maharani"
   duke_female_pala_independent:0 "Mahaevi"
   duchy_pala_independent:0 "[CHARACTER.Custom('PalaIndepDuchy')]"
   independent_duchy_pala:0 "Maharaja"
@@ -302,7 +302,7 @@
   sultan_prince_male_oriya:0 "Sahajada"
   sultan_prince_female_oriya:0 "Sahajadi"
   prince_default_male_oriya:0 "Rayauamra"
-  prince_default_female_oriya:0 "Rayaumarī"
+  prince_default_female_oriya:0 "Rayaumari"
   title_prince_male_oriya_empire:0 "Maharayauamra"
   title_prince_female_oriya_empire:0 "Maharayauamri"
   queen_mother_oriya:0 "[CHARACTER.Custom('QueenMOriya')]"
@@ -381,6 +381,8 @@
   kingdom_republic_sinhala:0 "Saga"
   
   barony_tribe_sinhala:0 "$barony_castle_sinhala$"
+
+
 #######################################
 # Sindhi Adminstration
 # For Sindhi
@@ -465,7 +467,7 @@
    duchy_default_kashmiri:0 "Mandala"
    
    duke_male_kashmiri_independent:0 "Maharaja"
-   duke_female_kashmiri_independent_holder:0 "Maharajñi"
+   duke_female_kashmiri_independent_holder:0 "Maharajni"
    duke_female_kashmiri_independent:0 "Mahayevi"
    duchy_kashmiri_independent:0 "[CHARACTER.Custom('KashmiriIndepDuchy')]"
    independent_duchy_kashmiri:0 "Maharajya"
@@ -664,6 +666,91 @@
    emperor_male_zhangzhung:0 "Tse Mig"
    emperor_female_zhangzhung:0 "Tse Mig"
    empire_zhangzhung:0 "$kingdom_zhangzhung$"
+
+
+#######################################
+# Burmese Adminstration
+# For Burmese
+#######################################
+  baron_male_burmese:0 "Mruiw Sukri"
+  baron_female_burmese:0 "Mruiw Sukri"
+  barony_castle_burmese:0 "Mruiw"
+  barony_tribe_burmese:0 "Mruiw"
+  barony_city_burmese:0 "Mruiw"
+  
+  count_male_burmese:0 "Saṁben"
+  count_female_burmese:0 "Saṁben"
+  county_burmese:0 "Tuin"
+
+  count_male_burmese_independent:0 "Man"
+  count_female_burmese_independent:0 "Man"
+  
+  duke_male_burmese:0 "[CHARACTER.Custom('DukeMaleBurmese')]"
+  duke_female_burmese:0 "[CHARACTER.Custom('DukeMaleBurmese')]"
+  duchy_burmese:0 "[CHARACTER.Custom('DuchyBurmese')]"
+  marquess_burmese:0 "Tuik Sukri"
+  march_burmese:0 "Tuik"
+  duke_default_male_burmese:0 "Man Nay"
+  duchy_default_burmese:0 "Khwan"
+  
+  duke_male_burmese_independent:0 "Man"
+  duke_female_burmese_independent:0 "Man"
+  duchy_burmese_independent:0 "[CHARACTER.Custom('BurmeseIndepDuchy')]"
+  
+  king_male_burmese:0 "Man Kri"
+  king_female_holder_burmese:0 "Bhuranma"
+  king_female_burmese:0 "Man Nhama To"
+  kingdom_burmese:0 "Pran"
+  
+  emperor_male_burmese:0 "Ekaraj"
+  emperor_female_burmese:0 "Ekari"
+  
+  title_prince_male_burmese:0 "[CHARACTER.Custom('PrinceBurman')]"
+  title_prince_female_burmese:0 "Man Sami"
+  prince_default_male_burman:0 "Man Sa"
+  queen_mother_burmese:0 "$king_female_burmese$"
+  empress_mother_burmese:0 "$emperor_female_burmese$"
+  burman_primary_heir:0 "İm-Rhiy-Man"
+
+#######################################
+# Mon Adminstration
+# For Mon
+#######################################
+  baron_mon:0 "Smin"
+  baron_male_mon:0 "Man"
+  baron_female_mon:0 "Ya"
+  barony_castle_mon:0 "Dun"
+  
+  count_mon:0 "Samben"
+  count_male_mon:0 "Man"
+  count_female_mon:0 "Ya"
+  county_mon:0 "Ras"
+  
+  count_mon_independent:0 "Bana"
+  
+  duke_mon:0 "Bana"
+  duke_male_mon:0 "Man"
+  duke_female_mon:0 "Ya"
+  duchy_mon:0 "Dun Jnok"
+  
+  duke_male_mon_independent:0 "Gna Smin"
+  duke_female_holder_mon_independent:0 "Gna Smin"
+  duke_female_mon_independent:0 "Gna Kyak"
+  duchy_mon_independent:0 "[CHARACTER.Custom('MonIndepDuchy')]"
+  
+  king_male_mon:0 "Gna Smin"
+  king_female_holder_mon:0 "Gna Smin"
+  king_female_mon:0 "Gna Kyak"
+  kingdom_mon:0 "Kirmin"
+  
+  emperor_male_mon:0 "Rajadhirat"
+  
+  title_prince_male_mon:0 "Banna"
+  title_prince_female_mon:0 "$title_prince_male_mon$"
+  queen_mother_mon:0 "$king_female_mon$"
+  
+  barony_city_mon:0 "Twan"
+
 
 #######################################
 # Fallback Options
