@@ -58,7 +58,7 @@ CouncilPositionChancellor = {
 	text = {# Sinhala Chancellor
 		trigger = {
 			OR = {
-				liege.culture = { has_name_list = sinhala }
+				liege.culture = { has_name_list = name_list_sinhala }
 			}
 		}
 		localization_key = councillor_chancellor_sinhala
@@ -160,7 +160,7 @@ CouncilPositionSteward = {
 	text = {# Sinhala Chancellor
 		trigger = {
 			OR = {
-				liege.culture = { has_name_list = sinhala }
+				liege.culture = { has_name_list = name_list_sinhala }
 			}
 		}
 		localization_key = councillor_steward_sinhala
@@ -272,7 +272,7 @@ CouncilPositionMarshal = {
 	text = {# Sinhala Chancellor
 		trigger = {
 			OR = {
-				liege.culture = { has_name_list = sinhala }
+				liege.culture = { has_name_list = name_list_sinhala }
 			}
 		}
 		localization_key = councillor_marshal_sinhala
@@ -342,7 +342,7 @@ CouncilPositionSpymaster = {
 	text = {# Sinhala Chancellor
 		trigger = {
 			OR = {
-				liege.culture = { has_name_list = sinhala }
+				liege.culture = { has_name_list = name_list_sinhala }
 			}
 		}
 		localization_key = councillor_spymaster_sinhala

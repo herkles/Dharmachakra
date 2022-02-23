@@ -73,9 +73,9 @@
   count_female_bengali:0 "Samantani"
   county_bengali:0 "Bisaya"
   
-  count_male_bengali_independent:0 "Raya"
-  count_female_bengali_independent:0 "Rani"
-  county_bengali_independent:0 "[CHARACTER.Custom('BengaliIndepCounty')]"
+  count_male_pala_independent:0 "Raya"
+  count_female_pala_independent:0 "Rani"
+  county_pala_independent:0 "[CHARACTER.Custom('PalaIndepCounty')]"
   independent_county_bengali:0 "Raja"
 
   duke_male_pala:0 "[CHARACTER.Custom('DukeMalePala')]"
@@ -381,7 +381,6 @@
   kingdom_republic_sinhala:0 "Saga"
   
   barony_tribe_sinhala:0 "$barony_castle_sinhala$"
-
 
 #######################################
 # Sindhi Adminstration

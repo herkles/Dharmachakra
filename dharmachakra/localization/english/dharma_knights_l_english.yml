@@ -16,34 +16,46 @@
 # General Indo-Aryan Knights
 #######################################
  knight_indoaryan: "[Concept( 'knight', '$knight_no_tooltip_indoaryan$' )|E]"
- knight_no_tooltip_indoaryan: "Rāūta"
- knight_lower_indoaryan: "rāūta"
+ knight_no_tooltip_indoaryan: "Rauta"
+ knight_lower_indoaryan: "rauta"
  
  knight_plural_indoaryan: "[Concept( 'knight', '$knight_plural_no_tooltip_indoaryan$' )|E]"
- knight_plural_no_tooltip_indoaryan: "Rāūta"
- knight_plural_lower_indoaryan: "rāūta"
+ knight_plural_no_tooltip_indoaryan: "Rauta"
+ knight_plural_lower_indoaryan: "rauta"
 
 #######################################
 # Awadhi and Braj Knights
 #######################################
  knight_hindustani: "[Concept( 'knight', '$knight_no_tooltip_hindustani$' )|E]"
- knight_no_tooltip_hindustani: "Rāvata"
- knight_lower_hindustani: "rāvata"
+ knight_no_tooltip_hindustani: "Ravata"
+ knight_lower_hindustani: "ravata"
  
  knight_plural_hindustani: "[Concept( 'knight', '$knight_plural_no_tooltip_hindustani$' )|E]"
- knight_plural_no_tooltip_hindustani: "Rāvata"
- knight_plural_lower_hindustani: "rāvata"
+ knight_plural_no_tooltip_hindustani: "Ravata"
+ knight_plural_lower_hindustani: "ravata"
+
+#######################################
+# Punjabi Knights
+#######################################
+ knight_punjabi: "[Concept( 'knight', '$knight_no_tooltip_punjabi$' )|E]"
+ knight_no_tooltip_punjabi: "Rauta"
+ knight_lower_punjabi: "rauta"
+ 
+ knight_plural_punjabi: "[Concept( 'knight', '$knight_plural_no_tooltip_punjabi$' )|E]"
+ knight_plural_no_tooltip_punjabi: "Rauta"
+ knight_plural_lower_punjabi: "rauta"
+
 
 #######################################
 # Kashmiri Knights
 #######################################
  knight_kashmiri: "[Concept( 'knight', '$knight_no_tooltip_kashmiri$' )|E]"
- knight_no_tooltip_kashmiri: "Tantriṇ"
- knight_lower_kashmiri: "tantriṇ"
+ knight_no_tooltip_kashmiri: "Tantrin"
+ knight_lower_kashmiri: "tantrin"
  
  knight_plural_kashmiri: "[Concept( 'knight', '$knight_plural_no_tooltip_kashmiri$' )|E]"
- knight_plural_no_tooltip_kashmiri: "Tantriṇa"
- knight_plural_lower_kashmiri: "tantriṇa"
+ knight_plural_no_tooltip_kashmiri: "Tantrina"
+ knight_plural_lower_kashmiri: "tantrina"
 
 #######################################
 # Sinhala Knights
@@ -60,45 +72,45 @@
 # Nepali Knights
 #######################################
  knight_nepali: "[Concept( 'knight', '$knight_no_tooltip_nepali$' )|E]"
- knight_no_tooltip_nepali: "Rāuttarāya"
- knight_lower_nepali: "rāuttarāya"
+ knight_no_tooltip_nepali: "Rauttaraya"
+ knight_lower_nepali: "rauttaraya"
  
  knight_plural_nepali: "[Concept( 'knight', '$knight_plural_no_tooltip_nepali$' )|E]"
- knight_plural_no_tooltip_nepali: "Rāuttarāya"
- knight_plural_lower_nepali: "rāuttarāya"
+ knight_plural_no_tooltip_nepali: "Rauttaraya"
+ knight_plural_lower_nepali: "rauttaraya"
 
 #######################################
 # Tamil Knights
 #######################################
  knight_tamil: "[Concept( 'knight', '$knight_no_tooltip_tamil$' )|E]"
- knight_no_tooltip_tamil: "Vēlaikkārar"
- knight_lower_tamil: "vēlaikkārar"
+ knight_no_tooltip_tamil: "Velaikkarar"
+ knight_lower_tamil: "velaikkarar"
  
  knight_plural_tamil: "[Concept( 'knight', '$knight_plural_no_tooltip_tamil$' )|E]"
- knight_plural_no_tooltip_tamil: "Vēlaikkārargal"
- knight_plural_lower_tamil: "vēlaikkārargal"
+ knight_plural_no_tooltip_tamil: "Velaikkarargal"
+ knight_plural_lower_tamil: "velaikkarargal"
 
 #######################################
 # Telugu Knights
 #######################################
  knight_telugu: "[Concept( 'knight', '$knight_no_tooltip_telugu$' )|E]"
- knight_no_tooltip_telugu: "Nāyuḍu"
- knight_lower_telugu: "nāyuḍu"
+ knight_no_tooltip_telugu: "Nayudu"
+ knight_lower_telugu: "nayudu"
  
  knight_plural_telugu: "[Concept( 'knight', '$knight_plural_no_tooltip_telugu$' )|E]"
- knight_plural_no_tooltip_telugu: "Nāyulu"
- knight_plural_lower_telugu: "nāyulu"
+ knight_plural_no_tooltip_telugu: "Nayulu"
+ knight_plural_lower_telugu: "nayulu"
  
 #######################################
 # Kannada Knights
 #######################################
  knight_kannada: "[Concept( 'knight', '$knight_no_tooltip_kannada$' )|E]"
- knight_no_tooltip_kannada: "Velevāli"
- knight_lower_kannada: "velevāli"
+ knight_no_tooltip_kannada: "Velevali"
+ knight_lower_kannada: "velevali"
  
  knight_plural_kannada: "[Concept( 'knight', '$knight_plural_no_tooltip_kannada$' )|E]"
- knight_plural_no_tooltip_kannada: "Velevāligalu"
- knight_plural_lower_kannada: "velevāligalu"
+ knight_plural_no_tooltip_kannada: "Velevaligalu"
+ knight_plural_lower_kannada: "velevaligalu"
 
 #######################################
 # Default Knights
