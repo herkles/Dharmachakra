@@ -15,13 +15,12 @@
 	learning = 13
 	prowess = 8
 	# Education
-	trait = education_learning_4
+	trait = education_learning_3
 	# Personality
 	trait = compassionate
 	trait = just
 	trait = forgiving
-	# Lifestyle
-	trait = scholar
+
 	# Other
 	trait = poet
 	disallow_random_traits = yes
