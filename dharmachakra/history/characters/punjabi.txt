@@ -45,11 +45,11 @@
 }
 #######################################
 # Jhuti Dynasty
-#######################################
+####################################### 
 178022 = {
 	name = "Shamsher" # Fictional
 	dynasty = 1041122
-	religion = "vaishnavism"
+	religion = "suryaism"
 	culture = "punjabi"
 	834.1.1 = {
 		birth = "834.1.1"

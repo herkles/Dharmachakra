@@ -25,7 +25,7 @@
 	}
 }
 oriya = { # Indo-Aryan
-	color = { 0.8 0.4 0.0 }
+	color = {136 8 8 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
@@ -281,7 +281,7 @@ sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
 	}
 }
 nepali = { # (Newar, Garwhali, Kuamoni, Khasa, Gorkha, Tamangic, etc.)
-	color = nepali
+	color = { 164 90 82  }
 	
 	ethos = ethos_communal
 	heritage = heritage_indo_aryan
@@ -507,7 +507,7 @@ pahari = {# pahari
 	}
 }
 kamarupi = {# kamarupi
-	color = { 0.6 0.3 0.0 }
+	color = {  224 60 49   }
 	
 	ethos = ethos_stoic
 	heritage = heritage_indo_aryan

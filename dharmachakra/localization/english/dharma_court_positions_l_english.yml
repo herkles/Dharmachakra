@@ -34,7 +34,8 @@
 #######################################
 # General Court Positions
 #######################################
-
+  master_of_elephants_court_position:0 "Master of the Royal Elephants"
+  master_of_elephants_court_position_desc:1 "The $master_of_elephants_court_position$ is the minister who helps handle the adminstration of feeding, protecting, training, and caring for the Elephants."
 
 
 

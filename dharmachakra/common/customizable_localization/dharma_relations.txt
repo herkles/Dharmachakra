@@ -1813,7 +1813,28 @@
 		    }
 		}
 	}
-
+	text = {# Master of the Royal Elephants - Female
+		localization_key = relation_master_of_elephants_female
+		trigger = {
+			scope:second = { is_female = yes }
+			has_court_position = master_of_elephants_court_position
+			is_court_position_employer = {
+		        court_position = master_of_elephants_court_position
+		        who = root
+		    }
+		}
+	}
+	text = {# Master of the Royal Elephants - Male
+		localization_key = relation_master_of_elephants_male
+		trigger = {
+			scope:second = { is_male = yes }
+			has_court_position = master_of_elephants_court_position
+			is_court_position_employer = {
+		        court_position = master_of_elephants_court_position
+		        who = root
+		    }
+		}
+	}
 
 }
 RelationToMePossessive = {
@@ -3633,6 +3654,28 @@ RelationToMePossessive = {
 		    }
 		}
 	}	
+	text = {# Bhangika - Female
+		localization_key = relation_master_of_elephants_female_possessive
+		trigger = {
+			scope:second = { is_female = yes }
+			has_court_position = master_of_elephants_court_position
+			is_court_position_employer = {
+				court_position = master_of_elephants_court_position
+				who = root
+			}
+		}
+	}
+	text = {# Bhangika - Male
+		localization_key = relation_master_of_elephants_male_possessive
+		trigger = {
+			scope:second = { is_male = yes }
+			has_court_position = master_of_elephants_court_position
+			is_court_position_employer = {
+				court_position = master_of_elephants_court_position
+				who = root
+			}
+		}
+	}
 
 }
 RelationToMeShort = {

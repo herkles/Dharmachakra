@@ -5,7 +5,7 @@
 #######################################
   baron_male_pratihara:0 "Rana"
   baron_female_pratihara:0 "Rani"
-  barony_pratihara:0 "Visaya"
+  barony_castle_pratihara:0 "Visaya"
 
   count_male_pratihara:0 "Rana"
   count_female_pratihara:0 "Rani"
@@ -65,18 +65,19 @@
 # Pala Adminstration
 # For the Pala and Bihari cultures
 #######################################
+  baron_male_pala_holder:0 "Bhayavala"
   baron_male_pala:0 "Bhayavali"
   baron_female_pala:0 "Bhayavalani"
-  barony_pala:0 "Bhaya"
+  barony_castle_pala:0 "Bhaya"
 
-  count_male_bengali:0 "Samanta"
-  count_female_bengali:0 "Samantani"
-  county_bengali:0 "Bisaya"
+  count_male_pala:0 "Samanta"
+  count_female_pala:0 "Samantani"
+  county_pala:0 "Visaya"
   
   count_male_pala_independent:0 "Raya"
   count_female_pala_independent:0 "Rani"
   county_pala_independent:0 "[CHARACTER.Custom('PalaIndepCounty')]"
-  independent_county_bengali:0 "Raja"
+  independent_county_pala:0 "Raja"
 
   duke_male_pala:0 "[CHARACTER.Custom('DukeMalePala')]"
   duke_female_pala:0 "[CHARACTER.Custom('DukeFemalePala')]"
@@ -133,7 +134,7 @@
 #######################################
   baron_male_deccan:0 "Gramakuta"
   baron_female_deccan:0 "Gramakutni"
-  barony_deccan:0 "Grama"
+  barony_castle_deccan:0 "Grama"
 
   count_male_deccan:0 "Vishayapti"
   count_female_deccan:0 "Vishayaptni"
@@ -198,7 +199,7 @@
 #######################################
   baron_male_chola:0 "Udaiyar"
   baron_female_chola:0 "Udaiyar"
-  barony_chola:0 "Nadu"
+  barony_castle_chola:0 "Nadu"
 
   count_male_chola:0 "Periyanattar"
   count_female_chola:0 "Periyanattar"
@@ -252,7 +253,8 @@
 #######################################
   baron_male_oriya:0 "Khandapati"
   baron_female_oriya:0 "Khandavaluni"
-  barony_oriya:0 "Khanda"
+  barony_castle_oriya:0 "Khanda"
+  barony_tribe_oriya:0 "$barony_castle_oriya$"
 
   count_male_oriya:0 "Visayapati"
   count_female_oriya:0 "Visayavati"
@@ -308,6 +310,16 @@
   queen_mother_oriya:0 "[CHARACTER.Custom('QueenMOriya')]"
   queen_mother_default_oriya:0 "Rayamava"
   empress_mother_oriya:0 "Maharayamava"
+
+  baron_republic_male_oriya:0 "Puramaji"
+  baron_republic_female_oriya:0 "Puramaji"
+  barony_city_oriya:0 "Pura"
+  count_republic_oriya:0 "Nayaramaji"
+  county_republic_oriya:0 "Nayara"
+  duke_republic_oriya:0 "Gaṇamukha"
+  duchy_republic_oriya:0 "Gana"
+  king_republic_oriya:0 "Samghamukha"
+  kingdom_republic_oriya:0 "Samgha"
 
 #######################################
 # Sinhala Adminstration
