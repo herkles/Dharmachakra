@@ -7,10 +7,16 @@
  sanamahism_religion_adherent_plural:0 "Sanamahis"
  sanamahism_religion_desc:0 "Sanamahism is the religion of the Meitei people. It is an animistic, ancestor-worshipping, shaman-led religious tradition."
  # Temples, Priests, Symbols
- sanamahism_house_of_worship:0 " Sanamahi Kachin"
- sanamahism_house_of_worship_plural:0 " Sanamahi Kachins"
+ sanamahism_house_of_worship:0 "Sanamahi Kachin"
+ sanamahism_house_of_worship_2:0 "$sanamahism_house_of_worship$" # Optional translation alt
+ sanamahism_house_of_worship_3:0 "$sanamahism_house_of_worship$" # Optional translation alt
+ sanamahism_house_of_worship_plural:0 "Sanamahi Kachins"
  sanamahism_religious_symbol:0 "Sun" # Triumphal Post with a human figure at the top
- sanamahism_religious_text:0 "Puya " #religious stories orally passed down by priests
+ sanamahism_religious_symbol_2:0 "$sanamahism_religious_symbol$" # Optional translation alt
+ sanamahism_religious_symbol_3:0 "$sanamahism_religious_symbol$" # Optional translation alt
+ sanamahism_religious_text:0 "Puya" #religious stories orally passed down by priests
+ sanamahism_religious_text_2:0 "$sanamahism_religious_text$" # Optional translation alt
+ sanamahism_religious_text_3:0 "$sanamahism_religious_text$" # Optional translation alt
  sanamahism_religious_head_title:0 "High Priest"
  sanamahism_religious_head_title_name:0 "High Council"
  sanamahism_priest:0 "Priest"
@@ -22,6 +28,10 @@
  sanamahism_bishop_plural:0 "Elders"
  # The Great and Good Gods and Goddesses
  sanamahism_high_god_name:0 "Sanamahi"
+ sanamahism_high_god_name_2:0 "$sanamahism_high_god_name$" # Optional translation alt
+ sanamahism_high_god_name_3:0 "$sanamahism_high_god_name$" # Optional translation alt
+ sanamahism_high_god_name_alternate:0 "Sanamahi"
+ sanamahism_high_god_name_alternate_possessive:0 "Sanamahi's"
  sanamahism_high_god_name_possessive:0 "Sanamahi's"
  sanamahism_high_god_shehe:0 "He"
  sanamahism_high_god_herselfhimself:0 "Himself"

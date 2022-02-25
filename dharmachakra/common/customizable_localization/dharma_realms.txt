@@ -320,7 +320,7 @@ QueenMPala = {
 		localization_key =  queen_mother_default_pala
 	}
 }
-palaIndepCounty = {
+PalaIndepCounty = {
 	type = character
 	text = {
 		trigger = {
@@ -2280,6 +2280,7 @@ DukeBodpa = {
 	}
 }
 BodpaIndepKingdom = {
+	type = character
 	text = {
 		trigger = {
 			highest_held_title_tier = tier_empire

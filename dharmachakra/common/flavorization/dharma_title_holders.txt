@@ -653,6 +653,110 @@ empress_mother_pratihara = {
 	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
+baron_republic_male_pratihara = {
+	type = character
+	special = holder
+	gender = male
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_pratihara = {
+	type = character
+	special = holder
+	gender = female
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_male_pratihara = {
+	type = character
+	special = holder
+	gender = male
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_female_pratihara = {
+	type = character
+	special = holder
+	gender = female
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_pratihara = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_pratihara = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+	only_holder = yes
+}
+barony_city_pratihara = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = city_holding
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+}
+county_republic_pratihara = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+}
+duchy_republic_pratihara = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+}
+kingdom_republic_pratihara = {
+	type = title
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+}
+barony_tribe_pratihara = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
+	name_lists = { name_list_punjabi name_list_rajput name_list_malvi name_list_braj name_list_awadhi name_list_gujarati }
+	top_liege = no
+}
 #######################################
 # Pala Officials
 # For the Bengali and Bihari cultures
@@ -992,6 +1096,110 @@ empress_mother_pala = {
 	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
 	governments = { feudal_government clan_government tribal_government republic_government }
 }
+baron_republic_male_pala = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_pala = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_male_pala = {
+	type = character
+	special = holder
+	gender = male
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_female_pala = {
+	type = character
+	special = holder
+	gender = female
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_pala = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_pala = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+	only_holder = yes
+}
+barony_city_pala = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = city_holding
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+}
+county_republic_pala = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+}
+duchy_republic_pala = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+}
+kingdom_republic_pala = {
+	type = title
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+}
+barony_tribe_pala = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
+	name_lists = { name_list_bihari name_list_bengali name_list_nagpuri name_list_kamarupi }
+	top_liege = no
+}
 #######################################
 # Rashtrakuta Council
 # For Deccan Cultures
@@ -1273,7 +1481,98 @@ empire_deccan = {
 	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
 	top_liege = no
 }
-
+baron_republic_male_deccan = {
+	type = character
+	special = holder
+	gender = male
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_deccan = {
+	type = character
+	special = holder
+	gender = female
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+	only_holder = yes
+}
+count_republic_deccan = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_deccan = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+	only_holder = yes
+}
+king_republic_deccan = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+	only_holder = yes
+}
+barony_city_deccan = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = city_holding
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+}
+county_republic_deccan = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+}
+duchy_republic_deccan = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+}
+kingdom_republic_deccan = {
+	type = title
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+}
+barony_tribe_deccan = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
+	name_lists = { name_list_kannada name_list_marathi name_list_konkani}
+	top_liege = no
+}
 #######################################
 # Chola Council
 # For Dravidian Cultures
@@ -1572,6 +1871,98 @@ queen_mother_chola_empire = {
 	priority = 150
 	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
 	governments = { feudal_government clan_government tribal_government republic_government }
+}
+baron_republic_male_chola = {
+	type = character
+	special = holder
+	gender = male
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+	only_holder = yes
+}
+baron_republic_female_chola = {
+	type = character
+	special = holder
+	gender = female
+	tier = barony
+	priority = 103
+	governments = { republic_government }
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+	only_holder = yes
+}
+count_republic_chola = {
+	type = character
+	special = holder
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+	only_holder = yes
+}
+duke_republic_chola = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+	only_holder = yes
+}
+king_republic_chola = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+	only_holder = yes
+}
+barony_city_chola = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = city_holding
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+}
+county_republic_chola = {
+	type = title
+	tier = county
+	priority = 113
+	governments = { republic_government }
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+}
+duchy_republic_chola = {
+	type = title
+	tier = duchy
+	priority = 123
+	governments = { republic_government }
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+}
+kingdom_republic_chola = {
+	type = title
+	tier = kingdom
+	priority = 143
+	governments = { republic_government }
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
+}
+barony_tribe_chola = {
+	type = title
+	tier = barony
+	priority = 103
+	holding = tribal_holding
+	name_lists = { name_list_malayali name_list_telugu name_list_tamil }
+	top_liege = no
 }
 #######################################
 # Somavamsi Council
@@ -2390,7 +2781,6 @@ baron_female_sindhi = {
 	name_lists = { name_list_sindhi }
 	top_liege = no
 }
-
 count_male_sindhi = {
 	type = character
 	gender = male
@@ -2433,7 +2823,6 @@ count_female_sindhi_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
 duke_male_sindhi = {
 	type = character
 	gender = male
@@ -2476,7 +2865,6 @@ duke_female_sindhi_independent = {
 	top_liege = no
 	only_independent = yes
 }
-
 king_male_sindhi = {
 	type = character
 	gender = male
@@ -2497,7 +2885,6 @@ king_female_sindhi = {
 	name_lists = { name_list_sindhi }
 	top_liege = no
 }
-
 emperor_male_sindhi = {
 	type = character
 	gender = male
@@ -2528,7 +2915,6 @@ emperor_female_sindhi_holder = {
 	name_lists = { name_list_sindhi }
 	top_liege = no
 }
-
 barony_castle_sindhi = {
 	type = title
 	tier = barony

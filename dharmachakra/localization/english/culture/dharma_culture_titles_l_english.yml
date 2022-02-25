@@ -61,6 +61,19 @@
   queen_mother_default_pratihara:0 "Rayamaya"
   empress_mother_pratihara:0 "Maharayamaya"
 
+  baron_republic_male_pratihara: "Puravahāṇa"
+  baron_republic_female_pratihara: "Puravahāṇa"
+  barony_city_pratihara: "Pura"
+  count_republic_male_pratihara: "Nayaraseṭhi"
+  count_republic_female_pratihara: "Nayaraseṭhiṇī"
+  county_republic_pratihara: "Nayara"
+  duke_republic_pratihara: "Gaṇamūkha"
+  duchy_republic_pratihara: "Gaṇa"
+  king_republic_pratihara: "Saṁghamūkha"
+  kingdom_republic_pratihara: "Saṁgha"
+  
+  barony_tribe_pratihara: "$barony_castle_pratihara$"
+
 #######################################
 # Pala Adminstration
 # For the Pala and Bihari cultures
@@ -83,7 +96,7 @@
   duke_female_pala:0 "[CHARACTER.Custom('DukeFemalePala')]"
   duchy_pala:0 "[CHARACTER.Custom('DuchyPala')]"
   marquess_pala:0 "Pantavala"
-  march_pala:0 "Pantaēsa"
+  march_pala:0 "Pantaesa"
   palatine_pala:0 "Rayathani"
   duke_default_male_pala:0 "Mahasamanta"
   duke_default_female_pala:0 "Mahasamantani"
@@ -127,6 +140,19 @@
   queen_mother_pala:0 "[CHARACTER.Custom('QueenMPala')]"
   queen_mother_default_pala:0 "Rayamava"
   empress_mother_pala:0 "Maharayamava"
+
+  baron_republic_male_pala: "Puravahāṇa"
+  baron_republic_female_pala: "Puravahāṇa"
+  barony_city_pala: "Pura"
+  count_republic_male_pala: "Nayaraśeṭhi"
+  count_republic_female_pala: "Nayaraśeṭhiṇī"
+  county_republic_pala: "Nayara"
+  duke_republic_pala: "Gaṇamūkha"
+  duchy_republic_pala: "Gaṇa"
+  king_republic_pala: "Saṁghamūkha"
+  kingdom_republic_pala: "Saṁgha"
+  
+  barony_tribe_pala: "$barony_castle_pala$"
 
 #######################################
 # Rashtrakuta  Adminstration
@@ -194,6 +220,18 @@
   queen_mother_deccan:0 "[CHARACTER.Custom('QueenMDeccan')]"
   empress_mother_deccan:0 "$emperor_female_deccan$"
 
+  baron_republic_male_deccan: "Puravarādiśvaran"
+  baron_republic_female_deccan: "Paṭṭanasāminī"
+  barony_city_deccan: "Pura"
+  count_republic_deccan: "Nagarattarin"
+  county_republic_deccan: "Nagara"
+  duke_republic_deccan: "Mānagarattarin"
+  duchy_republic_deccan: "Mānagara"
+  king_republic_deccan: "Mahānagarattarin"
+  kingdom_republic_deccan: "Mahānagara"
+  
+  barony_tribe_deccan: "$barony_castle_deccan$"
+
 #######################################
 # Chola Adminstration
 # For Dravidian Cultures
@@ -247,6 +285,18 @@
   title_prince_female_chola_empire:0 "$prince_default_female_chola$"
   queen_mother_chola:0 "[CHARACTER.Custom('QueenMChola')]"
   empress_mother_chola:0 "$emperor_female_chola$"
+
+  baron_republic_male_chola: "Paṭṭanasāmī"
+  baron_republic_female_chola: "Paṭṭanasāminī"
+  barony_city_chola: "Paṭṭanam"
+  count_republic_chola: "Nagarattarin"
+  county_republic_chola: "Nagaram"
+  duke_republic_chola: "Mānagarattarin"
+  duchy_republic_chola: "Mānagaram"
+  king_republic_chola: "Peruṇnagarattarin"
+  kingdom_republic_chola: "Peruṇnagaram"
+  
+  barony_tribe_chola: "$barony_castle_chola$"
 
 #######################################
 # Somavamsi Adminstration
@@ -449,81 +499,92 @@
   queen_mother_sindhi:0 "[CHARACTER.Custom('QueenMSindhi')]"
   queen_mother_default_sindhi:0 "Sahmau"
 
+  baron_republic_male_sindhi: "Puravahāṇu"
+  baron_republic_female_sindhi: "Puravahāṇu"
+  barony_city_sindhi: "Puri"
+  count_republic_male_sindhi: "Nagaraseṭhi"
+  count_republic_female_sindhi: "Nagarseṭhiṇī"
+  county_republic_sindhi: "Nagaru"
+  duke_republic_sindhi: "Gaṇamūkhu"
+  duchy_republic_sindhi: "Gaṇu"
+  king_republic_sindhi: "Saṁghamūkhu"
+  kingdom_republic_sindhi: "Saṁghu"
+
   barony_tribe_sindhi:0 "$barony_castle_sindhi$"
 
 #######################################
 # Kashmiri Adminstration
 # For Kashmiri
 #######################################
-   baron_male_kashmiri:0 "damara"
-   baron_female_kashmiri:0 "damara"
-   barony_castle_kashmiri:0 "Upavesana"
-   
-   count_male_kashmiri:0 "Samanta"
-   count_female_kashmiri:0 "Samantani"
-   county_kashmiri:0 "Viṣaya"
-   
-   count_male_kashmiri_independent:0 "Raja"
-   count_female_kashmiri_independent:0 "Rani"
-   county_kashmiri_independent:0 "[CHARACTER.Custom('KashmiriIndepCounty')]"
-   independent_county_kashmiri:0 "Rajya"
-   
-   duke_male_kashmiri:0 "[CHARACTER.Custom('DukeMaleKashmiri')]"
-   duke_female_kashmiri:0 "[CHARACTER.Custom('DukeFemaleKashmiri')]"
-   duchy_kashmiri:0 "[CHARACTER.Custom('DuchyKashmiri')]"
-   marquess_kashmiri:0 "Dvaradhlpa"
-   march_kashmiri:0 "Dvara"
-   palatine_kashmiri:0 "Rajasthaniya"
-   duke_default_male_kashmiri:0 "Mandalesa"
-   duke_default_female_kashmiri:0 "Mandalesi"
-   duchy_default_kashmiri:0 "Mandala"
-   
-   duke_male_kashmiri_independent:0 "Maharaja"
-   duke_female_kashmiri_independent_holder:0 "Maharajni"
-   duke_female_kashmiri_independent:0 "Mahayevi"
-   duchy_kashmiri_independent:0 "[CHARACTER.Custom('KashmiriIndepDuchy')]"
-   independent_duchy_kashmiri:0 "Maharajya"
-   
-   king_male_kashmiri:0 "[CHARACTER.Custom('KingMaleKashmiri')]"
-   king_female_kashmiri:0 "[CHARACTER.Custom('KingFemaleKashmiri')]"
-   king_female_kashmiri_holder:0 "[CHARACTER.Custom('KingFemaleHolderKashmiri')]"
-   kingdom_kashmiri:0 "[CHARACTER.Custom('KingdomKashmiri')]"
-   sultan_male_kashmiri:0 "Sulatan"
-   sultan_female_kashmiri:0 "Sulatana"
-   sultanate_kashmiri:0 "Sulatani"
-   king_default_male_kashmiri:0 "Maharajadhiraja"
-   king_default_female_kashmiri:0 "Pattamahayevi"
-   king_default_female_holder_kashmiri:0 "Paramesvari"
-   kingdom_default_kashmiri:0 "Samraja"
-   
-   emperor_male_kashmiri:0 "Cakravarti"
-   emperor_female_kashmiri:0 "Pattamahadevi"
-   emperor_female_kashmiri_holder:0 "Cakravartini"
-   empire_kashmiri:0 "Pithiviraja"
-   
-   title_prince_male_kashmiri:0 "[CHARACTER.Custom('PrinceKashmiri')]"
-   title_prince_female_kashmiri:0 "[CHARACTER.Custom('PrincessKashmiri')]"
-   sultan_prince_male_kashmiri:0 "Sahajada"
-   sultan_prince_female_kashmiri:0 "Sahajadi"
-   prince_default_male_kashmiri:0 "Rajakumara"
-   prince_default_female_kashmiri:0 "Rajakumari"
-   title_prince_male_kashmiri_empire:0 "Maharajakumara"
-   title_prince_female_kashmiri_empire:0 "Maharajakumari"
-   queen_mother_kashmiri:0 "[CHARACTER.Custom('QueenMKashmiri')]"
-   queen_mother_default_kashmiri:0 "Rajamata"
-   empress_mother_kashmiri:0 "Maharajamata"
-   
-   baron_republic_male_kashmiri:0 "Purapradhana"
-   baron_republic_female_kashmiri:0 "Purapradhana"
-   barony_city_kashmiri:0 "Pura"
-   count_republic_kashmiri:0 "Nagaradhipa"
-   county_republic_kashmiri:0 "Nagara"
-   duke_republic_kashmiri:0 "Ganamukhya"
-   duchy_republic_kashmiri:0 "Gana"
-   king_republic_kashmiri:0 "Saṁghamukhya"
-   kingdom_republic_kashmiri:0 "Saṁgha"
-   
-   barony_tribe_kashmiri:0 "$barony_castle_kashmiri$"
+  baron_male_kashmiri:0 "damara"
+  baron_female_kashmiri:0 "damara"
+  barony_castle_kashmiri:0 "Upavesana"
+
+  count_male_kashmiri:0 "Samanta"
+  count_female_kashmiri:0 "Samantani"
+  county_kashmiri:0 "Viṣaya"
+
+  count_male_kashmiri_independent:0 "Raja"
+  count_female_kashmiri_independent:0 "Rani"
+  county_kashmiri_independent:0 "[CHARACTER.Custom('KashmiriIndepCounty')]"
+  independent_county_kashmiri:0 "Rajya"
+
+  duke_male_kashmiri:0 "[CHARACTER.Custom('DukeMaleKashmiri')]"
+  duke_female_kashmiri:0 "[CHARACTER.Custom('DukeFemaleKashmiri')]"
+  duchy_kashmiri:0 "[CHARACTER.Custom('DuchyKashmiri')]"
+  marquess_kashmiri:0 "Dvaradhlpa"
+  march_kashmiri:0 "Dvara"
+  palatine_kashmiri:0 "Rajasthaniya"
+  duke_default_male_kashmiri:0 "Mandalesa"
+  duke_default_female_kashmiri:0 "Mandalesi"
+  duchy_default_kashmiri:0 "Mandala"
+
+  duke_male_kashmiri_independent:0 "Maharaja"
+  duke_female_kashmiri_independent_holder:0 "Maharajni"
+  duke_female_kashmiri_independent:0 "Mahayevi"
+  duchy_kashmiri_independent:0 "[CHARACTER.Custom('KashmiriIndepDuchy')]"
+  independent_duchy_kashmiri:0 "Maharajya"
+
+  king_male_kashmiri:0 "[CHARACTER.Custom('KingMaleKashmiri')]"
+  king_female_kashmiri:0 "[CHARACTER.Custom('KingFemaleKashmiri')]"
+  king_female_kashmiri_holder:0 "[CHARACTER.Custom('KingFemaleHolderKashmiri')]"
+  kingdom_kashmiri:0 "[CHARACTER.Custom('KingdomKashmiri')]"
+  sultan_male_kashmiri:0 "Sulatan"
+  sultan_female_kashmiri:0 "Sulatana"
+  sultanate_kashmiri:0 "Sulatani"
+  king_default_male_kashmiri:0 "Maharajadhiraja"
+  king_default_female_kashmiri:0 "Pattamahayevi"
+  king_default_female_holder_kashmiri:0 "Paramesvari"
+  kingdom_default_kashmiri:0 "Samraja"
+
+  emperor_male_kashmiri:0 "Cakravarti"
+  emperor_female_kashmiri:0 "Pattamahadevi"
+  emperor_female_kashmiri_holder:0 "Cakravartini"
+  empire_kashmiri:0 "Pithiviraja"
+
+  title_prince_male_kashmiri:0 "[CHARACTER.Custom('PrinceKashmiri')]"
+  title_prince_female_kashmiri:0 "[CHARACTER.Custom('PrincessKashmiri')]"
+  sultan_prince_male_kashmiri:0 "Sahajada"
+  sultan_prince_female_kashmiri:0 "Sahajadi"
+  prince_default_male_kashmiri:0 "Rajakumara"
+  prince_default_female_kashmiri:0 "Rajakumari"
+  title_prince_male_kashmiri_empire:0 "Maharajakumara"
+  title_prince_female_kashmiri_empire:0 "Maharajakumari"
+  queen_mother_kashmiri:0 "[CHARACTER.Custom('QueenMKashmiri')]"
+  queen_mother_default_kashmiri:0 "Rajamata"
+  empress_mother_kashmiri:0 "Maharajamata"
+
+  baron_republic_male_kashmiri:0 "Purapradhana"
+  baron_republic_female_kashmiri:0 "Purapradhana"
+  barony_city_kashmiri:0 "Pura"
+  count_republic_kashmiri:0 "Nagaradhipa"
+  county_republic_kashmiri:0 "Nagara"
+  duke_republic_kashmiri:0 "Ganamukhya"
+  duchy_republic_kashmiri:0 "Gana"
+  king_republic_kashmiri:0 "Saṁghamukhya"
+  kingdom_republic_kashmiri:0 "Saṁgha"
+
+  barony_tribe_kashmiri:0 "$barony_castle_kashmiri$"
 
 #######################################
 # Nepali Adminstration
@@ -587,6 +648,16 @@
    queen_mother_default_nepali:0 "Rayamaya"
    empress_mother_nepali:0 "Maharayamaya"
    
+  baron_republic_male_nepali: "Puravahāna"
+  baron_republic_female_nepali: "Puravahāna"
+  barony_city_nepali: "Pura"
+  count_republic_nepali: "Nagarādhipa"
+  county_republic_nepali: "Nayara"
+  duke_republic_nepali: "Gaṇamūkha"
+  duchy_republic_nepali: "Gaṇa"
+  king_republic_nepali: "Saṁghamūkha"
+  kingdom_republic_nepali: "Saṁgha"
+
    barony_tribe_nepali:0 "$barony_castle_nepali$"
 
 #######################################
@@ -614,69 +685,65 @@
 # Tibetan Adminstration
 # For Tibetan
 #######################################
-  ########################################################
-    #Bodpa
-  ########################################################
-   baron_male_bodpa:0 "Jo Bo"
-   baron_female_bodpa:0 "Jo Mo"
-   barony_castle_bodpa:0 "Gnas"
-   
-   count_male_bodpa:0 "Dpon Po"
-   count_female_bodpa:0 "Dpon Mo"
-   county_bodpa:0 "Yul"
-   
-   duke_male_bodpa_holder:0 "[CHARACTER.Custom('DukeBodpa')]"
-   duke_female_bodpa_holder:0 "[CHARACTER.Custom('DukeBodpa')]"
-   duke_male_bodpa:0 "$count_male_bodpa$"
-   duke_female_bodpa:0 "$count_female_bodpa$"
-   duchy_bodpa:0 "Khri Skor"
-   marquess_bodpa:0 "Dmag Dpon"
-   duke_default_bodpa:0 "Khri Dpon"
-   duchy_bodpa_independent:0 "[CHARACTER.Custom('BodpaIndepDuchy')]"
-   
-   king_male_bodpa_holder:0 "Dpon Chen"
-   king_female_bodpa_holder:0 "Dpon Chen"
-   king_male_bodpa:0 "Dpon Po"
-   king_female_bodpa:0 "Dpon Mo"
-   kingdom_bodpa:0 "Rgyal Phran"
+  # Bodpa
+  baron_male_bodpa:0 "Jo Bo"
+  baron_female_bodpa:0 "Jo Mo"
+  barony_castle_bodpa:0 "Gnas"
 
-   king_male_bodpa_independent:0 "Rgyal Po"
-   king_female_bodpa_independent:0 "Rgyal Mo"
-   kingdom_bodpa_independent:0 "[CHARACTER.Custom('BodpaIndepKingdom')]"
-   indep_kingdom_bodpa:0 "Rgyal Khab"
-   
-   emperor_male_bodpa:0 "Btsen Po"
-   emperor_female_bodpa:0 "Btsen Mo"
-   empire_bodpa:0 "Rgyal Srid"
-   
-   queen_mother_bodpa:0 "Rgyal Yum"
-   empress_mother_bodpa:0 "Rgyal Yum"
-  ########################################################
-    #Zhangzhung
-  ########################################################
-   barony_castle_zhangzhung:0 "Nam Lu"
+  count_male_bodpa:0 "Dpon Po"
+  count_female_bodpa:0 "Dpon Mo"
+  county_bodpa:0 "Yul"
 
-   count_male_zhangzhung:0 "Skya"
-   count_female_zhangzhung:0 "Skya"
-   county_zhangzhung:0 "Ka"
+  duke_male_bodpa_holder:0 "[CHARACTER.Custom('DukeBodpa')]"
+  duke_female_bodpa_holder:0 "[CHARACTER.Custom('DukeBodpa')]"
+  duke_male_bodpa:0 "$count_male_bodpa$"
+  duke_female_bodpa:0 "$count_female_bodpa$"
+  duchy_bodpa:0 "Khri Skor"
+  marquess_bodpa:0 "Dmag Dpon"
+  duke_default_bodpa:0 "Khri Dpon"
+  duchy_bodpa_independent:0 "[CHARACTER.Custom('BodpaIndepDuchy')]"
 
-   count_male_zhangzhung_independent:0 "$king_male_zhangzhung$"
-   count_female_zhangzhung_independent:0 "$king_female_zhangzhung$"
+  king_male_bodpa_holder:0 "Dpon Chen"
+  king_female_bodpa_holder:0 "Dpon Chen"
+  king_male_bodpa:0 "Dpon Po"
+  king_female_bodpa:0 "Dpon Mo"
+  kingdom_bodpa:0 "Rgyal Phran"
 
-   duke_male_zhangzhung:0 "Rkya"
-   duke_female_zhangzhung:0 "Rkya"
-   duchy_zhangzhung:0 "Khum"
+  king_male_bodpa_independent:0 "Rgyal Po"
+  king_female_bodpa_independent:0 "Rgyal Mo"
+  kingdom_bodpa_independent:0 "[CHARACTER.Custom('BodpaIndepKingdom')]"
+  indep_kingdom_bodpa:0 "Rgyal Khab"
 
-   duke_male_zhangzhung_independent:0 "$king_male_zhangzhung$"
-   duke_female_zhangzhung_independent:0 "$king_female_zhangzhung$"
+  emperor_male_bodpa:0 "Btsen Po"
+  emperor_female_bodpa:0 "Btsen Mo"
+  empire_bodpa:0 "Rgyal Srid"
 
-   king_male_zhangzhung:0 "Wer"
-   king_female_zhangzhung:0 "Wer"
-   kingdom_zhangzhung:0 "Mu Ye"
+  queen_mother_bodpa:0 "Rgyal Yum"
+  empress_mother_bodpa:0 "Rgyal Yum"
+  # Zhangzhung
+  barony_castle_zhangzhung:0 "Nam Lu"
 
-   emperor_male_zhangzhung:0 "Tse Mig"
-   emperor_female_zhangzhung:0 "Tse Mig"
-   empire_zhangzhung:0 "$kingdom_zhangzhung$"
+  count_male_zhangzhung:0 "Skya"
+  count_female_zhangzhung:0 "Skya"
+  county_zhangzhung:0 "Ka"
+
+  count_male_zhangzhung_independent:0 "$king_male_zhangzhung$"
+  count_female_zhangzhung_independent:0 "$king_female_zhangzhung$"
+
+  duke_male_zhangzhung:0 "Rkya"
+  duke_female_zhangzhung:0 "Rkya"
+  duchy_zhangzhung:0 "Khum"
+
+  duke_male_zhangzhung_independent:0 "$king_male_zhangzhung$"
+  duke_female_zhangzhung_independent:0 "$king_female_zhangzhung$"
+
+  king_male_zhangzhung:0 "Wer"
+  king_female_zhangzhung:0 "Wer"
+  kingdom_zhangzhung:0 "Mu Ye"
+
+  emperor_male_zhangzhung:0 "Tse Mig"
+  emperor_female_zhangzhung:0 "Tse Mig"
+  empire_zhangzhung:0 "$kingdom_zhangzhung$"
 
 
 #######################################

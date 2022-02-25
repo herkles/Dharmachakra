@@ -50,11 +50,13 @@
 	localization = {
 		#HighGod
 		HighGodName = sanamahism_high_god_name
+		HighGodName2 = sanamahism_high_god_name_2
 		HighGodNamePossessive = sanamahism_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
-
+		HighGodNameAlternate = sanamahism_high_god_name_alternate
+		HighGodNameAlternatePossessive = sanamahism_high_god_name_alternate_possessive
 		#Creator
 		CreatorName = sanamahism_creator_god_name
 		CreatorNamePossessive = sanamahism_creator_god_name_possessive
@@ -148,6 +150,8 @@
 		WitchGodMotherFather = mother
 
 		PantheonTerm = religion_the_gods
+		PantheonTerm2 = religion_the_gods_2
+		PantheonTerm3 = religion_the_gods_3
 		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = {
 			sanamahism_high_god_name
@@ -170,9 +174,15 @@
 			hinduism_evil_god_krodha
 		}
 		HouseOfWorship = sanamahism_house_of_worship
+		HouseOfWorship2 = bathouism_house_of_worship_2
+		HouseOfWorship3 = bathouism_house_of_worship_3
 		HouseOfWorshipPlural = sanamahism_house_of_worship_plural
 		ReligiousSymbol = sanamahism_religious_symbol
+		ReligiousSymbol2 = sanamahism__religious_symbol_2
+		ReligiousSymbol3 = sanamahism__religious_symbol_3
 		ReligiousText = sanamahism_religious_text
+		ReligiousText2 = sanamahism_religious_text_2
+		ReligiousText3 = sanamahism_religious_text_3
 		ReligiousHeadName = sanamahism_religious_head_title
 		ReligiousHeadTitleName = sanamahism_religious_head_title_name
 		DevoteeMale = paganism_devotee
@@ -195,8 +205,14 @@
 		BishopNeuter = sanamahism_bishop
 		BishopNeuterPlural = sanamahism_bishop_plural
 		DivineRealm = hinduism_divine_realm
+		DivineRealm2 = hinduism_divine_realm_2
+		DivineRealm3 = hinduism_divine_realm_3
 		PositiveAfterLife = hinduism_positive_afterlife
+		PositiveAfterLife2 = hinduism_positive_afterlife_2
+		PositiveAfterLife3 = hinduism_positive_afterlife_3
 		NegativeAfterLife = hinduism_negative_afterlife
+		NegativeAfterLife2 = hinduism_negative_afterlife_2
+		NegativeAfterLife3 = hinduism_negative_afterlife_3
 
 
 		GHWName = ghw_purification
