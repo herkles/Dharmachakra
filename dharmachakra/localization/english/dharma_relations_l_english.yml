@@ -22,7 +22,7 @@
 
  relation_master_of_elephants_female:0 "Master of the Royal Elephants"
  relation_master_of_elephants_male:0 "Master of the Royal Elephants"
- relation_bhangika_female_possessive:0 "Master of the Royal Elephants'"
+ relation_master_of_elephants_female_possessive:0 "Master of the Royal Elephants'"
  relation_master_of_elephants_male_possessive:0 "Master of the Royal Elephants'"
 
 

@@ -1066,12 +1066,320 @@ paramara_branch_off = { #While we can be reasonably sure he existed all circumst
 		death = yes
 	}
 }
-
-
-
-
-
-
-
-
+#######################################
+# Cedi Dynasty
+#######################################
+190200 = {# Kokkala
+	name = "Kokkala"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 191321
+	820.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+190201 = {# Sankaragana
+	name = "Sankaragana"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190200
+	841.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+190202 = {# Balaharsha
+	name = "Balaharsha"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190201
+	861.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+190203 = {# Yuvaraja
+	name = "Yuvaraja"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190201
+	879.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		add_spouse = 191688
+	}
+	945.1.1 = {
+		death = yes
+	}
+}
+190204 = {# Lakshmanaraja
+	name = "Lakshmanaraja"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190203
+	mother = 191688
+	900.1.1 = {
+		birth = yes
+	}
+	969.1.1 = {
+		death = yes
+	}
+}
+190205 = {# Sankaragana
+	name = "Sankaragana"
+	dynasty = 1044019 #Cedi
+	religion = "smartism"
+	culture = "malvi"
+	father = 190204
+	928.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+190206 = {# Yuvaraja
+	name = "Yuvaraja"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190204
+	949.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+190207 = {# Kokkala
+	name = "Kokkala"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190206
+	970.1.1 = {
+		birth = yes
+	}
+	1015.1.1 = {
+		death = yes
+	}
+}
+190208 = {# Gangeyadeva
+	name = "Gangeyadeva"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190207
+	996.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		death = yes
+	}
+}
+190209 = {# Karnadeva
+	name = "Karnadeva"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190208
+	1016.1.1 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		trait = ambitious
+		trait = education_martial_4
+	}
+	1046.1.1 = {
+		add_spouse = hunas_4
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+cedi_daughter_1 = {# Yauvanasri
+	name = "Yauvanasri"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "saka"
+	female = yes
+	father = 190209
+	mother = hunas_4
+	1048.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+190210 = {# Yashkarna
+	name = "Yashkarna"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190209
+	mother = hunas_4
+	1046.9.1 = {
+		birth = yes
+	}
+	1123.1.1 = {
+		death = yes
+	}
+}
+190211 = {# Gayakarna
+	name = "Gayakarna"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190210
+	1065.1.1 = {
+		birth = yes
+	}
+	1153.1.1 = {
+		death = yes
+	}
+}
+190212 = {# Narasimha
+	name = "Narasimha"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190211
+	1096.1.1 = {
+		birth = yes
+	}
+	1163.1.1 = {
+		death = yes
+	}
+}
+190213 = {# Jayasimha
+	name = "Jayasimha"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190211
+	1111.1.1 = {
+		birth = yes
+	}
+	1188.1.1 = {
+		death = yes
+	}
+}
+190214 = {# Vijayasimha
+	name = "Vijayasimha"
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190213
+	1151.1.1 = {
+		birth = yes
+	}
+	1211.1.1 = {
+		death = yes
+	}
+}
+191262 = {# Ambikadevi
+	name = "Ambikadevi"
+	dynasty = 1044019	#Cedis
+	female = yes
+	religion = "vaishnavism"
+	culture = "malvi"
+	father = 191319
+	710.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+191317 = {# Vamaraja
+	name = "Vamaraja"
+	dynasty = 1044019	#Cedi
+	religion = "vaishnavism"
+	culture = "malvi"
+	620.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+191318 = {# Gunasagara
+	name = "Gunasagara"	#Fictional, the 2 generations between Vamaraja and Sankaragana are unkown
+	dynasty = 1044019	#Cedi
+	religion = "vaishnavism"
+	culture = "malvi"
+	father = 191317
+	650.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+191319 = {# Mayuraja
+	name = "Mayuraja"	#Fictional
+	dynasty = 1044019	#Cedi
+	religion = "vaishnavism"
+	culture = "malvi"
+	father = 191318
+	670.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+191320 = {# Sankaragana
+	name = "Sankaragana"
+	dynasty = 1044019	#Cedi
+	religion = "vaishnavism"
+	culture = "malvi"
+	father = 191319
+	720.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+191388 = {# Krishnaraja
+	name = "Krishnaraja" #Fictional, name unkown
+	dynasty = 1044019	#Cedi
+	religion = "vaishnavism"
+	culture = "malvi"
+	father = 191320
+	750.1.1 = {
+		birth = yes
+	}
+	825.1.1 = {
+		death = yes
+	}
+}
+191321 = {# Laksmanaraja
+	name = "Laksmanaraja"
+	dynasty = 1044019	#Cedi
+	religion = "vaishnavism"
+	culture = "malvi"
+	father = 191388
+	800.1.1 = {
+		birth = yes
+	}
+	845.1.1 = {
+		death = yes
+	}
+}
 

@@ -139,10 +139,11 @@
   count_male_deccan:0 "Vishayapti"
   count_female_deccan:0 "Vishayaptni"
   county_deccan:0 "Vishaya"
-
-  count_male_deccan_independent:0 "Vishayapti"
-  count_female_deccan_independent:0 "Vishayaptni"
-  county_deccan_independent:0 "Kingdom"
+  
+  count_male_deccan_independent:0 "Arasa"
+  count_female_deccan_independent:0 "Arasi"
+  county_deccan_independent:0 "[CHARACTER.Custom('DeccanIndepCounty')]"
+  independent_county_deccan:0 "Rajyam"
 
   duke_male_deccan:0 "[CHARACTER.Custom('DukeMaleDeccan')]"
   duke_female_deccan:0 "[CHARACTER.Custom('DukeFemaleDeccan')]"
@@ -631,7 +632,6 @@
    duchy_bodpa:0 "Khri Skor"
    marquess_bodpa:0 "Dmag Dpon"
    duke_default_bodpa:0 "Khri Dpon"
-   
    duchy_bodpa_independent:0 "[CHARACTER.Custom('BodpaIndepDuchy')]"
    
    king_male_bodpa_holder:0 "Dpon Chen"
@@ -642,7 +642,7 @@
 
    king_male_bodpa_independent:0 "Rgyal Po"
    king_female_bodpa_independent:0 "Rgyal Mo"
-   kingdom_bodpa_independent:0 "[CHARACTER.Custom('BodpaIndepDuchy')]"
+   kingdom_bodpa_independent:0 "[CHARACTER.Custom('BodpaIndepKingdom')]"
    indep_kingdom_bodpa:0 "Rgyal Khab"
    
    emperor_male_bodpa:0 "Btsen Po"
