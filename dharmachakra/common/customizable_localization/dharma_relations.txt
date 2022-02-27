@@ -1747,46 +1747,24 @@
 		    }
 		}
 	}
-	text = {# Archarya - Female
-		localization_key = relation_acharya_female
+	text = {# Court Guru  - Female
+		localization_key = relation_court_guru_female
 		trigger = {
 			scope:second = { is_female = yes }
-			has_court_position = court_archarya_court_position
+			has_court_position = court_guru_court_position
 			is_court_position_employer = {
 		        court_position = court_archarya_court_position
 		        who = root
 		    }
 		}
 	}
-	text = {# Archarya - Male
-		localization_key = relation_acharya_male
+	text = {# Court Guru  - Male
+		localization_key = relation_court_guru_male
 		trigger = {
 			scope:second = { is_male = yes }
-			has_court_position = court_archarya_court_position
+			has_court_position = court_guru_court_position
 			is_court_position_employer = {
 		        court_position = court_archarya_court_position
-		        who = root
-		    }
-		}
-	}
-	text = {# Pandit - Female
-		localization_key = relation_pandit_female
-		trigger = {
-			scope:second = { is_female = yes }
-			has_court_position = court_pandit_court_position
-			is_court_position_employer = {
-		        court_position = court_pandit_court_position
-		        who = root
-		    }
-		}
-	}
-	text = {# Pandit - Male
-		localization_key = relation_pandit_male
-		trigger = {
-			scope:second = { is_male = yes }
-			has_court_position = court_pandit_court_position
-			is_court_position_employer = {
-		        court_position = court_pandit_court_position
 		        who = root
 		    }
 		}
@@ -3588,50 +3566,28 @@ RelationToMePossessive = {
 		    }
 		}
 	}
-	text = {# Archarya - Female
-		localization_key = relation_acharya_female_possessive
+	text = {# Court Guru - Female
+		localization_key = relation_court_guru_female_possessive
 		trigger = {
 			scope:second = { is_female = yes }
-			has_court_position = court_archarya_court_position
+			has_court_position = court_guru_court_position
 			is_court_position_employer = {
 		        court_position = court_archarya_court_position
 		        who = root
 		    }
 		}
 	}
-	text = {# Archarya - Male
-		localization_key = relation_acharya_male_possessive
+	text = {# Court Guru - Male
+		localization_key = relation_court_guru_male_possessive
 		trigger = {
 			scope:second = { is_male = yes }
-			has_court_position = court_archarya_court_position
+			has_court_position = court_guru_court_position
 			is_court_position_employer = {
 		        court_position = court_archarya_court_position
 		        who = root
 		    }
 		}
-	}	
-	text = {# Pandit - Female
-		localization_key = relation_pandit_female_possessive
-		trigger = {
-			scope:second = { is_female = yes }
-			has_court_position = court_pandit_court_position
-			is_court_position_employer = {
-		        court_position = court_pandit_court_position
-		        who = root
-		    }
-		}
-	}
-	text = {# Pandit - Male
-		localization_key = relation_pandit_male_possessive
-		trigger = {
-			scope:second = { is_male = yes }
-			has_court_position = court_pandit_court_position
-			is_court_position_employer = {
-		        court_position = court_pandit_court_position
-		        who = root
-		    }
-		}
-	}	
+	}		
 	text = {# Bhangika - Female
 		localization_key = relation_bhangika_female_possessive
 		trigger = {

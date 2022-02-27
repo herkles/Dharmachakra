@@ -945,9 +945,11 @@ GetActualBishopTitle = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_empire
 			OR = {
-				faith.religion = faith:theravada.religion
-				faith.religion = faith:vaishnavism.religion
-				faith.religion = faith:digambara.religion
+				religion = religion:hinduism_religion
+				religion = religion:tani_religion
+				religion = religion:bathouism_religion
+				religion = religion:mundhum_religion
+				religion = religion:sanamahism_religion
 			}
 		}
 		localization_key = councillor_court_chaplain_hinduism_religion_empire
@@ -956,7 +958,11 @@ GetActualBishopTitle = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_kingdom
 			OR = {
-				faith.religion = faith:vaishnavism.religion
+				religion = religion:hinduism_religion
+				religion = religion:tani_religion
+				religion = religion:bathouism_religion
+				religion = religion:mundhum_religion
+				religion = religion:sanamahism_religion
 			}
 		}
 		localization_key = councillor_court_chaplain_hinduism_religion_kingdom
@@ -965,19 +971,42 @@ GetActualBishopTitle = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_duchy
 			OR = {
-				faith.religion = faith:vaishnavism.religion
+				religion = religion:hinduism_religion
+				religion = religion:tani_religion
+				religion = religion:bathouism_religion
+				religion = religion:mundhum_religion
+				religion = religion:sanamahism_religion
 			}
 		}
 		localization_key = councillor_court_chaplain_hinduism_religion_duchy
 	}
 	text = {
 		trigger = {
+			is_female = no
 			liege.highest_held_title_tier < tier_duchy
 			OR = {
-				faith.religion = faith:vaishnavism.religion
+				religion = religion:hinduism_religion
+				religion = religion:tani_religion
+				religion = religion:bathouism_religion
+				religion = religion:mundhum_religion
+				religion = religion:sanamahism_religion
 			}
 		}
 		localization_key = councillor_court_chaplain_hinduism_religion_county
+	}
+	text = {
+		trigger = {
+			is_female = yes
+			liege.highest_held_title_tier < tier_duchy
+			OR = {
+				religion = religion:hinduism_religion
+				religion = religion:tani_religion
+				religion = religion:bathouism_religion
+				religion = religion:mundhum_religion
+				religion = religion:sanamahism_religion
+			}
+		}
+		localization_key = councillor_court_chaplain_hinduism_religion_county_female
 	}
 	
 	# Jainism
@@ -986,15 +1015,19 @@ GetActualBishopTitle = {
 			liege.highest_held_title_tier >= tier_empire
 			OR = {
 				faith.religion = faith:digambara.religion
+				faith.religion = faith:svetambara.religion
+				faith.religion = faith:yapaniya.religion
 			}
 		}
-		localization_key = councillor_court_chaplain_hinduism_religion_empire
+		localization_key = councillor_court_chaplain_jainism_religion_empire
 	}
 	text = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_kingdom
 			OR = {
 				faith.religion = faith:digambara.religion
+				faith.religion = faith:svetambara.religion
+				faith.religion = faith:yapaniya.religion
 			}
 		}
 		localization_key = councillor_court_chaplain_jainism_religion_kingdom
@@ -1004,26 +1037,45 @@ GetActualBishopTitle = {
 			liege.highest_held_title_tier >= tier_duchy
 			OR = {
 				faith.religion = faith:digambara.religion
+				faith.religion = faith:svetambara.religion
+				faith.religion = faith:yapaniya.religion
 			}
 		}
 		localization_key = councillor_court_chaplain_jainism_religion_duchy
 	}
 	text = {
 		trigger = {
+			is_female = no
 			liege.highest_held_title_tier < tier_duchy
 			OR = {
-				faith.religion = faith:vaishnavism.religion
+				faith.religion = faith:digambara.religion
+				faith.religion = faith:svetambara.religion
+				faith.religion = faith:yapaniya.religion
 			}
 		}
 		localization_key = councillor_court_chaplain_jainism_religion_county
 	}
+	text = {
+		trigger = {
+			is_female = yes
+			liege.highest_held_title_tier < tier_duchy
+			OR = {
+				faith.religion = faith:digambara.religion
+				faith.religion = faith:svetambara.religion
+				faith.religion = faith:yapaniya.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_jainism_religion_county_female
+	}
 
-	#Buddhism
+	# General Buddhism
 	text = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_empire
 			OR = {
-				faith.religion = faith:theravada.religion
+				faith.religion = faith:mahayana.religion
+				faith.religion = faith:vajrayana.religion
+				faith.religion = faith:pudgalavada.religion
 			}
 		}
 		localization_key = councillor_court_chaplain_buddhism_religion_empire
@@ -1032,7 +1084,9 @@ GetActualBishopTitle = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_kingdom
 			OR = {
-				faith.religion = faith:theravada.religion
+				faith.religion = faith:mahayana.religion
+				faith.religion = faith:vajrayana.religion
+				faith.religion = faith:pudgalavada.religion
 			}
 		}
 		localization_key = councillor_court_chaplain_buddhism_religion_kingdom
@@ -1041,22 +1095,134 @@ GetActualBishopTitle = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_duchy
 			OR = {
-				faith.religion = faith:theravada.religion
+				faith.religion = faith:mahayana.religion
+				faith.religion = faith:vajrayana.religion
+				faith.religion = faith:pudgalavada.religion
 			}
 		}
 		localization_key = councillor_court_chaplain_buddhism_religion_duchy
 	}
 	text = {
 		trigger = {
+			is_female = no
 			liege.highest_held_title_tier < tier_duchy
 			OR = {
-				faith.religion = faith:theravada.religion
-				faith.religion = faith:vaishnavism.religion
-				faith.religion = faith:digambara.religion
-				faith.religion = faith:bon.religion
+				faith.religion = faith:mahayana.religion
+				faith.religion = faith:vajrayana.religion
+				faith.religion = faith:pudgalavada.religion
 			}
 		}
 		localization_key = councillor_court_chaplain_buddhism_religion_county
+	}
+	text = {
+		trigger = {
+			is_female = yes
+			liege.highest_held_title_tier < tier_duchy
+			OR = {
+				faith.religion = faith:mahayana.religion
+				faith.religion = faith:vajrayana.religion
+				faith.religion = faith:pudgalavada.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_buddhism_religion_county_female
+	}
+
+	# Theravada and Ari Buddhism
+	text = {
+		trigger = {
+			liege.highest_held_title_tier >= tier_empire
+			OR = {
+				faith.religion = faith:ari.religion
+				faith.religion = faith:theravada.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_ari_empire
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier >= tier_kingdom
+			OR = {
+				faith.religion = faith:ari.religion
+				faith.religion = faith:theravada.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_ari_kingdom
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier >= tier_duchy
+			OR = {
+				faith.religion = faith:ari.religion
+				faith.religion = faith:theravada.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_ari_duchy
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier < tier_duchy
+			OR = {
+				faith.religion = faith:ari.religion
+				faith.religion = faith:theravada.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_ari_county
+	}
+	# Tibetan Buddhism and Bon
+	text = {
+		trigger = {
+			liege.highest_held_title_tier >= tier_empire
+			OR = {
+				faith.religion = faith:theravada.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_lamaism_empire
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier >= tier_kingdom
+			OR = {
+				faith.religion = faith:bon.religion
+				faith.religion = faith:old_bon.religion
+				faith.religion = faith:lamaism.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_lamaism_kingdom
+	}
+	text = {
+		trigger = {
+			liege.highest_held_title_tier >= tier_duchy
+			OR = {
+				faith.religion = faith:bon.religion
+				faith.religion = faith:old_bon.religion
+				faith.religion = faith:lamaism.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_lamaism_duchy
+	}
+	text = {
+		trigger = {
+			is_female = no
+			liege.highest_held_title_tier < tier_duchy
+			OR = {
+				faith.religion = faith:bon.religion
+				faith.religion = faith:old_bon.religion
+				faith.religion = faith:lamaism.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_lamaism_county
+	}
+	text = {
+		trigger = {
+			is_female = yes
+			liege.highest_held_title_tier < tier_duchy
+			OR = {
+				faith.religion = faith:bon.religion
+				faith.religion = faith:old_bon.religion
+				faith.religion = faith:lamaism.religion
+			}
+		}
+		localization_key = councillor_court_chaplain_lamaism_county_female
 	}
 
 	#Shia

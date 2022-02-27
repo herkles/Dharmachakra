@@ -40,8 +40,7 @@ any_court_position_available_trigger = {
 		}
 		# Dharmachakra Positions
 		has_court_position = chief_vajracharya_court_position
-		has_court_position = court_archarya_court_position
-		has_court_position = court_pandit_court_position
+		has_court_position = court_guru_court_position
 		has_court_position = bhangika_court_position
 		has_court_position = master_of_elephants_court_position
 
@@ -118,8 +117,7 @@ has_learning_court_position = {
 		has_court_position = antiquarian_court_position
 		# Dharmachakra Positions
 		has_court_position = chief_vajracharya_court_position
-		has_court_position = court_archarya_court_position
-		has_court_position = court_pandit_court_position
+		has_court_position = court_guru_court_position
 		has_court_position = bhangika_court_position
 
 	}

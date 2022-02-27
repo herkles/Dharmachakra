@@ -5,15 +5,10 @@
  relation_vajracharya_female_possessive:0 "Vajracharya's"
  relation_vajracharya_male_possessive:0 "Vajracharya's"
 
- relation_acharya_female:0 "Archarya"
- relation_acharya_male:0 "Archarya"
- relation_acharya_female_possessive:0 "Archarya's"
- relation_acharya_male_possessive:0 "Archarya's"
-
- relation_pandit_female:0 "Pandita"
- relation_pandit_male:0 "Pandit"
- relation_pandit_female_possessive:0 "Pandita's"
- relation_pandit_male_possessive:0 "Pandit's"
+ relation_court_guru_female:0 "Court Guru"
+ relation_court_guru_male:0 "Court Guru"
+ relation_court_guru_female_possessive:0 "Court Guru's"
+ relation_court_guru_male_possessive:0 "Court Guru's"
 
  relation_bhangika_female:0 "Bhangika"
  relation_bhangika_male:0 "Bhangika"

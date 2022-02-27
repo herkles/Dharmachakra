@@ -15,9 +15,6 @@
   chief_vajracharya_court_position:0 "Vajracharya"
   chief_vajracharya_court_position_desc:1 "The $chief_vajracharya_court_position$ is a skilled Buddhist monk who is trained in various tantric practices and handles the initations and teachings of said practices."
 
-  court_archarya_court_position:0 "Archarya"
-  court_archarya_court_position_desc:1 "The $court_archarya_court_position$ is a senior Buddhist Monk or Nun who helps to educate others in Buddhist matters."
-
 #######################################
 # Jain Court Positions
 #######################################
@@ -25,9 +22,6 @@
 #######################################
 # Hindu Court Positions
 #######################################
-  court_pandit_court_position:0 "Court Pandit"
-  court_pandit_court_position_desc:1 "The $court_pandit_court_position$ is a scholar and educator of the Vedas and other sacred texts, as well as Hindu Philosophy."
-
   bhangika_court_position:0 "Bhangika"
   bhangika_court_position_desc:1 "The $bhangika_court_position$ is the minister who handles distrubting grants of charity to the poor and other subjects in need."
 
@@ -37,6 +31,8 @@
   master_of_elephants_court_position:0 "Master of the Royal Elephants"
   master_of_elephants_court_position_desc:1 "The $master_of_elephants_court_position$ is the minister who helps handle the adminstration of feeding, protecting, training, and caring for the Elephants."
 
+  court_guru_court_position:0 "Court Guru"
+  court_guru_court_position_desc:1 "The $court_guru_court_position$ is a spiritual advisor and teacher for the monarch, imparting his wisdom and knowledge to him."
 
 
 

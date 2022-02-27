@@ -22,17 +22,6 @@
 #######################################
 # Court Chaplain Terms
 #######################################
-# Bon (Upadhyaya/Upadhyayani) (Purohit) (Banchenpo)
- councillor_court_chaplain_bon_religion_empire:0 "Banchenpo"
- councillor_court_chaplain_bon_religion_empire_possessive:0 "Banchenpo's"
- councillor_court_chaplain_bon_religion_kingdom:0 "Banchenpo"
- councillor_court_chaplain_bon_religion_kingdom_possessive:0 "Banchenpo's"
- councillor_court_chaplain_bon_religion_duchy:0 "Purohit"
- councillor_court_chaplain_bon_religion_duchy_possessive:0 "Purohit's"
- councillor_court_chaplain_bon_religion_county:0 "Upadhyaya"
- councillor_court_chaplain_bon_religion_county_possessive:0 "Upadhyaya's"
- councillor_court_chaplain_bon_religion_county_female:0 "Upadhyayani"
- councillor_court_chaplain_bon_religion_county_female_possessive:0 "Upadhyayani's"
 
 # Hinduism (Upadhyaya/Upadhyayani) (Purohit) (Rajpurohit) (Marajpurohit)
  councillor_court_chaplain_hinduism_religion_county:0 "Upadhyaya"
@@ -47,28 +36,17 @@
  councillor_court_chaplain_hinduism_religion_empire_possessive:0 "Marajpurohit's"
 
 # Buddhism - General
+ councillor_court_chaplain_buddhism_religion_empire:0 "Sangharaja"
+ councillor_court_chaplain_buddhism_religion_empire_possessive:0 "Sangharaja's"
+ councillor_court_chaplain_buddhism_religion_kingdom:0 "Sangharaja"
+ councillor_court_chaplain_buddhism_religion_kingdom_possessive:0 "Sangharaja's"
+ councillor_court_chaplain_buddhism_religion_duchy:0 "Acharya"
+ councillor_court_chaplain_buddhism_religion_duchy_possessive:0 "Acharya's"
  councillor_court_chaplain_buddhism_religion_county:0 "Upadhyaya"
  councillor_court_chaplain_buddhism_religion_county_female:0 "Upadhyayani"
  councillor_court_chaplain_buddhism_religion_county_possessive:0 "Upadhyaya's"
  councillor_court_chaplain_buddhism_religion_county_female_possessive:0 "Upadhyayani's"
- councillor_court_chaplain_buddhism_religion_duchy:0 "Preceptor"
- councillor_court_chaplain_buddhism_religion_duchy_possessive:0 "Preceptor's"
- councillor_court_chaplain_buddhism_religion_kingdom:0 "State Preceptor"
- councillor_court_chaplain_buddhism_religion_kingdom_possessive:0 "State Preceptor's"
- councillor_court_chaplain_buddhism_religion_empire:0 "Imperial Preceptor"
- councillor_court_chaplain_buddhism_religion_empire_possessive:0 "Imperial Preceptor's"
 
-# Buddhism - Nang Chos
- councillor_court_chaplain_lamaism_county:0 "Khenpo"
- councillor_court_chaplain_lamaism_county_female:0 "Khenmo"
- councillor_court_chaplain_lamaism_county_possessive:0 "Khenpo's"
- councillor_court_chaplain_lamaism_county_female_possessive:0 "khenmo's"
- councillor_court_chaplain_lamaism_duchy:0 "Lama"
- councillor_court_chaplain_lamaism_duchy_possessive:0 "Lama's"
- councillor_court_chaplain_lamaism_kingdom:0 "Rinpoche"
- councillor_court_chaplain_lamaism_kingdom_possessive:0 "Rinpoche's"
- councillor_court_chaplain_lamaism_empire:0 "Kyabjé "
- councillor_court_chaplain_lamaism_empire_possessive:0 "Kyabjé's"
 
 # Buddhism - Ari and Burmese Therevada
  councillor_court_chaplain_ari_county:0 "Bhante"
@@ -79,6 +57,30 @@
  councillor_court_chaplain_ari_kingdom_possessive:0 "Sangharaja's"
  councillor_court_chaplain_ari_empire:0 "Sangharaja"
  councillor_court_chaplain_ari_empire_possessive:0 "Sangharaja's"
+
+# Buddhism - Nang Chos
+ councillor_court_chaplain_lamaism_empire:0 "Banchenpo"
+ councillor_court_chaplain_lamaism_empire_possessive:0 "Banchenpo's"
+ councillor_court_chaplain_lamaism_kingdom:0 "Banchenpo"
+ councillor_court_chaplain_lamaism_kingdom_possessive:0 "Banchenpo's"
+ councillor_court_chaplain_lamaism_duchy:0 "Lama"
+ councillor_court_chaplain_lamaism_duchy_possessive:0 "Lama's"
+ councillor_court_chaplain_lamaism_county:0 "Khenpo"
+ councillor_court_chaplain_lamaism_county_female:0 "Khenmo"
+ councillor_court_chaplain_lamaism_county_possessive:0 "Khenpo's"
+ councillor_court_chaplain_lamaism_county_female_possessive:0 "khenmo's"
+
+# Bon (Upadhyaya/Upadhyayani) (Purohit) (Banchenpo)
+ councillor_court_chaplain_bon_religion_empire:0 "Banchenpo"
+ councillor_court_chaplain_bon_religion_empire_possessive:0 "Banchenpo's"
+ councillor_court_chaplain_bon_religion_kingdom:0 "Banchenpo"
+ councillor_court_chaplain_bon_religion_kingdom_possessive:0 "Banchenpo's"
+ councillor_court_chaplain_bon_religion_duchy:0 "Lama"
+ councillor_court_chaplain_bon_religion_duchy_possessive:0 "Lama's"
+ councillor_court_chaplain_bon_religion_county:0 "Khenpo"
+ councillor_court_chaplain_bon_religion_county_possessive:0 "Khenpo's"
+ councillor_court_chaplain_bon_religion_county_female:0 "Khenmo"
+ councillor_court_chaplain_bon_religion_county_female_possessive:0 "Khenmo's"
 
 # Jainism
  councillor_court_chaplain_jainism_religion_county:0 "Upadhyaya"
@@ -91,16 +93,6 @@
  councillor_court_chaplain_jainism_religion_kingdom_possessive:0 "Singhai's"
  councillor_court_chaplain_jainism_religion_empire:0 "Savaai Singhai"
  councillor_court_chaplain_jainism_religion_empire_possessive:0 "Savaai Singhai's"
-
-# Taoism
- councillor_court_chaplain_taoism_religion_county:0 "Court Priest"
- councillor_court_chaplain_taoism_religion_county_female:0 "Court Priestess"
- councillor_court_chaplain_taoism_religion_county_possessive:0 "Court Priest's"
- councillor_court_chaplain_taoism_religion_county_female_possessive:0 "Court Priestess'"
- councillor_court_chaplain_taoism_religion_duchy:0 "Libationer"
- councillor_court_chaplain_taoism_religion_duchy_possessive:0 "Libationer's"
- councillor_court_chaplain_taoism_religion_kingdom:0 "High Libationer"
- councillor_court_chaplain_taoism_religion_kingdom_possessive:0 "High Libationer's"
 
 #######################################
 # fall back
