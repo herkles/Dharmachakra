@@ -252,16 +252,16 @@ dimasa = {# Dimasa people
 	trigger = {
 		OR = {
 			capital_county = {
-				title:d_kurmanchal = {
+				title:c_dimapur = {
 					is_de_jure_liege_or_above_target = prev
 				}
 			}
-			has_primary_title = title:d_kurmanchal
+			has_primary_title = title:c_dimapur
 		}
-		culture = culture:nepali
+		culture = culture:kachari
 		any_sub_realm_county = {
-			culture = culture:nepali
-			duchy = title:d_kurmanchal
+			culture = culture:kachari
+			duchy = title:c_dimapur
 		}
 	}
 }
@@ -269,16 +269,16 @@ chutia = {# Chutia people
 	trigger = {
 		OR = {
 			capital_county = {
-				title:d_kurmanchal = {
+				title:d_sutiya = {
 					is_de_jure_liege_or_above_target = prev
 				}
 			}
-			has_primary_title = title:d_kurmanchal
+			has_primary_title = title:d_sutiya
 		}
-		culture = culture:nepali
+		culture = culture:kachari
 		any_sub_realm_county = {
-			culture = culture:nepali
-			duchy = title:d_kurmanchal
+			culture = culture:kachari
+			duchy = title:d_sutiya
 		}
 	}
 }

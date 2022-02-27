@@ -261,7 +261,7 @@ court_guru_court_position = {# Court Guru - For all Dharmic Faiths
 		scope:employee = {
 			is_imprisoned = no
 			faith.religion = { is_in_family = rf_eastern }
-			if = {
+			trigger_if = {
 				limit = {
 					OR = {
 						has_religion = religion:buddhism_religion
