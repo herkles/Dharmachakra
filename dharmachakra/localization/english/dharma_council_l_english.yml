@@ -1,23 +1,10 @@
 ﻿l_english:
 # Council Terms
- dharma_councillor_chancellor:0 "[ROOT.Char.Custom('CouncilPositionChancellor')]"
- dharma_councillor_steward:0 "[ROOT.Char.Custom('CouncilPositionSteward')]"
- dharma_councillor_marshal:0 "[ROOT.Char.Custom('CouncilPositionMarshal')]"
- dharma_councillor_spymaster:0 "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
-
- councillor_chancellor:0 "Chancellor"
- councillor_chancellor_possessive:0 "$dharma_councillor_chancellor$'s"
- councillor_steward:0 "Steward"
- councillor_steward_possessive:0 "$dharma_councillor_steward$'s"
- councillor_marshal:0 "Marshal"
- councillor_marshal_possessive:0 "$dharma_councillor_marshal$'s"
- councillor_spymaster:0 "Spymaster"
- councillor_spymaster_possessive:0 "$dharma_councillor_spymaster$'s"
-
  dharma_councillor_chancellor: "[ROOT.Char.Custom('CouncilPositionChancellor')]"
  dharma_councillor_steward: "[ROOT.Char.Custom('CouncilPositionSteward')]"
  dharma_councillor_marshal: "[ROOT.Char.Custom('CouncilPositionMarshal')]"
  dharma_councillor_spymaster: "[ROOT.Char.Custom('CouncilPositionSpymaster')]"
+
 
 #######################################
 # Court Chaplain Terms

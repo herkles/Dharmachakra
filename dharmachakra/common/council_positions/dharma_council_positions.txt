@@ -39,7 +39,6 @@
 
 	portrait_animation = chancellor
 }
-
 councillor_steward = {
 	skill = stewardship
 	
@@ -81,7 +80,6 @@ councillor_steward = {
 
 	portrait_animation = steward
 }
-
 councillor_marshal = {
 	skill = martial
 	
@@ -118,7 +116,6 @@ councillor_marshal = {
 
 	portrait_animation = marshal
 }
-
 councillor_spymaster = {
 	skill = intrigue
 	
@@ -158,8 +155,6 @@ councillor_spymaster = {
 
 	portrait_animation = spymaster
 }
-
-
 councillor_court_chaplain = {
 	skill = learning
 
@@ -215,22 +210,247 @@ councillor_court_chaplain = {
 				}
 				desc = {
 					first_valid = {
+						# Hinduism
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_empire
+								OR = {
+									religion = religion:hinduism_religion
+									religion = religion:tani_religion
+									religion = religion:bathouism_religion
+									religion = religion:mundhum_religion
+									religion = religion:sanamahism_religion
+								}
+							}
+							desc = councillor_court_chaplain_hinduism_religion_empire
+						}
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_kingdom
+								OR = {
+									religion = religion:hinduism_religion
+									religion = religion:tani_religion
+									religion = religion:bathouism_religion
+									religion = religion:mundhum_religion
+									religion = religion:sanamahism_religion
+								}
+							}
+							desc = councillor_court_chaplain_hinduism_religion_kingdom
+						}
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_duchy 
+								OR = {
+									religion = religion:hinduism_religion
+									religion = religion:tani_religion
+									religion = religion:bathouism_religion
+									religion = religion:mundhum_religion
+									religion = religion:sanamahism_religion
+								}
+							}
+							desc = councillor_court_chaplain_hinduism_religion_duchy
+						}
+						triggered_desc = {
+							trigger = { 
+								is_female = no
+								scope:councillor_liege.highest_held_title_tier >= tier_county
+								OR = {
+									religion = religion:hinduism_religion
+									religion = religion:tani_religion
+									religion = religion:bathouism_religion
+									religion = religion:mundhum_religion
+									religion = religion:sanamahism_religion
+								}
+							}
+							desc = councillor_court_chaplain_hinduism_religion_county
+						}
+						triggered_desc = {
+							trigger = { 
+								is_female = yes
+								scope:councillor_liege.highest_held_title_tier >= tier_county
+								OR = {
+									religion = religion:hinduism_religion
+									religion = religion:tani_religion
+									religion = religion:bathouism_religion
+									religion = religion:mundhum_religion
+									religion = religion:sanamahism_religion
+								}
+							}
+							desc = councillor_court_chaplain_hinduism_religion_county_female
+						}
+						# Jainism
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_empire
+								OR = {
+									faith.religion = faith:digambara.religion
+									faith.religion = faith:svetambara.religion
+									faith.religion = faith:yapaniya.religion
+								}
+							}
+							desc = councillor_court_chaplain_jainism_religion_empire
+						}
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_kingdom
+								OR = {
+									faith.religion = faith:digambara.religion
+									faith.religion = faith:svetambara.religion
+									faith.religion = faith:yapaniya.religion
+								}
+							}
+							desc = councillor_court_chaplain_jainism_religion_kingdom
+						}
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_duchy 
+								OR = {
+									faith.religion = faith:digambara.religion
+									faith.religion = faith:svetambara.religion
+									faith.religion = faith:yapaniya.religion
+								}
+							}
+							desc = councillor_court_chaplain_jainism_religion_duchy
+						}
+						triggered_desc = {
+							trigger = { 
+								is_female = no
+								scope:councillor_liege.highest_held_title_tier >= tier_county
+								OR = {
+									faith.religion = faith:digambara.religion
+									faith.religion = faith:svetambara.religion
+									faith.religion = faith:yapaniya.religion
+								}
+							}
+							desc = councillor_court_chaplain_jainism_religion_county
+						}
+						triggered_desc = {
+							trigger = { 
+								is_female = yes
+								scope:councillor_liege.highest_held_title_tier >= tier_county
+								OR = {
+									faith.religion = faith:digambara.religion
+									faith.religion = faith:svetambara.religion
+									faith.religion = faith:yapaniya.religion
+								}
+							}
+							desc = councillor_court_chaplain_jainism_religion_county_female
+						}
+						# General Buddhism
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_empire
+								OR = {
+									faith.religion = faith:mahayana.religion
+									faith.religion = faith:vajrayana.religion
+									faith.religion = faith:pudgalavada.religion
+								}
+							}
+							desc = councillor_court_chaplain_buddhism_religion_empire
+						}
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_kingdom
+								OR = {
+									faith.religion = faith:mahayana.religion
+									faith.religion = faith:vajrayana.religion
+									faith.religion = faith:pudgalavada.religion
+								}
+							}
+							desc = councillor_court_chaplain_buddhism_religion_kingdom
+						}
+						triggered_desc = {
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_duchy 
+								OR = {
+									faith.religion = faith:mahayana.religion
+									faith.religion = faith:vajrayana.religion
+									faith.religion = faith:pudgalavada.religion
+								}
+							}
+							desc = councillor_court_chaplain_buddhism_religion_duchy
+						}
+						triggered_desc = {
+							trigger = { 
+								is_female = no
+								scope:councillor_liege.highest_held_title_tier >= tier_county
+								OR = {
+									faith.religion = faith:mahayana.religion
+									faith.religion = faith:vajrayana.religion
+									faith.religion = faith:pudgalavada.religion
+								}
+							}
+							desc = councillor_court_chaplain_buddhism_religion_county
+						}
+						triggered_desc = {
+							trigger = { 
+								is_female = yes
+								scope:councillor_liege.highest_held_title_tier >= tier_county
+								OR = {
+									faith.religion = faith:mahayana.religion
+									faith.religion = faith:vajrayana.religion
+									faith.religion = faith:pudgalavada.religion
+								}
+							}
+							desc = councillor_court_chaplain_buddhism_religion_county_female
+						}
 						# Tibetan
 						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_empire faith = faith:lamaism }
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_empire
+								OR = {
+									faith.religion = faith:bon.religion
+									faith.religion = faith:old_bon.religion
+									faith.religion = faith:lamaism.religion
+								}
+							}
 							desc = councillor_court_chaplain_lamaism_empire
 						}
 						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_kingdom faith = faith:lamaism }
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_kingdom
+								OR = {
+									faith.religion = faith:bon.religion
+									faith.religion = faith:old_bon.religion
+									faith.religion = faith:lamaism.religion
+								} 
+							}
 							desc = councillor_court_chaplain_lamaism_kingdom
 						}
 						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_duchy faith = faith:lamaism }
+							trigger = { 
+								scope:councillor_liege.highest_held_title_tier >= tier_duchy 
+								OR = {
+									faith.religion = faith:bon.religion
+									faith.religion = faith:old_bon.religion
+									faith.religion = faith:lamaism.religion
+								}
+							}
 							desc = councillor_court_chaplain_lamaism_duchy
 						}
 						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_county faith = faith:lamaism }
+							trigger = { 
+								is_female = no
+								scope:councillor_liege.highest_held_title_tier >= tier_county
+								OR = {
+									faith.religion = faith:bon.religion
+									faith.religion = faith:old_bon.religion
+									faith.religion = faith:lamaism.religion
+								}
+							}
 							desc = councillor_court_chaplain_lamaism_county
+						}
+						triggered_desc = {
+							trigger = { 
+								is_female = yes
+								scope:councillor_liege.highest_held_title_tier >= tier_county
+								OR = {
+									faith.religion = faith:bon.religion
+									faith.religion = faith:old_bon.religion
+									faith.religion = faith:lamaism.religion
+								}
+							}
+							desc = councillor_court_chaplain_lamaism_county_female
 						}
 						# Ari and Therevada Burmese Buddhism
 						triggered_desc = {
