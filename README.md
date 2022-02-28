@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.3.6 "Devi" (Released 27/12/2021)
+## Latest Version: 1.4.6 "Krishna" (Released 27/2/2022)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -8,17 +8,15 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- Revised and expanded the Buddhist Retreat event decision
-- Decision to visit Nalanda and Sharada Peeth
-- New Holy Sites for Hindu, Buddhist, Sanamhism, Bauthouism, Tani, Kirati, and Bon faiths
-- New Special buildings for many of the holy Sites
-- Pilgrimage events have been updated for the new holy sites.
-- Various festivals to celebrate throughout south asia have been added
-- Tribal areas are now properly tribal
-- Several new characters have been added
-- added the Chutia and Tripura cultures
-- Added tribal faiths of sarnaism and koyapunem
+- Updated the mod to 1.5 and the Royal Court
+- Reworked Cultures to accomadate the changes made in 1.5
+- Updated the history to account for the changes made in 1.5
+- Switched nearly every file to being with the pre-fix dharma_
+- Updated and Revised the localization for Councilors and realms with some help from the CTP Team
+- added the court positions of Master of Elephants, Court Guru, and Bhangika
+- added the Kavirajamarga artifact for 867 Rashtakutra
 - Various bug fixes
+
 
 ## Manual Installation Steps
 
