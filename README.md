@@ -28,3 +28,9 @@ DO NOT manually download the master branch unless you know what you're doing as 
 4. Enjoy and play!
 
 NOTE: If you are re-installing a mod, delete the old version of the mod first before copy and pasting the new one! While it's not always necessary, it's a good habit to do to prevent any potential issues.
+
+## Credits and Thanks
+
+- Rajas of Indochina
+- Cybrxkhan
+- Community Title Project
