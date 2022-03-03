@@ -14,12 +14,8 @@ three_year_playable_pulse = {
 
 five_year_playable_pulse = {
 	on_actions = {
-		delay = { days = 28 }
+		delay = { days = 99 }
 		Dharma_events_five_yearly_pulse
-		#delay = { days = 58 }
-		#Dharma_events_event_chain_pulse
-		#delay = { days = 8 }
-		#Dharma_events_province_event_pulse
 	}
 }
 
@@ -140,7 +136,8 @@ Dharma_events_five_yearly_pulse = {
 		#######################################
 		# Buddhist Flavor Events
 		#######################################
-		
+		30 = dharma_buddhism.051		# Buddhist school monk maintance
+
 		#######################################
 		# Jain Flavor Events
 		#######################################
@@ -237,10 +234,4 @@ dharma_buddhist_retreat_over_events = {
 		100 = dharma_buddhism.130 # Returning Home!
 	}
 }
-
-
-
-
-
-
 

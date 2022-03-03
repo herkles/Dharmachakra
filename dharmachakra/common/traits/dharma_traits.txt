@@ -10,7 +10,200 @@
 #######################################
 # Mahayana Buddhist School Traits
 #######################################
+buddhist_school_chan = {# Chan / Zen
+	potential = {
+		faith.religion = faith:mahayana.religion
+		has_trait = devoted # has to be a monk
+	}
+	opposites = {
+		buddhist_school_madhyamaka
+		buddhist_school_yogachara
+		buddhist_school_pure_land
+	}
 
+	fame = yes
+
+	monthly_piety = 0.3
+	opposite_opinion = -5
+	
+	culture_modifier = {
+		parameter = poet_trait_gives_bonuses
+		prowess = 2
+	}
+
+	culture_modifier = {
+		parameter = devoted_trait_bonuses
+		learning = 1
+		diplomacy = 2
+	}
+	
+	flag = can_not_marry
+	can_inherit = no
+	
+	shown_in_ruler_designer = no
+
+	ai_sociability = very_low_negative_ai_value
+
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_devadasi_desc
+			}
+			desc = trait_devadasi_character_desc
+		}
+	}
+
+}
+buddhist_school_madhyamaka = {# Madhyamaka
+	potential = {
+		faith.religion = faith:mahayana.religion
+		has_trait = devoted # has to be a monk
+	}
+	opposites = {
+		buddhist_school_chan
+		buddhist_school_yogachara
+		buddhist_school_pure_land
+	}
+
+	fame = yes
+
+	monthly_piety = 0.3
+	opposite_opinion = -5
+	
+	culture_modifier = {
+		parameter = poet_trait_gives_bonuses
+		prowess = 2
+	}
+
+	culture_modifier = {
+		parameter = devoted_trait_bonuses
+		learning = 1
+		diplomacy = 2
+	}
+	
+	flag = can_not_marry
+	can_inherit = no
+	
+	shown_in_ruler_designer = no
+
+	ai_sociability = very_low_negative_ai_value
+
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_devadasi_desc
+			}
+			desc = trait_devadasi_character_desc
+		}
+	}
+
+}
+buddhist_school_yogachara = {# Yogachara
+	potential = {
+		faith.religion = faith:mahayana.religion
+		has_trait = devoted # has to be a monk
+	}
+	opposites = {
+		buddhist_school_chan
+		buddhist_school_madhyamaka
+		buddhist_school_pure_land
+	}
+
+	fame = yes
+
+	monthly_piety = 0.3
+	
+	same_faith_opinion = 5
+	
+	culture_modifier = {
+		parameter = poet_trait_gives_bonuses
+		prowess = 2
+	}
+
+	culture_modifier = {
+		parameter = devoted_trait_bonuses
+		learning = 1
+		diplomacy = 2
+	}
+	
+	flag = can_not_marry
+	can_inherit = no
+	
+	shown_in_ruler_designer = no
+
+	ai_sociability = very_low_negative_ai_value
+
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_devadasi_desc
+			}
+			desc = trait_devadasi_character_desc
+		}
+	}
+
+}
+buddhist_school_pure_land = {# Pure Land
+	potential = {
+		faith.religion = faith:mahayana.religion
+		has_trait = devoted # has to be a monk
+	}
+	opposites = {
+		buddhist_school_chan
+		buddhist_school_madhyamaka
+		buddhist_school_yogachara
+	}
+
+	fame = yes
+
+	monthly_piety = 0.3
+	
+	same_faith_opinion = 5
+	
+	culture_modifier = {
+		parameter = poet_trait_gives_bonuses
+		prowess = 2
+	}
+
+	culture_modifier = {
+		parameter = devoted_trait_bonuses
+		learning = 1
+		diplomacy = 2
+	}
+	
+	flag = can_not_marry
+	can_inherit = no
+	
+	shown_in_ruler_designer = no
+
+	ai_sociability = very_low_negative_ai_value
+
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_devadasi_desc
+			}
+			desc = trait_devadasi_character_desc
+		}
+	}
+
+}
 #######################################
 # Tibetan Buddhist School Traits
 #######################################

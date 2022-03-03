@@ -351,6 +351,49 @@ dharma_buddhism.050 = {# Mahayana Schools
 		}		
 	}
 }
+dharma_buddhism.051 = {# Maintence to insure the high learning monks are picking a buddhist school
+	hidden = yes
+
+	trigger = {
+		faith = faith:mahayana
+		has_trait = devoted
+		learning >= decent_skill_rating
+		NOR = {
+			has_trait = buddhist_school_chan
+			has_trait = buddhist_school_madhyamaka
+			has_trait = buddhist_school_yogachara
+			has_trait = buddhist_school_pure_land
+		}
+	}
+
+	immediate = {
+		limit = {
+			has_trait = devoted
+			learning >= decent_skill_rating
+			faith = faith:mahayana
+			NOR = {
+				has_trait = buddhist_school_chan
+				has_trait = buddhist_school_madhyamaka
+				has_trait = buddhist_school_yogachara
+				has_trait = buddhist_school_pure_land
+			}
+		}
+		random_list = {
+			25 = {
+				add_trait = buddhist_school_chan
+			}
+			25 = {
+				add_trait = buddhist_school_madhyamaka
+			}
+			25 = {
+				add_trait = buddhist_school_yogachara
+			}
+			25 = {
+				add_trait = buddhist_school_pure_land
+			}
+		}
+	}
+}
 #######################################
 #									  #
 # 	  MEDITATION RETREAT EVENTS       #

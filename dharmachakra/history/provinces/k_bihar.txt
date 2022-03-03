@@ -154,7 +154,7 @@
 	culture = bihari
 	religion = vajrayana
 	
-	holding = church_holding
+	holding = none
 	
 	# History
 
@@ -167,8 +167,8 @@
 	culture = bihari
 	religion = vajrayana
 	
-	holding = none
-	
+	holding = church_holding
+
 	# History
 
 }
