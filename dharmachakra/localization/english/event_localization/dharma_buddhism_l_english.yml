@@ -64,6 +64,19 @@
   dharma_buddhism.023.people:0 "The People get the first offering"    
 
 #######################################
+# Buddhist Schools
+#######################################
+ dharma_buddhism.050.t:0 "Following a Buddhist School"
+ dharma_buddhism.050.desc:0 "There are a number of schools of Buddhism that the great monks have developed over the years. While I may not be a monk, by following one it will help me reach enlightenment. The question is which school shall I choose?"
+ dharma_buddhism.050.chan:0 "The teachings of the Chan School."
+ dharma_buddhism.050.madhyamaka:0 "The teachings of the Madhyamaka School."
+ dharma_buddhism.050.yogachara:0 "The teachings of the Yogachara School.he Universe."
+ dharma_buddhism.050.pure_land:0 "The teachings of the Pure Land School."
+ dharma_buddhism.050.optout:0 "I am not yet ready to decide."
+
+
+
+#######################################
 # BUDDHIST RETREAT
 #######################################
   dharma_buddhism.100.t:0 "Departing for a Spiritual Retreat"

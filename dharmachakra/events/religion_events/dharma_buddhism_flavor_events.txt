@@ -114,10 +114,6 @@ dharma_buddhism.004 = {# Meditate with Monk?
 	}
 }
 #######################################
-# Visiting Nalanda
-#######################################
-
-#######################################
 # Merit-Making 
 #######################################
 dharma_buddhism.019 = {# Donating to the local Monks
@@ -292,6 +288,67 @@ dharma_buddhism.023 = {# First Harvest Offerings
 			}
 		}
 	
+	}
+}
+#######################################
+#									  #
+#      Picking Buddhist Schools       #
+#									  #
+#######################################
+dharma_buddhism.050 = {# Mahayana Schools
+	type = character_event
+	title = dharma_buddhism.050.t
+	desc = dharma_buddhism.050.desc
+	theme = faith
+	override_background = {
+		event_background = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	# East Asian Mahayana
+	option = {# Chan
+		name = dharma_buddhism.050.chan
+		trigger = {
+			faith = faith:mahayana
+			NOT = { has_character_modifier = buddhist_school_chan }
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_chan }
+	}
+	option = {# Madhyamaka
+		name = dharma_buddhism.050.madhyamaka
+		trigger = {
+			faith = faith:mahayana
+			NOT = { has_character_modifier = buddhist_school_madhyamaka }
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_madhyamaka }
+	}
+	option = {# Yogachara
+		name = dharma_buddhism.050.yogachara
+		trigger = {
+			faith = faith:mahayana
+			NOT = { has_character_modifier = buddhist_school_yogachara }
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_yogachara }
+	}
+	option = {# Pure Land
+		name = dharma_buddhism.050.pure_land
+		trigger = {
+			OR = { 
+				faith = faith:mahayana
+			}
+			NOT = { has_character_modifier = buddhist_school_pure_land }
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_pure_land }
+	}				
+	# Opt-Out
+	option = {
+		name = dharma_buddhism.050.optout
+		ai_chance = {
+			base = 0
+		}		
 	}
 }
 #######################################

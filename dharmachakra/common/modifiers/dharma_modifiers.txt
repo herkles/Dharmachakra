@@ -332,6 +332,22 @@ dharma_buddhist_eight_precipts = {# The Buddhist Eight Precipts
 	prowess = -2
 	monthly_piety_gain_mult = 0.15
 }
+buddhist_school_chan = {# Chan / Zen School
+	icon = piety_positive
+	learning = 1
+}
+buddhist_school_madhyamaka = {# Madhyamaka School
+	icon = piety_positive
+	learning = 1
+}
+buddhist_school_yogachara = {# Yogachara School
+	icon = piety_positive
+	learning = 1
+}
+buddhist_school_pure_land = {# Pure Land School
+	icon = piety_positive
+	learning = 1
+}
 ##########################################
 # animal sacrifice Modifiers 
 ##########################################

@@ -1676,9 +1676,43 @@ dharma_set_up_next_buddhist_retreat_event_effect = {# Visiting Nalanda
 	}
 }
 #######################################
-# General Effects
+# Buddhist School Effects
 #######################################
-
+set_buddhist_school_effect = {# Buddhist Schools
+	# Remove any previous personal god relation.
+	if = {# Chan / Zen School	
+		limit = {
+			has_character_modifier = buddhist_school_chan
+		}
+		remove_character_modifier = buddhist_school_chan
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Madhyamaka School	
+		limit = {
+			has_character_modifier = buddhist_school_madhyamaka
+		}
+		remove_character_modifier = buddhist_school_madhyamaka
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Yogachara	
+		limit = {
+			has_character_modifier = buddhist_school_yogachara
+		}
+		remove_character_modifier = buddhist_school_yogachara
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Pure Land	
+		limit = {
+			has_character_modifier = buddhist_school_pure_land
+		}
+		remove_character_modifier = buddhist_school_pure_land
+		add_piety = massive_piety_loss
+	}
+	else = {# If no current Buddhist schools, cost is reduced.
+		add_piety = medium_piety_loss
+	}
+	add_character_modifier = $YANA$
+}
 
 
 

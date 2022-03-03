@@ -1,5 +1,11 @@
 ﻿l_english:
-# Vegetarian 
- trait_vegetarian:0 "Vegetarian"
- trait_vegeterian_desc:0 "This person will not eat animal meat and sundries, either for moral, religious, or health reasons."
- trait_vegeterian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] refuses to eat meat and won't tolerate the heartless slaughter of animials."
+
+#######################################
+# Hindu Traits
+#######################################
+  trait_devadasi:0 "Devadasi"
+  trait_devadasi_desc:0 "This character has dedicated their life to being a Temple Dancer"
+  trait_devadasi_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has dedicated [ROOT.GetCharacter.GetHerHis] life of service as a Temple Dancer."
+
+
+
