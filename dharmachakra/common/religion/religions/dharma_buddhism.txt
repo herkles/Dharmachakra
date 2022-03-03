@@ -242,18 +242,13 @@
 			holy_site = nalanda # 5
 			holy_site = sravasti # 6
 			holy_site = sankassa # 7
-			holy_site = amaravati # 8
-			# Other Indian Pilgrimage Sites9
-			holy_site = sanchi # 9
-			holy_site = ajanta # 10
-			holy_site = ellora # 11
-			holy_site = ratnagiri # 12
-			holy_site = atamasthana # 13
-			# Burmese Theravada Pilgrimage Sites10
-			holy_site = homalin # 14
-			holy_site = dagon # 15
-			holy_site = pagan # 16
-			holy_site = kyaikhtiyo # 17
+			# Burmese Theravada Pilgrimage Sites8
+			holy_site = dagon # 8
+			holy_site = pagan # 9
+			# SouthEast Asia Theravada Pilgrimage Sites10
+            holy_site = kyaikhtiyo # 10 
+			holy_site = ajanta # 11
+            holy_site = atamasthana # 12	
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_adaptive
@@ -274,23 +269,13 @@
 			holy_site = nalanda # 5
 			holy_site = sravasti # 6
 			holy_site = sankassa # 7
-			holy_site = amaravati # 8
-			# Other Indian Pilgrimage Sites9
-			holy_site = sanchi # 9
-			holy_site = ajanta # 10
-			holy_site = ellora # 11
-			holy_site = ratnagiri # 12
-			# Central Asian Mahayana Pilgrimage Sites10
-			holy_site = dunhuang # 13
-			holy_site = bamiyan # 14
-			holy_site = balkh # 15
-			holy_site = gilgit # 16
-			holy_site = khotan # 17
-			# Burmese Pilgrimage Sites10
-			holy_site = pagan # 18
-			holy_site = dagon # 19
-			holy_site = kyaikhtiyo # 20
-
+			# Burmese Theravada Pilgrimage Sites8
+			holy_site = dagon # 8
+			holy_site = pagan # 9
+            holy_site = kyaikhtiyo # 10 
+			# SouthEast Asia Theravada Pilgrimage Sites10
+			holy_site = ajanta # 11
+            holy_site = bamiyan # 12
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_adaptive
@@ -309,23 +294,13 @@
 			holy_site = nalanda # 5
 			holy_site = sravasti # 6
 			holy_site = sankassa # 7
-			holy_site = amaravati # 8
-			# Other Indian Pilgrimage Sites9
-			holy_site = sanchi # 9
-			holy_site = ajanta # 10
-			holy_site = ellora # 11
-			holy_site = ratnagiri # 12
-			# Central Asian Mahayana Pilgrimage Sites10
-			holy_site = dunhuang # 13
-			holy_site = bamiyan # 14
-			holy_site = balkh # 15
-			holy_site = gilgit # 16
-			holy_site = khotan # 17
-			# Himayalayan Pilgrimage Sites10
-			holy_site = khotang # 18
-			holy_site = paro # 19
-			holy_site = kathmandu # 20
-			holy_site = purang # 21
+			# Himayalayan Vajrayana Pilgrimage Sites8
+			holy_site = kathmandu # 8
+			holy_site = paro # 9
+			# SouthEast Asia Theravada Pilgrimage Sites10
+            holy_site = purang # 10 
+			holy_site = khotang # 11
+            holy_site = bamiyan # 12
 
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_concubines
@@ -421,11 +396,12 @@
 			holy_site = nalanda # 5
 			holy_site = sravasti # 6
 			holy_site = sankassa # 7
-			holy_site = amaravati # 8
-			# Burmese Pilgrimage Sites9
-			holy_site = dagon # 10
-			holy_site = pagan # 11
-			holy_site = kyaikhtiyo # 12
+			# Burmese Theravada Pilgrimage Sites8
+			holy_site = dagon # 8
+			holy_site = pagan # 9
+			# SouthEast Asia Theravada Pilgrimage Sites10
+            holy_site = kyaikhtiyo # 10 
+			holy_site = homalin # 11
 			
 			doctrine = doctrine_polygamy
 			doctrine = doctrine_kinslaying_accepted
@@ -454,30 +430,13 @@
 			holy_site = nalanda # 5
 			holy_site = sravasti # 6
 			holy_site = sankassa # 7
-			holy_site = amaravati # 8
-			# Tibet Holy Sites
-			holy_site = sagya # 9
-			holy_site = lhasa # 10
-			holy_site = zetang # 11
-			holy_site = namtso # 12
-			holy_site = amne_machin # 13
-			holy_site = ngawa # 14
-			holy_site = rebgong # 15
-			# Central Asian Sites
-			holy_site = gilgit # 16
-			holy_site = khotan # 17
-			# Himalayan Sites
-			holy_site = khotang # 18
-			holy_site = paro # 19
-			holy_site = kathmandu # 20
-			holy_site = purang # 21
-			
-			#TODO - Implement and update to these
-			#holy_site = lhasa
-			#holy_site = sagya
-			#holy_site = zetang
-			#holy_site = purang
-			#holy_site = lumbini
+			# Burmese Theravada Pilgrimage Sites8
+			holy_site = sagya # 8
+			holy_site = lhasa # 9
+			# SouthEast Asia Theravada Pilgrimage Sites10
+            holy_site = zetang # 10 
+			holy_site = namtso # 11
+            holy_site = amne_machin # 12	
 			
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_concubines
@@ -608,22 +567,13 @@
 			holy_site = nalanda # 5
 			holy_site = sravasti # 6
 			holy_site = sankassa # 7
-			holy_site = amaravati # 8
-			# Other Indian Pilgrimage Sites9
-			holy_site = sanchi # 9
-			holy_site = ajanta # 10
-			holy_site = ellora # 11
-			holy_site = ratnagiri # 12
-			# Central Asian Mahayana Pilgrimage Sites10
-			holy_site = dunhuang # 13
-			holy_site = bamiyan # 14
-			holy_site = balkh # 15
-			holy_site = gilgit # 16
-			holy_site = khotan # 17
-			# Burmese Pilgrimage 
-			holy_site = pagan # 11
-			holy_site = dagon # 18
-			holy_site = kyaikhtiyo # 19
+			# Burmese Theravada Pilgrimage Sites8
+			holy_site = dagon # 8
+			holy_site = pagan # 9
+			# SouthEast Asia Theravada Pilgrimage Sites10
+            holy_site = bamiyan # 10 
+			holy_site = sanchi # 11
+            holy_site = ratnagiri # 12
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_religious_legal_pronouncements

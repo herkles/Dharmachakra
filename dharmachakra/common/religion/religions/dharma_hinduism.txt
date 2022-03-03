@@ -233,7 +233,6 @@
 		# Vaishnavist faiths
 		vaishnavism = {
 			color = { 0.45 0.0 0.0 }
-
 			icon = hinduism
 
 			# Sapta Puri Holy Sites
@@ -244,23 +243,16 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# General Vishnu Holy Sites 11
-			holy_site = guruvayur
-			holy_site = srirangam
-			holy_site = tirupati
+			# Indonesian / Malyasian Holy Sites
 			holy_site = nathdwara
-			holy_site = udupi
-			holy_site = pandharpur
-			# Krishna Holy Sites17
-			holy_site = jyotisar
+			# Vaishnavist Holy Sites
 			holy_site = katas_raj
+			holy_site = jyotisar
+			holy_site = tirupati
+			holy_site = srirangam
 
+			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_monasticism
-			doctrine = tenet_bhakti
 			doctrine = tenet_esotericism
 
 			doctrine = sampradaya_vaishnavism_doctrine
@@ -342,20 +334,13 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# General Vishnu Holy Sites 11
-			holy_site = guruvayur
-			holy_site = srirangam
+			# Indonesian / Malyasian Holy Sites
 			holy_site = tirupati
-			holy_site = nathdwara
-			holy_site = udupi
-			holy_site = pandharpur
-			# Krishna Holy Sites17
-			holy_site = jyotisar
+			# Krishna Holy Sites
 			holy_site = katas_raj
+			holy_site = jyotisar
+			holy_site = puri
+			holy_site = guruvayur
 
 			doctrine = tenet_inner_journey
 			doctrine = tenet_esotericism
@@ -423,27 +408,15 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# General Shiva Holy Sites10
+			# Indonesian / Malyasian Holy Sites
 			holy_site = katas_raj
-			holy_site = jageshwar
-			holy_site = chidambaram
-			holy_site = madurai
-			holy_site = thirukutralam
-			# The Jyotirlinga Holy Sites16
+			# Shaivist Holy Sites
 			holy_site = srisailam
-			holy_site = bhimashankar
-			holy_site = trimbakeshwar
-			holy_site = somnath
-			holy_site = omkareshwar
-			holy_site = grishneshwar
+			holy_site = rameswaram
 			holy_site = baidyanath
 			holy_site = kedarnath
 
-			doctrine = tenet_bhakti
+			doctrine = tenet_asceticism
 			doctrine = tenet_monasticism
 			doctrine = tenet_esotericism
 
@@ -534,21 +507,17 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# General Smarta Holy Sites 11
+			# Indonesian / Malyasian Holy Sites
+			holy_site = ucchi_pillayar
+			# smartism Holy Sites
 			holy_site = katas_raj
-			holy_site = jageshwar
 			holy_site = srisailam
 			holy_site = mahalakshmi
-			holy_site = ucchi_pillayar
-			holy_site = sharada_peeth
+			holy_site = jageshwar
 
 			doctrine = tenet_inner_journey
 			doctrine = tenet_monasticism
-			doctrine = tenet_bhakti
+			doctrine = tenet_adaptive
 
 			doctrine = sampradaya_smartism_doctrine
 
@@ -603,24 +572,15 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# General Shakta Holy Sites10
-			holy_site = katas_raj
+			# Indonesian / Malyasian Holy Sites
 			holy_site = jageshwar
-			holy_site = madurai
-			# mahashakti pitha14
+			# srikula_shaktism Holy Sites
+			holy_site = mahalakshmi
 			holy_site = chamundeshwari
 			holy_site = jogulamba
-			holy_site = srisailam
-			holy_site = mahalakshmi
 			holy_site = biraja
-			holy_site = kamakhya
-			holy_site = sharada_peeth
 
-			doctrine = tenet_bhakti
+			doctrine = tenet_esotericism
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_inner_journey
 
@@ -695,6 +655,7 @@
 			color = {255 90 95 }
 			icon = kalikula_shaktism
 
+			
 			# Sapta Puri Holy Sites
 			holy_site = varanasi
 			holy_site = ayodhya
@@ -703,25 +664,16 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# General Shakta Holy Sites10
-			holy_site = katas_raj
+			# Indonesian / Malyasian Holy Sites
 			holy_site = jageshwar
-			holy_site = madurai
-			# mahashakti pitha14
-			holy_site = chamundeshwari
-			holy_site = jogulamba
-			holy_site = srisailam
-			holy_site = mahalakshmi
-			holy_site = biraja
+			# kalikula_shaktism Holy Sites
+			holy_site = sharada_peeth
 			holy_site = kamakhya
-			holy_site = sharada_peeth	
+			holy_site = mahalakshmi
+			holy_site = biraja	
 
-			doctrine = tenet_bhakti
-			doctrine = tenet_ritual_hospitality
+			doctrine = tenet_inner_journey
+			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_esotericism
 
 			doctrine = sampradaya_shaktism_doctrine
@@ -812,19 +764,10 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# Shiva Holy Sites11
+			# Indonesian / Malyasian Holy Sites
 			holy_site = katas_raj
-			holy_site = jageshwar
-			holy_site = chidambaram
-			holy_site = madurai
-			holy_site = thirukutralam
-			# General Ganesha Holy Sites15
+			# Ganesha Holy Sites
 			holy_site = ucchi_pillayar
-			# The Ashtavinayaka Holy Sites16
 			holy_site = mayureshwar
 			holy_site = ballaleshwar
 			holy_site = girjatmaj
@@ -899,15 +842,12 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# General Surya Holy Sites11
+			# Indonesian / Malyasian Holy Sites
+			holy_site = navlakha
+			# Surya Holy Sites
 			holy_site = multan
 			holy_site = jageshwar # Katarmal
 			holy_site = konark
-			holy_site = navlakha
 			holy_site = suryanarayana
 
 			doctrine = tenet_sun_worship
@@ -968,6 +908,7 @@
 			holy_site = puri
 			holy_site = badrinath
 			holy_site = rameswaram
+			holy_site = multan
 
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_esotericism
@@ -1087,20 +1028,13 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-			# Char Dham Holy Sites - dwaraka, Puri, Badrinath, and Rameswaram
-			holy_site = puri
-			holy_site = badrinath
-			holy_site = rameswaram
-			# General Shiva Holy Sites11
+			# Indonesian / Malyasian Holy Sites
 			holy_site = katas_raj
-			holy_site = jageshwar
-			holy_site = chidambaram
-			holy_site = madurai
-			holy_site = thirukutralam
-			# The six abodes of Murugan16 
+			# Murugan Holy Sites
 			holy_site = dhandayuthapani
-			holy_site = pazhamudircholai
+			holy_site = pazhamudircholai 
 			holy_site = tiruchendur
+			holy_site = madurai
 
 			doctrine = tenet_communal_identity
 			doctrine = tenet_inner_journey
