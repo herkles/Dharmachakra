@@ -137,6 +137,8 @@ Dharma_events_five_yearly_pulse = {
 		# Buddhist Flavor Events
 		#######################################
 		30 = dharma_buddhism.051		# Buddhist school monk maintance
+		30 = dharma_buddhism.052		# Your chief monk follows a different school then you do
+		30 = dharma_buddhism.053		# Your chief monk encourges you to follow the teachings of his/her school
 
 		#######################################
 		# Jain Flavor Events

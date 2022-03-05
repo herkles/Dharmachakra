@@ -394,6 +394,253 @@ dharma_buddhism.051 = {# Maintence to insure the high learning monks are picking
 		}
 	}
 }
+dharma_buddhism.052 = {# Your chief monk follows a different school then you do
+	type = character_event
+	title = dharma_buddhism.052.t
+	desc = dharma_buddhism.052.desc
+	theme = faith
+	override_background = {
+		event_background = forest_temple
+	}
+	left_portrait = {
+		character = councillor_court_chaplain
+		animation = personality_rational
+	}
+
+	immediate = {
+		cp:councillor_court_chaplain = {
+			save_scope_as = realm_priest
+		}
+	}
+
+	trigger = {
+		OR = {
+			AND = {
+				scope:councillor_court_chaplain = { has_trait = buddhist_school_chan }
+				OR = {
+					has_character_modifier = buddhist_school_yogachara
+					has_character_modifier = buddhist_school_madhyamaka
+					has_character_modifier = buddhist_school_pure_land
+				}
+			}
+			AND = {
+				scope:councillor_court_chaplain = { has_trait = buddhist_school_madhyamaka }
+				OR = {
+					has_character_modifier = buddhist_school_chan
+					has_character_modifier = buddhist_school_yogachara
+					has_character_modifier = buddhist_school_pure_land
+				}
+			}
+			AND = {
+				scope:councillor_court_chaplain = { has_trait = buddhist_school_yogachara }
+				OR = {
+					has_character_modifier = buddhist_school_pure_land
+					has_character_modifier = buddhist_school_madhyamaka
+					has_character_modifier = buddhist_school_pure_land
+				}
+			}
+			AND = {
+				scope:councillor_court_chaplain = { has_trait = buddhist_school_pure_land }
+				OR = {
+					has_character_modifier = buddhist_school_yogachara
+					has_character_modifier = buddhist_school_madhyamaka
+					has_character_modifier = buddhist_school_chan
+				}
+			}
+		}
+	}
+
+
+	option = {# Follow the Monks advice
+		name = dharma_buddhism.052.switch
+		hidden_effect = {
+			if = {
+				limit = {
+					has_character_modifier = buddhist_school_chan
+				}
+				remove_character_modifier = buddhist_school_chan
+			}
+			if = {
+				limit = {
+					has_character_modifier = buddhist_school_yogachara
+				}
+				remove_character_modifier = buddhist_school_yogachara
+			}
+			if = {
+				limit = {
+					has_character_modifier = buddhist_school_pure_land
+				}
+				remove_character_modifier = buddhist_school_pure_land
+			}
+
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_chan } }
+				add_character_modifier = buddhist_school_chan
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_madhyamaka } }
+				add_character_modifier = buddhist_school_madhyamaka
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_yogachara } }
+				add_character_modifier = buddhist_school_yogachara
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_pure_land } }
+				add_character_modifier = buddhist_school_pure_land
+			}
+		}
+		scope:councillor_court_chaplain = {
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 20
+			}
+		}
+	}
+	option = {# Stick with your current school
+		name = dharma_buddhism.052.stick
+		scope:councillor_court_chaplain = {
+			add_opinion = {
+				target = root
+				modifier = disappointed_opinion
+				opinion = -10
+			}
+		}
+		add_prestige = minor_prestige_gain
+	}
+	option = {# Try and convince the monk
+		limit = { has_trait = theologian }
+		name = dharma_buddhism.052.convince
+		duel = {
+			skill = learning
+			target = scope:councillor_court_chaplain
+
+			40 = {# You successfully succed in convincing 
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+					min = -14
+				}
+				add_piety = minor_piety_gain
+				scope:councillor_court_chaplain = {
+					if = {
+						limit = { scope:root = { has_character_modifier = buddhist_school_chan } }
+						add_trait = buddhist_school_chan
+					}
+					if = {
+						limit = { scope:root = { has_character_modifier = buddhist_school_madhyamaka } }
+						add_trait = buddhist_school_madhyamaka
+					}
+					if = {
+						limit = { scope:root = { has_character_modifier = buddhist_school_yogachara } }
+						add_trait = buddhist_school_yogachara
+					}
+					if = {
+						limit = { scope:root = { has_character_modifier = buddhist_school_pure_land } }
+						add_trait = buddhist_school_pure_land
+					}
+
+				}
+				custom_tooltip = dharma_buddhism.052.convince.success
+			}
+			60 = {# You fail to convince the Monk
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -0.25
+					min = -19
+				}
+				scope:councillor_court_chaplain = {
+					add_opinion = {
+						target = scope:councillor_court_chaplain
+						modifier = angry_opinion
+						opinion = -10
+					}
+				}
+				custom_tooltip = dharma_buddhism.052.convince.failure
+			}
+		}
+	}
+
+}
+dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings of his/her school
+	type = character_event
+	title = dharma_buddhism.053.t
+	desc = dharma_buddhism.053.desc
+	theme = faith
+	override_background = {
+		event_background = forest_temple
+	}
+	left_portrait = {
+		character = scope:realm_priest
+		animation = personality_zealous
+	}
+
+	immediate = {
+		cp:councillor_court_chaplain = {
+			save_scope_as = realm_priest
+		}
+	}
+	
+	trigger = {
+		has_perk = faithful_perk
+		faith = faith:mahayana
+		OR = {
+			scope:councillor_court_chaplain = { has_trait = buddhist_school_chan }
+			scope:councillor_court_chaplain = { has_trait = buddhist_school_yogachara }
+			scope:councillor_court_chaplain = { has_trait = buddhist_school_madhyamaka }
+			scope:councillor_court_chaplain = { has_trait = buddhist_school_pure_land }
+
+		}
+		NOR = {
+			has_character_modifier = buddhist_school_chan
+			has_character_modifier = buddhist_school_yogachara
+			has_character_modifier = buddhist_school_madhyamaka
+			has_character_modifier = buddhist_school_pure_land
+		}
+	}
+
+	option = {# I will follow the teachings
+		name = dharma_buddhism.053.follow
+		hidden_effect = {	
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_chan } }
+				add_character_modifier = buddhist_school_chan
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_madhyamaka } }
+				add_character_modifier = buddhist_school_madhyamaka
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_yogachara } }
+				add_character_modifier = buddhist_school_yogachara
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_pure_land } }
+				add_character_modifier = buddhist_school_pure_land
+			}
+		}
+		scope:councillor_court_chaplain = {
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 20
+			}
+		}
+	}
+	option = {# No need to right now.
+		name = dharma_buddhism.053.not_follow
+		scope:councillor_court_chaplain = {
+			add_opinion = {
+				target = root
+				modifier = disappointed_opinion
+				opinion = -10
+			}
+		}
+		add_prestige = minor_prestige_gain
+	}
+
+}
 #######################################
 #									  #
 # 	  MEDITATION RETREAT EVENTS       #
