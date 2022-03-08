@@ -367,29 +367,31 @@ dharma_buddhism.051 = {# Maintence to insure the high learning monks are picking
 	}
 
 	immediate = {
-		limit = {
-			has_trait = devoted
-			learning >= decent_skill_rating
-			faith = faith:mahayana
-			NOR = {
-				has_trait = buddhist_school_chan
-				has_trait = buddhist_school_madhyamaka
-				has_trait = buddhist_school_yogachara
-				has_trait = buddhist_school_pure_land
+		if = {
+			limit = {
+				has_trait = devoted
+				learning >= decent_skill_rating
+				faith = faith:mahayana
+				NOR = {
+					has_trait = buddhist_school_chan
+					has_trait = buddhist_school_madhyamaka
+					has_trait = buddhist_school_yogachara
+					has_trait = buddhist_school_pure_land
+				}
 			}
-		}
-		random_list = {
-			25 = {
-				add_trait = buddhist_school_chan
-			}
-			25 = {
-				add_trait = buddhist_school_madhyamaka
-			}
-			25 = {
-				add_trait = buddhist_school_yogachara
-			}
-			25 = {
-				add_trait = buddhist_school_pure_land
+			random_list = {
+				25 = {
+					add_trait = buddhist_school_chan
+				}
+				25 = {
+					add_trait = buddhist_school_madhyamaka
+				}
+				25 = {
+					add_trait = buddhist_school_yogachara
+				}
+				25 = {
+					add_trait = buddhist_school_pure_land
+				}
 			}
 		}
 	}
@@ -403,7 +405,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 		event_background = forest_temple
 	}
 	left_portrait = {
-		character = councillor_court_chaplain
+		character = realm_priest
 		animation = personality_rational
 	}
 
@@ -416,7 +418,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 	trigger = {
 		OR = {
 			AND = {
-				scope:councillor_court_chaplain = { has_trait = buddhist_school_chan }
+				scope:realm_priest = { has_trait = buddhist_school_chan }
 				OR = {
 					has_character_modifier = buddhist_school_yogachara
 					has_character_modifier = buddhist_school_madhyamaka
@@ -424,7 +426,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 				}
 			}
 			AND = {
-				scope:councillor_court_chaplain = { has_trait = buddhist_school_madhyamaka }
+				scope:realm_priest = { has_trait = buddhist_school_madhyamaka }
 				OR = {
 					has_character_modifier = buddhist_school_chan
 					has_character_modifier = buddhist_school_yogachara
@@ -432,7 +434,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 				}
 			}
 			AND = {
-				scope:councillor_court_chaplain = { has_trait = buddhist_school_yogachara }
+				scope:realm_priest = { has_trait = buddhist_school_yogachara }
 				OR = {
 					has_character_modifier = buddhist_school_pure_land
 					has_character_modifier = buddhist_school_madhyamaka
@@ -440,7 +442,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 				}
 			}
 			AND = {
-				scope:councillor_court_chaplain = { has_trait = buddhist_school_pure_land }
+				scope:realm_priest = { has_trait = buddhist_school_pure_land }
 				OR = {
 					has_character_modifier = buddhist_school_yogachara
 					has_character_modifier = buddhist_school_madhyamaka
@@ -490,7 +492,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 				add_character_modifier = buddhist_school_pure_land
 			}
 		}
-		scope:councillor_court_chaplain = {
+		scope:realm_priest = {
 			add_opinion = {
 				modifier = pleased_opinion
 				target = root
@@ -500,7 +502,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 	}
 	option = {# Stick with your current school
 		name = dharma_buddhism.052.stick
-		scope:councillor_court_chaplain = {
+		scope:realm_priest = {
 			add_opinion = {
 				target = root
 				modifier = disappointed_opinion
@@ -510,11 +512,11 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 		add_prestige = minor_prestige_gain
 	}
 	option = {# Try and convince the monk
-		limit = { has_trait = theologian }
+		trigger = { has_trait = theologian }
 		name = dharma_buddhism.052.convince
 		duel = {
 			skill = learning
-			target = scope:councillor_court_chaplain
+			target = scope:realm_priest
 
 			40 = {# You successfully succed in convincing 
 				compare_modifier = {
@@ -523,21 +525,21 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 					min = -14
 				}
 				add_piety = minor_piety_gain
-				scope:councillor_court_chaplain = {
+				scope:realm_priest = {
 					if = {
-						limit = { scope:root = { has_character_modifier = buddhist_school_chan } }
+						limit = { root = { has_character_modifier = buddhist_school_chan } }
 						add_trait = buddhist_school_chan
 					}
 					if = {
-						limit = { scope:root = { has_character_modifier = buddhist_school_madhyamaka } }
+						limit = { root = { has_character_modifier = buddhist_school_madhyamaka } }
 						add_trait = buddhist_school_madhyamaka
 					}
 					if = {
-						limit = { scope:root = { has_character_modifier = buddhist_school_yogachara } }
+						limit = { root = { has_character_modifier = buddhist_school_yogachara } }
 						add_trait = buddhist_school_yogachara
 					}
 					if = {
-						limit = { scope:root = { has_character_modifier = buddhist_school_pure_land } }
+						limit = { root = { has_character_modifier = buddhist_school_pure_land } }
 						add_trait = buddhist_school_pure_land
 					}
 
@@ -550,9 +552,9 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 					multiplier = -0.25
 					min = -19
 				}
-				scope:councillor_court_chaplain = {
+				scope:realm_priest = {
 					add_opinion = {
-						target = scope:councillor_court_chaplain
+						target = scope:realm_priest
 						modifier = angry_opinion
 						opinion = -10
 					}
@@ -586,10 +588,10 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 		has_perk = faithful_perk
 		faith = faith:mahayana
 		OR = {
-			scope:councillor_court_chaplain = { has_trait = buddhist_school_chan }
-			scope:councillor_court_chaplain = { has_trait = buddhist_school_yogachara }
-			scope:councillor_court_chaplain = { has_trait = buddhist_school_madhyamaka }
-			scope:councillor_court_chaplain = { has_trait = buddhist_school_pure_land }
+			scope:realm_priest = { has_trait = buddhist_school_chan }
+			scope:realm_priest = { has_trait = buddhist_school_yogachara }
+			scope:realm_priest = { has_trait = buddhist_school_madhyamaka }
+			scope:realm_priest = { has_trait = buddhist_school_pure_land }
 
 		}
 		NOR = {
@@ -620,7 +622,7 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 				add_character_modifier = buddhist_school_pure_land
 			}
 		}
-		scope:councillor_court_chaplain = {
+		scope:realm_priest = {
 			add_opinion = {
 				modifier = pleased_opinion
 				target = root
@@ -630,7 +632,7 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 	}
 	option = {# No need to right now.
 		name = dharma_buddhism.053.not_follow
-		scope:councillor_court_chaplain = {
+		scope:realm_priest = {
 			add_opinion = {
 				target = root
 				modifier = disappointed_opinion

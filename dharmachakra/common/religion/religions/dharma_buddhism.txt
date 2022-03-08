@@ -245,8 +245,8 @@
 			# Burmese Theravada Pilgrimage Sites8
 			holy_site = dagon # 8
 			holy_site = pagan # 9
-			# SouthEast Asia Theravada Pilgrimage Sites10
             holy_site = kyaikhtiyo # 10 
+			# SouthEast Asia Theravada Pilgrimage Sites10
 			holy_site = ajanta # 11
             holy_site = atamasthana # 12	
 

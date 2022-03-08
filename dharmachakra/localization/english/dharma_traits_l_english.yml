@@ -1,6 +1,25 @@
 ﻿l_english:
 
 #######################################
+# Buddhism Traits
+#######################################
+  trait_buddhist_school_chan:0 "Chan Buddhist School"
+  trait_buddhist_school_chan_desc:0 "This character is a follower of the Chan school of Buddhismr"
+  trait_buddhist_school_chan_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Chan School of Buddhism."
+
+  trait_buddhist_school_madhyamaka:0 "Madhyamaka Buddhist School"
+  trait_buddhist_school_madhyamaka_desc:0 "This character is a follower of the Madhyamaka school of Buddhism"
+  trait_buddhist_school_madhyamaka_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Madhyamaka School of Buddhism."
+
+  trait_buddhist_school_yogachara:0 "Yogachara Buddhist School"
+  trait_buddhist_school_yogachara_desc:0 "This character is a follower of the Yogachara school of Buddhism"
+  trait_buddhist_school_yogachara_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Yogachara School of Buddhism."
+
+  trait_buddhist_school_pure_land:0 "Pure Land Buddhist School"
+  trait_buddhist_school_yogachara_desc:0 "This character is a follower of the Pure Land school of Buddhism"
+  trait_buddhist_school_yogachara_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Pure Land School of Buddhism."
+
+#######################################
 # Hindu Traits
 #######################################
   trait_devadasi:0 "Devadasi"
