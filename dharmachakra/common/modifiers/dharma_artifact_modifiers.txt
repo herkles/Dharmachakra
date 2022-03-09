@@ -1,0 +1,23 @@
+﻿##########################################
+# Book Modifiers 
+##########################################
+kavirajamarga_modifier = {
+	monthly_piety = 0.5
+	court_grandeur_baseline_add = 3
+	stress_gain_mult = -0.15
+	monthly_dynasty_prestige_mult = 0.05
+}
+lankavatara_modifier = {
+	monthly_piety = 0.5
+	court_grandeur_baseline_add = 3
+	monthly_dynasty_prestige_mult = 0.05
+	monthly_learning_lifestyle_xp_gain_mult = 0.15
+}
+heart_sutra_modifier = {
+	monthly_piety = 0.5
+	court_grandeur_baseline_add = 3
+	monthly_dynasty_prestige_mult = 0.05
+	direct_vassal_opinion = 4
+}
+
+

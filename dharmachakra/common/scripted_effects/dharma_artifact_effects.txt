@@ -1,4 +1,8 @@
-﻿
+﻿#######################################
+#									  #
+#          Book Artifacts			  #
+#									  #
+#######################################
 create_artifact_kavirajamarga_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
@@ -32,4 +36,61 @@ create_artifact_kavirajamarga_effect = {
 		save_scope_as = epic
 	}
 }
+create_artifact_heart_sutra_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_famed = yes
 
+	# Create the artifact
+	create_artifact = {	
+		name = heart_sutra_name
+		description = heart_sutra_description
+		type = book
+		visuals = indian_book
+		wealth = scope:wealth
+		quality = scope:quality
+		template = general_unique_template
+		history = {
+			type = created_before_history
+		}
+		modifier = heart_sutra_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = heart_sutra
+		save_scope_as = epic
+	}
+}
+create_artifact_lankavatara_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {	
+		name = lankavatara_name
+		description = lankavatara_description
+		type = book
+		visuals = indian_book
+		wealth = scope:wealth
+		quality = scope:quality
+		template = general_unique_template
+		history = {
+			type = created_before_history
+		}
+		modifier = lankavatara_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = lankavatara
+		save_scope_as = epic
+	}
+}

@@ -5,7 +5,7 @@
 	}
 }
 
-three_year_playable_pulse = {
+three_year_playable_pulse = { 
 	on_actions = {
 		delay = { days = 29 }
 		Dharma_events_tri_yearly_pulse
@@ -161,11 +161,16 @@ dharma_nalanda_journey_events = {
 		100 = dharma_buddhism.303 # Meditating with the Monks
 		100 = dharma_buddhism.304 # Vegetarian v non-vegetiarian
 		100 = dharma_buddhism.305 # Cosmopolitan Experince
-		100 = dharma_buddhism.312 # Learning to love to read
-		100 = dharma_buddhism.315 # Recieving an education
 		50 = dharma_buddhism.306  # Theological Debate
-		25 = dharma_buddhism.310  # Mystical learning
 		25 = dharma_buddhism.307  # Medical learning
+		25 = dharma_buddhism.308  # Language Learning
+		25 = dharma_buddhism.309  # Studying while at Nalanda
+		25 = dharma_buddhism.310  # Mystical learning
+		15 = dharma_buddhism.311  # Taking Home a Book
+		100 = dharma_buddhism.312 # Learning to love to read
+		40 = dharma_buddhism.313 # Buddhist Schools
+		50 = dharma_buddhism.314  # Philosophical Debate
+		100 = dharma_buddhism.315 # Recieving an education
 	}
 }
 dharma_nalanda_visit_over_events = {
