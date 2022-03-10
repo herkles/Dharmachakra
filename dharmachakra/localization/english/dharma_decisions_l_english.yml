@@ -1,5 +1,24 @@
 ﻿l_english:
 #######################################
+# Major General Decisions
+#######################################
+  # Unite India
+  become_chakravarti_decision_title_dharmic:0 "Become Chakravarti"
+  become_chakravarti_decision_title_muslim:0 "Fullfill Ghazwa-e-Hind"
+  become_chakravarti_decision_title_else:0 "Unite India"
+  become_chakravarti_decision_desc_dharmic:0 "#F With the necessary rituals and ceremonies, I will formalize my divine status as the rightful ruler of the entire world.#!"
+  become_chakravarti_decision_desc_muslim:0 "The Hadiths speak that he who unites India shall be freed from the fire, and Allah shall bless them. Now that time has come and India is united and brought under the faithful of Allah. "
+  become_chakravarti_decision_desc_else:0 "I have managed to unite all of India under my rule. It is time to cement my power and secure it as the ruler of a united India."
+  become_chakravarti_decision_tooltip:0 "Unite India"
+  become_chakravarti_decision_indian_empires_unite_effect:0 "I consolidate the Empires of India"
+  become_chakravarti_decision_new_primary_title_effect:0 "The Empire of India becomes my new [primary_title|E]"
+  become_chakravarti_decision_confirm:0 "Attend the rituals"
+
+
+
+
+
+#######################################
 # Elephant Decisions
 #######################################
  pet_elephant_decision:0 "Pet [ROOT.Char.Custom('ElephantStoryName')]"
@@ -7,6 +26,7 @@
  pet_elephant_decision_tooltip:0 "You will lose some [stress|E]"
  pet_elephant_decision_confirm:0 "Pet your elephant"
  pet_elephant_decision_tooltip:0 "Pet your elephant"
+
 #######################################
 # Buddhist Decisions
 #######################################
@@ -21,13 +41,6 @@
  dharma_adopt_mahayana_school_tooltip:0 "You will follow one of the schools of Mahayana Buddhism."
  dharma_adopt_mahayana_school_confirm:0 "Om Mani Padme Hum"
 
-
-#######################################
-# Cultural Decisions
-#######################################
- declare_kumari_decision:0 "Establish the Kumari Tradition"
- declare_kumari_decision_desc:0 "The worship of virgins has been present among the Nepali for centuries. These virgins are treated with the utmost respect and are sometimes even worshiped. With the recent improvements to the adminstration, priests have petitioned to formally establishe the rules for the young girls who would be the incarnation of the Goddess. This would formalize the rules of this tradition and add some popular support and legitimacy to our rule. "
- declare_kumari_decision_confirm:0 "Formalize the Kumari Tradition"
 #######################################
 # Select Personal Deity Decisions
 #######################################
@@ -53,61 +66,58 @@
  dharma_visit_nalanda_desc:0 "Nalanda is a famous Buddhist univeristy in Bihar that attracts scholars from around India."
  dharma_visit_nalanda_tooltip:0 "You will decide if you wish to visit Nalanda or not."
  dharma_visit_nalanda_confirm:0 "Time to visit Nalanda"
+
 #######################################
 # Jain Decisions
 #######################################
- initiate_consolamentum_decision:1 "Consolamentum: Initiate Endura"
- initiate_consolamentum_decision_alternate:0 "Enact Ritual Suicide"
- initiate_consolamentum_decision_sallekhana:0 "Initiate Sallekhana"
- initiate_consolamentum_decision_tooltip:0 "It is time to prepare for the end of this life"
- initiate_consolamentum_decision_desc:1 "#F As the end of my life draws near, I should initiate the Endura ritual to cleanse my soul of sin and move on from this world.#!"
- initiate_consolamentum_decision_desc_alternate:0 "#F With the end of my life drawing near, I should undergo the holy suicide rituals that will cleanse my soul of sin before moving on from this world.#!"
- initiate_consolamentum_decision_desc_sallekhana:0 "#F As my life draws near, I should initate the Sallekhana ritual where I shall abdicate and begin a holy fast that will conquer human passions. I will withdraw from all physical and mental activites as I fast myself to death and destroy some of the Karma particles that keep my soul bound to samsara."
- initiate_consolamentum_decision_confirm:1 "Enact Ritual Suicide"
-# Mahamastakabhisheka Festival
- dharma_attend_mahamastakabhisheka_festival:0 "Attend the Mahamastakabhisheka Festival"
- dharma_attend_mahamastakabhisheka_festival_desc:0 "Attend the Mahamastakabhisheka to honor Gommateshwara otherwise known as Bahubali."
- dharma_attend_mahamastakabhisheka_festival_tooltip:0 "Attend the Festival."
- dharma_attend_mahamastakabhisheka_festival_confirm:0 "Time to start the travel preparations. "
-# Paryushana Festival
- dharma_attend_paryushana_festival:0 "Attend the Paryushana Festival"
- dharma_attend_paryushana_festival_digambara:0 "Attend the Das Lakshana Festival"
- dharma_attend_paryushana_festival_desc:0 "The Paryushana Festival is the most holiest of festivals where Jains come together to study and fast."
- dharma_attend_paryushana_festival_digambara_desc:0 "The Das Lakshana Festival is the most holiest of festivals where Jains come together to study and fast."
- dharma_attend_paryushana_festival_tooltip:0 "Attend the Festival."
- dharma_attend_paryushana_festival_confirm:0 "Time to start the preparations."
- dharma_decision_paryushana_month_requirement:0 "You need to start the preparations between August and September"
-# Mahavir Janma Kalyanak Festival
- dharma_attend_mahavir_kalyanak_festival:0 "Attend the Mahavir Janma Kalyanak Festival"
- dharma_attend_mahavir_kalyanak_festival_desc:0 "Attend the Mahavir Janma Kalyanak Festival to honor the birth of Mahavira."
- dharma_attend_mahavir_kalyanak_festival_tooltip:0 "Attend the Festival."
- dharma_attend_mahavir_kalyanak_festival_confirm:0 "Time to start the preparations."
- dharma_decision_mahavir_kalyanak_month_requirement:0 "You need to start the preparations between March and April"
-# Abdication
- dharma_jain_abdication:0 "Ponder Abdication."
- dharma_jain_abdication_desc:0 "It has occured to me that maybe the best way to achieve moksha might be to abdicate and join the sangha as a monk."
- dharma_jain_abdication_tooltip:0 "You will decide if you want to abdicate your throne or not."
- dharma_jain_abdication_confirm:0 "Time to decide on abdication."
+  initiate_consolamentum_decision:1 "Consolamentum: Initiate Endura"
+  initiate_consolamentum_decision_alternate:0 "Enact Ritual Suicide"
+  initiate_consolamentum_decision_sallekhana:0 "Initiate Sallekhana"
+  initiate_consolamentum_decision_tooltip:0 "It is time to prepare for the end of this life"
+  initiate_consolamentum_decision_desc:1 "#F As the end of my life draws near, I should initiate the Endura ritual to cleanse my soul of sin and move on from this world.#!"
+  initiate_consolamentum_decision_desc_alternate:0 "#F With the end of my life drawing near, I should undergo the holy suicide rituals that will cleanse my soul of sin before moving on from this world.#!"
+  initiate_consolamentum_decision_desc_sallekhana:0 "#F As my life draws near, I should initate the Sallekhana ritual where I shall abdicate and begin a holy fast that will conquer human passions. I will withdraw from all physical and mental activites as I fast myself to death and destroy some of the Karma particles that keep my soul bound to samsara."
+  initiate_consolamentum_decision_confirm:1 "Enact Ritual Suicide"
+
+  # Mahamastakabhisheka Festival
+  dharma_attend_mahamastakabhisheka_festival:0 "Attend the Mahamastakabhisheka Festival"
+  dharma_attend_mahamastakabhisheka_festival_desc:0 "Attend the Mahamastakabhisheka to honor Gommateshwara otherwise known as Bahubali."
+  dharma_attend_mahamastakabhisheka_festival_tooltip:0 "Attend the Festival."
+  dharma_attend_mahamastakabhisheka_festival_confirm:0 "Time to start the travel preparations. "
+  # Paryushana Festival
+  dharma_attend_paryushana_festival:0 "Attend the Paryushana Festival"
+  dharma_attend_paryushana_festival_digambara:0 "Attend the Das Lakshana Festival"
+  dharma_attend_paryushana_festival_desc:0 "The Paryushana Festival is the most holiest of festivals where Jains come together to study and fast."
+  dharma_attend_paryushana_festival_digambara_desc:0 "The Das Lakshana Festival is the most holiest of festivals where Jains come together to study and fast."
+  dharma_attend_paryushana_festival_tooltip:0 "Attend the Festival."
+  dharma_attend_paryushana_festival_confirm:0 "Time to start the preparations."
+  dharma_decision_paryushana_month_requirement:0 "You need to start the preparations between August and September"
+  # Mahavir Janma Kalyanak Festival
+  dharma_attend_mahavir_kalyanak_festival:0 "Attend the Mahavir Janma Kalyanak Festival"
+  dharma_attend_mahavir_kalyanak_festival_desc:0 "Attend the Mahavir Janma Kalyanak Festival to honor the birth of Mahavira."
+  dharma_attend_mahavir_kalyanak_festival_tooltip:0 "Attend the Festival."
+  dharma_attend_mahavir_kalyanak_festival_confirm:0 "Time to start the preparations."
+  dharma_decision_mahavir_kalyanak_month_requirement:0 "You need to start the preparations between March and April"
+  # Abdication
+  dharma_jain_abdication:0 "Ponder Abdication."
+  dharma_jain_abdication_desc:0 "It has occured to me that maybe the best way to achieve moksha might be to abdicate and join the sangha as a monk."
+  dharma_jain_abdication_tooltip:0 "You will decide if you want to abdicate your throne or not."
+  dharma_jain_abdication_confirm:0 "Time to decide on abdication."
+
 #######################################
 # Hindu Decisions
 #######################################
- dharma_vedic_animal_sacrifice:0 "Sacrifice Animals to the Gods"
- dharma_vedic_animal_sacrifice_desc:0 "We seek the blessings of the gods, and the way to do so is through sacrificing animals to the Divine."
- dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
- dharma_vedic_animal_sacrifice_tooltip:0 "You will sacrifice Animals to the heavens"
- dharma_vedic_animal_sacrifice_costs_tooltip:0 "Potential boons depend on how grand the sacrifice is and what type of animal you sacrifice.  #weak (Minimum cost: @gold_icon! 50)#!"
- # Visit Sharada Peeth
- dharma_visit_sharada_peeth:0 "Visit the Temple Complex of Sharada Peeth"
- dharma_visit_sharada_peeth_desc:0 "Sharada Peeth is a temple complex and center of learning in Kashmir that attracts scholars from around India."
- dharma_visit_sharada_peeth_tooltip:0 "You will decide if you wish to visit Sharada Peeth or not."
- dharma_visit_sharada_peeth_confirm:0 "Time to visit Sharada Peeth"
-#######################################
-# Major General Decisions
-#######################################
- dharma_rebuild_grand_trunk_road_decision:0 "Rebuild the Grand Trunk Road"
- dharma_rebuild_grand_trunk_road_desc:0 "The ancient Grand Trunk Road, also known Uttarapatha, was built by the ancient Mauryan empire. By now though very little remains of that once vital road in the north of India. However a ruler with the money and vision could rebuild such ancient road. "
- dharma_grand_trunk_road_tooltip:0 "You will start constructing the Grand Trunk Road. Your advisors tell you it will not come cheap."
-  buddhist_retreat_decision_confirm:0 "Let us rebuild the Road!"
+  dharma_vedic_animal_sacrifice:0 "Sacrifice Animals to the Gods"
+  dharma_vedic_animal_sacrifice_desc:0 "We seek the blessings of the gods, and the way to do so is through sacrificing animals to the Divine."
+  dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
+  dharma_vedic_animal_sacrifice_tooltip:0 "You will sacrifice Animals to the heavens"
+  dharma_vedic_animal_sacrifice_costs_tooltip:0 "Potential boons depend on how grand the sacrifice is and what type of animal you sacrifice.  #weak (Minimum cost: @gold_icon! 50)#!"
+  # Visit Sharada Peeth
+  dharma_visit_sharada_peeth:0 "Visit the Temple Complex of Sharada Peeth"
+  dharma_visit_sharada_peeth_desc:0 "Sharada Peeth is a temple complex and center of learning in Kashmir that attracts scholars from around India."
+  dharma_visit_sharada_peeth_tooltip:0 "You will decide if you wish to visit Sharada Peeth or not."
+  dharma_visit_sharada_peeth_confirm:0 "Time to visit Sharada Peeth"
+
 #######################################
 # Festival Decisions
 #######################################
