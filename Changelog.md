@@ -11,8 +11,8 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - Added Buddhist Schools for Mahayana Buddhism
 - Expanded Nalanda Events
 - Revised the number of Holy Sites for Buddhist and Hindu Faiths; reduced for now for balance reasons.
-
-
+- Other faiths besides Dharmic Faiths can unite India
+- brought over vanilla database changes
 
 ## Manual Installation Steps
 

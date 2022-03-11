@@ -3,6 +3,20 @@ k_orissa = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	
+	1040.1.1 = {
+		holder = 189195	#Udyotakesari
+	}
+	1065.1.1 = {
+		holder = 189196	#Janmejaya
+	}
+	1085.1.1 = {
+		holder = 189197	#Puranjaya
+	}
+	1100.1.1 = {
+		holder = 189199	#Karnadeva
+	}
+
+	#Eastern Ganga dynasty:
 	1110.1.1 = {
 		holder = 189183 #Codaganga
 	}
@@ -108,23 +122,24 @@ d_tosali = {
 	955.1.1 = {
 		holder = 191181	#Dharma Mahadevi
 	}
-	960.1.1 = {
+	956.1.1 = {
 		holder = 189190	#Bhimaratha
 	}
-	980.1.1 = {
+	975.1.1 = {
 		holder = 189191	#Dharamaratha
 	}
-	1005.1.1 = {
+	995.1.1 = {
 		holder = 189191	#Nahusa
 	}
-	1021.1.1 = {
+	1010.1.1 = {
 		holder = 189193	#Indranatha
 	}
-	1025.1.1 = {
+	1022.1.1 = {
 		holder = 189194	#Yayati
 	}
 	1040.1.1 = {
 		holder = 189195	#Udyotakesari
+		liege = k_orissa
 	}
 	1065.1.1 = {
 		holder = 189196	#Janmejaya
@@ -137,7 +152,6 @@ d_tosali = {
 	}
 	1110.1.1 = {
 		holder = 189183 #Codaganga
-		liege = k_orissa
 	}
 	1150.1.1 = {
 		holder = 191207 #Kamarnava
@@ -238,32 +252,30 @@ c_kataka = {
 	955.1.1 = {
 		holder = 191181	#Dharma Mahadevi
 	}
-	960.1.1 = {
+	956.1.1 = {
 		holder = 189190	#Bhimaratha
 	}
-	980.1.1 = {
+	975.1.1 = {
 		holder = 189191	#Dharamaratha
 	}
-	1005.1.1 = {
+	995.1.1 = {
 		holder = 189191	#Nahusa
 	}
-	1021.1.1 = {
+	1010.1.1 = {
 		holder = 189193	#Indranatha
 	}
-	1025.1.1 = {
+	1022.1.1 = {
 		holder = 189194	#Yayati
 	}
 	1040.1.1 = {
 		holder = 189195	#Udyotakesari
+		liege = k_orissa
 	}
 	1065.1.1 = {
-		holder = 189198	#Purohit
+		holder = 189196	#Janmejaya
 	}
 	1085.1.1 = {
 		holder = 189197	#Puranjaya
-	}
-	1100.1.1 = {
-		holder = 189199	#Karnadeva
 	}
 	1110.1.1 = {
 		holder = 189183 #Codaganga
@@ -367,25 +379,28 @@ c_viraja = {
 	955.1.1 = {
 		holder = 191181	#Dharma Mahadevi
 	}
-	960.1.1 = {
+	956.1.1 = {
 		holder = 189190	#Bhimaratha
 	}
-	980.1.1 = {
+	975.1.1 = {
 		holder = 189191	#Dharamaratha
 	}
-	1005.1.1 = {
+	995.1.1 = {
 		holder = 189191	#Nahusa
 	}
-	1021.1.1 = {
+	1010.1.1 = {
 		holder = 189193	#Indranatha
 	}
-	1025.1.1 = {
+	1022.1.1 = {
 		holder = 189194	#Yayati
 	}
 	1040.1.1 = {
 		holder = 189195	#Udyotakesari
 	}
 	1065.1.1 = {
+		holder = 189196	#Janmejaya
+	}
+	1085.1.1 = {
 		holder = 189197	#Puranjaya
 	}
 	1100.1.1 = {
@@ -470,37 +485,39 @@ c_khinjali_mandala = {
 	949.1.1 = {
 		holder = 191187 #Bettabhanja
 	}
-	960.1.1 = {
+
+	#Somavamsis
+	956.1.1 = {
 		holder = 189190	#Bhimaratha
 	}
-	980.1.1 = {
+	975.1.1 = {
 		holder = 189191	#Dharamaratha
 	}
-	1005.1.1 = {
+	995.1.1 = {
 		holder = 189191	#Nahusa
 	}
-	1021.1.1 = {
+	1010.1.1 = {
 		holder = 189193	#Indranatha
 	}
-	1025.1.1 = {
+	1022.1.1 = {
 		holder = 189194	#Yayati
 	}
 	1040.1.1 = {
 		holder = 189195	#Udyotakesari
 	}
-	1065.1.1 = {
-		holder = 189196	#Janmejaya
-	}
-	1085.1.1 = {
-		holder = 189197	#Puranjaya
-	}
-	1100.1.1 = {
-		holder = 189199	#Karnadeva
-	}
-	1110.1.1 = {
-		holder = 189183 #Codaganga
+
+	#Baudh Bhanjas
+	1050.1.1 = {
+		holder = additional_bhanjas_1
 		liege = d_tosali
 	}
+	1070.1.1 = {
+		holder = additional_bhanjas_2
+	}
+	1090.1.1 = {
+		holder = additional_bhanjas_3
+	}
+	#Eastern Gangas
 	1150.1.1 = {
 		holder = 191207 #Kamarnava
 	}
@@ -584,27 +601,30 @@ c_kodalaka_mandala = {
 	950.1.1 = {
 		holder = 191239	#Apsaradeva
 	}
-	960.1.1 = {
+	956.1.1 = {
 		holder = 189190	#Bhimaratha
 		liege = d_daksina_kosala
 	}
-	980.1.1 = {
+	956.1.1 = {
+		holder = 189190	#Bhimaratha
+	}
+	975.1.1 = {
 		holder = 189191	#Dharamaratha
 	}
-	1005.1.1 = {
+	995.1.1 = {
 		holder = 189191	#Nahusa
 	}
-	1021.1.1 = {
+	1010.1.1 = {
 		holder = 189193	#Indranatha
 	}
-	1025.1.1 = {
+	1022.1.1 = {
 		holder = 189194	#Yayati
 	}
 	1040.1.1 = {
 		holder = 189195	#Udyotakesari
 	}
 	1065.1.1 = {
-		holder = 189198	#Purohit
+		holder = 189196	#Janmejaya
 	}
 	1085.1.1 = {
 		holder = 189197	#Puranjaya
@@ -686,25 +706,28 @@ c_khijjingakota = {
 	950.1.1 = {
 		holder = 191222 #Rajabhanja
 	}
-	960.1.1 = {
+	956.1.1 = {
 		holder = 189190	#Bhimaratha
 	}
-	980.1.1 = {
+	975.1.1 = {
 		holder = 189191	#Dharamaratha
 	}
-	1005.1.1 = {
+	995.1.1 = {
 		holder = 189191	#Nahusa
 	}
-	1021.1.1 = {
+	1010.1.1 = {
 		holder = 189193	#Indranatha
 	}
-	1025.1.1 = {
+	1022.1.1 = {
 		holder = 189194	#Yayati
 	}
 	1040.1.1 = {
 		holder = 189195	#Udyotakesari
 	}
 	1065.1.1 = {
+		holder = 189196	#Janmejaya
+	}
+	1085.1.1 = {
 		holder = 189197	#Puranjaya
 	}
 	1100.1.1 = {
@@ -786,32 +809,31 @@ d_daksina_kosala = {
 	955.1.1 = {
 		holder = 189190	#Bhimaratha
 	}
-	980.1.1 = {
+	975.1.1 = {
 		holder = 189191	#Dharamaratha
 	}
-	1005.1.1 = {
+	995.1.1 = {
 		holder = 189191	#Nahusa
 	}
-	1021.1.1 = {
+	1010.1.1 = {
 		holder = 189193	#Indranatha
 	}
-	1025.1.1 = {
+	1022.1.1 = {
 		holder = 189194	#Yayati
 	}
 	1040.1.1 = {
 		holder = 189195	#Udyotakesari
+		liege = k_orissa
 	}
-	1065.1.1 = {
-		holder = 189196	#Janmejaya
+	1050.1.1 = {
+		holder = additional_somavamsis_2 #Abhimanyu - Grandfather of Udyotakesari.
 	}
-	1085.1.1 = {
-		holder = 189197	#Puranjaya
+	1063.1.1 = {
+		holder = additional_somavamsis_3 #Someshvara - Son of Abhimanyu
 	}
-	1100.1.1 = {
-		holder = 189199	#Karnadeva
-	}
-	1110.1.1 = {
-		holder = 0
+	1075.1.1 = { #Lost to Dandakas and Haihayas
+		holder = 0	#Janmejaya
+		liege = 0
 	}
 	1225.1.1 = {
 		holder = 191355 #Laxmideo
@@ -942,33 +964,33 @@ c_sripuri = {
 	955.1.1 = {
 		holder = 189190	#Bhimaratha
 	}
-	980.1.1 = {
+	975.1.1 = {
 		holder = 189191	#Dharamaratha
 	}
-	1005.1.1 = {
+	995.1.1 = {
 		holder = 189191	#Nahusa
 	}
-	1021.1.1 = {
+	1010.1.1 = {
 		holder = 189193	#Indranatha
 	}
-	1025.1.1 = {
+	1022.1.1 = {
 		holder = 189194	#Yayati
 	}
 	1040.1.1 = {
 		holder = 189195	#Udyotakesari
 	}
-	1065.1.1 = {
-		holder = 189196	#Janmejaya
+	1050.1.1 = {
+		holder = additional_somavamsis_2 #Abhimanyu - Grandfather of Udyotakesari.
 	}
-	1085.1.1 = {
-		holder = 189197	#Puranjaya
+	1063.1.1 = {
+		holder = additional_somavamsis_3 #Someshvara - Son of Abhimanyu
 	}
-	1100.1.1 = {
-		holder = 189199	#Karnadeva
+	1075.1.1 = { #Lost to Haihayas
+		holder = 191348 #Prthvideva
+		liege = d_ratanpur
 	}
 	1110.1.1 = {
 		holder = 191349 #Jajalladeva
-		liege = d_ratanpur
 	}
 	1130.1.1 = {
 		holder = 191350 #Ratnadeva II
@@ -1194,34 +1216,93 @@ c_sambalpur = {
 	}
 }
 c_kiranapura = {
-	850.1.1 = {
-		holder = gondi001 #Manas
+	#Nagas of Kawardha
+	740.1.1 = {
+		holder = 191294 #Ramachandra
 		liege = d_dahala
 	}
-	878.1.1 = {
-		holder = gondi002 #Manas
+	780.1.1 = {
+		holder = 191263 #Ahiraja
 	}
-	903.1.1 = {
-		holder = gondi003 #Manas
+	820.1.1 = {
+		holder = 191264 #Rajalla
 	}
-	919.1.1 = {
-		holder = gondi004 #Manas
+	860.1.1 = {
+		holder = 191265 #Dharnidhara
 	}
-	956.1.1 = {
-		holder = gondi005 #Manas
+	920.1.1 = {
+		holder = 191266 #Mahimadeva
 	}
-	993.1.1 = {
-		holder = gondi006 #Manas
+	960.1.1 = {
+		holder = 191267 #Sarvavandana
 	}
 	1000.1.1 = {
 		liege = d_ratanpur
 	}
-	1037.1.1 = {
-		holder = gondi007 #Manas
+	1030.1.1 = {
+		holder = 191268 #Gopaladeva
+	}
+	1090.1.1 = {
+		holder = 191269 #Naladeva
+	}
+	1100.1.1 = {
+		holder = 191270 #Bhuvanapala
+	}
+	1120.1.1 = {
+		holder = 191271 #Kirtipala
+	}
+	1130.1.1 = {
+		holder = 191272 #Jayatrapala
+	}
+	1140.1.1 = {
+		holder = 191273 #Mahipala
+	}
+	1150.1.1 = {
+		holder = 191274 #Visamapala
+	}
+	1160.1.1 = {
+		holder = 191275 #Janhu
+	}
+	1170.1.1 = {
+		holder = 191276 #Janapala
+	}
+	1175.1.1 = {
+		holder = 191277 #Yasoraja
+	}
+	1210.1.1 = {
+		holder = 191278 #Kanhadadeva
+	}
+	1220.1.1 = {
+		holder = 191279 #Laksmavarma
 	}
 	1225.1.1 = {
 		liege = d_daksina_kosala
 	}
+	1240.1.1 = {
+		holder = 191280 #Khadgadeva
+	}
+	1260.1.1 = {
+		holder = 191281 #Bhuvanaikamalla
+	}
+	1270.1.1 = {
+		holder = 191282 #Arjuna
+	}
+	1280.1.1 = {
+		holder = 191283 #Bhima
+	}
+	1290.1.1 = {
+		holder = 191284 #Bhoja
+	}
+	1300.1.1 = {
+		holder = 191288 #Laksmana
+	}
+	1320.1.1 = {
+		holder = 191289 #Ramchandra
+	}
+	1345.1.1 = {
+		holder = 191290 #Jaya
+	}
+
 }
 
 d_kalinga = {
@@ -1315,14 +1396,18 @@ d_kalinga = {
 	1038.1.1 = {
 		holder = 189181 #Vajrahasta
 	}
+	1040.1.1 = {
+		holder = 189195	#Udyotakesari
+		liege = k_orissa
+	}
+	1065.1.1 = {
+		holder = 189196	#Janmejaya
+	}
 	1070.1.1 = {
 		holder = 189182 #Rajaraja
 	}
 	1078.1.1 = {
 		holder = 189183 #Codaganga
-	}
-	1110.1.1 = {
-		liege = k_orissa
 	}
 	1150.1.1 = {
 		holder = 191207 #Kamarnava
@@ -1624,81 +1709,45 @@ c_swetaka_mandala = {
 	909.1.1 = {
 		holder = 191237 #Samantavarman
 	}
+
+	#End Svetaka Gangas
+
+	#Start Chikiti Gangas:
+
 	921.1.1 = {
-		holder = 189172 #Vajrahasta
+		holder = chikiti_ganga_1 #Kesaba Rautara
 	}
-	939.1.1 = {
-		holder = 189174 #Gundama
+	940.1.1 = {
+		holder = chikiti_ganga_2 #Balabhadra Rautara
 	}
-	942.1.1 = {
-		holder = 189175 #Kamavarnava
+	997.1.1 = {
+		holder = chikiti_ganga_3 #Madhaba Rautara
 	}
-	977.1.1 = {
-		holder = 189176 #Vinyaditya
+	1059.1.1 = {
+		holder = chikiti_ganga_4 #Languli Rautara
 	}
-	980.1.1 = {
-		holder = 189173 #Vajrahasta
+	1094.1.1 = {
+		holder = chikiti_ganga_5 #Mohana Rautara
 	}
-	1015.1.1 = {
-		holder = 189179 #Kamavarna
+	1143.1.1 = {
+		holder = chikiti_ganga_6 #Balarama Rautara
 	}
-	1016.1.1 = {
-		holder = 189180 #Gundama
+	1197.1.1 = {
+		holder = chikiti_ganga_7 #Biswanatha Rautara
 	}
-	1019.1.1 = {
-		holder = 191206 #Madhukamavarna
+	1249.1.1 = {
+		holder = chikiti_ganga_8 #Harisarana Rautara
 	}
-	1038.1.1 = {
-		holder = 189181 #Vajrahasta
+	1272.1.1 = {
+		holder = chikiti_ganga_9 #Raghunatha Rautara
 	}
-	1070.1.1 = {
-		holder = 189182 #Rajaraja
+	1313.1.1 = {
+		holder = chikiti_ganga_10 #Dinabandhu Rautara
 	}
-	1110.1.1 = {
-		holder = 189183 #Codaganga
+	1364.1.1 = {
+		holder = chikiti_ganga_11 #Gopinatha Rautara
 	}
-	1150.1.1 = {
-		holder = 191207 #Kamarnava
-	}
-	1157.1.1 = {
-		holder = 191208 #Raghava
-	}
-	1171.1.1 = {
-		holder = 191209 #Ragaraja
-	}
-	1192.1.1 = {
-		holder = 189178 #Anangabhima
-	}
-	1195.1.1 = {
-		holder = 191210 #Rajaraja
-	}
-	1216.1.1 = {
-		holder = 191211 #Anangabhīma
-	}
-	1238.1.1 = {
-		holder = 191212 #Narasimha
-	}
-	1264.1.1 = {
-		holder = 191213 #Bhanudeva
-	}
-	1279.1.1 = {
-		holder = 191214 #Narasimha
-	}
-	1306.1.1 = {
-		holder = 191215 #Bhanudeva
-	}
-	1328.1.1 = {
-		holder = 191216 #Narasimha
-	}
-	1352.1.1 = {
-		holder = 191217 #Bhanudeva
-	}
-	1378.1.1 = {
-		holder = 191218 #Narasimha
-	}
-	1414.1.1 = {
-		holder = 189177 #Bhanudeva
-	}
+	#Dynasty remains until 20th century
 }
 c_vizagipatam = {
 	496.1.1 = {

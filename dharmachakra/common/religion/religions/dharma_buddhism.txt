@@ -384,7 +384,7 @@
 			}
 		}
 		ari = {
-			color = { 253 103 58 }
+			color = { 99 0 57 }
 			icon = exp_ari_buddhism
 
 			# The four main pilgrimage sites
@@ -402,7 +402,9 @@
 			# SouthEast Asia Theravada Pilgrimage Sites10
             holy_site = kyaikhtiyo # 10 
 			holy_site = homalin # 11
-			
+			holy_site = sittaung
+			holy_site = ava
+
 			doctrine = doctrine_polygamy
 			doctrine = doctrine_kinslaying_accepted
 			doctrine = doctrine_adultery_men_accepted

@@ -224,6 +224,35 @@ burman008 = {# Nga Lon Letpe
 		death = yes
 	}
 }
+burman017 = {
+	name = "Me_Wunna" #'Ogress' and wife of Byatta
+	female = yes
+	religion = theravada
+	culture = burmese
+	trait = giant
+	
+	1040.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		add_spouse = mon053
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+burman018 = {
+	name = "Myauk_Pyinthe" #Anawrahta's mother
+	female = yes
+	religion = theravada
+	culture = burmese
+	990.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
 #######################################
 # Sale Dynasty
 #######################################
@@ -412,7 +441,7 @@ arakan024 = {# Sithabin
 	}
 }
 #######################################
-# Pagan Dynasty
+# Myu Dynasty
 #######################################
 arakan010 = {# Ananthiri
 	name = "Ananthiri" #Fictional father of Amyahtu, to make Yehpyu his nephew
