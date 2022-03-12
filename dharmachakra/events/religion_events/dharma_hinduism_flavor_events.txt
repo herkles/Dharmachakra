@@ -530,6 +530,10 @@ dharma_hinduism.014 = {# Misc cleanup
 	}
 }
 #######################################
+# Devadasi Events
+#######################################
+
+#######################################
 # Visiting Sharada Peeth
 #######################################
 dharma_hinduism.300 = {# Decide to Visit Sharada Peeth
