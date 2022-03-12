@@ -20,20 +20,31 @@ buddhist_school_chan = {# Chan / Zen
 		buddhist_school_pure_land
 	}
 
-	fame = yes
+	lifestyle = yes
 
-	monthly_piety = 0.3
+	monthly_piety = 0.1
+	same_opinion = 5
 	opposite_opinion = -5
-	
-	flag = can_not_marry
-	can_inherit = no
+	culture_modifier = {
+		parameter = innovation_from_learning_traits
+		cultural_head_fascination_mult = 0.05
+	}
 	
 	shown_in_ruler_designer = no
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_buddhist_school_chan_desc
+			}
+			desc = trait_buddhist_school_chan_character_desc
+		}
+	}
 
 }
 buddhist_school_madhyamaka = {# Madhyamaka
@@ -46,17 +57,31 @@ buddhist_school_madhyamaka = {# Madhyamaka
 		buddhist_school_pure_land
 	}
 
-	fame = yes
+	lifestyle = yes
 
-	monthly_piety = 0.3
+	monthly_piety = 0.1
+	same_opinion = 5
 	opposite_opinion = -5
-	
+	culture_modifier = {
+		parameter = innovation_from_learning_traits
+		cultural_head_fascination_mult = 0.05
+	}	
+
 	shown_in_ruler_designer = no
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_buddhist_school_madhyamaka_desc
+			}
+			desc = trait_buddhist_school_madhyamaka_character_desc
+		}
+	}
 
 }
 buddhist_school_yogachara = {# Yogachara
@@ -69,14 +94,31 @@ buddhist_school_yogachara = {# Yogachara
 		buddhist_school_pure_land
 	}
 
-	fame = yes
-	
+	lifestyle = yes
+
+	monthly_piety = 0.1
+	same_opinion = 5
+	opposite_opinion = -5
+	culture_modifier = {
+		parameter = innovation_from_learning_traits
+		cultural_head_fascination_mult = 0.05
+	}
+
 	shown_in_ruler_designer = no
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_buddhist_school_yogachara_desc
+			}
+			desc = trait_buddhist_school_yogachara_character_desc
+		}
+	}
 
 }
 buddhist_school_pure_land = {# Pure Land
@@ -89,18 +131,31 @@ buddhist_school_pure_land = {# Pure Land
 		buddhist_school_yogachara
 	}
 
-	fame = yes
+	lifestyle = yes
 
-	monthly_piety = 0.3
-	
-	same_faith_opinion = 5
+	monthly_piety = 0.1
+	same_opinion = 5
+	opposite_opinion = -5
+	culture_modifier = {
+		parameter = innovation_from_learning_traits
+		cultural_head_fascination_mult = 0.05
+	}
 		
 	shown_in_ruler_designer = no
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_buddhist_school_pure_land_desc
+			}
+			desc = trait_buddhist_school_pure_land_character_desc
+		}
+	}
 
 }
 #######################################
@@ -116,28 +171,31 @@ buddhist_school_nyingma = {# Nyingma
 		buddhist_school_kagyu
 	}
 
-	fame = yes
+	lifestyle = yes
 
-	monthly_piety = 0.3
+	monthly_piety = 0.1
+	same_opinion = 5
 	opposite_opinion = -5
-	
 	culture_modifier = {
-		parameter = poet_trait_gives_bonuses
-		prowess = 2
-	}
-
-	culture_modifier = {
-		parameter = devoted_trait_bonuses
-		learning = 1
-		diplomacy = 2
+		parameter = innovation_from_learning_traits
+		cultural_head_fascination_mult = 0.05
 	}
 		
 	shown_in_ruler_designer = no
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_buddhist_school_nyingma_desc
+			}
+			desc = trait_buddhist_school_nyingma_character_desc
+		}
+	}
 
 }
 buddhist_school_kadam = {# Kadam
@@ -150,10 +208,15 @@ buddhist_school_kadam = {# Kadam
 		buddhist_school_kagyu
 	}
 
-	fame = yes
+	lifestyle = yes
 
-	monthly_piety = 0.3
+	monthly_piety = 0.1
+	same_opinion = 5
 	opposite_opinion = -5
+	culture_modifier = {
+		parameter = innovation_from_learning_traits
+		cultural_head_fascination_mult = 0.05
+	}
 	
 	culture_modifier = {
 		parameter = poet_trait_gives_bonuses
@@ -170,8 +233,17 @@ buddhist_school_kadam = {# Kadam
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_buddhist_school_kadam_desc
+			}
+			desc = trait_buddhist_school_kadam_character_desc
+		}
+	}
 
 }
 buddhist_school_sakya = {# Sakya
@@ -184,17 +256,31 @@ buddhist_school_sakya = {# Sakya
 		buddhist_school_kagyu
 	}
 
-	fame = yes
+	lifestyle = yes
 
-	monthly_piety = 0.3
+	monthly_piety = 0.1
+	same_opinion = 5
 	opposite_opinion = -5
+	culture_modifier = {
+		parameter = innovation_from_learning_traits
+		cultural_head_fascination_mult = 0.05
+	}
 
 	shown_in_ruler_designer = no
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_buddhist_school_sakya_desc
+			}
+			desc = trait_buddhist_school_sakya_character_desc
+		}
+	}
 
 }
 buddhist_school_kagyu = {# Kagyu
@@ -208,17 +294,31 @@ buddhist_school_kagyu = {# Kagyu
 		buddhist_school_sakya
 	}
 
-	fame = yes
+	lifestyle = yes
 
-	monthly_piety = 0.3
+	monthly_piety = 0.1
+	same_opinion = 5
 	opposite_opinion = -5
+	culture_modifier = {
+		parameter = innovation_from_learning_traits
+		cultural_head_fascination_mult = 0.05
+	}
 	
 	shown_in_ruler_designer = no
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_buddhist_school_kagyu_desc
+			}
+			desc = trait_buddhist_school_kagyu_character_desc
+		}
+	}
 
 }
 #######################################
@@ -244,6 +344,7 @@ hindu_philoosphy_yoga = {# Yoga
 	health = 0.05
 	stress_gain_mult = -0.1
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -253,6 +354,18 @@ hindu_philoosphy_yoga = {# Yoga
 
 	ai_rationality = 5
 	ai_zeal = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_yoga_desc
+			}
+			desc = trait_hindu_philoosphy_yoga_character_desc
+		}
+	}
 
 }
 hindu_philoosphy_samkhya = {# Samkhya
@@ -272,9 +385,9 @@ hindu_philoosphy_samkhya = {# Samkhya
 
 	lifestyle = yes
 
-	health = 0.05
-	stress_gain_mult = -0.1
+	learning = 2
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -287,6 +400,18 @@ hindu_philoosphy_samkhya = {# Samkhya
 	shown_in_ruler_designer = no
 
 	ai_sociability = very_low_negative_ai_value
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_samkhya_desc
+			}
+			desc = trait_hindu_philoosphy_samkhya_character_desc
+		}
+	}
 
 }
 hindu_philoosphy_vaisheshika = {# Vaisheshika
@@ -306,9 +431,9 @@ hindu_philoosphy_vaisheshika = {# Vaisheshika
 
 	lifestyle = yes
 
-	health = 0.05
-	stress_gain_mult = -0.1
+	learning = 2
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -323,8 +448,17 @@ hindu_philoosphy_vaisheshika = {# Vaisheshika
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_vaisheshika_desc
+			}
+			desc = trait_hindu_philoosphy_vaisheshika_character_desc
+		}
+	}
 
 }
 hindu_philoosphy_mimamsa = {# Mimamsa
@@ -344,9 +478,10 @@ hindu_philoosphy_mimamsa = {# Mimamsa
 
 	lifestyle = yes
 
-	health = 0.05
-	stress_gain_mult = -0.1
+	development_growth_factor = 0.05
+	scheme_discovery_chance_mult = 0.1
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -361,8 +496,17 @@ hindu_philoosphy_mimamsa = {# Mimamsa
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_mimamsa_desc
+			}
+			desc = trait_hindu_philoosphy_mimamsa_character_desc
+		}
+	}
 
 }
 hindu_philoosphy_nyaya = {# Nyaya
@@ -382,9 +526,10 @@ hindu_philoosphy_nyaya = {# Nyaya
 
 	lifestyle = yes
 
-	health = 0.05
-	stress_gain_mult = -0.1
+	owned_personal_scheme_success_chance_add = 5
+	owned_hostile_scheme_success_chance_add = 5
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -400,8 +545,17 @@ hindu_philoosphy_nyaya = {# Nyaya
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_nyaya_desc
+			}
+			desc = trait_hindu_philoosphy_nyaya_character_desc
+		}
+	}
 
 }
 hindu_philoosphy_vishishtadvaita = {# Vishishtadvaita - School of Vedanta
@@ -422,9 +576,10 @@ hindu_philoosphy_vishishtadvaita = {# Vishishtadvaita - School of Vedanta
 
 	lifestyle = yes
 
-	health = 0.05
-	stress_gain_mult = -0.1
+	learning = 3
+	monthly_piety_gain_mult = 0.2
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -440,8 +595,17 @@ hindu_philoosphy_vishishtadvaita = {# Vishishtadvaita - School of Vedanta
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_vishishtadvaita_desc
+			}
+			desc = trait_hindu_philoosphy_vishishtadvaita_character_desc
+		}
+	}
 
 }
 hindu_philoosphy_advaita_vedanta = {# Advaita Vedanta - School of Vedanta
@@ -460,9 +624,10 @@ hindu_philoosphy_advaita_vedanta = {# Advaita Vedanta - School of Vedanta
 		hindu_philoosphy_dvaita_vedanta
 	}
 
-	health = 0.05
-	stress_gain_mult = -0.1
+	learning = 3
+	monthly_piety_gain_mult = 0.2
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -477,8 +642,17 @@ hindu_philoosphy_advaita_vedanta = {# Advaita Vedanta - School of Vedanta
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_advaita_vedanta_desc
+			}
+			desc = trait_hindu_philoosphy_advaita_vedanta_character_desc
+		}
+	}
 
 }
 hindu_philoosphy_bhedabheda = {# Bhedabheda - School of Vedanta
@@ -499,9 +673,10 @@ hindu_philoosphy_bhedabheda = {# Bhedabheda - School of Vedanta
 
 	lifestyle = yes
 
-	health = 0.05
-	stress_gain_mult = -0.1
+	learning = 3
+	monthly_piety_gain_mult = 0.2
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -516,8 +691,17 @@ hindu_philoosphy_bhedabheda = {# Bhedabheda - School of Vedanta
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_bhedabheda_desc
+			}
+			desc = trait_hindu_philoosphy_bhedabheda_character_desc
+		}
+	}
 
 }
 hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
@@ -538,9 +722,10 @@ hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 
 	lifestyle = yes
 	
-	health = 0.05
-	stress_gain_mult = -0.1
+	learning = 3
+	monthly_piety_gain_mult = 0.2
 	same_opinion = 5
+	opposite_opinion = -5
 	culture_modifier = {
 		parameter = innovation_from_learning_traits
 		cultural_head_fascination_mult = 0.05
@@ -554,6 +739,18 @@ hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 	ai_rationality = 10
 	ai_zeal = 20
 
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_hindu_philoosphy_dvaita_vedanta_desc
+			}
+			desc = trait_hindu_philoosphy_dvaita_vedanta_character_desc
+		}
+	}
+	
 }
 #######################################
 # Shaivism sub-Traidition traits
@@ -577,8 +774,17 @@ shavisim_tradition_trika = {# Kashmir / Trika Shaivism
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_shavisim_tradition_trika_desc
+			}
+			desc = trait_shavisim_tradition_trika_character_desc
+		}
+	}
 
 }
 shavisim_tradition_pashupata = {# Pashupata Shaivism
@@ -601,8 +807,17 @@ shavisim_tradition_pashupata = {# Pashupata Shaivism
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_shavisim_tradition_pashupata_desc
+			}
+			desc = trait_shavisim_tradition_pashupata_character_desc
+		}
+	}
 
 }
 shavisim_tradition_siddhanta = {# Shaiva Siddhanta
@@ -624,8 +839,17 @@ shavisim_tradition_siddhanta = {# Shaiva Siddhanta
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_shavisim_tradition_siddhanta_desc
+			}
+			desc = trait_shavisim_tradition_siddhanta_character_desc
+		}
+	}
 
 }
 shavisim_tradition_nath = {# Nath
@@ -647,8 +871,17 @@ shavisim_tradition_nath = {# Nath
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_shavisim_tradition_nath_desc
+			}
+			desc = trait_shavisim_tradition_nath_character_desc
+		}
+	}
 
 }
 #######################################
@@ -659,8 +892,8 @@ vaishnavism_tradition_vaikhanasas = {# Vaikhanasas
 		faith.religion = faith:vaishnavism.religion
 	}
 	opposites = {
-		vaishnavism_tradition_Srivaishnavism
-		vaishnavism_tradition_Pancharatra
+		vaishnavism_tradition_srivaishnavism
+		vaishnavism_tradition_pancharatra
 	}
 
 	monthly_piety = 0.05
@@ -671,8 +904,17 @@ vaishnavism_tradition_vaikhanasas = {# Vaikhanasas
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_vaishnavism_tradition_vaikhanasas_desc
+			}
+			desc = trait_vaishnavism_tradition_vaikhanasas_character_desc
+		}
+	}
 
 }
 vaishnavism_tradition_srivaishnavism = {# Srivaishnavism 
@@ -680,8 +922,8 @@ vaishnavism_tradition_srivaishnavism = {# Srivaishnavism
 		faith.religion = faith:vaishnavism.religion
 	}
 	opposites = {
-		vaishnavism_tradition_Vaikhanasas
-		vaishnavism_tradition_Pancharatra
+		vaishnavism_tradition_vaikhanasas
+		vaishnavism_tradition_pancharatra
 	}
 
 	monthly_piety = 0.05
@@ -692,8 +934,17 @@ vaishnavism_tradition_srivaishnavism = {# Srivaishnavism
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_vaishnavism_tradition_srivaishnavism_desc
+			}
+			desc = trait_vaishnavism_tradition_srivaishnavism_character_desc
+		}
+	}
 
 }
 vaishnavism_tradition_pancharatra = {# Pancharatra
@@ -701,8 +952,8 @@ vaishnavism_tradition_pancharatra = {# Pancharatra
 		faith.religion = faith:vaishnavism.religion
 	}
 	opposites = {
-		vaishnavism_tradition_Vaikhanasas
-		vaishnavism_tradition_Srivaishnavism
+		vaishnavism_tradition_vaikhanasas
+		vaishnavism_tradition_srivaishnavism
 	}
 
 	monthly_piety = 0.05
@@ -713,8 +964,17 @@ vaishnavism_tradition_pancharatra = {# Pancharatra
 
 	ai_sociability = very_low_negative_ai_value
 
-
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_vaishnavism_tradition_pancharatra_desc
+			}
+			desc = trait_vaishnavism_tradition_pancharatra_character_desc
+		}
+	}
 
 }
 

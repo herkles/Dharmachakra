@@ -62,21 +62,25 @@ bhild004 = {
 # Samblpuri Dynasties 
 sambalpurid001 = {
 	name = "dynn_Sankara" 
-	culture = tripuri
+	culture = sambalpuri
 }
 sambalpurid002 = {
 	name = "dynn_Baghal" 
-	culture = tripuri
+	culture = sambalpuri
 }
 sambalpurid003 = {
 	name = "dynn_Keshari" 
-	culture = tripuri
+	culture = sambalpuri
 }
 sambalpurid004 = {
 	name = "dynn_Bhanja" 
-	culture = tripuri
+	culture = sambalpuri
 }
-# Munda Dynasties
+sambalpurid005 = {
+	name = "dynn_Suryavanshi" 
+	culture = sambalpuri
+}
+# Gond Dynasties
 gondid001 = {
 	name = "dynn_Chavali" 
 	culture = tripuri
