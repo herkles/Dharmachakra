@@ -14,10 +14,6 @@
   become_chakravarti_decision_new_primary_title_effect:0 "The Empire of India becomes my new [primary_title|E]"
   become_chakravarti_decision_confirm:0 "Attend the rituals"
 
-
-
-
-
 #######################################
 # Elephant Decisions
 #######################################
@@ -40,6 +36,11 @@
  dharma_adopt_mahayana_school_desc:0 "While you consider yourself a devoted Buddhist, some of the monks have suggested you follow more closely the principal and teachings of a school of Buddhism."
  dharma_adopt_mahayana_school_tooltip:0 "You will follow one of the schools of Mahayana Buddhism."
  dharma_adopt_mahayana_school_confirm:0 "Om Mani Padme Hum"
+
+ dharma_adopt_tibetan_school_tooltip:0 "Follow a Buddhist School"
+ dharma_adopt_tibetan_school_desc:0 "While you consider yourself a devoted Buddhist, some of the monks have suggested you follow more closely the principal and teachings of a school of Buddhism."
+ dharma_adopt_tibetan_school_tooltip:0 "You will follow one of the schools of Tibetan Buddhism."
+ dharma_adopt_tibetan_school_confirm:0 "Om Mani Padme Hum"
 
 #######################################
 # Select Personal Deity Decisions

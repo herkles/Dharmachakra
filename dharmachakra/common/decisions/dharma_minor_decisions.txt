@@ -888,6 +888,66 @@ dharma_adopt_mahayana_school = {# Follow a Mahayana Buddhist School
 		}
 	}
 }
+dharma_adopt_tibetan_school = {# Follow a Tibetan Buddhist School
+	picture = "gfx/interface/illustrations/decisions/decision_buddhist_meditation.dds" 
+	ai_check_interval = 96
+	cooldown = { months = 36 }
+	desc = dharma_adopt_tibetan_school_desc
+	
+	is_shown = {
+		faith = faith:lamaism
+		is_ruler = yes
+		is_landed = yes
+	}
+	
+	is_valid = {
+		has_perk = faithful_perk
+		faith = faith:mahayana
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		custom_tooltip = dharma_adopt_tibetan_school_tooltip
+		trigger_event = dharma_buddhism.051
+	}
+
+	ai_potential = {
+		piety >= minor_piety_value
+		NOR = {
+			has_trait = buddhist_school_nyingma
+			has_trait = buddhist_school_kadam
+			has_trait = buddhist_school_sakya
+			has_trait = buddhist_school_kagyu
+		}
+	}
+
+	ai_will_do = {
+		base = 40
+		modifier = {
+			add = 40
+			has_trait = theologian
+		}
+		modifier = {
+			add = 10
+			has_trait = scholar
+		}
+		modifier = {
+			add = 10
+			has_trait = zealous
+		}
+		modifier = {
+			add = -10
+			has_trait = cynical
+		}
+		modifier = {
+			add = -10
+			has_trait = lazy
+		}
+	}
+}
 #######################################
 # Jain Decisions
 #######################################

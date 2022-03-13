@@ -74,6 +74,14 @@
  dharma_buddhism.050.pure_land:0 "The teachings of the Pure Land School."
  dharma_buddhism.050.optout:0 "I am not yet ready to decide."
 
+ dharma_buddhism.051.t:0 "Following a Buddhist School"
+ dharma_buddhism.051.desc:0 "There are a number of schools of Buddhism that the great monks have developed over the years. While I may not be a monk, by following one it will help me reach enlightenment. The question is which school shall I choose?"
+ dharma_buddhism.051.nyingma:0 "The teachings of the Nyingma School."
+ dharma_buddhism.051.kadam:0 "The teachings of the Kadam School."
+ dharma_buddhism.051.sakya:0 "The teachings of the Sakya School.he Universe."
+ dharma_buddhism.051.kagyu:0 "The teachings of the Kagyu School."
+ dharma_buddhism.051.optout:0 "I am not yet ready to decide."
+
  dharma_buddhism.052.t:0 "Your [councillor_court_chaplain.GetTitle] favors a different Buddhist School."
  dharma_buddhism.052.desc:0 "Your [councillor_court_chaplain.GetTitle] is a monk which follows a different Buddhist school then the one that you follow. [councillor_court_chaplain.getHeShe] has come to you and asked you to start to follow [councillor_court_chaplain.getHisHer] school's teachings instead."
  dharma_buddhism.052.switch:0 "I shall do so."
@@ -86,6 +94,7 @@
  dharma_buddhism.053.desc:0 "You currently have not incorporated any Buddhist school's teachings into your daily life nor are you patronizing any particular school. Your [councillor_court_chaplain.GetTitle]has come to saying that you should be supporting [councillor_court_chaplain.getHisHer] School."
  dharma_buddhism.053.follow:0 "I shall support [councillor_court_chaplain.getHisHer] school."
  dharma_buddhism.053.not_follow:0 "I shall Not!"
+
 #######################################
 # BUDDHIST RETREAT
 #######################################

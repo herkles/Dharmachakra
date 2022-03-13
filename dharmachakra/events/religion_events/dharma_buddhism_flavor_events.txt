@@ -336,9 +336,7 @@ dharma_buddhism.050 = {# Mahayana Schools
 	option = {# Pure Land
 		name = dharma_buddhism.050.pure_land
 		trigger = {
-			OR = { 
-				faith = faith:mahayana
-			}
+			faith = faith:mahayana
 			NOT = { has_trait = buddhist_school_pure_land }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_pure_land }
@@ -351,49 +349,60 @@ dharma_buddhism.050 = {# Mahayana Schools
 		}		
 	}
 }
-dharma_buddhism.051 = {# Maintence to insure the high learning monks are picking a buddhist school
-	hidden = yes
-
-	trigger = {
-		faith = faith:mahayana
-		has_trait = devoted
-		learning >= decent_skill_rating
-		NOR = {
-			has_trait = buddhist_school_chan
-			has_trait = buddhist_school_madhyamaka
-			has_trait = buddhist_school_yogachara
-			has_trait = buddhist_school_pure_land
-		}
+dharma_buddhism.051 = {# Tibetan Schools
+	type = character_event
+	title = dharma_buddhism.051.t
+	desc = dharma_buddhism.051.desc
+	theme = faith
+	override_background = {
+		event_background = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
 	}
 
-	immediate = {
-		if = {
-			limit = {
-				has_trait = devoted
-				learning >= decent_skill_rating
-				faith = faith:mahayana
-				NOR = {
-					has_trait = buddhist_school_chan
-					has_trait = buddhist_school_madhyamaka
-					has_trait = buddhist_school_yogachara
-					has_trait = buddhist_school_pure_land
-				}
-			}
-			random_list = {
-				25 = {
-					add_trait = buddhist_school_chan
-				}
-				25 = {
-					add_trait = buddhist_school_madhyamaka
-				}
-				25 = {
-					add_trait = buddhist_school_yogachara
-				}
-				25 = {
-					add_trait = buddhist_school_pure_land
-				}
-			}
+	option = {# Nyingma
+		name = dharma_buddhism.051.nyingma
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_trait = buddhist_school_nyingma }
 		}
+		set_buddhist_school_effect = { YANA = buddhist_school_nyingma }
+	}
+	option = {# Kadam
+		name = dharma_buddhism.051.kadam
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_trait = buddhist_school_kadam }
+			exists = global_var:buddhist_school_kadam_formed
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_kadam }
+	}
+	option = {# Sakya
+		name = dharma_buddhism.051.sakya
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_trait = buddhist_school_sakya }
+			exists = global_var:buddhist_school_sakya_formed
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_sakya }
+	}
+	option = {# Kagyu
+		name = dharma_buddhism.051.kagyu
+		trigger = {
+			faith = faith:lamaism
+			NOT = { has_trait = buddhist_school_kagyu }
+			exists = global_var:buddhist_school_kagyu_formed
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_kagyu }
+	}				
+	# Opt-Out
+	option = {
+		name = dharma_buddhism.050.optout
+		ai_chance = {
+			base = 0
+		}		
 	}
 }
 dharma_buddhism.052 = {# Your chief monk follows a different school then you do
@@ -417,6 +426,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 
 	trigger = {
 		OR = {
+			# Mahayana Schools
 			AND = {
 				scope:realm_priest = { has_trait = buddhist_school_chan }
 				OR = {
@@ -449,6 +459,39 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 					has_trait = buddhist_school_chan
 				}
 			}
+			# Tibetan Schools
+			AND = {
+				scope:realm_priest = { has_trait = buddhist_school_nyingma }
+				OR = {
+					has_trait = buddhist_school_kadam
+					has_trait = buddhist_school_sakya
+					has_trait = buddhist_school_kagyu
+				}
+			}
+			AND = {
+				scope:realm_priest = { has_trait = buddhist_school_kadam }
+				OR = {
+					has_trait = buddhist_school_nyingma
+					has_trait = buddhist_school_sakya
+					has_trait = buddhist_school_kagyu
+				}
+			}
+			AND = {
+				scope:realm_priest = { has_trait = buddhist_school_sakya }
+				OR = {
+					has_trait = buddhist_school_nyingma
+					has_trait = buddhist_school_kadam
+					has_trait = buddhist_school_kagyu
+				}
+			}
+			AND = {
+				scope:realm_priest = { has_trait = buddhist_school_kagyu }
+				OR = {
+					has_trait = buddhist_school_nyingma
+					has_trait = buddhist_school_kadam
+					has_trait = buddhist_school_sakya
+				}
+			}
 		}
 	}
 
@@ -458,23 +501,28 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 		hidden_effect = {
 			if = {
 				limit = {
-					has_trait = buddhist_school_chan
+					OR = {# remove the trait if you have it
+						has_trait = buddhist_school_chan
+						has_trait = buddhist_school_madhyamaka
+						has_trait = buddhist_school_yogachara
+						has_trait = buddhist_school_pure_land
+						has_trait = buddhist_school_nyingma
+						has_trait = buddhist_school_kadam
+						has_trait = buddhist_school_sakya
+						has_trait = buddhist_school_kagyu
+					}
 				}
 				remove_trait = buddhist_school_chan
-			}
-			if = {
-				limit = {
-					has_trait = buddhist_school_yogachara
-				}
+				remove_trait = buddhist_school_madhyamaka
 				remove_trait = buddhist_school_yogachara
-			}
-			if = {
-				limit = {
-					has_trait = buddhist_school_pure_land
-				}
 				remove_trait = buddhist_school_pure_land
+				remove_trait = buddhist_school_nyingma
+				remove_trait = buddhist_school_kadam
+				remove_trait = buddhist_school_sakya
+				remove_trait = buddhist_school_kagyu
 			}
-
+		}
+			# Assign the Mahayana School
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_chan } }
 				add_trait = buddhist_school_chan
@@ -490,6 +538,23 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_pure_land } }
 				add_trait = buddhist_school_pure_land
+			}
+			# Assign the Tibetan School
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_nyingma } }
+				add_trait = buddhist_school_nyingma
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_kadam } }
+				add_trait = buddhist_school_kadam
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_sakya } }
+				add_trait = buddhist_school_sakya
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_kagyu } }
+				add_trait = buddhist_school_kagyu
 			}
 		}
 		scope:realm_priest = {
@@ -526,6 +591,31 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 				}
 				add_piety = minor_piety_gain
 				scope:realm_priest = {
+					hidden_effect = {
+						if = {
+							limit = {
+								OR = {# remove the trait if you have it
+									has_trait = buddhist_school_chan
+									has_trait = buddhist_school_madhyamaka
+									has_trait = buddhist_school_yogachara
+									has_trait = buddhist_school_pure_land
+									has_trait = buddhist_school_nyingma
+									has_trait = buddhist_school_kadam
+									has_trait = buddhist_school_sakya
+									has_trait = buddhist_school_kagyu
+								}
+							}
+							remove_trait = buddhist_school_chan
+							remove_trait = buddhist_school_madhyamaka
+							remove_trait = buddhist_school_yogachara
+							remove_trait = buddhist_school_pure_land
+							remove_trait = buddhist_school_nyingma
+							remove_trait = buddhist_school_kadam
+							remove_trait = buddhist_school_sakya
+							remove_trait = buddhist_school_kagyu
+						}
+					}
+					# Mahayana Schools
 					if = {
 						limit = { root = { has_trait = buddhist_school_chan } }
 						add_trait = buddhist_school_chan
@@ -542,7 +632,23 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 						limit = { root = { has_trait = buddhist_school_pure_land } }
 						add_trait = buddhist_school_pure_land
 					}
-
+					# Mahayana Schools
+					if = {
+						limit = { root = { has_trait = buddhist_school_nyingma } }
+						add_trait = buddhist_school_nyingma
+					}
+					if = {
+						limit = { root = { has_trait = buddhist_school_kadam } }
+						add_trait = buddhist_school_kadam
+					}
+					if = {
+						limit = { root = { has_trait = buddhist_school_sakya } }
+						add_trait = buddhist_school_sakya
+					}
+					if = {
+						limit = { root = { has_trait = buddhist_school_kagyu } }
+						add_trait = buddhist_school_kagyu
+					}
 				}
 				custom_tooltip = dharma_buddhism.052.convince.success
 			}
@@ -586,13 +692,21 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 	
 	trigger = {
 		has_perk = faithful_perk
-		faith = faith:mahayana
 		OR = {
+			faith = faith:mahayana
+			faith = faith:lamaism
+		}
+		OR = {
+			# Mahayana Schools
 			scope:realm_priest = { has_trait = buddhist_school_chan }
 			scope:realm_priest = { has_trait = buddhist_school_yogachara }
 			scope:realm_priest = { has_trait = buddhist_school_madhyamaka }
 			scope:realm_priest = { has_trait = buddhist_school_pure_land }
-
+			# Tibetan Schools
+			scope:realm_priest = { has_trait = buddhist_school_nyingma }
+			scope:realm_priest = { has_trait = buddhist_school_kadam }
+			scope:realm_priest = { has_trait = buddhist_school_sakya }
+			scope:realm_priest = { has_trait = buddhist_school_kagyu }
 		}
 		NOR = {
 			has_trait = buddhist_school_chan
@@ -605,6 +719,7 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 	option = {# I will follow the teachings
 		name = dharma_buddhism.053.follow
 		hidden_effect = {	
+			# Mahayana Schools
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_chan } }
 				add_trait = buddhist_school_chan
@@ -621,6 +736,23 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 				limit = { scope:realm_priest = { has_trait = buddhist_school_pure_land } }
 				add_trait = buddhist_school_pure_land
 			}
+			# Tibetan Schools
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_nyingma } }
+				add_trait = buddhist_school_nyingma
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_kadam } }
+				add_trait = buddhist_school_kadam
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_sakya } }
+				add_trait = buddhist_school_sakya
+			}
+			if = {
+				limit = { scope:realm_priest = { has_trait = buddhist_school_kagyu } }
+				add_trait = buddhist_school_kagyu
+			}			
 		}
 		scope:realm_priest = {
 			add_opinion = {
@@ -642,6 +774,52 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 		add_prestige = minor_prestige_gain
 	}
 
+}
+
+dharma_buddhism.070 = {# Maintence to insure the high learning monks are picking a buddhist school
+	hidden = yes
+
+	trigger = {
+		faith = faith:mahayana
+		has_trait = devoted
+		learning >= decent_skill_rating
+		NOR = {
+			has_trait = buddhist_school_chan
+			has_trait = buddhist_school_madhyamaka
+			has_trait = buddhist_school_yogachara
+			has_trait = buddhist_school_pure_land
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_trait = devoted
+				learning >= decent_skill_rating
+				faith = faith:mahayana
+				NOR = {
+					has_trait = buddhist_school_chan
+					has_trait = buddhist_school_madhyamaka
+					has_trait = buddhist_school_yogachara
+					has_trait = buddhist_school_pure_land
+				}
+			}
+			random_list = {
+				25 = {
+					add_trait = buddhist_school_chan
+				}
+				25 = {
+					add_trait = buddhist_school_madhyamaka
+				}
+				25 = {
+					add_trait = buddhist_school_yogachara
+				}
+				25 = {
+					add_trait = buddhist_school_pure_land
+				}
+			}
+		}
+	}
 }
 #######################################
 #									  #

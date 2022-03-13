@@ -201,6 +201,7 @@ buddhist_school_nyingma = {# Nyingma
 buddhist_school_kadam = {# Kadam
 	potential = {
 		faith.religion = faith:lamaism.religion
+		exists = global_var:buddhist_school_kadam_formed
 	}
 	opposites = {
 		buddhist_school_nyingma
@@ -249,6 +250,7 @@ buddhist_school_kadam = {# Kadam
 buddhist_school_sakya = {# Sakya
 	potential = {
 		faith.religion = faith:lamaism.religion
+		exists = global_var:buddhist_school_sakya_formed
 	}
 	opposites = {
 		buddhist_school_nyingma
@@ -286,7 +288,7 @@ buddhist_school_sakya = {# Sakya
 buddhist_school_kagyu = {# Kagyu
 	potential = {
 		faith.religion = faith:mahayana.religion
-		has_trait = devoted # has to be a monk
+		exists = global_var:buddhist_school_kagyu_formed
 	}
 	opposites = {
 		buddhist_school_nyingma
@@ -561,6 +563,7 @@ hindu_philoosphy_nyaya = {# Nyaya
 hindu_philoosphy_vishishtadvaita = {# Vishishtadvaita - School of Vedanta
 	potential = {
 		faith = { religion_tag = hinduism_religion }
+		exists = global_var:hindu_philosophy_vishishtadvaita_formed
 	}
 	opposites = {
 		hindu_philoosphy_yoga
@@ -707,6 +710,7 @@ hindu_philoosphy_bhedabheda = {# Bhedabheda - School of Vedanta
 hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 	potential = {
 		faith = { religion_tag = hinduism_religion }
+		exists = global_var:hindu_philosophy_dvaita_vedanta_formed
 	}
 	opposites = {
 		hindu_philoosphy_yoga
@@ -772,7 +776,9 @@ shavisim_tradition_trika = {# Kashmir / Trika Shaivism
 	
 	shown_in_ruler_designer = no
 
-	ai_sociability = very_low_negative_ai_value
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
 
 	desc = {
 		first_valid = {
@@ -805,7 +811,9 @@ shavisim_tradition_pashupata = {# Pashupata Shaivism
 	
 	shown_in_ruler_designer = no
 
-	ai_sociability = very_low_negative_ai_value
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
 
 	desc = {
 		first_valid = {
@@ -837,7 +845,9 @@ shavisim_tradition_siddhanta = {# Shaiva Siddhanta
 	
 	shown_in_ruler_designer = no
 
-	ai_sociability = very_low_negative_ai_value
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
 
 	desc = {
 		first_valid = {
@@ -869,7 +879,9 @@ shavisim_tradition_nath = {# Nath
 	
 	shown_in_ruler_designer = no
 
-	ai_sociability = very_low_negative_ai_value
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
 
 	desc = {
 		first_valid = {
@@ -902,7 +914,9 @@ vaishnavism_tradition_vaikhanasas = {# Vaikhanasas
 	
 	shown_in_ruler_designer = no
 
-	ai_sociability = very_low_negative_ai_value
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
 
 	desc = {
 		first_valid = {
@@ -932,7 +946,9 @@ vaishnavism_tradition_srivaishnavism = {# Srivaishnavism
 	
 	shown_in_ruler_designer = no
 
-	ai_sociability = very_low_negative_ai_value
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
 
 	desc = {
 		first_valid = {
@@ -962,7 +978,9 @@ vaishnavism_tradition_pancharatra = {# Pancharatra
 	
 	shown_in_ruler_designer = no
 
-	ai_sociability = very_low_negative_ai_value
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
 
 	desc = {
 		first_valid = {
