@@ -313,7 +313,7 @@ dharma_buddhism.050 = {# Mahayana Schools
 		name = dharma_buddhism.050.chan
 		trigger = {
 			faith = faith:mahayana
-			NOT = { has_character_modifier = buddhist_school_chan }
+			NOT = { has_trait = buddhist_school_chan }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_chan }
 	}
@@ -321,7 +321,7 @@ dharma_buddhism.050 = {# Mahayana Schools
 		name = dharma_buddhism.050.madhyamaka
 		trigger = {
 			faith = faith:mahayana
-			NOT = { has_character_modifier = buddhist_school_madhyamaka }
+			NOT = { has_trait = buddhist_school_madhyamaka }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_madhyamaka }
 	}
@@ -329,7 +329,7 @@ dharma_buddhism.050 = {# Mahayana Schools
 		name = dharma_buddhism.050.yogachara
 		trigger = {
 			faith = faith:mahayana
-			NOT = { has_character_modifier = buddhist_school_yogachara }
+			NOT = { has_trait = buddhist_school_yogachara }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_yogachara }
 	}
@@ -339,7 +339,7 @@ dharma_buddhism.050 = {# Mahayana Schools
 			OR = { 
 				faith = faith:mahayana
 			}
-			NOT = { has_character_modifier = buddhist_school_pure_land }
+			NOT = { has_trait = buddhist_school_pure_land }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_pure_land }
 	}				
@@ -420,33 +420,33 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 			AND = {
 				scope:realm_priest = { has_trait = buddhist_school_chan }
 				OR = {
-					has_character_modifier = buddhist_school_yogachara
-					has_character_modifier = buddhist_school_madhyamaka
-					has_character_modifier = buddhist_school_pure_land
+					has_trait = buddhist_school_yogachara
+					has_trait = buddhist_school_madhyamaka
+					has_trait = buddhist_school_pure_land
 				}
 			}
 			AND = {
 				scope:realm_priest = { has_trait = buddhist_school_madhyamaka }
 				OR = {
-					has_character_modifier = buddhist_school_chan
-					has_character_modifier = buddhist_school_yogachara
-					has_character_modifier = buddhist_school_pure_land
+					has_trait = buddhist_school_chan
+					has_trait = buddhist_school_yogachara
+					has_trait = buddhist_school_pure_land
 				}
 			}
 			AND = {
 				scope:realm_priest = { has_trait = buddhist_school_yogachara }
 				OR = {
-					has_character_modifier = buddhist_school_pure_land
-					has_character_modifier = buddhist_school_madhyamaka
-					has_character_modifier = buddhist_school_pure_land
+					has_trait = buddhist_school_pure_land
+					has_trait = buddhist_school_madhyamaka
+					has_trait = buddhist_school_pure_land
 				}
 			}
 			AND = {
 				scope:realm_priest = { has_trait = buddhist_school_pure_land }
 				OR = {
-					has_character_modifier = buddhist_school_yogachara
-					has_character_modifier = buddhist_school_madhyamaka
-					has_character_modifier = buddhist_school_chan
+					has_trait = buddhist_school_yogachara
+					has_trait = buddhist_school_madhyamaka
+					has_trait = buddhist_school_chan
 				}
 			}
 		}
@@ -458,38 +458,38 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 		hidden_effect = {
 			if = {
 				limit = {
-					has_character_modifier = buddhist_school_chan
+					has_trait = buddhist_school_chan
 				}
-				remove_character_modifier = buddhist_school_chan
+				remove_trait = buddhist_school_chan
 			}
 			if = {
 				limit = {
-					has_character_modifier = buddhist_school_yogachara
+					has_trait = buddhist_school_yogachara
 				}
-				remove_character_modifier = buddhist_school_yogachara
+				remove_trait = buddhist_school_yogachara
 			}
 			if = {
 				limit = {
-					has_character_modifier = buddhist_school_pure_land
+					has_trait = buddhist_school_pure_land
 				}
-				remove_character_modifier = buddhist_school_pure_land
+				remove_trait = buddhist_school_pure_land
 			}
 
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_chan } }
-				add_character_modifier = buddhist_school_chan
+				add_trait = buddhist_school_chan
 			}
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_madhyamaka } }
-				add_character_modifier = buddhist_school_madhyamaka
+				add_trait = buddhist_school_madhyamaka
 			}
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_yogachara } }
-				add_character_modifier = buddhist_school_yogachara
+				add_trait = buddhist_school_yogachara
 			}
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_pure_land } }
-				add_character_modifier = buddhist_school_pure_land
+				add_trait = buddhist_school_pure_land
 			}
 		}
 		scope:realm_priest = {
@@ -527,19 +527,19 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 				add_piety = minor_piety_gain
 				scope:realm_priest = {
 					if = {
-						limit = { root = { has_character_modifier = buddhist_school_chan } }
+						limit = { root = { has_trait = buddhist_school_chan } }
 						add_trait = buddhist_school_chan
 					}
 					if = {
-						limit = { root = { has_character_modifier = buddhist_school_madhyamaka } }
+						limit = { root = { has_trait = buddhist_school_madhyamaka } }
 						add_trait = buddhist_school_madhyamaka
 					}
 					if = {
-						limit = { root = { has_character_modifier = buddhist_school_yogachara } }
+						limit = { root = { has_trait = buddhist_school_yogachara } }
 						add_trait = buddhist_school_yogachara
 					}
 					if = {
-						limit = { root = { has_character_modifier = buddhist_school_pure_land } }
+						limit = { root = { has_trait = buddhist_school_pure_land } }
 						add_trait = buddhist_school_pure_land
 					}
 
@@ -595,10 +595,10 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 
 		}
 		NOR = {
-			has_character_modifier = buddhist_school_chan
-			has_character_modifier = buddhist_school_yogachara
-			has_character_modifier = buddhist_school_madhyamaka
-			has_character_modifier = buddhist_school_pure_land
+			has_trait = buddhist_school_chan
+			has_trait = buddhist_school_yogachara
+			has_trait = buddhist_school_madhyamaka
+			has_trait = buddhist_school_pure_land
 		}
 	}
 
@@ -607,19 +607,19 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 		hidden_effect = {	
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_chan } }
-				add_character_modifier = buddhist_school_chan
+				add_trait = buddhist_school_chan
 			}
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_madhyamaka } }
-				add_character_modifier = buddhist_school_madhyamaka
+				add_trait = buddhist_school_madhyamaka
 			}
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_yogachara } }
-				add_character_modifier = buddhist_school_yogachara
+				add_trait = buddhist_school_yogachara
 			}
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_pure_land } }
-				add_character_modifier = buddhist_school_pure_land
+				add_trait = buddhist_school_pure_land
 			}
 		}
 		scope:realm_priest = {
@@ -4095,10 +4095,10 @@ dharma_buddhism.313 = {# Adopting a Buddhist School
 	trigger = {
 		faith = faith:mahayana
 		NOR = { 
-			has_character_modifier = buddhist_school_chan 
-			has_character_modifier = buddhist_school_madhyamaka 
-			has_character_modifier = buddhist_school_yogachara 
-			has_character_modifier = buddhist_school_pure_land 
+			has_trait = buddhist_school_chan 
+			has_trait = buddhist_school_madhyamaka 
+			has_trait = buddhist_school_yogachara 
+			has_trait = buddhist_school_pure_land 
 		}
 		exists = scope:activity
 		NOT = {
@@ -4120,7 +4120,7 @@ dharma_buddhism.313 = {# Adopting a Buddhist School
 		name = dharma_buddhism.313.chan
 		trigger = {
 			faith = faith:mahayana
-			NOT = { has_character_modifier = buddhist_school_chan }
+			NOT = { has_trait = buddhist_school_chan }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_chan }
 	}
@@ -4128,7 +4128,7 @@ dharma_buddhism.313 = {# Adopting a Buddhist School
 		name = dharma_buddhism.313.madhyamaka
 		trigger = {
 			faith = faith:mahayana
-			NOT = { has_character_modifier = buddhist_school_madhyamaka }
+			NOT = { has_trait = buddhist_school_madhyamaka }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_madhyamaka }
 	}
@@ -4136,7 +4136,7 @@ dharma_buddhism.313 = {# Adopting a Buddhist School
 		name = dharma_buddhism.313.yogachara
 		trigger = {
 			faith = faith:mahayana
-			NOT = { has_character_modifier = buddhist_school_yogachara }
+			NOT = { has_trait = buddhist_school_yogachara }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_yogachara }
 	}
@@ -4146,7 +4146,7 @@ dharma_buddhism.313 = {# Adopting a Buddhist School
 			OR = { 
 				faith = faith:mahayana
 			}
-			NOT = { has_character_modifier = buddhist_school_pure_land }
+			NOT = { has_trait = buddhist_school_pure_land }
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_pure_land }
 	}
@@ -4205,9 +4205,9 @@ dharma_buddhism.314 = {# Buddhist School Debate
 		name = dharma_buddhism.314.chan
 		trigger = {
 			NOT = {
-				has_character_modifier = buddhist_school_madhyamaka
-				has_character_modifier = buddhist_school_yogachara
-				has_character_modifier = buddhist_school_pure_land
+				has_trait = buddhist_school_madhyamaka
+				has_trait = buddhist_school_yogachara
+				has_trait = buddhist_school_pure_land
 			}
 		}
 		duel = {
@@ -4255,9 +4255,9 @@ dharma_buddhism.314 = {# Buddhist School Debate
 		name = dharma_buddhism.314.madhyamaka
 		trigger = {
 			NOT = {
-				has_character_modifier = buddhist_school_chan
-				has_character_modifier = buddhist_school_yogachara
-				has_character_modifier = buddhist_school_pure_land
+				has_trait = buddhist_school_chan
+				has_trait = buddhist_school_yogachara
+				has_trait = buddhist_school_pure_land
 			}
 		}
 		duel = {
@@ -4305,9 +4305,9 @@ dharma_buddhism.314 = {# Buddhist School Debate
 		name = dharma_buddhism.314.yogachara
 		trigger = {
 			NOT = {
-				has_character_modifier = buddhist_school_chan
-				has_character_modifier = buddhist_school_madhyamaka
-				has_character_modifier = buddhist_school_pure_land
+				has_trait = buddhist_school_chan
+				has_trait = buddhist_school_madhyamaka
+				has_trait = buddhist_school_pure_land
 			}
 		}
 		duel = {
@@ -4355,9 +4355,9 @@ dharma_buddhism.314 = {# Buddhist School Debate
 		name = dharma_buddhism.314.pure_land
 		trigger = {
 			NOT = {
-				has_character_modifier = buddhist_school_chan
-				has_character_modifier = buddhist_school_madhyamaka
-				has_character_modifier = buddhist_school_yogachara
+				has_trait = buddhist_school_chan
+				has_trait = buddhist_school_madhyamaka
+				has_trait = buddhist_school_yogachara
 			}
 		}
 		duel = {

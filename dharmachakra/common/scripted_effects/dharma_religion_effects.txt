@@ -1679,44 +1679,204 @@ dharma_set_up_next_buddhist_retreat_event_effect = {# Visiting Nalanda
 # Buddhist School Effects
 #######################################
 set_buddhist_school_effect = {# Buddhist Schools
-	# Remove any previous personal god relation.
+	# Mahayana Buddhism
 	if = {# Chan / Zen School	
 		limit = {
-			has_character_modifier = buddhist_school_chan
+			has_trait = buddhist_school_chan
 		}
-		remove_character_modifier = buddhist_school_chan
+		remove_trait = buddhist_school_chan
 		add_piety = massive_piety_loss
 	}
 	else_if = {# Madhyamaka School	
 		limit = {
-			has_character_modifier = buddhist_school_madhyamaka
+			has_trait = buddhist_school_madhyamaka
 		}
-		remove_character_modifier = buddhist_school_madhyamaka
+		remove_trait = buddhist_school_madhyamaka
 		add_piety = massive_piety_loss
 	}
 	else_if = {# Yogachara	
 		limit = {
-			has_character_modifier = buddhist_school_yogachara
+			has_trait = buddhist_school_yogachara
 		}
-		remove_character_modifier = buddhist_school_yogachara
+		remove_trait = buddhist_school_yogachara
 		add_piety = massive_piety_loss
 	}
 	else_if = {# Pure Land	
 		limit = {
-			has_character_modifier = buddhist_school_pure_land
+			has_trait = buddhist_school_pure_land
 		}
-		remove_character_modifier = buddhist_school_pure_land
+		remove_trait = buddhist_school_pure_land
 		add_piety = massive_piety_loss
 	}
+	# Tibetan Buddhism
+	else_if = {# Nyingma School	
+		limit = {
+			has_trait = buddhist_school_nyingma
+		}
+		remove_trait = buddhist_school_nyingma
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Kadam	
+		limit = {
+			has_trait = buddhist_school_kadam
+		}
+		remove_trait = buddhist_school_kadam
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Sakya	
+		limit = {
+			has_trait = buddhist_school_sakya
+		}
+		remove_trait = buddhist_school_sakya
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Kagyu	
+		limit = {
+			has_trait = buddhist_school_kagyu
+		}
+		remove_trait = buddhist_school_kagyu
+		add_piety = massive_piety_loss
+	}
+	# Else option
 	else = {# If no current Buddhist schools, cost is reduced.
 		add_piety = medium_piety_loss
 	}
-	add_character_modifier = $YANA$
+	add_trait = $YANA$
 }
-
-
-
-
+#######################################
+# Hindu Philosophy Effects
+#######################################
+set_hindu_philosophy_effect = {# Hindu Philosophy
+	if = {# Yoga	
+		limit = {
+			has_trait = hindu_philoosphy_yoga
+		}
+		remove_trait = hindu_philoosphy_yoga
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Samkhya	
+		limit = {
+			has_trait = hindu_philoosphy_samkhya
+		}
+		remove_trait = hindu_philoosphy_samkhya
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Vaisheshika	
+		limit = {
+			has_trait = hindu_philoosphy_vaisheshika
+		}
+		remove_trait = hindu_philoosphy_vaisheshika
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Mimamsa	
+		limit = {
+			has_trait = hindu_philoosphy_mimamsa
+		}
+		remove_trait = hindu_philoosphy_mimamsa
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Nyaya	
+		limit = {
+			has_trait = hindu_philoosphy_nyaya
+		}
+		remove_trait = hindu_philoosphy_nyaya
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Vishishtadvaita	
+		limit = {
+			has_trait = hindu_philoosphy_vishishtadvaita
+		}
+		remove_trait = hindu_philoosphy_vishishtadvaita
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Advaita Vedanta	
+		limit = {
+			has_trait = hindu_philoosphy_advaita_vedanta
+		}
+		remove_trait = hindu_philoosphy_advaita_vedanta
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Bhedabheda	
+		limit = {
+			has_trait = hindu_philoosphy_bhedabheda
+		}
+		remove_trait = hindu_philoosphy_bhedabheda
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Kagyu	
+		limit = {
+			has_trait = hindu_philoosphy_dvaita_vedanta
+		}
+		remove_trait = hindu_philoosphy_dvaita_vedanta
+		add_piety = massive_piety_loss
+	}
+	# Else option
+	else = {# If no current Buddhist schools, cost is reduced.
+		add_piety = medium_piety_loss
+	}
+	add_trait = $ASTIKA$
+}
+#######################################
+# Hindu Sub-Tradition Effects
+#######################################
+set_hindu_tradition_effect = {# Hindu Sub-Traditions
+	# Shaivism
+	if = {# Trika Shaivism	
+		limit = {
+			has_trait = shavisim_tradition_trika
+		}
+		remove_trait = shavisim_tradition_trika
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Pashupata Shaivism	
+		limit = {
+			has_trait = shavisim_tradition_siddhanta
+		}
+		remove_trait = shavisim_tradition_siddhanta
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Shaiva Siddhanta	
+		limit = {
+			has_trait = shavisim_tradition_nath
+		}
+		remove_trait = shavisim_tradition_nath
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Nath	
+		limit = {
+			has_trait = shavisim_tradition_siddhanta
+		}
+		remove_trait = shavisim_tradition_siddhanta
+		add_piety = massive_piety_loss
+	}
+	# Vaishynavism
+	else_if = {# Vaikhanasas	
+		limit = {
+			has_trait = vaishnavism_tradition_vaikhanasas
+		}
+		remove_trait = vaishnavism_tradition_vaikhanasas
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Srivaishnavism	
+		limit = {
+			has_trait = vaishnavism_tradition_srivaishnavism
+		}
+		remove_trait = vaishnavism_tradition_srivaishnavism
+		add_piety = massive_piety_loss
+	}
+	else_if = {# Pancharatra	
+		limit = {
+			has_trait = vaishnavism_tradition_pancharatra
+		}
+		remove_trait = vaishnavism_tradition_pancharatra
+		add_piety = massive_piety_loss
+	}
+	# Else option
+	else = {# If no current Buddhist schools, cost is reduced.
+		add_piety = medium_piety_loss
+	}
+	add_trait = $SAMPRADAYAS$
+}
 
 
 

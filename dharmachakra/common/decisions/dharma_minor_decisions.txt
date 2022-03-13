@@ -857,10 +857,10 @@ dharma_adopt_mahayana_school = {# Follow a Mahayana Buddhist School
 	ai_potential = {
 		piety >= minor_piety_value
 		NOR = {
-			has_character_modifier = buddhist_school_pure_land
-			has_character_modifier = buddhist_school_yogachara
-			has_character_modifier = buddhist_school_madhyamaka
-			has_character_modifier = buddhist_school_chan
+			has_trait = buddhist_school_pure_land
+			has_trait = buddhist_school_yogachara
+			has_trait = buddhist_school_madhyamaka
+			has_trait = buddhist_school_chan
 		}
 	}
 
