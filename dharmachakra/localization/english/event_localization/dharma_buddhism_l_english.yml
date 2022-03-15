@@ -66,34 +66,75 @@
 #######################################
 # Buddhist Schools
 #######################################
- dharma_buddhism.050.t:0 "Following a Buddhist School"
- dharma_buddhism.050.desc:0 "There are a number of schools of Buddhism that the great monks have developed over the years. While I may not be a monk, by following one it will help me reach enlightenment. The question is which school shall I choose?"
- dharma_buddhism.050.chan:0 "The teachings of the Chan School."
- dharma_buddhism.050.madhyamaka:0 "The teachings of the Madhyamaka School."
- dharma_buddhism.050.yogachara:0 "The teachings of the Yogachara School.he Universe."
- dharma_buddhism.050.pure_land:0 "The teachings of the Pure Land School."
- dharma_buddhism.050.optout:0 "I am not yet ready to decide."
+  dharma_buddhism.050.t:0 "Following a Buddhist School"
+  dharma_buddhism.050.desc:0 "There are a number of schools of Buddhism that the great monks have developed over the years. While I may not be a monk, by following one it will help me reach enlightenment. The question is which school shall I choose?"
+  dharma_buddhism.050.chan:0 "The teachings of the Chan School."
+  dharma_buddhism.050.madhyamaka:0 "The teachings of the Madhyamaka School."
+  dharma_buddhism.050.yogachara:0 "The teachings of the Yogachara School.he Universe."
+  dharma_buddhism.050.pure_land:0 "The teachings of the Pure Land School."
+  dharma_buddhism.050.optout:0 "I am not yet ready to decide."
 
- dharma_buddhism.051.t:0 "Following a Buddhist School"
- dharma_buddhism.051.desc:0 "There are a number of schools of Buddhism that the great monks have developed over the years. While I may not be a monk, by following one it will help me reach enlightenment. The question is which school shall I choose?"
- dharma_buddhism.051.nyingma:0 "The teachings of the Nyingma School."
- dharma_buddhism.051.kadam:0 "The teachings of the Kadam School."
- dharma_buddhism.051.sakya:0 "The teachings of the Sakya School.he Universe."
- dharma_buddhism.051.kagyu:0 "The teachings of the Kagyu School."
- dharma_buddhism.051.optout:0 "I am not yet ready to decide."
+  dharma_buddhism.051.t:0 "Following a Buddhist School"
+  dharma_buddhism.051.desc:0 "There are a number of schools of Buddhism that the great monks have developed over the years. While I may not be a monk, by following one it will help me reach enlightenment. The question is which school shall I choose?"
+  dharma_buddhism.051.nyingma:0 "The teachings of the Nyingma School."
+  dharma_buddhism.051.kadam:0 "The teachings of the Kadam School."
+  dharma_buddhism.051.sakya:0 "The teachings of the Sakya School.he Universe."
+  dharma_buddhism.051.kagyu:0 "The teachings of the Kagyu School."
+  dharma_buddhism.051.optout:0 "I am not yet ready to decide."
 
- dharma_buddhism.052.t:0 "Your [councillor_court_chaplain.GetTitle] favors a different Buddhist School."
- dharma_buddhism.052.desc:0 "Your [councillor_court_chaplain.GetTitle] is a monk which follows a different Buddhist school then the one that you follow. [councillor_court_chaplain.getHeShe] has come to you and asked you to start to follow [councillor_court_chaplain.getHisHer] school's teachings instead."
- dharma_buddhism.052.switch:0 "I shall do so."
- dharma_buddhism.052.stick:0 "I like the teachings of the current school."
- dharma_buddhism.052.convince:0 "I will try to convince [councillor_court_chaplain.getHimHer]"
- dharma_buddhism.052.convince.success:0 "You successfully convince your Court Chaplain."
- dharma_buddhism.052.convince.failure:0 "You Fail to convince your Court Chaplain."
+  dharma_buddhism.052.t:0 "Your [councillor_court_chaplain.GetTitle] favors a different Buddhist School."
+  dharma_buddhism.052.desc:0 "Your [councillor_court_chaplain.GetTitle] is a monk which follows a different Buddhist school then the one that you follow. [councillor_court_chaplain.getHeShe] has come to you and asked you to start to follow [councillor_court_chaplain.getHisHer] school's teachings instead."
+  dharma_buddhism.052.switch:0 "I shall do so."
+  dharma_buddhism.052.stick:0 "I like the teachings of the current school."
+  dharma_buddhism.052.convince:0 "I will try to convince [councillor_court_chaplain.getHimHer]"
+  dharma_buddhism.052.convince.success:0 "You successfully convince your Court Chaplain."
+  dharma_buddhism.052.convince.failure:0 "You Fail to convince your Court Chaplain."
 
- dharma_buddhism.053.t:0 "Your [councillor_court_chaplain.GetTitle] encourges you to follow the teachings of [councillor_court_chaplain.getHisHer] school"
- dharma_buddhism.053.desc:0 "You currently have not incorporated any Buddhist school's teachings into your daily life nor are you patronizing any particular school. Your [councillor_court_chaplain.GetTitle]has come to saying that you should be supporting [councillor_court_chaplain.getHisHer] School."
- dharma_buddhism.053.follow:0 "I shall support [councillor_court_chaplain.getHisHer] school."
- dharma_buddhism.053.not_follow:0 "I shall Not!"
+  dharma_buddhism.053.t:0 "Your [councillor_court_chaplain.GetTitle] encourges you to follow the teachings of [councillor_court_chaplain.getHisHer] school"
+  dharma_buddhism.053.desc:0 "You currently have not incorporated any Buddhist school's teachings into your daily life nor are you patronizing any particular school. Your [councillor_court_chaplain.GetTitle]has come to saying that you should be supporting [councillor_court_chaplain.getHisHer] School."
+  dharma_buddhism.053.follow:0 "I shall support [councillor_court_chaplain.getHisHer] school."
+  dharma_buddhism.053.not_follow:0 "I shall Not!"
+
+  # Founding of Buddhist Schools
+
+  dharma_buddhism.054.t:0 "The Mahasiddha Naropa"
+  dharma_buddhism.054.desc:0 "A Monastic in Vikramashila has become something of a celebration, known as Mahasiddha Naropa he has begun to attract a number of students to the Virha near and far."
+  dharma_buddhism.054.naropa:0 "Quite the Interesting Monk."
+
+  dharma_buddhism.055.t:0 "The monk Atisa Arrives"
+  dharma_buddhism.055.desc:0 "The Bengali Monk, Atisa, has recently arrived in your kingdom and has begun to work at one of the local monastaries. He is quite the skilled monk, and claims to have visited far off Sumatra and studied under the famed monk, Naropa. "
+  dharma_buddhism.055.atisa:0 "Welcome to Tibet."
+
+  dharma_buddhism.056.t:0 "Atisa founds the Kadam School of Buddhism"
+  dharma_buddhism.056.desc:0 "Atisa has announced that he has created a new school of Tibetan Buddhism called the Kadam School. This school focuses on compassion, pure discipline and study. A number of Tibetan Monastics have begun to study under him and his disciples."
+  dharma_buddhism.056.kadam:0 "Quite the interesting development"
+  dharma_buddhism.056.kadam_adopt:0 "Patronize the New School"
+
+  dharma_buddhism.057.t:0 "Drogmi returns from India"
+  dharma_buddhism.057.desc:0 "The monk Drogmi has returned from his stay in India. He claims to have recieved quite the education while studying under the great Mahasiddha Naropa."
+  dharma_buddhism.057.drogmi:0 "Welcome Home."
+
+  dharma_buddhism.058.t:0 "Prince in Sa'gya becomes a student of Drogmi"
+  dharma_buddhism.058.desc:0 "A local prince in Sa'gya has decided to follow Drogmi and embraced the life of a monastic, discarding [hisher] world possessions in order to study under him."
+  dharma_buddhism.058.prince:0 "An interesting development."
+
+  dharma_buddhism.059.t:0 "Drogmi founds the Sakya School of Buddhism"
+  dharma_buddhism.059.desc:0 "Drogmi has announced that he has created a new school of Tibetan Buddhism called the Sakya School. A number of Tibetan Monastics have begun to study under him and his disciples."
+  dharma_buddhism.059.sakya:0 "Quite the interesting development"
+  dharma_buddhism.059.sakya_adopt:0 "Patronize the New School"
+
+  dharma_buddhism.060.t:0 "Marpa sets up his seat in a Tibetan Monastary"
+  dharma_buddhism.060.desc:0 "The monastic Marpa has set up in a local Monastary where he has begun to teach. Marpa is a skilled monk, and he has trained under the famous Mahasiddha Naropa. "
+  dharma_buddhism.060.marpa:0 "Quite the monk"
+
+  dharma_buddhism.061.t:0 " Marpa's Four Great Pillars"
+  dharma_buddhism.061.desc:0 "A number of students have begun to follow Marpa. Four of these students, Milarepa,Tshurton Wangi, Ngok Choku, and Meton Tsonpo stand out among the rest. Collectively they are being refered to as the Four Great Pillars."
+  dharma_buddhism.061.students:0 "A good master is reflected by his students."
+
+  dharma_buddhism.062.t:0 "Following a Buddhist School"
+  dharma_buddhism.062.desc:0 "Drogmi has announced that he has created a new school of Tibetan Buddhism called the Sakya School. A number of Tibetan Monastics have begun to study under him and his disciples."
+  dharma_buddhism.062.kagyu:0 "Quite the interesting development"
+  dharma_buddhism.062.kagyu_adopt:0 "Patronize the New School"
 
 #######################################
 # BUDDHIST RETREAT

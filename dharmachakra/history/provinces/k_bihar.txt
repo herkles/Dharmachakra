@@ -73,12 +73,9 @@
 	culture = bihari
 	religion = vajrayana
 	
-	holding = none
+	holding = church_holding
 	
 	# History
-	1066.1.1 = {
-		holding = church_holding
-	}
 
 }
 

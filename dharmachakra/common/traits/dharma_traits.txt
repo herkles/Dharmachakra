@@ -287,7 +287,7 @@ buddhist_school_sakya = {# Sakya
 }
 buddhist_school_kagyu = {# Kagyu
 	potential = {
-		faith.religion = faith:mahayana.religion
+		faith.religion = faith:lamaism.religion
 		exists = global_var:buddhist_school_kagyu_formed
 	}
 	opposites = {
