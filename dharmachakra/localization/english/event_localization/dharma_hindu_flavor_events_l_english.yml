@@ -168,6 +168,29 @@
 #######################################
 # Visiting Sharada Peeth
 #######################################
+ dharma_hinduism.050.t:0 "Returning Home"
+ dharma_hinduism.030.desc:0 "Description"
+ dharma_hinduism.030.yoga:0 "at last I am home."
+ dharma_hinduism.030.samkhya:0 "at last I am home."
+ dharma_hinduism.030.vaisheshika:0 "at last I am home."
+ dharma_hinduism.030.mimamsa:0 "at last I am home."
+ dharma_hinduism.030.nyaya:0 "at last I am home."
+ dharma_hinduism.030.vedanta:0 "at last I am home."
+ dharma_hinduism.030.optout:0 "at last I am home."
+
+ dharma_hinduism.050.t:0 "Returning Home"
+ dharma_hinduism.030.desc:0 "Description"
+ dharma_hinduism.030.vishishtadvaita:0 "at last I am home."
+ dharma_hinduism.030.advaita_vedanta:0 "at last I am home."
+ dharma_hinduism.030.bhedabheda:0 "at last I am home."
+ dharma_hinduism.030.dvaita_vedanta:0 "at last I am home."
+ dharma_hinduism.030.philosophy:0 "at last I am home."
+ dharma_hinduism.optout.go:0 "at last I am home."
+
+
+#######################################
+# Visiting Sharada Peeth
+#######################################
   dharma_hinduism.300.t:0 "Visit Sharada Peeth?"
   dharma_hinduism.300.desc:0 "You are deciding if you should visit the famous university of Sharada Peeth. Sharada Peeth attracts scholars from around India. Sharada Peeth has a number of libraries, scholars and theologians. Visiting the university is a decent way to try and improve your understanding of the world.\n\nShould you go to Sharada Peeth or should you stay in your court?"
   dharma_hinduism.300.stay:0 "I shall Stay"

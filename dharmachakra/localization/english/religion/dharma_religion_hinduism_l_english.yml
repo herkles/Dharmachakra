@@ -103,6 +103,7 @@
  hinduism_religious_text:0 "Vedas"
  hinduism_religious_text_2:0 "$hinduism_religious_text$" # Optional translation alt
  hinduism_religious_text_3:0 "$hinduism_religious_text$" # Optional translation alt
+
 #Vaishnavism
   vaishnavism:0 "Vaishnavism"
   vaishnavism_adj:1 "Vaishnavite"
@@ -187,6 +188,14 @@
     shaivism_good_god_nandi:0 "Nandi"
     shaivism_good_god_vaitheeswaran:0 "Vaitheeswaran"
     shaivism_good_god_parvati:0 "Parvati"
+
+
+#Trika Shaivism ie Kashmiri Shaivism
+  trika_shaivism:0 "Trika Shaivism"
+  trika_shaivism_adj:1 "Trika"
+  trika_shaivism_adherent:0 "Trika"
+  trika_shaivism_adherent_plural:0 "Trikas"
+  trika_shaivism_desc:0 "Trika Shaivism, otherwise known as Kashmiri Shaivism is a non-dualistic form of Shaivism that is a mixture of Shaivism and Shaktism. Trika Shaivism places heavy emphasis upon Tantric practices as part of their religious practice."
 
 #Srikula Shaktism
   srikula_shaktism:0 "Srikula Shaktism"

@@ -530,7 +530,137 @@ dharma_hinduism.014 = {# Misc cleanup
 	}
 }
 #######################################
-# Devadasi Events
+#									  #
+#      	  Hindu Philosophy			  #
+#									  #
+#######################################
+dharma_hinduism.050 = {# Picking a Philosophy
+	type = character_event
+	title = dharma_hinduism.050.t
+	desc = dharma_hinduism.050.desc
+	theme = faith
+	override_background = {
+		event_background = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	# East Asian Mahayana
+	option = {# Yoga
+		name = dharma_hinduism.050.yoga
+		trigger = {
+			faith = { religion_tag = hinduism_religion }
+			NOT = { has_trait = hindu_philoosphy_yoga }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_yoga }
+	}
+	option = {# Samkhya
+		name = dharma_hinduism.050.samkhya
+		trigger = {
+			faith = { religion_tag = hinduism_religion }
+			NOT = { has_trait = hindu_philoosphy_samkhya }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_samkhya }
+	}
+	option = {# Vaisheshika
+		name = dharma_hinduism.050.vaisheshika
+		trigger = {
+			faith = { religion_tag = hinduism_religion }
+			NOT = { has_trait = hindu_philoosphy_vaisheshika }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_vaisheshika }
+	}
+	option = {# Mimamsa
+		name = dharma_hinduism.050.mimamsa
+		trigger = {
+			faith = { religion_tag = hinduism_religion }
+			NOT = { has_trait = hindu_philoosphy_mimamsa }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_mimamsa }
+	}	
+	option = {# Nyaya
+		name = dharma_hinduism.050.nyaya
+		trigger = {
+			faith = { religion_tag = hinduism_religion }
+			NOT = { has_trait = hindu_philoosphy_nyaya }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_nyaya }
+	}
+	option = {# Vedanta
+		name = dharma_hinduism.050.vedanta
+		trigger_event = { id = dharma_hinduism.051 }
+	}					
+	# Opt-Out
+	option = {
+		name = dharma_hinduism.050.optout
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+dharma_hinduism.051 = {# Picking a Philosophy - Vedanta
+	type = character_event
+	title = dharma_hinduism.051.t
+	desc = dharma_hinduism.051.desc
+	theme = faith
+	override_background = {
+		event_background = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# Vishishtadvaita
+		name = dharma_hinduism.051.vishishtadvaita
+		trigger = {
+			faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
+			NOT = { has_trait = hindu_philoosphy_vishishtadvaita }
+			exists = global_var:hindu_philosophy_vishishtadvaita_formed
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_vishishtadvaita }
+	}
+	option = {# Advaita Vedanta
+		name = dharma_hinduism.051.advaita_vedanta
+		trigger = {
+			faith = { religion_tag = hinduism_religion }
+			NOT = { has_trait = hindu_philoosphy_advaita_vedanta }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_advaita_vedanta }
+	}
+	option = {# Bhedabheda
+		name = dharma_hinduism.051.bhedabheda
+		trigger = {
+			faith = { religion_tag = hinduism_religion }
+			NOT = { has_trait = hindu_philoosphy_bhedabheda }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_bhedabheda }
+	}
+	option = {# Dvaita Vedanta
+		name = dharma_hinduism.051.dvaita_vedanta
+		trigger = {
+			faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
+			NOT = { has_trait = hindu_philoosphy_dvaita_vedanta }
+			exists = global_var:hindu_philosophy_dvaita_vedanta_formed
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_dvaita_vedanta }
+	}	
+	option = {# Another Branch of Philosophy
+		name = dharma_hinduism.051.philosophy
+		trigger_event = { id = dharma_hinduism.050 }
+	}					
+	# Opt-Out
+	option = {
+		name = dharma_hinduism.051.optout
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+#######################################
+# The Founding of Vedanta branches
 #######################################
 
 #######################################

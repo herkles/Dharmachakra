@@ -113,11 +113,19 @@
   dharma_vedic_animal_sacrifice_confirm:0 "Bring out the animals."
   dharma_vedic_animal_sacrifice_tooltip:0 "You will sacrifice Animals to the heavens"
   dharma_vedic_animal_sacrifice_costs_tooltip:0 "Potential boons depend on how grand the sacrifice is and what type of animal you sacrifice.  #weak (Minimum cost: @gold_icon! 50)#!"
+
+
   # Visit Sharada Peeth
   dharma_visit_sharada_peeth:0 "Visit the Temple Complex of Sharada Peeth"
   dharma_visit_sharada_peeth_desc:0 "Sharada Peeth is a temple complex and center of learning in Kashmir that attracts scholars from around India."
   dharma_visit_sharada_peeth_tooltip:0 "You will decide if you wish to visit Sharada Peeth or not."
   dharma_visit_sharada_peeth_confirm:0 "Time to visit Sharada Peeth"
+
+  # pick a Hindu Philosophy
+  dharma_pick_hindu_philosophy:0 "Follow a Buddhist School"
+  dharma_pick_hindu_philosophy_desc:0 "While you consider yourself a devoted Buddhist, some of the monks have suggested you follow more closely the principal and teachings of a school of Buddhism."
+  dharma_pick_hindu_philosophy_tooltip:0 "You will follow one of the schools of Tibetan Buddhism."
+  dharma_pick_hindu_philosophy_confirm:0 "Om Mani Padme Hum"
 
 #######################################
 # Festival Decisions

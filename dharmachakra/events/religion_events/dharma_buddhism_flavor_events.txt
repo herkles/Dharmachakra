@@ -708,10 +708,16 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 			scope:realm_priest = { has_trait = buddhist_school_kagyu }
 		}
 		NOR = {
+			# Mahayana Schools
 			has_trait = buddhist_school_chan
 			has_trait = buddhist_school_yogachara
 			has_trait = buddhist_school_madhyamaka
 			has_trait = buddhist_school_pure_land
+			# Tibetan Schools
+			has_trait = buddhist_school_nyingma
+			has_trait = buddhist_school_kadam
+			has_trait = buddhist_school_sakya
+			has_trait = buddhist_school_kagyu
 		}
 	}
 
@@ -913,6 +919,13 @@ dharma_buddhism.056 = {# Atisa founds the Kadam School of Buddhism
 	option = {# new school with new book
 		name = dharma_buddhism.056.kadam
 	}
+	option = {# Patronize the new School
+		name = dharma_buddhism.056.kadam_adopt
+		trigger = {
+			faith = faith:lamaism
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_kadam }
+	}
 }
 dharma_buddhism.057 = {# Drogmi returns from India
 	type = character_event
@@ -1017,6 +1030,15 @@ dharma_buddhism.059 = {# The Sakya school is founded
 	option = {# A new School
 		name = dharma_buddhism.059.sakya		
 	}
+	option = {# Patronize the new School
+		name = dharma_buddhism.056.sakya_adopt
+		trigger = {
+			faith = faith:lamaism
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_sakya }
+	}
+
+
 }
 dharma_buddhism.060 = {# Marpa sets up his seat in a Tibetan Monastary
 	type = character_event
@@ -1183,6 +1205,15 @@ dharma_buddhism.062 = {# Marpa founds the Kagyu School
 	option = {# a new school interesting
 		name = dharma_buddhism.062.kagyu		
 	}
+	option = {# Patronize the new School
+		name = dharma_buddhism.056.kagyu_adopt
+		trigger = {
+			faith = faith:lamaism
+		}
+		set_buddhist_school_effect = { YANA = buddhist_school_kagyu }
+	}
+
+
 }
 dharma_buddhism.063 = {# Maintence to insure the high learning monks are picking a buddhist school
 	hidden = yes

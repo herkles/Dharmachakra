@@ -562,7 +562,7 @@ hindu_philoosphy_nyaya = {# Nyaya
 }
 hindu_philoosphy_vishishtadvaita = {# Vishishtadvaita - School of Vedanta
 	potential = {
-		faith = { religion_tag = hinduism_religion }
+		faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
 		exists = global_var:hindu_philosophy_vishishtadvaita_formed
 	}
 	opposites = {
@@ -709,7 +709,7 @@ hindu_philoosphy_bhedabheda = {# Bhedabheda - School of Vedanta
 }
 hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 	potential = {
-		faith = { religion_tag = hinduism_religion }
+		faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
 		exists = global_var:hindu_philosophy_dvaita_vedanta_formed
 	}
 	opposites = {
@@ -759,46 +759,12 @@ hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 #######################################
 # Shaivism sub-Traidition traits
 #######################################
-shavisim_tradition_trika = {# Kashmir / Trika Shaivism
-	potential = {
-		faith.religion = faith:shaivism.religion
-	}
-	opposites = {
-		shavisim_tradition_pashupata
-		shavisim_tradition_siddhanta
-		shavisim_tradition_nath
-
-	}
-
-	monthly_piety = 0.05
-	same_opinion = 5
-	opposite_opinion = -5		
-	
-	shown_in_ruler_designer = no
-
-	inherit_chance = 100
-	parent_inheritance_sex = male
-	inherit_from_real_father = no
-
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_shavisim_tradition_trika_desc
-			}
-			desc = trait_shavisim_tradition_trika_character_desc
-		}
-	}
-
-}
 shavisim_tradition_pashupata = {# Pashupata Shaivism
 	potential = {
 		faith.religion = faith:shaivism.religion
 	}
 	opposites = {
-		shavisim_tradition_trika
+		
 		shavisim_tradition_siddhanta
 		shavisim_tradition_nath
 
@@ -833,7 +799,7 @@ shavisim_tradition_siddhanta = {# Shaiva Siddhanta
 		faith.religion = faith:shaivism.religion
 	}
 	opposites = {
-		shavisim_tradition_trika
+		
 		shavisim_tradition_pashupata
 		shavisim_tradition_nath
 
@@ -867,7 +833,7 @@ shavisim_tradition_nath = {# Nath
 		faith.religion = faith:shaivism.religion
 	}
 	opposites = {
-		shavisim_tradition_trika
+		
 		shavisim_tradition_pashupata
 		shavisim_tradition_siddhanta
 
