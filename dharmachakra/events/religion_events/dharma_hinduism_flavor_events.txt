@@ -418,7 +418,10 @@ dharma_hinduism.013 = {# Sacrifice time
 		name = dharma_hinduism.013.a
 		if = {
 			limit = {
-				faith = faith:kalikula_shaktism	
+				OR = {
+					faith = faith:kalikula_shaktism	
+					faith = faith:trika_shaivism	
+				}
 			}
 			dharma_vedic_devi_animal_sacrifice_effect = yes
 		}
@@ -437,7 +440,10 @@ dharma_hinduism.013 = {# Sacrifice time
 		name = dharma_hinduism.013.c
 		if = {
 			limit = {
-				faith = faith:kalikula_shaktism	
+				OR = {
+					faith = faith:kalikula_shaktism	
+					faith = faith:trika_shaivism	
+				}
 			}
 			dharma_vedic_lakshmi_animal_sacrifice_effect = yes
 		}
@@ -449,7 +455,10 @@ dharma_hinduism.013 = {# Sacrifice time
 		name = dharma_hinduism.013.d
 		if = {
 			limit = {
-				faith = faith:kalikula_shaktism	
+				OR = {
+					faith = faith:kalikula_shaktism	
+					faith = faith:trika_shaivism	
+				}
 			}
 			dharma_vedic_parvati_animal_sacrifice_effect = yes
 		}
@@ -461,7 +470,10 @@ dharma_hinduism.013 = {# Sacrifice time
 		name = dharma_hinduism.013.e
 		if = {
 			limit = {
-				faith = faith:kalikula_shaktism	
+				OR = {
+					faith = faith:kalikula_shaktism	
+					faith = faith:trika_shaivism	
+				}
 			}
 			dharma_vedic_saraswati_animal_sacrifice_effect = yes
 		}
@@ -662,9 +674,117 @@ dharma_hinduism.051 = {# Picking a Philosophy - Vedanta
 #######################################
 # The Founding of Vedanta branches
 #######################################
+dharma_hinduism.052 = {# Ramanuja creates the Vishishtadvaita 
+	type = character_event
+	title = dharma_hinduism.052.t
+	desc = dharma_hinduism.052.desc
+	theme = faith
+	override_background = {
+		event_background = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+	
+	immediate = {
+		set_global_variable = {
+			name = hindu_philosophy_vishishtadvaita_formed
+			value = yes
+		}
+	}
 
+	trigger = {
+		not = {	exists = global_var:hindu_philosophy_vishishtadvaita_formed }
+		current_date > 1050.1.1
+		religion = religion:hinduism_religion
+		is_landed = yes	
+	}
+
+	option = {# Its neat
+		name = dharma_hinduism.052.support
+		add_prestige = miniscule_prestige_gain
+	}
+	option = {# patronize
+		name = dharma_hinduism.052.patronize
+		if = {
+			limit = {
+				faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
+			}
+			change_fervor = { value = 1 }
+			add_piety = miniscule_piety_value
+		}
+		else = {
+			add_piety = miniscule_piety_value
+		}
+	}
+	option = {# Adopt
+		name = dharma_hinduism.052.adopt
+		trigger = {
+			faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_vishishtadvaita }
+	}
+
+}
+dharma_hinduism.053 = {# Madhvacharya creates the Dvaita Vedanta 
+	type = character_event
+	title = dharma_hinduism.053.t
+	desc = dharma_hinduism.053.desc
+	theme = faith
+	override_background = {
+		event_background = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}	
+	
+	immediate = {
+		set_global_variable = {
+			name = dharma_buddhism_atisa_arrived
+			value = yes
+		}
+	}
+
+	trigger = {
+		not = {	exists = global_var:hindu_philosophy_dvaita_vedanta_formed }
+		current_date > 1250.1.1
+		religion = religion:hinduism_religion
+		is_landed = yes	
+	}
+
+	option = {# Its neat
+		name = dharma_hinduism.053.support
+		add_prestige = miniscule_prestige_gain
+	}
+	option = {# patronize
+		name = dharma_hinduism.053.patronize
+		if = {
+			limit = {
+				faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
+			}
+			change_fervor = { value = 1 }
+			add_piety = miniscule_piety_value
+		}
+		else = {
+			add_piety = miniscule_piety_value
+		}
+
+	}
+	option = {# adopt
+		name = dharma_hinduism.053.adopt
+		trigger = {
+			faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
+		}
+		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_dvaita_vedanta }
+	}	
+	
+}
 #######################################
-# Visiting Sharada Peeth
+#									  #
+#      Visiting Sharada Peeth		  #
+#									  #
 #######################################
 dharma_hinduism.300 = {# Decide to Visit Sharada Peeth
 	type = character_event
@@ -2132,7 +2252,7 @@ dharma_hinduism.500 = {# Hindu Bhakti part one
 dharma_hinduism.501 = {# Hindu Bhakti part two
 	type = character_event
 	title = dharma_hinduism.501.t
-	desc = dharma_hinduism.501.desc
+	desc = dharma_hinduism.501.desc.
 	theme = faith
 	left_portrait = {
 		character = root

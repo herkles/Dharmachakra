@@ -230,6 +230,19 @@
  dharma_hinduism.051.philosophy:0 "Another Branch of Philosophy."
  dharma_hinduism.051.optout:0 "Not at this moment.."
 
+ dharma_hinduism.052.t:0 "Ramanuja creates the Vishishtadvaita school"
+ dharma_hinduism.052.desc:0 "The great monk, Ramanuja, has been talking about his new school of Vedanta philosophy that he has created, called Vishishtadvaita. Vishishtadvaita is a form of non-dualistic school of Vedanta Philosophy branching off of Advaita Vedanta."
+ dharma_hinduism.052.support:0 "An interesting Development"
+ dharma_hinduism.052.patronize:0 "Patronize the School"
+ dharma_hinduism.052.adopt:0 "Adopt the School"
+
+ dharma_hinduism.053.t:0 "Madhvacharya creates the Dvaita Vedanta school"
+ dharma_hinduism.053.desc:0 "The great monk, Madhvacharya, has been talking about his new school of Vedanta philosophy that he has created, called Dvaita Vedanta. Dvaita Vedanta in contrast to other Vedanta schools, is a dualistic school that believes that God and individual souls exist as independent realities."
+ dharma_hinduism.053.support:0 "An interesting Development."
+ dharma_hinduism.053.patronize:0 "Patronize the School."
+ dharma_hinduism.053.adopt:0 "Adopt the School."
+
+
 #######################################
 # Visiting Sharada Peeth
 #######################################

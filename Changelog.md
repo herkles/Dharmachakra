@@ -17,6 +17,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - added Trika Shaivism as a faith
 - Updated Nalanda Events
 - Expanded the Bhakti Event
+- Bengali culture now has the tradition lords_of_the_elephant
 
 ## Manual Installation Steps
 

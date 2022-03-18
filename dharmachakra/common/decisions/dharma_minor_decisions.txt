@@ -446,6 +446,7 @@ dharma_vedic_animal_sacrifice = {# Hindu Animal Sacrifice
 		OR = {
 			faith = faith:shrautism
 			faith = faith:kalikula_shaktism
+			faith = faith:trika_shaivism	
 		}
 	}
 	
@@ -453,7 +454,8 @@ dharma_vedic_animal_sacrifice = {# Hindu Animal Sacrifice
 		OR = {
 			faith = faith:shrautism
 			faith = faith:kalikula_shaktism	
-		}
+			faith = faith:trika_shaivism
+		}		
 		gold >= 50
 	}
 	
@@ -775,8 +777,6 @@ dharma_pick_hindu_philosophy = {# Follow a Mahayana Buddhist School
 		}
 	}
 }
-
-
 #######################################
 # Buddhist Decisions
 #######################################
