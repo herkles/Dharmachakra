@@ -63,34 +63,77 @@
 #######################################
 # Hindu Bhakti
 #######################################
- dharma_hinduism.500.t:0 "Bhakti"
- dharma_hinduism.500.desc.start:0 "Bhakti can be likened to feelings of fondness, devotion, and worship, but none of these fully encompass the concept. By devoting myself to an avatar of divinity, I am committing myself to them in body and soul.\n\n[ROOT.Char.GetFaith.GetNameNoTooltip] focuses on the veneration of"
- dharma_hinduism.500.desc.generic:0 "just several of them."
- dharma_hinduism.500.desc.vaishnavism:0 "the various incarnations of Vishnu the Preserver."
- dharma_hinduism.500.desc.shaivism:0 "the many incarnations of Shiva the Destroyer."
- dharma_hinduism.500.desc.smartism:0 "the aspects of the ultimate reality."
- dharma_hinduism.500.desc.end:0 "Of these aspects, one must speak to me more than the others..."
- dharma_hinduism.500.ganga:0 "Ganga, god of purity and atonement."
- dharma_hinduism.500.saraswati:0 "Saraswati, goddess of learning and art."
- dharma_hinduism.500.kali:0 "Kali, goddess of the destruction of evil."
- dharma_hinduism.500.kubera:0 "Kubera, god of wealth and justice."
- dharma_hinduism.500.lakishmi:0 "Lakishmi, goddess of fortune and prosperity."
- dharma_hinduism.500.jagganath:0 "Jagganath, Lord of the Universe."
- dharma_hinduism.500.hayagriva:0 "Haygriva, god of knowledge and wisdom."
- dharma_hinduism.500.parvati:0 "Parvati, goddess of fertility and beauty."
- dharma_hinduism.500.virabhadra:0 "Vīrabhadra, god of righteous anger."
- dharma_hinduism.500.munishwarar:0 "Munīshwarar, god of the home and family."
- dharma_hinduism.500.dakshinamoorthy:0 "Dakshinamoorthy, god of all forms of learning."
- dharma_hinduism.500.ganesha:0 "Ganesha, god of wisdom and new beginnings."
- dharma_hinduism.500.vishnu:0 "Vishnu, the god who watches over creation."
- dharma_hinduism.500.shiva:0 "Shiva, the god who hunts down evil."
- dharma_hinduism.500.optout:0 "I am not yet ready to decide."
- dharma_hinduism.500.flavor:0 "There is no shame in waiting until I am certain."
 
- dharma_hinduism.500.murugan:0 "Murugan, God of War and Victory, and Commander of the Gods"
- dharma_hinduism.500.varuna:0 "Varuna, Lord of water."
- dharma_hinduism.500.khandoba:0 "Khandoba, Destroyer of Demons."
- dharma_hinduism.500.devnarayan:0 "Devnarayan, Martial avatar of Vishnu."
+  dharma_hinduism.500.t:0 "Bhakti"
+  dharma_hinduism.500.desc.start:0 "Bhakti can be likened to feelings of fondness, devotion, and worship, but none of these fully encompass the concept. By devoting myself to an avatar of divinity, I am committing myself to them in body and soul.\n\n[ROOT.Char.GetFaith.GetNameNoTooltip] focuses on the veneration of"
+  dharma_hinduism.500.desc.generic:0 "just several of them."
+  dharma_hinduism.500.desc.vaishnavism:0 "the various incarnations of Vishnu the Preserver."
+  dharma_hinduism.500.desc.shaivism:0 "the many incarnations of Shiva the Destroyer."
+  dharma_hinduism.500.desc.smartism:0 "the aspects of the ultimate reality."
+  dharma_hinduism.500.desc.end:0 "Of these aspects, one must speak to me more than the others..."
+
+  # Vaishnavism Gods
+  dharma_hinduism.500.vaishnavism_krishna:0 "Krishna, the Lord of Compassion"
+  dharma_hinduism.500.vaishnavism_rama:0 "Rama, the exiled Prince."
+  dharma_hinduism.500.vaishnavism_varaha:0 "Varaha, the Lord of Sacrifices."
+  dharma_hinduism.500.vaishnavism_narasimha:0 "Narasimha, the man-lion lord of protection."
+  dharma_hinduism.500.vaishnavism_hayagriva:0 "Haygriva, god of knowledge and wisdom"
+  dharma_hinduism.500.vaishnavism_jagganath:0 "Jagganath, Lord of the Universe."
+  # Shaivism Gods
+  dharma_hinduism.500.shaivism_parvati:0 "Parvati,Wife of Shiva and the goddess of fertility and beauty."
+  dharma_hinduism.500.shaivism_virabhadra:0 "Vīrabhadra, god of righteous anger."
+  dharma_hinduism.500.shaivism_munishwarar:0 "Munīshwarar, god of the home and family."
+  dharma_hinduism.500.shaivism_dakshinamoorthy:0 "Dakshinamoorthy, god of all forms of learning."
+  dharma_hinduism.500.shaivism_kali:0 "Kali, goddess of the destruction of evil."
+  # Shaktism Gods
+  dharma_hinduism.500.shaktism_durga:0 "Durga, the fierce Mother Goddess who slays evil."
+  dharma_hinduism.500.shaktism_kali:0 "Kali, goddess of the destruction of evil."
+  dharma_hinduism.500.shaktism_parvati:0 "Parvati, goddess of fertility and beauty."
+  dharma_hinduism.500.shaktism_lakishimi:0 "Lakishmi, goddess of fortune and prosperity."
+  dharma_hinduism.500.shaktism_saraswati:0 "Saraswati, goddess of learning and art."
+  # Smartism Gods
+  dharma_hinduism.500.smartism_ganesha:0 "Ganesha, god of wisdom and new beginnings."
+  dharma_hinduism.500.smartism_vishnu:0 "Vishnu, the god who watches over creation."
+  dharma_hinduism.500.smartism_shiva:0 "Shiva, the god who hunts down evil."
+  dharma_hinduism.500.smartism_shakti:0 "Shakti, The Great Mother Goddess."
+  dharma_hinduism.500.smartism_surya:0 "Surya, The Lord of the Sun."
+  # Vaishnavism Gods
+  dharma_hinduism.500.ganapti_bala:0 "Bala Ganaptai, The Child Ganesha that brings joy and health."
+  dharma_hinduism.500.ganapti_haridra:0 "Haridra Ganapati, Ganesha who brings wealth and prosparity."
+  dharma_hinduism.500.ganapti_heramba:0 "Heramba Ganapati, Protector of the Weak, giver of courage."
+  dharma_hinduism.500.ganapti_maha:0 "Uchchhishta Ganapati, protector of the country and giver of boons"
+  # Vaishnavism Gods
+  dharma_hinduism.500.kaumaram_murugan:0 "Murugan, God of War and Victory, and Commander of the Gods"
+  dharma_hinduism.500.kaumaram_shiva:0 "Shiva, Father of Murugan and the god who hunts down evil."
+  dharma_hinduism.500.kaumaram_valli:0 "Valli, A wife of Murugan and the Goddess of aspiration and will."
+  dharma_hinduism.500.kaumaram_parvati:0 "Parvati, Mother of Murugan and the goddess of fertility and beauty."
+  # Vaishnavism Gods
+  dharma_hinduism.500.saura_surya:0 "Surya, Lord of the Sun."
+  dharma_hinduism.500.saura_mitra:0 "Mitra, God of Friendships, oaths, and the morning Sun."
+  dharma_hinduism.500.saura_sanjna:0 "Sanjna,  Goddess of Clouds and Dusk"
+  dharma_hinduism.500.saura_ushas:0 "Ushas, Goddess of Dawn who drives away oppressive darkness."
+  # Vaishnavism Gods
+  dharma_hinduism.500.vedic_indra:0 "Indra, the King of the Devas."
+  dharma_hinduism.500.vedic_surya:0 "Surya, Lord of the Sun."
+  dharma_hinduism.500.vedic_agni:0 "Agni, The God of Fire."
+  dharma_hinduism.500.vedic_brihaspati:0 "Brihaspati, Chief Guru of the Devas."
+  # Other Gods
+  dharma_hinduism.500.other:0 "Other Deities"
+  dharma_hinduism.500.optout:0 "I am not yet ready to decide."
+  dharma_hinduism.500.flavor:0 "There is no shame in waiting until I am certain."
+
+  # Other Bhakti
+  dharma_hinduism.501.t:0 "Bhakti"
+  dharma_hinduism.501.desc:0 "Bhakti can be likened to feelings of fondness, devotion, and worship, but none of these fully encompass the concept. By devoting myself to an avatar of divinity, I am committing myself to them in body and soul.\n\n[ROOT.Char.GetFaith.GetNameNoTooltip] focuses on the veneration of just several of them. Of these aspects, one must speak to me more than the others..."
+  # Other Gods
+  dharma_hinduism.501.regional_murugan:0 "Murugan, God of War and Victory, and Commander of the Gods"
+  dharma_hinduism.501.regional_varuna:0 "Varuna, Lord of the Sea and sky."
+  dharma_hinduism.501.regional_khandoba:0 "Khandoba, The destroyer of Demons."
+  dharma_hinduism.501.regional_devnarayan:0 "Devnarayan, Martial incarnation of Vishnu."
+  # Other Gods
+  dharma_hinduism.501.other_ganga:0 "Ganga, goddess of purity, atonement, and moksha."
+  dharma_hinduism.501.other_kubera:0 "Kubera, the deformed god of wealth, justice, and material riches."
+  dharma_hinduism.501.other_buddha:0 "Buddha, the avatar of Vishnu regarded as the great sage and teacher."
 
 #######################################
 # Vedic Animal Sacrifice Puja
@@ -166,27 +209,26 @@
  dharma_hinduism.030.go:0 "at last I am home."
 
 #######################################
-# Visiting Sharada Peeth
+# Hindu Philosophy
 #######################################
- dharma_hinduism.050.t:0 "Returning Home"
- dharma_hinduism.030.desc:0 "Description"
- dharma_hinduism.030.yoga:0 "at last I am home."
- dharma_hinduism.030.samkhya:0 "at last I am home."
- dharma_hinduism.030.vaisheshika:0 "at last I am home."
- dharma_hinduism.030.mimamsa:0 "at last I am home."
- dharma_hinduism.030.nyaya:0 "at last I am home."
- dharma_hinduism.030.vedanta:0 "at last I am home."
- dharma_hinduism.030.optout:0 "at last I am home."
+ dharma_hinduism.050.t:0 "Hindu Philosophy"
+ dharma_hinduism.050.desc:0 "There are a number of schools of Hindu Philosophy known as Astika that one can study and patronize. Which if any school of philosophy shall you choose to support?"
+ dharma_hinduism.050.yoga:0 "Yoga."
+ dharma_hinduism.050.samkhya:0 "Samkhya."
+ dharma_hinduism.050.vaisheshika:0 "Vaisheshika."
+ dharma_hinduism.050.mimamsa:0 "Mimamsa."
+ dharma_hinduism.050.nyaya:0 "Nyaya."
+ dharma_hinduism.050.vedanta:0 "One of the schools of Vedanta."
+ dharma_hinduism.050.optout:0 "Not at this moment."
 
- dharma_hinduism.050.t:0 "Returning Home"
- dharma_hinduism.030.desc:0 "Description"
- dharma_hinduism.030.vishishtadvaita:0 "at last I am home."
- dharma_hinduism.030.advaita_vedanta:0 "at last I am home."
- dharma_hinduism.030.bhedabheda:0 "at last I am home."
- dharma_hinduism.030.dvaita_vedanta:0 "at last I am home."
- dharma_hinduism.030.philosophy:0 "at last I am home."
- dharma_hinduism.optout.go:0 "at last I am home."
-
+ dharma_hinduism.051.t:0 "Hindu Philosophy"
+ dharma_hinduism.051.desc:0 "There are a number of schools of Hindu Philosophy known as Astika that one can study and patronize. Which if any school of philosophy shall you choose to support?"
+ dharma_hinduism.051.vishishtadvaita:0 "Vishishtadvaita."
+ dharma_hinduism.051.advaita_vedanta:0 "Advaita Vedanta."
+ dharma_hinduism.051.bhedabheda:0 "Bhedabheda."
+ dharma_hinduism.051.dvaita_vedanta:0 "Dvaita Vedanta."
+ dharma_hinduism.051.philosophy:0 "Another Branch of Philosophy."
+ dharma_hinduism.051.optout:0 "Not at this moment.."
 
 #######################################
 # Visiting Sharada Peeth

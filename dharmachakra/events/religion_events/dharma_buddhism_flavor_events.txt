@@ -1031,7 +1031,7 @@ dharma_buddhism.059 = {# The Sakya school is founded
 		name = dharma_buddhism.059.sakya		
 	}
 	option = {# Patronize the new School
-		name = dharma_buddhism.056.sakya_adopt
+		name = dharma_buddhism.059.sakya_adopt
 		trigger = {
 			faith = faith:lamaism
 		}
@@ -1206,14 +1206,12 @@ dharma_buddhism.062 = {# Marpa founds the Kagyu School
 		name = dharma_buddhism.062.kagyu		
 	}
 	option = {# Patronize the new School
-		name = dharma_buddhism.056.kagyu_adopt
+		name = dharma_buddhism.062.kagyu_adopt
 		trigger = {
 			faith = faith:lamaism
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_kagyu }
 	}
-
-
 }
 dharma_buddhism.063 = {# Maintence to insure the high learning monks are picking a buddhist school
 	hidden = yes

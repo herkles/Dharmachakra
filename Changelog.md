@@ -8,11 +8,15 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- Added Buddhist Schools for Mahayana Buddhism
+- Added Buddhist Schools for Mahayana and Tibetan Buddhism
 - Expanded Nalanda Events
 - Revised the number of Holy Sites for Buddhist and Hindu Faiths; reduced for now for balance reasons.
 - Other faiths besides Dharmic Faiths can unite India
 - brought over vanilla database changes
+- added Hindu Philosophy
+- added Trika Shaivism as a faith
+- Updated Nalanda Events
+- Expanded the Bhakti Event
 
 ## Manual Installation Steps
 
