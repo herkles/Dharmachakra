@@ -315,8 +315,6 @@
   dharma_hinduism.306.murugan.success_title:0 "Successfully impressed the scholars"
   dharma_hinduism.306.murugan.failure:0 "You fail impress the scholars by supporting the Kaumaram position."
   dharma_hinduism.306.murugan.failure_title:0 "Failed to impress the scholars"
-
-
   dharma_hinduism.306.observe:0 "Stay out of the debate"
 
   dharma_hinduism.307.t:0 "Mystical Learning"
@@ -328,6 +326,73 @@
   dharma_hinduism.307.mystic.failure_title:0 "Failed to grasp the Monk's teachings."
   dharma_hinduism.307.study:0 "I shall study other texts"
 
+  dharma_hinduism.308.t:0 "Philosophical Debate"
+  dharma_hinduism.308.desc:0 "Walking through the halls of Sharada Peeth, you come across a debate between various monks. These scholars are debating finer points of Buddhist Philosophy. Should you join in the debate and try to impress the scholars with your knowledge or just stay out of the debate?"
+  dharma_hinduism.308.yoga:0 "Support the Yoga Position"
+  dharma_hinduism.308.yoga.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.yoga.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.yoga.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.yoga.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.samkhya:0 "Support the Samkhya Position"
+  dharma_hinduism.308.samkhya.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.samkhya.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.samkhya.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.samkhya.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.vaisheshika:0 "Support the Vaisheshika Position"
+  dharma_hinduism.308.vaisheshika.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.vaisheshika.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.vaisheshika.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.vaisheshika.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.mimamsa:0 "Support the Mimamsa Position"
+  dharma_hinduism.308.mimamsa.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.mimamsa.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.mimamsa.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.mimamsa.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.nyaya:0 "Support the Nyaya Position"
+  dharma_hinduism.308.nyaya.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.nyaya.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.nyaya.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.nyaya.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.vishishtadvaita:0 "Support the Vishishtadvaita Position"
+  dharma_hinduism.308.vishishtadvaita.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.vishishtadvaita.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.vishishtadvaita.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.vishishtadvaita.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.advaita_vedanta:0 "Support the Advaita Vedanta Position"
+  dharma_hinduism.308.advaita_vedanta.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.advaita_vedanta.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.advaita_vedanta.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.advaita_vedanta.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.bhedabheda:0 "Support the Bhedabheda Position"
+  dharma_hinduism.308.bhedabheda.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.bhedabheda.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.bhedabheda.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.bhedabheda.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.dvaita_vedanta:0 "Support the Dvaita Vedanta Position"
+  dharma_hinduism.308.dvaita_vedanta.success:0 "You successfully impress the scholars."
+  dharma_hinduism.308.dvaita_vedanta.success_title:0 "Successfully impressed the scholars"
+  dharma_hinduism.308.dvaita_vedanta.failure:0 "You fail impress the scholars."
+  dharma_hinduism.308.dvaita_vedanta.failure_title:0 "Failed to impress the scholars"
+
+  dharma_hinduism.308.observe:0 "Stay out of the debate"
+
+
+  dharma_hinduism.309.t:0 "Taking home a book"
+  dharma_hinduism.309.desc:0 "While you are at Nalanda, one of the senior monks offers to give you a copy of one of the books in the library for your own personal collection. Which book shall you accept, or shall you decline this gift?"
+  dharma_hinduism.309.bhagavad_gita:0 "Thank you for the copy of the Bhagavad-Gita"
+  dharma_hinduism.309.vedas:0 "Thank you for the copy of One of the Vedas"
+  dharma_hinduism.309.shiva_purana:0 "Thank you for the copy of the Shiva Purana"
+  dharma_hinduism.309.shakti_purana:0 "Thank you for the copy of the Shakti Purana"
+  dharma_hinduism.309.no_gift:0 "I can not accept such a gift"
+
   dharma_hinduism.310.t:0 "Medical learning"
   dharma_hinduism.310.desc:0 "While you are at Sharada Peeth, you encounter a Monk that is willing to teach you about Medicine and medical practices. Should you take up of his offer to learn more about medicine or should you return to a more general study of the Buddhist Texts?"
   dharma_hinduism.310.medical:0 "Study under the Monk"
@@ -337,10 +402,38 @@
   dharma_hinduism.310.medical.failure_title:0 "Failed to grasp the Monk's teachings."
   dharma_hinduism.310.study:0 "I shall study other texts"
 
+  dharma_hinduism.311.t:0 "Learning Ancient Languages"
+  dharma_hinduism.311.desc:0 "While you are staying at Sharada Peeth, one of the monks has offered to teach you one of the ancient languages. You could choose to learn Sanskrit or you could choose to learn Pali. Alternatively you could choose to focus on other studies while at the university. What shall you do?"
+  dharma_hinduism.311.pali:0 "I shall study Pali"
+  dharma_hinduism.311.pali.success:0 "You are able to grasp and understand Pali"
+  dharma_hinduism.311.pali.success_title:0 "Successfully learned Pali"
+  dharma_hinduism.311.pali.failure:0 "You fail to grasp and understand Pali."
+  dharma_hinduism.311.pali.failure_title:0 "Failed to learn Pali."
+  dharma_hinduism.311.sanskrit:0 "I shall study Sanskrit"
+  dharma_hinduism.311.sanskrit.success:0 "You are able to grasp and understand Sanskrit"
+  dharma_hinduism.311.sanskrit.success_title:0 "Successfully learned Sanskrit"
+  dharma_hinduism.311.sanskrit.failure:0 "You fail to grasp and understand Sanskrit."
+  dharma_hinduism.311.sanskrit.failure_title:0 "Failed to learn Sanskrit."
+  dharma_hinduism.311.study:0 "I shall study other texts"
+
   dharma_hinduism.312.t:0 "Learning to love to read"
   dharma_hinduism.312.desc:0 "Spending all your time reading and studying at Sharada Peeth, you find yourself find yourself enjoying reading more and more. Do you prefer to read in your library or do you prefer to write your thoughts on the books down? "
   dharma_hinduism.312.read:0 "I like to read in my quiet Library"
   dharma_hinduism.312.write:0 "I like to write my thoughts down"
+
+  dharma_hinduism.313.t:0 "Religious Conversion"
+  dharma_hinduism.313.desc:0 "While you are at Sharda Peeth, you have found yourself growing closer and closer to the teachings of the Trika Shaivism. Shall you follow and accept the teachings of Trika Shaivism, or will you stick to your current faith."
+  dharma_hinduism.313.convert:0 "om namah Shiva, om namah Shakti"
+  dharma_hinduism.313.no_convert:0 "I shall stick with my faith."
+
+  dharma_hinduism.314.t:0 "Philosophical Instruction"
+  dharma_hinduism.314.desc:0 "While you are at Sharda Peeth, you have the opprotunity to do some philosophical study under some of the monks and learn some finer points of Hindu philosophy. The question is which philosophical school shall you study?"
+  dharma_hinduism.314.yoga:0 "Yoga."
+  dharma_hinduism.314.samkhya:0 "Samkhya."
+  dharma_hinduism.314.vaisheshika:0 "Vaisheshika."
+  dharma_hinduism.314.mimamsa:0 "Mimamsa."
+  dharma_hinduism.314.nyaya:0 "Nyaya."
+  dharma_hinduism.314.study:0 "I will stick to other studies"
 
   dharma_hinduism.315.t:0 "Taking a class"
   dharma_hinduism.315.desc:0 "While you are at the University you have the opprotunity to be in one of the classes for the monks. The question is though what sort of class would you like to observe? "

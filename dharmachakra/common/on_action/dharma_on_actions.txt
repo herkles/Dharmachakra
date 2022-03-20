@@ -197,11 +197,16 @@ dharma_sharada_peeth_visit_events = {
 		100 = dharma_hinduism.303 # Meditating with the Monks
 		100 = dharma_hinduism.304 # Vegetarian v non-vegetiarian
 		100 = dharma_hinduism.305 # Cosmopolitan Experince
-		100 = dharma_hinduism.312 # Learning to love to read
-		100 = dharma_hinduism.315 # Recieving an education
 		50 = dharma_hinduism.306  # Theological Debate
-		25 = dharma_hinduism.310  # Mystical learning
 		25 = dharma_hinduism.307  # Medical learning
+		50 = dharma_hinduism.308  # Philosophical Debate
+		25 = dharma_hinduism.309  # Taking home a book
+		25 = dharma_hinduism.310  # Mystical learning
+		50 = dharma_hinduism.311  # Language Learning
+		100 = dharma_hinduism.312 # Learning to love to read
+		10 = dharma_hinduism.313  # Religious Experince
+		25 = dharma_hinduism.314  # Studying Hindu Philosophy
+		100 = dharma_hinduism.315 # Recieving an education
 	}
 }
 dharma_sharada_peeth_visit_over_events = {
