@@ -268,6 +268,10 @@ dharma_events_historical_pulse = {# for Historical Events
 		
 		1000 = 0
 		
+		# Hindu Philosophy Founded		
+		100 = dharma_hinduism.052		# Ramanuja creates the Vishishtadvaita 
+		100 = dharma_hinduism.053		# Madhvacharya creates the Dvaita Vedanta
+
 		# Buddhist School Founders		
 		100 = dharma_buddhism.054		# The Mahasiddha Naropa 
 		100 = dharma_buddhism.055		# Atisa Arrives in a Tibetan Buddhist Kingdom 

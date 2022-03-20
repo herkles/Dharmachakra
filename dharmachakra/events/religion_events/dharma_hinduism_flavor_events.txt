@@ -707,19 +707,7 @@ dharma_hinduism.052 = {# Ramanuja creates the Vishishtadvaita
 	}
 	option = {# patronize
 		name = dharma_hinduism.052.patronize
-		if = {
-			limit = {
-				faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
-			}
-			change_fervor = {
-				value = 1
-				desc = fervor_gain_new_philosophy
-			}
-			add_piety = miniscule_piety_value
-		}
-		else = {
-			add_piety = miniscule_piety_value
-		}
+		add_piety = miniscule_piety_value
 	}
 	option = {# Adopt
 		name = dharma_hinduism.052.adopt
@@ -763,29 +751,12 @@ dharma_hinduism.053 = {# Madhvacharya creates the Dvaita Vedanta
 	}
 	option = {# patronize
 		name = dharma_hinduism.053.patronize
-		if = {
-			limit = {
-				faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
-			}
-			change_fervor = {
-				value = 1
-				desc = fervor_gain_new_philosophy
-			}
-			add_piety = miniscule_piety_value
-		}
-		else = {
-			add_piety = miniscule_piety_value
-		}
-
+		add_piety = miniscule_piety_value
 	}
 	option = {# adopt
 		name = dharma_hinduism.053.adopt
 		trigger = {
 			faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
-		}
-		change_fervor = {
-			value = 1
-			desc = fervor_gain_new_philosophy
 		}
 		set_hindu_philosophy_effect = { ASTIKA = hindu_philoosphy_dvaita_vedanta }
 	}	
