@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.4.1 "Krishna" (Released 27/2/2022)
+## Latest Version: 1.4.1 "Krishna" (Released 20/3/2022)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -9,14 +9,15 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 ## Changelog
 
 - Added Buddhist Schools for Mahayana and Tibetan Buddhism
-- Expanded Nalanda Events
+- Expanded Nalanda and Sharda Peeth Events
 - Revised the number of Holy Sites for Buddhist and Hindu Faiths; reduced for now for balance reasons.
 - Other faiths besides Dharmic Faiths can unite India
 - brought over vanilla database changes
 - added Hindu Philosophy
 - added Trika Shaivism as a faith
-- Updated Nalanda Events
-- Expanded the Bhakti Event
+- Updated History of Kashmir to account for Trika Shaivism
+- Expanded and Revised the Bhakti Event
+- Bhakti is now part of Hinduism as a doctrine
 - Bengali culture now has the tradition lords_of_the_elephant
 
 ## Manual Installation Steps
