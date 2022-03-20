@@ -32,8 +32,11 @@ I welcome any and all feedback - I am still getting the hang of CK3 modding atm.
 
 Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
 
-Credits and thanks:
 
-Rajas of Indochina
-Cybrxkhan
-Community Title Project
+[h2]Credits and thanks:[/h2]
+
+[list]
+    [*]Rajas of Indochina
+    [*]Cybrxkhan
+    [*]Community Title Project
+[/list]
