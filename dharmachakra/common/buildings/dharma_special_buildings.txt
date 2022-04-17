@@ -1941,7 +1941,7 @@ chittorgarh_01 = {# Chittorgarh Fort
 
 	county_modifier = {
 		levy_size = 0.5
-		defender_advantage = 5
+		defender_holding_advantage = 5
 		development_growth_factor = 0.75
 		development_growth = 0.2
 		tax_mult = 0.2
@@ -1981,7 +1981,7 @@ ranthambore_01 = {# Ranthambore
 
 	max_garrison = good_building_max_garrison_tier_3
 	province_modifier = {
-		defender_advantage = normal_building_advantage_tier_3
+		defender_holding_advantage = normal_building_advantage_tier_3
 		fort_level = good_building_fort_level_tier_3
 	}
 	county_modifier = {
@@ -2027,7 +2027,7 @@ gwalior_fort_01 = {# Gwalior Fort
 		garrison_size = 1
 		fort_level = 3
 		levy_size = 1
-		defender_advantage = 10
+		defender_holding_advantage = 10
 	}
 	
 	ai_value = {
@@ -2078,14 +2078,6 @@ potala_palace_02 = {# Potala Palace
 
 	type_icon = "icon_siro_potala_palace.dds"	
 
-	can_construct_showing_failures_only = {
-		custom_description = {
-			text = dharma_text_development_level
-			value = 60
-			county.development_level >= 60
-		}
-	}
-	
 	cost_gold = 5000
 
 	character_modifier = {
@@ -2150,7 +2142,7 @@ rani_ki_vav_01 = {# Rani Ki Vav
 		garrison_size = 1
 		fort_level = 3
 		levy_size = 1
-		defender_advantage = 10
+		defender_holding_advantage = 10
 	}
 		
 	ai_value = {

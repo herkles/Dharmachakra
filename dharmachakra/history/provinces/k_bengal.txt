@@ -158,10 +158,10 @@
 840 = {	# 840 - Ramavati
 	
 	# Misc
-	culture = rajbongshi
+	culture = bengali
 	religion = kalikula_shaktism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 
@@ -732,10 +732,10 @@
 1381 = {	# 1381 - Pundravardhana
 	
 	# Misc
-	culture = rajbongshi
+	culture = bengali
 	religion = kalikula_shaktism
 	
-	holding = tribal_holding
+	holding = castle_holding
 	
 	# History
 

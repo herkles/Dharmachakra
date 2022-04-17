@@ -1,0 +1,30 @@
+﻿# Head of faith will always get this if possible
+theocracy_government = {
+	primary_holding = church_holding
+	valid_holdings = { castle_holding }
+	religious = yes
+	required_county_holdings = { church_holding castle_holding city_holding }
+
+	can_get_government = {
+		NOT = {
+			faith = {
+				has_doctrine = doctrine_theocracy_lay_clergy
+			}
+		}
+		NOT = {
+			OR = {
+				AND = {
+					NOT = { has_trait = devoted }
+					faith = { religion_tag = buddhism_religion }
+				}
+				AND = {
+					NOT = { has_trait = devoted }
+					faith = { religion_tag = jainism_religion }	
+				}
+			}
+		}
+	}
+
+	vassal_contract = { theocracy_government_obligations }
+	color = hsv{ 0.00 0.00 0.78 }
+}

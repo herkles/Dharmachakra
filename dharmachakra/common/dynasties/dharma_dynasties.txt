@@ -1,39 +1,47 @@
-﻿# Chutia Dynasties
+﻿#######################################
+# Chutia Dynasties
+#######################################
 chutaid001 = {
 	name = "Viyutsva" 
-	culture = chutia
+	culture = kachari
 }
 chutaid002 = {
 	name = "Sutiya" 
-	culture = chutia
+	culture = kachari
 }
 chutaid003 = {
 	name = "Diruasa" 
-	culture = chutia
+	culture = kachari
 }
 chutaid004 = {
 	name = "Maramsa" 
-	culture = chutia
+	culture = kachari
 }
+#######################################
 # Tripuri Dynasties
+#######################################
 tripurid001 = {
 	name = "Hirimba" 
 	culture = tripuri
 }
+#######################################
 # Rajbongshi Dynasties
+#######################################
 rajbongshid001 = {
 	name = "dynn_Dutta" 
-	culture = rajbongshi
+	culture = kachari
 }
 rajbongshid002 = {
 	name = "dynn_Biswas" 
-	culture = rajbongshi
+	culture = kachari
 }
 rajbongshid003 = {
 	name = "dynn_Miah" 
-	culture = rajbongshi
+	culture = kachari
 }
+#######################################
 # Munda Dynasties
+#######################################
 mundad001 = {
 	name = "dynn_Gounder" 
 	culture = tripuri
@@ -42,7 +50,9 @@ mundad002 = {
 	name = "dynn_Paraiya" 
 	culture = tripuri
 }
+#######################################
 # Bhil Dynasties
+#######################################
 bhild001 = {
 	name = "dynn_Chauhan" 
 	culture = tripuri
@@ -59,24 +69,32 @@ bhild004 = {
 	name = "dynn_Doshi" 
 	culture = tripuri
 }
-# Samblpuri Dynasties
+#######################################
+# Samblpuri Dynasties 
+#######################################
 sambalpurid001 = {
 	name = "dynn_Sankara" 
-	culture = tripuri
+	culture = sambalpuri
 }
 sambalpurid002 = {
 	name = "dynn_Baghal" 
-	culture = tripuri
+	culture = sambalpuri
 }
 sambalpurid003 = {
 	name = "dynn_Keshari" 
-	culture = tripuri
+	culture = sambalpuri
 }
 sambalpurid004 = {
 	name = "dynn_Bhanja" 
-	culture = tripuri
+	culture = sambalpuri
 }
-# Munda Dynasties
+sambalpurid005 = {
+	name = "dynn_Suryavanshi" 
+	culture = sambalpuri
+}
+#######################################
+# Gond Dynasties
+#######################################
 gondid001 = {
 	name = "dynn_Chavali" 
 	culture = tripuri
@@ -85,4 +103,10 @@ gondid002 = {
 	name = "dynn_Mekala" 
 	culture = tripuri
 }
-
+#######################################
+# Tibetan Dynasties
+#######################################
+dharma_dynasty_tibet_01 = {
+	name = "Dorje" 
+	culture = bodpa
+}

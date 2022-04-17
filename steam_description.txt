@@ -4,7 +4,7 @@ Dharmachakra is as the title indicates a mod dedicated to India and the neighbor
 These are some of the features of the mod.
 [list]
     [*] New religious map for India and Burma in 867 and 1066​
-    [*] New Hindu Sects of Suyraism, Ganaptaya, Kaumaram, and Shrautism​
+    [*] New Hindu Sects of Trika Shaivism, Suyraism, Ganaptaya, Kaumaram, and Shrautism​
     [*] The folk religions of Bathousim and Sanamahism
     [*] revamped cultural map
     [*] Revamped tenet and doctrines for dharmic religions
@@ -14,8 +14,9 @@ These are some of the features of the mod.
     [*] Buddhist and Jain temple holders and court chaplains are monks​
     [*] Dharmic Pacifism allows you to meditate
     [*] Advaita Vedanta as a faith has been removed(those characters are now Smartist)
-    [*] Zunism, Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
+    [*] Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
     [*] Indians start with primogenture
+    [*] Bhakti is now part of Hinduism
 [/list]
 
 [h2]Tenet changes[/h2]
@@ -30,3 +31,12 @@ These are some of the features of the mod.
 I welcome any and all feedback - I am still getting the hang of CK3 modding atm. So please let me know if you encounter any bugs, find things imbalanced, if you have any suggestions, or anything else about the mod. I hope to add more decisions, events, and mechanics with future updates to the mod.
 
 Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
+
+
+[h2]Credits and thanks:[/h2]
+
+[list]
+    [*]Rajas of Indochina
+    [*]Cybrxkhan
+    [*]Community Title Project
+[/list]

@@ -7,6 +7,7 @@
 
 #Generic Hindu God names
  hinduism_high_god_name:0 "Brahman"
+ hinduism_high_god_name_2:0 "$hinduism_high_god_name$" # Optional translation alt
  hinduism_high_god_name_possessive:0 "Brahman's"
  hinduism_high_god_shehe:0 "It"
  hinduism_high_god_herselfhimself:0 "Itself"
@@ -82,12 +83,26 @@
 
 # places, symbols, and things
  hinduism_house_of_worship:0 "temple"
+ hinduism_house_of_worship_2:0 "$hinduism_house_of_worship$" # Optional translation alt
+ hinduism_house_of_worship_3:0 "$hinduism_house_of_worship$" # Optional translation alt
  hinduism_house_of_worship_plural:0 "temples"
  hinduism_divine_realm:0 "Sumeru"
+ hinduism_divine_realm_2:0 "$hinduism_divine_realm$" # Optional translation alt
+ hinduism_divine_realm_3:0 "$hinduism_divine_realm$" # Optional translation alt
+ hinduism_positive_afterlife:0 "Svarga"
+ hinduism_positive_afterlife_2:0 "$hinduism_positive_afterlife$" # Optional translation alt
+ hinduism_positive_afterlife_3:0 "$hinduism_positive_afterlife$" # Optional translation alt
+ hinduism_negative_afterlife:0 "Naraka"
+ hinduism_negative_afterlife_2:0 "$hinduism_negative_afterlife$" # Optional translation alt
+ hinduism_negative_afterlife_3:0 "$hinduism_negative_afterlife$" # Optional translation alt
  hinduism_positive_afterlife:0 "Svarga"
  hinduism_negative_afterlife:0 "Naraka"
  hinduism_religious_symbol:0 "Om"
+ hinduism_religious_symbol_2:0 "$hinduism_religious_symbol$" # Optional translation alt
+ hinduism_religious_symbol_3:0 "$hinduism_religious_symbol$" # Optional translation alt
  hinduism_religious_text:0 "Vedas"
+ hinduism_religious_text_2:0 "$hinduism_religious_text$" # Optional translation alt
+ hinduism_religious_text_3:0 "$hinduism_religious_text$" # Optional translation alt
 
 #Vaishnavism
   vaishnavism:0 "Vaishnavism"
@@ -96,6 +111,7 @@
   vaishnavism_adherent_plural:0 "Vaishnavas"
   vaishnavism_desc:0 "In Vaishnavism, Vishnu is the Supreme Lord, and the most important devas are his many incarnated avatars, such as Rama and Krishna. Each of these various incarnations work to restore balance to the universe."
   vaishnavism_high_god_name:0 "Vishnu"
+  vaishnavism_high_god_name_2:0 "$vaishnavism_high_god_name$" # Optional translation alt
   vaishnavism_high_god_name_possessive:0 "Vishnu's"
 
   # The various gods in Vaishnavism
@@ -139,6 +155,7 @@
   shaivism_adherent_plural:0 "Shaivites"
   shaivism_desc:0 "Shaivites worship Shiva, the creator and destroyer of worlds, as the Supreme Being that exists in all things. In the same fashion as Shiva works to maintain balance and preserve the universe, the faithful must strive to bring balance into their lives."
   shaivism_high_god_name:0 "Shiva"
+  shaivism_high_god_name_2:0 "$shaivism_high_god_name$" # Optional translation alt
   shaivism_high_god_name_possessive:0 "Shiva's"
 
   # Various deities of Shaivism
@@ -171,6 +188,14 @@
     shaivism_good_god_nandi:0 "Nandi"
     shaivism_good_god_vaitheeswaran:0 "Vaitheeswaran"
     shaivism_good_god_parvati:0 "Parvati"
+
+
+#Trika Shaivism ie Kashmiri Shaivism
+  trika_shaivism:0 "Trika Shaivism"
+  trika_shaivism_adj:1 "Trika"
+  trika_shaivism_adherent:0 "Trika"
+  trika_shaivism_adherent_plural:0 "Trikas"
+  trika_shaivism_desc:0 "Trika Shaivism, otherwise known as Kashmiri Shaivism is a non-dualistic form of Shaivism that is a mixture of Shaivism and Shaktism. Trika Shaivism places heavy emphasis upon Tantric practices as part of their religious practice."
 
 #Srikula Shaktism
   srikula_shaktism:0 "Srikula Shaktism"
@@ -218,6 +243,9 @@
       shaktism_good_god_kali:0 "Kali"
       shaktism_good_god_kali_possessive:0 "Kali's"
       shaktism_good_god_sundari:0 "Tripura Sundari"
+      shaktism_good_god_sundari_2:0 "$shaktism_good_god_sundari$" # Optional translation alt
+      shaktism_good_god_kali_2:0 "$shaktism_good_god_kali$" # Optional translation alt
+
       shaktism_good_god_sundari_possessive:0 "Tripura Sundari's"
       shaktism_good_god_tara:0 "Tara"
       shaktism_good_god_bhuvaneshvari:0 "Bhuvaneshvari"
@@ -267,6 +295,7 @@
  krishnaism_adherent_plural:0 "Krishnaites"
  krishnaism_desc:0 "Krishna is the authentic form of the Supreme Being, and Vishnu is his avatar when he takes form as the omnipotent. Through his divine avatars, he is present in all things."
  krishnaism_high_god_name:0 "Krishna"
+ krishnaism_high_god_name_2:0 "$krishnaism_high_god_name$" # Optional translation alt
  krishnaism_high_god_name_possessive:0 "Krishna's"
 
 #Advaitism
@@ -292,6 +321,7 @@
 
  suryaism_high_god_name:0 "Surya"
  suryaism_high_god_name_possessive:0 "Surya's"
+ suryaism_high_god_name_2:0 "$suryaism_high_god_name$" # Optional translation alt
 
  suryaism_night_god_name:0 "Ratri"
  suryaism_night_god_name_possessive:0 "Ratri's"
@@ -309,6 +339,7 @@
 
  shrautism_high_god_name:0 "Indra"
  shrautism_high_god_name_possessive:0 "Indra's"
+ shrautism_high_god_name_2:0 "$shrautism_high_god_name$" # Optional translation alt
 
  shrautism_high_god_name_alternate:0 "The King of Heaven"
  shrautism_high_god_name_alternate_possessive:0 "The King of Heaven's"
@@ -372,6 +403,7 @@
  ganaptism_good_god_shubha:0 "Shubha"
 
  ganaptism_high_god_name:0 "Ganesha"
+ ganaptism_high_god_name_2:0 "$ganaptism_high_god_name$" # Optional translation alt
  ganaptism_high_god_name_possessive:0 "Ganesha's"
  ganaptism_high_god_name_alternate:0 "Mahaganapati"
  ganaptism_high_god_name_alternate_possessive:0 "Mahaganapati's"
@@ -401,6 +433,7 @@
  kaumaram_good_god_idumban:0 "Idumban"
 
  kaumaram_high_god_name:0 "Murugan"
+ kaumaram_high_god_name_2:0 "$ganaptism_high_god_name$" # Optional translation alt
  kaumaram_high_god_name_possessive:0 "Murugan's"
  kaumaram_high_god_name:0 "Kumara"
  kaumaram_high_god_name_possessive:0 "Kumara's"
@@ -435,6 +468,7 @@
 
  koyapunem_high_god_name:0 "Kupar Lingo"
  koyapunem_high_god_name_possessive:0 "Kupar Lingo's"
+ koyapunem_high_god_name_2:0 "$koyapunem_high_god_name$" # Optional translation alt
 
  koyapunem_good_god_ravana:0 "Ravana"
  koyapunem_good_god_kankali:0 "Mata Kali Kankali"

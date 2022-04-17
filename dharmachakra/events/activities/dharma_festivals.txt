@@ -61,9 +61,18 @@ dharma_festivals.101 = {# Dhanteras
 	}
 
 	after = {
-		trigger_event = { 
-			id = dharma_festivals.102
-			days = 1
+		if = {
+			limit = { any_spouse = { count >= 1 } }
+			trigger_event = { 
+				id = dharma_festivals.102
+				days = 1
+			}
+		}
+		else = {
+			trigger_event = { 
+				id = dharma_festivals.103
+				days = 1
+			}
 		}
 	}
 
@@ -75,7 +84,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					any_spouse = { count > 1 }
+					any_spouse = { count >= 2 }
 				}
 				desc = dharma_festivals.102.desc.spouses
 			}
@@ -100,7 +109,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 
 	option = {# Your Husband/Wife
 		trigger = {
-			NOT = {	any_spouse = { count > 1 } }
+			NOT = {	any_spouse = { count >= 2 } }
 		}
 		name = dharma_festivals.102.spouse
 		remove_short_term_gold = medium_gold_value
@@ -114,7 +123,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 	}
 	option = {# your first Wife
 		trigger = {
-			any_spouse = { count > 1 }
+			any_spouse = { count >= 2 }
 		}
 		name = dharma_festivals.102.first_spouse
 		remove_short_term_gold = medium_gold_value
@@ -145,7 +154,7 @@ dharma_festivals.102 = {# Buying gifts for your loved ones
 	option = {# All your wives
 		name = dharma_festivals.102.spouses
 		trigger = {
-			any_spouse = { count > 1 }
+			any_spouse = { count >= 2 }
 		}
 		remove_short_term_gold = medium_gold_value
 		add_character_flag = { flag = diwali_wives_gift }
@@ -260,9 +269,18 @@ dharma_festivals.105 = {# Family Feast
 	}
 
 	after = {
-		trigger_event = { 
-			id = dharma_festivals.106
-			days = 1
+		if = {
+			limit = { any_spouse = { count >= 1 } }
+			trigger_event = { 
+				id = dharma_festivals.106
+				days = 1
+			}
+		}
+		else = {
+			trigger_event = { 
+				id = dharma_festivals.107
+				days = 1
+			}
 		}
 	}
 
@@ -275,14 +293,14 @@ dharma_festivals.106 = {# Giving the gift to your loved ones
 			triggered_desc = {# Multiple Spouses
 				trigger = {
 					has_character_flag = diwali_wives_gift
-					any_spouse = { count > 1 }
+					any_spouse = { count >= 2 }
 				}
 				desc = dharma_festivals.106.desc.spouses
 			}
 			triggered_desc = {# first spouse only
 				trigger = {
 					has_character_flag = diwali_first_spouse_gift
-					any_spouse = { count > 1 }
+					any_spouse = { count >= 2 }
 				}
 				desc = dharma_festivals.106.desc.first_spouse
 			}
@@ -298,7 +316,7 @@ dharma_festivals.106 = {# Giving the gift to your loved ones
 			triggered_desc = {# Lover is one of my wives but not first wife
 				trigger = {
 					has_character_flag = diwali_lover_gift
-					any_spouse = { count > 1 }
+					any_spouse = { count >= 2 }
 					primary_spouse = {
 						NOT = { this = scope:lover }
 					}		
@@ -524,7 +542,7 @@ dharma_festivals.108 = {# pachikalu dice game
 	after = {
 		if = {
 			limit = {
-				any_sibling = { count > 1 }
+				any_sibling = { count >= 2 }
 				OR = {
 					AND = {# Got to have a brother
 						is_female = yes
@@ -1137,7 +1155,7 @@ dharma_festivals.133 = {# Gifts for your relatives
 
 	after = {
 		trigger_event = { 
-			id = dharma_festivals.102
+			id = dharma_festivals.138
 			days = 1
 		}
 	}
@@ -1280,7 +1298,10 @@ dharma_festivals.138 = {# Navaratri concludes
 	type = character_event
 	title = dharma_festivals.138.t
 	desc = dharma_festivals.138.desc
-	theme = throne
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}
 	
 	left_portrait = {
 		character = root
@@ -1555,8 +1576,10 @@ dharma_festivals.207 = {# Prisoner Release
 	type = character_event
 	title = dharma_festivals.207.t
 	desc = dharma_festivals.207.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -1727,8 +1750,10 @@ dharma_festivals.210 = {# Vesak concludes
 	type = character_event
 	title = dharma_festivals.210.t
 	desc = dharma_festivals.210.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -1896,8 +1921,10 @@ dharma_festivals.304 = {# The feast
 	type = character_event
 	title = dharma_festivals.304.t
 	desc = dharma_festivals.304.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -1939,8 +1966,10 @@ dharma_festivals.305 = {# Charity for the commoners
 	type = character_event
 	title = dharma_festivals.305.t
 	desc = dharma_festivals.305.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -2011,8 +2040,10 @@ dharma_festivals.306 = {# Ratha Yatra concludes
 	type = character_event
 	title = dharma_festivals.306.t
 	desc = dharma_festivals.306.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -2079,8 +2110,10 @@ dharma_festivals.316 = {# a-kyo nei - Thingyan Eve
 	type = character_event
 	title = dharma_festivals.316.t
 	desc = dharma_festivals.316.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -2251,8 +2284,10 @@ dharma_festivals.320 = {# a-tet nei
 	type = character_event
 	title = dharma_festivals.320.t
 	desc = dharma_festivals.320.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -2351,8 +2386,10 @@ dharma_festivals.323 = {# Thingyan concludes
 	type = character_event
 	title = dharma_festivals.323.t
 	desc = dharma_festivals.323.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -2628,8 +2665,10 @@ dharma_festivals.336 = {# Chhath concludes
 	type = character_event
 	title = dharma_festivals.336.t
 	desc = dharma_festivals.336.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -2843,7 +2882,7 @@ dharma_festivals.354 = {# Getting a gift for your spouse(if you have one)
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					any_spouse = { count > 1 }
+					any_spouse = { count >= 2 }
 				}
 				desc = dharma_festivals.354.desc.spouses
 			}
@@ -2862,7 +2901,7 @@ dharma_festivals.354 = {# Getting a gift for your spouse(if you have one)
 
 	option = {# Your Wife
 		trigger = {
-			NOT = {	any_spouse = { count > 1 } }
+			NOT = {	any_spouse = { count >= 2 } }
 		}
 		name = dharma_festivals.354.spouse
 		remove_short_term_gold = medium_gold_value
@@ -2876,7 +2915,7 @@ dharma_festivals.354 = {# Getting a gift for your spouse(if you have one)
 	}
 	option = {# your first Wife
 		trigger = {
-			any_spouse = { count > 1 }
+			any_spouse = { count >= 2 }
 		}
 		name = dharma_festivals.354.first_spouse
 		remove_short_term_gold = medium_gold_value
@@ -2907,7 +2946,7 @@ dharma_festivals.354 = {# Getting a gift for your spouse(if you have one)
 	option = {# All your wives
 		name = dharma_festivals.354.spouses
 		trigger = {
-			any_spouse = { count > 1 }
+			any_spouse = { count >= 2 }
 		}
 		remove_short_term_gold = medium_gold_value
 		add_character_flag = { flag = gangaur_wives_gift }
@@ -2978,14 +3017,14 @@ dharma_festivals.356 = {# Giving the gift
 			triggered_desc = {# Multiple Spouses
 				trigger = {
 					has_character_flag = gangaur_wives_gift
-					any_spouse = { count > 1 }
+					any_spouse = { count >= 2 }
 				}
 				desc = dharma_festivals.356.desc.spouses
 			}
 			triggered_desc = {# first spouse only
 				trigger = {
 					has_character_flag = gangaur_first_spouse_gift
-					any_spouse = { count > 1 }
+					any_spouse = { count >= 2 }
 				}
 				desc = dharma_festivals.356.desc.first_spouse
 			}
@@ -3001,7 +3040,7 @@ dharma_festivals.356 = {# Giving the gift
 			triggered_desc = {# Lover is one of my wives but not first wife
 				trigger = {
 					has_character_flag = gangaur_lover_gift
-					any_spouse = { count > 1 }
+					any_spouse = { count >= 2 }
 					primary_spouse = {
 						NOT = { this = scope:lover }
 					}		
@@ -3307,8 +3346,10 @@ dharma_festivals.361 = {# Gangaur concludes
 	type = character_event
 	title = dharma_festivals.361.t
 	desc = dharma_festivals.361.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -3668,8 +3709,10 @@ dharma_festivals.408 = {# Losar concludes
 	type = character_event
 	title = dharma_festivals.408.t
 	desc = dharma_festivals.408.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -4213,8 +4256,10 @@ dharma_festivals.434 = {# Pongal concludes
 	type = character_event
 	title = dharma_festivals.434.t
 	desc = dharma_festivals.434.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -4615,8 +4660,10 @@ dharma_festivals.446 = {# Thaipusam concludes
 	type = character_event
 	title = dharma_festivals.446.t
 	desc = dharma_festivals.446.desc
-	theme = throne
-	
+	theme = faith
+	override_background = {
+		event_background = throne_room
+	}	
 	left_portrait = {
 		character = root
 		animation = ecstasy

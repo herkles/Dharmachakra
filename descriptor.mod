@@ -1,8 +1,10 @@
-version="1.3.6"
+version="1.4.1"
 tags={
+	"Historical"
 	"Religion"
-	"Gameplay"
+	"Decisions"
+	"Culture"
 }
 name="Dharmachakra"
 picture="thumbnail.png"
-supported_version="1.4.*"
+supported_version="1.5.*"

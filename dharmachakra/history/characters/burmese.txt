@@ -1,5 +1,7 @@
-﻿# PAGAN RULERS
-earlyburman001 = {
+﻿#######################################
+# Pagan Dynasty
+#######################################
+earlyburman001 = {# Pyinbya
 	name = "Pyinbya"
 	dynasty = 2000000 #Pagan
 	religion = ari
@@ -12,7 +14,7 @@ earlyburman001 = {
 		death = yes
 	}
 }
-earlyburman002 = {
+earlyburman002 = {# Tannet
 	name = "Tannet"
 	dynasty = 2000000 #Pagan
 	religion = ari
@@ -29,87 +31,7 @@ earlyburman002 = {
 		}
 	}
 }
-earlyburman003 = {
-	name = "Sale_Ngahkwe"
-	dynasty = 2000001 #Sale
-	religion = ari
-	culture = burmese
-	
-	875.1.1 = {
-		birth = yes
-	}
-	934.1.1 = {
-		death = yes
-	}
-}
-earlyburman004 = {
-	name = "Theinhko"
-	dynasty = 2000001 #Sale
-	religion = ari
-	culture = burmese
-	father = earlyburman003
-	
-	919.1.1 = {
-		birth = yes
-	}
-	956.1.1 = {
-		death = {
-			death_reason = death_murder
-			killer = earlyburman005
-		}
-	}
-}
-earlyburman005 = {
-	name = "Nyaung_u_Sawrahan" #AKA The Cucumber King, usurped the throne from Theinhko
-	dynasty = 2000002 #Nyaung-U
-	religion = ari
-	culture = burmese
-	father = earlyburman003
-	
-	924.1.1 = {
-		birth = yes
-	}
-	956.1.1 = {
-		give_nickname = nick_the_cucumber_king
-	}
-	1001.1.1 = {
-		death = yes
-	}
-}
-earlyburman006 = {
-	name = "Kyiso" #Son of Nyaung-u Sawrahan, adopted by Kunhsaw
-	dynasty = 2000002 #Nyaung-U
-	religion = ari
-	culture = burmese
-	father = earlyburman005
-	
-	1000.12.1 = {
-		birth = yes
-	}
-	1038.4.1 = {
-		death = {
-			death_reason = death_hunting_accident
-		}
-	}
-}
-earlyburman007 = {
-	name = "Sokkate" #Son of Nyaung-u Sawrahan, adopted by Kunhsaw
-	dynasty = 2000002 #Nyaung-U
-	religion = ari
-	culture = burmese
-	father = earlyburman005
-	
-	1000.3.29 = {
-		birth = yes
-	}
-	1044.8.11 = {
-		death = {
-			death_reason = death_duel
-			killer = burman001
-		}
-	}
-}
-earlyburman008 = {
+earlyburman008 = {# Thurein
 	name = "Thurein" #Fictional father of Kunhsaw Kyaunghpyu, to bridge the dynasty to Tannet (father of Kunhsaw according to chronicles)
 	dynasty = 2000000 #Pagan
 	religion = ari
@@ -123,7 +45,7 @@ earlyburman008 = {
 		death = yes
 	}
 }
-burman000 = {
+burman000 = {# Kunhsaw Kyaunghpyu
 	name = "Kunhsaw_Kyaunghpyu"
 	dynasty = 2000000 #Pagan
 	religion = ari
@@ -137,7 +59,7 @@ burman000 = {
 		death = yes
 	}
 }
-burman001 = {
+burman001 = {# Anawrahta
 	name = "Anawrahta" #Founder of Pagan Kingdom/Empire
 	dynasty = 2000000 #Pagan
 	religion = ari
@@ -177,7 +99,7 @@ burman001 = {
 		death = yes
 	}
 }
-burman002 = {
+burman002 = {# Saw Lu
 	name = "Saw_Lu" #Son and appointed heir of Anawrahta
 	dynasty = 2000000 #Pagan
 	religion = theravada
@@ -193,7 +115,7 @@ burman002 = {
 		death = yes
 	}
 }
-burman003 = {
+burman003 = {# Kyansittha
 	name = "Kyansittha" #Son of Anawrahta - One of the "Four Great Paladins"
 	dynasty = 2000000 #Pagan
 	religion = theravada
@@ -212,7 +134,7 @@ burman003 = {
 		death = yes
 	}
 }
-burman004 = {
+burman004 = {# Agga Mahethi
 	name = "Agga_Mahethi" #Chief queen consort of King Anawrahta
 	female = yes
 	religion = theravada
@@ -225,7 +147,7 @@ burman004 = {
 		death = yes
 	}
 }
-burman005 = {
+burman005 = {# Pyinsa Kalayani
 	name = "Pyinsa_Kalayani" #Queen consort of King Anawrahta
 	female = yes
 	religion = theravada
@@ -238,7 +160,7 @@ burman005 = {
 		death = yes
 	}
 }
-burman016 = {
+burman016 = {# Mon Hla
 	name = "Mon_Hla" #Queen consort of King Anawrahta
 	female = yes
 	religion = theravada
@@ -251,7 +173,7 @@ burman016 = {
 		death = yes
 	}
 }
-burman006 = {
+burman006 = {# Nyaung U Hpi
 	name = "Nyaung_U_Hpi" #Warrior loyal to Anawrahta - One of the "Four Great Paladins"
 	religion = theravada
 	culture = burmese
@@ -268,7 +190,7 @@ burman006 = {
 		death = yes
 	}
 }
-burman007 = {
+burman007 = {# Nga Htwe Yu
 	name = "Nga_Htwe_Yu" #Warrior loyal to Anawrahta - One of the "Four Great Paladins"
 	religion = theravada
 	culture = burmese
@@ -285,7 +207,7 @@ burman007 = {
 		death = yes
 	}
 }
-burman008 = {
+burman008 = {# Nga Lon Letpe
 	name = "Nga_Lon_Letpe" #Warrior loyal to Anawrahta - One of the "Four Great Paladins"
 	religion = theravada
 	culture = burmese
@@ -302,7 +224,124 @@ burman008 = {
 		death = yes
 	}
 }
-burman010 = {
+burman017 = {
+	name = "Me_Wunna" #'Ogress' and wife of Byatta
+	female = yes
+	religion = theravada
+	culture = burmese
+	trait = giant
+	
+	1040.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		add_spouse = mon053
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+burman018 = {
+	name = "Myauk_Pyinthe" #Anawrahta's mother
+	female = yes
+	religion = theravada
+	culture = burmese
+	990.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Sale Dynasty
+#######################################
+earlyburman003 = {# Sale Ngahkwe
+	name = "Sale_Ngahkwe"
+	dynasty = 2000001 #Sale
+	religion = ari
+	culture = burmese
+	
+	875.1.1 = {
+		birth = yes
+	}
+	934.1.1 = {
+		death = yes
+	}
+}
+earlyburman004 = {# Theinhko
+	name = "Theinhko"
+	dynasty = 2000001 #Sale
+	religion = ari
+	culture = burmese
+	father = earlyburman003
+	
+	919.1.1 = {
+		birth = yes
+	}
+	956.1.1 = {
+		death = {
+			death_reason = death_attacked
+			killer = earlyburman005
+		}
+	}
+}
+#######################################
+# Nyaung-U Dynasty
+#######################################
+earlyburman005 = {# Nyaung U Sawrahan
+	name = "Nyaung_u_Sawrahan" #AKA The Cucumber King, usurped the throne from Theinhko
+	dynasty = 2000002 #Nyaung-U
+	religion = ari
+	culture = burmese
+	
+	924.1.1 = {
+		birth = yes
+	}
+	956.1.1 = {
+		give_nickname = nick_the_cucumber_king
+	}
+	1001.1.1 = {
+		death = yes
+	}
+}
+earlyburman006 = {# Kyiso
+	name = "Kyiso" #Son of Nyaung-u Sawrahan, adopted by Kunhsaw
+	dynasty = 2000002 #Nyaung-U
+	religion = ari
+	culture = burmese
+	father = earlyburman005
+	
+	1000.12.1 = {
+		birth = yes
+	}
+	1038.4.1 = {
+		death = {
+			death_reason = death_hunting_accident
+		}
+	}
+}
+earlyburman007 = {# Sokkate
+	name = "Sokkate" #Son of Nyaung-u Sawrahan, adopted by Kunhsaw
+	dynasty = 2000002 #Nyaung-U
+	religion = ari
+	culture = burmese
+	father = earlyburman005
+	
+	1000.3.29 = {
+		birth = yes
+	}
+	1044.8.11 = {
+		death = {
+			death_reason = death_duel
+			killer = burman001
+		}
+	}
+}
+#######################################
+# Thanbawa Dynasty
+#######################################
+burman010 = {# Maha Thanbawa
 	name = "Maha_Thanbawa" #Fictional ruler
 	dynasty = 2000013 #Thanbawa
 	religion = ari
@@ -315,7 +354,10 @@ burman010 = {
 		death = yes
 	}
 }
-burman011 = {
+#######################################
+# Kaleinga Dynasty
+#######################################
+burman011 = {# Kaleinga
 	name = "Kaleinga" #Fictional ruler
 	dynasty = 2000014 #Kaleinga
 	religion = ari
@@ -331,7 +373,10 @@ burman011 = {
 		death = yes
 	}
 }
-burman012 = {
+#######################################
+# Thihanu Dynasty
+#######################################
+burman012 = {# Thihanu
 	name = "Thihanu" #Fictional ruler
 	dynasty = 2000015 #Thihanu
 	religion = ari
@@ -344,7 +389,10 @@ burman012 = {
 		death = yes
 	}
 }
-burman013 = {
+#######################################
+# Kaleinga Dynasty
+#######################################
+burman013 = {# Minhlagyi
 	name = "Minhlagyi" #Fictional ruler
 	dynasty = 2000016 #Kaleinga
 	religion = ari
@@ -360,20 +408,10 @@ burman013 = {
 		death = yes
 	}
 }
-burman014 = {
-	name = "Thumondari" #Fictional ruler
-	dynasty = 2000017 #Thumondari
-	religion = ari
-	culture = burmese
-	
-	835.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
-burman015 = {
+#######################################
+# Thupyinnya Dynasty
+#######################################
+burman015 = {# Thupyinnya
 	name = "Thupyinnya" #Fictional ruler
 	dynasty = 2000018 #Thupyinnya
 	religion = theravada
@@ -386,7 +424,177 @@ burman015 = {
 		death = yes
 	}
 }
-
-
-
-
+#######################################
+# Sithabin Dynasty
+#######################################
+arakan024 = {# Sithabin
+	name = "Sithabin"
+	dynasty = 2000007 #Sithabin
+	religion = theravada
+	culture = burmese
+	
+	1020.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Myu Dynasty
+#######################################
+arakan010 = {# Ananthiri
+	name = "Ananthiri" #Fictional father of Amyahtu, to make Yehpyu his nephew
+	dynasty = 2000006 #Myu
+	religion = theravada
+	culture = burmese
+	
+	880.1.1 = {
+		birth = yes
+	}
+	964.1.1 = {
+		death = yes
+	}
+}
+arakan011 = {# Amyahtu
+	name = "Amyahtu"
+	dynasty = 2000006 #Myu
+	religion = theravada
+	culture = burmese
+	father = arakan010
+	
+	900.1.1 = {
+		birth = yes
+	}
+	964.1.1 = {
+		death = yes
+	}
+}
+arakan012 = {# Thihaba
+	name = "Thihaba" #Fictional father of Yehpyu
+	dynasty = 2000006 #Myu
+	religion = theravada
+	culture = burmese
+	father = arakan010
+	
+	910.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+arakan013 = {# Yehpyu
+	name = "Yehpyu"
+	dynasty = 2000006 # Myu
+	religion = theravada
+	culture = burmese
+	father = arakan012
+	
+	930.1.1 = {
+		birth = yes
+	}
+	994.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Candras Dynasty
+#######################################
+arakan001 = {# Mahataingchandra
+	name = "Mahataingchandra"
+	dynasty = 2000003 #Candras
+	religion = ari
+	culture = burmese
+	
+	750.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+arakan002 = {# Suriyataingchandra
+	name = "Suriyataingchandra"
+	dynasty = 2000003 #Candras
+	religion = ari
+	culture = burmese
+	father = arakan001
+	
+	780.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+arakan003 = {# Mawlataingchandra
+	name = "Mawlataingchandra"
+	dynasty = 2000003 #Candras
+	religion = ari
+	culture = burmese
+	father = arakan002
+	
+	796.1.1 = {
+		birth = yes
+	}
+	849.1.1 = {
+		death = yes
+	}
+}
+arakan004 = {# Pawlataingchandra
+	name = "Pawlataingchandra"
+	dynasty = 2000003 #Candras
+	religion = ari
+	culture = burmese
+	father = arakan003
+	
+	820.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+arakan005 = {# Kalataingchandra
+	name = "Kalataingchandra"
+	dynasty = 2000003 #Candras
+	religion = ari
+	culture = burmese
+	father = arakan004
+	
+	840.1.1 = {
+		birth = yes
+	}
+	884.1.1 = {
+		death = yes
+	}
+}
+arakan006 = {# Tulataingchandra
+	name = "Tulataingchandra"
+	dynasty = 2000003 #Candras
+	religion = ari
+	culture = burmese
+	father = arakan005
+	
+	856.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+arakan007 = {# Sritaingchandra
+	name = "Sritaingchandra"
+	dynasty = 2000003 #Candras
+	religion = ari
+	culture = burmese
+	father = arakan006
+	
+	876.1.1 = {
+		birth = yes
+	}
+	935.1.1 = {
+		death = yes
+	}
+}

@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.3.6 "Devi" (Released 27/12/2021)
+## Latest Version: 1.4.1 "Shiva" (Released 20/3/2022)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -8,17 +8,18 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
-- Revised and expanded the Buddhist Retreat event decision
-- Decision to visit Nalanda and Sharada Peeth
-- New Holy Sites for Hindu, Buddhist, Sanamhism, Bauthouism, Tani, Kirati, and Bon faiths
-- New Special buildings for many of the holy Sites
-- Pilgrimage events have been updated for the new holy sites.
-- Various festivals to celebrate throughout south asia have been added
-- Tribal areas are now properly tribal
-- Several new characters have been added
-- added the Chutia and Tripura cultures
-- Added tribal faiths of sarnaism and koyapunem
-- Various bug fixes
+- Added Buddhist Schools for Mahayana and Tibetan Buddhism
+- Expanded Nalanda and Sharda Peeth Events
+- Revised the number of Holy Sites for Buddhist and Hindu Faiths; reduced for now for balance reasons.
+- Other faiths besides Dharmic Faiths can unite India
+- brought over vanilla database changes
+- added Hindu Philosophy
+- added Trika Shaivism as a faith
+- Updated History of Kashmir to account for Trika Shaivism
+- Expanded and Revised the Bhakti Event
+- Bhakti is now part of Hinduism as a doctrine
+- Bengali culture now has the tradition lords_of_the_elephant
+
 
 ## Manual Installation Steps
 
@@ -30,3 +31,9 @@ DO NOT manually download the master branch unless you know what you're doing as 
 4. Enjoy and play!
 
 NOTE: If you are re-installing a mod, delete the old version of the mod first before copy and pasting the new one! While it's not always necessary, it's a good habit to do to prevent any potential issues.
+
+## Credits and Thanks
+
+- Rajas of Indochina
+- Cybrxkhan
+- Community Title Project

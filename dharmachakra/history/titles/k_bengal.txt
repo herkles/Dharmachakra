@@ -20,6 +20,17 @@ k_bengal = {
 	}
 	855.1.1 = {
 		holder = 190009 #Narayanapala Pala
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_scholarly
+				}
+			}
+		}
 	}
 	908.1.1 = {
 		holder = 190010 #Rajyapala Pala
@@ -38,6 +49,7 @@ k_bengal = {
 	}
 	1055.1.1 = {
 		holder = 190017 #Vigrahapala III Pala
+
 	}
 	1070.1.1 = {
 		holder = 190018 #Mahipala II Pala
@@ -443,30 +455,61 @@ c_laksmanavati = {
 	}
 }
 c_kotivarsa = {
-	855.1.1 = {
-		holder = rajbongshi015 #Birapala
+	755.1.1 = {
+		holder = 190027 #Gopala Pala
+		liege = d_varendra
+	}
+	769.1.1 = {
+		holder = 190028 #Dharamapala Pala
+	}
+	810.1.1 = {
+		holder = 190004 #Devapala Pala
+	}
+	846.1.1 = {
+		holder = 190103 #Ajatashatru
 		liege = k_bengal
 	}
-	878.1.1 = {
-		holder = rajbongshi016 #Bhaskarvarman
+	866.1.1 = {
+		holder = 190104 #Udayin
+		liege = d_tirabhukti
 	}
-	903.1.1 = {
-		holder = rajbongshi017 #Mahendravarman
+	870.1.1 = {
+		liege = k_bengal
 	}
-	919.1.1 = {
-		holder = rajbongshi018 #Ganapativarman
+	882.1.1 = {
+		holder = 190105 #Bimbisara
 	}
-	956.1.1 = {
-		holder = rajbongshi019 #Samudravarman
+	908.1.1 = {
+		holder = 190010 #Rajyapala Pala
 	}
-	993.1.1 = {
-		holder = rajbongshi020 #Ratnapala
+	940.1.1 = {
+		holder = 190011 #Gopala II Pala
 	}
-	1037.1.1 = {
-		holder = rajbongshi021 #Satyanarayana
+	960.1.1 = {
+		holder = 190012 #Vigrahapala II Pala
 	}
-
-
+	988.1.1 = {
+		holder = 190013 #Mahipala Pala
+	}
+	1038.1.1 = {
+		holder = 190016 #Nayapala Pala
+	}
+	1055.1.1 = {
+		holder = 190017 #Vigrahapala III Pala
+	}
+	1060.1.1 = {
+		holder = 190051 #Divya Kaivarta
+		liege = d_varendra
+	}
+	1076.1.1 = {
+		holder = 190052 #Rudoka Kaivarta
+	}
+	1078.1.1 = {
+		holder = 190053 #Bhima Kaivarta
+	}
+	1080.1.1 = {
+		holder = 190020 #Ramapala Pala
+	}
 	1120.1.1 = {
 		holder = 190021 #Kumarapala Pala
 	}
@@ -606,6 +649,9 @@ c_gauda = {
 	1090.1.1 = {
 		holder = 190020 #Ramapala Pala
 	}
+
+
+	
 	1120.1.1 = {
 		holder = 190021 #Kumarapala Pala
 	}
@@ -920,29 +966,40 @@ d_varendra = {
 
 }
 c_pundravardhana = {
+	755.1.1 = {
+		holder = 190027 #Gopala Pala
+		liege = d_varendra
+	}
+	769.1.1 = {
+		holder = 190028 #Dharamapala Pala
+	}
+	810.1.1 = {
+		holder = 190004 #Devapala Pala
+	}
+	850.1.1 = {
+		holder = 190005 #Mahendrapala Pala
+	}
+	854.1.1 = {
+		holder = 190008 #Vigrahapala Pala
+	}
 	855.1.1 = {
-		holder = rajbongshi008 #Pralambha
-		liege = k_bengal
+		holder = 190009 #Narayanapala Pala
 	}
-	878.1.1 = {
-		holder = rajbongshi009 #Harshapala
+	908.1.1 = {
+		holder = 190010 #Rajyapala Pala
 	}
-	903.1.1 = {
-		holder = rajbongshi010 #Pushyavarman
+	940.1.1 = {
+		holder = 190011 #Gopala II Pala
 	}
-	919.1.1 = {
-		holder = rajbongshi011 #Salasthamba
+	960.1.1 = {
+		holder = 190012 #Vigrahapala II Pala
 	}
-	956.1.1 = {
-		holder = rajbongshi012 #Ganapativarman
+	988.1.1 = {
+		holder = 190013 #Mahipala Pala
 	}
-	993.1.1 = {
-		holder = rajbongshi013 #Ummoka
+	1038.1.1 = {
+		holder = 190016 #Nayapala Pala
 	}
-	1037.1.1 = {
-		holder = rajbongshi014 #Vigrahastambha
-	}
-
 	1055.1.1 = {
 		holder = 190017 #Vigrahapala III Pala
 	}
@@ -1383,10 +1440,10 @@ d_vanga = {
 	1020.1.1 = {
 		holder = 190072 #Govindachandra Chandra
 	}
+	#The Cedis crush the Palas and Chandras
 	1052.1.1 = {
 		holder = 190073 #Jatavarman Bangala Varman
-		liege = k_bengal
-	}
+	} #Nominally tributary to the Palas of Bengal, but stops paying tribute in 1080.
 	1067.1.1 = {
 		holder = 190074 #Harivarman Bangala Varman
 	}
@@ -1401,7 +1458,6 @@ d_vanga = {
 	}
 	1204.1.1 = {
 		holder = 154005 #Laksmana Sena
-		liege = 0
 	}
 	1206.1.1 = {
 		holder = 154006 #Visvarupa Sena
@@ -1851,6 +1907,9 @@ c_harikela = {
 	602.1.1 = {
 		holder = tripuri002 #Jangi Fa
 	}
+	645.1.1 = {
+		liege = d_vanga
+	}
 	675.1.1 = {
 		holder = tripuri003 #Partha
 	}
@@ -1872,6 +1931,7 @@ c_harikela = {
 	}
 	866.1.1 = {
 		holder = tripuri009 #Mukunda Fa
+		liege = 0
 	}
 	900.1.1 = {
 		holder = tripuri010 #Kamal Rai
@@ -1888,6 +1948,9 @@ c_harikela = {
 	1020.1.1 = {
 		holder = tripuri014 #Sadhu Rai
 	}
+	1052.1.1 = {
+		liege = d_vanga
+	}
 	1067.1.1 = {
 		holder = tripuri015 #Ratap Rai
 	}
@@ -1899,6 +1962,7 @@ c_harikela = {
 	}
 	1140.1.1 = {
 		holder = tripuri018 #Beerbahu
+		liege = k_bengal
 	}
 	1159.1.1 = {
 		holder = tripuri019 #Samrat
@@ -1908,15 +1972,23 @@ c_harikela = {
 	}
 	1204.1.1 = {
 		holder = tripuri021 #Meghraj
+		liege = d_vanga
 	}
 	1221.1.1 = {
 		holder = tripuri022 #Sengkwchak
+		liege = 0
+	}
+	1231.1.1 = {
+		liege = d_vanga
 	}
 	1250.1.1 = {
 		holder = tripuri023 #Sengthum Fa
 	}
 	1285.1.1 = {
 		holder = tripuri024 #Achong Fa
+	}
+	1300.1.1 = {
+		liege = 0
 	}
 	1307.1.2 = {
 		holder = tripuri025 #Khichung Fa
@@ -2827,4 +2899,3 @@ c_midnapore = {
 		liege = k_bengal
 	}
 }
-
