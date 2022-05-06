@@ -90,7 +90,7 @@
   dharma_buddhism.052.convince.success:0 "You successfully convince your Court Chaplain."
   dharma_buddhism.052.convince.failure:0 "You Fail to convince your Court Chaplain."
 
-  dharma_buddhism.053.t:0 "Your [councillor_court_chaplain.GetTitle] encourges you to follow the teachings of [councillor_court_chaplain.getHisHer] school"
+  dharma_buddhism.053.t:0 "Your [councillor_court_chaplain.GetTitle] encourages you to follow the teachings of [councillor_court_chaplain.getHisHer] school"
   dharma_buddhism.053.desc:0 "You currently have not incorporated any Buddhist school's teachings into your daily life nor are you patronizing any particular school. Your [councillor_court_chaplain.GetTitle]has come to saying that you should be supporting [councillor_court_chaplain.getHisHer] School."
   dharma_buddhism.053.follow:0 "I shall support [councillor_court_chaplain.getHisHer] school."
   dharma_buddhism.053.not_follow:0 "I shall Not!"
@@ -102,7 +102,7 @@
   dharma_buddhism.054.naropa:0 "Quite the Interesting Monk."
 
   dharma_buddhism.055.t:0 "The monk Atisa Arrives"
-  dharma_buddhism.055.desc:0 "The Bengali Monk, Atisa, has recently arrived in your kingdom and has begun to work at one of the local monastaries. He is quite the skilled monk, and claims to have visited far off Sumatra and studied under the famed monk, Naropa. "
+  dharma_buddhism.055.desc:0 "The Bengali Monk, Atisa, has recently arrived in your kingdom and has begun to work at one of the local monasteries. He is quite the skilled monk, and claims to have visited far off Sumatra and studied under the famed monk, Naropa. "
   dharma_buddhism.055.atisa:0 "Welcome to Tibet."
 
   dharma_buddhism.056.t:0 "Atisa founds the Kadam School of Buddhism"
@@ -111,7 +111,7 @@
   dharma_buddhism.056.kadam_adopt:0 "Patronize the New School"
 
   dharma_buddhism.057.t:0 "Drogmi returns from India"
-  dharma_buddhism.057.desc:0 "The monk Drogmi has returned from his stay in India. He claims to have recieved quite the education while studying under the great Mahasiddha Naropa."
+  dharma_buddhism.057.desc:0 "The monk Drogmi has returned from his stay in India. He claims to have received quite the education while studying under the great Mahasiddha Naropa."
   dharma_buddhism.057.drogmi:0 "Welcome Home."
 
   dharma_buddhism.058.t:0 "Prince in Sa'gya becomes a student of Drogmi"
@@ -123,12 +123,12 @@
   dharma_buddhism.059.sakya:0 "Quite the interesting development"
   dharma_buddhism.059.sakya_adopt:0 "Patronize the New School"
 
-  dharma_buddhism.060.t:0 "Marpa sets up his seat in a Tibetan Monastary"
-  dharma_buddhism.060.desc:0 "The monastic Marpa has set up in a local Monastary where he has begun to teach. Marpa is a skilled monk, and he has trained under the famous Mahasiddha Naropa. "
+  dharma_buddhism.060.t:0 "Marpa sets up his seat in a Tibetan Monastery"
+  dharma_buddhism.060.desc:0 "The monastic Marpa has set up in a local Monastery where he has begun to teach. Marpa is a skilled monk, and he has trained under the famous Mahasiddha Naropa. "
   dharma_buddhism.060.marpa:0 "Quite the monk"
 
   dharma_buddhism.061.t:0 " Marpa's Four Great Pillars"
-  dharma_buddhism.061.desc:0 "A number of students have begun to follow Marpa. Four of these students, Milarepa,Tshurton Wangi, Ngok Choku, and Meton Tsonpo stand out among the rest. Collectively they are being refered to as the Four Great Pillars."
+  dharma_buddhism.061.desc:0 "A number of students have begun to follow Marpa. Four of these students, Milarepa, Tshurton Wangi, Ngok Choku, and Meton Tsonpo stand out among the rest. Collectively they are being referred to as the Four Great Pillars."
   dharma_buddhism.061.students:0 "A good master is reflected by his students."
 
   dharma_buddhism.062.t:0 "Following a Buddhist School"
@@ -435,7 +435,7 @@
   dharma_buddhism.308.study:0 "I shall study other texts"
 
   dharma_buddhism.309.t:0 "Studying Languages"
-  dharma_buddhism.309.desc:0 "Spending your time in the cosmopolitian enviroment of Nalanda, you are presented the opprotunity to study foreign languages. Shall you do so, or shall you focus on other studies?"
+  dharma_buddhism.309.desc:0 "Spending your time in the cosmopolitan environment of Nalanda, you are presented the opportunity to study foreign languages. Shall you do so, or shall you focus on other studies?"
   dharma_buddhism.309.language:0 "Let me try to study languages"
   dharma_buddhism.309.language.success:0 "Your understanding of languages improves."
   dharma_buddhism.309.language.success_title:0 "Your knowledge of languages improves."
@@ -466,7 +466,7 @@
   dharma_buddhism.312.write:0 "I like to write my thoughts down"
 
   dharma_buddhism.313.t:0 "Philosophical Instruction"
-  dharma_buddhism.313.desc:0 "While you are at Nalanda, you have the opprotunity to do some philosophical study under some of the monks and learn some finer points of Buddhist philosophy. The question is which philosophical school shall you study under?"
+  dharma_buddhism.313.desc:0 "While you are at Nalanda, you have the opportunity to do some philosophical study under some of the monks and learn some finer points of Buddhist philosophy. The question is which philosophical school shall you study under?"
   dharma_buddhism.313.chan:0 "I shall Study the Chan School"
   dharma_buddhism.313.madhyamaka:0 "I shall Study the Madhyamaka School"
   dharma_buddhism.313.yogachara:0 "I shall Study the Yogachara School"
