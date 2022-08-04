@@ -106,3 +106,21 @@
 		instance = { position = { 0.5 0.48 } scale = { 0.70 0.70 }  }
 	}
 }
+1040024 = { # Vijaya
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "white"
+	colored_emblem={
+		color1=white
+		texture="ce_india_doted_frame_02.dds"
+		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 }  }
+	}			
+	colored_emblem = {
+		texture = "ce_hindu_gammate_cross.dds"
+		color1 = "white"
+		color2 = "white"	
+		instance = { position = { 0.5 0.5 } scale = { 0.55 0.55 }  }
+	}	
+}
+
+
