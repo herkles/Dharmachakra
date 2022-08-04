@@ -59,8 +59,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 	is_playable = yes
 	# recommended = yes
 
-	# Vikarma Vijaya of Khotan
-	character = {
+	character = {# Vikarma Vijaya of Khotan
 		name = "bookmark_sea_tibet_khotan"
 		dynasty = 1040024
 		dynasty_splendor_level = 5
@@ -76,9 +75,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 
 		animation = personality_rational
 	}
-
-	# Bokut Bilga of Qocho
-	character = {
+	character = {# Bokut Bilga of Qocho
 		name = "bookmark_sea_tibet_qocho"
 		dynasty = 1040065
 		dynasty_splendor_level = 1
@@ -94,9 +91,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 
 		animation = personality_rational
 	}
-
-	# Zhang Huaishen of Guiyi
-	character = {
+	character = {# Zhang Huaishen of Guiyi
 		name = "bookmark_sea_tibet_guiyi"
 		dynasty = 1055006
 		dynasty_splendor_level = 1
@@ -112,9 +107,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 
 		animation = personality_rational
 	}
-
-	# Mande Osung of Guge
-	character = {
+	character = {# Mande Osung of Guge
 		name = "bookmark_sea_tibet_guge"
 		dynasty = 105800
 		dynasty_splendor_level = 5
@@ -129,10 +122,8 @@ bm_867_sea_tibet = {# Era of Fragmentation
 		position = { 388 833 }
 
 		animation = personality_rational
-	}
-
-	# Tride Yumten of U
-	character = {
+	}	
+	character = {# Tride Yumten of U
 		name = "bookmark_sea_tibet_u"
 		dynasty = 105800
 		dynasty_splendor_level = 5

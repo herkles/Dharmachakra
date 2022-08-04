@@ -1,0 +1,108 @@
+﻿4210000 = { # Meng/Mung/Ma Shy
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_tamgha_roundel_frame.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_nuosu_meng.dds"
+		color1 = "black"
+		color2 = "yellow"
+		instance = { position = { 0.45 0.5 } scale = { 0.8 0.8 }  }
+	}
+}
+4210005 = { # Duan of Dali
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_tamgha_roundel_frame.dds"
+		color1 = "black"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_chuhan_duan.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+1055006 = { # Zhang, Guiyi Circuit
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_tamgha_roundel_frame.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 }  }
+	}
+	colored_emblem = {
+		texture = "ce_chuhan_zhang.dds"
+		color1 = "yellow"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 }  }
+	}
+}
+4210009 = { #Bhringu, Cham 867
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_lotus_flower.dds"
+		color1 = "orange"
+		color2 = "orange"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.2 }  }				
+	}
+}
+2000004 = { # Hanthawaddy
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "yellow"	
+	colored_emblem = {
+		texture = "ce_hamsa_01.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.45 0.52 } scale = { 0.9 0.9 }  }				
+	}	
+}
+2000005 = { # Thaton
+	pattern = "pattern_waves_01.dds"
+	color1 = "white"
+	color2 = "white"	
+	colored_emblem = {
+		texture = "ce_hintha_02.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.45 } scale = { 0.95 0.95 }  }				
+	}	
+}
+1042066 = { # Pratihara
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "white"
+		color2 = color1
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "black"
+		color2 = color1
+		instance = { position = { 0.5 0.5 } scale = { 0.60 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_boar_passant.dds"
+		color1 = "yellow"
+		color2 = "black"
+		instance = { position = { 0.5 0.48 } scale = { 0.70 0.70 }  }
+	}
+}
