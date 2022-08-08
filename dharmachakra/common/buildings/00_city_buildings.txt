@@ -233,18 +233,6 @@ city_01 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
-	### SEA ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_sea_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_sea }
-	}
-
 	### TIBET ###
 	asset = {
 		type = pdxmesh
@@ -584,18 +572,6 @@ city_02 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
-	### SEA ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_sea_city_01_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 1 } }
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_sea }
-	}
-
 	### TIBET ###
 	asset = {
 		type = pdxmesh
@@ -901,18 +877,6 @@ city_03 = {
 		graphical_regions = { graphical_mediterranean }
 	}
 
-	### SEA ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_sea_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_sea }
-	}
-
 	### TIBET ###
 	asset = {
 		type = pdxmesh
@@ -1216,18 +1180,6 @@ city_04 = {
 		soundeffect = { soundeffect = "event:/DLC/FP2/SFX/Ambience/Urban/iberian_city_tier_02"}
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
-	}
-
-	### SEA ###
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_sea_city_02_mesh"
-		}
-		illustration = @holding_illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 2 } }
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_sea }
 	}
 
 	### TIBET ###

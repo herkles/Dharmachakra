@@ -43,13 +43,6 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_01_mesh"
-		illustration = @illustration_generic_arid
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	asset = {
 		type = pdxmesh
@@ -91,14 +84,6 @@ temple_01 = {
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_01_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "dharmic_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	### ORTHODOX ###
 	asset = {
@@ -132,14 +117,7 @@ temple_01 = {
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_01_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "orthodox_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
+
 
 	### CATHOLIC ###
 	asset = {
@@ -172,14 +150,6 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "catholic_gfx" }
 		graphical_regions = { "graphical_mena" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_01_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "catholic_gfx" }
-		graphical_regions = { "graphical_sea" }
 	}
 
 	### ISLAMIC ###
@@ -214,14 +184,7 @@ temple_01 = {
 		graphical_faiths = { "islamic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_indian_temple_islamic_01_mesh"
-		illustration = @illustration_islamic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "islamic_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
+
 
 	# FP2 Catholic variant for Iberia
 	asset = {
@@ -463,13 +426,6 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_01_mesh"
-		illustration = @illustration_generic_arid
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	asset = {
 		type = pdxmesh
@@ -511,14 +467,6 @@ temple_02 = {
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_01_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "dharmic_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	### ORTHODOX ###
 	asset = {
@@ -551,14 +499,6 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mena" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_01_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "orthodox_gfx" }
-		graphical_regions = { "graphical_sea" }
 	}
 
 	### CATHOLIC ###
@@ -593,14 +533,7 @@ temple_02 = {
 		graphical_faiths = { "catholic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_01_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "catholic_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
+
 
 	### ISLAMIC ###
 	asset = {
@@ -633,14 +566,6 @@ temple_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_regions = { "graphical_mena" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_indian_temple_islamic_01_mesh"
-		illustration = @illustration_islamic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "islamic_gfx" }
-		graphical_regions = { "graphical_sea" }
 	}
 
 	# FP2 Catholic variant for Iberia
@@ -788,13 +713,6 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_02_mesh"
-		illustration = @illustration_generic_arid
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	asset = {
 		type = pdxmesh
@@ -836,14 +754,6 @@ temple_03 = {
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_02_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "dharmic_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	### ORTHODOX ###
 	asset = {
@@ -876,14 +786,6 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mena" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_02_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "orthodox_gfx" }
-		graphical_regions = { "graphical_sea" }
 	}
 
 	### CATHOLIC ###
@@ -918,14 +820,6 @@ temple_03 = {
 		graphical_faiths = { "catholic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_02_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "catholic_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	### ISLAMIC ###
 	asset = {
@@ -958,14 +852,6 @@ temple_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_regions = { "graphical_mena" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_indian_temple_islamic_02_mesh"
-		illustration = @illustration_islamic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "islamic_gfx" }
-		graphical_regions = { "graphical_sea" }
 	}
 
 	# FP2 Catholic variant for Iberia
@@ -1112,13 +998,6 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_02_mesh"
-		illustration = @illustration_generic_arid
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	asset = {
 		type = pdxmesh
@@ -1160,14 +1039,6 @@ temple_04 = {
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_02_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "dharmic_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	### ORTHODOX ###
 	asset = {
@@ -1200,14 +1071,6 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "orthodox_gfx" }
 		graphical_regions = { "graphical_mena" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_02_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/orthodox_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "orthodox_gfx" }
-		graphical_regions = { "graphical_sea" }
 	}
 
 	### CATHOLIC ###
@@ -1242,14 +1105,6 @@ temple_04 = {
 		graphical_faiths = { "catholic_gfx" }
 		graphical_regions = { "graphical_mena" }
 	}
-	asset = {
-		type = pdxmesh
-		name = "building_sea_temple_02_mesh"
-		illustration = @illustration_india
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/church_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "catholic_gfx" }
-		graphical_regions = { "graphical_sea" }
-	}
 
 	### ISLAMIC ###
 	asset = {
@@ -1282,14 +1137,6 @@ temple_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "islamic_gfx" }
 		graphical_regions = { "graphical_mena" }
-	}
-	asset = {
-		type = pdxmesh
-		name = "building_indian_temple_islamic_02_mesh"
-		illustration = @illustration_islamic
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/mosque_temple" soundparameter = { "Tier" = 1 } }
-		graphical_faiths = { "islamic_gfx" }
-		graphical_regions = { "graphical_sea" }
 	}
 
 	# FP2 Catholic variant for Iberia
