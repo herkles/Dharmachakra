@@ -21,8 +21,7 @@
 	}
 
 	ethnicities = {
-		10 = asian
-		1 = indian
+		10 = southeast_asian_burmese_1
 	}
 }
 mon = {# Mon
@@ -38,11 +37,8 @@ mon = {# Mon
 	traditions = {
 		tradition_mystical_ancestors
 		tradition_religious_patronage
-	}
-	
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
+		tradition_maritime_mercantilism
+		tradition_language_scholars
 	}
 
 	coa_gfx = { burman_group_coa_gfx }
@@ -51,7 +47,7 @@ mon = {# Mon
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = southeast_asian_mon_1
 	}
 }
 ############ New Dharmachakra cultures ############
@@ -80,8 +76,8 @@ rakhine = {# Rakhine
 	}
 
 	ethnicities = {
-		10 = asian
-		1 = indian
+		10 = southeast_asian_burmese_1
+		5 = indian
 	}
 }
 pyu = {# Rakhine
@@ -107,7 +103,9 @@ pyu = {# Rakhine
 	}
 
 	ethnicities = {
-		5 = asian
-		5 = indian
+		10 = southeast_asian_burmese_1
 	}
 }
+
+
+

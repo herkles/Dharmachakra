@@ -615,7 +615,29 @@ language_munda = {# Munda
 	
 	color = burmese
 }
+# Palaungic Languages
+language_palaungic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_palaungic
+		}
+	}
+	parameters = {
+		language_group_palaungic = yes
+		language_family_austroasiatic = yes
+	}
 
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_palaungic }
+			multiply = 10
+		}
+	}
+
+	color = wa
+}
 
 
 

@@ -12,6 +12,9 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - new background Holding images for South asia and Tibet
 - Updated Tibet's History to better reflect the Era of Fragmnetation.
 - updated to the latest version of CK3
+- added Khalsi culture
+- added some ethnicites from RoA for Tibetans and Burmese
+- Mon has new Cultural Traditions
 
 ## Manual Installation Steps
 

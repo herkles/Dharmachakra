@@ -110,3 +110,11 @@ dharma_dynasty_tibet_01 = {
 	name = "Dorje" 
 	culture = bodpa
 }
+#######################################
+# Khasi Dynasties
+#######################################
+khasid001 = {
+    name = "dynn_Sutnga"
+    culture = khasi
+}
+

@@ -295,7 +295,7 @@
 1245 = {	# 1245 - Srihatta
 	
 	# Misc
-	culture = kachari
+	culture = khasi
 	religion = bathouism
 	
 	holding = tribal_holding
