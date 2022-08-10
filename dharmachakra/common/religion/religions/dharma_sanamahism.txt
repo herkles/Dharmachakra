@@ -134,15 +134,17 @@
 		WaterGodHerHis = CHARACTER_HERHIS_HER
 		WaterGodHerHim = CHARACTER_HERHIM_HER
 
-		#DeathGod
-		DeathGodName = sanamahism_death_name
-		DeathGodNamePossessive = sanamahism_death_name_possessive
-		DeathGodSheHe = CHARACTER_SHEHE_HE
-		DeathGodHerHis = CHARACTER_HERHIS_HIS
-		DeathGodHerHim = CHARACTER_HERHIM_HIM
+		#DeathDeity
+		DeathDeityName = sanamahism_death_name
+		DeathDeityNamePossessive = sanamahism_death_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 
 		#WitchGod
 		WitchGodName = sanamahism_witch_name
+		WitchGodNamePossessive = sanamahism_witch_name_possesive
+
 		WitchGodHerHis = CHARACTER_HERHIS_HER
 		WitchGodSheHe = CHARACTER_SHEHE_SHE
 		WitchGodHerHim = CHARACTER_HERHIM_HER
@@ -174,8 +176,8 @@
 			hinduism_evil_god_krodha
 		}
 		HouseOfWorship = sanamahism_house_of_worship
-		HouseOfWorship2 = bathouism_house_of_worship_2
-		HouseOfWorship3 = bathouism_house_of_worship_3
+		HouseOfWorship2 = sanamahism_house_of_worship_2
+		HouseOfWorship3 = sanamahism_house_of_worship_3
 		HouseOfWorshipPlural = sanamahism_house_of_worship_plural
 		ReligiousSymbol = sanamahism_religious_symbol
 		ReligiousSymbol2 = sanamahism__religious_symbol_2

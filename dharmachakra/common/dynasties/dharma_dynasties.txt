@@ -27,18 +27,7 @@ tripurid001 = {
 #######################################
 # Rajbongshi Dynasties
 #######################################
-rajbongshid001 = {
-	name = "dynn_Dutta" 
-	culture = kachari
-}
-rajbongshid002 = {
-	name = "dynn_Biswas" 
-	culture = kachari
-}
-rajbongshid003 = {
-	name = "dynn_Miah" 
-	culture = kachari
-}
+
 #######################################
 # Munda Dynasties
 #######################################
@@ -106,10 +95,7 @@ gondid002 = {
 #######################################
 # Tibetan Dynasties
 #######################################
-dharma_dynasty_tibet_01 = {
-	name = "Dorje" 
-	culture = bodpa
-}
+
 #######################################
 # Khasi Dynasties
 #######################################

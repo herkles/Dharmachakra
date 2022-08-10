@@ -144,12 +144,12 @@
 		WaterGodHerHis = CHARACTER_HERHIS_HER
 		WaterGodHerHim = CHARACTER_HERHIM_HER
 
-		#DeathGod
-		DeathGodName = bathouism_death_name
-		DeathGodNamePossessive = bathouism_death_name_possessive
-		DeathGodSheHe = CHARACTER_SHEHE_HE
-		DeathGodHerHis = CHARACTER_HERHIS_HIS
-		DeathGodHerHim = CHARACTER_HERHIM_HIM
+		#DeathDeity
+		DeathDeityName = bathouism_death_name
+		DeathDeityNamePossessive = bathouism_death_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 
 		#WitchGod
 		WitchGodName = shaktism_good_god_kali
@@ -158,6 +158,8 @@
 		WitchGodHerHim = CHARACTER_HERHIM_HER
 		WitchGodMistressMaster = mistress
 		WitchGodMotherFather = mother
+        WitchGodNamePossessive= shaktism_good_god_kali_possessive
+		
 
 		PantheonTerm = religion_the_gods
 		PantheonTerm2 = religion_the_gods_2

@@ -64,6 +64,7 @@
 	localization = {
 		#HighGod
 		HighGodName = hinduism_high_god_name
+		HighGodName2 = hinduism_high_god_name
 		HighGodNamePossessive = hinduism_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_ITSELF
