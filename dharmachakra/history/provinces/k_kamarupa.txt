@@ -244,7 +244,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = sanamahi_pagan
+	religion = pagan
 	
 	holding = tribal_holding
 	
@@ -257,7 +257,7 @@
 	
 	# Misc
 	culture = kachari
-	religion = sanamahi_pagan
+	religion = pagan
 	
 	holding = none
 	

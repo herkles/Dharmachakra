@@ -460,7 +460,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = sanamahi_pagan
+	religion = pagan
 	
 	holding = castle_holding
 	
@@ -471,7 +471,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = sanamahi_pagan
+	religion = pagan
 	
 	holding = none
 	
@@ -724,7 +724,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = sanamahi_pagan
+	religion = pagan
 	
 	holding = tribal_holding
 	
@@ -738,7 +738,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = sanamahi_pagan
+	religion = pagan
 	
 	holding = none
 	

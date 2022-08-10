@@ -317,7 +317,7 @@
 	
 	# Misc
 	culture = tripuri
-	religion = sanamahi_pagan
+	religion = pagan
 	
 	holding = tribal_holding
 	
