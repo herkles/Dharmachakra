@@ -1,5 +1,5 @@
-# County of Pagan
-9550 = {	# 9550 - Pagan
+# County of pagan
+9550 = {	# 9550 - pagan
 	
 	# Misc
 	culture = burmese
@@ -460,7 +460,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = pagan
+	religion = sanamahi_pagan
 	
 	holding = castle_holding
 	
@@ -471,7 +471,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = pagan
+	religion = sanamahi_pagan
 	
 	holding = none
 	
@@ -724,7 +724,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = pagan
+	religion = ari
 	
 	holding = tribal_holding
 	
@@ -738,7 +738,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = pagan
+	religion = sanamahi_pagan
 	
 	holding = none
 	

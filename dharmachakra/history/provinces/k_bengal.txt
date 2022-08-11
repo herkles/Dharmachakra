@@ -286,7 +286,7 @@
 
 }
 
-# 851 - Dhakeshwari_Jatiya_Mandir
+# 851 - Dhakeshwari_Jatiya_Mandir 
 851 = {	# 851 - Dhakeshwari_Jatiya_Mandir / Dhakeshwari Jatiya Mandir
 	
 	# Misc
@@ -317,7 +317,7 @@
 	
 	# Misc
 	culture = tripuri
-	religion = pagan
+	religion = sanamahi_pagan
 	
 	holding = tribal_holding
 	
