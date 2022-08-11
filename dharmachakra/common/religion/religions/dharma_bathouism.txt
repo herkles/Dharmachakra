@@ -149,7 +149,6 @@
 		DeathDeityNamePossessive = bathouism_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
-		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 
 		#WitchGod
 		WitchGodName = shaktism_good_god_kali
@@ -219,9 +218,11 @@
 		DivineRealm = hinduism_divine_realm
 		DivineRealm2 = hinduism_divine_realm_2
 		DivineRealm3 = hinduism_divine_realm_3
+
 		PositiveAfterLife = hinduism_positive_afterlife
 		PositiveAfterLife2 = hinduism_positive_afterlife_2
 		PositiveAfterLife3 = hinduism_positive_afterlife_3
+
 		NegativeAfterLife = hinduism_negative_afterlife
 		NegativeAfterLife2 = hinduism_negative_afterlife_2
 		NegativeAfterLife3 = hinduism_negative_afterlife_3
