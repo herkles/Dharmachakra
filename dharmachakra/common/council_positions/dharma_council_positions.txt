@@ -585,7 +585,7 @@ councillor_court_chaplain = {
 	valid_character = {
 		exists = root.liege_or_court_owner
 		can_be_court_chaplain_trigger = { COURT_OWNER = root.liege_or_court_owner }
-		if = {
+		trigger_if = {
 			limit = {
 				OR = {
 					AND = {
