@@ -1,5 +1,9 @@
 name: Check Database Items
-on: [push]
+on:
+  push:
+    branches:
+      - main
+      - master
 jobs:
   check_database_items:
     runs-on: ubuntu-latest
