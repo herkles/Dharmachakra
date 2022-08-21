@@ -1,0 +1,43 @@
+Coding Philosophy Notes:
+
+0). Above all else, code that works is better than code that doesn't or code that's pretty!
+
+1). Whenever possible, write code to a separate file instead of overwriting Vanilla
+
+    Reason: Keeps code base fairly harmonized whenever vanilla updates
+
+2). Make Vanilla overwrites sparse
+    a). If needing to only overwrite some components, create a new file <fname>_dharma_overwrite.txt
+        i). Avoids needless Vanilla inclusion and makes maintenance easier
+    b). If the file is only fixing some issue that is likely caused by PDX, create a new file <fname>_dharma_vanilla_fix.txt
+        i). Makes it clear what should be reviewed after PDX patches
+    b). If Vanilla files must be overwritten (e.g., removal), try to keep meticulous records of what was changed
+        i). Makes maintenance easier if we have explanations as to why changes were need
+    d). Add reasons and file to the _BP_hard_file_overwrites.info for better file tracking
+
+3). CK3 scripting supports quasi-templating like code via $NAME$ semantics, where $NAME$ is replaced inline [1]. Use that to reduce code duplication.
+
+    Reason: Code duplication leads to the risk of some blocks of code being missed and makes maintenance harder
+
+4). Place as many references as possible in common/scripted_effects/ and common/scripted_triggers/ instead of in actionable folders like common/decisions/ or common/laws/
+
+    Reason: Prevents having code spread out across files for ease of maintenance
+
+5). Use script value references in localization whenever possible.
+    a). Example: "[EmptyScope.ScriptValue('the_script_value')]"
+
+    Reason: This makes the localization always up-to-date as we tweak various values in the mod.
+
+Examples
+
+[1] Pseudo-code example make_feudal.txt:
+
+if = {
+	limit = { this.tier >= tier_barony }
+	do_thing = { NAME = this }
+}
+
+common/scripted_effects/effects.txt:
+	do_thing = {
+		$NAME$.holder = { change_government = feudal_government }
+	}

@@ -91,7 +91,6 @@ create_artifact_lankavatara_effect = {
 		save_scope_as = epic
 	}
 }
-
 create_artifact_bhagavad_gita_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }

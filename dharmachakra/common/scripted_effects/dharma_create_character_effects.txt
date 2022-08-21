@@ -73,22 +73,3 @@ dharma_spawn_meton_tsonpo_effect = {# Meton Tsonpo
 		save_scope_as = meton_tsonpo
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
