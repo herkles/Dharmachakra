@@ -1955,21 +1955,21 @@ set_hindu_tradition_effect = {# Hindu Sub-Traditions
 		remove_trait = shavisim_tradition_trika
 		add_piety = massive_piety_loss
 	}
-	else_if = {# Pashupata Shaivism	
+	else_if = {# Pashupata Shaivism
 		limit = {
 			has_trait = shavisim_tradition_siddhanta
 		}
 		remove_trait = shavisim_tradition_siddhanta
 		add_piety = massive_piety_loss
 	}
-	else_if = {# Shaiva Siddhanta	
+	else_if = {# Shaiva Siddhanta
 		limit = {
 			has_trait = shavisim_tradition_nath
 		}
 		remove_trait = shavisim_tradition_nath
 		add_piety = massive_piety_loss
 	}
-	else_if = {# Nath	
+	else_if = {# Nath
 		limit = {
 			has_trait = shavisim_tradition_siddhanta
 		}
@@ -1977,21 +1977,21 @@ set_hindu_tradition_effect = {# Hindu Sub-Traditions
 		add_piety = massive_piety_loss
 	}
 	# Vaishynavism
-	else_if = {# Vaikhanasas	
+	else_if = {# Vaikhanasas
 		limit = {
 			has_trait = vaishnavism_tradition_vaikhanasas
 		}
 		remove_trait = vaishnavism_tradition_vaikhanasas
 		add_piety = massive_piety_loss
 	}
-	else_if = {# Srivaishnavism	
+	else_if = {# Srivaishnavism
 		limit = {
 			has_trait = vaishnavism_tradition_srivaishnavism
 		}
 		remove_trait = vaishnavism_tradition_srivaishnavism
 		add_piety = massive_piety_loss
 	}
-	else_if = {# Pancharatra	
+	else_if = {# Pancharatra
 		limit = {
 			has_trait = vaishnavism_tradition_pancharatra
 		}

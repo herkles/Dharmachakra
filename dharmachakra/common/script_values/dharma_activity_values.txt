@@ -1,9 +1,6 @@
 ﻿#####################################
 # Visitng Places
 #####################################
-dharma_nalanda_visit_threshold = 3
-dharma_sharada_peeth_visit_threshold = 3
-dharma_visit_arrival_duration = 15 # In days
 dharma_learning_visit_cooldown_time = 4382
 #####################################
 # Buddhist Retreat
@@ -16,10 +13,6 @@ short_buddhist_retreat_var = 4
 #####################################
 language_learning_divide_value = 5
 
-current_extra_languages = {
-	value = num_of_known_languages
-	subtract = 1
-}
 language_soft_cap = {
 	value = 1
 	if = {
@@ -76,11 +69,3 @@ language_soft_cap = {
 		add = 1
 	}
 }
-language_soft_cap_modifier_value = {
-	value = num_of_known_languages
-	subtract = language_soft_cap
-}
-
-
-
-
