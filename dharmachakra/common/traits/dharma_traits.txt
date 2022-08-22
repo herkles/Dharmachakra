@@ -756,5 +756,3 @@ hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 	}
 	
 }
-
-

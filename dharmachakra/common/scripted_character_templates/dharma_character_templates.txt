@@ -123,4 +123,3 @@ meton_tsonpo_character_template = {# Meton Tsonpo
 	trait = intellect_good_3
 	random_traits = no
 }
-

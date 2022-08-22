@@ -1,1 +1,2 @@
-﻿
+﻿#Dharacharka effects
+set_hindu_tradition_effect
