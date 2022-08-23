@@ -1,5 +1,5 @@
 ﻿khasi = {
-	color = khasi
+	color = { 106 91 140 }
 
 	ethos = ethos_communal
 	heritage = heritage_palaungic

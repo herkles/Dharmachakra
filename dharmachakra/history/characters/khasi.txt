@@ -5,7 +5,7 @@
 khasi001 = {
 	name = "Urmi_Rani"
 	dynasty = khasid001
-	religion = bathouism
+	religion = khasi_animism
 	culture = khasi
 
 	499.1.1 = {
@@ -20,7 +20,7 @@ khasi001 = {
 khasi002 = {
 	name = "Krishak_Pator"
 	dynasty = khasid001
-	religion = bathouism
+	religion = khasi_animism
 	culture = khasi
 	father = khasi001
 
@@ -36,7 +36,7 @@ khasi002 = {
 khasi003 = {
 	name = "Hatak"
 	dynasty = khasid001
-	religion = bathouism
+	religion = khasi_animism
 	culture = khasi
 	father = khasi002
 
@@ -52,7 +52,7 @@ khasi003 = {
 khasi004 = {
 	name = "Guhak"
 	dynasty = khasid001
-	religion = bathouism
+	religion = khasi_animism
 	culture = khasi
 	father = khasi003
 
@@ -68,7 +68,7 @@ khasi004 = {
 khasi005 = {
 	name = "Jayanta"
 	dynasty = khasid001
-	religion = bathouism
+	religion = khasi_animism
 	culture = khasi
 	father = khasi004
 
@@ -84,7 +84,7 @@ khasi005 = {
 khasi006 = {
 	name = "Joymalla"
 	dynasty = khasid001
-	religion = bathouism
+	religion = khasi_animism
 	culture = khasi
 	father = khasi005
 
@@ -100,7 +100,7 @@ khasi006 = {
 khasi007 = {
 	name = "Mahabal" # ???
 	dynasty = khasid001 # Syiem (King) Sutnga
-	religion = bathouism
+	religion = khasi_animism
 	culture = khasi
 
 	835.1.1 = {

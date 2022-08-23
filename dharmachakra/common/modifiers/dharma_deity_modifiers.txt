@@ -23,7 +23,6 @@ bhakti_hinduism_devnarayan = {# Devnarayan Martial incarnation of Vishnu.
 	tolerance_advantage_mod = 2
 	prowess = 2
 }
-
 bhakti_hinduism_krishna = {# Krishna
 	icon = fertility_positive
 	fertility = 0.25
