@@ -48,41 +48,41 @@
 #######################################
 # Hindu Philosophy Traits
 #######################################
-  trait_hindu_philoosphy_yoga:0 "Yoga Scholar"
-  trait_hindu_philoosphy_yoga_desc:0 "This character is a scholar of the Yoga school of Hindu Philosophy"
-  trait_hindu_philoosphy_yoga_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Yoga School of Hindu Philosophy."
+  trait_hindu_philosophy_yoga:0 "Yoga Scholar"
+  trait_hindu_philosophy_yoga_desc:0 "This character is a scholar of the Yoga school of Hindu Philosophy"
+  trait_hindu_philosophy_yoga_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Yoga School of Hindu Philosophy."
 
-  trait_hindu_philoosphy_samkhya:0 "Samkhya Scholar"
-  trait_hindu_philoosphy_samkhya_desc:0 "This character is a scholar of the Samkhya school of Hindu Philosophy"
-  trait_hindu_philoosphy_samkhya_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Chan School of Hindu Philosophy."
+  trait_hindu_philosophy_samkhya:0 "Samkhya Scholar"
+  trait_hindu_philosophy_samkhya_desc:0 "This character is a scholar of the Samkhya school of Hindu Philosophy"
+  trait_hindu_philosophy_samkhya_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Chan School of Hindu Philosophy."
 
-  trait_hindu_philoosphy_vaisheshika:0 "Vaisheshika Scholar"
-  trait_hindu_philoosphy_vaisheshika_desc:0 "This character is a scholar of the Vaisheshika school of Hindu Philosophy"
-  trait_hindu_philoosphy_vaisheshika_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Vaisheshika School of Hindu Philosophy."
+  trait_hindu_philosophy_vaisheshika:0 "Vaisheshika Scholar"
+  trait_hindu_philosophy_vaisheshika_desc:0 "This character is a scholar of the Vaisheshika school of Hindu Philosophy"
+  trait_hindu_philosophy_vaisheshika_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Vaisheshika School of Hindu Philosophy."
 
-  trait_hindu_philoosphy_mimamsa:0 "Mimamsa Scholar"
-  trait_hindu_philoosphy_mimamsa_desc:0 "This character is a scholar of the Mimamsa school of Hindu Philosophy"
-  trait_hindu_philoosphy_mimamsa_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Mimamsa School of Hindu Philosophy."
+  trait_hindu_philosophy_mimamsa:0 "Mimamsa Scholar"
+  trait_hindu_philosophy_mimamsa_desc:0 "This character is a scholar of the Mimamsa school of Hindu Philosophy"
+  trait_hindu_philosophy_mimamsa_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Mimamsa School of Hindu Philosophy."
 
-  trait_hindu_philoosphy_nyaya:0 "Nyaya Scholar"
-  trait_hindu_philoosphy_nyaya_desc:0 "This character is a scholar of the Nyaya school of Hindu Philosophy"
-  trait_hindu_philoosphy_nyaya_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Nyaya School of Hindu Philosophy."
+  trait_hindu_philosophy_nyaya:0 "Nyaya Scholar"
+  trait_hindu_philosophy_nyaya_desc:0 "This character is a scholar of the Nyaya school of Hindu Philosophy"
+  trait_hindu_philosophy_nyaya_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Nyaya School of Hindu Philosophy."
 
-  trait_hindu_philoosphy_vishishtadvaita:0 "Vishishtadvaita Scholar"
-  trait_hindu_philoosphy_vishishtadvaita_desc:0 "This character is a scholar of the Vishishtadvaita school of Hindu Philosophy"
-  trait_hindu_philoosphy_vishishtadvaita_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Vishishtadvaita School of Hindu Philosophy."
+  trait_hindu_philosophy_vishishtadvaita:0 "Vishishtadvaita Scholar"
+  trait_hindu_philosophy_vishishtadvaita_desc:0 "This character is a scholar of the Vishishtadvaita school of Hindu Philosophy"
+  trait_hindu_philosophy_vishishtadvaita_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Vishishtadvaita School of Hindu Philosophy."
 
-  trait_hindu_philoosphy_advaita_vedanta:0 "Advaita Vedanta Scholar"
-  trait_hindu_philoosphy_advaita_vedanta_desc:0 "This character is a scholar of the Advaita Vedanta school of Hindu Philosophy"
-  trait_hindu_philoosphy_advaita_vedanta_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Advaita Vedanta School of Hindu Philosophy."
+  trait_hindu_philosophy_advaita_vedanta:0 "Advaita Vedanta Scholar"
+  trait_hindu_philosophy_advaita_vedanta_desc:0 "This character is a scholar of the Advaita Vedanta school of Hindu Philosophy"
+  trait_hindu_philosophy_advaita_vedanta_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Advaita Vedanta School of Hindu Philosophy."
 
-  trait_hindu_philoosphy_bhedabheda:0 "Bhedabheda Scholar"
-  trait_hindu_philoosphy_bhedabheda_desc:0 "This character is a scholar of the Bhedabheda school of Hindu Philosophy"
-  trait_hindu_philoosphy_bhedabheda_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Bhedabheda School of Hindu Philosophy."
+  trait_hindu_philosophy_bhedabheda:0 "Bhedabheda Scholar"
+  trait_hindu_philosophy_bhedabheda_desc:0 "This character is a scholar of the Bhedabheda school of Hindu Philosophy"
+  trait_hindu_philosophy_bhedabheda_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Bhedabheda School of Hindu Philosophy."
 
-  trait_hindu_philoosphy_dvaita_vedanta:0 "Dvaita Vedanta Scholar"
-  trait_hindu_philoosphy_dvaita_vedanta_desc:0 "This character is a scholar of the Dvaita Vedanta school of Hindu Philosophy"
-  trait_hindu_philoosphy_dvaita_vedanta_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Dvaita Vedanta School of Hindu Philosophy."
+  trait_hindu_philosophy_dvaita_vedanta:0 "Dvaita Vedanta Scholar"
+  trait_hindu_philosophy_dvaita_vedanta_desc:0 "This character is a scholar of the Dvaita Vedanta school of Hindu Philosophy"
+  trait_hindu_philosophy_dvaita_vedanta_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Dvaita Vedanta School of Hindu Philosophy."
 
 #######################################
 # Shavism Sub-Tradition Traits

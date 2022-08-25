@@ -326,19 +326,19 @@ buddhist_school_kagyu = {# Kagyu
 #######################################
 # Hindu philosophy traits
 #######################################
-hindu_philoosphy_yoga = {# Yoga
+hindu_philosophy_yoga = {# Yoga
 	potential = {
 		faith = { religion_tag = hinduism_religion }
 	}
 	opposites = {
-		hindu_philoosphy_samkhya
-		hindu_philoosphy_vaisheshika
-		hindu_philoosphy_mimamsa
-		hindu_philoosphy_nyaya
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_samkhya
+		hindu_philosophy_vaisheshika
+		hindu_philosophy_mimamsa
+		hindu_philosophy_nyaya
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	lifestyle = yes
@@ -363,26 +363,26 @@ hindu_philoosphy_yoga = {# Yoga
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_yoga_desc
+				desc = trait_hindu_philosophy_yoga_desc
 			}
-			desc = trait_hindu_philoosphy_yoga_character_desc
+			desc = trait_hindu_philosophy_yoga_character_desc
 		}
 	}
 
 }
-hindu_philoosphy_samkhya = {# Samkhya
+hindu_philosophy_samkhya = {# Samkhya
 	potential = {
 		faith = { religion_tag = hinduism_religion }
 	}
 	opposites = {
-		hindu_philoosphy_yoga
-		hindu_philoosphy_vaisheshika
-		hindu_philoosphy_mimamsa
-		hindu_philoosphy_nyaya
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_yoga
+		hindu_philosophy_vaisheshika
+		hindu_philosophy_mimamsa
+		hindu_philosophy_nyaya
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	lifestyle = yes
@@ -409,26 +409,26 @@ hindu_philoosphy_samkhya = {# Samkhya
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_samkhya_desc
+				desc = trait_hindu_philosophy_samkhya_desc
 			}
-			desc = trait_hindu_philoosphy_samkhya_character_desc
+			desc = trait_hindu_philosophy_samkhya_character_desc
 		}
 	}
 
 }
-hindu_philoosphy_vaisheshika = {# Vaisheshika
+hindu_philosophy_vaisheshika = {# Vaisheshika
 	potential = {
 		faith = { religion_tag = hinduism_religion }
 	}
 	opposites = {
-		hindu_philoosphy_yoga
-		hindu_philoosphy_samkhya
-		hindu_philoosphy_mimamsa
-		hindu_philoosphy_nyaya
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_yoga
+		hindu_philosophy_samkhya
+		hindu_philosophy_mimamsa
+		hindu_philosophy_nyaya
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	lifestyle = yes
@@ -456,26 +456,26 @@ hindu_philoosphy_vaisheshika = {# Vaisheshika
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_vaisheshika_desc
+				desc = trait_hindu_philosophy_vaisheshika_desc
 			}
-			desc = trait_hindu_philoosphy_vaisheshika_character_desc
+			desc = trait_hindu_philosophy_vaisheshika_character_desc
 		}
 	}
 
 }
-hindu_philoosphy_mimamsa = {# Mimamsa
+hindu_philosophy_mimamsa = {# Mimamsa
 	potential = {
 		faith = { religion_tag = hinduism_religion }
 	}
 	opposites = {
-		hindu_philoosphy_yoga
-		hindu_philoosphy_samkhya
-		hindu_philoosphy_vaisheshika
-		hindu_philoosphy_nyaya
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_yoga
+		hindu_philosophy_samkhya
+		hindu_philosophy_vaisheshika
+		hindu_philosophy_nyaya
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	lifestyle = yes
@@ -504,26 +504,26 @@ hindu_philoosphy_mimamsa = {# Mimamsa
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_mimamsa_desc
+				desc = trait_hindu_philosophy_mimamsa_desc
 			}
-			desc = trait_hindu_philoosphy_mimamsa_character_desc
+			desc = trait_hindu_philosophy_mimamsa_character_desc
 		}
 	}
 
 }
-hindu_philoosphy_nyaya = {# Nyaya
+hindu_philosophy_nyaya = {# Nyaya
 	potential = {
 		faith = { religion_tag = hinduism_religion }
 	}
 	opposites = {
-		hindu_philoosphy_yoga
-		hindu_philoosphy_samkhya
-		hindu_philoosphy_vaisheshika
-		hindu_philoosphy_mimamsa
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_yoga
+		hindu_philosophy_samkhya
+		hindu_philosophy_vaisheshika
+		hindu_philosophy_mimamsa
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	lifestyle = yes
@@ -553,28 +553,28 @@ hindu_philoosphy_nyaya = {# Nyaya
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_nyaya_desc
+				desc = trait_hindu_philosophy_nyaya_desc
 			}
-			desc = trait_hindu_philoosphy_nyaya_character_desc
+			desc = trait_hindu_philosophy_nyaya_character_desc
 		}
 	}
 
 }
-hindu_philoosphy_vishishtadvaita = {# Vishishtadvaita - School of Vedanta
+hindu_philosophy_vishishtadvaita = {# Vishishtadvaita - School of Vedanta
 	potential = {
 		faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
 		exists = global_var:hindu_philosophy_vishishtadvaita_formed
 	}
 	opposites = {
-		hindu_philoosphy_yoga
-		hindu_philoosphy_samkhya
-		hindu_philoosphy_vaisheshika
-		hindu_philoosphy_mimamsa
-		hindu_philoosphy_nyaya
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_yoga
+		hindu_philosophy_samkhya
+		hindu_philosophy_vaisheshika
+		hindu_philosophy_mimamsa
+		hindu_philosophy_nyaya
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	lifestyle = yes
@@ -604,27 +604,27 @@ hindu_philoosphy_vishishtadvaita = {# Vishishtadvaita - School of Vedanta
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_vishishtadvaita_desc
+				desc = trait_hindu_philosophy_vishishtadvaita_desc
 			}
-			desc = trait_hindu_philoosphy_vishishtadvaita_character_desc
+			desc = trait_hindu_philosophy_vishishtadvaita_character_desc
 		}
 	}
 
 }
-hindu_philoosphy_advaita_vedanta = {# Advaita Vedanta - School of Vedanta
+hindu_philosophy_advaita_vedanta = {# Advaita Vedanta - School of Vedanta
 	potential = {
 		faith = { religion_tag = hinduism_religion }
 	}
 	opposites = {
-		hindu_philoosphy_yoga
-		hindu_philoosphy_samkhya
-		hindu_philoosphy_vaisheshika
-		hindu_philoosphy_mimamsa
-		hindu_philoosphy_nyaya
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_yoga
+		hindu_philosophy_samkhya
+		hindu_philosophy_vaisheshika
+		hindu_philosophy_mimamsa
+		hindu_philosophy_nyaya
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	learning = 3
@@ -651,27 +651,27 @@ hindu_philoosphy_advaita_vedanta = {# Advaita Vedanta - School of Vedanta
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_advaita_vedanta_desc
+				desc = trait_hindu_philosophy_advaita_vedanta_desc
 			}
-			desc = trait_hindu_philoosphy_advaita_vedanta_character_desc
+			desc = trait_hindu_philosophy_advaita_vedanta_character_desc
 		}
 	}
 
 }
-hindu_philoosphy_bhedabheda = {# Bhedabheda - School of Vedanta
+hindu_philosophy_bhedabheda = {# Bhedabheda - School of Vedanta
 	potential = {
 		faith = { religion_tag = hinduism_religion }
 	}
 	opposites = {
-		hindu_philoosphy_yoga
-		hindu_philoosphy_samkhya
-		hindu_philoosphy_vaisheshika
-		hindu_philoosphy_mimamsa
-		hindu_philoosphy_nyaya
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_yoga
+		hindu_philosophy_samkhya
+		hindu_philosophy_vaisheshika
+		hindu_philosophy_mimamsa
+		hindu_philosophy_nyaya
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	lifestyle = yes
@@ -700,28 +700,28 @@ hindu_philoosphy_bhedabheda = {# Bhedabheda - School of Vedanta
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_bhedabheda_desc
+				desc = trait_hindu_philosophy_bhedabheda_desc
 			}
-			desc = trait_hindu_philoosphy_bhedabheda_character_desc
+			desc = trait_hindu_philosophy_bhedabheda_character_desc
 		}
 	}
 
 }
-hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
+hindu_philosophy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 	potential = {
 		faith = { has_doctrine = sampradaya_vaishnavism_doctrine }
 		exists = global_var:hindu_philosophy_dvaita_vedanta_formed
 	}
 	opposites = {
-		hindu_philoosphy_yoga
-		hindu_philoosphy_samkhya
-		hindu_philoosphy_vaisheshika
-		hindu_philoosphy_mimamsa
-		hindu_philoosphy_nyaya
-		hindu_philoosphy_vishishtadvaita
-		hindu_philoosphy_advaita_vedanta
-		hindu_philoosphy_bhedabheda
-		hindu_philoosphy_dvaita_vedanta
+		hindu_philosophy_yoga
+		hindu_philosophy_samkhya
+		hindu_philosophy_vaisheshika
+		hindu_philosophy_mimamsa
+		hindu_philosophy_nyaya
+		hindu_philosophy_vishishtadvaita
+		hindu_philosophy_advaita_vedanta
+		hindu_philosophy_bhedabheda
+		hindu_philosophy_dvaita_vedanta
 	}
 
 	lifestyle = yes
@@ -749,9 +749,9 @@ hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_hindu_philoosphy_dvaita_vedanta_desc
+				desc = trait_hindu_philosophy_dvaita_vedanta_desc
 			}
-			desc = trait_hindu_philoosphy_dvaita_vedanta_character_desc
+			desc = trait_hindu_philosophy_dvaita_vedanta_character_desc
 		}
 	}
 	
