@@ -1,31 +1,33 @@
 ﻿l_english:
  samaveda_name:0 "Samaveda"
- samaveda_description:0 "test"
+ samaveda_description:0 "The Samaveda is one of the four ancient Vedas. This veda is the veda of Melodies and Chants."
 
  yajurveda_name:0 "Yajurveda"
- yajurveda_description:0 "test"
+ yajurveda_description:0 "The Yajurveda is the Veda primarily of prose mantras for worship rituals. It is a compilation of ritual-offering formulas that were said by a priest while an individual performed ritual actions such as those before the yajna fire."
 
  atharvaeda_name:0 "Atharvaeda"
- atharvaeda_description:0 "test"
-
- shiva_purana_name:0 "Shiva Purana"
- shiva_purana_description:0 "test"
-
- shakti_purana_name:0 "Shakti Purana"
- shakti_purana_description:0 "test"
-
- kavirajamarga_name:0 "Kavirajamarga"
- kavirajamarga_description:0 "test"
-
- heart_sutra_name:0 "Heart Sutra"
- heart_sutra_description:0 "test"
-
- lankavatara_name:0 "Lankavatara"
- lankavatara_description:0 "test"
-
- bhagavad_gita_name:0 "Bhagavad Gita"
- bhagavad_gita_description:0 "test"
+ atharvaeda_description:0 "The Atharva Veda is the knowledge storehouse of atharvāṇas, the procedures for everyday life. It focuses on the rituals for everyday life and royal matters over worship rituals."
 
  rigveda_name:0 "Rigveda"
- rigveda_description:0 "test"
+ rigveda_description:0 "The Rigveda is the oldest and biggest of the four Vedas. The Rigveda focuses on cosmology, virtues, philosophical topics, and hymns to the deities. "
+
+ shiva_purana_name:0 "Shiva Purana"
+ shiva_purana_description:0 "The Shiva Purana contains chapters with Shiva-centered cosmology, mythology, relationship between Gods, ethics, yoga, tirtha (pilgrimage) sites, bhakti, rivers and geography, and other topics."
+
+ shakti_purana_name:0 "Devi Bhagavata Purana"
+ shakti_purana_description:0 "This text is considered a Mahapurana for Devi worshippers. It promotes bhakti  towards Mahadevi, as such it is one of the most important texts for Shaktism. It celebrates the divine feminine as the origin of all existence, the creator, the preserver and the destroyer of everything, as well as the one who empowers spiritual liberation."
+
+ kavirajamarga_name:0 "Kavirajamarga"
+ kavirajamarga_description:0 "The Kavirajamarga is the earliest available work on rhetoric, poetics and grammar in the Kannada language. This text was created by King Amoghavarsha. The name literally means 'Royal Path for Poets' and was written as a guide book for poets and scholars."
+
+ heart_sutra_name:0 "Heart Sutra"
+ heart_sutra_description:0 "The Heart Sutra is a condensed exposé on the Buddhist Mahayana teaching of the Two Truths doctrine, which says that ultimately all phenomena are sunyata."
+
+ lankavatara_name:0 "Lankavatara"
+ lankavatara_description:0 "The Laṅkāvatāra Sūtra draws upon the concepts and doctrines of Yogācāra and Buddha-nature. The most important doctrine issuing from the Laṅkāvatāra Sūtra is that of the primacy of consciousness and the teaching of consciousness as the only reality. In the sūtra, the Buddha asserts that all the objects of the world, and the names and forms of experience, are manifestations of the mind."
+
+ bhagavad_gita_name:0 "Bhagavad Gita"
+ bhagavad_gita_description:0 "The Bhagavad Gita is part of the Mahabharata, and it is a dialogue between Prince Arjuna and Krishna. The Krishna–Arjuna dialogues cover a broad range of spiritual topics, touching upon ethical dilemmas, spiritual matters, and philosophical issues that go far beyond the war Arjuna faces."
+
+
  
