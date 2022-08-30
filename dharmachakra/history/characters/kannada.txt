@@ -4,7 +4,7 @@
 175030 = {# Amoghavarsha
 	name = "Amoghavarsha" #Amoghavarsha I of Rashtratuka
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74416
 	# Stats
@@ -26,6 +26,9 @@
 	disallow_random_traits = yes
 	800.1.1 = {
 		birth = yes
+	}
+	821.1.1 = {
+		add_spouse = rashtrakuta003
 	}
 	830.1.1 = {
 		set_primary_title_to = title:k_karnata
@@ -144,10 +147,10 @@
 74417 = {# Krishna
 	name = "Krishna" #Krishna II of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 175030
-
+	mother = rashtrakuta003
 	838.1.1 = {
 		birth = yes
 	}
@@ -158,11 +161,60 @@
 		death = yes
 	}
 }
+rashtrakuta001 = {# Sankha
+	name = "Sankha"
+	female = yes
+	dynasty = 1043003 # Supposedly Ratta
+	religion = "digambara"
+	culture = "kannada"
+	father = 175030
+	mother = rashtrakuta003
+	834.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		add_spouse = 175070
+	}
+	894.1.1 = {
+		death = yes
+	}
+}
+rashtrakuta002 = {# Revakanimmadi
+	name = "Revakanimmadi"
+	female = yes
+	dynasty = 1043003
+	religion = "digambara"
+	culture = "kannada"
+	father = 175030
+	mother = rashtrakuta003
+	820.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		add_spouse = 74692
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+rashtrakuta003 = { # Asagavve
+	name = "Asagavve"
+	female = yes
+	religion = "digambara"
+	culture = "kannada"
+
+	805.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
 74419 = {# Tribhuvana
 	name = "Tribhuvana"
 	dynasty = 1043003
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74417
 	mother = 74418
@@ -171,9 +223,7 @@
 		birth = yes
 	}
 	881.1.1 = {
-		#REMOVED_TRAIT remove_trait = digambara_yapaniya
 		religion = shaivism
-		#REMOVED_TRAIT trait = shaivist_shaivism
 	}
 	933.1.1 = {
 		death = yes
@@ -182,7 +232,7 @@
 74420 = {# Jagattunga
 	name = "Jagattunga"
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74417
 	mother = 74418
@@ -197,7 +247,7 @@
 74421 = {# Indra
 	name = "Indra" #Indra I (III) of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74420
 
@@ -211,7 +261,7 @@
 74422 = {# Amoghavarsha
 	name = "Amoghavarsha" #Amoghavarsa II of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74421
 
@@ -225,7 +275,7 @@
 74423 = {# Govinda
 	name = "Govinda" #Govinda III (IV) of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74421
 
@@ -239,7 +289,7 @@
 74424 = {# Amoghavarsha
 	name = "Amoghavarsha" #Amoghavarsha III of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74420
 
@@ -253,7 +303,7 @@
 74425 = {# Krishna
 	name = "Krishna" #Krishna III of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74424
 
@@ -267,7 +317,7 @@
 74426 = {# Khottiga
 	name = "Khottiga" #Khottiga Amoghavarsha of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74424
 
@@ -281,7 +331,7 @@
 74427 = {# Govinda
 	name = "Govinda"
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74425
 
@@ -295,7 +345,7 @@
 74428 = {# Karka
 	name = "Karka" #Karka (II) of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74763
 
@@ -309,7 +359,7 @@
 74429 = {# Indra
 	name = "Indra" #Indra II (IV) of Rashtrakuta
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74427
 
@@ -407,7 +457,7 @@
 74763 = {# Nirupama
 	name = "Nirupama"
 	dynasty = 1043003
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74424
 
@@ -1727,7 +1777,7 @@ chalukya_queen_2 = {# Sangappai
 74586 = {# Hariganga
 	name = "Hariganga"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 	1038.1.1 = {
@@ -2555,7 +2605,7 @@ chalukya_queen_2 = {# Sangappai
 74676 = {# Konganivarman
 	name = "Konganivarman"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 
@@ -2569,7 +2619,7 @@ chalukya_queen_2 = {# Sangappai
 74677 = {# Madhava
 	name = "Madhava"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74676
 
@@ -2584,7 +2634,7 @@ chalukya_queen_2 = {# Sangappai
 74678 = {# Harivarman
 	name = "Harivarman"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74677
 
@@ -2599,7 +2649,7 @@ chalukya_queen_2 = {# Sangappai
 74679 = {# Vishnugopa
 	name = "Vishnugopa"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74678
 
@@ -2614,7 +2664,7 @@ chalukya_queen_2 = {# Sangappai
 74680 = {# Madhava
 	name = "Madhava"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74679
 
@@ -2629,7 +2679,7 @@ chalukya_queen_2 = {# Sangappai
 74681 = {# Vishnugopa
 	name = "Vishnugopa"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74680
 
@@ -2644,7 +2694,7 @@ chalukya_queen_2 = {# Sangappai
 74682 = {# Avinita
 	name = "Avinita"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74681
 
@@ -2659,7 +2709,7 @@ chalukya_queen_2 = {# Sangappai
 74683 = {# Durvinita
 	name = "Durvinita"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74682
 
@@ -2674,7 +2724,7 @@ chalukya_queen_2 = {# Sangappai
 74684 = {# Mushkara
 	name = "Mushkara"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74683
 
@@ -2689,7 +2739,7 @@ chalukya_queen_2 = {# Sangappai
 74685 = {# Polavira
 	name = "Polavira"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74684
 
@@ -2704,7 +2754,7 @@ chalukya_queen_2 = {# Sangappai
 74686 = {# Srivikrama
 	name = "Srivikrama"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74685
 
@@ -2719,7 +2769,7 @@ chalukya_queen_2 = {# Sangappai
 74687 = {# Bhuvikarma
 	name = "Bhuvikarma"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74686
 
@@ -2734,7 +2784,7 @@ chalukya_queen_2 = {# Sangappai
 74688 = {# Shivamara
 	name = "Shivamara"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74687
 
@@ -2749,7 +2799,7 @@ chalukya_queen_2 = {# Sangappai
 74689 = {# Sripurusha
 	name = "Sripurusha"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74688
 
@@ -2764,7 +2814,7 @@ chalukya_queen_2 = {# Sangappai
 74690 = {# Shivamara
 	name = "Shivamara"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74689
 
@@ -2779,7 +2829,7 @@ chalukya_queen_2 = {# Sangappai
 74691 = {# Rachamala
 	name = "Rachamala"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74690
 
@@ -2794,7 +2844,7 @@ chalukya_queen_2 = {# Sangappai
 74692 = {# Ereganga
 	name = "Ereganga"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74691
 
@@ -2812,7 +2862,7 @@ chalukya_queen_2 = {# Sangappai
 74704 = {# Vishala
 	name = "Vishala"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 
@@ -2826,7 +2876,7 @@ chalukya_queen_2 = {# Sangappai
 74693 = {# Rachamala
 	name = "Rachamala"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74692
 	mother = 74704
@@ -2845,7 +2895,7 @@ chalukya_queen_2 = {# Sangappai
 74703 = {# Ambuda
 	name = "Ambuda"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 
@@ -2859,7 +2909,7 @@ chalukya_queen_2 = {# Sangappai
 74694 = {# Ereganga
 	name = "Ereganga"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74693
 	mother = 74703
@@ -2875,7 +2925,7 @@ chalukya_queen_2 = {# Sangappai
 74695 = {# Narasimha
 	name = "Narasimha"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74694
 
@@ -2890,7 +2940,7 @@ chalukya_queen_2 = {# Sangappai
 74696 = {# Rachamala
 	name = "Rachamala"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74695
 
@@ -2905,7 +2955,7 @@ chalukya_queen_2 = {# Sangappai
 74697 = {# Butuga
 	name = "Butuga"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74695
 
@@ -2920,7 +2970,7 @@ chalukya_queen_2 = {# Sangappai
 74698 = {# Marulaganga
 	name = "Marulaganga"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74695
 
@@ -2935,7 +2985,7 @@ chalukya_queen_2 = {# Sangappai
 74699 = {# Narasimha
 	name = "Narasimha"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74698
 
@@ -2950,7 +3000,7 @@ chalukya_queen_2 = {# Sangappai
 74700 = {# Rachamala
 	name = "Rachamala"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74698
 
@@ -2965,7 +3015,7 @@ chalukya_queen_2 = {# Sangappai
 74701 = {# Rachamala
 	name = "Rachamala"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74700
 
@@ -2980,7 +3030,7 @@ chalukya_queen_2 = {# Sangappai
 74702 = {# Neetimarga
 	name = "Neetimarga"
 	dynasty = 12332
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	father = 74700
 
@@ -3744,7 +3794,7 @@ nidugal_cholas_15 = {# Rajaganesha
 74737 = {# Bankesha
 	name = "Bankesha"
 	dynasty = 12329
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 	trait = education_martial_3
 	trait = strong
@@ -3762,11 +3812,11 @@ nidugal_cholas_15 = {# Rajaganesha
 #######################################
 74748 = {# Merada
 	name = "Merada"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 175030
-
+	mother = rashtrakuta003
 	850.1.1 = {
 		birth = yes
 	}
@@ -3776,8 +3826,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74749 = {# Prithvirama
 	name = "Prithvirama"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74748
 
@@ -3790,8 +3840,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74750 = {# Pittuga
 	name = "Pittuga"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74749
 
@@ -3804,8 +3854,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74751 = {# Shantivarman
 	name = "Shantivarman"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74750
 
@@ -3818,8 +3868,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74752 = {# Nanna
 	name = "Nanna"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74750
 
@@ -3832,8 +3882,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74753 = {# Kartavyria
 	name = "Kartavyria"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74752
 
@@ -3846,8 +3896,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74754 = {# Dayima
 	name = "Dayima"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74753
 
@@ -3860,8 +3910,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74755 = {# Kanna
 	name = "Kanna"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74753
 
@@ -3874,8 +3924,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74756 = {# Erega
 	name = "Erega"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74755
 
@@ -3888,8 +3938,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74757 = {# Anka
 	name = "Anka"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74755
 
@@ -3902,8 +3952,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74758 = {# Sena
 	name = "Sena"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74757
 
@@ -3920,7 +3970,7 @@ nidugal_cholas_15 = {# Rajaganesha
 74768 = {# Mailaladevi
 	name = "Mailaladevi"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 	1027.1.1 = {
@@ -3932,8 +3982,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74759 = {# Kanna
 	name = "Kanna"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74758
 	mother = 74768
@@ -3947,8 +3997,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74760 = {# Kartavyria
 	name = "Kartavyria"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74758
 	mother = 74768
@@ -3966,7 +4016,7 @@ nidugal_cholas_15 = {# Rajaganesha
 74769 = {# Baghaladevi
 	name = "Baghaladevi"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 	1052.1.1 = {
@@ -3978,8 +4028,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74761 = {# Sena
 	name = "Sena"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74760
 	mother = 74769
@@ -3997,7 +4047,7 @@ nidugal_cholas_15 = {# Rajaganesha
 74770 = {# Lakshmidevi
 	name = "Lakshmidevi"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 	1081.1.1 = {
@@ -4009,8 +4059,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74762 = {# Kartavyria
 	name = "Kartavyria"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74761
 	mother = 74770
@@ -4028,7 +4078,7 @@ nidugal_cholas_15 = {# Rajaganesha
 74771 = {# Padmaladevi
 	name = "Padmaladevi"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 	1103.1.1 = {
@@ -4040,8 +4090,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74764 = {# Lakshmideva
 	name = "Lakshmideva"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74762
 	mother = 74771
@@ -4059,7 +4109,7 @@ nidugal_cholas_15 = {# Rajaganesha
 74772 = {# Chandaladevi
 	name = "Chandaladevi"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 	1130.1.1 = {
@@ -4071,8 +4121,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74765 = {# Kartavyria
 	name = "Kartavyria"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74764
 	mother = 74772
@@ -4093,7 +4143,7 @@ nidugal_cholas_15 = {# Rajaganesha
 74773 = {# Echaladevi
 	name = "Echaladevi"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 	1150.1.1 = {
@@ -4106,7 +4156,7 @@ nidugal_cholas_15 = {# Rajaganesha
 74774 = {# Madevi
 	name = "Madevi"
 	female = yes
-	religion = "yapaniya"
+	religion = "digambara"
 	culture = "kannada"
 
 	1163.1.1 = {
@@ -4118,8 +4168,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74766 = {# Mallikarjuna
 	name = "Mallikarjuna"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74764
 	mother = 74772
@@ -4133,8 +4183,8 @@ nidugal_cholas_15 = {# Rajaganesha
 }
 74767 = {# Lakshmideva
 	name = "Lakshmideva"
-	dynasty = 12336
-	religion = "yapaniya"
+	dynasty_house = house_Ratta
+	religion = "digambara"
 	culture = "kannada"
 	father = 74765
 	mother = 74774

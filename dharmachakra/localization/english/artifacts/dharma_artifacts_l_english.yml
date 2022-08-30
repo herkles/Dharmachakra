@@ -1,22 +1,31 @@
 ﻿l_english:
- samaveda_name: "Samaveda"
- samaveda_description: ""
- yajurveda_name: "Yajurveda"
- yajurveda_description: ""
- atharvaeda_name: "Atharvaeda"
- atharvaeda_description: ""
- shiva_purana_name: "Shiva Purana"
- shiva_purana_description: ""
- shakti_purana_name: "Shakti Purana"
- shakti_purana_description: ""
- kavirajamarga_name: "Kavirajamarga"
- kavirajamarga_description: ""
- heart_sutra_name: "Heart Sutra"
- heart_sutra_description: ""
- lankavatara_name: "Lankavatara"
- lankavatara_description: ""
- bhagavad_gita_name: "Bhagavad Gita"
- bhagavad_gita_description: ""
- rigveda_name: "Rigveda"
- rigveda_description: ""
+ samaveda_name:0 "Samaveda"
+ samaveda_description:0 "test"
+
+ yajurveda_name:0 "Yajurveda"
+ yajurveda_description:0 "test"
+
+ atharvaeda_name:0 "Atharvaeda"
+ atharvaeda_description:0 "test"
+
+ shiva_purana_name:0 "Shiva Purana"
+ shiva_purana_description:0 "test"
+
+ shakti_purana_name:0 "Shakti Purana"
+ shakti_purana_description:0 "test"
+
+ kavirajamarga_name:0 "Kavirajamarga"
+ kavirajamarga_description:0 "test"
+
+ heart_sutra_name:0 "Heart Sutra"
+ heart_sutra_description:0 "test"
+
+ lankavatara_name:0 "Lankavatara"
+ lankavatara_description:0 "test"
+
+ bhagavad_gita_name:0 "Bhagavad Gita"
+ bhagavad_gita_description:0 "test"
+
+ rigveda_name:0 "Rigveda"
+ rigveda_description:0 "test"
  
