@@ -1159,14 +1159,14 @@ religion_interior = {
 	# Ganesha Temple Interior
 	#######################################
 	texture = {# Dharma Indian Temple
-		trigger = { 
-			has_doctrine = sampradaya_ganapatism_doctrine
+		trigger = {
+			faith = faith:ganaptism
 		}
-		reference = "interior/dharma_temple_interior.dds"
+		reference = "interior/dharma_temple_ganesha.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
-			has_doctrine = sampradaya_ganapatism_doctrine
+			faith = faith:ganaptism
 		}
 		reference = "environment_event_dharma_temple_ganesha"
 	}
@@ -1175,13 +1175,19 @@ religion_interior = {
 	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
-			has_doctrine = sampradaya_shaktism_doctrine
+			OR = {
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
+			}
 		}
-		reference = "interior/dharma_temple_interior.dds"
+		reference = "interior/dharma_temple_shakti.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
-			has_doctrine = sampradaya_shaktism_doctrine
+			OR = {
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
+			}
 		}
 		reference = "environment_event_dharma_temple_shakti"
 	}
@@ -1195,7 +1201,7 @@ religion_interior = {
 				faith = faith:lamaism
 			}
 		}
-		reference = "interior/dharma_temple_interior.dds"
+		reference = "interior/dharma_temple_tibet.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
@@ -1211,13 +1217,33 @@ religion_interior = {
 	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
-			has_doctrine = tribal_religion
+			OR = {
+				religion = religion:tani_religion
+				religion = religion:mundhum_religion
+				religion = religion:bathouism_religion
+				religion = religion:peristani_religion
+				religion = religion:khasi_religion
+				religion = religion:sanamahism_religion
+				religion = religion:qiangic_religion
+				faith = faith:sarnaism
+				faith = faith:koyapunem
+			}
 		}
-		reference = "interior/dharma_temple_interior.dds"
+		reference = "interior/dharma_temple_tribal.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
-			has_doctrine = tribal_religion
+			OR = {
+				religion = religion:tani_religion
+				religion = religion:mundhum_religion
+				religion = religion:bathouism_religion
+				religion = religion:peristani_religion
+				religion = religion:khasi_religion
+				religion = religion:sanamahism_religion
+				religion = religion:qiangic_religion
+				faith = faith:sarnaism
+				faith = faith:koyapunem
+			}
 		}
 		reference = "environment_event_dharma_temple_tribal"
 	}
@@ -1228,7 +1254,7 @@ religion_interior = {
 		trigger = { 
 			faith = faith:krishnaism
 		}
-		reference = "interior/dharma_temple_interior.dds"
+		reference = "interior/dharma_temple_krishna.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
@@ -1241,13 +1267,13 @@ religion_interior = {
 	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
-			has_doctrine = sampradaya_vaishnavism_doctrine
+			faith = faith:vaishnavism
 		}
-		reference = "interior/dharma_temple_interior.dds"
+		reference = "interior/dharma_temple_vishnu.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
-			has_doctrine = sampradaya_vaishnavism_doctrine
+			faith = faith:vaishnavism
 		}
 		reference = "environment_event_dharma_temple_vishnu"
 	}	
@@ -1345,7 +1371,15 @@ religion_interior = {
 #######################################
 religion_holding = {
 
-
+	texture = {	# Temple Holding - Tibetan
+		trigger = {
+			OR = {
+				religion = religion:bon_religion
+				faith = faith:lamaism
+			}
+		}
+		reference = "holding_types/temple_tibet.dds"
+	}
 	texture = {	# Temple Holding - Indian
 		trigger = {
 			OR = {
