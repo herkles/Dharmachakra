@@ -1,20 +1,16 @@
-﻿### Character interior background
-
-#######################################
+﻿#######################################
 # Character interior background
 #######################################
 character_view_bg = {
-
-	######################################
-
-	# Dead
+	#######################################
+	# Dead 
+	#######################################
 	texture = {
 		reference = "event_scenes/temple.dds"
 		trigger = {
 			is_alive = no
 		}
 	}
-
 	environment = {
 		reference = "environment_event_temple"
 
@@ -22,10 +18,9 @@ character_view_bg = {
 			is_alive = no
 		}
 	}
-
-	##########################################
-
-	# Wandering
+	#######################################
+	# Wandering 
+	#######################################
 	texture = {
 		reference = "event_scenes/tavern.dds"
 
@@ -36,7 +31,6 @@ character_view_bg = {
 			}
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_tavern"
 
@@ -48,7 +42,6 @@ character_view_bg = {
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_tavern_spouse"
 
@@ -76,10 +69,107 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-	
-	##########################################
-	
-	# 'Feudal'/High-tier Norse, or non-Tribals in Scandinavia
+	#######################################
+	# Tibetan
+	#######################################
+	texture = {
+		reference = "character_view/dharma_tibet_throneroom.dds"
+
+		trigger = {
+			has_graphical_tibet_region_trigger = yes
+		}
+	}
+	environment = {
+		reference = "environment_cw_tibet_main"
+
+		trigger = {
+			is_character_window_main_character = yes
+			has_graphical_tibet_region_trigger = yes
+		}
+	}
+	environment = {
+		reference = "environment_cw_tibet_spouse"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_graphical_tibet_region_trigger = yes
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						has_graphical_tibet_region_trigger = yes
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	#######################################
+	# Tribal Indian
+	#######################################	
+	texture = {
+		reference = "character_view/dharma_tribal_throneroom.dds"
+
+		trigger = {
+			has_government = tribal_government
+			OR = {
+				has_graphical_india_region_trigger = yes
+				has_graphical_burma_region_trigger = yes
+				has_graphical_tibet_region_trigger = yes
+			}
+		}
+	}
+	environment = {
+		reference = "environment_cw_tribal_india_main"
+
+		trigger = {
+			has_government = tribal_government
+			is_character_window_main_character = yes
+			OR = {
+				has_graphical_india_region_trigger = yes
+				has_graphical_burma_region_trigger = yes
+				has_graphical_tibet_region_trigger = yes
+			}
+		}
+	}
+	environment = {
+		reference = "environment_cw_tribal_india_spouse"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						has_government = tribal_government
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+							has_graphical_tibet_region_trigger = yes
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						has_government = tribal_government
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+							has_graphical_tibet_region_trigger = yes
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	#######################################
+	# Feudal Norse 
+	#######################################	
 	texture = { # FP1 Norse
 		reference = "character_view/fp1_throneroom_nontribal.dds"
 
@@ -140,7 +230,6 @@ character_view_bg = {
 			}
 		}
 	}
-
 	environment = {
 		reference = "environment_fp1_cw_nontribal_main"
 
@@ -202,7 +291,6 @@ character_view_bg = {
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_fp1_cw_nontribal_spouse"
 
@@ -246,10 +334,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-	
-	##########################################
-	
-	# Tribal Norse
+	#######################################
+	# Tribal Norse 
+	#######################################
 	texture = { # FP1 Norse
 		reference = "character_view/fp1_throneroom_tribal.dds"
 
@@ -294,7 +381,6 @@ character_view_bg = {
 			}
 		}
 	}
-
 	environment = {
 		reference = "environment_fp1_cw_tribal_main"
 
@@ -340,7 +426,6 @@ character_view_bg = {
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_fp1_cw_tribal_spouse"
 
@@ -372,10 +457,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# Tribal
+	#######################################
+	# Tribal 
+	#######################################
 	texture = {
 		reference = "character_view/throneroom_tribal.dds"
 
@@ -383,7 +467,6 @@ character_view_bg = {
 			has_government = tribal_government
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_tribal_main"
 
@@ -392,7 +475,6 @@ character_view_bg = {
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_tribal_spouse"
 
@@ -414,10 +496,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# Iberian, high rank
+	#######################################
+	# Iberian, high rank 
+	#######################################
 	texture = {
 		reference = "character_view/fp2_throneroom_iberian.dds"
 
@@ -428,7 +509,6 @@ character_view_bg = {
 			has_graphical_iberia_region_trigger = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_fp2_iberian_throneroom_main"
 
@@ -439,7 +519,6 @@ character_view_bg = {
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_fp2_iberian_throneroom_spouse"
 
@@ -465,9 +544,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-	# Iberian, regular
+	#######################################
+	# Iberian, regular 
+	#######################################
 	texture = {
 		reference = "character_view/fp2_iberian.dds"
 
@@ -476,7 +555,6 @@ character_view_bg = {
 			has_graphical_iberia_region_trigger = yes		
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_fp2_iberian"
 
@@ -485,7 +563,6 @@ character_view_bg = {
 			is_character_window_main_character = yes		
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_fp2_iberian_spouse"
 
@@ -503,10 +580,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	############################################
-
-	# Mediterranean, high rank
+	#######################################
+	# Mediterranean, high rank 
+	#######################################
 	texture = {
 		reference = "character_view/throneroom_mediterranean.dds"
 
@@ -516,7 +592,6 @@ character_view_bg = {
 			has_graphical_mediterranean_region_trigger = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_mediterranean_throneroom_main"
 
@@ -527,7 +602,6 @@ character_view_bg = {
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_mediterranean_throneroom_spouse"
 
@@ -553,9 +627,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-	# Mediterranean, regular
+	#######################################
+	# Mediterranean, regular 
+	#######################################
 	texture = {
 		reference = "character_view/mediterranean.dds"
 
@@ -563,7 +637,6 @@ character_view_bg = {
 			has_graphical_mediterranean_region_trigger = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_mediterranean_main"
 
@@ -572,7 +645,6 @@ character_view_bg = {
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_mediterranean_spouse"
 
@@ -594,10 +666,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# Eastern, high rank
+	#######################################
+	# Eastern, high rank 
+	#######################################
 	texture = {
 		reference = "character_view/throneroom_east.dds"
 
@@ -607,7 +678,6 @@ character_view_bg = {
 			has_graphical_mena_region_trigger = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_east_throneroom_main"
 
@@ -618,7 +688,6 @@ character_view_bg = {
 			has_graphical_mena_region_trigger = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_east_throneroom_spouse"
 
@@ -644,10 +713,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# Eastern, regular
+	#######################################
+	#  Eastern, regular 
+	#######################################
 	texture = {
 		reference = "character_view/mena.dds"
 
@@ -655,7 +723,6 @@ character_view_bg = {
 			has_graphical_mena_region_trigger = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_east_main"
 
@@ -664,7 +731,6 @@ character_view_bg = {
 			has_graphical_mena_region_trigger = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_east_spouse"
 
@@ -686,31 +752,34 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# India, high rank
+	#######################################
+	# India, high rank 
+	#######################################
 	texture = {
 		reference = "character_view/throneroom_india.dds"
 
 		trigger = {
 			exists = primary_title
 			primary_title.tier >= tier_empire
-			has_graphical_india_region_trigger = yes
+			OR = {
+				has_graphical_india_region_trigger = yes
+				has_graphical_burma_region_trigger = yes
+			}
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_india_throneroom_main"
 
 		trigger = {
 			exists = primary_title
 			primary_title.tier >= tier_empire
-			has_graphical_india_region_trigger = yes
+			OR = {
+				has_graphical_india_region_trigger = yes
+				has_graphical_burma_region_trigger = yes
+			}
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_india_throneroom_spouse"
 
@@ -721,7 +790,10 @@ character_view_bg = {
 					primary_spouse = {
 						exists = primary_title
 						primary_title.tier >= tier_empire
-						has_graphical_india_region_trigger = yes
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}
 					}
 				}
 				AND = {
@@ -729,59 +801,69 @@ character_view_bg = {
 					betrothed = {
 						exists = primary_title
 						primary_title.tier >= tier_empire
-						has_graphical_india_region_trigger = yes
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}
 					}
 				}
 			}
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# India, regular
+	#######################################
+	# India, regular 
+	#######################################
 	texture = {
 		reference = "character_view/india.dds"
 
 		trigger = {
-			has_graphical_india_region_trigger = yes
+			OR = {
+				has_graphical_india_region_trigger = yes
+				has_graphical_burma_region_trigger = yes
+			}
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_india_main"
 
 		trigger = {
 			is_character_window_main_character = yes
-			has_graphical_india_region_trigger = yes
+			OR = {
+				has_graphical_india_region_trigger = yes
+				has_graphical_burma_region_trigger = yes
+			}
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_india_spouse"
-
 		trigger = {
 			OR = {
 				AND = {
 					exists = primary_spouse
 					primary_spouse = {
-						has_graphical_india_region_trigger = yes
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}
 					}
 				}
 				AND = {
 					exists = betrothed
 					betrothed = {
-						has_graphical_india_region_trigger = yes
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}
 					}
 				}
 			}
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# Western, high rank
+	#######################################
+	# Western, high rank 
+	#######################################
 	texture = {
 		reference = "character_view/throneroom_west.dds"
 
@@ -791,7 +873,6 @@ character_view_bg = {
 			has_graphical_western_region_trigger = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_west"
 
@@ -803,7 +884,6 @@ character_view_bg = {
 
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_west_spouse"
 		trigger = {
@@ -828,10 +908,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# Western, regular
+	#######################################
+	# Western, regular 
+	#######################################
 	texture = {
 		reference = "character_view/west.dds"
 
@@ -839,11 +918,9 @@ character_view_bg = {
 			has_graphical_western_region_trigger = yes
 		}
 	}
-
 	texture = {
 		reference = "character_view/west.dds"
 	}
-
 	environment = {
 		reference = "environment_cw_west"
 
@@ -852,7 +929,6 @@ character_view_bg = {
 			is_character_window_main_character = yes
 		}
 	}
-
 	environment = {
 		reference = "environment_cw_west_spouse"
 		trigger = {
@@ -873,10 +949,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
-	##########################################
-
-	# Fallback Environment
+	#######################################
+	# Fallback Environment 
+	#######################################
 	environment = {
 		reference = "environment_event_temple"
 	}
