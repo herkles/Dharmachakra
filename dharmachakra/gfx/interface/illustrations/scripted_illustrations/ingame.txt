@@ -882,12 +882,32 @@ character_view_bg = {
 	}
 }
 character_location_exterior = {
-	texture = {# Market East
+	texture = {# Tribal India
+		reference = "event_scenes/dharma_tribal_village.dds"
+		trigger = {
+			has_graphical_india_region_trigger = yes
+			has_government = tribal_government
+		}
+	}
+	texture = {# Kashmir and Himalayas
 		reference = "event_scenes/dharma_snow_hall.dds"
 		trigger = {
-			OR = {
-				has_graphical_india_region_trigger = yes
+			exists = capital_province
+			capital_province = {
+				geographical_region = world_india_kashmir
 			}
+		}
+	}
+	texture = {# General Tibetan
+		reference = "event_scenes/dharma_tibet_temple_exterior.dds"
+		trigger = {
+			has_graphical_tibet_region_trigger = yes
+		}
+	}	
+	texture = {# General Indian
+		reference = "event_scenes/dharma_city_entrence.dds"
+		trigger = {
+			has_graphical_india_region_trigger = yes
 		}
 	}	
 	texture = {# Plains
@@ -1105,27 +1125,6 @@ character_location_exterior = {
 			}
 		}
 	}
-	texture = {# Market East
-		reference = "event_scenes/market_east.dds"
-
-		trigger = {
-			has_government = tribal_government
-			exists = capital_province
-			capital_province = {
-				geographical_region = world_tibet
-			}
-		}
-	}
-	texture = {# Market East
-		reference = "event_scenes/market_east.dds"
-
-		trigger = {
-			exists = capital_province
-			capital_province = {
-				geographical_region = world_steppe
-			}
-		}
-	}
 	texture = {# Market Tribal
 		reference = "event_scenes/market_tribal.dds"
 
@@ -1155,9 +1154,9 @@ character_location_exterior = {
 # Religious interior
 #######################################
 religion_interior = {
-	# #######################################
-	# # Ganesha Temple Interior
-	# #######################################
+	########################################
+	# Ganesha Temple Interior
+	########################################
 	texture = {# Dharma Indian Temple
 		trigger = {
 			this = faith:ganaptism
@@ -1170,9 +1169,9 @@ religion_interior = {
 		}
 		reference = "environment_event_dharma_temple_ganesha"
 	}
-	# #######################################
-	# # Shakti Temple Interior
-	# #######################################
+	#######################################
+	# Shakti Temple Interior
+	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
 			OR = {
@@ -1247,9 +1246,9 @@ religion_interior = {
 		}
 		reference = "environment_event_dharma_temple_tribal"
 	}
-	# #######################################
-	# # Krishna Temple Interior
-	# #######################################
+	#######################################
+	# Krishna Temple Interior
+	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
 			this = faith:krishnaism
@@ -1262,9 +1261,9 @@ religion_interior = {
 		}
 		reference = "environment_event_dharma_temple_krishna"
 	}
-	# #######################################
-	# # Vishnu Temple Interior
-	# #######################################
+	#######################################
+	# Vishnu Temple Interior
+	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
 			this = faith:vaishnavism
@@ -1276,27 +1275,34 @@ religion_interior = {
 			this = faith:vaishnavism
 		}
 		reference = "environment_event_dharma_temple_vishnu"
+	}
+	########################################
+	# Buddhism Temple Interior
+	########################################
+	texture = {# Dharma Indian Temple
+		trigger = {
+			religion = religion:buddhism_religion
+		}
+		reference = "interior/dharma_temple_buddhism.dds"
+	}
+	environment = {# Dharma Indian Temple
+		trigger = { 
+			religion = religion:buddhism_religion
+		}
+		reference = "environment_event_dharma_temple_buddhism"
 	}	
 	#######################################
 	# Indian Temple Interior
 	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
-			OR = {
-				religion = religion:hinduism_religion
-				religion = religion:buddhism_religion
-				religion = religion:jainism_religion
-			}
+			religion = { is_in_family = rf_eastern }
 		}
 		reference = "event_scenes/dharma_temple_interior.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
-			OR = {
-				religion = religion:hinduism_religion
-				religion = religion:buddhism_religion
-				religion = religion:jainism_religion
-			}
+			religion = { is_in_family = rf_eastern }
 		}
 		reference = "environment_event_dharma_temple_general"
 	}

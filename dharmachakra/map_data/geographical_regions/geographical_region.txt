@@ -485,7 +485,14 @@ world_india = {
 	}
 }
 
-
+world_india_kashmir = {
+	duchies = {
+		#Himalaya
+		d_kurmanchal d_khasa d_nepal d_limbuwan
+		#Kashmir
+		d_kasmira
+	}
+}
 ###########################################################################
 # Material Regions
 ###########################################################################
