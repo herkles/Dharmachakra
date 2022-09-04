@@ -200,6 +200,7 @@
   raise_hero_stone_decision_tooltip:0 "Pay for the carving of a runestone in one of your counties"
   dharma_raise_hero_stone_decision_confirm:0 "But what to carve?"
   dharma_raised_hero_stone_vassals:0 "$EFFECT_LIST_BULLET$All [direct_vassals|E] that also use Hero Stone"
+
   dharma_hero_stone_decision_ancestor:0 "You have a recently deceased ancestor"
 
 

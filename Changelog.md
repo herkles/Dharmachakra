@@ -20,6 +20,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - updated historical database to be more accurate
 - added backgrounds for Tibetan and Indian Tribal Rulers
 - added GFX for Dharmic and Eastern Faiths in the religion menues.
+- Dravidians can build hero stones for their ancestors.
 
 ## Manual Installation Steps
 
