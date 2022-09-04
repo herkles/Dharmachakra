@@ -267,6 +267,69 @@ start_hunt_decision = {
 		}
 	}
 }
+dharma_raise_hero_stone_decision = {
+	title = dharma_raise_hero_stone_decision_name
+	picture = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
+	desc = raise_hero_stone_decision_desc
+	selection_tooltip = raise_hero_stone_decision_tooltip
+	major = yes
+
+	cooldown = { years = 10 }
+	
+	sort_order = 80
+
+	is_shown = {
+		# Landed characters only: nobody likes a mercenary.
+		is_landed = yes
+		primary_title.tier > tier_barony
+		# Holds a suitable culture 
+		culture = { has_cultural_pillar = heritage_dravidian }
+	}
+
+	is_valid = {
+		custom_description = {# Got to have a suitable Ancestor worthy of a Hero Stone
+			text = dharma_hero_stone_decision_ancestor
+			has_variable = ancestor_to_bury
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		# Standard checks.
+		is_available_adult = yes
+		# Shouldn't be at war.
+		is_at_war = no
+	}
+
+	cost = { gold = raise_stele_gold_cost }
+
+	effect = {
+		# Save the gold value for refund purposes.
+		set_variable = {
+			name = raise_stele_refund
+			value = raise_stele_gold_cost
+		}
+		# Generic effects.
+		show_as_tooltip = { 
+			dharma_hero_stone_bonuses_effect = yes 
+		}
+		# Show type effects.
+		custom_tooltip = dharma_hero_stone_decision_tt.effects_list
+		# Moved ahead to selection.
+		trigger_event = dharma_dravidian.001
+	}
+
+	ai_check_interval = 36
+	
+	ai_potential = {
+		# Only take it if you can afford it.
+		short_term_gold >= raise_stele_gold_cost
+	}
+
+	ai_will_do = {
+		# We don't want too many Hero Stones all over the place.
+		base = 50
+	}
+}
 #######################################
 # Select Personal diety
 #######################################
@@ -1084,9 +1147,7 @@ initiate_consolamentum_decision = {# Commite Selkhana decision
 			add_piety_level = 1
 		}
 		death = { death_reason = death_suicide}
-		show_as_tooltip = {
-			add_piety_level = 1
-		}
+		show_as_tooltip = {	add_piety_level = 1	}
 	}
 
 	ai_check_interval = 60

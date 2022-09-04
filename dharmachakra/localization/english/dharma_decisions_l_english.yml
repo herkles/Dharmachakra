@@ -114,7 +114,6 @@
   dharma_vedic_animal_sacrifice_tooltip:0 "You will sacrifice Animals to the heavens"
   dharma_vedic_animal_sacrifice_costs_tooltip:0 "Potential boons depend on how grand the sacrifice is and what type of animal you sacrifice.  #weak (Minimum cost: @gold_icon! 50)#!"
 
-
   # Visit Sharada Peeth
   dharma_visit_sharada_peeth:0 "Visit the Temple Complex of Sharada Peeth"
   dharma_visit_sharada_peeth_desc:0 "Sharada Peeth is a temple complex and center of learning in Kashmir that attracts scholars from around India."
@@ -192,7 +191,16 @@
     dharma_attend_gangaur_festival_confirm:0 "You will celebrate Gangaur."
     dharma_decision_gangaur_month_requirement:0 "Gangaur takes place around March or April in the Gregorian Calendar."
 
-
+#######################################
+# Dravidian Decisions
+#######################################
+  dharma_raise_hero_stone_decision_name:0 "Raise Hero Stone"
+  raise_hero_stone_decision_desc:0 "The Death of an ancestor might be cause to celebrate their life and important events, particularly military ones. Perhaps I could benefit from erecting a Hero Stone..."
+  dharma_hero_stone_decision_tt.effects_list:0 "One of your [counties|E] will receive one of the following [modifiers|E]:\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_ancestors_strong').GetNameWithTooltip]"
+  raise_hero_stone_decision_tooltip:0 "Pay for the carving of a runestone in one of your counties"
+  dharma_raise_hero_stone_decision_confirm:0 "But what to carve?"
+  dharma_raised_hero_stone_vassals:0 "$EFFECT_LIST_BULLET$All [direct_vassals|E] that also use Hero Stone"
+  dharma_hero_stone_decision_ancestor:0 "You have a recently deceased ancestor"
 
 
 

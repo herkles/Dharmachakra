@@ -399,7 +399,17 @@ dharma_gangaur_market = {
 	county_opinion_add = 10
 	tax_mult = 0.05
 }
+##########################################
+# Hero Stone Modifiers 
+##########################################
+dharma_hero_stone_ancestors_strong = {
+	icon = rock_positive
+	county_opinion_add = 20
+}
 
-
+dharma_hero_stone_ancestors_weak = {
+	icon = rock_positive
+	county_opinion_add = 10
+}
 
 

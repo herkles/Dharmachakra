@@ -280,3 +280,20 @@ dharma_events_historical_pulse = {# for Historical Events
 
 	}
 }
+#######################################
+# History Title Pulse
+#######################################
+on_title_gain = {
+	events = {
+		dharma_dravidian.003	# FP1: new holder of a county with a runestone
+	}
+}
+#######################################
+# Death Pulse
+#######################################
+on_death = {
+	events = {
+		dharma_dravidian.004
+	}
+}
+
