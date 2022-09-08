@@ -19,12 +19,16 @@ character_view_bg = {
 		}
 	}
 	#######################################
-	# Wandering 
+	# Wandering drunk/reveler
 	#######################################
 	texture = {
-		reference = "event_scenes/tavern.dds"
+		reference = "character_view/tavern.dds"
 
 		trigger = {
+			OR = {
+				has_trait = drunkard
+				has_trait = lifestyle_reveler
+			}
 			NOR = {
 				exists = liege
 				exists = host
@@ -35,6 +39,10 @@ character_view_bg = {
 		reference = "environment_cw_tavern"
 
 		trigger = {
+			OR = {
+				has_trait = drunkard
+				has_trait = lifestyle_reveler
+			}
 			NOR = {
 				exists = liege
 				exists = host
@@ -44,6 +52,345 @@ character_view_bg = {
 	}
 	environment = {
 		reference = "environment_cw_tavern_spouse"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						OR = {
+							has_trait = drunkard
+							has_trait = lifestyle_reveler
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						NOR = {
+							OR = {
+								has_trait = drunkard
+								has_trait = lifestyle_reveler
+							}
+							exists = liege
+							exists = host
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	#######################################
+	# Wandering coastal
+	#######################################
+	texture = {
+		reference = "character_view/docks.dds"
+
+		trigger = {
+			exists = location
+			location = {
+				is_coastal = yes
+			}
+			NOR = {
+				exists = liege
+				exists = host
+			}
+		}
+	}
+	environment = {
+		reference = "environment_event_docks"
+
+		trigger = {
+			exists = location
+			location = {
+				is_coastal = yes
+			}
+			NOR = {
+				exists = liege
+				exists = host
+			}
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_docks"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = location
+						location = {
+							is_coastal = yes
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = location
+						location = {
+							is_coastal = yes
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	#######################################
+	# Wandering europe
+	#######################################
+	texture = {
+		reference = "character_view/crossroads_inn.dds"
+
+		trigger = {
+			exists = location
+			location = {
+				geographical_region = world_europe
+			}
+			NOR = {
+				exists = liege
+				exists = host
+			}
+		}
+	}
+	environment = {
+		reference = "environment_event_bp1_crossroads_inn"
+
+		trigger = {
+			exists = location
+			location = {
+				geographical_region = world_europe
+			}
+			NOR = {
+				exists = liege
+				exists = host
+			}
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_bp1_crossroads_inn"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = location
+						location = {
+							geographical_region = world_europe
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = location
+						location = {
+							geographical_region = world_europe
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	#######################################
+	# Wandering mena
+	#######################################
+	texture = {
+		reference = "character_view/courtyard_mena.dds"
+
+		trigger = {
+			exists = location
+			location = {
+				OR = {
+					geographical_region = world_middle_east
+					geographical_region = world_middle_east_persia
+				}
+			}
+			NOR = {
+				exists = liege
+				exists = host
+			}
+		}
+	}
+	environment = {
+		reference = "environment_event_bp1_courtyard_mena"
+
+		trigger = {
+			exists = location
+			location = {
+				OR = {
+					geographical_region = world_middle_east
+					geographical_region = world_middle_east_persia
+				}
+			}
+			NOR = {
+				exists = liege
+				exists = host
+			}
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_bp1_courtyard_mena"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = location
+						location = {
+							OR = {
+								geographical_region = world_middle_east
+								geographical_region = world_middle_east_persia
+							}
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = location
+						location = {
+							OR = {
+								geographical_region = world_middle_east
+								geographical_region = world_middle_east_persia
+							}
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	#######################################
+	# Wandering india
+	#######################################
+	texture = {
+		reference = "character_view/courtyard_indian.dds"
+
+		trigger = {
+			exists = location
+			location = {
+				geographical_region = world_india
+			}
+			NOR = {
+				exists = liege
+				exists = host
+			}
+		}
+	}
+	environment = {
+		reference = "environment_event_bp1_courtyard_indian"
+
+		trigger = {
+			exists = location
+			location = {
+				geographical_region = world_india
+			}
+			NOR = {
+				exists = liege
+				exists = host
+			}
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_bp1_courtyard_indian"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = location
+						location = {
+							geographical_region = world_india
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = location
+						location = {
+							geographical_region = world_india
+						}
+						NOR = {
+							exists = liege
+							exists = host
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	#######################################
+	# Wandering fallback
+	#######################################
+	texture = {
+		reference = "character_view/bonfire.dds"
+
+		trigger = {
+			NOR = {
+				exists = liege
+				exists = host
+			}
+		}
+	}
+	environment = {
+		reference = "environment_event_bp1_bonfire"
+
+		trigger = {
+			NOR = {
+				exists = liege
+				exists = host
+			}
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_bp1_bonfire"
 
 		trigger = {
 			OR = {
@@ -986,7 +1333,7 @@ character_location_exterior = {
 		}
 	}	
 	texture = {# Plains
-		reference = "terrain_types/plains.dds"
+		reference = "event_scenes/bp1_plains.dds"
 
 		trigger = {
 			NOT = {
@@ -1103,7 +1450,7 @@ character_location_exterior = {
 		}
 	}
 	texture = {# Desert
-		reference = "event_scenes/desert.dds"
+		reference = "event_scenes/bp1_desert.dds"
 
 		trigger = {
 			NOT = {
@@ -1783,5 +2130,178 @@ artifact_regional_pattern = {
 	# Fallback
 	texture = {
 		reference = "regional_patterns/mask_pattern_western.dds"
+	}
+}
+#######################################
+# Private location background  
+#######################################
+character_private = {
+	#######################################
+	# Dead 
+	#######################################
+	texture = {# Dead
+		reference = "event_scenes/temple.dds"
+		trigger = {
+			is_alive = no
+		}
+	}
+	#######################################
+	# Norse 
+	#######################################
+	texture = {# Norse ruler
+		# Just hangin' at the runestone & thinking of things
+		reference = "event_scenes/fp1_runestone.dds"
+
+		trigger = {
+			exists = primary_title
+			OR = {
+				culture = culture:norse
+				religion = religion:germanic_religion
+				has_graphical_scandinavia_region_trigger = yes
+			}
+		}
+	}
+	texture = {# Norse
+		reference = "event_scenes/fp1_tribal_temple.dds"
+
+		trigger = {
+			OR = {
+				culture = culture:norse
+				religion = religion:germanic_religion
+				has_graphical_scandinavia_region_trigger = yes
+			}
+		}
+	}
+	#######################################
+	# Tribal 
+	#######################################
+	texture = {# Tribal, landed
+		# Todo [DB]: No real nice picture for a tribal landed character
+		reference = "event_scenes/fp1_tribal_temple.dds"
+
+		trigger = {
+			exists = primary_title
+			has_government = tribal_government
+		}
+	}
+	texture = {# Tribal
+		reference = "event_scenes/fp1_steward_study.dds"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = host
+					host = {
+						has_government = tribal_government
+					}
+				}
+				AND = {
+					exists = liege
+					liege = {
+						has_government = tribal_government
+					}
+				}
+			}
+		}
+	}
+	#######################################
+	# Iberian 
+	#######################################
+	texture = {# Iberian, landed
+		reference = "event_scenes/bp1_relaxing_room_mena.dds"
+
+		trigger = {
+			exists = primary_title
+			has_graphical_iberia_region_trigger = yes
+		}
+	}
+	texture = {# Iberian, regular
+		reference = "event_scenes/sittingroom.dds"
+
+		trigger = {
+			has_graphical_iberia_region_trigger = yes
+		}
+	}
+	#######################################
+	# Mediterranean 
+	#######################################
+	texture = {# Mediterranean, landed
+
+		reference = "event_scenes/fp2_garden.dds"
+
+		trigger = {
+			exists = primary_title
+			has_graphical_mediterranean_region_trigger = yes
+		}
+	}
+	texture = {# Mediterranean
+		reference = "event_scenes/study.dds"
+
+		trigger = {
+			has_graphical_mediterranean_region_trigger = yes
+		}
+	}
+	#######################################
+	# Eastern 
+	#######################################
+	texture = {	# Eastern, landed
+		reference = "event_scenes/fp2_corridor_day.dds"
+
+		trigger = {
+			exists = primary_title
+			has_graphical_mena_region_trigger = yes
+		}
+	}	
+	texture = {	# Eastern, regular
+		reference = "event_scenes/bp1_courtyard_mena.dds"
+
+		trigger = {
+			has_graphical_mena_region_trigger = yes
+		}
+	}
+	#######################################
+	# India 
+	#######################################
+	texture = {# India, high rank
+		reference = "event_scenes/bp1_corridor_indian_day.dds"
+
+		trigger = {
+			exists = primary_title
+			has_graphical_india_region_trigger = yes
+		}
+	}
+	texture = {	# India, regular
+		reference = "event_scenes/bp1_courtyard_indian.dds"
+
+		trigger = {
+			has_graphical_india_region_trigger = yes
+		}
+	}
+	#######################################
+	# Western 
+	#######################################
+	texture = {	# Western, high rank
+		reference = "event_scenes/bp1_relaxing_room_western.dds"
+
+		trigger = {
+			exists = primary_title
+			has_graphical_western_region_trigger = yes
+		}
+	}	
+	texture = {# Western, regular
+		reference = "event_scenes/study.dds"
+
+		trigger = {
+			has_graphical_western_region_trigger = yes
+		}
+	}
+	#######################################
+	# Fallbacks 
+	#######################################
+	texture = {
+		reference = "interior/temple.dds"
+	}
+	environment = {
+		reference = "environment_event_temple"
 	}
 }
