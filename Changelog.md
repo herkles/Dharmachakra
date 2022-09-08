@@ -8,10 +8,10 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 
 ## Changelog
 
+- updated to the latest version of CK3
 - two new bookmarks - Tripartite Struggle and Era of Fragmentation
 - new background Holding images for South asia and Tibet
 - Updated Tibet's History to better reflect the Era of Fragmnetation.
-- updated to the latest version of CK3
 - added Khalsi culture - a matrilieanial culture in North East India. 
 - Added the Niam Tre - The Khasi Ethnic Religion
 - added some ethnicites from RoA for Tibetans and Burmese
