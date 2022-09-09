@@ -1,103 +1,104 @@
 ﻿### EVENT BACKGROUNDS LIST:
-# alley_night 				[event:/SFX/Events/Backgrounds/city_alley_night]
-# alley_day 				[event:/SFX/Events/Backgrounds/city_alley_day_western]
-# armory 					[event:/SFX/Events/Backgrounds/armory]
-# battlefield 				[event:/SFX/Events/Backgrounds/battlefield_gloomy]
-# temple 			
-# temple_scope 		
-# temple_church 			[event:/SFX/Events/Backgrounds/temple_christian]
-# temple_mosque 			[event:/SFX/Events/Backgrounds/temple_muslim]
-# temple_generic 			[event:/SFX/Events/Backgrounds/temple_generic]
-# corridor_night 			[event:/SFX/Events/Backgrounds/castle_corridor_night]
-# corridor_day 				[event:/SFX/Events/Backgrounds/castle_corridor_day]
-# council_chamber			[event:/SFX/Events/Backgrounds/meetingchamber_western]
-# courtyard					[event:/SFX/Events/Backgrounds/castle_courtyard_western]
-# dungeon					[event:/SFX/Events/Backgrounds/dungeon]
-# wilderness		
-# wilderness_scope
-# wilderness_desert 		[event:/SFX/Events/Backgrounds/desert_day]
-# wilderness_forest 		[event:/SFX/Events/Backgrounds/deciduous_forest_day]
-# wilderness_forest_pine 	[event:/SFX/Events/Backgrounds/coniferous_forest_day]
-# wilderness_mountains 		[event:/SFX/Events/Backgrounds/mountains_day]
-# wilderness_steppe 		[event:/SFX/Events/Backgrounds/steppe_day]
-# wilderness_wetlands
-# wilderness_jungle
-# plains
-# hills
-# drylands
-# ocean
-# terrain
-# terrain_scope
-# terrain_activity
-# docks 					[event:/SFX/Events/Backgrounds/docks_day]
-# farmland 					[event:/SFX/Events/Backgrounds/fields_farms_day]
-# feast 					[event:/SFX/Events/Backgrounds/feasthall]
-# gallows 					[event:/SFX/Events/Backgrounds/gallows_execution_platform]
-# garden 					[event:/SFX/Events/Backgrounds/desert_day]
-# market
-# market_east 				[event:/SFX/Events/Backgrounds/town_market_middleeastern_day]
-# market_tribal 			[event:/SFX/Events/Backgrounds/townmarket_day_tribal_pagan]
-# market_west 				[event:/SFX/Events/Backgrounds/townmarket_western_day]
-# burning_building 			[event:/SFX/Events/Backgrounds/burning_building]
-# sitting_room 				[event:/SFX/Events/Backgrounds/sittingroom_fireplace]
-# study 					[event:/SFX/Events/Backgrounds/office_workplace]
-# physicians_study 			[event:/SFX/Events/Backgrounds/physicians_office_western]
-# tavern 					[event:/SFX/Events/Backgrounds/corner_of_tavern]
-# throne_room
-# throne_room_scope
-# throne_room_east 			[event:/SFX/Events/Backgrounds/throneroom_middleeastern_african]
-# throne_room_india			[event:/SFX/Events/Backgrounds/throneroom_middleeastern_african] # TODO_Audio Placeholder por Indian Throneroom
-# throne_room_mediterranean	[event:/SFX/Events/Backgrounds/throneroom_mediterranean]
-# throne_room_tribal		[event:/SFX/Events/Backgrounds/throneroom_tribal_pagan]
-# throne_room_west			[event:/SFX/Events/Backgrounds/throneroom_western]
-# army_camp					[event:/SFX/Events/Backgrounds/camp_generic_day]
+	# alley_night 				[event:/SFX/Events/Backgrounds/city_alley_night]
+	# alley_day 				[event:/SFX/Events/Backgrounds/city_alley_day_western]
+	# armory 					[event:/SFX/Events/Backgrounds/armory]
+	# battlefield 				[event:/SFX/Events/Backgrounds/battlefield_gloomy]
+	# temple 			
+	# temple_scope 		
+	# temple_church 			[event:/SFX/Events/Backgrounds/temple_christian]
+	# temple_mosque 			[event:/SFX/Events/Backgrounds/temple_muslim]
+	# temple_generic 			[event:/SFX/Events/Backgrounds/temple_generic]
+	# corridor_night 			[event:/SFX/Events/Backgrounds/castle_corridor_night]
+	# corridor_day 				[event:/SFX/Events/Backgrounds/castle_corridor_day]
+	# council_chamber			[event:/SFX/Events/Backgrounds/meetingchamber_western]
+	# courtyard					[event:/SFX/Events/Backgrounds/castle_courtyard_western]
+	# dungeon					[event:/SFX/Events/Backgrounds/dungeon]
+	# wilderness		
+	# wilderness_scope
+	# wilderness_desert 		[event:/SFX/Events/Backgrounds/desert_day]
+	# wilderness_forest 		[event:/SFX/Events/Backgrounds/deciduous_forest_day]
+	# wilderness_forest_pine 	[event:/SFX/Events/Backgrounds/coniferous_forest_day]
+	# wilderness_mountains 		[event:/SFX/Events/Backgrounds/mountains_day]
+	# wilderness_steppe 		[event:/SFX/Events/Backgrounds/steppe_day]
+	# wilderness_wetlands
+	# wilderness_jungle
+	# plains
+	# hills
+	# drylands
+	# ocean
+	# terrain
+	# terrain_scope
+	# terrain_activity
+	# docks 					[event:/SFX/Events/Backgrounds/docks_day]
+	# farmland 					[event:/SFX/Events/Backgrounds/fields_farms_day]
+	# feast 					[event:/SFX/Events/Backgrounds/feasthall]
+	# gallows 					[event:/SFX/Events/Backgrounds/gallows_execution_platform]
+	# garden 					[event:/SFX/Events/Backgrounds/desert_day]
+	# market
+	# market_east 				[event:/SFX/Events/Backgrounds/town_market_middleeastern_day]
+	# market_tribal 			[event:/SFX/Events/Backgrounds/townmarket_day_tribal_pagan]
+	# market_west 				[event:/SFX/Events/Backgrounds/townmarket_western_day]
+	# burning_building 			[event:/SFX/Events/Backgrounds/burning_building]
+	# sitting_room 				[event:/SFX/Events/Backgrounds/sittingroom_fireplace]
+	# study 					[event:/SFX/Events/Backgrounds/office_workplace]
+	# physicians_study 			[event:/SFX/Events/Backgrounds/physicians_office_western]
+	# tavern 					[event:/SFX/Events/Backgrounds/corner_of_tavern]
+	# throne_room
+	# throne_room_scope
+	# throne_room_east 			[event:/SFX/Events/Backgrounds/throneroom_middleeastern_african]
+	# throne_room_india			[event:/SFX/Events/Backgrounds/throneroom_middleeastern_african] # TODO_Audio Placeholder por Indian Throneroom
+	# throne_room_mediterranean	[event:/SFX/Events/Backgrounds/throneroom_mediterranean]
+	# throne_room_tribal		[event:/SFX/Events/Backgrounds/throneroom_tribal_pagan]
+	# throne_room_west			[event:/SFX/Events/Backgrounds/throneroom_western]
+	# army_camp					[event:/SFX/Events/Backgrounds/camp_generic_day]
 
-### FP1 ### 
+	### FP1 ### 
 
-# FP1 Beached longships 	[event:/DLC/FP1/SFX/Events/event_beached_longships]
-# FP1 Ocean longships 		[event:/DLC/FP1/SFX/Events/event_ocean_longship]
-# FP1 Prison 				[event:/DLC/FP1/SFX/Events/event_prison]
-# FP1 Runestone				[event:/DLC/FP1/SFX/Events/event_runestone]
-# FP1 Steward Study	 		[event:/DLC/FP1/SFX/Events/event_steward_study]
-# FP1 Viking Temple 		[event:/DLC/FP1/SFX/Events/event_temple]
-# FP1 Throneroom Nontribal 	[event:/DLC/FP1/SFX/Events/event_throneroom_nontribal]
-# FP1 Throneroom			[event:/DLC/FP1/SFX/Events/event_throneroom]
-# FP1 Ting Stone Circle 	[event:/DLC/FP1/SFX/Events/event_ting_stone_circle]
-# FP1 Tribal Corridor 		[event:/DLC/FP1/SFX/Events/event_tribal_corridor]
-# FP1 Viking Feast 			[event:/DLC/FP1/SFX/Events/event_viking_feast]
+	# FP1 Beached longships 	[event:/DLC/FP1/SFX/Events/event_beached_longships]
+	# FP1 Ocean longships 		[event:/DLC/FP1/SFX/Events/event_ocean_longship]
+	# FP1 Prison 				[event:/DLC/FP1/SFX/Events/event_prison]
+	# FP1 Runestone				[event:/DLC/FP1/SFX/Events/event_runestone]
+	# FP1 Steward Study	 		[event:/DLC/FP1/SFX/Events/event_steward_study]
+	# FP1 Viking Temple 		[event:/DLC/FP1/SFX/Events/event_temple]
+	# FP1 Throneroom Nontribal 	[event:/DLC/FP1/SFX/Events/event_throneroom_nontribal]
+	# FP1 Throneroom			[event:/DLC/FP1/SFX/Events/event_throneroom]
+	# FP1 Ting Stone Circle 	[event:/DLC/FP1/SFX/Events/event_ting_stone_circle]
+	# FP1 Tribal Corridor 		[event:/DLC/FP1/SFX/Events/event_tribal_corridor]
+	# FP1 Viking Feast 			[event:/DLC/FP1/SFX/Events/event_viking_feast]
 
-### FP2 ##
+	### FP2 ##
 
-# FP2 corridor_day		[event:/DLC/FP2/SFX/Events/corridor_day]
-# FP2 corridor_night		[event:/DLC/FP2/SFX/Events/corridor_night]
-# FP2 courtyard			[event:/DLC/FP2/SFX/Events/courtyard]
-# FP2 garden			[event:/DLC/FP2/SFX/Events/garden]
-# FP2 prison			[event:/DLC/FP2/SFX/Events/prison]
-# FP2 relaxing_room		[event:/DLC/FP2/SFX/Events/relaxing_room]
-# FP2 temple			[event:/DLC/FP2/SFX/Events/temple]
-# FP2 throneroom		[event:/DLC/FP2/SFX/Events/throneroom]
+	# FP2 corridor_day		[event:/DLC/FP2/SFX/Events/corridor_day]
+	# FP2 corridor_night		[event:/DLC/FP2/SFX/Events/corridor_night]
+	# FP2 courtyard			[event:/DLC/FP2/SFX/Events/courtyard]
+	# FP2 garden			[event:/DLC/FP2/SFX/Events/garden]
+	# FP2 prison			[event:/DLC/FP2/SFX/Events/prison]
+	# FP2 relaxing_room		[event:/DLC/FP2/SFX/Events/relaxing_room]
+	# FP2 temple			[event:/DLC/FP2/SFX/Events/temple]
+	# FP2 throneroom		[event:/DLC/FP2/SFX/Events/throneroom]
 
-### Iberian Struggle ###
+	### Iberian Struggle ###
 
-# fp2_fullscreen_intro 
-# fp2_fullscreen_hostility
-# fp2_fullscreen_compromise 
-# fp2_fullscreen_conciliation 
+	# fp2_fullscreen_intro 
+	# fp2_fullscreen_hostility
+	# fp2_fullscreen_compromise 
+	# fp2_fullscreen_conciliation 
 
-### BP1 ###
+	### BP1 ###
 
-# bp1_indian_corridor_night
-# bp1_relaxing_room_western
-# bp1_indian_corridor_day
-# bp1_relaxing_room_mena
-# bp1_courtyard_indian
-# bp1_courtyard_mena
-# bp1_kitchen_western
-# bp1_bonfire
-# bp1_wine_cellar
+	# bp1_indian_corridor_night
+	# bp1_relaxing_room_western
+	# bp1_indian_corridor_day
+	# bp1_relaxing_room_mena
+	# bp1_courtyard_indian
+	# bp1_courtyard_mena
+	# bp1_kitchen_western
+	# bp1_bonfire
+	# bp1_wine_cellar
 
-
-### ALLEY ###
+#######################################
+# ALLEY
+#######################################
 alley_night = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/alley.dds"
@@ -105,7 +106,6 @@ alley_night = {
 		ambience = "event:/SFX/Events/Backgrounds/city_alley_night"
 	}
 }
-
 alley_day = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/alley_day.dds"
@@ -113,8 +113,9 @@ alley_day = {
 		ambience = "event:/SFX/Events/Backgrounds/city_alley_day_western"
 	}
 }
-
-### ARMORY ###
+#######################################
+# ARMORY
+#######################################
 armory = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/armory.dds"
@@ -122,8 +123,9 @@ armory = {
 		ambience = "event:/SFX/Events/Backgrounds/armory"
 	}
 }
-
-### BATTLEFIELD ###
+#######################################
+# BATTLEFIELD
+#######################################
 battlefield = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/battlefield.dds"
@@ -131,9 +133,20 @@ battlefield = {
 		ambience = "event:/SFX/Events/Backgrounds/battlefield_gloomy"
 	}
 }
-
-### TEMPLE ###
+#######################################
+# TEMPLE
+#######################################
 temple = {
+	background = {# Indian Temples
+		trigger = {
+			OR = {
+				capital_province.culture = { has_building_gfx = indian_building_gfx }
+			}
+		}
+		reference = "gfx/interface/illustrations/event_scenes/dharma_temple_interior_event.dds"
+		environment = "environment_event_dharma_temple_indian"
+		ambience = "event:/SFX/Events/Backgrounds/temple_generic"
+	}
 	background = {	#FP2
 		trigger = {
 			OR = {
@@ -145,7 +158,6 @@ temple = {
 		environment = "environment_event_fp2_temple"
 		ambience = "event:/DLC/FP2/SFX/Events/temple" 
 	}
-
 	background = {
 		trigger = {
 			faith = { religion = religion:christianity_religion }
@@ -176,7 +188,6 @@ temple = {
 		ambience = "event:/SFX/Events/Backgrounds/temple_generic"
 	}
 }
-
 temple_scope = {
 	background = {
 		trigger = {
@@ -208,7 +219,6 @@ temple_scope = {
 		ambience = "event:/SFX/Events/Backgrounds/temple_generic"
 	}
 }
-
 temple_church = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/church.dds"
@@ -216,7 +226,6 @@ temple_church = {
 		ambience = "event:/SFX/Events/Backgrounds/temple_christian"
 	}
 }
-
 temple_mosque = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/mosque.dds"
@@ -224,7 +233,6 @@ temple_mosque = {
 		ambience = "event:/SFX/Events/Backgrounds/temple_muslim"
 	}
 }
-
 temple_generic = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/church.dds"
@@ -232,8 +240,16 @@ temple_generic = {
 		ambience = "event:/SFX/Events/Backgrounds/temple_generic"
 	}
 }
-
-### CORRIDOR ###
+fp1_tribal_temple = {
+	background = {	# Viking temple
+		reference = "gfx/interface/illustrations/event_scenes/fp1_tribal_temple.dds"
+		environment = "environment_event_fp1_tribal_temple"
+		ambience = "event:/DLC/FP1/SFX/Events/event_temple"
+	}
+}
+#######################################
+# CORRIDOR
+#######################################
 corridor_night = {
 	background = {	#FP2
 		trigger = {
@@ -271,7 +287,6 @@ corridor_night = {
 		ambience = "event:/SFX/Events/Backgrounds/castle_corridor_night"
 	}
 }
-
 corridor_day = {
 	background = {	#FP2
 		trigger = {
@@ -309,8 +324,30 @@ corridor_day = {
 		ambience = "event:/SFX/Events/Backgrounds/castle_corridor_day"
 	}
 }
-
-### COUNCIL CHAMBER ###
+fp1_tribal_corridor = {
+	background = {	# Tribal Corridor
+		reference = "gfx/interface/illustrations/event_scenes/fp1_tribal_corridor.dds"
+		environment = "environment_event_fp1_tribal_corridor"
+		ambience = "event:/DLC/FP1/SFX/Events/event_tribal_corridor"
+	}
+}
+bp1_indian_corridor_night = {
+	background = {	#Indian Corridor
+		reference = "gfx/interface/illustrations/event_scenes/bp1_corridor_indian_night.dds"
+		environment = "environment_event_bp1_corridor_indian_night" 
+		ambience = "event:/SFX/Events/Backgrounds/castle_corridor_night"
+	}
+}
+bp1_indian_corridor_day = {
+	background = {	#Indian Corridor
+		reference = "gfx/interface/illustrations/event_scenes/bp1_corridor_indian_day.dds"
+		environment = "environment_event_bp1_corridor_indian_day"
+		ambience = "event:/SFX/Events/Backgrounds/castle_corridor_day"
+	}
+}
+#######################################
+# COUNCIL CHAMBER
+#######################################
 council_chamber = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/councilchamber.dds"
@@ -318,8 +355,9 @@ council_chamber = {
 		ambience = "event:/SFX/Events/Backgrounds/meetingchamber_western"
 	}
 }
-
-### COURTYARD ###
+#######################################
+# COURTYARD
+#######################################
 courtyard = {
 	background = {	#FP2
 		trigger = {
@@ -356,8 +394,23 @@ courtyard = {
 		ambience = "event:/SFX/Events/Backgrounds/castle_courtyard_western"
 	}
 }
-
-### DUNGEON ###
+bp1_courtyard_indian = {
+	background = {	#Indian Courtyard
+		reference = "gfx/interface/illustrations/event_scenes/bp1_courtyard_indian.dds"
+		environment = "environment_event_bp1_courtyard_indian" 
+		ambience = "event:/SFX/Events/Backgrounds/castle_courtyard_western"
+	}
+}
+bp1_courtyard_mena = {
+	background = {	#MENA Courtyard
+		reference = "gfx/interface/illustrations/event_scenes/bp1_courtyard_mena.dds"
+		environment = "environment_event_bp1_courtyard_mena"
+		ambience = "event:/SFX/Events/Backgrounds/castle_courtyard_western"
+	}
+}
+#######################################
+# DUNGEON
+#######################################
 dungeon = {
 	background = {	#FP2
 		trigger = {
@@ -389,9 +442,16 @@ dungeon = {
 		ambience = "event:/SFX/Events/Backgrounds/dungeon"
 	}
 }
-
-
-### WILDERNESS ###
+fp1_tribal_prison = {
+	background = {	# Prison
+		reference = "gfx/interface/illustrations/event_scenes/fp1_tribal_prison.dds"
+		environment = "environment_event_fp1_tribal_prison"
+		ambience = "event:/DLC/FP1/SFX/Events/event_prison"
+	}
+}
+#######################################
+# WILDERNESS
+#######################################
 wilderness = {
 	background = { #Desert
 		trigger = {
@@ -511,7 +571,6 @@ wilderness = {
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
 }
-
 wilderness_scope = {
 	background = { #Desert
 		trigger = {
@@ -641,7 +700,6 @@ wilderness_scope = {
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
 }
-
 wilderness_desert = {
 	background = { #Desert
 		reference = "gfx/interface/illustrations/event_scenes/bp1_desert.dds"
@@ -649,7 +707,6 @@ wilderness_desert = {
 		ambience = "event:/SFX/Events/Backgrounds/desert_day"
 	}
 }
-
 wilderness_forest = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/forest.dds"
@@ -657,7 +714,6 @@ wilderness_forest = {
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
 }
-
 wilderness_wetlands = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/bp1_wetlands.dds"
@@ -665,7 +721,6 @@ wilderness_wetlands = {
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
 }
-
 wilderness_jungle = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/bp1_jungle.dds"
@@ -673,7 +728,6 @@ wilderness_jungle = {
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
 }
-
 wilderness_forest_pine = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/forest_pine.dds"
@@ -681,7 +735,6 @@ wilderness_forest_pine = {
 		ambience = "event:/SFX/Events/Backgrounds/coniferous_forest_day"
 	}
 }
-
 wilderness_mountains = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/mountains.dds"
@@ -689,7 +742,6 @@ wilderness_mountains = {
 		ambience = "event:/SFX/Events/Backgrounds/mountains_day"
 	}
 }
-
 wilderness_steppe = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/steppe.dds"
@@ -697,7 +749,6 @@ wilderness_steppe = {
 		ambience = "event:/SFX/Events/Backgrounds/steppe_day"
 	}
 }
-
 drylands = { #Formerly Desert
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/drylands.dds"
@@ -705,7 +756,6 @@ drylands = { #Formerly Desert
 		ambience = "event:/SFX/Events/Backgrounds/desert_day"
 	}
 }
-
 ocean = {
 	background = { #ocean
 		reference = "gfx/interface/illustrations/event_scenes/bp1_ocean.dds"
@@ -713,7 +763,6 @@ ocean = {
 		ambience = "event:/DLC/FP1/SFX/Events/event_ocean_longship"
 	}
 }
-
 plains = {
 	background = { #plains
 		reference = "gfx/interface/illustrations/event_scenes/bp1_plains.dds"
@@ -721,7 +770,6 @@ plains = {
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
 	}
 }
-
 hills = {
 	background = { #hills
 		reference = "gfx/interface/illustrations/event_scenes/bp1_hills.dds"
@@ -729,8 +777,9 @@ hills = {
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
 	}
 }
-
-### TERRAIN ###
+#######################################
+# TERRAIN
+#######################################
 terrain = {
 	background = {
 		trigger = {
@@ -742,7 +791,6 @@ terrain = {
 		environment = "environment_event_farms"
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
 	}
-
 	background = { #Desert
 		trigger = {
 			capital_province = {
@@ -752,9 +800,7 @@ terrain = {
 		reference = "gfx/interface/illustrations/event_scenes/bp1_desert.dds"
 		environment = "environment_event_bp1_desert"
 		ambience = "event:/SFX/Events/Backgrounds/desert_day"
-	}
-
-	
+	}	
 	background = { #forest_pine
 		trigger = {
 			capital_province = {
@@ -765,7 +811,6 @@ terrain = {
 		environment = "environment_event_forest_pine"
 		ambience = "event:/SFX/Events/Backgrounds/coniferous_forest_day"
 	}
-
 	background = { #forest
 		trigger = {
 			capital_province = {
@@ -776,7 +821,6 @@ terrain = {
 		environment = "environment_event_forest"
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
-
 	background = { #mountains
 		trigger = {
 			capital_province = {
@@ -787,7 +831,6 @@ terrain = {
 		environment = "environment_event_mountains"
 		ambience = "event:/SFX/Events/Backgrounds/mountains_day"
 	}
-
 	background = { #steppe
 		trigger = {
 			capital_province = {
@@ -798,7 +841,6 @@ terrain = {
 		environment = "environment_event_steppe"
 		ambience = "event:/SFX/Events/Backgrounds/steppe_day"
 	}
-
 	background = { #drylands (formerly desert)
 		trigger = {
 			capital_province = {
@@ -809,7 +851,6 @@ terrain = {
 		environment = "environment_event_desert"
 		ambience = "event:/SFX/Events/Backgrounds/desert_day"
 	}
-
 	background = { #wetlands
 		trigger = {
 			capital_province = {
@@ -820,7 +861,6 @@ terrain = {
 		environment = "environment_event_bp1_wetlands" 
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
-
 	background = { #jungle
 		trigger = {
 			capital_province = {
@@ -831,7 +871,6 @@ terrain = {
 		environment = "environment_event_bp1_jungle"
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
-
 	background = { #plains
 		trigger = {
 			capital_province = {
@@ -842,7 +881,6 @@ terrain = {
 		environment = "environment_event_bp1_plains"
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
 	}
-
 	background = { #hills
 		trigger = {
 			capital_province = {
@@ -853,14 +891,12 @@ terrain = {
 		environment = "environment_event_bp1_hills"
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
 	}
-
 	background = { #Fallback
 		reference = "gfx/interface/illustrations/event_scenes/forest.dds"
 		environment = "environment_event_forest"
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
 }
-
 terrain_scope = {
 	background = {
 		trigger = {
@@ -1001,7 +1037,6 @@ terrain_scope = {
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
 }
-
 terrain_activity = {
 	background = {
 		trigger = {
@@ -1142,8 +1177,9 @@ terrain_activity = {
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
 }
-
-### DOCKS ###
+#######################################
+# DOCKS
+#######################################
 docks = {
 	background = {
 		trigger = {
@@ -1162,8 +1198,9 @@ docks = {
 		ambience = "event:/SFX/Events/Backgrounds/docks_day"
 	}
 }
-
-### FARMLAND ###
+#######################################
+# FARMLAND
+#######################################
 farmland = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/farms.dds"
@@ -1171,8 +1208,9 @@ farmland = {
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
 	}
 }
-
-### FEAST ###
+#######################################
+# FEAST
+#######################################
 feast = {
 	background = {	# FP1
 		trigger = {
@@ -1191,8 +1229,16 @@ feast = {
 		ambience = "event:/SFX/Events/Backgrounds/feasthall"
 	}
 }
-
-### GALLOWS ###
+fp1_viking_feast = {
+	background = {	# viking Feast
+		reference = "gfx/interface/illustrations/event_scenes/fp1_viking_feast.dds"
+		environment = "environment_event_fp1_viking_feast"
+		ambience = "event:/DLC/FP1/SFX/Events/event_viking_feast"
+	}
+}
+#######################################
+# GALLOWS
+#######################################
 gallows = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/gallows.dds"
@@ -1200,8 +1246,9 @@ gallows = {
 		ambience = "event:/SFX/Events/Backgrounds/gallows_execution_platform"
 	}
 }
-
-### GARDEN ###
+#######################################
+# GARDEN
+#######################################
 garden = {
 	background = {	#FP2
 		trigger = {
@@ -1221,8 +1268,9 @@ garden = {
 		ambience = "event:/SFX/Events/Backgrounds/castle_garden_day"
 	}
 }
-
-### MARKET ###
+#######################################
+# MARKET
+#######################################
 market = {
 
 	background = { #Eastern
@@ -1268,7 +1316,6 @@ market = {
 		ambience = "event:/SFX/Events/Backgrounds/townmarket_western_day"
 	}
 }
-
 market_east = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/market_east.dds"
@@ -1276,7 +1323,6 @@ market_east = {
 		ambience = "event:/SFX/Events/Backgrounds/town_market_middleeastern_day"
 	}
 }
-
 market_india = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/market_india.dds"
@@ -1284,7 +1330,6 @@ market_india = {
 		ambience = "event:/SFX/Events/Backgrounds/townmarket_western_day"
 	}
 }
-
 market_tribal = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/market_tribal.dds"
@@ -1292,7 +1337,6 @@ market_tribal = {
 		ambience = "event:/SFX/Events/Backgrounds/townmarket_day_tribal_pagan"
 	}
 }
-
 market_west = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/market_west.dds"
@@ -1300,8 +1344,9 @@ market_west = {
 		ambience = "event:/SFX/Events/Backgrounds/townmarket_western_day"
 	}
 }
-
-### BURNING BUILDING ###
+#######################################
+# BURNING BUILDING
+#######################################
 burning_building = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/raid_burning.dds"
@@ -1309,8 +1354,9 @@ burning_building = {
 		ambience = "event:/SFX/Events/Backgrounds/burning_building"
 	}
 }
-
-### SITTING ROOM ###
+#######################################
+# SITTING ROOM
+#######################################
 sitting_room = {
 	background = {	#FP2
 		trigger = {
@@ -1330,8 +1376,9 @@ sitting_room = {
 		ambience = "event:/SFX/Events/Backgrounds/sittingroom_fireplace"
 	}
 }
-
-### BEDCHAMBER ###
+#######################################
+# BEDCHAMBER
+#######################################
 bedchamber = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/bedchamber.dds"
@@ -1339,8 +1386,9 @@ bedchamber = {
 		ambience = "event:/SFX/Events/Backgrounds/bedchamber" #TODO: Replace with bedchamber ambience 
 	}
 }
-
-### STUDY ###
+#######################################
+# Study
+#######################################
 study = {
 	background = {	#Tribal Study
 		trigger = {
@@ -1360,9 +1408,9 @@ study = {
 		ambience = "event:/SFX/Events/Backgrounds/office_workplace"
 	}
 }
-
-### RELAXING ROOM ###
-
+#######################################
+# RELAXING ROOM
+#######################################
 relaxing_room = {
 	background = { #MENA Relaxing Room
 		trigger = {
@@ -1384,10 +1432,23 @@ relaxing_room = {
 		ambience = "event:/SFX/Events/Backgrounds/office_workplace"
 	}
 }
-
-
-
-### PHYSICIAN'S STUDY ###
+bp1_relaxing_room_western = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp1_relaxing_room_western.dds"
+		environment = "environment_event_bp1_relaxing_room_western" 
+		ambience = "event:/SFX/Events/Backgrounds/office_workplace"
+	}
+}
+bp1_relaxing_room_mena = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/bp1_relaxing_room_mena.dds"
+		environment = "environment_event_bp1_relaxing_room_mena" 
+		ambience = "event:/SFX/Events/Backgrounds/office_workplace"
+	}
+}
+#######################################
+# PHYSICIAN'S STUDY
+#######################################
 physicians_study = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/study_physician.dds"
@@ -1395,8 +1456,9 @@ physicians_study = {
 		ambience = "event:/SFX/Events/Backgrounds/physicians_office_western"
 	}
 }
-
-### TAVERN ###
+#######################################
+# TAVERN
+#######################################
 tavern = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/tavern.dds"
@@ -1404,10 +1466,9 @@ tavern = {
 		ambience = "event:/SFX/Events/Backgrounds/corner_of_tavern"
 	}
 }
-
-
-
-### THRONE ROOM ###
+#######################################
+# THRONE ROOM
+#######################################
 throne_room = {
 	background = {	#FP2
 		trigger = {
@@ -1481,7 +1542,6 @@ throne_room = {
 		ambience = "event:/SFX/Events/Backgrounds/throneroom_western"
 	}
 }
-
 throne_room_scope = {
 	background = { #FP1 Tribal
 		trigger = {
@@ -1557,7 +1617,6 @@ throne_room_scope = {
 		ambience = "event:/SFX/Events/Backgrounds/throneroom_western"
 	}
 }
-
 throne_room_east = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/throneroom_east.dds"
@@ -1565,7 +1624,6 @@ throne_room_east = {
 		ambience = "event:/SFX/Events/Backgrounds/throneroom_middleeastern_african"
 	}
 }
-
 throne_room_india = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/throneroom_india.dds"
@@ -1573,7 +1631,6 @@ throne_room_india = {
 		ambience = "event:/SFX/Events/Backgrounds/throneroom_middleeastern_african" #TODO_Audio Placeholder Indian Throneroom
 	}
 }
-
 throne_room_mediterranean = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/throneroom_mediterranean.dds"
@@ -1581,7 +1638,6 @@ throne_room_mediterranean = {
 		ambience = "event:/SFX/Events/Backgrounds/throneroom_mediterranean"
 	}
 }
-
 throne_room_tribal = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/throneroom_tribal.dds"
@@ -1589,69 +1645,11 @@ throne_room_tribal = {
 		ambience = "event:/SFX/Events/Backgrounds/throneroom_tribal_pagan"
 	}
 }
-
 throne_room_west = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/throneroom_west.dds"
 		environment = "environment_frontend_west_main"
 		ambience = "event:/SFX/Events/Backgrounds/throneroom_western"
-	}
-}
-
-### ARMY CAMP ###
-army_camp = {
-	background = {
-		reference = "gfx/interface/illustrations/event_scenes/genericcamp.dds"
-		environment = "environment_event_genericcamp"
-		ambience = "event:/SFX/Events/Backgrounds/camp_generic_day"
-	}
-}
-
-### FP1 ###
-
-fp1_ocean = {
-	background = {	# Ocean
-		reference = "gfx/interface/illustrations/event_scenes/fp1_ocean.dds"
-		environment = "environment_event_fp1_ocean"
-		ambience = "event:/DLC/FP1/SFX/Events/event_ocean_longship"
-	}
-}
-
-fp1_runestone = {
-	background = {	# Runestone Raising
-		reference = "gfx/interface/illustrations/event_scenes/fp1_runestone.dds"
-		environment = "environment_event_fp1_runestone"
-		ambience = "event:/DLC/FP1/SFX/Events/event_runestone"
-	}
-}
-
-fp1_runestone_circle = {
-	background = {	# Thingstone Circle
-		reference = "gfx/interface/illustrations/event_scenes/fp1_runestone_circle.dds"
-		environment = "environment_event_fp1_runestone_circle"
-		ambience = "event:/DLC/FP1/SFX/Events/event_ting_stone_circle"
-	}
-}
-
-fp1_beached_longships = {
-	background = {	# beached Longships
-		reference = "gfx/interface/illustrations/event_scenes/fp1_beached_longship.dds"
-		environment = "environment_event_fp1_beached_longship"
-		ambience = "event:/DLC/FP1/SFX/Events/event_beached_longships"
-	}
-}
-fp1_steward_study = {
-	background = {	# Viking Steward Study
-		reference = "gfx/interface/illustrations/event_scenes/fp1_steward_study.dds"
-		environment = "environment_event_fp1_steward_study"
-		ambience = "event:/DLC/FP1/SFX/Events/event_steward_study"
-	}
-}
-fp1_tribal_temple = {
-	background = {	# Viking temple
-		reference = "gfx/interface/illustrations/event_scenes/fp1_tribal_temple.dds"
-		environment = "environment_event_fp1_tribal_temple"
-		ambience = "event:/DLC/FP1/SFX/Events/event_temple"
 	}
 }
 fp1_throneroom_nontribal = {
@@ -1668,37 +1666,66 @@ fp1_throneroom_tribal = {
 		ambience = "event:/DLC/FP1/SFX/Events/event_throneroom"
 	}
 }
-fp1_tribal_corridor = {
-	background = {	# Tribal Corridor
-		reference = "gfx/interface/illustrations/event_scenes/fp1_tribal_corridor.dds"
-		environment = "environment_event_fp1_tribal_corridor"
-		ambience = "event:/DLC/FP1/SFX/Events/event_tribal_corridor"
+#######################################
+# ARMY CAMP
+#######################################
+army_camp = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/genericcamp.dds"
+		environment = "environment_event_genericcamp"
+		ambience = "event:/SFX/Events/Backgrounds/camp_generic_day"
 	}
 }
-fp1_viking_feast = {
-	background = {	# viking Feast
-		reference = "gfx/interface/illustrations/event_scenes/fp1_viking_feast.dds"
-		environment = "environment_event_fp1_viking_feast"
-		ambience = "event:/DLC/FP1/SFX/Events/event_viking_feast"
+#######################################
+# Ocean
+#######################################
+fp1_ocean = {
+	background = {	# Ocean
+		reference = "gfx/interface/illustrations/event_scenes/fp1_ocean.dds"
+		environment = "environment_event_fp1_ocean"
+		ambience = "event:/DLC/FP1/SFX/Events/event_ocean_longship"
 	}
 }
-fp1_tribal_prison = {
-	background = {	# Prison
-		reference = "gfx/interface/illustrations/event_scenes/fp1_tribal_prison.dds"
-		environment = "environment_event_fp1_tribal_prison"
-		ambience = "event:/DLC/FP1/SFX/Events/event_prison"
+#######################################
+# Rune Stones
+#######################################
+fp1_runestone = {
+	background = {	# Runestone Raising
+		reference = "gfx/interface/illustrations/event_scenes/fp1_runestone.dds"
+		environment = "environment_event_fp1_runestone"
+		ambience = "event:/DLC/FP1/SFX/Events/event_runestone"
 	}
 }
-
-fp2_test = {
-	background = {	# Prison
-		reference = "gfx/interface/illustrations/event_scenes/fp2_throneroom.dds"
-		environment = "environment_event_fp2_throneroom"
-		ambience = "event:/DLC/FP2/SFX/Events/prison"
+fp1_runestone_circle = {
+	background = {	# Thingstone Circle
+		reference = "gfx/interface/illustrations/event_scenes/fp1_runestone_circle.dds"
+		environment = "environment_event_fp1_runestone_circle"
+		ambience = "event:/DLC/FP1/SFX/Events/event_ting_stone_circle"
 	}
 }
-#### FP2 Fullscreen Backgrounds ####
-
+#######################################
+# Beached Longships
+#######################################
+fp1_beached_longships = {
+	background = {	# beached Longships
+		reference = "gfx/interface/illustrations/event_scenes/fp1_beached_longship.dds"
+		environment = "environment_event_fp1_beached_longship"
+		ambience = "event:/DLC/FP1/SFX/Events/event_beached_longships"
+	}
+}
+#######################################
+# Steward Study
+#######################################
+fp1_steward_study = {
+	background = {	# Viking Steward Study
+		reference = "gfx/interface/illustrations/event_scenes/fp1_steward_study.dds"
+		environment = "environment_event_fp1_steward_study"
+		ambience = "event:/DLC/FP1/SFX/Events/event_steward_study"
+	}
+}
+#######################################
+# Fullscreen Backgrounds
+#######################################
 fp2_fullscreen_intro = {
 	background = {	# Intro
 		reference = "gfx/interface/illustrations/event_story/fp2_struggle_start.dds"
@@ -1706,7 +1733,6 @@ fp2_fullscreen_intro = {
 		ambience = "event:/DLC/FP2/SFX/UI/fp2_struggle_start_loop"
 	}
 }
-
 fp2_fullscreen_hostility = {
 	background = {	# Intro
 		reference = "gfx/interface/illustrations/event_story/fp2_hostility.dds"
@@ -1714,7 +1740,6 @@ fp2_fullscreen_hostility = {
 		ambience = "event:/DLC/FP2/SFX/UI/fp2_struggle_end_loop_hostility"
 	}
 }
-
 fp2_fullscreen_compromise = {
 	background = {	# Intro
 		reference = "gfx/interface/illustrations/event_story/fp2_compromise.dds"
@@ -1722,7 +1747,6 @@ fp2_fullscreen_compromise = {
 		ambience = "event:/DLC/FP2/SFX/UI/fp2_struggle_end_loop_compromise"
 	}
 }
-
 fp2_fullscreen_conciliation = {
 	background = {	# Intro
 		reference = "gfx/interface/illustrations/event_story/fp2_conciliation.dds"
@@ -1730,39 +1754,9 @@ fp2_fullscreen_conciliation = {
 		ambience = "event:/DLC/FP2/SFX/UI/fp2_struggle_end_loop_conciliation"
 	}
 }
-
-#Bp1
-bp1_indian_corridor_night = {
-	background = {	#Indian Corridor
-		reference = "gfx/interface/illustrations/event_scenes/bp1_corridor_indian_night.dds"
-		environment = "environment_event_bp1_corridor_indian_night" 
-		ambience = "event:/SFX/Events/Backgrounds/castle_corridor_night"
-	}
-}
-bp1_indian_corridor_day = {
-	background = {	#Indian Corridor
-		reference = "gfx/interface/illustrations/event_scenes/bp1_corridor_indian_day.dds"
-		environment = "environment_event_bp1_corridor_indian_day"
-		ambience = "event:/SFX/Events/Backgrounds/castle_corridor_day"
-	}
-}
-
-bp1_relaxing_room_western = {
-	background = {
-		reference = "gfx/interface/illustrations/event_scenes/bp1_relaxing_room_western.dds"
-		environment = "environment_event_bp1_relaxing_room_western" 
-		ambience = "event:/SFX/Events/Backgrounds/office_workplace"
-	}
-}
-
-bp1_relaxing_room_mena = {
-	background = {
-		reference = "gfx/interface/illustrations/event_scenes/bp1_relaxing_room_mena.dds"
-		environment = "environment_event_bp1_relaxing_room_mena" 
-		ambience = "event:/SFX/Events/Backgrounds/office_workplace"
-	}
-}
-
+#######################################
+# Kitchen
+#######################################
 bp1_kitchen_western = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/bp1_kitchen_western.dds"
@@ -1770,7 +1764,9 @@ bp1_kitchen_western = {
 		ambience = "event:/SFX/Events/Backgrounds/corner_of_tavern"
 	}
 }
-
+#######################################
+# Bonfire
+#######################################
 bp1_bonfire = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/bp1_bonfire.dds"
@@ -1778,23 +1774,9 @@ bp1_bonfire = {
 		ambience = "event:/SFX/Events/Backgrounds/burning_building"
 	}
 }
-
-bp1_courtyard_indian = {
-	background = {	#Indian Courtyard
-		reference = "gfx/interface/illustrations/event_scenes/bp1_courtyard_indian.dds"
-		environment = "environment_event_bp1_courtyard_indian" 
-		ambience = "event:/SFX/Events/Backgrounds/castle_courtyard_western"
-	}
-}
-
-bp1_courtyard_mena = {
-	background = {	#MENA Courtyard
-		reference = "gfx/interface/illustrations/event_scenes/bp1_courtyard_mena.dds"
-		environment = "environment_event_bp1_courtyard_mena"
-		ambience = "event:/SFX/Events/Backgrounds/castle_courtyard_western"
-	}
-}
-
+#######################################
+# Wine Cellar
+#######################################
 bp1_wine_cellar = {
 	background = {	#wine cellar
 		reference = "gfx/interface/illustrations/event_scenes/bp1_wine_cellar.dds"
@@ -1802,12 +1784,24 @@ bp1_wine_cellar = {
 		ambience = "event:/SFX/Events/Backgrounds/corner_of_tavern"
 	}
 }
-
+#######################################
+# Crossroads Inn
+#######################################
 bp1_crossroads_inn = {
 	background = {	#crossroads inn
 		reference = "gfx/interface/illustrations/event_scenes/bp1_crossroads_inn.dds"
 		environment = "environment_event_bp1_crossroads_inn" 
 		ambience = "event:/SFX/Events/Backgrounds/fields_farms_day"
+	}
+}
+#######################################
+# Test
+#######################################
+fp2_test = {
+	background = {	# Prison
+		reference = "gfx/interface/illustrations/event_scenes/fp2_throneroom.dds"
+		environment = "environment_event_fp2_throneroom"
+		ambience = "event:/DLC/FP2/SFX/Events/prison"
 	}
 }
 
