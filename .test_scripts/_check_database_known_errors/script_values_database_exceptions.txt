@@ -1,2 +1,0 @@
-﻿#Vanilla overwrites
-language_soft_cap
