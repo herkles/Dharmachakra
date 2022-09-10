@@ -1,3 +1,6 @@
 ﻿heritage_palaungic = {
 	type = heritage
 }
+heritage_munda = {
+	type = heritage
+}
