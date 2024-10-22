@@ -7,4 +7,4 @@ tags={
 }
 name="Dharmachakra"
 picture="thumbnail.png"
-supported_version="1.7.*"
+supported_version="1.13.*"
