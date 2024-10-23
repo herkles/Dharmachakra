@@ -1,7 +1,7 @@
-
 k_lanka = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 14 }
 	
 	741.1.1 = {
 		holder = 189005
@@ -113,6 +113,8 @@ k_lanka = {
 		holder = 217396 # Vijayabahu V
 	}
 }
+
+
 
 d_ruhunu = {
 	769.1.1 = {
@@ -240,6 +242,8 @@ d_ruhunu = {
 		holder = 217396 # Vijayabahu V
 	}
 }
+
+
 c_dakhina_desa = {
 	769.1.1 = {
 		holder = 189006
@@ -363,6 +367,8 @@ c_dakhina_desa = {
 		holder = 217396 # Vijayabahu V
 	}
 }
+
+
 c_kotte = { #Pacinadesa
 	769.1.1 = {
 		holder = 189006
@@ -487,6 +493,7 @@ c_kotte = { #Pacinadesa
 		holder = 217396 # Vijayabahu V
 	}
 }
+
 c_rohana = {
 	769.1.1 = {
 		holder = 189007
@@ -610,6 +617,8 @@ c_rohana = {
 	}
 
 }
+
+
 c_batticaloa = {
 	769.1.1 = {
 		holder = 189007
@@ -728,12 +737,12 @@ c_batticaloa = {
 	1335.1.1 = {
 		holder = 217396 # Vijayabahu V
 	}
-
 }
 
 d_sinhala = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
+	1178.1.1 = { change_development_level = 20 }
 	
 	741.1.1 = {
 		holder = 189005
@@ -775,6 +784,8 @@ d_sinhala = {
 		holder = 189146
 	}
 }
+
+
 c_phiti = {
 	741.1.1 = {
 		holder = 189005
@@ -889,6 +900,8 @@ c_phiti = {
 	}
 
 }
+
+
 c_kandy = { #Malaya
 	741.1.1 = {
 		holder = 189005
@@ -1000,9 +1013,11 @@ c_kandy = { #Malaya
 	1325.1.1 = {
 		holder = 189146
 	}
-
 }
+
 c_trincomalee = {
+	1178.1.1 = { change_development_level = 42 }
+
 	741.1.1 = {
 		holder = 189005
 	}
@@ -1122,6 +1137,8 @@ c_trincomalee = {
 	}
 
 }
+
+
 c_jaffna = {
 	741.1.1 = {
 		holder = 189005

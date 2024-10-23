@@ -1,0 +1,51 @@
+﻿############################################
+# Decisions roughly at the top
+# (201-300 )
+
+hindu_major = {
+	sort_order = 201
+}
+buddhist_major = {
+	sort_order = 201
+}
+jain_major = {
+	sort_order = 201
+}
+
+############################################
+# Decisions roughly in the middle
+# (101-200 )
+
+hindu_medium = {
+	sort_order = 150
+}
+buddhist_medium = {
+	sort_order = 150
+}
+jain_medium = {
+	sort_order = 150
+}
+
+tibetan_medium = {
+	sort_order = 150
+}
+burmese_medium = {
+	sort_order = 150
+}
+dravidian_medium = {
+	sort_order = 150
+}
+
+############################################
+# Decisions roughly at the bottom
+# (001-100 )
+
+hindu_minor = {
+	sort_order = 10
+}
+buddhist_minor = {
+	sort_order = 10
+}
+jain_minor = {
+	sort_order = 10
+}

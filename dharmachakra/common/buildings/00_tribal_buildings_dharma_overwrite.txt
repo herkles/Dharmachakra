@@ -1,136 +1,10 @@
 ﻿@holding_illustration_arid = "gfx/interface/illustrations/holding_types/tribe_arid.dds"
 @holding_illustration_grass = "gfx/interface/illustrations/holding_types/tribe_grass.dds"
 
-@holding_illustration_tibetan = "gfx/interface/illustrations/holding_types/tribe_tibet.dds"
-@holding_illustration_indian = "gfx/interface/illustrations/holding_types/tribe_india.dds"
-
 # Tribal Hold
 tribe_01 = {
 	construction_time = slow_construction_time
 
-	## Dharmachakra ##
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_india_tribal_01_a_mesh"
-		}
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_tibet }
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_india_tribal_01_a_mesh"
-		}
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_india }
-		illustration = @holding_illustration_indian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	## Vanilla
-	asset = {
-		type = pdxmesh
-		names = {
-			building_western_tribal_01_a_mesh
-		}
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_mena_tribal_01_a_mesh"
-		}
-		graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_african_tribal_01_a_mesh"
-		}
-		graphical_cultures = { african_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp1_building_norse_tribal_mesh"
-		}
-		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-
-	is_enabled = {
-		building_requirement_tribal = yes
-	}
-	can_construct_potential = {
-		barony_cannot_construct_holding = no
-	}
-	
-	cost_prestige = expensive_building_tier_3_cost
-	cost_gold = expensive_building_tier_1_cost
-	next_building = tribe_02
-	
-	levy = normal_building_levy_tier_3
-	max_garrison = good_building_max_garrison_tier_1
-	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_1
-	province_modifier = {
-		monthly_income = poor_building_tax_tier_1
-		fort_level = 1
-	}
-
-	province_terrain_modifier = {
-		parameter = tribal_holding_fort_level_in_jungle_bonus
-		terrain = jungle
-		additional_fort_level = tribal_holding_fort_level_in_jungle_bonus_value
-	}
-
-	province_terrain_modifier = {
-		parameter = coastal_holdings_give_defensive_bonus
-		is_coastal = yes
-		defender_holding_advantage = 2
-	}
-	
-	type_icon = "icon_building_longhouses.dds"
-
-	ai_value = {
-		base = 1
-	}
-}
-
-tribe_02 = {
-	construction_time = slow_construction_time
-
-	## Dharmachakra ##
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_india_tribal_01_a_mesh"
-		}
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_tibet }
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_india_tribal_01_a_mesh"
-		}
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_india }
-		illustration = @holding_illustration_indian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	## Vanilla ##
 	asset = {
 		type = pdxmesh
 		names = {
@@ -154,6 +28,122 @@ tribe_02 = {
 			"building_steppe_tribal_01_a_mesh"
 		}
 		graphical_cultures = { steppe_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_tribal_01_a_mesh"
+		}
+		graphical_cultures = { indian_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
+		}
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"fp1_building_norse_tribal_mesh"
+		}
+		requires_dlc_flag = the_northern_lords
+		graphical_cultures = { norse_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}	
+
+	is_enabled = {
+		building_requirement_tribal = yes
+	}
+	can_construct_potential = {
+		always = no	#Tribes are set at game start.
+	}
+	
+	cost_prestige = expensive_building_tier_3_cost
+	cost_gold = expensive_building_tier_1_cost
+	next_building = tribe_02
+	
+	levy = normal_building_levy_tier_3
+	max_garrison = good_building_max_garrison_tier_1
+	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_1
+	province_modifier = {
+		monthly_income = poor_building_tax_tier_1
+		fort_level = 1
+		stationed_maa_damage_mult = normal_maa_damage_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+
+	province_terrain_modifier = {
+		parameter = tribal_holding_fort_level_in_jungle_bonus
+		terrain = jungle
+		additional_fort_level = tribal_holding_fort_level_in_jungle_bonus_value
+	}
+
+	province_terrain_modifier = {
+		parameter = coastal_holdings_give_defensive_bonus
+		is_coastal = yes
+		defender_holding_advantage = 2
+	}
+
+	province_culture_modifier = {
+		parameter = tribal_holding_stationed_bonus
+		stationed_maa_damage_mult = normal_maa_damage_tier_1
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_1
+	}
+	
+	next_building = tribe_02
+
+	type_icon = "icon_building_longhouses.dds"
+
+	ai_value = {
+		base = 1
+		ai_tier_1_building_modifier = yes
+	}
+}
+
+tribe_02 = {
+	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			building_western_tribal_01_a_mesh
+		}
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_mena_tribal_01_a_mesh"
+		}
+		graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_steppe_tribal_01_a_mesh"
+		}
+		graphical_cultures = { steppe_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_india_tribal_01_a_mesh"
+		}
+		graphical_cultures = { indian_building_gfx }
 		illustration = @holding_illustration_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
 	}
@@ -186,12 +176,10 @@ tribe_02 = {
 		scope:holder = {
 			culture = { has_innovation = innovation_plenary_assemblies }
 		}
-		building_requirement_tribal = yes
 	}
-
+	
 	cost_prestige = expensive_building_tier_3_cost
 	cost_gold = expensive_building_tier_1_cost
-	next_building = tribe_03
 	
 	levy = normal_building_levy_tier_5
 	max_garrison = good_building_max_garrison_tier_2
@@ -199,206 +187,8 @@ tribe_02 = {
 	province_modifier = {
 		monthly_income = poor_building_tax_tier_3
 		fort_level = 2
-	}
-	
-	ai_value = {
-		base = 1
-	}
-}
-
-tribe_03 = {
-	construction_time = slow_construction_time
-
-	## Dharmachakra ##
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_india_tribal_01_a_mesh"
-		}
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_tibet }
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_india_tribal_01_a_mesh"
-		}
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_india }
-		illustration = @holding_illustration_indian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-
-	## Vanilla ##
-	asset = {
-		type = pdxmesh
-		names = {
-			building_western_tribal_01_a_mesh
-		}
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_mena_tribal_01_a_mesh"
-		}
-		graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_steppe_tribal_01_a_mesh"
-		}
-		graphical_cultures = { steppe_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_african_tribal_01_a_mesh"
-		}
-		graphical_cultures = { african_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp1_building_norse_tribal_mesh"
-		}
-		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-
-	is_enabled = {
-		building_requirement_tribal = yes
-	}
-	can_construct_potential = {
-	}
-	can_construct_showing_failures_only = {
-		scope:holder = {
-			culture = { has_innovation = innovation_battlements }
-		}
-		building_requirement_tribal = yes
-	}
-
-	cost_prestige = expensive_building_tier_3_cost
-	cost_gold = expensive_building_tier_1_cost
-	next_building = tribe_04
-
-	levy = good_building_levy_tier_6
-	max_garrison = good_building_max_garrison_tier_3
-	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_3
-	province_modifier = {
-		monthly_income = poor_building_tax_tier_5
-		fort_level = 3
-	}
-
-	ai_value = {
-		base = 1
-	}
-}
-
-tribe_04 = {
-	construction_time = slow_construction_time
-
-	## Dharmachakra ##
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_india_tribal_01_a_mesh"
-		}
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_tibet }
-		illustration = @holding_illustration_tibetan
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_india_tribal_01_a_mesh"
-		}
-		graphical_cultures = { indian_building_gfx }
-		graphical_regions = { graphical_india }
-		illustration = @holding_illustration_indian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	## Vanilla ##
-	asset = {
-		type = pdxmesh
-		names = {
-			building_western_tribal_01_a_mesh
-		}
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_mena_tribal_01_a_mesh"
-		}
-		graphical_cultures = { arabic_group_building_gfx berber_group_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_steppe_tribal_01_a_mesh"
-		}
-		graphical_cultures = { steppe_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"building_african_tribal_01_a_mesh"
-		}
-		graphical_cultures = { african_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-	asset = {
-		type = pdxmesh
-		names = {
-			"fp1_building_norse_tribal_mesh"
-		}
-		requires_dlc_flag = the_northern_lords
-		graphical_cultures = { norse_building_gfx }
-		illustration = @holding_illustration_grass
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
-	}
-
-	is_enabled = {
-		building_requirement_tribal = yes
-	}
-	can_construct_potential = {
-	}
-	can_construct_showing_failures_only = {
-		scope:holder = {
-			culture = { has_innovation = innovation_hoardings }
-		}
-		building_requirement_tribal = yes
-	}
-
-	cost_prestige = expensive_building_tier_3_cost
-	cost_gold = expensive_building_tier_1_cost
-
-	levy = good_building_levy_tier_8
-	max_garrison = good_building_max_garrison_tier_4
-	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_4
-	province_modifier = {
-		monthly_income = poor_building_tax_tier_7
-		fort_level = 4
+		stationed_maa_damage_mult = normal_maa_damage_tier_4
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_4
 	}
 
 	province_terrain_modifier = {
@@ -413,6 +203,12 @@ tribe_04 = {
 		defender_holding_advantage = 3
 	}
 
+	province_culture_modifier = {
+		parameter = tribal_holding_stationed_bonus
+		stationed_maa_damage_mult = normal_maa_damage_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
 	ai_value = {
 		base = 1
 	}
@@ -420,6 +216,7 @@ tribe_04 = {
 
 longhouses_01 = {
 	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -427,10 +224,7 @@ longhouses_01 = {
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
 	}	
-	can_construct_showing_failures_only = {
-		building_requirement_tribal = yes
-	}
-
+	
 	cost_prestige = expensive_building_tier_1_cost
 	cost_gold = tribal_building_tier_1_cost
 	
@@ -440,7 +234,7 @@ longhouses_01 = {
 		monthly_prestige = 0.25
 	}
 	county_modifier = {
-		monthly_county_control_change_add = 0.2
+		monthly_county_control_growth_add = 0.2
 	}
 	
 	next_building = longhouses_02
@@ -449,11 +243,14 @@ longhouses_01 = {
 
 	ai_value = {
 		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_military_modifier = yes
 	}
 }
 
 longhouses_02 = {
 	construction_time = slow_construction_time
+	effect_desc = longhouses_effect_desc
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -465,7 +262,6 @@ longhouses_02 = {
 		scope:holder = {
 			culture = { has_innovation = innovation_barracks }
 		}
-		building_requirement_tribal = yes
 	}
 	
 	cost_prestige = expensive_building_tier_2_cost
@@ -477,11 +273,12 @@ longhouses_02 = {
 		monthly_prestige = 0.5
 	}
 	county_modifier = {
-		monthly_county_control_change_add = 0.4
+		monthly_county_control_growth_add = 0.4
 	}
 	
 	ai_value = {
 		base = 1
+		directive_to_build_military_modifier = yes
 	}
 }
 
@@ -489,15 +286,13 @@ longhouses_02 = {
 
 war_camps_01 = {
 	construction_time = slow_construction_time
+	effect_desc = tournament_cost_effect_desc
 
 	is_enabled = {
 		building_requirement_tribal = yes
 	}
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
-	}
-	can_construct_showing_failures_only = {
-		building_requirement_tribal = yes
 	}
 	
 	cost_prestige = expensive_building_tier_1_cost
@@ -508,12 +303,15 @@ war_camps_01 = {
 	character_modifier = {
 		knight_limit = 1
 		knight_effectiveness_mult = 0.1
-		skirmishers_damage_mult = 0.04
-		skirmishers_toughness_mult = 0.02
-		heavy_infantry_damage_mult = 0.04
-		heavy_infantry_toughness_mult = 0.02
-		archer_cavalry_damage_mult = 0.04
-		archer_cavalry_toughness_mult = 0.02
+	}
+	
+	province_modifier = {
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_1
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_1
+		stationed_heavy_infantry_damage_mult = high_maa_damage_tier_1
+		stationed_heavy_infantry_toughness_mult = normal_maa_toughness_tier_1
+		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_1
+		stationed_archer_cavalry_toughness_mult = normal_maa_toughness_tier_1
 	}
 	
 	next_building = war_camps_02
@@ -522,11 +320,14 @@ war_camps_01 = {
 	
 	ai_value = {
 		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_military_modifier = yes
 	}
 }
 
 war_camps_02 = {
 	construction_time = slow_construction_time
+	effect_desc = tournament_cost_effect_desc
 
 	is_enabled = {
 		building_requirement_tribal = yes
@@ -538,7 +339,6 @@ war_camps_02 = {
 		scope:holder = {
 			culture = { has_innovation = innovation_barracks }
 		}
-		building_requirement_tribal = yes
 	}	
 	
 	cost_prestige = expensive_building_tier_2_cost
@@ -549,16 +349,25 @@ war_camps_02 = {
 	character_modifier = {
 		knight_limit = 2
 		knight_effectiveness_mult = 0.2
-		skirmishers_damage_mult = 0.08
-		skirmishers_toughness_mult = 0.04
-		heavy_infantry_damage_mult = 0.08
-		heavy_infantry_toughness_mult = 0.04
-		archer_cavalry_damage_mult = 0.08
-		archer_cavalry_toughness_mult = 0.04
+	}
+	
+	province_modifier = {
+		stationed_skirmishers_damage_mult = high_maa_damage_tier_2
+		stationed_skirmishers_toughness_mult = normal_maa_toughness_tier_2
+		stationed_heavy_infantry_damage_mult = high_maa_damage_tier_2
+		stationed_heavy_infantry_toughness_mult = normal_maa_toughness_tier_2
+		stationed_archer_cavalry_damage_mult = high_maa_damage_tier_2
+		stationed_archer_cavalry_toughness_mult = normal_maa_toughness_tier_2
+	}
+
+	character_culture_modifier = {
+		parameter = strength_in_numbers_maa_limit_bonus 
+		men_at_arms_limit = 1
 	}
 	
 	ai_value = {
 		base = 1
+		directive_to_build_military_modifier = yes
 	}
 }
 
@@ -573,9 +382,6 @@ palisades_01 = {
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
 	}
-	can_construct_showing_failures_only = {
-		building_requirement_tribal = yes
-	}
 	
 	cost_prestige = expensive_building_tier_1_cost
 	cost_gold = tribal_building_tier_1_cost
@@ -587,11 +393,11 @@ palisades_01 = {
 		fort_level = normal_building_fort_level_tier_1
 	}
 	
-	character_modifier = {
-		archers_damage_mult = 0.04
-		archers_toughness_mult = 0.02
-		pikemen_damage_mult = 0.04
-		pikemen_toughness_mult = 0.02
+	province_modifier = {
+		stationed_archers_damage_mult = high_maa_damage_tier_1
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_1
+		stationed_pikemen_damage_mult = high_maa_damage_tier_1
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_1
 	}
 	
 	next_building = palisades_02
@@ -600,6 +406,8 @@ palisades_01 = {
 	
 	ai_value = {
 		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_military_modifier = yes
 	}
 }
 
@@ -616,7 +424,6 @@ palisades_02 = {
 		scope:holder = {
 			culture = { has_innovation = innovation_motte }
 		}
-		building_requirement_tribal = yes
 	}	
 	
 	cost_prestige = expensive_building_tier_2_cost
@@ -629,15 +436,16 @@ palisades_02 = {
 		fort_level = normal_building_fort_level_tier_2
 	}
 	
-	character_modifier = {
-		archers_damage_mult = 0.08
-		archers_toughness_mult = 0.04
-		pikemen_damage_mult = 0.08
-		pikemen_toughness_mult = 0.04
+	province_modifier = {
+		stationed_archers_damage_mult = high_maa_damage_tier_2
+		stationed_archers_toughness_mult = normal_maa_toughness_tier_2
+		stationed_pikemen_damage_mult = high_maa_damage_tier_2
+		stationed_pikemen_toughness_mult = normal_maa_toughness_tier_2
 	}
 	
 	ai_value = {
 		base = 1
+		directive_to_build_military_modifier = yes
 	}
 }
 
@@ -652,9 +460,6 @@ market_villages_01 = {
 	can_construct_potential = {
 		has_building_or_higher = tribe_01
 	}	
-	can_construct_showing_failures_only = {
-		building_requirement_tribal = yes
-	}
 	
 	cost_prestige = expensive_building_tier_1_cost
 	cost_gold = tribal_building_tier_1_cost
@@ -670,6 +475,8 @@ market_villages_01 = {
 	
 	ai_value = {
 		base = 1
+		ai_tier_1_building_modifier = yes
+		directive_to_build_economy_modifier = yes
 	}
 }
 
@@ -686,7 +493,6 @@ market_villages_02 = {
 		scope:holder = {
 			culture = { has_innovation = innovation_city_planning }
 		}
-		building_requirement_tribal = yes
 	}	
 	
 	cost_prestige = expensive_building_tier_2_cost
@@ -699,5 +505,6 @@ market_villages_02 = {
 	
 	ai_value = {
 		base = 1
+		directive_to_build_economy_modifier = yes
 	}
 }

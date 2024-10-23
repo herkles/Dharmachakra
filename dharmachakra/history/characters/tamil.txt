@@ -70,14 +70,26 @@ pallava001 = {
 #######################################
 # Chola Dynasty
 #######################################
-175080 = {# VicayA_laya
+175080 = {
 	name = "VicayA_laya" #Vijayalaya
+	dna = "175080_vicayalaya_chola_nadu"
 	dynasty = 1043008
 	religion = "shaivism"
 	culture = "tamil"
+	trait = education_martial_3
+	trait = ambitious
+	trait = zealous
+	trait = diligent
 	father = 189402
 	827.1.1 = {
 		birth = "827.1.1"
+	}
+	867.1.1 = {
+		add_prestige = 2000
+		add_piety = 1000
+		add_prestige_level = 2
+		add_piety_level = 2
+		add_gold = 400
 	}
 	871.1.1 = {
 		death = "871.1.1"
@@ -1867,3 +1879,67 @@ cholan_grandee_1 = {# Naralokavira
 }
 
 
+venad_chera_1 = {
+	name = "Udaya" # Vira Udaya Martanda Varma
+	dynasty = tamil_venad_chera
+	religion = "shaivism"
+	culture = "tamil"
+	1149.1.1 = {
+		birth = yes
+	}
+	1192.1.1 = {
+		death = yes
+	}
+}
+
+chola_vassal_1 = {
+	name = "PantA_ram" # Fictional
+	dynasty = tamil_shankar
+	religion = "shaivism"
+	culture = "tamil"
+	1132.1.1 = {
+		birth = yes
+	}
+	1195.1.1 = {
+		death = yes
+	}
+}
+
+chola_vassal_2 = {
+	name = "Tennavan" # Fictional
+	dynasty = tamil_prasad
+	religion = "shaivism"
+	culture = "tamil"
+	1137.1.1 = {
+		birth = yes
+	}
+	1193.1.1 = {
+		death = yes
+	}
+}
+
+chola_vassal_3 = {
+	name = "Varakunan" # Fictional
+	dynasty = tamil_nayak
+	religion = "shaivism"
+	culture = "tamil"
+	1136.1.1 = {
+		birth = yes
+	}
+	1188.1.1 = {
+		death = yes
+	}
+}
+
+chola_vassal_4 = {
+	name = "Kumaran" # Fictional
+	dynasty = tamil_hiremath
+	religion = "shaivism"
+	culture = "tamil"
+	1142.1.1 = {
+		birth = yes
+	}
+	1198.1.1 = {
+		death = yes
+	}
+}

@@ -73,9 +73,12 @@
 	culture = bihari
 	religion = vajrayana
 	
-	holding = church_holding
+	holding = none
 	
 	# History
+	1066.1.1 = {
+		holding = church_holding
+	}
 
 }
 
@@ -151,7 +154,7 @@
 	culture = bihari
 	religion = vajrayana
 	
-	holding = none
+	holding = church_holding
 	
 	# History
 
@@ -164,7 +167,7 @@
 	culture = bihari
 	religion = vajrayana
 	
-	holding = church_holding
+	holding = none
 
 	# History
 
@@ -261,10 +264,6 @@
 	holding = none
 	
 	# History
-	1066.1.1 = {
-		holding = city_holding
-	}
-
 }
 
 # 907 - Beohari

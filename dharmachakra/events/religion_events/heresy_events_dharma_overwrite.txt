@@ -26,20 +26,22 @@ heresy.0001 = {
 
 	immediate = {
 		#Look for a valid Duke of this Faith to be our heresiarch.
-		random_ruler = {
+		random_faith_ruler = {
 			#Prefer Dukes with only 1 or 2 Duchies.
 			limit = {
 				is_valid_heresiarch = yes
-				highest_held_title_tier = 3
+				highest_held_title_tier = tier_duchy
 				any_held_title = {
 					tier = tier_duchy
 					count < 3 #Limit the influence of Mega-Dukes
+					is_landless_type_title = no
+					is_noble_family_title = no
 				}
 			}
 			#Then accept any valid Duke.
 			alternative_limit = {
 				is_valid_heresiarch = yes
-				highest_held_title_tier = 3
+				highest_held_title_tier = tier_duchy
 			}
 			#If no Dukes exist, accept a Count.
 			alternative_limit = {
@@ -128,6 +130,9 @@ heresy.0001 = {
 			# Compile a list of possible heresies to convert to.
 			religion = {
 				every_faith = {
+					limit = {
+						NOT = { invalid_for_heresy_events = yes }
+					}
 					add_to_list = potential_heresies
 				}
 				if = {
@@ -148,10 +153,6 @@ heresy.0001 = {
 						faith:cainitism = {
 							add_to_list = potential_heresies
 						}
-						# Already extant Christians can't retroactively become jewish converts to Christianity.
-						faith:conversos = {
-							remove_from_list = potential_heresies
-						}
 
 					}
 					else_if = {
@@ -171,6 +172,9 @@ heresy.0001 = {
 					else_if = {
 						limit = {
 							this = religion:judaism_religion
+						}
+						faith:conversos = {
+							add_to_list = potential_heresies
 						}
 						faith:sethianism = {
 							add_to_list = potential_heresies
@@ -268,15 +272,6 @@ heresy.0001 = {
 							this = faith:cainitism
 						}
 					}
-					# Disabled Faiths
-					modifier = {				
-						factor = 0
-						OR = {
-							this = faith:insular_celtic
-							this = faith:adamites
-							this = faith:bosnian_church
-						}
-					}
 
 					# Lollards more likely in England.
 					modifier = {
@@ -372,6 +367,47 @@ heresy.0001 = {
 									geographical_region = world_africa_north_east
 									geographical_region = world_europe_west_iberia
 								}
+							}
+						}
+					}
+
+					# FP3 - Khurramism more likely in Iran
+					modifier = {
+						factor = regional_heresy_factor
+						this = faith:khurramism
+						scope:heretic_capital = {
+							title_province = {						
+								geographical_region = world_middle_east_persia									
+							}
+						}
+					}
+					# FP3 - Behafaridism more likely in Iran
+					modifier = {
+						factor = regional_heresy_factor
+						this = faith:zurvanism #Behafaridism
+						scope:heretic_capital = {
+							title_province = {						
+								geographical_region = world_middle_east_persia
+							}
+						}
+					}
+					# FP3 - The "arch heresy", aka Mazdakism more likely in Iran
+					modifier = {
+						factor = regional_heresy_factor
+						this = faith:mazdakism
+						scope:heretic_capital = {
+							title_province = {						
+								geographical_region = world_middle_east_persia
+							}
+						}
+					}
+					# FP3 - Manicheanism more likely in Iran
+					modifier = {
+						factor = regional_heresy_factor
+						this = faith:manichean
+						scope:heretic_capital = {
+							title_province = {						
+								geographical_region = world_middle_east_persia
 							}
 						}
 					}
@@ -496,11 +532,11 @@ heresy.0005 = {
 
 	immediate = {
 		#Look for a valid Duke of this Faith to be our heresiarch.
-		random_ruler = {
+		random_faith_ruler = {
 			#Prefer Dukes with only 1 or 2 Duchies.
 			limit = {
 				faith = root
-				highest_held_title_tier = 3
+				highest_held_title_tier = tier_duchy
 				any_held_title = {
 					tier = tier_duchy
 					count < 3 #Limit the influence of Mega-Dukes
@@ -514,7 +550,7 @@ heresy.0005 = {
 			#Then accept any valid Duke.
 			alternative_limit = {
 				faith = root
-				highest_held_title_tier = 3
+				highest_held_title_tier = tier_duchy
 				is_capable_adult_ai = yes
 				is_landed = yes
 				exists = capital_county
@@ -524,7 +560,7 @@ heresy.0005 = {
 			#If no Dukes exist, accept a Count.
 			alternative_limit = {
 				faith = root
-				highest_held_title_tier = 2
+				highest_held_title_tier = tier_county
 				is_capable_adult_ai = yes
 				is_landed = yes
 				exists = capital_county
@@ -834,7 +870,10 @@ heresy.0010 = {
 			desc = heresy.0010.desc.exists
 		}
 	}
-	left_portrait = scope:heretic_ruler
+	left_portrait = {
+		character = scope:heretic_ruler
+		animation = prayer
+	}
 	major = yes
 	theme = faith
 	
@@ -902,7 +941,7 @@ heresy.0010 = {
 						}
 					}
 				}
-				add_trait = heresiarch
+				add_heresiarch_trait_effect = yes
 			}
 
 			#Kick off the follow-up events in the heresy chain.
@@ -928,6 +967,13 @@ heresy.0010 = {
 						flag = converted_by_heresy_0010_event
 						years = 15
 					}
+				}
+			}
+
+			hidden_effect = {
+				add_character_flag = {
+					flag = converted_by_heresy_0010_event
+					years = 15
 				}
 			}
 		}
@@ -962,7 +1008,6 @@ heresy.0010 = {
 				custom_tooltip = heresy.0010.notification
 				
 				left_icon = scope:heretic_ruler
-				goto = scope:heretic_ruler
 			}
 		}
 
@@ -1075,11 +1120,11 @@ heresy.0011 = {
 
 	immediate = {
 		clear_saved_scope = convert_ruler
-		random_ruler = {
+		scope:origin_faith = {
+			random_faith_ruler = {
 			limit = {
-				highest_held_title_tier > 1 #No Barons, they're inconsequential.
-				faith = scope:origin_faith
-				highest_held_title_tier < 4 #No AI Kings/Emperors, they're too powerful.
+					highest_held_title_tier > tier_barony #No Barons, they're inconsequential.
+					highest_held_title_tier < tier_kingdom #No AI Kings/Emperors, they're too powerful.
 				is_landed = yes
 				exists = capital_county
 				is_capable_adult_ai = yes
@@ -1142,6 +1187,7 @@ heresy.0011 = {
 			}
 			capital_county = {
 				save_scope_as = convert_capital
+				}
 			}
 		}
 
@@ -1161,7 +1207,7 @@ heresy.0011 = {
 				if = {
 					limit = {
 						scope:heretic_ruler = {
-							highest_held_title_tier >= 3
+							highest_held_title_tier >= tier_duchy
 						}
 					}
 					#If we're a Duke, consume more heresy power.
@@ -1205,7 +1251,7 @@ heresy.0011 = {
 								faith = scope:heretic_faith
 							}
 							scope:convert_ruler = {
-								highest_held_title_tier >= 3
+								highest_held_title_tier >= tier_duchy
 							}
 						}
 						#If we're physically close to the character, we also get notified.

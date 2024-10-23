@@ -2,6 +2,7 @@
 k_gondwana = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
 
 	920.1.1 = {
 		holder = 190203 #Yuvaraja Cedi
@@ -67,6 +68,7 @@ k_gondwana = {
 		holder = 0
 	}
 }
+
 
 d_dahala = {
 	675.1.1 = {
@@ -139,6 +141,8 @@ d_dahala = {
 		holder = 0
 	}
 }
+
+
 c_tripuri = {
 	675.1.1 = {
 		holder = 191317 #Vamaraja Cedi
@@ -228,6 +232,8 @@ c_tripuri = {
 		holder = 191509 #Gond dynasty of Garha-Mandla
 	}
 }
+
+
 c_chauragarh = {
 	675.1.1 = {
 		holder = 191317 #Vamaraja Cedi
@@ -285,7 +291,7 @@ c_chauragarh = {
 	1163.1.1 = {
 		holder = 190213 #Jayasimha Cedi
 	}
-	1188.1.1 = {
+	1177.1.1 = {
 		holder = 190213 #Vijayasimha Cedi
 	}
 	1203.1.1 = {
@@ -312,6 +318,7 @@ c_chauragarh = {
 		holder = 191509 #Gond dynasty of Garha-Mandla
 	}
 }
+
 
 d_ratanpur = {
 	760.1.1 = {
@@ -383,6 +390,8 @@ d_ratanpur = {
 		holder = 191361 #Kamaldeva
 	}
 }
+
+
 c_ratanpur = { 
 	760.1.1 = {
 		holder = 191295 #Nandivarman
@@ -474,6 +483,8 @@ c_ratanpur = {
 		holder = 191361 #Kamaldeva
 	}
 }
+
+
 c_tummana = {
 	690.1.1 = {
 		holder = 191385#Jayavardhana I Sailavamsa
@@ -576,6 +587,8 @@ c_tummana = {
 		holder = 191361 #Kamaldeva
 	}
 }
+
+
 c_bandhugadha = {
 	#Baland Tribe
 	750.1.1 = {

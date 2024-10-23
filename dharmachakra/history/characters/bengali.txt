@@ -808,6 +808,20 @@
 			death = yes
 		}
 	}
+	sena_1 = {
+		name = "Kesava" # "His two sons Visvarupasena and Kesavasena ruled in succession after him. The latter is known from a single record dated in his third regnal year"
+		dynasty = 1026500
+		religion = "saura" # "The epithet ‘Saura,’ applied to these kings seems to indicate that they were sun-worshippers."
+		culture = "bengali"
+		father = 154005
+		1165.1.1 = {
+			birth = yes # "Probably Visvarupasena was the elder of the two brothers"
+		}
+		1230.1.1 = {
+			death = yes
+		}
+	}
+
 #######################################
 # Sur Dynasty
 #######################################
@@ -2814,6 +2828,22 @@
 	}
 
 #######################################
+# gour Dynasty
+#######################################
+	gour_1 = {
+		name = "Dharmadhwaj"
+		dynasty = bengali_gour
+		religion = "vaishnavism"
+		culture = "bengali"
+		trait = disputed_heritage
+		1155.1.1 = {
+			birth = yes
+		}
+		1200.1.1 = {
+			death = yes
+		}
+	}
+#######################################
 # Other Characters
 #######################################
 	190035 = {# Kula Devi
@@ -2900,5 +2930,4 @@
 			death = yes
 		}
 	}
-# End of Characters		
 #######################################

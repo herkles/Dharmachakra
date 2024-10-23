@@ -1,6 +1,6 @@
 ﻿175110 = {
 	name = "Vijayaditya" # Vijay Aditya III
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189085
@@ -11,9 +11,10 @@
 		death = "892.1.1"
 	}
 }
+
 189075 = {
 	name = "Jayasimha"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189074
@@ -26,7 +27,7 @@
 }
 189076 = {
 	name = "Indrabhattaraka"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189074
@@ -39,7 +40,7 @@
 }
 189077 = {
 	name = "Vishnuvardhana" #II
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189076
@@ -52,7 +53,7 @@
 }
 189078 = {
 	name = "Mangiyuvaraja"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189077
@@ -65,7 +66,7 @@
 }
 189079 = {
 	name = "Jayasimha" #II
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189078
@@ -78,7 +79,7 @@
 }
 189080 = {
 	name = "Vikramaditya"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189078
@@ -91,7 +92,7 @@
 }
 189081 = {
 	name = "Vishnuvardhana" #III
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189078
@@ -104,7 +105,7 @@
 }
 189082 = {
 	name = "Vijayaditya" #I
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189081
@@ -117,7 +118,7 @@
 }
 189083 = {
 	name = "Vishnuvardhana" #IV
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189082
@@ -130,7 +131,7 @@
 }
 189084 = {
 	name = "Vijayaditya" #II
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189083
@@ -143,7 +144,7 @@
 }
 189085 = {
 	name = "Vishnuvardhana" #V
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189084
@@ -155,9 +156,10 @@
 	}
 }
 
+
 189086 = {
 	name = "Yuddhamala"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189085
@@ -170,7 +172,7 @@
 }
 189087 = {
 	name = "Vikramaditya"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189085
@@ -183,7 +185,7 @@
 }
 189088 = {
 	name = "Bhima"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189087
@@ -196,7 +198,7 @@
 }
 189089 = {
 	name = "Vijayaditya"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189088
@@ -209,7 +211,7 @@
 }
 additional_eastern_chalukyas_1 = {
 	name = "Vishnuvardhana" #VI
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189088
@@ -222,7 +224,7 @@ additional_eastern_chalukyas_1 = {
 }
 189090 = {
 	name = "Vijayaditya"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189089
@@ -235,7 +237,7 @@ additional_eastern_chalukyas_1 = {
 }
 189091 = {
 	name = "Tala"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189086
@@ -248,7 +250,7 @@ additional_eastern_chalukyas_1 = {
 }
 189092 = {
 	name = "Vikramaditya"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189086
@@ -261,7 +263,7 @@ additional_eastern_chalukyas_1 = {
 }
 189093 = {
 	name = "Bhima"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189089
@@ -274,7 +276,7 @@ additional_eastern_chalukyas_1 = {
 }
 189094 = {
 	name = "Yudhamalla"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189091
@@ -287,7 +289,7 @@ additional_eastern_chalukyas_1 = {
 }
 189095 = {
 	name = "Bhima" #III
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189089
@@ -300,7 +302,7 @@ additional_eastern_chalukyas_1 = {
 }
 189096 = {
 	name = "Amma" #
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189095
@@ -313,7 +315,7 @@ additional_eastern_chalukyas_1 = {
 }
 189097 = {
 	name = "Tala" #II
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189094
@@ -326,7 +328,7 @@ additional_eastern_chalukyas_1 = {
 }
 189098 = {
 	name = "Danarnava" #
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189095
@@ -339,7 +341,7 @@ additional_eastern_chalukyas_1 = {
 }
 additional_eastern_chalukyas_2 = {
 	name = "Bhima" #
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189095
@@ -352,7 +354,7 @@ additional_eastern_chalukyas_2 = {
 }
 189099 = {
 	name = "Saktivarman" #
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189098
@@ -365,7 +367,7 @@ additional_eastern_chalukyas_2 = {
 }
 189100 = {
 	name = "Vimaladitya" #
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "svetambara"
 	culture = "telugu"
 	father = 189098
@@ -378,7 +380,7 @@ additional_eastern_chalukyas_2 = {
 }
 189101 = {
 	name = "Danarnava" #unknown name
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189099
@@ -391,7 +393,7 @@ additional_eastern_chalukyas_2 = {
 }
 189102 = {
 	name = "Rajaraja" #Narendra
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189099
@@ -407,7 +409,7 @@ additional_eastern_chalukyas_2 = {
 }
 189103 = {
 	name = "Saktivarman" #II
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189098
@@ -420,7 +422,7 @@ additional_eastern_chalukyas_2 = {
 }
 189104 = {
 	name = "Vijayaditya" #VII
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189103
@@ -433,7 +435,7 @@ additional_eastern_chalukyas_2 = {
 }
 189105 = {
 	name = "Rajaraja" #II
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189102
@@ -450,7 +452,7 @@ additional_eastern_chalukyas_2 = {
 }
 189106 = {
 	name = "Vishnuvardhana" #IX
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189105
@@ -464,7 +466,7 @@ additional_eastern_chalukyas_2 = {
 }
 189074 = {
 	name = "Vishnuvardhana"
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 74720
@@ -515,9 +517,19 @@ additional_eastern_chalukyas_2 = {
 }
 189226 = {
 	name = "Gunda" #II
+	dna = "189226_gunda_orangallu"
 	dynasty = 1029179
 	religion = "svetambara"
 	culture = "telugu"
+	diplomacy = 5
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 6
+	trait = education_learning_2
+	trait = content
+	trait = chaste
+	trait = shy
 	father = 189225
 	800.1.1 = {
 		birth = yes
@@ -644,7 +656,7 @@ additional_eastern_chalukyas_2 = {
 	}
 }
 189236 = {
-	name = "Prataparudra" #
+	name = "Rudradeva"
 	dynasty = 1029179
 	religion = "shaivism"
 	culture = "telugu"
@@ -701,7 +713,7 @@ additional_eastern_chalukyas_2 = {
 }
 189240 = {
 	name = "Vijayaditya" # hypothetical name
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189106
@@ -714,7 +726,7 @@ additional_eastern_chalukyas_2 = {
 }
 189241 = {
 	name = "Narendra" #hypothetical name
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189240
@@ -727,7 +739,7 @@ additional_eastern_chalukyas_2 = {
 }
 189242 = {
 	name = "Virbhadra" #hypothetical name
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189241
@@ -740,7 +752,7 @@ additional_eastern_chalukyas_2 = {
 }
 189243 = {
 	name = "Prataparudra" #hypothetical name
-	dynasty = 1029175
+	dynasty_house = 1029175
 	religion = "shaivism"
 	culture = "telugu"
 	father = 189242
@@ -831,6 +843,7 @@ additional_eastern_chalukyas_2 = {
 		death = yes
 	}
 }
+
 narayanavanam_yadava_ruler = {
 	name = "Immadi_Narasimha"
 	dynasty = telugu_yadava #Yadava
@@ -844,6 +857,7 @@ narayanavanam_yadava_ruler = {
 		death = yes
 	}
 }
+
 banas_of_renandu_1 = {
 	name = "Vikramaditya" #Vikramaditya Bali Indra Banaraja
 	dynasty = telugu_banas #Bana
@@ -1448,10 +1462,10 @@ mudigonda_chalukya_20 = {
 	religion = "shaivism"
 	culture = "telugu"
 	father = mudigonda_chalukya_19
-	1150.1.1 = {
+	1170.1.1 = {
 		birth = yes
 	}
-	1200.1.1 = {
+	1220.1.1 = {
 		death = yes
 	}
 }
@@ -1513,7 +1527,7 @@ polavasa_5 = {
 	religion = "shaivism"
 	culture = "telugu"
 	father = polavasa_1
-	1192.1.1 = {
+	1075.1.1 = {
 		birth = yes
 	}
 	1138.1.1 = {
@@ -1650,7 +1664,7 @@ karikala_8a = {
 	}
 }
 karikala_8 = { 
-	name = "Udaychoda" #II
+	name = "Udayaditya" #II
 	dynasty = telugu_karikala #Karikalas / Kandur Cholas
 	religion = "shaivism"
 	culture = "telugu"
@@ -1764,7 +1778,6 @@ cheraku_reddy_2_spouse_1 = {
 	female = yes
 	religion = "shaivism"
 	culture = "telugu"
-	father = cheraku_reddy_1
 	1040.1.1 = {
 		birth = yes
 	}
@@ -1777,7 +1790,6 @@ cheraku_reddy_2_spouse_2 = {
 	female = yes
 	religion = "shaivism"
 	culture = "telugu"
-	father = cheraku_reddy_1
 	1044.1.1 = {
 		birth = yes
 	}
@@ -1964,6 +1976,46 @@ cheraku_reddy_6 = {
 		birth = yes
 	}
 	1323.1.1 = {
+		death = yes
+	}
+}
+
+velanati_choda_1 = {
+	name = "Rajendra" # Rajendra Choda II, "master of the entire sea board tracts extending from Darsi in the Nellore district to Simhachalam in the Visakhapatnam district"
+	dynasty = telugu_velanati_choda
+	religion = "shaivism"
+	culture = "telugu"
+	stewardship = 8
+	1133.1.1 = {
+		birth = yes
+	}
+	1186.1.1 = {
+		death = yes
+	}
+}
+
+nellore_choda_1 = {
+	name = "Manumasiddha" # Manumasiddha I or Siddhi
+	dynasty = telugu_nellore_choda
+	religion = "shaivism"
+	culture = "telugu"
+	1140.1.1 = {
+		birth = yes
+	}
+	1192.1.1 = {
+		death = yes
+	}
+}
+
+chakranarayana_1 = {
+	name = "Sarngadhara" # Sarngadhara I
+	dynasty = telugu_chakranarayana
+	religion = "shaivism"
+	culture = "telugu"
+	1120.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
 		death = yes
 	}
 }

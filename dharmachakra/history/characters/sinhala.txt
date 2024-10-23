@@ -1126,3 +1126,18 @@ sinhalese_general_ravideva = {
 	}
 	1070.1.1 = { death = yes }
 }
+
+
+
+theemuge_1 = {
+	name = "Muthey"
+	dynasty = sinhala_theemuge
+	religion = "ashari"
+	culture = "sinhala"
+	1134.1.1 = {
+		birth = yes
+	}
+	1185.1.1 = {
+		death = yes
+	}
+}
