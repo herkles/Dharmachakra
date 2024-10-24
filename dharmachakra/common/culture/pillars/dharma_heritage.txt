@@ -1,0 +1,48 @@
+﻿heritage_indo_aryan = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_indo_aryan
+		}
+	}
+	audio_parameter = european
+}
+heritage_dravidian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_dravidian
+		}
+	}
+	audio_parameter = european
+}
+heritage_tibetan = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_tibetan
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_palaungic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_palaungic
+		}
+	}
+	audio_parameter = european
+}
+
+
+heritage_munda = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_munda
+		}
+	}
+	audio_parameter = european
+}

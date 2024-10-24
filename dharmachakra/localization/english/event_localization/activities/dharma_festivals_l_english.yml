@@ -150,7 +150,7 @@
 
     dharma_festivals.202.t:0 "The Buddhist Precipets"
     dharma_festivals.202.desc:0 "During Vesak it is common for Buddhists to take the eight Precepts. They are similar to the five precepts that laity like myself follow, however during Vessak I am to avoid all sexual conduct, luxury, and to eat at the same time as a monks.  "
-    dharma_festivals.202.eight:0 "Eight Precepts for Vesak"
+    dharma_festivals.202.eight:0 "Eight Precepts"
     dharma_festivals.202.five:0 "I shall stick with the 5 precepts"
 
     dharma_festivals.203.t:0 "Visiting the monastaries"
@@ -234,8 +234,6 @@
 
     dharma_festivals.316.t:0 "a-kyo nei"
     dharma_festivals.316.desc:0 "Thingyan is almost here, today is A-Kyo Nei, which is Thingyan Eve. A number of prayers and rituals preparing one for the festivals occures today, including taking the Buddhist eight precepts."
-    dharma_festivals.202.eight:0 "Eight Precepts for Thingyan"
-    dharma_festivals.202.five:0 "I shall stick with the five precepts"
 
     dharma_festivals.317.t:0 "a-kya nei"
     dharma_festivals.317.desc:0 "Today is A-kya Nei, when Thingyan begins. It is the day when Thagya Min makes his descent from the heavens. It is also the time when people come together to throw water at one another and have fun splashing in the water. "
@@ -377,8 +375,6 @@
     dharma_festivals.400.desc:0 "Losar is the New Year festival for the Tibetan People. It is a time filled with dance, music, and feasts. Should you order your servants to announce that the preprations are underway for this year festivities?"
     dharma_festivals.400.losar:0 "Lets begin the Preprations"
     dharma_festivals.400.no_losar:0 "I have better things to do..."
-    activity_dharma_losar_festival:0 "Losar Festival"
-    activity_dharma_losar_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] celebrating the Losar Festival."
 
     dharma_festivals.401.t:0 "Losar Begins!"
     dharma_festivals.401.desc:0 "Your servants have informed everyone that the new year festival is now underway. People both great and small are cleaning out their homes, and servants have begun to make guthok and other food. "

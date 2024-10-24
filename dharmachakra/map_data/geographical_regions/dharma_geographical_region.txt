@@ -1,0 +1,35 @@
+﻿# Geographical regions
+graphical_india = {
+	graphical = yes
+	color = { 0 255 0 }
+	regions = {
+		world_india
+	}
+}
+
+graphical_tibet = {
+	graphical = yes
+	color = { 0 255 0 }
+	regions = {
+		world_tibet
+	}
+}
+
+graphical_burma = {
+	graphical = yes
+	color = { 0 255 0 }
+	regions = {
+		world_burma
+	}
+}
+
+# Custom regions
+
+world_india_kashmir = {
+	duchies = {
+		#Himalaya
+		d_kurmanchal d_khasa d_nepal d_limbuwan
+		#Kashmir
+		d_kasmira
+	}
+}

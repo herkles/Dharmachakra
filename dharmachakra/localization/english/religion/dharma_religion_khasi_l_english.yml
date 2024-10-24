@@ -11,7 +11,6 @@
  khasi_animism_house_of_worship_plural:0 " Temple"
  khasi_animismhouse_of_worship_2:0 "$khasi_animism_house_of_worship$" # Optional translation alt
  khasi_animism_house_of_worship_3:0 "$khasi_animism_house_of_worship$" # Optional translation alt
- khasi_animism_house_of_worship_plural:0 "Temples"
  khasi_animism_religious_symbol:0 "Sijou Plant" 
  khasi_animism_religious_symbol_2:0 "$khasi_animism_religious_symbol$" # Optional translation alt
  khasi_animism_religious_symbol_3:0 "$khasi_animism_religious_symbol$" # Optional translation alt
@@ -74,7 +73,7 @@
   khasi_animism_adj:2 "Niam Tre"
   khasi_animism_adherent:2 "Niamtreist"
   khasi_animism_adherent_plural:2 "Niamtreists"
-  khasi_animism_religion_desc:0 "Niam Khasi is the ethnic religion of the Khasi people. It is a nature based tribal religion. The people and the religion are matrilineal. The chief deity is U Nongbuh U Nongthaw who is considered a supreme deity, his consort is Ka Blei Synshar."
+  khasi_animism_desc:0 "Niam Khasi is the ethnic religion of the Khasi people. It is a nature based tribal religion. The people and the religion are matrilineal. The chief deity is U Nongbuh U Nongthaw who is considered a supreme deity, his consort is Ka Blei Synshar."
 
   khasi_animism_old:1 "Old Niam Tre"
   khasi_animism_old_adj:2 "Old Niam Tre"

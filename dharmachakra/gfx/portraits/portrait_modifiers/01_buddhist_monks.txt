@@ -5,10 +5,10 @@ buddhist_beards = {
 		buddhist_beard = {
 			dna_modifiers = {
 				accessory = {
-					mode = replace					
+					mode = add
 					gene = beards
 					template = no_beard
-					value = 0.0
+					value = 0.5
 				}
 			}
 			weight = {
@@ -27,12 +27,12 @@ buddhist_hairstyles = {
 
 	buddhist_hair = {
 		dna_modifiers = {
-			accessory = {
-				mode = replace
-				gene = hairstyles
-				template = no_hairstyles
-				value = 1
-			}
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = no_hairstyles
+                accessory = bald
+            }
 		}
 		weight = {
 			base = 0

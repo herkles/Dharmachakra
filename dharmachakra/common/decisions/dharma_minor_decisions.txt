@@ -10,7 +10,6 @@ dharma_raise_hero_stone_decision = {
 
 	desc = raise_hero_stone_decision_desc
 	selection_tooltip = raise_hero_stone_decision_tooltip
-	major = yes
 
 	cooldown = { years = 10 }
 	

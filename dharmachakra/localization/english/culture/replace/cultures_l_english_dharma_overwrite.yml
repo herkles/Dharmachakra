@@ -1,0 +1,123 @@
+﻿l_english:
+# Dravidian Cultures
+  dravidian_group:0 "Dravidian"
+  dravidian_group_collective_noun:0 "Dravidians"
+
+  tamil:0 "Tamil"
+  tamil_prefix:0 "Tamil"
+  tamil_collective_noun:1 "Tamils"
+
+  telugu:0 "Telugu"
+  telugu_prefix:0 "Telugu"
+  telugu_collective_noun:1 "Telugus"
+
+  kannada:0 "Kannada"
+  kannada_prefix:0 "Kannada"
+  kannada_collective_noun:1 "Kannadans"
+
+  gond:0 "Gond"
+  gond_prefix:0 "Gond"
+  gond_collective_noun:0 "Gonds"
+
+# Indo Aryan Cultures
+  indo_aryan_group:0 "Indo-Aryan"
+  indo_aryan_group_collective_noun:0 "Indo-Aryans"
+
+  bengali:0 "Bengali"
+  bengali_prefix:0 "Bengali"
+  bengali_collective_noun:1 "Bengalis"
+
+  oriya:0 "Oriya"
+  oriya_prefix:0 "Oriya"
+  oriya_collective_noun:1 "Oriyas"
+
+  hindustani:1 "Kannauji"
+  hindustani_prefix:1 "Kannauji"
+  hindustani_collective_noun:1 "Kannaujis"
+
+  malvi:0 "Malvi"
+  malvi_prefix:0 "Malvi"
+  malvi_collective_noun:0 "Malvi"
+
+  gujarati:0 "Gujarati"
+  gujarati_prefix:0 "Gujarati"
+  gujarati_collective_noun:1 "Gujarats"
+
+  punjabi:0 "Punjabi"
+  punjabi_prefix:0 "Punjabi"
+  punjabi_collective_noun:1 "Punjabis"
+
+  rajput:1 "Rajasthani"
+  rajput_prefix:1 "Rajasthani"
+  rajput_collective_noun:2 "Rajasthanis"
+
+  sindhi:0 "Sindhi"
+  sindhi_prefix:0 "Sindhi"
+  sindhi_collective_noun:2 "Sindhis"
+
+  marathi:0 "Marathi"
+  marathi_prefix:0 "Maratha"
+  marathi_collective_noun:1 "Marathis"
+
+  sinhala:0 "Sinhala"
+  sinhala_prefix:0 "Sinhala"
+  sinhala_collective_noun:1 "Sinhalas"
+
+  nepali:0 "Nepali"
+  nepali_prefix:0 "Nepali"
+  nepali_collective_noun:1 "Nepalese"
+
+  kashmiri:0 "Kashmiri"
+  kashmiri_prefix:0 "Kashmiri"
+  kashmiri_collective_noun:0 "Kashmiris"
+
+# Burman Cultures
+ burman_group:0 "Burman"
+ burman_group_collective_noun:0 "Burmans"
+
+ burmese:0 "Burmese"
+ burmese_prefix:0 "Burmo"
+ burmese_collective_noun:0 "Burmese"
+
+ mon:0 "Mon"
+ mon_prefix:0 "Mono"
+ mon_collective_noun:0 "Mons"
+
+# Tibetan Cultures
+ tibetan_group:0 "Tibetan"
+ tibetan_group_collective_noun:0 "Tibetans"
+
+ bodpa:0 "Bodpa"
+ bodpa_prefix:0 "Tibeto"
+ bodpa_collective_noun:1 "Bodpas"
+
+ tangut:0 "Tangut"
+ tangut_prefix:0 "Tanguto"
+ tangut_collective_noun:1 "Tanguts"
+
+ zhangzhung:0 "Zhangzhung"
+ zhangzhung_prefix:0 "Zhangzhungo"
+ zhangzhung_collective_noun:1 "Zhangzhungs"
+
+ sumpa:0 "Sumpa"
+ sumpa_prefix:0 "Sumpo"
+ sumpa_collective_noun:1 "Sumpas"
+
+ tsangpa:0 "Tsangpa"
+ tsangpa_prefix:0 "Tsangpo"
+ tsangpa_collective_noun:0 "Tsangpas"
+
+ kirati:0 "Kirati"
+ kirati_prefix:0 "Kirato"
+ kirati_collective_noun:0 "Kiratis"
+
+ lhomon:0 "Lhomon"
+ lhomon_prefix:0 "Lhomo"
+ lhomon_collective_noun:0 "Lhomons"
+
+ qiang:0 "Qiang"
+ qiang_prefix:0 "Qiango"
+ qiang_collective_noun:0 "Qiangs"
+
+
+

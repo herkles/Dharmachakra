@@ -189,11 +189,6 @@
   king_male_deccan:0 "Maharaja"
   king_female_deccan:0 "Maharani"
 
-  emperor_male_deccan:0 "Samrat"
-  emperor_female_deccan:0 "Samrajni"
-
-  king_male_deccan:0 "[CHARACTER.Custom('KingMaleDeccan')]"
-  king_female_deccan:0 "[CHARACTER.Custom('KingFemaleDeccan')]"
   king_female_deccan_holder:0 "[CHARACTER.Custom('KingFemaleHolderDeccan')]"
   kingdom_deccan:0 "[CHARACTER.Custom('KingdomDeccan')]"
   sultan_male_deccan:0 "Sulatan"

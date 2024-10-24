@@ -1,0 +1,21 @@
+﻿l_english:
+  # Indo-Arayan Languages
+    language_sauraseni_name:1 "Shauraseni"
+    language_marathi_name:0 "Marathi"
+    language_magadhan_name:1 "Magadhi"
+    language_pahari_name:0 "Pahari"
+    language_vrachada_name:0 "Vrachada"
+    language_rajasthani_name:0 "Gurjar"
+    language_sinhalese_name:0 "Sinhalese"
+    language_kashmiri_name:0 "Kashmiri"
+    language_sanskrit_name:0 "Sanskrit"
+    language_pali_name:0 "Pali"
+  # Dravidian Languages
+    language_dravidian_name:0 "Dravidian"
+    language_tamil_name:0 "Tamil"
+    language_telugu_name:0 "Telugu"
+    language_kannada_name:0 "Kannada"
+  # Tibetan Languages
+    language_tibetan_name:0 "Tibetan"
+  # Burmese Languages
+    language_burmese_name:0 "Burmese"

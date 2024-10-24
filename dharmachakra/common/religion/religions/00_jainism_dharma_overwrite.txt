@@ -41,7 +41,7 @@
 
 	traits = {
 		virtues = { calm compassionate honest forgiving generous chaste improvident inappetetic humble }
-		sins = {  hunter_1 hunter_2 hunter_3 drunkard wrathful sadistic gluttonous lustful greedy callous rakish deceitful }
+		sins = {  hunter drunkard wrathful sadistic gluttonous lustful greedy callous rakish deceitful }
 	}
 
 	custom_faith_icons = {

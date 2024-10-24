@@ -106,9 +106,6 @@
 	722.1.1 = {
 		birth = yes
 	}
-	738.1.1 = {
-		trait = reveler_1
-	}
 	782.1.1 = {
 		death = yes
 	}
@@ -731,7 +728,7 @@ rashtrakuta003 = { # Asagavve
 #######################################
 74436 = {# Chattigadeva
 	name = "Chattigadeva"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74706
@@ -745,7 +742,7 @@ rashtrakuta003 = { # Asagavve
 }
 74437 = {# Tailapa
 	name = "Tailapa" #Tailapa I (II) of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74436
@@ -759,7 +756,7 @@ rashtrakuta003 = { # Asagavve
 }
 74438 = {# Satyasraya
 	name = "Satyasraya" #Satyasraya of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74437
@@ -773,7 +770,7 @@ rashtrakuta003 = { # Asagavve
 }
 74439 = {# Vikramaditya
 	name = "Vikramaditya" # Vikramaditya I (V) of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74438
@@ -787,7 +784,7 @@ rashtrakuta003 = { # Asagavve
 }
 74440 = {# Jayasimha
 	name = "Jayasimha" #Jayasimha I (II) of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74438
@@ -801,7 +798,7 @@ rashtrakuta003 = { # Asagavve
 }
 74441 = {# Somesvara
 	name = "Somesvara" #Somesvara I of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74440
@@ -853,7 +850,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74442 = {# Somesvara
 	name = "Somesvara" #Somesvara II of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74441
@@ -867,7 +864,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74443 = {# Vikramaditya
 	name = "Vikramaditya" #Vikramaditya II (VI) of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74441
@@ -893,7 +890,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74444 = {# Jayasimha
 	name = "Jayasimha"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74441
@@ -907,7 +904,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74445 = {# Kirtivarman
 	name = "Kirtivarman"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74441
@@ -921,7 +918,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74446 = {# Somesvara
 	name = "Somesvara" #Somesvara III of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74443
@@ -952,7 +949,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74447 = {# Jagadhekamalla
 	name = "Jagadhekamalla" #Jaghadekamalla I (II) of Western Cholukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74446
@@ -983,7 +980,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74448 = {# Tailapa
 	name = "Tailapa" #Tailapa II (III) of Western Cholukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74447
@@ -998,7 +995,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74449 = {# Jagadhekamalla
 	name = "Jagadhekamalla"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74447
@@ -1029,7 +1026,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74450 = {# Somesvara
 	name = "Somesvara" #Somesvara IV of Western Chalukya
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74449
@@ -1044,7 +1041,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74706 = {# Vikramaditya
 	name = "Vikramaditya"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74707
@@ -1058,7 +1055,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74707 = {# Ayyana
 	name = "Ayyana"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74708
@@ -1086,7 +1083,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74708 = {# Bhima
 	name = "Bhima"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74709
@@ -1103,7 +1100,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74709 = {# Vikramaditya
 	name = "Vikramaditya"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74710
@@ -1117,7 +1114,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74710 = {# Tailapa
 	name = "Tailapa"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74711
@@ -1131,7 +1128,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74711 = {# Kirtivarman
 	name = "Kirtivarman"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74712
@@ -1145,7 +1142,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74712 = {# Bhima
 	name = "Bhima"
-	dynasty = 12319
+	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
 	father = 74713
@@ -1159,7 +1156,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74739 = {# Pampadevi
 	name = "Pampadevi"
-	dynasty = 12319
+	dynasty_house = 12319
 	female = yes
 	religion = "shaivism"
 	culture = "kannada"
@@ -3798,7 +3795,7 @@ nidugal_cholas_15 = {# Rajaganesha
 	culture = "kannada"
 	trait = education_martial_3
 	trait = strong
-	trait = hunter_1
+	trait = hunter
 
 	818.1.1 = {
 		birth = yes

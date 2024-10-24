@@ -1,0 +1,34 @@
+﻿l_english:
+#New Dravidian Cultures
+ malayali:0 "Malayali"
+ malayali_collective_noun:1 "Malayalis"
+
+# New Indo Aryan Cultures
+ hindustani_proper:0 "Hindavi"
+ hindustani_proper_collective_noun:0 "Hindavis"
+ hindustani_proper_prefix:0 "Hindavi"
+
+ bihari_name:0 "Bihari"
+ bihari_collective_noun:0 "Biharis"
+ bihari_prefix:0 "Bihari"
+
+# New Burman Cultures
+
+# New Tibetan Cultures
+
+# Nuristani Culture Group
+
+# Munda Culture Group
+ munda_group:0 "Munda"
+ munda_group_collective_noun:0 "Mundas"
+
+ munda_name:0 "Munda"
+ munda_collective_noun:0 "Mundas"
+ munda_prefix:0 "Munda"
+
+# Hybrid Cultures
+ himalayan_name:0 "Newar"
+ himalayan_collective_noun:0 "Newars"
+ himalayan_prefix:0 "Newa"
+
+# Divergent Cultures

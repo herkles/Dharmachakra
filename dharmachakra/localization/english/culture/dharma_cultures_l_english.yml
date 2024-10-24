@@ -1,22 +1,11 @@
 ﻿l_english:
 #New Dravidian Cultures
- malayali:0 "Malayali"
- malayali_collective_noun:1 "Malayalis"
 
- gondi:0 "Gondi"
- gondi_collective_noun:1 "Gonds"
 
 # New Indo Aryan Cultures
- hindustani_proper:0 "Hindavi"
- hindustani_proper_collective_noun:0 "Hindavis"
- hindustani_proper_prefix:0 "Hindavi"
-
  konkani:0 "Konkani"
  konkani_collective_noun:0 "Konkanis"
  konkani_prefix:0 "Konkani"
-
- bihari:0 "Bihari"
- bihari_collective_noun:0 "Biharis"
 
  braj:0 "Braj"
  braj_collective_noun:0 "Brajis"
@@ -34,10 +23,6 @@
  bhil_collective_noun:0 "Bhils"
  bhil_prefix:0 "Bhil"
 
- malvi:0 "Malvi"
- malvi_collective_noun:0 "Malvis"
- berber_prefix:0 "Malvi"
-
  nagpuri:0 "Nagpuri"
  nagpuri_collective_noun:0 "Nagpuris"
  nagpuri_prefix:0 "Nagpuri"
@@ -45,9 +30,6 @@
  sambalpuri:0 "Sambalpuri"
  sambalpuri_collective_noun:0 "Sambalpuris"
  sambalpuri_prefix:0 "Sambalpuri"
-
- rajput:0 "Rajasthani"
- rajput_collective_noun:1 "Rajasthanis"
 
  kumaoni_name:0 "Kumaoni"
  kumaoni_collective_noun:1 "Kumaonis"
@@ -103,20 +85,11 @@
  nuristani_prefix:0 "Nuristani"
 
 # Munda Culture Group
- munda_group:0 "Munda"
- munda_group_collective_noun:0 "Mundas"
- munda:0 "Munda"
- munda_collective_noun:1 "Mundas"
-
  khasi:0 "Khasi"
  khasi_collective_noun:0 "Khasis"
  khasi_prefix:0 "Khasi"
 
 # Hybrid Cultures
- himalayan_name:0 "Newar"
- himalayan_collective_noun:0 "Newars"
- himalayan_prefix:0 "Newa"
-
  rajbongshi_name:0 "Rajbonshi"
  rajbongshi_collective_noun:0 "Rajbonshi"
  rajbongshi_prefix:0 "Rajbonshi"

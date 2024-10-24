@@ -1,13 +1,5 @@
 ﻿l_english:
-#######################################
-# Court Position Traits
-#######################################
- court_position_calm_trait:0 "[GetTrait('calm').GetName( ROOT.Char )]"
- court_position_impatient_trait:0 "[GetTrait('impatient').GetName( ROOT.Char )]"
- court_position_wrathful_trait:0 "[GetTrait('wrathful').GetName( ROOT.Char )]"
- court_position_theologian_trait:0 "[GetTrait('theologian').GetName( ROOT.Char )]"
- court_position_content_trait:0 "[GetTrait('content').GetName( ROOT.Char )]"
- court_position_ambitious_trait:0 "[GetTrait('ambitious').GetName( ROOT.Char )]"
+
 
 #######################################
 # Buddhist Court Positions
