@@ -173,7 +173,7 @@ dharma_buddhism.020 = {# Life Release
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 			compassionate = minor_stress_loss
-			hunter = minor_stress_gain
+			lifestyle_hunter = minor_stress_gain
 		}
 	}
 	option = {# Need it for my dinner
@@ -182,7 +182,7 @@ dharma_buddhism.020 = {# Life Release
 		stress_impact = {
 			base = miniscule_stress_impact_loss
 			compassionate = minor_stress_gain
-			hunter = minor_stress_loss
+			lifestyle_hunter = minor_stress_loss
 		}
 
 	}

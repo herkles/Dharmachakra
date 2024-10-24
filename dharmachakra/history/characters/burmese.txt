@@ -70,7 +70,6 @@ burman001 = {# Anawrahta
 	trait = diligent
 	trait = just
 	trait = flexible_leader
-	trait = blademaster_3
 	
 	1014.5.11 = {
 		birth = yes

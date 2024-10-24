@@ -1,12 +1,4 @@
 ﻿# Geographical regions
-graphical_india = {
-	graphical = yes
-	color = { 0 255 0 }
-	regions = {
-		world_india
-	}
-}
-
 graphical_tibet = {
 	graphical = yes
 	color = { 0 255 0 }

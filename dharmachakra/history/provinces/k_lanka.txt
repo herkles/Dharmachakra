@@ -34,15 +34,21 @@
 	# History
 }
 
-3279 = {	# 1215 - Dakhina Desa
+# 3284 - anuradhapura
+3284 = {	# 3284 - anuradhapura
 	
 	# Misc
 	culture = sinhala
 	religion = theravada
-	# History
-}
-3282 = {# 1215 - Dhamballi
 	
+	# History
+	867.1.1 = {
+		special_building = generic_university
+	}
+}
+	
+#3288 - Samantakuta
+3288 = { 
 	# Misc
 	culture = sinhala
 	religion = theravada

@@ -146,6 +146,7 @@
 		DeathDeityNamePossessive = sanamahism_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WitchGod
 		WitchGodName = sanamahism_witch_name

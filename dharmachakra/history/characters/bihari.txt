@@ -1,4 +1,210 @@
-﻿#######################################
+﻿
+
+
+
+#######################################
+# Gupta Dynasty
+#######################################
+gupta_1 = {
+	name = "Chandragupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	trait = education_martial_3
+	trait = ambitious
+	trait = diligent
+	trait = compassionate
+	father = gupta_2
+	355.1.1 = {
+		birth = yes
+	}
+	415.1.1 = {
+		death = yes
+	}
+}
+gupta_2 = {
+	name = "Samudragupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_3
+	335.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		death = yes
+	}
+}
+gupta_3 = {
+	name = "Chandragupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_4
+	300.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+gupta_4 = {
+	name = "Ghatotkacha"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_5
+	260.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		death = yes
+	}
+}
+gupta_5 = {
+	name = "Gupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	240.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+gupta_6 = {
+	name = "Kumaragupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_1
+	380.1.1 = {
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+gupta_7 = {
+	name = "Prabhavatigupta"
+	female = yes
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_1
+	385.1.1 = {
+		birth = yes
+	}
+	443.1.1 = {
+		death = yes
+	}
+}
+gupta_8 = {
+	name = "Govindagupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_1
+	390.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+gupta_9 = {
+	name = "Skandagupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_6
+	405.1.1 = {
+		birth = yes
+	}
+	468.1.1 = {
+		death = yes
+	}
+}
+gupta_10 = {
+	name = "Purugupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_6
+	410.1.1 = {
+		birth = yes
+	}
+	473.1.1 = {
+		death = yes
+	}
+}
+gupta_11 = {
+	name = "Kumaragupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_10
+	440.1.1 = {
+		birth = yes
+	}
+	476.1.1 = {
+		death = yes
+	}
+}
+gupta_12 = {
+	name = "Budhagupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_10
+	445.1.1 = {
+		birth = yes
+	}
+	495.1.1 = {
+		death = yes
+	}
+}
+gupta_13 = {
+	name = "Narasimhagupta"
+	dynasty = kannauji_gupta
+	religion = "mahayana"
+	culture = "bihari"
+	father = gupta_10
+	450.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+gupta_14 = {
+	name = "Kumaragupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_13
+	485.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+gupta_15 = {
+	name = "Vishnugupta"
+	dynasty = kannauji_gupta
+	religion = "vaishnavism"
+	culture = "bihari"
+	father = gupta_14
+	520.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		death = yes
+	}
+}
+#######################################
 # Later Gupta Dynasty
 #######################################
 191088 = {# Krisnagupta

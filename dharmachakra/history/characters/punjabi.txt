@@ -113,7 +113,7 @@
 	}
 }
 188377 = {
-	name = "Lalitadiyta-Muktapida"
+	name = "Lalitadiyta_Muktapida"
 	dynasty = 1042100 # Karkota
 	religion = "vaishnavism"
 	culture = "kashmiri"

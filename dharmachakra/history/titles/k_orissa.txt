@@ -949,9 +949,11 @@ c_sripuri = {
 	800.1.1 = {
 		holder = 191230	#Haragupta
 	}
-
-	855.1.1 = {
-		holder = sambalpuri_sripuri_001 # Pralambha
+	850.1.1 = {
+		holder = 191231	#Balarjuna
+	}
+	870.1.1 = {
+		holder = 175130 #Vikramaditya I Jayameru
 	}
 	895.1.1 = {
 		holder = 189188	#Janamejaya

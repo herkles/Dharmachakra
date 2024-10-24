@@ -116,7 +116,7 @@ dharma_jainism.004 = {# Fasting with the Monk
 			hashishiyah = minor_stress_gain
 			rakish = minor_stress_gain
 			drunkard = minor_stress_gain
-			reveler = minor_stress_gain
+			lifestyle_reveler = minor_stress_gain
 		}
 		add_piety = 50
 	}
@@ -136,7 +136,7 @@ dharma_jainism.004 = {# Fasting with the Monk
 			hashishiyah = minor_stress_loss
 			rakish = minor_stress_loss
 			drunkard = minor_stress_loss
-			reveler = minor_stress_gain
+			lifestyle_reveler = minor_stress_gain
 		}
 		add_piety = -50
 	}
