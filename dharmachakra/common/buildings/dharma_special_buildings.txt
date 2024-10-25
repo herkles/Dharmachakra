@@ -322,7 +322,6 @@ konark_sun_temple_01 = {# Konark Sun Temple
 	
 	type = special
 }
-
 # Tamil Temples
 ramanathaswamy_temple_01 = {# Ramanathaswamy Temple
 	construction_time = very_slow_construction_time

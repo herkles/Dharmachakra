@@ -118,3 +118,5 @@
  yapaniya_adherent_plural:0 "Yapaniyas"
  yapaniya_desc:0 "The Yapaniya are a branch that is in between the Svetambara and Digambara sects. The monks of the Yapaniya sect are naked like the Digambara, while also accepting some of Svetambara texts as valid."
 
+ # Jains can't hunt modifier
+ hunt_cannot_hunt_religion_parameter_tt:0 "[faith|E] is unable to Hunt"
