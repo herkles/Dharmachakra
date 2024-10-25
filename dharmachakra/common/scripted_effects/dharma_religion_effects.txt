@@ -254,1089 +254,1089 @@ set_nat_effect = {# Burmese Deities
 
 	add_character_modifier = $NAT$
 }
-#######################################
-# Animal Sacrifices 
-#######################################
-# dharma_vedic_devi_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_devi_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_devi_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_devi_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_durga_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_durga_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_durga_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_durga_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_indra_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_indra_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_indra_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_indra_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_saraswati_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_saraswati_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_saraswati_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_saraswati_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_lakshmi_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_lakshmi_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_lakshmi_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_lakshmi_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_bhaga_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_bhaga_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_bhaga_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_bhaga_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_parvati_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_parvati_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_parvati_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_parvati_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_agni_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_agni_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_agni_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_agni_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_brhaspati_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_brhaspati_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_brhaspati_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_brhaspati_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
-# dharma_vedic_aditi_animal_sacrifice_effect = {
-# 	random_list = {
-# 		40 = {
-# 			modifier = {
-# 				add = 10
-# 				num_sinful_traits >= 1
-# 			}
-# 		}
-# 		30 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_aditi_blessing_small
-# 				years = 5
-# 			}
-# 		}
-# 		20 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 1
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_aditi_blessing_medium
-# 				years = 5
-# 			}
-# 		}
-# 		10 = {
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_small
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				has_character_flag = dharma_animal_sacrifice_goat
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_medium
-# 			}
-# 			modifier = {
-# 				add = 10
-# 				has_character_flag = dharma_animal_sacrifice_buffalo
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_large
-# 			}
-# 			modifier = {
-# 				add = 15
-# 				has_character_flag = dharma_animal_sacrifice_horse
-# 			}
-# 			modifier = {
-# 				add = 5
-# 				num_virtuous_traits <= 2
-# 			}
-# 			add_character_modifier = {
-# 				modifier = dharma_vedic_aditi_blessing_large
-# 				years = 5
-# 			}
-# 		}
-# 	}
-# }
+######################################
+Animal Sacrifices 
+######################################
+dharma_vedic_devi_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_devi_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_devi_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_devi_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_durga_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_durga_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_durga_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_durga_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_indra_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_indra_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_indra_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_indra_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_saraswati_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_saraswati_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_saraswati_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_saraswati_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_lakshmi_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_lakshmi_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_lakshmi_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_lakshmi_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_bhaga_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_bhaga_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_bhaga_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_bhaga_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_parvati_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_parvati_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_parvati_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_parvati_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_agni_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_agni_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_agni_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_agni_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_brhaspati_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_brhaspati_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_brhaspati_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_brhaspati_blessing_large
+				years = 5
+			}
+		}
+	}
+}
+dharma_vedic_aditi_animal_sacrifice_effect = {
+	random_list = {
+		40 = {
+			modifier = {
+				add = 10
+				num_sinful_traits >= 1
+			}
+		}
+		30 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_aditi_blessing_small
+				years = 5
+			}
+		}
+		20 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 1
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_aditi_blessing_medium
+				years = 5
+			}
+		}
+		10 = {
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_small
+			}
+			modifier = {
+				add = 5
+				has_character_flag = dharma_animal_sacrifice_goat
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_medium
+			}
+			modifier = {
+				add = 10
+				has_character_flag = dharma_animal_sacrifice_buffalo
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_large
+			}
+			modifier = {
+				add = 15
+				has_character_flag = dharma_animal_sacrifice_horse
+			}
+			modifier = {
+				add = 5
+				num_virtuous_traits <= 2
+			}
+			add_character_modifier = {
+				modifier = dharma_vedic_aditi_blessing_large
+				years = 5
+			}
+		}
+	}
+}
 #######################################
 # Visting Places Effects
 #######################################
@@ -1441,12 +1441,10 @@ dharma_set_up_next_sharada_peeth_event_effect = {# Visiting Sharada Peeth
 #######################################
 # Buddhist Retreat Effects
 #######################################
-dharma_set_up_next_buddhist_retreat_event_effect = {# Visiting Nalanda
-	scope:activity = {
-		change_variable = {
-			name = dharma_buddhist_retreat_event_counter
-			add = 1
-		}
+dharma_set_up_next_buddhist_retreat_event_effect = {
+	change_variable = {
+		name = dharma_buddhist_retreat_event_counter
+		add = 1
 	}
 	save_scope_value_as = {
 		name = event_counter
@@ -1454,9 +1452,12 @@ dharma_set_up_next_buddhist_retreat_event_effect = {# Visiting Nalanda
 	}
 	if = {
 		limit = { # TODO: Is any fallback handling needed in an else here?
-			exists = scope:activity
+			involved_activity = {
+				has_activity_type = activity_dharma_buddhist_retreat
+				activity_host = root
+			}
 		}
-		if = {
+		if = {# Do another Event
 			limit = {
 				scope:activity.var:dharma_buddhist_retreat_event_counter = {
 					compare_value <= scope:activity.var:dharma_buddhist_retreate_length_value 
@@ -1467,7 +1468,7 @@ dharma_set_up_next_buddhist_retreat_event_effect = {# Visiting Nalanda
 				days = $DAYS$
 			}
 		}
-		else = {
+		else = {# End the Retreat
 			if = { #For event background 
 				limit = { scope:activity.var:dharma_buddhist_retreat_done = no }
 				scope:activity = {

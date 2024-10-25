@@ -13,6 +13,41 @@
 
 	can_start = {
 		dharma_vedic_sacrifice_activity_allowed_trigger = yes
+		NOR = { 
+			has_character_modifier = dharma_vedic_devi_blessing_small 
+			has_character_modifier = dharma_vedic_devi_blessing_medium 
+			has_character_modifier = dharma_vedic_devi_blessing_large 
+			has_character_modifier = dharma_vedic_durga_blessing_small 
+			has_character_modifier = dharma_vedic_durga_blessing_medium 
+			has_character_modifier = dharma_vedic_durga_blessing_large 
+			has_character_modifier = dharma_vedic_indra_blessing_small 
+			has_character_modifier = dharma_vedic_indra_blessing_medium 
+			has_character_modifier = dharma_vedic_indra_blessing_large 
+			has_character_modifier = dharma_vedic_lakshmi_blessing_small 
+			has_character_modifier = dharma_vedic_lakshmi_blessing_medium 
+			has_character_modifier = dharma_vedic_lakshmi_blessing_large 
+			has_character_modifier = dharma_vedic_bhaga_blessing_small 
+			has_character_modifier = dharma_vedic_bhaga_blessing_medium 
+			has_character_modifier = dharma_vedic_bhaga_blessing_large 
+			has_character_modifier = dharma_vedic_parvati_blessing_small 
+			has_character_modifier = dharma_vedic_parvati_blessing_medium 
+			has_character_modifier = dharma_vedic_parvati_blessing_large 
+			has_character_modifier = dharma_vedic_agni_blessing_small 
+			has_character_modifier = dharma_vedic_agni_blessing_medium 
+			has_character_modifier = dharma_vedic_agni_blessing_large 
+			has_character_modifier = dharma_vedic_brhaspati_blessing_small 
+			has_character_modifier = dharma_vedic_brhaspati_blessing_medium 
+			has_character_modifier = dharma_vedic_brhaspati_blessing_large 
+			has_character_modifier = dharma_vedic_aditi_blessing_small 
+			has_character_modifier = dharma_vedic_aditi_blessing_medium 
+			has_character_modifier = dharma_vedic_aditi_blessing_large 
+			has_character_modifier = dharma_vedic_saraswati_blessing_small 
+			has_character_modifier = dharma_vedic_saraswati_blessing_medium 
+			has_character_modifier = dharma_vedic_saraswati_blessing_large 
+
+
+		}
+
 	}
 
 	can_start_showing_failures_only = {

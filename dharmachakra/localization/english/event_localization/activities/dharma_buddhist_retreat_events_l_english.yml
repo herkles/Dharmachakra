@@ -1,0 +1,144 @@
+﻿l_english:
+#######################################
+# BUDDHIST RETREAT
+#######################################
+  dharma_buddhist_retreat.001.t:0 "Arriving at the Monastary"
+  dharma_buddhist_retreat.001.desc:0 "The journey to the temple was more strenuous than I expected, but we have arrived nonetheless. I engage in the normal formalities upon reaching the temple - prostrating before Lord Buddha, bestowing gifts upon the monks, and so on. Eventually, I remove all my luxurious clothing and put on the humble robes of an ascetic.\n\nAs night comes, I am shown to my dormitory where I will be sleeping during my stay. It's a change from the luxurious palace rooms, but I'll get used to it."
+  dharma_buddhist_retreat.001.a:0 "I have arrived"
+
+  dharma_buddhist_retreat.002.t:0 "Back to basics"
+  dharma_buddhist_retreat.002.desc:0 "My attempts at more complicated meditation techniques have failed these past couple of days. Thus, I've decided that while meditating today, I'll practice one of the most basic meditation techniques - trying to focus only on my breathing, and the sensation of my breath going in and out of my body"
+  dharma_buddhist_retreat.002.a:0 "In and out"
+
+  dharma_buddhist_retreat.003.t:0 "Monastic Food"
+  dharma_buddhist_retreat.003.desc:0 "During these meditation retreats, were not supposed to eat a lot - just enough to sustain ourselves. That said, since I am a [Root.GetTitle], I could easily get away with taking more food than I am normally given."
+  dharma_buddhist_retreat.003.a:0 "I must bear through it"
+  dharma_buddhist_retreat.003.b:0 "take more food"
+
+  dharma_buddhist_retreat.004.t:0 "Meditating"
+  dharma_buddhist_retreat.004.desc:0 "I'm attempting to meditate with my eyes half-open, as some of the monks have recommended. Still, it's distracting - I'm trying to clear my mind of useless thoughts, yet with my eyes half-open, I can still see some of things happening around me."
+  dharma_buddhist_retreat.004.a:0 "Better try it with my eyes shut for now"
+
+  dharma_buddhist_retreat.005.t:0 "Uncomfortable Robes"
+  dharma_buddhist_retreat.005.desc:0 "I have to wear the robes of other monastics on the retreat, in addition to being simple robes for one of my station they are rather uncomfortable!"
+  dharma_buddhist_retreat.005.a:0 "I must bear with them, to focus on my concentration"
+
+  dharma_buddhist_retreat.006.t:0 "Numb Legs"
+  dharma_buddhist_retreat.006.desc:0 "When today's last meditation session ended, my legs were so numb I couldn't walk. However, one of the monks noticed my trouble, and he showed me some techniques to relieve my legs of numbness I was previously unaware of."
+  dharma_buddhist_retreat.006.a:0 "What a kind monk"
+
+  dharma_buddhist_retreat.007.t:0 "An Exam"
+  dharma_buddhist_retreat.007.desc:0 "As usual, some of the monks and retreat participants are engaging in spiritual discussion and debate, and I decide to observe. Suddenly, a senior monk of great age brings forth a chair and sets it before everyone.'Can anyone prove that this chair's true essence is that of emptiness, prove that it is an illusion in our mind?' he asks.\n\nThe others eagerly begin making their cases, citing the sutras or referencing ideas about the mindstream and dependent origination, saying the chair is like this and that. However, none of their answers satisfies the old monk. Finally, one monk - who had been silent for some time - speaks up, and asks, 'What chair are we arguing about?''"
+  dharma_buddhist_retreat.007.a:0 "I see the old monk smiling"
+
+  dharma_buddhist_retreat.008.t:0 "The Nature of Emptiness"
+  dharma_buddhist_retreat.008.desc:0 "I am participating in a philosophical discussion with one of the senior monks to prove how much of the Dharma I've learned. I proclaim, The true nature of everything is emptiness. The Buddhas and Bodhisattvas do not exist. There is no realization, no delusion, no sage. There is no giving and nothing to be received.\n\nThe senior monk is silent, his face unmoving. Is he thinking? Suddenly - WHACK - he hits me on the head. I am angered, but the monk patiently asks me:"
+  dharma_buddhist_retreat.008.a:0 "If nothing exists, where did that anger come from?"
+
+  dharma_buddhist_retreat.009.t:0 "To Know and Not Know"
+  dharma_buddhist_retreat.009.desc:0 "here is a kind and patient senior monk at the temple who has always provided me with good advice and insight. After a meditation session, I ask him, "What happens to an enlightened man after death?"\nHe replies, "I don"t know."\nI subsequently ask, "But aren"t you a master?"\n"Yes," he says, "But not a dead one"
+  dharma_buddhist_retreat.009.a:0 "Oh! The future is unforseeable. I must focus on the present."
+  dharma_buddhist_retreat.009.b:0 "Ah. A wise man knows that he knows nothing."
+
+  dharma_buddhist_retreat.010.t:0 "Distract self or not?"
+  dharma_buddhist_retreat.010.desc:0 "Sitting still is so difficult! How do these monks manage it? My buttocks are in pain, I am constantly falling asleep... it is so difficult to concentrate while meditating. I could just pretend to be meditating while thinking about other things - that would be much easier, but then that would defeat the purpose of meditation."
+  dharma_buddhist_retreat.010.a:0 "I take a deep breath, then redouble my efforts to concentrate."
+  dharma_buddhist_retreat.010.b:0 "My mind starts wandering to pleasurable thoughts"
+
+  dharma_buddhist_retreat.011.t:0 "Whack"
+  dharma_buddhist_retreat.011.desc:0 "Pleasurable fantasies overtake my mind while I'm supposed to be meditation. Delicious wines, scrumptious foods, sweet, salty, spicy, and the most beautiful women, with luscious curves and - WHACK! Suddenly, one of the higher-ranked monks patrolling the meditation room birches one of the novice monks who was falling asleep."
+  dharma_buddhist_retreat.011.a:0 "Back to meditating! Breathe in, breath out"
+
+  dharma_buddhist_retreat.012.t:0 "Energized"
+  dharma_buddhist_retreat.012.desc:0 "Usually during retreats, participants sleep very little - a few hours a night, in fact. Yet, I've never felt more energized. The senior monks say that if one meditates well, one can reduce the need to sleep."
+  dharma_buddhist_retreat.012.a:0 "Amazing"
+
+  dharma_buddhist_retreat.013.t:0 "Going Outside"
+  dharma_buddhist_retreat.013.desc:0 "I've decided to meditate outside today, rather than inside. Not everyone chooses to meditate this way, preferring the comforts of the inside, but some have said that meditating outside is a very different experience. As I sit down and begin meditating, I can already feel the difference.\n\nNormally, I am so busy with work that I rarely think about what is happening in the world around me. I hear the birds, the insects, the rustling of the trees, the wind as it blows from the heavens above"
+  dharma_buddhist_retreat.013.a:0 "This is refreshing.;"
+
+  dharma_buddhist_retreat.014.t:0 "Questions and Answers"
+  dharma_buddhist_retreat.014.desc:0 "When I begun doing meditation retreats, I used to probe many different spiritual and philosophical questions and provide myself of many different answers. As I have gained more and more insight, I notice I have less and less questions, and less and less answers"
+  dharma_buddhist_retreat.014.a:0 "The masters say this is a good thing"
+
+  dharma_buddhist_retreat.015.t:0 "Heightened Senses"
+  dharma_buddhist_retreat.015.desc:0 "My efforts in meditation has given me much insight into natural phenomena. With greater concentration and patience, I discern minute details about the world I would have never noticed otherwise."
+  dharma_buddhist_retreat.015.a:0 "I must not, however, get so attached to such abilities"
+
+  dharma_buddhist_retreat.016.t:0 "Dealing with Boredom"
+  dharma_buddhist_retreat.016.desc:0 "During the retreat, the various activites that I have long enjoyed from feasting to Hunting is not practiced. Instead I am to practice on spiritual meditation and focusing on inner peace. Unfortunatly all I can feel is inner boredom."
+  dharma_buddhist_retreat.016.a:0 "I will just have to endure for now."
+
+  dharma_buddhist_retreat.017.t:0 "Dealing with no pleasure"
+  dharma_buddhist_retreat.017.desc:0 "During the retreat, I am to focus on spiritual matters and this means that I am not able to enjoy the pleasures of the flesh. This focus on chasity and celebrate vows during the retreats has been getting to me."
+  dharma_buddhist_retreat.017.a:0 "breath in, breath out, I will enjoy myself afterwards."
+
+  dharma_buddhist_retreat.018.t:0 "Doing Chores"
+  dharma_buddhist_retreat.018.desc:0 "During the retreat, I am to help the monks with chores around the monastary. This is not what my station normally does. Yet despite this myself..."
+  dharma_buddhist_retreat.018.a:0 "Understanding my lessers better"
+  dharma_buddhist_retreat.018.b:0 "annoyed that I have to do these chores."
+
+  dharma_buddhist_retreat.019.t:0 "Questions and Answers"
+  dharma_buddhist_retreat.019.desc:0 "When I begun doing meditation retreats, I used to probe many different spiritual and philosophical questions and provide myself of many different answers. As I have gained more and more insight, I notice I have less and less questions, and less and less answers."
+  dharma_buddhist_retreat.019.a:0 "The masters say this is a good thing"
+
+  dharma_buddhist_retreat.020.t:0 "Meditating by myself"
+  dharma_buddhist_retreat.020.desc:0 "Today I was meditating by myself in the monastary. Instead of meditating with others, and hearing the chanting of other monks, I was by myself, hearing the sounds of nature."
+  dharma_buddhist_retreat.020.a:0 "I feel better for the quiet"
+  dharma_buddhist_retreat.020.b:0 "The Quiet makes my mind wander"
+
+  dharma_buddhist_retreat.021.t:0 "Gardening"
+  dharma_buddhist_retreat.021.desc:0 "While I was at the monastary, one of the monks was teaching me about the various plants. Of the course of my time at the monastary on the retreat, I try and study more under the monk to learn more about plants and herbs that he might be able to teach me. "
+  dharma_buddhist_retreat.021.plants:0 "Knowledge of plants will lead me to enlightenment"
+  dharma_buddhist_retreat.021.plants.success:0 "You are able to grasp the teachings regarding herbalism that the Monk was talking about."
+  dharma_buddhist_retreat.021.plants.success_title:0 "Successfully grasped the Monk's teachings"
+  dharma_buddhist_retreat.021.plants.failure:0 "You fail to grasp  the teachings regarding herbalism that the Monk was talking about"
+  dharma_buddhist_retreat.021.plants.failure_title:0 "Failed to grasp the Monk's teachings."
+
+  dharma_buddhist_retreat.022.t:0 "Chant names of Buddhas and Bodhisattvas"
+  dharma_buddhist_retreat.022.desc:0 "During my time at the monastary, I join the monks in chanting the names of the Buddhas and Bodhisattvas.."
+  dharma_buddhist_retreat.022.a:0 "This should improve my ability to concentrate."
+
+  dharma_buddhist_retreat.023.t:0 "Chanting Mantras"
+  dharma_buddhist_retreat.023.desc:0 "Today while at the retreat one of the monks have suggested that I continuously (but quietly) chant a mantra or a similar prayer, and focus all my energy on that. That way, I can train my mind to concentrate on one single thing.."
+  dharma_buddhist_retreat.023.a:0 "Om Mani Padme Hum"
+
+  dharma_buddhist_retreat.024.t:0 "Walking Meditation"
+  dharma_buddhist_retreat.024.desc:0 "Today at the monastary, instead of the usual meditation of sititng down and focusing, I did a walking meditation in the monastic garden. Enjoying the fresh air as I moved around, focusing not on my walking but on my breath and inner concentration."
+  dharma_buddhist_retreat.024.a:0 "Om"
+
+  dharma_buddhist_retreat.025.t:0 "Buddha Visualization"
+  dharma_buddhist_retreat.025.desc:0 "A method of meditation taught by the masters is so-called visualization meditation, where one focuses on a specific Buddha or Bodhisattva. By meditating on one of the Buddhas, Boddhisattvas or even a meditational deity, the monks say it will help me reach enlightenment."  
+  dharma_buddhist_retreat.025.a:0 "I attempt to Visualize the Buddha!" 
+
+  dharma_buddhist_retreat.026.t:0 "Calmness and self-control"
+  dharma_buddhist_retreat.026.desc:0 "The monks instruct me that meditation is a method for gaining inner peace, as well as a way to see the world more clearly. If I am calm and thoughtful, I'll be wiser in my decisions and more virtuous in my conduct."
+  dharma_buddhist_retreat.026.a:0 "I must have a lot of self-control and patience."
+  dharma_buddhist_retreat.026.b:0 "Bah, why is this self-control and patience so difficult"
+
+  dharma_buddhist_retreat.027.t:0 "Meditating on Food"
+  dharma_buddhist_retreat.027.desc:0 "As I eat my vegetarian meal for breakfast, I concentrate on the moment. The food. The texture. The smells. The sensation of my mouth moving up and down, chewing. My hands guiding the food into my mouth. Every inch of my body as it prepares to receive the food."
+  dharma_buddhist_retreat.027.a:0 "One must meditate in everything one does"
+
+  dharma_buddhist_retreat.028.t:0 "An insect"
+  dharma_buddhist_retreat.028.desc:0 "I am meditating outside with several monks. I suddenly notice a small insect crawling under the sun, so I pick it up and leave it under the shade of a tree."
+  dharma_buddhist_retreat.028.a:0 "I then return to meditate."
+
+  dharma_buddhist_retreat.029.t:0 "Lotus Position"
+  dharma_buddhist_retreat.029.desc:0 "Many people, while doing sitting meditation, sit in the so-called half-lotus position, where only one foot is placed on the opposing thigh. Some more flexible individuals, though, can do the so-called full lotus position, where two feet are placed on the opposing thigh. However, few can learn this position without lots of practice.\n\nI myself, after a lot of practice, have managed to master the full lotus position without too much hassle. This should help me improve my meditation, as the monks say it naturally increases one's concentration and mental ability."
+  dharma_buddhist_retreat.029.a:0 "Let's do this"
+
+  dharma_buddhist_retreat.030.t:0 "The Retreat Ends"
+  dharma_buddhist_retreat.030.desc:0 "My spiritual retreat has ended. I feel strange, even frightened, leaving the temple and readjusting to normal life. The retreat was a strange, uncomfortable experience, after all, and I still think of it as rather difficult, yet I learned much.\n\nCompassion. Mindfulness. Patience. Inner peace.\n\nI have been exposed to the Dharma in ways I could not have possibly imagined. Can I possibly put these lessons to practice"
+  dharma_buddhist_retreat.030.better:0 "Time to return Home changed."
+  dharma_buddhist_retreat.030.mystic:0 "Time to return Home, with much insight"
+  dharma_buddhist_retreat.030.pious:0 "Time to return Home, having learned much of the Buddha's dharma"
+  dharma_buddhist_retreat.030.nothing:0 "Time to return Home"
+
+
+
+
+
+
+
+

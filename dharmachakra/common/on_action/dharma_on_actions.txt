@@ -198,4 +198,47 @@ on_death = {
 		dharma_dravidian.004
 	}
 }
+#######################################
+# Buddhist retreat
+#######################################
+dharma_buddhist_retreat_events = {
+	trigger = {
+		exists = involved_activity
+		involved_activity = {
+			has_activity_type = activity_dharma_buddhist_retreat
+			activity_host = root
+		}
+	}
+	random_events = {
+		# Generic Pilgrimage Events
+		100 = dharma_buddhist_retreat.002 # Back to basics
+		100 = dharma_buddhist_retreat.003 # monastic food
+		100 = dharma_buddhist_retreat.004 # Meditate with eyes shut
+		100 = dharma_buddhist_retreat.005 # Uncomfortable robes!
+		100 = dharma_buddhist_retreat.006 # Numb legs
+		25 = dharma_buddhist_retreat.007  # Mystical learning
+		25 = dharma_buddhist_retreat.008  # Medical learning
+		100 = dharma_buddhist_retreat.009 # Master's Wisdoms
+		100 = dharma_buddhist_retreat.010 # Distract self or not?
+		100 = dharma_buddhist_retreat.011 # Whack!
+		100 = dharma_buddhist_retreat.012 # Energized!
+		100 = dharma_buddhist_retreat.013 # Going outside
+		100 = dharma_buddhist_retreat.014 # Questions and Answers
+		100 = dharma_buddhist_retreat.015 # Heightened Senses
+		25 = dharma_buddhist_retreat.016 # Dealing with Boredom
+		25 = dharma_buddhist_retreat.017 # Dealing with no pleasure
+		100 = dharma_buddhist_retreat.018 # Doing Chores
+		100 = dharma_buddhist_retreat.019 # Questions and Answers
+		100 = dharma_buddhist_retreat.020 # Meditating by myself
+		25 = dharma_buddhist_retreat.021 # Gardening
+		100 = dharma_buddhist_retreat.022 # Chant names of Buddhas and Bodhisattvas
+		100 = dharma_buddhist_retreat.023 # Buddhist Mantras
+		100 = dharma_buddhist_retreat.024 # Walking Meditation
+		100 = dharma_buddhist_retreat.025 # Buddha visualization
+		75 = dharma_buddhist_retreat.026 # Calmness and self-control
+		100 = dharma_buddhist_retreat.027 # Meditating on Food
+		50 = dharma_buddhist_retreat.028 # An insect
+		100 = dharma_buddhist_retreat.029 # Lotus Position
+	}
+}
 

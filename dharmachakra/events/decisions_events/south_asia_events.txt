@@ -656,7 +656,7 @@ south_asia.0031 = {
 		character = root
 		animation = anger
 	}
-	 right_portrait = {
+	right_portrait = {
 		character = scope:ari_vassal
 		animation = disapproval
 	}

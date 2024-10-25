@@ -3,10 +3,9 @@
 # Activity itself
 ###################################
   activity_dharma_vedic_sacrifice:0 "Animal Sacrifice"
-  activity_dharma_vedic_sacrifice_desc:0 "$dharma_vedic_sacrifice_desc$"
+  activity_dharma_vedic_sacrifice_desc:0 "We seek the blessings of the gods, and the way to do so is through sacrificing animals to the Divine."
   activity_dharma_vedic_sacrifice_selection_tooltip: "Sacrifice Animals to [GetPlayer.GetFaith.PantheonTerm].\n\n$dharma_vedic_sacrifice_desc_context_tooltip$"
   activity_dharma_vedic_sacrifice_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
-  dharma_vedic_animal_sacrifice_desc:0 "We seek the blessings of the gods, and the way to do so is through sacrificing animals to the Divine."
 ###################################
 # Starting the Activity
 ###################################
@@ -48,12 +47,10 @@
 ###################################
 # Character Memories
 ###################################
- dharma_vedic_sacrifice_completed_log_title:0 "Goat Sacrifice Completed"
- dharma_vedic_sacrifice_completed_log:0 "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Goat Sacrifice"
+ dharma_vedic_sacrifice_completed_log_title:0 "Vedic Sacrifice Completed"
+ dharma_vedic_sacrifice_completed_log:0 "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Vedic Sacrifice"
  TRAVEL_NAME_FOR_activity_dharma_vedic_sacrifice:0 "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_vedic_sacrifice$"
- 
-
-###################################
+ ###################################
 # Character Memories
 ###################################
   dharma_vedic_sacrifice_host_memory:0 "performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"

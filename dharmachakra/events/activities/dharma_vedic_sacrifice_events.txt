@@ -139,7 +139,7 @@ dharma_vedic_sacrifice.002 = {# Sacrifice time
 dharma_vedic_sacrifice.003 = {# Misc cleanup
 	hidden = yes	
 	immediate = {
-		RICE_pamir_goat_sacrifice_completed_log_entry_effect = yes
+		dharma_vedic_sacrifice_completed_log_entry_effect = yes
 		scope:activity = {
 			hidden_effect = { skip_activity_phase = yes }
 		}
