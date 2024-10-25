@@ -7,4 +7,8 @@ is_dharmachakra_loaded = {
 	always = yes
 }
 
-
+dharma_vedic_sacrifice_activity_allowed_trigger = {
+	faith = { 
+		has_doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
+	}
+}

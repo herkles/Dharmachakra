@@ -24,6 +24,9 @@
 	800.1.1 = {
 		special_building_slot = konark_sun_temple_01
 	}
+	1250.1.1 = {
+		special_building = konark_sun_temple_01
+	}
 }
 
 # 929 - Dhauli

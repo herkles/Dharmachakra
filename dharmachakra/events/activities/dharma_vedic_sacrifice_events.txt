@@ -1,0 +1,149 @@
+﻿namespace = dharma_vedic_sacrifice
+
+#######################################
+#									  #
+#         Hindu Festivals		      #
+#									  #
+#######################################
+dharma_vedic_sacrifice.001 = {# Goat sacrifice start
+	type = activity_event
+	title = dharma_vedic_sacrifice.001.t
+	desc = dharma_vedic_sacrifice.001.desc
+	theme = RICE_theme_tibet_inner_altar
+	
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	option = { # Small
+		name = dharma_vedic_sacrifice.001.a
+	}	
+
+	after = {
+		trigger_event = {
+			id = dharma_vedic_sacrifice.002
+			days = { 3 7 }
+		}
+	}
+}
+dharma_vedic_sacrifice.002 = {# Sacrifice time
+	type = activity_event
+	title = dharma_vedic_sacrifice.002.t
+	desc = dharma_vedic_sacrifice.002.desc
+
+	theme = RICE_theme_tibet_inner_altar
+	
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	option = { # High God
+		name = dharma_vedic_sacrifice.002.a
+		if = {
+			limit = {
+				OR = {
+					faith = faith:kalikula_shaktism	
+					faith = faith:trika_shaivism	
+				}
+			}
+			dharma_vedic_devi_animal_sacrifice_effect = yes
+		}
+		else = {
+			dharma_vedic_indra_animal_sacrifice_effect = yes
+		}
+	}	
+	option = { # War God
+		name = dharma_vedic_sacrifice.002.b
+		trigger = {
+			NOT = { faith = faith:shrautism	}
+		}
+		dharma_vedic_durga_animal_sacrifice_effect = yes
+	}	
+	option = { # Wealth God
+		name = dharma_vedic_sacrifice.002.c
+		if = {
+			limit = {
+				OR = {
+					faith = faith:kalikula_shaktism	
+					faith = faith:trika_shaivism	
+				}
+			}
+			dharma_vedic_lakshmi_animal_sacrifice_effect = yes
+		}
+		else = {
+			dharma_vedic_bhaga_animal_sacrifice_effect = yes
+		}
+	}	
+	option = { # Household God
+		name = dharma_vedic_sacrifice.002.d
+		if = {
+			limit = {
+				OR = {
+					faith = faith:kalikula_shaktism	
+					faith = faith:trika_shaivism	
+				}
+			}
+			dharma_vedic_parvati_animal_sacrifice_effect = yes
+		}
+		else = {
+			dharma_vedic_agni_animal_sacrifice_effect = yes
+		}
+	}	
+	option = { # Knowledge God
+		name = dharma_vedic_sacrifice.002.e
+		if = {
+			limit = {
+				OR = {
+					faith = faith:kalikula_shaktism	
+					faith = faith:trika_shaivism	
+				}
+			}
+			dharma_vedic_saraswati_animal_sacrifice_effect = yes
+		}
+		else = {
+			dharma_vedic_brhaspati_animal_sacrifice_effect = yes
+		}
+	}	
+	option = { # Fertility God
+		name = dharma_vedic_sacrifice.002.f
+		trigger = {
+			NOT = { faith = faith:kalikula_shaktism	}
+		}
+		dharma_vedic_aditi_animal_sacrifice_effect = yes
+	}
+	
+	after = {
+		show_as_tooltip = {
+			if = {
+				limit = {
+					has_activity_intent = dharma_vedic_sacrifice_worship_intent
+				}
+				add_piety = miniscule_piety_value
+			}
+			else_if = {
+				limit = {
+					has_activity_intent = dharma_vedic_sacrifice_reputation_intent
+				}
+				add_prestige = miniscule_prestige_gain
+			}
+		}
+		trigger_event = {
+			id = dharma_vedic_sacrifice.003
+			days = 1
+		}
+	}
+	
+}
+dharma_vedic_sacrifice.003 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		RICE_pamir_goat_sacrifice_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+
+

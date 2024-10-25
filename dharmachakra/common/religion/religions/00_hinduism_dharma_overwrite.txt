@@ -429,6 +429,9 @@
 
 			doctrine = sampradaya_shaivism_doctrine
 
+			# Animal Sacrifices
+			doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
+
 			localization = {
 				HighGodName = shaivism_high_god_name
 				HighGodName2 = shaivism_high_god_name_2
@@ -526,6 +529,9 @@
 			doctrine = tenet_esotericism
 
 			doctrine = sampradaya_shaivism_doctrine
+
+			# Animal Sacrifices
+			doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
 
 			localization = {
 				HighGodName = shaivism_high_god_name
@@ -685,6 +691,9 @@
 
 			doctrine = sampradaya_shaktism_doctrine
 
+			# Animal Sacrifices
+			doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
+
 			localization = {
 				HighGodName = shaktism_good_god_sundari
 				HighGodName2 = shaktism_good_god_sundari_2
@@ -776,6 +785,9 @@
 			doctrine = tenet_esotericism
 
 			doctrine = sampradaya_shaktism_doctrine
+
+			# Animal Sacrifices
+			doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
 
 			localization = {
 				HighGodName = shaktism_good_god_kali
@@ -1015,6 +1027,10 @@
 
 			doctrine = sampradaya_shrautism_doctrine
 
+			# Animal Sacrifices
+			doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
+
+
 			localization = {
 				#HighGod
 				HighGodName = shrautism_high_god_name
@@ -1215,6 +1231,9 @@
 
 			doctrine = unreformed_faith_doctrine
 
+			# Animal Sacrifices
+			doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
+
 			localization = {
 				#HighGod
 				HighGodName = shrautism_high_god_name
@@ -1339,6 +1358,9 @@
 			doctrine = tenet_sanctity_of_nature
 
 			doctrine = unreformed_faith_doctrine
+
+			# Animal Sacrifices
+			doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
 
 			localization = {
 				#HighGod

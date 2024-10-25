@@ -1,5 +1,4 @@
-﻿#Teaching of the Vedas
-is_hinduism_faith = {
+﻿is_hinduism_faith = {# Teaching of the Vedas
 	group = "special"
 	
 	is_available_on_create = {
@@ -14,9 +13,7 @@ is_hinduism_faith = {
 		}
 	}
 }
-
-#Teaching of Mahavira
-is_jainism_faith = {
+is_jainism_faith = {# Teaching of Mahavira
 	group = "special"
 	
 	is_available_on_create = {
@@ -30,9 +27,7 @@ is_jainism_faith = {
 		}
 	}
 }
-
-#Teaching of Gautama Buddha
-is_buddhist_faith = {
+is_buddhist_faith = {# Teaching of Gautama Buddha
 	group = "special"
 	
 	is_available_on_create = {
@@ -46,23 +41,7 @@ is_buddhist_faith = {
 		}
 	}
 }
-
-# Tibetan Sky Burials
-doctrine_sky_burials = {
-	group = "special"
-	is_available_on_create = {
-		has_doctrine = tibetan_sky_burials
-	}
-	tibetan_sky_burials = {
-		visible = no
-		parameters = {
-			sky_burials_active = yes
-		}
-	}
-}
-
-# Cultural Religion 
-doctrine_cultural_religion = {
+doctrine_cultural_religion = {# Cultural Religion 
 	group = "special"
 	is_available_on_create = {
 		has_doctrine = cultural_religion
@@ -74,9 +53,7 @@ doctrine_cultural_religion = {
 		}
 	}
 }
-
-#Tribal Religion
-doctrine_tribal_religion = {
+doctrine_tribal_religion = {# Tribal Religion
 	group = "special"
 	is_available_on_create = {
 		has_doctrine = tribal_religion
@@ -86,6 +63,20 @@ doctrine_tribal_religion = {
 		parameters = {
 			other_culture_conversion_penalty_active = yes
 			tenet_adaptive_conversion_resistance = yes
+		}
+	}
+}
+
+dharma_doctrine_vedic_sacrifice = {# Vedic Animal Sacrifice
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
+	}
+
+	special_doctrine_dharma_doctrine_vedic_sacrifice = {
+		parameters = {
+			dharma_parameter_unlock_vedic_sacrifice = yes
 		}
 	}
 }

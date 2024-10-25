@@ -1,0 +1,66 @@
+﻿l_english:
+###################################
+# Activity itself
+###################################
+  activity_dharma_vedic_sacrifice:0 "Animal Sacrifice"
+  activity_dharma_vedic_sacrifice_desc:0 "$dharma_vedic_sacrifice_desc$"
+  activity_dharma_vedic_sacrifice_selection_tooltip: "Sacrifice Animals to [GetPlayer.GetFaith.PantheonTerm].\n\n$dharma_vedic_sacrifice_desc_context_tooltip$"
+  activity_dharma_vedic_sacrifice_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+  dharma_vedic_animal_sacrifice_desc:0 "We seek the blessings of the gods, and the way to do so is through sacrificing animals to the Divine."
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_vedic_sacrifice_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_vedic_sacrifice_province_desc: "The animals will be sacrificed at an altar here."
+  activity_dharma_vedic_sacrifice_destination_selection: "$activity_dharma_vedic_sacrifice_province_desc$"
+  activity_dharma_vedic_sacrifice_guest_help_text: "$activity_dharma_vedic_sacrifice$"
+  activity_dharma_vedic_sacrifice_predicted_cost: "The cost of an animal Sacrifice depends on the [activity_options|E] you select."
+  activity_dharma_vedic_sacrifice_conclusion_desc: "The [GetActivityType( 'activity_dharma_vedic_sacrifice' ).GetName] is over. May [GetPlayer.GetFaith.PantheonTerm] be pleased with the purity of these goats!"
+###################################
+# Activity Options
+###################################
+  dharma_vedic_sacrifice_animal_type: "Animal Type"
+  dharma_vedic_sacrifice_animal_type_goats: "Goats"
+  dharma_vedic_sacrifice_animal_type_goats_desc: "You will sacrifice Goats, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E].\n\n#weak While our sacrifice is small, it will consist of the most magnificent goats we have to offer.#!"
+  dharma_vedic_sacrifice_animal_type_water_buffalos: "Medium"
+  dharma_vedic_sacrifice_animal_type_water_buffalos_desc: "You will sacrifice Water Buffalo, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E].\n\n#weak [GetPlayer.GetFaith.PantheonTerm] will surely be pleased with offering Water Buffalo.#!"
+  dharma_vedic_sacrifice_animal_type_horse: "Horses"
+  dharma_vedic_sacrifice_animal_type_horse_desc: "You will sacrifice horses, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E].\n\n#weak For [GetPlayer.GetFaith.PantheonTerm], our sacrifice of horses will be nothing short of spectacular!#!"
+
+ dharma_vedic_sacrifice_animal_type_type:0 "The type of Animal Sacrificed"
+
+
+###################################
+# Phases
+###################################
+  dharma_vedic_sacrifice_phase: "Ceremony"
+  dharma_vedic_sacrifice_phase_desc: "Our Animals will be sacrificed to [GetPlayer.GetFaith.PantheonTerm] in the traditional manner which we have done for generations."
+###################################
+# Intents
+###################################
+  dharma_vedic_sacrifice_worship_intent_header: "Worship:"
+  dharma_vedic_sacrifice_worship_intent: "Worship"
+  dharma_vedic_sacrifice_worship_intent_desc: "You will focus on the religious dimensions of the animal sacrifice. Gain an extra [piety_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+
+  dharma_vedic_sacrifice_reputation_intent_header: "Reputation:"
+  dharma_vedic_sacrifice_reputation_intent: "Reputation"
+  dharma_vedic_sacrifice_reputation_intent_desc: "You want all to know of your devotion through this animal sacrifice. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+###################################
+# Character Memories
+###################################
+ dharma_vedic_sacrifice_completed_log_title:0 "Goat Sacrifice Completed"
+ dharma_vedic_sacrifice_completed_log:0 "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Goat Sacrifice"
+ TRAVEL_NAME_FOR_activity_dharma_vedic_sacrifice:0 "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_vedic_sacrifice$"
+ 
+
+###################################
+# Character Memories
+###################################
+  dharma_vedic_sacrifice_host_memory:0 "performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_host_memory_first_perspective:0 "I performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_host_memory_second_perspective:0 "you performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_host_memory_third_perspective:0 "[owner.GetName] performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_guest_memory:0 "participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_guest_memory_first_perspective:0 "I participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_guest_memory_second_perspective:0 "you participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_guest_memory_third_perspective:0 "[owner.GetName] participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"

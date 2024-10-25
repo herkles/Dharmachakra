@@ -1,0 +1,160 @@
+﻿#####################################
+# General Activity Values
+#####################################
+dharma_standard_festival_cooldown_time = {
+	value = 1825
+	if = {
+		limit = {
+			root.culture = {
+				has_cultural_parameter = more_frequent_feasts
+			}
+		}
+		multiply = 0.5
+	}
+}
+
+# Since the vanilla activity costs are unimmersively inflated at higher levels
+dharma_activity_cost = {
+	value = 25
+	multiply = {
+		value = root.primary_title.tier
+		subtract = 1
+		min = 1
+	}
+	if = {
+		limit = {
+			root.primary_title.tier > tier_duchy
+		}
+		add = 15
+	}
+	if = {
+		limit = {
+			root= {
+				exists = dynasty
+				dynasty = {
+					has_dynasty_perk = law_legacy_1
+				}
+			}
+		}
+		multiply = law_legacy_cost_reduction_mult
+	}
+	if = {
+		limit = {
+			root= {
+				government_has_flag = government_is_tribal
+			}
+		}
+		multiply = 0.5
+	}
+	# Make it a little easier for smaller realms
+	if = {
+		limit = {
+			root= {
+				sub_realm_size <= 5
+			}
+		}
+		multiply = 0.75
+	}
+	min = 25
+	max = 100
+}
+# Since the vanilla activity costs are unimmersively inflated at higher levels
+dharma_major_activity_cost = {
+	value = 100
+	multiply = {
+		value = root.primary_title.tier
+		subtract = 1
+		min = 1
+	}
+	if = {
+		limit = {
+			root.primary_title.tier > tier_duchy
+		}
+		add = 25
+	}
+	if = {
+		limit = {
+			root= {
+				exists = dynasty
+				dynasty = {
+					has_dynasty_perk = law_legacy_1
+				}
+			}
+		}
+		multiply = law_legacy_cost_reduction_mult
+	}
+	if = {
+		limit = {
+			root= {
+				government_has_flag = government_is_tribal
+			}
+		}
+		multiply = 0.5
+	}
+	# Make it a little easier for smaller realms
+	if = {
+		limit = {
+			root= {
+				sub_realm_size <= 5
+			}
+		}
+		multiply = 0.75
+	}
+	min = 50
+}
+
+
+
+
+dharma_learning_visit_cooldown_time = 4382
+#####################################
+# Buddhist Retreat
+#####################################
+long_buddhist_retreat_var = 13
+medium_buddhist_retreat_var = 7
+short_buddhist_retreat_var = 4
+#####################################
+# Language Values
+#####################################
+
+#####################################
+# Hero Stone
+#####################################
+raise_hero_stone_gold_cost = { value = medium_gold_value }
+raise_hero_stone_county_preference_cap_value = {
+	value = 0
+
+	# Add +1 for every entity in the list.
+	every_in_list = {
+		list = personally_held_counties_list
+		add = 1
+	}
+	# Cap it out at the max for the event.
+	max = 3
+}
+raise_hero_stone_variant_ancestor_value = {
+	value = 0
+
+	# Weight up for hero_stone-celebrating culture.
+	if = {
+		limit = { culture = { has_cultural_pillar = heritage_dravidian } }
+		add = 25
+	}
+	# Weight up for low popular opinion.
+	add = {
+		value = this.county_opinion
+		multiply = -1
+	}
+	# Weight down for existing hero_stone.
+	if = {
+		limit = { exists = this.var:hero_stone_slot_occupied }
+		add = -100
+	}
+}
+dharma_hero_stone_duration_value = { value = 50 }
+dharma_hero_stone_desc_normal_weight_value = 1
+dharma_hero_stone_desc_upweight_weight_value = 5
+dharma_hero_stone_desc_heavy_upweight_weight_value = 50
+dharma_hero_stone_desc_always_upweight_weight_value = 10000
+
+

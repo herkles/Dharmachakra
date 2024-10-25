@@ -1,0 +1,18 @@
+﻿l_english:
+
+  dharma_vedic_sacrifice.001.t:0 "Preparing the Sacrifice"
+  dharma_vedic_sacrifice.001.desc:0 "According to the sacred Vedas, animal sacrifices are a way of getting closer to the divine. Therefore, to sacrifice a goat to the heavens is a great offering I can perform as a [ROOT.Char.GetTitleAsNameNoTooltip]."
+  dharma_vedic_sacrifice.001.a:0 "Let's get ready for the sacrifice."
+  dharma_vedic_sacrifice.001.tooltip:0 "The type of animals you sacrifice will determine how well your sacrifice is perceived by the community and, perhaps, how the deities will respond."
+
+  dharma_vedic_sacrifice.002.t:0 "Sacrifice the Animals!"
+  dharma_vedic_sacrifice.002.desc:0 "With that in mind, I now need to choose which deity to sacrifice to. We shall bring the animals to a local temple where a cleansing ritual shall purify the animal before they are offered to the aspact of the Divine."
+  dharma_vedic_sacrifice.002.a:0 "May [ROOT.Char.GetFaith.HighGodName] accept my sacrifice!"
+  dharma_vedic_sacrifice.002.b:0 "May [ROOT.Char.GetFaith.NightGodName] accept my sacrifice!"
+  dharma_vedic_sacrifice.002.c:0 "May [ROOT.Char.GetFaith.WealthGodName] accept my sacrifice!"
+  dharma_vedic_sacrifice.002.d:0 "May [ROOT.Char.GetFaith.HouseholdGodName] accept my sacrifice!"
+  dharma_vedic_sacrifice.002.e:0 "May [ROOT.Char.GetFaith.KnowledgeGodName] accept my sacrifice!"
+  dharma_vedic_sacrifice.002.f:0 "May [ROOT.Char.GetFaith.FertilityGodName] accept my sacrifice!"
+  dharma_vedic_sacrifice.002.nothing:0 "Your sacrifice does not appear adequate!"
+  dharma_vedic_sacrifice.002.nothing.tooltip:0 "Alas, receive no boons for your sacrifice."
+  dharma_vedic_sacrifice.002.something:0 "Your pious sacrifice is duly noted!"

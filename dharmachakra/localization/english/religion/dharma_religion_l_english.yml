@@ -27,3 +27,9 @@
   special_doctrine_is_buddhist_faith_desc:0 "While many branches have come about since he achieved enlightenment, it is through his teachings that the path to englightenment is found."
 
   fervor_gain_new_philosophy:0 "New Philosophy developed"
+
+ # Vedic Animal Sacrifice
+ special_doctrine_dharma_doctrine_vedic_sacrifice_name:0 "Mahabali"
+ dharma_doctrine_vedic_sacrifice_name:0 "$special_doctrine_dharma_doctrine_vedic_sacrifice_name$"
+ special_doctrine_dharma_doctrine_vedic_sacrifice_desc:0 "For the Scripture declares that the killing of sacrificial animals makes them to go up to the heavenly world, and therefore is not of the nature of harm. This is declared in the text, 'The animal killed at the sacrifice having assumed a divine body goes to the heavenly world'; 'with a golden body it ascends to the heavenly world.' Let us celebrate and honor the Gods and give them offerings."
+ dharma_parameter_unlock_vedic_sacrifice:0 "Unlocks the [GetActivityType('activity_dharma_vedic_sacrifice').GetName] [activity|E]"

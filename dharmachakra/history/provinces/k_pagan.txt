@@ -1,6 +1,7 @@
-# County of pagan
-9550 = {	# 9550 - pagan
-	
+#k_pagan - Empire/Kingdom of Pagan (pronounced "Bagan")
+##d_pagan
+###c_pagan / County of Pagan
+9550 = {	# Pagan
 	# Misc
 	culture = burmese
 	religion = ari
@@ -14,7 +15,9 @@
 	1056.1.1 = {
 		religion = theravada
 	}
-
+	1105.1.1 = {
+		special_building = ananda_temple_01
+	}
 }
 9551 = {	# 9551 - Popa
 	
@@ -111,7 +114,7 @@
 	holding = none
 	
 	# History
-	1056.1.1 = {
+	1077.4.11 = {
 		religion = theravada
 	}
 
@@ -172,6 +175,7 @@
 	# History
 	1056.1.1 = {
 		religion = theravada
+		holding = church_holding
 	}
 
 }

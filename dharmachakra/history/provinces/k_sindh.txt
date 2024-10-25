@@ -4,7 +4,9 @@
 	# Misc
 	culture = sindhi
 	religion = suryaism
-	
+	1150.1.1 = {
+		religion = ismaili
+	}
 	# History
 }
 
@@ -30,12 +32,10 @@
 	religion = pudgalavada
 	
 	# History
-	800.1.1 = {
-		religion = pudgalavada
-	}
 	1000.1.1 = {
 		religion = ismaili
 	}
+
 }
 
 # 1297 - Debul
@@ -46,6 +46,9 @@
 	religion = suryaism
 	
 	# History
+	1066.1.1 = {
+		religion = ashari
+	}
 
 }
 
@@ -57,8 +60,11 @@
 	religion = shaivism
 	
 	# History
-	800.1.1 = {
-		religion = shaivism
+	960.1.1 = {
+		religion = ashari
+	}
+	1178.1.1 = {
+		religion = maturidi
 	}
 }
 
@@ -81,9 +87,7 @@
 	religion = pudgalavada
 	
 	# History
-	800.1.1 = {
-		religion = pudgalavada
-	}
+
 	1000.1.1 = {
 		religion = ismaili
 	}
@@ -97,8 +101,8 @@
 	religion = suryaism
 	
 	# History
-	800.1.1 = {
-		religion = suryaism
+	1100.1.1 = {
+		religion = ismaili
 	}
 
 }
@@ -114,7 +118,9 @@
 	800.1.1 = {
 		religion = ashari
 	}
-
+	1178.1.1 = {
+		religion = maturidi
+	}
 }
 
 # 1370 - Mohenjo_Daro
@@ -168,7 +174,7 @@
 	
 	# History
 	800.1.1 = {
-		religion = ashari
+		religion = ismaili
 	}
 
 }
