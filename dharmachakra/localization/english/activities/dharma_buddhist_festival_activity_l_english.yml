@@ -1,0 +1,63 @@
+﻿l_english:
+###################################
+# Activity itself
+###################################
+  activity_dharma_buddhist_festival_vesak: "Celebrate Vesak"
+  activity_dharma_buddhist_festival_vesak_desc: "Vesak is the time to celebrate the Buddha's birth, enlightenment, and death. It is one of the most sacred times of the year for Buddhists. "
+  activity_dharma_buddhist_festival_vesak_selection_tooltip: "It is time to celebrate Vesak.\n\n$dharma_buddhist_festival_vesak_desc_context_tooltip$"
+  activity_dharma_buddhist_festival_vesak_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_buddhist_festival_vesak_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_buddhist_festival_vesak_province_desc: "The animals will be sacrificed at an altar here."
+  activity_dharma_buddhist_festival_vesak_destination_selection: "$activity_dharma_buddhist_festival_vesak_province_desc$"
+  activity_dharma_buddhist_festival_vesak_guest_help_text: "$activity_dharma_buddhist_festival_vesak$"
+  activity_dharma_buddhist_festival_vesak_predicted_cost: "The cost of an animal Sacrifice depends on the [activity_options|E] you select."
+  activity_dharma_buddhist_festival_vesak_conclusion_desc: "The [GetActivityType( 'activity_dharma_buddhist_festival_vesak' ).GetName] is over. May [GetPlayer.GetFaith.PantheonTerm] be pleased with the purity of these goats!"
+
+  dharma_decision_vesak_month_requirement: "Vesak takes place around April, May, or June in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_buddhist_festival_vesak_gift_type: "Gift Size"
+  dharma_buddhist_festival_vesak_gift_small: "Small"
+  dharma_buddhist_festival_vesak_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_buddhist_festival_vesak_gift_medium: "Medium"
+  dharma_buddhist_festival_vesak_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_buddhist_festival_vesak_gift_large: "Large"
+  dharma_buddhist_festival_vesak_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_buddhist_festival_vesak_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_buddhist_festival_vesak_phase: "Ceremony"
+  dharma_buddhist_festival_vesak_phase_desc: "You will celebrate Vesak and merit making."
+###################################
+# Intents
+###################################
+  dharma_buddhist_festival_worship_intent_header: "Worship:"
+  dharma_buddhist_festival_worship_intent: "Worship"
+  dharma_buddhist_festival_worship_intent_desc: "You will focus on the religious dimensions of the celebration. Gain an extra [piety_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+
+  dharma_buddhist_festival_reputation_intent_header: "Reputation:"
+  dharma_buddhist_festival_reputation_intent: "Reputation"
+  dharma_buddhist_festival_reputation_intent_desc: "You want all to know of your devotion through your offerings and merit making. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+###################################
+# Character Memories
+###################################
+  dharma_buddhist_festival_vesak_completed_log_title: "Vedic Sacrifice Completed"
+  dharma_buddhist_festival_vesak_completed_log: "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Vedic Sacrifice"
+  TRAVEL_NAME_FOR_activity_dharma_buddhist_festival_vesak: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_buddhist_festival_vesak$"
+ ###################################
+# Character Memories
+###################################
+  dharma_buddhist_festival_vesak_host_memory: "performed a [GetActivityType('activity_dharma_buddhist_festival_vesak').GetName]"
+  dharma_buddhist_festival_vesak_host_memory_first_perspective: "I performed a [GetActivityType('activity_dharma_buddhist_festival_vesak').GetName]"
+  dharma_buddhist_festival_vesak_host_memory_second_perspective: "you performed a [GetActivityType('activity_dharma_buddhist_festival_vesak').GetName]"
+  dharma_buddhist_festival_vesak_host_memory_third_perspective: "[owner.GetName] performed a [GetActivityType('activity_dharma_buddhist_festival_vesak').GetName]"
+  dharma_buddhist_festival_vesak_guest_memory: "participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_festival_vesak').GetName]"
+  dharma_buddhist_festival_vesak_guest_memory_first_perspective: "I participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_festival_vesak').GetName]"
+  dharma_buddhist_festival_vesak_guest_memory_second_perspective: "you participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_festival_vesak').GetName]"
+  dharma_buddhist_festival_vesak_guest_memory_third_perspective: "[owner.GetName] participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_festival_vesak').GetName]"

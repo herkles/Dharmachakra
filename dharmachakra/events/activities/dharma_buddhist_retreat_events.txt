@@ -25,7 +25,7 @@ scripted_effect improve_meditation_skill = {
 # Meditation Retreat Base Events
 #######################################
 dharma_buddhist_retreat.001 = {# Arriving at the Monastary
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.001.t
 	desc = dharma_buddhist_retreat.001.desc
 	theme = faith
@@ -97,7 +97,7 @@ dharma_buddhist_retreat.001 = {# Arriving at the Monastary
 # Random Buddhist Retreat Events
 #######################################
 dharma_buddhist_retreat.002 = {# Back to basics
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.002.t
 	desc = dharma_buddhist_retreat.002.desc
 	theme = faith
@@ -146,7 +146,7 @@ dharma_buddhist_retreat.002 = {# Back to basics
 	}
 }
 dharma_buddhist_retreat.003 = {# monastic food
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.003.t
 	desc = dharma_buddhist_retreat.003.desc
 	theme = faith
@@ -204,7 +204,7 @@ dharma_buddhist_retreat.003 = {# monastic food
 	}
 }
 dharma_buddhist_retreat.004 = {# Meditate with eyes shut
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.004.t
 	desc = dharma_buddhist_retreat.004.desc
 	theme = faith
@@ -252,7 +252,7 @@ dharma_buddhist_retreat.004 = {# Meditate with eyes shut
 	}
 }
 dharma_buddhist_retreat.005 = {# Uncomfortable robes!
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.005.t
 	desc = dharma_buddhist_retreat.005.desc
 	theme = faith
@@ -302,7 +302,7 @@ dharma_buddhist_retreat.005 = {# Uncomfortable robes!
 	}
 }
 dharma_buddhist_retreat.006 = {# Numb legs
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.006.t
 	desc = dharma_buddhist_retreat.006.desc
 	theme = faith
@@ -349,7 +349,7 @@ dharma_buddhist_retreat.006 = {# Numb legs
 	}
 }
 dharma_buddhist_retreat.007 = {# An exam
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.007.t
 	desc = dharma_buddhist_retreat.007.desc
 	theme = faith
@@ -393,7 +393,7 @@ dharma_buddhist_retreat.007 = {# An exam
 	}
 }
 dharma_buddhist_retreat.008 = {# The Nature of Emptiness
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.008.t
 	desc = dharma_buddhist_retreat.008.desc
 	theme = faith
@@ -438,7 +438,7 @@ dharma_buddhist_retreat.008 = {# The Nature of Emptiness
 	}
 }
 dharma_buddhist_retreat.009 = {# Master's Wisdom
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.009.t
 	desc = dharma_buddhist_retreat.009.desc
 	theme = faith
@@ -507,7 +507,7 @@ dharma_buddhist_retreat.009 = {# Master's Wisdom
 	}
 }
 dharma_buddhist_retreat.010 = {# Distract self or not?
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.010.t
 	desc = dharma_buddhist_retreat.010.desc
 	theme = faith
@@ -563,7 +563,7 @@ dharma_buddhist_retreat.010 = {# Distract self or not?
 	}
 }
 dharma_buddhist_retreat.011 = {# Whack!
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.011.t
 	desc = dharma_buddhist_retreat.011.desc
 	theme = faith
@@ -611,7 +611,7 @@ dharma_buddhist_retreat.011 = {# Whack!
 	}
 }
 dharma_buddhist_retreat.012 = {# Energized!
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.012.t
 	desc = dharma_buddhist_retreat.012.desc
 	theme = faith
@@ -658,7 +658,7 @@ dharma_buddhist_retreat.012 = {# Energized!
 	}
 }
 dharma_buddhist_retreat.013 = {# Going outside
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.013.t
 	desc = dharma_buddhist_retreat.013.desc
 	theme = faith
@@ -705,7 +705,7 @@ dharma_buddhist_retreat.013 = {# Going outside
 	}
 }
 dharma_buddhist_retreat.014 = {# Questions and Answers
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.014.t
 	desc = dharma_buddhist_retreat.014.desc
 	theme = faith
@@ -754,7 +754,7 @@ dharma_buddhist_retreat.014 = {# Questions and Answers
 	}
 }
 dharma_buddhist_retreat.015 = {# Heightened Senses
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.015.t
 	desc = dharma_buddhist_retreat.015.desc
 	theme = faith
@@ -802,7 +802,7 @@ dharma_buddhist_retreat.015 = {# Heightened Senses
 	}
 }
 dharma_buddhist_retreat.016 = {# Dealing with Boredom
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.016.t
 	desc = dharma_buddhist_retreat.016.desc
 	theme = faith
@@ -868,7 +868,7 @@ dharma_buddhist_retreat.016 = {# Dealing with Boredom
 	}
 }
 dharma_buddhist_retreat.017 = {# Dealing with no pleasure
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.017.t
 	desc = dharma_buddhist_retreat.017.desc
 	theme = faith
@@ -930,7 +930,7 @@ dharma_buddhist_retreat.017 = {# Dealing with no pleasure
 	}
 }
 dharma_buddhist_retreat.018 = {# Doing Chores
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.018.t
 	desc = dharma_buddhist_retreat.018.desc
 	theme = faith
@@ -990,7 +990,7 @@ dharma_buddhist_retreat.018 = {# Doing Chores
 	}
 }
 dharma_buddhist_retreat.019 = {# Questions and Answers
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.019.t
 	desc = dharma_buddhist_retreat.019.desc
 	theme = faith
@@ -1038,7 +1038,7 @@ dharma_buddhist_retreat.019 = {# Questions and Answers
 	}
 }
 dharma_buddhist_retreat.020 = {# Meditating by myself
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.020.t
 	desc = dharma_buddhist_retreat.020.desc
 	theme = faith
@@ -1089,7 +1089,7 @@ dharma_buddhist_retreat.020 = {# Meditating by myself
 	}
 }
 dharma_buddhist_retreat.021 = {# Gardening
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.021.t
 	desc = dharma_buddhist_retreat.021.desc
 	theme = faith
@@ -1169,7 +1169,7 @@ dharma_buddhist_retreat.021 = {# Gardening
 	}
 }
 dharma_buddhist_retreat.022 = {# Chant names of Buddhas and Bodhisattvas
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.022.t
 	desc = dharma_buddhist_retreat.022.desc
 	theme = faith
@@ -1217,7 +1217,7 @@ dharma_buddhist_retreat.022 = {# Chant names of Buddhas and Bodhisattvas
 	}
 }
 dharma_buddhist_retreat.023 = {# Buddhist Mantras
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.023.t
 	desc = dharma_buddhist_retreat.023.desc
 	theme = faith
@@ -1265,7 +1265,7 @@ dharma_buddhist_retreat.023 = {# Buddhist Mantras
 	}
 }
 dharma_buddhist_retreat.024 = {# Walking Meditation
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.024.t
 	desc = dharma_buddhist_retreat.024.desc
 	theme = faith
@@ -1313,7 +1313,7 @@ dharma_buddhist_retreat.024 = {# Walking Meditation
 	}
 }
 dharma_buddhist_retreat.025 = {# Buddha visualization
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.025.t
 	desc = dharma_buddhist_retreat.025.desc
 	theme = faith
@@ -1360,7 +1360,7 @@ dharma_buddhist_retreat.025 = {# Buddha visualization
 	}
 }
 dharma_buddhist_retreat.026 = {# Calmness and self-control
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.026.t
 	desc = dharma_buddhist_retreat.026.desc
 	theme = faith
@@ -1430,7 +1430,7 @@ dharma_buddhist_retreat.026 = {# Calmness and self-control
 	}
 }
 dharma_buddhist_retreat.027 = {# Meditating on Food
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.027.t
 	desc = dharma_buddhist_retreat.027.desc
 	theme = faith
@@ -1478,7 +1478,7 @@ dharma_buddhist_retreat.027 = {# Meditating on Food
 	}
 }
 dharma_buddhist_retreat.028 = {# An insect
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.028.t
 	desc = dharma_buddhist_retreat.028.desc
 	theme = faith
@@ -1542,7 +1542,7 @@ dharma_buddhist_retreat.028 = {# An insect
 	}
 }
 dharma_buddhist_retreat.029 = {# Lotus Position
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.029.t
 	desc = dharma_buddhist_retreat.029.desc
 	theme = faith
@@ -1593,7 +1593,7 @@ dharma_buddhist_retreat.029 = {# Lotus Position
 # Meditation Retreat Ending Events
 #######################################
 dharma_buddhist_retreat.030 = {# Departing the Monastary for home
-	type = character_event
+	type = activity_event
 	title = dharma_buddhist_retreat.030.t
 	desc = dharma_buddhist_retreat.030.desc
 	theme = faith

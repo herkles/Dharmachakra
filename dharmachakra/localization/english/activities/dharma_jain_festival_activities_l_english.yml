@@ -4,6 +4,8 @@
 # second Paryushana
 # Third Mahavir Janma Kalyanak
 
+
+
 ###################################
 # Activity itself
 ###################################
@@ -42,11 +44,11 @@
 ###################################
   dharma_jain_festival_worship_intent_header: "Worship:"
   dharma_jain_festival_worship_intent: "Worship"
-  dharma_jain_festival_worship_intent_desc: "You will focus on the religious dimensions of the pilgrimage. Gain an extra [piety_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+  dharma_jain_festival_worship_intent_desc: "You will focus on the religious dimensions of the celebration. Gain an extra [piety_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
 
   dharma_jain_festival_reputation_intent_header: "Reputation:"
   dharma_jain_festival_reputation_intent: "Reputation"
-  dharma_jain_festival_reputation_intent_desc: "You want all to know of your devotion through this offering and anointing. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+  dharma_jain_festival_reputation_intent_desc: "You want all to know of your devotion through this offering. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
 ###################################
 # Character Memories
 ###################################
@@ -83,6 +85,9 @@
   activity_dharma_jain_festival_paryushana_guest_help_text: "$activity_dharma_jain_festival_paryushana$"
   activity_dharma_jain_festival_paryushana_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
   activity_dharma_jain_festival_paryushana_conclusion_desc: "The [GetActivityType( 'activity_dharma_jain_festival_paryushana' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_paryushana_month_requirement: "You need to start the preparations between August and September"
+
 ###################################
 # Activity Options
 ###################################
@@ -136,6 +141,9 @@
   activity_dharma_jain_festival_mahavir_janma_kalyanak_guest_help_text: "$activity_dharma_jain_festival_mahavir_janma_kalyanak$"
   activity_dharma_jain_festival_mahavir_janma_kalyanak_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
   activity_dharma_jain_festival_mahavir_janma_kalyanak_conclusion_desc: "The [GetActivityType( 'activity_dharma_jain_festival_mahavir_janma_kalyanak' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_mahavir_kalyanak_month_requirement: "You need to start the preparations between March and April"
+
 ###################################
 # Activity Options
 ###################################

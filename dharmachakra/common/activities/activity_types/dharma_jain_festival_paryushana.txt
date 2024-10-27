@@ -3,15 +3,6 @@
 		highest_held_title_tier > tier_barony
 		is_playable_character = yes
 		religion = religion:jainism_religion
-		OR = {
-			title:c_dwarasamudra = {
-				squared_distance = {
-					target = root.capital_province
-					value <= squared_distance_large
-				}
-			}
-			has_title = title:c_dwarasamudra
-		}
 		trigger_if = {
 			limit = { is_ai = yes }
 			is_at_war = no
@@ -22,6 +13,13 @@
 	can_start = {
 		religion = religion:jainism_religion
 		NOT = { faith = { has_doctrine = doctrine_pilgrimage_forbidden } }
+		custom_description = {
+			text = dharma_decision_paryushana_month_requirement
+			OR = {
+				current_month >= 8
+				current_month <= 10
+			}
+		}
 	}
 
 	can_start_showing_failures_only = {
@@ -213,7 +211,7 @@
 			on_phase_active = {
 				if = {
 					limit = { this = scope:host }
-					trigger_event = dharma_jain_festivals.001
+					trigger_event = dharma_jain_festivals.006
 				}		
 			}
 			on_end = {
