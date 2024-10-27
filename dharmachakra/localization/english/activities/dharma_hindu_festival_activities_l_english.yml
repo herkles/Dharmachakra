@@ -1,0 +1,122 @@
+﻿l_english:
+
+# First Diwali
+# second Navaratri
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_hindu_festival_diwali: "Celebrate Diwali"
+  activity_dharma_hindu_festival_diwali_desc: "Diwali is the festival of Lights. It celebrates the victory of good over and light over darkness. It is one of the more special times of the year for Hindus."
+  activity_dharma_hindu_festival_diwali_selection_tooltip: "Celebrate the festival of lights. \n\n$dharma_hindu_festival_diwali_desc_context_tooltip$"
+  activity_dharma_hindu_festival_diwali_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_hindu_festival_diwali_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_hindu_festival_diwali_province_desc: "You shall celebarate Diwali here"
+  activity_dharma_hindu_festival_diwali_destination_selection: "$activity_dharma_hindu_festival_diwali_province_desc$"
+  activity_dharma_hindu_festival_diwali_guest_help_text: "$activity_dharma_hindu_festival_diwali$"
+  activity_dharma_hindu_festival_diwali_predicted_cost: "The cost of the pilgrimage depends on what [activity_options|E] you select."
+  activity_dharma_hindu_festival_diwali_conclusion_desc: "The [GetActivityType( 'activity_dharma_hindu_festival_diwali' ).GetName] is over.  May [GetPlayer.GetFaith.PantheonTerm] be pleased with my actions."
+
+  dharma_decision_diwali_month_requirement: "Diwali takes place around October or November in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_hindu_festival_diwali_gift_type: "Gift Size"
+  dharma_hindu_festival_diwali_gift_small: "Small"
+  dharma_hindu_festival_diwali_gift_small_desc: "A small and humble offering shall be offered on your pilgrimage."
+  dharma_hindu_festival_diwali_gift_medium: "Medium"
+  dharma_hindu_festival_diwali_gift_medium_desc: "A reasonably sized offering shall be offered on your pilgrimage."
+  dharma_hindu_festival_diwali_gift_large: "Large"
+  dharma_hindu_festival_diwali_gift_large_desc: "A grand offering shall be offered on your pilgrimage."
+
+  dharma_hindu_festival_diwali_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_hindu_festival_diwali_celebration_phase: "Ceremony"
+  dharma_hindu_festival_diwali_celebration_phase_desc: "You shall celebrate the festival of Lights"
+###################################
+# Intents
+###################################
+  dharma_hindu_festival_worship_intent_header: "Worship:"
+  dharma_hindu_festival_worship_intent: "Worship"
+  dharma_hindu_festival_worship_intent_desc: "You will focus on the religious dimensions of the celebration. Gain an extra [piety_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+
+  dharma_hindu_festival_reputation_intent_header: "Reputation:"
+  dharma_hindu_festival_reputation_intent: "Reputation"
+  dharma_hindu_festival_reputation_intent_desc: "You want all to know of your devotion through this offering. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+###################################
+# Character Memories
+###################################
+  dharma_hindu_festival_diwali_completed_log_title: "Diwali Completed"
+  dharma_hindu_festival_diwali_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Diwali"
+  TRAVEL_NAME_FOR_activity_dharma_hindu_festival_diwali: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_hindu_festival_diwali$"
+ ###################################
+# Character Memories
+###################################
+  dharma_hindu_festival_diwali_host_memory: "Celebrated [GetActivityType('activity_dharma_hindu_festival_diwali').GetName]"
+  dharma_hindu_festival_diwali_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_hindu_festival_diwali').GetName]"
+  dharma_hindu_festival_diwali_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_hindu_festival_diwali').GetName]"
+  dharma_hindu_festival_diwali_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_hindu_festival_diwali').GetName]"
+  dharma_hindu_festival_diwali_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_hindu_festival_diwali').GetName]"
+  dharma_hindu_festival_diwali_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_hindu_festival_diwali').GetName]"
+  dharma_hindu_festival_diwali_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_hindu_festival_diwali').GetName]"
+  dharma_hindu_festival_diwali_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_hindu_festival_diwali').GetName]"
+
+# second Navaratri
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_hindu_festival_navaratri: "Celebrate Navaratri"
+  activity_dharma_hindu_festival_navaratri_desc: "The Navaratri Festival is a holy festival that honors the goddess Durga and her incarnations, including Parvati. Called Nine Nights, as it traditionally lasts over nine nights. Shall you began to make preparations for the festival?"
+  activity_dharma_hindu_festival_navaratri_selection_tooltip: "To Maa Durga. \n\n$dharma_hindu_festival_navaratri_desc_context_tooltip$"
+  activity_dharma_hindu_festival_navaratri_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_hindu_festival_navaratri_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_hindu_festival_navaratri_province_desc: "This is where you shall invite people for Navaratri."
+  activity_dharma_hindu_festival_navaratri_destination_selection: "$activity_dharma_hindu_festival_navaratri_province_desc$"
+  activity_dharma_hindu_festival_navaratri_guest_help_text: "$activity_dharma_hindu_festival_navaratri$"
+  activity_dharma_hindu_festival_navaratri_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_hindu_festival_navaratri_conclusion_desc: "The [GetActivityType( 'activity_dharma_hindu_festival_navaratri' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_navaratri_month_requirement: "Navaratri takes place around September and October in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_hindu_festival_navaratri_gift_type: "Gift Size"
+  dharma_hindu_festival_navaratri_gift_small: "Small"
+  dharma_hindu_festival_navaratri_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_hindu_festival_navaratri_gift_medium: "Medium"
+  dharma_hindu_festival_navaratri_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_hindu_festival_navaratri_gift_large: "Large"
+  dharma_hindu_festival_navaratri_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_hindu_festival_navaratri_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_hindu_festival_navaratri_celebration_phase: "Ceremony"
+  dharma_hindu_festival_navaratri_celebration_phase_desc: "You shall fast and focus on the teachings of the Tirthankaras."
+###################################
+# Character Memories
+###################################
+  dharma_hindu_festival_navaratri_completed_log_title: "Navaratri Completed"
+  dharma_hindu_festival_navaratri_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Navaratri"
+  TRAVEL_NAME_FOR_activity_dharma_hindu_festival_navaratri: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_hindu_festival_navaratri$"
+ ###################################
+# Character Memories
+###################################
+  dharma_hindu_festival_navaratri_host_memory: "Celebrated [GetActivityType('activity_dharma_hindu_festival_navaratri').GetName]"
+  dharma_hindu_festival_navaratri_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_hindu_festival_navaratri').GetName]"
+  dharma_hindu_festival_navaratri_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_hindu_festival_navaratri').GetName]"
+  dharma_hindu_festival_navaratri_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_hindu_festival_navaratri').GetName]"
+  dharma_hindu_festival_navaratri_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_hindu_festival_navaratri').GetName]"
+  dharma_hindu_festival_navaratri_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_hindu_festival_navaratri').GetName]"
+  dharma_hindu_festival_navaratri_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_hindu_festival_navaratri').GetName]"
+  dharma_hindu_festival_navaratri_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_hindu_festival_navaratri').GetName]"

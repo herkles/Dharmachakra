@@ -310,7 +310,7 @@
 	}
 
 	on_enter_passive_state = {
-		trigger_event = south_ethiopia.0040
+		trigger_event = dharma_jain_festivals.006
 	}
 
 	###################

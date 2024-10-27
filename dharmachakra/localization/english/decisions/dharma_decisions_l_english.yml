@@ -80,12 +80,6 @@
 #######################################
 # Festival Decisions
 #######################################
-  # Diwali Festival
-    dharma_attend_diwali_festival: "Celebrate Diwali"
-    dharma_attend_diwali_festival_desc: "Diwali is the festival of Lights. It celebrates the victory of good over and light over darkness. It is one of the more special times of the year for Hindus. "
-    dharma_attend_diwali_festival_tooltip: "You will begin to make preparations for Diwali."
-    dharma_attend_diwali_festival_confirm: "Om Mani Padme Hum"
-    dharma_decision_diwali_month_requirement: "Diwali takes place around October or November in the Gregorian Calendar."
   # Losar Festival
     dharma_attend_losar_festival: "Celebrate Losar"
     dharma_attend_losar_festival_desc: "Losar is the new year celebration in the Tibetan Calendar. It is one of the most popular celebrations of the Tibetan people."
@@ -105,12 +99,6 @@
     dharma_attend_thaipusam_festival_tooltip: "You will begin to make preparations for Thaipusam"
     dharma_attend_thaipusam_festival_confirm: "Om Skandaya Namaha"
     dharma_decision_thaipusam_month_requirement: "Thaipusam takes place around February in the Gregorian Calendar."
-  # Navaratri Festival
-    dharma_attend_navaratri_festival: "Celebrate Navaratri"
-    dharma_attend_navaratri_festival_desc: "Navaratri is a nine day festival dedicated to the various incarnations of the Goddess Durga. "
-    dharma_attend_navaratri_festival_tooltip: "You will begin to make preparations for Navaratri"
-    dharma_attend_navaratri_festival_confirm: "To Maa Durga!"
-    dharma_decision_navaratri_month_requirement: "Navaratri takes place around September and October in the Gregorian Calendar."
   # Ratha Yatra Festival
     dharma_attend_ratha_yatra_festival: "Celebrate Ratha Yatra"
     dharma_attend_ratha_yatra_festival_desc: "Ratha Yatra is an Oriya Chariot Festival dedicated to Jagannath."

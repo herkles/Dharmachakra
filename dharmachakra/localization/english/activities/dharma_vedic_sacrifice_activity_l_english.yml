@@ -14,7 +14,7 @@
   activity_dharma_vedic_sacrifice_destination_selection: "$activity_dharma_vedic_sacrifice_province_desc$"
   activity_dharma_vedic_sacrifice_guest_help_text: "$activity_dharma_vedic_sacrifice$"
   activity_dharma_vedic_sacrifice_predicted_cost: "The cost of an animal Sacrifice depends on the [activity_options|E] you select."
-  activity_dharma_vedic_sacrifice_conclusion_desc: "The [GetActivityType( 'activity_dharma_vedic_sacrifice' ).GetName] is over. May [GetPlayer.GetFaith.PantheonTerm] be pleased with the purity of these goats!"
+  activity_dharma_vedic_sacrifice_conclusion_desc: "The [GetActivityType( 'activity_dharma_vedic_sacrifice' ).GetName] is over. May [GetPlayer.GetFaith.PantheonTerm] be pleased with the purity of these animals!"
 ###################################
 # Activity Options
 ###################################

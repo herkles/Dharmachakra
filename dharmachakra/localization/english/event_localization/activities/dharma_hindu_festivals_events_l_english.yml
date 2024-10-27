@@ -1,0 +1,141 @@
+﻿l_english:
+
+  dharma_hindu_festivals.001.t:0 "Dhanteras"
+  dharma_hindu_festivals.001.desc:0 "Dhanatras is the first day of Diwali and it is the day to buy new things and clean out one's house. Dedicated to the God Dhanvantari, who is the Physician of the Gods as well as Lakshmi. Your servants today are busy setting up the lanterns, drawing Rangoli throughout the palace courtyard and more. "
+  dharma_hindu_festivals.001.diwali:0 "Wonderful times"
+
+  dharma_hindu_festivals.002.t:0 "Buying gifts for your loved ones?"
+  dharma_hindu_festivals.002.desc.spouse:0 "On Dhanteras it is common to buy gifts and items for loved ones. In particular, it is customary to get your [spouse.Custom('WifeHusband')] a special gift to show your love for [spouse.GetHerHim]."
+  dharma_hindu_festivals.002.desc.spouses:0 "On Dhanteras it is common to buy gifts and items for loved ones. In particular it is customary to get your wives something nice on this day, to show your love for them. Of course you could just focus on your first wife, [first_spouse.GetFirstName] a nice gift."
+  dharma_hindu_festivals.002.spouse:0 "I shall get [spouse.GetFirstName] a nice gift"
+  dharma_hindu_festivals.002.first_spouse:0 "I shall get my first wife something nice."
+  dharma_hindu_festivals.002.first_spouse.tooltip:0 "This will anger your other wives"
+  dharma_hindu_festivals.002.lover:0 "I will get my lover something instead."
+  dharma_hindu_festivals.002.lover.tooltip:0 "This will anger your wives whom are not your lover."
+  dharma_hindu_festivals.002.spouses:0 "I will get all my wives something"
+
+  dharma_hindu_festivals.003.t:0 "Naraka Chaturdashi"
+  dharma_hindu_festivals.003.desc:0 "Naraka Chaturdashi is the second day of Diwali. It celebrates the victory of Krishna over the demon Narakasura, some also attribute the killing of the demon to Kali. On this day, it is customary to get cleaned early, and to wear new clothes as we do Poja. Later in the day, one can see effigies of Narakasura being burned in the courtyard."
+  dharma_hindu_festivals.003.diwali:0 "Take that Narakasura"
+
+  dharma_hindu_festivals.004.t:0 "Lakshmi Puja"
+  dharma_hindu_festivals.004.desc:0 "On Lakshmi Puja, the third day of Diwali, the festival of lights start early in the morning by letting in as much light as one can. As you go to the temple to make honor the Goddess Lakshmi, you see you servants preparing for the feast later tonight."
+  dharma_hindu_festivals.004.lakshmi:0 "Om Shreem Maha Lakshmiyei Namaha"
+
+  dharma_hindu_festivals.005.t:0 "Family Feast"
+  dharma_hindu_festivals.005.desc:0 "As the day turns into night, your courtyard is filled with light as is the rest of your lands. From large lanterns to small diya lamps,  light is everywhere. You and your family sit out in the courtyard as servants bring out food for you to enjoy and feast."
+  dharma_hindu_festivals.005.family:0 "A wonderful feast"
+
+  dharma_hindu_festivals.006.t:0 "Giving the gift to your loved ones"
+  dharma_hindu_festivals.006.desc.spouse:0 "During the festivities you have presented your [spouse.Custom('WifeHusband')] with new clothes and gifts for [spouse.GetHerHim]. To which [spouse.GetSheHe] is thankful for the gifts. "
+  dharma_hindu_festivals.006.desc.spouses:0 "During the festivities you have presented your spouses with new clothes and gifts for your wives. To which they are thankful for the gifts."
+  dharma_hindu_festivals.006.desc.first_spouse:0 "Your first wife [first_spouse.GetFirstName], reacted with joy at the gift that you gave her, however your other wives were annoyed at the attention she got instead of them. "
+  dharma_hindu_festivals.006.desc.lover_not_wife:0 "Your lover [lover.GetFirstName], reacted with joy at the gift that you gave her, however your other wives were annoyed at the attention she got instead of them, particularly your wife, [spouse.GetFirstName]"
+  dharma_hindu_festivals.006.desc.lover_wife:0 "Your lover [lover.GetFirstName], reacted with joy at the gift that you gave her, however your other wives were annoyed at the attention she got instead of them, particularly your first wife, [first_spouse.GetFirstName]"
+  dharma_hindu_festivals.006.spouse:0 "[spouse.GetFirstName] loves it."
+  dharma_hindu_festivals.006.spouses:0 "My Wives love it."
+  dharma_hindu_festivals.006.first_wife:0 "I am glad [first_spouse.GetFirstName] loves it."
+  dharma_hindu_festivals.006.lover:0 "I am glad [lover.GetFirstName], loves it."
+
+  dharma_hindu_festivals.007.t:0 "Balipratipada"
+  dharma_hindu_festivals.007.desc:0 "The fourth day of Diwali is dedicated to Mahabali, who was a mangamious king and companion to Lord Vishnu's avatar of Vamana. Along with continuing to burn lights, it is also common on this day to be a charitable and practice Dana and give to the commoners and try and be like Bali. "
+  dharma_hindu_festivals.007.large:0 "A grand denotion to the people"
+  dharma_hindu_festivals.007.medium:0 "A large denotion to the people"
+  dharma_hindu_festivals.007.small:0 "A small denotion to the people"
+
+  dharma_hindu_festivals.008.t:0 "Play Pachikalu"
+  dharma_hindu_festivals.008.desc:0 "On Balipratipada, it is common to engage in a dice gambling game called Pachikalu. Legends have the Gods Shiva, Ganesha, and Murugan, along with Shiva's wife Parvati playing the game. Shall you bet some money and play. Or will you sit this one out?"
+  dharma_hindu_festivals.008.play:0 "Lets play the game"
+  dharma_hindu_festivals.008.play.success:0 "You have won the dice game and with it some money."
+  dharma_hindu_festivals.008.play.success_title:0 "Won Pachikalu"
+  dharma_hindu_festivals.008.play.failure:0 "You have lost the dice game and with it some money."
+  dharma_hindu_festivals.008.play.failure_title:0 "Lost Pachikalu"
+  dharma_hindu_festivals.008.dont_play:0 "I will sit the game out"
+
+  dharma_hindu_festivals.009.t:0 "Bhai Dooj"
+  dharma_hindu_festivals.009.desc.sister:0 "Today is Bahi Dooj, the day final day of Diwali. Today I have my servants prepare a meal for my brother, [brother.GetFirstName], of his favorite sweets and food. Today is a time for praying for [brother.GetFirstName] and ensuring his success and in turn my own. Before the feast, I place a red tilka mark upon his forhead. After the feast, I recieve a small gift. "
+  dharma_hindu_festivals.009.desc.brother:0 "Today is Bhai Dooj, the final day of Diwali. On this day my sister, [sister.GetFirstName], has had the servants serve me a meal of my favorite meal while praying for success and for me to protect her. After she places a red Tilka upon my forhead, I decide to give her a small gift to celebrate the day."
+  dharma_hindu_festivals.009.sister:0 "What a wonderful brother, [brother.GetFirstName] is"
+  dharma_hindu_festivals.009.brother:0 "What a wonderful Sister, [sister.GetFirstName] is"
+
+  dharma_hindu_festivals.010.t:0 "Diwali concludes"
+  dharma_hindu_festivals.010.desc:0 "The festivites of Diwali are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_hindu_festivals.010.home:0 "Till next time!"
+
+
+
+
+  dharma_hindu_festivals.020.t:0 "Navaratri begins"
+  dharma_hindu_festivals.020.desc:0 "Today is the first day of Navaratri, the nine day festival dedicated to the Goddess Durga and her various incarnations. Each day is also associated with a different color. "
+  dharma_hindu_festivals.020.navaratri:0 "Om Sarva Mangala Mangalye"
+
+  dharma_hindu_festivals.021.t:0 "Temple Visit"
+  dharma_hindu_festivals.021.desc:0 "As part of the Navaratri celebration, it is customary to visit the Temples to the Goddess Durga and give her offerings."
+  dharma_hindu_festivals.021.temples:0 "To the Goddess Durga and her incarnations"
+
+  dharma_hindu_festivals.022.t:0 "Plays about the Goddess"
+  dharma_hindu_festivals.022.desc:0 "It is common to see plays of the Goddess Durga and her slaying the Buffalo Demon. "
+  dharma_hindu_festivals.022.plays:0 "What a wonderful show"
+
+  dharma_hindu_festivals.023.t:0 "Devi Procession"
+  dharma_hindu_festivals.023.desc:0 "During Navaratri it is common to see processions of the Goddess Durga and her many incarnations. Idols of the goddess go down the streets of your capital."
+  dharma_hindu_festivals.023.navaratri:0 "A great sight."
+
+  dharma_hindu_festivals.024.t:0 "Charity for the people"
+  dharma_hindu_festivals.024.desc:0 "As part of the celebrations of Navaratri, it is not uncommon to give gifts to the commoners and lower caste people to show your benevolence and magnanimity. The question is what sort of gift to the commoners shall you give?"
+  dharma_hindu_festivals.024.large:0 "A grand gift for the people."
+  dharma_hindu_festivals.024.medium:0 "A Large gift for the people."
+  dharma_hindu_festivals.024.small:0 "A normal sized gift for the people."
+
+  dharma_hindu_festivals.025.t:0 "Animal Sacrifice to Durga"
+  dharma_hindu_festivals.025.desc:0 "During Navaratri it is common to sacrifice animals to the Goddess Durga. The brahmins lead the sacrifice of the Buffalo, and with a single strike the animal is sacrificed to the Goddess Durga. This shall bring blessings to my realm."
+  dharma_hindu_festivals.025.animal_sacrifice:0 "to Maha Durga"
+
+  dharma_hindu_festivals.026.t:0 "Family Feast"
+  dharma_hindu_festivals.026.desc:0 "Navaratri is a time to get together with friends and family, and so as the festivities are coming to the last days of the event, you hold a feast at your court, where your servants give you and your family and courties various foods to enjoy during this special time of the year. "
+  dharma_hindu_festivals.026.food:0 "Thank you Ma Durga for the food!"
+
+  dharma_hindu_festivals.027.t:0 "Gifts for your relatives"
+  dharma_hindu_festivals.027.desc:0 "During Navaratri it is common to buy gifts for relatives and loved ones. Of your many relatives whom shall you get a gift for? "
+  dharma_hindu_festivals.027.everyone:0 "All my relatives"
+  dharma_hindu_festivals.027.elders:0 "My Parents"
+  dharma_hindu_festivals.027.spouses:0 "My spouse"
+  dharma_hindu_festivals.027.siblings:0 "My Siblings"
+  dharma_hindu_festivals.027.children:0 "My Children"
+
+  dharma_hindu_festivals.028.t:0 "Ramlila Plays"
+  dharma_hindu_festivals.028.desc:0 "In the north, in addition to plays about the Goddess Durga it is common to watch Ramlila shows. These are plays which depict the life of Rama according to the Ramayana. Following the plays, effigies of Ravana, Kumbhakarna, and Indrajit are burnt to celebrate the victory of good over evil."
+  dharma_hindu_festivals.028.ramlila:0 "What a great show."
+
+  dharma_hindu_festivals.029.t:0 "Ayudha Puja"
+  dharma_hindu_festivals.029.desc:0 "In the south of India, one of the ways to celebrate Navaratri is to honor and venerate one's pride instruments or weapons and have them blessed. This way that when you go to war to fight your enemies, a little bit of the power that Durga used to slay Mahishasura can be imbued into your weapons. "
+  dharma_hindu_festivals.029.weapons:0 "Thank you Ma Durga."
+
+  dharma_hindu_festivals.030.t:0 "Garba Dances"
+  dharma_hindu_festivals.030.desc:0 "Your courtyard is filled with life and energy today as a number of dancers have come to your court to put on the famous Garba dances. The exquisite dancers twirl in colorful outfits to honor the Goddess and for your court's enjoyment."
+  dharma_hindu_festivals.030.garba:0 "What a wonderful display."
+
+  dharma_hindu_festivals.031.t:0 "Durga Puja"
+  dharma_hindu_festivals.031.desc:0 "Throughout your capital numerous Pandals have been built containing statues of the Goddess Durga. As the days of the festival progress, you have brought your idol to the river bank to be bathed in the water. Here you immerse the idol of the Goddess into the water where it will disolve and symbolic of her return to the Divine Cosmos and her home on mount Kailash. "
+  dharma_hindu_festivals.031.durga:0 "A great time."
+
+  dharma_hindu_festivals.032.t:0 "Navaratri concludes"
+  dharma_hindu_festivals.032.desc:0 "The festivites of Navaratri are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_hindu_festivals.032.home:0 "Till next time!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
