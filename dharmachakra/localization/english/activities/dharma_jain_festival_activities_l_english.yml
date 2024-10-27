@@ -1,0 +1,173 @@
+﻿l_english:
+
+# First mahamastakabhisheka
+# second Paryushana
+# Third Mahavir Janma Kalyanak
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_jain_festival_mahamastakabhisheka: "Celebrate Mahamastakabhisheka"
+  activity_dharma_jain_festival_mahamastakabhisheka_desc: "The Mahamastakabhisheka celebrates Bahubali, otherwise known as Gommateshwara. People travel to Shravenbelagola to visit the great statue of Bahubali every twelve years. Should I make a pilgrimage?"
+  activity_dharma_jain_festival_mahamastakabhisheka_selection_tooltip: "Go and pay respects to Bahubali. \n\n$dharma_jain_festival_mahamastakabhisheka_desc_context_tooltip$"
+  activity_dharma_jain_festival_mahamastakabhisheka_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_jain_festival_mahamastakabhisheka_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_jain_festival_mahamastakabhisheka_province_desc: "This is the site of the great Gommateshwara statue where the Mahamastakabhisheka takes place."
+  activity_dharma_jain_festival_mahamastakabhisheka_destination_selection: "$activity_dharma_jain_festival_mahamastakabhisheka_province_desc$"
+  activity_dharma_jain_festival_mahamastakabhisheka_guest_help_text: "$activity_dharma_jain_festival_mahamastakabhisheka$"
+  activity_dharma_jain_festival_mahamastakabhisheka_predicted_cost: "The cost of the pilgrimage depends on what [activity_options|E] you select."
+  activity_dharma_jain_festival_mahamastakabhisheka_conclusion_desc: "The [GetActivityType( 'activity_dharma_jain_festival_mahamastakabhisheka' ).GetName] is over. May may actions help bring me karma!"
+###################################
+# Activity Options
+###################################
+  dharma_jain_festival_mahamastakabhisheka_gift_type: "Gift Size"
+  dharma_jain_festival_mahamastakabhisheka_gift_small: "Small"
+  dharma_jain_festival_mahamastakabhisheka_gift_small_desc: "A small and humble offering shall be offered on your pilgrimage."
+  dharma_jain_festival_mahamastakabhisheka_gift_medium: "Medium"
+  dharma_jain_festival_mahamastakabhisheka_gift_medium_desc: "A reasonably sized offering shall be offered on your pilgrimage."
+  dharma_jain_festival_mahamastakabhisheka_gift_large: "Large"
+  dharma_jain_festival_mahamastakabhisheka_gift_large_desc: "A grand offering shall be offered on your pilgrimage."
+
+  dharma_jain_festival_mahamastakabhisheka_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_jain_festival_mahamastakabhisheka_celebration_phase: "Ceremony"
+  dharma_jain_festival_mahamastakabhisheka_celebration_phase_desc: "You shall anoint the statue Bahubali with various offerings in order to help your karma."
+###################################
+# Intents
+###################################
+  dharma_jain_festival_worship_intent_header: "Worship:"
+  dharma_jain_festival_worship_intent: "Worship"
+  dharma_jain_festival_worship_intent_desc: "You will focus on the religious dimensions of the pilgrimage. Gain an extra [piety_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+
+  dharma_jain_festival_reputation_intent_header: "Reputation:"
+  dharma_jain_festival_reputation_intent: "Reputation"
+  dharma_jain_festival_reputation_intent_desc: "You want all to know of your devotion through this offering and anointing. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+###################################
+# Character Memories
+###################################
+  dharma_jain_festival_mahamastakabhisheka_completed_log_title: "Mahamastakabhisheka Completed"
+  dharma_jain_festival_mahamastakabhisheka_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Mahamastakabhisheka"
+  TRAVEL_NAME_FOR_activity_dharma_jain_festival_mahamastakabhisheka: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_jain_festival_mahamastakabhisheka$"
+ ###################################
+# Character Memories
+###################################
+  dharma_jain_festival_mahamastakabhisheka_host_memory: "Celebrated [GetActivityType('activity_dharma_jain_festival_mahamastakabhisheka').GetName]"
+  dharma_jain_festival_mahamastakabhisheka_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_jain_festival_mahamastakabhisheka').GetName]"
+  dharma_jain_festival_mahamastakabhisheka_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_jain_festival_mahamastakabhisheka').GetName]"
+  dharma_jain_festival_mahamastakabhisheka_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_jain_festival_mahamastakabhisheka').GetName]"
+  dharma_jain_festival_mahamastakabhisheka_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_mahamastakabhisheka').GetName]"
+  dharma_jain_festival_mahamastakabhisheka_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_mahamastakabhisheka').GetName]"
+  dharma_jain_festival_mahamastakabhisheka_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_mahamastakabhisheka').GetName]"
+  dharma_jain_festival_mahamastakabhisheka_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_mahamastakabhisheka').GetName]"
+
+# second Paryushana
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_jain_festival_paryushana: "Celebrate Paryushana"
+  activity_dharma_jain_festival_paryushana_desc: "The Paryushana Festival, or the Das Lakshana among the Digambara, is the holiest of festivals where Jains come together to study and fast. Where the teachings of the tirthankaras are focused upon and the five great vows of Jainism are emphasized."
+  activity_dharma_jain_festival_paryushana_selection_tooltip: "Let us come together. \n\n$dharma_jain_festival_paryushana_desc_context_tooltip$"
+  activity_dharma_jain_festival_paryushana_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_jain_festival_paryushana_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_jain_festival_paryushana_province_desc: "This is where you shall invite people to come together for Paryushana."
+  activity_dharma_jain_festival_paryushana_destination_selection: "$activity_dharma_jain_festival_paryushana_province_desc$"
+  activity_dharma_jain_festival_paryushana_guest_help_text: "$activity_dharma_jain_festival_paryushana$"
+  activity_dharma_jain_festival_paryushana_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_jain_festival_paryushana_conclusion_desc: "The [GetActivityType( 'activity_dharma_jain_festival_paryushana' ).GetName] is over. May may actions help bring me karma!"
+###################################
+# Activity Options
+###################################
+  dharma_jain_festival_paryushana_gift_type: "Gift Size"
+  dharma_jain_festival_paryushana_gift_small: "Small"
+  dharma_jain_festival_paryushana_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_jain_festival_paryushana_gift_medium: "Medium"
+  dharma_jain_festival_paryushana_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_jain_festival_paryushana_gift_large: "Large"
+  dharma_jain_festival_paryushana_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_jain_festival_paryushana_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_jain_festival_paryushana_celebration_phase: "Ceremony"
+  dharma_jain_festival_paryushana_celebration_phase_desc: "You shall fast and focus on the teachings of the Tirthankaras."
+###################################
+# Character Memories
+###################################
+  dharma_jain_festival_paryushana_completed_log_title: "Paryushana Completed"
+  dharma_jain_festival_paryushana_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Paryushana"
+  TRAVEL_NAME_FOR_activity_dharma_jain_festival_paryushana: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_jain_festival_paryushana$"
+ ###################################
+# Character Memories
+###################################
+  dharma_jain_festival_paryushana_host_memory: "Celebrated [GetActivityType('activity_dharma_jain_festival_paryushana').GetName]"
+  dharma_jain_festival_paryushana_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_jain_festival_paryushana').GetName]"
+  dharma_jain_festival_paryushana_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_jain_festival_paryushana').GetName]"
+  dharma_jain_festival_paryushana_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_jain_festival_paryushana').GetName]"
+  dharma_jain_festival_paryushana_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_paryushana').GetName]"
+  dharma_jain_festival_paryushana_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_paryushana').GetName]"
+  dharma_jain_festival_paryushana_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_paryushana').GetName]"
+  dharma_jain_festival_paryushana_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_paryushana').GetName]"
+
+# Third Mahavir Janma Kalyanak
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_jain_festival_mahavir_janma_kalyanak: "Celebrate Mahavir Janma Kalyanak"
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_desc: "Mahavir Janma Kalyanak celebrates the birth of the twenty-fourth and last Tirthankara of this cycle, Mahavira. It is thus a holy time of the year to celebrate the great teacher of Jainism."
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_selection_tooltip: "Let us remember Mahavira.\n\n$dharma_jain_festival_mahavir_janma_kalyanak_desc_context_tooltip$"
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_province_desc: "This is where you shall invite people to come together for Mahavir Janma Kalyanak."
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_destination_selection: "$activity_dharma_jain_festival_mahavir_janma_kalyanak_province_desc$"
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_guest_help_text: "$activity_dharma_jain_festival_mahavir_janma_kalyanak$"
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_conclusion_desc: "The [GetActivityType( 'activity_dharma_jain_festival_mahavir_janma_kalyanak' ).GetName] is over. May may actions help bring me karma!"
+###################################
+# Activity Options
+###################################
+  dharma_jain_festival_mahavir_janma_kalyanak_gift_type: "Gift Size"
+  dharma_jain_festival_mahavir_janma_kalyanak_gift_small: "Small"
+  dharma_jain_festival_mahavir_janma_kalyanak_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_jain_festival_mahavir_janma_kalyanak_gift_medium: "Medium"
+  dharma_jain_festival_mahavir_janma_kalyanak_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_jain_festival_mahavir_janma_kalyanak_gift_large: "Large"
+  dharma_jain_festival_mahavir_janma_kalyanak_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_jain_festival_mahavir_janma_kalyanak_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_jain_festival_mahavir_janma_kalyanak_celebration_phase: "Ceremony"
+  dharma_jain_festival_mahavir_janma_kalyanak_celebration_phase_desc: "You shall fast and focus on the teachings of the Tirthankaras."
+###################################
+# Character Memories
+###################################
+  dharma_jain_festival_mahavir_janma_kalyanak_completed_log_title: "Mahavir Janma Kalyanak Completed"
+  dharma_jain_festival_mahavir_janma_kalyanak_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Mahavir Janma Kalyanak"
+  TRAVEL_NAME_FOR_activity_dharma_jain_festival_mahavir_janma_kalyanak: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_jain_festival_mahavir_janma_kalyanak$"
+ ###################################
+# Character Memories
+###################################
+  dharma_jain_festival_mahavir_janma_kalyanak_host_memory: "Celebrated [GetActivityType('activity_dharma_jain_festival_mahavir_janma_kalyanak').GetName]"
+  dharma_jain_festival_mahavir_janma_kalyanak_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_jain_festival_mahavir_janma_kalyanak').GetName]"
+  dharma_jain_festival_mahavir_janma_kalyanak_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_jain_festival_mahavir_janma_kalyanak').GetName]"
+  dharma_jain_festival_mahavir_janma_kalyanak_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_jain_festival_mahavir_janma_kalyanak').GetName]"
+  dharma_jain_festival_mahavir_janma_kalyanak_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_mahavir_janma_kalyanak').GetName]"
+  dharma_jain_festival_mahavir_janma_kalyanak_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_mahavir_janma_kalyanak').GetName]"
+  dharma_jain_festival_mahavir_janma_kalyanak_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_mahavir_janma_kalyanak').GetName]"
+  dharma_jain_festival_mahavir_janma_kalyanak_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_jain_festival_mahavir_janma_kalyanak').GetName]"
+

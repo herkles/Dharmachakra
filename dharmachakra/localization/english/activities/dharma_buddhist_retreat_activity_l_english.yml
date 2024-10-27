@@ -2,11 +2,11 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_buddhist_retreat:0 "Buddhist Retreat"
-  activity_dharma_buddhist_retreat_desc:0 "You will go on a retreat to a local Buddhist Monastary to focus on the teachings of the Buddha."
+  activity_dharma_buddhist_retreat: "Buddhist Retreat"
+  activity_dharma_buddhist_retreat_desc: "You will go on a retreat to a local Buddhist Monastary to focus on the teachings of the Buddha."
   activity_dharma_buddhist_retreat_selection_tooltip: "You will speend some time on a spiritual retreat"
   activity_dharma_buddhist_retreat_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
-  dharma_buddhist_retreat_desc:0 "You will go on a retreat to a local Buddhist Monastary to focus on the teachings of the Buddha."
+  dharma_buddhist_retreat_desc: "You will go on a retreat to a local Buddhist Monastary to focus on the teachings of the Buddha."
 ###################################
 # Starting the Activity
 ###################################
@@ -30,7 +30,7 @@
   dharma_buddhist_retreat_length_long: "Long"
   dharma_buddhist_retreat_length_long_desc: "You will spend a short amount of time on a buddhist retreat."
 
-  dharma_buddhist_retreat_length_desc:0 "The length of time you will spend at the Buddhist Retreat."
+  dharma_buddhist_retreat_length_desc: "The length of time you will spend at the Buddhist Retreat."
 ###################################
 # Phases
 ###################################
@@ -45,25 +45,25 @@
 ###################################
 # Character Memories
 ###################################
- dharma_buddhist_retreat_completed_log_title:0 "Buddhist Retreat Completed"
- dharma_buddhist_retreat_completed_log:0 "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Buddhist Retreat"
- TRAVEL_NAME_FOR_activity_dharma_buddhist_retreat:0 "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_buddhist_retreat$"
+  dharma_buddhist_retreat_completed_log_title: "Buddhist Retreat Completed"
+  dharma_buddhist_retreat_completed_log: "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Buddhist Retreat"
+  TRAVEL_NAME_FOR_activity_dharma_buddhist_retreat: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_buddhist_retreat$"
 
 ###################################
 # Character Memories
 ###################################
-  dharma_buddhist_retreat_host_memory:0 "went on a [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
+  dharma_buddhist_retreat_host_memory: "went on a [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
 
-  dharma_buddhist_retreat_host_memory_first_perspective:0 "I went on a [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
+  dharma_buddhist_retreat_host_memory_first_perspective: "I went on a [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
 
-  dharma_buddhist_retreat_host_memory_second_perspective:0 "you went on a [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
+  dharma_buddhist_retreat_host_memory_second_perspective: "you went on a [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
 
-  dharma_buddhist_retreat_host_memory_third_perspective:0 "[owner.GetName] performed a [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
+  dharma_buddhist_retreat_host_memory_third_perspective: "[owner.GetName] performed a [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
 
-  dharma_buddhist_retreat_guest_memory:0 "went on a[host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
+  dharma_buddhist_retreat_guest_memory: "went on a[host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
 
-  dharma_buddhist_retreat_guest_memory_first_perspective:0 "I went on [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
+  dharma_buddhist_retreat_guest_memory_first_perspective: "I went on [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
 
-  dharma_buddhist_retreat_guest_memory_second_perspective:0 "you went on [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
+  dharma_buddhist_retreat_guest_memory_second_perspective: "you went on [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
 
-  dharma_buddhist_retreat_guest_memory_third_perspective:0 "[owner.GetName] went on [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_retreat').GetName]"
+  dharma_buddhist_retreat_guest_memory_third_perspective: "[owner.GetName] went on [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_buddhist_retreat').GetName]"

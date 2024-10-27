@@ -2,8 +2,8 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_vedic_sacrifice:0 "Animal Sacrifice"
-  activity_dharma_vedic_sacrifice_desc:0 "We seek the blessings of the gods, and the way to do so is through sacrificing animals to the Divine."
+  activity_dharma_vedic_sacrifice: "Animal Sacrifice"
+  activity_dharma_vedic_sacrifice_desc: "We seek the blessings of the gods, and the way to do so is through sacrificing animals to the Divine."
   activity_dharma_vedic_sacrifice_selection_tooltip: "Sacrifice Animals to [GetPlayer.GetFaith.PantheonTerm].\n\n$dharma_vedic_sacrifice_desc_context_tooltip$"
   activity_dharma_vedic_sacrifice_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
 ###################################
@@ -21,14 +21,12 @@
   dharma_vedic_sacrifice_animal_type: "Animal Type"
   dharma_vedic_sacrifice_animal_type_goats: "Goats"
   dharma_vedic_sacrifice_animal_type_goats_desc: "You will sacrifice Goats, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E].\n\n#weak While our sacrifice is small, it will consist of the most magnificent goats we have to offer.#!"
-  dharma_vedic_sacrifice_animal_type_water_buffalos: "Medium"
+  dharma_vedic_sacrifice_animal_type_water_buffalos: "Water Buffalos"
   dharma_vedic_sacrifice_animal_type_water_buffalos_desc: "You will sacrifice Water Buffalo, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E].\n\n#weak [GetPlayer.GetFaith.PantheonTerm] will surely be pleased with offering Water Buffalo.#!"
   dharma_vedic_sacrifice_animal_type_horse: "Horses"
   dharma_vedic_sacrifice_animal_type_horse_desc: "You will sacrifice horses, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E].\n\n#weak For [GetPlayer.GetFaith.PantheonTerm], our sacrifice of horses will be nothing short of spectacular!#!"
 
- dharma_vedic_sacrifice_animal_type_type:0 "The type of Animal Sacrificed"
-
-
+  dharma_vedic_sacrifice_animal_type_type: "The type of Animal Sacrificed"
 ###################################
 # Phases
 ###################################
@@ -47,17 +45,17 @@
 ###################################
 # Character Memories
 ###################################
- dharma_vedic_sacrifice_completed_log_title:0 "Vedic Sacrifice Completed"
- dharma_vedic_sacrifice_completed_log:0 "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Vedic Sacrifice"
- TRAVEL_NAME_FOR_activity_dharma_vedic_sacrifice:0 "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_vedic_sacrifice$"
+  dharma_vedic_sacrifice_completed_log_title: "Vedic Sacrifice Completed"
+  dharma_vedic_sacrifice_completed_log: "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Vedic Sacrifice"
+  TRAVEL_NAME_FOR_activity_dharma_vedic_sacrifice: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_vedic_sacrifice$"
  ###################################
 # Character Memories
 ###################################
-  dharma_vedic_sacrifice_host_memory:0 "performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
-  dharma_vedic_sacrifice_host_memory_first_perspective:0 "I performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
-  dharma_vedic_sacrifice_host_memory_second_perspective:0 "you performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
-  dharma_vedic_sacrifice_host_memory_third_perspective:0 "[owner.GetName] performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
-  dharma_vedic_sacrifice_guest_memory:0 "participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
-  dharma_vedic_sacrifice_guest_memory_first_perspective:0 "I participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
-  dharma_vedic_sacrifice_guest_memory_second_perspective:0 "you participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
-  dharma_vedic_sacrifice_guest_memory_third_perspective:0 "[owner.GetName] participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_host_memory: "performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_host_memory_first_perspective: "I performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_host_memory_second_perspective: "you performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_host_memory_third_perspective: "[owner.GetName] performed a [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_guest_memory: "participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_guest_memory_first_perspective: "I participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_guest_memory_second_perspective: "you participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"
+  dharma_vedic_sacrifice_guest_memory_third_perspective: "[owner.GetName] participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_vedic_sacrifice').GetName]"

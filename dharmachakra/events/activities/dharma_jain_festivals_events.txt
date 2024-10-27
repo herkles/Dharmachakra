@@ -1,0 +1,1035 @@
+﻿namespace = dharma_jain_festivals
+
+#######################################
+# Mahamastakabhisheka Festival
+#######################################
+dharma_jain_festivals.001 = {# arriving in Shravanabelagola
+	type = activity_event
+	title = dharma_jain_festivals.001.t
+	desc = dharma_jain_festivals.001.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = root
+
+	immediate = {
+		title:b_rameshvaram = {
+			save_scope_as = location
+		}
+	}
+	
+	option = { # Ok
+		name = dharma_jain_festivals.001.a
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.002
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.002 = {# The grand Anointing of the Statue
+	type = activity_event
+	title = dharma_jain_festivals.002.t
+	desc = dharma_jain_festivals.002.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}	
+	right_portrait = root
+	
+	option = {# I will personally lead the anointing
+		name = dharma_jain_festivals.002.lead
+		add_prestige = 30
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			arrogant = minor_stress_gain # Arrogant people like to lead the anointing!
+			humble = minor_stress_impact_loss # Shy people don't like to be leading the anointing
+			zealous = minor_stress_impact_loss # Zealous people like to be involved regardless
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.003
+				days = { 2 4 }
+			}
+		}
+	}	
+	option = {# Help the monks with the anointing
+		name = dharma_jain_festivals.002.help
+		add_prestige = 10
+		add_piety = 10
+		stress_impact = {
+			arrogant = minor_stress_gain # Humble people like to help the monks.
+			humble = minor_stress_impact_loss # Shy people don't like to be leading the anointing
+			zealous = minor_stress_impact_loss # Zealous people like to be involved regardless
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.003
+				days = { 2 4 }
+			}
+		}
+	}	
+	option = {# Stay on the ground floor
+		name = dharma_jain_festivals.002.participate
+		stress_impact = {
+			arrogant = minor_stress_gain # Arrogant people like to lead the anointing!
+			humble = minor_stress_impact_loss # Shy people don't like to be leading the anointing
+			zealous = minor_stress_impact_loss # Zealous people like to be involved regardless
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.003
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.003 = {# Meditating on Bahubali's teachings
+	type = activity_event
+	title = dharma_jain_festivals.003.t
+	desc = dharma_jain_festivals.003.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# Compassion
+		name = dharma_jain_festivals.003.compassion
+		random_list = {
+			10 = {
+				if = {
+					limit = { has_trait = callous }
+					remove_trait = callous
+				}
+				if = {
+					limit = { has_trait = sadistic }
+					remove_trait = sadistic
+				}
+				add_trait = compassionate
+			}
+			90 = {
+
+			}
+		}
+		add_character_modifier = {
+			modifier = jain_vow_asteya
+			days = 150
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.004
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Non-Violence
+		name = dharma_jain_festivals.003.ahimsa
+		random_list = {
+			10 = {
+				if = {
+					limit = { has_trait = vengeful }
+					remove_trait = vengeful
+				}
+				add_trait = forgiving
+			}
+			90 = {
+
+			}
+		}
+		add_character_modifier = {
+			modifier = jain_vow_ahimsa
+			days = 150
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.004
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.004 = {# Leave Shravanabelagola
+	type = activity_event
+	title = dharma_jain_festivals.004.t
+	desc = dharma_jain_festivals.004.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}	
+	right_portrait = root
+	
+	option = { # Ok
+		name = dharma_jain_festivals.004.a
+	}
+
+	after = {
+		show_as_tooltip = {
+			if = {
+				limit = {
+					has_activity_intent = dharma_jain_festival_worship_intent
+				}
+				add_piety = miniscule_piety_value
+			}
+			else_if = {
+				limit = {
+					has_activity_intent = dharma_jain_festival_reputation_intent
+				}
+				add_prestige = miniscule_prestige_gain
+			}
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.005
+				days = { 2 4 }
+			}
+		}
+	}
+
+}
+dharma_jain_festivals.005 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_jain_festival_mahamastakabhisheka_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Paryushana Festival
+#######################################
+dharma_jain_festivals.006 = {# arriving in Shravanabelagola
+	type = activity_event
+	title = dharma_jain_festivals.006.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith = faith:digambara }
+
+				desc = dharma_jain_festivals.006.digambara.desc
+			}
+			triggered_desc = {
+				trigger = { 
+					NOT = { faith = faith:digambara }
+				}
+				desc = dharma_jain_festivals.006.svetembara.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = root
+	
+	option = { # Ok
+		name = dharma_jain_festivals.006.a
+		add_character_modifier = {
+			modifier = fasting_bad_modifier
+			days = 40
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.007
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.007 = {# Reading from the Holy Texts 
+	type = activity_event
+	title = dharma_jain_festivals.007.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith = faith:digambara }
+
+				desc = dharma_jain_festivals.007.digambara.desc
+			}
+			triggered_desc = {
+				trigger = { 
+					NOT = { faith = faith:digambara }
+				}
+				desc = dharma_jain_festivals.007.svetembara.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}	
+	right_portrait = root
+	
+	option = {
+		name = dharma_jain_festivals.007.a
+		random_list = {
+			10 = {	add_learning_lifestyle_xp = minor_lifestyle_xp }
+			90 = {	add_piety = 50	}
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.008
+				days = { 2 4 }
+			}
+		}
+	}	
+}
+dharma_jain_festivals.008 = {# Procession to the main Jain temple
+	type = activity_event
+	title = dharma_jain_festivals.008.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith = faith:digambara }
+
+				desc = dharma_jain_festivals.008.digambara.desc
+			}
+			triggered_desc = {
+				trigger = { 
+					NOT = { faith = faith:digambara }
+				}
+				desc = dharma_jain_festivals.008.svetembara.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# I shall lead
+		name = dharma_jain_festivals.008.compassion
+		add_prestige = 25
+		stress_impact = {
+			zealous = minor_stress_loss
+			shy = minor_stress_impact_gain
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.009
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# the monks shall lead
+		name = dharma_jain_festivals.008.ahimsa
+		add_piety = 25
+		stress_impact = {
+			zealous = minor_stress_loss
+			shy = minor_stress_impact_gain
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.009
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.009 = {# Das Dharma - 5 Great vows
+	type = activity_event
+	title = dharma_jain_festivals.009.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith = faith:digambara }
+
+				desc = dharma_jain_festivals.009.digambara.desc
+			}
+			triggered_desc = {
+				trigger = { 
+					NOT = { faith = faith:digambara }
+				}
+				desc = dharma_jain_festivals.009.svetembara.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# Ahimsa
+		name = dharma_jain_festivals.009.ahimsa
+		add_character_modifier = {
+			modifier = jain_vow_ahimsa
+			days = 100
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.010
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Satya
+		name = dharma_jain_festivals.009.satya
+		add_character_modifier = {
+			modifier = jain_vow_satya
+			days = 100
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.010
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Asteya
+		name = dharma_jain_festivals.009.asteya
+		add_character_modifier = {
+			modifier = jain_vow_asteya
+			days = 100
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.010
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Aparigraha
+		name = dharma_jain_festivals.009.aparigraha
+		add_character_modifier = {
+			modifier = jain_vow_aparigraha
+			days = 100
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.010
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Brahamacarya
+		name = dharma_jain_festivals.009.brahmacarya
+		add_character_modifier = {
+			modifier = jain_vow_brahamacarya
+			days = 100
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.010
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.010 = {# Dhoop Dashami/ Sugandh Dashami - burning of the inceses to burn karma away
+	type = activity_event
+	title = dharma_jain_festivals.010.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith = faith:digambara }
+
+				desc = dharma_jain_festivals.010.digambara.desc
+			}
+			triggered_desc = {
+				trigger = { 
+					NOT = { faith = faith:digambara }
+				}
+				desc = dharma_jain_festivals.010.svetembara.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# Compassion
+		name = dharma_jain_festivals.010.a
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.011
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.011 = {# Paryushana asking for forgiveness
+	type = activity_event
+	title = dharma_jain_festivals.011.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith = faith:digambara }
+
+				desc = dharma_jain_festivals.011.digambara.desc
+			}
+			triggered_desc = {
+				trigger = { 
+					NOT = { faith = faith:digambara }
+				}
+				desc = dharma_jain_festivals.011.svetembara.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# Compassion
+		name = dharma_jain_festivals.011.a
+		random_list = {
+			30 = {
+				if = {
+					limit = { has_trait = callous }
+					remove_trait = callous
+				}
+				if = {
+					limit = { has_trait = sadistic }
+					remove_trait = sadistic
+				}
+				add_trait = compassionate
+			}
+			70 = {
+				add_piety = 50
+			}
+		}
+		stress_impact = {
+			compassionate = minor_stress_impact_loss
+			forgiving = minor_stress_impact_loss
+			vengeful = minor_stress_impact_gain
+			callous = minor_stress_impact_gain
+			sadistic = minor_stress_impact_gain
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.012
+				days = { 2 4 }
+			}
+		}
+	}
+
+}
+dharma_jain_festivals.012 = {# Paryushana concludes
+	type = activity_event
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith = faith:digambara }
+
+				desc = dharma_jain_festivals.012.digambara.title
+			}
+			triggered_desc = {
+				trigger = { 
+					NOT = { faith = faith:digambara }
+				}
+				desc = dharma_jain_festivals.012.svetembara.title
+			}
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { faith = faith:digambara }
+
+				desc = dharma_jain_festivals.012.digambara.desc
+			}
+			triggered_desc = {
+				trigger = { 
+					NOT = { faith = faith:digambara }
+				}
+				desc = dharma_jain_festivals.012.svetembara.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}	
+	right_portrait = root
+	
+	option = { # Ok
+		name = dharma_jain_festivals.004.a
+	}
+
+	after = {
+		show_as_tooltip = {
+			if = {
+				limit = {
+					has_activity_intent = dharma_jain_festival_worship_intent
+				}
+				add_piety = miniscule_piety_value
+			}
+			else_if = {
+				limit = {
+					has_activity_intent = dharma_jain_festival_reputation_intent
+				}
+				add_prestige = miniscule_prestige_gain
+			}
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.013
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.013 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_jain_festival_paryushana_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Mahavir Janma Kalyanak
+#######################################
+dharma_jain_festivals.014 = {# Mahavir Janma Kalyanak begins
+	type = activity_event
+	title = dharma_jain_festivals.014.t
+	desc = dharma_jain_festivals.014.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = root
+
+	immediate = {
+		title:b_rameshvaram = {
+			save_scope_as = location
+		}
+	}
+	
+	option = { # Ok
+		name = dharma_jain_festivals.014.a
+		add_character_modifier = {
+			modifier = fasting_bad_modifier
+			days = 40
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.015
+				days = { 2 4 }
+			}
+		}	
+
+	}
+}
+dharma_jain_festivals.015 = {# Visiting the temple
+	type = activity_event
+	title = dharma_jain_festivals.015.t
+	desc = dharma_jain_festivals.015.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}	
+	right_portrait = root
+	
+	option = {# I will personally lead the anointing
+		name = dharma_jain_festivals.015.lead
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			gregarious = minor_stress_impact_loss
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.016
+				days = { 2 4 }
+			}
+		}
+	}	
+
+}
+dharma_jain_festivals.016 = {# Meditating on Mahavira's teachings
+	type = activity_event
+	title = dharma_jain_festivals.016.t
+	desc = dharma_jain_festivals.016.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# Compassion
+		name = dharma_jain_festivals.016.compassion
+		random_list = {
+			10 = {
+				if = {
+					limit = { has_trait = callous }
+					remove_trait = callous
+				}
+				if = {
+					limit = { has_trait = sadistic }
+					remove_trait = sadistic
+				}
+				add_trait = compassionate
+			}
+			90 = {
+
+			}
+		}
+		add_character_modifier = {
+			modifier = jain_vow_asteya
+			days = 150
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.017
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Non-Violence
+		name = dharma_jain_festivals.016.ahimsa
+		random_list = {
+			10 = {
+				if = {
+					limit = { has_trait = vengeful }
+					remove_trait = vengeful
+				}
+				add_trait = forgiving
+			}
+			90 = {
+
+			}
+		}
+		add_character_modifier = {
+			modifier = jain_vow_ahimsa
+			days = 150
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.017
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.017 = {# annointing the idol
+	type = activity_event
+	title = dharma_jain_festivals.017.t
+	desc = dharma_jain_festivals.017.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# Compassion
+		name = dharma_jain_festivals.017.a
+		add_piety = miniscule_piety_gain
+
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.018
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.018 = {# The procession
+	type = activity_event
+	title = dharma_jain_festivals.018.t
+	desc = dharma_jain_festivals.018.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# Compassion
+		name = dharma_jain_festivals.018.a
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			gregarious = minor_stress_impact_loss
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.019
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Non-Violence
+		name = dharma_jain_festivals.018.ahimsa
+		random_list = {
+			10 = {
+				if = {
+					limit = { has_trait = vengeful }
+					remove_trait = vengeful
+				}
+				add_trait = forgiving
+			}
+			90 = {
+
+			}
+		}
+		add_character_modifier = {
+			modifier = jain_vow_ahimsa
+			days = 150
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.019
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.019 = {# providing charity to the local community
+	type = activity_event
+	title = dharma_jain_festivals.019.t
+	desc = dharma_jain_festivals.019.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# small
+		name = dharma_jain_festivals.019.small
+		remove_short_term_gold = tiny_gold_value
+		add_piety = miniscule_piety_gain
+		scope:capital = {# Peasants want more!
+			add_county_modifier = {
+				modifier = dharma_sad_peasants_festival
+				years = 2
+			}
+		}
+		stress_impact = {
+			generous = miniscule_stress_impact_gain
+			compassionate = miniscule_stress_impact_gain
+			zealous = miniscule_stress_impact_gain
+			just = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_gain
+			greedy = miniscule_stress_impact_loss
+			avaricious = miniscule_stress_impact_loss
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.020
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Medium
+		name = dharma_jain_festivals.019.medium
+		remove_short_term_gold = minor_gold_value
+		add_piety = minor_piety_gain
+		stress_impact = {
+			generous = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			zealous = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			improvident = minor_stress_impact_loss
+			greedy = minor_stress_impact_gain
+			avaricious = minor_stress_impact_gain
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.020
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# Large
+		name = dharma_jain_festivals.019.large
+		remove_short_term_gold = medium_gold_value
+		add_piety = medium_piety_gain
+		scope:capital = {# Peasants are overjoyed!
+			add_county_modifier = {
+				modifier = dharma_happy_peasants_festival
+				years = 2
+			}
+		}
+		stress_impact = {
+			generous = medium_stress_impact_loss
+			compassionate = medium_stress_impact_loss
+			zealous = medium_stress_impact_loss
+			just = medium_stress_impact_loss
+			improvident = medium_stress_impact_loss
+			greedy = medium_stress_impact_gain
+			avaricious = medium_stress_impact_gain
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.020
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.020 = {# donating to the local monastic community
+	type = activity_event
+	title = dharma_jain_festivals.020.t
+	desc = dharma_jain_festivals.020.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = {# small
+		name = dharma_jain_festivals.020.small
+		remove_short_term_gold = tiny_gold_value
+		add_piety = miniscule_piety_gain
+		add_character_modifier = {# The monks are sad!
+			modifier = dharma_sad_clergy_festival
+			years = 2
+		}
+		stress_impact = {
+			generous = miniscule_stress_impact_gain
+			compassionate = miniscule_stress_impact_gain
+			zealous = miniscule_stress_impact_gain
+			just = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_gain
+			greedy = miniscule_stress_impact_loss
+			avaricious = miniscule_stress_impact_loss
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.021
+				days = { 2 4 }
+			}
+		}
+	}
+	option = {# medium
+		name = dharma_jain_festivals.020.medium
+		remove_short_term_gold = minor_gold_value
+		add_piety = minor_piety_gain
+		stress_impact = {
+			generous = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			zealous = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			improvident = minor_stress_impact_loss
+			greedy = minor_stress_impact_gain
+			avaricious = minor_stress_impact_gain
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.021
+				days = { 2 4 }
+			}
+		}
+	}	
+	option = {# Large
+		name = dharma_jain_festivals.020.large
+		remove_short_term_gold = medium_gold_value
+		add_piety = medium_piety_gain
+		add_character_modifier = {# The monks are overjoyed!
+			modifier = dharma_happy_clergy_festival
+			years = 2
+		}
+		stress_impact = {
+			generous = medium_stress_impact_loss
+			compassionate = medium_stress_impact_loss
+			zealous = medium_stress_impact_loss
+			just = medium_stress_impact_loss
+			improvident = medium_stress_impact_loss
+			greedy = medium_stress_impact_gain
+			avaricious = medium_stress_impact_gain
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.021
+				days = { 2 4 }
+			}
+		}
+	}
+}
+dharma_jain_festivals.021 = {# Mahavir Janma Kalyanak concludes
+	type = activity_event
+	title = dharma_jain_festivals.021.t
+	desc = dharma_jain_festivals.021.desc
+	theme = faith
+	override_background = {
+		reference = forest_temple
+	}	
+	right_portrait = root
+	
+	option = { # Ok
+		name = dharma_jain_festivals.021.a
+	}
+
+	after = {
+		show_as_tooltip = {
+			if = {
+				limit = {
+					has_activity_intent = dharma_jain_festival_worship_intent
+				}
+				add_piety = miniscule_piety_value
+			}
+			else_if = {
+				limit = {
+					has_activity_intent = dharma_jain_festival_reputation_intent
+				}
+				add_prestige = miniscule_prestige_gain
+			}
+		}
+		hidden_event = {
+			trigger_event = {
+				id = dharma_jain_festivals.022
+				days = { 2 4 }
+			}
+		}
+	}
+
+}
+dharma_jain_festivals.022 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_jain_festival_mahavir_janma_kalyanak_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
