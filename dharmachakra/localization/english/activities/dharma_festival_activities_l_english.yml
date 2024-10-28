@@ -1,0 +1,403 @@
+﻿l_english:
+
+# First Chhath
+# Second Gangaur
+# Third Losar
+# Forth Pongal
+# Fifth Ratha Yatra
+# Sixth Thaipusam
+# Seventh Thingyan
+
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_chhath: "Celebrate Chhath"
+  activity_dharma_festival_chhath_desc: "Chhath is a festival dedicated to Lord Surya that the various people in around the foothills of the Himilyas in Bihar celebrate. "
+  activity_dharma_festival_chhath_selection_tooltip: "Celebrate Lord Surya. \n\n$dharma_festival_chhath_desc_context_tooltip$"
+  activity_dharma_festival_chhath_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_chhath_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_chhath_province_desc: "You shall celebarate Chhath here"
+  activity_dharma_festival_chhath_destination_selection: "$activity_dharma_festival_chhath_province_desc$"
+  activity_dharma_festival_chhath_guest_help_text: "$activity_dharma_festival_chhath$"
+  activity_dharma_festival_chhath_predicted_cost: "The cost of the pilgrimage depends on what [activity_options|E] you select."
+  activity_dharma_festival_chhath_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_chhath' ).GetName] is over.  May [GetPlayer.GetFaith.PantheonTerm] be pleased with my actions."
+
+  dharma_decision_chhath_month_requirement: "Chhath takes place around October or November in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_chhath_gift_type: "Gift Size"
+  dharma_festival_chhath_gift_small: "Small"
+  dharma_festival_chhath_gift_small_desc: "A small and humble offering shall be offered on your pilgrimage."
+  dharma_festival_chhath_gift_medium: "Medium"
+  dharma_festival_chhath_gift_medium_desc: "A reasonably sized offering shall be offered on your pilgrimage."
+  dharma_festival_chhath_gift_large: "Large"
+  dharma_festival_chhath_gift_large_desc: "A grand offering shall be offered on your pilgrimage."
+
+  dharma_festival_chhath_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_chhath_celebration_phase: "Ceremony"
+  dharma_festival_chhath_celebration_phase_desc: "You shall celebrate Lord Surya."
+###################################
+# Intents
+###################################
+  dharma_festival_worship_intent_header: "Worship:"
+  dharma_festival_worship_intent: "Worship"
+  dharma_festival_worship_intent_desc: "You will focus on the religious dimensions of the celebration. Gain an extra [piety_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+
+  dharma_festival_reputation_intent_header: "Reputation:"
+  dharma_festival_reputation_intent: "Reputation"
+  dharma_festival_reputation_intent_desc: "You want all to know of your devotion through this offering. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+###################################
+# Character Memories
+###################################
+  dharma_festival_chhath_completed_log_title: "Chhath Completed"
+  dharma_festival_chhath_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Chhath"
+  TRAVEL_NAME_FOR_activity_dharma_festival_chhath: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_chhath$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_chhath_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_chhath').GetName]"
+  dharma_festival_chhath_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_chhath').GetName]"
+  dharma_festival_chhath_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_chhath').GetName]"
+  dharma_festival_chhath_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_chhath').GetName]"
+  dharma_festival_chhath_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_chhath').GetName]"
+  dharma_festival_chhath_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_chhath').GetName]"
+  dharma_festival_chhath_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_chhath').GetName]"
+  dharma_festival_chhath_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_chhath').GetName]"
+
+# second Gangaur
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_gangaur: "Celebrate Gangaur"
+  activity_dharma_festival_gangaur_desc: "Gangaur is a festival that celebrates Gauri and Gana, the divine couple, local names for Lord Shiva and Parvati. This is a colorful spring festival that honors marital bliss, fertility and motherhood."
+  activity_dharma_festival_gangaur_selection_tooltip: "May Shiva and Parvati bless me. \n\n$dharma_festival_gangaur_desc_context_tooltip$"
+  activity_dharma_festival_gangaur_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_gangaur_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_gangaur_province_desc: "This is where you shall invite people for Gangaur."
+  activity_dharma_festival_gangaur_destination_selection: "$activity_dharma_festival_gangaur_province_desc$"
+  activity_dharma_festival_gangaur_guest_help_text: "$activity_dharma_festival_gangaur$"
+  activity_dharma_festival_gangaur_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_festival_gangaur_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_gangaur' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_gangaur_month_requirement: "Gangaur takes place around March or April in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_gangaur_gift_type: "Gift Size"
+  dharma_festival_gangaur_gift_small: "Small"
+  dharma_festival_gangaur_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_festival_gangaur_gift_medium: "Medium"
+  dharma_festival_gangaur_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_festival_gangaur_gift_large: "Large"
+  dharma_festival_gangaur_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_festival_gangaur_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_gangaur_celebration_phase: "Ceremony"
+  dharma_festival_gangaur_celebration_phase_desc: "You shall celebrate Lord Shiva and Lady Parvati"
+###################################
+# Character Memories
+###################################
+  dharma_festival_gangaur_completed_log_title: "Gangaur Completed"
+  dharma_festival_gangaur_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Gangaur"
+  TRAVEL_NAME_FOR_activity_dharma_festival_gangaur: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_gangaur$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_gangaur_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_gangaur').GetName]"
+  dharma_festival_gangaur_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_gangaur').GetName]"
+  dharma_festival_gangaur_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_gangaur').GetName]"
+  dharma_festival_gangaur_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_gangaur').GetName]"
+  dharma_festival_gangaur_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_gangaur').GetName]"
+  dharma_festival_gangaur_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_gangaur').GetName]"
+  dharma_festival_gangaur_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_gangaur').GetName]"
+  dharma_festival_gangaur_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_gangaur').GetName]"
+
+# Third Losar
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_losar: "Celebrate Losar"
+  activity_dharma_festival_losar_desc: "Losar is the new year celebration in the Tibetan Calendar. It is one of the most popular celebrations of the Tibetan people."
+  activity_dharma_festival_losar_selection_tooltip: "Lets welcome in the New Year. \n\n$dharma_festival_losar_desc_context_tooltip$"
+  activity_dharma_festival_losar_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_losar_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_losar_province_desc: "This is where you shall invite people for Losar."
+  activity_dharma_festival_losar_destination_selection: "$activity_dharma_festival_losar_province_desc$"
+  activity_dharma_festival_losar_guest_help_text: "$activity_dharma_festival_losar$"
+  activity_dharma_festival_losar_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_festival_losar_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_losar' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_losar_month_requirement: "Losar takes place around Feburary or March in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_losar_gift_type: "Gift Size"
+  dharma_festival_losar_gift_small: "Small"
+  dharma_festival_losar_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_festival_losar_gift_medium: "Medium"
+  dharma_festival_losar_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_festival_losar_gift_large: "Large"
+  dharma_festival_losar_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_festival_losar_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_losar_celebration_phase: "Ceremony"
+  dharma_festival_losar_celebration_phase_desc: "You shall celebrate Losar and welcome in the New Year."
+###################################
+# Character Memories
+###################################
+  dharma_festival_losar_completed_log_title: "Losar Completed"
+  dharma_festival_losar_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Losar"
+  TRAVEL_NAME_FOR_activity_dharma_festival_losar: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_losar$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_losar_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_losar').GetName]"
+  dharma_festival_losar_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_losar').GetName]"
+  dharma_festival_losar_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_losar').GetName]"
+  dharma_festival_losar_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_losar').GetName]"
+  dharma_festival_losar_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_losar').GetName]"
+  dharma_festival_losar_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_losar').GetName]"
+  dharma_festival_losar_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_losar').GetName]"
+  dharma_festival_losar_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_losar').GetName]"
+
+# Forth Pongal
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_pongal: "Celebrate Pongal"
+  activity_dharma_festival_pongal_desc: "Pongal is the harvest celebration of the Tamil people. Throughout Tamilakam the festivities attracts both the elite and the commoners to enjoy the joyful times."
+  activity_dharma_festival_pongal_selection_tooltip: "Let us come together. \n\n$dharma_festival_pongal_desc_context_tooltip$"
+  activity_dharma_festival_pongal_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_pongal_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_pongal_province_desc: "This is where you shall invite people to come together for Pongal."
+  activity_dharma_festival_pongal_destination_selection: "$activity_dharma_festival_pongal_province_desc$"
+  activity_dharma_festival_pongal_guest_help_text: "$activity_dharma_festival_pongal$"
+  activity_dharma_festival_pongal_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_festival_pongal_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_pongal' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_pongal_month_requirement: "Pongal takes place around January in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_pongal_gift_type: "Gift Size"
+  dharma_festival_pongal_gift_small: "Small"
+  dharma_festival_pongal_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_festival_pongal_gift_medium: "Medium"
+  dharma_festival_pongal_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_festival_pongal_gift_large: "Large"
+  dharma_festival_pongal_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_festival_pongal_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_pongal_celebration_phase: "Ceremony"
+  dharma_festival_pongal_celebration_phase_desc: "You shall enjoy the fruits of the Harvest."
+###################################
+# Character Memories
+###################################
+  dharma_festival_pongal_completed_log_title: "Pongal Completed"
+  dharma_festival_pongal_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Pongal"
+  TRAVEL_NAME_FOR_activity_dharma_festival_pongal: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_pongal$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_pongal_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_pongal').GetName]"
+  dharma_festival_pongal_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_pongal').GetName]"
+  dharma_festival_pongal_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_pongal').GetName]"
+  dharma_festival_pongal_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_pongal').GetName]"
+  dharma_festival_pongal_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_pongal').GetName]"
+  dharma_festival_pongal_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_pongal').GetName]"
+  dharma_festival_pongal_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_pongal').GetName]"
+  dharma_festival_pongal_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_pongal').GetName]"
+
+# Fifth Ratha Yatra
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_ratha_yatra: "Celebrate Ratha Yatra"
+  activity_dharma_festival_ratha_yatra_desc: "Ratha Yatra is a chariot festival dedicated to Lord Jagganath, an avatar of Lord Vishnu. The chariot of Lord Jagganath and his brother Balabhadra and sister Subhadra are drawn throughout the city in a grand procession."
+  activity_dharma_festival_ratha_yatra_selection_tooltip: "To Lord Jagganath.\n\n$dharma_festival_ratha_yatra_desc_context_tooltip$"
+  activity_dharma_festival_ratha_yatra_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_ratha_yatra_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_ratha_yatra_province_desc: "This is where you shall invite people to come together for Ratha Yatra."
+  activity_dharma_festival_ratha_yatra_destination_selection: "$activity_dharma_festival_ratha_yatra_province_desc$"
+  activity_dharma_festival_ratha_yatra_guest_help_text: "$activity_dharma_festival_ratha_yatra$"
+  activity_dharma_festival_ratha_yatra_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_festival_ratha_yatra_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_ratha_yatra' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_ratha_yatra_month_requirement: "Ratha Yatra takes place around June or July in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_ratha_yatra_gift_type: "Gift Size"
+  dharma_festival_ratha_yatra_gift_small: "Small"
+  dharma_festival_ratha_yatra_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_festival_ratha_yatra_gift_medium: "Medium"
+  dharma_festival_ratha_yatra_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_festival_ratha_yatra_gift_large: "Large"
+  dharma_festival_ratha_yatra_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_festival_ratha_yatra_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_ratha_yatra_celebration_phase: "Ceremony"
+  dharma_festival_ratha_yatra_celebration_phase_desc: "The celebration of Lord Jagganath's glory shall happen."
+###################################
+# Character Memories
+###################################
+  dharma_festival_ratha_yatra_completed_log_title: "Ratha Yatra Completed"
+  dharma_festival_ratha_yatra_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Ratha Yatra"
+  TRAVEL_NAME_FOR_activity_dharma_festival_ratha_yatra: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_ratha_yatra$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_ratha_yatra_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_ratha_yatra').GetName]"
+  dharma_festival_ratha_yatra_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_ratha_yatra').GetName]"
+  dharma_festival_ratha_yatra_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_ratha_yatra').GetName]"
+  dharma_festival_ratha_yatra_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_ratha_yatra').GetName]"
+  dharma_festival_ratha_yatra_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_ratha_yatra').GetName]"
+  dharma_festival_ratha_yatra_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_ratha_yatra').GetName]"
+  dharma_festival_ratha_yatra_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_ratha_yatra').GetName]"
+  dharma_festival_ratha_yatra_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_ratha_yatra').GetName]"
+
+# Sixth Thaipusam
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_thaipusam: "Celebrate Thaipusam"
+  activity_dharma_festival_thaipusam_desc: "Thaipusam is a sacred festival dedicated to Lord Murugan. Honoring the fact that his mother, Parvati gave him the Vel Spear."
+  activity_dharma_festival_thaipusam_selection_tooltip: "Celebrate the festival of lights. \n\n$dharma_festival_thaipusam_desc_context_tooltip$"
+  activity_dharma_festival_thaipusam_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_thaipusam_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_thaipusam_province_desc: "You shall celebarate Thaipusam here"
+  activity_dharma_festival_thaipusam_destination_selection: "$activity_dharma_festival_thaipusam_province_desc$"
+  activity_dharma_festival_thaipusam_guest_help_text: "$activity_dharma_festival_thaipusam$"
+  activity_dharma_festival_thaipusam_predicted_cost: "The cost of the pilgrimage depends on what [activity_options|E] you select."
+  activity_dharma_festival_thaipusam_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_thaipusam' ).GetName] is over.  May [GetPlayer.GetFaith.PantheonTerm] be pleased with my actions."
+
+  dharma_decision_thaipusam_month_requirement: "Thaipusam takes place around February in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_thaipusam_gift_type: "Gift Size"
+  dharma_festival_thaipusam_gift_small: "Small"
+  dharma_festival_thaipusam_gift_small_desc: "A small and humble offering shall be offered on your pilgrimage."
+  dharma_festival_thaipusam_gift_medium: "Medium"
+  dharma_festival_thaipusam_gift_medium_desc: "A reasonably sized offering shall be offered on your pilgrimage."
+  dharma_festival_thaipusam_gift_large: "Large"
+  dharma_festival_thaipusam_gift_large_desc: "A grand offering shall be offered on your pilgrimage."
+
+  dharma_festival_thaipusam_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_thaipusam_celebration_phase: "Ceremony"
+  dharma_festival_thaipusam_celebration_phase_desc: "You shall celebrate the Thaipusam and Lord Murgan."
+###################################
+# Character Memories
+###################################
+  dharma_festival_thaipusam_completed_log_title: "Thaipusam Completed"
+  dharma_festival_thaipusam_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Thaipusam"
+  TRAVEL_NAME_FOR_activity_dharma_festival_thaipusam: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_thaipusam$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_thaipusam_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_thaipusam').GetName]"
+  dharma_festival_thaipusam_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_thaipusam').GetName]"
+  dharma_festival_thaipusam_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_thaipusam').GetName]"
+  dharma_festival_thaipusam_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_thaipusam').GetName]"
+  dharma_festival_thaipusam_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thaipusam').GetName]"
+  dharma_festival_thaipusam_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thaipusam').GetName]"
+  dharma_festival_thaipusam_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thaipusam').GetName]"
+  dharma_festival_thaipusam_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thaipusam').GetName]"
+
+# Seventh Thingyan
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_thingyan: "Celebrate Thingyan"
+  activity_dharma_festival_thingyan_desc: "Thingyan is the new year festival for the Burmese people. A festival of joy and water where people enjoy the spring rains and splash water upon themselves and others."
+  activity_dharma_festival_thingyan_selection_tooltip: "To Maa Durga. \n\n$dharma_festival_thingyan_desc_context_tooltip$"
+  activity_dharma_festival_thingyan_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_thingyan_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_thingyan_province_desc: "This is where you shall invite people for Thingyan."
+  activity_dharma_festival_thingyan_destination_selection: "$activity_dharma_festival_thingyan_province_desc$"
+  activity_dharma_festival_thingyan_guest_help_text: "$activity_dharma_festival_thingyan$"
+  activity_dharma_festival_thingyan_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_festival_thingyan_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_thingyan' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_thingyan_month_requirement: "Thingyan takes place around April in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_thingyan_gift_type: "Gift Size"
+  dharma_festival_thingyan_gift_small: "Small"
+  dharma_festival_thingyan_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_festival_thingyan_gift_medium: "Medium"
+  dharma_festival_thingyan_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_festival_thingyan_gift_large: "Large"
+  dharma_festival_thingyan_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_festival_thingyan_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_thingyan_celebration_phase: "Ceremony"
+  dharma_festival_thingyan_celebration_phase_desc: "You shall celebrate the New Year"
+###################################
+# Character Memories
+###################################
+  dharma_festival_thingyan_completed_log_title: "Thingyan Completed"
+  dharma_festival_thingyan_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Thingyan"
+  TRAVEL_NAME_FOR_activity_dharma_festival_thingyan: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_thingyan$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_thingyan_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_thingyan').GetName]"
+  dharma_festival_thingyan_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_thingyan').GetName]"
+  dharma_festival_thingyan_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_thingyan').GetName]"
+  dharma_festival_thingyan_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_thingyan').GetName]"
+  dharma_festival_thingyan_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"
+  dharma_festival_thingyan_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"
+  dharma_festival_thingyan_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"
+  dharma_festival_thingyan_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"

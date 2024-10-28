@@ -1,0 +1,2671 @@
+﻿namespace = dharma_festivals
+
+#######################################
+# Ratha Yatra
+#######################################
+dharma_festivals.001 = {# The Chariots arrive
+	type = activity_event
+	title = dharma_festivals.001.t
+	desc = dharma_festivals.001.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Vesak begins
+		name = dharma_festivals.001.chariot
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.002
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.002 = {# Chhera Pahara
+	type = activity_event
+	title = dharma_festivals.002.t
+	desc = dharma_festivals.002.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# I shall do it!
+		name = dharma_festivals.002.sweep
+		add_piety = minor_piety_gain
+		add_prestige = minor_prestige_loss
+		stress_impact = {
+			humble = minor_stress_impact_loss
+			arrogant = minor_stress_impact_gain
+		}
+	}
+	option = {# I shall not do it!
+		name = dharma_festivals.002.no_sweep
+		add_piety = minor_piety_loss
+		add_prestige = minor_prestige_gain
+		stress_impact = {
+			humble = minor_stress_impact_gain
+			arrogant = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.003
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.003 = {# The Chariot procession
+	type = activity_event
+	title = dharma_festivals.003.t
+	desc = dharma_festivals.003.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Chariots
+		name = dharma_festivals.003.procession
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.004
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.004 = {# The feast
+	type = activity_event
+	title = dharma_festivals.004.t
+	desc = dharma_festivals.004.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Vesak begins
+		name = dharma_festivals.004.family
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		every_courtier = {
+			custom = yearly.4031.b_every_courtier
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.005
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.005 = {# Charity for the commoners
+	type = activity_event
+	title = dharma_festivals.005.t
+	desc = dharma_festivals.005.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_festivals.005.large
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_festivals.005.medium
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_festivals.005.small
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.006
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.006 = {# Ratha Yatra concludes
+	type = activity_event
+	title = dharma_festivals.006.t
+	desc = dharma_festivals.006.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.006.home
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.007
+			days = 1	
+		}
+	}
+}
+dharma_festivals.007 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_ratha_yatra_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Thingyan
+#######################################
+dharma_festivals.010 = {# a-kyo nei - Thingyan Eve
+	type = activity_event
+	title = dharma_festivals.010.t
+	desc = dharma_festivals.010.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Eight Precipts
+		name = dharma_festivals.010.eight
+		add_piety = minor_piety_gain
+		add_character_modifier = {
+			modifier = dharma_buddhist_eight_precipts
+			days = 30
+		}
+	}
+	option = {# five Precipts
+		name = dharma_festivals.010.five
+		add_piety = minor_piety_loss
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.011
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.011 = {# a-kya nei
+	type = activity_event
+	title = dharma_festivals.011.t
+	desc = dharma_festivals.011.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_bridge
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Thingyan begins aka water fight!
+		name = dharma_festivals.011.thingyan
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			gregarious = minor_stress_impact_loss
+			shy = minor_stress_impact_gain
+			reclusive = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.012
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.012 = {# Releasing Fish
+	type = activity_event
+	title = dharma_festivals.012.t
+	desc = dharma_festivals.012.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_bridge
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.012.fish
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			sadistic = minor_stress_impact_gain
+			callous = minor_stress_impact_gain
+			reclusive = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.013
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.013 = {# Charity for the commoners
+	type = activity_event
+	title = dharma_festivals.013.t
+	desc = dharma_festivals.013.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_festivals.013.large
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_festivals.013.medium
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_festivals.013.small
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.014
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.014 = {# a-tet nei
+	type = activity_event
+	title = dharma_festivals.014.t
+	desc = dharma_festivals.014.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# water throwing stops
+		name = dharma_festivals.014.water
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.015
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.015 = {# Hair washing ritual
+	type = activity_event
+	title = dharma_festivals.015.t
+	desc = dharma_festivals.015.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_temple_pond
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Vesak begins
+		name = dharma_festivals.015.hair
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.016
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.016 = {# hnit hsan ta yet nei - Day 4
+	type = activity_event
+	title = dharma_festivals.016.t
+	desc = dharma_festivals.016.desc
+	theme = friendly
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Feast!
+		name = dharma_festivals.016.feast
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		every_courtier = {
+			custom = yearly.4031.b_every_courtier
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.017
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.017 = {# Thingyan concludes
+	type = activity_event
+	title = dharma_festivals.017.t
+	desc = dharma_festivals.017.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.017.home
+		add_prestige = minor_prestige_gain
+
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.018
+			days = 1	
+		}
+	}
+}
+dharma_festivals.018 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_thingyan_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Chhath
+#######################################
+dharma_festivals.031 = {# Nahaye Khaye - Day One
+	type = activity_event
+	title = dharma_festivals.031.t
+	desc = dharma_festivals.031.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_bridge
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.031.surya
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.032
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.032 = {# Rasiaav-Roti - Day Two
+	type = activity_event
+	title = dharma_festivals.032.t
+	desc = dharma_festivals.032.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_bridge
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.032.fast
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.033
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.033 = {# Sandhya Arghya - Day Three
+	type = activity_event
+	title = dharma_festivals.033.t
+	desc = dharma_festivals.033.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_bridge
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.033.honor
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.034
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.034 = {# Usha Arghya - Day Four
+	type = activity_event
+	title = dharma_festivals.034.t
+	desc = dharma_festivals.034.desc
+	theme = friendly
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.034.feast
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		every_courtier = {
+			custom = yearly.4031.b_every_courtier
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.035
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.035 = {# Charity for the Commoners
+	type = activity_event
+	title = dharma_festivals.035.t
+	desc = dharma_festivals.035.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_festivals.035.large
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_festivals.035.medium
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_festivals.035.small
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.036
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.036 = {# Chhath concludes
+	type = activity_event
+	title = dharma_festivals.036.t
+	desc = dharma_festivals.036.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.036.home
+		add_prestige = minor_prestige_gain
+		add_piety = minor_piety_gain
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.037
+			days = 1	
+		}
+	}
+}
+dharma_festivals.037 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_chhath_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Gangaur
+#######################################
+dharma_festivals.040 = {# Gangaur begins
+	type = activity_event
+	title = dharma_festivals.040.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+				}
+				desc = dharma_festivals.040.desc.female
+			}
+			desc = dharma_festivals.040.desc.male
+		}
+	}
+	theme = friendly
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Gangaur begins
+		name = dharma_festivals.040.gangaur
+		if = {
+			limit = { is_female = yes }
+			add_character_modifier = {
+				modifier = dharma_gangaur_fasting
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		if = {
+			limit = { is_female = yes }
+			trigger_event = { 
+				id = dharma_festivals.041
+				days = 1
+			}
+		}
+		else = {
+			trigger_event = { 
+				id = dharma_festivals.042
+				days = 1
+			}
+		}
+	}
+
+}
+dharma_festivals.041 = {# Holika Ashes and planting seeds
+	type = activity_event
+	title = dharma_festivals.041.t
+	desc = dharma_festivals.041.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_courtyard_exterior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.041.ash
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.042
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.042 = {# Gangaur Melas - Gangaur fairs
+	type = activity_event
+	title = dharma_festivals.042.t
+	desc = dharma_festivals.042.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_market
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Patronize the Market
+		name = dharma_festivals.042.patronizes
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_gangaur_patronized_market
+				days = 100
+			}
+		}
+		stress_impact = {
+			administrator = miniscule_stress_impact_loss
+			avaricious = miniscule_stress_impact_loss
+			greedy = miniscule_stress_impact_gain
+		}
+	}
+	option = {# Leave the Market alone
+		name = dharma_festivals.042.market
+		add_prestige = minor_prestige_loss
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_gangaur_market
+				days = 50
+			}
+		}
+		stress_impact = {
+			administrator = miniscule_stress_impact_gain
+			avaricious = miniscule_stress_impact_gain
+			greedy = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		if = {
+			limit = { is_female = yes }
+			trigger_event = { 
+				id = dharma_festivals.043
+				days = 1
+			}
+		}
+		else = {
+			trigger_event = { 
+				id = dharma_festivals.044
+				days = 1
+			}
+		}
+	}
+}
+dharma_festivals.043 = {# Getting a gift for your spouse(if you have one)
+	type = activity_event
+	title = dharma_festivals.043.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					any_spouse = { count >= 2 }
+				}
+				desc = dharma_festivals.043.desc.spouses
+			}
+			desc = dharma_festivals.043.desc.spouse
+		}
+	}	
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Your Wife
+		trigger = {
+			NOT = {	any_spouse = { count >= 2 } }
+		}
+		name = dharma_festivals.043.spouse
+		remove_short_term_gold = medium_gold_value
+		add_character_flag = { flag = gangaur_wife_gift }
+		stress_impact = {
+			just = miniscule_stress_impact_loss
+			family_first = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			improvident = miniscule_stress_impact_loss
+		}
+	}
+	option = {# your first Wife
+		trigger = {
+			any_spouse = { count >= 2 }
+		}
+		name = dharma_festivals.043.first_spouse
+		remove_short_term_gold = medium_gold_value
+		add_character_flag = { flag = gangaur_first_spouse_gift }
+		stress_impact = {
+			seducer = miniscule_stress_impact_loss
+			lustful = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			improvident = miniscule_stress_impact_loss
+		}
+	}	
+	option = {# Your lover
+		name = dharma_festivals.043.lover
+		trigger = {
+			primary_spouse = {
+				NOT = { this = scope:lover }
+			}	
+		}
+		remove_short_term_gold = medium_gold_value
+		add_character_flag = { flag = gangaur_lover_gift }
+		stress_impact = {
+			seducer = miniscule_stress_impact_loss
+			lustful = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			improvident = miniscule_stress_impact_loss
+		}
+	}
+	option = {# All your wives
+		name = dharma_festivals.043.spouses
+		trigger = {
+			any_spouse = { count >= 2 }
+		}
+		remove_short_term_gold = medium_gold_value
+		add_character_flag = { flag = gangaur_wives_gift }
+		stress_impact = {
+			just = miniscule_stress_impact_loss
+			family_first = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			improvident = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.045
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.044 = {# Mehndi and dress
+	type = activity_event
+	title = dharma_festivals.044.t
+	desc = dharma_festivals.044.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_india_balcony
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# yay gifts
+		name = dharma_festivals.044.dress
+		add_gold = minor_gold_value
+		every_spouse = {
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 10
+			}
+		}
+		add_opinion = {
+			modifier = pleased_opinion
+			target = scope:spouse
+			opinion = 10
+		}
+
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.046
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.045 = {# Giving the gift
+	type = activity_event
+	title = dharma_festivals.045.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Multiple Spouses
+				trigger = {
+					has_character_flag = gangaur_wives_gift
+					any_spouse = { count >= 2 }
+				}
+				desc = dharma_festivals.045.desc.spouses
+			}
+			triggered_desc = {# first spouse only
+				trigger = {
+					has_character_flag = gangaur_first_spouse_gift
+					any_spouse = { count >= 2 }
+				}
+				desc = dharma_festivals.045.desc.first_spouse
+			}
+			triggered_desc = {# My lover is not one of my wives
+				trigger = {
+					has_character_flag = gangaur_lover_gift
+					any_spouse = {
+						NOT = { this = scope:lover }
+					}				
+				}
+				desc = dharma_festivals.045.desc.lover_not_wife
+			}
+			triggered_desc = {# Lover is one of my wives but not first wife
+				trigger = {
+					has_character_flag = gangaur_lover_gift
+					any_spouse = { count >= 2 }
+					primary_spouse = {
+						NOT = { this = scope:lover }
+					}		
+				}
+				desc = dharma_festivals.045.desc.lover_wife
+			}
+			desc = dharma_festivals.045.desc.spouse
+		}
+	}
+	theme = feast_activity
+	override_background = {
+		reference = dharma_india_balcony
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Your spouse gets a gift
+		name = dharma_festivals.045.spouse
+		add_piety = minor_piety_gain
+		every_spouse = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+
+		}
+	}
+	option = {# Your wives get a gift
+		name = dharma_festivals.045.spouses
+		add_piety = minor_piety_gain
+		every_spouse = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+	}
+	option = {# Your first wife gets a gift
+		name = dharma_festivals.045.first_wife
+		add_piety = minor_piety_gain
+		primary_spouse = {
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		every_spouse = {
+			limit = { 
+				is_alive = yes 
+				NOT = { primary_spouse = scope:first_spouse }
+			}
+			add_opinion = {# They don't like you for not getting a gift
+				modifier = disappointed_opinion
+				target = root
+				opinion = -10
+			}
+			add_opinion = {# They are envious of your First Wife
+				modifier = envy_opinion
+				target = scope:first_spouse
+				opinion = 15
+			}
+		}
+
+	}
+	option = {# Your lover gets a gift
+		name = dharma_festivals.045.lover
+		add_piety = minor_piety_gain
+		scope:lover = {
+			add_opinion = {
+				target = root
+				modifier = lover_breakup_opinion
+				opinion = 15
+			}
+		}
+		every_spouse = {
+			limit = { NOT = { this = scope:lover } }
+			add_opinion = {# They don't like you for not getting a gift
+				target = root
+				modifier = disappointed_opinion
+				opinion = -10
+			}
+			add_opinion = {# They are envious of your lover
+				target = scope:lover
+				modifier = envy_opinion
+				opinion = -15
+			}
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.046
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.046 = {# Praying for love and fertility
+	type = activity_event
+	title = dharma_festivals.046.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					any_spouse = { count >= 1 }
+				}
+				desc = dharma_festivals.046.desc.female_married
+			}
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+					any_spouse = { count = 0 }
+				}
+				desc = dharma_festivals.046.desc.female_unmarried
+			}
+			triggered_desc = {
+				trigger = {
+					is_male = yes
+					any_spouse = { count = 1 }
+				}
+				desc = dharma_festivals.046.desc.male_wife
+			}
+			triggered_desc = {
+				trigger = {
+					is_male = yes
+					any_spouse = { count >= 2 }
+				}
+				desc = dharma_festivals.046.desc.male_wives
+			}
+		}
+	}
+	theme = feast_activity
+	override_background = {
+		reference = dharma_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Ma Parvati give me blessings
+		name = dharma_festivals.046.blessing
+		if = {
+			limit = { is_female = yes }
+			random_list = {
+				70 = { add_piety = minor_piety_gain }
+				30 = {
+					add_character_modifier = {
+						modifier = dharma_fertility_blessing
+						days = 150
+					}
+				}
+			}
+		}
+		else = {
+			every_spouse = {
+				random_list = {
+					70 = { add_piety = minor_piety_gain }
+					30 = {
+						add_character_modifier = {
+							modifier = dharma_fertility_blessing
+							days = 150
+						}
+					}
+				}
+			}
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.047
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.047 = {# Kathputli Puppet show
+	type = activity_event
+	title = dharma_festivals.047.t
+	desc = dharma_festivals.047.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_courtyard_exterior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.047.puppet
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.048
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.048 = {# Gangaur Procession
+	type = activity_event
+	title = dharma_festivals.048.t
+	desc = dharma_festivals.048.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.048.procession
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.049
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.049 = {# Courtly Feast
+	type = activity_event
+	title = dharma_festivals.031.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					is_female = yes
+				}
+				desc = dharma_festivals.049.desc.female
+			}
+			desc = dharma_festivals.049.desc.male
+		}
+	}
+	theme = friendly
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# release Fish!
+		name = dharma_festivals.049.feast
+		if = {
+			limit = { has_character_modifier = dharma_gangaur_fasting }
+			remove_character_modifier = dharma_gangaur_fasting
+		}
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		every_courtier = {
+			custom = yearly.4031.b_every_courtier
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.050
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.050 = {# Gangaur concludes
+	type = activity_event
+	title = dharma_festivals.050.t
+	desc = dharma_festivals.050.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.050.home
+		add_prestige = minor_prestige_gain
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.051
+			days = 1	
+		}
+	}
+}
+dharma_festivals.051 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_gangaur_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Losar
+#######################################
+dharma_festivals.060 = {# Losar Starts
+	type = activity_event
+	title = dharma_festivals.060.t
+	desc = dharma_festivals.060.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_tibet_temple_exterior
+	}
+	
+	right_portrait = root
+	
+	option = { # Cleaning the palace
+		name = dharma_festivals.060.clean
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			shy = minor_stress_impact_gain
+			cynical = minor_stress_impact_gain
+		}
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.061
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.061 = {# Lama Losar
+	type = activity_event
+	title = dharma_festivals.061.t
+	desc = dharma_festivals.061.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_tibet_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Pay Homage to your guru
+		name = dharma_festivals.061.guru
+		if = {
+			limit = { exists = cp:councillor_court_chaplain }
+			cp:councillor_court_chaplain = {
+				add_opinion = {
+					target = root
+					modifier = pious_opinion
+					opinion = 30
+				}
+			}
+		}
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.062
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.062 = {# King Losaar 
+	type = activity_event
+	title = dharma_festivals.062.t
+	desc = dharma_festivals.062.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_tibet_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# It is their due. 
+		name = dharma_festivals.062.king
+		add_gold = medium_gold_value
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			greedy = minor_stress_impact_loss
+			generous = miniscule_stress_impact_gain
+			shy = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.063
+			days = 1
+		}
+	}
+}
+dharma_festivals.063 = {# Give Gift to the common people 
+	type = activity_event
+	title = dharma_festivals.063.t
+	desc = dharma_festivals.063.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_tibet_temple_exterior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_festivals.063.large
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_festivals.063.medium
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_festivals.063.small
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.064
+			days = 1
+		}
+	}
+}
+dharma_festivals.064 = {# Choe-Kyong Losar 
+	type = activity_event
+	title = dharma_festivals.064.t
+	desc = dharma_festivals.064.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_tibet_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Offer to the Meditional Deities and Boddhisattvas 
+		name = dharma_festivals.064.prayers
+		add_piety = minor_piety_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.065
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.065 = {# Tibetan Dances 
+	type = activity_event
+	title = dharma_festivals.065.t
+	desc = dharma_festivals.065.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_tibet_temple_exterior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# What a wonderful Story 
+		name = dharma_festivals.065.dance
+		stress_impact = {
+			base = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.066
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.066 = {# feast with the court 
+	type = activity_event
+	title = dharma_festivals.066.t
+	desc = dharma_festivals.066.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_tibet_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# It is their due. 
+		name = dharma_festivals.066.feast
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		every_courtier = {
+			custom = yearly.4031.b_every_courtier
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.067
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.067 = {# Losar concludes
+	type = activity_event
+	title = dharma_festivals.067.t
+	desc = dharma_festivals.067.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.067.home
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.068
+			days = 1	
+		}
+	}
+}
+dharma_festivals.068 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_losar_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Pongal
+#######################################
+dharma_festivals.070 = {# Bhogi Pongal
+	type = activity_event
+	title = dharma_festivals.070.t
+	desc = dharma_festivals.070.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_india_pyre
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Bonfires yay!
+		name = dharma_festivals.070.bonfire
+		add_piety = minor_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.071
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.071 = {# Surya Pongal
+	type = activity_event
+	title = dharma_festivals.071.t
+	desc = dharma_festivals.071.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_temple_pond
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Pongalo Pongal!
+		name = dharma_festivals.071.surya
+		add_piety = minor_piety_gain
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.072
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.072 = {# Sugarcane Market
+	type = activity_event
+	title = dharma_festivals.072.t
+	desc = dharma_festivals.072.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# patronize the Market
+		name = dharma_festivals.072.market
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_pongal_patronized_sugarcane_market_modifier
+				days = 100
+			}
+		}
+		stress_impact = {
+			administrator = miniscule_stress_impact_loss
+			avaricious = miniscule_stress_impact_loss
+			greedy = miniscule_stress_impact_gain
+		}
+	}
+	option = {# Let them be, they are just Merchants
+		name = dharma_festivals.072.no_market
+		add_prestige = minor_prestige_loss
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_pongal_sugarcane_market_modifier
+				days = 50
+			}
+		}
+		stress_impact = {
+			administrator = miniscule_stress_impact_gain
+			avaricious = miniscule_stress_impact_gain
+			greedy = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.073
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.073 = {# Mattu Pongal
+	type = activity_event
+	title = dharma_festivals.073.t
+	desc = dharma_festivals.073.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_rice_farmers
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Cows are good animals
+		name = dharma_festivals.073.mattu
+		add_piety = minor_piety_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			
+			shy = miniscule_stress_impact_gain
+			arrogant = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.074
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.074 = {# Jallikattu performance
+	type = activity_event
+	title = dharma_festivals.074.t
+	desc = dharma_festivals.074.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Participate in Jallikattu
+		name = dharma_festivals.074.participate
+		duel = {
+			skill = prowess
+			value = decent_skill_rating
+			# You ride the bull
+			35 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_festivals.074.participate.success
+				send_interface_toast = {
+					title = dharma_festivals.074.participate.success_title
+					left_icon = root
+					add_prestige = medium_prestige_gain
+				}
+			}
+			# you fail to grab onto the bull
+			40 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_festivals.074.participate.failure
+				send_interface_toast = {	
+					title = dharma_festivals.074.participate.failure_title
+					left_icon = root
+					add_prestige = miniscule_prestige_loss
+				}
+			}
+			# You get wounded by the bull
+			25 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_festivals.074.participate.critical_failure
+				send_interface_toast = {	
+					title = dharma_festivals.074.participate.critical_failure_title
+					left_icon = root
+					add_prestige = minor_prestige_loss
+					increase_wounds_effect = { REASON = feast_accident }
+				}
+			}
+		}		
+		stress_impact = {
+			brave = minor_stress_impact_loss
+			athletic = minor_stress_impact_loss
+			craven = minor_stress_impact_gain
+		}
+	}
+	option = {# Just watch the games
+		name = dharma_festivals.074.watch
+		add_prestige = minor_prestige_loss
+		stress_impact = {
+			brave = minor_stress_impact_gain
+			athletic = minor_stress_impact_gain
+			craven = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.075
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.075 = {# Kaanum Pongal
+	type = activity_event
+	title = dharma_festivals.075.t
+	desc = dharma_festivals.075.desc
+	theme = friendly
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# enjoy the feast
+		name = dharma_festivals.075.family
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		every_courtier = {
+			custom = yearly.4031.b_every_courtier
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.076
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.076 = {# giving gifts to your family members
+	type = activity_event
+	title = dharma_festivals.076.t
+	desc = dharma_festivals.076.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_india_balcony
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Equal Gifts to all your family
+		name = dharma_festivals.076.everyone
+		add_prestige = major_prestige_gain
+		remove_short_term_gold = major_gold_value
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	option = {# Favor your spouse(s)
+		trigger = {# have to have a spouse
+			any_spouse = { count >= 1 }
+		}
+		name = dharma_festivals.076.spouse
+		add_prestige = medium_prestige_gain
+		remove_short_term_gold = medium_gold_value
+		every_spouse = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	option = {# Give gifts to your elders
+		name = dharma_festivals.076.elders
+		add_prestige = medium_prestige_gain
+		remove_short_term_gold = medium_gold_value
+		every_close_or_extended_family_member = {
+			limit = { 
+				is_alive = yes 
+				OR = {
+					is_grandparent_of = root
+					is_parent_of = root
+					is_great_grandparent_of = root
+				}
+			}			
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	option = {# Give gifts to your siblings
+		trigger = {# have to have a sibling
+			any_sibling = { count >= 1 }
+		}		
+		name = dharma_festivals.076.siblings
+		add_prestige = medium_prestige_gain
+		remove_short_term_gold = medium_gold_value
+		every_sibling = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	option = {# Give gifts to your children
+		trigger = {# have to have a child
+			any_child = { count >= 1 }
+		}
+		name = dharma_festivals.076.children
+		add_prestige = medium_prestige_gain
+		remove_short_term_gold = medium_gold_value
+		every_close_or_extended_family_member = {
+			limit = { 
+				is_alive = yes 
+				OR = {
+					is_child_of = root
+					is_grandchild_of = root
+					is_great_grandchild_of = root
+				}
+			}
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.077
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.077 = {# A gift for your commoners and servants?
+	type = activity_event
+	title = dharma_festivals.077.t
+	desc = dharma_festivals.077.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# A large gift for my people
+		name = dharma_festivals.077.large
+		add_piety = minor_piety_gain
+		remove_short_term_gold = medium_gold_value
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# A medium gift
+		name = dharma_festivals.077.medium
+		add_piety = minor_piety_gain
+		remove_short_term_gold = minor_gold_value
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# A small token gift
+		name = dharma_festivals.077.small
+		add_piety = minor_piety_gain
+		remove_short_term_gold = tiny_gold_value
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.078
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.078 = {# Pongal concludes
+	type = activity_event
+	title = dharma_festivals.078.t
+	desc = dharma_festivals.078.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.078.home
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.079
+			days = 1	
+		}
+	}
+}
+dharma_festivals.079 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_pongal_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Thaipusam
+#######################################
+dharma_festivals.080 = {# fasting and preparation
+	type = activity_event
+	title = dharma_festivals.080.t
+	desc = dharma_festivals.080.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Bonfires yay!
+		name = dharma_festivals.080.fast
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			zealous = miniscule_stress_impact_loss
+			inappetetic = miniscule_stress_impact_loss
+			chaste = miniscule_stress_impact_loss
+
+			cynical = miniscule_stress_impact_gain
+			gluttonous = miniscule_stress_impact_gain
+			lustful = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.081
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.081 = {# Shall you peirce yourself?
+	type = activity_event
+	title = dharma_festivals.081.t
+	desc = dharma_festivals.081.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# I shall peirce myself
+		name = dharma_festivals.081.peirce
+		add_character_flag = thaipusam_peirce
+		random_list = {
+			10 = {
+				increase_wounds_effect = { REASON = wounds }
+			}
+			90 = {}
+		}
+		stress_impact = {
+			base = medium_stress_impact_gain
+			flagellant = minor_stress_impact_loss
+			sadistic = minor_stress_impact_loss
+			zealous = minor_stress_impact_loss
+		}
+	}
+	option = {# I shall not
+		name = dharma_festivals.081.no_peirce
+		add_piety = minor_piety_gain
+		stress_impact = {
+			base = medium_stress_impact_loss
+			flagellant = minor_stress_impact_gain
+			sadistic = minor_stress_impact_gain
+			zealous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.082
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.082 = {# Procession to the Temple
+	type = activity_event
+	title = dharma_festivals.082.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_character_flag = thaipusam_peirce
+				}
+				desc = dharma_festivals.082.desc.peircing
+			}
+			desc = dharma_festivals.082.desc.normal
+		}
+	}	
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# The procession
+		name = dharma_festivals.082.procession
+		if = {
+			limit = { has_character_flag = thaipusam_peirce }
+			add_prestige = medium_prestige_value
+			add_piety = major_piety_gain
+			root.dynasty = { add_dynasty_prestige = minor_dynasty_prestige_gain }
+			random_list = {
+				10 = { add_trait = zealous }
+				10 = { add_trait = humble }
+				80 = {}
+			}
+		}
+		else = {
+			add_piety = minor_piety_gain
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.083
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.083 = {# Offering to Lord Murugan
+	type = activity_event
+	title = dharma_festivals.083.t
+	desc = dharma_festivals.083.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# fertility yay!
+		name = dharma_festivals.083.fertility
+		random_list = {
+			70 = { add_piety = minor_piety_gain }
+			30 = {
+				add_character_modifier = {
+					modifier = dharma_fertility_blessing
+					days = 150
+				}
+			}
+		}
+	}
+	option = {# Health!
+		name = dharma_festivals.083.health
+		random_list = {
+			70 = { add_piety = minor_piety_gain }
+			30 = {
+				add_character_modifier = {
+					modifier = dharma_blessing_of_health
+					days = 150
+				}
+			}
+		}
+	}
+	option = {# Victory!
+		name = dharma_festivals.083.victory
+		random_list = {
+			70 = { add_piety = minor_piety_gain }
+			30 = {
+				add_character_modifier = {
+					modifier = dharma_victory_blessing
+					days = 150
+				}
+			}
+		}
+	}
+	option = {# Sins!
+		name = dharma_festivals.083.sins
+		random_list = {
+			70 = { add_piety = minor_piety_gain }
+			30 = {
+				if = {
+					limit = { has_trait = wrathful }
+					remove_trait = wrathful
+				}
+				if = {
+					limit = { has_trait = arrogant }
+					remove_trait = arrogant
+				}
+				if = {
+					limit = { has_trait = deceitful }
+					remove_trait = deceitful
+				}
+				if = {
+					limit = { has_trait = greedy }
+					remove_trait = greedy
+				}
+				if = {
+					limit = { has_trait = ambitious }
+					remove_trait = ambitious
+				}
+				if = {
+					limit = { has_trait = lazy }
+					remove_trait = lazy
+				}
+				if = {
+					limit = { has_trait = lustful }
+					remove_trait = lustful
+				}
+				if = {
+					limit = { has_trait = callous }
+					remove_trait = callous
+				}
+				if = {
+					limit = { has_trait = sadistic }
+					remove_trait = sadistic
+				}
+			}
+		}
+	}
+	option = {# piety
+		name = dharma_festivals.083.piety
+		random_list = {
+			70 = { add_piety = minor_piety_gain }
+			30 = {
+				add_character_modifier = {
+					modifier = dharma_piety_blessing
+					days = 150
+				}
+			}
+		}
+	}
+	option = {# Wisdom!
+		name = dharma_festivals.083.wisdom
+		random_list = {
+			70 = { add_piety = minor_piety_gain }
+			30 = {
+				add_character_modifier = {
+					modifier = dharma_wisdom_blessing
+					days = 150
+				}
+			}
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.084
+			days = 1
+		}
+	}
+
+}
+dharma_festivals.084 = {# Charity for Murugan
+	type = activity_event
+	title = dharma_festivals.084.t
+	desc = dharma_festivals.084.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_festivals.084.large
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_festivals.084.medium
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_festivals.084.small
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.085
+			days = 1
+		}
+	}
+
+}
+# End of Thaipusam
+dharma_festivals.085 = {# Thaipusam concludes
+	type = activity_event
+	title = dharma_festivals.085.t
+	desc = dharma_festivals.085.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_festivals.085.home
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_festivals.086
+			days = 1	
+		}
+	}
+}
+dharma_festivals.086 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_thaipusam_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+
+

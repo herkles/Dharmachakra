@@ -76,54 +76,6 @@
   dharma_pick_hindu_philosophy_desc: "As you delve into your religious studies, some of your brahmins and other scholars at court have suggested that you focus on one of the Astikas or Hindu Philosophical schools. Shall you focus on one of the Astikas?"
   dharma_pick_hindu_philosophy_tooltip: "Look into one of the Astikas."
   dharma_pick_hindu_philosophy_confirm: "Look into one of the Astikas."
-
-#######################################
-# Festival Decisions
-#######################################
-  # Losar Festival
-    dharma_attend_losar_festival: "Celebrate Losar"
-    dharma_attend_losar_festival_desc: "Losar is the new year celebration in the Tibetan Calendar. It is one of the most popular celebrations of the Tibetan people."
-    dharma_attend_losar_festival_tooltip: "You will begin to make preparations for Losar"
-    dharma_attend_losar_festival_confirm: "Let us welcome in the New Year"
-    dharma_decision_losar_culture_requirement: "You are part of a Tibetan Culture that celebrates Losar."
-    dharma_decision_losar_month_requirement: "Losar takes place around Feburary or March in the Gregorian Calendar."
-  # Pongal Festival
-    dharma_attend_pongal_festival: "Celebrate Pongal"
-    dharma_attend_pongal_festival_desc: "Pongal is the harvest celebration of the Tamil people. Throughout Tamilakam the festivities attracts both the elite and the commoners to enjoy the joyful times. "
-    dharma_attend_pongal_festival_tooltip: "You will begin to make preparations for Pongal"
-    dharma_attend_pongal_festival_confirm: "Pongalo Pongal"
-    dharma_decision_pongal_month_requirement: "Pongal takes place around January in the Gregorian Calendar."
-  # Thaipusam Festival
-    dharma_attend_thaipusam_festival: "Celebrate Thaipusam"
-    dharma_attend_thaipusam_festival_desc: "Thaipusam is a sacred festival dedicated to Lord Murugan. Honoring the fact that his mother, Parvati gave him the Vel Spear.  "
-    dharma_attend_thaipusam_festival_tooltip: "You will begin to make preparations for Thaipusam"
-    dharma_attend_thaipusam_festival_confirm: "Om Skandaya Namaha"
-    dharma_decision_thaipusam_month_requirement: "Thaipusam takes place around February in the Gregorian Calendar."
-  # Ratha Yatra Festival
-    dharma_attend_ratha_yatra_festival: "Celebrate Ratha Yatra"
-    dharma_attend_ratha_yatra_festival_desc: "Ratha Yatra is an Oriya Chariot Festival dedicated to Jagannath."
-    dharma_attend_ratha_yatra_festival_tooltip: "You will begin to make preparations for Ratha Yatra"
-    dharma_attend_ratha_yatra_festival_confirm: "To Lord Jagannath!"
-    dharma_decision_ratha_yatra_month_requirement: "Ratha Yatra takes place around June or July in the Gregorian Calendar."
-  # Thingyan Festival
-    dharma_attend_thingyan_festival: "Celebrate Thingyan"
-    dharma_attend_thingyan_festival_desc: "Thingyan is the celebration of the new year in the Burmese Calendar."
-    dharma_attend_thingyan_festival_tooltip: "You will begin to make preparations for Thingyan"
-    dharma_attend_thingyan_festival_confirm: "Time to celebrate the New Year!"
-    dharma_decision_thingyan_month_requirement: "Thingyan takes place around April in the Gregorian Calendar."
-  # Chhath Festival
-    dharma_attend_chhath_festival: "Celebrate Chhath"
-    dharma_attend_chhath_festival_desc: "Chhath is an ancient festival and celebration dedicated to Surya."
-    dharma_attend_chhath_festival_tooltip: "You will begin to make preparations for Chhath"
-    dharma_attend_chhath_festival_confirm: "Time to honor the Sun"
-    dharma_decision_chhath_month_requirement: "Chhath takes place around October or November in the Gregorian Calendar."
-  # Gangaur Festival
-    dharma_attend_gangaur_festival: "Celebrate Gangaur"
-    dharma_attend_gangaur_festival_desc: "Gangaur is a festival that celebrates Gauri and Gana, the divine couple, local names for Lord Shiva and Parvati. This is a colorful spring festival that honors marital bliss, fertility and motherhood."
-    dharma_attend_gangaur_festival_tooltip: "You will begin to make preparations for Gangaur"
-    dharma_attend_gangaur_festival_confirm: "You will celebrate Gangaur."
-    dharma_decision_gangaur_month_requirement: "Gangaur takes place around March or April in the Gregorian Calendar."
-
 #######################################
 # Dravidian Decisions
 #######################################

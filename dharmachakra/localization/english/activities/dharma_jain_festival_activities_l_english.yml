@@ -87,7 +87,6 @@
   activity_dharma_jain_festival_paryushana_conclusion_desc: "The [GetActivityType( 'activity_dharma_jain_festival_paryushana' ).GetName] is over. May may actions help bring me karma!"
 
   dharma_decision_paryushana_month_requirement: "You need to start the preparations between August and September"
-
 ###################################
 # Activity Options
 ###################################
@@ -143,7 +142,6 @@
   activity_dharma_jain_festival_mahavir_janma_kalyanak_conclusion_desc: "The [GetActivityType( 'activity_dharma_jain_festival_mahavir_janma_kalyanak' ).GetName] is over. May may actions help bring me karma!"
 
   dharma_decision_mahavir_kalyanak_month_requirement: "You need to start the preparations between March and April"
-
 ###################################
 # Activity Options
 ###################################
