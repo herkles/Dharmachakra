@@ -382,7 +382,7 @@ mon031 = {# Maradi
 #######################################
 # Athinkha Dynasty
 #######################################
-mon051 = {# Athinkha
+mon051 = {
 	name = "Athinkha" #Fictional ruler to split up the Irrawaddy Delta
 	dynasty = 2000011 #Athinkha
 	religion = theravada
@@ -414,20 +414,23 @@ mon052 = {# Katha_Wunna
 #######################################
 # Other Characters
 #######################################
-mon050 = {# Shin_Arahan
+mon050 = {
 	name = "Shin_Arahan" #Primate to Anawrahta
 	religion = theravada
 	culture = mon
-	learning = 10
+	learning = 15
 	trait = education_learning_4
 	trait = devoted
 	trait = zealous
+	trait = diligent
+	trait = calm
 	
 	1034.1.1 = {
 		birth = yes
 	}
 	1056.1.1 = {
 		employer = burman001 #Anawrahta
+		give_council_position = councillor_court_chaplain #Anawrahta's realm priest
 	}
 	1115.1.1 = {
 		death = yes
@@ -444,7 +447,6 @@ mon053 = {
 	trait = strong # notably so
 	trait = athletic # according to legend, rode his horse 60 miles a day to pick flowers
 	trait = scarred # what a man what a man what a mighty good man
-	
 	1030.1.1 = { # unknown, but likely he'd be quite well-seasoned by 1066
 		birth = yes
 	}
@@ -464,6 +466,16 @@ mon053 = {
 				target = liege
 				modifier = respect_opinion
 				opinion = 50
+			}
+			add_trait = lifestyle_blademaster # beef up that prowess
+			add_trait_xp = {
+				trait = lifestyle_blademaster
+				value = {
+					integer_range = {
+						min = medium_lifestyle_random_xp_low
+						max = medium_lifestyle_random_xp_high
+					}
+				}
 			}
 		}
 	}
@@ -508,3 +520,160 @@ mon055 = {
 	}
 }
 
+uttarajiva_1 = {
+	name = "Uttarajiva"
+	religion = theravada
+	culture = mon
+	trait = education_learning_3
+	trait = zealous
+	trait = devoted
+	1125.1.1 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = pagan_1
+	}
+	1191.10.5 = {
+		death = yes
+	}
+}
+
+hanthawaddy_1 = {
+	name = "Adara" # Fictional placeholder
+	dynasty = 2000004 #Hanthawaddy
+	religion = theravada
+	culture = mon
+	father = mon018
+	1067.1.1 = {
+		birth = yes
+	}
+	1118.1.1 = {
+		death = yes
+	}
+}
+
+hanthawaddy_2 = {
+	name = "Anuyama" # Fictional placeholder
+	dynasty = 2000004 #Hanthawaddy
+	religion = theravada
+	culture = mon
+	father = hanthawaddy_1
+	1091.1.1 = {
+		birth = yes
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}
+
+hanthawaddy_3 = {
+	name = "Araka" # Fictional placeholder
+	dynasty = 2000004 #Hanthawaddy
+	religion = theravada
+	culture = mon
+	father = hanthawaddy_2
+	1112.1.1 = {
+		birth = yes
+	}
+	1164.1.1 = {
+		death = yes
+	}
+}
+
+hanthawaddy_4 = {
+	name = "Atha" # Fictional placeholder
+	dynasty = 2000004 #Hanthawaddy
+	religion = theravada
+	culture = mon
+	father = hanthawaddy_3
+	1135.1.1 = {
+		birth = yes
+	}
+	1187.1.1 = {
+		death = yes
+	}
+}
+
+hanthawaddy_5 = {
+	name = "Bawlawkyantaw" # Fictional placeholder
+	dynasty = 2000004 #Hanthawaddy
+	religion = theravada
+	culture = mon
+	father = hanthawaddy_4
+	1158.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}
+
+thaton_1 = {
+	name = "Adara" # Fictional placeholder
+	dynasty = 2000005 #Thaton
+	religion = theravada
+	culture = mon
+	father = mon031
+	1067.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+
+thaton_2 = {
+	name = "Bawlawkyantaw" # Fictional placeholder
+	dynasty = 2000005 #Thaton
+	religion = theravada
+	culture = mon
+	father = thaton_1
+	1090.1.1 = {
+		birth = yes
+	}
+	1143.1.1 = {
+		death = yes
+	}
+}
+
+thaton_3 = {
+	name = "Dhammazedi" # Fictional placeholder
+	dynasty = 2000005 #Thaton
+	religion = theravada
+	culture = mon
+	father = thaton_2
+	1112.1.1 = {
+		birth = yes
+	}
+	1165.1.1 = {
+		death = yes
+	}
+}
+
+thaton_4 = {
+	name = "Einkura" # Fictional placeholder
+	dynasty = 2000005 #Thaton
+	religion = theravada
+	culture = mon
+	father = thaton_3
+	1134.1.1 = {
+		birth = yes
+	}
+	1187.1.1 = {
+		death = yes
+	}
+}
+
+thaton_5 = {
+	name = "Gada" # Fictional placeholder
+	dynasty = 2000005 #Thaton
+	religion = theravada
+	culture = mon
+	father = thaton_4
+	1157.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}

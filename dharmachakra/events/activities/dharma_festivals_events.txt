@@ -987,7 +987,6 @@ dharma_festivals.043 = {# Getting a gift for your spouse(if you have one)
 		}
 		name = dharma_festivals.043.spouse
 		remove_short_term_gold = medium_gold_value
-		add_character_flag = { flag = gangaur_wife_gift }
 		stress_impact = {
 			just = miniscule_stress_impact_loss
 			family_first = miniscule_stress_impact_loss

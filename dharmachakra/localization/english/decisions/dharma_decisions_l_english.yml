@@ -65,13 +65,6 @@
 #######################################
 # Hindu Decisions
 #######################################
-  # Visit Sharada Peeth
-  dharma_visit_sharada_peeth: "Visit the Temple Complex of Sharada Peeth"
-  dharma_visit_sharada_peeth_desc: "Sharada Peeth is a temple complex and center of learning in Kashmir that attracts scholars from around India."
-  dharma_visit_sharada_peeth_tooltip: "You will decide if you wish to visit Sharada Peeth or not."
-  dharma_visit_sharada_peeth_confirm: "Time to visit Sharada Peeth"
-
-  # pick a Hindu Philosophy
   dharma_pick_hindu_philosophy: "Follow One of the Astika"
   dharma_pick_hindu_philosophy_desc: "As you delve into your religious studies, some of your brahmins and other scholars at court have suggested that you focus on one of the Astikas or Hindu Philosophical schools. Shall you focus on one of the Astikas?"
   dharma_pick_hindu_philosophy_tooltip: "Look into one of the Astikas."

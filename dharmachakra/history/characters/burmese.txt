@@ -61,10 +61,12 @@ burman000 = {# Kunhsaw Kyaunghpyu
 }
 burman001 = {# Anawrahta
 	name = "Anawrahta" #Founder of Pagan Kingdom/Empire
+	dna = "burman001_anawrahta_pagan"
 	dynasty = 2000000 #Pagan
 	religion = ari
 	culture = burmese
 	father = burman000
+	mother = burman018
 	trait = education_martial_4
 	trait = ambitious
 	trait = diligent
@@ -79,6 +81,18 @@ burman001 = {# Anawrahta
 	}
 	1044.1.1 = {
 		add_spouse = burman004
+		effect = {
+			add_trait = lifestyle_blademaster
+			add_trait_xp = {
+				trait = lifestyle_blademaster
+				value = {
+					integer_range = {
+						min = medium_lifestyle_random_xp_low
+						max = medium_lifestyle_random_xp_high
+					}
+				}
+			}
+		}
 	}
 	1056.1.2 = {
 		religion = theravada
@@ -105,7 +119,10 @@ burman002 = {# Saw Lu
 	culture = burmese
 	father = burman001
 	mother = burman004
+	trait = education_diplomacy_1 # nearly destroyed his father's empire
 	trait = impatient
+	trait = trusting # too much so
+	trait = forgiving # again, to his detriment
 	
 	1049.4.19 = {
 		birth = yes
@@ -121,13 +138,19 @@ burman003 = {# Kyansittha
 	culture = burmese
 	father = burman001
 	mother = burman005
-	trait = education_martial_4
-	trait = compassionate
-	trait = temperate
-	trait = organizer
+	trait = education_martial_4 # an excellent general
+	trait = lustful # boinked his dad's wife
+	trait = patient # waited out his exile for his birthright
+	trait = compassionate # tried saving his brother from the clutches of rebels
+	trait = architect # a noted builder of pagodas and monuments during his reign
 	
 	1030.7.21 = {
 		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:mon054 } # had a famous tryst with Manisanda
+		}
 	}
 	1111.1.1 = {
 		death = yes
@@ -164,11 +187,18 @@ burman016 = {# Mon Hla
 	female = yes
 	religion = theravada
 	culture = burmese
+
+	trait = beauty_good_2 # noted beauty
 	
 	1040.1.1 = {
 		birth = yes
 	}
-	1100.1.1 = {
+	1060.1.1 = {
+		effect = {
+			add_secret = { type = secret_witch } # accused of being a witch by her jealous rivals
+		}
+	}
+	1115.1.1 = {
 		death = yes
 	}
 }
@@ -249,6 +279,214 @@ burman018 = {
 		birth = yes
 	}
 	1075.1.1 = {
+		death = yes
+	}
+}
+pagan_1 = {
+	name = "Narapatisithu"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_2
+	1150.10.8 = {
+		birth = yes
+	}
+	1211.8.18 = {
+		death = yes
+	}
+}
+pagan_2 = {
+	name = "Narathu"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_3
+	1118.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+pagan_3 = {
+	name = "Alaungsithu"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_4
+	1093.1.1 = {
+		birth = yes
+	}
+	1167.1.1 = {
+		death = yes
+	}
+}
+pagan_4 = {
+	name = "Yun"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = burman002
+	1070.1.1 = {
+		birth = yes
+	}
+	1122.1.1 = {
+		death = yes
+	}
+}
+pagan_5 = {
+	name = "Zeya_Thura"
+	dynasty = 2000000
+	religion = theravada
+	culture = burmese
+	father = pagan_1
+	1166.1.1 = {
+		birth = yes
+	}
+	1217.1.1 = {
+		death = yes
+	}
+}
+pagan_6 = {
+	name = "Yaza_Thura"
+	dynasty = 2000000
+	religion = theravada
+	culture = burmese
+	father = pagan_1
+	1169.1.1 = {
+		birth = yes
+	}
+	1221.1.1 = {
+		death = yes
+	}
+}
+pagan_7 = {
+	name = "Ginga_Thura"
+	dynasty = 2000000
+	religion = theravada
+	culture = burmese
+	father = pagan_1
+	1172.1.1 = {
+		birth = yes
+	}
+	1224.1.1 = {
+		death = yes
+	}
+}
+pagan_8 = {
+	name = "Pyanchi"
+	dynasty = 2000000
+	religion = theravada
+	culture = burmese
+	father = pagan_1
+	1174.1.1 = {
+		birth = yes
+	}
+	1227.1.1 = {
+		death = yes
+	}
+}
+pagan_9 = {
+	name = "Zeya_Theinkha"
+	dynasty = 2000000
+	religion = theravada
+	culture = burmese
+	father = pagan_1
+	1175.2.4 = {
+		birth = yes
+	}
+	1235.7.19 = {
+		death = yes
+	}
+}
+pagan_10 = {
+	name = "Naratheinkha"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_2
+	1142.1.1 = {
+		birth = yes
+	}
+	1173.1.1 = {
+		death = yes
+	}
+}
+pagan_11 = {
+	name = "Min_Shin_Saw"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_3
+	1120.1.1 = {
+		birth = yes
+	}
+	1171.1.1 = {
+		death = yes
+	}
+}
+pagan_12 = {
+	name = "Htauk_Hlayga"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_3
+	1122.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+pagan_13 = {
+	name = "Taung_Phya"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_3
+	1124.1.1 = {
+		birth = yes
+	}
+	1187.1.1 = {
+		death = yes
+	}
+}
+pagan_14 = {
+	name = "Shwe_Kyu"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_3
+	1126.1.1 = {
+		birth = yes
+	}
+	1182.1.1 = {
+		death = yes
+	}
+}
+pagan_15 = {
+	name = "Chit_Oo"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_3
+	1128.1.1 = {
+		birth = yes
+	}
+	1188.1.1 = {
+		death = yes
+	}
+}
+pagan_16 = {
+	name = "Kyaungdaw"
+	dynasty = 2000000 #Pagan
+	religion = theravada
+	culture = burmese
+	father = pagan_3
+	1130.1.1 = {
+		birth = yes
+	}
+	1192.1.1 = {
 		death = yes
 	}
 }
@@ -372,6 +610,136 @@ burman011 = {# Kaleinga
 		death = yes
 	}
 }
+kaleinga_1 = {
+	name = "Kyansittha" # Fictional placeholder
+	dynasty = 2000014 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = burman011
+	1067.1.1 = {
+		birth = yes
+	}
+	1118.1.1 = {
+		death = yes
+	}
+}
+kaleinga_2 = {
+	name = "Saw_Lu" # Fictional placeholder
+	dynasty = 2000014 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = kaleinga_1
+	1090.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		death = yes
+	}
+}
+kaleinga_3 = {
+	name = "Sokkate" # Fictional placeholder
+	dynasty = 2000014 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = kaleinga_2
+	1113.1.1 = {
+		birth = yes
+	}
+	1166.1.1 = {
+		death = yes
+	}
+}
+kaleinga_4 = {
+	name = "Tannet" # Fictional placeholder
+	dynasty = 2000014 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = kaleinga_3
+	1136.1.1 = {
+		birth = yes
+	}
+	1197.1.1 = {
+		death = yes
+	}
+}
+kaleinga_5 = {
+	name = "Theinhko" # Fictional placeholder
+	dynasty = 2000014 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = kaleinga_4
+	1159.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+kaleinga_6 = {
+	name = "Kyiso" # Fictional placeholder
+	dynasty = 2000016 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = burman013
+	1067.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+kaleinga_7 = {
+	name = "Sokkate" # Fictional placeholder
+	dynasty = 2000016 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = kaleinga_6
+	1090.1.1 = {
+		birth = yes
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}
+kaleinga_8 = {
+	name = "Tannet" # Fictional placeholder
+	dynasty = 2000016 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = kaleinga_7
+	1113.1.1 = {
+		birth = yes
+	}
+	1161.1.1 = {
+		death = yes
+	}
+}
+kaleinga_9 = {
+	name = "Theinhko" # Fictional placeholder
+	dynasty = 2000016 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = kaleinga_8
+	1135.1.1 = {
+		birth = yes
+	}
+	1187.1.1 = {
+		death = yes
+	}
+}
+kaleinga_10 = {
+	name = "Thurein" # Fictional placeholder
+	dynasty = 2000016 # Kaleinga
+	religion = ari
+	culture = burmese
+	father = kaleinga_9
+	1158.1.1 = {
+		birth = yes
+	}
+	1206.1.1 = {
+		death = yes
+	}
+}
 #######################################
 # Thihanu Dynasty
 #######################################
@@ -420,6 +788,71 @@ burman015 = {# Thupyinnya
 		birth = yes
 	}
 	1085.1.1 = {
+		death = yes
+	}
+}
+thupyinnya_1 = {
+	name = "Kyansittha" # Fictional placeholder
+	dynasty = 2000018 # Thupyinnya
+	religion = ari
+	culture = burmese
+	father = burman015
+	1067.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+thupyinnya_2 = {
+	name = "Saw_Lu" # Fictional placeholder
+	dynasty = 2000018 # Thupyinnya
+	religion = ari
+	culture = burmese
+	father = thupyinnya_1
+	1090.1.1 = {
+		birth = yes
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}
+thupyinnya_3 = {
+	name = "Sokkate" # Fictional placeholder
+	dynasty = 2000018 # Thupyinnya
+	religion = ari
+	culture = burmese
+	father = thupyinnya_2
+	1113.1.1 = {
+		birth = yes
+	}
+	1165.1.1 = {
+		death = yes
+	}
+}
+thupyinnya_4 = {
+	name = "Tannet" # Fictional placeholder
+	dynasty = 2000018 # Thupyinnya
+	religion = ari
+	culture = burmese
+	father = thupyinnya_3
+	1136.1.1 = {
+		birth = yes
+	}
+	1194.1.1 = {
+		death = yes
+	}
+}
+thupyinnya_5 = {
+	name = "Theinhko" # Fictional placeholder
+	dynasty = 2000018 # Thupyinnya
+	religion = ari
+	culture = burmese
+	father = thupyinnya_4
+	1159.1.1 = {
+		birth = yes
+	}
+	1217.1.1 = {
 		death = yes
 	}
 }

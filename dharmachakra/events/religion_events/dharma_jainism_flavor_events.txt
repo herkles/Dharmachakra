@@ -103,12 +103,12 @@ dharma_jainism.004 = {# Fasting with the Monk
 		name = dharma_jainism.004.fast
 		stress_impact = {
 			base = minor_stress_impact_gain
-			People with these traits like fasting
+			# People with these traits like fasting
 			inappetetic = minor_stress_loss
 			temperate = minor_stress_loss
 			zealous = minor_stress_loss
 			chaste = minor_stress_loss
-			People with these traits don't like to fast
+			# People with these traits don't like to fast
 			gluttonous = minor_stress_gain
 			temperate = minor_stress_gain
 			lustful = minor_stress_gain
@@ -177,7 +177,7 @@ dharma_jainism.006 = {# Non-Indian merchants upset about naked Jain ascetics
 			}
 			county = { save_scope_as = guild_county }
 		}
-		Compile list of affected characters for Option B
+		# Compile list of affected characters for Option B
 		every_vassal = {
 			limit = { religion = religion:jainism_religion }
 			add_to_list = jain_characters
@@ -825,7 +825,7 @@ dharma_jainism.025 = {# Ahmisa and the duties of a king
 		is_at_war = no
 		religion = religion:jainism_religion
 		is_landed = yes
-		we need a valid imprisoned character	
+		# we need a valid imprisoned character	
 	}
 
 	option = {# let the prisoner go free

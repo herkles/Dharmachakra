@@ -1260,7 +1260,7 @@
 	}
 }
 304124 = {# Bac'og
-	name="Bac'og"
+	name="Bac_og"
 	dynasty=2003008 #Monyul
 	religion="lamaism"
 	culture="lhomon" #Monpa

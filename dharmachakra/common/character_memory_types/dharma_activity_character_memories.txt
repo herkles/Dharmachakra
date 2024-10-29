@@ -1,0 +1,841 @@
+﻿
+# Vesak
+dharma_buddhist_festival_vesak_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_buddhist_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_buddhist_festival_vesak_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_buddhist_festival_vesak_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_buddhist_festival_vesak_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_buddhist_festival_vesak_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_buddhist_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_buddhist_festival_vesak_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_buddhist_festival_vesak_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_buddhist_festival_vesak_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Buddhist Retreat
+dharma_buddhist_retreat_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_buddhist_retreat.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_buddhist_retreat_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_buddhist_retreat_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_buddhist_retreat_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_buddhist_retreat_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_buddhist_retreat.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_buddhist_retreat_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_buddhist_retreat_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_buddhist_retreat_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Chhath
+dharma_festival_chhath_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_chhath_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_chhath_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_chhath_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_festival_chhath_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_chhath_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_chhath_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_chhath_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Gangaur
+dharma_festival_gangaur_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_gangaur_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_gangaur_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_gangaur_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_festival_gangaur_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_gangaur_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_gangaur_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_gangaur_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Losar
+dharma_festival_losar_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_losar_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_losar_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_losar_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_festival_losar_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_losar_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_losar_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_losar_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Pongal
+dharma_festival_pongal_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_pongal_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_pongal_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_pongal_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_festival_pongal_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_pongal_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_pongal_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_pongal_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Ratha Yatra
+dharma_festival_ratha_yatra_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_ratha_yatra_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_ratha_yatra_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_ratha_yatra_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_festival_ratha_yatra_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_ratha_yatra_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_ratha_yatra_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_ratha_yatra_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Thaipusam
+dharma_festival_thaipusam_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_thaipusam_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_thaipusam_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_thaipusam_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_festival_thaipusam_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_thaipusam_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_thaipusam_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_thaipusam_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Thingyan
+dharma_festival_thingyan_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_thingyan_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_thingyan_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_thingyan_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_festival_thingyan_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_thingyan_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_thingyan_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_thingyan_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Diwali
+dharma_hindu_festival_diwali_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_hindu_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_hindu_festival_diwali_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_hindu_festival_diwali_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_hindu_festival_diwali_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_hindu_festival_diwali_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_hindu_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_hindu_festival_diwali_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_hindu_festival_diwali_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_hindu_festival_diwali_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Navaratri
+dharma_hindu_festival_navaratri_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_hindu_festival.dds"
+
+	description = {
+		random_valid = {
+			desc =  dharma_hindu_festival_navaratri_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc =  dharma_hindu_festival_navaratri_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc =  dharma_hindu_festival_navaratri_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_hindu_festival_navaratri_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_hindu_festival.dds"
+
+	description = {
+		random_valid = {
+			desc =  dharma_hindu_festival_navaratri_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc =  dharma_hindu_festival_navaratri_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc =  dharma_hindu_festival_navaratri_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Mahamastakabhisheka
+dharma_jain_festival_mahamastakabhisheka_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_jain_festival.dds"
+
+	description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahamastakabhisheka_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahamastakabhisheka_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahamastakabhisheka_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_jain_festival_mahamastakabhisheka_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_jain_festival.dds"
+
+	description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahamastakabhisheka_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahamastakabhisheka_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahamastakabhisheka_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Paryushana
+dharma_jain_festival_paryushana_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_jain_festival.dds"
+
+	description = {
+		random_valid = {
+			desc =  dharma_jain_festival_paryushana_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_paryushana_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_paryushana_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+
+}
+dharma_jain_festival_paryushana_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_jain_festival.dds"
+
+	description = {
+		random_valid = {
+			desc =  dharma_jain_festival_paryushana_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_paryushana_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_paryushana_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Mahavir Janma Kalyanak
+dharma_jain_festival_mahavir_janma_kalyanak_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_jain_festival.dds"
+
+	description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahavir_janma_kalyanak_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahavir_janma_kalyanak_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahavir_janma_kalyanak_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_jain_festival_mahavir_janma_kalyanak_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_jain_festival.dds"
+
+	description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahavir_janma_kalyanak_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahavir_janma_kalyanak_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc =  dharma_jain_festival_mahavir_janma_kalyanak_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+
+# Vedic Animal Sacrifice
+dharma_vedic_sacrifice_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_vedic_sacrifice.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_vedic_sacrifice_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_vedic_sacrifice_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_vedic_sacrifice_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_vedic_sacrifice_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_vedic_sacrifice.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_vedic_sacrifice_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_vedic_sacrifice_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_vedic_sacrifice_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}

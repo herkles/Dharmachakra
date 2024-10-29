@@ -187,7 +187,7 @@
 		DeathDeityNamePossessive = khasi_animism_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
-		DeathGodHerHim = CHARACTER_HERHIM_HIM
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 
 		WitchGodName = khasi_animism_evil_god_dul
 		WitchGodHerHis = CHARACTER_HERHIS_HER

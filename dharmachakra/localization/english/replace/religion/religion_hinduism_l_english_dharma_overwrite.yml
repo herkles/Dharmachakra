@@ -1,0 +1,622 @@
+﻿l_english:
+  hinduism_religion: "Hinduism"
+  hinduism_religion_adj: "Hindu"
+  hinduism_religion_adherent: "Hindu"
+  hinduism_religion_adherent_plural: "Hindus"
+  hinduism_religion_desc: "Hinduism is a dharma, a way of life, that includes a multitude of gods and religious practices. Shared is the belief in samsara, the endless cycle of the soul's continuous rebirth into the world, and moksha, the freeing from that cycle."
+
+#Generic Hindu God names
+  hinduism_high_god_name: "Brahman"
+  hinduism_high_god_name_2: "$hinduism_high_god_name$" # Optional translation alt
+  hinduism_high_god_name_possessive: "Brahman's"
+  hinduism_high_god_shehe: "It"
+  hinduism_high_god_herselfhimself: "Itself"
+  hinduism_high_god_herhis: "Its"
+  hinduism_high_god_name_alternate: "The Supreme One"
+  hinduism_high_god_name_alternate_possessive: "The Supreme One's"
+  hinduism_good_god_brahma: "Brahma"
+  hinduism_good_god_vishnu: "Vishnu"
+  hinduism_good_god_shiva: "Shiva"
+  hinduism_good_god_krishna: "Krishna"
+  hinduism_good_god_shakti: "Shakti"
+  hinduism_good_god_narayana: "Narayana"
+  hinduism_good_god_ganesh: "Ganesh"
+  hinduism_good_god_surya: "Surya"
+  hinduism_devil_name: "The Vinyakas"
+  hinduism_devil_name_possessive: "The Vinyakas'"
+  hinduism_devil_shehe: "they"
+  hinduism_devil_herselfhimself: "themselves"
+  hinduism_evil_god_vetalas: "The Vetalas"
+  hinduism_evil_god_pishachas: "The Pishachas"
+  hinduism_evil_god_krodha: "Krodha"
+
+  hinduism_creator_god_name: "Brahma"
+  hinduism_creator_god_name_possessive: "Brahma's"
+
+  hinduism_health_god_name: "Dhanvantari"
+  hinduism_health_god_name_possessive: "Dhanvantari's"
+
+  hinduism_fertility_god_name: "Parvati"
+  hinduism_fertility_god_name_possessive: "Parvati's"
+
+  hinduism_wealth_god_name: "Kubera"
+  hinduism_wealth_god_name_possessive: "Kubera's"
+
+  hinduism_household_god_name: "Parvati"
+  hinduism_household_god_name_possessive: "Parvati's"
+
+  hinduism_fate_god_name: "karma"
+  hinduism_fate_god_name_possessive: "karma's"
+
+  hinduism_knowledge_god_name: "Saraswati"
+  hinduism_knowledge_god_name_possessive: "Saraswati's"
+
+  hinduism_war_god_name: "Durga"
+  hinduism_war_god_name_possessive: "Durga's"
+
+  hinduism_trickster_god_name: "Krishna"
+  hinduism_trickster_god_name_possessive: "Krishna's"
+
+  hinduism_night_god_name: "Nindra"
+  hinduism_night_god_name_possessive: "Nindra's"
+
+  hinduism_water_god_name: "Yami"
+  hinduism_water_god_name_possessive: "Yami's"
+
+  hinduism_death_name: "Yama"
+  hinduism_death_name_possessive: "Yama's"
+
+# Hindu Religious titles
+  hinduism_religious_head_title:1 "Swami"
+  hinduism_religious_head_title_name: "Sampradaya"
+  hinduism_devotee_male: "sanyasi"
+  hinduism_devotee_male_plural: "sanyasis"
+  hinduism_devotee_female: "sanyasini"
+  hinduism_devotee_female_plural: "sanyasinis"
+  hinduism_devotee_neuter: "sanyasa"
+  hinduism_devotee_neuter_plural: "sanyasas"
+  hinduism_priest: "pujari"
+  hinduism_priest_plural: "pujaris"
+  hinduism_priest_term_plural: "Brahmins"
+  hinduism_bishop: "swami"
+  hinduism_bishop_plural: "swamis"
+
+# places, symbols, and things
+  hinduism_house_of_worship: "temple"
+  hinduism_house_of_worship_2: "$hinduism_house_of_worship$" # Optional translation alt
+  hinduism_house_of_worship_3: "$hinduism_house_of_worship$" # Optional translation alt
+  hinduism_house_of_worship_plural: "temples"
+  hinduism_divine_realm: "Sumeru"
+  hinduism_divine_realm_2: "$hinduism_divine_realm$" # Optional translation alt
+  hinduism_divine_realm_3: "$hinduism_divine_realm$" # Optional translation alt
+  hinduism_positive_afterlife: "Svarga"
+  hinduism_positive_afterlife_2: "$hinduism_positive_afterlife$" # Optional translation alt
+  hinduism_positive_afterlife_3: "$hinduism_positive_afterlife$" # Optional translation alt
+  hinduism_negative_afterlife: "Naraka"
+  hinduism_negative_afterlife_2: "$hinduism_negative_afterlife$" # Optional translation alt
+  hinduism_negative_afterlife_3: "$hinduism_negative_afterlife$" # Optional translation alt
+  hinduism_positive_afterlife: "Svarga"
+  hinduism_negative_afterlife: "Naraka"
+  hinduism_religious_symbol: "Om"
+  hinduism_religious_symbol_2: "$hinduism_religious_symbol$" # Optional translation alt
+  hinduism_religious_symbol_3: "$hinduism_religious_symbol$" # Optional translation alt
+  hinduism_religious_text: "Vedas"
+  hinduism_religious_text_2: "$hinduism_religious_text$" # Optional translation alt
+  hinduism_religious_text_3: "$hinduism_religious_text$" # Optional translation alt
+
+#Vaishnavism
+  vaishnavism: "Vaishnavism"
+  vaishnavism_adj:1 "Vaishnavite"
+  vaishnavism_adherent: "Vaishnava"
+  vaishnavism_adherent_plural: "Vaishnavas"
+  vaishnavism_desc: "In Vaishnavism, Vishnu is the Supreme Lord, and the most important devas are his many incarnated avatars, such as Rama and Krishna. Each of these various incarnations work to restore balance to the universe."
+  vaishnavism_high_god_name: "Vishnu"
+  vaishnavism_high_god_name_2: "$vaishnavism_high_god_name$" # Optional translation alt
+  vaishnavism_high_god_name_possessive: "Vishnu's"
+
+  # The various gods in Vaishnavism
+  vaishnavism_wealth_god_name: "Lakishmi"
+  vaishnavism_wealth_god_name_possessive: "Lakishmi's"
+
+  vaishnavism_knowledge_god_name: "Hayagriva"
+  vaishnavism_knowledge_god_name_possessive: "Hayagriva's"
+
+  vaishnavism_war_god_name: "Jagganath"
+  vaishnavism_war_god_name_possessive: "Jagganath"
+
+  vaishnavism_trickster_god_name: "Krishna"
+  vaishnavism_trickster_god_name_possessive: "Krishna"
+  
+  # The Avatars of Vishnu are good gods for Vaishnavism
+    vaishnavism_good_god_matsya: "Matsya"
+    vaishnavism_good_god_kurma: "Kurma"
+    vaishnavism_good_god_varaha: "Varaha"
+    vaishnavism_good_god_narasimha: "Narasimha"
+    vaishnavism_good_god_vamana: "Vamana"
+    vaishnavism_good_god_parashurama: "Parashurama"
+    vaishnavism_good_god_rama: "Rama"
+    vaishnavism_good_god_kalki: "Kalki"
+    vaishnavism_good_god_hayagriva: "Hayagriva"
+    vaishnavism_good_god_dhanvantari: "Dhanvantari"
+    vaishnavism_good_god_dattatreya: "Dattatreya"
+    vaishnavism_good_god_mohini: "Mohini"
+  # Other Vaishanvism Good Goods
+    vaishnavism_good_god_hanuman: "Hanuman"
+    vaishnavism_good_god_shesha: "Shesha"
+    vaishnavism_good_god_lakshmi: "Lakshmi"
+    vaishnavism_good_god_bhumi: "Bhumi"
+    vaishnavism_good_god_sita: "Sita"
+    vaishnavism_good_god_radha: "Radha"
+
+#Shaivism
+  shaivism: "Shaivism"
+  shaivism_adj:1 "Shaivite"
+  shaivism_adherent: "Shaivite"
+  shaivism_adherent_plural: "Shaivites"
+  shaivism_desc: "Shaivites worship Shiva, the creator and destroyer of worlds, as the Supreme Being that exists in all things. In the same fashion as Shiva works to maintain balance and preserve the universe, the faithful must strive to bring balance into their lives."
+  shaivism_high_god_name: "Shiva"
+  shaivism_high_god_name_2: "$shaivism_high_god_name$" # Optional translation alt
+  shaivism_high_god_name_possessive: "Shiva's"
+
+  # Various deities of Shaivism
+  shaivism_health_god_name: "Vaitheeswaran"
+  shaivism_health_god_name_possessive: "Vaitheeswaran's"
+
+  shaivism_fertility_god_name: "Parvati"
+  shaivism_fertility_god_name_possessive: "Parvati's"
+
+  shaivism_wealth_god_name: "Bhairava"
+  shaivism_wealth_god_name_possessive: "Bhairava's"
+
+  shaivism_household_god_name: "Munīshwarar"
+  shaivism_household_god_name_possessive: "Munīshwarar's"
+
+  shaivism_knowledge_god_name: "Dakshinamoorthy"
+  shaivism_knowledge_god_name_possessive: "Dakshinamoorthy's"
+
+  shaivism_war_god_name: "Vīrabhadra"
+  shaivism_war_god_name_possessive: "Vīrabhadra"
+
+  # Good deities of Shaivism
+  shaivism_good_god_murugan: "Murugan"
+  shaivism_good_god_aiyanar: "Aiyanar"
+  shaivism_good_god_virabhadra: "Virabhadra"
+  shaivism_good_god_rudra: "Rudra"
+  shaivism_good_god_bhairava: "Bhairava"
+  shaivism_good_god_nataraja: "Nataraja"
+  shaivism_good_god_dakshinamurthy: "Dakshinamurthy"
+  shaivism_good_god_nandi: "Nandi"
+  shaivism_good_god_vaitheeswaran: "Vaitheeswaran"
+  shaivism_good_god_parvati: "Parvati"
+
+#Trika Shaivism ie Kashmiri Shaivism
+  trika_shaivism: "Trika Shaivism"
+  trika_shaivism_adj:1 "Trika"
+  trika_shaivism_adherent: "Trika"
+  trika_shaivism_adherent_plural: "Trikas"
+  trika_shaivism_desc: "Trika Shaivism, otherwise known as Kashmiri Shaivism is a non-dualistic form of Shaivism that is a mixture of Shaivism and Shaktism. Trika Shaivism places heavy emphasis upon Tantric practices as part of their religious practice."
+
+#Srikula Shaktism
+  srikula_shaktism: "Srikula Shaktism"
+  srikula_shaktism_adj: "Srikula"
+  srikula_shaktism_adherent: "Srikulaite"
+  srikula_shaktism_adherent_plural: "Srikulaites"
+  srikula_shaktism_desc: "Shaktism believes in the Great Goddess as the Supreme Being from which springs all existence. The Srikula worship Tripura Sundari as the highest aspect of the Goddess, and the source of all Shakti, the energy of the universe."
+
+  # Various deities of Srikula Shaktism
+  srikula_shaktism_high_god_name: "Tripura Sundari"
+  srikula_shaktism_high_god_name_possessive: "Tripura Sundari's"
+
+  shaktism_creator_god_name: "Mahadevi"
+  shaktism_creator_god_name_possessive: "Mahadevi's"
+
+  shaktism_health_god_name: "Ganga"
+  shaktism_health_god_name_possessive: "Ganga's"
+
+  shaktism_wealth_god_name: "Lakshmi"
+  shaktism_wealth_god_name_possessive: "Lakshmi's"
+
+  shaktism_night_god_name: "Bhairava"
+  shaktism_night_god_name_possessive: "Bhairava's"
+
+  # Shaktisim good deities
+  # Devi
+  shaktism_good_god_devi: "Devi"
+  shaktism_good_god_chandi: "Chandi"
+  shaktism_good_god_mahadevi: "Mahadevi"
+  shaktism_good_god_saraswati: "Saraswati"
+  shaktism_good_god_lakshmi: "Lakshmi"
+  shaktism_good_god_parvati: "Parvati"
+  shaktism_good_god_sati: "Sati"
+  shaktism_good_god_durga: "Durga"
+  shaktism_good_god_mahakali: "Mahakali"
+  shaktism_good_god_bhadrakali: "Bhadrakali"
+  shaktism_good_god_radha: "Radha"
+  shaktism_good_god_sita: "Sita"
+  # Matrikas
+  shaktism_good_god_brahmani: "Brahmani"
+  shaktism_good_god_varahi: "Varahi"
+  shaktism_good_god_indrani: "Indrani"
+  shaktism_good_god_chamunda: "Chamunda"
+  # Mahavidya
+  shaktism_good_god_kali: "Kali"
+  shaktism_good_god_kali_possessive: "Kali's"
+  shaktism_good_god_sundari: "Tripura Sundari"
+  shaktism_good_god_sundari_2: "$shaktism_good_god_sundari$" # Optional translation alt
+  shaktism_good_god_kali_2: "$shaktism_good_god_kali$" # Optional translation alt
+
+  shaktism_good_god_sundari_possessive: "Tripura Sundari's"
+  shaktism_good_god_tara: "Tara"
+  shaktism_good_god_bhuvaneshvari: "Bhuvaneshvari"
+  shaktism_good_god_bhairavi: "Bhairavi"
+  shaktism_good_god_chhinnamasta: "Chhinnamasta"
+  shaktism_good_god_bagalamukhi: "Bagalamukhi"
+  shaktism_good_god_matangi: "Matangi"
+  shaktism_good_god_kamalatmika: "Kamalatmika"
+  # Navadurga
+  shaktism_good_god_shailaputri: "Shailaputri"
+  shaktism_good_god_brahmacharini: "Brahmacharini"
+  shaktism_good_god_chandraghanta: "Chandraghanta"
+  shaktism_good_god_kushmanda: "Kushmanda"
+  shaktism_good_god_skandamata: "Skandamata"
+  shaktism_good_god_katyayani: "Katyayani"
+  shaktism_good_god_kalaratri: "Kalaratri"
+  shaktism_good_god_mahagauri: "Mahagauri"
+  shaktism_good_god_siddhidhatri: "Siddhidhatri"
+
+#Kalikula Shaktism
+  kalikula_shaktism: "Kalikula Shaktism"
+  kalikula_shaktism_adj: "Kalikula"
+  kalikula_shaktism_adherent: "Kalikulaite"
+  kalikula_shaktism_adherent_plural: "Kalikulaites"
+  kalikula_shaktism_desc: "Shaktism believes in the Great Goddess as the Supreme Being from which springs all existence. The Kalikula worship Kali as the one who can give guidance, good rebirth and ultimately moksha."
+
+#Smartism
+  smartism:1 "Smartism"
+  smartism_adj:1 "Smarta"
+  smartism_adherent:1 "Smarta"
+  smartism_adherent_plural:1 "Smartas"
+  smartism_desc: "The Smarta tradition rejects the worship of individual gods. Brahman is one and eternal, and Vishnu, Devi, Shiva, Ganesh and Surya are worshiped as equal avatars of the Supreme Being. Any individual worship is a step towards achieving understanding and unity with Brahman."
+
+  smartism_health_god_name: "Vishnu"
+  smartism_health_god_name_possessive: "Vishnu's"
+  smartism_household_god_name: "Shiva"
+  smartism_household_god_name_possessive: "Shiva's"
+  smartism_knowledge_god_name: "Ganesha"
+  smartism_knowledge_god_name_possessive: "Ganesha's"
+  smartism_war_god_name: "Devi"
+  smartism_war_god_name_possessive: "Devi's"
+
+#Krishnaism
+  krishnaism: "Krishnaism"
+  krishnaism_adj: "Krishnaite"
+  krishnaism_adherent: "Krishnaite"
+  krishnaism_adherent_plural: "Krishnaites"
+  krishnaism_desc: "Krishna is the authentic form of the Supreme Being, and Vishnu is his avatar when he takes form as the omnipotent. Through his divine avatars, he is present in all things."
+  krishnaism_high_god_name: "Krishna"
+  krishnaism_high_god_name_2: "$krishnaism_high_god_name$" # Optional translation alt
+  krishnaism_high_god_name_possessive: "Krishna's"
+
+#Advaitism
+  advaitism: "Advaita Vedanta"
+  advaitism_adj: "Advaita"
+  advaitism_adherent: "Advaita Vedantin"
+  advaitism_adherent_plural: "Advaita Vedantins"
+  advaitism_desc: "Unlike many Hindu faiths, Advaita Vedanta emphasizes the unity of the Atman, the true self, with the Brahman, the truest reality, and believes that moksha can be achieved in life as well as death."
+
+#Suryaism
+  suryaism: "Saura"
+  suryaism_adj: "Saurite"
+  suryaism_adherent: "Saurite"
+  suryaism_adherent_plural: "Saurites"
+  suryaism_desc: "Saura is the worship of Surya as the Supreme being, lord of the Trimurti, the eternal Brahman, and the cause of all things and the foundation of the world."
+
+  suryaism_good_god_usha: "Usha"
+  suryaism_good_god_aditi: "Aditi"
+  suryaism_good_god_shani: "Shani"
+  suryaism_good_god_mitra: "Mitra"
+  suryaism_good_god_aranyani: "Aranyani"
+  suryaism_good_god_saranyu: "Saranyu"
+
+  suryaism_high_god_name: "Surya"
+  suryaism_high_god_name_possessive: "Surya's"
+  suryaism_high_god_name_2: "$suryaism_high_god_name$" # Optional translation alt
+
+  suryaism_night_god_name: "Ratri"
+  suryaism_night_god_name_possessive: "Ratri's"
+  suryaism_health_god_name: "Yamuna"
+  suryaism_health_god_name_possessive: "Yamuna's"
+  suryaism_war_god_name: "Revanta"
+  suryaism_war_god_name_possessive: "Revanta's"
+
+#Shrautism
+  shrautism: "Shrautism"
+  shrautism_adj: "Shrautist"
+  shrautism_adherent: "Shrautist"
+  shrautism_adherent_plural: "Shrautist"
+  shrautism_desc: "Shrautism is a sect of ultra orthodox that remain following the srauti vedic rituals and practices. They follow the "Purva-Mimamsa' (earlier portion of Vedas) in contrast to Vedanta followed by other Brahmins. They place importance on the performance of Vedic rituals and practices such as Yajna, Somayaagam, and Agnicayana."
+
+  shrautism_high_god_name: "Indra"
+  shrautism_high_god_name_possessive: "Indra's"
+  shrautism_high_god_name_2: "$shrautism_high_god_name$" # Optional translation alt
+
+  shrautism_high_god_name_alternate: "The King of Heaven"
+  shrautism_high_god_name_alternate_possessive: "The King of Heaven's"
+
+  shrautism_good_god_indra: "Indra"
+  shrautism_good_god_mitra: "Mitra"
+  shrautism_good_god_ushas: "Ushas"
+  shrautism_good_god_vayu: "Vayu"
+  shrautism_good_god_varuna: "Varuna"
+  shrautism_good_god_agni: "Agni"
+  shrautism_good_god_brhaspati: "Brhaspati"
+  shrautism_good_god_surya: "Surya"
+  shrautism_good_god_vishnu: "Vishnu"
+  shrautism_good_god_rudra: "Rudra"
+
+  shrautism_evil_god_vetalas: "The Vetalas"
+  shrautism_evil_god_pishachas: "The Pishachas"
+  shrautism_evil_god_vritra: "Vritra"
+
+  shrautism_health_god_name: "Aśvins"
+  shrautism_health_god_name_possessive: "Aśvins's"
+
+  shrautism_fertility_god_name: "Aditi"
+  shrautism_fertility_god_name_possessive: "Aditi's"
+
+  shrautism_wealth_god_name: "Bhaga"
+  shrautism_wealth_god_name_possessive: "Bhaga's"
+
+  shrautism_household_god_name: "Agni"
+  shrautism_household_god_name_possessive: "Agni's"
+
+  shrautism_fate_god_name: "Shani"
+  shrautism_fate_god_name_possessive: "Shani's"
+
+  shrautism_knowledge_god_name: "Brhaspati"
+  shrautism_knowledge_god_name_possessive: "Brhaspati's"
+
+  shrautism_war_god_name: "Indra"
+  shrautism_war_god_name_possessive: "Indra's"
+
+  shrautism_night_god_name: "Chandra"
+  shrautism_night_god_name_possessive: "Chandra's"
+
+  shrautism_water_god_name: "Varuna"
+  shrautism_water_god_name_possessive: "Varuna's"
+
+#Ganaptism
+  ganaptism: "Ganapatya"
+  ganaptism_adj: "Ganaptism"
+  ganaptism_adherent: "Ganapatya"
+  ganaptism_adherent_plural: "Ganapatyas"
+  ganaptismm_desc: "Ganapatya is the worship of Ganesha as the Supreme being, the eternal Brahman."
+
+  ganaptism_good_god_buddhi: "Buddhi"
+  ganaptism_good_god_siddhi: "Siddhi"
+  ganaptism_good_god_riddhi: "Riddhi"
+  ganaptism_good_god_vinayaki: "Vinayaki"
+  ganaptism_good_god_parvati: "Parvati"
+  ganaptism_good_god_ksema: "Ksema"
+  ganaptism_good_god_labha: "Labha"
+  ganaptism_good_god_shubha: "Shubha"
+
+  ganaptism_high_god_name: "Ganesha"
+  ganaptism_high_god_name_2: "$ganaptism_high_god_name$" # Optional translation alt
+  ganaptism_high_god_name_possessive: "Ganesha's"
+  ganaptism_high_god_name_alternate: "Mahaganapati"
+  ganaptism_high_god_name_alternate_possessive: "Mahaganapati's"
+
+  ganaptism_fertility_god_name: "Parvati"
+  ganaptism_fertility_god_name_possessive: "Parvati's"
+
+  ganaptism_wealth_god_name: "Labha"
+  ganaptism_wealth_god_name_possessive: "Labha's"
+
+  ganaptism_knowledge_god_name: "Ganesha"
+  ganaptism_knowledge_god_name_possessive: "Ganesha's"
+
+  ganaptism_war_god_name: "Skanda"
+  ganaptism_war_god_name_possessive: "Skanda's"
+
+#Kaumaram
+  kaumaram: "Kaumaram"
+  kaumaram_adj: "Kaumaram"
+  kaumaram_adherent: "Kaumaram"
+  kaumaram_adherent_plural: "Kaumaram"
+  kaumaram_desc: "Kaumaram is the worship of Murugan as the Supreme being, lord of the Trimurti, the eternal Brahman, and the cause of all things and the foundation of the world."
+
+  kaumaram_good_god_parvati: "Parvati"
+  kaumaram_good_god_valli: "Valli"
+  kaumaram_good_god_devasena: "Devasena"
+  kaumaram_good_god_idumban: "Idumban"
+
+  kaumaram_high_god_name: "Murugan"
+  kaumaram_high_god_name_2: "$ganaptism_high_god_name$" # Optional translation alt
+  kaumaram_high_god_name_possessive: "Murugan's"
+  kaumaram_high_god_name: "Kumara"
+  kaumaram_high_god_name_possessive: "Kumara's"
+
+  kaumaram_health_god_name: "Vaidyanatha"
+  kaumaram_health_god_name_possessive: "Vaidyanatha's"
+
+  kaumaram_fertility_god_name: "Parvati"
+  kaumaram_fertility_god_name_possessive: "Parvati's"
+
+  kaumaram_knowledge_god_name: "Ganesha"
+  kaumaram_knowledge_god_name_possessive: "Ganesha's"
+
+  kaumaram_war_god_name: "Murugan"
+  kaumaram_war_god_name_possessive: "Murugan's"
+
+  #sarnaism
+  sarnaism: "Sarna Sthal"
+  sarnaism_adj: "Sarnaism"
+  sarnaism_adherent: "Sarna"
+  sarnaism_adherent_plural: "Sarnas"
+  sarnaism_desc: "Sarnaism or Sarna Sthal is a tribal religion, known as the religion of the holy woods, within India that venerates local sacred groves and various local tribal deities."
+
+  sarnaism_good_god_ayo: "Dharti ayo"
+
+#koyapunem
+  koyapunem: "Koyapunem"
+  koyapunem_adj: "Koyapunem"
+  koyapunem_adherent: "Koyapunem"
+  koyapunem_adherent_plural: "Koyapunem"
+  koyapunem_desc: "Koyapunem is the tribal religion of the Gond people. They follow a principal of munjok which focuses on cooperation, non-violence and self-defense. Being in harmony with nature is another element that is important to the Gondi people that follow Koyapeunem. "
+
+  koyapunem_high_god_name: "Kupar Lingo"
+  koyapunem_high_god_name_possessive: "Kupar Lingo's"
+  koyapunem_high_god_name_2: "$koyapunem_high_god_name$" # Optional translation alt
+
+  koyapunem_good_god_ravana: "Ravana"
+  koyapunem_good_god_kankali: "Mata Kali Kankali"
+  koyapunem_good_god_dulha: "Dulha-Pen"
+  koyapunem_good_god_gansam: "Gansam"
+  koyapunem_good_god_hardul: "Hardul"
+  koyapunem_good_god_bhivsen: "Bhivsen"
+  koyapunem_good_god_awal: "Nat Awal"
+  koyapunem_good_god_bhum: "Bhum"
+  koyapunem_good_god_auwal: "Nat Auwal"
+  koyapunem_good_god_thankur: "Thakur Deo"
+  koyapunem_good_god_hulera: "Hulera-Pen"
+  koyapunem_good_god_narayan: "Narayan-Pen"
+  koyapunem_good_god_kodapen: "Kodapen"
+  koyapunem_good_god_maswasi: "Maswasi Pen"
+  koyapunem_good_god_angadevs: "Angadevs"
+
+  koyapunem_evil_god_maitya_pen: "Maitya-Pen"
+
+  koyapunem_health_god_name: "Nat Auwal"
+  koyapunem_health_god_name_possessive: "Nat Auwal's"
+
+  koyapunem_fertility_god_name: "Dharti Mata"
+  koyapunem_fertility_god_name_possessive: "Dharti Mata's"
+
+  koyapunem_wealth_god_name: "Bhivsen"
+  koyapunem_wealth_god_name_possessive: "Bhivsen's"
+
+  koyapunem_household_god_name: "Nat Auwal"
+  koyapunem_household_god_name_possessive: "Nat Auwal's"
+
+  koyapunem_fate_god_name: "Mata Kali Kankali"
+  koyapunem_fate_god_name_possessive: "Mata Kali Kankali's"
+
+  koyapunem_knowledge_god_name: "Bhum"
+  koyapunem_knowledge_god_name_possessive: "Bhum's"
+
+  koyapunem_war_god_name: "Gansam"
+  koyapunem_war_god_name_possessive: "Gansam's"
+
+  koyapunem_night_god_name: "Chandra"
+  koyapunem_night_god_name_possessive: "Chandra's"
+
+  koyapunem_water_god_name: "Kanya"
+  koyapunem_water_god_name_possessive: "Kanya's"
+
+#Holy Sites: Hinduism
+
+  holy_site_puri_name: "Puri"
+  holy_site_puri_effect_name: "From [holy_site|E] #weak ($holy_site_puri_name$)#!"
+  holy_site_badrinath_name: "Badrinath"
+  holy_site_badrinath_effect_name: "From [holy_site|E] #weak ($holy_site_badrinath_name$)#!"
+  holy_site_rameswaram_name: "Rameswaram"
+  holy_site_rameswaram_effect_name: "From [holy_site|E] #weak ($holy_site_rameswaram_name$)#!"
+  holy_site_batu_caves_name: "Batu Caves"
+  holy_site_batu_caves_effect_name: "From [holy_site|E] #weak ($holy_site_batu_caves_name$)#!"
+  holy_site_katas_raj_name: "Katasraj"
+  holy_site_katas_raj_effect_name: "From [holy_site|E] #weak ($holy_site_katas_raj_name$)#!"
+  holy_site_guruvayur_name: "Guruvayur"
+  holy_site_guruvayur_effect_name: "From [holy_site|E] #weak ($holy_site_guruvayur_name$)#!"
+  holy_site_srirangam_name: "Srirangam"
+  holy_site_srirangam_effect_name: "From [holy_site|E] #weak ($holy_site_srirangam_name$)#!"
+  holy_site_tirupati_name: "Tirupati"
+  holy_site_tirupati_effect_name: "From [holy_site|E] #weak ($holy_site_tirupati_name$)#!"
+  holy_site_nathdwara_name: "Nathdwara"
+  holy_site_nathdwara_effect_name: "From [holy_site|E] #weak ($holy_site_nathdwara_name$)#!"
+  holy_site_udupi_name: "Udupi"
+  holy_site_udupi_effect_name: "From [holy_site|E] #weak ($holy_site_udupi_name$)#!"
+  holy_site_pandharpur_name: "Pandharpur"
+  holy_site_pandharpur_effect_name: "From [holy_site|E] #weak ($holy_site_pandharpur_name$)#!"
+  holy_site_jaipur_name: "Jaipur"
+  holy_site_jaipur_effect_name: "From [holy_site|E] #weak ($holy_site_jaipur_name$)#!"
+  holy_site_jyotisar_name: "Jyotisar"
+  holy_site_jyotisar_effect_name: "From [holy_site|E] #weak ($holy_site_jyotisar_name$)#!"
+  holy_site_jageshwar_name: "Jageshwar"
+  holy_site_jageshwar_effect_name: "From [holy_site|E] #weak ($holy_site_jageshwar_name$)#!"
+  holy_site_vadaranyeswarar_name: "Vadaranyeswarar"
+  holy_site_vadaranyeswarar_effect_name: "From [holy_site|E] #weak ($holy_site_vadaranyeswarar_name$)#!"
+  holy_site_chidambaram_name: "Chidambaram"
+  holy_site_chidambaram_effect_name: "From [holy_site|E] #weak ($holy_site_chidambaram_name$)#!"
+  holy_site_madurai_name: "Madurai"
+  holy_site_madurai_effect_name: "From [holy_site|E] #weak ($holy_site_madurai_name$)#!"
+  holy_site_thirukutralam_name: "Thirukutralam"
+  holy_site_thirukutralam_effect_name: "From [holy_site|E] #weak ($holy_site_thirukutralam_name$)#!"
+  holy_site_srisailam_name: "Srisailam"
+  holy_site_srisailam_effect_name: "From [holy_site|E] #weak ($holy_site_srisailam_name$)#!"
+  holy_site_bhimashankar_name: "Bhimashankar"
+  holy_site_bhimashankar_effect_name: "From [holy_site|E] #weak ($holy_site_bhimashankar_name$)#!"
+  holy_site_trimbakeshwar_name: "Trimbakeshwar"
+  holy_site_trimbakeshwar_effect_name: "From [holy_site|E] #weak ($holy_site_trimbakeshwar_name$)#!"
+  holy_site_somnath_name: "Somnath"
+  holy_site_somnath_effect_name: "From [holy_site|E] #weak ($holy_site_somnath_name$)#!"
+  holy_site_omkareshwar_name: "Omkareshwar"
+  holy_site_omkareshwar_effect_name: "From [holy_site|E] #weak ($holy_site_omkareshwar_name$)#!"
+  holy_site_grishneshwar_name: "Grishneshwar"
+  holy_site_grishneshwar_effect_name: "From [holy_site|E] #weak ($holy_site_grishneshwar_name$)#!"
+  holy_site_baidyanath_name: "Baidyanath"
+  holy_site_baidyanath_effect_name: "From [holy_site|E] #weak ($holy_site_baidyanath_name$)#!"
+  holy_site_kedarnath_name: "Kedarnath"
+  holy_site_kedarnath_effect_name: "From [holy_site|E] #weak ($holy_site_kedarnath_name$)#!"
+  holy_site_mahalakshmi_name: "mahalakshmi"
+  holy_site_mahalakshmi_effect_name: "From [holy_site|E] #weak ($holy_site_mahalakshmi_name$)#!"
+  holy_site_sharada_peeth_name: "Sharada Peeth"
+  holy_site_sharada_peeth_effect_name: "From [holy_site|E] #weak ($holy_site_sharada_peeth_name$)#!"
+  holy_site_ucchi_pillayar_name: "Ucchi Pillayar"
+  holy_site_ucchi_pillayar_effect_name: "From [holy_site|E] #weak ($holy_site_ucchi_pillayar_name$)#!"
+  holy_site_kamakshi_name: "Kamakshi"
+  holy_site_kamakshi_effect_name: "From [holy_site|E] #weak ($holy_site_kamakshi_name$)#!"
+  holy_site_chamundeshwari_name: "Chamundeshwari"
+  holy_site_chamundeshwari_effect_name: "From [holy_site|E] #weak ($holy_site_chamundeshwari_name$)#!"
+  holy_site_jogulamba_name: "Jogulamba"
+  holy_site_jogulamba_effect_name: "From [holy_site|E] #weak ($holy_site_jogulamba_name$)#!"
+  holy_site_biraja_name: "Biraja"
+  holy_site_biraja_effect_name: "From [holy_site|E] #weak ($holy_site_biraja_name$)#!"
+  holy_site_kamakhya_name: "Kamakhya"
+  holy_site_kamakhya_effect_name: "From [holy_site|E] #weak ($holy_site_kamakhya_name$)#!"
+  holy_site_multan_name: "Multan"
+  holy_site_multan_effect_name: "From [holy_site|E] #weak ($holy_site_multan_name$)#!"
+  holy_site_katarmal_name: "Katarmal"
+  holy_site_katarmal_effect_name: "From [holy_site|E] #weak ($holy_site_katarmal_name$)#!"
+  holy_site_konark_name: "Konark"
+  holy_site_konark_effect_name: "From [holy_site|E] #weak ($holy_site_konark_name$)#!"
+  holy_site_navlakha_name: "Navlakha"
+  holy_site_navlakha_effect_name: "From [holy_site|E] #weak ($holy_site_navlakha_name$)#!"
+  holy_site_suryanarayana_name: "suryanarayana"
+  holy_site_suryanarayana_effect_name: "From [holy_site|E] #weak ($holy_site_suryanarayana_name$)#!"
+  holy_site_mayureshwar_name: "Mayureshwar"
+  holy_site_mayureshwar_effect_name: "From [holy_site|E] #weak ($holy_site_mayureshwar_name$)#!"
+  holy_site_ballaleshwar_name: "Ballaleshwar"
+  holy_site_ballaleshwar_effect_name: "From [holy_site|E] #weak ($holy_site_ballaleshwar_name$)#!"
+  holy_site_girjatmaj_name: "Girjatmaj"
+  holy_site_girjatmaj_effect_name: "From [holy_site|E] #weak ($holy_site_girjatmaj_name$)#!"
+  holy_site_dhandayuthapani_name: "Dhandayuthapani"
+  holy_site_dhandayuthapani_effect_name: "From [holy_site|E] #weak ($holy_site_dhandayuthapani_name$)#!"
+  holy_site_pazhamudircholai_name: "Pazhamudircholai"
+  holy_site_pazhamudircholai_effect_name: "From [holy_site|E] #weak ($holy_site_pazhamudircholai_name$)#!"
+  holy_site_thiruparankundram_name: "Thiruparankundram"
+  holy_site_thiruparankundram_effect_name: "From [holy_site|E] #weak ($holy_site_thiruparankundram_name$)#!"
+  holy_site_tiruchendur_name: "tiruchendur"
+  holy_site_tiruchendur_effect_name: "From [holy_site|E] #weak ($holy_site_tiruchendur_name$)#!"
+  holy_site_arulmigu_name: "Arulmigu"
+  holy_site_arulmigu_effect_name: "From [holy_site|E] #weak ($holy_site_arulmigu_name$)#!"
+  holy_site_tiruttani_name: "Tiruttani"
+  holy_site_tiruttani_effect_name: "From [holy_site|E] #weak ($holy_site_tiruttani_name$)#!"
+
+
+
+
+
+
+
+

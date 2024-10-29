@@ -255,7 +255,7 @@ set_nat_effect = {# Burmese Deities
 	add_character_modifier = $NAT$
 }
 ######################################
-Animal Sacrifices 
+# Animal Sacrifices 
 ######################################
 dharma_vedic_devi_animal_sacrifice_effect = {
 	random_list = {
@@ -268,27 +268,57 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_devi_blessing_small
@@ -298,27 +328,57 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -332,27 +392,57 @@ dharma_vedic_devi_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -376,27 +466,57 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_durga_blessing_small
@@ -406,27 +526,57 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -440,27 +590,57 @@ dharma_vedic_durga_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -484,27 +664,57 @@ dharma_vedic_indra_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_indra_blessing_small
@@ -514,27 +724,57 @@ dharma_vedic_indra_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -548,27 +788,57 @@ dharma_vedic_indra_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -592,27 +862,57 @@ dharma_vedic_saraswati_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_saraswati_blessing_small
@@ -622,27 +922,57 @@ dharma_vedic_saraswati_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -656,27 +986,57 @@ dharma_vedic_saraswati_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -700,27 +1060,57 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_lakshmi_blessing_small
@@ -730,27 +1120,57 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -764,27 +1184,57 @@ dharma_vedic_lakshmi_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -808,27 +1258,57 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_bhaga_blessing_small
@@ -838,27 +1318,57 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -872,27 +1382,57 @@ dharma_vedic_bhaga_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
-				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				add = 5			
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -916,27 +1456,57 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_parvati_blessing_small
@@ -946,27 +1516,57 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -980,27 +1580,57 @@ dharma_vedic_parvati_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -1024,27 +1654,57 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_agni_blessing_small
@@ -1054,27 +1714,57 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -1088,27 +1778,57 @@ dharma_vedic_agni_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -1132,27 +1852,57 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_brhaspati_blessing_small
@@ -1162,27 +1912,57 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -1196,27 +1976,57 @@ dharma_vedic_brhaspati_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -1240,27 +2050,57 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 		30 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			add_character_modifier = {
 				modifier = dharma_vedic_aditi_blessing_small
@@ -1270,27 +2110,57 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 		20 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5
@@ -1304,27 +2174,57 @@ dharma_vedic_aditi_animal_sacrifice_effect = {
 		10 = {
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_small
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_small
+					}
+				}
 			}
 			modifier = {
 				add = 5
-				has_character_flag = dharma_animal_sacrifice_goat
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_goats
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_medium
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_medium
+					}
+				}
 			}
 			modifier = {
 				add = 10
-				has_character_flag = dharma_animal_sacrifice_buffalo
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_water_buffalos
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_large
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_amount_large
+					}
+				}
 			}
 			modifier = {
 				add = 15
-				has_character_flag = dharma_animal_sacrifice_horse
+				scope:activity = {
+					has_activity_option = {
+						category = special_type
+						option = dharma_vedic_sacrifice_animal_type_horse
+					}
+				}
 			}
 			modifier = {
 				add = 5

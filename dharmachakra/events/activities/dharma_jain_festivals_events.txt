@@ -22,7 +22,7 @@ dharma_jain_festivals.001 = {# arriving in Shravanabelagola
 	
 	option = { # Ok
 		name = dharma_jain_festivals.001.a
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.002
 				days = { 2 4 }
@@ -49,7 +49,7 @@ dharma_jain_festivals.002 = {# The grand Anointing of the Statue
 			humble = minor_stress_impact_loss # Shy people don't like to be leading the anointing
 			zealous = minor_stress_impact_loss # Zealous people like to be involved regardless
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.003
 				days = { 2 4 }
@@ -65,7 +65,7 @@ dharma_jain_festivals.002 = {# The grand Anointing of the Statue
 			humble = minor_stress_impact_loss # Shy people don't like to be leading the anointing
 			zealous = minor_stress_impact_loss # Zealous people like to be involved regardless
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.003
 				days = { 2 4 }
@@ -79,7 +79,7 @@ dharma_jain_festivals.002 = {# The grand Anointing of the Statue
 			humble = minor_stress_impact_loss # Shy people don't like to be leading the anointing
 			zealous = minor_stress_impact_loss # Zealous people like to be involved regardless
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.003
 				days = { 2 4 }
@@ -123,7 +123,7 @@ dharma_jain_festivals.003 = {# Meditating on Bahubali's teachings
 			modifier = jain_vow_asteya
 			days = 150
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.004
 				days = { 2 4 }
@@ -148,7 +148,7 @@ dharma_jain_festivals.003 = {# Meditating on Bahubali's teachings
 			modifier = jain_vow_ahimsa
 			days = 150
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.004
 				days = { 2 4 }
@@ -185,7 +185,7 @@ dharma_jain_festivals.004 = {# Leave Shravanabelagola
 				add_prestige = miniscule_prestige_gain
 			}
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.005
 				days = { 2 4 }
@@ -237,7 +237,7 @@ dharma_jain_festivals.006 = {# arriving in Shravanabelagola
 			modifier = fasting_bad_modifier
 			days = 40
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.007
 				days = { 2 4 }
@@ -275,7 +275,7 @@ dharma_jain_festivals.007 = {# Reading from the Holy Texts
 			10 = {	add_learning_lifestyle_xp = minor_lifestyle_xp }
 			90 = {	add_piety = 50	}
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.008
 				days = { 2 4 }
@@ -312,13 +312,13 @@ dharma_jain_festivals.008 = {# Procession to the main Jain temple
 	}
 
 	option = {# I shall lead
-		name = dharma_jain_festivals.008.compassion
+		name = dharma_jain_festivals.008.lead
 		add_prestige = 25
 		stress_impact = {
 			zealous = minor_stress_loss
 			shy = minor_stress_impact_gain
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.009
 				days = { 2 4 }
@@ -326,13 +326,13 @@ dharma_jain_festivals.008 = {# Procession to the main Jain temple
 		}
 	}
 	option = {# the monks shall lead
-		name = dharma_jain_festivals.008.ahimsa
+		name = dharma_jain_festivals.008.no_lead
 		add_piety = 25
 		stress_impact = {
 			zealous = minor_stress_loss
 			shy = minor_stress_impact_gain
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.009
 				days = { 2 4 }
@@ -374,7 +374,7 @@ dharma_jain_festivals.009 = {# Das Dharma - 5 Great vows
 			modifier = jain_vow_ahimsa
 			days = 100
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.010
 				days = { 2 4 }
@@ -387,7 +387,7 @@ dharma_jain_festivals.009 = {# Das Dharma - 5 Great vows
 			modifier = jain_vow_satya
 			days = 100
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.010
 				days = { 2 4 }
@@ -400,7 +400,7 @@ dharma_jain_festivals.009 = {# Das Dharma - 5 Great vows
 			modifier = jain_vow_asteya
 			days = 100
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.010
 				days = { 2 4 }
@@ -413,7 +413,7 @@ dharma_jain_festivals.009 = {# Das Dharma - 5 Great vows
 			modifier = jain_vow_aparigraha
 			days = 100
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.010
 				days = { 2 4 }
@@ -426,7 +426,7 @@ dharma_jain_festivals.009 = {# Das Dharma - 5 Great vows
 			modifier = jain_vow_brahamacarya
 			days = 100
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.010
 				days = { 2 4 }
@@ -464,7 +464,7 @@ dharma_jain_festivals.010 = {# Dhoop Dashami/ Sugandh Dashami - burning of the i
 
 	option = {# Compassion
 		name = dharma_jain_festivals.010.a
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.011
 				days = { 2 4 }
@@ -525,7 +525,7 @@ dharma_jain_festivals.011 = {# Paryushana asking for forgiveness
 			callous = minor_stress_impact_gain
 			sadistic = minor_stress_impact_gain
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.012
 				days = { 2 4 }
@@ -591,7 +591,7 @@ dharma_jain_festivals.012 = {# Paryushana concludes
 				add_prestige = miniscule_prestige_gain
 			}
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.013
 				days = { 2 4 }
@@ -634,7 +634,7 @@ dharma_jain_festivals.014 = {# Mahavir Janma Kalyanak begins
 			modifier = fasting_bad_modifier
 			days = 40
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.015
 				days = { 2 4 }
@@ -654,12 +654,12 @@ dharma_jain_festivals.015 = {# Visiting the temple
 	right_portrait = root
 	
 	option = {# I will personally lead the anointing
-		name = dharma_jain_festivals.015.lead
+		name = dharma_jain_festivals.015.a
 		stress_impact = {
 			shy = minor_stress_impact_gain
 			gregarious = minor_stress_impact_loss
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.016
 				days = { 2 4 }
@@ -704,7 +704,7 @@ dharma_jain_festivals.016 = {# Meditating on Mahavira's teachings
 			modifier = jain_vow_asteya
 			days = 150
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.017
 				days = { 2 4 }
@@ -729,7 +729,7 @@ dharma_jain_festivals.016 = {# Meditating on Mahavira's teachings
 			modifier = jain_vow_ahimsa
 			days = 150
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.017
 				days = { 2 4 }
@@ -755,7 +755,7 @@ dharma_jain_festivals.017 = {# annointing the idol
 		name = dharma_jain_festivals.017.a
 		add_piety = miniscule_piety_gain
 
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.018
 				days = { 2 4 }
@@ -779,36 +779,7 @@ dharma_jain_festivals.018 = {# The procession
 
 	option = {# Compassion
 		name = dharma_jain_festivals.018.a
-		stress_impact = {
-			shy = minor_stress_impact_gain
-			gregarious = minor_stress_impact_loss
-		}
-		hidden_event = {
-			trigger_event = {
-				id = dharma_jain_festivals.019
-				days = { 2 4 }
-			}
-		}
-	}
-	option = {# Non-Violence
-		name = dharma_jain_festivals.018.ahimsa
-		random_list = {
-			10 = {
-				if = {
-					limit = { has_trait = vengeful }
-					remove_trait = vengeful
-				}
-				add_trait = forgiving
-			}
-			90 = {
-
-			}
-		}
-		add_character_modifier = {
-			modifier = jain_vow_ahimsa
-			days = 150
-		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.019
 				days = { 2 4 }
@@ -849,7 +820,7 @@ dharma_jain_festivals.019 = {# providing charity to the local community
 			greedy = miniscule_stress_impact_loss
 			avaricious = miniscule_stress_impact_loss
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.020
 				days = { 2 4 }
@@ -869,7 +840,7 @@ dharma_jain_festivals.019 = {# providing charity to the local community
 			greedy = minor_stress_impact_gain
 			avaricious = minor_stress_impact_gain
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.020
 				days = { 2 4 }
@@ -895,7 +866,7 @@ dharma_jain_festivals.019 = {# providing charity to the local community
 			greedy = medium_stress_impact_gain
 			avaricious = medium_stress_impact_gain
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.020
 				days = { 2 4 }
@@ -934,7 +905,7 @@ dharma_jain_festivals.020 = {# donating to the local monastic community
 			greedy = miniscule_stress_impact_loss
 			avaricious = miniscule_stress_impact_loss
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.021
 				days = { 2 4 }
@@ -954,7 +925,7 @@ dharma_jain_festivals.020 = {# donating to the local monastic community
 			greedy = minor_stress_impact_gain
 			avaricious = minor_stress_impact_gain
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.021
 				days = { 2 4 }
@@ -978,7 +949,7 @@ dharma_jain_festivals.020 = {# donating to the local monastic community
 			greedy = medium_stress_impact_gain
 			avaricious = medium_stress_impact_gain
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.021
 				days = { 2 4 }
@@ -1015,7 +986,7 @@ dharma_jain_festivals.021 = {# Mahavir Janma Kalyanak concludes
 				add_prestige = miniscule_prestige_gain
 			}
 		}
-		hidden_event = {
+		hidden_effect = {
 			trigger_event = {
 				id = dharma_jain_festivals.022
 				days = { 2 4 }

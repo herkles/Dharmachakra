@@ -1,0 +1,320 @@
+﻿#######################################
+# Vesak
+#######################################
+dharma_buddhist_festival_vesak_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_buddhist_festival_vesak_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Buddhist Retreat
+#######################################
+dharma_buddhist_retreat_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_buddhist_retreat_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Chhath
+#######################################
+dharma_festival_chhath_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_festival_chhath_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Gangaur
+#######################################
+dharma_festival_gangaur_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_festival_gangaur_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Losar
+#######################################
+dharma_festival_losar_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_festival_losar_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Pongal
+#######################################
+dharma_festival_pongal_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_festival_pongal_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Ratha Yatra
+#######################################
+dharma_festival_ratha_yatra_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_festival_ratha_yatra_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Thaipusam
+#######################################
+dharma_festival_thaipusam_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_festival_thaipusam_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Thingyan
+#######################################
+dharma_festival_thingyan_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_festival_thingyan_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Diwali
+#######################################
+dharma_hindu_festival_diwali_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_hindu_festival_diwali_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Navaratri
+#######################################
+dharma_hindu_festival_navaratri_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_hindu_festival_navaratri_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Mahamastakabhisheka
+#######################################
+dharma_jain_festival_mahamastakabhisheka_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_jain_festival_mahamastakabhisheka_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Mahavir Janma Kalyanak
+#######################################
+dharma_jain_festival_paryushana_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_jain_festival_paryushana_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Paryushana
+#######################################
+dharma_jain_festival_mahavir_janma_kalyanak_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_jain_festival_mahavir_janma_kalyanak_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+#######################################
+# Vedic Animal Sacrifice
+#######################################
+dharma_vedic_sacrifice_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_vedic_sacrifice_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
+
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

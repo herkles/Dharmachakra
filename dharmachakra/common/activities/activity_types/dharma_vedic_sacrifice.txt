@@ -218,6 +218,64 @@
 				}
 			}
 		}
+		dharma_vedic_sacrifice_animal_amount = {
+			dharma_vedic_sacrifice_animal_amount_small = {
+				default = yes		
+				ai_will_do = {
+					value = 15
+				}
+			}
+			dharma_vedic_sacrifice_animal_amount_medium = {
+				cost = { 
+					gold = {
+						add = {
+							value = 0
+							desc = dharma_vedic_sacrifice_animal_amount
+							add = {
+								value = 50
+								desc = dharma_vedic_sacrifice_animal_amount
+							}
+						}
+					}
+				}				
+				ai_will_do = {
+					value = 10
+					if = {
+						limit = {
+							short_term_gold <= 50
+						}
+						subtract = {
+							value = 10
+						}
+					}
+				}
+			}
+			dharma_vedic_sacrifice_animal_amount_large = {
+				cost = { 
+					gold = {
+						add = {
+							value = 0
+							desc = dharma_vedic_sacrifice_animal_amount
+							add = {
+								value = 100
+								desc = dharma_vedic_sacrifice_animal_amount
+							}
+						}
+					}
+				}				
+				ai_will_do = {
+					value = 5
+					if = {
+						limit = {
+							short_term_gold <= 100
+						}
+						subtract = {
+							value = 5
+						}
+					}
+				}
+			}
+		}
 	}
 
 	###################

@@ -811,7 +811,7 @@
 	sena_1 = {
 		name = "Kesava" # "His two sons Visvarupasena and Kesavasena ruled in succession after him. The latter is known from a single record dated in his third regnal year"
 		dynasty = 1026500
-		religion = "saura" # "The epithet ‘Saura,’ applied to these kings seems to indicate that they were sun-worshippers."
+		religion = "suryaism" # "The epithet ‘Saura,’ applied to these kings seems to indicate that they were sun-worshippers."
 		culture = "bengali"
 		father = 154005
 		1165.1.1 = {

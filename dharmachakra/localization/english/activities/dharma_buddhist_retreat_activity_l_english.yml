@@ -48,7 +48,6 @@
   dharma_buddhist_retreat_completed_log_title: "Buddhist Retreat Completed"
   dharma_buddhist_retreat_completed_log: "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Buddhist Retreat"
   TRAVEL_NAME_FOR_activity_dharma_buddhist_retreat: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_buddhist_retreat$"
-
 ###################################
 # Character Memories
 ###################################

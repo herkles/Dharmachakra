@@ -19,9 +19,9 @@
  dharma_jain_festivals.003.compassion:0 "Compassion"
  dharma_jain_festivals.003.ahimsa:0 "Non-Violence"
 
- dharma_jain_festivals.005.t:0 "Mahamastakabhisheka concludes"
- dharma_jain_festivals.005.desc:0 "I have returned home after celebrating the Mahamastakabhisheka. It will be at least another twelve years till I can  attend the festival again."
- dharma_jain_festivals.005.a:0 "It is good to be back home"
+ dharma_jain_festivals.004.t:0 "Mahamastakabhisheka concludes"
+ dharma_jain_festivals.004.desc:0 "I have returned home after celebrating the Mahamastakabhisheka. It will be at least another twelve years till I can  attend the festival again."
+ dharma_jain_festivals.004.a:0 "It is good to be back home"
 
 #######################################
 # Paryushana Festival
@@ -40,7 +40,7 @@
   dharma_jain_festivals.008.svetembara.desc:0 "As part of the celebration of Paryushyana, it is common to have a procession through the community to the largest Jain Temple. Should I be the one to lead the procession or should I let the monks lead the procession?"
   dharma_jain_festivals.008.digambara.desc:0 "As part of the celebration of Das Lakshana Dharma, it is common to have a procession through the community to the largest Jain Temple. Should I be the one to lead the procession or should I let the monks lead the procession?"
   dharma_jain_festivals.008.lead:0 "I shall lead the procession."
-  dharma_jain_festivals.008.nolead:0 "The monks shall lead."
+  dharma_jain_festivals.008.no_lead:0 "The monks shall lead."
 
   dharma_jain_festivals.009.t:0 "The five great virtues"
   dharma_jain_festivals.009.svetembara.desc:0 "As part of the Paryushana celebrations it is customary to meditate upon the Five Great Vows. The question is which one shall I focus on meditating on?"
@@ -51,7 +51,7 @@
   dharma_jain_festivals.009.aparigraha:0 "Aparigraha"
   dharma_jain_festivals.009.brahmacarya:0 "Brahamacarya"
 
-  dharma_jain_festivals.010.title:0 "Sugandh Dashami"
+  dharma_jain_festivals.010.t:0 "Sugandh Dashami"
   dharma_jain_festivals.010.svetembara.desc:0 "As part of the Paryushana celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder infront of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul. "
   dharma_jain_festivals.010.digambara.desc:0 "As part of the Das Lakshana Dharma celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder infront of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul."
   dharma_jain_festivals.010.a:0 "burn my karma away."
@@ -69,45 +69,39 @@
 #######################################
 # Mahavir Janma Kalyanak
 #######################################
-  dharma_jain_festivals.014.t:0 "Preparing for the Mahavir Janma Kalyanak Festival"
-  dharma_jain_festivals.014.desc:0 "It is that time of the year where the Mahavir Janma Kalyanak is to be held. The preparations are underway to celebrate the birth of the 24th Tirthankara. "
-  dharma_jain_festivals.014.a:0 "Wonderful."
-  activity_dharma_mahavir_kalyanak_festival:0 "Mahavir Janma Kalyanak Festival"
-  activity_dharma_mahavir_kalyanak_festival_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Attendance of the Mahavir Janma Kalyanak Festival" 
+  dharma_jain_festivals.014.t:0 "Mahavir Janma Kalyanak Begins"
+  dharma_jain_festivals.014.desc:0 "All the preparations are finished and it is time to begin the celebrations of Mahavira's birth. As is custom, during the festival itself the Jain community shall be fasting together."
+  dharma_jain_festivals.014.a:0 "Om Namah Siddhanam"
 
-  dharma_jain_festivals.015.t:0 "Mahavir Janma Kalyanak Begins"
-  dharma_jain_festivals.015.desc:0 "All the preparations are finished and it is time to begin the celebrations of Mahavira's birth. As is custom, during the festival itself the Jain community shall be fasting together."
-  dharma_jain_festivals.015.a:0 "Om Namah Siddhanam"
+  dharma_jain_festivals.015.t:0 "Visiting the Temple"
+  dharma_jain_festivals.015.desc:0 "You arrive to the Temple for the first part of the festivities of Mahavir Jhanma Kalyanak. The local monks are to give a talk on the nature of Ahimsa, Compassion and living a good life. Reading and reciting from the sacred scriptures is also being done."
+  dharma_jain_festivals.015.a:0 "A good Speech"
 
-  dharma_jain_festivals.016.t:0 "Visiting the Temple"
-  dharma_jain_festivals.016.desc:0 "You arrive to the Temple for the first part of the festivities of Mahavir Jhanma Kalyanak. The local monks are to give a talk on the nature of Ahimsa, Compassion and living a good life. Reading and reciting from the sacred scriptures is also being done."
-  dharma_jain_festivals.016.a:0 "A good Speech"
+  dharma_jain_festivals.016.t:0 "Meditating on Mahavira's teachings"
+  dharma_jain_festivals.016.desc:0 "After the Monks gave their speeches, it is time for meditation. As you take your place with the others. As I sit on the floor meditating, the question is what will I meditate on?"
+  dharma_jain_festivals.016.ahimsa:0 "Ahimsa"
+  dharma_jain_festivals.016.compassion:0 "Compassion"
 
-  dharma_jain_festivals.017.t:0 "Meditating on Mahavira's teachings"
-  dharma_jain_festivals.017.desc:0 "After the Monks gave their speeches, it is time for meditation. As you take your place with the others. As I sit on the floor meditating, the question is what will I meditate on?"
-  dharma_jain_festivals.017.ahimsa:0 "Ahimsa"
-  dharma_jain_festivals.017.compassion:0 "Compassion"
+  dharma_jain_festivals.017.t:0 "Annointing the idol"
+  dharma_jain_festivals.017.desc:0 "After the meditation, the monks lead through the annointing of the statue of Mahavira. I watch as the monks ceremonially bath the statue, before placing the idol upon a palanquin."
+  dharma_jain_festivals.017.a:0 "Namo Loe Savva Sahunam"
 
-  dharma_jain_festivals.018.t:0 "Annointing the idol"
-  dharma_jain_festivals.018.desc:0 "After the meditation, the monks lead through the annointing of the statue of Mahavira. I watch as the monks ceremonially bath the statue, before placing the idol upon a palanquin."
-  dharma_jain_festivals.018.a:0 "Namo Loe Savva Sahunam"
+  dharma_jain_festivals.018.t:0 "The procession of Mahavira's Idol"
+  dharma_jain_festivals.018.desc:0 "The monks lead the statue of Mahavira onto a chariot that pulls the statue of Mahavira through the city. Behind the main statue are smaller idols showing the life of the 24th Tirthankara."
+  dharma_jain_festivals.018.a:0 "Esopanncanamokkaro, savvapavappanasano"
 
-  dharma_jain_festivals.019.t:0 "The procession of Mahavira's Idol"
-  dharma_jain_festivals.019.desc:0 "The monks lead the statue of Mahavira onto a chariot that pulls the statue of Mahavira through the city. Behind the main statue are smaller idols showing the life of the 24th Tirthankara."
-  dharma_jain_festivals.019.a:0 "Esopanncanamokkaro, savvapavappanasano"
+  dharma_jain_festivals.019.t:0 "Providing Charity to the Local Community"
+  dharma_jain_festivals.019.desc:0 "As part of the celebrations of Mahavir Janma Kalyanak it is customary to provide donations to the local community. How much shall you be giving this time?"
+  dharma_jain_festivals.019.small:0 "Small Donation"
+  dharma_jain_festivals.019.medium:0 "A regular Donation"
+  dharma_jain_festivals.019.large:0 "A Grand Donation"
 
-  dharma_jain_festivals.020.t:0 "Providing Charity to the Local Community"
-  dharma_jain_festivals.020.desc:0 "As part of the celebrations of Mahavir Janma Kalyanak it is customary to provide donations to the local community. How much shall you be giving this time?"
+  dharma_jain_festivals.020.t:0 "donating to the local monastic community"
+  dharma_jain_festivals.020.desc:0 "As part of the celebrations of Mahavir Janma Kalyanak it is customary to provide donations to the local monastic community. How much shall you be giving this time?"
   dharma_jain_festivals.020.small:0 "Small Donation"
   dharma_jain_festivals.020.medium:0 "A regular Donation"
   dharma_jain_festivals.020.large:0 "A Grand Donation"
 
-  dharma_jain_festivals.021.t:0 "donating to the local monastic community"
-  dharma_jain_festivals.021.desc:0 "As part of the celebrations of Mahavir Janma Kalyanak it is customary to provide donations to the local monastic community. How much shall you be giving this time?"
-  dharma_jain_festivals.021.small:0 "Small Donation"
-  dharma_jain_festivals.021.medium:0 "A regular Donation"
-  dharma_jain_festivals.021.large:0 "A Grand Donation"
-
-  dharma_jain_festivals.022.t:0 "Mahavir Janma Kalyanak concludes"
-  dharma_jain_festivals.022.desc:0 "Mahavir Janma Kalyanak has come to an end.It has been a grand time celebrating the festivities, but all things must come to an end. With its end also marks the end of the fast. "
-  dharma_jain_festivals.022.a:0 "And, of all auspicious mantras, it is indeed the foremost auspicious one."
+  dharma_jain_festivals.021.t:0 "Mahavir Janma Kalyanak concludes"
+  dharma_jain_festivals.021.desc:0 "Mahavir Janma Kalyanak has come to an end.It has been a grand time celebrating the festivities, but all things must come to an end. With its end also marks the end of the fast. "
+  dharma_jain_festivals.021.a:0 "And, of all auspicious mantras, it is indeed the foremost auspicious one."

@@ -293,7 +293,7 @@
 304684 = {# Ibrahim Shah
 	name="Ibrahim"
 	dynasty=2003035 # Shah
-	religion="sunni"
+	religion="ashari"
 	culture="persian"
 	1160.1.1={
 		birth=yes
@@ -308,7 +308,7 @@
 304685 = {
 	name="Birbal"
 	dynasty=2003036 # Maqpon
-	religion="sunni"
+	religion="ashari"
 	culture="kashmiri" #Dardic
 	father=304684
 	mother=304683
@@ -322,7 +322,7 @@
 304686 = {# Ganga
 	name="Ganga"
 	dynasty=2003036 # Maqpon
-	religion="sunni"
+	religion="ashari"
 	culture="kashmiri" #Dardic
 	father=304685
 	1200.1.1={
@@ -335,7 +335,7 @@
 304687 = {# Shuhul
 	name="Shuhul"
 	dynasty=2003036 # Maqpon
-	religion="sunni"
+	religion="ashari"
 	culture="kashmiri" #Dardic
 	father=304686
 	1220.1.1={
@@ -348,7 +348,7 @@
 304688 = {# Eshin
 	name="Eshin"
 	dynasty=2003036 # Maqpon
-	religion="sunni"
+	religion="ashari"
 	culture="kashmiri" #Dardic
 	father=304687
 	1240.1.1={
@@ -361,7 +361,7 @@
 304689 = {# Rahul
 	name="Rahul"
 	dynasty=2003036 # Maqpon
-	religion="sunni"
+	religion="ashari"
 	culture="kashmiri" #Dardic
 	father=304688
 	1280.1.1={
@@ -374,7 +374,7 @@
 304690 = {# Arun
 	name="Arun"
 	dynasty=2003036 # Maqpon
-	religion="sunni"
+	religion="ashari"
 	culture="kashmiri" #Dardic
 	father=304689
 	1320.1.1={

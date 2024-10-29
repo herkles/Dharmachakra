@@ -31,30 +31,6 @@ dharma_happy_clergy_festival = {
 	clergy_opinion = 5
 }
 #######################################
-# Nalanda Modifiers
-#######################################
-nalanda_learning_books = {
-	icon = learning_positive
-	monthly_learning_lifestyle_xp_gain_mult = 0.05
-}
-nalanda_learning_medicine = {
-	icon = health_positive
-	health = 0.05
-	monthly_learning_lifestyle_xp_gain_mult = 0.05
-}
-nalanda_learning_logic = {
-	icon = piety_positive
-	diplomacy = 1
-}
-nalanda_learning_astrology = {
-	icon = letter_positive
-	learning = 1
-}
-nalanda_learning_yoga = {
-	icon = health_positive
-	health = 0.25
-}
-#######################################
 # Jain Modifiers
 #######################################
 jain_vow_ahimsa = {# Contemplating Ahimsa

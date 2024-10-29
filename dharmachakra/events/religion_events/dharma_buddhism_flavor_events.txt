@@ -304,7 +304,7 @@ dharma_buddhism.050 = {# Mahayana Schools
 		animation = personality_rational
 	}
 
-	East Asian Mahayana
+	# East Asian Mahayana
 	option = {# Chan
 		name = dharma_buddhism.050.chan
 		trigger = {
@@ -337,7 +337,7 @@ dharma_buddhism.050 = {# Mahayana Schools
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_pure_land }
 	}				
-	Opt-Out
+	# Opt-Out
 	option = {
 		name = dharma_buddhism.050.optout
 		ai_chance = {
@@ -393,7 +393,7 @@ dharma_buddhism.051 = {# Tibetan Schools
 		}
 		set_buddhist_school_effect = { YANA = buddhist_school_kagyu }
 	}				
-	Opt-Out
+	# Opt-Out
 	option = {
 		name = dharma_buddhism.050.optout
 		ai_chance = {
@@ -422,7 +422,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 
 	trigger = {
 		OR = {
-			Mahayana Schools
+			# Mahayana Schools
 			AND = {
 				scope:realm_priest = { has_trait = buddhist_school_chan }
 				OR = {
@@ -455,7 +455,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 					has_trait = buddhist_school_chan
 				}
 			}
-			Tibetan Schools
+			# Tibetan Schools
 			AND = {
 				scope:realm_priest = { has_trait = buddhist_school_nyingma }
 				OR = {
@@ -517,7 +517,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 				remove_trait = buddhist_school_sakya
 				remove_trait = buddhist_school_kagyu
 			}
-			Assign the Mahayana School
+			# Assign the Mahayana School
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_chan } }
 				add_trait = buddhist_school_chan
@@ -534,7 +534,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 				limit = { scope:realm_priest = { has_trait = buddhist_school_pure_land } }
 				add_trait = buddhist_school_pure_land
 			}
-			Assign the Tibetan School
+			# Assign the Tibetan School
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_nyingma } }
 				add_trait = buddhist_school_nyingma
@@ -610,7 +610,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 							remove_trait = buddhist_school_kagyu
 						}
 					}
-					Mahayana Schools
+					# Mahayana Schools
 					if = {
 						limit = { root = { has_trait = buddhist_school_chan } }
 						add_trait = buddhist_school_chan
@@ -627,7 +627,7 @@ dharma_buddhism.052 = {# Your chief monk follows a different school then you do
 						limit = { root = { has_trait = buddhist_school_pure_land } }
 						add_trait = buddhist_school_pure_land
 					}
-					Mahayana Schools
+					# Mahayana Schools
 					if = {
 						limit = { root = { has_trait = buddhist_school_nyingma } }
 						add_trait = buddhist_school_nyingma
@@ -692,24 +692,24 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 			faith = faith:lamaism
 		}
 		OR = {
-			Mahayana Schools
+			# Mahayana Schools
 			scope:realm_priest = { has_trait = buddhist_school_chan }
 			scope:realm_priest = { has_trait = buddhist_school_yogachara }
 			scope:realm_priest = { has_trait = buddhist_school_madhyamaka }
 			scope:realm_priest = { has_trait = buddhist_school_pure_land }
-			Tibetan Schools
+			# Tibetan Schools
 			scope:realm_priest = { has_trait = buddhist_school_nyingma }
 			scope:realm_priest = { has_trait = buddhist_school_kadam }
 			scope:realm_priest = { has_trait = buddhist_school_sakya }
 			scope:realm_priest = { has_trait = buddhist_school_kagyu }
 		}
 		NOR = {
-			Mahayana Schools
+			# Mahayana Schools
 			has_trait = buddhist_school_chan
 			has_trait = buddhist_school_yogachara
 			has_trait = buddhist_school_madhyamaka
 			has_trait = buddhist_school_pure_land
-			Tibetan Schools
+			# Tibetan Schools
 			has_trait = buddhist_school_nyingma
 			has_trait = buddhist_school_kadam
 			has_trait = buddhist_school_sakya
@@ -720,7 +720,7 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 	option = {# I will follow the teachings
 		name = dharma_buddhism.053.follow
 		hidden_effect = {	
-			Mahayana Schools
+			# Mahayana Schools
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_chan } }
 				add_trait = buddhist_school_chan
@@ -737,7 +737,7 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 				limit = { scope:realm_priest = { has_trait = buddhist_school_pure_land } }
 				add_trait = buddhist_school_pure_land
 			}
-			Tibetan Schools
+			# Tibetan Schools
 			if = {
 				limit = { scope:realm_priest = { has_trait = buddhist_school_nyingma } }
 				add_trait = buddhist_school_nyingma
@@ -1222,12 +1222,12 @@ dharma_buddhism.063 = {# Maintence to insure the high learning monks are picking
 		has_trait = devoted
 		learning >= decent_skill_rating
 		NOR = {
-			Mahayana School
+			# Mahayana School
 			has_trait = buddhist_school_chan
 			has_trait = buddhist_school_madhyamaka
 			has_trait = buddhist_school_yogachara
 			has_trait = buddhist_school_pure_land
-			Tibetan School
+			# Tibetan School
 			has_trait = buddhist_school_nyingma
 			has_trait = buddhist_school_kadam
 			has_trait = buddhist_school_sakya
@@ -1500,7 +1500,7 @@ dharma_buddhism.200 = {# Tibetan Buddhist Deities
 		animation = personality_rational
 	}
 
-	Bon Deities
+	# Bon Deities
 	option = {# Sipe Gyalmo
 		name = dharma_buddhism.200.gyalmo
 		trigger = {
@@ -1564,7 +1564,7 @@ dharma_buddhism.200 = {# Tibetan Buddhist Deities
 		set_yidam_effect = { YIDAM = buddhist_deity_sherab_chamma }
 	}
 
-	Nang Chos Deities
+	# Nang Chos Deities
 	option = {# Palden Lhamo
 		name = dharma_buddhism.200.palden
 		trigger = {
@@ -1619,7 +1619,7 @@ dharma_buddhism.200 = {# Tibetan Buddhist Deities
 		set_yidam_effect = { YIDAM = buddhist_deity_vajrayogini }
 	}
 
-	Opt-Out
+	# Opt-Out
 	option = {
 		name = dharma_buddhism.200.optout
 		ai_chance = {
@@ -1640,7 +1640,7 @@ dharma_buddhism.201 = {# Burmese Buddhist Deities
 		animation = personality_rational
 	}
 
-	Ari Deities
+	# Ari Deities
 	option = {# Thagyamin
 		name = dharma_buddhism.201.thagyamin
 		trigger = {
@@ -1698,7 +1698,7 @@ dharma_buddhism.201 = {# Burmese Buddhist Deities
 		set_nat_effect = { NAT = nat_ari_shwe_nabay }
 	}
 
-	Burmese Therevada Deities
+	# Burmese Therevada Deities
 	option = {# Thurathadi
 		name = dharma_buddhism.201.thurathadi
 		trigger = {
@@ -1744,7 +1744,7 @@ dharma_buddhism.201 = {# Burmese Buddhist Deities
 		set_nat_effect = { NAT = nat_therevada_manimekhala }
 	}
 
-	Opt-Out
+	# Opt-Out
 	option = {
 		name = dharma_buddhism.201.optout
 		ai_chance = {
@@ -1765,7 +1765,7 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 		animation = personality_rational
 	}
 
-	East Asian Mahayana
+	# East Asian Mahayana
 	option = {# Guanyin
 		name = dharma_buddhism.202.guanyin
 		trigger = {
@@ -1819,7 +1819,7 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 		}
 		set_yidam_effect = { YIDAM = buddhist_deity_bhaisajyaguru }
 	}	
-	Indian Mahayana
+	# Indian Mahayana
 	option = {# Vasudhara
 		name = dharma_buddhism.202.vasudhara
 		trigger = {
@@ -1882,7 +1882,7 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 		}
 		set_yidam_effect = { YIDAM = buddhist_deity_samantabhadra }
 	}
-	Vajarayana Deities
+	# Vajarayana Deities
 	option = {# Tara
 		name = dharma_buddhism.202.tara
 		trigger = {
@@ -1907,7 +1907,7 @@ dharma_buddhism.202 = {# Mahayana Boddhisattvas
 		}
 		set_yidam_effect = { YIDAM = buddhist_deity_ratnasambhava }
 	}
-	Opt-Out
+	# Opt-Out
 	option = {
 		name = dharma_buddhism.200.optout
 		ai_chance = {

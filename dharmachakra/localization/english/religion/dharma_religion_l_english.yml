@@ -4,9 +4,9 @@
   doctrine_cultural_religion_name:0 "$doctrine_cultural_religion$"
   cultural_religion_desc:0 "Our faith and our culture are intrinsically linked together. This practice strengthens the bonds of our community, though it tends to exclude foreigners."
 
-  doctrine_cultural_religion:0 "Tribal Religion"
+  doctrine_tribal_religion:0 "Tribal Religion"
   tribal_religion_name:0 "Tribal Religion"
-  doctrine_tribal_religion_name:0 "$doctrine_cultural_religion$"
+  doctrine_tribal_religion_name:0 "$doctrine_tribal_religion$"
   tribal_religion_desc:0 "Our faith and our culture are intrinsically linked together. This practice strengthens the bonds of our community, though it tends to exclude foreigners."
 
   divine_destiny_jain_name:0 "Divine Destiny"
