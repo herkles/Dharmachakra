@@ -230,10 +230,10 @@
 					gold = {
 						add = {
 							value = 0
-							desc = dharma_vedic_sacrifice_animal_amount
+							desc = dharma_vedic_sacrifice_animal_amounts
 							add = {
 								value = 50
-								desc = dharma_vedic_sacrifice_animal_amount
+								desc = dharma_vedic_sacrifice_animal_amounts
 							}
 						}
 					}
@@ -255,10 +255,10 @@
 					gold = {
 						add = {
 							value = 0
-							desc = dharma_vedic_sacrifice_animal_amount
+							desc = dharma_vedic_sacrifice_animal_amounts
 							add = {
 								value = 100
-								desc = dharma_vedic_sacrifice_animal_amount
+								desc = dharma_vedic_sacrifice_animal_amounts
 							}
 						}
 					}

@@ -25,8 +25,18 @@
   dharma_vedic_sacrifice_animal_type_water_buffalos_desc: "You will sacrifice Water Buffalo, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E].\n\n#weak [GetPlayer.GetFaith.PantheonTerm] will surely be pleased with offering Water Buffalo.#!"
   dharma_vedic_sacrifice_animal_type_horse: "Horses"
   dharma_vedic_sacrifice_animal_type_horse_desc: "You will sacrifice horses, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E].\n\n#weak For [GetPlayer.GetFaith.PantheonTerm], our sacrifice of horses will be nothing short of spectacular!#!"
-
   dharma_vedic_sacrifice_animal_type_type: "The type of Animal Sacrificed"
+
+  dharma_vedic_sacrifice_animal_amount: "Offering Size"
+  dharma_vedic_sacrifice_animal_amount_small: "Small"
+  dharma_vedic_sacrifice_animal_amount_small_desc: "A small and humble offering shall be offered."
+  dharma_vedic_sacrifice_animal_amount_medium: "Medium"
+  dharma_vedic_sacrifice_animal_amount_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_vedic_sacrifice_animal_amount_large: "Large"
+  dharma_vedic_sacrifice_animal_amount_large_desc: "A grand offering shall be offered."
+
+  dharma_vedic_sacrifice_animal_amounts: "The size of the offering that shall be offered."
+
 ###################################
 # Phases
 ###################################
