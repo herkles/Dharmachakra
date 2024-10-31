@@ -240,22 +240,16 @@
 			color = { 0.8 0.4 0.0 }
 			icon = buddhism
 
-			# The four main pilgrimage sites
-			holy_site = bodh_gaya # 1
-			holy_site = sarnath # 2
-			holy_site = kusinagara # 3
-			# Indian Pilgrimage Sites4
-			holy_site = vaishali # 4
-			holy_site = nalanda # 5
-			holy_site = sravasti # 6
-			holy_site = sankassa # 7
-			# Burmese Theravada Pilgrimage Sites8
-			holy_site = dagon # 8
-			holy_site = pagan # 9
-            holy_site = kyaikhtiyo # 10 
-			# SouthEast Asia Theravada Pilgrimage Sites10
-			holy_site = ajanta # 11
-            holy_site = atamasthana # 12	
+			# The main pilgrimage sites
+			holy_site = bodh_gaya 
+			holy_site = sarnath 
+			holy_site = lumbini 
+			holy_site = kusinagara 
+			# Theravada Pilgrimage Sites
+			holy_site = sravasti
+			holy_site = dagon
+			holy_site = pagan 
+            holy_site = atamasthana 	
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_adaptive
@@ -267,22 +261,15 @@
 			color = { 255 128 0 }
 			icon = mahayana
 
-			# The four main pilgrimage sites
-			holy_site = bodh_gaya # 1
-			holy_site = sarnath # 2
-			holy_site = kusinagara # 3
-			# Indian Pilgrimage Sites4
-			holy_site = vaishali # 4
-			holy_site = nalanda # 5
-			holy_site = sravasti # 6
-			holy_site = sankassa # 7
-			# Burmese Theravada Pilgrimage Sites8
-			holy_site = dagon # 8
-			holy_site = pagan # 9
-            holy_site = kyaikhtiyo # 10 
-			# SouthEast Asia Theravada Pilgrimage Sites10
-			holy_site = ajanta # 11
-            holy_site = bamiyan # 12
+			# The main pilgrimage sites
+			holy_site = bodh_gaya 
+			holy_site = sarnath 
+			holy_site = lumbini 
+			holy_site = kusinagara 
+			# Mahayana Pilgrimage Sites
+			holy_site = sravasti
+			holy_site = sanchi
+			holy_site = amaravati
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_adaptive
@@ -292,22 +279,15 @@
 			color = { 0.9 0.3 0.0 }
 			icon = vajrayana
 
-			# The four main pilgrimage sites
-			holy_site = bodh_gaya # 1
-			holy_site = sarnath # 2
-			holy_site = kusinagara # 3
-			# Indian Pilgrimage Sites4
-			holy_site = vaishali # 4
-			holy_site = nalanda # 5
-			holy_site = sravasti # 6
-			holy_site = sankassa # 7
-			# Himayalayan Vajrayana Pilgrimage Sites8
-			holy_site = kathmandu # 8
-			holy_site = paro # 9
-			# SouthEast Asia Theravada Pilgrimage Sites10
-            holy_site = purang # 10 
-			holy_site = khotang # 11
-            holy_site = bamiyan # 12
+			# The main pilgrimage sites
+			holy_site = bodh_gaya 
+			holy_site = sarnath 
+			holy_site = lumbini 
+			holy_site = kusinagara 
+			# Vajrayna Pilgrimage Sites
+			holy_site = kathmandu
+			holy_site = paro
+			holy_site = amaravati
 
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_concubines
@@ -394,22 +374,15 @@
 			color = { 99 0 57 }
 			icon = exp_ari_buddhism
 
-			# The four main pilgrimage sites
-			holy_site = bodh_gaya # 1
-			holy_site = sarnath # 2
-			holy_site = kusinagara # 3
-			# Indian Pilgrimage Sites4
-			holy_site = vaishali # 4
-			holy_site = nalanda # 5
-			holy_site = sravasti # 6
-			holy_site = sankassa # 7
-			# Burmese Theravada Pilgrimage Sites8
-			holy_site = dagon # 8
-			holy_site = pagan # 9
-			# SouthEast Asia Theravada Pilgrimage Sites10
-            holy_site = kyaikhtiyo # 10 
-			holy_site = sittaung # 11
-			holy_site = ava # 12
+			# The main pilgrimage sites
+			holy_site = bodh_gaya 
+			holy_site = sarnath 
+			holy_site = lumbini 
+			holy_site = kusinagara 
+			# Ari Pilgrimage Sites
+			holy_site = sittaung
+			holy_site = ava
+			holy_site = dagon
 
 			doctrine = doctrine_polygamy
 			doctrine = doctrine_kinslaying_accepted
@@ -429,22 +402,15 @@
 			color = { 0.9 0.2 0.0 }
 			icon = lamaism_buddhism
 			
-			# The four main pilgrimage sites
-			holy_site = bodh_gaya # 1
-			holy_site = sarnath # 2
-			holy_site = kusinagara # 3
-			# Indian Pilgrimage Sites4
-			holy_site = vaishali # 4
-			holy_site = nalanda # 5
-			holy_site = sravasti # 6
-			holy_site = sankassa # 7
-			# Burmese Theravada Pilgrimage Sites8
-			holy_site = sagya # 8
-			holy_site = lhasa # 9
-			# SouthEast Asia Theravada Pilgrimage Sites10
-            holy_site = zetang # 10 
-			holy_site = namtso # 11
-            holy_site = amne_machin # 12	
+			# The main pilgrimage sites
+			holy_site = bodh_gaya 
+			holy_site = sarnath 
+			holy_site = lumbini 
+			holy_site = kusinagara 
+			# Lamaism Pilgrimage Sites
+			holy_site = sagya
+			holy_site = lhasa
+			holy_site = zetang
 			
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_concubines
@@ -568,22 +534,15 @@
 			color = { 255 94 14 }
 			icon = buddhism_custom_3
 
-			# The four main pilgrimage sites
-			holy_site = bodh_gaya # 1
-			holy_site = sarnath # 2
-			holy_site = kusinagara # 3
-			# Indian Pilgrimage Sites4
-			holy_site = vaishali # 4
-			holy_site = nalanda # 5
-			holy_site = sravasti # 6
-			holy_site = sankassa # 7
-			# Burmese Theravada Pilgrimage Sites8
-			holy_site = dagon # 8
-			holy_site = pagan # 9
-			# SouthEast Asia Theravada Pilgrimage Sites10
-            holy_site = bamiyan # 10 
-			holy_site = sanchi # 11
-            holy_site = ratnagiri # 12
+			# The main pilgrimage sites
+			holy_site = bodh_gaya 
+			holy_site = sarnath 
+			holy_site = lumbini 
+			holy_site = kusinagara 
+			# Pudgalavada Pilgrimage Sites
+			holy_site = sravasti
+			holy_site = sanchi
+			holy_site = amaravati
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_religious_legal_pronouncements

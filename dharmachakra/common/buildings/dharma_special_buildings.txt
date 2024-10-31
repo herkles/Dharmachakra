@@ -76,6 +76,9 @@ multan_sun_temple_02 = {# Multan rebuilt Temple
 	}
 	
 	type = special
+
+	flag = travel_point_of_interest_religious
+
 }
 ellora_caves_01 = {# Ellora Caves
 	construction_time = very_slow_construction_time
@@ -121,6 +124,8 @@ ellora_caves_01 = {# Ellora Caves
 	}
 	
 	type = special
+	flag = travel_point_of_interest_natural_feature
+
 }
 ajanta_caves_01 = {# Ajanta Caves
 	construction_time = very_slow_construction_time
@@ -162,6 +167,8 @@ ajanta_caves_01 = {# Ajanta Caves
 	}
 	
 	type = special
+	flag = travel_point_of_interest_natural_feature
+
 }
 pattadakal_01 = {# The Temple Complex of Pattadakal
 	construction_time = very_slow_construction_time
@@ -206,6 +213,7 @@ pattadakal_01 = {# The Temple Complex of Pattadakal
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
 }
 elephanta_caves_01 = {# Elephanta Caves
 	construction_time = very_slow_construction_time
@@ -243,6 +251,8 @@ elephanta_caves_01 = {# Elephanta Caves
 	}
 	
 	type = special
+	flag = travel_point_of_interest_natural_feature
+
 }
 katas_raj_temples_01 = {# Katas Raj Temples
 	construction_time = very_slow_construction_time
@@ -278,6 +288,9 @@ katas_raj_temples_01 = {# Katas Raj Temples
 	}
 	
 	type = special
+
+	flag = travel_point_of_interest_religious
+
 }
 konark_sun_temple_01 = {# Konark Sun Temple
 	construction_time = very_slow_construction_time
@@ -321,6 +334,9 @@ konark_sun_temple_01 = {# Konark Sun Temple
 	}
 	
 	type = special
+
+	flag = travel_point_of_interest_religious
+
 }
 # Tamil Temples
 ramanathaswamy_temple_01 = {# Ramanathaswamy Temple
@@ -358,6 +374,8 @@ ramanathaswamy_temple_01 = {# Ramanathaswamy Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 madurai_temple_01 = {# Madurai Temples
 	construction_time = very_slow_construction_time
@@ -402,6 +420,8 @@ madurai_temple_01 = {# Madurai Temples
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 arulmigu_solaimalai_temple_01 = {# Arulmigu Solaimalai Temple
 	construction_time = very_slow_construction_time
@@ -438,6 +458,8 @@ arulmigu_solaimalai_temple_01 = {# Arulmigu Solaimalai Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 subramaniya_swamy_temple_01 = {# Subramaniya Swamy Temple
 	construction_time = very_slow_construction_time
@@ -478,6 +500,8 @@ subramaniya_swamy_temple_01 = {# Subramaniya Swamy Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 dhandayuthapani_temple_01 = {# Dhandayuthapani Temple
 	construction_time = very_slow_construction_time
@@ -518,6 +542,8 @@ dhandayuthapani_temple_01 = {# Dhandayuthapani Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 kailasanathar_temple_01 = {# Kailasanathar Temple
 	construction_time = very_slow_construction_time
@@ -557,6 +583,8 @@ kailasanathar_temple_01 = {# Kailasanathar Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 venkateswara_temple_01 = {# Venkateswara Temple
 	construction_time = very_slow_construction_time
@@ -592,6 +620,8 @@ venkateswara_temple_01 = {# Venkateswara Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 # Karnata Temples
 alampur_jogulamba_temple_01 = {# Alampur_Jogulamba Temple
@@ -633,6 +663,8 @@ alampur_jogulamba_temple_01 = {# Alampur_Jogulamba Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 # Andhara Temples
 mallikarjuna_temple_01 = {# Mallikarjuna Temple
@@ -675,6 +707,8 @@ mallikarjuna_temple_01 = {# Mallikarjuna Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 # Maharashtra Temples
 mahalakshmi_temple_01 = {# Mahalakshmi Temple
@@ -716,6 +750,8 @@ mahalakshmi_temple_01 = {# Mahalakshmi Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 vithoba_temple_01 = {# Vithoba Temple
 	construction_time = very_slow_construction_time
@@ -755,6 +791,8 @@ vithoba_temple_01 = {# Vithoba Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 mayureshwar_temple_01 = {# Mayureshwar Temple
 	construction_time = very_slow_construction_time
@@ -795,6 +833,8 @@ mayureshwar_temple_01 = {# Mayureshwar Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 # Northern Temples
 ujjayini_temple_city_01 = {# Ujjayini Temple
@@ -836,6 +876,8 @@ ujjayini_temple_city_01 = {# Ujjayini Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 krishna_janmasthan_temple_01 = {# Krishna_Janmasthan Temple
 	construction_time = very_slow_construction_time
@@ -876,6 +918,8 @@ krishna_janmasthan_temple_01 = {# Krishna_Janmasthan Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 har_ki_pauri_temple_01 = {# Har Ki Pauri
 	construction_time = very_slow_construction_time
@@ -918,6 +962,8 @@ har_ki_pauri_temple_01 = {# Har Ki Pauri
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 badrinath_temple_01 = {# Badrinath Temple
 	construction_time = very_slow_construction_time
@@ -957,6 +1003,8 @@ badrinath_temple_01 = {# Badrinath Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 kedarnath_temple_01 = {# Kedarnath Temple
 	construction_time = very_slow_construction_time
@@ -991,6 +1039,8 @@ kedarnath_temple_01 = {# Kedarnath Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 # Western Temples
 varanasi_temples_01 = {# Varanasi Temple
@@ -1036,6 +1086,8 @@ varanasi_temples_01 = {# Varanasi Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 jagannath_temple_01 = {# Jagannath_Temple Temple
 	construction_time = very_slow_construction_time
@@ -1081,6 +1133,8 @@ jagannath_temple_01 = {# Jagannath_Temple Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 kamakhya_temple_01 = {# Kamakhya Temple
 	construction_time = very_slow_construction_time
@@ -1121,6 +1175,8 @@ kamakhya_temple_01 = {# Kamakhya Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 # Gujarat Temples
 dwarkadhish_temple_01 = {# Dwarkadhish Temple
@@ -1165,6 +1221,8 @@ dwarkadhish_temple_01 = {# Dwarkadhish Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 somnath_temple_temple_01 = {# Somnath temple Temple
 	construction_time = very_slow_construction_time
@@ -1204,6 +1262,8 @@ somnath_temple_temple_01 = {# Somnath temple Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 #######################################
 #       Buddhist Temples		  	  #
@@ -1245,6 +1305,8 @@ sanchi_01 = {# Sanchi
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 takht_i_bahi_01 = {# The ruins of Takht-i-bahi
 	construction_time = very_slow_construction_time
@@ -1322,6 +1384,8 @@ takht_i_bahi_02 = {# Takht-i-bahi rebuilt
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 dambulla_cave_temple_01 = {# Dambulla Cave Temples
 	construction_time = very_slow_construction_time
@@ -1358,6 +1422,8 @@ dambulla_cave_temple_01 = {# Dambulla Cave Temples
 	}
 	
 	type = special
+	flag = travel_point_of_interest_natural_feature
+
 }
 pabonka_hermitage_01 = {# Pabonka Hermitage
 	construction_time = very_slow_construction_time
@@ -1397,6 +1463,8 @@ pabonka_hermitage_01 = {# Pabonka Hermitage
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 maya_devi_temple_01 = {# Maya Devi Temple
 	construction_time = very_slow_construction_time
@@ -1438,6 +1506,8 @@ maya_devi_temple_01 = {# Maya Devi Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 sravasti_01 = {# Shravasti
 	construction_time = very_slow_construction_time
@@ -1479,6 +1549,8 @@ sravasti_01 = {# Shravasti
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 sankassa_01 = {# Sankassa
 	construction_time = very_slow_construction_time
@@ -1516,6 +1588,8 @@ sankassa_01 = {# Sankassa
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 ratnagiri_01 = {# Ratnagiri
 	construction_time = very_slow_construction_time
@@ -1553,6 +1627,8 @@ ratnagiri_01 = {# Ratnagiri
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 amaravati_stupa_01 = {# Amaravati_Stupa
 	construction_time = very_slow_construction_time
@@ -1594,6 +1670,8 @@ amaravati_stupa_01 = {# Amaravati_Stupa
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 mahamevnaw_01 = {# Mahamevnaw
 	construction_time = very_slow_construction_time
@@ -1633,6 +1711,8 @@ mahamevnaw_01 = {# Mahamevnaw
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 #######################################
 #       	Jain Temples			  #
@@ -1679,6 +1759,8 @@ palitana_temple_01 = {# Palitana Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 gammateshwara_statue_01 = {# Gammateshwara Statue
 	construction_time = very_slow_construction_time
@@ -1715,6 +1797,8 @@ gammateshwara_statue_01 = {# Gammateshwara Statue
 	}
 	
 	type = special
+	flag = travel_point_of_interest_wonder
+
 }
 girnar_jain_temples_01 = {# Girnar Jain
 	construction_time = very_slow_construction_time
@@ -1747,6 +1831,8 @@ girnar_jain_temples_01 = {# Girnar Jain
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 girnar_jain_temples_02 = {# Neminath Temple
 	construction_time = very_slow_construction_time
@@ -1796,6 +1882,8 @@ girnar_jain_temples_02 = {# Neminath Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 jal_mandir_temple_01 = {# Jal Mandir Temple
 	construction_time = very_slow_construction_time
@@ -1835,6 +1923,8 @@ jal_mandir_temple_01 = {# Jal Mandir Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 kanakagiri_tirth_01 = {# Kanakagiri Tirth Temple
 	construction_time = very_slow_construction_time
@@ -1878,6 +1968,8 @@ kanakagiri_tirth_01 = {# Kanakagiri Tirth Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 sonagiri_temple_01 = {# Sonagiri Temple
 	construction_time = very_slow_construction_time
@@ -1916,6 +2008,8 @@ sonagiri_temple_01 = {# Sonagiri Temple
 	}
 	
 	type = special
+	flag = travel_point_of_interest_religious
+
 }
 #######################################
 #     Special Forts and Castles       #
@@ -1959,6 +2053,8 @@ chittorgarh_01 = {# Chittorgarh Fort
 	}
 	
 	type = special
+	flag = travel_point_of_interest_martial
+
 }
 ranthambore_01 = {# Ranthambore
 	construction_time = very_slow_construction_time
@@ -1996,6 +2092,8 @@ ranthambore_01 = {# Ranthambore
 	}
 	
 	type = special
+	flag = travel_point_of_interest_martial
+
 }
 gwalior_fort_01 = {# Gwalior Fort
 	construction_time = very_slow_construction_time
@@ -2036,6 +2134,8 @@ gwalior_fort_01 = {# Gwalior Fort
 	}
 	
 	type = special
+	flag = travel_point_of_interest_martial
+
 }
 potala_palace_01 = {# Potala Palace
 	construction_time = very_slow_construction_time
@@ -2108,6 +2208,8 @@ potala_palace_02 = {# Potala Palace
 	}
 	
 	type = special
+	flag = travel_point_of_interest_diplomatic
+
 }
 #######################################
 #       Other Unique Buildings	      #
@@ -2151,6 +2253,8 @@ rani_ki_vav_01 = {# Rani Ki Vav
 	}
 	
 	type = special
+	flag = travel_point_of_interest_economic
+
 }
 sharada_peeth_01 = {# Sharad Peeth in Kashmir
 	construction_time = very_slow_construction_time
@@ -2193,4 +2297,6 @@ sharada_peeth_01 = {# Sharad Peeth in Kashmir
 	}
 	
 	type = special
+	flag = travel_point_of_interest_learning
+
 }

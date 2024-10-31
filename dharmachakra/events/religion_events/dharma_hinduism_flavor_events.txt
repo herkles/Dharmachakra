@@ -262,7 +262,6 @@ dharma_hinduism.010 = {# Studying the Vedas at the Temple
 		}
 	}
 }
-
 #######################################
 #									  #
 #      	  Hindu Philosophy			  #

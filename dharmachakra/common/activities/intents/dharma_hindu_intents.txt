@@ -42,3 +42,66 @@ dharma_vedic_sacrifice_reputation_intent = {
 }
 
 
+dharma_local_pilgrimage_worship_intent = {
+	icon = pious_intent
+
+	auto_complete = yes
+
+	is_shown = {
+		
+	}
+
+	on_invalidated = {
+		trigger_event = activity_system.0090
+	}
+
+	ai_will_do = {
+		value = 1
+	}
+
+	scripted_animation = {
+		animation = personality_zealous
+	}
+}
+dharma_local_pilgrimage_model_intent = {
+	icon = befriend_intent
+
+	auto_complete = yes
+
+	is_shown = {
+		
+	}
+
+	on_invalidated = {
+		trigger_event = activity_system.0090
+	}
+
+	ai_will_do = {
+		value = 1
+	}
+
+	scripted_animation = {
+		animation = personality_honorable
+	}
+}
+dharma_local_pilgrimage_curiosity_intent = {
+	icon = intent_study_hard
+
+	auto_complete = yes
+
+	is_shown = {
+		
+	}
+
+	on_invalidated = {
+		trigger_event = activity_system.0090
+	}
+
+	ai_will_do = {
+		value = 1
+	}
+
+	scripted_animation = {
+		animation = personality_zealous
+	}
+}

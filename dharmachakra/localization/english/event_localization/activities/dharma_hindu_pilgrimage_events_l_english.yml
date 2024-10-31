@@ -1,0 +1,599 @@
+﻿l_english:
+
+
+#######################################
+# Char Dham Pilgrimages
+#######################################
+# Badrinath
+  dharma_hindu_pilgrimages.001.t: "Arrivial at at the base of the mountain"
+  dharma_hindu_pilgrimages.001.desc: "You have arrived at the base of the Nar Parbat Mountain. To get to the temple, I will need to hike up the pilgrim's mountain trail. Thankfully the path is marked and there are local guides to lead me up the mountain."
+  dharma_hindu_pilgrimages.001.a: "Time to Hike up the Mountain."
+
+  dharma_hindu_pilgrimages.002.t: "Ariving at the temple"
+  dharma_hindu_pilgrimages.002.desc: "After hiking up the mountain you have arrived at the Badrinath Temple. The sight is one to take one's breath away with the mountain in the background. You make your way to a place to stay for while you are at the temple."
+  dharma_hindu_pilgrimages.002.a: "I have made it."
+
+  dharma_hindu_pilgrimages.003.t: "Bathing in the Temple Hot Springs"
+  dharma_hindu_pilgrimages.003.desc: "Before I make my offerings at the temple. I first must purify myself in the holy waters of the Tapt Kund Hot Springs. It is said that these waters are blessed by Lord Agni and that they will help cure illness and keep yourself healthy."
+  dharma_hindu_pilgrimages.003.a: "Thank you Lord Agni for this wonder"
+
+  dharma_hindu_pilgrimages.004.t: "Making offerings to Lord Vishnu"
+  dharma_hindu_pilgrimages.004.desc: "After purifying yourself at the Tapt Kund Hot springs you make your way to the Badrinath Temple. Here you make offerings to Lord Vishnu and various other deities at the temple hoping to gain their blessings and to cleanse me of my sins."
+  dharma_hindu_pilgrimages.004.a: "Om Namo Narayanaya"
+
+  dharma_hindu_pilgrimages.005.t: "Studying the teachings of Adi Shankara"
+  dharma_hindu_pilgrimages.005.desc: "The temple of Badrinath is one of the four Char Dhams established by the great guru Adi Shankara famed for his great wisdom and sagacity. As you are in the temple, you have the chance to study from his works."
+  dharma_hindu_pilgrimages.005.a: "Study his holy text"
+  dharma_hindu_pilgrimages.005.b: "Enjoy the natural beauty instead"
+
+  dharma_hindu_pilgrimages.006.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.006.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.006.small: "A Small Donation"
+  dharma_hindu_pilgrimages.006.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.006.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.007.t: "Making your way back down"
+  dharma_hindu_pilgrimages.007.desc: "Now you make your way down the mountain to the towns in the lower valley before you are leaving. Thankfully the path is marked and the guides help lead you down the valley back to the town at the base of the mountain."
+  dharma_hindu_pilgrimages.007.a: "Now to begin preparations"
+
+  dharma_hindu_pilgrimages.008.t: "Leaving for home"
+  dharma_hindu_pilgrimages.008.desc: "After performing all the necessary rites and rituals at the Badrinath temple, I have made my way to the towns down in the Nar Parbat Mountain Valley. Alas, though one could easily spend days here, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
+  dharma_hindu_pilgrimages.008.a: "May Lord Vishnu grant me his blessings"
+
+# Dwarka
+  dharma_hindu_pilgrimages.009.t: "Arrivial at Dwarka"
+  dharma_hindu_pilgrimages.009.desc: "I have arrived at the great city of Dwarka. In this city of many pilgrims and visitors, numerous temples are here. My focus though is on the Dwarkadhish Temple sometimes known as the Jagat Mandir, a temple dedicated to Lord Krishna. Before I do that I first go and get to my quarters in the city."
+  dharma_hindu_pilgrimages.009.a: "Glad to be here"
+
+  dharma_hindu_pilgrimages.010.t: "Bathing in the River Gomti"
+  dharma_hindu_pilgrimages.010.desc: "Before I visit the temple I first shall bath in the Gomti River and purify myself in the sacred waters. The sacredness of the river is attested to in several of the Puranas. By bathing in the river I can purify myself and wash away my sins."
+  dharma_hindu_pilgrimages.010.a: "May my Sins be washed away."
+
+  dharma_hindu_pilgrimages.011.t: "Offering to Lord Krishna"
+  dharma_hindu_pilgrimages.011.desc: "After purifying myself in the Gomti river, I then enter the Dwarkadhish temple where I perform the various to honor Lord Krishna. Puja is offered, Prayers and Mantras are said, sandlewood paste and other sacred elements are poured over the murti. May Lord Krishna Bless me."
+  dharma_hindu_pilgrimages.011.a: "Om Namo Bhagavate Vasudevaya"
+
+  dharma_hindu_pilgrimages.012.t: "Studying Adi Shankara's teachings"
+  dharma_hindu_pilgrimages.012.desc: "The temple of Dwarkadhish is one of the four Char Dhams established by the great guru Adi Shankara famed for his great wisdom and sagacity. As you are in the temple, you have the chance to study from his works."
+  dharma_hindu_pilgrimages.012.a: "Study his teachings"
+  dharma_hindu_pilgrimages.012.a: "Spend time visiting the city instead"
+
+  dharma_hindu_pilgrimages.013.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.013.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.013.small: "A Small Donation"
+  dharma_hindu_pilgrimages.013.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.013.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.014.t: "Leaving for home"
+  dharma_hindu_pilgrimages.014.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Krishna at the Dwarkadhish Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the city, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
+  dharma_hindu_pilgrimages.014.a: "Time to head Home"
+
+# Puri
+  dharma_hindu_pilgrimages.015.t: "Arrivial at Puri"
+  dharma_hindu_pilgrimages.015.desc: "I have arrived at the great city of Puri. This city is bustling with pilgrims and numerous temples tower throughout the city. My focus though is on the Jaggnath temple dedicated to Lord Jagganath. Before I do that I first go and get to my quarters in the city."
+  dharma_hindu_pilgrimages.015.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.016.t: "Offering to Lord Jagannath"
+  dharma_hindu_pilgrimages.016.desc: "I enter the holy temple and I make my offerings to Lord Jagganath, as well as to Lord Balabhadra and Maa Subhadra. Puja and food is offered to the Gods, the mantras are recited, I pour sandlewood paste and other sacred element over the murtis. May they bless me."
+  dharma_hindu_pilgrimages.016.a: "Om Jagannathaya Namah"
+
+  dharma_hindu_pilgrimages.017.t: "Studying Adi Shankara's teachings"
+  dharma_hindu_pilgrimages.017.desc: "The Jagannath Temple is one of the four Char Dhams established by the great guru Adi Shankara famed for his great wisdom and sagacity. As you are in the temple, you have the chance to study from his works."
+  dharma_hindu_pilgrimages.017.a: "Study his teachings"
+  dharma_hindu_pilgrimages.017.b: "Spend time in the city"
+
+  dharma_hindu_pilgrimages.018.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.018.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.018.small: "A Small Donation"
+  dharma_hindu_pilgrimages.018.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.018.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.019.t: "Leaving for home"
+  dharma_hindu_pilgrimages.019.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Jagganath at the Jagganath Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the city, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
+  dharma_hindu_pilgrimages.019.a: "Time to head Home"
+
+# Rameswaram
+  dharma_hindu_pilgrimages.020.t: "Arrivial at Rameswaram"
+  dharma_hindu_pilgrimages.020.desc: "I have arrived in the far south where the famous Rama Bridge lies where it is said that Rama and Hanuman built a bridge to Lanka to rescue Rama's wife Sita. On a good day, it is said one could see in the distance the island of Lanka. My focus is on the famous Ramanathaswamy temple dedicated to Lord Ramanathaswamy and Maa Parvatavardhini, names for Lord Shiva and Maa Parvarti.  Before I do that I first go and get to my quarters in the city."
+  dharma_hindu_pilgrimages.020.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.021.t: "Bathing in the temple Waters"
+  dharma_hindu_pilgrimages.021.desc: "Before I visit the temple I first need to purify myself. The temple has a ritual bathing area so that pilgrims such as myself are able to bath and purify themselves in sacred waters. By bathing in these waters I hope to purify myself and wash away my sins."
+  dharma_hindu_pilgrimages.021.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.022.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.022.desc: "I enter the holy temple and I make my offerings to Lord Ramanathaswamy and Maa Parvatavardhini. Puja and food is offered to the Gods, the mantras are recited, I pour sandlewood paste and other sacred element over the Linga. May they bless me."
+  dharma_hindu_pilgrimages.022.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.023.t: "Offering to Lord Rama"
+  dharma_hindu_pilgrimages.023.desc: "After going to the temple of Ramanathaswamy, I head to the Kothandaramaswamy Temple, a smaller temple in Rameswaram. This temple is dedicated to Rama, Lakshmana, Sita, Hanuman, and Vibishana. As it is said that the Linga for Ramanathaswamy temple it is only right to make an offering here as well. So I enter the temple Puja and food is offered to the Gods, the mantras are recited, I pour sandlewood paste and other sacred element over the Murtis. May they bless me."
+  dharma_hindu_pilgrimages.023.a: "Jai Shri Ram"
+
+  dharma_hindu_pilgrimages.024.t: "Studying Adi Shankara's teachings"
+  dharma_hindu_pilgrimages.024.desc: "The temple of Ramanathaswamy is one of the four Char Dhams established by the great guru Adi Shankara famed for his great wisdom and sagacity. As you are in the temple, you have the chance to study from his works."
+  dharma_hindu_pilgrimages.024.a: "Study his teachings"
+  dharma_hindu_pilgrimages.024.b: "Spend time in the city"
+
+  dharma_hindu_pilgrimages.025.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.025.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.025.small: "A Small Donation"
+  dharma_hindu_pilgrimages.025.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.025.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.026.t: "Leaving for home"
+  dharma_hindu_pilgrimages.026.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Ramanathaswamy at the Ramanathaswamy Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the city, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
+  dharma_hindu_pilgrimages.026.a: "Time to head Home"
+
+#######################################
+# Adi Shakta Pitha	
+#######################################
+# Vimala
+  dharma_hindu_pilgrimages.040.t: "Arrivial at Vimala"
+  dharma_hindu_pilgrimages.040.desc: "I have arrived at the great city of Puri. This city is bustling with pilgrims and numerous temples tower throughout the city. My focus though is on the Vimala temple dedicated to Maa Vimala. This temple is connected to the Jaganath temple Complex.  Before I do that I first go and get to my quarters in the city."
+  dharma_hindu_pilgrimages.040.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.041.t: "Offering to Maa Vimala"
+  dharma_hindu_pilgrimages.041.desc: "I enter the holy temple and I make my offerings to Maa Vimala one of the avatars of Mahashakta. Puja and food is offered to the Goddess, the mantras are recited, I pour sandlewood paste and other sacred element over her sacred murti. May the Goddess bless me."
+  dharma_hindu_pilgrimages.041.a: "Om Aim Hrim Srim Klim"
+
+  dharma_hindu_pilgrimages.042.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.042.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.042.small: "A Small Donation"
+  dharma_hindu_pilgrimages.042.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.042.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.043.t: "Leaving for home"
+  dharma_hindu_pilgrimages.043.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Maa Vimala at the Vimala Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the city, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
+  dharma_hindu_pilgrimages.043.a: "Time to head Home"
+
+# Tara Tarini
+  dharma_hindu_pilgrimages.044.t: "Arrivial at Tara Tarini"
+  dharma_hindu_pilgrimages.044.desc: "I have arrived at the town alongside the Kumari Hills along Rushikulya River. There are a plenty of pilgrims here to visit the mandir like myself, as well as the villagers and merchants of the town. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
+  dharma_hindu_pilgrimages.044.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.045.t: "Offering to Maa Tara and Maa Tarini"
+  dharma_hindu_pilgrimages.045.desc: "I enter the holy temple and I make my offerings to Maa Tara and Maa Tarini, avatars of Mahashakta. Puja and food is offered to the Goddesses, the mantras are recited, I pour sandlewood paste and other sacred element over her sacred murti. May the Goddesses bless me."
+  dharma_hindu_pilgrimages.045.a: "Om Aim Hrim Srim Klim"
+
+  dharma_hindu_pilgrimages.046.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.046.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.046.small: "A Small Donation"
+  dharma_hindu_pilgrimages.046.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.046.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.047.t: "Leaving for home"
+  dharma_hindu_pilgrimages.047.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Maa Tara and Tarini, I took the time to enjoy the natural beauty of the region. \n\nWith my spiritual experience concluded, it is now time to go home."
+  dharma_hindu_pilgrimages.047.a: "Time to head Home"
+
+# Kamakhya
+  dharma_hindu_pilgrimages.048.t: "Arrivial at Kamakhya"
+  dharma_hindu_pilgrimages.048.desc: "I have arrived at the town of Guwahati in the Nilachal hills. Here is the Kamakhya temple, one of the avatars of Mahashakta. There are numerous pilgrims and mendicat monastics about in the town. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
+  dharma_hindu_pilgrimages.048.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.049.t: "Offering to Maa Kamakhya"
+  dharma_hindu_pilgrimages.049.desc: "I enter the holy temple and I make my offerings to Maa Kamakhya one of the avatars of Mahashakta. Puja and food is offered to the Goddess, the mantras are recited, I pour sandlewood paste and other sacred element over her sacred murti. May the Goddess bless me."
+  dharma_hindu_pilgrimages.049.a: "Om Aim Hrim Srim Klim"
+
+  dharma_hindu_pilgrimages.050.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.050.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.050.small: "A Small Donation"
+  dharma_hindu_pilgrimages.050.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.050.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.051.t: "Leaving for home"
+  dharma_hindu_pilgrimages.051.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Maa Kamakhya at the Kamakhya Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
+  dharma_hindu_pilgrimages.051.a: "Time to head Home"
+
+# Dakshina Kalika
+  dharma_hindu_pilgrimages.052.t: "Arrivial at Dakshina Kalika"
+  dharma_hindu_pilgrimages.052.desc: "I have arrived at the town of Chandraketugarh. Here is the Kalighat Temple dedicated to Maa Kali. There are numerous pilgrims and mendicant monasticism in the town. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
+  dharma_hindu_pilgrimages.052.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.053.t: "Offering to Maa Kali"
+  dharma_hindu_pilgrimages.053.desc: "I enter the holy temple and I make my offerings to Maa Kali, one of the avatars of Mahashakti. Puja and food is offered to the Goddess, the mantras are recited, I pour sandalwood paste and other sacred elements over her sacred murti. May the Goddess bless me."
+  dharma_hindu_pilgrimages.053.a: "Om Aim Hrim Srim Klim"
+
+  dharma_hindu_pilgrimages.054.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.054.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.054.small: "A Small Donation"
+  dharma_hindu_pilgrimages.054.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.054.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.055.t: "Leaving for home"
+  dharma_hindu_pilgrimages.055.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Maa Kali at the Kalighat Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
+  dharma_hindu_pilgrimages.056.a: "Time to head Home"
+
+#######################################
+# Abodes of Murugan
+#######################################
+# Thiruparankundram
+  dharma_hindu_pilgrimages.070.t: "Arrivial at Thiruparankundram"
+  dharma_hindu_pilgrimages.070.desc: "I have arrived at the town of Thiruparankundram. Here is the Subramaniya Swamy Temple dedicated to Lord Murugan and his wife Maa Deivayanai. It is said that this temple is where the two were married. The town has a number of pilgrims and monastics busy in the streets. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
+  dharma_hindu_pilgrimages.070.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.071.t: "Offering to Lord Murugan and Maa Deivayanai"
+  dharma_hindu_pilgrimages.071.desc: "I enter the holy temple and I make my offerings to Lord Murugan and Maa Deivayanai. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May they bless me."
+  dharma_hindu_pilgrimages.071.a: "Om Sharavana Bhavaya Namaha"
+
+  dharma_hindu_pilgrimages.072.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.072.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.072.small: "A Small Donation"
+  dharma_hindu_pilgrimages.072.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.072.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.073.t: "Leaving for home"
+  dharma_hindu_pilgrimages.073.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Murugan at the Subramaniya Swamy Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
+  dharma_hindu_pilgrimages.073.a: "Time to head Home"
+
+# Tiruchendur
+  dharma_hindu_pilgrimages.074.t: "Arrivial at Tiruchendur"
+  dharma_hindu_pilgrimages.074.desc: "dadfad"
+  dharma_hindu_pilgrimages.074.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.075.t: "Bathing in the temple Waters"
+  dharma_hindu_pilgrimages.075.desc: "dadfad"
+  dharma_hindu_pilgrimages.075.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.076.t: "Offering to Lord Murugan"
+  dharma_hindu_pilgrimages.076.desc: "dadfad"
+  dharma_hindu_pilgrimages.076.a: "Om Sharavana Bhavaya Namaha"
+
+  dharma_hindu_pilgrimages.077.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.077.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.077.small: "A Small Donation"
+  dharma_hindu_pilgrimages.077.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.077.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.078.t: "Leaving for home"
+  dharma_hindu_pilgrimages.078.desc: "dadfad"
+  dharma_hindu_pilgrimages.078.a: "Time to head Home"
+
+# Palani
+  dharma_hindu_pilgrimages.079.t: "Arrivial at Palani"
+  dharma_hindu_pilgrimages.079.desc: "dadfad"
+  dharma_hindu_pilgrimages.079.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.080.t: "Bathing in the temple Waters"
+  dharma_hindu_pilgrimages.080.desc: "dadfad"
+  dharma_hindu_pilgrimages.080.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.081.t: "Offering to Lord Murugan"
+  dharma_hindu_pilgrimages.081.desc: "dadfad"
+  dharma_hindu_pilgrimages.081.a: "Om Sharavana Bhavaya Namaha"
+
+  dharma_hindu_pilgrimages.082.t: "Offer some hair?"
+  dharma_hindu_pilgrimages.082.desc: "dadfad"
+  dharma_hindu_pilgrimages.082.a: "I shall offer some hair."
+  dharma_hindu_pilgrimages.082.b: "I shall not."
+
+  dharma_hindu_pilgrimages.083.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.083.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.083.small: "A Small Donation"
+  dharma_hindu_pilgrimages.083.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.083.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.084.t: "Leaving for home"
+  dharma_hindu_pilgrimages.084.desc: "dadfad"
+  dharma_hindu_pilgrimages.084.a: "Time to head Home"
+
+# Swamimalai
+  dharma_hindu_pilgrimages.085.t: "Arrivial at Swamimalai"
+  dharma_hindu_pilgrimages.085.desc: "dadfad"
+  dharma_hindu_pilgrimages.085.a: "Ndfddcase"
+
+  dharma_hindu_pilgrimages.086.t: "Offering to Lord Swaminathaswamy"
+  dharma_hindu_pilgrimages.086.desc: "dadfad"
+  dharma_hindu_pilgrimages.086.a: "Om Sharavana Bhavaya Namaha"
+
+  dharma_hindu_pilgrimages.087.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.087.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.087.small: "A Small Donation"
+  dharma_hindu_pilgrimages.087.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.087.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.088.t: "Leaving for home"
+  dharma_hindu_pilgrimages.088.desc: "dadfad"
+  dharma_hindu_pilgrimages.088.a: "Time to head Home"
+
+# Tiruttani
+  dharma_hindu_pilgrimages.089.t: "Arrivial at Tiruttani"
+  dharma_hindu_pilgrimages.089.desc: "dadfad"
+  dharma_hindu_pilgrimages.089.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.090.t: "Offering to Lord Murugan"
+  dharma_hindu_pilgrimages.090.desc: "dadfad"
+  dharma_hindu_pilgrimages.090.a: "Om Sharavana Bhavaya Namaha"
+
+  dharma_hindu_pilgrimages.091.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.091.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.091.small: "A Small Donation"
+  dharma_hindu_pilgrimages.091.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.091.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.092.t: "Leaving for home"
+  dharma_hindu_pilgrimages.092.desc: "dadfad"
+  dharma_hindu_pilgrimages.092.a: "Time to head Home"
+
+# Pazhamudircholai
+  dharma_hindu_pilgrimages.093.t: "Arrivial at Pazhamudircholai"
+  dharma_hindu_pilgrimages.093.desc: "dadfad"
+  dharma_hindu_pilgrimages.093.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.094.t: "Offering to Lord Murugan"
+  dharma_hindu_pilgrimages.094.desc: "dadfad"
+  dharma_hindu_pilgrimages.094.a: "Om Sharavana Bhavaya Namaha"
+
+  dharma_hindu_pilgrimages.095.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.095.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.095.small: "A Small Donation"
+  dharma_hindu_pilgrimages.095.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.095.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.096.t: "Leaving for home"
+  dharma_hindu_pilgrimages.096.desc: "dadfad"
+  dharma_hindu_pilgrimages.096.a: "Time to head Home"
+
+#######################################
+# Jyotirlingas
+#######################################
+# Somnath
+  dharma_hindu_pilgrimages.101.t: "Arrivial at Somnath"
+  dharma_hindu_pilgrimages.101.desc: "dadfad"
+  dharma_hindu_pilgrimages.101.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.102.t: "Bathing in the temple Waters"
+  dharma_hindu_pilgrimages.102.desc: "dadfad"
+  dharma_hindu_pilgrimages.102.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.103.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.103.desc: "dadfad"
+  dharma_hindu_pilgrimages.103.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.104.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.104.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.104.small: "A Small Donation"
+  dharma_hindu_pilgrimages.104.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.104.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.105.t: "Leaving for home"
+  dharma_hindu_pilgrimages.105.desc: "dadfad"
+  dharma_hindu_pilgrimages.105.a: "Time to head Home"
+
+# Mallikarjuna
+  dharma_hindu_pilgrimages.106.t: "Arrivial at Mallikarjuna"
+  dharma_hindu_pilgrimages.106.desc: "dadfad"
+  dharma_hindu_pilgrimages.106.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.107.t: "Offering to Lord Mallikarjuna and Bhramaramba"
+  dharma_hindu_pilgrimages.107.desc: "dadfad"
+  dharma_hindu_pilgrimages.107.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.108.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.108.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.108.small: "A Small Donation"
+  dharma_hindu_pilgrimages.108.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.108.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.109.t: "Leaving for home"
+  dharma_hindu_pilgrimages.109.desc: "dadfad"
+  dharma_hindu_pilgrimages.109.a: "Time to head Home"
+
+# Mahakaleshwar
+  dharma_hindu_pilgrimages.110.t: "Arrivial at Mahakaleshwar"
+  dharma_hindu_pilgrimages.110.desc: "dadfad"
+  dharma_hindu_pilgrimages.110.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.111.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.111.desc: "dadfad"
+  dharma_hindu_pilgrimages.111.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.112.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.112.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.112.small: "A Small Donation"
+  dharma_hindu_pilgrimages.112.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.112.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.113.t: "Leaving for home"
+  dharma_hindu_pilgrimages.113.desc: "dadfad"
+  dharma_hindu_pilgrimages.113.a: "Time to head Home"
+
+# Omkareshwar
+  dharma_hindu_pilgrimages.114.t: "Arrivial at Omkareshwar"
+  dharma_hindu_pilgrimages.114.desc: "dadfad"
+  dharma_hindu_pilgrimages.114.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.115.t: "Bathing in the Narmada River"
+  dharma_hindu_pilgrimages.115.desc: "dadfad"
+  dharma_hindu_pilgrimages.115.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.116.t: "Offering to Lord Omkareshwar"
+  dharma_hindu_pilgrimages.116.desc: "dadfad"
+  dharma_hindu_pilgrimages.116.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.117.t: "Offering to Lord Mamleshwar"
+  dharma_hindu_pilgrimages.117.desc: "dadfad"
+  dharma_hindu_pilgrimages.117.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.118.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.118.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.118.small: "A Small Donation"
+  dharma_hindu_pilgrimages.118.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.118.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.119.t: "Leaving for home"
+  dharma_hindu_pilgrimages.119.desc: "dadfad"
+  dharma_hindu_pilgrimages.119.a: "Time to head Home"
+
+# Baidyanath
+  dharma_hindu_pilgrimages.120.t: "Arrivial at Baidyanath"
+  dharma_hindu_pilgrimages.120.desc: "dadfad"
+  dharma_hindu_pilgrimages.120.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.121.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.121.desc: "dadfad"
+  dharma_hindu_pilgrimages.121.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.122.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.122.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.122.small: "A Small Donation"
+  dharma_hindu_pilgrimages.122.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.122.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.123.t: "Leaving for home"
+  dharma_hindu_pilgrimages.123.desc: "dadfad"
+  dharma_hindu_pilgrimages.123.a: "Time to head Home"
+
+# Bhimashankar
+  dharma_hindu_pilgrimages.124.t: "Arrivial at Bhimashankar"
+  dharma_hindu_pilgrimages.124.desc: "dadfad"
+  dharma_hindu_pilgrimages.124.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.125.t: "Bathing in Temple Waters"
+  dharma_hindu_pilgrimages.125.desc: "dadfad"
+  dharma_hindu_pilgrimages.125.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.126.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.126.desc: "dadfad"
+  dharma_hindu_pilgrimages.126.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.127.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.127.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.127.small: "A Small Donation"
+  dharma_hindu_pilgrimages.127.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.127.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.128.t: "Leaving for home"
+  dharma_hindu_pilgrimages.128.desc: "dadfad"
+  dharma_hindu_pilgrimages.128.a: "Time to head Home"
+
+# Rameshwaram
+  dharma_hindu_pilgrimages.129.t: "Arrivial at Rameswaram"
+  dharma_hindu_pilgrimages.129.desc: "I have arrived in the far south where the famous Rama Bridge lies where it is said that Rama and Hanuman built a bridge to Lanka to rescue Rama's wife Sita. On a good day, it is said one could see in the distance the island of Lanka. My focus is on the famous Ramanathaswamy temple dedicated to Lord Ramanathaswamy and Maa Parvatavardhini,  names for Lord Shiva and Maa Parvarti.  Before I do that I first go and get to my quarters in the city."
+  dharma_hindu_pilgrimages.129.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.130.t: "Bathing in the temple Waters"
+  dharma_hindu_pilgrimages.130.desc: "Before I visit the temple I first need to purify myself. The temple has a ritual bathing area so that pilgrims such as myself are able to bath and purify themselves in sacred waters. By bathing in these waters I hope to purify myself and wash away my sins."
+  dharma_hindu_pilgrimages.130.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.131.t: "Offering to Lord Ramanathaswamy and Maa Parvatavardhini"
+  dharma_hindu_pilgrimages.131.desc: "I enter the holy temple and I make my offerings to Lord Ramanathaswamy and Maa Parvatavardhini. Puja and food is offered to the Gods, the mantras are recited, I pour sandlewood paste and other sacred element over the Linga. May they bless me."
+  dharma_hindu_pilgrimages.131.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.132.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.132.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.132.small: "A Small Donation"
+  dharma_hindu_pilgrimages.132.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.132.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.133.t: "Leaving for home"
+  dharma_hindu_pilgrimages.133.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Ramanathaswamy at the Ramanathaswamy Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the city, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
+  dharma_hindu_pilgrimages.133.a: "Time to head Home"
+
+# Nageshwar
+  dharma_hindu_pilgrimages.134.t: "Arrivial at Nageshwar"
+  dharma_hindu_pilgrimages.134.desc: "dadfad"
+  dharma_hindu_pilgrimages.134.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.135.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.135.desc: "dadfad"
+  dharma_hindu_pilgrimages.135.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.136.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.136.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.136.small: "A Small Donation"
+  dharma_hindu_pilgrimages.136.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.136.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.137.t: "Leaving for home"
+  dharma_hindu_pilgrimages.137.desc: "dadfad"
+  dharma_hindu_pilgrimages.137.a: "Time to head Home"
+
+# Vishwanath
+  dharma_hindu_pilgrimages.138.t: "Arrivial at Vishwanath"
+  dharma_hindu_pilgrimages.138.desc: "dadfad"
+  dharma_hindu_pilgrimages.138.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.139.t: "Bathing in the Ganges River"
+  dharma_hindu_pilgrimages.139.desc: "dadfad"
+  dharma_hindu_pilgrimages.139.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.140.t: "Offering to Lord Vishveshwara"
+  dharma_hindu_pilgrimages.140.desc: "dadfad"
+  dharma_hindu_pilgrimages.140.a: "Om Hraun Vishwanathaya"
+
+  dharma_hindu_pilgrimages.141.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.141.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.141.small: "A Small Donation"
+  dharma_hindu_pilgrimages.141.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.141.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.142.t: "Leaving for home"
+  dharma_hindu_pilgrimages.142.desc: "dadfad"
+  dharma_hindu_pilgrimages.142.a: "Time to head Home"
+
+# Trimbakeshwar
+  dharma_hindu_pilgrimages.143.t: "Arrivial at Trimbakeshwar"
+  dharma_hindu_pilgrimages.143.desc: "dadfad"
+  dharma_hindu_pilgrimages.143.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.144.t: "Bathing in the Godavari River"
+  dharma_hindu_pilgrimages.144.desc: "dadfad"
+  dharma_hindu_pilgrimages.144.a: "May my sins be washed away."
+
+  dharma_hindu_pilgrimages.145.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.145.desc: "dadfad"
+  dharma_hindu_pilgrimages.145.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.146.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.146.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.146.small: "A Small Donation"
+  dharma_hindu_pilgrimages.146.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.146.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.147.t: "Leaving for home"
+  dharma_hindu_pilgrimages.147.desc: "dadfad"
+  dharma_hindu_pilgrimages.147.a: "Time to head Home"
+
+# Kedarnath
+  dharma_hindu_pilgrimages.148.t: "Arrivial at Kedarnath"
+  dharma_hindu_pilgrimages.148.desc: "dadfad"
+  dharma_hindu_pilgrimages.148.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.149.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.149.desc: "dadfad"
+  dharma_hindu_pilgrimages.149.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.150.t: "Seeing a Pandav Lila Performance"
+  dharma_hindu_pilgrimages.150.desc: "dadfad"
+  dharma_hindu_pilgrimages.150.a: "What a show."
+
+  dharma_hindu_pilgrimages.151.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.151.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.151.small: "A Small Donation"
+  dharma_hindu_pilgrimages.151.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.151.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.152.t: "Leaving for home"
+  dharma_hindu_pilgrimages.152.desc: "dadfad"
+  dharma_hindu_pilgrimages.152.a: "Time to head Home"
+
+# Grishneshwar
+  dharma_hindu_pilgrimages.153.t: "Arrivial at Grishneshwar"
+  dharma_hindu_pilgrimages.153.desc: "dadfad"
+  dharma_hindu_pilgrimages.153.a: "I am glad to have arrived"
+
+  dharma_hindu_pilgrimages.154.t: "Offering to Lord Shiva"
+  dharma_hindu_pilgrimages.154.desc: "dadfad"
+  dharma_hindu_pilgrimages.154.a: "Om Namah Shivaya"
+
+  dharma_hindu_pilgrimages.155.t: "Donating to Charity"
+  dharma_hindu_pilgrimages.155.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
+  dharma_hindu_pilgrimages.155.small: "A Small Donation"
+  dharma_hindu_pilgrimages.155.medium: "A Medium Donation"
+  dharma_hindu_pilgrimages.155.large: "A Large Donation"
+
+  dharma_hindu_pilgrimages.156.t: "Leaving for home"
+  dharma_hindu_pilgrimages.156.desc: "dadfad"
+  dharma_hindu_pilgrimages.156.a: "Time to head Home"
+
+
