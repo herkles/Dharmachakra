@@ -67,7 +67,7 @@
   hinduism_death_name_possessive: "Yama's"
 
 # Hindu Religious titles
-  hinduism_religious_head_title:1 "Swami"
+  hinduism_religious_head_title: "Swami"
   hinduism_religious_head_title_name: "Sampradaya"
   hinduism_devotee_male: "sanyasi"
   hinduism_devotee_male_plural: "sanyasis"
@@ -106,7 +106,7 @@
 
 #Vaishnavism
   vaishnavism: "Vaishnavism"
-  vaishnavism_adj:1 "Vaishnavite"
+  vaishnavism_adj: "Vaishnavite"
   vaishnavism_adherent: "Vaishnava"
   vaishnavism_adherent_plural: "Vaishnavas"
   vaishnavism_desc: "In Vaishnavism, Vishnu is the Supreme Lord, and the most important devas are his many incarnated avatars, such as Rama and Krishna. Each of these various incarnations work to restore balance to the universe."
@@ -150,7 +150,7 @@
 
 #Shaivism
   shaivism: "Shaivism"
-  shaivism_adj:1 "Shaivite"
+  shaivism_adj: "Shaivite"
   shaivism_adherent: "Shaivite"
   shaivism_adherent_plural: "Shaivites"
   shaivism_desc: "Shaivites worship Shiva, the creator and destroyer of worlds, as the Supreme Being that exists in all things. In the same fashion as Shiva works to maintain balance and preserve the universe, the faithful must strive to bring balance into their lives."
@@ -189,12 +189,19 @@
   shaivism_good_god_vaitheeswaran: "Vaitheeswaran"
   shaivism_good_god_parvati: "Parvati"
 
-#Trika Shaivism ie Kashmiri Shaivism
+# Trika Shaivism ie Kashmiri Shaivism
   trika_shaivism: "Trika Shaivism"
-  trika_shaivism_adj:1 "Trika"
+  trika_shaivism_adj: "Trika"
   trika_shaivism_adherent: "Trika"
   trika_shaivism_adherent_plural: "Trikas"
   trika_shaivism_desc: "Trika Shaivism, otherwise known as Kashmiri Shaivism is a non-dualistic form of Shaivism that is a mixture of Shaivism and Shaktism. Trika Shaivism places heavy emphasis upon Tantric practices as part of their religious practice."
+
+# Lingayatism
+  lingayatism: "Lingayatism"
+  lingayatism_adj: "Lingayatism"
+  lingayatism_adherent: "Lingayat"
+  lingayatism_adherent_plural: "Lingayats"
+  lingayatism_desc: "Lingayatism, also known sometimes as Veerashaiva, is a form of Shaivism. Lingayatism was founded by the great sage Basava. Lingayatism as a tradition is known for their practice of ishtalinga worship, where devotees carry a personal linga upon their person to symbolize a constant and intimate relationship with Shiva. Furthermore they are known for their egalitarianism. Basava preached against the caste system and promoted equality."
 
 #Srikula Shaktism
   srikula_shaktism: "Srikula Shaktism"
@@ -272,10 +279,10 @@
   kalikula_shaktism_desc: "Shaktism believes in the Great Goddess as the Supreme Being from which springs all existence. The Kalikula worship Kali as the one who can give guidance, good rebirth and ultimately moksha."
 
 #Smartism
-  smartism:1 "Smartism"
-  smartism_adj:1 "Smarta"
-  smartism_adherent:1 "Smarta"
-  smartism_adherent_plural:1 "Smartas"
+  smartism: "Smartism"
+  smartism_adj: "Smarta"
+  smartism_adherent: "Smarta"
+  smartism_adherent_plural: "Smartas"
   smartism_desc: "The Smarta tradition rejects the worship of individual gods. Brahman is one and eternal, and Vishnu, Devi, Shiva, Ganesh and Surya are worshiped as equal avatars of the Supreme Being. Any individual worship is a step towards achieving understanding and unity with Brahman."
 
   smartism_health_god_name: "Vishnu"
@@ -612,11 +619,4 @@
   holy_site_arulmigu_effect_name: "From [holy_site|E] #weak ($holy_site_arulmigu_name$)#!"
   holy_site_tiruttani_name: "Tiruttani"
   holy_site_tiruttani_effect_name: "From [holy_site|E] #weak ($holy_site_tiruttani_name$)#!"
-
-
-
-
-
-
-
 

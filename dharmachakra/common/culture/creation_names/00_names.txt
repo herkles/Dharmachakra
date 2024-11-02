@@ -731,18 +731,6 @@ mervi = {
 		}
 	}
 }
-parsi = {
-	trigger = {
-		capital_county = {
-			title_province = { geographical_region = world_india }
-		}
-		faith = { religion_tag = zoroastrianism_religion }
-		any_sub_realm_county = {
-			faith = { religion_tag = zoroastrianism_religion }
-			title_province = { geographical_region = world_india }
-		}
-	}
-}
 icelandic = {
 	trigger = {
 		OR = {

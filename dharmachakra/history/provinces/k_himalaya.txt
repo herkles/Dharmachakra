@@ -42,7 +42,7 @@
 	# 9090 - Devalgarh
 	
 	# Misc
-	culture = nepali
+	culture = garwhali
 	religion = shaivism
 	special_building_slot = kedarnath_temple_01
 	special_building = kedarnath_temple_01
@@ -57,7 +57,7 @@
 	# 9091 - Kartikeyapura
 	
 	# Misc
-	culture = nepali
+	culture = kuamoni
 	religion = shaivism
 	special_building_slot = badrinath_temple_01
 	special_building = badrinath_temple_01
@@ -72,7 +72,7 @@
 	# 9092 - Champawat
 	
 	# Misc
-	culture = nepali
+	culture = kuamoni
 	religion = shaivism
 	
 	holding = castle_holding
@@ -360,7 +360,7 @@
 9116 = {	# 9116 - Kathmandu
 	
 	# Misc
-	culture = nepali #Maithili-Newars
+	culture = newar #Maithili-Newars
 	religion = shaivism
 	
 	holding = castle_holding
@@ -372,7 +372,7 @@
 9117 = {	# 9117 - Bhaktapur
 	
 	# Misc
-	culture = nepali #Newar
+	culture = newar #Newar
 	religion = shaivism
 	
 	holding = castle_holding
@@ -384,7 +384,7 @@
 9118 = {	# 9118 - Janakpur
 	
 	# Misc
-	culture = nepali #Maithili
+	culture = newar #Maithili
 	religion = vaishnavism
 	
 	holding = castle_holding
@@ -432,7 +432,7 @@
 9122 = {	# 9122 - Rajbiraj
 	
 	# Misc
-	culture = nepali #Maithili
+	culture = maithili #Maithili
 	religion = shaivism
 	
 	holding = church_holding
@@ -444,7 +444,7 @@
 9123 = {	# 9123 -  Bharatpur
 	
 	# Misc
-	culture = nepali #Maithili
+	culture = maithili #Maithili
 	religion = shaivism
 	
 	holding = city_holding
@@ -456,7 +456,7 @@
 9124 = {	# 9124 - Gograha
 	
 	# Misc
-	culture = nepali #Maithili
+	culture = maithili #Maithili
 	religion = krishnaism
 	
 	holding = church_holding
@@ -504,7 +504,7 @@
 9130 = {	# 9130 - Kirtipur
 	
 	# Misc
-	culture = nepali #Newar
+	culture = newar #Newar
 	religion = shaivism
 	
 	holding = city_holding
@@ -516,7 +516,7 @@
 9131 = {	# 9131 - Lalitpur
 	
 	# Misc
-	culture = nepali #Newar
+	culture = newar #Newar
 	religion = shaivism
 	
 	holding = city_holding
@@ -528,7 +528,7 @@
 9132 = {	# 9132 - Dhulikhel
 	
 	# Misc
-	culture = nepali #Newar
+	culture = newar #Newar
 	religion = shaivism
 	
 	holding = church_holding

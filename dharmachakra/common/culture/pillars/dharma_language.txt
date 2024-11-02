@@ -356,6 +356,74 @@ language_nagpuri = {# Nagpuri
 	
 	color = burmese
 }
+language_maithili = {# Maithili
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_maithili
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_maithili }
+			multiply = 10
+		}
+	}
+	
+	color = burmese
+}
+language_newar = {# Newar
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_newar
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_newar }
+			multiply = 10
+		}
+	}
+	
+	color = burmese
+}
+language_garwhali = {# Nagpuri
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_garwhali
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_garwhali }
+			multiply = 10
+		}
+	}
+	
+	color = burmese
+}
+language_kuamoni = {# Nagpuri
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kuamoni
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kuamoni }
+			multiply = 10
+		}
+	}
+	
+	color = burmese
+}
 #Dravidian Languages
 language_tamil = {# Middle Tamil, includes Malayali
 	type = language

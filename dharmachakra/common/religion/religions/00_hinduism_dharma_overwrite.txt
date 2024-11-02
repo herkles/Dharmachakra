@@ -483,6 +483,99 @@
 				}
 			}		
 		}
+		lingayatism = {
+			color = { 128 0 32 }
+			icon = advaitism
+
+			# Sapta Puri Holy Sites
+			holy_site = varanasi
+			holy_site = ayodhya
+			holy_site = mathura
+			holy_site = haridwar
+			holy_site = kanchipuram
+			holy_site = ujjayini
+			holy_site = dwarka
+
+			doctrine = tenet_inner_journey
+			doctrine = tenet_monasticism
+			doctrine = tenet_esotericism
+
+			doctrine = sampradaya_shaivism_doctrine
+
+			# Lingyatism is more equalitable
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_clerical_gender_either
+
+			localization = {
+				HighGodName = shaivism_high_god_name
+				HighGodName2 = shaivism_high_god_name_2
+				HighGodNamePossessive = shaivism_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+
+				#HealthGod
+				HealthGodName = shaivism_health_god_name
+				HealthGodNamePossessive = shaivism_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = shaivism_fertility_god_name
+				FertilityGodNamePossessive = shaivism_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				#WealthGod
+				WealthGodName = shaivism_wealth_god_name
+				WealthGodNamePossessive = shaivism_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = shaivism_household_god_name
+				HouseholdGodNamePossessive = shaivism_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_HE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+				#KnowledgeGod
+				KnowledgeGodName = shaivism_knowledge_god_name
+				KnowledgeGodNamePossessive = shaivism_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WarGod
+				WarGodName = shaivism_war_god_name
+				WarGodNamePossessive = shaivism_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				GoodGodNames = {
+					shaivism_high_god_name
+					hinduism_high_god_name_alternate
+					hinduism_good_god_brahma
+					hinduism_good_god_vishnu
+					hinduism_good_god_shakti
+					hinduism_good_god_ganesh
+					shaivism_good_god_murugan
+					shaivism_good_god_aiyanar
+					shaivism_good_god_virabhadra
+					shaivism_good_god_rudra
+					shaivism_good_god_bhairava
+					shaivism_good_god_nataraja
+					shaivism_good_god_dakshinamurthy
+					shaivism_good_god_nandi
+					shaivism_good_god_vaitheeswaran
+					shaivism_good_god_parvati
+				}
+			}		
+		}
 		trika_shaivism = {
 			color = { 155 17 30 }
 			icon = shaivism

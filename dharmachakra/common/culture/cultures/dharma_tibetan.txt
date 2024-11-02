@@ -239,3 +239,27 @@ tani = { # Tani
 	}
 }
 
+garo = { # Garo People
+	color = { 196 98 16 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_tibetan
+	language = language_kachari
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_medicinal_plants
+		tradition_sacred_mountains
+	}
+	
+	name_list = name_list_tani
+
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = asian_tibetan_1
+	}
+}

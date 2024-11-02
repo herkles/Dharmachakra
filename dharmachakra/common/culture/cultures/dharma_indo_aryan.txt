@@ -1,4 +1,5 @@
-﻿bengali = {# Indo-Aryan
+﻿############ Vanilla cultures ############
+bengali = {# Indo-Aryan
 	color = { 0.45 0.0 0.0 }
 	
 	ethos = ethos_spiritual
@@ -24,7 +25,7 @@
 		10 = indian
 	}
 }
-oriya = { # Indo-Aryan
+oriya = {# Indo-Aryan
 	color = {136 8 8 }
 	
 	ethos = ethos_spiritual
@@ -49,7 +50,7 @@ oriya = { # Indo-Aryan
 		10 = indian
 	}
 }
-hindustani = { # Indo-Aryan
+hindustani = {# Indo-Aryan
 	color = hindustani
 	
 	ethos = ethos_spiritual
@@ -74,7 +75,7 @@ hindustani = { # Indo-Aryan
 		10 = indian
 	}
 }
-gujarati = { # Indo-Aryan
+gujarati = {# Indo-Aryan
 	color = { 0.4 0.2 0.2 }
 	
 	ethos = ethos_spiritual
@@ -100,7 +101,7 @@ gujarati = { # Indo-Aryan
 		10 = indian
 	}
 }
-punjabi = { # Indo-Aryan
+punjabi = {# Indo-Aryan
 	color = punjabi
 	
 	ethos = ethos_communal
@@ -125,7 +126,7 @@ punjabi = { # Indo-Aryan
 		10 = indian
 	}
 }
-rajput = { # Indo-Aryan - #Renamed to Rajasthani
+rajput = {# Indo-Aryan - #Renamed to Rajasthani
 	color = rajput
 	
 	ethos = ethos_bellicose
@@ -151,7 +152,7 @@ rajput = { # Indo-Aryan - #Renamed to Rajasthani
 		10 = indian
 	}
 }
-malvi = { # Indo-Aryan
+malvi = {# Indo-Aryan
 	color = { 0.6 0.05 0.05 }
 	
 	ethos = ethos_stoic
@@ -176,7 +177,7 @@ malvi = { # Indo-Aryan
 		10 = indian
 	}
 }
-sindhi = { # Indo-Aryan
+sindhi = {# Indo-Aryan
 	color = { 1.0 0.2 0.0 }
 	
 	ethos = ethos_spiritual
@@ -201,7 +202,7 @@ sindhi = { # Indo-Aryan
 		10 = indian
 	}
 }
-marathi = { # Indo-Aryan
+marathi = {# Indo-Aryan
 	color = marathi
 	
 	ethos = ethos_stoic
@@ -226,7 +227,7 @@ marathi = { # Indo-Aryan
 		10 = indian
 	}
 }
-kashmiri = { # Indo-Aryan Dardic
+kashmiri = {# Indo-Aryan Dardic
 	color = kashmiri
 	
 	ethos = ethos_spiritual
@@ -253,7 +254,7 @@ kashmiri = { # Indo-Aryan Dardic
 		1 = asian
 	}
 }
-sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
+sinhala = {# Indo-Aryans who arrived in Sri Lanka ca 600BC
 	color = sinhala
 	
 	ethos = ethos_spiritual
@@ -279,7 +280,7 @@ sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
 		10 = indian
 	}
 }
-nepali = { # (Newar, Garwhali, Kuamoni, Khasa, Gorkha, Tamangic, etc.)
+nepali = {# Khasa People
 	color = { 164 90 82  }
 	
 	ethos = ethos_communal
@@ -591,6 +592,110 @@ hindustani_proper = {# Hindustani
 
 
 		
+	}
+}
+
+newar = {# Newar People
+	color = { 137 63 69  }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_newar
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_himalayan_settlers
+		tradition_martial_admiration
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_nepali
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		6 = indian
+		4 = asian
+	}
+}
+garwhali = {# Garwhali People
+	color = { 1164 89 83  }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_garwhali
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_himalayan_settlers
+		tradition_martial_admiration
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_nepali
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		6 = indian
+		4 = asian
+	}
+}
+kuamoni = {#  Kuamoni
+	color = { 124 9 2  }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_kuamoni
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_himalayan_settlers
+		tradition_martial_admiration
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_nepali
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		6 = indian
+		4 = asian
+	}
+}
+maithili = {# Maithili
+	color = { 219 0 7 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_indo_aryan
+	language = language_maithili
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_khadga_puja
+		tradition_court_eunuchs
+		tradition_religious_patronage
+	}
+
+	name_list = name_list_bihari
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
 	}
 }
 ############ For Rice Compitability ############

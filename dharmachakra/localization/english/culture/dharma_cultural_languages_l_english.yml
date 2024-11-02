@@ -5,12 +5,17 @@
     language_awadhi_name:0 "Awadhi"
     language_bhil_name:0 "Bhil"
     language_sambalpuri_name:0 "Sambalpuri"
-    language_nepali_name:0 "Nepali"
+    language_nepali_name:0 "Khasa"
     language_kamarupi_name:0 "Kamarupi"
     language_rajbongshi_name:0 "Rajbongshi"
     language_konkani_name:0 "Konkani"
     language_nuristani_name:0 "Nuristani"
     language_nagpuri_name:0 "Nagpuri"
+
+    language_maithili_name:0 "Maithili"
+    language_newar_name:0 "Newar"
+    language_garwhali_name:0 "Garwhali"
+    language_kuamoni_name:0 "Kuamoni"
   # Dravidian Languages
     language_gondi_name:0 "Gondi"
   # Tibetan Languages

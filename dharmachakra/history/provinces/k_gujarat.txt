@@ -3,12 +3,12 @@
 	
 	# Misc
 	culture = gujarati
-	religion = yapaniya
+	religion = svetambara
 	
 	# History
-	1066.1.1 = {
-		religion = zurvanism
-		culture = persian
+	936.1.1 = {
+		religion = mazdayasna
+		culture = parsi
 	}
 
 }
@@ -42,7 +42,7 @@
 	
 	# Misc
 	culture = gujarati
-	religion = yapaniya
+	religion = digambara
 	
 	# History
 
@@ -56,6 +56,9 @@
 	religion = suryaism
 	
 	# History
+	867.1.1 = {
+		special_building = generic_university
+	}
 
 }
 
@@ -568,7 +571,9 @@
 	holding = city_holding
 	
 	# History
-
+	1142.1.1 = {
+		holding = castle_holding
+	}
 }
 
 # 3384 - Sanjan
@@ -580,7 +585,7 @@
 	
 	# History
 	1066.1.1 = {
-		religion = zurvanism
+		religion = mazdayasna
 	}
 
 }
