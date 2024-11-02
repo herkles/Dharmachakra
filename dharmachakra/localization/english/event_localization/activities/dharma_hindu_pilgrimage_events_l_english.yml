@@ -212,7 +212,7 @@
   dharma_hindu_pilgrimages.070.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.071.t: "Offering to Lord Murugan and Maa Deivayanai"
-  dharma_hindu_pilgrimages.071.desc: "I enter the holy temple and I make my offerings to Lord Murugan and Maa Deivayanai. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May they bless me."
+  dharma_hindu_pilgrimages.071.desc: "I enter the holy temple and I make my offerings to Lord Murugan and Maa Deivayanai. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the murti. May they bless me."
   dharma_hindu_pilgrimages.071.a: "Om Sharavana Bhavaya Namaha"
 
   dharma_hindu_pilgrimages.072.t: "Donating to Charity"
@@ -227,15 +227,15 @@
 
 # Tiruchendur
   dharma_hindu_pilgrimages.074.t: "Arrivial at Tiruchendur"
-  dharma_hindu_pilgrimages.074.desc: "dadfad"
+  dharma_hindu_pilgrimages.074.desc: "I have arrived at the town of Tiruchendur. Here is the Subramaniya Swamy Temple dedicated to Lord Murugan. It is here where Lord Murugan fought the demon king Surapadman and here he slew the demon king. The town has a number of pilgrims and monastics busy in the streets. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
   dharma_hindu_pilgrimages.074.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.075.t: "Bathing in the temple Waters"
-  dharma_hindu_pilgrimages.075.desc: "dadfad"
+  dharma_hindu_pilgrimages.075.desc: "Before I visit the temple I first need to purify myself. The temple has a ritual bathing area so that pilgrims such as myself are able to bath and purify themselves in sacred waters. By bathing in these waters I hope to purify myself and wash away my sins."
   dharma_hindu_pilgrimages.075.a: "May my sins be washed away."
 
   dharma_hindu_pilgrimages.076.t: "Offering to Lord Murugan"
-  dharma_hindu_pilgrimages.076.desc: "dadfad"
+  dharma_hindu_pilgrimages.076.desc: "I enter the holy temple and I make my offerings to Lord Murugan. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the murti. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.076.a: "Om Sharavana Bhavaya Namaha"
 
   dharma_hindu_pilgrimages.077.t: "Donating to Charity"
@@ -245,26 +245,27 @@
   dharma_hindu_pilgrimages.077.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.078.t: "Leaving for home"
-  dharma_hindu_pilgrimages.078.desc: "dadfad"
+  dharma_hindu_pilgrimages.078.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Murugan at the Subramaniya Swamy Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
   dharma_hindu_pilgrimages.078.a: "Time to head Home"
 
 # Palani
   dharma_hindu_pilgrimages.079.t: "Arrivial at Palani"
-  dharma_hindu_pilgrimages.079.desc: "dadfad"
+  dharma_hindu_pilgrimages.079.desc: "I have arrived at the town of Palani. Here is the Dhandayuthapani Swamy Temple dedicated to Lord Murugan. It is here where Murugan went to meditate and focus on obtaining wisdom following his anger at his brother, Lord Ganesha. As I enter the town, there are a number of pilgrims and monastics busy in the streets. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
   dharma_hindu_pilgrimages.079.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.080.t: "Bathing in the temple Waters"
-  dharma_hindu_pilgrimages.080.desc: "dadfad"
+  dharma_hindu_pilgrimages.080.desc: "Before I visit the temple I first need to purify myself. The temple has a ritual bathing area so that pilgrims such as myself are able to bath and purify themselves in sacred waters. By bathing in these waters I hope to purify myself and wash away my sins."
   dharma_hindu_pilgrimages.080.a: "May my sins be washed away."
 
   dharma_hindu_pilgrimages.081.t: "Offering to Lord Murugan"
-  dharma_hindu_pilgrimages.081.desc: "dadfad"
+  dharma_hindu_pilgrimages.081.desc: "I enter the holy temple and I make my offerings to Lord Murugan. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the murti. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.081.a: "Om Sharavana Bhavaya Namaha"
 
   dharma_hindu_pilgrimages.082.t: "Offer some hair?"
-  dharma_hindu_pilgrimages.082.desc: "dadfad"
-  dharma_hindu_pilgrimages.082.a: "I shall offer some hair."
-  dharma_hindu_pilgrimages.082.b: "I shall not."
+  dharma_hindu_pilgrimages.082.desc: "One of the traditions for devotees of Lord Murugan visiting the temple is to shave one's head and tonsure one's self. Shall you engage in the tradition and provide your hair to Lord Murugan?"
+  dharma_hindu_pilgrimages.082.a: "I shall shave all my hair."
+  dharma_hindu_pilgrimages.082.b: "I shall offer some hair."
+  dharma_hindu_pilgrimages.082.a: "I shall not."
 
   dharma_hindu_pilgrimages.083.t: "Donating to Charity"
   dharma_hindu_pilgrimages.083.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
@@ -273,16 +274,16 @@
   dharma_hindu_pilgrimages.083.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.084.t: "Leaving for home"
-  dharma_hindu_pilgrimages.084.desc: "dadfad"
+  dharma_hindu_pilgrimages.084.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Murugan at the Dhandayuthapani Swamy Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
   dharma_hindu_pilgrimages.084.a: "Time to head Home"
 
 # Swamimalai
   dharma_hindu_pilgrimages.085.t: "Arrivial at Swamimalai"
-  dharma_hindu_pilgrimages.085.desc: "dadfad"
+  dharma_hindu_pilgrimages.085.desc: "I have arrived at the town of Swamimalai. Here is the Swaminatha Swamy Temple dedicated to Lord Murugan. It is here where it is said that Lord Murugan taught his father the meaning of Om, and where he received the title of Swaminatha Swami or teacher of Shiva. As I enter the town, there are a number of pilgrims and monastics busy in the streets. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
   dharma_hindu_pilgrimages.085.a: "Ndfddcase"
 
   dharma_hindu_pilgrimages.086.t: "Offering to Lord Swaminathaswamy"
-  dharma_hindu_pilgrimages.086.desc: "dadfad"
+  dharma_hindu_pilgrimages.086.desc: "I enter the holy temple and I make my offerings to Lord Murugan. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the murti. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.086.a: "Om Sharavana Bhavaya Namaha"
 
   dharma_hindu_pilgrimages.087.t: "Donating to Charity"
@@ -292,16 +293,16 @@
   dharma_hindu_pilgrimages.087.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.088.t: "Leaving for home"
-  dharma_hindu_pilgrimages.088.desc: "dadfad"
+  dharma_hindu_pilgrimages.088.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Murugan at the Swaminatha Swamy Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
   dharma_hindu_pilgrimages.088.a: "Time to head Home"
 
 # Tiruttani
   dharma_hindu_pilgrimages.089.t: "Arrivial at Tiruttani"
-  dharma_hindu_pilgrimages.089.desc: "dadfad"
+  dharma_hindu_pilgrimages.089.desc: "I have arrived at the town of Tiruttani. Here is the Subramaniya Swamy Temple dedicated to Lord Murugan. It is here where Lord Indra presented his daughter Devasena to Lord Murugan and offered his elephant Airavata to him. As I enter the town, there are a number of pilgrims and monastics busy in the streets. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
   dharma_hindu_pilgrimages.089.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.090.t: "Offering to Lord Murugan"
-  dharma_hindu_pilgrimages.090.desc: "dadfad"
+  dharma_hindu_pilgrimages.090.desc: "I enter the holy temple and I make my offerings to Lord Murugan. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the murti. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.090.a: "Om Sharavana Bhavaya Namaha"
 
   dharma_hindu_pilgrimages.091.t: "Donating to Charity"
@@ -311,16 +312,16 @@
   dharma_hindu_pilgrimages.091.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.092.t: "Leaving for home"
-  dharma_hindu_pilgrimages.092.desc: "dadfad"
+  dharma_hindu_pilgrimages.092.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Murugan at the Subramaniya Swamy Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
   dharma_hindu_pilgrimages.092.a: "Time to head Home"
 
 # Pazhamudircholai
   dharma_hindu_pilgrimages.093.t: "Arrivial at Pazhamudircholai"
-  dharma_hindu_pilgrimages.093.desc: "dadfad"
+  dharma_hindu_pilgrimages.093.desc: "I have arrived at the town of Pazhamudircholai, near the famous city of Madurai. Here is the Armulmigu Solaimalai Murugan Temple dedicated to Lord Murugan. As I enter the town, there are a number of pilgrims and monastics busy in the streets. I make my way to the quarters for noble pilgrims like myself to prepare for visiting the temple."
   dharma_hindu_pilgrimages.093.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.094.t: "Offering to Lord Murugan"
-  dharma_hindu_pilgrimages.094.desc: "dadfad"
+  dharma_hindu_pilgrimages.094.desc: "I enter the holy temple and I make my offerings to Lord Murugan. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the murti. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.094.a: "Om Sharavana Bhavaya Namaha"
 
   dharma_hindu_pilgrimages.095.t: "Donating to Charity"
@@ -330,7 +331,7 @@
   dharma_hindu_pilgrimages.095.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.096.t: "Leaving for home"
-  dharma_hindu_pilgrimages.096.desc: "dadfad"
+  dharma_hindu_pilgrimages.096.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Murugan at the Armulmigu Solaimalai Murugan Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
   dharma_hindu_pilgrimages.096.a: "Time to head Home"
 
 #######################################
@@ -338,15 +339,15 @@
 #######################################
 # Somnath
   dharma_hindu_pilgrimages.101.t: "Arrivial at Somnath"
-  dharma_hindu_pilgrimages.101.desc: "dadfad"
+  dharma_hindu_pilgrimages.101.desc: "I have arrived at the great city of Somnath. This city is bustling with pilgrims and numerous temples tower throughout the city. My focus though is on the Somnath temple dedicated to Lord Shiva, one of the twelve Jyotirlingas. Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.101.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.102.t: "Bathing in the temple Waters"
-  dharma_hindu_pilgrimages.102.desc: "dadfad"
+  dharma_hindu_pilgrimages.102.desc: "Before I visit the temple I first need to purify myself. The temple has a ritual bathing area so that pilgrims such as myself are able to bath and purify themselves in sacred waters. By bathing in these waters I hope to purify myself and wash away my sins."
   dharma_hindu_pilgrimages.102.a: "May my sins be washed away."
 
   dharma_hindu_pilgrimages.103.t: "Offering to Lord Shiva"
-  dharma_hindu_pilgrimages.103.desc: "dadfad"
+  dharma_hindu_pilgrimages.103.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.103.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.104.t: "Donating to Charity"
@@ -356,16 +357,16 @@
   dharma_hindu_pilgrimages.104.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.105.t: "Leaving for home"
-  dharma_hindu_pilgrimages.105.desc: "dadfad"
+  dharma_hindu_pilgrimages.105.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Somnath Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
   dharma_hindu_pilgrimages.105.a: "Time to head Home"
 
 # Mallikarjuna
   dharma_hindu_pilgrimages.106.t: "Arrivial at Mallikarjuna"
-  dharma_hindu_pilgrimages.106.desc: "dadfad"
+  dharma_hindu_pilgrimages.106.desc: "I have arrived at the great city of Mallikarjuna. This city is bustling with pilgrims and numerous temples tower throughout the city. My focus though is on the Mallikarjuna temple dedicated to Lord Shiva, one of the twelve Jyotirlingas. The temple is also dedicated to Maa Parvati. Here the two are known as Mallikarjuna and Bhramaramba. Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.106.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.107.t: "Offering to Lord Mallikarjuna and Bhramaramba"
-  dharma_hindu_pilgrimages.107.desc: "dadfad"
+  dharma_hindu_pilgrimages.107.desc: "I enter the holy temple and I make my offerings to Lord Shiva and Maa Parvati. Puja and food is offered to the Gods, the mantras are recited, I pour jasmine and other sacred elements over the Linga. May their blessing be bestowed upon me."
   dharma_hindu_pilgrimages.107.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.108.t: "Donating to Charity"
@@ -375,16 +376,16 @@
   dharma_hindu_pilgrimages.108.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.109.t: "Leaving for home"
-  dharma_hindu_pilgrimages.109.desc: "dadfad"
+  dharma_hindu_pilgrimages.109.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Mallikarjuna Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
   dharma_hindu_pilgrimages.109.a: "Time to head Home"
 
 # Mahakaleshwar
-  dharma_hindu_pilgrimages.110.t: "Arrivial at Mahakaleshwar"
-  dharma_hindu_pilgrimages.110.desc: "dadfad"
+  dharma_hindu_pilgrimages.110.t: "Arrivial at Ujjain"
+  dharma_hindu_pilgrimages.110.desc: "I have arrived in the great city of Ujjain. This city is bustling with pilgrims and numerous temples tower throughout the city. My focus though is on the Mahakaleshwar temple dedicated to Lord Shiva, one of the twelve Jyotirlingas. Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.110.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.111.t: "Offering to Lord Shiva"
-  dharma_hindu_pilgrimages.111.desc: "dadfad"
+  dharma_hindu_pilgrimages.111.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.111.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.112.t: "Donating to Charity"
@@ -394,24 +395,24 @@
   dharma_hindu_pilgrimages.112.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.113.t: "Leaving for home"
-  dharma_hindu_pilgrimages.113.desc: "dadfad"
+  dharma_hindu_pilgrimages.113.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Mahakaleshwar Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home"
   dharma_hindu_pilgrimages.113.a: "Time to head Home"
 
 # Omkareshwar
   dharma_hindu_pilgrimages.114.t: "Arrivial at Omkareshwar"
-  dharma_hindu_pilgrimages.114.desc: "dadfad"
+  dharma_hindu_pilgrimages.114.desc: "I have arrived in the city of Mandhata. This city is bustling with pilgrims and numerous temples tower throughout the city. My focus though is on the Omkareshwar temple dedicated to Lord Shiva, one of the twelve Jyotirlingas. It is said that the island that the temple lies upon is in the shape of OM. Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.114.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.115.t: "Bathing in the Narmada River"
-  dharma_hindu_pilgrimages.115.desc: "dadfad"
+  dharma_hindu_pilgrimages.115.desc: "Before I visit the temple I first shall bathe in the Narmada River and purify myself in the sacred waters. By bathing in the river I can purify myself and wash away my sins. and in doing so make me ready to make offerings to Lord Shiva Jyortilinga here. "
   dharma_hindu_pilgrimages.115.a: "May my sins be washed away."
 
   dharma_hindu_pilgrimages.116.t: "Offering to Lord Omkareshwar"
-  dharma_hindu_pilgrimages.116.desc: "dadfad"
+  dharma_hindu_pilgrimages.116.desc: "I enter the holy temple and I make my offerings to Lord Shiva, who is known as Omkareshwar or Lord of Om. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May their blessing be bestowed upon me."
   dharma_hindu_pilgrimages.116.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.117.t: "Offering to Lord Mamleshwar"
-  dharma_hindu_pilgrimages.117.desc: "dadfad"
+  dharma_hindu_pilgrimages.117.desc: "After doing the rituals at the Omkareshwar temple, I then make my way to the other temple in the town dedicated to Mamleshwar, lord of the devas. This temple is located across the water on the other bank of the River. As I enter the temple, I make offerings to Lord shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May their blessing be bestowed upon me."
   dharma_hindu_pilgrimages.117.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.118.t: "Donating to Charity"
@@ -421,16 +422,16 @@
   dharma_hindu_pilgrimages.118.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.119.t: "Leaving for home"
-  dharma_hindu_pilgrimages.119.desc: "dadfad"
+  dharma_hindu_pilgrimages.119.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Omkareshwar Temple, I took the time to explore the town. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
   dharma_hindu_pilgrimages.119.a: "Time to head Home"
 
 # Baidyanath
-  dharma_hindu_pilgrimages.120.t: "Arrivial at Baidyanath"
-  dharma_hindu_pilgrimages.120.desc: "dadfad"
+  dharma_hindu_pilgrimages.120.t: "Arrivial at Deoghar"
+  dharma_hindu_pilgrimages.120.desc: "I have arrived in the village of Deoghar. This city is bustling with pilgrims and numerous temples tower throughout the city. My focus though is on the Baidyanath temple dedicated to Lord Shiva, one of the twelve Jyotirlingas. Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.120.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.121.t: "Offering to Lord Shiva"
-  dharma_hindu_pilgrimages.121.desc: "dadfad"
+  dharma_hindu_pilgrimages.121.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.121.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.122.t: "Donating to Charity"
@@ -440,20 +441,20 @@
   dharma_hindu_pilgrimages.122.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.123.t: "Leaving for home"
-  dharma_hindu_pilgrimages.123.desc: "dadfad"
+  dharma_hindu_pilgrimages.123.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Baidyanath Temple, I took the time to explore the village. \n\nAlas, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
   dharma_hindu_pilgrimages.123.a: "Time to head Home"
 
 # Bhimashankar
   dharma_hindu_pilgrimages.124.t: "Arrivial at Bhimashankar"
-  dharma_hindu_pilgrimages.124.desc: "dadfad"
+  dharma_hindu_pilgrimages.124.desc: "I have arrived in the village of Bhimashankar. This city is bustling with pilgrims and numerous temples tower throughout the city. My focus though is on the Baidyanath temple dedicated to Lord Shiva, one of the twelve Jyotirlingas. Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.124.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.125.t: "Bathing in Temple Waters"
-  dharma_hindu_pilgrimages.125.desc: "dadfad"
+  dharma_hindu_pilgrimages.125.desc: "Before I visit the temple I first need to purify myself. The temple has a ritual bathing area so that pilgrims such as myself are able to bath and purify themselves in sacred waters. By bathing in these waters I hope to purify myself and wash away my sins."
   dharma_hindu_pilgrimages.125.a: "May my sins be washed away."
 
   dharma_hindu_pilgrimages.126.t: "Offering to Lord Shiva"
-  dharma_hindu_pilgrimages.126.desc: "dadfad"
+  dharma_hindu_pilgrimages.126.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.126.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.127.t: "Donating to Charity"
@@ -463,7 +464,7 @@
   dharma_hindu_pilgrimages.127.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.128.t: "Leaving for home"
-  dharma_hindu_pilgrimages.128.desc: "dadfad"
+  dharma_hindu_pilgrimages.128.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Bhimashankar Temple, I took the time to explore the village. \n\nAlas, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
   dharma_hindu_pilgrimages.128.a: "Time to head Home"
 
 # Rameshwaram
@@ -490,12 +491,12 @@
   dharma_hindu_pilgrimages.133.a: "Time to head Home"
 
 # Nageshwar
-  dharma_hindu_pilgrimages.134.t: "Arrivial at Nageshwar"
-  dharma_hindu_pilgrimages.134.desc: "dadfad"
+  dharma_hindu_pilgrimages.134.t: "Arrivial at Dwarka"
+  dharma_hindu_pilgrimages.134.desc: "I have arrived at the great city of Dwarka. In this city of many pilgrims and visitors, numerous temples are here. My focus though is on the Nageshwar Temple, one of the twelve Jyotirlingas. Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.134.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.135.t: "Offering to Lord Shiva"
-  dharma_hindu_pilgrimages.135.desc: "dadfad"
+  dharma_hindu_pilgrimages.135.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.135.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.136.t: "Donating to Charity"
@@ -505,20 +506,20 @@
   dharma_hindu_pilgrimages.136.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.137.t: "Leaving for home"
-  dharma_hindu_pilgrimages.137.desc: "dadfad"
+  dharma_hindu_pilgrimages.137.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Nageshwar Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the city, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
   dharma_hindu_pilgrimages.137.a: "Time to head Home"
 
 # Vishwanath
-  dharma_hindu_pilgrimages.138.t: "Arrivial at Vishwanath"
-  dharma_hindu_pilgrimages.138.desc: "dadfad"
+  dharma_hindu_pilgrimages.138.t: "Arrivial at Varanasi"
+  dharma_hindu_pilgrimages.138.desc: "I have arrived at the great city of Varanasi. In this city of many pilgrims and visitors, numerous temples are here. My focus though is on the Adi Vishwanath Temple, one of the twelve Jyotirlingas. Here lord Shiva is worshiped as Vishweshwara, the Lord of the Universe. Still, Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.138.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.139.t: "Bathing in the Ganges River"
-  dharma_hindu_pilgrimages.139.desc: "dadfad"
+  dharma_hindu_pilgrimages.139.desc: "Before I visit the temple I first shall bath in the Ganges River and purify myself in the sacred waters.. The great sacred river, of Mother Ganga herself. By bathing in the river I can purify myself and wash away my sins."
   dharma_hindu_pilgrimages.139.a: "May my sins be washed away."
 
   dharma_hindu_pilgrimages.140.t: "Offering to Lord Vishveshwara"
-  dharma_hindu_pilgrimages.140.desc: "dadfad"
+  dharma_hindu_pilgrimages.140.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May their blessing be bestowed upon me."
   dharma_hindu_pilgrimages.140.a: "Om Hraun Vishwanathaya"
 
   dharma_hindu_pilgrimages.141.t: "Donating to Charity"
@@ -528,20 +529,20 @@
   dharma_hindu_pilgrimages.141.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.142.t: "Leaving for home"
-  dharma_hindu_pilgrimages.142.desc: "dadfad"
+  dharma_hindu_pilgrimages.142.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Adi Vishwanath Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the city, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
   dharma_hindu_pilgrimages.142.a: "Time to head Home"
 
 # Trimbakeshwar
-  dharma_hindu_pilgrimages.143.t: "Arrivial at Trimbakeshwar"
-  dharma_hindu_pilgrimages.143.desc: "dadfad"
+  dharma_hindu_pilgrimages.143.t: "Arrivial at Trimbak"
+  dharma_hindu_pilgrimages.143.desc: "I have arrived at the town of Trimbak. In this town of many pilgrims and visitors, numerous temples are here. My focus though is on the Trimbakeshwar Temple, one of the twelve Jyotirlingas. Still, Before I do that I first go and get to my quarters in the city."
   dharma_hindu_pilgrimages.143.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.144.t: "Bathing in the Godavari River"
-  dharma_hindu_pilgrimages.144.desc: "dadfad"
+  dharma_hindu_pilgrimages.144.desc: "Before I visit the temple I first shall bathe in the Ganges River and purify myself in the sacred waters. One of the great sacred rivers of India. It is through bathing in the river I can purify myself and wash away my sins."
   dharma_hindu_pilgrimages.144.a: "May my sins be washed away."
 
   dharma_hindu_pilgrimages.145.t: "Offering to Lord Shiva"
-  dharma_hindu_pilgrimages.145.desc: "dadfad"
+  dharma_hindu_pilgrimages.145.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.145.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.146.t: "Donating to Charity"
@@ -551,20 +552,20 @@
   dharma_hindu_pilgrimages.146.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.147.t: "Leaving for home"
-  dharma_hindu_pilgrimages.147.desc: "dadfad"
+  dharma_hindu_pilgrimages.147.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Trimbakeshwar Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the city, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
   dharma_hindu_pilgrimages.147.a: "Time to head Home"
 
 # Kedarnath
-  dharma_hindu_pilgrimages.148.t: "Arrivial at Kedarnath"
-  dharma_hindu_pilgrimages.148.desc: "dadfad"
+  dharma_hindu_pilgrimages.148.t: "Arrivial at Gaurikund"
+  dharma_hindu_pilgrimages.148.desc: "I have arrived at the town of Gaurikund. Here I will prepare for I will be hiking later up the mountain to the Kedarnath temple, one of the twelve Jyotirlingas. Thankfully there are guides to help get me there.  Still, Before I do that I first go and get to my quarters in the town."
   dharma_hindu_pilgrimages.148.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.149.t: "Offering to Lord Shiva"
-  dharma_hindu_pilgrimages.149.desc: "dadfad"
+  dharma_hindu_pilgrimages.149.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.149.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.150.t: "Seeing a Pandav Lila Performance"
-  dharma_hindu_pilgrimages.150.desc: "dadfad"
+  dharma_hindu_pilgrimages.150.desc: "The Locals of the region are known for their Pandav Lila performances. These are plays that tell stories from the great epic the Mahabharata. Here through dance and song, they retell some of the many stories from that great epic. Quite a thing to see while I am here."
   dharma_hindu_pilgrimages.150.a: "What a show."
 
   dharma_hindu_pilgrimages.151.t: "Donating to Charity"
@@ -574,16 +575,16 @@
   dharma_hindu_pilgrimages.151.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.152.t: "Leaving for home"
-  dharma_hindu_pilgrimages.152.desc: "dadfad"
+  dharma_hindu_pilgrimages.152.desc: "I have hiked down to Gaurikund. and now I am making preparations to return home. Now with my spiritual experience concluded, it is time now to return home."
   dharma_hindu_pilgrimages.152.a: "Time to head Home"
 
 # Grishneshwar
-  dharma_hindu_pilgrimages.153.t: "Arrivial at Grishneshwar"
-  dharma_hindu_pilgrimages.153.desc: "dadfad"
+  dharma_hindu_pilgrimages.153.t: "Arrivial at Verul"
+  dharma_hindu_pilgrimages.153.desc: "I have arrived at the village of Verul, a small village not far from the famous Ellora Caves. Here though in Verul is the Grishneshwar Temple, one of the twelve Jyotirlingas.  Still, Before I do that I first go and get to my quarters in the town."
   dharma_hindu_pilgrimages.153.a: "I am glad to have arrived"
 
   dharma_hindu_pilgrimages.154.t: "Offering to Lord Shiva"
-  dharma_hindu_pilgrimages.154.desc: "dadfad"
+  dharma_hindu_pilgrimages.154.desc: "I enter the holy temple and I make my offerings to Lord Shiva. Puja and food is offered to the Gods, the mantras are recited, I pour sandalwood paste and other sacred elements over the Linga. May his blessing be bestowed upon me."
   dharma_hindu_pilgrimages.154.a: "Om Namah Shivaya"
 
   dharma_hindu_pilgrimages.155.t: "Donating to Charity"
@@ -593,7 +594,7 @@
   dharma_hindu_pilgrimages.155.large: "A Large Donation"
 
   dharma_hindu_pilgrimages.156.t: "Leaving for home"
-  dharma_hindu_pilgrimages.156.desc: "dadfad"
+  dharma_hindu_pilgrimages.156.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Lord Shiva at the Grishneshwar Temple, I took the time to explore the village. \n\nAlas, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
   dharma_hindu_pilgrimages.156.a: "Time to head Home"
 
 
