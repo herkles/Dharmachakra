@@ -298,10 +298,77 @@ dharma_vedic_sacrifice_completed_log_entry_effect = {
 		}
 	}
 }
+#######################################
+# Hindu Pilgrimages
+#######################################
+dharma_pilgrimage_char_dham_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_pilgrimage_char_dham_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
 
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+dharma_pilgrimage_shakta_pithas_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_pilgrimage_shakta_pithas_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
 
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+dharma_pilgrimage_abodes_murugan_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_pilgrimage_abodes_murugan_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
 
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
+dharma_pilgrimage_jyotirlingas_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_pilgrimage_jyotirlingas_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
 
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
 
 
 

@@ -123,12 +123,12 @@ dharma_jainism.004 = {# Fasting with the Monk
 	option = {# Don't fast
 		name = dharma_jainism.004.nofast
 		stress_impact = {
-			People with these traits like fasting
+			# People with these traits like fasting
 			inappetetic = miniscule_stress_impact_gain
 			temperate = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			chaste = miniscule_stress_impact_gain
-			People with these traits don't like to fast
+			# People with these traits don't like to fast
 			gluttonous = minor_stress_loss
 			temperate = minor_stress_loss
 			lustful = minor_stress_loss

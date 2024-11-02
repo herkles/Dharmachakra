@@ -180,6 +180,15 @@ khotang = {# khotang
 #######################################
 # Buddhist Holy Sites 
 #######################################
+lumbini = {# vaishali
+	county = c_lumbini
+	barony = b_lumbini
+
+	character_modifier = {
+		name = holy_site_lumbini_effect_name
+		same_faith_opinion = 5
+	}
+}
 vaishali = {# vaishali
 	county = c_mithila
 	barony = b_hajipur

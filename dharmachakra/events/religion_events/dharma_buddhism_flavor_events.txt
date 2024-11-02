@@ -779,7 +779,7 @@ dharma_buddhism.053 = {# Your chief monk encourges you to follow the teachings o
 
 # Events about the important people who founded the various schools
 scripted_trigger dharma_trigger_valid_tibetan_kingdom = {
-	The title must be created first off.
+	# The title must be created first off.
 	holder = {
 		religion = religion:buddhism_religion
 		capital_province = { geographical_region = world_tibet }

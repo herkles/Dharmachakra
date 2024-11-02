@@ -56,7 +56,7 @@
   dharma_hindu_pilgrimages.012.t: "Studying Adi Shankara's teachings"
   dharma_hindu_pilgrimages.012.desc: "The temple of Dwarkadhish is one of the four Char Dhams established by the great guru Adi Shankara famed for his great wisdom and sagacity. As you are in the temple, you have the chance to study from his works."
   dharma_hindu_pilgrimages.012.a: "Study his teachings"
-  dharma_hindu_pilgrimages.012.a: "Spend time visiting the city instead"
+  dharma_hindu_pilgrimages.012.b: "Spend time visiting the city instead"
 
   dharma_hindu_pilgrimages.013.t: "Donating to Charity"
   dharma_hindu_pilgrimages.013.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"
@@ -201,7 +201,7 @@
 
   dharma_hindu_pilgrimages.055.t: "Leaving for home"
   dharma_hindu_pilgrimages.055.desc: "After I finished performing all the necessary religious rituals I had to do as part of my pilgrimage to Maa Kali at the Kalighat Temple, I took the time to explore the city. \n\nAlas, though one could easily spend days in the town, I only have so much time here. With my spiritual experience concluded, it is now time to go home."
-  dharma_hindu_pilgrimages.056.a: "Time to head Home"
+  dharma_hindu_pilgrimages.055.a: "Time to head Home"
 
 #######################################
 # Abodes of Murugan
@@ -265,7 +265,7 @@
   dharma_hindu_pilgrimages.082.desc: "One of the traditions for devotees of Lord Murugan visiting the temple is to shave one's head and tonsure one's self. Shall you engage in the tradition and provide your hair to Lord Murugan?"
   dharma_hindu_pilgrimages.082.a: "I shall shave all my hair."
   dharma_hindu_pilgrimages.082.b: "I shall offer some hair."
-  dharma_hindu_pilgrimages.082.a: "I shall not."
+  dharma_hindu_pilgrimages.082.c: "I shall not."
 
   dharma_hindu_pilgrimages.083.t: "Donating to Charity"
   dharma_hindu_pilgrimages.083.desc: "Before you leave, it is often valuable to practice dana or charity and give to the monks and priests of the temple and to the poor pilgrims who visit the temple. How much shall you give to them?"

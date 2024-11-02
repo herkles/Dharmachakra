@@ -13,7 +13,10 @@ dharma_hindu_pilgrimages.001 = {# Arrivial at at the base of the mountain
 	type = activity_event
 	title = dharma_hindu_pilgrimages.001.t
 	desc = dharma_hindu_pilgrimages.001.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -35,7 +38,10 @@ dharma_hindu_pilgrimages.002 = {# Arriving to the Temple
 	type = activity_event
 	title = dharma_hindu_pilgrimages.002.t
 	desc = dharma_hindu_pilgrimages.002.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -57,7 +63,10 @@ dharma_hindu_pilgrimages.003 = {# Bathing at the temple Hot Springs
 	type = activity_event
 	title = dharma_hindu_pilgrimages.003.t
 	desc = dharma_hindu_pilgrimages.003.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -79,7 +88,10 @@ dharma_hindu_pilgrimages.004 = {# Making offerings to Lord Vishnu
 	type = activity_event
 	title = dharma_hindu_pilgrimages.004.t
 	desc = dharma_hindu_pilgrimages.004.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -101,7 +113,10 @@ dharma_hindu_pilgrimages.005 = {# Adi Shankara's teachings
 	type = activity_event
 	title = dharma_hindu_pilgrimages.005.t
 	desc = dharma_hindu_pilgrimages.005.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -123,7 +138,10 @@ dharma_hindu_pilgrimages.006 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.006.t
 	desc = dharma_hindu_pilgrimages.006.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -184,7 +202,10 @@ dharma_hindu_pilgrimages.007 = {# Making your way back down
 	type = activity_event
 	title = dharma_hindu_pilgrimages.007.t
 	desc = dharma_hindu_pilgrimages.007.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -206,7 +227,10 @@ dharma_hindu_pilgrimages.008 = {# Leaving for home - Badrinath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.008.t
 	desc = dharma_hindu_pilgrimages.008.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -231,7 +255,10 @@ dharma_hindu_pilgrimages.009 = {# Arrivial at Dwarka
 	type = activity_event
 	title = dharma_hindu_pilgrimages.009.t
 	desc = dharma_hindu_pilgrimages.009.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -253,7 +280,10 @@ dharma_hindu_pilgrimages.010 = {# Bathing in the River Gomti
 	type = activity_event
 	title = dharma_hindu_pilgrimages.010.t
 	desc = dharma_hindu_pilgrimages.010.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -275,7 +305,10 @@ dharma_hindu_pilgrimages.011 = {# Offering to Lord Krishna
 	type = activity_event
 	title = dharma_hindu_pilgrimages.011.t
 	desc = dharma_hindu_pilgrimages.011.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -297,7 +330,10 @@ dharma_hindu_pilgrimages.012 = {# Studying Adi Shankara's teachings
 	type = activity_event
 	title = dharma_hindu_pilgrimages.012.t
 	desc = dharma_hindu_pilgrimages.012.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -319,7 +355,10 @@ dharma_hindu_pilgrimages.013 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.013.t
 	desc = dharma_hindu_pilgrimages.013.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -380,7 +419,10 @@ dharma_hindu_pilgrimages.014 = {# Leaving for home - Dwarka
 	type = activity_event
 	title = dharma_hindu_pilgrimages.014.t
 	desc = dharma_hindu_pilgrimages.014.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -405,7 +447,10 @@ dharma_hindu_pilgrimages.015 = {# Arrivial at Puri
 	type = activity_event
 	title = dharma_hindu_pilgrimages.015.t
 	desc = dharma_hindu_pilgrimages.015.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -427,7 +472,10 @@ dharma_hindu_pilgrimages.016 = {# Offering to Lord Jagannath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.016.t
 	desc = dharma_hindu_pilgrimages.016.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -449,7 +497,10 @@ dharma_hindu_pilgrimages.017 = {# Studying Adi Shankara's teachings
 	type = activity_event
 	title = dharma_hindu_pilgrimages.017.t
 	desc = dharma_hindu_pilgrimages.017.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -471,7 +522,10 @@ dharma_hindu_pilgrimages.018 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.018.t
 	desc = dharma_hindu_pilgrimages.018.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -532,7 +586,10 @@ dharma_hindu_pilgrimages.019 = {# Leaving for home - Puri
 	type = activity_event
 	title = dharma_hindu_pilgrimages.019.t
 	desc = dharma_hindu_pilgrimages.019.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -557,7 +614,10 @@ dharma_hindu_pilgrimages.020 = {# Arrivial at Rameswaram
 	type = activity_event
 	title = dharma_hindu_pilgrimages.020.t
 	desc = dharma_hindu_pilgrimages.020.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -579,7 +639,10 @@ dharma_hindu_pilgrimages.021 = {# Bathing in the temple Waters
 	type = activity_event
 	title = dharma_hindu_pilgrimages.021.t
 	desc = dharma_hindu_pilgrimages.021.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -601,7 +664,10 @@ dharma_hindu_pilgrimages.022 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.022.t
 	desc = dharma_hindu_pilgrimages.022.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -623,7 +689,10 @@ dharma_hindu_pilgrimages.023 = {# Offering to Lord Rama
 	type = activity_event
 	title = dharma_hindu_pilgrimages.023.t
 	desc = dharma_hindu_pilgrimages.023.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -645,7 +714,10 @@ dharma_hindu_pilgrimages.024 = {# Studying Adi Shankara's teachings
 	type = activity_event
 	title = dharma_hindu_pilgrimages.024.t
 	desc = dharma_hindu_pilgrimages.024.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -667,7 +739,10 @@ dharma_hindu_pilgrimages.025 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.025.t
 	desc = dharma_hindu_pilgrimages.025.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -728,7 +803,10 @@ dharma_hindu_pilgrimages.026 = {# Leaving for home - Rameswaram
 	type = activity_event
 	title = dharma_hindu_pilgrimages.026.t
 	desc = dharma_hindu_pilgrimages.026.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -772,7 +850,10 @@ dharma_hindu_pilgrimages.040 = {# Arrivial at Vimala
 	type = activity_event
 	title = dharma_hindu_pilgrimages.040.t
 	desc = dharma_hindu_pilgrimages.040.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -794,7 +875,10 @@ dharma_hindu_pilgrimages.041 = {# Offering to Vimala
 	type = activity_event
 	title = dharma_hindu_pilgrimages.041.t
 	desc = dharma_hindu_pilgrimages.041.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -816,7 +900,10 @@ dharma_hindu_pilgrimages.042 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.042.t
 	desc = dharma_hindu_pilgrimages.042.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -877,7 +964,10 @@ dharma_hindu_pilgrimages.043 = {# Leaving for home - Vimala
 	type = activity_event
 	title = dharma_hindu_pilgrimages.043.t
 	desc = dharma_hindu_pilgrimages.043.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -902,7 +992,10 @@ dharma_hindu_pilgrimages.044 = {# Arrivial at Tara Tarini
 	type = activity_event
 	title = dharma_hindu_pilgrimages.044.t
 	desc = dharma_hindu_pilgrimages.044.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -924,7 +1017,10 @@ dharma_hindu_pilgrimages.045 = {# Offering to Tara and Tarini
 	type = activity_event
 	title = dharma_hindu_pilgrimages.045.t
 	desc = dharma_hindu_pilgrimages.045.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -946,7 +1042,10 @@ dharma_hindu_pilgrimages.046 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.046.t
 	desc = dharma_hindu_pilgrimages.046.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1007,7 +1106,10 @@ dharma_hindu_pilgrimages.047 = {# Leaving for home - Tara Tarini
 	type = activity_event
 	title = dharma_hindu_pilgrimages.047.t
 	desc = dharma_hindu_pilgrimages.047.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1032,7 +1134,10 @@ dharma_hindu_pilgrimages.048 = {# Arrivial at Kamakhya
 	type = activity_event
 	title = dharma_hindu_pilgrimages.048.t
 	desc = dharma_hindu_pilgrimages.048.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1054,7 +1159,10 @@ dharma_hindu_pilgrimages.049 = {# Offering to Kamakhya
 	type = activity_event
 	title = dharma_hindu_pilgrimages.049.t
 	desc = dharma_hindu_pilgrimages.049.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1076,7 +1184,10 @@ dharma_hindu_pilgrimages.050 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.050.t
 	desc = dharma_hindu_pilgrimages.050.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1137,7 +1248,10 @@ dharma_hindu_pilgrimages.051 = {# Leaving for home - Kamakhya
 	type = activity_event
 	title = dharma_hindu_pilgrimages.051.t
 	desc = dharma_hindu_pilgrimages.051.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1162,7 +1276,10 @@ dharma_hindu_pilgrimages.052 = {# Arrivial at Dakshina Kalika
 	type = activity_event
 	title = dharma_hindu_pilgrimages.052.t
 	desc = dharma_hindu_pilgrimages.052.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1184,7 +1301,10 @@ dharma_hindu_pilgrimages.053 = {# Offering to Kali
 	type = activity_event
 	title = dharma_hindu_pilgrimages.053.t
 	desc = dharma_hindu_pilgrimages.053.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1206,7 +1326,10 @@ dharma_hindu_pilgrimages.054 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.054.t
 	desc = dharma_hindu_pilgrimages.054.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1267,7 +1390,10 @@ dharma_hindu_pilgrimages.055 = {# Leaving for home - Dakshina Kalika
 	type = activity_event
 	title = dharma_hindu_pilgrimages.055.t
 	desc = dharma_hindu_pilgrimages.055.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1311,7 +1437,10 @@ dharma_hindu_pilgrimages.070 = {# Arrivial at Thiruparankundram
 	type = activity_event
 	title = dharma_hindu_pilgrimages.070.t
 	desc = dharma_hindu_pilgrimages.070.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1333,7 +1462,10 @@ dharma_hindu_pilgrimages.071 = {# Offering to Lord Murugan and Maa Deivayanai
 	type = activity_event
 	title = dharma_hindu_pilgrimages.071.t
 	desc = dharma_hindu_pilgrimages.071.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1355,7 +1487,10 @@ dharma_hindu_pilgrimages.072 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.072.t
 	desc = dharma_hindu_pilgrimages.072.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1416,7 +1551,10 @@ dharma_hindu_pilgrimages.073 = {# Leaving for home - Thiruparankundram
 	type = activity_event
 	title = dharma_hindu_pilgrimages.073.t
 	desc = dharma_hindu_pilgrimages.073.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1441,7 +1579,10 @@ dharma_hindu_pilgrimages.074 = {# Arrivial at Tiruchendur
 	type = activity_event
 	title = dharma_hindu_pilgrimages.074.t
 	desc = dharma_hindu_pilgrimages.074.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1463,7 +1604,10 @@ dharma_hindu_pilgrimages.075 = {# Bathing in the temple Waters
 	type = activity_event
 	title = dharma_hindu_pilgrimages.075.t
 	desc = dharma_hindu_pilgrimages.075.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1485,7 +1629,10 @@ dharma_hindu_pilgrimages.076 = {# Offering to Lord Murugan
 	type = activity_event
 	title = dharma_hindu_pilgrimages.076.t
 	desc = dharma_hindu_pilgrimages.076.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1507,7 +1654,10 @@ dharma_hindu_pilgrimages.077 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.077.t
 	desc = dharma_hindu_pilgrimages.077.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1568,7 +1718,10 @@ dharma_hindu_pilgrimages.078 = {# Leaving for home - Tiruchendur
 	type = activity_event
 	title = dharma_hindu_pilgrimages.078.t
 	desc = dharma_hindu_pilgrimages.078.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1593,7 +1746,10 @@ dharma_hindu_pilgrimages.079 = {# Arrivial at Palani
 	type = activity_event
 	title = dharma_hindu_pilgrimages.079.t
 	desc = dharma_hindu_pilgrimages.079.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1615,7 +1771,10 @@ dharma_hindu_pilgrimages.080 = {# Bathing in the temple Waters
 	type = activity_event
 	title = dharma_hindu_pilgrimages.080.t
 	desc = dharma_hindu_pilgrimages.080.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1637,7 +1796,10 @@ dharma_hindu_pilgrimages.081 = {# Offering to Lord Murugan
 	type = activity_event
 	title = dharma_hindu_pilgrimages.081.t
 	desc = dharma_hindu_pilgrimages.081.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1659,7 +1821,10 @@ dharma_hindu_pilgrimages.082 = {# Offer some hair
 	type = activity_event
 	title = dharma_hindu_pilgrimages.082.t
 	desc = dharma_hindu_pilgrimages.082.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1681,7 +1846,10 @@ dharma_hindu_pilgrimages.083 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.083.t
 	desc = dharma_hindu_pilgrimages.083.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1742,7 +1910,10 @@ dharma_hindu_pilgrimages.084 = {# Leaving for home - Palani
 	type = activity_event
 	title = dharma_hindu_pilgrimages.084.t
 	desc = dharma_hindu_pilgrimages.084.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1767,7 +1938,10 @@ dharma_hindu_pilgrimages.085 = {# Arrivial at Swamimalai
 	type = activity_event
 	title = dharma_hindu_pilgrimages.085.t
 	desc = dharma_hindu_pilgrimages.085.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1789,7 +1963,10 @@ dharma_hindu_pilgrimages.086 = {# Offering to Lord Swaminathaswamy
 	type = activity_event
 	title = dharma_hindu_pilgrimages.086.t
 	desc = dharma_hindu_pilgrimages.086.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1811,7 +1988,10 @@ dharma_hindu_pilgrimages.087 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.087.t
 	desc = dharma_hindu_pilgrimages.087.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1872,7 +2052,10 @@ dharma_hindu_pilgrimages.088 = {# Leaving for home - Swamimalai
 	type = activity_event
 	title = dharma_hindu_pilgrimages.088.t
 	desc = dharma_hindu_pilgrimages.088.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1897,7 +2080,10 @@ dharma_hindu_pilgrimages.089 = {# Arrivial at Tiruttani
 	type = activity_event
 	title = dharma_hindu_pilgrimages.089.t
 	desc = dharma_hindu_pilgrimages.089.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1919,7 +2105,10 @@ dharma_hindu_pilgrimages.090 = {# Offering to Lord Murugan
 	type = activity_event
 	title = dharma_hindu_pilgrimages.090.t
 	desc = dharma_hindu_pilgrimages.090.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -1941,7 +2130,10 @@ dharma_hindu_pilgrimages.091 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.091.t
 	desc = dharma_hindu_pilgrimages.091.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2002,7 +2194,10 @@ dharma_hindu_pilgrimages.092 = {# Leaving for home - Tiruttani
 	type = activity_event
 	title = dharma_hindu_pilgrimages.092.t
 	desc = dharma_hindu_pilgrimages.092.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2027,7 +2222,10 @@ dharma_hindu_pilgrimages.093 = {# Arrivial at Pazhamudircholai
 	type = activity_event
 	title = dharma_hindu_pilgrimages.093.t
 	desc = dharma_hindu_pilgrimages.093.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2049,7 +2247,10 @@ dharma_hindu_pilgrimages.094 = {# Offering to Lord Murugan
 	type = activity_event
 	title = dharma_hindu_pilgrimages.094.t
 	desc = dharma_hindu_pilgrimages.094.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2071,7 +2272,10 @@ dharma_hindu_pilgrimages.095 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.095.t
 	desc = dharma_hindu_pilgrimages.095.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2132,7 +2336,10 @@ dharma_hindu_pilgrimages.096 = {# Leaving for home - Pazhamudircholai
 	type = activity_event
 	title = dharma_hindu_pilgrimages.096.t
 	desc = dharma_hindu_pilgrimages.096.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2176,7 +2383,10 @@ dharma_hindu_pilgrimages.101 = {# Arrivial at Somnath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.101.t
 	desc = dharma_hindu_pilgrimages.101.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2198,7 +2408,10 @@ dharma_hindu_pilgrimages.102 = {# Bathing in the temple Waters
 	type = activity_event
 	title = dharma_hindu_pilgrimages.102.t
 	desc = dharma_hindu_pilgrimages.102.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2220,7 +2433,10 @@ dharma_hindu_pilgrimages.103 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.103.t
 	desc = dharma_hindu_pilgrimages.103.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2242,7 +2458,10 @@ dharma_hindu_pilgrimages.104 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.104.t
 	desc = dharma_hindu_pilgrimages.104.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2303,7 +2522,10 @@ dharma_hindu_pilgrimages.105 = {# Leaving for home - Somnath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.105.t
 	desc = dharma_hindu_pilgrimages.105.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2328,7 +2550,10 @@ dharma_hindu_pilgrimages.106 = {# Arrivial at Mallikarjuna
 	type = activity_event
 	title = dharma_hindu_pilgrimages.106.t
 	desc = dharma_hindu_pilgrimages.106.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2350,7 +2575,10 @@ dharma_hindu_pilgrimages.107 = {# Offering to Lord Mallikarjuna and Bhramaramba
 	type = activity_event
 	title = dharma_hindu_pilgrimages.107.t
 	desc = dharma_hindu_pilgrimages.107.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2372,7 +2600,10 @@ dharma_hindu_pilgrimages.108 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.108.t
 	desc = dharma_hindu_pilgrimages.108.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2433,7 +2664,10 @@ dharma_hindu_pilgrimages.109 = {# Leaving for home - Mallikarjuna
 	type = activity_event
 	title = dharma_hindu_pilgrimages.109.t
 	desc = dharma_hindu_pilgrimages.109.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2458,7 +2692,10 @@ dharma_hindu_pilgrimages.110 = {# Arrivial at Mahakaleshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.110.t
 	desc = dharma_hindu_pilgrimages.110.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2480,7 +2717,10 @@ dharma_hindu_pilgrimages.111 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.111.t
 	desc = dharma_hindu_pilgrimages.111.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2502,7 +2742,10 @@ dharma_hindu_pilgrimages.112 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.112.t
 	desc = dharma_hindu_pilgrimages.112.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2563,7 +2806,10 @@ dharma_hindu_pilgrimages.113 = {# Leaving for home - Mahakaleshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.113.t
 	desc = dharma_hindu_pilgrimages.113.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2588,7 +2834,10 @@ dharma_hindu_pilgrimages.114 = {# Arrivial at Omkareshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.114.t
 	desc = dharma_hindu_pilgrimages.114.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2610,7 +2859,10 @@ dharma_hindu_pilgrimages.115 = {# Bathing in the Narmada River
 	type = activity_event
 	title = dharma_hindu_pilgrimages.115.t
 	desc = dharma_hindu_pilgrimages.115.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2632,7 +2884,10 @@ dharma_hindu_pilgrimages.116 = {# Offering to Lord Omkareshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.116.t
 	desc = dharma_hindu_pilgrimages.116.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2654,7 +2909,10 @@ dharma_hindu_pilgrimages.117 = {# Offering to Lord Mamleshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.117.t
 	desc = dharma_hindu_pilgrimages.117.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2676,7 +2934,10 @@ dharma_hindu_pilgrimages.118 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.118.t
 	desc = dharma_hindu_pilgrimages.118.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2737,7 +2998,10 @@ dharma_hindu_pilgrimages.119 = {# Leaving for home - Omkareshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.119.t
 	desc = dharma_hindu_pilgrimages.119.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2762,7 +3026,10 @@ dharma_hindu_pilgrimages.120 = {# Arrivial at Baidyanath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.120.t
 	desc = dharma_hindu_pilgrimages.120.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2784,7 +3051,10 @@ dharma_hindu_pilgrimages.121 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.121.t
 	desc = dharma_hindu_pilgrimages.121.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2797,7 +3067,7 @@ dharma_hindu_pilgrimages.121 = {# Offering to Lord Shiva
 
 	after = {
 		trigger_event = {
-			id = dharma_hindu_pilgrimages.121
+			id = dharma_hindu_pilgrimages.122
 			days = { 3 7 }
 		}
 	}
@@ -2806,7 +3076,10 @@ dharma_hindu_pilgrimages.122 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.122.t
 	desc = dharma_hindu_pilgrimages.122.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2867,7 +3140,10 @@ dharma_hindu_pilgrimages.123 = {# Leaving for home - Baidyanath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.123.t
 	desc = dharma_hindu_pilgrimages.123.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2892,7 +3168,10 @@ dharma_hindu_pilgrimages.124 = {# Arrivial at Bhimashankar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.124.t
 	desc = dharma_hindu_pilgrimages.124.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2914,7 +3193,10 @@ dharma_hindu_pilgrimages.125 = {# Bathing in Temple Waters
 	type = activity_event
 	title = dharma_hindu_pilgrimages.125.t
 	desc = dharma_hindu_pilgrimages.125.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2936,7 +3218,10 @@ dharma_hindu_pilgrimages.126 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.126.t
 	desc = dharma_hindu_pilgrimages.126.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -2958,7 +3243,10 @@ dharma_hindu_pilgrimages.127 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.127.t
 	desc = dharma_hindu_pilgrimages.127.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3019,7 +3307,10 @@ dharma_hindu_pilgrimages.128 = {# Leaving for home - Bhimashankar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.128.t
 	desc = dharma_hindu_pilgrimages.128.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3044,7 +3335,10 @@ dharma_hindu_pilgrimages.129 = {# Arrivial at Rameshwaram
 	type = activity_event
 	title = dharma_hindu_pilgrimages.129.t
 	desc = dharma_hindu_pilgrimages.129.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3066,7 +3360,10 @@ dharma_hindu_pilgrimages.130 = {# Bathing in the temple Waters
 	type = activity_event
 	title = dharma_hindu_pilgrimages.130.t
 	desc = dharma_hindu_pilgrimages.130.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3088,7 +3385,10 @@ dharma_hindu_pilgrimages.131 = {# Offering to Lord Ramanathaswamy and Maa Parvat
 	type = activity_event
 	title = dharma_hindu_pilgrimages.131.t
 	desc = dharma_hindu_pilgrimages.131.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3110,7 +3410,10 @@ dharma_hindu_pilgrimages.132 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.132.t
 	desc = dharma_hindu_pilgrimages.132.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3171,7 +3474,10 @@ dharma_hindu_pilgrimages.133 = {# Leaving for home - Rameshwaram
 	type = activity_event
 	title = dharma_hindu_pilgrimages.133.t
 	desc = dharma_hindu_pilgrimages.133.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3196,7 +3502,10 @@ dharma_hindu_pilgrimages.134 = {# Arrivial at Nageshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.134.t
 	desc = dharma_hindu_pilgrimages.134.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3218,7 +3527,10 @@ dharma_hindu_pilgrimages.135 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.135.t
 	desc = dharma_hindu_pilgrimages.135.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3240,7 +3552,10 @@ dharma_hindu_pilgrimages.136 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.136.t
 	desc = dharma_hindu_pilgrimages.136.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3301,7 +3616,10 @@ dharma_hindu_pilgrimages.137 = {# Leaving for home - Nageshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.137.t
 	desc = dharma_hindu_pilgrimages.137.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3326,7 +3644,10 @@ dharma_hindu_pilgrimages.138 = {# Arrivial at Vishwanath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.138.t
 	desc = dharma_hindu_pilgrimages.138.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3348,7 +3669,10 @@ dharma_hindu_pilgrimages.139 = {# Bathing in the Ganges River
 	type = activity_event
 	title = dharma_hindu_pilgrimages.139.t
 	desc = dharma_hindu_pilgrimages.139.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3370,7 +3694,10 @@ dharma_hindu_pilgrimages.140 = {# Offering to Lord Vishveshwara
 	type = activity_event
 	title = dharma_hindu_pilgrimages.140.t
 	desc = dharma_hindu_pilgrimages.140.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3392,7 +3719,10 @@ dharma_hindu_pilgrimages.141 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.141.t
 	desc = dharma_hindu_pilgrimages.141.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3453,7 +3783,10 @@ dharma_hindu_pilgrimages.142 = {# Leaving for home - Vishwanath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.142.t
 	desc = dharma_hindu_pilgrimages.142.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3478,7 +3811,10 @@ dharma_hindu_pilgrimages.143 = {# Arrivial at Trimbakeshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.143.t
 	desc = dharma_hindu_pilgrimages.143.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3500,7 +3836,10 @@ dharma_hindu_pilgrimages.144 = {# Bathing in the Godavari River
 	type = activity_event
 	title = dharma_hindu_pilgrimages.144.t
 	desc = dharma_hindu_pilgrimages.144.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3522,7 +3861,10 @@ dharma_hindu_pilgrimages.145 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.145.t
 	desc = dharma_hindu_pilgrimages.145.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3544,7 +3886,10 @@ dharma_hindu_pilgrimages.146 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.146.t
 	desc = dharma_hindu_pilgrimages.146.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3605,7 +3950,10 @@ dharma_hindu_pilgrimages.147 = {# Leaving for home - Trimbakeshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.147.t
 	desc = dharma_hindu_pilgrimages.147.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3630,7 +3978,10 @@ dharma_hindu_pilgrimages.148 = {# Arrivial at Kedarnath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.148.t
 	desc = dharma_hindu_pilgrimages.148.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3652,7 +4003,10 @@ dharma_hindu_pilgrimages.149 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.149.t
 	desc = dharma_hindu_pilgrimages.149.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3674,7 +4028,10 @@ dharma_hindu_pilgrimages.150 = {# Seeing a Pandav Lila Performance
 	type = activity_event
 	title = dharma_hindu_pilgrimages.150.t
 	desc = dharma_hindu_pilgrimages.150.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3696,7 +4053,10 @@ dharma_hindu_pilgrimages.151 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.151.t
 	desc = dharma_hindu_pilgrimages.151.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3757,7 +4117,10 @@ dharma_hindu_pilgrimages.152 = {# Leaving for home - Kedarnath
 	type = activity_event
 	title = dharma_hindu_pilgrimages.152.t
 	desc = dharma_hindu_pilgrimages.152.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3782,7 +4145,10 @@ dharma_hindu_pilgrimages.153 = {# Arrivial at Grishneshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.153.t
 	desc = dharma_hindu_pilgrimages.153.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3804,7 +4170,10 @@ dharma_hindu_pilgrimages.154 = {# Offering to Lord Shiva
 	type = activity_event
 	title = dharma_hindu_pilgrimages.154.t
 	desc = dharma_hindu_pilgrimages.154.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3826,7 +4195,10 @@ dharma_hindu_pilgrimages.155 = {# Donating to Charity
 	type = activity_event
 	title = dharma_hindu_pilgrimages.155.t
 	desc = dharma_hindu_pilgrimages.155.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -3887,7 +4259,10 @@ dharma_hindu_pilgrimages.156 = {# Leaving for home - Grishneshwar
 	type = activity_event
 	title = dharma_hindu_pilgrimages.156.t
 	desc = dharma_hindu_pilgrimages.156.desc
-	theme = forest_temple
+	theme = faith
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root

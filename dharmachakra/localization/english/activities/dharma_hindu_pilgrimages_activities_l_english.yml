@@ -1,0 +1,194 @@
+﻿l_english:
+
+# First Char Dhams
+# Second Shakta Pithas
+# Third Abodes of Murugan
+# Forth Jyotirlingas
+
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_pilgrimage_char_dham: "Visit one of the Char Dhams"
+  activity_dharma_pilgrimage_char_dham_desc: "Adi Shankara, the great sage, established four of the most holy locations in India to be one of the Char Dhams. One for each direction, north, south, east, and west. Each Dham represents one of the four yugas. Which one shall you visit?"
+  activity_dharma_pilgrimage_char_dham_selection_tooltip: "Go and visit a holy temple \n\n$dharma_pilgrimage_char_dham_desc_context_tooltip$"
+  activity_dharma_pilgrimage_char_dham_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_pilgrimage_char_dham_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_pilgrimage_char_dham_province_desc: "One of the Char Dhams"
+  activity_dharma_pilgrimage_char_dham_destination_selection: "$activity_dharma_pilgrimage_char_dham_province_desc$"
+  activity_dharma_pilgrimage_char_dham_guest_help_text: "$activity_dharma_pilgrimage_char_dham$"
+  activity_dharma_pilgrimage_char_dham_predicted_cost: "The cost of the pilgrimage depends on what [activity_options|E] you select."
+  activity_dharma_pilgrimage_char_dham_conclusion_desc: "The [GetActivityType( 'activity_dharma_pilgrimage_char_dham' ).GetName] is over.  May [GetPlayer.GetFaith.PantheonTerm] be pleased with my actions."
+###################################
+# Activity Options
+###################################
+  dharma_local_pilgrimage_type: "Visit Type"
+  dharma_local_pilgrimage_type_devotion: "Act of Devotion"
+  dharma_local_pilgrimage_type_devotion_desc: "\n$EFFECT_LIST_BULLET$Gain [piety_i|E] #V 100#! on top of other [piety|E] gains\n$EFFECT_LIST_BULLET$Gain double [trait_level_track_xp|E] for the [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] compared to other options\n\n#weak Though we are not necessarily traveling to a major holy site, we are still on a pilgrimage, and should take this seriously.#!"
+  dharma_local_pilgrimage_type_observance: "Religious Observance"
+  dharma_local_pilgrimage_type_observance_desc: "\n$EFFECT_LIST_BULLET$Gain [prestige_i|E] #V 100#! on top of other [prestige|E] gains\n$EFFECT_LIST_BULLET$Gain the [GetModifier('RICE_misc_engaged_with_local_religious_practicecs').GetNameWithTooltip] [character_modifier|E]\n\n#weak By honoring [GetPlayer.GetFaith.PantheonTerm] according to local customs, you can show your subjects that you understand them and their way of life.#!" # The [control|E] level of the [county|E] where the pilgrimage's destination is in will increase; if it is at maximum, the [development|E] of the [county|E] will increase instead"
+  dharma_local_pilgrimage_type_vacation: "Spiritual Vacation"
+  dharma_local_pilgrimage_type_vacationdesc: "\n$EFFECT_LIST_BULLET$ Lose much more [stress_loss_i|E] [stress|E] compared the other options\n\n#weak Recupating mentally and physically is also an important aspect of any long-term religious experience, and allows one to come closer to [GetPlayer.GetFaith.PantheonTerm]#!"
+###################################
+# Phases
+###################################
+  dharma_pilgrimage_char_dham: "Char Dharm Pilgrimage"
+  dharma_pilgrimage_char_dham_desc: "You are on a pilgrimage to one of the four char dharms."
+###################################
+# Intents
+###################################
+  dharma_local_pilgrimage_worship_intent_header: "Worship:"
+  dharma_local_pilgrimage_worship_intent: "Worship"
+  dharma_local_pilgrimage_worship_intent_desc: "You wish to focus on the religious aspects of this pilgrimage. Gain more [piety_i|E] [piety|E] on top of other gains. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('calm').GetName( GetNullCharacter )]."
+
+  dharma_local_pilgrimage_model_intent_header: "Role Model"
+  dharma_local_pilgrimage_model_intent: "Role Model"
+  dharma_local_pilgrimage_model_intent_desc: "You will set an example to all [GetPlayer.GetFaith.GetAdherentNamePlural] in the area by going on this pilgrimage. Gain more [prestige_i|E] [prestige|E] on top of other gains. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('diligent').GetName( GetNullCharacter )]."
+
+  dharma_local_pilgrimage_curiosity_intent_header: "Curiosity:"
+  dharma_local_pilgrimage_curiosity_intent: "Curiosity"
+  dharma_local_pilgrimage_curiosity_intent_desc: "You want to better understand the local inhabitants, their issues, and how they practice [GetPlayer.GetFaith.GetName], while going on this pilgrimage. Gain [experience|E] in your [lifestyle|E]. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('humble').GetName( GetNullCharacter )] or [GetTrait('just').GetName( GetNullCharacter )]."
+###################################
+# Character Memories
+###################################
+  dharma_pilgrimage_char_dham_completed_log_title: "Char Dharm Completed"
+  dharma_pilgrimage_char_dham_completed_log: "[CHARACTER.GetShortUIName|U] visited one of the Char Dharms."
+  TRAVEL_NAME_FOR_activity_dharma_pilgrimage_char_dham: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_pilgrimage_char_dham$"
+ ###################################
+# Character Memories
+###################################
+  dharma_pilgrimage_char_dham_host_memory: "visited [GetActivityType('activity_dharma_pilgrimage_char_dham').GetName]"
+  dharma_pilgrimage_char_dham_host_memory_first_perspective: "I visited [GetActivityType('activity_dharma_pilgrimage_char_dham').GetName]"
+  dharma_pilgrimage_char_dham_host_memory_second_perspective: "you visited [GetActivityType('activity_dharma_pilgrimage_char_dham').GetName]"
+  dharma_pilgrimage_char_dham_host_memory_third_perspective: "[owner.GetName] visited [GetActivityType('activity_dharma_pilgrimage_char_dham').GetName]"
+  dharma_pilgrimage_char_dham_guest_memory: "visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_char_dham').GetName]"
+  dharma_pilgrimage_char_dham_guest_memory_first_perspective: "I visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_char_dham').GetName]"
+  dharma_pilgrimage_char_dham_guest_memory_second_perspective: "you visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_char_dham').GetName]"
+  dharma_pilgrimage_char_dham_guest_memory_third_perspective: "[owner.GetName] visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_char_dham').GetName]"
+
+# second Shakta Pithas
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_pilgrimage_shakta_pithas: "Adi Shakta Pitha Pilgrimage"
+  activity_dharma_pilgrimage_shakta_pithas_desc: "The Adi Shakta Pithas are a grouping of four holy temples dedicated to Shakti. The question is which temple shall you visit?"
+  activity_dharma_pilgrimage_shakta_pithas_selection_tooltip: "I shall go and pay my respects to Shakti. \n\n$dharma_pilgrimage_shakta_pithas_desc_context_tooltip$"
+  activity_dharma_pilgrimage_shakta_pithas_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_pilgrimage_shakta_pithas_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_pilgrimage_shakta_pithas_province_desc: "One of the four Adi Shakta Pithas."
+  activity_dharma_pilgrimage_shakta_pithas_destination_selection: "$activity_dharma_pilgrimage_shakta_pithas_province_desc$"
+  activity_dharma_pilgrimage_shakta_pithas_guest_help_text: "$activity_dharma_pilgrimage_shakta_pithas$"
+  activity_dharma_pilgrimage_shakta_pithas_predicted_cost: "The cost of the pilgrimage depends on what [activity_options|E] you select."
+  activity_dharma_pilgrimage_shakta_pithas_conclusion_desc: "The [GetActivityType( 'activity_dharma_pilgrimage_shakta_pithas' ).GetName] is over. May may actions help bring me karma!"
+###################################
+# Phases
+###################################
+  dharma_pilgrimage_shakta_pithas_celebration_phase: "Pilgrimage"
+  dharma_pilgrimage_shakta_pithas_celebration_phase_desc: "You are on a pilgrimage to one of the four Adi Shakti Pithas."
+###################################
+# Character Memories
+###################################
+  dharma_pilgrimage_shakta_pithas_completed_log_title: "Pilgrimage Completed"
+  dharma_pilgrimage_shakta_pithas_completed_log: "[CHARACTER.GetShortUIName|U] visited an Adi Shakta Pitha"
+  TRAVEL_NAME_FOR_activity_dharma_pilgrimage_shakta_pithas: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_pilgrimage_shakta_pithas$"
+ ###################################
+# Character Memories
+###################################
+  dharma_pilgrimage_shakta_pithas_host_memory: "visited [GetActivityType('activity_dharma_pilgrimage_shakta_pithas').GetName]"
+  dharma_pilgrimage_shakta_pithas_host_memory_first_perspective: "I visited [GetActivityType('activity_dharma_pilgrimage_shakta_pithas').GetName]"
+  dharma_pilgrimage_shakta_pithas_host_memory_second_perspective: "you visited [GetActivityType('activity_dharma_pilgrimage_shakta_pithas').GetName]"
+  dharma_pilgrimage_shakta_pithas_host_memory_third_perspective: "[owner.GetName] visited [GetActivityType('activity_dharma_pilgrimage_shakta_pithas').GetName]"
+  dharma_pilgrimage_shakta_pithas_guest_memory: "visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_shakta_pithas').GetName]"
+  dharma_pilgrimage_shakta_pithas_guest_memory_first_perspective: "I visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_shakta_pithas').GetName]"
+  dharma_pilgrimage_shakta_pithas_guest_memory_second_perspective: "you visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_shakta_pithas').GetName]"
+  dharma_pilgrimage_shakta_pithas_guest_memory_third_perspective: "[owner.GetName] visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_shakta_pithas').GetName]"
+
+# Third Abodes of Murugan
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_pilgrimage_abodes_murugan: "Abode of Murugan Pilgrimage"
+  activity_dharma_pilgrimage_abodes_murugan_desc: "The Abodes of Murugan are six holy temples consecrated to Lord Murugan. Which of the six temples shall you decide to visit?"
+  activity_dharma_pilgrimage_abodes_murugan_selection_tooltip: "Let us pay respect to Lord Murugan. \n\n$dharma_pilgrimage_abodes_murugan_desc_context_tooltip$"
+  activity_dharma_pilgrimage_abodes_murugan_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_pilgrimage_abodes_murugan_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_pilgrimage_abodes_murugan_province_desc: "One of the six Abodes of Murugan."
+  activity_dharma_pilgrimage_abodes_murugan_destination_selection: "$activity_dharma_pilgrimage_abodes_murugan_province_desc$"
+  activity_dharma_pilgrimage_abodes_murugan_guest_help_text: "$activity_dharma_pilgrimage_abodes_murugan$"
+  activity_dharma_pilgrimage_abodes_murugan_predicted_cost: "The cost of the pilgrimage depends on what [activity_options|E] you select."
+  activity_dharma_pilgrimage_abodes_murugan_conclusion_desc: "The [GetActivityType( 'activity_dharma_pilgrimage_abodes_murugan' ).GetName] is over. May may actions help bring me karma!"
+###################################
+# Phases
+###################################
+  dharma_pilgrimage_abodes_murugan_celebration_phase: "Pilgrimage"
+  dharma_pilgrimage_abodes_murugan_celebration_phase_desc: "You are on a pilgrimage to one of the four Adi Shakti Pithas."
+###################################
+# Character Memories
+###################################
+  dharma_pilgrimage_abodes_murugan_completed_log_title: "Abode of Murugan Pilgrimage Completed"
+  dharma_pilgrimage_abodes_murugan_completed_log: "[CHARACTER.GetShortUIName|U] visited an Abode of Murugan"
+  TRAVEL_NAME_FOR_activity_dharma_pilgrimage_abodes_murugan: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_pilgrimage_abodes_murugan$"
+ ###################################
+# Character Memories
+###################################
+  dharma_pilgrimage_abodes_murugan_host_memory: "visited [GetActivityType('activity_dharma_pilgrimage_abodes_murugan').GetName]"
+  dharma_pilgrimage_abodes_murugan_host_memory_first_perspective: "I visited [GetActivityType('activity_dharma_pilgrimage_abodes_murugan').GetName]"
+  dharma_pilgrimage_abodes_murugan_host_memory_second_perspective: "you visited [GetActivityType('activity_dharma_pilgrimage_abodes_murugan').GetName]"
+  dharma_pilgrimage_abodes_murugan_host_memory_third_perspective: "[owner.GetName] visited [GetActivityType('activity_dharma_pilgrimage_abodes_murugan').GetName]"
+  dharma_pilgrimage_abodes_murugan_guest_memory: "visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_abodes_murugan').GetName]"
+  dharma_pilgrimage_abodes_murugan_guest_memory_first_perspective: "I visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_abodes_murugan').GetName]"
+  dharma_pilgrimage_abodes_murugan_guest_memory_second_perspective: "you visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_abodes_murugan').GetName]"
+  dharma_pilgrimage_abodes_murugan_guest_memory_third_perspective: "[owner.GetName] visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_abodes_murugan').GetName]"
+
+# Forth Jyotirlingas
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_pilgrimage_jyotirlingas: "Jyotirlinga Pilgrimage"
+  activity_dharma_pilgrimage_jyotirlingas_desc: "The Jyotirlingas are a collection of twelve holy temples to Lord Shiva where he is worshiped in his form as Linga. While the Shiva Purana mentions sixty four Jyotirlingas, twelve are regarded as the most important. Which one shall you decide to visit?"
+  activity_dharma_pilgrimage_jyotirlingas_selection_tooltip: "Time to go on a pilgrimage. \n\n$dharma_pilgrimage_jyotirlingas_desc_context_tooltip$"
+  activity_dharma_pilgrimage_jyotirlingas_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_pilgrimage_jyotirlingas_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_pilgrimage_jyotirlingas_province_desc: "One of the twelve Jyotirlingas."
+  activity_dharma_pilgrimage_jyotirlingas_destination_selection: "$activity_dharma_pilgrimage_jyotirlingas_province_desc$"
+  activity_dharma_pilgrimage_jyotirlingas_guest_help_text: "$activity_dharma_pilgrimage_jyotirlingas$"
+  activity_dharma_pilgrimage_jyotirlingas_predicted_cost: "The cost of the pilgrimage depends on what [activity_options|E] you select."
+  activity_dharma_pilgrimage_jyotirlingas_conclusion_desc: "The [GetActivityType( 'activity_dharma_pilgrimage_jyotirlingas' ).GetName] is over. May may actions help bring me karma!"
+
+###################################
+# Phases
+###################################
+  dharma_pilgrimage_jyotirlingas_celebration_phase: "Jyotirlinga Pilgrimage"
+  dharma_pilgrimage_jyotirlingas_celebration_phase_desc: "You are on a pilgrimage to one of the twelve Jyotirlingas."
+###################################
+# Character Memories
+###################################
+  dharma_pilgrimage_jyotirlingas_completed_log_title: "Pilgrimage Completed"
+  dharma_pilgrimage_jyotirlingas_completed_log: "[CHARACTER.GetShortUIName|U] visited a Jyotirlinga"
+  TRAVEL_NAME_FOR_activity_dharma_pilgrimage_jyotirlingas: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_pilgrimage_jyotirlingas$"
+ ###################################
+# Character Memories
+###################################
+  dharma_pilgrimage_jyotirlingas_host_memory: "visited [GetActivityType('activity_dharma_pilgrimage_jyotirlingas').GetName]"
+  dharma_pilgrimage_jyotirlingas_host_memory_first_perspective: "I visited [GetActivityType('activity_dharma_pilgrimage_jyotirlingas').GetName]"
+  dharma_pilgrimage_jyotirlingas_host_memory_second_perspective: "you visited [GetActivityType('activity_dharma_pilgrimage_jyotirlingas').GetName]"
+  dharma_pilgrimage_jyotirlingas_host_memory_third_perspective: "[owner.GetName] visited [GetActivityType('activity_dharma_pilgrimage_jyotirlingas').GetName]"
+  dharma_pilgrimage_jyotirlingas_guest_memory: "visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_jyotirlingas').GetName]"
+  dharma_pilgrimage_jyotirlingas_guest_memory_first_perspective: "I visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_jyotirlingas').GetName]"
+  dharma_pilgrimage_jyotirlingas_guest_memory_second_perspective: "you visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_jyotirlingas').GetName]"
+  dharma_pilgrimage_jyotirlingas_guest_memory_third_perspective: "[owner.GetName] visited the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_pilgrimage_jyotirlingas').GetName]"

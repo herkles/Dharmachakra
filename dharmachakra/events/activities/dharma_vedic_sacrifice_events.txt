@@ -9,7 +9,10 @@ dharma_vedic_sacrifice.001 = {# Goat sacrifice start
 	type = activity_event
 	title = dharma_vedic_sacrifice.001.t
 	desc = dharma_vedic_sacrifice.001.desc
-	theme = forest_temple
+	theme = feast_activity
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	left_portrait = {
 		character = root
@@ -31,7 +34,10 @@ dharma_vedic_sacrifice.002 = {# Sacrifice time
 	type = activity_event
 	title = dharma_vedic_sacrifice.002.t
 	desc = dharma_vedic_sacrifice.002.desc
-	theme = forest_temple
+	theme = feast_activity
+	override_background = {
+		reference = dharma_temple_interior
+	}
 	
 	right_portrait = {
 		character = root

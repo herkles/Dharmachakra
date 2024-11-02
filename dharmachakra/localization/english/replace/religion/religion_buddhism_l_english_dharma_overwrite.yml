@@ -157,6 +157,9 @@
   lamaism_water_god_name_possessive: "Norgyunma's"
 
 #Holy Sites: Buddhism
+  holy_site_lumbini_name: "Lumbini"
+  holy_site_lumbini_effect_name: "From [holy_site|E] #weak ($holy_site_vaishali_name$)#!"
+
   holy_site_vaishali_name: "Vaishali"
   holy_site_vaishali_effect_name: "From [holy_site|E] #weak ($holy_site_vaishali_name$)#!"
   holy_site_nalanda_name: "Nalanda"
