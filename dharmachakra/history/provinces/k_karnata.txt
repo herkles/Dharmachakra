@@ -43,6 +43,9 @@
 	religion = shaivism
 	
 	# History
+	1150.1.1 = {
+		religion = lingayatism
+	}
 }
 
 # 1140 - Banavasi
@@ -766,6 +769,9 @@
 	terrain = mountain
 	
 	# History
+	1150.1.1 = {
+		religion = lingayatism
+	}
 }
 
 # 7865 - Belapura
@@ -790,6 +796,9 @@
 	terrain = mountain
 	
 	# History
+	1150.1.1 = {
+		religion = lingayatism
+	}
 }
 
 # 7866 - Shravana_Belgola

@@ -1,0 +1,413 @@
+﻿#######################################
+# Nuwakot Thakuri Dynasty
+#######################################
+247446 = {
+	name="Bhaskaradeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	990.1.1={
+		birth=yes
+	}
+	1048.1.1={
+		death=yes
+	}
+}
+247447 = {
+	name="Yisadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247446
+	1006.1.1={
+		birth=yes
+	}
+	1049.1.1={
+		death=yes
+	}
+}
+247448 = {
+	name="Baladeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247446
+	1007.1.1={
+		birth=yes
+	}
+	1060.1.1={
+		death=yes
+	}
+}
+247449 = {
+	name="Pradymnakamadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247448
+	1023.1.1={
+		birth=yes
+	}
+	1066.1.1={
+		death=yes
+	}
+}
+247450 = {
+	name="Nagarjunadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247449
+	1039.1.1={
+		birth=yes
+	}
+	1069.1.1={
+		death=yes
+	}
+}
+247451 = {
+	name="Sankaradeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247450
+	1055.1.1={
+		birth=yes
+	}
+	1082.1.1={
+		death=yes
+	}
+}
+247452 = {
+	name="Shivadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247451
+	1071.1.1={
+		birth=yes
+	}
+	1126.1.1={
+		death=yes
+	}
+}
+247453 = {
+	name="Indradeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247452
+	1087.1.1={
+		birth=yes
+	}
+	1136.1.1={
+		death=yes
+	}
+}
+247454 = {
+	name="Manadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247453
+	1103.1.1={
+		birth=yes
+	}
+	1140.1.1={
+		death=yes
+	}
+}
+247455 = {
+	name="Narendradeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247454
+	1119.1.1={
+		birth=yes
+	}
+	1147.1.1={
+		death=yes
+	}
+}
+247456 = {
+	name="Anandadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247455
+	1135.1.1={
+		birth=yes
+	}
+	1167.1.1={
+		death=yes
+	}
+}
+247457 = {
+	name="Mahendradeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247452
+	1088.1.1={
+		birth=yes
+	}
+	1140.1.1={
+		death=yes
+	}
+}
+247458 = {
+	name="Rudradeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247457
+	1114.1.1={
+		birth=yes
+	}
+	1175.1.1={
+		death=yes
+	}
+}
+247720 = {
+	name="Amritadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247458
+	1140.1.1={
+		birth=yes
+	}
+	1178.1.1={
+		death=yes
+	}
+}
+247459 = {
+	name="Somesvaradeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247457
+	1115.1.1={
+		birth=yes
+	}
+	1184.1.1={
+		death=yes
+	}
+}
+247460 = {
+	name="Gunakamadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247459
+	1135.1.1={
+		birth=yes
+	}
+	1192.1.1={
+		death=yes
+	}
+}
+247461 = {
+	name="Laksmikadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247460
+	1155.1.1={
+		birth=yes
+	}
+	1197.1.1={
+		death=yes
+	}
+}
+247462 = {
+	name="Vijayakamadeva"
+	dynasty=105840 #Nuwakot Thakuri
+	religion="shaivism"
+	culture="newar"
+	
+	father=247460
+	1156.1.1={
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+#######################################
+# Thakuri Dynasty
+#######################################
+247434 = {
+	name="Raghadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	840.1.1={
+		birth=yes
+	}
+	900.1.1={
+		death=yes
+	}
+}
+247435 = {
+	name="Sankaradeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247434
+	870.1.1={
+		birth=yes
+	}
+	930.1.1={
+		death=yes
+	}
+}
+247436 = {
+	name="Sahadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247435
+	900.1.1={
+		birth=yes
+	}
+	960.1.1={
+		death=yes
+	}
+}
+247437 = {
+	name="Vikramadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247436
+	930.1.1={
+		birth=yes
+	}
+	980.1.1={
+		death=yes
+	}
+}
+247438 = {
+	name="Gunakamadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247437
+	950.1.1={
+		birth=yes
+	}
+	998.1.1={
+		death=yes
+	}
+}
+247439 = {
+	name="Narendradeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247438
+	966.1.1={
+		birth=yes
+	}
+	999.1.1={
+		death=yes
+	}
+}
+247440 = {
+	name="Udayadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247438
+	967.1.1={
+		birth=yes
+	}
+	1004.1.1={
+		death=yes
+	}
+}
+247441 = {
+	name="Nirbhayadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247440
+	983.1.1={
+		birth=yes
+	}
+	1007.1.1={
+		death=yes
+	}
+}
+247442 = {
+	name="Rudradeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247441
+	999.1.1={
+		birth=yes
+	}
+	1009.1.1={
+		death=yes
+	}
+}
+247443 = {
+	name="Bhojadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247441
+	1000.1.1={
+		birth=yes
+	}
+	1010.1.1={
+		death=yes
+	}
+}
+247444 = {
+	name="Laksmikadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247441
+	1001.1.1={
+		birth=yes
+	}
+	1041.1.1={
+		death=yes
+	}
+}
+247445 = {
+	name="Vijayakamadeva"
+	dynasty=105839 #Thakuri
+	religion="vajrayana"
+	culture="newar"
+	father=247444
+	1017.1.1={
+		birth=yes
+	}
+	1037.1.1={
+		death=yes
+	}
+}

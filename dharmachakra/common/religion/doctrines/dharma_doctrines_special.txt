@@ -80,3 +80,8 @@ dharma_doctrine_vedic_sacrifice = {# Vedic Animal Sacrifice
 		}
 	}
 }
+unavailable = {
+	group = "special"
+	is_available_on_create = { always = no }
+	unavailable_doctrine = { visible = no }
+}

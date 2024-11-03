@@ -484,7 +484,7 @@
 			}		
 		}
 		lingayatism = {
-			color = { 128 0 32 }
+			color = { 150 0 24 }
 			icon = advaitism
 
 			# Sapta Puri Holy Sites
@@ -501,6 +501,9 @@
 			doctrine = tenet_esotericism
 
 			doctrine = sampradaya_shaivism_doctrine
+
+			# Before Basava it doesn't exist
+			doctrine = unavailable_doctrine
 
 			# Lingyatism is more equalitable
 			doctrine = doctrine_gender_equal

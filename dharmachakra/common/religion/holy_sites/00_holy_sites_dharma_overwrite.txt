@@ -1,6 +1,6 @@
 ﻿
 kusinagara = { # Where Buddha was born - Actually Lumbini
-	county = kusinagara
+	county = c_kusinagara
 	barony = b_kusinagara
 
 	character_modifier = {

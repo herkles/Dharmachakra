@@ -1,6 +1,38 @@
-﻿# Like on_game_start, except it is called once the host (or player, in single player) exits the lobby. Good for anything where you need to know who the players are, or what the game rules are
-on_game_start_after_lobby = {
+﻿on_game_start = {
+	on_actions = {
+		dharma_setup_after_game_start_on_actions
+	}
+}
+
+
+# Like on_game_start, except it is called once the host (or player, in single player) exits the lobby. Good for anything where you need to know who the players are, or what the game rules are
+dharma_setup_after_game_start_on_actions = {
 	events = {
 		dharma_artifacts.001	# Generating Historical Artifacts
+	}
+
+	effect = {
+		# Lingayatism is active after 1167
+		if = {
+			limit = { game_start_date >= 1150.1.1 }
+			faith:lingayatism = { remove_doctrine = unavailable_doctrine }			
+			set_global_variable = {
+				name = ligayatism_spawned
+				value = yes
+			}
+		}
+		# Saura is in decline in the 12th century
+		if = {
+			limit = {
+				game_start_date >= 1150.1.1
+			}
+			faith:suryaism = {
+				change_fervor = {
+					value = medium_fervor_loss
+					desc = saura_decline
+				}
+			}
+		}
+
 	}
 }

@@ -13,6 +13,7 @@
  bihari_collective_noun:0 "Biharis"
  bihari_prefix:0 "Bihari"
 
+ maithili:0 "Maithili"
  maithili_name:0 "Maithili"
  maithili_collective_noun:0 "Maithilis"
  maithili_prefix:0 "Maithili"
@@ -31,9 +32,9 @@
  munda_collective_noun:0 "Mundas"
  munda_prefix:0 "Munda"
 
-# Hybrid Cultures
- himalayan_name:0 "Newar"
- himalayan_collective_noun:0 "Newars"
- himalayan_prefix:0 "Newa"
-
+# Other Cultures
+  parsi:0 "Parsi"
+  parsi_name:0 "Parsi"
+  parsi_collective_noun:0 "Parsis"
+  parsi_prefix:0 "Parsi"
 # Divergent Cultures

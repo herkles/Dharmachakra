@@ -42,3 +42,5 @@
  doctrine_parameter_hostility_ovhostility_override_sampradaya_shrautism_doctrine_1:0 "Considers other Shrautist [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_sampradaya_shrautism_doctrine:0 "Considers Shrautist [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
 
+# Fervor
+saura_decline: "Saura Decline"

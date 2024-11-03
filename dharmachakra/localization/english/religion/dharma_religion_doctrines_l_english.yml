@@ -1,0 +1,51 @@
+﻿l_english:
+  doctrine_cultural_religion:0 "Cultural Religion"
+  cultural_religion_name:0 "Cultural Religion"
+  doctrine_cultural_religion_name:0 "$doctrine_cultural_religion$"
+  cultural_religion_desc:0 "Our faith and our culture are intrinsically linked together. This practice strengthens the bonds of our community, though it tends to exclude foreigners."
+
+  doctrine_tribal_religion:0 "Tribal Religion"
+  tribal_religion_name:0 "Tribal Religion"
+  doctrine_tribal_religion_name:0 "$doctrine_tribal_religion$"
+  tribal_religion_desc:0 "Our faith and our culture are intrinsically linked together. This practice strengthens the bonds of our community, though it tends to exclude foreigners."
+
+  divine_destiny_jain_name:0 "Divine Destiny"
+  divine_destiny_jain_doctrine_name:0 "Rightful Rulers of the World"
+  divine_destiny_jain_doctrine_desc:0 "We are those who will usher in an era of peace and prosperity for all peoples. We are the rightful rulers of the world." 
+  doctrine_parameter_divine_destiny_jain_resistance:0 "County Conversion Resistance: #P +20%#!"
+
+  special_doctrine_is_hinduism_faith_name:0 "Teachings of the Vedas"
+  is_hinduism_faith_name:0 "$special_doctrine_is_hinduism_faith_name$"
+  special_doctrine_is_hinduism_faith_desc:0 "The sacred Vedas are respected throughout the various Sampradayas, their teachings provide wisdom for many to learn from."
+
+  special_doctrine_is_jainism_faith_name:0 "Teachings of Mahavira"
+  is_jainism_faith_name:0 "$special_doctrine_is_jainism_faith_name$"
+  special_doctrine_is_jainism_faith_desc:0 "The teachings of the 24th Tirthankara Mahavira who taught the ancient Jain faith. He helped to recreate the Jain Sangha and following his teachings will lead us to moksha."
+
+  special_doctrine_is_buddhist_faith_name:0 "Teachings of Gautama Buddha"
+  is_buddhist_faith_name:0 "$special_doctrine_is_buddhist_faith_name$"
+  special_doctrine_is_buddhist_faith_desc:0 "While many branches have come about since he achieved enlightenment, it is through his teachings that the path to englightenment is found."
+
+  fervor_gain_new_philosophy:0 "New Philosophy developed"
+
+ # Vedic Animal Sacrifice
+  special_doctrine_dharma_doctrine_vedic_sacrifice_name:0 "Mahabali"
+  dharma_doctrine_vedic_sacrifice_name:0 "$special_doctrine_dharma_doctrine_vedic_sacrifice_name$"
+  special_doctrine_dharma_doctrine_vedic_sacrifice_desc:0 "For the Scripture declares that the killing of sacrificial animals makes them to go up to the heavenly world, and therefore is not of the nature of harm. This is declared in the text, 'The animal killed at the sacrifice having assumed a divine body goes to the heavenly world'; 'with a golden body it ascends to the heavenly world.' Let us celebrate and honor the Gods and give them offerings."
+  dharma_parameter_unlock_vedic_sacrifice:0 "Unlocks the [GetActivityType('activity_dharma_vedic_sacrifice').GetName] [activity|E]"
+  doctrine_parameter_dharma_parameter_unlock_vedic_sacrifice:0 "Unlocks the [GetActivityType('activity_dharma_vedic_sacrifice').GetName] [activity|E]"
+  # Unavailable
+    unavailable_doctrine_name:0 "Unavailable"
+    unavailable_doctrine_desc:0 "Unavailable"
+    unavailable_name:0 "Unavailable"
+    unavailable_desc:0 "Unavailable"
+
+
+
+
+
+
+
+
+
+

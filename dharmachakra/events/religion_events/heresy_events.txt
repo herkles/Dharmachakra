@@ -411,6 +411,11 @@ heresy.0001 = {
 							}
 						}
 					}
+					# We don't want unavailable faiths to pop up via heresy outbreak
+					modifier = {
+						factor = 0
+						has_doctrine = unavailable_doctrine
+					}					
 				}
 
 				save_scope_as = heretic_faith

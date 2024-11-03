@@ -308,7 +308,7 @@
 1246 = {	# 1246 - Goalpara
 	
 	# Misc
-	culture = kachari
+	culture = garo
 	religion = bathouism
 	
 	holding = tribal_holding

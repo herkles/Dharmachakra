@@ -709,9 +709,8 @@
 1324 = {	# 1324 - Suvarnagram
 	
 	# Misc
-	culture = kachari
+	culture = garo
 	religion = bathouism
-	
 	holding = tribal_holding
 	
 	# History
