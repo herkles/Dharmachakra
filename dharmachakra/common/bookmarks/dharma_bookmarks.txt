@@ -1,8 +1,10 @@
 ﻿
 
 bm_867_sea_india = {# Tripartite Struggle
-	start_date = 867.1.2
+	start_date = 867.1.1
 	is_playable = yes
+	group = bm_group_867
+
 	recommended = yes
 
 	character = {# Bhoja Pratihara
@@ -56,9 +58,12 @@ bm_867_sea_india = {# Tripartite Struggle
 }
 bm_867_sea_tibet = {# Era of Fragmentation
 	start_date = 867.1.2
+	group = bm_group_867
 	is_playable = yes
-	# recommended = yes
-
+	weight = {
+		value = 0
+	}
+	
 	character = {# Vikarma Vijaya of Khotan
 		name = "bookmark_sea_tibet_khotan"
 		dynasty = 1040024

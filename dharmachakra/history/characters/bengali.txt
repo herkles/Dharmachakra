@@ -135,7 +135,7 @@
 	190009 = {# Narayanapala
 		name = "Narayanapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190008
 		839.1.1 = {
@@ -148,7 +148,7 @@
 	190010 = {# Rajyapala
 		name = "Rajyapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190009
 		865.1.1 = {
@@ -161,7 +161,7 @@
 	190011 = {# Gopala
 		name = "Gopala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190010
 		882.1.1 = {
@@ -174,7 +174,7 @@
 	190012 = {# Vigrahapala
 		name = "Vigrahapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190011
 		929.1.1 = {
@@ -187,7 +187,7 @@
 	190013 = {# Mahipala
 		name = "Mahipala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190012
 		968.1.1 = {
@@ -200,7 +200,7 @@
 	190014 = {# Sthirapala
 		name = "Sthirapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190012
 		971.1.1 = {
@@ -213,7 +213,7 @@
 	190015 = {# Vasantapala
 		name = "Vasantapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190012
 		975.1.1 = {
@@ -226,7 +226,7 @@
 	190016 = {# Nayapala
 		name = "Nayapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190013
 		1001.1.1 = {
@@ -239,7 +239,7 @@
 	190017 = {# Vigrahapala
 		name = "Vigrahapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190016
 		trait = education_martial_1
@@ -259,12 +259,17 @@
 	190018 = {# Mahipala
 		name = "Mahipala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190017
 		mother = 191087
 		1042.1.1 = {
 			birth = yes
+		}
+		1060.1.1 = {
+			# The brother's feud
+			set_relation_potential_rival = character:190019
+			set_relation_potential_rival = character:190020
 		}
 		1075.1.1 = {
 			death = yes
@@ -273,12 +278,17 @@
 	190019 = {# Surapala
 		name = "Surapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190017
 		mother = 191087
 		1046.1.1 = {
 			birth = yes
+		}
+		1060.1.1 = {
+			# The brother's feud
+			set_relation_potential_rival = character:190018
+			set_relation_potential_rival = character:190020
 		}
 		1077.1.1 = {
 			death = yes
@@ -287,12 +297,17 @@
 	190020 = {# Ramapala
 		name = "Ramapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190017
 		mother = 191087
 		1047.1.1 = {
 			birth = yes
+		}
+		1060.1.1 = {
+			# The brother's feud
+			set_relation_potential_rival = character:190018
+			set_relation_potential_rival = character:190019
 		}
 		1120.1.1 = {
 			death = yes
@@ -301,7 +316,7 @@
 	190021 = {# Kumarapala
 		name = "Kumarapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190020
 		1082.1.1 = {
@@ -314,7 +329,7 @@
 	190022 = {# Gopala
 		name = "Gopala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190021
 		1109.1.1 = {
@@ -327,7 +342,7 @@
 	190023 = {# Madanapala
 		name = "Madanapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190020
 		1100.1.1 = {
@@ -340,7 +355,7 @@
 	190024 = {# Govindapala
 		name = "Govindapala"
 		dynasty = 1043000
-		religion = "mahayana"
+		religion = "shaivism"
 		culture = "bengali"
 		father = 190023
 		1122.1.1 = {
@@ -350,7 +365,6 @@
 			death = yes
 		}
 	}
-
 #######################################
 # Candravamsa Dynasty
 #######################################

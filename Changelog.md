@@ -9,18 +9,13 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 ## Changelog
 
 - updated to the latest version of CK3
-- two new bookmarks - Tripartite Struggle and Era of Fragmentation
-- new background Holding images for South asia and Tibet
-- Updated Tibet's History to better reflect the Era of Fragmnetation.
-- added Khalsi culture - a matrilieanial culture in North East India. 
-- Added the Niam Tre - The Khasi Ethnic Religion
-- added some ethnicites from RoA for Tibetans and Burmese
-- Mon has new Cultural Traditions
-- reformated code to help with compatability
-- updated historical database to be more accurate
-- added backgrounds for Tibetan and Indian Tribal Rulers
-- added GFX for Dharmic and Eastern Faiths in the religion menues.
-- Dravidians can build hero stones for their ancestors.
+- revamped holy sites for dharmic faiths
+- added various activities
+- updated a bunch of character's histories
+- split up Nepali culture into Garwhali, Kaumoni, Khasa, and Newar
+- added Lingyatism in 1178
+- Basava and Akka Mahadevi are both Lingyats
+- various bug fixes
 
 ## Manual Installation Steps
 

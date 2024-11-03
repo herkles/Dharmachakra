@@ -3,6 +3,7 @@
 #######################################
 175030 = {# Amoghavarsha
 	name = "Amoghavarsha" #Amoghavarsha I of Rashtratuka
+	dna = "175030_amoghavarsha_karnata"
 	dynasty = 1043003
 	religion = "digambara"
 	culture = "kannada"
@@ -17,10 +18,10 @@
 	# Education
 	trait = education_learning_3
 	# Personality
-	trait = compassionate
-	trait = just
-	trait = forgiving
-
+	trait = generous
+	trait = humble
+	trait = reclusive
+	trait = content
 	# Other
 	trait = poet
 	disallow_random_traits = yes
@@ -75,6 +76,392 @@
 		birth = yes
 	}
 	720.1.1 = {
+		death = yes
+	}
+}
+74748 = {# Merada
+	name = "Merada"
+	dynasty = 12336
+	religion = "yapaniya"
+	culture = "kannada"
+	father = 175030
+	mother = rashtrakuta003
+	850.1.1 = {
+		birth = yes
+	}
+	913.1.1 = {
+		death = yes
+	}
+}
+74749 = {# Prithvirama
+	name = "Prithvirama"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74748
+
+	875.1.1 = {
+		birth = yes
+	}
+	936.1.1 = {
+		death = yes
+	}
+}
+74750 = {# Pittuga
+	name = "Pittuga"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74749
+
+	897.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+74751 = {# Shantivarman
+	name = "Shantivarman"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74750
+
+	921.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		death = yes
+	}
+}
+74752 = {# Nanna
+	name = "Nanna"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74750
+
+	928.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+74753 = {# Kartavyria
+	name = "Kartavyria"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74752
+
+	953.1.1 = {
+		birth = yes
+	}
+	1018.1.1 = {
+		death = yes
+	}
+}
+74754 = {# Dayima
+	name = "Dayima"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74753
+
+	975.1.1 = {
+		birth = yes
+	}
+	1021.1.1 = {
+		death = yes
+	}
+}
+74755 = {# Kanna
+	name = "Kanna"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74753
+
+	978.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+74756 = {# Erega
+	name = "Erega"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74755
+
+	999.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+74757 = {# Anka
+	name = "Anka"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74755
+
+	1000.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}
+74758 = {# Sena
+	name = "Sena"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74757
+
+	1024.1.1 = {
+		birth = yes
+	}
+	1044.1.1 = {
+		add_spouse = 74768
+	}
+	1088.1.1 = {
+		death = yes
+	}
+}
+74768 = {# Mailaladevi
+	name = "Mailaladevi"
+	female = yes
+	religion = "digambara"
+	culture = "kannada"
+
+	1027.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+74759 = {# Kanna
+	name = "Kanna"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74758
+	mother = 74768
+
+	1046.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+74760 = {# Kartavyria
+	name = "Kartavyria"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74758
+	mother = 74768
+
+	1050.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		add_spouse = 74769
+	}
+	1111.1.1 = {
+		death = yes
+	}
+}
+74769 = {# Baghaladevi
+	name = "Baghaladevi"
+	female = yes
+	religion = "digambara"
+	culture = "kannada"
+
+	1052.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+74761 = {# Sena
+	name = "Sena"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74760
+	mother = 74769
+
+	1073.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = {
+		add_spouse = 74770
+	}
+	1128.1.1 = {
+		death = yes
+	}
+}
+74770 = {# Lakshmidevi
+	name = "Lakshmidevi"
+	female = yes
+	religion = "digambara"
+	culture = "kannada"
+
+	1081.1.1 = {
+		birth = yes
+	}
+	1145.1.1 = {
+		death = yes
+	}
+}
+74762 = {# Kartavyria
+	name = "Kartavyria"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74761
+	mother = 74770
+
+	1098.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		add_spouse = 74771
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+74771 = {# Padmaladevi
+	name = "Padmaladevi"
+	female = yes
+	religion = "digambara"
+	culture = "kannada"
+
+	1103.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+74764 = {# Lakshmideva
+	name = "Lakshmideva"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74762
+	mother = 74771
+
+	1122.1.1 = {
+		birth = yes
+	}
+	1148.1.1 = {
+		add_spouse = 74772
+	}
+	1199.1.1 = {
+		death = yes
+	}
+}
+74772 = {# Chandaladevi
+	name = "Chandaladevi"
+	female = yes
+	religion = "digambara"
+	culture = "kannada"
+
+	1130.1.1 = {
+		birth = yes
+	}
+	1201.1.1 = {
+		death = yes
+	}
+}
+74765 = {# Kartavyria
+	name = "Kartavyria"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74764
+	mother = 74772
+
+	1149.1.1 = {
+		birth = yes
+	}
+	1167.1.1 = {
+		add_spouse = 74773
+	}
+	1181.1.1 = {
+		add_spouse = 74774
+	}
+	1221.1.1 = {
+		death = yes
+	}
+}
+74773 = {# Echaladevi
+	name = "Echaladevi"
+	female = yes
+	religion = "digambara"
+	culture = "kannada"
+
+	1150.1.1 = {
+		birth = yes
+	}
+	1181.1.1 = {
+		death = yes
+	}
+}
+74774 = {# Madevi
+	name = "Madevi"
+	female = yes
+	religion = "digambara"
+	culture = "kannada"
+
+	1163.1.1 = {
+		birth = yes
+	}
+	1228.1.1 = {
+		death = yes
+	}
+}
+74766 = {# Mallikarjuna
+	name = "Mallikarjuna"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74764
+	mother = 74772
+
+	1155.1.1 = {
+		birth = yes
+	}
+	1218.1.1 = {
+		death = yes
+	}
+}
+74767 = {# Lakshmideva
+	name = "Lakshmideva"
+	dynasty = 12336
+	religion = "digambara"
+	culture = "kannada"
+	father = 74765
+	mother = 74774
+
+	1183.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
 		death = yes
 	}
 }
@@ -144,7 +531,7 @@
 74417 = {# Krishna
 	name = "Krishna" #Krishna II of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 175030
 	mother = rashtrakuta003
@@ -162,7 +549,7 @@ rashtrakuta001 = {# Sankha
 	name = "Sankha"
 	female = yes
 	dynasty = 1043003 # Supposedly Ratta
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 175030
 	mother = rashtrakuta003
@@ -180,7 +567,7 @@ rashtrakuta002 = {# Revakanimmadi
 	name = "Revakanimmadi"
 	female = yes
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 175030
 	mother = rashtrakuta003
@@ -229,7 +616,7 @@ rashtrakuta003 = { # Asagavve
 74420 = {# Jagattunga
 	name = "Jagattunga"
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74417
 	mother = 74418
@@ -244,7 +631,7 @@ rashtrakuta003 = { # Asagavve
 74421 = {# Indra
 	name = "Indra" #Indra I (III) of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "vaishnavism"
 	culture = "kannada"
 	father = 74420
 
@@ -258,7 +645,7 @@ rashtrakuta003 = { # Asagavve
 74422 = {# Amoghavarsha
 	name = "Amoghavarsha" #Amoghavarsa II of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74421
 
@@ -272,9 +659,12 @@ rashtrakuta003 = { # Asagavve
 74423 = {# Govinda
 	name = "Govinda" #Govinda III (IV) of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74421
+
+	trait = lustful # 
+	trait = compassionate # 
 
 	903.1.1 = {
 		birth = yes
@@ -286,7 +676,7 @@ rashtrakuta003 = { # Asagavve
 74424 = {# Amoghavarsha
 	name = "Amoghavarsha" #Amoghavarsha III of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74420
 
@@ -300,7 +690,7 @@ rashtrakuta003 = { # Asagavve
 74425 = {# Krishna
 	name = "Krishna" #Krishna III of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74424
 
@@ -314,7 +704,7 @@ rashtrakuta003 = { # Asagavve
 74426 = {# Khottiga
 	name = "Khottiga" #Khottiga Amoghavarsha of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74424
 
@@ -328,7 +718,7 @@ rashtrakuta003 = { # Asagavve
 74427 = {# Govinda
 	name = "Govinda"
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74425
 
@@ -342,7 +732,7 @@ rashtrakuta003 = { # Asagavve
 74428 = {# Karka
 	name = "Karka" #Karka (II) of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74763
 
@@ -356,7 +746,7 @@ rashtrakuta003 = { # Asagavve
 74429 = {# Indra
 	name = "Indra" #Indra II (IV) of Rashtrakuta
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74427
 
@@ -454,7 +844,7 @@ rashtrakuta003 = { # Asagavve
 74763 = {# Nirupama
 	name = "Nirupama"
 	dynasty = 1043003
-	religion = "digambara"
+	religion = "shaivism"
 	culture = "kannada"
 	father = 74424
 
@@ -3807,392 +4197,8 @@ nidugal_cholas_15 = {# Rajaganesha
 #######################################
 # Ratta Dynasty
 #######################################
-74748 = {# Merada
-	name = "Merada"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 175030
-	mother = rashtrakuta003
-	850.1.1 = {
-		birth = yes
-	}
-	913.1.1 = {
-		death = yes
-	}
-}
-74749 = {# Prithvirama
-	name = "Prithvirama"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74748
 
-	875.1.1 = {
-		birth = yes
-	}
-	936.1.1 = {
-		death = yes
-	}
-}
-74750 = {# Pittuga
-	name = "Pittuga"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74749
 
-	897.1.1 = {
-		birth = yes
-	}
-	960.1.1 = {
-		death = yes
-	}
-}
-74751 = {# Shantivarman
-	name = "Shantivarman"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74750
-
-	921.1.1 = {
-		birth = yes
-	}
-	985.1.1 = {
-		death = yes
-	}
-}
-74752 = {# Nanna
-	name = "Nanna"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74750
-
-	928.1.1 = {
-		birth = yes
-	}
-	990.1.1 = {
-		death = yes
-	}
-}
-74753 = {# Kartavyria
-	name = "Kartavyria"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74752
-
-	953.1.1 = {
-		birth = yes
-	}
-	1018.1.1 = {
-		death = yes
-	}
-}
-74754 = {# Dayima
-	name = "Dayima"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74753
-
-	975.1.1 = {
-		birth = yes
-	}
-	1021.1.1 = {
-		death = yes
-	}
-}
-74755 = {# Kanna
-	name = "Kanna"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74753
-
-	978.1.1 = {
-		birth = yes
-	}
-	1038.1.1 = {
-		death = yes
-	}
-}
-74756 = {# Erega
-	name = "Erega"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74755
-
-	999.1.1 = {
-		birth = yes
-	}
-	1061.1.1 = {
-		death = yes
-	}
-}
-74757 = {# Anka
-	name = "Anka"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74755
-
-	1000.1.1 = {
-		birth = yes
-	}
-	1063.1.1 = {
-		death = yes
-	}
-}
-74758 = {# Sena
-	name = "Sena"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74757
-
-	1024.1.1 = {
-		birth = yes
-	}
-	1044.1.1 = {
-		add_spouse = 74768
-	}
-	1088.1.1 = {
-		death = yes
-	}
-}
-74768 = {# Mailaladevi
-	name = "Mailaladevi"
-	female = yes
-	religion = "digambara"
-	culture = "kannada"
-
-	1027.1.1 = {
-		birth = yes
-	}
-	1092.1.1 = {
-		death = yes
-	}
-}
-74759 = {# Kanna
-	name = "Kanna"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74758
-	mother = 74768
-
-	1046.1.1 = {
-		birth = yes
-	}
-	1108.1.1 = {
-		death = yes
-	}
-}
-74760 = {# Kartavyria
-	name = "Kartavyria"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74758
-	mother = 74768
-
-	1050.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		add_spouse = 74769
-	}
-	1111.1.1 = {
-		death = yes
-	}
-}
-74769 = {# Baghaladevi
-	name = "Baghaladevi"
-	female = yes
-	religion = "digambara"
-	culture = "kannada"
-
-	1052.1.1 = {
-		birth = yes
-	}
-	1115.1.1 = {
-		death = yes
-	}
-}
-74761 = {# Sena
-	name = "Sena"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74760
-	mother = 74769
-
-	1073.1.1 = {
-		birth = yes
-	}
-	1097.1.1 = {
-		add_spouse = 74770
-	}
-	1128.1.1 = {
-		death = yes
-	}
-}
-74770 = {# Lakshmidevi
-	name = "Lakshmidevi"
-	female = yes
-	religion = "digambara"
-	culture = "kannada"
-
-	1081.1.1 = {
-		birth = yes
-	}
-	1145.1.1 = {
-		death = yes
-	}
-}
-74762 = {# Kartavyria
-	name = "Kartavyria"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74761
-	mother = 74770
-
-	1098.1.1 = {
-		birth = yes
-	}
-	1120.1.1 = {
-		add_spouse = 74771
-	}
-	1150.1.1 = {
-		death = yes
-	}
-}
-74771 = {# Padmaladevi
-	name = "Padmaladevi"
-	female = yes
-	religion = "digambara"
-	culture = "kannada"
-
-	1103.1.1 = {
-		birth = yes
-	}
-	1168.1.1 = {
-		death = yes
-	}
-}
-74764 = {# Lakshmideva
-	name = "Lakshmideva"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74762
-	mother = 74771
-
-	1122.1.1 = {
-		birth = yes
-	}
-	1148.1.1 = {
-		add_spouse = 74772
-	}
-	1199.1.1 = {
-		death = yes
-	}
-}
-74772 = {# Chandaladevi
-	name = "Chandaladevi"
-	female = yes
-	religion = "digambara"
-	culture = "kannada"
-
-	1130.1.1 = {
-		birth = yes
-	}
-	1201.1.1 = {
-		death = yes
-	}
-}
-74765 = {# Kartavyria
-	name = "Kartavyria"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74764
-	mother = 74772
-
-	1149.1.1 = {
-		birth = yes
-	}
-	1167.1.1 = {
-		add_spouse = 74773
-	}
-	1181.1.1 = {
-		add_spouse = 74774
-	}
-	1221.1.1 = {
-		death = yes
-	}
-}
-74773 = {# Echaladevi
-	name = "Echaladevi"
-	female = yes
-	religion = "digambara"
-	culture = "kannada"
-
-	1150.1.1 = {
-		birth = yes
-	}
-	1181.1.1 = {
-		death = yes
-	}
-}
-74774 = {# Madevi
-	name = "Madevi"
-	female = yes
-	religion = "digambara"
-	culture = "kannada"
-
-	1163.1.1 = {
-		birth = yes
-	}
-	1228.1.1 = {
-		death = yes
-	}
-}
-74766 = {# Mallikarjuna
-	name = "Mallikarjuna"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74764
-	mother = 74772
-
-	1155.1.1 = {
-		birth = yes
-	}
-	1218.1.1 = {
-		death = yes
-	}
-}
-74767 = {# Lakshmideva
-	name = "Lakshmideva"
-	dynasty_house = house_Ratta
-	religion = "digambara"
-	culture = "kannada"
-	father = 74765
-	mother = 74774
-
-	1183.1.1 = {
-		birth = yes
-	}
-	1250.1.1 = {
-		death = yes
-	}
-}
 #######################################
 # of Malwa Dynasty
 #######################################

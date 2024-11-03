@@ -273,7 +273,6 @@
 	867.1.1 = {
 		special_building = generic_university
 	}
-
 }
 
 # 850 - Bokainagar

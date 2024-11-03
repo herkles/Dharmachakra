@@ -665,6 +665,8 @@
 			NOT = { exists = global_var:hchar_basava }
 		}
 		set_global_variable = { name = hchar_basava value = yes }
+		# Lingayatism is spawned with him.
+		set_global_variable = { name = ligayatism_spawned value = yes }
 		title:b_basavapattana = {
 			save_scope_as = birth_location
 			create_character = {
