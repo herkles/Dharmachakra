@@ -408,9 +408,6 @@
 
 			doctrine = sampradaya_shaivism_doctrine
 
-			# Animal Sacrifices
-			doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
-
 			localization = {
 				HighGodName = shaivism_high_god_name
 				HighGodName2 = shaivism_high_god_name_2

@@ -1,0 +1,393 @@
+﻿namespace = dharma_tribal
+
+#######################################
+#									  #
+#     Hindu General flavor Events     #
+#									  #
+#######################################
+
+#######################################
+# Sacred Groves
+#######################################
+dharma_tribal.001 = {# Consencrating a Sacred Groves
+	type = character_event
+	title = dharma_tribal.001.t
+	desc = dharma_tribal.001.desc
+	theme = faith
+	override_background = { reference = fp1_runestone_circle }
+	
+	right_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	immediate = {
+		if = {# First check the Capital country is good
+			limit = {
+				any_directly_owned_province = {
+					is_capital_barony = yes
+					terrain = farmlands
+					terrain = hills
+					terrain = mountains
+					terrain = jungle
+					terrain = forest
+					terrain = wetlands
+					terrain = floodplains
+				}
+				NOT = {
+					capital_province = {
+						has_province_modifier = sacred_grove_level_1
+						has_province_modifier = sacred_grove_level_2
+						has_province_modifier = sacred_grove_level_3
+
+					}
+				}
+			}
+			capital_province = {
+				save_scope_as = province
+			}
+		}
+		else_if = {
+			limit = {
+				any_directly_owned_province = {
+					is_capital_barony = no
+					terrain = farmlands
+					terrain = hills
+					terrain = mountains
+					terrain = jungle
+					terrain = forest
+					terrain = wetlands
+					terrain = floodplains
+				}
+			}
+			any_directly_owned_province = {
+				save_scope_as = province
+			}
+		}
+
+
+		random_list = {
+			40 = {
+				modifier = {
+					add = 8
+					piety_level <= 1
+				}
+				modifier = {
+					add = 4
+					piety_level <= 2
+				}
+				add_character_flag = sacred_grove_level_1
+			}
+			30 = {
+				modifier = {
+					add = 4
+					piety_level <= 2
+				}
+				modifier = {
+					add = 8
+					piety_level <= 3
+				}
+				modifier = {
+					add = 4
+					piety_level <= 4
+				}
+				add_character_flag = sacred_grove_level_2
+			}
+			20 = {
+				modifier = {
+					add = 4
+					piety_level >= 3
+				}
+				modifier = {
+					add = 8
+					piety_level >= 4
+				}
+				modifier = {
+					add = 4
+					piety_level >= 5
+				}
+				add_character_flag = sacred_grove_level_3
+			}
+		}
+	}
+	
+	# Ok
+	option = {
+		name = dharma_tribal.001.a
+		if = {
+			limit = {
+				has_character_flag = sacred_grove_level_1
+			}
+			scope:province = {
+				add_province_modifier = {
+					modifier = sacred_grove_level_1
+					years = 20
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_character_flag = sacred_grove_level_2
+			}
+			scope:province = {
+				add_province_modifier = {
+					modifier = sacred_grove_level_2
+					years = 20
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_character_flag = sacred_grove_level_3
+			}
+			scope:province = {
+				add_province_modifier = {
+					modifier = sacred_grove_level_3
+					years = 20
+				}
+			}
+		}
+		custom_tooltip = dharma_tribal.001.tooltip
+	}
+
+	after = {
+		if = {
+			limit = {
+				has_character_flag = sacred_grove_level_1
+			}
+			remove_character_flag = sacred_grove_level_1
+		}
+		if = {
+			limit = {
+				has_character_flag = sacred_grove_level_2
+			}
+			remove_character_flag = sacred_grove_level_2
+		}
+		if = {
+			limit = {
+				has_character_flag = sacred_grove_level_3
+			}
+			remove_character_flag = sacred_grove_level_3
+		}
+	}
+
+}
+# The Activity
+dharma_tribal.002 = {# You have arrived at the grove
+	type = activity_event
+	title = dharma_tribal.002.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Offering Fruit
+				trigger = {
+					root = scope:host
+					scope:activity = {
+						has_activity_option = {
+							category = dharma_sacred_grove_visit_offering_type
+							option = dharma_sacred_grove_visit_animal_type_food
+						}
+					}
+				}
+				desc = dharma_tribal.002.desc.fruit
+			}
+			triggered_desc = {# Offering animals
+				trigger = {
+					root = scope:host
+					scope:activity = {
+						has_activity_option = {
+							category = dharma_sacred_grove_visit_offering_type
+							option = dharma_sacred_grove_visit_animal_type_animals
+						}
+					}
+				}
+				desc = dharma_tribal.002.desc.animals
+			}
+		}
+	}
+	theme = faith	
+	override_background = { reference = market_west }
+	
+	right_portrait = {
+		character = root
+		animation = personality_forgiving
+	}
+	
+	option = { # Ok
+		name = dharma_tribal.002.a
+	}
+
+	after = {
+		trigger_event = {
+			id = dharma_tribal.003
+			days = { 2 3 }
+		}
+	}
+}
+dharma_tribal.003 = {# Making offerings and sacrifices
+	type = activity_event
+	title = dharma_tribal.003.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Offering Fruit
+				trigger = {
+					root = scope:host
+					scope:activity = {
+						has_activity_option = {
+							category = dharma_sacred_grove_visit_offering_type
+							option = dharma_sacred_grove_visit_animal_type_food
+						}
+					}
+				}
+				desc = dharma_tribal.003.desc.fruit
+			}
+			triggered_desc = {# Offering animals
+				trigger = {
+					root = scope:host
+					scope:activity = {
+						has_activity_option = {
+							category = dharma_sacred_grove_visit_offering_type
+							option = dharma_sacred_grove_visit_animal_type_animals
+						}
+					}
+				}
+				desc = dharma_tribal.003.desc.animals
+			}
+		}
+	}
+	theme = faith
+	override_background = { reference = market_west }
+	
+	right_portrait = {
+		character = root
+		animation = throne_room_cheer_2
+	}
+	
+	option = { # Ok
+		name = dharma_tribal.003.a
+	}
+
+
+	after = {
+		trigger_event = {
+			id = dharma_tribal.004
+			days = { 3 5 }
+		}
+	}
+}
+dharma_tribal.004 = {# Dancing/Eating/Feasting
+	type = activity_event
+	title = dharma_tribal.004.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Offering Fruit
+				trigger = {
+					root = scope:host
+					scope:activity = {
+						has_activity_option = {
+							category = dharma_sacred_grove_visit_offering_type
+							option = dharma_sacred_grove_visit_animal_type_food
+						}
+					}
+				}
+				desc = dharma_tribal.004.desc.fruit
+			}
+			triggered_desc = {# Offering animals
+				trigger = {
+					root = scope:host
+					scope:activity = {
+						has_activity_option = {
+							category = dharma_sacred_grove_visit_offering_type
+							option = dharma_sacred_grove_visit_animal_type_animals
+						}
+					}
+				}
+				desc = dharma_tribal.004.desc.animals
+			}
+		}
+	}
+	theme = faith
+	override_background = { reference = market_west }
+	
+	right_portrait = {
+		character = root
+		animation = wedding_drunk
+	}
+	
+	option = { # Ok
+		name = dharma_tribal.004.a
+	}
+
+	after = {
+		trigger_event = {
+			id = dharma_tribal.005
+			days = { 3 5 }
+		}
+	}
+}
+dharma_tribal.005 = {# Time to go Home
+	type = activity_event
+	title = dharma_tribal.005.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Offering Fruit
+				trigger = {
+					root = scope:host
+					scope:activity = {
+						has_activity_option = {
+							category = dharma_sacred_grove_visit_offering_type
+							option = dharma_sacred_grove_visit_animal_type_food
+						}
+					}
+				}
+				desc = dharma_tribal.005.desc.fruit
+			}
+			triggered_desc = {# Offering animals
+				trigger = {
+					root = scope:host
+					scope:activity = {
+						has_activity_option = {
+							category = dharma_sacred_grove_visit_offering_type
+							option = dharma_sacred_grove_visit_animal_type_animals
+						}
+					}
+				}
+				desc = dharma_tribal.005.desc.animals
+			}
+		}
+	}
+	theme = faith
+	override_background = { reference = market_west }
+	
+	left_portrait = {
+		character = root
+		animation = personality_content
+	}
+	
+	option = { # Ok
+		name = dharma_tribal.005.a
+		if = {
+			limit = {
+				has_activity_intent = dharma_sacred_grove_visit_worship_intent
+			}
+			add_piety = miniscule_piety_gain
+			stress_impact = {
+				base = minor_stress_loss
+			}
+		}
+		else_if = {
+			limit = {
+				has_activity_intent = dharma_sacred_grove_visit_reputation_intent
+			}
+			add_prestige = miniscule_prestige_gain
+			stress_impact = {
+				base = minor_stress_loss
+			}
+		}
+	}
+
+	after = {
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}

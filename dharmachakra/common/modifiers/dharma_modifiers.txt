@@ -30,6 +30,22 @@ dharma_happy_clergy_festival = {
 	icon = feast_positive
 	clergy_opinion = 5
 }
+##########################################
+# Sacred Groves
+##########################################
+sacred_grove_level_1 = {
+	icon = piety_positive
+	tax_mult = 0.02
+}
+sacred_grove_level_2 = {
+	icon = piety_positive
+	tax_mult = 0.04
+}
+sacred_grove_level_3 = {
+	icon = piety_positive
+	tax_mult = 0.06
+}
+
 #######################################
 # Jain Modifiers
 #######################################

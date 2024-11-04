@@ -1,0 +1,26 @@
+﻿l_english:
+
+# Sacred Groves
+  dharma_tribal.001.t: "Consecrating the Sacred Grove"
+  dharma_tribal.001.desc: "For as long as anyone can remember, the sacred groves are where we worship the [ROOT.Char.GetFaith.PantheonTerm]. \n\nUnder my direction, [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')] have located a sacred grove in [county.GetNameNoTier] venerated locally that deserves more recognition as a site of veneration and prayer. After we performed various ceremonies and sacrifices to consecrate this sacred grove, word is spreading fast around the region about the sacredness of the locale.\n\nThere is no doubt that this sacred grove will become an important focal point of local [ROOT.Char.GetFaith.GetAdjective] religious activity for many years."
+  dharma_tribal.001.a: "Great to hear"
+
+  dharma_tribal.002.t: "Arriving at the Sacred Grove"
+  dharma_tribal.002.desc.fruit: "You and your guests have arrived at the sacred grove where you will offer fruits and vegetables to be blessed at the sacred grove. Several of the [ROOT.Char.Custom('DefaultPriestTitlePlural')] are working to prepare the grove. Other guests are setting up for a celebration afterwards. "
+  dharma_tribal.002.desc.animals: "You and your guests have arrived at the sacred grove where you will offer some animals to the [ROOT.Char.GetFaith.PantheonTerm]. The animals make noises as they are led away to the pen that is prepared for them. Several of the [ROOT.Char.Custom('DefaultPriestTitlePlural')] are working to prepare the grove. Other guests are setting up for a celebration afterwards. "
+  dharma_tribal.002.a: "Glad be to here"
+
+  dharma_tribal.003.t: "Offering to the [ROOT.Char.GetFaith.PantheonTerm]"
+  dharma_tribal.003.desc.fruit: "You and your guests place in baskets the fruits and vegetables that you have brought here to be offered to the [ROOT.Char.GetFaith.PantheonTerm]. Libations are offered, candles are lit and prayers to the [ROOT.Char.GetFaith.PantheonTerm] are said. "
+  dharma_tribal.003.desc.animals: "You and your guests bring the animals to the altar at the center of the sacred grove where the  [ROOT.Char.Custom('DefaultPriestTitlePlural')] sacrifice them to the [ROOT.Char.GetFaith.PantheonTerm]. Libations are offered following that while prayers and chanting are said."
+  dharma_tribal.003.a: "May I be blessed"
+
+  dharma_tribal.004.t: "Feasting and Celebrating"
+  dharma_tribal.004.desc.fruit: "After offering my fruits and vegetables to the [ROOT.Char.GetFaith.PantheonTerm], there is a feast. Food is brought out and drinks are given. Dancing with my courtiers and celebrating at this holy sacred place. "
+  dharma_tribal.004.desc.animals: "After offering the animals are sacrificed to the [ROOT.Char.GetFaith.PantheonTerm], there is a feast. Food is brought out and drinks are given. Dancing with my courtiers and celebrating at this holy sacred place. "
+  dharma_tribal.004.a: "What a joyous time"
+
+  dharma_tribal.005.t: "Time to head home"
+  dharma_tribal.005.desc.fruit: "Now that the fruits have been offered to the [ROOT.Char.GetFaith.PantheonTerm] and I have enjoyed a good meal. It is time for me to depart here and return home. "
+  dharma_tribal.005.desc.animals: "Now that the animals have been offered to the [ROOT.Char.GetFaith.PantheonTerm] and I have enjoyed a good meal. It is time for me to depart here and return home. "
+  dharma_tribal.005.a: "May I be blessed"

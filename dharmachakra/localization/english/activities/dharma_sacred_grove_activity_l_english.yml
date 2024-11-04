@@ -1,0 +1,59 @@
+﻿l_english:
+###################################
+# Activity itself
+###################################
+  activity_dharma_sacred_grove_visit: "Visit a Sacred Grove"
+  activity_dharma_sacred_grove_visit_desc: "There are a number of sacred groves in our area. Groves that are blessed and consecrated to various [ROOT.Char.GetFaith.PantheonTerm]. A visit to them may be good, and a small celebration there."
+  activity_dharma_sacred_grove_visit_selection_tooltip: "visit a sacred grove that is consencrated to [GetPlayer.GetFaith.PantheonTerm].\n\n$dharma_sacred_grove_visit_desc_context_tooltip$"
+  activity_dharma_sacred_grove_visit_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_sacred_grove_visit_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_sacred_grove_visit_province_desc: "A sacred Grove is here"
+  activity_dharma_sacred_grove_visit_destination_selection: "$activity_dharma_sacred_grove_visit_province_desc$"
+  activity_dharma_sacred_grove_visit_guest_help_text: "$activity_dharma_sacred_grove_visit$"
+  activity_dharma_sacred_grove_visit_predicted_cost: "The cost of a visit to a Sacred Grove depends on the [activity_options|E] you select."
+  activity_dharma_sacred_grove_visit_conclusion_desc: "The [GetActivityType( 'activity_dharma_sacred_grove_visit' ).GetName] is over. May [GetPlayer.GetFaith.PantheonTerm] be pleased with our offerings"
+###################################
+# Activity Options
+###################################
+  dharma_sacred_grove_visit_offering_type: "Offering Type"
+  dharma_sacred_grove_visit_animal_type_food: "Fruits and Food"
+  dharma_sacred_grove_visit_animal_type_food_desc: "You will offer up fruits, vegetables and other food, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E]."
+  dharma_sacred_grove_visit_animal_type_animals: "Animals"
+  dharma_sacred_grove_visit_animal_type_animals_desc: "You will offer up animals to be sacrificed, as well as increase the chances of gaining a #P beneficial#! [character_modifier|E]."  
+  dharma_sacred_grove_visit_offering_type_type: "The type of offering to be given."
+
+###################################
+# Phases
+###################################
+  dharma_sacred_grove_visit_phase: "Visitation"
+  dharma_sacred_grove_visit_phase_desc: "You shall go to a sacred grove and provide offerings to the [GetPlayer.GetFaith.PantheonTerm]."
+###################################
+# Intents
+###################################
+  dharma_sacred_grove_visit_worship_intent_header: "Worship"
+  dharma_sacred_grove_visit_worship_intent: "Worship"
+  dharma_sacred_grove_visit_worship_intent_desc: "You will focus on the religious dimensions of the Sacred Grove Visit. Gain an extra [piety_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('zealous').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+
+  dharma_sacred_grove_visit_reputation_intent_header: "Reputation"
+  dharma_sacred_grove_visit_reputation_intent: "Reputation"
+  dharma_sacred_grove_visit_reputation_intent_desc: "You want all to know of your devotion through visiting a sacred grove. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+###################################
+# Character Memories
+###################################
+  dharma_sacred_grove_visit_completed_log_title: "Visited a sacred grove"
+  dharma_sacred_grove_visit_completed_log: "[CHARACTER.GetShortUIName|U] Visited [CHARACTER.GetHerHis] sacred grove."
+  TRAVEL_NAME_FOR_activity_dharma_sacred_grove_visit: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_sacred_grove_visit$"
+ ###################################
+# Character Memories
+###################################
+  dharma_sacred_grove_visit_host_memory: "completed a [GetActivityType('activity_dharma_sacred_grove_visit').GetName]"
+  dharma_sacred_grove_visit_host_memory_first_perspective: "I completed a [GetActivityType('activity_dharma_sacred_grove_visit').GetName]"
+  dharma_sacred_grove_visit_host_memory_second_perspective: "you completed a [GetActivityType('activity_dharma_sacred_grove_visit').GetName]"
+  dharma_sacred_grove_visit_host_memory_third_perspective: "[owner.GetName] completed a [GetActivityType('activity_dharma_sacred_grove_visit').GetName]"
+  dharma_sacred_grove_visit_guest_memory: "participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_sacred_grove_visit').GetName]"
+  dharma_sacred_grove_visit_guest_memory_first_perspective: "I participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_sacred_grove_visit').GetName]"
+  dharma_sacred_grove_visit_guest_memory_second_perspective: "you participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_sacred_grove_visit').GetName]"
+  dharma_sacred_grove_visit_guest_memory_third_perspective: "[owner.GetName] participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_sacred_grove_visit').GetName]"

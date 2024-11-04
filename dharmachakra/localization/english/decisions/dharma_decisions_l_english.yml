@@ -69,6 +69,7 @@
   dharma_pick_hindu_philosophy_desc: "As you delve into your religious studies, some of your brahmins and other scholars at court have suggested that you focus on one of the Astikas or Hindu Philosophical schools. Shall you focus on one of the Astikas?"
   dharma_pick_hindu_philosophy_tooltip: "Look into one of the Astikas."
   dharma_pick_hindu_philosophy_confirm: "Look into one of the Astikas."
+
 #######################################
 # Dravidian Decisions
 #######################################
@@ -83,7 +84,19 @@
 
 
 
+#######################################
+# Sacred Groves
+#######################################
+  dharma_consecrate_sacred_grove:0 "Consecrate a Sacred Grove"
+  dharma_consecrate_sacred_grove_tooltip:0 "The lands are full of forests and groves that can be consecrated"
+  dharma_consecrate_sacred_grove_desc:0 "Sacred Groves play an important role in [ROOT.Char.GetFaith.GetAdjective] worship and belief, and though there are many such sites scattered about my lands, I wish to consecrate one near my [capital|E] and elevate its importance in the eyes of faithful [ROOT.Char.GetFaith.GetAdherentNamePlural] everywhere."
+  dharma_consecrate_sacred_grove_effect_tooltip_1:0 "This [decision|E] can only be taken #V ONCE#! in a lifetime"
+  dharma_consecrate_sacred_grove_effect_tooltip_2:0 "Your [capital|E] will receive a [county_modifier|E] for #V 20#! years that increases [county_opinion|E] and [control|E]; though the strength of this modifier is random, it is influenced by your [piety_level|E]"
+  dharma_consecrate_sacred_grove_effect_tooltip_3:0 "For as long as this [county_modifier|E] is active, [rulers|E] of the [county|E] it is in can take the [decision|E] to $vist_sacred_grove$"
+  dharma_consecrate_sacred_grove_confirm:0 "Locate a suitable sacred grove!"
 
+  no_sacred_grove_county:0 "You do not own a [county|E] with a Sacred Grove [county_modifier|E]"
+  yes_sacred_grove_county:0 "You own a [county|E] with a Sacred Grove [county_modifier|E]"
 
 
 
