@@ -24,8 +24,7 @@ dharma_tribal.001 = {# Consencrating a Sacred Groves
 	immediate = {
 		if = {# First check the Capital country is good
 			limit = {
-				any_directly_owned_province = {
-					is_capital_barony = yes
+				capital_province = {
 					terrain = farmlands
 					terrain = hills
 					terrain = mountains
@@ -50,7 +49,6 @@ dharma_tribal.001 = {# Consencrating a Sacred Groves
 		else_if = {
 			limit = {
 				any_directly_owned_province = {
-					is_capital_barony = no
 					terrain = farmlands
 					terrain = hills
 					terrain = mountains
@@ -60,7 +58,7 @@ dharma_tribal.001 = {# Consencrating a Sacred Groves
 					terrain = floodplains
 				}
 			}
-			any_directly_owned_province = {
+			random_directly_owned_province = {
 				save_scope_as = province
 			}
 		}
@@ -147,7 +145,6 @@ dharma_tribal.001 = {# Consencrating a Sacred Groves
 				}
 			}
 		}
-		custom_tooltip = dharma_tribal.001.tooltip
 	}
 
 	after = {

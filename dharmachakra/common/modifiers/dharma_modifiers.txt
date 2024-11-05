@@ -391,6 +391,13 @@ dharma_gangaur_market = {
 	county_opinion_add = 10
 	tax_mult = 0.05
 }
+
+dharma_murugan_tonsure_modifier = {
+	icon = letter_positive
+	same_faith_opinion = 5
+	attraction_opinion = -10
+	monthly_piety = 5
+}
 ##########################################
 # Hero Stone Modifiers 
 ##########################################
@@ -398,7 +405,6 @@ dharma_hero_stone_ancestors_strong = {
 	icon = rock_positive
 	county_opinion_add = 20
 }
-
 dharma_hero_stone_ancestors_weak = {
 	icon = rock_positive
 	county_opinion_add = 10

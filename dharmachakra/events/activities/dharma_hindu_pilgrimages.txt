@@ -1830,10 +1830,35 @@ dharma_hindu_pilgrimages.082 = {# Offer some hair
 		character = root
 		animation = personality_rational
 	}
-	
-	option = { # Small
+
+	option = {# I shall shave all my hair
 		name = dharma_hindu_pilgrimages.082.a
+		trigger = {
+			OR = {
+				AND = {
+					faith = { has_doctrine = doctrine_gender_male_dominated }
+					is_male = yes
+				}
+				AND = {
+					faith = { has_doctrine = doctrine_gender_female_dominated }
+					is_female = yes
+				}
+				faith = { has_doctrine = doctrine_gender_equal }
+			}
+		}
+		scope:host = {
+			add_character_modifier = {
+				modifier = dharma_murugan_tonsure_modifier
+				months = 6
+			}
+		}
 	}	
+	option = {# I shall offer some hair
+		name = dharma_hindu_pilgrimages.082.b
+	}
+	option = {# I shall not
+		name = dharma_hindu_pilgrimages.082.c
+	}
 
 	after = {
 		trigger_event = {

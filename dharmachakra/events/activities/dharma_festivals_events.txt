@@ -110,7 +110,7 @@ dharma_festivals.004 = {# The feast
 	desc = dharma_festivals.004.desc
 	theme = faith
 	override_background = {
-		reference = throne_room
+		reference = feast
 	}	
 	left_portrait = {
 		character = root

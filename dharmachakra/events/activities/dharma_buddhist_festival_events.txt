@@ -36,7 +36,7 @@ dharma_buddhist_festivals.002 = {# The Buddhist Precipets
 	desc = dharma_buddhist_festivals.002.desc
 	theme = feast_activity
 	override_background = {
-		reference = wood_temple
+		reference = feast
 	}
 	
 	left_portrait = {
@@ -139,7 +139,9 @@ dharma_buddhist_festivals.005 = {# Family Feast
 	title = dharma_buddhist_festivals.005.t
 	desc = dharma_buddhist_festivals.005.desc
 	theme = friendly
-	
+	override_background = {
+		reference = feast
+	}
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -171,7 +173,7 @@ dharma_buddhist_festivals.006 = {# Animal Release
 	desc = dharma_buddhist_festivals.006.desc
 	theme = feast_activity
 	override_background = {
-		reference = dharma_bridge
+		reference = bp2_indian_garden
 	}
 	
 	left_portrait = {

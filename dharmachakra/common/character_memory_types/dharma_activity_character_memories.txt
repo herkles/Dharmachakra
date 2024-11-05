@@ -843,7 +843,7 @@ dharma_vedic_sacrifice_guest_memory = {
 # Char Dharm
 dharma_pilgrimage_char_dham_host_memory = {
 	categories = { positive minor religious }
-	icon = "dharma_jain_festival.dds"
+	icon = "dharma_hindu_festival.dds"
 
 	description = {
 		random_valid = {
@@ -869,7 +869,7 @@ dharma_pilgrimage_char_dham_host_memory = {
 }
 dharma_pilgrimage_char_dham_guest_memory = {
 	categories = { positive minor religious }
-	icon = "dharma_jain_festival.dds"
+	icon = "dharma_hindu_festival.dds"
 
 	description = {
 		random_valid = {
@@ -899,7 +899,7 @@ dharma_pilgrimage_char_dham_guest_memory = {
 # Adi Shakta Pithas
 dharma_pilgrimage_shakta_pithas_host_memory = {
 	categories = { positive minor religious }
-	icon = "dharma_jain_festival.dds"
+	icon = "dharma_hindu_festival.dds"
 
 	description = {
 		random_valid = {
@@ -925,7 +925,7 @@ dharma_pilgrimage_shakta_pithas_host_memory = {
 }
 dharma_pilgrimage_shakta_pithas_guest_memory = {
 	categories = { positive minor religious }
-	icon = "dharma_jain_festival.dds"
+	icon = "dharma_hindu_festival.dds"
 
 	description = {
 		random_valid = {
@@ -955,7 +955,7 @@ dharma_pilgrimage_shakta_pithas_guest_memory = {
 # Abodes of Murugan
 dharma_pilgrimage_abodes_murugan_host_memory = {
 	categories = { positive minor religious }
-	icon = "dharma_jain_festival.dds"
+	icon = "dharma_hindu_festival.dds"
 
 	description = {
 		random_valid = {
@@ -981,7 +981,7 @@ dharma_pilgrimage_abodes_murugan_host_memory = {
 }
 dharma_pilgrimage_abodes_murugan_guest_memory = {
 	categories = { positive minor religious }
-	icon = "dharma_jain_festival.dds"
+	icon = "dharma_hindu_festival.dds"
 
 	description = {
 		random_valid = {
@@ -1011,7 +1011,7 @@ dharma_pilgrimage_abodes_murugan_guest_memory = {
 # Jyortilingas
 dharma_pilgrimage_jyotirlingas_host_memory = {
 	categories = { positive minor religious }
-	icon = "dharma_jain_festival.dds"
+	icon = "dharma_hindu_festival.dds"
 
 	description = {
 		random_valid = {
@@ -1037,7 +1037,7 @@ dharma_pilgrimage_jyotirlingas_host_memory = {
 }
 dharma_pilgrimage_jyotirlingas_guest_memory = {
 	categories = { positive minor religious }
-	icon = "dharma_jain_festival.dds"
+	icon = "dharma_hindu_festival.dds"
 
 	description = {
 		random_valid = {
@@ -1064,7 +1064,61 @@ dharma_pilgrimage_jyotirlingas_guest_memory = {
 	}
 }
 
+# Vedic Animal Sacrifice
+dharma_sacred_grove_visit_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_hindu_festival.dds"
 
+	description = {
+		random_valid = {
+			desc = dharma_sacred_grove_visit_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_sacred_grove_visit_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_sacred_grove_visit_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_sacred_grove_visit_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_hindu_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_sacred_grove_visit_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_sacred_grove_visit_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_sacred_grove_visit_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}
 
 
 

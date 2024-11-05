@@ -1,0 +1,72 @@
+﻿
+buddhist_beards = {
+		usage = both
+	
+		buddhist_beard = {
+			dna_modifiers = {
+				accessory = {
+					mode = add
+					gene = beards
+					template = no_beard
+					value = 0.5
+				}
+			}
+			weight = {
+				base = 0
+				modifier = {
+					add = 1000
+					has_trait = devoted
+					religion = religion:buddhism_religion
+				}
+			}
+		}
+}
+buddhist_hairstyles = {
+	usage = both
+
+	buddhist_hair = {
+		dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = no_hairstyles
+                accessory = bald
+            }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				has_trait = devoted
+				religion = religion:buddhism_religion
+			}
+		}
+	}
+}
+
+dharma_murugan_tonsure = {
+	usage = both
+	priority = 10
+	selection_behavior = max
+	
+	no_hair = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				value = 0
+			}
+		}   
+		outfit_tags = { bald }
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+                exists = this
+			   	has_character_modifier = hajj_halq_modifier
+			}
+		}
+	}
+
+}

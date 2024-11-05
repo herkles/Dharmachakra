@@ -135,7 +135,7 @@
 			}
 			dharma_sacred_grove_visit_animal_type_animals = {
 				is_shown = {
-					faith = { has_doctrine = dharma_doctrine_vedic_sacrifice }
+					faith = { has_doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice }
 				}
 				cost = { 
 					gold = {
@@ -177,7 +177,7 @@
 					limit = {
 						this = scope:host
 					}
-					trigger_event = dharma_sacred_grove_visit.001
+					trigger_event = dharma_tribal.002
 				}					
 			}
 
@@ -304,7 +304,7 @@
 	}
 
 	on_enter_passive_state = {
-		trigger_event = dharma_sacred_grove_visit.001
+		trigger_event = dharma_tribal.002
 	}
 
 	###################

@@ -147,6 +147,7 @@
 
   nalanda_learning_yoga:0 "Studying Yoga"
   nalanda_learning_yoga_desc:0 "This character is studying Yoga"
+
 #######################################
 # Jain Modifiers 
 #######################################
@@ -360,6 +361,9 @@
 
   dharma_gangaur_fasting:0 "Fasting during Gangaur"
   dharma_gangaur_fasting_desc:0 "This character is fasting during the festival of Gangaur."
+
+  dharma_murugan_tonsure_modifier:0 "Murugan Tonsure"
+  dharma_murugan_tonsure_modifier_desc:0 "This character has been tonsured when visiting the Dhandayuthapani Swamy Temple at Palani."
 ###############################################################
 # Hero Stones Modifiers
 ###############################################################

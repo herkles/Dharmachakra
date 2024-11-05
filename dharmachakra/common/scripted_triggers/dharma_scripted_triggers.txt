@@ -8,7 +8,26 @@ is_dharmachakra_loaded = {
 }
 
 dharma_vedic_sacrifice_activity_allowed_trigger = {
-	faith = { 
-		has_doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
+	faith = { has_doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice }
+	NOT = {# Vegetarians do not support this at all.
+		culture = {	has_cultural_tradition = tradition_vegetarianism }
 	}
+}
+dharma_sacred_grove_visit_activity_allowed_trigger = {
+			government_has_flag = government_is_tribal
+			# follows a tribal faith
+			faith = faith:sarnaism
+			faith = faith:koyapunem
+			religion = religion:tani_religion
+			religion = religion:mundhum_religion
+			religion = religion:qiangic_religion
+			religion = religion:bathouism_religion
+			religion = religion:peristani_religion
+			religion = religion:sanamahism_religion
+			religion = religion:khasi_religion
+			# faith supports nature worship
+			faith = { has_doctrine = tenet_sanctity_of_nature }
+			culture = {# Culture supports nature worship
+				has_cultural_tradition = tradition_sacred_groves
+			}
 }

@@ -71,7 +71,7 @@ dharma_consecrate_sacred_grove = {# Consencrate a Sacred Grove
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_sacred_grove.dds"
 	}
-	decision_group_type = tapestry_pagan
+	decision_group_type = hindu_medium
 
 	ai_check_interval = 64
 	desc = dharma_consecrate_sacred_grove_desc
@@ -80,12 +80,10 @@ dharma_consecrate_sacred_grove = {# Consencrate a Sacred Grove
 		is_landed = yes
 		NOT = {
 			any_directly_owned_province = {
-				county = {
-					OR = {
-						has_province_modifier = sacred_grove_level_1
-						has_province_modifier = sacred_grove_level_2
-						has_province_modifier = sacred_grove_level_3
-					}
+				OR = {
+					has_province_modifier = sacred_grove_level_1
+					has_province_modifier = sacred_grove_level_2
+					has_province_modifier = sacred_grove_level_3
 				}
 			}
 		}
@@ -160,7 +158,7 @@ dharma_consecrate_sacred_grove = {# Consencrate a Sacred Grove
 		custom_tooltip = dharma_consecrate_sacred_grove_effect_tooltip_1
 		custom_tooltip = dharma_consecrate_sacred_grove_effect_tooltip_2
 		custom_tooltip = dharma_consecrate_sacred_grove_effect_tooltip_3
-		trigger_event = { id = bryten_decision.0016	}
+		trigger_event = { id = dharma_tribal.001 }
 	}
 
 	ai_potential = {
