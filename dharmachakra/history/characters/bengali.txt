@@ -772,36 +772,67 @@
 		dynasty = 1026500
 		religion = "shaivism"
 		culture = "bengali"
+		trait = brave
 		father = 154002
 		mother = 154003
 		1100.1.1 = {
 			birth = yes
 		}
 		1116.1.1 = {
+			add_spouse = 154003
 		}
 		1179.1.1 = {
+			death = yes
+		}
+	}
+	sena_wife_valla = {
+		name = "Ramadevi" 
+		religion = "vaishnavism" 
+		culture = "bengali"
+		female = yes
+		1000.1.1 = {
+			birth = yes 
+		}
+		1178.1.1 = {
 			death = yes
 		}
 	}
 	154005 = {# Laksmana
 		name = "Laksmana"
 		dynasty = 1026500
-		religion = "shaivism"
+		religion = "vaishnavism" # "show that Lakshmanasena become a devout Vaishnava although his predecessors were Saivas.""
 		culture = "bengali"
 		father = 154004
-		1130.1.1 = {
-			birth = yes
+		mother = sena_wife_valla
+		1119.1.1 = {
+			birth = yes # "Lakshmanasena, son of Vallalasena and Ramadevi, succeeded his father about 1179 A.D. He must have been fairly old at this time, being about sixty according to Tabaqat-i-Nasiri"
 		}
+		1116.1.1 = {
+			add_spouse = sena_wife_laksmana
+		}	
 		1206.1.1 = {
+			death = yes
+		}
+	}
+	sena_wife_laksmana = {
+		name = "Tandradevi" 
+		religion = "vaishnavism" 
+		culture = "bengali"
+		female = yes
+		1139.1.1 = {
+			birth = yes 
+		}
+		1193.1.1 = {
 			death = yes
 		}
 	}
 	154006 = {# Visvarupa
 		name = "Visvarupa"
 		dynasty = 1026500
-		religion = "shaivism"
+		religion = "saura" # "The epithet ‘Saura,’ applied to these kings seems to indicate that they were sun-worshippers."
 		culture = "bengali"
 		father = 154005
+		mother = sena_wife_laksmana
 		1160.1.1 = {
 			birth = yes
 		}
@@ -828,6 +859,7 @@
 		religion = "suryaism" # "The epithet ‘Saura,’ applied to these kings seems to indicate that they were sun-worshippers."
 		culture = "bengali"
 		father = 154005
+		mother = sena_wife_laksmana
 		1165.1.1 = {
 			birth = yes # "Probably Visvarupasena was the elder of the two brothers"
 		}

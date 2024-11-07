@@ -4,7 +4,7 @@
 247521 = {
 	name="Soma"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	913.1.1={
@@ -17,7 +17,7 @@
 247522 = {
 	name="Atma"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247521
@@ -31,7 +31,7 @@
 247523 = {
 	name="Purana"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247522
@@ -45,7 +45,7 @@
 247524 = {
 	name="Indra"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247523
@@ -59,7 +59,7 @@
 247525 = {
 	name="Sonsar"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247524
@@ -73,7 +73,7 @@
 247526 = {
 	name="Sudha"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247525
@@ -87,7 +87,7 @@
 247527 = {
 	name="Hammira"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247526
@@ -101,7 +101,7 @@
 247528 = {
 	name="Bina"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247527
@@ -115,7 +115,7 @@
 247529 = {
 	name="Soma"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247525
@@ -129,7 +129,7 @@
 247530 = {
 	name="Bira"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247529
@@ -143,7 +143,7 @@
 247531 = {
 	name="Rupa"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247530
@@ -157,7 +157,7 @@
 247532 = {
 	name="Lachchhmi"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247531
@@ -171,7 +171,7 @@
 247533 = {
 	name="Dharma"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247532
@@ -185,7 +185,7 @@
 247534 = {
 	name="Karma"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247533
@@ -199,7 +199,7 @@
 247535 = {
 	name="Kalyan"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247534
@@ -213,7 +213,7 @@
 247536 = {
 	name="Nirbhaya"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247535
@@ -227,7 +227,7 @@
 247537 = {
 	name="Nara"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247536
@@ -241,7 +241,7 @@
 247538 = {
 	name="Nanaki"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247537
@@ -255,7 +255,7 @@
 247539 = {
 	name="Rama"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247538
@@ -269,7 +269,7 @@
 247540 = {
 	name="Bhikma"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247539
@@ -283,7 +283,7 @@
 247541 = {
 	name="Megha"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247540
@@ -297,7 +297,7 @@
 247542 = {
 	name="Dhyana"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247541
@@ -311,7 +311,7 @@
 247543 = {
 	name="Parbata"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247542
@@ -325,7 +325,7 @@
 247544 = {
 	name="Thohar"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247543
@@ -339,7 +339,7 @@
 247545 = {
 	name="Kalyan"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247544
@@ -353,7 +353,7 @@
 247546 = {
 	name="Guru-Gyan"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247545
@@ -367,7 +367,7 @@
 247547 = {
 	name="Udhyan"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247546
@@ -381,7 +381,7 @@
 247548 = {
 	name="Atma"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247547
@@ -395,7 +395,7 @@
 247549 = {
 	name="Triloki"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247547
@@ -409,7 +409,7 @@
 247550 = {
 	name="Damara"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247547
@@ -423,7 +423,7 @@
 247551 = {
 	name="Dharma"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247547
@@ -437,7 +437,7 @@
 247552 = {
 	name="Abhaya"
 	dynasty=105843 #Chand
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="garwhali"
 
 	father=247551

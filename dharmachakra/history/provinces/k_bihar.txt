@@ -398,7 +398,9 @@
 	holding = castle_holding
 	
 	# History
-
+	1000.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 1166 - Jaunpur
@@ -411,7 +413,9 @@
 	holding = castle_holding
 	
 	# History
-
+	1100.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 1234 - Deogarh2
@@ -450,7 +454,9 @@
 	holding = tribal_holding
 	
 	# History
-
+	1000.1.1 = {
+		religion = shaivism
+	}
 }
 
 # 1248 - Chutia
@@ -514,7 +520,9 @@
 	religion = vajrayana
 	
 	# History
-	
+	1100.1.1 = {
+		religion = vaishnavism
+	}
 	1193.1.1 = {
 	#	b_kantit = castle	#Continuation of Gahadvala sidebranch
 	}

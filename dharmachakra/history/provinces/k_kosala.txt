@@ -41,7 +41,9 @@
 	religion = vajrayana
 	
 	# History
-
+	1100.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 1169 - Kalpi
@@ -69,7 +71,9 @@
 	religion = mahayana
 	
 	# History
-
+	1000.1.1 = {
+		religion = smartism
+	}
 }
 
 # 1215 - Etawah
@@ -88,7 +92,7 @@
 	
 	# Misc
 	culture = awadhi
-	religion = vajrayana
+	religion = vaishnavism
 
 	# History
 
@@ -124,7 +128,9 @@
 	religion = mahayana
 	
 	# History
-
+	1000.1.1 = {
+		religion = shaivism
+	}
 }
 
 # 1279 - Hardoi
@@ -172,7 +178,9 @@
 	holding = castle_holding
 	
 	# History
-
+	1000.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 1301 - Mahoba
@@ -186,6 +194,9 @@
 	1066.1.1 = {
 		religion = mahayana
 	}
+	1100.1.1 = {
+		religion = vaishnavism
+	}
 
 }
 
@@ -197,7 +208,9 @@
 	religion = vajrayana
 	
 	# History
-
+	1100.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 1356 - Kanyakubja
@@ -253,7 +266,9 @@
 	religion = vajrayana
 	
 	# History
-
+	1000.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 3953 - Faizabad

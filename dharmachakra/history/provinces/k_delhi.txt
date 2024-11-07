@@ -17,7 +17,9 @@
 	religion = vajrayana
 	
 	# History
-
+	1100.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 1173 - Sambhal
@@ -28,7 +30,9 @@
 	religion = vajrayana
 	
 	# History
-
+	1100.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 1352 - Sarasvati
@@ -62,7 +66,9 @@
 	religion = vajrayana
 	
 	# History
-
+	1100.1.1 = {
+		religion = vaishnavism
+	}
 }
 
 # 1359 - Mathura
@@ -210,7 +216,9 @@
 	religion = vajrayana
 	
 	# History
-
+	1000.1.1 = {
+		religion = trika_shaivism
+	}
 }
 
 # 3454 - Samana

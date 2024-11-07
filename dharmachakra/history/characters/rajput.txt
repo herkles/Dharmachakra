@@ -1721,12 +1721,24 @@ paramara_branch_off_spouse = {
 }
 188142 = {
 	name = "Prithviraja" # the III
-	dynasty = 1042081 #Chahamana of Shakambhari
+	dna = "188142_prithviraja_rajputana"
+	dynasty = 1042081 # Chahamana of Shakambhari
+	martial = 8
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 6
+	learning = 7
 	religion = "shaivism"
 	culture = "rajput"
-	father = 188141
-	1149.1.1 = {
-		birth = yes
+	trait = education_martial_3
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = athletic # "he attended physical exercises daily"
+	father = 188141 # Someshwara
+	mother = cedi_1 # Karpuradevi
+	1162.6.11 = {
+		birth = yes # somewhere between 1162 and 1168
 	}
 	1192.1.1 = {
 		death = yes
@@ -1751,7 +1763,7 @@ paramara_branch_off_spouse = {
 	religion = "shaivism"
 	culture = "rajput"
 	father = 188142
-	1170.1.1 = {
+	1182.1.1 = {
 		birth = yes
 	}
 	1215.1.1 = {

@@ -43,7 +43,7 @@
 	
 	# Misc
 	culture = garwhali
-	religion = shaivism
+	religion = trika_shaivism
 	special_building_slot = kedarnath_temple_01
 	special_building = kedarnath_temple_01
 	holding = castle_holding
@@ -58,7 +58,7 @@
 	
 	# Misc
 	culture = kuamoni
-	religion = shaivism
+	religion = trika_shaivism
 	special_building_slot = badrinath_temple_01
 	special_building = badrinath_temple_01
 	holding = castle_holding
@@ -73,7 +73,7 @@
 	
 	# Misc
 	culture = kuamoni
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = castle_holding
 	
@@ -108,7 +108,7 @@
 	
 	# Misc
 	culture = nepali
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = castle_holding
 	
@@ -156,7 +156,7 @@
 	
 	# Misc
 	culture = nepali
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = castle_holding
 	
@@ -192,7 +192,7 @@
 	
 	# Misc
 	culture = nepali
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = city_holding
 	
@@ -216,7 +216,7 @@
 	
 	# Misc
 	culture = nepali
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = castle_holding
 	
@@ -264,7 +264,7 @@
 	
 	# Misc
 	culture = nepali
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = castle_holding
 	
@@ -301,7 +301,7 @@
 	
 	# Misc
 	culture = nepali
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = castle_holding
 	
@@ -361,7 +361,7 @@
 	
 	# Misc
 	culture = newar #Maithili-Newars
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = castle_holding
 	
@@ -373,7 +373,7 @@
 	
 	# Misc
 	culture = newar #Newar
-	religion = shaivism
+	religion = trika_shaivism
 	
 	holding = castle_holding
 	

@@ -4,7 +4,7 @@
 247446 = {
 	name="Bhaskaradeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	990.1.1={
@@ -17,7 +17,7 @@
 247447 = {
 	name="Yisadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247446
@@ -31,7 +31,7 @@
 247448 = {
 	name="Baladeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247446
@@ -45,7 +45,7 @@
 247449 = {
 	name="Pradymnakamadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247448
@@ -59,7 +59,7 @@
 247450 = {
 	name="Nagarjunadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247449
@@ -73,7 +73,7 @@
 247451 = {
 	name="Sankaradeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247450
@@ -87,7 +87,7 @@
 247452 = {
 	name="Shivadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247451
@@ -101,7 +101,7 @@
 247453 = {
 	name="Indradeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247452
@@ -115,7 +115,7 @@
 247454 = {
 	name="Manadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247453
@@ -129,7 +129,7 @@
 247455 = {
 	name="Narendradeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247454
@@ -143,7 +143,7 @@
 247456 = {
 	name="Anandadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247455
@@ -157,7 +157,7 @@
 247457 = {
 	name="Mahendradeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247452
@@ -171,7 +171,7 @@
 247458 = {
 	name="Rudradeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247457
@@ -185,7 +185,7 @@
 247720 = {
 	name="Amritadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247458
@@ -199,7 +199,7 @@
 247459 = {
 	name="Somesvaradeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247457
@@ -213,7 +213,7 @@
 247460 = {
 	name="Gunakamadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247459
@@ -227,7 +227,7 @@
 247461 = {
 	name="Laksmikadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247460
@@ -241,7 +241,7 @@
 247462 = {
 	name="Vijayakamadeva"
 	dynasty=105840 #Nuwakot Thakuri
-	religion="shaivism"
+	religion="trika_shaivism"
 	culture="newar"
 	
 	father=247460
