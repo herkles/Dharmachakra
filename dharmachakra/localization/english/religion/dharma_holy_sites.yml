@@ -18,8 +18,7 @@
 #Holy sites: Mundhum
  holy_site_darjeeling_name:0 "Darjeeling"
  holy_site_darjeeling_effect_name:0 "From [holy_site|E] #weak ($holy_site_darjeeling_name$)#!"
- holy_site_paro_name:0 "Paro"
- holy_site_paro_effect_name:0 "From [holy_site|E] #weak ($holy_site_paro_name$)#!"
+
  holy_site_khotang_name:0 "Khotang"
  holy_site_khotang_effect_name:0 "From [holy_site|E] #weak ($holy_site_khotang_name$)#!"
  

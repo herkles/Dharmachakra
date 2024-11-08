@@ -500,6 +500,8 @@
  holy_site_bost_effect_name:0 "From [holy_site|E] #weak ($holy_site_bost_name$)#!"
 
  #Holy Sites: Bon
+ holy_site_paro_name:0 "Paro"
+ holy_site_paro_effect_name:0 "From [holy_site|E] #weak ($holy_site_paro_name$)#!"
  holy_site_khotan_name:1 "Khotan"
  holy_site_khotan_effect_name:1 "From [holy_site|E] #weak ($holy_site_khotan_name$)#!"
  holy_site_balkh_name:1 "Balkh"

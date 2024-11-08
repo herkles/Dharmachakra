@@ -829,7 +829,7 @@
 	154006 = {# Visvarupa
 		name = "Visvarupa"
 		dynasty = 1026500
-		religion = "saura" # "The epithet ‘Saura,’ applied to these kings seems to indicate that they were sun-worshippers."
+		religion = "suryaism" # "The epithet ‘Saura,’ applied to these kings seems to indicate that they were sun-worshippers."
 		culture = "bengali"
 		father = 154005
 		mother = sena_wife_laksmana

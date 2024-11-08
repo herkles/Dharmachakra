@@ -23,7 +23,7 @@ bm_867_sea_india = {# Tripartite Struggle
 		history_id = 188008
 		position = { 588 293 }
 
-		animation = personality_rational
+		animation = personality_bold
 	}
 	character = {# Amoghavarsha Rashtrakuta
 		name = "bookmark_sea_india_rashtrakuta"
@@ -38,8 +38,7 @@ bm_867_sea_india = {# Tripartite Struggle
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 175030
 		position = { 558 743 }
-
-		animation = personality_rational
+		animation = personality_compassionate
 	}
 	character = {# Narayanapala Pala
 		name = "bookmark_sea_india_pala"
@@ -54,7 +53,6 @@ bm_867_sea_india = {# Tripartite Struggle
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 190009
 		position = { 1258 593 }
-
 		animation = personality_rational
 	}
 }
@@ -80,7 +78,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 		history_id = 166681
 		position = { 288 603 }
 
-		animation = personality_rational
+		animation = personality_bold
 	}
 	character = {# Bokut Bilga of Qocho
 		name = "bookmark_sea_tibet_qocho"
@@ -96,7 +94,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 		history_id = 302972
 		position = { 458 233 }
 
-		animation = personality_rational
+		animation = personality_zealous
 	}
 	character = {# Zhang Huaishen of Guiyi
 		name = "bookmark_sea_tibet_guiyi"
@@ -112,7 +110,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 		history_id = 244004
 		position = { 1200 203 }
 
-		animation = personality_rational
+		animation = personality_honorable
 	}
 	character = {# Mande Osung of Guge
 		name = "bookmark_sea_tibet_guge"
@@ -127,8 +125,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 247131
 		position = { 388 833 }
-
-		animation = personality_rational
+		animation = personality_bold
 	}	
 	character = {# Tride Yumten of U
 		name = "bookmark_sea_tibet_u"
@@ -171,9 +168,9 @@ bm_dharma_1178_india = {# Ghurid Invansion
 		religion = maturidi
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 144141
-		position = { 288 603 }
+		position = { 458 233 }
 
-		animation = personality_rational
+		animation = personality_bold
 	}
 	character = {# Khusraw of the Ghaznavids
 		name = "bookmark_dharma_1178_khusraw_ghaznavid"
@@ -187,7 +184,7 @@ bm_dharma_1178_india = {# Ghurid Invansion
 		religion = maturidi
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 144139
-		position = { 458 233 }
+		position = { 858 150 }
 
 		animation = personality_rational
 	}
@@ -203,9 +200,8 @@ bm_dharma_1178_india = {# Ghurid Invansion
 		religion = shaivism
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 74465
-		position = { 1200 203 }
-
-		animation = personality_rational
+		position = { 1100 650 }
+		animation = personality_honorable
 	}
 	character = {# Kulothunga of the Chola
 		name = "bookmark_dharma_1178_kulothunga"
@@ -219,9 +215,8 @@ bm_dharma_1178_india = {# Ghurid Invansion
 		religion = shaivism
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 189121
-		position = { 388 833 }
-
-		animation = personality_rational
+		position = { 1250 800 }
+		animation = personality_bold
 	}	
 	character = {# Prithviraj of Chauhan
 		name = "bookmark_dharma_1178_privthviraj"
@@ -235,9 +230,9 @@ bm_dharma_1178_india = {# Ghurid Invansion
 		religion = shaivism
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 188142
-		position = { 1200 700 }
+		position = { 950 450 }
 
-		animation = personality_rational
+		animation = personality_bold
 	}
 	character = {# Jayachandra of Gahadvala
 		name = "bookmark_dharma_1178_jayachandra"
@@ -251,8 +246,7 @@ bm_dharma_1178_india = {# Ghurid Invansion
 		religion = vaishnavism
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 190220
-		position = { 1000 700 }
-
-		animation = personality_rational
+		position = { 1370 303 }
+		animation = personality_content
 	}
 }

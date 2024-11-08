@@ -1251,6 +1251,20 @@ cedi_daughter_1 = {# Yauvanasri
 		death = yes
 	}
 }
+cedi_1 = {
+	name = "Karpuradevi"
+	female = yes
+	dynasty = 1044019 #Cedi
+	religion = "shaivism"
+	culture = "malvi"
+	father = 190211 # "the daughter of one Achala who is described in the Pṛthvīrāja Vijaya as the lord of Tripuri and identified with the Kalachuri ruler Gayakarna"
+	1139.1.1 = {
+		birth = yes
+	}
+	1197.1.1 = {
+		death = yes
+	}
+}
 190212 = {# Narasimha
 	name = "Narasimha"
 	dynasty = 1044019 #Cedi

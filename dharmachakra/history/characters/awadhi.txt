@@ -576,6 +576,21 @@
 		death = yes
 	}
 }
+dharma_samyukta = {# Sanyukta
+	name = "Samyukta"	#Fictional
+	female = yes
+	religion = "vaishnavism"
+	culture = "awadhi"
+	father = 190220
+	trait = beauty_good_3 # a bewitching beauty
+	trait = stubborn # Known to be rather Headstrong
+	1172.1.1 = {
+		birth = yes # somewhere between 1162 and 1168
+	}
+	1194.1.1 = {
+		death = yes
+	}
+}
 191056 = {# Vijay Chand
 	name = "Vijay_Chand"
 	dynasty = 1044030 #Gahadvala
