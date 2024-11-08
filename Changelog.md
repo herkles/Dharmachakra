@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.6.0 "Rebirth" (Released 09/09/2024)
+## Latest Version: 1.6.0 "Rebirth" (Released 11/08/2024)
 
 After two years Dharmachakra has been revivied. The mod has been updated to the latest update. a lot of the stuff was converted to acitivies instead of decisions. This also meant revamping the holy sites as I no longer needed to have so many for the various pilgrimages. History for south asia has been updated to reflect the decline of Buddhism and in 1178 the decline of Saura. and as 1178 is after Basava established Lingayatism, that faith exists in 1178.I have also added a new bookmark for 1178. 
 

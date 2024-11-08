@@ -1,22 +1,21 @@
-Dharmachakra is as the title indicates a mod dedicated to India and the neighboring Regions like Tibet and Burma, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and the religions that have been influenced by them. There is a new religious map, tweaked tenets and doctrines, bald Buddhist monks and nuns, and more.
+Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
-[h2]Features​[/h2]
+[h2]Overview of features[/h2]
 These are some of the features of the mod.
 [list]
-    [*] New religious map for India and Burma in 867 and 1066​
-    [*] New Hindu Sects of Trika Shaivism, Suyraism, Ganaptaya, Kaumaram, and Shrautism​
-    [*] The folk religions of Bathousim and Sanamahism
-    [*] revamped cultural map
-    [*] Revamped tenet and doctrines for dharmic religions
-    [*] Hindus have polygamy
-    [*] more special buildings in the Indian Subcontient
+    [*] Improvements for the various Dharmic faiths of south asia
+    [*] Improvements for the various cultures of south asia
+    [*] New Hindu Sects of Trika Shaivism, Suyraism, Ganaptaya, Kaumaram, and Shrautism​; as well as Lingayatism in 1178
+    [*] new activities for the various pilgrimages Hinduism
+    [*] activities for various festivals
+    [*] revised history of provinces and characters
+    [*] A bunch of special buildings for the various temples and other holy sites throughout south asia
+    [*] 2 867 bookmarks, one for tibet and one for india
+    [*] 1 1178 bookmark for South Asia
+    [*] various new events for south asia
+    [*] various new decisions
     [*] Bald Buddhist Monks and Nuns​
     [*] Buddhist and Jain temple holders and court chaplains are monks​
-    [*] Dharmic Pacifism allows you to meditate
-    [*] Advaita Vedanta as a faith has been removed(those characters are now Smartist)
-    [*] Bon, Mundhumism, Qiangic, and Donyi-Poloism are now within the Eastern Religious Family
-    [*] Indians start with primogenture
-    [*] Bhakti is now part of Hinduism
 [/list]
 
 [h2]Tenet changes[/h2]
@@ -28,7 +27,7 @@ These are some of the features of the mod.
     [*]Sauraism: Sun Worship, Esotericism, and Inner Journey
 [/list]
 
-I welcome any and all feedback - I am still getting the hang of CK3 modding atm. So please let me know if you encounter any bugs, find things imbalanced, if you have any suggestions, or anything else about the mod. I hope to add more decisions, events, and mechanics with future updates to the mod.
+I welcome any and all feedback. So please let me know if you encounter any bugs, find things imbalanced, if you have any suggestions, or anything else about the mod. I hope to add more decisions, events, and mechanics with future updates to the mod.
 
 Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
 
@@ -36,7 +35,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 [h2]Credits and thanks:[/h2]
 
 [list]
-    [*]Rajas of Indochina
+    [*]Rajas of Asia
     [*]Cybrxkhan
     [*]Community Title Project
 [/list]
