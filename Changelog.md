@@ -1,10 +1,8 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.5.0 "Surya" (Released 09/09/2022)
+## Latest Version: 1.6.0 "Rebirth" (Released 09/09/2024)
 
-Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
-
-Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.
+After two years Dharmachakra has been revivied. The mod has been updated to the latest update. a lot of the stuff was converted to acitivies instead of decisions. This also meant revamping the holy sites as I no longer needed to have so many for the various pilgrimages. History for south asia has been updated to reflect the decline of Buddhism and in 1178 the decline of Saura. and as 1178 is after Basava established Lingayatism, that faith exists in 1178.I have also added a new bookmark for 1178. 
 
 ## Changelog
 
@@ -15,7 +13,11 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - split up Nepali culture into Garwhali, Kaumoni, Khasa, and Newar
 - added Lingyatism in 1178
 - Basava and Akka Mahadevi are both Lingyats
+- Sacred groves and sacred grove visits
+- updated province history for 1066 and 1178
+- added an 1178 bookmark
 - various bug fixes
+
 
 ## Manual Installation Steps
 
@@ -27,3 +29,6 @@ DO NOT manually download the master branch unless you know what you're doing as 
 4. Enjoy and play!
 
 NOTE: If you are re-installing a mod, delete the old version of the mod first before copy and pasting the new one! While it's not always necessary, it's a good habit to do to prevent any potential issues.
+
+## Usage Notes
+Feel free to use my work in your mods - all I ask is that I am credited and (if possible) to give me a heads up.

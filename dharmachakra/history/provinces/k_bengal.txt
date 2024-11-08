@@ -571,7 +571,9 @@
 	holding = castle_holding
 	
 	# History
-
+	1100.1.1 = {
+		religion = kalikula_shaktism
+	}
 }
 
 # 1235 - Tamralipti
@@ -610,7 +612,9 @@
 	holding = castle_holding
 	
 	# History
-
+	1100.1.1 = {
+		religion = krishnaism
+	}
 }
 
 # 1239 - Vijayapura
@@ -649,7 +653,9 @@
 	holding = castle_holding
 	
 	# History
-
+	1100.1.1 = {
+		religion = kalikula_shaktism
+	}
 }
 
 # 1243 - Karnasubarna
@@ -662,7 +668,9 @@
 	holding = castle_holding
 	
 	# History
-
+	1100.1.1 = {
+		religion = kalikula_shaktism
+	}
 }
 
 # 1318 - Devaparvata
@@ -708,12 +716,17 @@
 1324 = {	# 1324 - Suvarnagram
 	
 	# Misc
-	culture = garo
-	religion = bathouism
+	culture = bengali
+	religion = vajrayana
 	holding = tribal_holding
 	
 	# History
-
+	1066.1.1 = {
+		holding = castle_holding
+	}
+	1066.1.1 = {
+		religion = kalikula_shaktism
+	}
 }
 
 # 1325 - Madhupur
