@@ -1,22 +1,28 @@
 ﻿#######################################
 # General Court Positions
 #######################################
-master_of_elephants_court_position = {# Master of the Royal Elephants
-	skill = martial
+master_of_elephants_court_position = {
+	sort_order = 280
 	max_available_positions = 1
-	category = court_position_category_royal
-	minimum_rank = kingdom # Should only be available for kings and emperors
+	minimum_rank = duchy # Should only be available for dukes or higher tiers
+	skill = martial
+
+	court_position_asset = {
+		animation = throne_room_two_handed_passive_1
+		background = "gfx/interface/illustrations/event_scenes/bp1_courtyard_indian.dds"
+	}
 
 	opinion = {
 		value = ceremonial_court_position_opinion
 	}
-	
+
 	# How high the aptitude has to be to reach the 5 different modifier levels
 	aptitude_level_breakpoints = { 20 40 60 80 }
 
 	# How good is this character in this position? root scope is the holder of the court position
 	aptitude = {
 		value = 25
+		add = court_position_aptitude_boon_voyager_trait
 		add = {
 			value = martial
 			multiply = 2.5
@@ -31,87 +37,320 @@ master_of_elephants_court_position = {# Master of the Royal Elephants
 		}
 		if = {
 			limit = {
-				has_trait = overseer
+				has_trait = calm
 			}
 			add = {
-				value = 10
+				value = 15
+				desc = court_position_calm_trait
+			}
+		}
+		if = {
+			limit = { has_trait = overseer }
+			add = {
+				value = 15
 				desc = court_position_overseer_trait
 			}
 		}
+		if = {
+			limit = { has_trait = gallant }
+			add = {
+				value = 15
+				desc = court_position_gallant_trait
+			}
+		}
+		# Estate - Owner bonus from stables
+		if = {
+			limit = {
+				liege ?= {
+					domicile ?= { has_domicile_parameter = estate_increase_master_of_horse_aptitude }
+				}
+			}
+			add = {
+				value = estate_increase_master_of_horse_aptitude_value
+				desc = estate_increase_master_of_horse_aptitude_desc
+			}
+		}
+		add = court_position_aptitude_traveling_friends_value
+		add = court_position_aptitude_eunuch_tradition_value
 		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_high_penalty_value
+		# Bonus from court.8311
+		if = {
+			limit = { var:bonus_aptitude_role ?= flag:master_of_horse }
+			add = {
+				value = cp_bonus_aptitude_value
+				desc = cp_bonus_aptitude
+			}
+		}
+		# Seneschal
+		if = {
+			limit = {
+				liege.court_position:seneschal_court_position ?= {
+					has_variable = performing_improve_court
+				}
+			}
+			add = {
+				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
+				desc = seneschal_improve_court_aptitude_desc
+			}
+		}
+	}
+
+	is_shown = {
+		culture = {	has_innovation = innovation_elephantry }
+		is_landed_or_landless_administrative = yes
+		trigger_if = {
+			limit = {
+				is_ai = yes
+				highest_held_title_tier <= tier_county
+			}
+			always = no
+		}
 	}
 
 	# Is this an available position for this court? (root is court owner)
-	is_shown = {
-		capital_province = {
-			OR = {
-				geographical_region = world_india
-				geographical_region = world_burma
-			}
-		}	
+	valid_position = {
+		is_landed_or_landless_administrative = yes
+		highest_held_title_tier >= tier_duchy
 	}
 
-	valid_position = {
-		highest_held_title_tier >= tier_kingdom
+	is_shown_character = {
+		scope:employee = {
+			culture = {	has_innovation = innovation_elephantry }
+			is_imprisoned = no
+		}
 	}
 
 	valid_character = {
 		scope:employee = {
 			is_imprisoned = no
-			is_vassal_of = scope:liege
+			culture = {	has_innovation = innovation_elephantry }
 		}
 	}
 
-	revoke_cost = {
-		prestige = major_court_position_prestige_revoke_cost
+	revoke_cost = { # root is the liege, no other scopes are passed here!
+		prestige =  {
+			value = major_court_position_prestige_revoke_cost
+			# Set to 0 via obligation hook
+			if = {
+				limit = {
+					court_position_obligation_hook_salary_trigger = {
+						POS = master_of_horse
+						LIEGE = root
+					}
+				}
+				multiply = 0
+			}
+			# Avoid AI prestige issues
+			if = {
+				limit = {
+					exists = this
+					is_ai = yes
+				}
+				multiply = 0
+			}
+			# Special case for events
+			if = {
+				limit = {
+					exists = this
+					has_character_flag = free_revoke_cost
+				}
+				multiply = 0
+			}
+			#Lowering for LAAMPS, to match Camp Officer revoke cost
+			if = {
+				limit = { 
+					exists = this
+					government_has_flag = government_is_landless_adventurer
+				}
+				value = minor_court_position_prestige_revoke_cost
+			}
+		}
 	}
 
 	salary = {
 		round = no
-		gold = medium_court_position_salary
+		gold = {
+			value = medium_court_position_salary # Update X_salary_tooltip if script_value is changed
+			# Set to 0 with Dynasty Perk Inner Circle
+			if = {
+				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_horse } }
+				multiply = {
+					value = 0
+					desc = inner_circle_salary_mod
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Halved with obligation hook
+			else_if = {
+				limit = {
+					court_position_obligation_hook_salary_trigger = {
+						POS = master_of_horse
+						LIEGE = scope:liege
+					}
+				}
+				multiply = {
+					value = 0.5
+					desc = obligation_hook_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Halved salary
+			if = {
+				limit = {
+					court_position_halved_salary_trigger = { POS = master_of_horse }
+				}
+				multiply = {
+					value = 0.5
+					desc = court_position_halved_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Increased salary
+			if = {
+				limit = {
+					court_position_increased_salary_trigger = { POS = master_of_horse }
+				}
+				multiply = {
+					value = 1.5
+					desc = court_position_increased_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			if = {
+				limit = {
+					scope:liege = {
+						employs_court_position = master_of_horse_court_position
+						any_court_position_holder = {
+					        type = master_of_horse_court_position
+					        has_character_flag = free_master_of_horse
+						}
+					}
+				}
+				multiply = {
+					value = 0
+					desc = free_court_position
+				}
+			}
+			#You're working with LAAMPS now
+			if = {
+				limit = { 
+					scope:liege ?= { government_has_flag = government_is_landless_adventurer }
+				}
+				multiply = {
+					value = 0
+					desc = court_position_laamps_free
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+		}
+		prestige = {
+			value = medium_court_position_prestige_salary # Update X_salary_tooltip if script_value is changed
+			# Set to 0 with Dynasty Perk Inner Circle
+			if = {
+				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_horse } }
+				multiply = {
+					value = 0
+					desc = inner_circle_salary_mod
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Halved via obligation hook
+			else_if = {
+				limit = {
+					court_position_obligation_hook_salary_trigger = {
+						POS = master_of_horse
+						LIEGE = scope:liege
+					}
+				}
+				multiply = {
+					value = 0.5
+					desc = obligation_hook_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Halved salary
+			if = {
+				limit = {
+					court_position_halved_salary_trigger = { POS = master_of_horse }
+				}
+				multiply = {
+					value = 0.5
+					desc = court_position_halved_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Increased salary
+			if = {
+				limit = {
+					court_position_increased_salary_trigger = { POS = master_of_horse }
+				}
+				multiply = {
+					value = 1.5
+					desc = court_position_increased_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			#You're working with LAAMPS now
+			if = {
+				limit = { 
+					scope:liege ?= { government_has_flag = government_is_landless_adventurer }
+				}
+				multiply = {
+					value = 0
+					desc = court_position_laamps_free
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+		}
 	}
 
-	# These modifiers are employed based on what level the aptitude reaches (levels are defined as breakpoints) 
-	
+	# These modifiers are employed based on what level the aptitude reaches (levels are defined as breakpoints)
 	scaling_employer_modifiers = {
 		terrible = {
-			monthly_court_grandeur_change_mult = 0.05
-			elephant_cavalry_damage_mult = 0.01
+			knight_effectiveness_mult = 0.01
+			character_travel_speed_mult = 0.01
 		}
 		poor = {
-			monthly_court_grandeur_change_mult = 0.5
-			elephant_cavalry_damage_mult = 0.02
+			knight_effectiveness_mult = 0.02
+			character_travel_speed_mult = 0.02
+			knight_limit = 1
 		}
 		average = {
-			monthly_court_grandeur_change_mult = 0.10
-			elephant_cavalry_damage_mult = 0.03
-			elephant_cavalry_toughness_mult = 0.02
+			knight_effectiveness_mult = 0.03
+			character_travel_speed_mult = 0.03
+			knight_limit = 2
 		}
 		good = {
-			monthly_court_grandeur_change_mult = 0.15
-			elephant_cavalry_damage_mult = 0.04
-			elephant_cavalry_toughness_mult = 0.03
+			knight_effectiveness_mult = 0.05
+			character_travel_speed_mult = 0.05
+			knight_limit = 2
 		}
 		excellent = {
-			monthly_court_grandeur_change_mult = 0.20
-			elephant_cavalry_damage_mult = 0.05
-			elephant_cavalry_toughness_mult = 0.04
+			knight_effectiveness_mult = 0.08
+			character_travel_speed_mult = 0.08
+			knight_limit = 3
 		}
 	}
 
 	modifier = {
-		monthly_prestige = minor_court_position_prestige_salary
+		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		knight_effectiveness_mult = 0.15
 	}
 
 	on_court_position_received = {
-		basic_gained_court_position_effect = yes
+		master_of_horse_title_accepted_effect = yes
 	}
-	on_court_position_revoked = { 
-		basic_revoked_court_position_effect = yes
+	on_court_position_revoked = {
+		master_of_horse_title_revoked_effect = yes
 	}
 	on_court_position_invalidated = {
-		basic_invalidated_court_position_effect = yes
+		master_of_horse_title_invalidated_effect = yes
+	}
+	on_court_position_vacated = {
+		court_position_vacated_event_effect = {
+			COURT_POSITION_TYPE = master_of_horse_court_position
+		}
 	}
 
 	# Scripted value to determine whether an AI will hire/fire a position or not. Hires over 0, fires under -50. Look in _court_positions.info for more extensive documentation!
@@ -120,42 +359,53 @@ master_of_elephants_court_position = {# Master of the Royal Elephants
 		add = scope:base_value
 		add = court_position_candidate_score_base_value
 		add = court_position_candidate_aptitude_value
+		if = {
+			limit = {
+				scope:liege = {
+					ai_has_warlike_personality = yes
+				}
+			}
+			add = 200
+		}
+		if = { # To stop petitioned positions immediately being fired by the AI
+			limit = {
+				court_position_petition_ai_weight_trigger = { ROLE = master_of_horse }
+			}
+			add = 1000
+		}
 		add = court_position_debt_considerations_value
 	}
 }
-court_guru_court_position = {# Court Guru - For all Dharmic Faiths
-	skill = learning
+
+court_guru_court_position = {
+	sort_order = 233
 	max_available_positions = 1
-	category = court_position_category_special
 	minimum_rank = kingdom # Should only be available for kings and emperors
+	skill = learning
+
+	court_position_asset = {
+		animation = personality_zealous
+		background = "gfx/interface/illustrations/event_scenes/fp4_study_physician_indian.dds"
+	}
 
 	opinion = {
 		value = ceremonial_court_position_opinion
 	}
-	
+
 	# How high the aptitude has to be to reach the 5 different modifier levels
 	aptitude_level_breakpoints = { 20 40 60 80 }
-	
+
 	# How good is this character in this position? root scope is the holder of the court position
 	aptitude = {
 		value = 1
+		add = court_position_aptitude_boon_voyager_trait
 		add = {
 			value = learning
 			multiply = 2.5
 			max = 50
 			desc = court_position_skill_learning
 		}
-		# Dharmic virtues - Good Gurus should be virteous
-		if = {# Honest is Good
-			limit = {
-				has_trait = honest
-			}
-			add = {
-				value = 10
-				desc = court_position_honest_trait
-			}
-		}
-		if = {# Generous is Good
+		if = {
 			limit = {
 				has_trait = generous
 			}
@@ -164,16 +414,16 @@ court_guru_court_position = {# Court Guru - For all Dharmic Faiths
 				desc = court_position_generous_trait
 			}
 		}
-		if = {# calm is Good
+		if = {
 			limit = {
-				has_trait = calm
+				has_trait = just
 			}
 			add = {
 				value = 15
-				desc = court_position_calm_trait
+				desc = court_position_just_trait
 			}
 		}
-		if = {# Temperate is a Hindu virtue
+		if = {
 			limit = {
 				has_trait = temperate
 			}
@@ -182,45 +432,7 @@ court_guru_court_position = {# Court Guru - For all Dharmic Faiths
 				desc = court_position_temperate_trait
 			}
 		}
-		# Dharmic sins - Good Gurus should not be sinful
-		if = {# Decitful is bad
-			limit = {
-				has_trait = deceitful
-			}
-			add = {
-				value = -10
-				desc = court_position_deceitful_trait
-			}
-		}
-		if = {# Impatiant is bad
-			limit = {
-				has_trait = impatient
-			}
-			add = {
-				value = -10
-				desc = court_position_impatient_trait
-			}
-		}
-		if = {# Wrathful is bad
-			limit = {
-				has_trait = wrathful
-			}
-			add = {
-				value = -10
-				desc = court_position_wrathful_trait
-			}
-		}
-		if = {# Greedy is a sin
-			limit = {
-				has_trait = greedy
-			}
-			add = {
-				value = -10
-				desc = court_position_greedy_trait
-			}
-		}
-		# Scholarly Traits - Good Archarya should be Scholars
-		if = {# Scholars are good
+		if = {
 			limit = {
 				has_trait = scholar
 			}
@@ -229,81 +441,246 @@ court_guru_court_position = {# Court Guru - For all Dharmic Faiths
 				desc = court_position_scholar_trait
 			}
 		}
-		if = {# Theologians are good
+		if = {
 			limit = {
-				has_trait = theologian
+				has_trait = greedy
 			}
 			add = {
-				value = 15
-				desc = court_position_theologian_trait
+				value = -10
+				desc = court_position_greedy_trait
 			}
 		}
-		# General other aptitude values
+		if = {
+			limit = {
+				has_trait = arbitrary
+			}
+			add = {
+				value = -10
+				desc = court_position_arbitrary_trait
+			}
+		}
+		add = court_position_aptitude_traveling_friends_value
+		add = court_position_aptitude_eunuch_tradition_value
 		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_low_penalty_value
+		# Seneschal
+		if = {
+			limit = {
+				liege.court_position:seneschal_court_position ?= {
+					has_variable = performing_improve_court
+				}
+			}
+			add = {
+				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
+				desc = seneschal_improve_court_aptitude_desc
+			}
+		}
 	}
-	
+
 	# Is this an available position for this court? (root is court owner)
 	is_shown = {
-		faith.religion = { is_in_family = rf_eastern }
+		is_landed_or_landless_administrative = yes
+		trigger_if = {
+			limit = {
+				is_ai = yes
+				highest_held_title_tier <= tier_county
+			}
+			always = no
+		}
 	}
-	
+
 	valid_position = {
-		faith.religion = { is_in_family = rf_eastern }
+		is_landed_or_landless_administrative = yes
+		OR = {
+			has_religion = religion:hinduism_religion
+			has_religion = religion:jainism_religion
+			has_religion = religion:buddhism_religion
+		}
 		highest_held_title_tier >= tier_kingdom
+	}
+
+	is_shown_character = {
+		scope:employee = {
+			is_imprisoned = no
+			OR = {
+				has_religion = religion:hinduism_religion
+				has_religion = religion:jainism_religion
+				has_religion = religion:buddhism_religion
+			}
+		}
 	}
 
 	valid_character = {
 		scope:employee = {
-			is_imprisoned = no
-			faith.religion = { is_in_family = rf_eastern }
-			trigger_if = {
+			chief_guru_validity_trigger = { EMPLOYER = scope:liege }
+		}
+	}
+
+	revoke_cost = { # root is the liege, no other scopes are passed here!
+		prestige =  {
+			value = major_court_position_prestige_revoke_cost
+			# Set to 0 via obligation hook
+			if = {
 				limit = {
-					OR = {
-						has_religion = religion:buddhism_religion
-						has_religion = religion:jainism_religion
+					court_position_obligation_hook_salary_trigger = {
+						POS = court_guru
+						LIEGE = root
 					}
 				}
-				has_trait = devoted
+				multiply = 0
 			}
-			is_clergy = yes
-			NOT = {# They have their own tantric master
-				faith = faith:vajrayana
-				faith = faith:lamaism
-			}
-			has_trait = education_learning
-			trigger_if = {
+			# Avoid AI prestige issues
+			if = {
 				limit = {
-					scope:liege.faith = {
-						has_doctrine = doctrine_gender_male_dominated
-					}
+					exists = this
+					is_ai = yes
 				}
-				is_male = yes
+				multiply = 0
 			}
-			trigger_if = {
+			# Special case for events
+			if = {
 				limit = {
-					scope:liege.faith = {
-						has_doctrine = doctrine_gender_female_dominated
-					}
+					exists = this
+					has_character_flag = free_revoke_cost
 				}
-				is_female = yes
+				multiply = 0
+			}
+			#Lowering for LAAMPS, to match Camp Officer revoke cost
+			if = {
+				limit = { 
+					exists = this
+					government_has_flag = government_is_landless_adventurer
+				}
+				value = minor_court_position_prestige_revoke_cost
 			}
 		}
 	}
-	
-	revoke_cost = {
-		prestige = major_court_position_prestige_revoke_cost
-	}
-	
+
 	salary = {
 		round = no
-		gold = minor_court_position_salary
+		gold = {
+			value = minor_court_position_salary # Update X_salary_tooltip if script_value is changed
+			# Set to 0 with Dynasty Perk Inner Circle
+			if = {
+				limit = { court_position_inner_circle_salary_trigger = { POS = court_guru } }
+				multiply = {
+					value = 0
+					desc = inner_circle_salary_mod
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Halved with obligation hook
+			else_if = {
+				limit = {
+					court_position_obligation_hook_salary_trigger = {
+						POS = court_guru
+						LIEGE = scope:liege
+					}
+				}
+				multiply = {
+					value = 0.5
+					desc = obligation_hook_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Halved salary
+			if = {
+				limit = {
+					court_position_halved_salary_trigger = { POS = court_guru }
+				}
+				multiply = {
+					value = 0.5
+					desc = court_position_halved_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Increased salary
+			if = {
+				limit = {
+					court_position_increased_salary_trigger = { POS = court_guru }
+				}
+				multiply = {
+					value = 1.5
+					desc = court_position_increased_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			#You're working with LAAMPS now
+			if = {
+				limit = { 
+					scope:liege ?= { government_has_flag = government_is_landless_adventurer }
+				}
+				multiply = {
+					value = 0
+					desc = court_position_laamps_free
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+		}
+		prestige = {
+			value = minor_court_position_prestige_salary # Update X_salary_tooltip if script_value is changed
+			# Set to 0 with Dynasty Perk Inner Circle
+			if = {
+				limit = { court_position_inner_circle_salary_trigger = { POS = court_guru } }
+				multiply = {
+					value = 0
+					desc = inner_circle_salary_mod
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Halved via obligation hook
+			else_if = {
+				limit = {
+					court_position_obligation_hook_salary_trigger = {
+						POS = court_guru
+						LIEGE = scope:liege
+					}
+				}
+				multiply = {
+					value = 0.5
+					desc = obligation_hook_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Halved salary
+			if = {
+				limit = {
+					court_position_halved_salary_trigger = { POS = court_guru }
+				}
+				multiply = {
+					value = 0.5
+					desc = court_position_halved_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			# Increased salary
+			if = {
+				limit = {
+					court_position_increased_salary_trigger = { POS = court_guru }
+				}
+				multiply = {
+					value = 1.5
+					desc = court_position_increased_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			#You're working with LAAMPS now
+			if = {
+				limit = { 
+					scope:liege ?= { government_has_flag = government_is_landless_adventurer }
+				}
+				multiply = {
+					value = 0
+					desc = court_position_laamps_free
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+		}
 	}
-	
+
 	base_employer_modifier = {
-		learning_per_piety_level = 1
 	}
-	
+
 	scaling_employer_modifiers = {
 		terrible = {
 			monthly_piety_gain_mult = 0.02
@@ -324,12 +701,13 @@ court_guru_court_position = {# Court Guru - For all Dharmic Faiths
 			stewardship = 3
 		}
 	}
-	
+
 	modifier = {
-		monthly_prestige = minor_court_position_prestige_salary
-		diplomacy = 1
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		stewardship = 1
+		monthly_piety_gain_mult = 0.1
 	}
-	
+
 	on_court_position_received = {
 		basic_gained_court_position_effect = yes #chief_qadi_title_accepted_effect = yes
 	}
@@ -338,6 +716,11 @@ court_guru_court_position = {# Court Guru - For all Dharmic Faiths
 	}
 	on_court_position_invalidated = {
 		basic_invalidated_court_position_effect = yes #chief_qadi_title_invalidated_effect = yes
+	}
+	on_court_position_vacated = {
+		court_position_vacated_event_effect = {
+			COURT_POSITION_TYPE = chief_qadi_court_position
+		}
 	}
 	candidate_score = {
 		value = 50
@@ -349,8 +732,14 @@ court_guru_court_position = {# Court Guru - For all Dharmic Faiths
 				limit = {
 					ai_zeal >= -25
 				}
-				add = 50
+				add = 150
 			}
+		}
+		if = { # To stop petitioned positions immediately being fired by the AI
+			limit = {
+				court_position_petition_ai_weight_trigger = { ROLE = chief_qadi }
+			}
+			add = 1000
 		}
 		add = court_position_debt_considerations_value
 	}
@@ -361,8 +750,6 @@ court_guru_court_position = {# Court Guru - For all Dharmic Faiths
 chief_vajracharya_court_position = {# Vajracharya - Tantric Teacher
 	skill = learning
 	max_available_positions = 1
-	category = court_position_category_special
-
 	opinion = {
 		value = ceremonial_court_position_opinion
 	}
@@ -566,21 +953,27 @@ chief_vajracharya_court_position = {# Vajracharya - Tantric Teacher
 # Hindu Court Positions
 #######################################
 bhangika_court_position = {# Bhangika - Hindu Charity position
-	skill = learning
+	sort_order = 190
 	max_available_positions = 1
-	category = court_position_category_royal
 	minimum_rank = kingdom # Should only be available for kings and emperors
+	skill = learning
+
+	court_position_asset = {
+		animation = prayer
+		background = "gfx/interface/illustrations/event_scenes/temple.dds"
+	}
 
 	opinion = {
 		value = ceremonial_court_position_opinion
 	}
-	
+
 	# How high the aptitude has to be to reach the 5 different modifier levels
 	aptitude_level_breakpoints = { 20 40 60 80 }
 
 	# How good is this character in this position? root scope is the holder of the court position
 	aptitude = {
 		value = 1
+		add = court_position_aptitude_boon_voyager_trait
 		add = {
 			value = learning
 			multiply = 2.5
@@ -607,190 +1000,11 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 		}
 		if = {
 			limit = {
-				has_trait = compassionate
+				has_trait = theologian
 			}
 			add = {
 				value = 20
-				desc = court_position_compassionate_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = greedy
-			}
-			add = {
-				value = -10
-				desc = court_position_greedy_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = profligate
-			}
-			add = {
-				value = -10
-				desc = court_position_profligate_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = avaricious
-			}
-			add = {
-				value = -10
-				desc = court_position_avaricious_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = devoted
-				culture = { has_cultural_parameter = devoted_trait_bonuses }
-			}
-			add = {
-				value = 20
-				desc = tradition_monastic_communities_name
-			}
-		}
-		add = court_position_aptitude_family_business_value
-		add = court_position_aptitude_low_penalty_value
-	}
-
-	# Is this an available position for this court? (root is court owner)
-	is_shown = {
-		has_religion = religion:hinduism_religion
-	}
-
-	valid_position = {
-		has_religion = religion:hinduism_religion
-		highest_held_title_tier >= tier_kingdom
-	}
-
-	is_shown_character = {
-		scope:employee = {
-			is_courtier_of = scope:liege
-			has_religion = religion:hinduism_religion
-		}
-	}
-
-	valid_character = {
-		scope:employee = {
-			is_imprisoned = no
-			has_religion = religion:hinduism_religion
-		}
-	}
-
-	revoke_cost = {
-		prestige = major_court_position_prestige_revoke_cost
-	}
-
-	salary = {
-		round = no
-		gold = minor_court_position_salary
-	}
-	
-	base_employer_modifier = {
-		court_grandeur_baseline_add = 1
-	}
-
-	# These modifiers are employed based on what level the aptitude reaches (levels are defined as breakpoints) 
-	scaling_employer_modifiers = {
-		terrible = {
-			monthly_piety_gain_mult = 0.05
-		}
-		poor = {
-			monthly_piety_gain_mult = 0.1
-		}
-		average = {
-			monthly_piety_gain_mult = 0.15
-			monthly_court_grandeur_change_mult = 0.1
-		}
-		good = {
-			monthly_piety_gain_mult = 0.15
-			monthly_court_grandeur_change_mult = 0.15
-		}
-		excellent = {
-			monthly_piety_gain_mult = 0.2
-			monthly_court_grandeur_change_mult = 0.2
-		}
-	}
-
-	modifier = {
-		monthly_prestige = minor_court_position_prestige_salary
-		learning = 1
-	}
-
-	on_court_position_received = {
-		high_almoner_title_accepted_effect = yes
-	}
-	on_court_position_revoked = { 
-		high_almoner_title_revoked_effect = yes
-	}
-	on_court_position_invalidated = {
-		high_almoner_title_invalidated_effect = yes
-	}
-	# Scripted value to determine whether an AI will hire/fire a position or not. Hires over 0, fires under -50. Look in _court_positions.info for more extensive documentation!
-	candidate_score = {
-		value = 50
-		add = scope:base_value
-		add = court_position_candidate_score_base_value
-		add = court_position_candidate_aptitude_value
-		scope:liege = {
-			# Zealous AI's like this
-			if = {
-				limit = {
-					ai_zeal > 75
-				}
-				add = 50
-			}
-		}
-		add = court_position_debt_considerations_value
-	}
-}
-#######################################
-# Tibetan Court Positions
-#######################################
-
-#######################################
-# Updates to Vanilla
-#######################################
-high_almoner_court_position = {
-	max_available_positions = 1
-	category = court_position_category_royal
-	minimum_rank = kingdom # Should only be available for kings and emperors
-	skill = learning
-
-	opinion = {
-		value = ceremonial_court_position_opinion
-	}
-
-	# How high the aptitude has to be to reach the 5 different modifier levels
-	aptitude_level_breakpoints = { 20 40 60 80 }
-
-	# How good is this character in this position? root scope is the holder of the court position
-	aptitude = {
-		value = 1
-		add = {
-			value = learning
-			multiply = 2.5
-			max = 50
-			desc = court_position_skill_learning
-		}
-		if = {
-			limit = {
-				is_clergy = yes
-			}
-			add = {
-				value = 20
-				desc = court_position_clergy_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = generous
-			}
-			add = {
-				value = 20
-				desc = court_position_generous_trait
+				desc = court_position_theologian_trait
 			}
 		}
 		if = {
@@ -860,30 +1074,50 @@ high_almoner_court_position = {
 				desc = cp_bonus_aptitude
 			}
 		}
+		# Seneschal
+		if = {
+			limit = {
+				liege.court_position:seneschal_court_position ?= {
+					has_variable = performing_improve_court
+				}
+			}
+			add = {
+				value = liege.court_position:seneschal_court_position.seneschal_improve_court_value
+				desc = seneschal_improve_court_aptitude_desc
+			}
+		}
 	}
 
 	is_shown = {
-		NOT = { government_has_flag = government_is_landless_adventurer }
-		NOT = { has_religion = religion:hinduism_religion }
-
+		is_landed_or_landless_administrative = yes
+		has_religion = religion:hinduism_religion
+		trigger_if = {
+			limit = {
+				is_ai = yes
+				highest_held_title_tier <= tier_county
+			}
+			always = no
+		}
 	}
 
 	# Is this an available position for this court? (root is court owner)
 	valid_position = {
+		is_landed_or_landless_administrative = yes
 		highest_held_title_tier >= tier_kingdom
-		NOT = { has_religion = religion:hinduism_religion }
+		has_religion = religion:hinduism_religion
 	}
 
 	is_shown_character = {
 		scope:employee = {
-			is_courtier_of = scope:liege
 			is_imprisoned = no
+			has_religion = religion:hinduism_religion
 		}
 	}
 
 	valid_character = {
 		scope:employee = {
 			high_almoner_validity_trigger = { EMPLOYER = scope:liege }
+			has_religion = religion:hinduism_religion
 		}
 	}
 
@@ -892,7 +1126,7 @@ high_almoner_court_position = {
 			value = major_court_position_prestige_revoke_cost
 			# Set to 0 via obligation hook
 			if = {
-				limit = { 
+				limit = {
 					court_position_obligation_hook_salary_trigger = {
 						POS = high_almoner
 						LIEGE = root
@@ -920,7 +1154,7 @@ high_almoner_court_position = {
 			if = {
 				limit = { 
 					exists = this
-					is_landless_adventurer = yes
+					government_has_flag = government_is_landless_adventurer
 				}
 				value = minor_court_position_prestige_revoke_cost
 			}
@@ -935,14 +1169,14 @@ high_almoner_court_position = {
 			if = {
 				limit = { court_position_inner_circle_salary_trigger = { POS = high_almoner } }
 				multiply = {
-					value = 0.0
+					value = 0
 					desc = inner_circle_salary_mod
 					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 				}
 			}
 			# Halved via obligation hook
 			else_if = {
-				limit = { 
+				limit = {
 					court_position_obligation_hook_salary_trigger = {
 						POS = high_almoner
 						LIEGE = scope:liege
@@ -965,38 +1199,54 @@ high_almoner_court_position = {
 					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
 				}
 			}
+			# Increased salary
+			if = {
+				limit = {
+					court_position_increased_salary_trigger = { POS = high_almoner }
+				}
+				multiply = {
+					value = 1.5
+					desc = court_position_increased_salary
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			#You're working with LAAMPS now
+			if = {
+				limit = { 
+					scope:liege ?= { government_has_flag = government_is_landless_adventurer }
+				}
+				multiply = {
+					value = 0
+					desc = court_position_laamps_free
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
 		}
-	}
-
-	base_employer_modifier = {
-		court_grandeur_baseline_add = 1
 	}
 
 	# These modifiers are employed based on what level the aptitude reaches (levels are defined as breakpoints)
 	scaling_employer_modifiers = {
 		terrible = {
-			monthly_piety_gain_mult = 0.05
+			monthly_piety_gain_mult = 0.02
 		}
 		poor = {
-			monthly_piety_gain_mult = 0.1
+			monthly_piety_gain_mult = 0.05
 		}
 		average = {
-			monthly_piety_gain_mult = 0.15
-			monthly_court_grandeur_change_mult = 0.1
+			monthly_piety_gain_mult = 0.10
 		}
 		good = {
 			monthly_piety_gain_mult = 0.15
-			monthly_court_grandeur_change_mult = 0.15
 		}
 		excellent = {
 			monthly_piety_gain_mult = 0.2
-			monthly_court_grandeur_change_mult = 0.2
 		}
 	}
 
 	modifier = {
-		monthly_prestige = minor_court_position_prestige_salary
-		learning = 1
+		monthly_piety = 0.1
+		monthly_piety_gain_mult = 0.1
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
 	}
 
 	on_court_position_received = {
@@ -1008,6 +1258,12 @@ high_almoner_court_position = {
 	on_court_position_invalidated = {
 		high_almoner_title_invalidated_effect = yes
 	}
+	on_court_position_vacated = {
+		court_position_vacated_event_effect = {
+			COURT_POSITION_TYPE = high_almoner_court_position
+		}
+	}
+
 	# Scripted value to determine whether an AI will hire/fire a position or not. Hires over 0, fires under -50. Look in _court_positions.info for more extensive documentation!
 	candidate_score = {
 		value = 50
@@ -1032,185 +1288,7 @@ high_almoner_court_position = {
 		add = court_position_debt_considerations_value
 	}
 }
+#######################################
+# Tibetan Court Positions
+#######################################
 
-high_almoner_court_position = {# They Use the Bhangika Position instead. 
-	skill = learning
-	max_available_positions = 1
-	category = court_position_category_royal
-	minimum_rank = kingdom # Should only be available for kings and emperors
-
-	opinion = {
-		value = ceremonial_court_position_opinion
-	}
-	
-	# How high the aptitude has to be to reach the 5 different modifier levels
-	aptitude_level_breakpoints = { 20 40 60 80 }
-
-	# How good is this character in this position? root scope is the holder of the court position
-	aptitude = {
-		value = 1
-		add = {
-			value = learning
-			multiply = 2.5
-			max = 50
-			desc = court_position_skill_learning
-		}
-		if = {
-			limit = {
-				is_clergy = yes
-			}
-			add = {
-				value = 20
-				desc = court_position_clergy_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = generous
-			}
-			add = {
-				value = 20
-				desc = court_position_generous_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = compassionate
-			}
-			add = {
-				value = 20
-				desc = court_position_compassionate_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = greedy
-			}
-			add = {
-				value = -10
-				desc = court_position_greedy_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = profligate
-			}
-			add = {
-				value = -10
-				desc = court_position_profligate_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = avaricious
-			}
-			add = {
-				value = -10
-				desc = court_position_avaricious_trait
-			}
-		}
-		if = {
-			limit = {
-				has_trait = devoted
-				culture = { has_cultural_parameter = devoted_trait_bonuses }
-			}
-			add = {
-				value = 20
-				desc = tradition_monastic_communities_name
-			}
-		}
-		add = court_position_aptitude_family_business_value
-		add = court_position_aptitude_low_penalty_value
-	}
-
-	# Is this an available position for this court? (root is court owner)
-	is_shown = {
-		NOT = { has_religion = religion:hinduism_religion }
-	}
-
-	valid_position = {
-		highest_held_title_tier >= tier_kingdom
-		NOT = { has_religion = religion:hinduism_religion }
-	}
-
-	is_shown_character = {
-		scope:employee = {
-			is_courtier_of = scope:liege
-			NOT = { has_religion = religion:hinduism_religion }
-		}
-	}
-
-	valid_character = {
-		scope:employee = {
-			is_imprisoned = no
-			NOT = { has_religion = religion:hinduism_religion }
-		}
-	}
-
-	revoke_cost = {
-		prestige = major_court_position_prestige_revoke_cost
-	}
-
-	salary = {
-		round = no
-		gold = minor_court_position_salary
-	}
-	
-	base_employer_modifier = {
-		court_grandeur_baseline_add = 1
-	}
-
-	# These modifiers are employed based on what level the aptitude reaches (levels are defined as breakpoints) 
-	scaling_employer_modifiers = {
-		terrible = {
-			monthly_piety_gain_mult = 0.05
-		}
-		poor = {
-			monthly_piety_gain_mult = 0.1
-		}
-		average = {
-			monthly_piety_gain_mult = 0.15
-			monthly_court_grandeur_change_mult = 0.1
-		}
-		good = {
-			monthly_piety_gain_mult = 0.15
-			monthly_court_grandeur_change_mult = 0.15
-		}
-		excellent = {
-			monthly_piety_gain_mult = 0.2
-			monthly_court_grandeur_change_mult = 0.2
-		}
-	}
-
-	modifier = {
-		monthly_prestige = minor_court_position_prestige_salary
-		learning = 1
-	}
-
-	on_court_position_received = {
-		high_almoner_title_accepted_effect = yes
-	}
-	on_court_position_revoked = { 
-		high_almoner_title_revoked_effect = yes
-	}
-	on_court_position_invalidated = {
-		high_almoner_title_invalidated_effect = yes
-	}
-	# Scripted value to determine whether an AI will hire/fire a position or not. Hires over 0, fires under -50. Look in _court_positions.info for more extensive documentation!
-	candidate_score = {
-		value = 50
-		add = scope:base_value
-		add = court_position_candidate_score_base_value
-		add = court_position_candidate_aptitude_value
-		scope:liege = {
-			# Zealous AI's like this
-			if = {
-				limit = {
-					ai_zeal > 75
-				}
-				add = 50
-			}
-		}
-		add = court_position_debt_considerations_value
-	}
-}
