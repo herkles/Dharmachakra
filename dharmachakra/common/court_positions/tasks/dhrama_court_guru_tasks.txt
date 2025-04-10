@@ -1,0 +1,35 @@
+﻿### Court Guru Tasks ###
+
+court_guru_teach_kids = {
+	court_position_types = { court_guru_court_position }
+
+	# Monthly cost for the task
+	cost = {
+		round = no
+		prestige = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+	employee_modifier = {
+		stress_gain_mult = 0.25
+		child_opinion = 5
+	}
+
+	on_start = {
+		set_variable = court_guru_teach_kids
+		custom_tooltip = court_guru_teach_kids_tt
+	}
+
+	on_end = {
+		remove_variable = court_guru_teach_kids
+	}
+
+	ai_will_do = {
+		value = 0 # Never used by AI
+	}
+}

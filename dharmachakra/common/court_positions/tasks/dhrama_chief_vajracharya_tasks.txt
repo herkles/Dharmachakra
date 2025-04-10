@@ -1,0 +1,112 @@
+﻿### Court Tutor Tasks ###
+chief_vajracharya_tantric_teaching = {
+	court_position_types = { chief_vajracharya_court_position }
+
+	# Monthly cost for the task
+	cost = {
+		round = no
+		prestige = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+	employee_modifier = {
+		lifestyle_mystic_xp_gain_mult = 0.25
+	}
+
+	on_start = {
+		custom_tooltip = chief_vajracharya_tantric_teaching_fallback_tt
+	}
+
+	on_monthly = {
+		random = {
+			chance = {
+				value = 1
+				add = {
+					value = "aptitude(court_tutor_court_position)"
+					multiply = 4
+				}
+			}
+			# Find target
+			random_list = {
+				1 = {
+					liege_or_court_owner = { 
+						save_scope_as = target_character 
+						save_scope_as = liege_character
+					}
+				}
+				1 = {
+					liege_or_court_owner = {
+						random_heir = {
+							limit = { 
+								liege_or_court_owner = prev 
+								NOT = { this = root }
+							}
+							save_scope_as = target_character
+							save_scope_as = heir_character
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:target_character
+				}
+				random_list = {
+					3 = { # Learning
+						trigger = {
+							scope:target_character.learning < root.learning
+							scope:target_character = {
+								OR = {
+									scope:liege_character ?= scope:target_character
+									scope:heir_character ?= scope:target_character
+									has_court_position = court_physician_court_position
+									has_court_position = chief_qadi_court_position
+									has_court_position = antiquarian_court_position
+									has_court_position = wet_nurse_court_position
+									has_court_position = high_almoner_court_position
+									has_court_position = court_artificer_court_position
+									has_court_position = cave_hermit_court_position
+									has_court_position = court_brewmaster_court_position
+								}
+							}
+						}
+						court_tutor_improve_others_skill_effect = { SKILL = learning }
+					}
+					1 = { # Mystic trait
+						trigger = {
+							scope:target_character = {
+								has_court_position = chief_vajracharya_court_position
+							}
+						}
+						if = {
+							limit = {
+								scope:target_character = { 
+									NOT = { has_trait = lifestyle_mystic }
+								}
+							}
+							court_tutor_improve_others_trait_effect = { TRAIT = lifestyle_mystic }
+						}
+						else = {
+							court_tutor_improve_others_trait_xp_effect = { TRAIT = lifestyle_mystic }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 50 # Always good
+		if = {
+			limit = {
+				monthly_character_income < monthly_court_position_task_cost_double
+			}
+			add = -1000
+		}
+	}
+}

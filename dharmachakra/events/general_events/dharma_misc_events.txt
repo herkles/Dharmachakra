@@ -40,9 +40,7 @@ dharma_misc.0010 = {
 	option = {
 		name = dharma_misc.0010.a
 		show_as_tooltip = {
-			current_travel_plan = {
-				reroute_to_home = yes
-			}
+			current_travel_plan = { cancel_travel_plan = yes }
 		}
 	}
 }

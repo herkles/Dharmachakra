@@ -58,30 +58,10 @@ master_of_elephants_court_position = {
 				desc = court_position_gallant_trait
 			}
 		}
-		# Estate - Owner bonus from stables
-		if = {
-			limit = {
-				liege ?= {
-					domicile ?= { has_domicile_parameter = estate_increase_master_of_horse_aptitude }
-				}
-			}
-			add = {
-				value = estate_increase_master_of_horse_aptitude_value
-				desc = estate_increase_master_of_horse_aptitude_desc
-			}
-		}
 		add = court_position_aptitude_traveling_friends_value
 		add = court_position_aptitude_eunuch_tradition_value
 		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_high_penalty_value
-		# Bonus from court.8311
-		if = {
-			limit = { var:bonus_aptitude_role ?= flag:master_of_horse }
-			add = {
-				value = cp_bonus_aptitude_value
-				desc = cp_bonus_aptitude
-			}
-		}
 		# Seneschal
 		if = {
 			limit = {
@@ -135,7 +115,7 @@ master_of_elephants_court_position = {
 			if = {
 				limit = {
 					court_position_obligation_hook_salary_trigger = {
-						POS = master_of_horse
+						POS = master_of_elephants
 						LIEGE = root
 					}
 				}
@@ -174,7 +154,7 @@ master_of_elephants_court_position = {
 			value = medium_court_position_salary # Update X_salary_tooltip if script_value is changed
 			# Set to 0 with Dynasty Perk Inner Circle
 			if = {
-				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_horse } }
+				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_elephants } }
 				multiply = {
 					value = 0
 					desc = inner_circle_salary_mod
@@ -185,7 +165,7 @@ master_of_elephants_court_position = {
 			else_if = {
 				limit = {
 					court_position_obligation_hook_salary_trigger = {
-						POS = master_of_horse
+						POS = master_of_elephants
 						LIEGE = scope:liege
 					}
 				}
@@ -198,7 +178,7 @@ master_of_elephants_court_position = {
 			# Halved salary
 			if = {
 				limit = {
-					court_position_halved_salary_trigger = { POS = master_of_horse }
+					court_position_halved_salary_trigger = { POS = master_of_elephants }
 				}
 				multiply = {
 					value = 0.5
@@ -209,7 +189,7 @@ master_of_elephants_court_position = {
 			# Increased salary
 			if = {
 				limit = {
-					court_position_increased_salary_trigger = { POS = master_of_horse }
+					court_position_increased_salary_trigger = { POS = master_of_elephants }
 				}
 				multiply = {
 					value = 1.5
@@ -220,10 +200,10 @@ master_of_elephants_court_position = {
 			if = {
 				limit = {
 					scope:liege = {
-						employs_court_position = master_of_horse_court_position
+						employs_court_position = master_of_elephants_court_position
 						any_court_position_holder = {
-					        type = master_of_horse_court_position
-					        has_character_flag = free_master_of_horse
+					        type = master_of_elephants_court_position
+					        has_character_flag = free_master_of_elephants
 						}
 					}
 				}
@@ -248,7 +228,7 @@ master_of_elephants_court_position = {
 			value = medium_court_position_prestige_salary # Update X_salary_tooltip if script_value is changed
 			# Set to 0 with Dynasty Perk Inner Circle
 			if = {
-				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_horse } }
+				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_elephants } }
 				multiply = {
 					value = 0
 					desc = inner_circle_salary_mod
@@ -259,7 +239,7 @@ master_of_elephants_court_position = {
 			else_if = {
 				limit = {
 					court_position_obligation_hook_salary_trigger = {
-						POS = master_of_horse
+						POS = master_of_elephants
 						LIEGE = scope:liege
 					}
 				}
@@ -272,7 +252,7 @@ master_of_elephants_court_position = {
 			# Halved salary
 			if = {
 				limit = {
-					court_position_halved_salary_trigger = { POS = master_of_horse }
+					court_position_halved_salary_trigger = { POS = master_of_elephants }
 				}
 				multiply = {
 					value = 0.5
@@ -283,7 +263,7 @@ master_of_elephants_court_position = {
 			# Increased salary
 			if = {
 				limit = {
-					court_position_increased_salary_trigger = { POS = master_of_horse }
+					court_position_increased_salary_trigger = { POS = master_of_elephants }
 				}
 				multiply = {
 					value = 1.5
@@ -339,17 +319,17 @@ master_of_elephants_court_position = {
 	}
 
 	on_court_position_received = {
-		master_of_horse_title_accepted_effect = yes
+		master_of_elephants_title_accepted_effect = yes
 	}
 	on_court_position_revoked = {
-		master_of_horse_title_revoked_effect = yes
+		master_of_elephants_title_revoked_effect = yes
 	}
 	on_court_position_invalidated = {
-		master_of_horse_title_invalidated_effect = yes
+		master_of_elephants_title_invalidated_effect = yes
 	}
 	on_court_position_vacated = {
 		court_position_vacated_event_effect = {
-			COURT_POSITION_TYPE = master_of_horse_court_position
+			COURT_POSITION_TYPE = master_of_elephants_court_position
 		}
 	}
 
@@ -369,14 +349,13 @@ master_of_elephants_court_position = {
 		}
 		if = { # To stop petitioned positions immediately being fired by the AI
 			limit = {
-				court_position_petition_ai_weight_trigger = { ROLE = master_of_horse }
+				court_position_petition_ai_weight_trigger = { ROLE = master_of_elephants }
 			}
 			add = 1000
 		}
 		add = court_position_debt_considerations_value
 	}
 }
-
 court_guru_court_position = {
 	sort_order = 233
 	max_available_positions = 1
@@ -512,7 +491,7 @@ court_guru_court_position = {
 
 	valid_character = {
 		scope:employee = {
-			chief_guru_validity_trigger = { EMPLOYER = scope:liege }
+			court_guru_validity_trigger = { EMPLOYER = scope:liege }
 		}
 	}
 
@@ -709,17 +688,17 @@ court_guru_court_position = {
 	}
 
 	on_court_position_received = {
-		basic_gained_court_position_effect = yes #chief_qadi_title_accepted_effect = yes
+		basic_gained_court_position_effect = yes #court_guru_title_accepted_effect = yes
 	}
 	on_court_position_revoked = {
-		basic_revoked_court_position_effect = yes #chief_qadi_title_revoked_effect = yes
+		basic_revoked_court_position_effect = yes #court_guru_title_revoked_effect = yes
 	}
 	on_court_position_invalidated = {
-		basic_invalidated_court_position_effect = yes #chief_qadi_title_invalidated_effect = yes
+		basic_invalidated_court_position_effect = yes #court_guru_title_invalidated_effect = yes
 	}
 	on_court_position_vacated = {
 		court_position_vacated_event_effect = {
-			COURT_POSITION_TYPE = chief_qadi_court_position
+			COURT_POSITION_TYPE = court_guru_court_position
 		}
 	}
 	candidate_score = {
@@ -737,7 +716,7 @@ court_guru_court_position = {
 		}
 		if = { # To stop petitioned positions immediately being fired by the AI
 			limit = {
-				court_position_petition_ai_weight_trigger = { ROLE = chief_qadi }
+				court_position_petition_ai_weight_trigger = { ROLE = court_guru }
 			}
 			add = 1000
 		}
@@ -925,13 +904,13 @@ chief_vajracharya_court_position = {# Vajracharya - Tantric Teacher
 	}
 	
 	on_court_position_received = {
-		basic_gained_court_position_effect = yes #chief_qadi_title_accepted_effect = yes
+		basic_gained_court_position_effect = yes #chief_vajracharya_title_accepted_effect = yes
 	}
 	on_court_position_revoked = {
-		basic_revoked_court_position_effect = yes #chief_qadi_title_revoked_effect = yes
+		basic_revoked_court_position_effect = yes #chief_vajracharya_title_revoked_effect = yes
 	}
 	on_court_position_invalidated = {
-		basic_invalidated_court_position_effect = yes #chief_qadi_title_invalidated_effect = yes
+		basic_invalidated_court_position_effect = yes #chief_vajracharya_title_invalidated_effect = yes
 	}
 	candidate_score = {
 		value = 50
@@ -1068,7 +1047,7 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 		add = court_position_aptitude_low_penalty_value
 		# Bonus from court.8311
 		if = {
-			limit = { var:bonus_aptitude_role ?= flag:high_almoner }
+			limit = { var:bonus_aptitude_role ?= flag:bhangika }
 			add = {
 				value = cp_bonus_aptitude_value
 				desc = cp_bonus_aptitude
@@ -1116,7 +1095,7 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 
 	valid_character = {
 		scope:employee = {
-			high_almoner_validity_trigger = { EMPLOYER = scope:liege }
+			bhangika_validity_trigger = { EMPLOYER = scope:liege }
 			has_religion = religion:hinduism_religion
 		}
 	}
@@ -1128,7 +1107,7 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 			if = {
 				limit = {
 					court_position_obligation_hook_salary_trigger = {
-						POS = high_almoner
+						POS = bhangika
 						LIEGE = root
 					}
 				}
@@ -1167,7 +1146,7 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 			value = minor_court_position_salary # Update X_salary_tooltip if script_value is changed
 			# Set to 0 with Dynasty Perk Inner Circle
 			if = {
-				limit = { court_position_inner_circle_salary_trigger = { POS = high_almoner } }
+				limit = { court_position_inner_circle_salary_trigger = { POS = bhangika } }
 				multiply = {
 					value = 0
 					desc = inner_circle_salary_mod
@@ -1178,7 +1157,7 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 			else_if = {
 				limit = {
 					court_position_obligation_hook_salary_trigger = {
-						POS = high_almoner
+						POS = bhangika
 						LIEGE = scope:liege
 					}
 				}
@@ -1191,7 +1170,7 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 			# Halved salary
 			if = {
 				limit = {
-					court_position_halved_salary_trigger = { POS = high_almoner }
+					court_position_halved_salary_trigger = { POS = bhangika }
 				}
 				multiply = {
 					value = 0.5
@@ -1202,7 +1181,7 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 			# Increased salary
 			if = {
 				limit = {
-					court_position_increased_salary_trigger = { POS = high_almoner }
+					court_position_increased_salary_trigger = { POS = bhangika }
 				}
 				multiply = {
 					value = 1.5
@@ -1250,17 +1229,17 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 	}
 
 	on_court_position_received = {
-		high_almoner_title_accepted_effect = yes
+		bhangika_title_accepted_effect = yes
 	}
 	on_court_position_revoked = {
-		high_almoner_title_revoked_effect = yes
+		bhangika_title_revoked_effect = yes
 	}
 	on_court_position_invalidated = {
-		high_almoner_title_invalidated_effect = yes
+		bhangika_title_invalidated_effect = yes
 	}
 	on_court_position_vacated = {
 		court_position_vacated_event_effect = {
-			COURT_POSITION_TYPE = high_almoner_court_position
+			COURT_POSITION_TYPE = bhangika_court_position
 		}
 	}
 
@@ -1281,7 +1260,7 @@ bhangika_court_position = {# Bhangika - Hindu Charity position
 		}
 		if = { # To stop petitioned positions immediately being fired by the AI
 			limit = {
-				court_position_petition_ai_weight_trigger = { ROLE = high_almoner }
+				court_position_petition_ai_weight_trigger = { ROLE = bhangika }
 			}
 			add = 1000
 		}

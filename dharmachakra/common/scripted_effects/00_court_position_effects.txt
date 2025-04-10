@@ -471,6 +471,29 @@ court_brewmaster_title_invalidated_effect = {
 	basic_invalidated_court_position_effect = yes
 }
 
+# HIGH ALMONER
+bhangika_title_accepted_effect = {
+	basic_gained_court_position_effect = yes
+}
+bhangika_title_revoked_effect = {
+	basic_revoked_court_position_effect = yes
+}
+bhangika_title_invalidated_effect = {
+	basic_invalidated_court_position_effect = yes
+}
+
+# Master of the Royal Elephants
+master_of_horse_title_accepted_effect = {
+	basic_gained_court_position_effect = yes
+}
+master_of_horse_title_revoked_effect = {
+	basic_revoked_court_position_effect = yes
+}
+master_of_horse_title_invalidated_effect = {
+	basic_invalidated_court_position_effect = yes
+}
+
+
 court_position_old_holder_effect = { # Save existing holder if relevant
 	$EMPLOYER$ = {
 		if = {
@@ -1134,6 +1157,63 @@ court_position_generator_effect = {
 				EMPLOYER = $EMPLOYER$
 			}
 		}
+		# Dharmachakra Positions
+		2 = { # Court Guru
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = court_guru EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = court_guru
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = court_guru
+				EMPLOYER = $EMPLOYER$
+			}
+		}
+		2 = { # master_of_elephants
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = master_of_elephants EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = master_of_elephants
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = master_of_elephants
+				EMPLOYER = $EMPLOYER$
+			}
+		}
+		2 = { # chief_vajracharya
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = chief_vajracharya EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = chief_vajracharya
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = chief_vajracharya
+				EMPLOYER = $EMPLOYER$
+			}
+		}
+		2 = { # bhangika
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = bhangika EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = bhangika
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = bhangika
+				EMPLOYER = $EMPLOYER$
+			}
+		}
 	}
 }
 
@@ -1268,6 +1348,19 @@ court_position_generator_assignment_effect = {
 		# Akolouthos
 		flag:akolouthos = {
 			court_position_grant_effect = { POS = akolouthos CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
+		}
+		# Dharmachakra Positions
+		flag:court_guru = {
+			court_position_grant_effect = { POS = court_guru CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
+		}
+		flag:master_of_elephants = {
+			court_position_grant_effect = { POS = master_of_elephants CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
+		}
+		flag:chief_vajracharya = {
+			court_position_grant_effect = { POS = chief_vajracharya CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
+		}
+		flag:bhangika = {
+			court_position_grant_effect = { POS = bhangika CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
 		}
 	}
 }
@@ -1820,6 +1913,34 @@ decide_court_position_to_give_effect = {
 						}
 						$CANDIDATE$ = { add_character_flag = qadi_flag }
 					}
+					# Dharmachakra Positions
+					10 = {# court_guru
+						trigger = {
+							can_appoint_char_to_court_position = {
+								CHAR = $CANDIDATE$
+								COURT_POS = court_guru_court_position
+							}
+						}
+						$CANDIDATE$ = { add_character_flag = court_guru_flag }
+					}
+					10 = {# chief_vajracharya
+						trigger = {
+							can_appoint_char_to_court_position = {
+								CHAR = $CANDIDATE$
+								COURT_POS = chief_vajracharya_court_position
+							}
+						}
+						$CANDIDATE$ = { add_character_flag = chief_vajracharya_flag }
+					}
+					10 = {# bhangika
+						trigger = {
+							can_appoint_char_to_court_position = {
+								CHAR = $CANDIDATE$
+								COURT_POS = bhangika_court_position
+							}
+						}
+						$CANDIDATE$ = { add_character_flag = bhangika_flag }
+					}
 				}
 			}
 			else_if = {
@@ -2057,6 +2178,16 @@ decide_court_position_to_give_effect = {
 						}
 						$CANDIDATE$ = { add_character_flag = akolouthos_flag }
 					}
+					# Dharmachakra Positions
+					10 = {
+						trigger = {
+							can_appoint_char_to_court_position = {
+								CHAR = $CANDIDATE$
+								COURT_POS = master_of_elephants_court_position
+							}
+						}
+						$CANDIDATE$ = { add_character_flag = master_of_elephants_flag }
+					}
 				}
 			}
 		}
@@ -2230,6 +2361,35 @@ distribute_determined_court_position_effect = {
 			appoint_court_position = {
 				recipient = $CANDIDATE$
 				court_position = akolouthos_court_position
+			}
+		}
+		# Dharmachakra Positions
+		else_if = {
+			limit = { $CANDIDATE$ = { has_character_flag = court_guru_flag } }
+			appoint_court_position = {
+				recipient = $CANDIDATE$
+				court_position = court_guru_court_position
+			}
+		}
+		else_if = {
+			limit = { $CANDIDATE$ = { has_character_flag = chief_vajracharya_flag } }
+			appoint_court_position = {
+				recipient = $CANDIDATE$
+				court_position = chief_vajracharya_court_position
+			}
+		}
+		else_if = {
+			limit = { $CANDIDATE$ = { has_character_flag = bhangika_flag } }
+			appoint_court_position = {
+				recipient = $CANDIDATE$
+				court_position = bhangika_court_position
+			}
+		}
+		else_if = {
+			limit = { $CANDIDATE$ = { has_character_flag = master_of_elephants_flag } }
+			appoint_court_position = {
+				recipient = $CANDIDATE$
+				court_position = master_of_elephants_court_position
 			}
 		}
 	}

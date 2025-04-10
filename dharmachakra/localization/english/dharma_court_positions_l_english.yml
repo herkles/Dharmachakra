@@ -1,6 +1,5 @@
 ﻿l_english:
 
-
 #######################################
 # Buddhist Court Positions
 #######################################
@@ -27,5 +26,30 @@
   court_guru_court_position_desc:1 "The $court_guru_court_position$ is a spiritual advisor and teacher for the monarch, imparting his wisdom and knowledge to him."
 
 
+#######################################
+# Court Tasks
+#######################################
+ dharma_task_flatter_dignitaries: "Flatter Dignitaries"
+ dharma_task_flatter_dignitaries_desc: "This character will make sure that the cups of those you care for the most runneth over with vigor."
+
+ dharma_task_attend_poor: "Divine Charity"
+ dharma_task_attend_poor_desc: "This character is tasked with arranging charity in your name."
+
+ bhangika_court_position_task_public_alms: "Lead Public Dana"
+ bhangika_court_position_task_public_alms_desc: "Your $bhangika_court_position$ will divide alms to the poor and destitute of your domain in your name."
+
+ court_guru_teach_kids: "Educate Children"
+ court_guru_teach_kids_desc: "This character is going above and beyond in their duty to educate the children of the court."
+ court_guru_teach_kids_title: "Taught by [court_tutor_scope.GetName]"
+ court_guru_teach_kids_notification_desc: "[ROOT.Char.GetShortUIName|U] [CharHaveHas( ROOT.Char )] been taught by [court_tutor_scope.GetShortUIName]"
+ court_guru_teach_kids_tt: "[children|E] at [court|E] have a chance to have one of their [diplomacy_i][stewardship_i][learning_i][martial_i][skills|E] increased by #p +1#! or #p +2#! every year"
+
+ master_of_elephants_oversee_breeding: "Oversee Breeding"
+ master_of_elephants_oversee_breeding_desc: "This character is tasked with overseeing the breeding of the royal elephant stables."
+ master_of_elephants_mightiest_warelephant: "War Elephant Grooming"
+ master_of_elephants_mightiest_warelephant_desc: "Only the best of Elephants is worthy of a warlike ruler."
+
+ chief_vajracharya_tantric_teaching: "Tantric Teaching"
+ chief_vajracharya_tantric_teaching_desc: "Your $chief_vajracharya_court_position$ will teach you tantric practices to help you deepen your faith and understand the more mystical side of the faith."
 
 

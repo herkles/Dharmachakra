@@ -1,0 +1,105 @@
+﻿### Master of the Horse Tasks ###
+
+master_of_elephants_oversee_breeding = {
+	court_position_types = { master_of_elephants_court_position }
+
+	# Monthly cost for the task
+	cost = {
+		round = no
+		gold = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+	scaling_employer_modifiers = {
+		terrible = {
+			elephant_cavalry_pursuit_mult = 0.05
+			elephant_cavalry_toughness_mult = 0.025
+		}
+		poor = {
+			elephant_cavalry_pursuit_mult = 0.1
+			elephant_cavalry_toughness_mult = 0.05
+		}
+		average = {
+			elephant_cavalry_pursuit_mult = 0.15
+			elephant_cavalry_toughness_mult = 0.075
+		}
+		good = {
+			elephant_cavalry_pursuit_mult = 0.2
+			elephant_cavalry_toughness_mult = 0.1
+		}
+		excellent = {
+			elephant_cavalry_pursuit_mult = 0.25
+			elephant_cavalry_toughness_mult = 0.125
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		if = {
+			limit = {
+				is_at_war = yes
+				ai_has_warlike_personality = yes
+			}
+			add = 25
+		}
+	}
+}
+master_of_elephants_mightiest_warelephant = {
+	court_position_types = { master_of_elephants_court_position }
+
+	# Monthly cost for the task
+	cost = {
+		round = no
+		gold = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		#aptitude = {
+		#	court_position = master_of_elephants_court_position
+		#	value >= 1
+		#}
+	}
+
+	scaling_employer_modifiers = {
+		terrible = {
+			
+		}
+		poor = {
+			elephant_cavalry_damage_mult = 0.05
+		}
+		average = {
+			elephant_cavalry_damage_mult = 0.1
+		}
+		good = {
+			elephant_cavalry_damage_mult = 0.15
+		}
+		excellent = {
+			elephant_cavalry_damage_mult = 0.2
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		if = {
+			limit = {
+				OR = {
+					has_lifestyle = martial_lifestyle
+					is_in_army = yes
+				}
+			}
+			add = 50
+			add = ai_boldness
+		}
+	}
+}

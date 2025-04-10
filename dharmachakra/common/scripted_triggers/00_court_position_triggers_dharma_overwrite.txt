@@ -799,10 +799,16 @@ court_guru_validity_trigger = {
 }	
 master_of_elephants_validity_trigger = {
 	base_court_position_validity_trigger = { EMPLOYER = $EMPLOYER$ }
+	culture = {	has_innovation = innovation_elephantry }
 }
 chief_vajracharya_validity_trigger = {
 	base_court_position_validity_trigger = { EMPLOYER = $EMPLOYER$ }
 	is_playable_character = no
+	OR = {
+		faith = faith:vajrayana
+		faith = faith:lamaism
+	}
+
 	custom_tooltip = {
 		text = NONE_NOT_THE_SPOUSE_OF_CHARACTER_COURT_POSITION
 		NOT = { is_spouse_of = $EMPLOYER$ }
@@ -822,6 +828,7 @@ chief_vajracharya_validity_trigger = {
 }
 bhangika_validity_trigger = {
 	base_court_position_validity_trigger = { EMPLOYER = $EMPLOYER$ }
+	has_religion = religion:hinduism_religion
 	OR = {
 		is_landed = no
 		learning >= 12

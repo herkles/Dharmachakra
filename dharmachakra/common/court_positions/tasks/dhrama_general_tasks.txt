@@ -1,0 +1,127 @@
+﻿### General Court Position Tasks ###
+
+dharma_task_flatter_dignitaries = {
+	court_position_types = { court_guru_court_position chief_vajracharya_court_position }
+
+	is_shown = {
+	}
+	is_valid_showing_failures_only = {
+	}
+
+	cost = {
+		round = no
+		prestige = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+	base_employer_modifier = {
+	}
+	
+	scaling_employer_modifiers = {
+		terrible = {
+		 	owned_personal_scheme_success_chance_max_add = 1
+			sway_scheme_phase_duration_add = -5
+			seduce_scheme_phase_duration_add = -5
+			courting_scheme_phase_duration_add = -5
+		}
+		poor = {
+		 	owned_personal_scheme_success_chance_max_add = 3
+			sway_scheme_phase_duration_add = -15
+			seduce_scheme_phase_duration_add = -15
+			courting_scheme_phase_duration_add = -15
+		}
+		average = {
+		 	owned_personal_scheme_success_chance_max_add = 5
+			sway_scheme_phase_duration_add = -30
+			seduce_scheme_phase_duration_add = -30
+			courting_scheme_phase_duration_add = -30
+		}
+		good = {
+		 	owned_personal_scheme_success_chance_max_add = 10
+			sway_scheme_phase_duration_add = -50
+			seduce_scheme_phase_duration_add = -50
+			courting_scheme_phase_duration_add = -50
+		}
+		excellent = {
+		 	owned_personal_scheme_success_chance_max_add = 20
+			sway_scheme_phase_duration_add = -75
+			seduce_scheme_phase_duration_add = -75
+			courting_scheme_phase_duration_add = -75
+		}
+	}
+	
+	on_start = {
+	}
+	on_end = { }
+
+	ai_will_do = {
+		value = {
+			add = 25
+			add = ai_sociability
+		}
+	}
+}
+dharma_task_attend_poor = {
+	court_position_types = { bhangika_court_position chief_vajracharya_court_position court_guru_court_position }
+
+	# Monthly cost for the task
+	cost = {
+		round = no
+		gold = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+	employee_modifier = {
+		monthly_piety = 1
+	}
+
+	scaling_employer_modifiers = {
+		terrible = {
+		 	monthly_piety = 0.1
+		}
+		poor = {
+		 	monthly_piety = 0.25
+		}
+		average = {
+		 	monthly_piety = 0.5
+		}
+		good = {
+		 	monthly_piety = 0.8
+		}
+		excellent = {
+		 	monthly_piety = 1.25
+		}
+	}
+
+	is_shown = {  }
+	is_valid_showing_failures_only = { }
+
+	on_start = { }
+	on_end = { }
+
+	ai_will_do = {
+		value = ai_zeal
+		if = {
+			limit = {
+				piety_level <= 2
+			}
+			add = 25
+		}
+		if = {
+			limit = {
+				monthly_character_income < monthly_court_position_task_cost_double
+			}
+			add = -1000
+		}
+	}
+}
