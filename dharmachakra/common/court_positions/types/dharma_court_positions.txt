@@ -203,7 +203,7 @@ master_of_elephants_court_position = {
 						employs_court_position = master_of_elephants_court_position
 						any_court_position_holder = {
 					        type = master_of_elephants_court_position
-					        has_character_flag = free_master_of_elephants
+					        has_character_flag = master_of_elephants
 						}
 					}
 				}
@@ -899,7 +899,6 @@ chief_vajracharya_court_position = {# Vajracharya - Tantric Teacher
 	}
 	
 	modifier = {
-		monthly_prestige = minor_court_position_prestige_salary
 		diplomacy = 1
 	}
 	

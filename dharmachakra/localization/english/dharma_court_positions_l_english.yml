@@ -51,5 +51,33 @@
 
  chief_vajracharya_tantric_teaching: "Tantric Teaching"
  chief_vajracharya_tantric_teaching_desc: "Your $chief_vajracharya_court_position$ will teach you tantric practices to help you deepen your faith and understand the more mystical side of the faith."
+ chief_vajracharya_tantric_teaching_fallback_tt: "[liege|E] or the liege's [heir|E] may gain [learning_i] or improve their esoteric knowledge every month"
 
 
+# Chief Vajracharya
+ court_position_chief_vajracharya:0 "[GetCourtPositionType('chief_vajracharya_court_position').GetName()]"
+
+ chief_vajracharya_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'chief_vajracharya_court_position' ) )]"
+ chief_vajracharya_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'chief_vajracharya_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'chief_vajracharya_court_position' ) )])#!"
+ chief_vajracharya_salary_tooltip: "[GetCourtPositionType( 'chief_vajracharya_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]"
+
+# Bhangika
+ court_position_bhangika:0 "[GetCourtPositionType('bhangika_court_position').GetName()]"
+
+ bhangika_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'bhangika_court_position' ) )]"
+ bhangika_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'bhangika_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'bhangika_court_position' ) )])#!"
+ bhangika_salary_tooltip: "[GetCourtPositionType( 'bhangika_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]"
+
+# Master of Elephants
+ court_position_master_of_elephants:0 "[GetCourtPositionType('master_of_elephants_court_position').GetName()]"
+
+ master_of_elephants_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_elephants_court_position' ) )]"
+ master_of_elephants_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_elephants_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'master_of_elephants_court_position' ) )])#!"
+ master_of_elephants_salary_tooltip: "[GetCourtPositionType( 'master_of_elephants_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]"
+
+# Court Guru
+ court_position_court_guru:0 "[GetCourtPositionType('court_guru_court_position').GetName()]"
+
+ court_guru_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_guru_court_position' ) )]"
+ court_guru_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'court_guru_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'court_guru_court_position' ) )])#!"
+ court_guru_salary_tooltip: "[GetCourtPositionType( 'court_guru_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]"

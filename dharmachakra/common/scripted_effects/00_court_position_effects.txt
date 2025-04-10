@@ -483,13 +483,13 @@ bhangika_title_invalidated_effect = {
 }
 
 # Master of the Royal Elephants
-master_of_horse_title_accepted_effect = {
+master_of_elephants_title_accepted_effect = {
 	basic_gained_court_position_effect = yes
 }
-master_of_horse_title_revoked_effect = {
+master_of_elephants_title_revoked_effect = {
 	basic_revoked_court_position_effect = yes
 }
-master_of_horse_title_invalidated_effect = {
+master_of_elephants_title_invalidated_effect = {
 	basic_invalidated_court_position_effect = yes
 }
 
