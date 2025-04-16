@@ -32,7 +32,7 @@
 9046 = {
 	# Misc
 	culture = zhangzhung #Kinnauri
-	religion = old_bon
+	religion = bon
 	
 	holding = castle_holding
 	
@@ -91,7 +91,7 @@
 9050 = {
 	# Misc
 	culture = zhangzhung #Kinnauri
-	religion = trika_shaivism
+	religion = kinnaur_pagan
 	
 	holding = castle_holding
 	

@@ -1,4 +1,4 @@
-﻿bodpa = { # Tibetan
+﻿bodpa = {# Tibetan
 	color = hsv{ 0.6 0.8 0.3 }
 	
 	ethos = ethos_spiritual
@@ -22,7 +22,7 @@
 		10 = asian_tibetan_1
 	}
 }
-zhangzhung = { # Zhangzhung
+zhangzhung = {# Zhangzhung
 	color = hsv{ 0.55 0.7 0.7 }
 	
 	ethos = ethos_spiritual
@@ -45,7 +45,7 @@ zhangzhung = { # Zhangzhung
 		10 = asian_tibetan_1
 	}
 }
-sumpa = { # Sumpa
+sumpa = {# Sumpa
 	color = hsv{ 0.6 0.9 0.7 }	
 	ethos = ethos_egalitarian
 	heritage = heritage_tibetan
@@ -68,7 +68,7 @@ sumpa = { # Sumpa
 		10 = asian_tibetan_1
 	}
 }
-tsangpa = { # Western and Southern Tibetic (Sherpa; Kyirong-Kagate; etc.)
+tsangpa = {# Western and Southern Tibetic (Sherpa; Kyirong-Kagate; etc.)
 	color = hsv{ 0.66 0.69 0.58 }
 	
 	ethos = ethos_spiritual
@@ -92,7 +92,7 @@ tsangpa = { # Western and Southern Tibetic (Sherpa; Kyirong-Kagate; etc.)
 		10 = asian_tibetan_1
 	}
 }
-kirati = { # Kirati (Kirati; Limbu; Magar; etc.)
+kirati = {# Kirati (Kirati; Limbu; Magar; etc.)
 	color = hsv{ 0.58 0.94 0.7 }
 	
 	ethos = ethos_communal
@@ -115,7 +115,7 @@ kirati = { # Kirati (Kirati; Limbu; Magar; etc.)
 		10 = asian_tibetan_1
 	}
 }
-lhomon = { # Lhomon (Monpa; Lhoba; Kho-Bwa; Mishmi; Memba; etc.)
+lhomon = {# Lhomon (Monpa; Lhoba; Kho-Bwa; Mishmi; Memba; etc.)
 	color = hsv{ 0.62 0.9 0.7 }
 	
 	ethos = ethos_communal
@@ -238,7 +238,6 @@ tani = { # Tani
 		10 = asian_tibetan_1
 	}
 }
-
 garo = { # Garo People
 	color = { 196 98 16 }
 	

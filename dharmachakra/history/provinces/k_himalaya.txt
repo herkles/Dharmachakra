@@ -384,7 +384,7 @@
 9118 = {	# 9118 - Janakpur
 	
 	# Misc
-	culture = newar #Maithili
+	culture = maithili #Maithili
 	religion = vaishnavism
 	
 	holding = castle_holding

@@ -1,4 +1,6 @@
-﻿############ Vanilla cultures ############
+﻿#############################################
+# Vanilla Cultures			
+#############################################
 bengali = {# Indo-Aryan
 	color = { 0.45 0.0 0.0 }
 	
@@ -337,8 +339,11 @@ brahui = { # FP3 addition. This people represent, as best as I have been able to
 		4 = arab
 	}
 }
-############ New Dharmachakra cultures ############
-bihari = {# Bihari
+#############################################
+# New Dharmachakra Cultures			
+#############################################
+# Bihari Cultures			
+bihari = {# Bhojpuri
 	color = { 219 0 7 }
 	
 	ethos = ethos_courtly
@@ -363,6 +368,57 @@ bihari = {# Bihari
 		10 = indian
 	}
 }
+magadhi = {# Magadhi
+	color = { 169 25 8 } # 158 52 28 158 82 25 128 25 58
+	
+	ethos = ethos_egalitarian # Soraya originally made them Bureaucratic in TFE, but suggested Egalitarian/Cosmopolitan for RICE
+	heritage = heritage_indo_aryan
+	language = language_magadhan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_music_theory			# Magadha was renowned for its bards, and many poets in the Pala court came from Magadha (originally Amorous Arts suggestion)
+		tradition_agrarian 				# One of the most agriculturally productive regions in the world at the time
+		tradition_religion_blending 	# Soraya's suggestion
+		# Soraya suggests a "Sacred Ancestors" tradition, left a note here for later
+	}
+	
+	name_list = name_list_hindustani
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+maithili = {# Maithili
+	color = { 191 25 30 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_indo_aryan
+	language = language_maithili
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_khadga_puja
+		tradition_court_eunuchs
+		tradition_religious_patronage
+		tradition_artisans 				# Mithila, which is also being represented by this culture, was known for its Silk and Cotton Textiles
+	}
+
+	name_list = name_list_bihari
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+# Maharastra Cultures			
 konkani = {# Konkani
 	color = hsv{  224 17 95 }
 	
@@ -388,6 +444,7 @@ konkani = {# Konkani
 		10 = indian
 	}
 }
+# Northern Cultures			
 awadhi = {# Awadhi
 	color = {150 0 24 }
 	
@@ -439,6 +496,36 @@ braj = {# braj
 		10 = indian
 	}
 }
+hindustani_proper = {# Hindustani 
+	color = { 0.6 0.3 0.0 }
+	created = 1206.1.1
+	parents = { awadhi turkish }
+	
+	ethos = ethos_courtly
+	heritage = heritage_indo_aryan
+	language = language_hindi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_court_eunuchs
+		tradition_philosopher_culture
+		tradition_music_theory
+		tradition_gardening
+		tradition_lords_of_the_elephant
+	}
+	
+	name_list = name_list_hindustani
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian		
+	}
+}
+# Tribal Cultures			
 bhil = {# bhil
 	color = { 202 52 51 }
 	
@@ -453,31 +540,6 @@ bhil = {# bhil
 	}
 
 	name_list = name_list_bhil
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
-	ethnicities = {
-		10 = indian
-	}
-}
-nagpuri = {# nagpuri
-	color = { 94 25 20 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_indo_aryan
-	language = language_nagpuri
-	martial_custom = martial_custom_male_only
-	traditions = {
-		
-		tradition_pastoralists
-		tradition_sacred_groves
-		tradition_family_entrepreneurship
-	}
-
-	name_list = name_list_nagpuri
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -512,6 +574,31 @@ sambalpuri = {# sambalpuri
 		10 = indian
 	}
 }
+nagpuri = {# nagpuri
+	color = { 94 25 20 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_indo_aryan
+	language = language_nagpuri
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_pastoralists
+		tradition_sacred_groves
+		tradition_family_entrepreneurship
+	}
+
+	name_list = name_list_nagpuri
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+# Himilayan Cultures			
 pahari = {# pahari
 	color = {255 90 95 }
 	
@@ -562,39 +649,6 @@ kamarupi = {# kamarupi
 		10 = indian
 	}
 }
-hindustani_proper = {# Hindustani 
-	color = { 0.6 0.3 0.0 }
-	created = 1206.1.1
-	parents = { awadhi turkish }
-	
-	ethos = ethos_courtly
-	heritage = heritage_indo_aryan
-	language = language_hindi
-	martial_custom = martial_custom_male_only
-	traditions = {
-		
-		tradition_court_eunuchs
-		tradition_philosopher_culture
-		tradition_music_theory
-		tradition_gardening
-		tradition_lords_of_the_elephant
-	}
-	
-	name_list = name_list_hindustani
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = indian
-
-
-		
-	}
-}
-
 newar = {# Newar People
 	color = { 137 63 69  }
 	
@@ -673,33 +727,58 @@ kuamoni = {#  Kuamoni
 		4 = asian
 	}
 }
-maithili = {# Maithili
-	color = { 219 0 7 }
-	
-	ethos = ethos_courtly
+# Dardic Cultures			
+shina = {# Shina
+	color = { 150 58 36 }
+	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
-	language = language_maithili
+	language = language_kashmiri
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
-		tradition_khadga_puja
-		tradition_court_eunuchs
-		tradition_religious_patronage
+		tradition_himalayan_settlers
+		tradition_poetry
+		tradition_equal_inheritance
+		tradition_philosopher_culture
 	}
-
-	name_list = name_list_bihari
+	
+	name_list = name_list_kashmiri
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
-
+	
 	ethnicities = {
 		10 = indian
+		1 = asian
 	}
 }
-############ For Rice Compitability ############
-nuristani = {
+chitrali = {# Chitrali
+	color = { 150 82 27 }
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_kashmiri
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_poetry
+		tradition_equal_inheritance
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_kashmiri
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+		1 = asian
+	}
+}
+nuristani = {# Nuristani
 	color = { 0.84 0.28 0.01 }
 	
 	ethos = ethos_bellicose
@@ -725,5 +804,57 @@ nuristani = {
 		10 = mediterranean
 	}
 }
+gandhari = {# Gandhari
+	color = { 188 88 125 }
 
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_kashmiri
+	martial_custom = martial_custom_male_only
 
+	traditions = {
+		tradition_philosopher_culture
+		tradition_city_keepers
+		tradition_hill_dwellers
+		tradition_staunch_traditionalists
+	}
+
+	name_list = name_list_kashmiri
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		5 = arab
+		10 = indian
+		5 = mediterranean_byzantine # mediterranean
+	}
+}
+brokpa = {# Brokpa and others in Lakadh
+	color = { 205 125 71 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_nuristani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_isolationist
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_nuristani
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = arab
+		10 = indian
+		10 = mediterranean
+	}
+}

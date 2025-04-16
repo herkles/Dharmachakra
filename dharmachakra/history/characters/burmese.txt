@@ -581,7 +581,7 @@ earlyburman007 = {# Sokkate
 burman010 = {# Maha Thanbawa
 	name = "Maha_Thanbawa" #Fictional ruler
 	dynasty = 2000013 #Thanbawa
-	religion = ari
+	religion = burmic
 	culture = burmese
 	
 	840.1.1 = {
@@ -746,7 +746,7 @@ kaleinga_10 = {
 burman012 = {# Thihanu
 	name = "Thihanu" #Fictional ruler
 	dynasty = 2000015 #Thihanu
-	religion = ari
+	religion = burmic
 	culture = burmese
 	
 	830.1.1 = {

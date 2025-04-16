@@ -348,7 +348,7 @@
 1152 = {	# 1152 - Mudgagiri
 	
 	# Misc
-	culture = bihari
+	culture = magadhi
 	religion = vajrayana
 	
 	holding = castle_holding
@@ -361,7 +361,7 @@
 1154 = {	# 1154 - Pataliputra
 	
 	# Misc
-	culture = bihari
+	culture = magadhi
 	religion = vajrayana
 	
 	holding = castle_holding
@@ -422,7 +422,7 @@
 1234 = {	# 1234 - Deogarh2 / Deogarh in Damin-i-Koh
 	
 	# Misc
-	culture = nagpuri
+	culture = magadhi
 	religion = mahayana
 	
 	holding = tribal_holding
@@ -489,7 +489,7 @@
 1276 = {	# 1276 - Gaya
 	
 	# Misc
-	culture = bihari
+	culture = magadhi
 	religion = mahayana
 	
 	holding = castle_holding
@@ -546,7 +546,7 @@
 1419 = {	# 1419 - Mithila
 	
 	# Misc
-	culture = bihari
+	culture = maithili
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -559,7 +559,7 @@
 1420 = {	# 1420 - Simaramapura
 	
 	# Misc
-	culture = bihari
+	culture = maithili
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -585,7 +585,7 @@
 9654 = {	# 9654 - Bangaon
 	
 	# Misc
-	culture = bihari
+	culture = maithili
 	religion = kalikula_shaktism
 	
 	holding = castle_holding

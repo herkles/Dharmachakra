@@ -54,6 +54,29 @@
  kuamoni_collective_noun:0 "Kuamoni"
  kuamoni_prefix:0 "Kuamoni"
 
+ magadhi:0 "Magadhi"
+ magadhi_prefix:0 "Magadhi"
+ magadhi_collective_noun:0 "Magadhis"
+
+ gandhari:0 "Gandhari"
+ gandhari_prefix:0 "Gandhari"
+ gandhari_collective_noun:0 "Gandhari"
+
+ shina:0 "Shina"
+ shina_name:0 "Shina"
+ shina_collective_noun:0 "Shina"
+ shina_prefix:0 "Shina"
+
+ chitrali:0 "Chitrali"
+ chitrali_name:0 "Chitrali"
+ chitrali_collective_noun:0 "Chitralis"
+ chitrali_prefix:0 "Chitrali"
+
+ brokpa:0 "Brokpa"
+ brokpa_name:0 "Brokpa"
+ brokpa_collective_noun:0 "Brokpas"
+ brokpa_prefix:0 "Brokpa"
+
 # New Burman Cultures
  rakhine:0 "Rakhine"
  rakhine_collective_noun:0 "Rakhines"
@@ -99,6 +122,11 @@
  nuristani:0 "Nuristani"
  nuristani_collective_noun:1 "Nuristanis"
  nuristani_prefix:0 "Nuristani"
+
+ pamiri:0 "Pamiri"
+ pamiri_name:0 "Pamiri"
+ pamiri_collective_noun:0 "Pamiris"
+ pamiri_prefix:0 "Pamiri"
 
 # Munda Culture Group
  khasi:0 "Khasi"

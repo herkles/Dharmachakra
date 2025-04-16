@@ -83,7 +83,6 @@
   dharma_hero_stone_decision_ancestor: "You have a recently deceased ancestor"
 
 
-
 #######################################
 # Sacred Groves
 #######################################
@@ -97,19 +96,5 @@
 
   no_sacred_grove_county:0 "You do not own a [county|E] with a Sacred Grove [county_modifier|E]"
   yes_sacred_grove_county:0 "You own a [county|E] with a Sacred Grove [county_modifier|E]"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

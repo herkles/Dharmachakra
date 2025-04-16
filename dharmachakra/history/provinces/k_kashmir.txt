@@ -15,7 +15,7 @@
 1351 = {	# 1315 - Gilgit
 	
 	# Misc
-	culture = kashmiri #Dardic
+	culture = chitrali #Dardic
 	religion = shaivism
 	
 	holding = castle_holding
@@ -133,7 +133,7 @@
 7953 = {	# 7953 - Golaghmuli
 	
 	# Misc
-	culture = kashmiri #Dardic
+	culture = chitrali #Dardic
 	religion = shaivism
 	
 	holding = castle_holding
@@ -148,7 +148,7 @@
 7954 = {	# 7954 - Yasin
 	
 	# Misc
-	culture = kashmiri #Dardic
+	culture = chitrali #Dardic
 	religion = shaivism
 	
 	holding = castle_holding
@@ -199,7 +199,7 @@
 9024 = {	# 9024 - Astore
 	
 	# Misc
-	culture = kashmiri #Dardic
+	culture = shina #Dardic
 	religion = kalikula_shaktism
 	
 	holding = castle_holding

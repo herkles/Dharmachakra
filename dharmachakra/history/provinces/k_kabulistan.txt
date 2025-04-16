@@ -16,7 +16,7 @@
 	
 	# Misc
 	culture = afghan
-	religion = mahayana
+	religion = zun_pagan
 
 	# History
 
@@ -29,7 +29,7 @@
 	
 	# Misc
 	culture = afghan
-	religion = mahayana
+	religion = zun_pagan
 
 	# History
 
@@ -38,11 +38,11 @@
 	}
 
 }
-4489 = {# 4489 - Zamindawr
+4489 = {# 4489 - Zamindawar
 	
 	# Misc
 	culture = afghan
-	religion = mahayana
+	religion = zun_pagan
 
 	# History
 

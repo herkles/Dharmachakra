@@ -2,8 +2,8 @@
 9002 = {	# 9002 - Leh
 	
 	# Misc
-	culture = kashmiri #Dardic
-	religion = vajrayana
+	culture = brokpa #Dardic
+	religion = minaro_pagan
 	
 	holding = castle_holding
 	
@@ -117,8 +117,8 @@
 9009 = {	# 9009 - Diskit
 	
 	# Misc
-	culture = kashmiri #Dardic
-	religion = vajrayana
+	culture = brokpa #Dardic
+	religion = minaro_pagan
 	
 	holding = castle_holding
 	
@@ -187,8 +187,8 @@
 9013 = {	# 9013 - Padum
 	
 	# Misc
-	culture = kashmiri #Dardic
-	religion = vajrayana
+	culture = brokpa #Dardic
+	religion = minaro_pagan
 	
 	holding = castle_holding
 	
@@ -243,8 +243,8 @@
 9016 = {	# 9016 - Darcha
 	
 	# Misc
-	culture = kashmiri #Dardic
-	religion = vajrayana
+	culture = brokpa #Dardic
+	religion = minaro_pagan
 	
 	holding = castle_holding
 	
@@ -278,8 +278,8 @@
 9018 = {	# 9018 - Purig (Kargil)
 	
 	# Misc
-	culture = kashmiri #Dardic
-	religion = vajrayana
+	culture = brokpa #Dardic
+	religion = minaro_pagan
 	
 	holding = castle_holding
 	
@@ -313,7 +313,7 @@
 9020 = {	# 9020 - Skardu
 	
 	# Misc
-	culture = kashmiri #Dardic
+	culture = shina #Dardic
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -380,7 +380,7 @@
 9026 = {	# 9026 - Shigar
 	
 	# Misc
-	culture = kashmiri #Dardic
+	culture = shina #Dardic
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -413,7 +413,7 @@
 9028 = {	# 9028 - Khaplu
 	
 	# Misc
-	culture = kashmiri #Dardic
+	culture = shina #Dardic
 	religion = kalikula_shaktism
 	
 	holding = castle_holding

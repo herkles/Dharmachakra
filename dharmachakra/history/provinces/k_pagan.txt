@@ -728,7 +728,7 @@
 	
 	# Misc
 	culture = meitei
-	religion = ari
+	religion = burmic
 	
 	holding = tribal_holding
 	
@@ -980,7 +980,7 @@
 	
 	# Misc
 	culture = burmese
-	religion = ari
+	religion = burmic
 	
 	holding = tribal_holding
 	
@@ -1038,7 +1038,7 @@
 	
 	# Misc
 	culture = burmese
-	religion = ari
+	religion = burmic
 	
 	holding = tribal_holding
 	
@@ -1054,7 +1054,7 @@
 	
 	# Misc
 	culture = burmese
-	religion = ari
+	religion = burmic
 	
 	holding = none
 	

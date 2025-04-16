@@ -1,0 +1,14 @@
+﻿l_english:
+ decision_group_type_hindu_major: "Major Hindu Decision"
+ decision_group_type_buddhist_major: "Major Buddhist Decisions"
+ decision_group_type_jain_major: "Major Jain Decisions"
+ decision_group_type_hindu_medium: "Hindu Decisions"
+ decision_group_type_buddhist_medium: "Buddhist Decisions"
+ decision_group_type_jain_medium: "Jain Decisions"
+ decision_group_type_tibetan_medium: "Tibetan Decisions"
+ decision_group_type_burmese_medium: "Burmese Decisions"
+ decision_group_type_dravidian_medium: "Dravidian Decisions"
+ decision_group_type_hindu_minor: "Minor Hindu Decisions"
+ decision_group_type_buddhist_minor: "Minor Buddhist Decisions"
+ decision_group_type_jain_minor: "Minor Jain Decisions"
+

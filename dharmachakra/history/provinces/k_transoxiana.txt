@@ -177,7 +177,7 @@
 ##d_badakhshan ###################################
 ###c_badakhshan
 4355 = {	#Badakhshan
-	culture = sogdian #represents the Pamir and Bactrian cultures that seems to have been present here in this period
+	culture = pamiri #represents the Pamir and Bactrian cultures that seems to have been present here in this period
 	religion = mahayana
 	holding = castle_holding
 	1.1.1 = {
@@ -205,7 +205,7 @@
 
 ###c_munjan
 4357 = {	#Munjan
-	culture = nuristani
+	culture = pamiri
 	religion = nuristani_pagan
 	holding = castle_holding
 }
@@ -219,8 +219,8 @@
 ###c_wakhan
 4362 = {	#Wakhan
 	# History
-	culture = nuristani
-	religion = nuristani_pagan
+	culture = pamiri
+	religion = vajrayana
 	# History
 	holding = castle_holding
 }
@@ -235,7 +235,7 @@
 
 ###c_shughnan
 4363 = {	#Shughnan
-	culture = saka #represents the Pamir and Bactrian cultures that seems to have been present here in this period
+	culture = pamiri #represents the Pamir and Bactrian cultures that seems to have been present here in this period
 	religion = mahayana
 	holding = castle_holding
 	1000.1.1 = {
@@ -260,7 +260,7 @@
 
 ###c_karran
 4366 = {	#Upper Karran
-	culture = sogdian #represents the Pamir and Bactrian cultures that seems to have been present here in this period
+	culture = pamiri #represents the Pamir and Bactrian cultures that seems to have been present here in this period
 	religion = mahayana
 	holding = castle_holding
 	1000.1.1 = {
@@ -356,7 +356,7 @@
 
 ###c_rasht
 4383 = {	#Rasht
-	culture = sogdian
+	culture = pamiri
 	religion = mahayana
 	holding = castle_holding
 	900.1.1 = {

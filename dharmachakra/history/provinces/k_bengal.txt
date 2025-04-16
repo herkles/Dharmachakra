@@ -691,7 +691,7 @@
 	
 	# Misc
 	culture = bengali
-	religion = theravada
+	religion = vajrayana
 	
 	holding = castle_holding
 	
@@ -734,7 +734,7 @@
 	
 	# Misc
 	culture = bengali
-	religion = theravada
+	religion = vajrayana
 	
 	holding = castle_holding
 	

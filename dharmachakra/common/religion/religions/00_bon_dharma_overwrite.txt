@@ -263,5 +263,22 @@
 
 			doctrine = unreformed_faith_doctrine
 		}
+		kinnaur_pagan = {
+			color = { 25 8 88 }
+			icon = kinnaur_pagan
+			reformed_icon = kinnaur_pagan_reformed
+			
+			holy_site = gilgit
+			holy_site = purang
+			holy_site = garwhal
+			holy_site = haridwar
+			holy_site = kinnaur
+			
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_cthonic_redoubts
+			doctrine = tenet_esotericism 
+			doctrine = tenet_ritual_hospitality 
+		}
 	}
 }

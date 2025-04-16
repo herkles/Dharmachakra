@@ -43,5 +43,36 @@
 		5 = mediterranean
 	}
 }
+pamiri = {
+	color = { 58 69 152 } # 0.11 0.11 0.22
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_pastoralists
+		tradition_mendicant_mystics
+	}
 
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_festivities 
+	}
+	
+	name_list = name_list_afghan # Should be their own but eh
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	#clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		8 = arab
+		5 = mediterranean_byzantine # mediterranean
+	}
+}
 
