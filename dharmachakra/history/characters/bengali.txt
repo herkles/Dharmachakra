@@ -2648,60 +2648,7 @@
 			death = yes
 		}
 	}
-#######################################
-# Khayarwala Dynasty
-#######################################
-	191389 = {# Kadirapala
-		name = "Kadirapala"
-		dynasty = 1044343 # Khayarwala
-		religion = "kalikula_shaktism"
-		culture = "bengali"
-		1090.1.1 = {
-			birth = yes
-		}
-		1168.1.1 = {
-			death = yes
-		}
-	}
-	191390 = {# Pratapadhawala
-		name = "Pratapadhawala"
-		dynasty = 1044343 # Khayarwala
-		father = 191389
-		religion = "kalikula_shaktism"
-		culture = "bengali"
-		1120.1.1 = {
-			birth = yes
-		}
-		1185.1.1 = {
-			death = yes
-		}
-	}
-	191391 = {# Sahasadhawala
-		name = "Sahasadhawala"
-		dynasty = 1044343 # Khayarwala
-		father = 191390
-		religion = "kalikula_shaktism"
-		culture = "bengali"
-		1140.1.1 = {
-			birth = yes
-		}
-		1200.1.1 = {
-			death = yes
-		}
-	}
-	191392 = {# Indradhawala
-		name = "Indradhawala"
-		dynasty = 1044343 # Khayarwala
-		father = 191391
-		religion = "kalikula_shaktism"
-		culture = "bengali"
-		1180.1.1 = {
-			birth = yes
-		}
-		1240.1.1 = {
-			death = yes
-		}
-	}
+
 #######################################
 # Sonhat Dynasty
 #######################################
@@ -2734,60 +2681,7 @@
 			death = yes
 		}
 	}
-#######################################
-# Ranaka Dynasty
-#######################################
-	191535 = {# Nanda
-		name = "Nanda"
-		dynasty = 1044326 #Ranaka
-		religion = "shaivism"
-		culture = "bengali"
-		1100.1.1 = {
-			birth = yes
-		}
-		1161.1.1 = {
-			death = yes
-		}
-	}
-	191536 = {# Sumudraditya
-		name = "Sumudraditya"
-		dynasty = 1044326 #Ranaka
-		religion = "shaivism"
-		culture = "bengali"
-		father = 191535
-		1120.1.1 = {
-			birth = yes
-		}
-		1180.1.1 = {
-			death = yes
-		}
-	}
-	191537 = {# Srideva
-		name = "Srideva"
-		dynasty = 1044326 #Ranaka
-		religion = "shaivism"
-		culture = "bengali"
-		father = 191536
-		1140.1.1 = {
-			birth = yes
-		}
-		1200.1.1 = {
-			death = yes
-		}
-	}
-	191538 = {# Yaksapala
-		name = "Yaksapala"
-		dynasty = 1044326 #Ranaka
-		religion = "shaivism"
-		culture = "bengali"
-		father = 191537
-		1160.1.1 = {
-			birth = yes
-		}
-		1203.10.1 = {
-			death = yes
-		}
-	}
+
 #######################################
 # Pattikara Dynasty
 #######################################

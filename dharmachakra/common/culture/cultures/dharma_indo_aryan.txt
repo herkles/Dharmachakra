@@ -212,7 +212,6 @@ marathi = {# Indo-Aryan
 	language = language_marathi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
 		tradition_hard_working
 		tradition_modest
 		tradition_pastoralists
@@ -344,17 +343,16 @@ brahui = { # FP3 addition. This people represent, as best as I have been able to
 #############################################
 # Bihari Cultures			
 bihari = {# Bhojpuri
-	color = { 219 0 7 }
-	
+	color = { 219 0 7 }	
 	ethos = ethos_courtly
 	heritage = heritage_indo_aryan
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
-		tradition_khadga_puja
+		tradition_music_theory	
 		tradition_court_eunuchs
 		tradition_religious_patronage
+		tradition_agrarian
 	}
 
 	name_list = name_list_bihari
@@ -379,7 +377,7 @@ magadhi = {# Magadhi
 		tradition_music_theory			# Magadha was renowned for its bards, and many poets in the Pala court came from Magadha (originally Amorous Arts suggestion)
 		tradition_agrarian 				# One of the most agriculturally productive regions in the world at the time
 		tradition_religion_blending 	# Soraya's suggestion
-		# Soraya suggests a "Sacred Ancestors" tradition, left a note here for later
+		tradition_mystical_ancestors	# Soraya's suggestion
 	}
 	
 	name_list = name_list_hindustani
@@ -395,13 +393,12 @@ magadhi = {# Magadhi
 }
 maithili = {# Maithili
 	color = { 191 25 30 }
-	
 	ethos = ethos_courtly
 	heritage = heritage_indo_aryan
-	language = language_maithili
+	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {	
-		tradition_khadga_puja
+		tradition_agrarian
 		tradition_court_eunuchs
 		tradition_religious_patronage
 		tradition_artisans 				# Mithila, which is also being represented by this culture, was known for its Silk and Cotton Textiles
@@ -736,9 +733,8 @@ shina = {# Shina
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_poetry
-		tradition_equal_inheritance
-		tradition_philosopher_culture
+		tradition_isolationist
+		tradition_stalwart_defenders
 	}
 	
 	name_list = name_list_kashmiri
@@ -761,9 +757,8 @@ chitrali = {# Chitrali
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_poetry
-		tradition_equal_inheritance
-		tradition_philosopher_culture
+		tradition_isolationist
+		tradition_stalwart_defenders
 	}
 	
 	name_list = name_list_kashmiri
@@ -842,7 +837,7 @@ brokpa = {# Brokpa and others in Lakadh
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_isolationist
-		tradition_stalwart_defenders
+		tradition_pastoralists
 	}
 	
 	name_list = name_list_nuristani

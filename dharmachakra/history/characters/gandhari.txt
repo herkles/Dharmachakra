@@ -1,0 +1,97 @@
+﻿#######################################
+# Nagra Dynasty
+#######################################
+178024 = {
+	name = "Khushal" # Fictional
+	dynasty = 1041124
+	religion = "vaishnavism"
+	culture = "gandhari"
+	834.1.1 = {
+		birth = "834.1.1"
+	}
+	888.1.1 = {
+		death = "884.1.1"
+	}
+}
+188555 = {
+	name = "Lahna" # fictional
+	dynasty = 1041124
+	religion = "vaishnavism"
+	culture = "gandhari"
+	742.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Janda Dynasty
+#######################################
+178021 = {
+	name = "Ajit" # Fictional
+	dynasty = 1041121
+	religion = "mahayana"
+	culture = "gandhari"
+	834.1.1 = {
+		birth = "834.1.1"
+	}
+	888.1.1 = {
+		death = "884.1.1"
+	}
+}
+#######################################
+# Padda Dynasty
+#######################################
+178025 = {
+	name = "Budh" # Fictional
+	dynasty = 1041125
+	religion = "vaishnavism"
+	culture = "gandhari"
+	834.1.1 = {
+		birth = "834.1.1"
+	}
+	888.1.1 = {
+		death = "884.1.1"
+	}
+}
+188552 = {
+	name = "Mohri" # fictional
+	dynasty = 1041125
+	religion = "mahayana"
+	culture = "gandhari"
+	705.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+188553 = {
+	name = "Prithichand" # fictional
+	dynasty = 1041125
+	religion = "mahayana"
+	culture = "gandhari"
+	father = 188552
+	732.1.1 = {
+		birth = yes
+	}
+	795.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Other Characters
+#######################################
+178026 = {
+	name = "Mohan" # Fictional
+	dynasty = 1041126
+	religion = "vaishnavism"
+	culture = "gandhari"
+	834.1.1 = {
+		birth = "834.1.1"
+	}
+	888.1.1 = {
+		death = "884.1.1"
+	}
+}

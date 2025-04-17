@@ -3,7 +3,7 @@
 	
 	# Misc
 	culture = afghan
-	religion = mahayana
+	religion = zun_pagan
 
 	# History
 
@@ -49,9 +49,20 @@
 	1000.1.1 = {
 		religion = ashari
 	}
+}
+4509 = {# 4499 - Mapan
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
 
 }
-
 ####### Kabulistan ########
 # Chitral County
 4515 = {# 4515 - Chitral

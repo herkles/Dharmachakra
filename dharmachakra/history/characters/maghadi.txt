@@ -1,0 +1,76 @@
+#######################################
+# Chikore Dynasty
+#######################################
+191070 = {# Vallabharaja
+	name = "Vallabharaja"
+	dynasty = 1044312	#Chikore
+	religion = "mahayana"
+	culture = "magadhi"
+	1000.1.1 = {
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+191071 = {# Devaraksita
+	name = "Devaraksita"
+	dynasty = 1044312	#Chikore
+	religion = "mahayana"
+	culture = "magadhi"
+	father = 191070
+	1050.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		add_spouse = 191403
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+191404 = {# Kumaradevi
+	name = "Kumaradevi"
+	female = yes
+	dynasty = 1044312	#Chikore
+	religion = "mahayana"
+	culture = "magadhi"
+	father = 191071
+	mother = 191403
+	1071.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Visvarupa Dynasty
+#######################################
+190121 = {# Visvarupa
+	name = "Visvarupa" #actual governor of gaya
+	dynasty = 1044026
+	religion = "mahayana"
+	culture = "magadhi"
+	1027.1.1 = {
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

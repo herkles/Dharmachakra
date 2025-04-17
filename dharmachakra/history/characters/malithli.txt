@@ -1,0 +1,242 @@
+#######################################
+# Ajatashatru Dynasty
+#######################################
+190103 = {# Ajatashatru
+	name = "Ajatashatru" #Random ruler of tirabhukti
+	dynasty = 1044014
+	religion = "theravada"
+	culture = "bihari"
+	828.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+190104 = {# Udayin
+	name = "Udayin" #Son of Random ruler of tirabhukti
+	dynasty = 1044014
+	religion = "theravada"
+	culture = "bihari"
+	father = 190103
+	847.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+190105 = {# Bimbisara
+	name = "Bimbisara" #Grandson of Random ruler of tirabhukti
+	dynasty = 1044014
+	religion = "theravada"
+	culture = "bihari"
+	father = 190104
+	866.1.1 = {
+		birth = yes
+	}
+	912.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Minor Gupta Dynasty
+#######################################
+191397 = {# Yajnesagupta
+	name = "Yajnesagupta"
+	dynasty = 1044345 # Minor Guptas
+	religion = "srikula_shaktism"
+	culture = "bihari"
+	1050.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+191398 = {# Damodargupta
+	name = "Damodargupta"
+	dynasty = 1044345 # Minor Guptas
+	father = 191397
+	religion = "srikula_shaktism"
+	culture = "bihari"
+	1070.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+191399 = {# Devagupta
+	name = "Devagupta"
+	dynasty = 1044345 # Minor Guptas
+	father = 191398
+	religion = "srikula_shaktism"
+	culture = "bihari"
+	1090.1.1 = {
+		birth = yes
+	}
+	1147.1.1 = {
+		death = yes
+	}
+}
+191400 = {# Rajadityagupta
+	name = "Rajadityagupta"
+	dynasty = 1044345 # Minor Guptas
+	father = 191399
+	religion = "srikula_shaktism"
+	culture = "bihari"
+	1110.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+191401 = {# Krishnagupta
+	name = "Krishnagupta"
+	dynasty = 1044345 # Minor Guptas
+	father = 191400
+	religion = "kalikula_shaktism"
+	culture = "bihari"
+	1130.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+191402 = {# Samgramagupta
+	name = "Samgramagupta"
+	dynasty = 1044345 # Minor Guptas
+	father = 191401
+	religion = "shaivism"
+	culture = "bihari"
+	1150.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+#######################################
+# Khayarwala Dynasty
+#######################################
+	191389 = {# Kadirapala
+		name = "Kadirapala"
+		dynasty = 1044343 # Khayarwala
+		religion = "kalikula_shaktism"
+		culture = "maithili"
+		1090.1.1 = {
+			birth = yes
+		}
+		1168.1.1 = {
+			death = yes
+		}
+	}
+	191390 = {# Pratapadhawala
+		name = "Pratapadhawala"
+		dynasty = 1044343 # Khayarwala
+		father = 191389
+		religion = "kalikula_shaktism"
+		culture = "maithili"
+		1120.1.1 = {
+			birth = yes
+		}
+		1185.1.1 = {
+			death = yes
+		}
+	}
+	191391 = {# Sahasadhawala
+		name = "Sahasadhawala"
+		dynasty = 1044343 # Khayarwala
+		father = 191390
+		religion = "kalikula_shaktism"
+		culture = "maithili"
+		1140.1.1 = {
+			birth = yes
+		}
+		1200.1.1 = {
+			death = yes
+		}
+	}
+	191392 = {# Indradhawala
+		name = "Indradhawala"
+		dynasty = 1044343 # Khayarwala
+		father = 191391
+		religion = "kalikula_shaktism"
+		culture = "maithili"
+		1180.1.1 = {
+			birth = yes
+		}
+		1240.1.1 = {
+			death = yes
+		}
+	}
+#######################################
+# Ranaka Dynasty
+#######################################
+191535 = {# Nanda
+name = "Nanda"
+dynasty = 1044326 #Ranaka
+religion = "shaivism"
+culture = "maithili"
+1100.1.1 = {
+	birth = yes
+}
+1161.1.1 = {
+	death = yes
+}
+}
+191536 = {# Sumudraditya
+name = "Sumudraditya"
+dynasty = 1044326 #Ranaka
+religion = "shaivism"
+culture = "maithili"
+father = 191535
+1120.1.1 = {
+	birth = yes
+}
+1180.1.1 = {
+	death = yes
+}
+}
+191537 = {# Srideva
+name = "Srideva"
+dynasty = 1044326 #Ranaka
+religion = "shaivism"
+culture = "maithili"
+father = 191536
+1140.1.1 = {
+	birth = yes
+}
+1200.1.1 = {
+	death = yes
+}
+}
+191538 = {# Yaksapala
+name = "Yaksapala"
+dynasty = 1044326 #Ranaka
+religion = "shaivism"
+culture = "maithili"
+father = 191537
+1160.1.1 = {
+	birth = yes
+}
+1203.10.1 = {
+	death = yes
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
