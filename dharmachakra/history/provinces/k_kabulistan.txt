@@ -1,9 +1,136 @@
+####### Zamindawar ########
+4489 = {# 4489 - Zamindawar
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+}
+4490 = {# 4490 - sarwan
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+}
+4491 = {# 4491 - bishang
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+}
+4492 = {# 4492 - durgas
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+}
+4493 = {# 4493 - bagnin
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+}
+####### Rukhaj ########
+4499 = {# 4499 - Rukhaj
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4494 = {# 4494 - rudan
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4495 = {# 4495 - panjway
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4496 = {# 4496 - bakrawath
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
+4498 = {# 4498 - qandahar
+	
+	# Misc
+	culture = afghan
+	religion = zun_pagan
+
+	# History
+
+	1000.1.1 = {
+		religion = ashari
+	}
+
+}
 ####### Zabulistan ########
 4500 = {# 4500 - Ghazna
 	
 	# Misc
 	culture = afghan
-	religion = zun_pagan
+	religion = mahayana
 
 	# History
 
@@ -25,36 +152,11 @@
 	}
 
 }
-4499 = {# 4499 - Rukhaj
-	
-	# Misc
-	culture = afghan
-	religion = zun_pagan
-
-	# History
-
-	1000.1.1 = {
-		religion = ashari
-	}
-
-}
-4489 = {# 4489 - Zamindawar
-	
-	# Misc
-	culture = afghan
-	religion = zun_pagan
-
-	# History
-
-	1000.1.1 = {
-		religion = ashari
-	}
-}
 4509 = {# 4499 - Mapan
 	
 	# Misc
 	culture = afghan
-	religion = zun_pagan
+	religion = mahayana
 
 	# History
 
