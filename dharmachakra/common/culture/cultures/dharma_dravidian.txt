@@ -14,7 +14,6 @@
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
-		
 		tradition_metal_craftsmanship #Wootz Steel
 		tradition_seafaring
 		tradition_tamil_thai
@@ -132,4 +131,111 @@ malayali = {# Malayali
 		10 = south_indian
 	}
 }
+tulu = {# Tulu
+	color = { 238 234 98 }
+	ethos = ethos_courtly
+	heritage = heritage_dravidian
+	language = language_tulu
+	martial_custom = martial_custom_male_only
+	
+	name_list = name_list_kannada
+	
+	coa_gfx = { dravidian_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
 
+	traditions = {
+		tradition_fishermen 
+		tradition_poetry
+		tradition_maritime_mercantilism
+		tradition_jungle_dwellers
+	}
+	
+	ethnicities = {
+		10 = south_indian
+	}
+}
+khond = {# Khond
+	color = { 190 200 85 }
+
+	ethos = ethos_communal
+	heritage = heritage_dravidian
+	language = language_gondi
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_gond
+
+	coa_gfx = { dravidian_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_jungle_dwellers
+		tradition_hill_dwellers
+		tradition_hunters
+		tradition_collective_lands
+	}
+
+	ethnicities = {
+		10 = south_indian
+	}
+}
+kurukh = {#Kurukh
+	color = { 160 185 60 }
+
+	ethos = ethos_communal
+	heritage = heritage_dravidian
+	language = language_kurukh
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_munda
+
+	coa_gfx = { dravidian_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_jungle_dwellers
+		tradition_hill_dwellers
+		tradition_collective_lands
+		tradition_sacred_groves
+	}
+
+	ethnicities = {
+		10 = south_indian
+	}
+}
+brahui = { # FP3 addition. This people represent, as best as I have been able to research this mysterious issue, the mixed nomadic population of Baluchistan before the Baloch migration. 
+	color = { 1.0 0.4 0.4 }
+	
+	ethos = ethos_communal 
+	heritage = heritage_dravidian
+	language = language_north_dravidian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_astute_diplomats 
+		tradition_culture_blending
+		tradition_desert_nomads 
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_tribe_unity 
+	}
+	
+	name_list = name_list_gond
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	
+	ethnicities = {
+		6 = indian
+		4 = arab
+	}
+}

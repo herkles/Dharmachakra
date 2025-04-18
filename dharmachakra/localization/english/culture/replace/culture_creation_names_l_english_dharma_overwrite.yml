@@ -17,6 +17,12 @@
  maithili_name:0 "Maithili"
  maithili_collective_noun:0 "Maithilis"
  maithili_prefix:0 "Maithili"
+
+ mewari_name:0 "Mewari"
+ mewari_collective_noun:0 "Mewaris"
+ mewari_prefix:0 "Mewari"
+
+
 # New Burman Cultures
 
 # New Tibetan Cultures
@@ -24,9 +30,6 @@
 # Nuristani Culture Group
 
 # Munda Culture Group
- munda_group:0 "Munda"
- munda_group_collective_noun:0 "Mundas"
-
  munda:0 "Munda"
  munda_name:0 "Munda"
  munda_collective_noun:0 "Mundas"

@@ -1,5 +1,16 @@
 ﻿l_english:
 # New Dravidian Cultures
+ tulu:0 "Tulu"
+ tulu_collective_noun:0 "Tuluvas"
+ tulu_prefix:0 "Tulu"
+
+ kurukh:0 "Kurukh"
+ kurukh_collective_noun:1 "Kurukhs"
+ kurukh_prefix:0 "Khond"
+
+ khond:0 "Khond"
+ khond_collective_noun:1 "Kurukhs"
+ khond_prefix:0 "Khond"
 
 # New Indo Aryan Cultures
  konkani:0 "Konkani"
@@ -10,9 +21,9 @@
  braj_collective_noun:0 "Brajis"
  braj_prefix:0 "Braj"
 
- awadhi:0 "Awadhi"
- awadhi_collective_noun:0 "Awadhis"
- awadhi_prefix:0 "Awadhi"
+ awadhi:0 "Bagheli"
+ awadhi_collective_noun:0 "Baghelis"
+ awadhi_prefix:0 "Bagheli"
 
  saurashtra_name:0 "Saurashtra"
  saurashtra_collective_noun:0 "Saurashtrians"
@@ -77,6 +88,31 @@
  brokpa_collective_noun:0 "Brokpas"
  brokpa_prefix:0 "Brokpa"
 
+ dhundhari:0 "Dhundhari"
+ dhundhari_name:0 "Dhundhari"
+ dhundhari_collective_noun:0 "Dhundharis"
+ dhundhari_prefix:0 "Dhundhari"
+
+ shekhawati:0 "Shekhawati"
+ shekhawati_name:0 "Shekhawati"
+ shekhawati_collective_noun:0 "Shekhawati"
+ shekhawati_prefix:0 "Shekhawati"
+
+ haryanvi:0 "Haryanvi"
+ haryanvi_name:0 "Haryanvi"
+ haryanvi_collective_noun:0 "Haryanvis"
+ haryanvi_prefix:0 "Haryanvi"
+
+ multani:0 "Multani"
+ multani_name:0 "Multani"
+ multani_collective_noun:0 "Multanis"
+ multani_prefix:0 "Multani"
+
+ kannauji:0 "Kannauji"
+ kannauji_name:0 "Kannauji"
+ kannauji_collective_noun:0 "Kannaujis"
+ kannauji_prefix:0 "Kannauji"
+
 # New Burman Cultures
  rakhine:0 "Rakhine"
  rakhine_collective_noun:0 "Rakhines"
@@ -115,6 +151,11 @@
  garo_name:0 "Garo"
  garo_collective_noun:0 "Garo"
  garo_prefix:0 "Garo"
+
+ chakma:0 "Chakma"
+ chakma_name:0 "Chakma"
+ chakma_collective_noun:0 "Chakmas"
+ chakma_prefix:0 "Chakma"
 
 # Nuristani Culture Group
  nuristani_group:0 "Nuristani"

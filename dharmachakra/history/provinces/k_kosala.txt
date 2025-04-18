@@ -37,7 +37,7 @@
 1167 = {	# 1167 - Lakhnau
 	
 	# Misc
-	culture = awadhi
+	culture = kannauji
 	religion = vajrayana
 	
 	# History
@@ -50,7 +50,7 @@
 1169 = {	# 1169 - Kalpi
 	
 	# Misc
-	culture = awadhi
+	culture = braj
 	religion = svetambara
 	
 	# History
@@ -91,7 +91,7 @@
 1250 = {	# 1250 - Ayodhya
 	
 	# Misc
-	culture = awadhi
+	culture = kannauji
 	religion = vaishnavism
 
 	# History
@@ -161,7 +161,7 @@
 1283 = {	# 1283 - Asni
 	
 	# Misc
-	culture = awadhi
+	culture = kannauji
 	religion = vaishnavism
 	
 	# History
@@ -172,7 +172,7 @@
 1284 = {	# 1284 - Manikpur
 	
 	# Misc
-	culture = awadhi
+	culture = kannauji
 	religion = vajrayana
 	
 	holding = castle_holding
@@ -204,7 +204,7 @@
 1328 = {	# 1328 - Prayaga
 	
 	# Misc
-	culture = awadhi
+	culture = kannauji
 	religion = vajrayana
 	
 	# History
@@ -217,7 +217,7 @@
 1356 = {	# 1356 - Kanyakubja
 	
 	# Misc
-	culture = awadhi
+	culture = kannauji
 	religion = vaishnavism
 	
 	# History
@@ -250,7 +250,7 @@
 1421 = {	# 1421 - Sravasti
 	
 	# Misc
-	culture = awadhi
+	culture = bihari
 	religion = vajrayana
 	special_building_slot = sravasti_01
 	special_building = sravasti_01
@@ -262,7 +262,7 @@
 1422 = {	# 1422 - Naimisa
 	
 	# Misc
-	culture = awadhi
+	culture = kannauji
 	religion = vajrayana
 	
 	# History
@@ -427,7 +427,7 @@
 3967 = {	# 3967 - Chandrehi
 	
 	# Misc
-	culture = awadhi
+	culture = braj
 	religion = mahayana
 	
 	# History

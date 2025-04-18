@@ -296,8 +296,8 @@
 909 = {	# 909 - Palamau
 	
 	# Misc
-	culture = bihari
-	religion = mahayana
+	culture = kurukh
+	religion = sarnaism
 	
 	holding = none
 	
@@ -448,8 +448,8 @@
 1241 = {	# 1241 - Koriya
 	
 	# Misc
-	culture = nagpuri
-	religion = mahayana
+	culture = kurukh
+	religion = sarnaism
 	
 	holding = tribal_holding
 	

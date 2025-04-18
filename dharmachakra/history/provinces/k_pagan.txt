@@ -370,7 +370,7 @@
 9576 = {	# 9576 - Vaisali
 	
 	# Misc
-	culture = bengali
+	culture = rakhine
 	religion = mahayana
 	
 	holding = castle_holding
@@ -436,7 +436,7 @@
 9581 = {	# 9581 - Ramu
 	
 	# Misc
-	culture = bengali
+	culture = rakhine
 	religion = mahayana
 	
 	holding = castle_holding
@@ -463,8 +463,8 @@
 9583 = {	# 9583 - Thabeik_Taung/Thabeik Taung
 	
 	# Misc
-	culture = meitei
-	religion = sanamahi_pagan
+	culture = chakma
+	religion = theravada
 	
 	holding = castle_holding
 	
@@ -487,7 +487,7 @@
 9585 = {	# 9585 - Sandoway
 	
 	# Misc
-	culture = bengali
+	culture = rakhine
 	religion = mahayana
 	
 	holding = castle_holding

@@ -15,7 +15,7 @@
 1148 = {	# 1148 - Dasapura
 	
 	# Misc
-	culture = rajput
+	culture = mewari
 	religion = svetambara
 	
 	# History

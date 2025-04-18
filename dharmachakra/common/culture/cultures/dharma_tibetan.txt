@@ -262,3 +262,27 @@ garo = { # Garo People
 		10 = asian_tibetan_1
 	}
 }
+chakma = { # The chakma
+	color = { 165 219 229 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_tibetan
+	language = language_meitei
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity	
+		tradition_hill_dwellers 
+		tradition_sacred_groves
+	}
+	
+	name_list = name_list_meitei
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = asian_tibetan_1
+	}
+}

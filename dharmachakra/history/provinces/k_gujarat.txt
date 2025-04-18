@@ -152,7 +152,7 @@
 1291 = {	# 1291 - Mohadavasaka
 	
 	# Misc
-	culture = rajput
+	culture = mewari
 	religion = suryaism
 	
 	# History

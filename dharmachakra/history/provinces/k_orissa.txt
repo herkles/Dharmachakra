@@ -212,7 +212,7 @@
 1227 = {	# 1227 - Cakrakuta
 	
 	# Misc
-	culture = sambalpuri
+	culture = khond
 	religion = sarnaism
 	
 	holding = tribal_holding
@@ -225,8 +225,8 @@
 1228 = {	# 1228 - Swetakapura
 	
 	# Misc
-	culture = oriya
-	religion = kalikula_shaktism
+	culture = khond
+	religion = sarnaism
 	
 	holding = tribal_holding
 	
@@ -320,7 +320,7 @@
 	#b_barsoor = temple
 	
 	# Misc
-	culture = sambalpuri
+	culture = khond
 	religion = sarnaism
 	terrain = jungle
 
@@ -328,6 +328,9 @@
 
 	
 	# History
+	1066.1.1 = {
+		holding = castle_holding
+	}
 }
 
 # 1270 - Kiranapura

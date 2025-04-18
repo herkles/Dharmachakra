@@ -60,7 +60,7 @@
 1300 = {	# 1300 - Kota
 	
 	# Misc
-	culture = rajput
+	culture = dhundhari
 	religion = svetambara
 	
 	# History
@@ -71,7 +71,7 @@
 1302 = {	# 1302 - Chitrakut
 	
 	# Misc
-	culture = rajput
+	culture = mewari
 	religion = svetambara
 	
 	# History
@@ -95,7 +95,7 @@
 1345 = {	# 1345 - Aghata
 	
 	# Misc
-	culture = rajput
+	culture = mewari
 	religion = svetambara
 	
 	# History
@@ -108,7 +108,7 @@
 1346 = {	# 1346 - Shakambhari
 	
 	# Misc
-	culture = rajput
+	culture = dhundhari
 	religion = svetambara
 	
 	# History
@@ -143,7 +143,7 @@
 1353 = {	# 1353 - Harshnath
 	
 	# Misc
-	culture = rajput
+	culture = shekhawati
 	religion = shaivism
 	
 	# History
@@ -154,7 +154,7 @@
 1354 = {	# 1354 - Nagauda
 	
 	# Misc
-	culture = rajput
+	culture = shekhawati
 	religion = suryaism
 	
 	# History
@@ -167,7 +167,7 @@
 1355 = {	# 1355 - Ranthambore
 	
 	# Misc
-	culture = rajput
+	culture = dhundhari
 	religion = svetambara
 	
 	# History
@@ -224,7 +224,7 @@
 3342 = {	# 3342 - Naddula
 	
 	# Misc
-	culture = rajput
+	culture = mewari
 	religion = svetambara
 	
 	# History
@@ -286,7 +286,7 @@
 3347 = {	# 3347 - Ajayameru
 	
 	# Misc
-	culture = rajput
+	culture = dhundhari
 	religion = svetambara
 	
 	# History
@@ -433,7 +433,7 @@
 3481 = {	# 3481 - Vairata
 	
 	# Misc
-	culture = rajput
+	culture = shekhawati
 	religion = suryaism
 	
 	# History
@@ -649,7 +649,7 @@
 3968 = {	# 3968 - Sakarai
 	
 	# Misc
-	culture = rajput
+	culture = shekhawati
 	religion = vaishnavism
 	
 	# History

@@ -1,7 +1,7 @@
 ﻿#############################################
 # Vanilla Cultures			
 #############################################
-bengali = {# Indo-Aryan
+bengali = {# Renamed to Gaudiya to reflect what it was called in this era
 	color = { 0.45 0.0 0.0 }
 	
 	ethos = ethos_spiritual
@@ -52,31 +52,6 @@ oriya = {# Indo-Aryan
 		10 = indian
 	}
 }
-hindustani = {# Indo-Aryan
-	color = hindustani
-	
-	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_sauraseni
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_agrarian
-		tradition_ruling_caste
-		tradition_court_eunuchs
-		tradition_city_keepers
-	}
-	
-	name_list = name_list_hindustani
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = indian
-	}
-}
 gujarati = {# Indo-Aryan
 	color = { 0.4 0.2 0.2 }
 	
@@ -99,57 +74,6 @@ gujarati = {# Indo-Aryan
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
-	ethnicities = {
-		10 = indian
-	}
-}
-punjabi = {# Indo-Aryan
-	color = punjabi
-	
-	ethos = ethos_communal
-	heritage = heritage_indo_aryan
-	language = language_vrachada
-	martial_custom = martial_custom_male_only
-	traditions = {
-		
-		tradition_wedding_ceremonies
-		tradition_storytellers
-		tradition_agrarian
-	}
-	
-	name_list = name_list_punjabi
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = indian
-	}
-}
-rajput = {# Indo-Aryan - #Renamed to Rajasthani
-	color = rajput
-	
-	ethos = ethos_bellicose
-	heritage = heritage_indo_aryan
-	language = language_rajasthani
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_warrior_culture
-		tradition_dryland_dwellers
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
-	}
-
-	name_list = name_list_rajput
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
 	ethnicities = {
 		10 = indian
 	}
@@ -204,57 +128,6 @@ sindhi = {# Indo-Aryan
 		10 = indian
 	}
 }
-marathi = {# Indo-Aryan
-	color = marathi
-	
-	ethos = ethos_stoic
-	heritage = heritage_indo_aryan
-	language = language_marathi
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hard_working
-		tradition_modest
-		tradition_pastoralists
-	}
-	
-	name_list = name_list_marathi
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = indian
-	}
-}
-kashmiri = {# Indo-Aryan Dardic
-	color = kashmiri
-	
-	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_kashmiri
-	martial_custom = martial_custom_male_only
-	traditions = {
-		
-		tradition_himalayan_settlers
-		tradition_poetry
-		tradition_equal_inheritance
-		tradition_philosopher_culture
-	}
-	
-	name_list = name_list_kashmiri
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = indian
-		1 = asian
-	}
-}
 sinhala = {# Indo-Aryans who arrived in Sri Lanka ca 600BC
 	color = sinhala
 	
@@ -307,40 +180,162 @@ nepali = {# Khasa People
 		4 = asian
 	}
 }
-brahui = { # FP3 addition. This people represent, as best as I have been able to research this mysterious issue, the mixed nomadic population of Baluchistan before the Baloch migration. 
-	color = { 1.0 0.4 0.4 }
+#############################################
+# Dharmachakra Cultures			
+#############################################
+# Rajasthani Cultures
+rajput = {# Renamed to Marwari
+	color = rajput
 	
-	ethos = ethos_communal 
+	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_north_dravidian
+	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_astute_diplomats 
-		tradition_culture_blending
-		tradition_desert_nomads 
+		tradition_warrior_culture
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_mystical_ancestors
+		tradition_khadga_puja
 	}
 
-	dlc_tradition = {
-		trait = tradition_fp3_jirga
-		requires_dlc_flag = legacy_of_persia
-		fallback = tradition_tribe_unity 
-	}
-	
-	name_list = name_list_gond
+	name_list = name_list_rajput
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { iranian_building_gfx }
-	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
-	unit_gfx = { iranian_unit_gfx }
-	
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
 	ethnicities = {
-		6 = indian
-		4 = arab
+		10 = indian
 	}
 }
-#############################################
-# New Dharmachakra Cultures			
-#############################################
+mewari = {# Mewari People
+	color = {208 83 64 }
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_mystical_ancestors
+		tradition_khadga_puja
+	}
+
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+dhundhari = {# Dhundhari People
+	color = {255 99 71 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_mystical_ancestors
+		tradition_khadga_puja
+	}
+
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+shekhawati = {# Shekhawati
+	color = {255 36 0 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indo_aryan
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_dryland_dwellers
+		tradition_quarrelsome
+		tradition_mystical_ancestors
+		tradition_khadga_puja
+	}
+
+	name_list = name_list_rajput
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	ethnicities = {
+		10 = indian
+	}
+}
+# Punjabi Cultures
+punjabi = {# Renamed to Madraka
+	color = punjabi	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_khadga_puja
+		tradition_quarrelsome
+		tradition_religion_blending
+		tradition_agrarian
+	}
+	
+	name_list = name_list_punjabi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+multani = {# Multani
+	color = {255 127 80 }
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_religion_blending
+		tradition_zealous_people
+		tradition_agrarian
+	}
+	
+	name_list = name_list_punjabi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
 # Bihari Cultures			
 bihari = {# Bhojpuri
 	color = { 219 0 7 }	
@@ -415,7 +410,31 @@ maithili = {# Maithili
 		10 = indian
 	}
 }
-# Maharastra Cultures			
+# Maharastra Cultures		
+marathi = {# Indo-Aryan
+	color = marathi
+	
+	ethos = ethos_stoic
+	heritage = heritage_indo_aryan
+	language = language_marathi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hard_working
+		tradition_modest
+		tradition_pastoralists
+	}
+	
+	name_list = name_list_marathi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}	
 konkani = {# Konkani
 	color = hsv{  224 17 95 }
 	
@@ -441,9 +460,33 @@ konkani = {# Konkani
 		10 = indian
 	}
 }
-# Northern Cultures			
-awadhi = {# Awadhi
+# Northern Cultures
+haryanvi = {# Haryanvi
 	color = {150 0 24 }
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_sauraseni
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_ruling_caste
+		tradition_court_eunuchs
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_hindustani
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+awadhi = {# Awadhi renamed to Bagheli
+	color = {244 196 48 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
@@ -489,6 +532,30 @@ braj = {# braj
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
+	ethnicities = {
+		10 = indian
+	}
+}
+kannauji = {# Kannauji
+	color = hindustani
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_sauraseni
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_ruling_caste
+		tradition_court_eunuchs
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_hindustani
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
 	ethnicities = {
 		10 = indian
 	}
@@ -724,7 +791,34 @@ kuamoni = {#  Kuamoni
 		4 = asian
 	}
 }
-# Dardic Cultures			
+# Dardic Cultures
+kashmiri = {# Kashmiri
+	color = kashmiri
+	
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_kashmiri
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_himalayan_settlers
+		tradition_poetry
+		tradition_equal_inheritance
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_kashmiri
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+		1 = asian
+	}
+}			
 shina = {# Shina
 	color = { 150 58 36 }
 	ethos = ethos_spiritual

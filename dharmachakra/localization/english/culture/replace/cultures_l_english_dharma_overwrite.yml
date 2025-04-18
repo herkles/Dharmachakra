@@ -23,9 +23,9 @@
   indo_aryan_group:0 "Indo-Aryan"
   indo_aryan_group_collective_noun:0 "Indo-Aryans"
 
-  bengali:0 "Bengali"
-  bengali_prefix:0 "Bengali"
-  bengali_collective_noun:1 "Bengalis"
+  bengali:0 "Gaudi"
+  bengali_prefix:0 "Gaudi"
+  bengali_collective_noun:0 "Gaudis"
 
   oriya:0 "Oriya"
   oriya_prefix:0 "Oriya"
@@ -43,13 +43,14 @@
   gujarati_prefix:0 "Gujarati"
   gujarati_collective_noun:1 "Gujarats"
 
-  punjabi:0 "Punjabi"
-  punjabi_prefix:0 "Punjabi"
-  punjabi_collective_noun:1 "Punjabis"
+  punjabi:0 "Madraka"
+  punjabi_prefix:0 "Madraka"
+  punjabi_collective_noun:1 "Madrakas"
 
-  rajput:1 "Rajasthani"
-  rajput_prefix:1 "Rajasthani"
-  rajput_collective_noun:2 "Rajasthanis"
+  rajput:1 "Marwari"
+  rajput_prefix:1 "Marwaris"
+  rajput_collective_noun:2 "Marwari"
+  rajput_prefix:2 "Marwari"
 
   sindhi:0 "Sindhi"
   sindhi_prefix:0 "Sindhi"
