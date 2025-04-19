@@ -1,6 +1,5 @@
 ﻿tamil = {# Tamil
-	color = tamil
-	
+	color = { 255 255 0 }	
 	ethos = ethos_bellicose
 	heritage = heritage_dravidian
 	language = language_tamil
@@ -25,7 +24,7 @@
 	}
 }
 telugu = {# Telugu
-	color = telugu
+	color = { 255 211 0 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_dravidian
@@ -51,8 +50,7 @@ telugu = {# Telugu
 	}
 }
 kannada = {# Kannada
-	color = { 0.8 0.6 0.0 }
-	
+	color = { 254 223 0 }	
 	ethos = ethos_courtly
 	heritage = heritage_dravidian
 	language = language_kannada
@@ -78,7 +76,7 @@ kannada = {# Kannada
 	}
 }
 gond = {# Gond
-	color = { 0.75 0.65 0.15 }
+	color = { 253 255 0 }
 	
 	ethos = ethos_communal
 	heritage = heritage_dravidian
@@ -103,7 +101,7 @@ gond = {# Gond
 	}
 }
 malayali = {# Malayali
-	color = hsv{ 0.17 0.8 0.7 }
+	color = { 250 218 94 }
 	created = 825.1.1
 	parents = { tamil }
 
@@ -132,7 +130,7 @@ malayali = {# Malayali
 	}
 }
 tulu = {# Tulu
-	color = { 238 234 98 }
+	color = { 255 215 0 }
 	ethos = ethos_courtly
 	heritage = heritage_dravidian
 	language = language_tulu
@@ -157,11 +155,11 @@ tulu = {# Tulu
 	}
 }
 khond = {# Khond
-	color = { 190 200 85 }
+	color = { 247 217 23 }
 
 	ethos = ethos_communal
 	heritage = heritage_dravidian
-	language = language_gondi
+	language = language_kuvi
 	martial_custom = martial_custom_male_only
 
 	name_list = name_list_gond
@@ -182,8 +180,8 @@ khond = {# Khond
 		10 = south_indian
 	}
 }
-kurukh = {#Kurukh
-	color = { 160 185 60 }
+kurukh = {# Kurukh
+	color = { 255 211 0 }
 
 	ethos = ethos_communal
 	heritage = heritage_dravidian
@@ -209,7 +207,7 @@ kurukh = {#Kurukh
 	}
 }
 brahui = { # FP3 addition. This people represent, as best as I have been able to research this mysterious issue, the mixed nomadic population of Baluchistan before the Baloch migration. 
-	color = { 1.0 0.4 0.4 }
+	color = { 238 210 2 }
 	
 	ethos = ethos_communal 
 	heritage = heritage_dravidian

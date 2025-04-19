@@ -1,140 +1,6 @@
-﻿#Indo-Arayan Languages:
-language_sauraseni = {#Represents the central Apabhramsa dialect continuum 
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sauraseni
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sauraseni }
-			multiply = 10
-		}
-	}
-	
-	color = hindustani
-}
-language_marathi = {# Marathic dialects
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_marathi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_marathi }
-			multiply = 10
-		}
-	}
-	
-	color = marathi
-}
-language_magadhan = {# Bengali, Kamarupi, Oriya dialects 
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_magadhan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_magadhan }
-			multiply = 10
-		}
-	}
-	
-	color = bengali
-}
-language_pahari = {# Himalayan dialects
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_pahari
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_pahari }
-			multiply = 10
-		}
-	}
-	
-	color = nepali
-}
-language_rajasthani = {# Gurjar Apabhramsa, Old Gujarati and Rajasthani dialects
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_rajasthani
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_rajasthani }
-			multiply = 10
-		}
-	}
-	
-	color = rajput
-}
-language_vrachada = {# Dialects of Sindh and Punjab
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_vrachada
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_vrachada }
-			multiply = 10
-		}
-	}
-	
-	color = punjabi
-}
-language_sinhalese = {# Sinhalese Language
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sinhalese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sinhalese }
-			multiply = 10
-		}
-	}
-	
-	color = sinhala
-}
-language_kashmiri = {# Kashmiri and dardic dialects
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kashmiri
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kashmiri }
-			multiply = 10
-		}
-	}
-	
-	color = kashmiri
-}
+﻿#############################################
+# Sacred Languages		
+#############################################
 language_sanskrit = {# Sanskrit
 	type = language
 	is_shown = {
@@ -150,7 +16,7 @@ language_sanskrit = {# Sanskrit
 		}
 	}
 	
-	color = kashmiri
+	color = { 244 196 48 }
 }
 language_pali = {# Pali
 	type = language
@@ -167,58 +33,163 @@ language_pali = {# Pali
 		}
 	}
 	
-	color = kashmiri
+	color = { 232 97 0 }
 }
-language_hindi = {# Hindi
+#############################################
+# Indo Arayan Prakrits and Apabhramsas
+#############################################
+language_sauraseni = {#Represents the central Apabhramsa dialect continuum 
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_hindi
+			LANGUAGE = language_sauraseni
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_hindi }
+			limit = { has_cultural_pillar = language_sauraseni }
 			multiply = 10
 		}
 	}
 	
-	color = kashmiri
+	color = { 124 9 2 }
 }
-language_braj = {# Braj
+language_marathi = {# Marathic dialects
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_pali
+			LANGUAGE = language_marathi
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_pali }
+			limit = { has_cultural_pillar = language_marathi }
 			multiply = 10
 		}
 	}
 	
-	color = kashmiri
+	color = { 205 92 92 }
 }
-language_awadhi = {# Awadhi
+language_magadhan = {# Bengali, Kamarupi, Oriya dialects 
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_awadhi
+			LANGUAGE = language_magadhan
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_awadhi }
+			limit = { has_cultural_pillar = language_magadhan }
 			multiply = 10
 		}
 	}
 	
-	color = kashmiri
+	color = { 128 0 0 }
+}
+language_khasa = {# Himalayan Prakrit
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_khasa
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_khasa }
+			multiply = 10
+		}
+	}
+	color = { 206 32 41  }
+}
+language_rajasthani = {# Gurjar Apabhramsa, Old Gujarati and Rajasthani dialects
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_rajasthani
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_rajasthani }
+			multiply = 10
+		}
+	}	
+	color = { 228 35 19 }	
+}
+language_vrachada = {# Dialects of Sindh and Punjab
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_vrachada
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_vrachada }
+			multiply = 10
+		}
+	}
+	color = { 164 89 83 }
+}
+language_sinhalese = {# Sinhalese Language
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sinhalese
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sinhalese }
+			multiply = 10
+		}
+	}
+	
+	color = { 255 0 66 }
+}
+language_kashmiri = {# Kashmiri and dardic dialects
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kashmiri
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kashmiri }
+			multiply = 10
+		}
+	}
+	
+	color = { 150 0 24 }
+}
+#############################################
+# other languages		
+#############################################
+language_bihari = {# the Bihari languages of Maghadi, Miathili, and Bhojapur
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bihari
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bihari }
+			multiply = 10
+		}
+	}
+	
+	color = { 255 36 0 }	
 }
 language_bhil = {# Bhil
 	type = language
@@ -235,75 +206,24 @@ language_bhil = {# Bhil
 		}
 	}
 	
-	color = kashmiri
-}
-language_sambalpuri = {# Sambalpuri
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sambalpuri
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sambalpuri }
-			multiply = 10
-		}
-	}
-	
-	color = kashmiri
-}
-language_nepali = {# Nepali
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_nepali
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_nepali }
-			multiply = 10
-		}
-	}
-	
-	color = kashmiri
+	color = { 200 8 21 }
 }
 language_kamarupi = {# Kamarupi
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_pali
+			LANGUAGE = language_kamarupi
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_pali }
+			limit = { has_cultural_pillar = language_kamarupi }
 			multiply = 10
 		}
 	}
 	
-	color = kashmiri
-}
-language_rajbongshi = {# Rajbongshi
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_rajbongshi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_rajbongshi }
-			multiply = 10
-		}
-	}
-	
-	color = kashmiri
+	color = { 237 41 57  }
 }
 language_konkani = {# Konkani
 	type = language
@@ -316,6 +236,57 @@ language_konkani = {# Konkani
 		value = 10
 		if = {
 			limit = { has_cultural_pillar = language_konkani }
+			multiply = 10
+		}
+	}
+	
+	color = { 178 34 34 }
+}
+language_sindhi = {# Sindhi Language
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sindhi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sindhi }
+			multiply = 10
+		}
+	}
+	
+	color = { 220 20 60 }	
+}
+language_panchanada = {# Old Punjabi
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_panchanada
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_panchanada }
+			multiply = 10
+		}
+	}
+	
+	color = { 255 99 71 }
+}
+language_rajbongshi = {# Rajbongshi
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_rajbongshi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_rajbongshi }
 			multiply = 10
 		}
 	}
@@ -337,7 +308,41 @@ language_nuristani = {# Nuristani
 		}
 	}
 	
-	color = burmese
+	color = { 255 69 0 }
+}
+language_odia = {# Odia Language
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_odia
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_odia }
+			multiply = 10
+		}
+	}
+	
+	color = { 165 0 33 }
+}
+language_chhattisgarhi = {# Chhattisgarhi Language
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_chhattisgarhi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_chhattisgarhi }
+			multiply = 10
+		}
+	}
+	
+	color = { 224 60 49 }
 }
 language_nagpuri = {# Nagpuri
 	type = language
@@ -354,43 +359,26 @@ language_nagpuri = {# Nagpuri
 		}
 	}
 	
-	color = burmese
+	color = { 213 55 58 }
 }
-language_maithili = {# Maithili
+language_hindi = {# Hindi
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_maithili
+			LANGUAGE = language_hindi
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_maithili }
+			limit = { has_cultural_pillar = language_hindi }
 			multiply = 10
 		}
 	}
 	
-	color = burmese
+	color = { 124 9 2 }
 }
-language_newar = {# Newar
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_newar
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_newar }
-			multiply = 10
-		}
-	}
-	
-	color = burmese
-}
-language_garwhali = {# Nagpuri
+language_garwhali = {# Garwhali
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
@@ -405,26 +393,113 @@ language_garwhali = {# Nagpuri
 		}
 	}
 	
-	color = burmese
+	color = { 218 44 67 }
 }
-language_kuamoni = {# Nagpuri
+language_kumaoni = {# Kumaoni
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_kuamoni
+			LANGUAGE = language_kumaoni
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_kuamoni }
+			limit = { has_cultural_pillar = language_kumaoni }
 			multiply = 10
 		}
 	}
 	
-	color = burmese
+	color = { 218 44 67 }
 }
-#Dravidian Languages
+language_shina = {# Shina
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_shina
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_shina }
+			multiply = 10
+		}
+	}
+	
+	color = { 164 44 2 }
+}
+language_chitrali = {# Chitrali
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_chitrali
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_chitrali }
+			multiply = 10
+		}
+	}
+	
+	color = { 220 52 59 }
+}
+language_minaro = {# Minaro
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_minaro
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_minaro }
+			multiply = 10
+		}
+	}
+	
+	color = { 197 30 58 }
+}
+language_chakma = {# Chakma
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_chakma
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_chakma }
+			multiply = 10
+		}
+	}
+	
+	color = { 165 219 229 }
+}
+language_bangla = {# Bangla
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bangla
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bangla }
+			multiply = 10
+		}
+	}
+	
+	color = { 165 219 229 }
+}
+#############################################
+# Dravidian Languages		
+#############################################
 language_tamil = {# Middle Tamil, includes Malayali
 	type = language
 	is_shown = {
@@ -491,7 +566,7 @@ language_gondi = {# Gondi Languages
 		}
 	}
 	
-	color = kannada
+	color = { 253 255 0 }
 }
 language_tulu = {# Tulu Languages 
 	type = language
@@ -508,12 +583,45 @@ language_tulu = {# Tulu Languages
 		}
 	}
 	
-	color = kannada
+	color = { 255 215 0 }
 }
-
-
-
+language_kuvi = {# Kuvi and Kui Languages 
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kuvi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kuvi }
+			multiply = 10
+		}
+	}
+	
+	color = { 247 217 23 }
+}
+language_kurukh = {# Kurukh Language 
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kurukh
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kurukh }
+			multiply = 10
+		}
+	}
+	
+	color = { 255 211 0 }
+}
+#############################################
 # Tibetan Languages
+#############################################
 language_tibetan = {# Tibetan
 	type = language
 	is_shown = {
@@ -546,7 +654,7 @@ language_tani = {# Tani
 		}
 	}
 	
-	color = bodpa
+	color = { 0.3 0.55 0.8 }
 }
 language_meitei = {# Meitei
 	type = language
@@ -580,7 +688,7 @@ language_kokborok = {# The name for the Tripuri language
 		}
 	}
 	
-	color = bodpa
+	color = { 54 136 117 }	
 }
 language_kirati = {# kirati languages
 	type = language
@@ -597,7 +705,7 @@ language_kirati = {# kirati languages
 		}
 	}
 	
-	color = bodpa
+	color = hsv{ 0.58 0.94 0.7 }
 }
 language_monpa = {# Monpa 
 	type = language
@@ -614,7 +722,7 @@ language_monpa = {# Monpa
 		}
 	}
 	
-	color = bodpa
+	color = hsv{ 0.62 0.9 0.7 }
 }
 language_kachari = {# The various Boro–Garo Languages 
 	type = language
@@ -631,9 +739,28 @@ language_kachari = {# The various Boro–Garo Languages
 		}
 	}
 	
-	color = bodpa
+	color = { 25 25 255 }
 }
+language_newar = {# Newar
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_newar
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_newar }
+			multiply = 10
+		}
+	}
+	
+	color = { 101 0 11  }
+}
+#############################################
 # Burmese Languages
+#############################################
 language_burmese = {# Burmese
 	type = language
 	is_shown = {
@@ -666,7 +793,7 @@ language_mon = {# Mon
 		}
 	}
 	
-	color = burmese
+	color = { 0.7 0.5 0.7 }
 }
 language_pyu = {# Pyu
 	type = language
@@ -683,9 +810,11 @@ language_pyu = {# Pyu
 		}
 	}
 	
-	color = burmese
+	color = { 0.6 0.3 0.8 }
 }
+#############################################
 # Munda Language
+#############################################
 language_munda = {# Munda
 	type = language
 	is_shown = {
@@ -701,9 +830,11 @@ language_munda = {# Munda
 		}
 	}
 	
-	color = burmese
+	color = { 0 128 0 }
 }
+#############################################
 # Palaungic Languages
+#############################################
 language_palaungic = {
 	type = language
 	is_shown = {
@@ -724,12 +855,6 @@ language_palaungic = {
 		}
 	}
 
-	color = wa
+	color = { 106 91 140 }
 }
-
-
-
-
-
-
 

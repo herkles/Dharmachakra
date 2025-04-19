@@ -1,5 +1,6 @@
 ﻿munda = {# Munda
-	color = { 0.75 0.65 0.15 }
+	color = { 0 128 0 }
+
 	
 	ethos = ethos_communal
 	heritage = heritage_munda

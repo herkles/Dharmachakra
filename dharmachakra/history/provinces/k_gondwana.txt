@@ -219,7 +219,7 @@
 1272 = {	# 1272 - Ratanpur
 	
 	# Misc
-	culture = nagpuri
+	culture = sambalpuri
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
@@ -235,7 +235,7 @@
 1277 = {	# 1277 - Tummana
 	
 	# Misc
-	culture = nagpuri
+	culture = sambalpuri
 	religion = vaishnavism
 	
 	holding = tribal_holding

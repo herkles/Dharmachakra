@@ -15,10 +15,26 @@
     language_maithili_name:0 "Maithili"
     language_newar_name:0 "Newar"
     language_garwhali_name:0 "Garwhali"
-    language_kuamoni_name:0 "Kuamoni"
+    language_kumaoni_name:0 "Kumaoni"
+    
+    language_khasa_name:0 "Khasa"
+    language_bihari_name:0 "Bihari"
+    language_sindhi_name:0 "Sindhi"
+    language_panchanada_name:0 "Panchanada"
+    language_odia_name:0 "Odia"
+    language_chhattisgarhi_name:0 "Chhattisgarhi"
+    language_shina_name:0 "Shina"
+    language_chitrali_name:0 "Chitrali"
+    language_minaro_name:0 "Minaro"
+    language_chakma_name:0 "Chakma"
+    language_bangla_name:0 "Bangla"
+
+
   # Dravidian Languages
     language_gondi_name:0 "Gondi"
     language_tulu_name:0 "Tulu"
+    language_kuvi_name:0 "Kuvi"
+    language_kurukh_name:0 "Kurukh"
 
   # Tibetan Languages
     language_tani_name:0 "Tani"
