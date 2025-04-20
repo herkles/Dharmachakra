@@ -1,20 +1,4 @@
 ﻿
-
-#######################################
-# Dasaratha Dynasty
-#######################################
-190116 = {# Dasaratha
-	name = "Dasaratha"
-	dynasty = 1044021
-	religion = "vaishnavism"
-	culture = "braj"
-	1030.1.1 = {
-		birth = yes
-	}
-	1079.1.1 = {
-		death = yes
-	}
-}
 #######################################
 # Salisuka Dynasty
 #######################################
@@ -69,21 +53,6 @@
 	religion = "vaishnavism"
 	culture = "braj"
 	843.1.1 = {
-		birth = yes
-	}
-	892.1.1 = {
-		death = yes
-	}
-}
-#######################################
-# Mansukhani Dynasty
-#######################################
-178003 = {# Jaganpala
-	name = "Jaganpala" # Fictional
-	dynasty = 1041103
-	religion = "vajrayana"
-	culture = "braj"
-	829.1.1 = {
 		birth = yes
 	}
 	892.1.1 = {
@@ -393,180 +362,6 @@
 	}
 }
 #######################################
-# Rashtrakutas of Kanyakubja Dynasty
-#######################################
-191044 = {# Candra
-	name = "Candra"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	980.1.1 = {
-		birth = yes
-	}
-	1030.1.1 = {
-		death = yes
-	}
-}
-191045 = {# Vigrahapala
-	name = "Vigrahapala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191044
-	1000.1.1 = {
-		birth = yes
-	}
-	1060.1.1 = {
-		death = yes
-	}
-}
-191046 = {# Bhuvanapala
-	name = "Bhuvanapala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191045
-	1020.1.1 = {
-		birth = yes
-	}
-	1080.1.1 = {
-		death = yes
-	}
-}
-191047 = {# Gopala
-	name = "Gopala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191046
-	1040.1.1 = {
-		birth = yes
-	}
-	1089.1.1 = {
-		death = yes
-	}
-}
-191048 = {# Tribhuvana
-	name = "Tribhuvana"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191047
-	1060.1.1 = {
-		birth = yes
-	}
-	1119.1.1 = {
-		death = yes
-	}
-}
-191049 = {# Madanapala
-	name = "Madanapala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191048
-	1076.1.1 = {
-		birth = yes
-	}
-	1130.1.1 = {
-		death = yes
-	}
-}
-191050 = {# Devapala
-	name = "Devapala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191049
-	1100.1.1 = {
-		birth = yes
-	}
-	1150.1.1 = {
-		death = yes
-	}
-}
-191051 = {# Bhimapala
-	name = "Bhimapala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191050
-	1128.1.1 = {
-		birth = yes
-	}
-	1170.1.1 = {
-		death = yes
-	}
-}
-191052 = {# Surapala
-	name = "Surapala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191051
-	1148.1.1 = {
-		birth = yes
-	}
-	1180.1.1 = {
-		death = yes
-	}
-}
-191053 = {# Amritapala
-	name = "Amritapala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191052
-	1166.1.1 = {
-		birth = yes
-	}
-	1186.1.1 = {
-		death = yes
-	}
-}
-191054 = {# Lakhanpala
-	name = "Lakhanpala"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191053
-	1182.1.1 = {
-		birth = yes
-	}
-	1202.1.1 = {
-		death = yes
-	}
-}
-191055 = {# Barahadeva
-	name = "Barahadeva"
-	dynasty = 1044310 #Rashtrakutas of Kanyakubja
-	religion = "smartism"
-	culture = "braj"
-	father = 191054
-	1200.1.1 = {
-		birth = yes
-	}
-	1240.1.1 = {
-		death = yes
-	}
-}
-191079 = {# Sivaraja
-	name = "Sivaraja"
-	dynasty = 1044310	#Rashtrakuta
-	religion = "smartism"
-	culture = "braj"
-	father = 191046
-	1060.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
-		employer = 191067
-	}
-	1110.1.1 = {
-		death = yes
-	}
-}
-#######################################
 # Patiala Dynasty
 #######################################
 178004 = {# Kunwar
@@ -757,7 +552,6 @@
 		death = yes
 	}
 }
-
 #######################################
 # Chalukyas of Mattamayura Dynasty
 #######################################
@@ -1683,73 +1477,6 @@ hardat_dor = {# Hardat
 	}
 }
 #######################################
-# Chhinda Dynasty
-#######################################
-191552 = {
-	name = "Birpal"	#Fictional
-	dynasty = 1044360 #Chhinda
-	religion = "smartism"
-	culture = "braj"
-	720.1.1 = {
-		birth = yes
-	}
-	780.1.1 = {
-		death = yes
-	}
-}
-191553 = {
-	name = "Ram_Singh"	#Fictional
-	dynasty = 1044360 #Chhinda
-	religion = "smartism"
-	culture = "braj"
-	father = 191552
-	760.1.1 = {
-		birth = yes
-	}
-	850.1.1 = {
-		death = yes
-	}
-}
-191554 = {
-	name = "Jagatpal"	#Fictional
-	dynasty = 1044360 #Chhinda
-	religion = "smartism"
-	culture = "braj"
-	father = 191553
-	830.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-191555 = {
-	name = "Khetrapal"	#Fictional
-	dynasty = 1044360 #Chhinda
-	religion = "smartism"
-	culture = "braj"
-	father = 191554
-	865.1.1 = {
-		birth = yes
-	}
-	950.1.1 = {
-		death = yes
-	}
-}
-191556 = {
-	name = "Gangeya"	#Fictional
-	dynasty = 1044360 #Chhinda
-	religion = "smartism"
-	culture = "braj"
-	father = 191555
-	930.1.1 = {
-		birth = yes
-	}
-	1010.1.1 = {
-		death = yes
-	}
-}
-#######################################
 # Rathore Dynasty
 #######################################
 191885 = {
@@ -2119,7 +1846,4 @@ hardat_dor = {# Hardat
 #######################################
 # Other Characters
 #######################################
-
-
-
 

@@ -5,7 +5,7 @@
 	name = "Ajatashatru" #Random ruler of tirabhukti
 	dynasty = 1044014
 	religion = "theravada"
-	culture = "bihari"
+	culture = "maithili"
 	828.1.1 = {
 		birth = yes
 	}
@@ -17,7 +17,7 @@
 	name = "Udayin" #Son of Random ruler of tirabhukti
 	dynasty = 1044014
 	religion = "theravada"
-	culture = "bihari"
+	culture = "maithili"
 	father = 190103
 	847.1.1 = {
 		birth = yes
@@ -30,7 +30,7 @@
 	name = "Bimbisara" #Grandson of Random ruler of tirabhukti
 	dynasty = 1044014
 	religion = "theravada"
-	culture = "bihari"
+	culture = "maithili"
 	father = 190104
 	866.1.1 = {
 		birth = yes
@@ -46,7 +46,7 @@
 	name = "Yajnesagupta"
 	dynasty = 1044345 # Minor Guptas
 	religion = "srikula_shaktism"
-	culture = "bihari"
+	culture = "maithili"
 	1050.1.1 = {
 		birth = yes
 	}
@@ -59,7 +59,7 @@
 	dynasty = 1044345 # Minor Guptas
 	father = 191397
 	religion = "srikula_shaktism"
-	culture = "bihari"
+	culture = "maithili"
 	1070.1.1 = {
 		birth = yes
 	}
@@ -72,7 +72,7 @@
 	dynasty = 1044345 # Minor Guptas
 	father = 191398
 	religion = "srikula_shaktism"
-	culture = "bihari"
+	culture = "maithili"
 	1090.1.1 = {
 		birth = yes
 	}
@@ -85,7 +85,7 @@
 	dynasty = 1044345 # Minor Guptas
 	father = 191399
 	religion = "srikula_shaktism"
-	culture = "bihari"
+	culture = "maithili"
 	1110.1.1 = {
 		birth = yes
 	}
@@ -98,7 +98,7 @@
 	dynasty = 1044345 # Minor Guptas
 	father = 191400
 	religion = "kalikula_shaktism"
-	culture = "bihari"
+	culture = "maithili"
 	1130.1.1 = {
 		birth = yes
 	}
@@ -111,7 +111,7 @@
 	dynasty = 1044345 # Minor Guptas
 	father = 191401
 	religion = "shaivism"
-	culture = "bihari"
+	culture = "maithili"
 	1150.1.1 = {
 		birth = yes
 	}
@@ -119,60 +119,6 @@
 		death = yes
 	}
 }
-#######################################
-# Khayarwala Dynasty
-#######################################
-	191389 = {# Kadirapala
-		name = "Kadirapala"
-		dynasty = 1044343 # Khayarwala
-		religion = "kalikula_shaktism"
-		culture = "maithili"
-		1090.1.1 = {
-			birth = yes
-		}
-		1168.1.1 = {
-			death = yes
-		}
-	}
-	191390 = {# Pratapadhawala
-		name = "Pratapadhawala"
-		dynasty = 1044343 # Khayarwala
-		father = 191389
-		religion = "kalikula_shaktism"
-		culture = "maithili"
-		1120.1.1 = {
-			birth = yes
-		}
-		1185.1.1 = {
-			death = yes
-		}
-	}
-	191391 = {# Sahasadhawala
-		name = "Sahasadhawala"
-		dynasty = 1044343 # Khayarwala
-		father = 191390
-		religion = "kalikula_shaktism"
-		culture = "maithili"
-		1140.1.1 = {
-			birth = yes
-		}
-		1200.1.1 = {
-			death = yes
-		}
-	}
-	191392 = {# Indradhawala
-		name = "Indradhawala"
-		dynasty = 1044343 # Khayarwala
-		father = 191391
-		religion = "kalikula_shaktism"
-		culture = "maithili"
-		1180.1.1 = {
-			birth = yes
-		}
-		1240.1.1 = {
-			death = yes
-		}
-	}
 #######################################
 # Ranaka Dynasty
 #######################################

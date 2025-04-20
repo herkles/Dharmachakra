@@ -59,7 +59,60 @@
 		death = yes
 	}
 }
-
+#######################################
+# Khayarwala Dynasty
+#######################################
+191389 = {# Kadirapala
+	name = "Kadirapala"
+	dynasty = 1044343 # Khayarwala
+	religion = "kalikula_shaktism"
+	culture = "magadhi"
+	1090.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+191390 = {# Pratapadhawala
+	name = "Pratapadhawala"
+	dynasty = 1044343 # Khayarwala
+	father = 191389
+	religion = "kalikula_shaktism"
+	culture = "magadhi"
+	1120.1.1 = {
+		birth = yes
+	}
+	1185.1.1 = {
+		death = yes
+	}
+}
+191391 = {# Sahasadhawala
+	name = "Sahasadhawala"
+	dynasty = 1044343 # Khayarwala
+	father = 191390
+	religion = "kalikula_shaktism"
+	culture = "magadhi"
+	1140.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+191392 = {# Indradhawala
+	name = "Indradhawala"
+	dynasty = 1044343 # Khayarwala
+	father = 191391
+	religion = "kalikula_shaktism"
+	culture = "magadhi"
+	1180.1.1 = {
+		birth = yes
+	}
+	1240.1.1 = {
+		death = yes
+	}
+}
 
 
 

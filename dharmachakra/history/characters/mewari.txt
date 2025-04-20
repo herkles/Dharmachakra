@@ -1,0 +1,563 @@
+﻿#######################################
+# Guhilot Dynasty
+#######################################
+188206 = {
+	name = "Mahahayak"
+	dynasty = 1042079 #Guhilot
+	religion = "srikula_shaktism"
+	culture = "mewari"
+	father = 188475
+	835.1.1 = {
+		birth = yes
+	}
+	878.1.1 = {
+		death = yes
+	}
+}
+188207 = {
+	name = "Yograj"
+	dynasty = 1042079 #Guhilot
+	religion = "srikula_shaktism"
+	culture = "mewari"
+	father = 188485
+	1020.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+188470 = {
+	name = "Kalbhoj" # or Bappa Rawal
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	713.1.1 = {
+		birth = yes
+	}
+	753.1.1 = {
+		death = yes
+	}
+}
+188471 = {
+	name = "Khuman"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188470
+	734.1.1 = {
+		birth = yes
+	}
+	773.1.1 = {
+		death = yes
+	}
+}
+188472 = {
+	name = "Mattat"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188471
+	755.1.1 = {
+		birth = yes
+	}
+	793.1.1 = {
+		death = yes
+	}
+}
+188473 = {
+	name = "Bhert-Patt" # or Bhartribhatt
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188472
+	773.1.1 = {
+		birth = yes
+	}
+	813.1.1 = {
+		death = yes
+	}
+}
+188474 = {
+	name = "Sinha"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188473
+	789.1.1 = {
+		birth = yes
+	}
+	828.1.1 = {
+		death = yes
+	}
+}
+188475 = {
+	name = "Khuman"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188474
+	805.1.1 = {
+		birth = yes
+	}
+	853.1.1 = {
+		death = yes
+	}
+}
+188476 = {
+	name = "Khuman" # III
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188206
+	865.1.1 = {
+		birth = yes
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+188477 = {
+	name = "Bhert-Patt" # II
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188476
+	890.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		death = yes
+	}
+}
+188478 = {
+	name = "Allat"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188477
+	910.1.1 = {
+		birth = yes
+	}
+	953.1.1 = {
+		death = yes
+	}
+}
+188479 = {
+	name = "Narwahan"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188478 # conjecture
+	928.1.1 = {
+		birth = yes
+	}
+	973.1.1 = {
+		death = yes
+	}
+}
+188480 = {
+	name = "Shaliwahan"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188479
+	946.1.1 = {
+		birth = yes
+	}
+	977.1.1 = {
+		death = yes
+	}
+}
+188481 = {
+	name = "Shakti-Kumar"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188479
+	948.1.1 = {
+		birth = yes
+	}
+	993.1.1 = {
+		death = yes
+	}
+}
+188482 = {
+	name = "Amba-Prasad"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188481
+	964.1.1 = {
+		birth = yes
+	}
+	1007.1.1 = {
+		death = yes
+	}
+}
+188483 = {
+	name = "Shuchi-Verma"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188482
+	981.1.1 = {
+		birth = yes
+	}
+	1021.1.1 = {
+		death = yes
+	}
+}
+188484 = {
+	name = "Nar-Verma"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188483
+	1000.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+188485 = {
+	name = "Keerti-Verma" # or Kirtivarma
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188483
+	1003.1.1 = {
+		birth = yes
+	}
+	1051.1.1 = {
+		death = yes
+	}
+}
+188486 = {
+	name = "Bairath" # or Vairath
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188207
+	1043.1.1 = {
+		birth = yes
+	}
+	1088.1.1 = {
+		death = yes
+	}
+}
+188487 = {
+	name = "Hanspal"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188486
+	1063.1.1 = {
+		birth = yes
+	}
+	1103.1.1 = {
+		death = yes
+	}
+}
+188488 = {
+	name = "Vair-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188487
+	1080.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+188489 = {
+	name = "Vijai-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188488
+	1098.1.1 = {
+		birth = yes
+	}
+	1127.1.1 = {
+		death = yes
+	}
+}
+188490 = {
+	name = "Ari-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188488
+	1101.1.1 = {
+		birth = yes
+	}
+	1138.1.1 = {
+		death = yes
+	}
+}
+188491 = {
+	name = "Chaud-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188488
+	1104.1.1 = {
+		birth = yes
+	}
+	1148.1.1 = {
+		death = yes
+	}
+}
+188492 = {
+	name = "Vikramaditya"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188491
+	1124.1.1 = {
+		birth = yes
+	}
+	1158.1.1 = {
+		death = yes
+	}
+}
+188493 = {
+	name = "Karan-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188492
+	1141.1.1 = {
+		birth = yes
+	}
+	1168.1.1 = {
+		death = yes
+	}
+}
+188494 = {
+	name = "Mahap"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188493
+	1158.1.1 = {
+		birth = yes
+	}
+	1207.1.1 = {
+		death = yes
+	}
+}
+188495 = {
+	name = "Kshem-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188492
+	1142.1.1 = {
+		birth = yes
+	}
+	1172.1.1 = {
+		death = yes
+	}
+}
+188496 = {
+	name = "Samant-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188495
+	1159.1.1 = {
+		birth = yes
+	}
+	1209.1.1 = {
+		death = yes
+	}
+}
+188497 = {
+	name = "Kumar-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188495
+	1160.1.1 = {
+		birth = yes
+	}
+	1191.1.1 = {
+		death = yes
+	}
+}
+188498 = {
+	name = "Mathan-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188495
+	1163.1.1 = {
+		birth = yes
+	}
+	1211.1.1 = {
+		death = yes
+	}
+}
+188499 = {
+	name = "Padam-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188498
+	1185.1.1 = {
+		birth = yes
+	}
+	1213.1.1 = {
+		death = yes
+	}
+}
+188500 = {
+	name = "Jaitra-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188498
+	1190.1.1 = {
+		birth = yes
+	}
+	1253.1.1 = {
+		death = yes
+	}
+}
+188501 = {
+	name = "Tej-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188500
+	1212.1.1 = {
+		birth = yes
+	}
+	1273.1.1 = {
+		death = yes
+	}
+}
+188502 = {
+	name = "Samar-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188501
+	1238.1.1 = {
+		birth = yes
+	}
+	1302.1.1 = {
+		death = yes
+	}
+}
+188503 = {
+	name = "Ratan-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "kalikula_shaktism"
+	culture = "mewari"
+	father = 188502
+	1260.1.1 = {
+		birth = yes
+	}
+	1303.8.25 = {
+		death = yes
+	}
+}
+188520 = {
+	name = "Jayat-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "mewari"
+	father = 188496
+	1175.1.1 = {
+		birth = yes
+	}
+	1218.1.1 = {
+		death = yes
+	}
+}
+188521 = {
+	name = "Sinhad-Deo"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "mewari"
+	father = 188496
+	1176.1.1 = {
+		birth = yes
+	}
+	1248.1.1 = {
+		death = yes
+	}
+}
+188522 = {
+	name = "Jay-Singh-Deo"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "mewari"
+	father = 188521
+	1200.1.1 = {
+		birth = yes
+	}
+	1251.1.1 = {
+		death = yes
+	}
+}
+188523 = {
+	name = "Deopali-Deo"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "mewari"
+	father = 188521
+	1201.1.1 = {
+		birth = yes
+	}
+	1278.1.1 = {
+		death = yes
+	}
+}
+188524 = {
+	name = "Virsinh-Deo"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "mewari"
+	father = 188523
+	1240.1.1 = {
+		birth = yes
+	}
+	1303.1.1 = {
+		death = yes
+	}
+}
+188525 = {
+	name = "Bhoo-Chand"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "mewari"
+	father = 188524
+	1260.1.1 = {
+		birth = yes
+	}
+	1331.1.1 = {
+		death = yes
+	}
+}
+188526 = {
+	name = "Dungar-Singh"
+	dynasty = 1042079 # Guhilot
+	religion = "smartism"
+	culture = "mewari"
+	father = 188525
+	1300.1.1 = {
+		birth = yes
+	}
+	1363.1.1 = {
+		death = yes
+	}
+}
+
+

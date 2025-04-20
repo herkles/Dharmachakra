@@ -1,0 +1,15 @@
+﻿#######################################
+# Ladahachandra Dynasty
+#######################################
+190109 = {# Ladahachandra
+	name = "Ladahachandra" #Random ruler of c jharkand and munda
+	dynasty = 1044017
+	religion = "vajrayana"
+	culture = "kurukh"
+	824.1.1 = {
+		birth = yes
+	}
+	879.1.1 = {
+		death = yes
+	}
+}

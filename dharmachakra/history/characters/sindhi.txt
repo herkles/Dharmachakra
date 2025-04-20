@@ -582,46 +582,7 @@ extra_habbaris_6 = {
 		death = "901.1.1"
 	}
 }
-#######################################
-# Bhambhani Dynasty
-#######################################
-178017 = {# Mahmud
-	name = "Mahmud" # Fictional
-	dynasty = 1041117
-	religion = "ashari"
-	culture = "sindhi"
-	833.1.1 = {
-		birth = "833.1.1"
-	}
-	888.1.1 = {
-		death = "888.1.1"
-	}
-}
-188558 = {# Munzir
-	name = "Munzir" # fictional
-	dynasty = 1041117
-	religion = "smartism"
-	culture = "sindhi"
-	728.1.1 = {
-		birth = yes
-	}
-	790.1.1 = {
-		death = yes
-	}
-}
-188559 = {# Shahabuddin
-	name = "Shahabuddin" # fictional
-	dynasty = 1041117
-	religion = "smartism"
-	culture = "sindhi"
-	father = 188558
-	755.1.1 = {
-		birth = yes
-	}
-	805.1.1 = {
-		death = yes
-	}
-}
+
 #######################################
 # Qalat Dynasty
 #######################################
