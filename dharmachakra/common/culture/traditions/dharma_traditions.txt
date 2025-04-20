@@ -1,5 +1,5 @@
 ﻿################################
-# Dharmachakra Traditions #
+# Dharmachakra Traditions 
 ################################
 tradition_tamil_thai = {# Tamil Mother language
 	category = societal
@@ -78,5 +78,10 @@ tradition_tamil_thai = {# Tamil Mother language
 	
 	}
 }
+################################
+# RICE Traditions 
+################################
+
+
 
 

@@ -350,7 +350,6 @@ haryanvi = {# Haryanvi
 }
 awadhi = {# Awadhi renamed to Bagheli
 	color = { 124 72 72 }
-	
 	ethos = ethos_spiritual
 	heritage = heritage_indo_aryan
 	language = language_sauraseni
@@ -381,7 +380,6 @@ braj = {# braj
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
 		tradition_agrarian
 		tradition_religious_patronage
 		tradition_court_eunuchs
@@ -410,6 +408,8 @@ kannauji = {# Kannauji
 		tradition_ruling_caste
 		tradition_court_eunuchs
 		tradition_city_keepers
+		tradition_philosopher_culture
+ 
 	}
 	
 	name_list = name_list_hindustani
@@ -576,31 +576,6 @@ pahari = {# pahari
 		10 = indian
 	}
 }
-kamarupi = {# kamarupi
-	color = { 230 0 38  }
-	
-	ethos = ethos_stoic
-	heritage = heritage_indo_aryan
-	language = language_magadhan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		
-		tradition_jungle_dwellers
-		tradition_jungle_warriors
-		tradition_language_scholars
-	}
-	
-	name_list = name_list_kamarupi
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = indian
-	}
-}
 newar = {# Newar People
 	color = { 227 0 34  }
 	
@@ -706,7 +681,7 @@ kashmiri = {# Kashmiri
 		10 = indian
 		1 = asian
 	}
-}			
+}
 shina = {# Shina
 	color = { 206 32 41 }
 	ethos = ethos_spiritual
@@ -911,6 +886,31 @@ bengali = {# Renamed to Gaudiya to reflect what it was called in this era
 		10 = indian
 	}
 }	
+kamarupi = {# kamarupi
+	color = { 230 0 38  }
+	
+	ethos = ethos_stoic
+	heritage = heritage_indo_aryan
+	language = language_magadhan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
+		tradition_jungle_dwellers
+		tradition_jungle_warriors
+		tradition_language_scholars
+	}
+	
+	name_list = name_list_kamarupi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
 # Southern Cultures
 sinhala = {# Indo-Aryans who arrived in Sri Lanka ca 600BC
 	color = { 233 116 81 }
@@ -920,11 +920,9 @@ sinhala = {# Indo-Aryans who arrived in Sri Lanka ca 600BC
 	language = language_sinhalese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
-		tradition_seafaring
-		tradition_fervent_temple_builders
-		tradition_city_keepers
-		
+		tradition_religious_patronage
+		tradition_stalwart_defenders
+		tradition_maritime_mercantilism
 	}
 	
 	name_list = name_list_sinhala

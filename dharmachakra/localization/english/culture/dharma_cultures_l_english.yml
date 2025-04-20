@@ -113,6 +113,8 @@
  kannauji_collective_noun:0 "Kannaujis"
  kannauji_prefix:0 "Kannauji"
 
+
+
 # New Burman Cultures
  rakhine:0 "Rakhine"
  rakhine_collective_noun:0 "Rakhines"
@@ -195,10 +197,6 @@
  tharu_name:0 "Tharu"
  tharu_collective_noun:0 "Tharus"
  tharu_prefix:0 "Tharu"
-
- haryanvi_name:0 "Haryanvi"
- haryanvi_collective_noun:0 "Haryanvis"
- haryanvi_prefix:0 "Haryanvi"
 
  chamka_name:0 "Chamka"
  chamka_collective_noun:0 "Chamkas"

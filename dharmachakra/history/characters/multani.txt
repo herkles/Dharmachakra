@@ -217,7 +217,7 @@ ghaznavid_vassal_1 = {
 #######################################
 ghaznavid_vassal_4 = {
 	name = "Tilak" #Tilak
-	dynasty = multani_tilaki_dynasty #Dynasty Unknown
+	dynasty = punjabi_tilaki_dynasty #Dynasty Unknown
 	religion = "vaishnavism"
 	culture = "multani"
 	1000.1.1 = {
