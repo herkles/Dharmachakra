@@ -6,7 +6,7 @@ tradition_tamil_thai = {# Tamil Mother language
 
 	layers = {
 		0 = learning
-		1 = mena
+		1 = indian
 		4 = quill.dds
 	}
 	
@@ -78,10 +78,320 @@ tradition_tamil_thai = {# Tamil Mother language
 	
 	}
 }
+tradition_lords_of_the_thar {# Lords of the Thar for those who live in the Thar desert
+	category = realm
+
+	layers = {
+		0 = steward
+		1 = indian
+		4 = desert.dds
+	}
+	
+	is_shown = {
+		any_culture_county = {# You got to live in the Thar Desert
+			count >= 4
+			any_county_province = {
+				geographical_region = RICE_sri_lanka_struggle_region
+			}
+		}
+	}
+
+	can_pick = {
+		custom_tooltip = {# You got to live in the Thar Desert
+			text = RICE_culture_in_sri_lanka_desc
+			any_culture_county = {
+				count >= 4
+				any_county_province = {
+					geographical_region = RICE_sri_lanka_struggle_region
+				}
+			}
+		}
+	}
+	
+	parameters = {
+		plantations_building_bonuses = yes
+		drylands_hunt_success_chance = yes
+	}
+	character_modifier = {
+		desert_travel_danger = desert_medium_danger_reduction
+		drylands_travel_danger = drylands_medium_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_medium_danger_reduction
+	}
+	county_modifier = {
+		desert_development_growth_factor = 0.35
+		drylands_development_growth_factor = 0.15
+	}
+	province_modifier = {
+		drylands_levy_size = 0.1
+		desert_levy_size = 0.1
+		drylands_supply_limit_mult = 0.25
+		desert_supply_limit_mult = 0.25
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = culture_not_bellicose
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_culture_county = {
+							percent >= 0.3
+							any_county_province = {
+								OR = {
+									terrain = drylands
+									terrain = desert
+								}
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = dry_percentage_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.2
+							culture = scope:character.culture
+							any_county_province = {
+								OR = {
+									terrain = drylands
+									terrain = desert
+								}
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+		else_if = {
+			limit = {
+				any_culture_county = {
+					percent >= 0.6
+					any_county_province = {
+						OR = {
+							terrain = drylands
+							terrain = desert
+						}
+					}
+				}
+			}
+			multiply = 8
+		}
+	}
+}
+
+
 ################################
 # RICE Traditions 
 ################################
+tradition_RICE_wewas = {
+	category = regional
 
+	layers = {
+		0 = diplo
+		1 = indian
+		4 = RICE_river.dds
+	}
 
+	is_shown = {
+		has_innovation = innovation_RICE_irrigation_tanks
+		any_culture_county = {
+			#count >= 4
+			any_county_province = {
+				geographical_region = RICE_sri_lanka_struggle_region
+			}
+		}
+	}
 
+	can_pick = {
+		has_innovation = innovation_RICE_irrigation_tanks
+		NOT = { has_cultural_tradition = tradition_RICE_stepwells }
+		custom_tooltip = {
+			text = RICE_culture_in_sri_lanka_desc
+			any_culture_county = {
+				count >= 4
+				any_county_province = {
+					geographical_region = RICE_sri_lanka_struggle_region
+				}
+			}
+		}
+	}
+	
+	parameters = {
+		unlock_rice_wewa_irrigation_tank_effects = yes
+	}
 
+	character_modifier = {
+		church_holding_build_gold_cost = -0.05
+	}	
+
+	county_modifier = {
+		forest_development_growth_factor = 0.1
+		jungle_development_growth_factor = 0.1
+		hills_development_growth_factor = 0.1
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 50
+	}
+}
+tradition_RICE_stepwells = {
+	category = regional
+
+	layers = {
+		0 = learning
+		1 = indian
+		4 = RICE_lotus.dds
+	}
+
+	is_shown = {
+		has_innovation = innovation_RICE_irrigation_tanks
+		any_culture_county = {
+			#count >= 4
+			any_county_province = {
+				geographical_region = RICE_sri_lanka_struggle_region
+			}
+		}
+	}
+
+	can_pick = {
+		has_innovation = innovation_RICE_irrigation_tanks
+		NOT = { has_cultural_tradition = tradition_RICE_wewas }
+	}
+	
+	parameters = {
+		unlock_rice_stepwell_irrigation_tank_effects = yes
+	}
+
+	character_modifier = {
+		stewardship = 1
+		stress_loss_mult = 0.1
+		church_holding_build_gold_cost = -0.05	
+	}	
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 50
+	}
+}
+tradition_RICE_gandharan_art = {
+	category = regional
+
+	layers = {
+		0 = diplo
+		1 = indian
+		4 = RICE_greco_buddhist_art.dds
+	}
+
+	is_shown = {
+		OR = {
+			this = culture:gandhari
+			any_parent_culture_or_above = {
+				this = culture:gandhari
+			}
+		}
+	}
+
+	can_pick = {
+		OR = {
+			this = culture:gandhari
+			any_parent_culture_or_above = {
+				this = culture:gandhari
+			}
+		}
+	}
+
+	character_modifier = {
+		cultural_head_fascination_mult = 0.15
+		artifact_decay_reduction_mult = -0.25
+		monthly_piety_gain_per_legitimacy_level_mult = 0.05
+		monthly_court_grandeur_change_add = 0.1
+		court_grandeur_baseline_add = 5
+		diplomatic_range_mult = 0.1
+	}	
+
+	# province_modifier = {
+	# 	build_gold_cost = -0.03
+	# }
+
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_communal_spiritual_or_stoic_desc
+				}
+			}
+			
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 25
+	}
+}

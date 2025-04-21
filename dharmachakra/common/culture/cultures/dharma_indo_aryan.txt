@@ -9,6 +9,10 @@ rajput = {# Renamed to Marwari
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_RICE_stepwells
+		tradition_lords_of_the_thar
+
+
 		tradition_warrior_culture
 		tradition_dryland_dwellers
 		tradition_quarrelsome
@@ -923,6 +927,7 @@ sinhala = {# Indo-Aryans who arrived in Sri Lanka ca 600BC
 		tradition_religious_patronage
 		tradition_stalwart_defenders
 		tradition_maritime_mercantilism
+		tradition_RICE_wewas
 	}
 	
 	name_list = name_list_sinhala

@@ -25,3 +25,12 @@ world_india_kashmir = {
 		d_kasmira
 	}
 }
+
+
+# RICE regions for compitability
+RICE_sri_lanka_struggle_region = {
+	duchies = {
+		#Lanka
+		d_dakhina_desa d_ruhunu d_sinhala
+	}
+}

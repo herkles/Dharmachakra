@@ -613,3 +613,80 @@ dharma_jain_abdication = {# Abdicate and become a monk
 		}
 	}
 }
+#######################################
+# RICE Decisions
+#######################################
+dharma_india_irrigation_tank_decision = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_rice_indian_agriculture.dds" }
+	desc = RICE_india_irrigation_tank_decision_desc
+
+	ai_check_interval = 48
+
+	cooldown = { days = 3650 }
+
+	is_shown = {
+		is_RICE_loaded = no
+		highest_held_title_tier > tier_barony
+		is_landed = yes
+		OR = {
+			capital_province = { geographical_region = world_india }
+			culture = {	has_innovation = innovation_RICE_irrigation_tanks }
+		}	
+	}
+
+	is_valid = {
+		culture = {	has_innovation = innovation_RICE_irrigation_tanks }
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	minimum_cost = {
+		gold = RICE_irrigation_tank_small_cost
+	}
+
+	effect = {	
+		custom_tooltip = RICE_india_irrigation_tank_decision_effect_tooltip_1
+		custom_tooltip = RICE_india_irrigation_tank_decision_effect_tooltip_2
+
+		if = {
+			limit = { 
+				culture = { has_cultural_parameter = unlock_rice_wewa_irrigation_tank_effects } 
+			}
+			custom_tooltip = RICE_india_irrigation_tank_decision_effect_tooltip_3
+		}
+		if = {
+			limit = {
+				culture = { has_cultural_parameter = unlock_rice_stepwell_irrigation_tank_effects }
+			}
+			custom_tooltip = RICE_india_irrigation_tank_decision_effect_tooltip_4
+		}
+		trigger_event = dharma_gujar.001
+	}
+
+	ai_will_do = {
+		base = 30
+
+		modifier = {
+			add = 10
+			has_trait = ambitious
+		}
+		modifier = {
+			add = -10
+			has_trait = greedy
+		}
+		modifier = {
+			add = 10
+			has_trait = diligent
+		}
+		modifier = {
+			add = -10
+			has_trait = lazy
+		}
+
+	}
+}
+
+
+

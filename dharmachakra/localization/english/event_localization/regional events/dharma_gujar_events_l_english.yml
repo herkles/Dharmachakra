@@ -1,0 +1,7 @@
+﻿l_english:
+  dharma_gujar.001.t:0 "Irrigation Tanks"
+  dharma_gujar.001.desc:0 "Irrigation tanks are carefully engineered systems of artificial reservoirs in [GetGeographicalRegion('world_india').GetName] that have provided a reliable source of water for centuries.\n\nI wish to work with local religious institutions and other prominent members of the community to build one such irrigation tank. It will provide for the needs of the locals, including agriculture, bathing, religious rituals, and more. The irrigation tank will, of course, also be adorned with artwork glorifying [ROOT.Char.GetFaith.HighGodName] and the sponsors, including myself.\n\nNow, how big should this irrigation tank be?"
+  dharma_gujar.001.a:0 "Small"
+  dharma_gujar.001.b:0 "Medium"
+  dharma_gujar.001.c:0 "Large"
+  dharma_gujar.001.d:0 "Grand"

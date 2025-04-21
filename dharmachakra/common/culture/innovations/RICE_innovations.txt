@@ -1,0 +1,25 @@
+﻿
+
+#Localization
+
+
+
+#### Local Types ####
+@RICE_irrigation_tanks = "gfx/interface/icons/culture_innovations/innovation_RICE_irrigation_tanks.dds"
+
+
+innovation_RICE_irrigation_tanks = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_india
+	icon = @RICE_irrigation_tanks
+
+	character_modifier = {
+		development_growth_factor = 0.05
+	}
+	
+	custom = RICE_irrigation_tanks_decision_unlock
+
+	flag = global_regional
+	flag = tribal_era_regional
+}

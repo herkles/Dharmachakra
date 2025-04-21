@@ -1,7 +1,22 @@
 ﻿l_english:
- # Traditions
- tradition_caste_system_name:0 "Caste System"
- tradition_caste_system_desc:1 "This Indian Caste system is integrated into society at every level. There are the four-fold Varnas and the numerous Jati that intermingle and make up the complex nature of the Caste System. Its strictness might wax and wane, but its presence is always there and the pillar of society for this culture. "
+ # Dharmachakra Traditions
+  tradition_caste_system_name:0 "Caste System"
+  tradition_caste_system_desc:1 "This Indian Caste system is integrated into society at every level. There are the four-fold Varnas and the numerous Jati that intermingle and make up the complex nature of the Caste System. Its strictness might wax and wane, but its presence is always there and the pillar of society for this culture. "
 
- tradition_tamil_thai_name:0 "Tamiltay"
- tradition_tamil_thai_desc:1 "The Tamil Language holds a special place within the heart of the Tamil People. The Tamil take great pride in their literature and poetry which goes back to the Ancient Sangam period. "
+  tradition_tamil_thai_name:0 "Tamiltay"
+  tradition_tamil_thai_desc:1 "The Tamil Language holds a special place within the heart of the Tamil People. The Tamil take great pride in their literature and poetry which goes back to the Ancient Sangam period. "
+
+  tradition_lords_of_the_thar_name:0 "Lords of the Thar"
+  tradition_lords_of_the_thar_desc:1 "This culture lives and fights in the Thar desert and they know how to survive in the harsh thar desert and how to fight."
+
+
+  # RICE Traditions for compatibility
+  tradition_RICE_wewas_name:0 "Wewa Systems"
+  tradition_RICE_wewas_desc:0 "This culture, which has origins or influence from Sri Lanka, has refined the techniques used to create irrigation tanks throughout the Indian subcontinent. In Sri Lanka, these tanks, known as wewas, are constructed in large numbers and with a high level of engineering and administrative sophistication."
+
+  RICE_culture_in_sri_lanka_desc:1 "The [culture|E] has at least #V 4#! of its [counties|E] in [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E]"
+  RICE_sri_lanka_struggle_region:0 "Sri Lanka"
+
+
+  tradition_RICE_stepwells_name:0 "Stepwell Builders"
+  tradition_RICE_stepwells_desc:0 "Stepwells are sturdy wells with a corridor of steps that descend to the water level, that provide dependable water for agriculture but also serve as places of worship, leisure, and bathing. Though they are built by many cultures from the Indian subcontinent, this culture is known for building many such stepwells, including some of the largest ones in the region."

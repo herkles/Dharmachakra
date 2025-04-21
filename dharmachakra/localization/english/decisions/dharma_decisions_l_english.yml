@@ -82,7 +82,6 @@
 
   dharma_hero_stone_decision_ancestor: "You have a recently deceased ancestor"
 
-
 #######################################
 # Sacred Groves
 #######################################
@@ -97,4 +96,14 @@
   no_sacred_grove_county:0 "You do not own a [county|E] with a Sacred Grove [county_modifier|E]"
   yes_sacred_grove_county:0 "You own a [county|E] with a Sacred Grove [county_modifier|E]"
 
-
+#######################################
+# Stepwells
+#######################################
+  dharma_india_irrigation_tank_decision:0 "Construct Irrigation Tanks"
+  dharma_india_irrigation_tank_decision_tooltip:0 "Sponsor the building of irrigation tanks."
+  RICE_india_irrigation_tank_decision_desc:0 "Centuries ago, the people of [GetGeographicalRegion('world_india').GetName] mastered the art of building reservoirs and other connected water systems to harvest and preserve rainwater. Such irrigation tanks are often associated with local religious institutions, and sponsoring the construction of some would reflect well on me."
+  dharma_india_irrigation_tank_decision_confirm:0 "Prepare for some construction!"
+  RICE_india_irrigation_tank_decision_effect_tooltip_1:0 "Your [county_capital|E] will receive a [county_modifier|E] lasting 10 years and you will receive a corresponding [character_modifier|E] and some [prestige_i|E] [prestige|E] and [piety_i|E] [piety|E]"
+  RICE_india_irrigation_tank_decision_effect_tooltip_2:0 "The strength of these bonuses depends on how much funding is provided"
+  RICE_india_irrigation_tank_decision_effect_tooltip_3:0 "Your [culture|E] has a [tradition|E] that reduces the costs of constructing irrigation tanks"
+  RICE_india_irrigation_tank_decision_effect_tooltip_4:0 "Your [culture|E] has a [tradition|E] that increases the [prestige|E] and [piety|E] gained from constructing irrigation tanks"

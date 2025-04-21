@@ -1,0 +1,6 @@
+﻿l_english:
+  innovation_RICE_irrigation_tanks:0 "Irrigation Tanks"
+  innovation_RICE_irrigation_tanks_desc:0 "Throughout the Indian subcontinent, certain types of large wells and artificial reservoirs are constructed to take advantage of the local topography in order to harvest and preserve rainwater. These tanks can be used for agriculture, drinking, bathing, and religious rituals."
+  RICE_irrigation_tanks_decision_unlock:0 "Can take the [decision|E] to #V $RICE_india_irrigation_tank_decision$#!"
+  culture_parameter_unlock_rice_wewa_irrigation_tank_effects:0 "Reduced costs for the [decision|E] to #V $RICE_india_irrigation_tank_decision$#!"
+  culture_parameter_unlock_rice_stepwell_irrigation_tank_effects:0 "Increased [piety_i|E] [piety|E] and [prestige_i|E] [prestige|E] bonuses when taking the [decision|E] to #V $RICE_india_irrigation_tank_decision$#!"
