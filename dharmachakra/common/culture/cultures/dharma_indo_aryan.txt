@@ -11,13 +11,9 @@ rajput = {# Renamed to Marwari
 	traditions = {
 		tradition_RICE_stepwells
 		tradition_lords_of_the_thar
-
-
+		tradition_pastoralists
+		tradition_caravaneers
 		tradition_warrior_culture
-		tradition_dryland_dwellers
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
 	}
 
 	name_list = name_list_rajput
@@ -40,9 +36,9 @@ mewari = {# Mewari People
 	traditions = {
 		tradition_warrior_culture
 		tradition_dryland_dwellers
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_RICE_stepwells
+		tradition_stalwart_defenders
+		tradition_hereditary_hierarchy
 	}
 
 	name_list = name_list_rajput
@@ -66,34 +62,9 @@ dhundhari = {# Dhundhari People
 	traditions = {
 		tradition_warrior_culture
 		tradition_dryland_dwellers
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
-	}
-
-	name_list = name_list_rajput
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
-	ethnicities = {
-		10 = indian
-	}
-}
-shekhawati = {# Shekhawati
-	color = { 255 69 0 }
-	ethos = ethos_bellicose
-	heritage = heritage_indo_aryan
-	language = language_rajasthani
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_warrior_culture
-		tradition_dryland_dwellers
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-		tradition_khadga_puja
+		tradition_RICE_stepwells
+		tradition_hereditary_hierarchy
+		tradition_castle_keepers
 	}
 
 	name_list = name_list_rajput
@@ -115,10 +86,10 @@ gujarati = {# Indo-Aryan
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_RICE_stepwells
 		tradition_vegetarianism
-		tradition_religion_blending
-		tradition_seafaring
+		tradition_city_keepers
+		tradition_maritime_mercantilism
 		tradition_artisans
 	}
 	
@@ -142,9 +113,9 @@ malvi = {# Indo-Aryan
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_fervent_temple_builders
-		tradition_mystical_ancestors
-		tradition_khadga_puja
-		tradition_agrarian
+		tradition_hill_dwellers
+		tradition_city_keepers
+		tradition_artisans
 	}
 	
 	name_list = name_list_malvi
@@ -154,55 +125,6 @@ malvi = {# Indo-Aryan
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
-	ethnicities = {
-		10 = indian
-	}
-}
-# Punjabi Cultures
-punjabi = {# Renamed to Madraka
-	color = { 139 0 0 }
-	ethos = ethos_communal
-	heritage = heritage_indo_aryan
-	language = language_vrachada
-	martial_custom = martial_custom_male_only
-	traditions = {	
-		tradition_khadga_puja
-		tradition_quarrelsome
-		tradition_religion_blending
-		tradition_agrarian
-	}
-	
-	name_list = name_list_punjabi
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = indian
-	}
-}
-multani = {# Multani
-	color = { 128 0 0 }
-	ethos = ethos_communal
-	heritage = heritage_indo_aryan
-	language = language_vrachada
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_caravaneers
-		tradition_religion_blending
-		tradition_zealous_people
-		tradition_agrarian
-	}
-	
-	name_list = name_list_punjabi
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
 	ethnicities = {
 		10 = indian
 	}
@@ -288,9 +210,10 @@ marathi = {# Indo-Aryan
 	language = language_marathi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hard_working
-		tradition_modest
-		tradition_pastoralists
+		tradition_hill_dwellers
+		tradition_stalwart_defenders
+		tradition_agrarian
+		tradition_mendicant_mystics
 	}
 	
 	name_list = name_list_marathi
@@ -311,7 +234,7 @@ konkani = {# Konkani
 	language = language_marathi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_hill_dwellers
 		tradition_maritime_mercantilism
 		tradition_religious_patronage
 		tradition_modest
@@ -337,7 +260,7 @@ haryanvi = {# Haryanvi
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_agrarian
-		tradition_ruling_caste
+		tradition_pastoralists
 		tradition_court_eunuchs
 		tradition_city_keepers
 	}
@@ -385,9 +308,10 @@ braj = {# braj
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_agrarian
-		tradition_religious_patronage
-		tradition_court_eunuchs
-		tradition_city_keepers
+		tradition_philosopher_culture
+		tradition_poetry
+		tradition_vegetarianism
+		tradition_staunch_traditionalists
 	}
 
 	name_list = name_list_braj
@@ -465,9 +389,10 @@ bhil = {# bhil
 	language = language_bhil
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_sacred_groves
-		tradition_collective_lands
-		tradition_isolationist
+		tradition_migratory
+		tradition_mystical_ancestors
+		tradition_quarrelsome
+		tradition_culture_blending
 	}
 
 	name_list = name_list_bhil
@@ -489,9 +414,10 @@ sambalpuri = {# Kolasi
 	language = language_chhattisgarhi
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_mystical_ancestors
+		tradition_quarrelsome
 		tradition_hill_dwellers
-		tradition_isolationist
-		tradition_sacred_groves
+		tradition_warrior_culture
 	}
 
 	name_list = name_list_sambalpuri
@@ -537,10 +463,10 @@ nepali = {# Khasa People
 	language = language_khasa
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
 		tradition_himalayan_settlers
-		tradition_martial_admiration
 		tradition_religious_patronage
+		tradition_quarrelsome
+		tradition_khadga_puja
 	}
 	
 	name_list = name_list_nepali
@@ -588,10 +514,10 @@ newar = {# Newar People
 	language = language_newar
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
 		tradition_himalayan_settlers
-		tradition_martial_admiration
 		tradition_religious_patronage
+		tradition_quarrelsome
+		tradition_khadga_puja
 	}
 	
 	name_list = name_list_nepali
@@ -614,8 +540,8 @@ garwhali = {# Garwhali People
 	language = language_khasa
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
 		tradition_himalayan_settlers
+		tradition_religious_patronage
 		tradition_martial_admiration
 		tradition_religious_patronage
 	}
@@ -640,7 +566,7 @@ kuamoni = {#  Kuamoni
 	language = language_khasa
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_ancient_miners
 		tradition_himalayan_settlers
 		tradition_martial_admiration
 		tradition_religious_patronage
@@ -814,7 +740,7 @@ brokpa = {# Brokpa and others in Lakadh
 		10 = mediterranean
 	}
 }
-# Sindh Cultures
+# Western Cultures
 sindhi = {# Indo-Aryan
 	color = { 218 44 67 }	
 	ethos = ethos_spiritual
@@ -839,7 +765,55 @@ sindhi = {# Indo-Aryan
 		10 = indian
 	}
 }
-# Western Cultures
+punjabi = {# Renamed to Madraka
+	color = { 139 0 0 }
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_khadga_puja
+		tradition_quarrelsome
+		tradition_religion_blending
+		tradition_agrarian
+	}
+	
+	name_list = name_list_punjabi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+multani = {# Multani
+	color = { 128 0 0 }
+	ethos = ethos_bureaucratic
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_religion_blending
+		tradition_charitable
+		tradition_esteemed_hospitality
+	}
+	
+	name_list = name_list_punjabi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+	}
+}
+# Eastern Cultures
 oriya = {# Indo-Aryan
 	color = { 253 14 53}
 	
@@ -849,7 +823,7 @@ oriya = {# Indo-Aryan
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_culinary_art
-		tradition_seafaring
+		tradition_maritime_mercantilism
 		tradition_lords_of_the_elephant
 		tradition_religious_patronage
 	}
@@ -899,9 +873,10 @@ kamarupi = {# kamarupi
 	martial_custom = martial_custom_male_only
 	traditions = {
 		
-		tradition_jungle_dwellers
-		tradition_jungle_warriors
-		tradition_language_scholars
+		tradition_stalwart_defenders
+		tradition_lords_of_the_elephant
+		tradition_culture_blending
+		tradition_agrarian
 	}
 	
 	name_list = name_list_kamarupi

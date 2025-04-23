@@ -143,7 +143,7 @@
 1353 = {	# 1353 - Harshnath
 	
 	# Misc
-	culture = shekhawati
+	culture = dhundari
 	religion = shaivism
 	
 	# History
@@ -154,7 +154,7 @@
 1354 = {	# 1354 - Nagauda
 	
 	# Misc
-	culture = shekhawati
+	culture = dhundari
 	religion = suryaism
 	
 	# History
@@ -433,7 +433,7 @@
 3481 = {	# 3481 - Vairata
 	
 	# Misc
-	culture = shekhawati
+	culture = marwari
 	religion = suryaism
 	
 	# History
@@ -649,7 +649,7 @@
 3968 = {	# 3968 - Sakarai
 	
 	# Misc
-	culture = shekhawati
+	culture = dhundari
 	religion = vaishnavism
 	
 	# History
