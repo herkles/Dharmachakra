@@ -162,7 +162,7 @@ khond = {# Khond
 	language = language_kuvi
 	martial_custom = martial_custom_male_only
 
-	name_list = language_kuvi
+	name_list = name_list_gond
 
 	coa_gfx = { dravidian_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -188,7 +188,7 @@ kurukh = {# Kurukh
 	language = language_kurukh
 	martial_custom = martial_custom_male_only
 
-	name_list = language_kurukh
+	name_list = name_list_gond
 
 	coa_gfx = { dravidian_group_coa_gfx }
 	building_gfx = { indian_building_gfx }

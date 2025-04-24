@@ -91,18 +91,18 @@ tradition_lords_of_the_thar {# Lords of the Thar for those who live in the Thar 
 		any_culture_county = {# You got to live in the Thar Desert
 			count >= 4
 			any_county_province = {
-				geographical_region = RICE_sri_lanka_struggle_region
+				geographical_region = dharma_thar_desert
 			}
 		}
 	}
 
 	can_pick = {
 		custom_tooltip = {# You got to live in the Thar Desert
-			text = RICE_culture_in_sri_lanka_desc
+			text = dharma_culture_in_thar_desert_desc
 			any_culture_county = {
 				count >= 4
 				any_county_province = {
-					geographical_region = RICE_sri_lanka_struggle_region
+					geographical_region = dharma_thar_desert
 				}
 			}
 		}

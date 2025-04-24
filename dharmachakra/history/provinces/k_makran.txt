@@ -2,7 +2,7 @@
 ##d_makran ###################################
 ###c_panjgur
 4471 = {	#Bannajbur
-	culture = brahui #FP3, baloch migration fix
+	culture = jat #FP3, baloch migration fix
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -33,7 +33,7 @@
 
 ###c_kiz
 4285 = {	#Kiz
-	culture = brahui #FP3, baloch migration fix
+	culture = jat #FP3, baloch migration fix
 	religion = mazdayasna
 	holding = castle_holding
 	760.1.1 = {
@@ -83,7 +83,7 @@
 
 ###c_khawr
 4477 = {	#Khawr
-	culture = brahui
+	culture = jat
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -112,7 +112,7 @@
 
 ###c_turan
 4479 = {	#Qusdar
-	culture = brahui 
+	culture = jat 
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -147,7 +147,7 @@
 ##d_jabal_kufs ###################################
 ###c_bampur
 4268 = {	#Bint
-	culture = brahui
+	culture = jat
 	religion = ashari
 	holding = castle_holding
 	1050.1.1 = {

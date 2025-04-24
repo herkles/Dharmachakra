@@ -287,8 +287,8 @@
 		}
 		1060.1.1 = {
 			# The brother's feud
-			set_relation_potential_rival = character:190018
-			set_relation_potential_rival = character:190020
+			# set_relation_potential_rival = character:190018
+			# set_relation_potential_rival = character:190020
 		}
 		1077.1.1 = {
 			death = yes
@@ -306,8 +306,8 @@
 		}
 		1060.1.1 = {
 			# The brother's feud
-			set_relation_potential_rival = character:190018
-			set_relation_potential_rival = character:190019
+			# set_relation_potential_rival = character:190018
+			# set_relation_potential_rival = character:190019
 		}
 		1120.1.1 = {
 			death = yes

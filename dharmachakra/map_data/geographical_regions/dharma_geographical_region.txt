@@ -16,7 +16,6 @@ graphical_burma = {
 }
 
 # Custom regions
-
 world_india_kashmir = {
 	duchies = {
 		#Himalaya
@@ -25,7 +24,11 @@ world_india_kashmir = {
 		d_kasmira
 	}
 }
-
+dharma_thar_desert = {
+	counties = {
+		c_ludrava c_vikramapura c_reni c_sarasvati c_dipalpur c_karur c_uch c_vijnot c_aror c_siwistan c_mansura c_sonda
+	}
+}
 
 # RICE regions for compitability
 RICE_sri_lanka_struggle_region = {

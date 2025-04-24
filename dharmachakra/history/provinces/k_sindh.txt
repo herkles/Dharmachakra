@@ -415,7 +415,7 @@
 4513 = {# 4513 - Sibi
 	
 	# Misc
-	culture = afghan
+	culture = jat
 	religion = mahayana
 	
 	# History

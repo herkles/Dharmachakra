@@ -9,6 +9,8 @@
   tradition_lords_of_the_thar_name:0 "Lords of the Thar"
   tradition_lords_of_the_thar_desc:1 "This culture lives and fights in the Thar desert and they know how to survive in the harsh thar desert and how to fight."
 
+  dharma_culture_in_thar_desert_desc:1 "The [culture|E] has at least #V 4#! of its [counties|E] in [GetGeographicalRegion('dharma_thar_desert').GetName] [region|E]"
+  dharma_thar_desert:0 "Sri Lanka"
 
   # RICE Traditions for compatibility
   tradition_RICE_wewas_name:0 "Wewa Systems"

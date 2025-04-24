@@ -801,7 +801,7 @@
 4517 = {# 4517 - Loralai
 	
 	# Misc
-	culture = afghan
+	culture = jat
 	religion = mahayana
 	
 	# History
