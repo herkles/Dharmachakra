@@ -112,11 +112,9 @@
 	} #The Sumpa are pushed out of the Lhasa region by Namri Songtsen
 	641.1.1 = {# Songtsen Gampo promotes Buddhism
 		religion = lamaism
-		special_building_slot = potala_palace_01
-		special_building = potala_palace_01
 	}
 	1066.1.1 = {
-		special_building_slot = potala_palace_02
+
 	}
 }
 9237 = {	# Lhasa

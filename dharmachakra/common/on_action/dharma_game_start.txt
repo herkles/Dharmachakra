@@ -48,7 +48,6 @@ dharma_setup_after_game_start_on_actions = {
 				set_county_faith = faith:zun_pagan
 			}
 		}
-
 		# Language Breaking up for start dates
 		if = {# Konkani Language forming
 			limit = { game_start_date >= 1100.1.1 }
@@ -89,6 +88,37 @@ dharma_setup_after_game_start_on_actions = {
 			}
 			culture:garwhali = { set_culture_pillar = language_garwhali }
 			culture:kuamoni = { set_culture_pillar = language_kumaoni }
+		}
+		# Special buildings if you don't own the monument dlc
+		if = {# special buildings - 867
+			limit = {
+				has_cp3_dlc_trigger = no
+				game_start_date >= 867.1.1
+			}
+	        title:b_vatapi.title_province = { add_special_building = pattadakal_01 } #9237
+			title:b_konarak.title_province = { add_special_building = konark_sun_temple_01 } #9237
+
+		}
+		if = {# Konark Sun Temple
+			limit = {
+				has_cp3_dlc_trigger = no
+				game_start_date >= 1250.1.1
+			}
+	        title:b_konarak.title_province = { add_special_building = konark_sun_temple_01 } #9237
+		}
+		if = {# Upgradable special buildings
+			limit = {
+				has_cp3_dlc_trigger = no
+				game_start_date >= 867.1.1
+			}
+	        title:b_lhasa.title_province = { add_special_building = potala_palace_01 } #9237
+		}
+		else_if = {# 1066 special buildings. 
+			limit = {
+				has_cp3_dlc_trigger = no
+				game_start_date >= 1066.1.1
+			}
+	        title:b_lhasa.title_province = { add_special_building = potala_palace_02 } #9237
 		}
 	}
 }
