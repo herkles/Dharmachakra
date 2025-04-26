@@ -51,28 +51,28 @@ dharma_setup_after_game_start_on_actions = {
 		# Language Breaking up for start dates
 		if = {# Konkani Language forming
 			limit = { game_start_date >= 1100.1.1 }
-			set_global_variable = {
-				name = dharma_language_konkani_formed
-				value = yes
-			}
+			# set_global_variable = {
+			# 	name = dharma_language_konkani_formed
+			# 	value = yes
+			# }
 			culture:konkani = { set_culture_pillar = language_konkani }
 		}
 		if = {# sindhi and punjabi spliting
 			limit = { game_start_date >= 1100.1.1 }
-			set_global_variable = {
-				name = dharma_language_split_vrachada
-				value = yes
-			}
+			# set_global_variable = {
+			# 	name = dharma_language_split_vrachada
+			# 	value = yes
+			# }
 			culture:punjabi = { set_culture_pillar = language_panchanada }
 			culture:multani = { set_culture_pillar = language_panchanada }
 			culture:sindhi = { set_culture_pillar = language_sindhi }
 		}		
 		if = {# Magadhian split
 			limit = { game_start_date >= 1100.1.1 }
-			set_global_variable = {
-				name = dharma_language_split_magadhi
-				value = yes
-			}
+			# set_global_variable = {
+			# 	name = dharma_language_split_magadhi
+			# 	value = yes
+			# }
 			culture:bihari = { set_culture_pillar = language_bihari }
 			culture:magadhi = { set_culture_pillar = language_bihari }
 			culture:maithili = { set_culture_pillar = language_bihari }
@@ -82,10 +82,10 @@ dharma_setup_after_game_start_on_actions = {
 		}		
 		if = {# Khasa Split
 			limit = { game_start_date >= 1100.1.1 }
-			set_global_variable = {
-				name = dharma_language_split_khasa
-				value = yes
-			}
+			# set_global_variable = {
+			# 	name = dharma_language_split_khasa
+			# 	value = yes
+			# }
 			culture:garwhali = { set_culture_pillar = language_garwhali }
 			culture:kuamoni = { set_culture_pillar = language_kumaoni }
 		}
@@ -96,7 +96,7 @@ dharma_setup_after_game_start_on_actions = {
 				game_start_date >= 867.1.1
 			}
 	        title:b_vatapi.title_province = { add_special_building = pattadakal_01 } #9237
-			title:b_konarak.title_province = { add_special_building = konark_sun_temple_01 } #9237
+			title:b_konarak.title_province = { add_special_building_slot = konark_sun_temple_01 } #9237
 
 		}
 		if = {# Konark Sun Temple
