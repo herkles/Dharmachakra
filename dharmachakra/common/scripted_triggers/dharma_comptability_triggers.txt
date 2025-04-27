@@ -1,0 +1,4 @@
+﻿
+is_RICE_loaded = {
+	always = no
+}

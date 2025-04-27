@@ -416,7 +416,7 @@
 	
 	# Misc
 	culture = jat
-	religion = mahayana
+	religion = khurmazta
 	
 	# History
 	1000.1.1 = {

@@ -2,12 +2,12 @@
 4489 = {# 4489 - Zamindawar
 	
 	# Misc
-	culture = afghan
+	culture = turco_hephthalite
 	religion = zun_pagan
 
 	# History
-
 	1000.1.1 = {
+		culture = khalaj
 		religion = ashari
 	}
 }
@@ -69,6 +69,7 @@
 	# History
 
 	1000.1.1 = {
+		culture = khalaj
 		religion = ashari
 	}
 
@@ -129,12 +130,13 @@
 4500 = {# 4500 - Ghazna
 	
 	# Misc
-	culture = afghan
-	religion = mahayana
+	culture = turco_hephthalite
+	religion = khurmazta
 
 	# History
 
 	1000.1.1 = {
+		culture = khalaj
 		religion = ashari
 	}
 
@@ -264,7 +266,7 @@
 	
 	# Misc
 	culture = afghan
-	religion = mahayana
+	religion = khurmazta
 	
 	# History
 

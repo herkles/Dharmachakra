@@ -1,0 +1,5 @@
+﻿l_english:
+
+  huna_history_loc: "Formed from [CULTURE.GetName] and various Indo-Aryan cultures around the year [DATE.GetYear]"
+  iranian_hun_history_loc:0 "Formed from various cultures of $iranian_group$ and $turkic_group$ [heritage|E] in the year [DATE.GetYear]"
+

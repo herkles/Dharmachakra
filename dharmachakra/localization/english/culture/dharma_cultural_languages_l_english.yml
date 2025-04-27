@@ -28,13 +28,13 @@
     language_minaro_name:0 "Minaro"
     language_chakma_name:0 "Chakma"
     language_bangla_name:0 "Bangla"
-
-
   # Dravidian Languages
     language_gondi_name:0 "Gondi"
     language_tulu_name:0 "Tulu"
     language_kuvi_name:0 "Kuvi"
     language_kurukh_name:0 "Kurukh"
+  # Iranian Languages
+    language_pamiri_name:0 "Pamiri"
 
   # Tibetan Languages
     language_tani_name:0 "Tani"

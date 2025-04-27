@@ -134,7 +134,7 @@
 	
 	# Misc
 	culture = chitrali #Dardic
-	religion = shaivism
+	religion = nuristani_pagan
 	
 	holding = castle_holding
 	

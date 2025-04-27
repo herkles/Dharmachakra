@@ -1,16 +1,12 @@
 ﻿l_english:
 ##############################
-#                            #                              
 #       Rajasthani Names     #
-#                            #
 ############################## 
 Mihira_Bhoja:0 "Mihira Bhoja"
 Tandradevi:0 "Tandradevi"
 Ramadevi:0 "Ramadevi"
 ##############################
-#                            #                              
 #       Sambalpuri Names     #
-#                            #
 ############################## 
 Jugasai:0 "Jugasai"
 Pratapnayan:0 "Pratapnayan"
@@ -40,16 +36,12 @@ Giriraj:0 "Giriraj"
 Suratarangini_Devi:0 "Suratarangini Devi"
 Malavika_Devi:0 "Malavika Devi"
 ##############################
-#                            #                              
 #       Rajbongshi Names     #
-#                            #
 ############################## 
 Mangaldahi:0 "Mangaldahi"
 Kuranganayani:0 "Kuranganayani"
 ##############################
-#                            #                              
 #        Meitei Names        #
-#                            #
 ##############################
 Sati_Joymati:0 "Sati Joymati"
 Sudangpha:0 "Sudangpha"
@@ -66,9 +58,7 @@ Suklenmung_Garghgaya_Raja:0 "Suklenmung Garghgaya Raja"
 Gobar:0 "Gobar"
 Brajnatha:0 "Brajnatha"
 ##############################
-#                            #   
 #       tripuri Names        #
-#                            #
 ############################## 
 Suklenmung:0 "Suklenmung"
 Hamtor_Fa:0 "Hamtor Fa"
@@ -97,9 +87,7 @@ Muchung_Fa:0 "Muchung Fa"
 Jash_Fa:0 "Jash Fa"
 Krishnadas:0 "Krishnadas"
 ##############################
-#                            #
 #       chutia Names         #
-#                            #
 ############################## 
 Joymati:0 "Joymati"
 Satyanarayana:0 "Satyanarayana"
@@ -116,22 +104,166 @@ Purandarnarayana:0 "Purandarnarayana"
 Dhirnarayana:0 "Dhirnarayana"
 Durlabhnarayana:0 "Durlabhnarayana"
 ##############################
-#                            #                              
 #      Kannada Names         #
-#                            #
 ############################## 
 Asagavve:0 "Asagavve"
 Nripathunga:0 "Nripathunga"
 
 ##############################
-#                            #                              
 #        Other Names         #
-#                            #
 ############################## 
 Sukhampha: "Sukhampha"
 Lalitadiyta_Muktapida: "Lalitadiyta-Muktapida"
-
-
-
-
+Agalg: "Agalg"
+Alow: "Alow"
+Alushal: "Alushal"
+Anend: "Anend"
+Arduksh: "Arduksh"
+Begeys: "Begeys"
+Dukhtanosh: "Dukhtanosh"
+Farowesp: "Farowesp"
+Firg: "Firg"
+Firyid: "Firyid"
+Fordams: "Fordams"
+Frogerd: "Frogerd"
+Harug: "Harug"
+Khuhz: "Khuhz"
+Lahun: "Lahun"
+Lahyid: "Lahyid"
+Logda: "Logda"
+Lrohominan: "Lrohominan"
+Mapresey: "Mapresey"
+Muul: "Muul"
+Nawshal: "Nawshal"
+Nestokhot: "Nestokhot"
+Predyig: "Predyig"
+Purogat: "Purogat"
+Puun: "Puun"
+Rokhshana: "Rokhshana"
+Umma: "Umma"
+Wadobargan: "Wadobargan"
+Wusugd: "Wusugd"
+Zbayana: "Zbayana"
+Zhindag: "Zhindag"
+Ralik: "Ralik"
+Ahuti: "Ahuti"
+Amihraman: "Amihraman"
+Andez: "Andez"
+Apama: "Apama"
+Ardokhsho: "Ardokhsho"
+Artabazu: "Artabazu"
+Artana: "Artana"
+Artasura: "Artasura"
+Artosauka: "Artosauka"
+Awishka: "Awishka"
+Bagmareg: "Bagmareg"
+Barzand: "Barzand"
+Bazeshk: "Bazeshk"
+Bazodeo: "Bazodeo"
+Borzomihr: "Borzomihr"
+Borzomiur: "Borzomiur"
+Boser: "Boser"
+Chinakhratu: "Chinakhratu"
+Daro: "Daro"
+Dartafarnah: "Dartafarnah"
+Dathshmareg: "Dathshmareg"
+Devraz: "Devraz"
+Etat: "Etat"
+Eyoman: "Eyoman"
+Fanz: "Fanz"
+Freistarab: "Freistarab"
+Goboziko: "Goboziko"
+Goya: "Goya"
+Grumbat: "Grumbat"
+Gunavarman: "Gunavarman"
+Hashtuma: "Hashtuma"
+Huspasina: "Huspasina"
+Huvishka: "Huvishka"
+Jouishka: "Jouishka"
+Kalan: "Kalan"
+Kanarang: "Kanarang"
+Kandik: "Kandik"
+Katana: "Katana"
+Kav: "Kav"
+Khalas: "Khalas"
+Khanchil: "Khanchil"
+Kharana: "Kharana"
+Khirgoman: "Khirgoman"
+Khoade: "Khoade"
+Khwasraw: "Khwasraw"
+Kidara: "Kidara"
+Kozgashka: "Kozgashka"
+Kozgashki: "Kozgashki"
+Kungas: "Kungas"
+Loikhobosar: "Loikhobosar"
+Mareg: "Mareg"
+Mihraman: "Mihraman"
+Mithravakhsha: "Mithravakhsha"
+Nevak: "Nevak"
+Ninda: "Ninda"
+Nobekht: "Nobekht"
+Nokonzok: "Nokonzok"
+Nukunzuk: "Nukunzuk"
+Oaksh: "Oaksh"
+Oesh: "Oesh"
+Oeshki: "Oeshki"
+Ormuzd: "Ormuzd"
+Oromozd: "Oromozd"
+Orshvadata: "Orshvadata"
+Parka: "Parka"
+Piroz: "Piroz"
+Purlang_zin: "Purlang zin"
+Pusk: "Pusk"
+Ratbel: "Ratbel"
+Shabur: "Shabur"
+Shafar: "Shafar"
+Shizogarg: "Shizogarg"
+Shodila: "Shodila"
+Spitamanah: "Spitamanah"
+Sukhrak: "Sukhrak"
+Tarmad: "Tarmad"
+Tirikhshara: "Tirikhshara"
+Ukhshebovak: "Ukhshebovak"
+Ukhshyabavaka: "Ukhshyabavaka"
+Vakhshufrita: "Vakhshufrita"
+Vakhshuvarta: "Vakhshuvarta"
+Varhran: "Varhran"
+Vitana: "Vitana"
+Vohumanah: "Vohumanah"
+Wagra: "Wagra"
+Wagwir: "Wagwir"
+Warahan: "Warahan"
+Washava: "Washava"
+Winamarg: "Winamarg"
+Yaskul: "Yaskul"
+Yezdgird: "Yezdgird"
+Zhunlad: "Zhunlad"
+Zmik: "Zmik"
+Bab: "Bab"
+Piduk: "Piduk"
+Uglarg: "Uglarg"
+Sart: "Sart"
+Khwadewbandan: "Khwadewbandan"
+Nokonzoko: "Nokonzoko"
+Baka: "Baka"
+Khono: "Khono"
+Gatfar: "Gatfar"
+Waraz: "Waraz"
+Khushnawaz: "Khushnawaz"
+Axshondar: "Axshondar"
+KunKhi: "KunKhi"
+Akhshunwar: "Akhshunwar"
+Yilituo: "Yilituo"
+Shania: "Shania"
+Ghar-ilchi: "Ghar-ilchi"
+Sadavikha: "Sadavikha"
+Yudhishthira: "Yudhishthira"
+Narendraditya: "Narendraditya"
+Bhagundi: "Bhagundi"
+Jina: "Jina"
+Sudasa: "Sudasa"
+Yozino: "Yozino"
+Aspurabah: "Aspurabah"
+Asparobido: "Asparobido"
+Katulf: "Katulf"
 

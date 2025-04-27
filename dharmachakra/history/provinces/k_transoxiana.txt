@@ -117,8 +117,8 @@
 	holding = castle_holding
 	900.1.1 = {
 		religion = maturidi
-		culture = tajik
-	}	
+	}
+	1100.1.1 = { culture = tajik }	
 	1230.1.1 = { culture = turkish }
 }
 4399 = {	#Kushaniya
@@ -359,12 +359,12 @@
 	culture = sogdian
 	religion = mahayana
 	holding = castle_holding
-	900.1.1 = {
-		culture = tajik
-	}
 	1000.1.1 = {
 		religion = maturidi
 	}	
+	1100.1.1 = {
+		culture = tajik
+	}
 	1230.1.1 = { culture = mongol }
 }
 4381 = {	#Shuman
@@ -383,8 +383,8 @@
 	holding = castle_holding
 	900.1.1 = {
 		religion = maturidi
-		culture = tajik
 	}	
+	1100.1.1 = { culture = tajik }
 	1230.1.1 = { culture = turkish }
 }
 4411 = {	#Bottaman
@@ -412,6 +412,8 @@
 	holding = castle_holding
 	900.1.1 = {
 		religion = maturidi
+	}	
+	1100.1.1 = {
 		culture = tajik
 	}	
 	1230.1.1 = { culture = turkish }

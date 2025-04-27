@@ -40,6 +40,8 @@ dharma_setup_after_game_start_on_actions = {
 			}	
 			title:c_zamindawar = {
 				set_county_faith = faith:zun_pagan
+				set_county_culture = culture:turco_hephthalite
+
 			}	
 			title:c_rukhaj = {
 				set_county_faith = faith:zun_pagan

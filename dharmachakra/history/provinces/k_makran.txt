@@ -322,10 +322,13 @@
 
 ###c_bost
 4484 = {	#Bost
-	culture = afghan
+	culture = turco_hephthalite
 	religion = zun_pagan
 	holding = castle_holding
-	1000.1.1 = { religion = ashari }
+	1000.1.1 = { 
+		religion = ashari 
+		culture = khalaj
+	}
 	1178.1.1 = {
 		religion = maturidi
 	}

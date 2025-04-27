@@ -758,7 +758,7 @@
 	
 	# Misc
 	culture = afghan
-	religion = mahayana
+	religion = suryaism
 	
 	#History
 
@@ -802,7 +802,7 @@
 	
 	# Misc
 	culture = jat
-	religion = mahayana
+	religion = khurmazta
 	
 	# History
 	1000.1.1 = {

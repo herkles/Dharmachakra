@@ -169,10 +169,32 @@
  nuristani_collective_noun:1 "Nuristanis"
  nuristani_prefix:0 "Nuristani"
 
+# Iranian Culture Group
  pamiri:0 "Pamiri"
  pamiri_name:0 "Pamiri"
  pamiri_collective_noun:0 "Pamiris"
  pamiri_prefix:0 "Pamiri"
+
+ huna:0 "Huna"
+ huna_name:0 "Huna"
+ huna_collective_noun:0 "Hunas"
+ huna_prefix:0 "Huna"
+
+ hephthalite:0 "Hephthalite"
+ hephthalite_name:0 "Hephthalite"
+ hephthalite_collective_noun:0 "Hephthalites"
+ hephthalite_prefix:0 "Hephthalite"
+
+ turco_hephthalite:0 "Haytal"
+ turco_hephthalite_name:0 "Haytal"
+ turco_hephthalite_collective_noun:0 "Haytals"
+ turco_hephthalite_prefix:0 "Haytal"
+
+# Turkic Culture Group
+ khalaj:0 "Khalaj"
+ khalaj_name:0 "Khalaj"
+ khalaj_prefix:0 "Khalaj"
+ khalaj_collective_noun:0 "Khalaj"
 
 # Munda Culture Group
  khasi:0 "Khasi"
@@ -209,9 +231,7 @@
  kodava_collective_noun:0 "Kodavas"
  kodava_prefix:0 "Kodava"
 
- huna_name:0 "Huna"
- huna_collective_noun:0 "Hunas"
- huna_prefix:0 "Huna"
+
 
  
 
