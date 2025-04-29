@@ -2,7 +2,7 @@
 ##d_makran ###################################
 ###c_panjgur
 4471 = {	#Bannajbur
-	culture = jat #FP3, baloch migration fix
+	culture = brahui #FP3, baloch migration fix 
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -226,7 +226,7 @@
 ##d_sistan ###################################
 ###c_zaranj
 4289 = {	#Zaranj
-	culture = afghan
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
 	860.1.1 = { religion = ashari }
@@ -249,7 +249,7 @@
 
 ###c_nih
 4283 = {	#Nih
-	culture = afghan
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -274,7 +274,7 @@
 
 ###c_farah
 4299 = {	#Farah
-	culture = afghan
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -299,7 +299,7 @@
 
 ###c_rudbar
 4465 = {	#Rudbar
-	culture = afghan
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
 	860.1.1 = { religion = ashari }
