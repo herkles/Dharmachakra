@@ -8,6 +8,8 @@
 	heritage = heritage_iranian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
 	traditions = {
 		tradition_caravaneers
 		tradition_language_scholars
@@ -42,6 +44,7 @@ parsi = {# Persians who migrated to India
 	heritage = heritage_iranian
 	language = language_iranian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 
 	traditions = {
 		tradition_gardening
@@ -85,6 +88,8 @@ pamiri = {
 	heritage = heritage_iranian
 	language = language_pamiri
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_pastoralists
@@ -120,6 +125,8 @@ huna = {# the various Huna tribes and people.
 	heritage = heritage_tocharian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
 	traditions = {
 		tradition_religion_blending
 		tradition_horse_lords
@@ -148,6 +155,8 @@ hephthalite = {
 	heritage = heritage_iranian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
 	traditions = {
 		tradition_horse_lords # Warriors from the steppes
 		tradition_mountain_homes # May have originated from the Pamir region
@@ -184,6 +193,8 @@ turco_hephthalite = {
 	heritage = heritage_iranian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
 	traditions = {
 		#tradition_mountain_homes # May have originated from the Pamir region
 		tradition_sacred_mountains # Zun was a solar mountain god

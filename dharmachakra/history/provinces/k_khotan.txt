@@ -158,18 +158,18 @@
 }
 
 # 1448 - Dunhuang
-1448 = {	# 1448 - Dunhuang
+1448 = {	# 1448 - Dunhuang#Luobupo
 	
 	# Misc
 	culture = khitan
 	religion = vajrayana
 	
-	holding = none
+	holding = castle_holding
 	
 	# History
-	#848.1.1 = {		#Gansu Yughur Kingdom
-	#	culture = uyghur
-	#}
+	848.1.1 = {		#Gansu Yughur Kingdom
+		culture = uyghur
+	}
 }
 
 # 7958 - Yengisar
@@ -729,12 +729,12 @@
 	culture = khitan
 	religion = vajrayana
 	
-	holding = none
+	holding = castle_holding
 	
 	# History
-	#848.1.1 = {		#Gansu Yughur Kingdom
-	#	culture = uyghur
-	#}
+	848.1.1 = {		#Gansu Yughur Kingdom
+		culture = uyghur
+	}
 }
 
 # 7997 - Nanhu_TARIM
@@ -896,6 +896,20 @@
 	# History
 
 }
+
+# 9608 - Dondan Oilik
+9608 = {	#9608 - Dondan Oilik
+	
+	# Misc
+	culture = sogdian
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+
+}
+
 
 # 9609 - Bugaiwilik
 9609 = {	#9609 - Bugaiwilik

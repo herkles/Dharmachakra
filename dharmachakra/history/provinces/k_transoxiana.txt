@@ -48,8 +48,16 @@
 	}	
 	1230.1.1 = { culture = turkish }
 }
+###c_kalif
 4384 = {	#Kalif
-	holding = city_holding	#placeholder
+	culture = sogdian
+	religion = khurmazta
+	holding = castle_holding
+	900.1.1 = {
+		religion = maturidi
+		culture = tajik
+	}	
+	1230.1.1 = { culture = turkish }
 }
 4385 = {	#Kandak
 	holding = none
@@ -544,9 +552,20 @@
 4431 = {	#Naqad
 	holding = none
 }
+###c_uzgend
 4432 = {	#Uzgend
+	culture = sogdian
+	religion = khurmazta
 	holding = castle_holding
+	900.1.1 = {
+		culture = karluk
+	}
+	1050.1.1 = {
+		religion = maturidi
+	}
+	1230.1.1 = { culture = mongol }
 }
+
 4439 = {	#Marghinan
 	holding = city_holding
 }
@@ -595,8 +614,18 @@
 4454 = {	#Nazvar
 	holding = none
 }
+###c_zamakhshar
 4455 = {	#Zamakhshar
-	holding = city_holding
+	culture = khwarezmian
+	religion = khurmazta
+	holding = castle_holding
+	1060.1.1 = {
+		religion = maturidi
+	}
+
+	1230.1.1 = { #FP3 change from 1060 - the turkification of the area was only completed after the Mongol conquest
+		culture = turkish
+	}
 }
 4457 = {	#Jith
 	holding = none
@@ -658,8 +687,19 @@
 4446 = {	#Wayikhan #town mentioned in historical sources, had a moat and catapults near the gate
 	holding = none
 }
+###c_ghardaman
 4447 = {	#Ghardaman #town mentioned in historical sources, had two gates
-	holding = city_holding 
+	culture = khwarezmian
+	religion = khurmazta
+	holding = castle_holding
+
+	1060.1.1 = {
+		religion = maturidi
+	}
+	
+	1230.1.1 = { #FP3 change from 1060 - the turkification of the area was only completed after the Mongol conquest
+		culture = turkish
+	}
 }
 
 ###c_khiva
@@ -721,8 +761,16 @@
 		religion = maturidi
 	}
 }
+###c_sarykamysh
+
 4524 = {	#Sarykamysh
-	holding = none
+	culture = khwarezmian
+	religion = khurmazta
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = turkish
+		religion = maturidi
+	}
 }
 4525 = {	#Ortakuyu
 	holding = none
@@ -756,6 +804,14 @@
 4532 = {	#Yashkan
 	holding = none
 }
+###c_nebit_dag
 4533 = {	#Nebit dag
-	holding = none
+	culture = khwarezmian
+	religion = khurmazta
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = turkish
+		religion = maturidi
+	}
 }
+

@@ -4,7 +4,8 @@
 	heritage = heritage_dravidian
 	language = language_tamil
 	martial_custom = martial_custom_male_only
-	
+	head_determination = head_determination_domain
+
 	name_list = name_list_tamil
 	
 	coa_gfx = { dravidian_group_coa_gfx }
@@ -30,7 +31,8 @@ telugu = {# Telugu
 	heritage = heritage_dravidian
 	language = language_telugu
 	martial_custom = martial_custom_male_only
-	
+	head_determination = head_determination_domain
+
 	name_list = name_list_telugu
 	
 	coa_gfx = { dravidian_group_coa_gfx }
@@ -55,7 +57,8 @@ kannada = {# Kannada
 	heritage = heritage_dravidian
 	language = language_kannada
 	martial_custom = martial_custom_male_only
-	
+	head_determination = head_determination_domain
+
 	name_list = name_list_kannada
 	
 	coa_gfx = { dravidian_group_coa_gfx }
@@ -82,7 +85,8 @@ gond = {# Gond
 	heritage = heritage_dravidian
 	language = language_gondi
 	martial_custom = martial_custom_male_only
-	
+	head_determination = head_determination_domain
+
 	name_list = name_list_gond
 	
 	coa_gfx = { dravidian_group_coa_gfx }
@@ -109,7 +113,8 @@ malayali = {# Malayali
 	heritage = heritage_dravidian
 	language = language_tamil
 	martial_custom = martial_custom_male_only
-	
+	head_determination = head_determination_domain
+
 	name_list = name_list_malayali
 	
 	coa_gfx = { dravidian_group_coa_gfx }
@@ -135,7 +140,8 @@ tulu = {# Tulu
 	heritage = heritage_dravidian
 	language = language_tulu
 	martial_custom = martial_custom_male_only
-	
+	head_determination = head_determination_domain
+
 	name_list = name_list_kannada
 	
 	coa_gfx = { dravidian_group_coa_gfx }
@@ -161,6 +167,7 @@ khond = {# Khond
 	heritage = heritage_dravidian
 	language = language_kuvi
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 
 	name_list = name_list_gond
 
@@ -187,6 +194,7 @@ kurukh = {# Kurukh
 	heritage = heritage_dravidian
 	language = language_kurukh
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 
 	name_list = name_list_gond
 
@@ -213,6 +221,8 @@ brahui = { # FP3 addition. This people represent, as best as I have been able to
 	heritage = heritage_dravidian
 	language = language_north_dravidian
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
 	traditions = {
 		tradition_astute_diplomats 
 		tradition_culture_blending

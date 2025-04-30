@@ -56,7 +56,7 @@ dharma_setup_after_game_start_on_actions = {
 
 			}
 			title:c_zabulistan = {
-				culture = khalaj
+				set_county_culture = culture:khalaj
 			}
 		}
 

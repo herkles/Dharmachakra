@@ -1,12 +1,12 @@
 ﻿munda = {# Munda
 	color = { 0 128 0 }
-
 	
 	ethos = ethos_communal
 	heritage = heritage_munda
 	language = language_munda
 	martial_custom = martial_custom_male_only
-	
+	head_determination = head_determination_domain
+
 	name_list = name_list_munda
 	
 	coa_gfx = { dravidian_group_coa_gfx }
