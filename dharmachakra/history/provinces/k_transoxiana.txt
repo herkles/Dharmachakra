@@ -126,8 +126,6 @@
 	900.1.1 = {
 		religion = maturidi
 	}
-	1100.1.1 = { culture = tajik }	
-	1230.1.1 = { culture = turkish }
 }
 4399 = {	#Kushaniya
 	holding = city_holding
@@ -155,7 +153,6 @@
 	}
 	900.1.1 = {
 		religion = maturidi
-		culture = tajik
 	}	
 	1066.1.1 = {		
 		buildings = {
@@ -165,7 +162,6 @@
 		}
 		special_building = shah_i_zinda_01
 	}
-	1230.1.1 = { culture = turkish }
 }
 4403 = {	#Arbinjan	#AKA Rabinjan
 	holding = city_holding
@@ -190,9 +186,6 @@
 	holding = castle_holding
 	1.1.1 = {
 		special_building = sar_i_sang_mines_01 #famous lapis lazuli mine, in use since prehistorical times
-	}
-	1000.1.1 = {
-		culture = tajik
 	}
 	1060.1.1 = {
 		faith = ismaili
@@ -244,11 +237,9 @@
 ###c_shughnan
 4363 = {	#Shughnan
 	culture = pamiri #represents the Pamir and Bactrian cultures that seems to have been present here in this period
-	religion = mahayana
+	religion = khurmazta
 	holding = castle_holding
-	1000.1.1 = {
-		culture = tajik
-	}
+
 	1178.1.1 = {
 		faith = ismaili
 	}
@@ -269,11 +260,8 @@
 ###c_karran
 4366 = {	#Upper Karran
 	culture = pamiri #represents the Pamir and Bactrian cultures that seems to have been present here in this period
-	religion = mahayana
+	religion = khurmazta
 	holding = castle_holding
-	1000.1.1 = {
-		culture = tajik
-	}
 	1178.1.1 = {
 		faith = ismaili
 	}
@@ -364,7 +352,7 @@
 
 ###c_rasht
 4383 = {	#Rasht
-	culture = sogdian
+	culture = pamiri
 	religion = mahayana
 	holding = castle_holding
 	1000.1.1 = {

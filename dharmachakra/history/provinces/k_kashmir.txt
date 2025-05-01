@@ -16,7 +16,7 @@
 	
 	# Misc
 	culture = chitrali #Dardic
-	religion = shaivism
+	religion = vajrayana
 	
 	holding = castle_holding
 	

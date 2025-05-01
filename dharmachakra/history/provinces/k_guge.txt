@@ -37,10 +37,6 @@
 	holding = castle_holding
 	
 	# History
-	975.1.1 = {
-		culture = bodpa #Bhoti
-		religion = lamaism
-	} # Guge begins the process of Tibetanization
 }
 
 # 9047 - Kardang

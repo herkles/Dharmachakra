@@ -69,8 +69,7 @@
 	# History
 
 	1000.1.1 = {
-		culture = khalaj
-		religion = ashari
+		religion = imami
 	}
 
 }
@@ -137,7 +136,7 @@
 
 	1000.1.1 = {
 		culture = khalaj
-		religion = ashari
+		religion = imami
 	}
 
 }
@@ -234,6 +233,7 @@
 	}
 	1000.1.1 = {
 		religion = ashari
+		culture = khalaj
 	}
 
 }
@@ -272,6 +272,7 @@
 
 	1000.1.1 = {
 		religion = ashari
+		culture = khalaj
 	}
 
 }

@@ -53,13 +53,14 @@ dharma_setup_after_game_start_on_actions = {
 		if = {
 			limit = {
 				game_start_date >= 900.1.1
-
 			}
-			title:c_zabulistan = {
+			title:c_bost = {
+				set_county_culture = culture:khalaj
+			}
+			title:c_rukhaj = {
 				set_county_culture = culture:khalaj
 			}
 		}
-
 		# Language Breaking up for start dates
 		if = {# Konkani Language forming
 			limit = { game_start_date >= 1100.1.1 }
