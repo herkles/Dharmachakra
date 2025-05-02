@@ -6,3 +6,9 @@ graphical_india = {
 		world_india
 	}
 }
+world_innovation_camels = {
+	generate_modifiers = yes
+	regions = {
+		world_middle_east world_africa_east world_africa_sahara world_africa_north dharma_thar_desert
+	}
+}

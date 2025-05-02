@@ -1,21 +1,16 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.6.0 "Rebirth" (Released 11/08/2024)
+## Latest Version: 1.7.0 "Huna" (Released 11/08/2024)
 
 After two years Dharmachakra has been revivied. The mod has been updated to the latest update. a lot of the stuff was converted to acitivies instead of decisions. This also meant revamping the holy sites as I no longer needed to have so many for the various pilgrimages. History for south asia has been updated to reflect the decline of Buddhism and in 1178 the decline of Saura. and as 1178 is after Basava established Lingayatism, that faith exists in 1178.I have also added a new bookmark for 1178. 
 
 ## Changelog
 
-- updated to the latest version of CK3
-- revamped holy sites for dharmic faiths
-- added various activities
-- updated a bunch of character's histories
-- split up Nepali culture into Garwhali, Kaumoni, Khasa, and Newar
-- added Lingyatism in 1178
-- Basava and Akka Mahadevi are both Lingyats
-- Sacred groves and sacred grove visits
-- updated province history for 1066 and 1178
-- added an 1178 bookmark
+- Revamped cultural setup again
+- added some RICE religions and cultures for the region
+- added some new culture traditions
+- cultures in the Thar Desert can get camels now
+- removed gauda warriors and khadga puja for now
 - various bug fixes
 
 
