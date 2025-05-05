@@ -108,12 +108,6 @@ long_buddhist_retreat_var = 13
 medium_buddhist_retreat_var = 7
 short_buddhist_retreat_var = 4
 #####################################
-# Men at Arms Values
-#####################################
-kaikola_recruitment_cost = @[skirmisher_recruitment_cost * 0.9]
-kaikola_low_maint_cost = @[skirmisher_low_maint_cost * 0.9]
-kaikola_high_maint_cost = @[skirmisher_high_maint_cost * 0.9]
-#####################################
 # Hero Stone
 #####################################
 raise_hero_stone_gold_cost = { value = medium_gold_value }
