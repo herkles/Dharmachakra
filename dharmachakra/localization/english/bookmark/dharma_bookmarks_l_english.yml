@@ -1,4 +1,5 @@
 ﻿l_english:
+  #	867 Bookmarks	
   bm_867_sea_india:0 "The Tripartite Struggle"
   bm_867_sea_india_desc:0 "Since the end of the Varman dynasty in 770 CE, the rich lands of Kannauj, or Kanyakubja, have been a hotly contested prize among the kingdoms of India. Though control of the city passed in turn between the Pratihara, Pala, and Rashtrakuta dynasties, ultimately Nahabhata Pratihara succeeded in fending off the others, making Kanyakubja the crown jewel of the Pratihara state.\n\n#bold But while the battle has ended, the kingdoms of Pala and Rashtrakuta still stand, and the tide may yet turn. Any one of these rulers could retake Kanyakubja, and from there become master of all land lying between the two seas. Which will you be?#!"
 
@@ -24,8 +25,23 @@
   bookmark_sea_tibet_u:0 "Tridé Yumten"
   bookmark_sea_tibet_u_desc:0 "Despite much contention over whether Yumten is truly a legitimate son of Tsenpo Langdarma, he has nonetheless managed to gather support from the lords in the central Ü region of Tibet. His position is, however, precarious at best. The eastern regions long for independence, and it will take skillful maneuvering to avoid utter collapse, let alone the reunification of Tibet.\n\nWill you overcome the odds and bring peace to the plateau? Or has the empire truly come to an end?"
 
+  #	1066 Bookmarks	
+  bm_1066_india:0 "Blood in the Ganges"
+  bm_1066_india_desc:0 "Just a decade ago the Ghaznavid empire faced a usurpation by the turkic general Toghrul. Blood spilled along the indus as the accursed general took power and fought with the Seljuks, this gave the rajas of South Asia room to breathe. Room to fight and seek Glory against themselves. Now however a new sultan sits on the throne of the Ghaznavid empire and he is looking eastward. It seems like blood shall be spilling along the Gangetic Basin again. #!"
 
+  bookmark_1066_ghaznavid:0 "Sultan Ibrahim"
+  bookmark_1066_ghaznavid_desc:0 "Ibrahim's path to become Sultan has not been easy. The turkic General Toghrul took power just a decade ago and massacred his relatives, and he was lucky to escape the slaughter. Then after his brother Farruk-Zad took power he was detained in several fortresses. Now however Ibrahim sits on the throne. Looking over his vast territory he has plenty of challenges. \n\n#bold Can he find peace with the Seljuks? can he bring harmony and prosperity to his lands, and to the east the riches of India lay, will they be his or shall he focus on his own holdings? #!"
 
+  bookmark_1066_cedi:0 "Chakravatin Karnadeva"
+  bookmark_1066_cedi_desc:0 "Karnadeva rules the Chedi and he sits in between several lands, lands that he desires very greatly to be under his sway. He has succeeded in defeating Bhoja of the Paranamara, and to the east the riches of the Pala call to him. He has succered his lineage thanks to a strategic marriage with a huna princess. \n\n#bold Karnadeva believes that he is rightfully the chakravartin, other rajas do not believe him, do not care for such claims. Will Karnadeva make all bow before him and prove that he rightfully is the Chakravartin or will such ambitions die with him? #!"
+
+  bookmark_1066_pala:0 "Maharaja Vigrahapala "
+  bookmark_1066_pala_desc:0 "Vigrahapala rules the Pala Empire, an empire who has lost much land compared to his ancestor's hayday, however it is still rich. It is still powerful. Invaders of all stripes keep coming to take the wealth from his lands away. \n\n#bold Will Vigrahapala restore the greatness of the Pala or shall he be yet another raja on the path to the destruction of his empire. #!"
+
+  bookmark_1066_kalyani_chalukya:0 "Maharaja Someshvara"
+  bookmark_1066_kalyani_chalukya_desc:0 "Someshvara rules the Chalukyas and has established a mighty empire. He has fended off the might of the Cholas who sought to expand into his lands. He has expanded his land to control most of the western deccan. Now however the maharaja is old and soon his time as maharaja will end. \n\n#bold Will the foundations that he has been establishing survive his passing or shall they too crumble with him? #!"
+
+  #	1178 Bookmarks	
   bm_dharma_1178_india:0 "Sikander al-Thani"
   bm_dharma_1178_india_desc:0 "In the west, a new power is rising. Muhammad of Ghor looks to the rich lands of India for glory and riches, to become a second Alexander(Sikander Al-thani). However various powerful dynasties in India stand against the great conqueror.\n\n#bold Will Muhammad push to the bay of Bengal or shall he die along the ganges?  #!"
 

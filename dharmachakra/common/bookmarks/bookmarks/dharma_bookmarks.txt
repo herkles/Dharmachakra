@@ -189,7 +189,7 @@ bm_1066_india = {
 		religion = shaivism
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = 190209
-		position = { 858 150 }
+		position = { 858 493 }
 
 		animation = personality_rational
 	}
