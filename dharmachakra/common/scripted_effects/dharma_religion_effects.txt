@@ -2609,11 +2609,112 @@ dharma_hero_stone_bonuses_effect = {
 		}
 	}
 }
+#######################################
+# Tributaries
+#######################################
+setup_dharma_tributaries_effect = {
+	if = {
+		if = {
+    		limit = { current_date < 1066.9.15 } # so, 867
+    		dharma_867_tributary_setup_effect = yes
+    	}
+    	else_if = {
+    		limit = { current_date = 1066.9.15 }
+        	dharma_1066_tributary_setup_effect = yes
+    	}
+    }
+}
+
+dharma_867_tributary_setup_effect = {
+	character:190009 = {# Pala Empire's Tributaries
+		save_scope_as = suzerain
+		character:191407 = {# Nagpuri tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:190095 = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:190047 = {# Mlechha
+		save_scope_as = suzerain
+		character:kachari006 = {# Kachari tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:kachari021 = {# Kachari tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:191587 = {# Kachari tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:kachari014 = {# Mlechha
+		save_scope_as = suzerain
+		character:kachari015 = {# Kachari tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
 
 
-
-
-
+}
+dharma_1066_tributary_setup_effect = {
+	character:190082 = {# Bhauma Pala King and his tribal lords
+		save_scope_as = suzerain
+		character:kachari020 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:kachari013 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:kachari013 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:kachari027 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:191591 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:144133 = {# Ibrahim Ghaznavid and his hindu tributaries
+		save_scope_as = suzerain
+		character:191974 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:190209 = {# Cedi Tribal Vassals
+		save_scope_as = suzerain
+		character:191368 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:191347 = {# Haihaya Bhukti Tribal Vassals
+		save_scope_as = suzerain
+		character:gondi007 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:189196 = {# Somavamsi Tribal Vassals
+		save_scope_as = suzerain
+		character:chikiti_ganga_4 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:190017 = {# Pala Tribal Vassals
+		save_scope_as = suzerain
+		character:191075 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:burman001 = {# Burman Tribal Vassals
+		save_scope_as = suzerain
+		character:burman013 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:burman011 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+}
 
 
 

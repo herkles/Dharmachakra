@@ -200,6 +200,59 @@
 				}
 			}
 		}
+		dharma_jain_pilgrimage_vow_type = {
+			dharma_jain_pilgrimage_vow_anuvrata = {
+				default = yes
+				ai_will_do = {
+					value = 15
+					if = {
+						limit = { has_trait = cynical }
+						add = {	value = 10 }
+					}
+				}
+			}
+			dharma_jain_pilgrimage_vow_mahavarata = {
+				# will get the modifier on start of the acitivty
+				ai_will_do = {
+					value = 30
+					if = {
+						limit = { has_trait = zealous }
+						add = {	value = 5 }
+					}
+					if = {
+						limit = { has_trait = humble }
+						add = {	value = 5 }
+					}
+					if = {
+						limit = { has_trait = diligent }
+						add = {	value = 5 }
+					}
+				}
+			}
+			dharma_jain_pilgrimage_vow_monastic = {
+				# will get the modifier on start of the acitivty
+			
+				ai_will_do = {
+					value = 15
+					if = {
+						limit = { has_trait = zealous }
+						add = {	value = 5 }
+					}
+					if = {
+						limit = { has_trait = humble }
+						add = {	value = 5 }
+					}
+					if = {
+						limit = { has_trait = diligent }
+						add = {	value = 5 }
+					}
+					if = {
+						limit = { has_trait = lifestyle_mystic }
+						add = {	value = 15 }
+					}
+				}
+			}
+		}
 	}
 
 	###################
@@ -297,6 +350,39 @@
 
 	}
 
+	on_enter_travel_state = {
+		scope:activity ?= {
+			if = {# lesser vow
+				limit = {
+					has_activity_option = {
+						category = dharma_jain_pilgrimage_vow_type
+						option = dharma_jain_pilgrimage_vow_anuvrata
+					}
+				}
+				add_character_modifier = {	modifier = dharma_jain_pilgrimage_anuvratas_vow	}
+			}
+			else_if = {# great Vows
+				limit = {
+					has_activity_option = {
+						category = dharma_jain_pilgrimage_vow_type
+						option = dharma_jain_pilgrimage_vow_mahavarata
+					}
+				}
+				add_character_modifier = {	modifier = dharma_jain_pilgrimage_five_vows	}
+
+			}
+			else_if = {# Monastic Vow
+				limit = {
+					has_activity_option = {
+						category = dharma_jain_pilgrimage_vow_type
+						option = dharma_jain_pilgrimage_vow_monastic
+					}
+				}
+				add_character_modifier = {	modifier = dharma_jain_pilgrimage_ascetic_vow	}
+			}
+		}
+	}
+
 	on_enter_passive_state = {
 		trigger_event = dharma_jain_festivals.001
 	}
@@ -357,9 +443,20 @@
 	}
 	
 	on_complete = {
-
+		if = {
+			limit = { has_character_modifier = dharma_jain_pilgrimage_anuvratas_vow	}
+			remove_character_modifier = {	modifier = dharma_jain_pilgrimage_anuvratas_vow	}
+		}
+		if = {
+			limit = { has_character_modifier = dharma_jain_pilgrimage_five_vows	}
+			remove_character_modifier = {	modifier = dharma_jain_pilgrimage_five_vows	}
+		}
+		if = {
+			limit = { has_character_modifier = dharma_jain_pilgrimage_vow_monastic	}
+			remove_character_modifier = {	modifier = dharma_jain_pilgrimage_vow_monastic	}
+		}
 	}
-
+	
 	### Graphics
 
 

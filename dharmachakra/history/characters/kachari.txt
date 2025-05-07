@@ -3,7 +3,7 @@
 #######################################
 191587 = {
 	name = "Virochana"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	800.1.1 = {
@@ -15,7 +15,7 @@
 }
 191588 = {
 	name = "Vorahi"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191587
@@ -28,7 +28,7 @@
 }
 191589 = {
 	name = "Prasanto"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191588
@@ -41,7 +41,7 @@
 }
 191590 = {
 	name = "Uditya"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191589
@@ -54,7 +54,7 @@
 }
 191591 = {
 	name = "Prabakhar"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191590
@@ -67,7 +67,7 @@
 }
 191592 = {
 	name = "Korpoordhwaj"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191591
@@ -80,7 +80,7 @@
 }
 191593 = {
 	name = "Giridhar"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191592
@@ -93,7 +93,7 @@
 }
 191594 = {
 	name = "Beeradhwaj"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191593
@@ -106,7 +106,7 @@
 }
 191595 = {
 	name = "Surajit"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191594
@@ -119,7 +119,7 @@
 }
 191596 = {
 	name = "Ohak"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191595
@@ -132,7 +132,7 @@
 }
 191597 = {
 	name = "Makardhwaj_Narayan"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191596
@@ -145,7 +145,7 @@
 }
 191598 = {
 	name = "Bhopal"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191597
@@ -158,7 +158,7 @@
 }
 191599 = {
 	name = "Purandar"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191598
@@ -171,7 +171,7 @@
 }
 191600 = {
 	name = "Bicharpatiha"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191599
@@ -184,7 +184,7 @@
 }
 191601 = {
 	name = "Vikramadityapha"
-	dynasty = 1044364#Kachari
+	dynasty = 1044364 # Kachari
 	religion = "bathouism"
 	culture = "kachari"
 	father = 191600

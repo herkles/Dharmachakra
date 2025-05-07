@@ -1,0 +1,1193 @@
+﻿namespace = dharma_university
+
+#######################################
+#									  #
+#         General University	      #
+#									  #
+#######################################
+dharma_university.001 = {# Vegetarian or Non-Vegetarian
+	type = activity_event
+	content_source = dlc_009
+	title = dharma_university.001.t
+	desc = dharma_university.001.desc
+	theme = university
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	trigger = {
+		NOT = { 
+			scope:activity = { has_variable = had_dharma_uni_event_001 }
+		}
+		OR = {# Must be a south asian University
+			scope:activity.activity_location.county = title:c_kasmira
+			scope:activity.activity_location.county = title:c_magadha
+			scope:activity.activity_location.county = title:c_kalyani
+			scope:activity.activity_location.county = title:c_janakpur
+			scope:activity.activity_location.county = title:c_eranad
+		}
+
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = had_dharma_uni_event_001
+			activity_location = { save_scope_as = location }
+			random_attending_character = {
+				limit = {
+					is_physically_able_ai_adult = yes
+					OR = {
+						has_character_flag = teacher_1
+						has_character_flag = teacher_2
+					}
+				}
+				save_scope_as = teacher
+			}
+		}
+	}
+
+	option = {# Meat
+		name = dharma_university.001.meat
+		trigger = {
+			NOT = {# Must not be jain or come from a vegetarian culture
+				religion = religion:jainism_religion
+				culture = {	has_cultural_tradition = tradition_vegetarianism }
+			}
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {# Vegetarian
+		name = dharma_university.001.vegetarian
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = lazy
+					has_trait = zealous
+					has_trait = arrogant
+				}
+			}
+		}
+	}
+}
+dharma_university.002 = {# Meditating with the monks
+	type = activity_event
+	content_source = dlc_009
+	title = dharma_university.002.t
+	desc = dharma_university.002.desc
+	theme = university
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	trigger = {
+		NOT = { 
+			scope:activity = {
+				has_variable = has_had_event_002
+			}
+		}
+		OR = {# Must be a south asian University
+			scope:activity.activity_location.county = title:c_kasmira
+			scope:activity.activity_location.county = title:c_magadha
+			scope:activity.activity_location.county = title:c_kalyani
+			scope:activity.activity_location.county = title:c_janakpur
+			scope:activity.activity_location.county = title:c_eranad
+		}
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = has_had_event_002
+			activity_location = { save_scope_as = location }
+			random_attending_character = {
+				limit = {
+					is_physically_able_ai_adult = yes
+					OR = {
+						has_character_flag = teacher_1
+						has_character_flag = teacher_2
+					}
+				}
+				save_scope_as = teacher
+			}
+		}
+	}
+
+	option = {# Energy
+		name = dharma_university.002.energy
+		stress_impact = {
+			base = minor_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+}
+#######################################
+#									  #
+#         Nalanda University	      #
+#									  #
+#######################################
+dharma_university.010 = {# Theological classes
+	type = activity_event
+	content_source = dlc_009
+	title = dharma_university.010.t
+	desc = dharma_university.010.desc
+	theme = university
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	trigger = {
+		NOT = { 
+			scope:activity = {
+				has_variable = had_dharma_uni_event_010
+			}
+		}
+		scope:activity.activity_location.county = title:c_magadha
+		faith = faith:mahayana
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = had_dharma_uni_event_010
+			activity_location = { save_scope_as = location }
+			random_attending_character = {
+				limit = {
+					is_physically_able_ai_adult = yes
+					OR = {
+						has_character_flag = teacher_1
+						has_character_flag = teacher_2
+					}
+				}
+				save_scope_as = teacher
+			}
+		}
+
+	}
+
+	option = {# Study Chan
+		name = dharma_university.010.chan
+		trigger = {
+			NOT = { has_trait = buddhist_school_chan }
+		}
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		random_list = {
+			75 = {
+				custom_tooltip = adult_education_tt_positive_tiny
+				scope:activity = { activity_special_type_progression_tiny = yes }
+			}
+			10 = {
+				set_buddhist_school_effect = { YANA = buddhist_school_chan }
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {# Study madhyamaka
+		name = dharma_university.010.madhyamaka
+		trigger = {
+			NOT = { has_trait = buddhist_school_madhyamaka }
+		}
+
+		random_list = {
+			75 = {
+				custom_tooltip = adult_education_tt_positive_tiny
+				scope:activity = { activity_special_type_progression_tiny = yes }
+			}
+			10 = {
+				set_buddhist_school_effect = { YANA = buddhist_school_madhyamaka }
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {# Study yogachara
+		name = dharma_university.010.yogachara
+		trigger = {
+			NOT = { has_trait = buddhist_school_yogachara }
+		}
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		random_list = {
+			75 = {
+				custom_tooltip = adult_education_tt_positive_tiny
+				scope:activity = { activity_special_type_progression_tiny = yes }
+			}
+			10 = {
+				set_buddhist_school_effect = { YANA = buddhist_school_yogachara }
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {# Study pure_land
+		name = dharma_university.010.pure_land
+		trigger = {
+			NOT = { has_trait = buddhist_school_pure_land }
+		}
+		random_list = {
+			75 = {
+				custom_tooltip = adult_education_tt_positive_tiny
+				scope:activity = { activity_special_type_progression_tiny = yes }
+			}
+			10 = {
+				set_buddhist_school_effect = { YANA = buddhist_school_pure_land }
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {# Study Other Classes
+		name = dharma_university.010.study
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+
+}
+dharma_university.011 = {# Schools of Buddhism debate
+	type = activity_event
+	content_source = dlc_009
+	title = dharma_university.011.t
+	desc = dharma_university.011.desc
+	theme = university
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	trigger = {
+		NOT = { 
+			scope:activity = {
+				has_variable = had_dharma_uni_event_011
+			}
+		}
+		scope:activity.activity_location.county = title:c_magadha
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = had_dharma_uni_event_011
+			activity_location = { save_scope_as = location }
+			random_attending_character = {
+				limit = {
+					is_physically_able_ai_adult = yes
+					OR = {
+						has_character_flag = teacher_1
+						has_character_flag = teacher_2
+					}
+				}
+				save_scope_as = teacher
+			}
+		}
+	}
+
+	option = {	# Side with the Mahayana school
+		name = dharma_university.011.mahayana
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		duel = {
+			skills = { learning diplomacy }
+			value = {
+				add = scope:guest_speaker.learning
+				add = scope:guest_speaker.diplomacy
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_university.011.mahayana.success
+				send_interface_toast = {
+					title = dharma_university.011.mahayana.success
+					left_icon = root
+					right_icon = scope:guest_speaker
+					custom_tooltip = adult_education_tt_positive_medium
+					scope:activity = { activity_special_type_progression_medium = yes }
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_university.011.mahayana.failure
+				send_interface_toast = {
+					title = dharma_university.011.mahayana.failure
+					left_icon = root
+				}
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {	# Side with the Theravada school
+		name = dharma_university.011.theravada
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		duel = {
+			skills = { learning diplomacy }
+			value = {
+				add = scope:guest_speaker.learning
+				add = scope:guest_speaker.diplomacy
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_university.011.theravada.success
+				send_interface_toast = {
+					title = dharma_university.011.theravada.success
+					left_icon = root
+					custom_tooltip = adult_education_tt_positive_medium
+					scope:activity = { activity_special_type_progression_medium = yes }
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_university.011.theravada.failure
+				send_interface_toast = {
+					title = dharma_university.011.theravada.failure
+					left_icon = root
+				}
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {	# Side with the Vajrayana school
+		name = dharma_university.011.vajrayana
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		duel = {
+			skills = { learning diplomacy }
+			value = {
+				add = scope:guest_speaker.learning
+				add = scope:guest_speaker.diplomacy
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_university.011.vajrayana.success
+				send_interface_toast = {
+					title = dharma_university.011.vajrayana.success
+					left_icon = root
+					custom_tooltip = adult_education_tt_positive_medium
+					scope:activity = { activity_special_type_progression_medium = yes }
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_university.011.vajrayana.failure
+				send_interface_toast = {
+					title = dharma_university.011.vajrayana.failure
+					left_icon = root
+				}
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}	
+	option = {	# Side with the Pudgalavada school
+		name = dharma_university.011.pudgalavada
+		trigger = { faith = faith:pudgalavada }
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		duel = {
+			skills = { learning diplomacy }
+			value = {
+				add = scope:guest_speaker.learning
+				add = scope:guest_speaker.diplomacy
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_university.011.pudgalavada.success
+				send_interface_toast = {
+					title = dharma_university.011.pudgalavada.success
+					left_icon = root
+					custom_tooltip = adult_education_tt_positive_medium
+					scope:activity = { activity_special_type_progression_medium = yes }
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_university.011.pudgalavada.failure
+				send_interface_toast = {
+					title = dharma_university.011.pudgalavada.failure
+					left_icon = root
+				}
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {	# Side with the Tibetan school
+		name = dharma_university.011.tibetan
+		trigger = { faith = faith:lamaism }
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		duel = {
+			skills = { learning diplomacy }
+			value = {
+				add = scope:guest_speaker.learning
+				add = scope:guest_speaker.diplomacy
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_university.011.tibetan.success
+				send_interface_toast = {
+					title = dharma_university.011.tibetan.success
+					left_icon = root
+					custom_tooltip = adult_education_tt_positive_medium
+					scope:activity = { activity_special_type_progression_medium = yes }
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_university.011.tibetan.failure
+				send_interface_toast = {
+					title = dharma_university.011.tibetan.failure
+					left_icon = root
+				}
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {	# Side with the Burman school
+		name = dharma_university.011.burman
+		trigger = { faith = faith:ari }
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		duel = {
+			skills = { learning diplomacy }
+			value = {
+				add = scope:guest_speaker.learning
+				add = scope:guest_speaker.diplomacy
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_university.011.burman.success
+				send_interface_toast = {
+					title = dharma_university.011.burman.success
+					left_icon = root
+					custom_tooltip = adult_education_tt_positive_medium
+					scope:activity = { activity_special_type_progression_medium = yes }
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_university.011.burman.failure
+				send_interface_toast = {
+					title = dharma_university.011.burman.failure
+					left_icon = root
+				}
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}
+	option = {# Observe
+		name = dharma_university.011.observe
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+}
+dharma_university.013 = {# A book to leave with
+	type = activity_event
+	content_source = dlc_009
+	title = dharma_university.013.t
+	desc = dharma_university.013.desc
+	theme = university
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	trigger = {
+		NOT = { 
+			scope:activity = {
+				has_variable = had_dharma_uni_event_013
+			}
+		}
+		scope:activity.activity_location.county = title:c_magadha
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = had_dharma_uni_event_013
+			activity_location = { save_scope_as = location }
+			random_attending_character = {
+				limit = {
+					is_physically_able_ai_adult = yes
+					OR = {
+						has_character_flag = teacher_1
+						has_character_flag = teacher_2
+					}
+				}
+				save_scope_as = teacher
+			}
+		}
+	}
+	
+	option = {# Sutta
+		name = dharma_university.013.sutta
+		create_artifact_sutta_pitaka_effect = { OWNER = this }
+
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# Heart Sutra
+		name = dharma_university.013.heart_sutra
+		create_artifact_heart_sutra_effect = { OWNER = this }
+
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# Dhammapada
+		name = dharma_university.013.dhammapada
+		create_artifact_dhammapada_effect = { OWNER = this }
+
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# Lankavatara
+		name = dharma_university.013.lankavatara
+		create_artifact_lankavatara_effect = { OWNER = this }
+
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# No Gift
+		name = dharma_university.013.no_gift
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+
+}
+#######################################
+#									  #
+#       Sharada Peeth University	  #
+#									  #
+#######################################
+dharma_university.020 = {# Worship of the goddess Sharada?
+	type = activity_event
+	content_source = dlc_009
+	title = dharma_university.020.t
+	desc = dharma_university.020.desc
+	theme = university
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	trigger = {
+		NOT = { 
+			scope:activity = {
+				has_variable = had_dharma_uni_event_020
+			}
+		}
+		scope:activity.activity_location.county = title:c_kasmira
+		religion = { is_in_family = rf_eastern }
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = had_dharma_uni_event_020
+			activity_location = { save_scope_as = location }
+			random_attending_character = {
+				limit = {
+					is_physically_able_ai_adult = yes
+					OR = {
+						has_character_flag = teacher_1
+						has_character_flag = teacher_2
+					}
+				}
+				save_scope_as = teacher
+			}
+		}
+	}
+
+	option = {# Of course I shall honor her - Saraswati is your ishtadevata
+		name = dharma_university.020.devotee
+		trigger = {
+			has_character_modifier = bhakti_hinduism_saraswati
+		}
+		add_piety = minor_piety_gain
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# This inspires me - make Saraswati your ishtadevata
+		name = dharma_university.020.convert
+		trigger = {
+			faith = { has_doctrine = sampradaya_shaktism_doctrine }
+			NOT = { has_character_modifier = bhakti_hinduism_saraswati }
+		}
+		set_bhakti_effect = { BHAKTI = bhakti_hinduism_saraswati }
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# I shall pay customary respect
+		name = dharma_university.020.worship
+		trigger = {
+			NOT = { has_character_modifier = bhakti_hinduism_saraswati} 
+		}
+		add_piety = miniscule_piety_gain
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+}
+dharma_university.022 = {# Mystical Learning
+	type = activity_event
+	content_source = dlc_009
+	title = dharma_university.022.t
+	desc = dharma_university.022.desc
+	theme = university
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	trigger = {
+		NOT = { 
+			scope:activity = {
+				has_variable = had_dharma_uni_event_022
+			}
+		}
+		scope:activity.activity_location.county = title:c_kasmira
+
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = had_dharma_uni_event_022
+			activity_location = { save_scope_as = location }
+			random_attending_character = {
+				limit = {
+					is_physically_able_ai_adult = yes
+					OR = {
+						has_character_flag = teacher_1
+						has_character_flag = teacher_2
+					}
+				}
+				save_scope_as = teacher
+			}
+		}
+	}
+	
+	option = {# Mystical learning
+		name = dharma_university.022.mystic
+		duel = {
+			skills = { learning diplomacy }
+			value = {
+				add = scope:guest_speaker.learning
+				add = scope:guest_speaker.diplomacy
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = dharma_university.022.mystic.success
+				send_interface_toast = {
+					title = dharma_university.022.mystic.success
+					left_icon = root
+					if = {
+						limit = {
+							NOT = { has_trait = lifestyle_mystic }
+						}
+						add_trait = lifestyle_mystic
+					}
+					else_if = {
+						limit = {
+							has_trait_xp = {
+								trait = lifestyle_mystic
+								value < 25
+							}
+						}
+						add_trait_xp = {
+							trait = lifestyle_mystic
+							value = 25
+						}
+					}
+				}
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = dharma_university.022.mystic.failure
+				send_interface_toast = {
+					title = dharma_university.022.mystic.failure
+					left_icon = root
+				}
+			}
+		}
+		stress_impact = {
+			humble = medium_stress_impact_gain
+			shy = minor_stress_impact_gain
+			content = minor_stress_impact_gain
+			zealous = major_stress_impact_loss
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				OR = {
+					has_trait = humble
+					has_trait = shy
+					has_trait = content
+				}
+			}
+		}
+	}	
+	option = {# Study other stuff
+		name = dharma_university.022.study
+		custom_tooltip = adult_education_tt_positive_tiny
+		scope:activity = { activity_special_type_progression_tiny = yes }
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+}
+dharma_university.023 = {# A book to take with you?
+	type = activity_event
+	content_source = dlc_009
+	title = dharma_university.023.t
+	desc = dharma_university.023.desc
+	theme = university
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	trigger = {
+		NOT = { 
+			scope:activity = {
+				has_variable = has_had_event_023
+			}
+		}
+		scope:activity.activity_location.county = title:c_kasmira
+
+	}
+
+	immediate = {
+		scope:activity = {
+			set_variable = has_had_event_023
+			activity_location = { save_scope_as = location }
+			random_attending_character = {
+				limit = {
+					is_physically_able_ai_adult = yes
+					OR = {
+						has_character_flag = teacher_1
+						has_character_flag = teacher_2
+					}
+				}
+				save_scope_as = teacher
+			}
+		}
+	}
+	
+	option = {# the Bhagavad Gita
+		name = dharma_university.023.bhagavad_gita
+		create_artifact_bhagavad_gita_effect = { OWNER = this }
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# One of the Vedas
+		name = dharma_university.023.vedas
+		random_list = {
+			25 = {
+				create_artifact_rigveda_effect = { OWNER = this }
+			}
+			25 = {
+				create_artifact_samaveda_effect = { OWNER = this }
+			}
+			25 = {
+				create_artifact_yajurveda_effect = { OWNER = this }
+			}
+			25 = {
+				create_artifact_atharvaeda_effect = { OWNER = this }
+			}
+		}
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# Shiva Purana
+		name = dharma_university.023.shiva_purana
+		create_artifact_shiva_purana_effect = { OWNER = this }
+
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# Shakti Purana
+		name = dharma_university.023.shakti_purana
+		create_artifact_shakti_purana_effect = { OWNER = this }
+
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+	option = {# No Gift
+		name = dharma_university.023.no_gift
+		add_piety = minor_piety_gain
+		stress_impact = {
+			diligent = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				has_trait = diligent
+			}
+		}
+	}
+
+}

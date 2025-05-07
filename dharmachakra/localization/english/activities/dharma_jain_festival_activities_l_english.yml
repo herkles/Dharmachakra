@@ -4,7 +4,16 @@
 # second Paryushana
 # Third Mahavir Janma Kalyanak
 
-
+###################################
+# Activity Options - shared
+###################################
+  dharma_jain_pilgrimage_vow_type: "Jain Vow"
+  dharma_jain_pilgrimage_vow_anuvrata: "Anuvrata Vow"
+  dharma_jain_pilgrimage_vow_anuvrata_desc: "You will make the Anuvrata Vow, to live piously like other laity during this holy time."
+  dharma_jain_pilgrimage_vow_mahavarata: "Mahavarata Vow"
+  dharma_jain_pilgrimage_vow_mahavarata_desc: "You will make the Mahavrata Vow, to follow the five great vows."
+  dharma_jain_pilgrimage_vow_monastic: "Monastic Vow"
+  dharma_jain_pilgrimage_vow_monastic_desc: "You will make the Monastic Vow, to not just follow the Mahavrata vows but live like the monks and nuns do."
 
 ###################################
 # Activity itself
@@ -99,6 +108,10 @@
   dharma_jain_festival_paryushana_gift_large_desc: "A grand offering shall be offered."
 
   dharma_jain_festival_paryushana_gift_amount: "The size of the Gift that shall be offered."
+
+
+
+
 ###################################
 # Phases
 ###################################

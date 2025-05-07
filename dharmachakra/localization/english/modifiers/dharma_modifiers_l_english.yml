@@ -166,14 +166,14 @@
   jain_vow_aparigraha:0 "Contemplating Aparigraha"
   jain_vow_aparigraha_desc:0 "This character is focused on contemplating the Vow of Aparigraha or non-possessions."
 
-  dharma_jain_pilgrimage_five_vows:0 "Pilgrimage - Mahavratas"
+  dharma_jain_pilgrimage_five_vows:0 "Mahavrata Vow"
   dharma_jain_pilgrimage_five_vows_desc:0 "This character is on a pilgrimage and following the Mahavratas(5 great vows) of Jainism"
 
-  dharma_jain_pilgrimage_anuvratas_vow:0 "Pilgrimage - Anuvratas "
+  dharma_jain_pilgrimage_anuvratas_vow:0 "Anuvrata vow "
   dharma_jain_pilgrimage_anuvratas_vow_desc:0 "This character is on a pilgrimage and following the Jain Anuvratas of the laity."
 
-  dharma_jain_pilgrimage_ascetic_vow:0 "Pilgrimage - Ascetic Vow"
-  dharma_jain_pilgrimage_ascetic_vow_desc:0 "This character is on a pilgrimage and following the Mahavratas(5 great vows) of Jainism as well following the ascetic rules for fasting."
+  dharma_jain_pilgrimage_ascetic_vow:0 "Monastic Vow"
+  dharma_jain_pilgrimage_ascetic_vow_desc:0 "This character is on a pilgrimage and has taken a vow that during this pilgrimage to live like a monastic during this period."
 
 #######################################
 # Buddhist Modifiers 

@@ -471,7 +471,9 @@ court_brewmaster_title_invalidated_effect = {
 	basic_invalidated_court_position_effect = yes
 }
 
-# HIGH ALMONER
+# Dharmachakra positions
+
+# Bhangika
 bhangika_title_accepted_effect = {
 	basic_gained_court_position_effect = yes
 }
@@ -1215,117 +1217,117 @@ court_position_generator_effect = {
 			}
 		}
 		2 = { # COURT ASTROLOGER
-		trigger = {
-			court_position_generator_pickable_trigger = { POS = court_astrologer EMPLOYER = $EMPLOYER$ }
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = court_astrologer EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = court_astrologer
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = court_astrologer
+				EMPLOYER = $EMPLOYER$
+			}
 		}
-		court_position_generator_shared_modifier = {
-			POS = court_astrologer
-			EMPLOYER = $EMPLOYER$
+		2 = { # BOYAN
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = boyan EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = boyan
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = boyan
+				EMPLOYER = $EMPLOYER$
+			}
 		}
-		court_position_generator_variable_effect = {
-			VAR = $VAR$
-			POS = court_astrologer
-			EMPLOYER = $EMPLOYER$
+		2 = { # SIEGE ENGINEER
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = siege_engineer EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = siege_engineer
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = siege_engineer
+				EMPLOYER = $EMPLOYER$
+			}
 		}
-	}
-	2 = { # BOYAN
-		trigger = {
-			court_position_generator_pickable_trigger = { POS = boyan EMPLOYER = $EMPLOYER$ }
+		2 = { # YURTCHI
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = yurtchi EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = yurtchi
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = yurtchi
+				EMPLOYER = $EMPLOYER$
+			}
 		}
-		court_position_generator_shared_modifier = {
-			POS = boyan
-			EMPLOYER = $EMPLOYER$
+		2 = { # CHERBI
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = cherbi EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = cherbi
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = cherbi
+				EMPLOYER = $EMPLOYER$
+			}
 		}
-		court_position_generator_variable_effect = {
-			VAR = $VAR$
-			POS = boyan
-			EMPLOYER = $EMPLOYER$
+		2 = { # YEKE JARQUCHI
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = yeke_jarquchi EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = yeke_jarquchi
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = yeke_jarquchi
+				EMPLOYER = $EMPLOYER$
+			}
 		}
-	}
-	2 = { # SIEGE ENGINEER
-		trigger = {
-			court_position_generator_pickable_trigger = { POS = siege_engineer EMPLOYER = $EMPLOYER$ }
+		2 = { # FOREIGN EMISSARY
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = foreign_emissary EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = foreign_emissary
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = foreign_emissary
+				EMPLOYER = $EMPLOYER$
+			}
 		}
-		court_position_generator_shared_modifier = {
-			POS = siege_engineer
-			EMPLOYER = $EMPLOYER$
+		2 = { # KEEPER OF THE HORSES
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = keeper_of_the_horses EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = keeper_of_the_horses
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = keeper_of_the_horses
+				EMPLOYER = $EMPLOYER$
+			}
 		}
-		court_position_generator_variable_effect = {
-			VAR = $VAR$
-			POS = siege_engineer
-			EMPLOYER = $EMPLOYER$
-		}
-	}
-	2 = { # YURTCHI
-		trigger = {
-			court_position_generator_pickable_trigger = { POS = yurtchi EMPLOYER = $EMPLOYER$ }
-		}
-		court_position_generator_shared_modifier = {
-			POS = yurtchi
-			EMPLOYER = $EMPLOYER$
-		}
-		court_position_generator_variable_effect = {
-			VAR = $VAR$
-			POS = yurtchi
-			EMPLOYER = $EMPLOYER$
-		}
-	}
-	2 = { # CHERBI
-		trigger = {
-			court_position_generator_pickable_trigger = { POS = cherbi EMPLOYER = $EMPLOYER$ }
-		}
-		court_position_generator_shared_modifier = {
-			POS = cherbi
-			EMPLOYER = $EMPLOYER$
-		}
-		court_position_generator_variable_effect = {
-			VAR = $VAR$
-			POS = cherbi
-			EMPLOYER = $EMPLOYER$
-		}
-	}
-	2 = { # YEKE JARQUCHI
-		trigger = {
-			court_position_generator_pickable_trigger = { POS = yeke_jarquchi EMPLOYER = $EMPLOYER$ }
-		}
-		court_position_generator_shared_modifier = {
-			POS = yeke_jarquchi
-			EMPLOYER = $EMPLOYER$
-		}
-		court_position_generator_variable_effect = {
-			VAR = $VAR$
-			POS = yeke_jarquchi
-			EMPLOYER = $EMPLOYER$
-		}
-	}
-	2 = { # FOREIGN EMISSARY
-		trigger = {
-			court_position_generator_pickable_trigger = { POS = foreign_emissary EMPLOYER = $EMPLOYER$ }
-		}
-		court_position_generator_shared_modifier = {
-			POS = foreign_emissary
-			EMPLOYER = $EMPLOYER$
-		}
-		court_position_generator_variable_effect = {
-			VAR = $VAR$
-			POS = foreign_emissary
-			EMPLOYER = $EMPLOYER$
-		}
-	}
-	2 = { # KEEPER OF THE HORSES
-		trigger = {
-			court_position_generator_pickable_trigger = { POS = keeper_of_the_horses EMPLOYER = $EMPLOYER$ }
-		}
-		court_position_generator_shared_modifier = {
-			POS = keeper_of_the_horses
-			EMPLOYER = $EMPLOYER$
-		}
-		court_position_generator_variable_effect = {
-			VAR = $VAR$
-			POS = keeper_of_the_horses
-			EMPLOYER = $EMPLOYER$
-		}
-	}
 	}
 }
 
