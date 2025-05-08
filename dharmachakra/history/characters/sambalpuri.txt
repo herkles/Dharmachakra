@@ -721,6 +721,12 @@ additional_somavamsis_3 = {# Someshvara
 	1030.1.1 = {
 		birth = "1030.1.1"
 	}
+	1060.1.1 = { 
+		if = {
+			limit = { has_realm_law = crown_authority_0 }
+			add_realm_law = crown_authority_1
+		}
+	}
 	1085.1.1 = {
 		death = "1085.1.1" # Extended lifespan from 1080.1.1 to cover ruling of titles until Janmejaya's rule in 1085.1.1.
 	}

@@ -2653,8 +2653,6 @@ dharma_867_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
-
-
 }
 dharma_1066_tributary_setup_effect = {
 	character:190082 = {# Bhauma Pala King and his tribal lords
@@ -2672,12 +2670,6 @@ dharma_1066_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		character:191591 = {# Kachari tribal Lords
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
-	character:144133 = {# Ibrahim Ghaznavid and his hindu tributaries
-		save_scope_as = suzerain
-		character:191974 = {# 
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}

@@ -6,8 +6,7 @@
 #									  #
 #######################################
 dharma_university.001 = {# Vegetarian or Non-Vegetarian
-	type = activity_event
-	content_source = dlc_009
+	type = activity_event	
 	title = dharma_university.001.t
 	desc = dharma_university.001.desc
 	theme = university
@@ -84,8 +83,7 @@ dharma_university.001 = {# Vegetarian or Non-Vegetarian
 	}
 }
 dharma_university.002 = {# Meditating with the monks
-	type = activity_event
-	content_source = dlc_009
+	type = activity_event	
 	title = dharma_university.002.t
 	desc = dharma_university.002.desc
 	theme = university
@@ -151,8 +149,7 @@ dharma_university.002 = {# Meditating with the monks
 #									  #
 #######################################
 dharma_university.010 = {# Theological classes
-	type = activity_event
-	content_source = dlc_009
+	type = activity_event	
 	title = dharma_university.010.t
 	desc = dharma_university.010.desc
 	theme = university
@@ -346,8 +343,7 @@ dharma_university.010 = {# Theological classes
 
 }
 dharma_university.011 = {# Schools of Buddhism debate
-	type = activity_event
-	content_source = dlc_009
+	type = activity_event	
 	title = dharma_university.011.t
 	desc = dharma_university.011.desc
 	theme = university
@@ -732,8 +728,7 @@ dharma_university.011 = {# Schools of Buddhism debate
 	}
 }
 dharma_university.013 = {# A book to leave with
-	type = activity_event
-	content_source = dlc_009
+	type = activity_event	
 	title = dharma_university.013.t
 	desc = dharma_university.013.desc
 	theme = university
@@ -850,8 +845,7 @@ dharma_university.013 = {# A book to leave with
 #									  #
 #######################################
 dharma_university.020 = {# Worship of the goddess Sharada?
-	type = activity_event
-	content_source = dlc_009
+	type = activity_event	
 	title = dharma_university.020.t
 	desc = dharma_university.020.desc
 	theme = university
@@ -942,8 +936,7 @@ dharma_university.020 = {# Worship of the goddess Sharada?
 	}
 }
 dharma_university.022 = {# Mystical Learning
-	type = activity_event
-	content_source = dlc_009
+	type = activity_event	
 	title = dharma_university.022.t
 	desc = dharma_university.022.desc
 	theme = university
@@ -1066,8 +1059,7 @@ dharma_university.022 = {# Mystical Learning
 	}
 }
 dharma_university.023 = {# A book to take with you?
-	type = activity_event
-	content_source = dlc_009
+	type = activity_event	
 	title = dharma_university.023.t
 	desc = dharma_university.023.desc
 	theme = university

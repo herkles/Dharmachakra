@@ -280,6 +280,12 @@
 	844.1.1 = {
 		birth = yes
 	}
+	850.1.1 = { 
+		if = {
+			limit = { has_realm_law = crown_authority_0 }
+			add_realm_law = crown_authority_1
+		}
+	}
 	890.1.1 = {
 		death = yes
 	}
@@ -412,6 +418,12 @@
 	father = 190081
 	1052.1.1 = {
 		birth = yes
+	}
+	1060.1.1 = { 
+		if = {
+			limit = { has_realm_law = crown_authority_0 }
+			add_realm_law = crown_authority_1
+		}
 	}
 	1100.1.1 = {
 		death = yes

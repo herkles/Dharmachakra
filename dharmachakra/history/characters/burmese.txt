@@ -108,6 +108,12 @@ burman001 = {# Anawrahta
 			}
 		}
 	}
+	1060.1.1 = { 
+		if = {
+			limit = { has_realm_law = crown_authority_0 }
+			add_realm_law = crown_authority_1
+		}
+	}
 	1077.4.11 = {
 		death = yes
 	}
