@@ -484,7 +484,6 @@ bhangika_title_invalidated_effect = {
 	basic_invalidated_court_position_effect = yes
 }
 
-# Master of the Royal Elephants
 master_of_elephants_title_accepted_effect = {
 	basic_gained_court_position_effect = yes
 }
@@ -494,6 +493,8 @@ master_of_elephants_title_revoked_effect = {
 master_of_elephants_title_invalidated_effect = {
 	basic_invalidated_court_position_effect = yes
 }
+
+
 
 
 court_position_old_holder_effect = { # Save existing holder if relevant
@@ -1159,63 +1160,6 @@ court_position_generator_effect = {
 				EMPLOYER = $EMPLOYER$
 			}
 		}
-		# Dharmachakra Positions
-		2 = { # Court Guru
-			trigger = {
-				court_position_generator_pickable_trigger = { POS = court_guru EMPLOYER = $EMPLOYER$ }
-			}
-			court_position_generator_shared_modifier = {
-				POS = court_guru
-				EMPLOYER = $EMPLOYER$
-			}
-			court_position_generator_variable_effect = {
-				VAR = $VAR$
-				POS = court_guru
-				EMPLOYER = $EMPLOYER$
-			}
-		}
-		2 = { # master_of_elephants
-			trigger = {
-				court_position_generator_pickable_trigger = { POS = master_of_elephants EMPLOYER = $EMPLOYER$ }
-			}
-			court_position_generator_shared_modifier = {
-				POS = master_of_elephants
-				EMPLOYER = $EMPLOYER$
-			}
-			court_position_generator_variable_effect = {
-				VAR = $VAR$
-				POS = master_of_elephants
-				EMPLOYER = $EMPLOYER$
-			}
-		}
-		2 = { # chief_vajracharya
-			trigger = {
-				court_position_generator_pickable_trigger = { POS = chief_vajracharya EMPLOYER = $EMPLOYER$ }
-			}
-			court_position_generator_shared_modifier = {
-				POS = chief_vajracharya
-				EMPLOYER = $EMPLOYER$
-			}
-			court_position_generator_variable_effect = {
-				VAR = $VAR$
-				POS = chief_vajracharya
-				EMPLOYER = $EMPLOYER$
-			}
-		}
-		2 = { # bhangika
-			trigger = {
-				court_position_generator_pickable_trigger = { POS = bhangika EMPLOYER = $EMPLOYER$ }
-			}
-			court_position_generator_shared_modifier = {
-				POS = bhangika
-				EMPLOYER = $EMPLOYER$
-			}
-			court_position_generator_variable_effect = {
-				VAR = $VAR$
-				POS = bhangika
-				EMPLOYER = $EMPLOYER$
-			}
-		}
 		2 = { # COURT ASTROLOGER
 			trigger = {
 				court_position_generator_pickable_trigger = { POS = court_astrologer EMPLOYER = $EMPLOYER$ }
@@ -1328,6 +1272,64 @@ court_position_generator_effect = {
 				EMPLOYER = $EMPLOYER$
 			}
 		}
+		# Dharmachakra Positions
+		2 = { # Court Guru
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = court_guru EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = court_guru
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = court_guru
+				EMPLOYER = $EMPLOYER$
+			}
+		}
+		2 = { # chief_vajracharya
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = chief_vajracharya EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = chief_vajracharya
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = chief_vajracharya
+				EMPLOYER = $EMPLOYER$
+			}
+		}
+		2 = { # bhangika
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = bhangika EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = bhangika
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = bhangika
+				EMPLOYER = $EMPLOYER$
+			}
+		}
+		2 = { # Master of Elephants
+			trigger = {
+				court_position_generator_pickable_trigger = { POS = master_of_elephants EMPLOYER = $EMPLOYER$ }
+			}
+			court_position_generator_shared_modifier = {
+				POS = master_of_elephants
+				EMPLOYER = $EMPLOYER$
+			}
+			court_position_generator_variable_effect = {
+				VAR = $VAR$
+				POS = master_of_elephants
+				EMPLOYER = $EMPLOYER$
+			}
+		}
+
 	}
 }
 
@@ -1467,15 +1469,15 @@ court_position_generator_assignment_effect = {
 		flag:court_guru = {
 			court_position_grant_effect = { POS = court_guru CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
 		}
-		flag:master_of_elephants = {
-			court_position_grant_effect = { POS = master_of_elephants CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
-		}
 		flag:chief_vajracharya = {
 			court_position_grant_effect = { POS = chief_vajracharya CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
 		}
 		flag:bhangika = {
 			court_position_grant_effect = { POS = bhangika CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
 		}
+		flag:master_of_elephants = {
+			court_position_grant_effect = { POS = master_of_elephants CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }
+		} 
 		# Court Astrologer
 		flag:court_astrologer = {
 			court_position_grant_effect = { POS = court_astrologer CANDIDATE = $CANDIDATE$ EMPLOYER = $EMPLOYER$ }

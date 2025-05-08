@@ -77,8 +77,8 @@ master_of_elephants_court_position = {
 	}
 
 	is_shown = {
-		culture = {	has_innovation = innovation_elephantry }
 		is_landed_or_landless_administrative = yes
+		NOT = { government_has_flag = government_is_nomadic }
 		trigger_if = {
 			limit = {
 				is_ai = yes
@@ -96,15 +96,13 @@ master_of_elephants_court_position = {
 
 	is_shown_character = {
 		scope:employee = {
-			culture = {	has_innovation = innovation_elephantry }
 			is_imprisoned = no
 		}
 	}
 
 	valid_character = {
 		scope:employee = {
-			is_imprisoned = no
-			culture = {	has_innovation = innovation_elephantry }
+			master_of_elephants_validity_trigger = { EMPLOYER = scope:liege }
 		}
 	}
 
@@ -115,7 +113,7 @@ master_of_elephants_court_position = {
 			if = {
 				limit = {
 					court_position_obligation_hook_salary_trigger = {
-						POS = master_of_elephants
+						POS = master_of_horse
 						LIEGE = root
 					}
 				}
@@ -154,7 +152,7 @@ master_of_elephants_court_position = {
 			value = medium_court_position_salary # Update X_salary_tooltip if script_value is changed
 			# Set to 0 with Dynasty Perk Inner Circle
 			if = {
-				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_elephants } }
+				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_horse } }
 				multiply = {
 					value = 0
 					desc = inner_circle_salary_mod
@@ -165,7 +163,7 @@ master_of_elephants_court_position = {
 			else_if = {
 				limit = {
 					court_position_obligation_hook_salary_trigger = {
-						POS = master_of_elephants
+						POS = master_of_horse
 						LIEGE = scope:liege
 					}
 				}
@@ -178,7 +176,7 @@ master_of_elephants_court_position = {
 			# Halved salary
 			if = {
 				limit = {
-					court_position_halved_salary_trigger = { POS = master_of_elephants }
+					court_position_halved_salary_trigger = { POS = master_of_horse }
 				}
 				multiply = {
 					value = 0.5
@@ -189,7 +187,7 @@ master_of_elephants_court_position = {
 			# Increased salary
 			if = {
 				limit = {
-					court_position_increased_salary_trigger = { POS = master_of_elephants }
+					court_position_increased_salary_trigger = { POS = master_of_horse }
 				}
 				multiply = {
 					value = 1.5
@@ -200,10 +198,10 @@ master_of_elephants_court_position = {
 			if = {
 				limit = {
 					scope:liege = {
-						employs_court_position = master_of_elephants_court_position
+						employs_court_position = master_of_horse_court_position
 						any_court_position_holder = {
-					        type = master_of_elephants_court_position
-					        has_character_flag = master_of_elephants
+					        type = master_of_horse_court_position
+					        has_character_flag = free_master_of_horse
 						}
 					}
 				}
@@ -228,7 +226,7 @@ master_of_elephants_court_position = {
 			value = medium_court_position_prestige_salary # Update X_salary_tooltip if script_value is changed
 			# Set to 0 with Dynasty Perk Inner Circle
 			if = {
-				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_elephants } }
+				limit = { court_position_inner_circle_salary_trigger = { POS = master_of_horse } }
 				multiply = {
 					value = 0
 					desc = inner_circle_salary_mod
@@ -239,7 +237,7 @@ master_of_elephants_court_position = {
 			else_if = {
 				limit = {
 					court_position_obligation_hook_salary_trigger = {
-						POS = master_of_elephants
+						POS = master_of_horse
 						LIEGE = scope:liege
 					}
 				}
@@ -252,7 +250,7 @@ master_of_elephants_court_position = {
 			# Halved salary
 			if = {
 				limit = {
-					court_position_halved_salary_trigger = { POS = master_of_elephants }
+					court_position_halved_salary_trigger = { POS = master_of_horse }
 				}
 				multiply = {
 					value = 0.5
@@ -263,7 +261,7 @@ master_of_elephants_court_position = {
 			# Increased salary
 			if = {
 				limit = {
-					court_position_increased_salary_trigger = { POS = master_of_elephants }
+					court_position_increased_salary_trigger = { POS = master_of_horse }
 				}
 				multiply = {
 					value = 1.5
@@ -349,13 +347,22 @@ master_of_elephants_court_position = {
 		}
 		if = { # To stop petitioned positions immediately being fired by the AI
 			limit = {
-				court_position_petition_ai_weight_trigger = { ROLE = master_of_elephants }
+				court_position_petition_ai_weight_trigger = { ROLE = master_of_horse }
 			}
 			add = 1000
 		}
 		add = court_position_debt_considerations_value
 	}
 }
+
+
+
+
+
+
+
+
+
 court_guru_court_position = {
 	sort_order = 233
 	max_available_positions = 1
