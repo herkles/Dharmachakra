@@ -1,16 +1,21 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.7.0 "Huna" (Released 11/08/2024)
+## Latest Version: 1.7.0 "Hayagriva" (Released 05/09/2025)
 
-After two years Dharmachakra has been revivied. The mod has been updated to the latest update. a lot of the stuff was converted to acitivies instead of decisions. This also meant revamping the holy sites as I no longer needed to have so many for the various pilgrimages. History for south asia has been updated to reflect the decline of Buddhism and in 1178 the decline of Saura. and as 1178 is after Basava established Lingayatism, that faith exists in 1178.I have also added a new bookmark for 1178. 
+This patch updates it for Khans of the steppe. It also includes a new and revised cultural set up. Hopefully the last before All under heaven comes out and I need to revise things again with the rest of asia. I have also added a bookmark for 1066 for the Ghaznavids and their invansion into India.
 
 ## Changelog
 
 - Revamped cultural setup again
-- added some RICE religions and cultures for the region
+- added some RICE religions and cultures
 - added some new culture traditions
 - cultures in the Thar Desert can get camels now
-- removed gauda warriors and khadga puja for now
+- removed khadga puja for now
+- When embarking on the Mahamastakabisheka pilgrimage as a jain ruler, you can pick which Jain vow you wish to take while on the pilgrimage
+- Some special events if you go to a university in south asia
+- 4 new court postions: court guru, chief vajracharya, bhangika, and master of elephants
+- various tribal lords have been made tributaries in 867 and 1066
+- added a 1066 bookmark
 - various bug fixes
 
 

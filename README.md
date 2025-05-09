@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.6.0 "Rebirth" (Released 11/08/2024)
+## Latest Version: 1.7.0 "Hayagriva" (Released 05/09/2025)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
@@ -17,6 +17,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
 - A bunch of special buildings for the various temples and other holy sites throughout south asia
 - 2 867 bookmarks, one for tibet and one for india
 - 1 1178 bookmark for South Asia
+- 1 1066 bookmark for south asia
 - various new events for south asia
 - various new decisions
 - Bald Buddhist Monks and Nuns​
