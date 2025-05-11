@@ -1,0 +1,6 @@
+﻿rf_iranic = {
+	piety_icon_group = "zoroastrian"
+	graphical_faith = "zoroastrian_gfx"
+	hostility_doctrine = iranic_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_pagan.dds
+}

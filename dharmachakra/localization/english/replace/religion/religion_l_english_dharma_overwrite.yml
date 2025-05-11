@@ -595,6 +595,7 @@
  rf_abrahamic:0 "Abrahamic"
  rf_pagan:0 "Pagan"
  rf_eastern:0 "Eastern"
+ rf_iranic:0 "Iranian"
 
  sinful_theocrat_exposed_title:0 "Sinful [sinful_theocrat.Custom('GetActualBishopTitle')] Exposed"
  virtuous_theocrat_celebrated_title:0 "Virtuous [virtuous_theocrat.Custom('GetActualBishopTitle')] Celebrated"
@@ -706,6 +707,9 @@
  eastern_hostility_doctrine_name:0 "Eastern"
  eastern_hostility_doctrine_desc:0 "The following religions are Eastern:\n[GetReligionFamily('rf_eastern').GetReligions]"
  
+ iranic_hostility_doctrine_name:0 "Iranian"
+ iranic_hostility_doctrine_desc:0 "The following religions are Eastern:\n[GetReligionFamily('rf_iranic').GetReligions]"
+
  special_tolerance_name:0 "Special Tolerance"
  special_doctrine_ecumenical_christian_name:0 "Ecumenism"
  special_doctrine_ecumenical_christian_desc:0 "Our religious leaders have historically been engaged in inter-faith dialogs to increase cooperation amongst the different Christian denominations."

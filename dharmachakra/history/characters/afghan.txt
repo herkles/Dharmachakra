@@ -1,7 +1,7 @@
 ﻿175060 = {
 	name = "Kallar" # Founder of the Hindu Shahi dynasty
 	dynasty = 1043006
-	religion = "zun_pagan"
+	religion = "shaivism"
 	culture = "afghan"
 	841.1.1 = {
 		birth = yes
@@ -170,7 +170,6 @@
 	dynasty = 1042111 # Kaikanite
 	religion = "mahayana"
 	culture = "afghan"
-#	#REMOVED_TRAIT trait = kshatriya # Jats, so no caste
 	741.3.7 = {
 		birth = yes
 	}

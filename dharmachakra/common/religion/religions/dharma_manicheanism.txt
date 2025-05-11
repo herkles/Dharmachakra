@@ -1,0 +1,266 @@
+﻿manichean_religion = {
+	family = rf_iranic
+
+	# Main Group
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	# Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_cousins
+
+	# Crimes
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_any_dynasty_member_crime
+	doctrine = doctrine_witchcraft_accepted
+	doctrine = doctrine_deviancy_shunned
+
+	# Clerical Functions
+	doctrine = doctrine_clerical_function_taxation
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_spiritual_appointment
+
+	# Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
+	# Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
+	# Special Doctrines
+	doctrine = special_doctrine_is_gnostic_faith
+
+	
+	traits = {
+		virtues = { honest humble patient }
+		sins = { deceitful arrogant impatient }
+	}
+
+	reserved_male_names = {
+		Hormazd Maziar Shapur Vandad Zartosht
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s
+	}
+
+	holy_order_names = {
+		{ name = "holy_order_army_of_light" }
+		{ name = "holy_order_dreamers_of_place" }
+		{ name = "holy_order_servants_of_the_patricians_of_light" }
+	}
+
+	holy_order_maa = { mubarizun }
+
+	localization = { # Manichean/Priscillianism Gods
+		# High God Name
+		HighGodName = manicheanism_high_god_name
+		HighGodName2 = manicheanism_high_god_name_2
+		HighGodNamePossessive = manicheanism_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = manicheanism_high_god_name
+		HighGodNameAlternatePossessive = manicheanism_high_god_name_possessive
+
+		# Creator
+		CreatorName = manicheanism_creator_god_name
+		CreatorNamePossessive = manicheanism_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_SHE
+		CreatorHerHis = CHARACTER_HERHIS_HER
+		CreatorHerHim = CHARACTER_HERHIM_HER
+
+		# Health God
+		HealthGodName = manicheanism_health_god_name
+		HealthGodNamePossessive = manicheanism_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_IT
+		HealthGodHerHis = CHARACTER_HERHIS_ITS
+		HealthGodHerHim = CHARACTER_HERHIM_IT
+		
+		# Fertility God
+		FertilityGodName = manicheanism_fertility_god_name
+		FertilityGodNamePossessive = manicheanism_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		# Wealth God
+		WealthGodName = manicheanism_wealth_god_name
+		WealthGodNamePossessive = manicheanism_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		# Household God
+		HouseholdGodName = manicheanism_household_god_name
+		HouseholdGodNamePossessive = manicheanism_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		# Knowledge God
+		KnowledgeGodName = manicheanism_knowledge_god_name
+		KnowledgeGodNamePossessive = manicheanism_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		# War God
+		WarGodName = manicheanism_war_god_name
+		WarGodNamePossessive = manicheanism_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		# Night God
+		NightGodName = manicheanism_night_god_name
+		NightGodNamePossessive = manicheanism_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		# Water God
+		WaterGodName = manicheanism_water_god_name
+		WaterGodNamePossessive = manicheanism_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+		# Death God
+		DeathDeityName = dualism_death_deity_name
+		DeathDeityNamePossessive = dualist_death_deity_name_possessive
+		DeathDeitySheHe = dualism_death_shehe
+		DeathDeityHerHis = dualism_death_diety_herhis
+		DeathDeityHerHim = CHARACTER_HERHIM_IT
+
+		# Trickster God
+		TricksterGodName = dualism_trickster_god_name
+		TricksterGodNamePossessive = dualism_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_SHE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HER
+		
+		# Fate God
+		FateGodName = dualism_fate_god_name
+		FateGodNamePossessive = dualism_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+
+		# Religious Text
+		ReligiousText = dualism_religious_text
+		ReligiousText2 = dualism_religious_text_2
+		ReligiousText3 = dualism_religious_text_3
+		
+		# House of Worship
+		HouseOfWorship = dualism_house_of_worship
+		HouseOfWorship2 = dualism_house_of_worship_2
+		HouseOfWorship3 = dualism_house_of_worship_3
+		HouseOfWorshipPlural = dualism_house_of_worship_plural
+
+		# Priest Terms
+		PriestMale = dualism_priest
+		PriestMalePlural = dualism_priest_plural
+		PriestFemale = dualism_priest
+		PriestFemalePlural = dualism_priest_plural
+		PriestNeuter = dualism_priest
+		PriestNeuterPlural = dualism_priest_plural
+		AltPriestTermPlural = dualism_alternate_priest_term_plural
+
+		BishopMale = dualism_bishop
+		BishopMalePlural = dualism_bishop_plural
+		BishopFemale = dualism_bishop
+		BishopFemalePlural = dualism_bishop_plural
+		BishopNeuter = dualism_bishop
+		BishopNeuterPlural = dualism_bishop_plural
+
+		DevoteeMale = dualism_devotee_male
+		DevoteeMalePlural = dualism_devotee_male_plural
+		DevoteeFemale = dualism_devotee_female
+		DevoteeFemalePlural = dualism_devotee_female_plural
+		DevoteeNeuter = dualism_devotee_neuter
+		DevoteeNeuterPlural = dualism_devotee_neuter_plural
+
+		# Religious Symbolism
+		ReligiousSymbol = dualism_religious_symbol
+		ReligiousSymbol2 = dualism_religious_symbol_2
+		ReligiousSymbol3 = dualism_religious_symbol_3
+
+		# Divine Realm
+		DivineRealm = dualism_divine_realm
+		DivineRealm2 = dualism_divine_realm_2
+		DivineRealm3 = dualism_divine_realm_3
+
+		PositiveAfterLife = dualism_positive_afterlife
+		PositiveAfterLife2 = dualism_positive_afterlife_2
+		PositiveAfterLife3 = dualism_positive_afterlife_3
+
+		NegativeAfterLife = dualism_negative_afterlife
+		NegativeAfterLife2 = dualism_negative_afterlife_2
+		NegativeAfterLife3 = dualism_negative_afterlife_3
+
+		# Holy Wars
+		GHWName = ghw_purification
+		GHWNamePlural = ghw_purifications
+
+		# Pantheon Term
+		PantheonTerm = dualism_good_god_knowledge
+		PantheonTerm2 = dualism_good_god_knowledge_2
+		PantheonTerm3 = dualism_good_god_knowledge_3
+		PantheonTermHasHave = pantheon_term_has
+		
+		#Yamags, not High Priests
+		ReligiousHeadName = manichean_religious_head_title
+		ReligiousHeadTitleName = manichean_religious_head_title_name
+
+		GoodGodNames = {
+			manicheanism_good_god_father_of_greatness
+			manicheanism_good_god_mother_of_life
+			manicheanism_good_god_first_man
+		}
+		DevilName = manicheanism_devil_name
+		DevilNamePossessive = manicheanism_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = {
+			manicheanism_devil_name
+			dualism_devil_name
+			dualism_evil_god_archons
+			dualism_evil_god_matter
+			dualism_evil_god_ignorance
+		}
+		WitchGodName = manicheanism_devil_name
+		WitchGodNamePossessive = manicheanism_devil_name_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+	}
+
+	faiths = {
+		manichean = {
+			color = { 0.5 0.7 0.4 }
+			religious_head = d_manichean
+			icon = manichean
+
+			holy_site = ahvaz
+			holy_site = yijinai # As most of China is not on the map, this works to represent the large Chinese following of the faith
+			holy_site = khotan # While Jerusalem was important to early Manicheans, by CK's timeframe, Central Asia was much more important
+			holy_site = samarkand
+			holy_site = udabhanda
+
+			doctrine = tenet_mendicant_preachers # Manicheans preached very far East
+			doctrine = tenet_adaptive
+			doctrine = tenet_esotericism
+		}
+	}
+
+}

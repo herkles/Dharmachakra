@@ -2647,12 +2647,6 @@ dharma_867_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
-	character:kachari014 = {# Mlechha
-		save_scope_as = suzerain
-		character:kachari015 = {# Kachari tribal lord
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 }
 dharma_1066_tributary_setup_effect = {
 	character:190082 = {# Bhauma Pala King and his tribal lords

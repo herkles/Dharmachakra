@@ -319,7 +319,7 @@
 	culture = sogdian
 	religion = mahayana
 	
-	holding = none
+	holding = castle_holding
 	
 	# History
 	1006.1.1 = {
