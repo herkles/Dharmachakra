@@ -84,3 +84,19 @@ unavailable = {
 	is_available_on_create = { always = no }
 	unavailable_doctrine = { visible = no }
 }
+is_sunni_heresy = {# Sunni Heresy for Muzta'lite to reflect their heretical relationship
+	group = "special"
+	
+	is_available_on_create = {
+		AND = { # Must be Zandaqa or else it wouldn't make sense
+			has_doctrine = special_doctrine_is_sunni_heresy
+			has_doctrine = muhammad_succession_zandaqa_doctrine
+		}
+	}
+	special_doctrine_is_sunni_heresy = {
+		parameters = {
+			hostility_override_muhammad_succession_sunni_doctrine = 1
+			hostility_override_special_doctrine_is_sunni_heresy = 1
+		}
+	}
+}

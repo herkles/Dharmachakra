@@ -5,7 +5,7 @@
 	############################
 	# Modded Faith Tenets   #
 	############################
-	tenet_dhammavicaya = {
+	tenet_dhammavicaya = {# Buddhist searching for truth
 		icon = core_tenet_literalism
 		piety_cost = {
 			if = {
@@ -27,11 +27,9 @@
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
-
 		is_shown = {
 			religion_tag = buddhism_religion
 		}
-
 		traits = {
 			virtues = {
 				education_learning_3
@@ -39,13 +37,70 @@
 				scholar
 			}
 		}
-
 		character_modifier = {
 			monthly_learning_lifestyle_xp_gain_mult = 0.1
 		}
-
 		parameters = {
 			literalist_debate_enabled = yes
+		}
+	}
+	tenet_iranian_syncretism = {# Iranian Syncretism for the Iranic Faiths
+		icon = core_tenet_pentarchy
+		piety_cost = {
+			if = {
+				limit = {
+					OR = {
+						religion_tag = dualism_religion
+						has_doctrine = pagan_hostility_doctrine
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion_tag = islam_religion
+				}
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_eastern_syncretism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			OR = {
+				has_doctrine = abrahamic_hostility_doctrine
+				has_doctrine = pagan_hostility_doctrine
+				has_doctrine = eastern_hostility_doctrine
+			}
+		}
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_other_syncretism_trigger
+				NOR = {
+					doctrine:tenet_unreformed_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_christian_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_islamic_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_jewish_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_eastern_syncretism = { is_in_list = selected_doctrines }
+				}
+			}
+		}
+		parameters = {
+			hostility_override_iranian_hostility_doctrine = 1
+			#For loc:
+			is_iranian_faith_bilateral_loc_override = 1
+			iranian_syncretic_actor_opinion_active = yes
+			opinion_of_iranian_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+		}
+		traits = {
+			virtues = { honest }
+			sins = { deceitful }
 		}
 	}
 	############################
@@ -115,9 +170,7 @@
 		name = {
 			first_valid = {
 				triggered_desc = {
-					trigger = {
-						religion_tag = christianity_religion
-					}
+					trigger = {	religion_tag = christianity_religion }
 					desc = tenet_alexandrian_catechism_name
 				}
 				desc = tenet_islamic_rationalism_name
@@ -127,9 +180,7 @@
 		desc = {
 			first_valid = {
 				triggered_desc = {
-					trigger = {
-						religion_tag = christianity_religion
-					}
+					trigger = {	religion_tag = christianity_religion }
 					desc = tenet_alexandrian_catechism_desc
 				}
 				desc = tenet_islamic_rationalism_desc
@@ -869,6 +920,16 @@
 
 	tenet_vows_of_poverty = {
 		icon = core_tenet_vows_of_poverty
+		name = {
+			first_valid = {
+				triggered_desc = {
+					trigger = { religion_tag = islam_religion }
+					desc = tenet_faqr_name
+				}
+				desc = tenet_vows_of_poverty_name
+			}
+		}
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -2718,6 +2779,7 @@
 					doctrine:tenet_christian_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_islamic_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_jewish_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_iranian_syncretism = { is_in_list = selected_doctrines }
 				}
 			}
 		}
@@ -2768,6 +2830,7 @@
 					doctrine:tenet_christian_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_islamic_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_jewish_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_iranian_syncretism = { is_in_list = selected_doctrines }
 				}
 			}
 		}
@@ -2819,6 +2882,7 @@
 					doctrine:tenet_unreformed_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_islamic_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_jewish_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_iranian_syncretism = { is_in_list = selected_doctrines }
 				}
 			}
 		}
@@ -2874,6 +2938,7 @@
 					doctrine:tenet_unreformed_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_christian_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_jewish_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_iranian_syncretism = { is_in_list = selected_doctrines }
 				}
 			}
 		}
@@ -2928,7 +2993,10 @@
 					doctrine:tenet_unreformed_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_christian_syncretism = { is_in_list = selected_doctrines }
 					doctrine:tenet_islamic_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_iranian_syncretism = { is_in_list = selected_doctrines }
 				}
+
+				
 			}
 		}
 

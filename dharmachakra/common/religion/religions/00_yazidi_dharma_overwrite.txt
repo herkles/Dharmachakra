@@ -242,13 +242,16 @@
 			holy_site = nishapur
 			holy_site = dashtestan
 
-			#Tenet
+			# Doctrines
+			doctrine = doctrine_pilgrimage_mandatory
+
+			# Tenet
 			doctrine = tenet_communal_identity
 			doctrine = tenet_reincarnation
 			doctrine = tenet_islamic_syncretism
 		}
 
-		meshefaresism = { # Fictional heresy
+		meshefaresism = {# Yarsanism
 			color = { 0.5 0.1 0.5 }
 			icon = meshefaresism
 
@@ -258,10 +261,15 @@
 			holy_site = nishapur
 			holy_site = dashtestan
 
+			# Doctrines
+			doctrine = doctrine_pilgrimage_mandatory
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_no_head
+
 			#Tenet
 			doctrine = tenet_islamic_syncretism
 			doctrine = tenet_reincarnation
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_adaptive
 
 			localization = {
 				ReligiousText = meshefaresism_holy_text
@@ -270,7 +278,7 @@
 			}
 		}
 
-		kitebacilweism = { # Fictional heresy
+		kitebacilweism = {# Kurdish Paganism
 			color = { 0.1 0.1 0.8 }
 			icon = kitebacilweism
 
@@ -280,10 +288,13 @@
 			holy_site = nishapur
 			holy_site = dashtestan
 
-			#Tenet
-			doctrine = tenet_literalism
+			# Doctrines
+			doctrine = doctrine_no_head
+
+			# Tenet
+			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_islamic_syncretism
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_sun_worship
 
 			localization = {
 				ReligiousText = kitebacilweism_holy_text

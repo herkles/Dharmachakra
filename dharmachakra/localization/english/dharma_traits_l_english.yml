@@ -117,4 +117,12 @@
   trait_vaishnavism_tradition_pancharatra:0 "Pancharatra Tradition"
   trait_vaishnavism_tradition_pancharatra_desc:0 "This Character is follower of the Pancharatra tradition of Vaishavnism."
   trait_vaishnavism_tradition_pancharatra_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Pancharatra tradition of Vaishavnism."
+#######################################
+# Islamic Traits
+#######################################
+  muslim_lineage:0 "Islamic Lineage"
 
+  trait_qurashi:0 "Qurashi"
+  trait_qurashiyya:0 "Qurashiyya"
+  trait_quraysh_desc:0 "The term Qurashi describes someone who descends from the legendary Quraysh Tribe of Arabia, though unlike a Sayyid, not descending directly from the Prophet Muhammad."
+  trait_quraysh_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has the Blood of the Quraysh tribe flowing through [ROOT.GetCharacter.GetHerHis] veins."

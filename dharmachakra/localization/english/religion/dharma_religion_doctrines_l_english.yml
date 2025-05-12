@@ -40,11 +40,16 @@
     unavailable_name:0 "Unavailable"
     unavailable_desc:0 "Unavailable"
 
+  ####### Muslim Doctrines #######
+ doctrine_parameter_sayyid_bonus_normal:0 ""
+ doctrine_parameter_sayyid_bonus_increased:0 "Slightly increased [opinion|E] for [characters|E] with the [GetTrait('sayyid').GetName( GetNullCharacter )] [trait|E]."
+ doctrine_parameter_sayyid_bonus_increased_greatly:0 "Greatly increased [opinion|E] for [characters|E] with the [GetTrait('sayyid').GetName( GetNullCharacter )] [trait|E]."
 
-
-
-
-
+ #Sunni Heresy
+ is_sunni_heresy_name:0 "Unorthodox Theology"
+ special_doctrine_is_sunni_heresy_name:0 "Unorthodox Theology"
+ special_doctrine_is_sunni_heresy_desc:0 "Although we are Sunni by definition, our beliefs differ too much from those of the orthodoxy in order for us to consider ourselves as part of the same group, our relations still remain amicable, however."
+ doctrine_parameter_hostility_override_special_doctrine_is_sunni_heresy:0 "Considers and is considered by [faiths|E] with the [GetFaithDoctrine('special_doctrine_is_sunni_heresy').GetBaseName] [doctrine|E], to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
 
 
 

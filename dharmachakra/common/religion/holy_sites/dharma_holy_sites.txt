@@ -725,7 +725,16 @@ taungbyone = {
 		prowess_per_piety_level = 1
 	}
 }
+karbala = {# important for Shia Muslims
+	county = c_karbala
+	barony = b_karbala
 
+	character_modifier = {
+		name = holy_site_karbala_effect_name
+		prowess = 3
+		max_combat_roll = 5
+	}
+}
 
 
 

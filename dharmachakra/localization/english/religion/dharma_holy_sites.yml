@@ -25,3 +25,22 @@
 #Holy sites: Qiangic/Hsexje
 
 #Holy Sites: Bon
+
+# Holy Sites: Islam
+ holy_site_karbala_name:0 "Karbala"
+ holy_site_karbala_effect_name:0 "From [holy_site|E] #weak ($holy_site_karbala_name$)#!"
+
+ holy_site_arrajan_name:0 "Arrajan"
+ holy_site_arrajan_effect_name:0 "From [holy_site|E] #weak ($holy_site_arrajan_name$)#!"
+
+ holy_site_isfahan_name:0 "Isfahan"
+ holy_site_isfahan_effect_name:0 "From [holy_site|E] #weak ($holy_site_isfahan_name$)#!"
+
+ holy_site_cappadocia_name:0 "Cappadocia"
+ holy_site_cappadocia_effect_name:0 "From [holy_site|E] #weak ($holy_site_cappadocia_name$)#!"
+
+
+
+
+
+

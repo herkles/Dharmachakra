@@ -1062,7 +1062,7 @@ c_charaideo = {
 c_kundina = {
 	350.1.1 = {
 		holder = 190054 #Pusyavarman
-		liege = d_sutiya Commenting out as they are being turned into tribal tributaries.
+		liege = d_sutiya # Commenting out as they are being turned into tribal tributaries.
 	}
 	374.1.1 = {
 		holder = 190055 #Samudravarman

@@ -672,8 +672,6 @@ hindu_philoosphy_bhedabheda = {# Bhedabheda - School of Vedanta
 		hindu_philoosphy_dvaita_vedanta
 	}
 
-	
-
 	learning = 1
 	monthly_piety_gain_mult = 0.1
 	same_opinion = 5
@@ -751,4 +749,118 @@ hindu_philoosphy_dvaita_vedanta = {# Dvaita Vedanta - School of Vedanta
 		}
 	}
 	
+}
+#######################################
+# Muslim lineage traits
+#######################################
+sayyid = {
+	index = 170
+	category = fame
+	ruler_designer_cost = 25
+	
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sayyid
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_sayyida
+			}
+			desc = trait_sayyid
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_sayyid_desc
+			}
+			desc = trait_sayyid_character_desc
+		}
+	}
+
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	triggered_opinion = { # For Sunnis, Muhakkimas, and Zanadiqa
+		parameter = sayyid_bonus_normal
+		opinion_modifier = sayyid_opinion_normal
+	}
+	triggered_opinion = { # For Shias and Batriyya
+		parameter = sayyid_bonus_increased
+		opinion_modifier = sayyid_opinion_increased
+	}
+	triggered_opinion = { # For Ghulat
+		parameter = sayyid_bonus_increased_greatly
+		opinion_modifier = sayyid_opinion_increased_greatly
+	}
+
+	# General Bonus
+	flag = initial_legitimacy_boost
+
+	faith_modifier = {# for those that just like Sayyidis
+		parameter = sayyid_bonus_increased
+		monthly_piety = 0.5
+	}
+	faith_modifier = {# For those that love Sayyidis
+		parameter = sayyid_bonus_increased_greatly
+		monthly_piety = 1
+	}
+	faith_modifier = { # Only Muslims get bonuses
+		parameter = islamic_trait_effects_active
+		zealot_opinion = 15
+		short_reign_duration_mult = -0.30
+		monthly_prestige = 0.3
+	}
+
+	group = muslim_lineage
+	level = 2
+}
+quraysh = {
+	index = 1701
+	category = fame
+	ruler_designer_cost = 15
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_qurashi
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_qurashiyya
+			}
+			desc = trait_qurashi
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_quraysh_desc
+			}
+			desc = trait_quraysh_character_desc
+		}
+	}
+	
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	faith_modifier = { # Only Muslims get bonuses
+		parameter = islamic_trait_effects_active
+		islam_religion_opinion = 5
+		zealot_opinion = 5
+		short_reign_duration_mult = -0.15
+		monthly_prestige = 0.15
+	}
+	flag = initial_legitimacy_boost
+
+	group = muslim_lineage
+	level = 1
 }

@@ -1,7 +1,7 @@
 ﻿zoroastrianism_religion = {
 	family = rf_iranic
 	graphical_faith = zoroastrian_gfx
-	doctrine = iranic_hostility_doctrine
+	doctrine = iranian_hostility_doctrine
 
 
 	# Main Group

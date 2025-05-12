@@ -707,8 +707,8 @@
  eastern_hostility_doctrine_name:0 "Eastern"
  eastern_hostility_doctrine_desc:0 "The following religions are Eastern:\n[GetReligionFamily('rf_eastern').GetReligions]"
  
- iranic_hostility_doctrine_name:0 "Iranian"
- iranic_hostility_doctrine_desc:0 "The following religions are Eastern:\n[GetReligionFamily('rf_iranic').GetReligions]"
+ iranian_hostility_doctrine_name:0 "Iranian"
+ iranian_hostility_doctrine_desc:0 "The following religions are Eastern:\n[GetReligionFamily('rf_iranic').GetReligions]"
 
  special_tolerance_name:0 "Special Tolerance"
  special_doctrine_ecumenical_christian_name:0 "Ecumenism"
