@@ -46,7 +46,7 @@
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = "ismaili"
+	religion = "ashari"
 	culture = "persian"
 	father = 20703
 	1061.1.1 = {
@@ -297,13 +297,13 @@
 
 20703 = {
 	name = "Keikavus"
-	# AKA: Keikavus
+	# AKA: Unsur al-Ma'ali
 	dynasty = 101689
 	martial = 7
 	diplomacy = 8
 	intrigue = 7
 	stewardship = 7
-	religion = "ismaili"
+	religion = "ashari"
 	culture = "persian"
 	father = 166996
 	trait = education_stewardship_2
@@ -1280,6 +1280,7 @@
 
 93271 = {
 	name = "Abu_l-Abbas"
+#	AKA: Badr ud-Dawla
 	dynasty = 812 #Saffarid
 	religion = "ashari"
 	culture = "persian"
@@ -1292,8 +1293,11 @@
 	}
 }
 
+
+
 93272 = {
 	name = "Khalaf"
+	# AKA: Baha' ud-Dawla
 	dynasty = 812 #Saffarid
 	religion = "ashari"
 	culture = "persian"
@@ -1305,6 +1309,7 @@
 		death = yes
 	}
 }
+
 
 93273 = {
 	name = "Tagh_ad-Din"
@@ -1799,8 +1804,6 @@
 		death = yes
 	}
 }
-
-
 
 74030 = {
 	name = "Dariush"
@@ -2463,7 +2466,6 @@ saffarid_06 = {
 		death = "208.1.1"
 	}
 }
-
 180603 = {
 	name = "Raidashir"
 	dynasty = 1029100
@@ -2948,7 +2950,7 @@ saffarid_06 = {
 	# possible wife of Husayn ibn Ali
 	female = yes
 	dynasty = 1029100
-	religion = "mazdayasna"
+	religion = alb_islam
 	culture = "persian"
 	father = 180637
 	trait = beauty_good_3
@@ -5510,7 +5512,7 @@ hunas_5 = {
 	}
 }
 1000230502 = {
-	name = "Othman" # son of Nezam al-Molk or Nizam al-Mulk
+	name = "Othman" # AKA: Shams al-Mulk, son of Nizam al-Mulk
 	dynasty = persian_tusi
 	religion = ashari
 	culture = "persian"
@@ -5670,7 +5672,7 @@ extra_persians_1 = { #Abi’l-ʿAbbās Ṭusi - circumstancially attested
 } 
 
 extra_persians_2 = { #Moḥammad b. Abi’l-ʿAbbās Ṭusi - attested courtier of caliph al-Ma'mun, married a Tahirid woman 
-	name = "Mohammad"
+	name = "Muhammad"
 	dynasty = 100666
 	religion = "ashari"
 	culture = "persian"
@@ -5923,6 +5925,12 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 	971.11.2 = {
 		birth = "971.11.2"
 	}
+	994.1.1 = {
+		give_nickname = nick_saif_ad_dawla_ghaznavid
+	}
+	999.1.1 = {
+		give_nickname = nick_yamin_ad_dawla # Im not sure if he used this title before or after he got his 'Saif ad-Dawlah' nickname.
+	}
 	1020.1.1 = {
 		culture = persian 
 	}
@@ -5945,6 +5953,7 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 	}
 	1030.1.1 = {
 		add_trait = blind
+		give_nickname = nick_jalal_ud_dawla
 	}
 	1041.3.19 = {
 		death = {
@@ -5966,6 +5975,9 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 	998.1.1 = {
 		birth = "998.1.1"
 	}
+	1030.1.1 = {
+		give_nickname = nick_shihab_ud_dawla
+	}
 	1040.1.17 = {
 		give_nickname = nick_the_martyr_king
 	}
@@ -5985,6 +5997,9 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 	father = 144127
 	1011.1.1 = {
 		birth = "1011.1.1"
+	}
+	1041.1.1 = {
+		give_nickname = nick_shihab_ud_dawla
 	}
 	1050.1.1 = {
 		death = "1050.1.1"
@@ -6014,6 +6029,9 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 	1012.1.1 = {
 		birth = "1012.1.1"
 	}
+	1048.1.1 = {
+		give_nickname = nick_baha_ad_dawla
+	}
 	1050.9.1 = {
 		death = "1050.9.1"
 	}
@@ -6027,6 +6045,9 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 	father = 144125
 	992.1.1 = {
 		birth = "992.1.1"
+	}
+	1049.1.1 = {
+		give_nickname = nick_izz_ad_dawla
 	}
 	1053.1.1 = {
 		death = {
@@ -6044,6 +6065,9 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 	1012.1.1 = {
 		birth = "1012.1.1"
 	}
+	1053.1.1 = {
+		give_nickname = nick_jamal_ad_dawla
+	}
 	1059.4.4 = {
 		death = {
 			death_reason = death_stress
@@ -6054,6 +6078,7 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 144133 = {
 	name = "Ibrahim"
 	dynasty = 790
+	dna = "ruler_designer_3247957886"
 	religion = "maturidi"
 	culture = "persian"
 	father = 144127
@@ -6119,6 +6144,9 @@ extra_persians_10 = { #pre-1066 son of Nizam al-Mulk
 	father = 144133
 	1052.1.1 = {
 		birth = "1052.1.1"
+	}
+	1099.1.1 = {
+		give_nickname = nick_ala_ad_dawla
 	}
 	1115.1.1 = {
 		death = "1115.1.1"
@@ -7021,3 +7049,14 @@ zartosht_4 = {
 		death = yes
 	}
 }
+
+
+
+
+
+
+
+
+
+
+

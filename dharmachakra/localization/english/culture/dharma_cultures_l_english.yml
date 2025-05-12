@@ -231,7 +231,18 @@
  kodava_collective_noun:0 "Kodavas"
  kodava_prefix:0 "Kodava"
 
+# Arabic Cultures
+ siqilli:0 "Siqilli"
+ siqilli_name:0 "Siqilli"
+ siqilli_collective_noun:0 "Siqillis"
+ siqilli_prefix:0 "Siqillo"
 
+ hadhrami:0 "Hadrami"
+ hadhrami_prefix:0 "Hadramo"
+ hadhrami_collective_noun:0 "Hadharem"
 
+ south_arabian:0 "Mahri"
+ south_arabian_prefix:0 "Mahro"
+ south_arabian_collective_noun:0 "Mahris"
  
 

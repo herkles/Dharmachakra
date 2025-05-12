@@ -1,0 +1,132 @@
+﻿#############################################
+# CHARACTER NICKNAMES: MUSLIM ENHANCEMENTS
+#############################################
+
+# Exclusively Historical Muslim Nicknames
+
+##Arabic Kunya
+nick_abu_jafar = {}
+nick_abu_jafar_pre = {is_prefix = yes}
+nick_abut_tami = {is_prefix = yes}
+
+##Decision Nicknames
+nick_saqr_al_andalus = {}
+nick_falcon_of_al_andalus = {}
+
+##Miscellaneous Nicknames
+nick_ibn_abihi = {} # ancestor of the Ziyadid Umayyad
+nick_sharaf_ud_dawla = {is_prefix = yes} # Uqaylids
+nick_al_ahwal = {} # Najahids
+nick_al_ghaliz = {} # Emirate of Krete
+nick_al_aqta = {} # Umar al-Aqta'
+nick_kaysan = {} # al-Mukhtar 'Kaysan' al-Thaqafi
+nick_al_hasna = {}
+
+##Regal Names
+nick_yamin_ad_dawla = {}
+nick_zahir_ad_dawla = {}
+nick_ala_ad_dawla = {}
+nick_rashid_ud_dawla = {}
+nick_jalal_ud_dawla = {}
+nick_shihab_ud_dawla = {}
+nick_baha_ad_dawla = {}
+nick_izz_ad_dawla = {}
+nick_qiwam_ad_dawla = {}
+nick_jamal_ad_dawla = {}
+nick_al_mustazhir_billah = {}
+
+##Hashimids
+nick_me_ibn_al_hanafiyyah = {}
+nick_me_al_muthanna = {}
+nick_al_kamil = {}
+nick_me_al_ukhaydir = {}
+nick_me_as_saffak = {}
+nick_me_al_ukhaydir_as_saghir = {}
+
+##Andalusian Umayyads
+nick_ad_dakhil = {}
+nick_ar_ridha_umayyad = {}
+nick_ar_rabdhi = {}
+
+##Ghaznavids
+nick_nasir_ad_din_ghaznavid = {}
+nick_saif_ad_dawla_ghaznavid = {}
+
+##Mirdasids
+nick_asad_al_dawla_mirdasid = {}
+nick_shibl_al_dawla_mirdasid = {}
+
+##Sulayhids
+nick_al_mukarram = {}
+nick_al_hurrat_ul_malika = {is_prefix = yes}
+nick_malikat_saba = {is_prefix = yes}
+nick_sayidda_al_hurra = {is_prefix = yes}
+
+##Qarmatians
+nick_isfahanist_mahdi = {}
+
+##Rassids
+nick_hadi_lil_haqq = {is_prefix = yes}
+nick_muhtasib_mujahid = {is_prefix = yes}
+
+##Ahl Quraysh
+nick_as_siddiq = {}
+nick_al_faruq = {}
+nick_dhu_nurayn = {}
+nick_az-zahra = {}
+nick_al_ashath = {}
+
+##Shia imams
+nick_me_al_mahdi = {}
+
+##Ibadi imams
+nick_dhu_thafinat = {}
+
+##Barghawata 
+nick_salih_barghawata = {}
+
+##Ifrinids
+nick_sahib_al_himar = {}
+nick_al_habashi_al_aswad = {}
+nick_al_ama = {}
+
+##Sijimasa
+nick_al_aswad = {}
+nick_al_wazir = {}
+nick_al_muntasir = {}
+nick_ar_rustamiya = {}
+nick_ibn_ar_rustamiya = {}
+nick_al_amir_sijilmasa = {}
+nick_al_mutazz = {}
+nick_shakir_lillah = {}
+nick_ibn_thakiyya = {}
+
+##Rustamids
+nick_al_farisi = {}
+
+## Sicily Emirs Other
+nick_me_ibn_qurhub = {}
+nick_me_ibn_khinzir = {}
+
+## Sicily Taifa Emirs
+nick_me_ibn_mankud = {}
+nick_me_ibn_al_hawwas = {}
+nick_me_ibn_ath_thumnah = {}
+nick_me_ibn_al_maklati = {}
+nick_me_ibn_abbad = {}
+nick_me_ibn_al_baba = {}
+
+## Kalbid Emirs
+nick_me_al_akhal = {}
+nick_me_as_samsam = {}
+
+## Bari Emirs
+nick_me_al_mawri = {}
+
+## Siqilli Poets
+nick_me_ibn_hamdis = {}
+nick_me_al_balnubi = {}
+
+# Exclusively Historical Hindu Nicknames
+nick_adivaraha = {is_prefix = yes}
+nick_mihiradeva = {}

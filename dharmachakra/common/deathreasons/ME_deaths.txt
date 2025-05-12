@@ -1,0 +1,25 @@
+﻿death_karbala = {
+	icon = "martyrdom_karbala.dds"
+}
+
+death_mahdi = {
+	icon = "death_mahdi.dds"
+}
+
+imam_hide = {
+	icon = "death_unknown.dds"
+}
+
+death_isa_sijilmasa = {
+	icon = "death_murder.dds"
+}
+
+death_sahib_alhimar = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}
+
+death_me_balcony = {
+	public_knowledge = yes
+	icon = "death_murder.dds"
+}

@@ -1,0 +1,109 @@
+﻿
+### Fictional Umayyads for later start dates (Removable via game rule) ###
+me_umayyad_fic_001 = { # andalusian0065
+	name = "Ahmad" # Fictional, taken from previous versions
+	dynasty = 597 # Umayyad Dynasty
+	religion = ashari
+	culture = andalusian
+	trait = quraysh
+
+	father = andalusian0064 # Muhammad ibn Muhammad (Fictional)
+
+	1024.1.1 = {
+		birth = yes
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyad_fic_002 = { # andalusian0066
+	name = "Abd-al-Aziz" # Fictional, taken from previous versions
+	dynasty = 597 # Umayyad Dynasty
+	religion = ashari
+	culture = andalusian
+	trait = quraysh
+
+	father = me_umayyad_fic_001
+
+	1042.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+} 
+
+me_umayyad_fic_003 = {
+	name = "Marwan"
+	dynasty = 597 # Umayyad Dynasty
+	religion = ashari
+	culture = andalusian
+	trait = quraysh
+
+	father = me_umayyad_fic_002
+
+	1072.1.1 = {
+		birth = yes
+	}
+	1132.1.1 = {
+		death = yes
+	}
+} 
+
+me_umayyad_fic_004 = {
+	name = "Hamdan"
+	dynasty = 597 # Umayyad Dynasty
+	religion = ashari
+	culture = andalusian
+	trait = quraysh
+
+	father = me_umayyad_fic_003
+
+	1102.1.1 = {
+		birth = yes
+	}
+	1162.1.1 = {
+		death = yes
+	}
+} 
+
+me_umayyad_fic_005 = {
+	name = "Abd-al-Rahman"
+	dynasty = 597 # Umayyad Dynasty
+	religion = ashari
+	culture = andalusian
+	trait = quraysh
+
+	father = me_umayyad_fic_004
+
+	1135.1.1 = {
+		birth = yes
+		effect = {
+			learn_language_of_culture = culture:butr
+		}
+	}
+	1192.1.1 = {
+		death = yes
+	}
+} 
+
+me_umayyad_fic_006 = {
+	name = "Umar"
+	dynasty = 597 # Umayyad Dynasty
+	religion = ashari
+	culture = andalusian
+	trait = quraysh
+
+	father = me_umayyad_fic_005
+
+	1160.1.1 = {
+		birth = yes
+		effect = {
+			learn_language_of_culture = culture:butr
+		}
+	}
+	1222.1.1 = {
+		death = yes
+	}
+} 

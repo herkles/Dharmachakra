@@ -794,10 +794,7 @@ sayyid = {
 		parameter = sayyid_bonus_increased
 		opinion_modifier = sayyid_opinion_increased
 	}
-	triggered_opinion = { # For Ghulat
-		parameter = sayyid_bonus_increased_greatly
-		opinion_modifier = sayyid_opinion_increased_greatly
-	}
+
 
 	# General Bonus
 	flag = initial_legitimacy_boost
@@ -805,10 +802,6 @@ sayyid = {
 	faith_modifier = {# for those that just like Sayyidis
 		parameter = sayyid_bonus_increased
 		monthly_piety = 0.5
-	}
-	faith_modifier = {# For those that love Sayyidis
-		parameter = sayyid_bonus_increased_greatly
-		monthly_piety = 1
 	}
 	faith_modifier = { # Only Muslims get bonuses
 		parameter = islamic_trait_effects_active

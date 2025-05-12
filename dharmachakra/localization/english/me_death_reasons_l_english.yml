@@ -1,0 +1,20 @@
+﻿l_english:
+
+#Shia
+death_karbala:0 "was martyred in the Battle of Karbala"
+death_mahdi:0 "According to $imami$, the Mahdi is is still alive and will emerge again shortly before the day of judgement to bring peace and justice to the world.\n\nHe went into hiding, fearing persecution,"
+imam_hide:0 "Went into hiding, fearing persecution,"
+
+#Sijilmasa
+death_isa_sijilmasa:0 "Tied to a tree and left to die"
+
+#Ifrinids
+death_sahib_alhimar:0 "died of his wounds after being captured, and would later have his body salted, stuffed, and paraded in public by Caliph al-Mansur"
+death_sahib_alhimar_killer:0 "died of his wounds after being captured, and would later have his body salted, stuffed, and paraded in public by [TARGET_CHARACTER.GetUIName]"
+death_me_balcony:0 "fell to [CHARACTER.GetHerHis] death while attempting to escape an attempt on his life"
+death_me_balcony_killer:0 "fell to [CHARACTER.GetHerHis] death while attempting to escape an attempt on his life by [TARGET_CHARACTER.GetUIName]"
+
+#Barghwata
+death_salih_baraghawata:0 "disappeared without a trace, after promising to return as the Great Mahdi at the reign of the seventh Barghwata ruler"
+
+

@@ -1,0 +1,58 @@
+﻿########
+##The above section is for related characters essential for the family tree ^
+########
+
+najahid001 = { # 
+	name = "al-Mu'ayyad"
+	dynasty = me_najahid
+	culture = "ethiopian"
+	religion = "ashari"
+
+	991.3.1 = {
+		birth = 991.3.1
+	}
+	1072.6.21 = {
+		death = 1072.6.21
+	}
+}
+
+najahid002 = { # 
+	name = "Sa'id"
+	give_nickname = nick_al_ahwal
+	dynasty = me_najahid
+	culture = "ethiopian"
+	religion = "ashari"
+
+	trait = education_martial_4
+	martial = 15
+	prowess = 18
+	
+	father = najahid001
+
+	1020.12.14 = {
+		birth = 1020.12.14
+	}
+	1066.8.15 = {
+		# set_primary_title_to = c_zabid
+	}
+	1081.11.5 = {
+		death = 1081.11.5
+	}
+}
+
+najahid003 = { # 
+	name = "Jayyash"
+	give_nickname = nick_abut_tami
+	dynasty = me_najahid
+	culture = "ethiopian"
+	religion = "ashari"
+	
+	father = najahid001
+
+	1022.9.24 = {
+		birth = 1022.9.24
+	}
+	1081.11.5 = {
+		death = 1081.11.5
+	}
+}

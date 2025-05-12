@@ -1,0 +1,74 @@
+﻿### Qurashi houses ###
+house_me_banu_hashim = {
+	name = "dynn_me_banu_hashim" # al-Hashimi
+	dynasty = 7296 # al-Qurashī
+	forced_coa_religiongroup = "muslim"
+}
+
+house_me_banu_adi = {
+	name = "dynn_me_banu_adi" # al-Adawi
+	dynasty = 7296 # al-Qurashī
+	forced_coa_religiongroup = "muslim"
+}
+
+house_me_banu_taym = {
+	name = "dynn_me_banu_taym" # at-Taymī
+	dynasty = 7296 # al-Qurashī
+	forced_coa_religiongroup = "muslim"
+}
+
+house_me_banu_abd_shams = {
+	name = "dynn_me_banu_abd_shams" # al-'Abshamī
+	dynasty = 7296 # al-Qurashī
+	forced_coa_religiongroup = "muslim"
+}
+
+### Umayyad Houses ###
+house_me_ziyadid = { # dynasty was known as (1042165)
+	name = "dynn_Ziyadid" # Ziyadid
+	dynasty = 597 # Umayyads
+}
+
+### Maghrawa Houses ###
+house_me_khazarids = {
+	name = "dynn_me_khazarids"
+	dynasty = 1027001 # Maghrawid dynasty
+}
+
+house_me_khazrunids = {
+	name = "dynn_me_khazrunids"
+	dynasty = 1027001 # Maghrawid dynasty
+}
+
+house_me_atiyyids = {
+	name = "dynn_me_atiyyids"
+	dynasty = 1027001 # Maghrawid dynasty
+}
+
+### Abd al-Qays Tribe ###
+house_me_banu_zajjaj = { # az-Zajjaj, Rulers of Uwal (Modern day Bahrain)
+	name = "dynn_me_banu_zajjaj"
+	dynasty = 1042121 # Banu Abd al-Qays
+}
+
+house_me_jadhmi = { # al-Jadhmi, 1066 Ruling House of Qatif
+	name = "dynn_me_jadhmi"
+	dynasty = 1042121 # Banu Abd al-Qays
+}
+
+house_me_uyunids = { # al-Uyuni, The Uyunid Dynasty
+	name = "dynn_me_uyunids"
+	dynasty = 1042121 # Banu Abd al-Qays
+}
+
+##
+
+house_sistan_nasrids = {
+	name = "dynn_Nasrid"
+	dynasty = 812 #saffarids
+}
+
+me_removed_house = { # For fictional extentions of dynasties to be placed in when they are removed
+	name = "dynn_me_removed"
+	dynasty = me_removed_dynasty
+}

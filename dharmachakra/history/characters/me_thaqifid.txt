@@ -1,0 +1,483 @@
+﻿sufyani003 = { # Amina bint Abu Sufyan
+	name = "Amina" 
+	female = yes
+	dynasty = 597
+	culture = "bedouin"
+	religion = "ashari" #Placeholder
+	father = 163028
+	595.3.21 = {
+		birth = 595.3.21
+	}
+	609.1.6 = {
+		add_spouse = thaqifid997
+	}
+	663.12.1 = { 
+		death = 680.12.1
+	}
+}
+########
+##The above section is for non-thaqifid characters essential for the family tree ^
+########
+thaqifold7= { #Real Character
+	name = "Thaqif"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	330.12.5 = {
+		birth = 330.12.5
+	}
+	395.2.28 = {
+		death = 395.2.28
+	}
+}
+thaqifold6= { # Awf ibn Thaqif
+	name = "Awf" 
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifold7
+	361.5.7 = {
+		birth = 361.5.7
+	}
+	401.12.2 = {
+		death = 401.12.2
+	}
+}
+thaqifold5= { # Ghayra ibn Awf
+	name = "Ghayra" 
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifold6
+	389.3.14 = {
+		birth = 389.3.14
+	}
+	444.3.26 = {
+		death = 444.3.26
+	}
+}
+thaqifold4= { # Uqda ibn Ghayra
+	name = "Uqda" 
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifold5
+	411.6.20 = {
+		birth = 411.6.20
+	}
+	482.1.4 = {
+		death = 482.1.4
+	}
+}
+thaqifold3= { # Awf ibn Uqda
+	name = "Awf"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifold4
+	447.12.19 = {
+		birth = 447.12.19
+	}
+	506.7.1 = {
+		death = 506.7.1
+	}
+}
+thaqifold2= { # Umayr ibn Awf
+	name = "Umayr"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifold3
+	482.12.31 = {
+		birth = 482.12.31
+	}
+	531.5.12 = {
+		death = 531.5.12
+	}
+}
+thaqifold1= { # Amr ibn Umayr
+	name = "Amr"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifold2
+	511.7.27 = {
+		birth = 511.7.27
+	}
+	574.1.14 = {
+		death = 574.1.14
+	}
+}
+thaqifid999 = { # Masud ibn Amr
+	name = "Masud"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifold1
+	542.5.11 = {
+		birth = 542.5.11
+	}
+	615.2.5 = {
+		death = 615.2.5
+	}
+}
+thaqifid998 = { # Barza bint Masud
+	name = "Barza"
+	dynasty = me_banu_thaqif
+	female = yes
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid999
+	#Her husband was an Umayyad
+	569.4.26 = {
+		birth = 569.4.26
+	}
+	613.7.4 = {
+		death = 613.7.4
+	}
+}
+thaqifid997 = { # Urwah ibn Masud
+	name = "Urwah"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid999
+	573.1.6 = {
+		birth = 573.1.6
+	}
+	609.1.6 = {
+		add_spouse = sufyani003
+	}
+	630.1.28 = {
+		death = 630.1.28 #Died in 630 for sure.
+	}
+}
+thaqifid996 = { # Dawud ibn Urwah
+	name = "Dawud"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid997
+	611.8.12 = {
+		birth = 611.8.12
+	}
+	636.3.12 = {
+		add_spouse = asadid027
+	}
+	667.6.12 = {
+		death = 667.6.12
+	}
+}
+thaqifid995 = { # Abu Amir ibn Masud
+	name = "Abu Amir"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifid999
+	564.12.17 = {
+		birth = 574.12.17
+	}
+	619.11.6 = {
+		death = 629.11.6
+	}
+}
+thaqifid994 = { # Shuba ibn Abu Amir
+	name = "Shuba"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "pagan"
+	father = thaqifid995
+	579.5.7 = {
+		birth = 579.5.7
+	}
+	633.4.12 = {
+		death = 662.5.13
+	}
+}
+thaqifid993 = { # al-Mughira ibn Shuba, Rashidun governor of Kufa under Umar.
+	name = "al-Mughira"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid994
+	601.2.28 = {
+		birth = 601.2.28 #Born in 601 for sure.
+	}
+	671.8.11 = {
+		death = 671.8.11 #Died between 668 and 671 of the plague. 
+	}
+}
+thaqifid992 = { # al-Mutarrif ibn al-Mughira, Deputy governor of al-Mada'in
+	name = "al-Mutarrif"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid993
+	632.9.24 = {
+		birth = 632.9.24
+	}
+	698.3.18 = {
+		death = 698.3.18
+	}
+}
+thaqifid991 = { # Urwa ibn al-Mughira, Deputy governor of Kufa
+	name = "Urwa"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid993
+	634.12.15 = {
+		birth = 634.12.15
+	}
+	703.4.17 = {
+		death = 703.4.17
+	}
+}
+thaqifid990 = { # Hamza ibn al-Mughira, Deputy governor of Hamadan
+	name = "Hamza"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid993
+	636.1.3 = {
+		birth = 636.1.3
+	}
+	710.6.6 = {
+		death = 710.6.6
+	}
+}
+thaqifid989 = { #Fake Character, to get the Thaqifids into the game. 
+	name = "Shuja"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid990
+	672.6.9 = {
+		birth = 672.6.9
+	}
+	744.11.14 = {
+		death = 744.11.14
+	}
+}
+thaqifid988 = { #Fake Character, to get the Thaqifids into the game. 
+	name = "Nabil"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid989
+	719.4.2 = {
+		birth = 719.4.2
+	}
+	799.4.1 = { #The ultimate april fools prank...
+		death = 799.4.1
+	}
+}
+thaqifid987 = { #Fake Character, to get the Thaqifids into the game. 
+	name = "Shahid"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid988
+	757.7.2 = {
+		birth = 757.7.2
+	}
+	824.5.9 = { 
+		death = 824.5.9
+	}
+}
+thaqifid986 = { #Fake Character, to get the Thaqifids into the game. 
+	name = "Uwais"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid987
+	786.3.25 = {
+		birth = 786.3.25
+	}
+	841.3.12 = { 
+		death = 841.3.12
+	}
+}
+thaqifid985 = { #Fake Character, to get the Thaqifids into the game. 
+	name = "Abdullah"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid986
+	810.9.25 = {
+		birth = 810.9.25
+	}
+	874.11.9 = { 
+		death = 874.11.9
+	}
+}
+thaqifid984 = { #Fake Character, to get the Thaqifids into the game. 
+	name = "Sahir"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid985
+	850.3.3 = {
+		birth = 850.3.3
+	}
+	921.6.14 = { 
+		death = 921.6.14
+	}
+}
+thaqifid983 = { # Abu Ubayd ibn Masud
+	name = "Abu Ubayd"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid999
+	568.2.6 = {
+		birth = 568.2.6
+	}
+	588.4.12 = {
+		add_spouse = thaqifid981
+	}
+	634.10.11 = { #Died for sure in October 634
+		death = 634.10.11
+	}
+}
+thaqifid982 = { # al-Mukhtar 'Kaysan' al-Thaqafi, whom the Kaysanites are named after
+	name = "al-Mukhtar"
+	dynasty = me_banu_thaqif
+	give_nickname = nick_kaysan # Intelligent and Incisive
+	culture = "bedouin"
+	religion = alb_islam_shia
+
+	father = thaqifid983
+	623.6.12 = {
+		birth = yes
+	}
+	687.3.8 = {
+		death = {
+			death_reason = death_battle
+			#killer = 000 # Mus'ab ibn al-Zubayr
+		}
+	}
+}
+thaqifid981 = { # Dawma bint Amr
+	name = "Dawma"
+	dynasty = me_banu_thaqif
+	give_nickname = nick_al_hasna # The Beautiful
+	female = yes
+	culture = "bedouin"
+	religion = alb_islam_shia
+	trait = beauty_good_3
+
+	father = thaqifid980
+	574.12.4 = {
+		birth = 574.12.4
+	}
+	588.4.12 = {
+		add_spouse = thaqifid983
+	}
+	639.4.5 = { 
+		death = 639.4.5
+	}
+}
+thaqifid980 = { # Amr ibn Wahb
+	name = "Amr"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid979
+	525.7.18 = {
+		birth = 525.7.18
+	}
+	596.2.17 = { 
+		death = 596.2.17
+	}
+}
+thaqifid979 = { # Wahb ibn Mut'ab
+	name = "Wahb"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid978
+	498.9.24 = {
+		birth = 498.9.24
+	}
+	549.12.12 = { 
+		death = 549.12.12
+	}
+}
+thaqifid978 = { # Mut'ab ibn Wahb
+	name = "Mut'ab"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid977
+	465.3.5 = {
+		birth = 465.3.5
+	}
+	527.11.9 = { 
+		death = 527.11.9
+	}
+}
+thaqifid977 = { # Wahb ibn Ka'b
+	name = "Wahb"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	father = thaqifid976
+	432.1.19 = {
+		birth = 432.1.19
+	}
+	495.5.20 = { 
+		death = 495.5.20
+	}
+}
+thaqifid976 = { #Real Character
+	name = "Ka'b"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "ashari"
+	400.5.23 = {
+		birth = 400.5.23
+	}
+	468.5.26 = { 
+		death = 468.5.26
+	}
+}
+thaqifid975 = { # Abu al-Jabr ibn Abu Ubayd
+	name = "Abu al-Jabr"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "imami"
+	father = thaqifid983
+	624.3.9 = {
+		birth = 624.3.9
+	}
+	691.12.8 = { 
+		death = 691.12.8
+	}
+}
+thaqifid974 = { # Abu Hakam ibn Abu Ubayd
+	name = "Abu Hakam"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "imami"
+	father = thaqifid983
+	619.1.12 = {
+		birth = 619.1.12
+	}
+	662.3.5 = { 
+		death = 662.3.5
+	}
+}
+thaqifid973 = { # Abu Umayya ibn Abu Ubayd
+	name = "Abu Umayya"
+	dynasty = me_banu_thaqif
+	culture = "bedouin"
+	religion = "imami"
+	father = thaqifid983
+	628.12.7 = {
+		birth = 628.12.7 
+	}
+	682.4.22 = { 
+		death = 682.4.22
+	}
+}

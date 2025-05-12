@@ -121,6 +121,7 @@
 # Islamic Traits
 #######################################
   muslim_lineage:0 "Islamic Lineage"
+  trait_muslim_lineage:0 "Islamic Lineage"
 
   trait_qurashi:0 "Qurashi"
   trait_qurashiyya:0 "Qurashiyya"

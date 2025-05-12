@@ -1,0 +1,24 @@
+﻿## Hashimid dynasty, changed to become the Quraysh dynasty
+7296 = {
+	name = "dynn_me_qurashi" # al-Qurashī
+	culture = "bedouin"
+	forced_coa_religiongroup = "muslim"
+}
+
+## The Andalusian Banū 'Abbād
+594 = {
+	name = "dynn_me_Banu_Abbad"
+	culture = "andalusian"
+}
+
+## Ibn Abbad dynasty
+12237 = {
+	name = "dynn_me_al_Abbadi"
+	culture = "siqilli"
+}
+
+## Banu Abd al-Qays
+1042121 = {
+	name = "dynn_me_Abd_al-Qays"
+	culture = "bedouin"
+}

@@ -1,0 +1,574 @@
+﻿@smCastleX = 0.27
+@smCastleY = 0.23
+@smLysX = 0.23
+@smLysY = 0.26
+@smCross = 0.22
+
+d_imami = {
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "black"		
+	colored_emblem = {
+		texture = "ce_arabic_shahada.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.46 } scale = { 1.1 1.1 }  }
+	}
+}
+
+#d_zaydi = {
+#	pattern = "pattern_solid.dds"
+#	color1 = "white"
+#	color2 = "white"		
+#	colored_emblem = {
+#		texture = "ce_arabic_nazrid.dds"
+#		color1 = "black"
+#		color2 = "black"
+#		instance = { position = { 0.5 0.46 } scale = { 1.1 1.1 }  }
+#	}
+#}
+
+d_ibadi = {
+	pattern = "pattern_solid.dds"
+	color1 = "orange"
+	color2 = "orange"		
+	colored_emblem = {
+		texture = "ce_arabic_allah.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.46 } scale = { 1 1 }  }
+	}
+}
+
+d_wahbiya = {
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 34 90 64 }
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=white
+		texture="ce_arabic_allah.dds"
+		instance={
+			position={ 0.500000 0.490000 }
+			scale={ 0.940000 0.940000 }
+		}
+
+	}
+
+}
+
+d_nukkari = {
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 146 47 33 }
+	color2=rgb { 149 47 33 }
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_octogon_plain_frame.dds"
+		instance={ scale={ 0.840000 0.840000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=red
+		texture="ce_arabic_allah.dds"
+		instance={ position={ 0.500000 0.520000 } scale={ 0.660000 0.660000 } }
+	}
+}
+
+
+
+d_barghawata = {
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 26 117 74 }
+	color2=black
+	color3=green
+	colored_emblem={
+		color1=black
+		color2=rgb { 43 164 107 }
+		texture="ce_octogon_plain_frame.dds"
+		instance={ scale={ 0.860000 0.860000 } depth=3.010000 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_block_04.dds"
+		instance={ scale={ 1.000000 0.520000 } rotation=90 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_tamgha_turkic_01.dds"
+		instance={ position={ 0.500000 0.350000 } scale={ 0.680000 0.680000 } depth=1.010000 }
+		instance={ position={ 0.500000 0.650000 } scale={ 0.660000 -0.660000 } depth=2.010000 }
+	}
+}
+
+## Islamic Sicily COAs ##
+
+## Kingdoms
+k_sicily_islamic = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	colored_emblem={
+		color1=white
+		texture="ce_border_circle.dds"
+		instance={ depth=1.010000 }
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=green
+		texture="ce_eagle_islamic_double.dds"
+		instance={ scale={ 0.900000 0.900000 } }
+	}
+}
+
+
+## Duchies
+d_sicily_islamic = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=green
+		texture="ce_eagle_islamic.dds"
+		instance={ position={ 0.500000 0.470000 } scale={ 0.950000 0.950000 } }
+	}
+}
+
+d_calabria_islamic = {
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=green
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=yellow
+		texture="ce_polylobe_frame.dds"
+		instance={ scale={ 0.600000 0.600000 } }
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_arabic_allah_kufic.dds"
+		instance={ scale={ 0.645000 0.645000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=white
+		color2=yellow
+		texture="ce_polylobe_circle_frame.dds"
+		instance={ scale={ 0.700000 0.700000 } depth=2.010000 }
+	}
+}
+
+d_apulia_islamic = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=green
+		texture="ce_doted_roundel_frame.dds"
+		instance={ scale={ 0.750000 -0.750000 } depth=2.010000 rotation=240 }
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_crescent.dds"
+		instance={ position={ 0.500000 0.800000 } scale={ 0.200000 0.200000 } depth=11.010000 }
+	}
+	colored_emblem={
+		color1=green
+		color2=green
+		texture="ce_sabre.dds"
+		instance={ scale={ -0.650000 -0.650000 } rotation=135 }
+		instance={ scale={ 0.650000 -0.650000 } depth=1.010000 rotation=225 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_crescent.dds"
+		instance={ position={ 1.000000 1.000000 } scale={ 0.200000 0.200000 } depth=3.010000 }
+		instance={ position={ 0.800000 1.000000 } scale={ 0.200000 0.200000 } depth=4.010000 }
+		instance={ position={ 0.600000 1.000000 } scale={ 0.200000 0.200000 } depth=5.010000 }
+		instance={ position={ 0.400000 1.000000 } scale={ 0.200000 0.200000 } depth=6.010000 }
+		instance={ position={ 0.200000 1.000000 } scale={ 0.200000 0.200000 } depth=7.010000 }
+		instance={ position={ 0.000000 1.000000 } scale={ 0.200000 0.200000 } depth=8.010000 }
+		instance={ position={ 0.900000 0.800000 } scale={ 0.200000 0.200000 } depth=9.010000 }
+		instance={ position={ 0.700000 0.800000 } scale={ 0.200000 0.200000 } depth=10.010000 }
+		instance={ position={ 0.300000 0.800000 } scale={ 0.200000 0.200000 } depth=12.010000 }
+		instance={ position={ 0.100000 0.800000 } scale={ 0.200000 0.200000 } depth=13.010000 }
+		instance={ position={ 1.000000 0.600000 } scale={ 0.200000 0.200000 } depth=14.010000 }
+		instance={ position={ 0.800000 0.600000 } scale={ 0.200000 0.200000 } depth=15.010000 }
+		instance={ position={ 0.600000 0.600000 } scale={ 0.200000 0.200000 } depth=16.010000 }
+		instance={ position={ 0.400000 0.600000 } scale={ 0.200000 0.200000 } depth=17.010000 }
+		instance={ position={ 0.200000 0.600000 } scale={ 0.200000 0.200000 } depth=18.010000 }
+		instance={ position={ 0.000000 0.600000 } scale={ 0.200000 0.200000 } depth=19.010000 }
+		instance={ position={ 0.900000 0.400000 } scale={ 0.200000 0.200000 } depth=20.010000 }
+		instance={ position={ 0.700000 0.400000 } scale={ 0.200000 0.200000 } depth=21.010000 }
+		instance={ position={ 0.500000 0.400000 } scale={ 0.200000 0.200000 } depth=22.010000 }
+		instance={ position={ 0.300000 0.400000 } scale={ 0.200000 0.200000 } depth=23.010000 }
+		instance={ position={ 0.100000 0.400000 } scale={ 0.200000 0.200000 } depth=24.010000 }
+		instance={ position={ 1.000000 0.200000 } scale={ 0.200000 0.200000 } depth=25.010000 }
+		instance={ position={ 0.800000 0.200000 } scale={ 0.200000 0.200000 } depth=26.010000 }
+		instance={ position={ 0.600000 0.200000 } scale={ 0.200000 0.200000 } depth=27.010000 }
+		instance={ position={ 0.400000 0.200000 } scale={ 0.200000 0.200000 } depth=28.010000 }
+		instance={ position={ 0.200000 0.200000 } scale={ 0.200000 0.200000 } depth=29.010000 }
+		instance={ position={ 0.000000 0.200000 } scale={ 0.200000 0.200000 } depth=30.010000 }
+		instance={ position={ 0.900000 0.000000 } scale={ 0.200000 0.200000 } depth=31.010000 }
+		instance={ position={ 0.700000 0.000000 } scale={ 0.200000 0.200000 } depth=32.010002 }
+		instance={ position={ 0.500000 0.000000 } scale={ 0.200000 0.200000 } depth=33.010002 }
+		instance={ position={ 0.300000 0.000000 } scale={ 0.200000 0.200000 } depth=34.010002 }
+		instance={ position={ 0.100000 0.000000 } scale={ 0.200000 0.200000 } depth=35.010002 }
+	}
+
+}
+
+d_capua_islamic = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=white
+	colored_emblem={
+		color1=red
+		color2=yellow
+		texture="ce_octogon_plain_frame.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.650000 0.650000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_tamgha_regular_circle_frame.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.750000 0.750000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_circle_mask.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.630000 0.630000 } depth=3.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_crescent_random.dds"
+		instance={ position={ 0.500000 0.490000 } scale={ 0.520000 0.520000 } }
+	}
+}
+
+##Counties
+###Sicily
+c_palermo_islamic = {
+	pattern="pattern_horizontal_split_02.dds"
+	color1=green
+	color2=white
+	colored_emblem={
+		color1=green
+		color3=rgb { 168 117 41 }
+		texture="ce_arabic_nazrid.dds"
+		instance={ position={ 0.500000 0.180000 } scale={ 0.666000 0.666000 } }
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=green
+		texture="ce_eagle_islamic.dds"
+		instance={ position={ 0.500000 0.630000 } scale={ 0.730000 0.730000 } depth=1.010000 }
+	}
+}
+
+c_agrigento_islamic = {
+	pattern="pattern__solid_designer.dds"
+	color1=green
+	color2=black
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_arabic_allah_kufic.dds"
+		instance={ position={ 0.500000 0.330000 } scale={ 0.520000 0.520000 } }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_octogon_plain_frame.dds"
+		instance={ position={ 0.500000 0.320000 } scale={ 0.510000 0.510000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_sabre.dds"
+		instance={ position={ 0.500000 0.705000 } scale={ 0.700000 0.700000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_block_03.dds"
+		instance={ position={ 0.500000 0.705000 } scale={ 1.000000 0.820000 } depth=3.010000 }
+	}
+}
+
+c_messina_islamic = {
+	pattern="pattern_vertical_stripes_02.dds"
+	color1=green
+	color2=yellow
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_zulfiqar.dds"
+		instance={ scale={ 0.700000 0.700000 } depth=2.010000 rotation=270 }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_sabre.dds"
+		instance={ position={ 0.250000 0.470000 } scale={ 0.750000 -0.750000 } rotation=270 }
+		instance={ position={ 0.750000 0.470000 } scale={ 0.750000 0.750000 } depth=1.010000 rotation=270 }
+	}
+}
+
+c_malta_islamic = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=green
+	colored_emblem={
+		color1=white
+		color2=black
+		texture="ce_octogon_frame.dds"
+		instance={ scale={ 0.760000 0.760000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_arabic_allah_kufic.dds"
+		instance={ scale={ 0.660000 0.660000 } }
+	}
+	colored_emblem={
+		color1=green
+		texture="ce_circle_mask.dds"
+		instance={ scale={ 0.790000 0.790000 } depth=2.010000 }
+	}
+}
+
+c_siracusa_islamic = { # exactly the same as vanilla
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "yellow"
+		color2 = "green"
+		instance = { position = { 0.5 0.45 } scale = { 0.9 0.9 }	}
+	}
+}
+
+###Calabria
+c_reggio_calabria_islamic = {
+	pattern="pattern_horizontal_split_02.dds"
+	color1=green
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_block_01.dds"
+		instance={ position={ 0.500000 0.070000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=white
+		color2=yellow
+		texture="ce_polylobe_plain_frame.dds"
+		instance={ position={ 0.500000 0.625000 } scale={ 0.600000 0.600000 } depth=4.010000 }
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_block_03.dds"
+		instance={ position={ 0.500000 0.170000 } scale={ 1.000000 0.750000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_arabic_allah_kufic.dds"
+		instance={ position={ 0.500000 0.620000 } scale={ 0.645000 0.645000 } depth=3.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_arabic_nazrid.dds"
+		instance={ position={ 0.500000 0.170000 } scale={ 0.760000 0.760000 } }
+	}
+}
+
+c_cosenza_islamic = {
+	pattern="pattern__solid_designer.dds"
+	color1=yellow
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=green
+		texture="ce_polylobe_frame.dds"
+		instance={ scale={ 0.600000 0.600000 } }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=green
+		texture="ce_polylobe_circle_frame.dds"
+		instance={ scale={ 0.700000 0.700000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_circle_mask.dds"
+		instance={ scale={ 0.750000 0.750000 } depth=3.010000 }
+	}
+	colored_emblem={
+		color1=green
+		color2=green
+		texture="ce_arabic_allah_kufic.dds"
+		instance={ scale={ 0.645000 0.645000 } depth=1.010000 }
+	}
+}
+
+c_rossano_islamic = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	colored_emblem={
+		color1=green
+		texture="ce_castle_random.dds"
+		instance={ position={ 0.500000 0.680000 } scale={ 0.670000 0.670000 } }
+	}
+	colored_emblem={
+		color1=green
+		color2=white
+		texture="ce_chief_indented.dds"
+		instance={ depth=1.010000 }
+	}
+}
+
+
+###Apulia
+c_bari_islamic = {
+	pattern="pattern_tricolor_bend_02.dds"
+	color1=green
+	color2=white
+	color3=green
+	colored_emblem={
+		color1=green
+		color2=white
+		texture="ce_octogon_plain_frame.dds"
+		instance={ scale={ 0.800000 0.800000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_sabre.dds"
+		instance={ scale={ 0.600000 0.600000 } rotation=-45 }
+	}
+}
+
+c_apulia_islamic = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_circle_mask.dds"
+		instance={ scale={ 0.750000 0.750000 } depth=3.010000 }
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_sabre.dds"
+		instance={ scale={ -0.650000 -0.650000 } rotation=135 }
+		instance={ scale={ 0.650000 -0.650000 } depth=1.010000 rotation=225 }
+	}
+	colored_emblem={
+		color1=green
+		color2=white
+		texture="ce_doted_roundel_frame.dds"
+		instance={ scale={ 0.750000 -0.750000 } depth=2.010000 rotation=240 }
+	}
+}
+
+
+c_lecce_islamic = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=green
+	colored_emblem={
+		color1=white
+		color2=green
+		texture="ce_vairy.dds"
+	}
+}
+
+###Capua
+c_capua_islamic = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_tamgha_regular_circle_frame.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.750000 0.750000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_star_05.dds"
+		instance={ position={ 0.500000 0.390000 } scale={ 0.550000 0.550000 } }
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_crescent_random.dds"
+		instance={ position={ 0.500000 0.540000 } scale={ 0.680000 0.680000 } depth=1.010000 }
+	}
+}
+
+##Baronies
+###Sicily
+b_catania_islamic = {
+	pattern="pattern_chief.dds"
+	color1=yellow
+	color2=white
+	color3=yellow
+	colored_emblem={
+		color1=black
+		color2=white
+		texture="ce_mena_chalice_khanja.dds"
+		instance={ position={ 0.500000 0.180000 } scale={ 0.555000 0.555000 } }
+	}
+	colored_emblem={
+		color1=black
+		color2=yellow
+		color3=white
+		texture="ce_elephant.dds"
+		instance={ position={ 0.500000 0.630000 } scale={ -0.700000 0.700000 } depth=1.010000 }
+	}
+}
+
+## Christian Sicily COAs ##
+
+b_catania={
+	pattern="pattern_solid.dds"
+	color1=blue_light
+	color2=yellow
+	color3=green
+	colored_emblem={
+		color1=rgb { 141 43 29 }
+		color2=rgb { 141 50 34 }
+		texture="ce_letter_a.dds"
+		instance={ position={ 0.500000 0.210000 } scale={ 0.500000 0.500000 } }
+	}
+	colored_emblem={
+		color1=rgb { 139 41 27 }
+		color2=rgb { 137 41 27 }
+		color3=white
+		texture="ce_elephant_02.dds"
+		instance={ position={ 0.500000 0.560000 } scale={ 0.755000 0.755000 } depth=1.010000 }
+	}
+}
+
+c_malta_catholic = {
+	pattern="pattern__solid_designer.dds"
+	color1=red
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_cross_05_maltese.dds"
+		instance={ scale={ 0.925000 0.925000 } }
+	}
+}

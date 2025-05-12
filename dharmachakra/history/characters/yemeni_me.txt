@@ -1,0 +1,201 @@
+﻿## Ziyadids - decendents of Ziyad ibn Abihi (more exist in yemeni.txt) [dynasty was known as (1042165)]
+me_ziyadid_001 = { # Ziyad 'Ibn Abihi', his true ancestery is disputed but he was acknowledged by Caliph Mu'awiya to be his half-brother
+	name = "Ziyad"
+	dynasty = 597 # Umayyad
+	give_nickname = nick_ibn_abihi # Ibn Abihi (The Son of his Father) 
+	religion = "ashari"
+	culture = "bedouin"
+	trait = disputed_heritage
+	trait = legitimized_bastard
+	trait = quraysh
+	
+	father = 163028 # Abu Sufyan ibn Harb Umayyad (Disputed) [exists in bedouin.txt]
+	mother = me_ziyadid_002
+	622.1.1 = {
+		birth = yes
+	}
+	673.1.1 = {
+		death = yes
+	}
+}
+
+me_ziyadid_002 = { 
+	name = "Sumayyah"
+	female = yes
+	religion = "ashari"
+	culture = "bedouin"
+	trait = adulterer
+	
+	592.1.1 = {
+		birth = yes
+	}
+	652.1.1 = {
+		death = yes
+	}
+}
+
+me_ziyadid_003 = {
+	name = "Ubayd-Allah" # Also known as Abdullah
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_001 # Ziyad ibn Abihi
+	651.1.1 = {
+		birth = yes
+	}
+	686.1.1 = {
+		death = {
+			death_reason = death_battle # Killed by Ibn al-Ashtar
+		}
+	}
+}
+
+me_ziyadid_004 = {
+	name = "Abd_ar-Rahman"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_001 # Ziyad ibn Abihi
+	653.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+
+me_ziyadid_005 = {
+	name = "Abbad"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_001 # Ziyad ibn Abihi
+	655.1.1 = {
+		birth = yes
+	}
+	718.1.1 = {
+		death = yes
+	}
+}
+
+me_ziyadid_006 = {
+	name = "Salim"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_001 # Ziyad ibn Abihi
+	645.1.1 = {
+		birth = yes
+	}
+	692.1.1 = {
+		death = yes
+	}
+}
+
+me_ziyadid_007 = {
+	name = "Muslim"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_001 # Ziyad ibn Abihi
+	646.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = {
+			death_reason = death_murder # Killed by Abdullah ibn Khazim while praying
+		}
+	}
+}
+
+me_ziyadid_008 = {
+	name = "Yazid"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_001 # Ziyad ibn Abihi
+	649.1.1 = {
+		birth = yes
+	}
+	684.1.1 = {
+		death = {
+			death_reason = death_battle # Killed in battle against the Turk Shahis of Kabul
+		}
+	}
+}
+
+me_ziyadid_009 = {
+	name = "Muharib"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_006 # Salim ibn Ziyad ibn Abihi
+	680.1.1 = {
+		birth = yes
+	}
+	735.1.1 = {
+		death = yes
+	}
+}
+
+me_ziyadid_010 = { # A Basra based historian and grandson of Salim
+	name = "Masalma"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "levantine"
+	trait = quraysh
+	
+	father = me_ziyadid_009 # Muharib ibn Salim ibn Ziyad ibn Abihi
+	710.1.1 = {
+		birth = yes
+	}
+	775.1.1 = { # Died between 765 -785
+		death = yes
+	}
+}
+
+me_ziyadid_011 = { 
+	name = "Abdullah"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_001 # Ziyad ibn Abihi
+	660.1.1 = {
+		birth = yes
+	}
+	740.1.1 = { 
+		death = yes
+	}
+}
+
+me_ziyadid_012 = { 
+	name = "Ziyad"
+	dynasty_house = house_me_ziyadid # Ziyadid
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	
+	father = me_ziyadid_011 # Abdullah ibn Ziyad ibn Abihi
+	720.1.1 = {
+		birth = yes
+	}
+	790.1.1 = { 
+		death = yes
+	}
+}

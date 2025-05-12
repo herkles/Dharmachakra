@@ -1,0 +1,117 @@
+﻿
+
+
+806 = {
+	name = "dynn_Sawdanid"
+	culture = "butr"
+}
+790 = {
+	name = "dynn_Ghaznavid"
+	culture = "afghan"
+}
+me_najahid = {
+	name = "me_najahid"
+	culture = "ethiopian"
+}
+101728 = {
+	prefix = "dynnp_i-"
+	name = "dynn_Sabbah"
+	culture = "persian"
+}
+1043006 = {
+	name = "dynn_Shahi"
+	culture = "afghan"
+}
+me_tabari = {
+	name = "dynn_al_tabari"
+	culture = "daylamite"
+}
+me_alkindi = {
+	name = "dynn_alkindi"
+	culture = "levantine"
+}
+me_azdi = {
+	name = "dynn_al_azdi"
+	culture = "levantine"
+}
+me_tahawi = {
+	name = "dynn_at_tahawi"
+	culture = "egyptian"
+}
+me_numayri = {
+	name = "dynn_banu_numayr"
+	culture = "levantine"
+}
+me_al_balkhi = {
+	name = "dynn_al_balkhi"
+	culture = "afghan"
+}
+me_ishaaq = {
+	name = "dynn_ishaaq"
+	culture = "levantine"
+}
+me_banu_asad = {
+	name = "dynn_banu_asad"
+	culture = "bedouin"
+}
+me_banu_thaqif = {
+	name = "dynn_banu_thaqif"
+	culture = "bedouin"
+}
+bed_manjawa = {
+	name = "dynn_Manjawa"
+	culture = "bedouin"
+}
+geo_abuserisdze = {
+	name = "dynn_Abuserisdze"
+	culture = "georgian"
+}
+byz_perenos = {
+	name = "dynn_Perenos"
+	culture = "greek"
+}
+serb_nestongos = {
+	name = "dynn_Nestongos"
+	culture = "serbian"
+}
+punj_katoch = {
+	name = "dynn_Katoch"
+	culture = "punjabi"
+}
+afg_kho = {
+	name = "dynn_Kho"
+	culture = "afghan"
+}
+sijilmasa_miknasi = {
+	name = "dynn_al_Miknasi"
+	culture = "butr"
+}
+sijilmasa_mazyadid = {
+	name = "dynn_mazyadid"
+	culture = "butr"
+}
+me_nefusa_ayyubid = {
+	name = "dynn_nefusa_ayyubid"
+	culture = "butr"
+}
+me_al_djanawuni = {
+	name = "dynn_al_djanawuni"
+	culture = "butr"
+}
+me_nefusa_ilyasid = {
+	name = "dynn_nefusa_ilyasid"
+	culture = "butr"
+}
+me_al_irdjani = {
+	name = "dynn_al_irdjani"
+	culture = "butr"
+}
+me_saghirid = {
+	name = "dynn_saghirid"
+	culture = "baranis"
+}
+me_sulaymanid = {
+	name = "dynn_me_sulaymanid"
+	culture = "bedouin"
+}
+## Additions

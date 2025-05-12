@@ -4,11 +4,19 @@
 #######################################
 d_ibadi = {
 	color = { 90 25 0 }
-	color2 = { 220 220 0 }
+	#color2 = { 220 220 0 }
 	definite_form = yes
 	ruler_uses_title_name = yes
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = no
 }
-
+d_barghawata = {
+	color = { 60 153 107 }
+	# color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = no
+}

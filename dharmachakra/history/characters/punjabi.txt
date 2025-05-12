@@ -2396,5 +2396,19 @@ ghaznavid_vassal_3 = {
 		death = yes
 	}
 }
-
+hujwiri1 = {
+	name="Syed Ali Data Ganj Bakhsh al-Hujwiri"
+	dynasty= punj_hujwiri
+	religion= "ashari"
+	culture= "punjabi"
+	trait = sayyid
+	trait = zealous
+	trait = education_learning_4
+	1009.8.14={
+		birth=yes
+	}
+	1072.8.8={
+		death=yes
+	}
+}
 

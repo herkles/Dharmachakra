@@ -1,0 +1,1432 @@
+﻿# Kalbids, Governors of Sicily (more exist in maghrebi.txt)
+
+me_kalbids_001 = {
+	name = "Ahmad" # Abu Hussayn al-Kalbi, first name is unknown
+	dynasty = 12240 # al-Kalbi
+	religion = ashari
+	culture = maghrebi
+
+	850.1.1 = {
+		birth = yes
+	}
+	914.1.1 = {
+		faith = ismaili
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+
+me_kalbids_002 = {
+	name = "Ammār" # Ammār ibn Ali al-Kalbi, Fatimid General
+	dynasty = 12240 # al-Kalbi
+	religion = "ismaili"
+	culture = maghrebi
+	trait = education_martial_3
+
+	father = 159195 # Ali ibn Abu Hussayn al-Kalbi (exists in maghrebi.txt)
+	915.1.1 = {
+		birth = yes
+	}
+	997.1.1 = {
+		death = {
+			death_reason = death_execution # Executed by Barjawan, the Fatimid regent
+		}
+	}
+}
+
+me_kalbids_003 = {
+	name = "al-Hassan" # al-Hassan ibn Ammār al-Kalbi, Fatimid General
+	dynasty = 12240 # al-Kalbi
+	religion = "ismaili"
+	culture = siqilli
+	trait = education_martial_3
+
+	father = me_kalbids_002 # Ammār ibn Ali al-Kalbi
+	936.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+me_kalbids_004 = {
+	name = "Ali" # Ali ibn Yusuf al-Kalbi, Revolted against the Fatimids and was executed
+	dynasty = 12240 # al-Kalbi
+	religion = "ismaili"
+	culture = siqilli
+
+	father = 159190 # Yusuf al-Kalbi of Sicily (exists in maghrebi.txt)
+	974.1.1 = {
+		birth = yes
+	}
+	1015.1.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+me_kalbids_005 = {
+	name = "Ja_far" # Ja'far ibn Ahmad 'al-Akḥal' al-Kalbi
+	dynasty = 12240 # al-Kalbi
+	religion = "ismaili"
+	culture = siqilli
+
+	father = 159192 # Ahmad 'al-Akḥal' (exists in maghrebi.txt)
+	1000.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		employer = 3096
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+
+me_kalbids_006 = {
+	name = "Hussayn" # Hussayn al-Kalbi 
+	dynasty = 12240 # al-Kalbi
+	religion = ashari
+	culture = maghrebi
+
+	father = me_kalbids_001 # Abu Hussayn al-Kalbi 
+	866.1.1 = {
+		birth = yes
+	}
+	914.1.1 = {
+		faith = ismaili
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+
+me_kalbid_mawla = {
+	name = "Ya_ish" # Ya'ish, the Fatimid bureaucrat that was meant to replace Ahmad ibn al-Hasan
+	dynasty = me_yaishid
+	religion = "ismaili"
+	culture = siqilli
+	920.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+
+##The Rustamids (more exist in maghrebi.txt)
+me_rustamid_001 = {
+	name = "Yusuf" # Yusuf Abu Hatim ibn Muhammamad Abu al-Yaqzan
+	dynasty = 808 # Rustamid
+	religion = wahbiya
+	culture = maghrebi
+
+	father = 163149 # Muhammamad Abu al-Yaqzan ibn Aflah (exists in maghrebi.txt)
+	865.1.1 = {
+		birth = "865.1.1"
+	}
+	906.1.1 = {
+		death = {
+			death_reason = death_murder #Assassinated by his nephews, their names are not known.
+		}
+	}
+}
+
+me_rustamid_002 = {
+	name = "al-Yaqzan" # al-Yaqzan Abu Hatim ibn Muhammamad Abu al-Yaqzan
+	dynasty = 808 # Rustamid
+	religion = "wahbiya"
+	culture = maghrebi
+
+	father = 163149 # Muhammamad Abu al-Yaqzan ibn Aflah (exists in maghrebi.txt)
+	860.1.1 = {
+		birth = "860.1.1"
+	}
+	915.1.1 = {
+		death = "915.1.1"
+	}
+}
+
+### Taifas of Sicily ###
+## 'Ibn Mankud', Sheikh of Messina and 'Atrabansh (Trapani) [more exist in maghrebi.txt]
+
+ss_taifa_001 = {
+	name = "Mankud" # Either the father of Abdallah 'ibn Mankud' or his ancestor*
+	dynasty = 12236 # Mankudid
+	religion = ashari
+	culture = baranis
+	990.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+
+## Ibn al-Maklātī, ruler of Qataniyyah(Catania)
+
+ss_taifa_002 = {
+	name = "Amir" # 'ibn al-Maklātī', first name is unknown
+	dynasty = me_maklatid # Maklātid
+	give_nickname = nick_me_ibn_al_maklati # Ibn al-Maklātī*
+	religion = ashari
+	culture = siqilli
+
+	1010.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		add_spouse = maghrebi0013 # Maymūna bint Ni'ma (exists in maghrebi.txt)
+	}
+	1055.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = maghrebi0011 # Muhammad 'ibn ath-Thumnah', emir of Syracuse (exists in maghrebi.txt)
+		}
+	}
+}
+
+## Ibn al-Ba'bā'*, Muslim Ruler of Palermo from 1069-1072, he was of Spanish Jewish decent
+
+ss_taifa_003 = {
+	name = "Muhammad" # Abu Abdullah Muhammad 'ibn al-Ba'bā'' ibn Abdul-Rahman
+	dynasty = me_babaid
+	give_nickname = nick_me_ibn_al_baba # Ibn Ba'bā'*
+	religion = "ashari"
+	culture = siqilli
+	stewardship = 8
+	diplomacy = 7
+	trait = education_stewardship_3
+
+	father = ss_taifa_004
+	1036.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+ss_taifa_004 = {
+	name = "Abdul-Rahman"
+	dynasty = me_babaid
+	religion = "ashari"
+	culture = siqilli
+
+	father = ss_taifa_005
+	1000.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+ss_taifa_005 = {
+	name = "al-Ba'ba'"
+	dynasty = me_babaid
+	religion = "ashari"
+	culture = sephardi
+	970.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+
+ss_taifa_006 = {
+	name = "Abdullah"
+	dynasty = me_babaid
+	religion = "ashari"
+	culture = siqilli
+
+	father = ss_taifa_003
+	1055.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+## Minor Walis of Sicily
+ss_wali_01 = {
+	name = "Muhammad"
+	religion = "ashari"
+	culture = "maghrebi"
+
+	820.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+
+ss_wali_02 = {
+	name = "Hasan" # Hasan ibn al-Abbas
+	religion = "ashari"
+	culture = siqilli
+
+	father = ss_wali_03
+	850.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+
+ss_wali_03 = {
+	name = "al-Abbas" 
+	religion = "ashari"
+	culture = siqilli
+
+	830.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+ss_wali_04 = {
+	name = "Muhammad" # Muhammad ibn al-Fadl
+	religion = "ashari"
+	culture = siqilli
+
+	father = ss_wali_05
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+ss_wali_05 = {
+	name = "al-Fadl" 
+	religion = "ashari"
+	culture = siqilli
+
+	820.1.1 = {
+		birth = yes
+	}
+	895.1.1 = {
+		death = yes
+	}
+}
+
+ss_wali_06 = {
+	name = "Husayn" # Husayn ibn Ahmad
+	religion = "ashari"
+	culture = siqilli
+
+	father = ss_wali_07
+	840.1.1 = {
+		birth = yes
+	}
+	895.6.1 = {
+		death = yes
+	}
+}
+
+ss_wali_07 = {
+	name = "Ahmad" 
+	religion = "ashari"
+	culture = siqilli
+
+	800.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+ss_wali_08 = {
+	name = "Abu al-Abbas" # Abu al-Abbas ibn Ali
+	dynasty = me_alid
+	religion = "ashari"
+	culture = siqilli
+
+	father = ss_wali_09
+	870.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+
+ss_wali_09 = {
+	name = "Ali"
+	dynasty = me_alid
+	religion = "ashari"
+	culture = siqilli
+
+	850.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+ss_wali_10 = {
+	name = "Muhammad"
+	dynasty = me_saraqusi # as-Saraqusi
+	religion = "ashari"
+	culture = siqilli
+
+	870.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+## al-Habshi, Military general and Governor of Sicily
+# (His Family tree is suspicously close to that of the aghlabids, but since there is no confirmation about the connection, this will be ignored.)
+me_habashi_001 = {
+	name = "Ahmad" # Abu Malik Ahmad ibn Ya'qub ibn Omar ibn Abdallah ibn Ibrahim ibn al-Aghlab
+	dynasty = me_habashi # al-Ḥabashī
+	religion = "ashari"
+	culture = maghrebi
+	trait = education_martial_3
+
+	father = me_habashi_002
+	828.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		employer = maghrebi0001 # Khafaja ibn Sufyan
+	}
+	878.1.1 = {
+		death = yes
+	}
+}
+
+me_habashi_002 = {
+	name = "Ya_qub"
+	religion = "ashari"
+	culture = maghrebi
+
+	father = me_habashi_003
+	790.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+
+me_habashi_003 = {
+	name = "Omar"
+	religion = "ashari"
+	culture = maghrebi
+
+	father = me_habashi_004
+	770.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+me_habashi_004 = {
+	name = "Ibrahim"
+	religion = "ashari"
+	culture = maghrebi
+
+	father = me_habashi_005
+	750.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+
+me_habashi_005 = {
+	name = "al-Aghlab"
+	religion = "ashari"
+	culture = maghrebi
+
+	730.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+
+## Fatimid governors
+ss_fatimid_wali_001 = {
+	name = "al-Hassan" # al-Hassan ibn Ahmad ibn Abi Khinzīr, Fatimid governer of Kairoun and Sicily
+	dynasty = me_khinzir # al-Khinzīrī
+	give_nickname = nick_me_ibn_khinzir # Ibn Abi Khinzīr*
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_002
+	890.1.1 = {
+		birth = yes
+	}
+	914.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = me_qurhub_001 # Ibn Qurhub
+		}
+	}
+}
+
+ss_fatimid_wali_002 = {
+	name = "Ahmad" 
+	dynasty = me_khinzir # al-Khinzīrī
+	religion = ashari
+	culture = maghrebi
+
+	father = ss_fatimid_wali_003
+	870.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_003 = {
+	name = "Ja_far" # Abi Khinzīr, first name unknown
+	give_nickname = nick_me_ibn_khinzir # Abi Khinzīr
+	dynasty = me_khinzir # al-Khinzīrī
+	religion = ashari
+	culture = maghrebi
+
+	847.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_004 = {
+	name = "Khalaf" # Khalaf, brother of Ibn Abi Khinzīr and governor of al-Abbasiyya
+	dynasty = me_khinzir # al-Khinzīrī
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_002
+	889.1.1 = {
+		birth = yes
+	}
+	914.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_005 = {
+	name = "Ali" # Ali, brother of Ibn Abi Khinzīr and governor of Qasr Yanih
+	dynasty = me_khinzir # al-Khinzīrī
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_002
+	891.1.1 = {
+		birth = yes
+	}
+	914.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_006 = {
+	name = "Ali" # Ali ibn Omar al-Balawi, Second Fatimid governor of Sicily
+	dynasty = me_balawi # al-Balawi
+	religion = ashari
+	culture = maghrebi
+
+	father = ss_fatimid_wali_007
+	852.1.1 = {
+		birth = yes
+	}
+	909.1.1 = {
+		religion = ismaili
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_007 = {
+	name = "Omar" 
+	dynasty = me_balawi # al-Balawi
+	religion = ashari
+	culture = maghrebi
+
+	830.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_008 = {
+	name = "Musa" # Abu Sa'id Musa ibn Ahmad aḍ-Ḍayf
+	dynasty = me_ad_dayf # aḍ-Ḍayf
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_009
+	880.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_009 = {
+	name = "Ahmad" 
+	dynasty = me_ad_dayf # aḍ-Ḍayf
+	religion = ashari
+	culture = maghrebi
+
+	840.1.1 = {
+		birth = yes
+	}
+	909.1.1 = {
+		religion = ismaili
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_010 = {
+	name = "Sa_id" 
+	dynasty = me_ad_dayf # aḍ-Ḍayf
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_008
+	900.1.1 = {
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_011 = {
+	name = "Salim" # Salim ibn Rashid
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_012
+	880.1.1 = {
+		birth = yes
+	}
+	939.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_012 = {
+	name = "Rashid" 
+	religion = ashari
+	culture = maghrebi
+
+	850.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_013 = {
+	name = "Khalil" 
+	dynasty = me_at_tamimi
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_014
+	895.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
+		death = {
+			death_reason = death_execution
+#			killer = *** # Abu Yazid 'Sahib al-Himar'
+		}
+	}
+}
+
+ss_fatimid_wali_014 = {
+	name = "Ishaq" 
+	dynasty = me_at_tamimi
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_015
+	870.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_015 = {
+	name = "Ward" 
+	dynasty = me_at_tamimi
+	religion = ashari
+	culture = maghrebi
+
+	850.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_016 = {
+	name = "al-Abbas" 
+	dynasty = me_at_tamimi
+	religion = ismaili
+	culture = maghrebi
+
+	father = ss_fatimid_wali_013
+	915.1.1 = {
+		birth = yes
+	}
+	975.1.1 = {
+		death = yes
+	}
+}
+
+ss_fatimid_wali_017 = {
+	name = "Ibn Attaf" 
+	religion = ismaili
+	culture = siqilli
+
+	900.1.1 = {
+		birth = yes
+	}
+	947.1.1 = {
+		death = yes
+	}
+}
+
+## Ibn Qurhub, Sunni Sicilian who revolted against the Fatimids
+me_qurhub_001 = {
+	name = "Ahmad" # Ahmad ibn Ziyadat-Allah ibn Qurhub
+	dynasty = me_qurhubi # al-Qurhubi
+	give_nickname = nick_me_ibn_qurhub #Ibn Qurhub*
+	religion = ashari
+	culture = siqilli
+
+	father = me_qurhub_002
+	870.1.1 = {
+		birth = yes
+	}
+	916.1.1 = {
+		death = yes
+	}
+}
+
+me_qurhub_002 = {
+	name = "Ziydat_Allah" # Ahmad ibn Ziyadat-Allah ibn Qurhub
+	dynasty = me_qurhubi # al-Qurhubi
+	religion = ashari
+	culture = siqilli
+
+	father = me_qurhub_003
+	850.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+me_qurhub_003 = {
+	name = "Qurhub" # Ahmad ibn Ziyadat-Allah ibn Qurhub
+	dynasty = me_qurhubi # al-Qurhubi
+	religion = ashari
+	culture = siqilli
+
+	830.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+## Banu Fazāra, Walis of Sicily
+
+me_fazara_01 = {
+	name = "Ya_qub" 
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = bedouin
+
+	760.1.1 = {
+		birth = yes
+	}
+	835.1.1 = {
+		death = yes
+	}
+}
+
+me_fazara_02 = {
+	name = "al-Fadl" # al-Fadl ibn Ya'qub, first Fāzari wali of Sicily
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = bedouin
+
+	father = me_fazara_01 # Ya'qub al-Fazāri
+	780.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+
+me_fazara_03 = {
+	name = "al-Abbas" # al-Abbas ibn al-Fadl ibn Ya'qub, second Fāzari wali of Sicily
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = bedouin
+	trait = education_martial_3
+
+	father = me_fazara_02 # al-Fadl ibn Ya'qub al-Fazāri
+	800.1.1 = {
+		birth = yes
+	}
+	861.8.14 = {
+		death = yes
+	}
+}
+
+me_fazara_04 = {
+	name = "Ali" # Ali ibn al-Fadl ibn Ya'qub
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = bedouin
+
+	father = me_fazara_02 # al-Fadl ibn Ya'qub al-Fazāri
+	802.1.1 = {
+		birth = yes
+	}
+	865.1.11 = {
+		death = yes
+	}
+}
+
+me_fazara_05 = {
+	name = "Abdullah" # Abdullah ibn al-Abbas, fourth Fāzari wali of Sicily
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = bedouin
+
+	father = me_fazara_03 # al-Abbas ibn al-Fadl al-Fazāri
+	825.1.1 = {
+		birth = yes
+	}
+	825.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		employer = maghrebi0001 # Khafaja ibn Sufyan
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+
+me_fazara_06 = {
+	name = "Ahmad" # Ahmad ibn Ya'qub, third Fāzari wali of Sicily
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = bedouin
+
+	father = me_fazara_01 # Ya'qub al-Fazāri
+	795.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		employer = maghrebi0001 # Khafaja ibn Sufyan
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+
+me_fazara_07 = {
+	name = "Rabah" # Rabah ibn Ya'qub
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = bedouin
+
+	father = me_fazara_01 # Ya'qub al-Fazāri
+	800.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		employer = maghrebi0001 # Khafaja ibn Sufyan
+	}
+	872.1.1 = {
+		death = yes
+	}
+}
+
+me_fazara_08 = {
+	name = "Husayn" # Husayn ibn Rabah ibn Ya'qub, Fifth Fazari wali of Sicily
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = bedouin
+
+	father = me_fazara_07 # Rabah ibn Ya'qub al-Fazāri
+	825.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		employer = maghrebi0001 # Khafaja ibn Sufyan (exists in maghrebi.txt)
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+
+me_fazara_09 = {
+	name = "Ahmad" # Ahmad ibn Rabah, Sixth Fazari wali of Sicily
+	dynasty = bedouindyn009 # al-Fazāri
+	religion = "ashari"
+	culture = siqilli
+
+	father = me_fazara_08 # Husayn ibn Rabah al-Fazāri
+	850.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		employer = maghrebi0001 # Khafaja ibn Sufyan (exists in maghrebi.txt)
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+## Ibn Hamdis, Siqilli poet
+me_hamdis_01 = {
+	name = "Abdul-Jabbar" # Abdul-Jabbar 'ibn Hamdis' ibn Abu Bakr al-'Azdi, Siqilli Poet and fought in some battles
+	dynasty = me_azdi
+	give_nickname = nick_me_ibn_hamdis # Ibn Hamdis*
+	religion = "ashari"
+	culture = siqilli
+	trait = poet
+
+	father = me_hamdis_02 
+	1055.1.1 = {
+		birth = yes
+	}
+	1133.1.1 = {
+		death = yes
+	}
+}
+
+me_hamdis_02 = {
+	name = "Abu_Bakr" 
+	dynasty = me_azdi
+	religion = "ashari"
+	culture = siqilli
+
+	father = me_hamdis_03 
+	1030.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+me_hamdis_03 = {
+	name = "Muhammad" 
+	dynasty = me_azdi
+	religion = "ashari"
+	culture = siqilli
+
+	father = me_hamdis_04 
+	1000.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+me_hamdis_04 = {
+	name = "Hamdis" 
+	dynasty = me_azdi
+	religion = "ashari"
+	culture = bedouin
+
+	970.1.1 = {
+		birth = yes
+	}
+	1015.1.1 = {
+		death = yes
+	}
+}
+
+## al-Balnubi/Ibn Abi al-Basha'r
+me_balnubi_01 = {
+	name = "Ali" # Abu al-Hasan Ali 'al-Balnubi', Siqilli Poet
+	dynasty = me_bashari
+	give_nickname = nick_me_al_balnubi # al-Balnubi
+	religion = "ismaili" ## I'm assuming he's a Shi'ite because his name is Ali and his son's name is al-Hasan, he also lived most of his life in Fatimid egypt.
+	culture = siqilli
+	trait = poet
+
+	father = me_balnubi_03
+	1030.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 3096 # Fatimid Caliph al-Muntasir
+		move_to_pool = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+me_balnubi_02 = {
+	name = "al-Hasan" 
+	dynasty = me_bashari
+	religion = "ismaili"
+	culture = siqilli
+
+	father = me_balnubi_01
+	1050.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 3096 # Fatimid Caliph al-Muntasir
+		move_to_pool = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+
+me_balnubi_03 = {
+	name = "Abd_ar-Rahman" 
+	dynasty = me_bashari
+	religion = "ismaili"
+	culture = siqilli
+
+	father = me_balnubi_04
+	1000.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+me_balnubi_04 = {
+	name = "Abi al-Basha'r" 
+	dynasty = me_bashari
+	religion = "ismaili"
+	culture = siqilli
+
+	970.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+
+## Sulaymanids, Maghrebi Sayyid dynasty
+
+me_sulaymanid_001 = {
+	name = "Sūlaymān" # Sulaymān ibn Abdullah al-Kamil ibn al-Hasan al-Muthanna, founder of the Sulaymānid dynasty 
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "ismaili"
+	culture = bedouin
+	trait = sayyid
+
+	father = 33928 #  Abdullah al-Kamil ibn al-Hasan al-Muthanna (exists in bedouin.txt)
+	730.1.1 = {
+		birth = yes
+	}
+	814.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_002 = {
+	name = "Muhammad" # Muhammad ibn Sulaymān ibn Abdullah al-Kamil
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_001 #  Sulaymān ibn Abdullah al-Kamil
+	770.1.1 = {
+		birth = yes
+	}
+	828.1.1 = {
+		death = yes
+	}
+}
+######
+#NOTE: The birth date and death date of most Sulaymānid characters below this are pure speculation, as I found no source that gives me atleast an aproximation of when they ruled. (Some characters began ruling around 935, hence why their fathers reach a very old age) 
+######
+
+# Tlemcen Emirs
+me_sulaymanid_003 = {
+	name = "Ahmad" # Ahmad ibn Muhammad, Third emir of Tlemcen
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_002 #  Muhammad ibn Sulaymān ibn Abdullah al-Kamil
+	795.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_004 = {
+	name = "Muhammad" # Muhammad ibn Ahmad ibn Muhammad, Fourth emir of Tlemcen
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_003 #  Ahmad ibn Muhammad
+	825.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_005 = {
+	name = "al-Qasim" # al-Qasim ibn Muhammad ibn Ahmad, Fifth emir of Tlemcen
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_004 #  Muhammad ibn Ahmad ibn Muhammad
+	860.1.1 = {
+		birth = yes
+	}
+	931.1.1 = {
+		death = yes
+	}
+}
+
+# Arsgul Emirs (County of Hunyan)
+me_sulaymanid_006 = {
+	name = "'Isa" # Isa ibn Muhammad, First emir of Arsgul
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_002 #  Muhammad ibn Sulaymān ibn Abdullah al-Kamil
+	797.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+# Jarrara Emirs (Location Unknown)
+me_sulaymanid_007 = {
+	name = "Idris" # Idris ibn Muhammad, First emir of Jarrara
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_002 #  Muhammad ibn Sulaymān ibn Abdullah al-Kamil
+	800.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_008 = {
+	name = "'Isa" # 'Isa ibn Idris ibn Muhammad, Second emir of Jarrara
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_007 # Idris ibn Muhammad
+	845.1.1 = {
+		birth = yes
+	}
+	935.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_009 = {
+	name = "Hasan" # Hasan ibn 'Isa ibn Idris, Third emir of Jarrara
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_008 # 'Isa ibn Idris
+	860.1.1 = {
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+
+me_sulaymanid_010 = {
+	name = "Ibrahim" # Ibrahim ibn Idris ibn Muhammad, Second emir of Arsgul
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_007 # Idris ibn Muhammad
+	850.1.1 = {
+		birth = yes
+	}
+	935.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_011 = {
+	name = "Idris" # Idris ibn Ibrahim ibn Idris, Third emir of Arsgul
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_010 # Ibrahim ibn Idris
+	870.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_012 = {
+	name = "Ibrahim" # Ibrahim ibn Ibrahim ibn Idris
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_010 # Ibrahim ibn Idris
+	875.1.1 = {
+		birth = yes
+	}
+	952.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_013 = {
+	name = "Yahya" # Yahya ibn Ibrahim ibn Idris
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_010 # Ibrahim ibn Idris
+	877.1.1 = {
+		birth = yes
+	}
+	954.1.1 = {
+		death = yes
+	}
+}
+
+# Emirs of Tenes and Souk Ibrahim (On the Chelif river, exact location unknown) 
+
+me_sulaymanid_014 = {
+	name = "Ibrahim" # Ibrahim ibn Muhammad, First emir of Tenes and Souk Ibrahim
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_002 #  Muhammad ibn Sulaymān ibn Abdullah al-Kamil
+	802.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+
+me_sulaymanid_015 = {
+	name = "Muhammad" # Muhammad ibn Ibrahim, Second emir of Tenes
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_014 #  Ibrahim ibn Muhammad
+	825.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+me_sulaymanid_016 = {
+	name = "'Isa" # 'Isa ibn Ibrahim, Second emir of Souk Ibrahim
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_014 #  Ibrahim ibn Muhammad
+	830.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_017 = {
+	name = "Ahmad" # Ahmad ibn Isa, Fourth emir of Souk Ibrahim
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_016 #  'Isa ibn Ibrahim
+	860.1.1 = {
+		birth = yes
+	}
+	935.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_018 = {
+	name = "al-Qasim" # al-Qasim ibn Isa, Third emir of Souk Ibrahim
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_016 #  'Isa ibn Ibrahim
+	850.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+
+me_sulaymanid_019 = {
+	name = "Abdullah" # Abdullah ibn Muhammad, Third emir of Tenes
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_015 #  Muhammad ibn Ibrahim
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = {
+			death_reason = death_murder
+			killer = me_sulaymanid_017 # Ahmad ibn Isa, Emir of Suq Ibrahim and his cousin
+		}
+	}
+}
+me_sulaymanid_020 = {
+	name = "Yahya" # Yahya ibn Muhammad, Fourth emir of Tenes
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_015 #  Muhammad ibn Ibrahim
+	855.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_021 = {
+	name = "Ali" # Ali ibn Yahya, Fifth emir of Tenes
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_020 #  Yahya ibn Muhammad
+	900.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_022 = {
+	name = "Yahya" # Yahya ibn Ali
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_021 #  Ali ibn Yahya
+	920.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+me_sulaymanid_023 = {
+	name = "Hamza" # Hamza ibn Ali
+	dynasty = me_sulaymanid # Sulaymānid dynasty 
+	religion = "zayidi"
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_sulaymanid_021 #  Ali ibn Yahya
+	925.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		death = yes
+	}
+}

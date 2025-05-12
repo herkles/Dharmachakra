@@ -3,3 +3,5 @@
   huna_history_loc: "Formed from [CULTURE.GetName] and various Indo-Aryan cultures around the year [DATE.GetYear]"
   iranian_hun_history_loc:0 "Formed from various cultures of $iranian_group$ and $turkic_group$ [heritage|E] in the year [DATE.GetYear]"
 
+  siqilli_history_loc:0 "Formed from $arabic_group$ and $berber_group$ settlers who migrated to [GetTitleByKey('d_sicily').GetNameNoTier]" #in the year 856
+
