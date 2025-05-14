@@ -8151,14 +8151,20 @@ religion_interior = {
 	########################################
 	texture = {
 		trigger = {
-			liege.culture ?= { has_building_gfx = iberian_building_gfx }
+			OR = {
+				this = faith:mozarabic_church
+				this = faith:muwalladi
+			}
 		}
 		reference = "event_scenes/fp2_temple.dds"
 	}
 
 	environment = {
 		trigger = {
-			liege.culture ?= { has_building_gfx = iberian_building_gfx }
+			OR = {
+				this = faith:mozarabic_church
+				this = faith:muwalladi
+			}
 		}
 		reference = "environment_event_fp2_temple"
 	}

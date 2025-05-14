@@ -169,7 +169,7 @@ thaqifid996 = { # Dawud ibn Urwah
 	}
 }
 thaqifid995 = { # Abu Amir ibn Masud
-	name = "Abu Amir"
+	name = "Abu_Amir"
 	dynasty = me_banu_thaqif
 	culture = "bedouin"
 	religion = "pagan"
@@ -325,7 +325,7 @@ thaqifid984 = { #Fake Character, to get the Thaqifids into the game.
 	}
 }
 thaqifid983 = { # Abu Ubayd ibn Masud
-	name = "Abu Ubayd"
+	name = "Abu_Ubayd"
 	dynasty = me_banu_thaqif
 	culture = "bedouin"
 	religion = "ashari"
@@ -443,7 +443,7 @@ thaqifid976 = { #Real Character
 	}
 }
 thaqifid975 = { # Abu al-Jabr ibn Abu Ubayd
-	name = "Abu al-Jabr"
+	name = "Abu_al_Jabr"
 	dynasty = me_banu_thaqif
 	culture = "bedouin"
 	religion = "imami"
@@ -456,7 +456,7 @@ thaqifid975 = { # Abu al-Jabr ibn Abu Ubayd
 	}
 }
 thaqifid974 = { # Abu Hakam ibn Abu Ubayd
-	name = "Abu Hakam"
+	name = "Abu_Hakam"
 	dynasty = me_banu_thaqif
 	culture = "bedouin"
 	religion = "imami"
@@ -469,7 +469,7 @@ thaqifid974 = { # Abu Hakam ibn Abu Ubayd
 	}
 }
 thaqifid973 = { # Abu Umayya ibn Abu Ubayd
-	name = "Abu Umayya"
+	name = "Abu_Umayya"
 	dynasty = me_banu_thaqif
 	culture = "bedouin"
 	religion = "imami"

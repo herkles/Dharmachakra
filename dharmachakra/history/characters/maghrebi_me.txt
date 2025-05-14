@@ -18,7 +18,7 @@ me_kalbids_001 = {
 }
 
 me_kalbids_002 = {
-	name = "Ammār" # Ammār ibn Ali al-Kalbi, Fatimid General
+	name = "Ammar" # Ammār ibn Ali al-Kalbi, Fatimid General
 	dynasty = 12240 # al-Kalbi
 	religion = "ismaili"
 	culture = maghrebi
@@ -352,7 +352,7 @@ ss_wali_07 = {
 }
 
 ss_wali_08 = {
-	name = "Abu al-Abbas" # Abu al-Abbas ibn Ali
+	name = "Abu_al_Abbas" # Abu al-Abbas ibn Ali
 	dynasty = me_alid
 	religion = "ashari"
 	culture = siqilli
@@ -719,7 +719,7 @@ ss_fatimid_wali_016 = {
 }
 
 ss_fatimid_wali_017 = {
-	name = "Ibn Attaf" 
+	name = "Ibn_Attaf" 
 	religion = ismaili
 	culture = siqilli
 
@@ -1051,7 +1051,7 @@ me_balnubi_03 = {
 }
 
 me_balnubi_04 = {
-	name = "Abi al-Basha'r" 
+	name = "Abi_al_Basha_r" 
 	dynasty = me_bashari
 	religion = "ismaili"
 	culture = siqilli
@@ -1067,7 +1067,7 @@ me_balnubi_04 = {
 ## Sulaymanids, Maghrebi Sayyid dynasty
 
 me_sulaymanid_001 = {
-	name = "Sūlaymān" # Sulaymān ibn Abdullah al-Kamil ibn al-Hasan al-Muthanna, founder of the Sulaymānid dynasty 
+	name = "Sulayman" # Sulaymān ibn Abdullah al-Kamil ibn al-Hasan al-Muthanna, founder of the Sulaymānid dynasty 
 	dynasty = me_sulaymanid # Sulaymānid dynasty 
 	religion = "ismaili"
 	culture = bedouin
@@ -1149,7 +1149,7 @@ me_sulaymanid_005 = {
 
 # Arsgul Emirs (County of Hunyan)
 me_sulaymanid_006 = {
-	name = "'Isa" # Isa ibn Muhammad, First emir of Arsgul
+	name = "_Isa" # Isa ibn Muhammad, First emir of Arsgul
 	dynasty = me_sulaymanid # Sulaymānid dynasty 
 	religion = "zayidi"
 	culture = maghrebi
@@ -1181,7 +1181,7 @@ me_sulaymanid_007 = {
 	}
 }
 me_sulaymanid_008 = {
-	name = "'Isa" # 'Isa ibn Idris ibn Muhammad, Second emir of Jarrara
+	name = "_Isa" # 'Isa ibn Idris ibn Muhammad, Second emir of Jarrara
 	dynasty = me_sulaymanid # Sulaymānid dynasty 
 	religion = "zayidi"
 	culture = maghrebi
@@ -1307,7 +1307,7 @@ me_sulaymanid_015 = {
 }
 
 me_sulaymanid_016 = {
-	name = "'Isa" # 'Isa ibn Ibrahim, Second emir of Souk Ibrahim
+	name = "_Isa" # 'Isa ibn Ibrahim, Second emir of Souk Ibrahim
 	dynasty = me_sulaymanid # Sulaymānid dynasty 
 	religion = "zayidi"
 	culture = maghrebi

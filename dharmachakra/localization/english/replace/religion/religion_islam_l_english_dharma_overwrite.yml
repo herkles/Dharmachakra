@@ -248,6 +248,11 @@
  alb_islam_adherent_plural:0 "Ahl al-Bayt" 
  alb_islam_desc:0 "The sects of Islam are divided upon who are the true successors of Prophet Muhammad and rightful leaders of the Muslim Ummah, they each believe that the Prophet and Ahl al-Bayt supported their line of succession."
  
+ is_alb_faith_name:0 "Before the Fitna"
+ special_doctrine_is_alb_faith_name:0 "Before the Fitna"
+ special_doctrine_is_alb_faith_desc:0 ""
+ doctrine_parameter_hostility_override_special_doctrine_is_alb_faith:0 ""
+
  # Shi'at 'Ali (Non-sectarian Shia Islam)
  alb_islam_shia:0 "Shi'at 'Ali"
  alb_islam_shia_adj:0 "Shi'at 'Ali"
@@ -255,7 +260,12 @@
  alb_islam_shia_adherent_plural:0 "Shi'at 'Ali" 
  alb_islam_shia_desc:0 "Shi'te Muslims believe that the rightful leaders of Islam are the Imams, who are the successors of Alī ibn Abī Tālib and his sons, however they are divided upon where the true line of succession lies."
 
-
+ #Wahbiya - North African Ibadi Islam
+ wahbiya:0 "Wahbism"
+ wahbiya_adj:0 "Wahbi"
+ wahbiya_adherent:0 "Wahbi"
+ wahbiya_adherent_plural:0 "Wahbis"
+ wahbiya_desc:0 "The Wahbiyya are the followers of the North African branch of Ibadi Islam, they have their own leaders seperate from the distant imams in Oman, and eventually it's followers started to develop their own seperate teachings, taking the name 'al-Wahbiyya' from the Imam Abdul-Wahab Rustamid in Tahret."
 
  barghawata:0 "Barghawata"
  barghawata_adj:0 "Barghawatian"
@@ -307,3 +317,42 @@
 
  holy_order_servants_of_yakush:0 "Servants of Yakush"
  holy_order_champions_of_islam:0 "Champions of the Barghawata"
+
+
+ holy_site_karbala_name:0 "Karbala"
+ holy_site_karbala_effect_name:0 "From [holy_site|E] #weak ($holy_site_karbala_name$)#!"
+
+ holy_site_arrajan_name:0 "Arrajan"
+ holy_site_arrajan_effect_name:0 "From [holy_site|E] #weak ($holy_site_arrajan_name$)#!"
+
+ holy_site_isfahan_name:0 "Isfahan"
+ holy_site_isfahan_effect_name:0 "From [holy_site|E] #weak ($holy_site_isfahan_name$)#!"
+
+ holy_site_cappadocia_name:0 "Cappadocia"
+ holy_site_cappadocia_effect_name:0 "From [holy_site|E] #weak ($holy_site_cappadocia_name$)#!"
+
+ d_alawi:0 "The Alawi State"
+ d_alawi_adj:0 "Alawi"
+ alawi_religious_head_title:0 "Imam"
+ alawi_religious_head_title_name:0 "Alawi Imamate"
+
+ d_ishaqiya:0 "The Ishaaqi State"
+ d_ishaqiya:0 "Ishaaqi"
+ ishaqiya_religious_head_title:0 "Imam"
+ ishaqiya_religious_head_title_name:0 "Ishaaqi Imamate"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

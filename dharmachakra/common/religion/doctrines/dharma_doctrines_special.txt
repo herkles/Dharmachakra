@@ -84,6 +84,7 @@ unavailable = {
 	is_available_on_create = { always = no }
 	unavailable_doctrine = { visible = no }
 }
+
 is_sunni_heresy = {# Sunni Heresy for Muzta'lite to reflect their heretical relationship
 	group = "special"
 	
@@ -100,3 +101,46 @@ is_sunni_heresy = {# Sunni Heresy for Muzta'lite to reflect their heretical rela
 		}
 	}
 }
+
+is_ibadi_faith = {# Ibadi faith hostility
+	group = "special"
+	
+	is_available_on_create = {
+		AND = { # Must be Muhakkima or else it wouldn't make sense
+			has_doctrine = special_doctrine_is_ibadi_faith
+			has_doctrine = muhammad_succession_muhakkima_doctrine
+		}
+	}
+
+	special_doctrine_is_ibadi_faith = {
+		parameters = {
+			hostility_override_special_doctrine_is_ibadi_faith = 0
+		}
+	}
+}
+is_alb_faith = {
+	group = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_alb_faith
+	}
+
+	special_doctrine_is_alb_faith = {
+		parameters = {
+			hostility_override_special_doctrine_is_islamic_faith = 0
+			hostility_override_tenet_islamic_syncretism = 2
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

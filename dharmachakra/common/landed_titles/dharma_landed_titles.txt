@@ -20,3 +20,48 @@ d_barghawata = {
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = no
 }
+d_wahbiya = {
+	color = { 15 70 44 }
+	# color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = no
+}
+d_alawi = {
+	color = { 20 10 40 }
+	# color2 = { 20 0 20 }
+	definite_form = yes
+	ruler_uses_title_name = yes
+	no_automatic_claims = no
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = no
+}
+d_ishaqiya = {
+	color = { 5 15 55 }
+	# color2 = { 0 20 40 }
+	definite_form = yes
+	ruler_uses_title_name = yes
+	no_automatic_claims = no
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = no
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

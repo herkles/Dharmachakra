@@ -510,7 +510,6 @@ me_banu_thaqif = { # Thaqifids Banu Thaqif al-Thaqifi
 }
 
 me_banu_asad = { # Asadids Banu Asad al-Asadi
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=black
 	color2=yellow
@@ -529,7 +528,7 @@ me_banu_asad = { # Asadids Banu Asad al-Asadi
 		instance={ scale={ 0.890000 0.890000 } }
 	}
 }
-}
+
 
 #me_banu_asad = { # Old version of the Asadid COA, it's purely black with no emblems 
 #	pattern="pattern__solid_designer.dds"

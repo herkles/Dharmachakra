@@ -27,15 +27,15 @@
  nick_sharaf_ud_dawla:0 "Sharif ud-Dawla" 
  nick_sharaf_ud_dawla_desc:1 "Common to the medieval Islamic tradition of taking a #EMP laqab#! (arabic epithet), [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] taken the honorific title of '$nick_sharaf_ud_dawla$' (Honour of the State)."
  nick_al_ahwal:0 "al-Ahwal"
- nick_al_ahwal_desc:1 "It seems that [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] deformity is the only thing the world can see about [CharYouHerHim(CHARACTER)], [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] come to be known by the name '$nick_al_ahwal$' (The Cross-eyed)
- nick_al_ghaliz:0 "al-Ghaliz"
- nick_al_ghaliz_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] jowls have been reputed to disgorge whole chicken legs on occasion, and has become known as '$nick_al_ghaliz' (The Fat)."
+ nick_al_ahwal_desc:1 "It seems that [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] deformity is the only thing the world can see about [CharYouHerHim(CHARACTER)], [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] come to be known by the name '$nick_al_ahwal$' (The Cross-eyed)"
+  nick_al_ghaliz:0 "al-Ghaliz"
+  nick_al_ghaliz_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] jowls have been reputed to disgorge whole chicken legs on occasion, and has become known as '$nick_al_ghaliz$' (The Fat)."
  nick_al_aqta:0 "al-Aqta'"
  nick_al_aqta_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] missing arm is such a distinct feature that everyone calls [CharYouHerHim(CHARACTER)] '$nick_al_aqta$' (The One-Handed)."
  nick_kaysan:0 "Kaysan"
  nick_kaysan_desc:1 "Nicknamed 'Kayyis' by Ali ibn Abi Talib for his cunning nature as a young boy, and when he became a man, the people would come to call him '$nick_kaysan$' (The Intelligent)."
  nick_al_hasna:0 "al-Hasna'"
- nick_al_hasna_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] been blessed with a great beaty that is known all across the land, and to the people she is known as '$nick_al_hasna' (The Beautiful)."
+ nick_al_hasna_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] been blessed with a great beaty that is known all across the land, and to the people she is known as '$nick_al_hasna$' (The Beautiful)."
  
  ##Regal Names
  nick_yamin_ad_dawla:0 "Yamin ud-Dawlah"

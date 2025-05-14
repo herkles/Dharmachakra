@@ -937,6 +937,10 @@
 			remove_short_term_gold = 1000
 			set_designated_heir = character:3098
 		}
+		if = {
+			limit = { has_realm_law = crown_authority_0 }
+			add_realm_law = crown_authority_1
+		}
 	}
 	1094.1.10 = {
 		death = "1094.1.10"

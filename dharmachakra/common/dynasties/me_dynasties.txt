@@ -1,51 +1,75 @@
-﻿
-
+﻿596 = {
+	name = "dynn_Mujahidid"
+	culture = "maghrebi"
+}
 
 806 = {
 	name = "dynn_Sawdanid"
 	culture = "butr"
 }
+
 790 = {
 	name = "dynn_Ghaznavid"
 	culture = "afghan"
 }
+
 me_najahid = {
 	name = "me_najahid"
 	culture = "ethiopian"
 }
+
+me_amatuni = {
+	name = "me_amatuni"
+	culture = "armenian"
+}
+
+72960 = {
+	name = "dynn_Yeshuid"
+	culture = "greek"
+	forced_coa_religiongroup = "muslim"
+}
+
 101728 = {
 	prefix = "dynnp_i-"
 	name = "dynn_Sabbah"
 	culture = "persian"
 }
+
 1043006 = {
 	name = "dynn_Shahi"
 	culture = "afghan"
 }
+
 me_tabari = {
 	name = "dynn_al_tabari"
 	culture = "daylamite"
 }
+
 me_alkindi = {
 	name = "dynn_alkindi"
 	culture = "levantine"
 }
+
 me_azdi = {
 	name = "dynn_al_azdi"
 	culture = "levantine"
 }
+
 me_tahawi = {
 	name = "dynn_at_tahawi"
 	culture = "egyptian"
 }
+
 me_numayri = {
 	name = "dynn_banu_numayr"
 	culture = "levantine"
 }
+
 me_al_balkhi = {
 	name = "dynn_al_balkhi"
 	culture = "afghan"
 }
+
 me_ishaaq = {
 	name = "dynn_ishaaq"
 	culture = "levantine"
@@ -58,9 +82,29 @@ me_banu_thaqif = {
 	name = "dynn_banu_thaqif"
 	culture = "bedouin"
 }
+
+qarm_sanbar = {
+	name = "dynn_Sanbar"
+	culture = "bedouin"
+}
+
+dan_aki = {
+	name = "dynn_Aki"
+	culture = "danish"
+}
+
+dan_vendsyssel = {
+	prefix = "dynnp_af"
+	name = "dynn_Vendsyssel"
+	culture = "danish"
+}
 bed_manjawa = {
 	name = "dynn_Manjawa"
 	culture = "bedouin"
+}
+geo_toreli = {
+	name = "dynn_Toreli"
+	culture = "georgian"
 }
 geo_abuserisdze = {
 	name = "dynn_Abuserisdze"
@@ -74,44 +118,238 @@ serb_nestongos = {
 	name = "dynn_Nestongos"
 	culture = "serbian"
 }
+ghaz_siddiqi = {
+	name = "dynn_Siddiqi"
+	culture = "afghan"
+}
+punj_mangal = {
+	name = "dynn_Mangal"
+	culture = "punjabi"
+}
+punj_zadran = {
+	name = "dynn_Zadran"
+	culture = "punjabi"
+}
+punj_yusufzai = {
+	name = "dynn_Yusufzai"
+	culture = "punjabi"
+}
 punj_katoch = {
 	name = "dynn_Katoch"
 	culture = "punjabi"
+}
+punj_awan = {
+	name = "dynn_Awan"
+	culture = "punjabi"
+}
+punj_khokhar = {
+	name = "dynn_Khokhar"
+	culture = "punjabi"
+}
+ghaz_khujandi = {
+	name = "dynn_Khujandi"
+	culture = "punjabi"
+}
+ghaz_husairi = {
+	name = "dynn_Husairi"
+	culture = "afghan"
+}
+ghaz_mishkanid = {
+	name = "dynn_Mishkanid"
+	culture = "afghan"
+}
+hind_khatri = {
+	name = "dynn_Khatri"
+	culture = "hindustani"
 }
 afg_kho = {
 	name = "dynn_Kho"
 	culture = "afghan"
 }
+na_sulayman = {
+	name = "dynn_SulaymanNorthAfrica"
+	culture = "maghrebi"
+}
+punj_pindi = {
+	name = "dynn_Pindi"
+	culture = "punjabi"
+}
+punj_ayaz = {
+	name = "dynn_Ayaz"
+	culture = "georgian"
+}
+punj_hujwiri = {
+	name = "dynn_Hujwiri"
+	culture = "punjabi"
+}
+
 sijilmasa_miknasi = {
 	name = "dynn_al_Miknasi"
 	culture = "butr"
 }
+
 sijilmasa_mazyadid = {
 	name = "dynn_mazyadid"
 	culture = "butr"
 }
+
+me_ar_rasibi = {
+	name = "dynn_ar_rasibi"
+	culture = "bedouin"
+}
+
 me_nefusa_ayyubid = {
 	name = "dynn_nefusa_ayyubid"
 	culture = "butr"
 }
+
 me_al_djanawuni = {
 	name = "dynn_al_djanawuni"
 	culture = "butr"
 }
+
 me_nefusa_ilyasid = {
 	name = "dynn_nefusa_ilyasid"
 	culture = "butr"
 }
+
 me_al_irdjani = {
 	name = "dynn_al_irdjani"
 	culture = "butr"
 }
+
 me_saghirid = {
 	name = "dynn_saghirid"
 	culture = "baranis"
 }
+
 me_sulaymanid = {
 	name = "dynn_me_sulaymanid"
 	culture = "bedouin"
 }
+
+me_banu_tamim = {
+	name = "dynn_me_banu_tamim"
+	culture = "bedouin"
+}
+
 ## Additions
+me_maklatid = {
+	name = "dynn_me_maklatid"
+	culture = "siqilli"
+}
+
+me_al_barbari = {
+	name = "dynn_me_al_barbari"
+	culture = "baranis"
+}
+
+me_sallamid = {
+	name = "dynn_me_sallamid"
+	culture = "baranis"
+}
+
+me_salimawid = { # al-Muḍawi
+	name = "dynn_me_salimawid"
+	culture = "maghrebi"
+}
+
+me_sawadid = { 
+	name = "dynn_me_sawadid"
+	culture = "maghrebi"
+}
+
+me_saraqusi = { 
+	name = "dynn_me_saraqusi"
+	culture = "siqilli"
+}
+
+me_habashi = { 
+	name = "dynn_me_habashi"
+	culture = "maghrebi"
+}
+
+me_khinzir = { 
+	name = "dynn_me_khinzir"
+	culture = "maghrebi"
+}
+
+me_balawi = { 
+	name = "dynn_me_balawi"
+	culture = "siqilli"
+}
+
+me_ad_dayf = { 
+	name = "dynn_me_ad_dayf"
+	culture = "siqilli"
+}
+
+me_at_tamimi = { 
+	name = "dynn_me_at_tamimi"
+	culture = "bedouin"
+}
+
+me_qurhubi = { 
+	name = "dynn_me_qurhubi"
+	culture = "siqilli"
+}
+
+me_jafarid = { 
+	name = "dynn_me_jafarid"
+	culture = "maghrebi"
+}
+
+me_alid = { 
+	name = "dynn_me_alid"
+	culture = "siqilli"
+}
+
+me_yaishid = { 
+	name = "dynn_me_yaishid"
+	culture = "siqilli"
+}
+
+me_azdi = {
+	name = "dynn_me_azdi"
+	culture = "siqilli"
+}
+
+me_bashari = {
+	name = "dynn_me_bashari"
+	culture = "siqilli"
+}
+
+me_hammudid = {
+	name = "dynn_me_hammudid"
+	culture = "siqilli"
+}
+
+me_babaid = {
+	name = "dynn_me_babaid"
+	culture = "siqilli"
+}
+
+me_zirid_pre_dynasty = {
+	name = "dynn_me_zirid_pre"
+	culture = "baranis"
+}
+
+me_ghanawi_dynasty = {
+	name = "dynn_me_ghanawi"
+	culture = "levantine"
+}
+
+me_isfahanid_dynasty = {
+	name = "dynn_isfahanid"
+	culture = "persian"
+}
+
+me_qatifi_dynasty = {
+	name = "dynn_me_qatifi"
+	culture = "bedouin"
+}
+
+me_karrami_dynasty = {
+	name = "dynn_me_karrami"
+	culture = "bedouin"
+}

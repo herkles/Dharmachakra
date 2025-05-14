@@ -1,4 +1,4 @@
-﻿# Rajasthani Cultures
+﻿# Vanilla Cultures
 
 bedouin = {
 	color = bedouin

@@ -1692,7 +1692,7 @@
 }
 
 33910 = {
-	name = "Abu Talib" # Muhammad's paternal uncle
+	name = "Abu_Talib" # Muhammad's paternal uncle
 	dynasty_house = house_me_banu_hashim
 	religion = "alb_islam"
 	sexuality = heterosexual
@@ -1784,7 +1784,7 @@
 }
 
 33913 = {
-	name = "Zayn ul-Abidin" # Zayn al-Abidin
+	name = "Zayn_ul_Abidin" # Zayn al-Abidin
 	dynasty = 589
 	religion = "alb_islam" # Was also revered by Sunnis
 	sexuality = heterosexual
@@ -1807,7 +1807,7 @@
 }
 
 33914 = {
-	name = "al-Baqir al-Ulum" # al-Baqir
+	name = "al_Baqir_al_Ulum" # al-Baqir
 	dynasty = 589
 	religion = "alb_islam" # Was also revered by Sunnis
 	culture = "bedouin"
@@ -1828,7 +1828,7 @@
 }
 
 33915 = {
-	name = "Jafar as-Sadiq" # al-Sadiq
+	name = "Jafar_as_Sadiq" # al-Sadiq
 	dynasty = 589
 	religion = "alb_islam" # Was also revered by Sunnis
 	culture = "bedouin"
@@ -1854,8 +1854,8 @@
 	721.1.1 = {
 		birth = "721.1.1"
 	}
-	755.1.1 = {
-		death = "755.1.1"
+	765.12.14 = {
+		death = "765.12.14"
 	}
 }
 
@@ -1920,7 +1920,7 @@
 }
 
 33921 = {
-	name = "Fatimah bint Muhammad" # Fatimah az-Zahra', Daughter of the Prophet Muhammad
+	name = "Fatimah_bint_Muhammad" # Fatimah az-Zahra', Daughter of the Prophet Muhammad
 	female = yes
 	sexuality = heterosexual
 	dynasty_house = house_me_banu_hashim # Hashimid
@@ -1983,7 +1983,7 @@
 	}
 }
 33924 = {
-	name = "Abd al-Muttalib Shaiba" # Abdul Muttalib
+	name = "Abd_al_Muttalib_Shaiba" # Abdul Muttalib
 	dynasty_house = house_me_banu_hashim
 	religion = "pagan"
 	culture = "bedouin"
@@ -2038,7 +2038,7 @@
 }
 
 33927 = {
-	name = "al-Hasan al-Muthanna" # al-Hasan al-Muthanna
+	name = "al_Hasan_al_Muthanna" # al-Hasan al-Muthanna
 	dynasty_house = house_me_banu_hashim
 	give_nickname = nick_me_al_muthanna
 	religion = alb_islam
@@ -5202,7 +5202,7 @@
 }
 
 163011 = {
-	name = "'Amro"
+	name = "_Amro"
 	dynasty_house = house_me_banu_taym # at-Taymī
 	religion = "pagan"
 	culture = "bedouin"
@@ -5234,7 +5234,7 @@
 }
 
 163013 = {
-	name = "Abu Qaḥāfah 'Uthman" # Abu Qaḥāfah 'Uthman, father of Abu Bakr 'as-Siddiq'
+	name = "Abu_Qahafah_Uthman" # Abu Qaḥāfah 'Uthman, father of Abu Bakr 'as-Siddiq'
 	dynasty_house = house_me_banu_taym # at-Taymī
 	religion = "ashari"
 	culture = "bedouin"
@@ -5294,7 +5294,7 @@
 }
 
 163016 = {
-	name = "Abd Shams" # Abd al-Shams ibn Abdul-Manaf, brother of Hashim, the great-grandfather of Prophet Muhammad
+	name = "Abd_Shams" # Abd al-Shams ibn Abdul-Manaf, brother of Hashim, the great-grandfather of Prophet Muhammad
 	dynasty_house = house_me_banu_abd_shams # al-'Abshamī
 	religion = "pagan"
 	culture = "bedouin"
@@ -5326,7 +5326,7 @@
 }
 
 163018 = {
-	name = "Abu al-As"
+	name = "Abu_al-As"
 	dynasty = 597
 	trait = quraysh
 	religion = "pagan"
@@ -5371,7 +5371,7 @@
 }
 
 163021 = {
-	name = "Uthman ibn Affan" # Uthman ibn Affan, Third Sunni Caliph
+	name = "Uthman_ibn_Affan" # Uthman ibn Affan, Third Sunni Caliph
 	dynasty = 597 # Umayyad
 	give_nickname = nick_dhu_nurayn # 'Dhū'n Nurayn' (Possessor of the Two Lights)
 	religion = "ashari"
@@ -5392,7 +5392,7 @@
 }
 
 163022 = {
-	name = "Musa al-Kazim"
+	name = "Musa_al_Kazim"
 	dynasty = 589
 	religion = "imami"
 	culture = "bedouin"
@@ -5417,7 +5417,7 @@
 }
 
 163023 = {
-	name = "Ali al-Ridha"
+	name = "Ali_al_Ridha"
 	dynasty = 589
 	religion = "imami"
 	culture = "bedouin"
@@ -5467,7 +5467,7 @@
 }
 
 163025 = {
-	name = "Ali al-Hadi"
+	name = "Ali_al_Hadi"
 	dynasty = 589
 	religion = "imami"
 	culture = "bedouin"
@@ -5492,7 +5492,7 @@
 }
 
 163026 = {
-	name = "Hassan al-Askari"
+	name = "Hassan_al_Askari"
 	dynasty = 589
 	religion = "imami"
 	culture = "bedouin"
@@ -6041,7 +6041,7 @@
 }
 
 159473 = {
-	name = "'Adi" #
+	name = "_Adi" #
 	dynasty_house = house_me_banu_adi # al-Adawi
 	religion = "pagan"
 	culture = "bedouin"
@@ -6056,7 +6056,7 @@
 	}
 }
 159474 = {
-	name = "Razāḥ" #
+	name = "Razah" #
 	dynasty_house = house_me_banu_adi # al-Adawi
 	religion = "pagan"
 	culture = "bedouin"
@@ -6101,7 +6101,7 @@
 	}
 }
 159477 = {
-	name = "Riyāḥ" #
+	name = "Riyah" #
 	dynasty_house = house_me_banu_adi # al-Adawi
 	religion = "pagan"
 	culture = "bedouin"
@@ -6146,7 +6146,7 @@
 	}
 }
 159480 = {
-	name = "al-Khattāb" # al-Khattāb ibn Nufayl, Father of the Second Sunni Caliph Umar ibn al-Khattab
+	name = "al_Khattab" # al-Khattāb ibn Nufayl, Father of the Second Sunni Caliph Umar ibn al-Khattab
 	dynasty_house = house_me_banu_adi # al-Adawi
 	religion = "pagan"
 	culture = "bedouin"
@@ -6903,7 +6903,7 @@
 	840.1.1 = {
 		birth = "840.1.1"
 	}
-	863.1.1 = {
+	866.1.1 = {
 		death = {
 			death_reason = death_smallpox
 		}

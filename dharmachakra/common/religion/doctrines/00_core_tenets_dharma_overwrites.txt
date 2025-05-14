@@ -2945,10 +2945,14 @@
 
 		parameters = {
 			hostility_override_special_doctrine_is_islamic_faith = 2
+			hostility_override_special_doctrine_is_alb_faith = 1
 			# This parameter is empty; the syncretic religious trigger checks against the doctrine, as that's much clearer in tooltips and allows us to use a unified syncretic trigger per-religion rather than having bitty situational triggers.
 			can_use_islamic_artefacts = yes
 			islamic_syncretic_actor_opinion_active = yes
 			opinion_of_islamic_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+
+
+			
 		}
 
 		traits = {

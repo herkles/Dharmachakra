@@ -88,7 +88,7 @@ asadid026 = { # Muhammad ibn Abdullah
 	culture = "bedouin"
 	religion = "imami" #Placeholder
 	father = asadid021
-	603.1.17 = {
+	609.1.17 = {
 		birth = 603.1.17
 	}
 	684.4.29 = { 
@@ -126,7 +126,7 @@ asadid024 = { #Habiba bint Jahsh
 	}
 }
 asadid023 = { # Abu Ahmad ibn Jahsh
-	name = "Abu Ahmad"
+	name = "Abu_Ahmad"
 	dynasty = me_banu_asad
 	culture = "bedouin"
 	religion = "imami" #Placeholder
@@ -165,7 +165,7 @@ asadid021 = { # Abdullah ibn Jahsh, Prophet Muhammad's brother-in-law
 	religion = "imami" #Placeholder
 	father = asadid018
 	#Need a separate file for his wife
-	586.9.12 = {
+	591.9.12 = {
 		birth = 586.9.12
 	}
 	625.3.23 = { #Martyred in the Battle of Uhud by Akhnas ibn Shariq
@@ -218,7 +218,7 @@ asadid018 = { # Jahsh ibn Riyab, Umaymah bint Abd-ul-Muttalib's husband
 	}
 }
 asadid016 = { #Fictional al-Asadi character, to get the Asadis in the game.
-	name = "Abu Qurrah"
+	name = "Abu_Qurrah"
 	dynasty = me_banu_asad
 	culture = "bedouin"
 	religion = "ashari" #Placeholder

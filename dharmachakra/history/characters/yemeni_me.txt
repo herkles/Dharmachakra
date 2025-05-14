@@ -5,7 +5,6 @@ me_ziyadid_001 = { # Ziyad 'Ibn Abihi', his true ancestery is disputed but he wa
 	give_nickname = nick_ibn_abihi # Ibn Abihi (The Son of his Father) 
 	religion = "ashari"
 	culture = "bedouin"
-	trait = disputed_heritage
 	trait = legitimized_bastard
 	trait = quraysh
 	

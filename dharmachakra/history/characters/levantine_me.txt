@@ -1,0 +1,111 @@
+﻿## Alawite sect founders
+numayrid1 = {
+	name = "Muhammad" # Abu Shu'ayb Muhammad, Founder of the Nusayri Alawites, (by Ace, Muslim Enhancements)
+	dynasty = me_numayri
+	religion = "alawite"
+	culture = levantine
+	trait = zealous
+
+	father = numayrid2
+	824.4.11 = {
+		birth = yes
+	}
+	850.1.6 = {
+		set_relation_rival = character:ishaaq1 # Abu Yaqub Ishaq
+	}
+#	867.1.1 = { # His father had Ali set as his liege, but his father is dead, and Ali has no titles
+#		employer = 163025 # Ali al-Hadi (exists in bedouin.txt)
+#	}
+	868.9.14 = {
+		death = yes
+	}
+}
+
+numayrid2 = {
+	name = "Nusayr" #Father of Abu Shu'ayb Muhammad, (by Ace, Muslim Enhancements)
+	dynasty = me_numayri
+	religion = "imami"
+	culture = levantine
+
+	782.2.5 = {
+		birth = yes
+	}
+	841.12.9 = {
+		death = yes
+	}
+}
+
+ishaaq1 = {
+	name = "Ishaq" # Abu Yaqub Ishaq, Founder of the Ishaqi Alawites, (by Ace, Muslim Enhancements)
+	dynasty = me_ishaaq
+	religion = "alawite"
+	culture = levantine
+	trait = zealous
+
+	826.5.2 = {
+		birth = yes
+	}
+#	867.1.1 = { # He had him set as his liege, but Ali has no titles
+#		employer = 163025 # Ali al-Hadi (exists in bedouin.txt)
+#	}
+	869.1.9 = {
+		death = yes
+	}
+}
+
+## Abbasid Governors
+
+me_abbasid_gov_001 = {
+	name = "al-Abbas" # al-Abbas ibn 'Amr al-Ghanawi, placed as governor of multiple regions under the Abbasids
+	dynasty = me_ghanawi_dynasty
+	religion = "ashari"
+	culture = levantine
+
+	father = me_abbasid_gov_002
+	865.1.1 = {
+		birth = yes
+	}
+	917.1.1 = {
+		death = yes
+	}
+}
+
+me_abbasid_gov_002 = {
+	name = "Amr" # Father of al-Abbas ibn 'Amr al-Ghanawi
+	dynasty = me_ghanawi_dynasty
+	religion = "ashari"
+	culture = levantine
+
+	835.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+me_abbasid_gov_003 = {
+	name = "Abdullah" # Placeholder for Abbasid governor of Bahrain in 901
+	religion = "ashari"
+	culture = levantine
+
+	870.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+
+me_abbasid_gov_004 = {
+	name = "Ibn_Banu" # Abbasid ruler of Bahrain in 903
+	religion = "ashari"
+	culture = levantine
+
+	870.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}

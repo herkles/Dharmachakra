@@ -39,3 +39,5 @@ NOTE: If you are re-installing a mod, delete the old version of the mod first be
 - Rajas of Asia
 - Cybrxkhan
 - Community Title Project
+- cultures expanded
+- Muslim Enhancements

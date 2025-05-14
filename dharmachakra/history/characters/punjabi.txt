@@ -2397,7 +2397,7 @@ ghaznavid_vassal_3 = {
 	}
 }
 hujwiri1 = {
-	name="Syed Ali Data Ganj Bakhsh al-Hujwiri"
+	name="Syed_Ali_Data_Ganj_Bakhsh_al_Hujwiri"
 	dynasty= punj_hujwiri
 	religion= "ashari"
 	culture= "punjabi"

@@ -481,7 +481,25 @@
 		death = "1089.1.1"
 	}
 }
+## Ziri ibn Manad's ancestors
+me_zirid_pre_1 = {
+	name = "Makush" # Mankush ibn Sanhaj al-Asghar, Grandfather of Ziri ibn Manad (As told by Ibn Khaldun)
+	dynasty = me_zirid_pre_dynasty
+	religion = "ashari"
+	culture = baranis
 
+#	father = #### #Sanhaj al-Asghar
+	835.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		employer = 163097 #Aflah ibn Abdal-Wahab Rustamid, closest ruler to the county of Bejaia 
+		move_to_pool = yes #Set him wandering
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
 20930 = {
 	name = "Manad"
 	dynasty = me_zirid_pre_dynasty
@@ -3887,23 +3905,23 @@
 	}
 }
 
-#73309 = { # Moved to maghrebi.txt
-#	name = "Muhammad" # Most likely fictional
-#	dynasty = 12240 # al-Kalbi
-#	religion = "ismaili"
-#	culture = siqilli
-#
-#	father = 159194
-#	1030.1.1 = {
-#		birth = "1030.1.1"
-#	}
-#	1065.1.1 = {
-#		employer = 3096
-#	}
-#	1071.1.1 = {
-#		death = "1071.1.1"
-#	}
-#}
+73309 = { # Moved to maghrebi.txt
+	name = "Muhammad" # Most likely fictional
+	dynasty = 12240 # al-Kalbi
+	religion = "ismaili"
+	culture = siqilli
+
+	father = 159194
+	1030.1.1 = {
+		birth = "1030.1.1"
+	}
+	1065.1.1 = {
+		employer = 3096
+	}
+	1071.1.1 = {
+		death = "1071.1.1"
+	}
+}
 
 73311 = {
 	name = "Hasan"
@@ -5377,8 +5395,6 @@
 	dynasty_house = house_me_khazarids # Banu Khazar
 	religion = "ashari"
 	culture = butr
-	
-
 	father = 1236307 # Khazar ibn Muhammad ibn Khazar, found in in butr.txt
 	864.1.1 = {
 		birth = yes
@@ -5424,7 +5440,7 @@
 }
 
 155120 = {
-	name = "'Atiyya" #ibn Abdallah
+	name = "_Atiyya" #ibn Abdallah
 	dynasty_house = house_me_atiyyids # Banu 'Aṭiyya
 	religion = "ashari"
 	culture = butr
@@ -6100,7 +6116,7 @@
 
 ## Emirs of Bari (More exist in berber_me.txt)
 163094 = {
-	name = "Sawdān" # Sawdān 'al-Māwri', Third emir of Bari
+	name = "Sawdan" # Sawdān 'al-Māwri', Third emir of Bari
 	dynasty = 806 # Sawdānid
 	give_nickname = nick_me_al_mawri # al-Māwri
 	religion = "ashari"
@@ -6565,7 +6581,7 @@
 
 #Barghawata
 168275 = {
-	name = "Tarif al-Matghari" # Tarif al-Matghari, Founder of the Barghawata Dynasty
+	name = "Tarif_al_Matghari" # Tarif al-Matghari, Founder of the Barghawata Dynasty
 	dynasty = 9576 # Barghawata
 	
 	religion = "sufri" # He died a muslim dispite the possibilty of his son claiming prophethood during his lifetime  
@@ -6648,7 +6664,7 @@
 }
 
 168280 = {
-	name = "Abu al-Ansar Abdullah" # Abu al-Ansar Abdullah ibn Abu Ghufayl
+	name = "Abu_al_Ansar_Abdullah" # Abu al-Ansar Abdullah ibn Abu Ghufayl
 	dynasty = 9576 # Barghawata
 	
 	
@@ -6665,10 +6681,8 @@
 }
 
 168281 = {
-	name = "Abu Mansur Isa" # Abu Mansur 'Isa ibn Abu al-Ansar
-	dynasty = 9576 # Barghawata
-	
-	
+	name = "Abu_Mansur_Isa" # Abu Mansur 'Isa ibn Abu al-Ansar
+	dynasty = 9576 # Barghawata	
 	religion = barghawata
 	culture = baranis
 
@@ -6832,13 +6846,24 @@ baranis0013 = {
 }
 
 ##Tripolitania Imamate (more exist in berber_me.txt)
+me_abuhatim_001 = {
+	name = "Labid" # Labid al-Malzūzī
+	dynasty = 1048003 # al-Malzūzī
+	religion = ibadi
+	culture = butr 
+
+	680.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
 210031 = {
-	name = "Abu Hatim Yaqub" # Abū Ḥātim Yaqub ibn Labid al-Malzūzī, Second Ibadi Imam in the Maghreb
+	name = "Abu_Hatim_Yaqub" # Abū Ḥātim Yaqub ibn Labid al-Malzūzī, Second Ibadi Imam in the Maghreb
 	dynasty = 1048003 # al-Malzūzī
 	religion = ibadi
 	culture = butr #Descended from the Maghila berbers
-	
-
 	father = me_abuhatim_001 # Labid al-Malzūzī (exists in berber_me.txt)
 	720.1.1 = {
 		birth = yes
@@ -7445,15 +7470,125 @@ danis0006 = { #fictional
 	}
 }
 
+
+baranis0001 = {
+	name = "Khafaja" # Khafaja ibn Sufyan, Aghlabid Governor of Sicily (862-869)
+	dynasty = salimid # Create Salimid Dynasty
+	religion = "ashari"
+	culture = "baranis"
+	trait = education_martial_1
+
+	father = baranis0005
+
+	810.1.1 = {
+		birth = yes
+	}
+	869.1.1 = {
+		death = yes
+	}
+}
+
+baranis0002 = {
+	name = "Muhammad" # Muhammad ibn Khafaja, Aghlabid Governor of Sicily (869-871)
+	dynasty = salimid
+	religion = "ashari"
+	culture = "baranis"
+	trait = education_diplomacy_3
+
+	father = baranis0001
+
+	832.1.1 = {
+		birth = yes
+	}
+	871.1.1 = {
+		death = yes
+	}
+}
+
+baranis0003 = {
+	name = "Jaffar" # Dja'far ibn Muhammad, Aghlabid Governor of Sicily (875-878)
+	dynasty = salimid
+	religion = "ashari"
+	culture = "baranis"
+	trait = education_intrigue_2
+
+	father = baranis0002
+
+	852.1.1 = {
+		birth = yes
+	}
+	878.1.1 = {
+		death = yes
+	}
+}
+
+baranis0004 = {
+	name = "Sawada" # Sawada ibn Muhammad, Aghlabid Governor of Sicily (885-887 & 890-892)
+	dynasty = salimid
+	religion = "ashari"
+	culture = "baranis"
+	trait = education_diplomacy_2
+
+	father = baranis0002
+
+	854.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+baranis0005 = {
+	name = "Sufyan" # Sufyan ibn Sawada
+	dynasty = salimid
+	religion = "ashari"
+	culture = "baranis"
+
+	father = baranis0006
+
+	773.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		death = yes
+	}
+}
+
+baranis0006 = {
+	name = "Sawada" # Sawada ibn Salim
+	dynasty = salimid
+	religion = "ashari"
+	culture = "baranis"
+
+	748.1.1 = {
+		birth = yes
+	}
+	798.1.1 = {
+		death = yes
+	}
+}
+
+baranis0007 = {
+	name = "Modha" # Modha ibn Sawada
+	dynasty = salimid
+	religion = "ashari"
+	culture = "baranis"
+
+	father = baranis0006
+
+	785.1.1 = {
+		birth = yes
+	}
+	841.1.1 = {
+		death = yes
+	}
+}
 danis0007 = { 
 	name = "Daw_al_sabah" #fictional
-	dna = danis0007_emira_daw
 	female = yes 
 	dynasty = salimid 
-	
 	religion = ashari
 	culture = baranis 
-
 	father = baranis0007 
 
 	martial = 5
@@ -7467,7 +7602,7 @@ danis0007 = {
 	trait = zealous 
 	trait = education_intrigue_3
 	
-	837.1.1 = {
+	831.1.1 = {
 		birth = yes
 	}
 	895.1.1 = {
@@ -8959,7 +9094,7 @@ baranis0078 = {
 	name = "Rahima" # Rahima, name unknown, bint Ali, wife of Emir Hassan ibn Muhammad of Rif (159495)
 	female = yes
 	dynasty_house = house_hammudid # House Hammudid
-	religion = maghrebi
+	religion = ismaili
 	culture = baranis
 	trait = sayyid
 	trait = education_diplomacy_1
@@ -9195,7 +9330,7 @@ baranis0090 = {
 
 	father = baranis0089 # Naib Muhammad ibn Abdallah of Carmona
 
-	1010.1.1 = {
+	1020.1.1 = {
 		birth = yes
 	}
 	1053.1.1 = {

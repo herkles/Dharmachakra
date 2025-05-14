@@ -1,6 +1,5 @@
 ﻿45035 = {
 	name = "Ali"
-	dna = "45035_ali_yemen"
 	dynasty = 590 # Sulayhids
 	martial = 2
 	diplomacy = 4
@@ -9,7 +8,6 @@
 	trait = education_learning_3
 	religion = "ismaili"
 	culture = "yemeni"
-	trait = education_learning_3
 	trait = ambitious
 	trait = patient
 	trait = just

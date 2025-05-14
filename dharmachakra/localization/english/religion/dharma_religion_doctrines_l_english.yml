@@ -51,6 +51,11 @@
  special_doctrine_is_sunni_heresy_desc:0 "Although we are Sunni by definition, our beliefs differ too much from those of the orthodoxy in order for us to consider ourselves as part of the same group, our relations still remain amicable, however."
  doctrine_parameter_hostility_override_special_doctrine_is_sunni_heresy:0 "Considers and is considered by [faiths|E] with the [GetFaithDoctrine('special_doctrine_is_sunni_heresy').GetBaseName] [doctrine|E], to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
 
+ # Ibadism/Wahbism Hostility
+ is_ibadi_faith_name:0 "Ahl al-Istiqama"
+ special_doctrine_is_ibadi_faith_name:0 "Ahl al-Istiqama"
+ special_doctrine_is_ibadi_faith_desc:0 "The distance between our communities may have forced us to adopt different leaders but our core teachings and identity remain the same, it does not matter where we are and who we follow, for in the end we are all Ahl al-Istiqama!"
+ doctrine_parameter_hostility_override_special_doctrine_is_ibadi_faith:0 "Considers and is considered by [faiths|E] with the [GetFaithDoctrine('special_doctrine_is_ibadi_faith').GetBaseName] [doctrine|E], to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
 
 
 

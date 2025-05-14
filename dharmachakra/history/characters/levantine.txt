@@ -5672,7 +5672,7 @@
 }
 
 159481 = {
-	name = "Mayzad al-Asadi al-Nashiri" #
+	name = "Mayzad_al_Asadi_al_Nashiri" #
 	dynasty = 587
 	religion = "ismaili"
 	culture = "levantine"
@@ -5684,7 +5684,7 @@
 	}
 }
 159482 = {
-	name = "Sana al-Dawla Ali" #
+	name = "Sana_al_Dawla_Ali" #
 	dynasty = 587
 	religion = "ismaili"
 	culture = "levantine"
@@ -5697,7 +5697,7 @@
 	}
 }
 159483 = {
-	name = "Abu'l-A'zz Dubays" #
+	name = "Abu_l_A_zz_Dubays" #
 	dynasty = 587
 	religion = "ismaili"
 	culture = "levantine"
@@ -5713,7 +5713,7 @@
 	}
 }
 159484 = {
-	name = "Abu Kamil Mansur" #
+	name = "Abu_Kamil_Mansur" #
 	dynasty = 587
 	religion = "ismaili"
 	culture = "levantine"
@@ -5726,7 +5726,7 @@
 	}
 }
 159485 = {
-	name = "Fakhr al-Din Abu'l Hassan Sadaqa" #
+	name = "Fakhr_al_Din_Abu_l_Hassan_Sadaqa" #
 	dynasty = 587
 	religion = "ismaili"
 	culture = "levantine"
@@ -5739,7 +5739,7 @@
 	}
 }
 159486 = {
-	name = "Abu'l-A'zz Dubays" #
+	name = "Abu_l_A_zz_Dubays" #
 	dynasty = 587
 	religion = "ismaili"
 	culture = "levantine"

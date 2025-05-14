@@ -355,7 +355,7 @@ me_qarmatian_002 = {
 }
 
 me_qarmatian_003 = { 
-	name = "'Arham"
+	name = "_Arham"
 	religion = "qarmatian"
 	culture = "bedouin"
 
@@ -414,7 +414,6 @@ me_abdulqays_003 = {
 		birth = yes
 	}
 	1066.1.1 = {
-		employer = me_abdulqays_001
 		effect  = {
 			# Set up some mutual respect for a good working arrangement.
 			set_relation_friend = {
@@ -459,7 +458,7 @@ me_abdulqays_005 = {
 }
 
 me_abdulqays_006 = { 
-	name = "Yousef az-Zajjaj" 
+	name = "Yousef_az_Zajjaj" 
 	dynasty_house = house_me_banu_zajjaj # Banu az-Zajjaj of the Abd al-Qays tribe
 	religion = "ismaili"
 	culture = "bedouin"
@@ -589,7 +588,7 @@ me_abdulqays_013 = {
 }
 
 me_abdulqays_014 = { 
-	name = "Abu al-Qasim" # Abu al-Qasim ibn Abu al-Aryan, Kin and ex-ally of Abu al-Bahlul
+	name = "Abu_al_Qasim" # Abu al-Qasim ibn Abu al-Aryan, Kin and ex-ally of Abu al-Bahlul
 	dynasty = 1042121 # Banu Abd al-Qays
 	religion = "ismaili"
 	culture = "bedouin"
@@ -607,7 +606,7 @@ me_abdulqays_014 = {
 }
 
 me_abdulqays_015 = { 
-	name = "Abu al-Aryan" 
+	name = "Abu_al_Aryan" 
 	dynasty = 1042121 # Banu Abd al-Qays
 	religion = "ismaili"
 	culture = "bedouin"
@@ -670,7 +669,6 @@ me_karrami_03 = {
 		birth = yes
 	}
 	867.1.1 = {
-		employer = me_karrami_01
 		effect = {
 			learn_language_of_culture = culture:persian
 		}
@@ -1000,7 +998,7 @@ me_hashimid_011 = {
 }
 
 me_hashimid_012 = {
-	name = "Umm Kolthum" # Umm Kolthum, daughter of Ali and Fatima .
+	name = "Umm_Kolthum" # Umm Kolthum, daughter of Ali and Fatima .
 	dynasty_house = house_me_banu_hashim
 	female = yes
 	religion = "alb_islam"
@@ -1021,7 +1019,7 @@ me_hashimid_012 = {
 }
 
 me_hashimid_013 = {
-	name = "'Awn" # 'Awn, son of Abdullah ibn Ja'afar at-Tayar and Zaynab bint Ali.
+	name = "_Awn" # 'Awn, son of Abdullah ibn Ja'afar at-Tayar and Zaynab bint Ali.
 	dynasty_house = house_me_banu_hashim
 	religion = "alb_islam"
 	culture = "bedouin"
@@ -1151,7 +1149,7 @@ me_hashimid_019 = {
 }
 
 me_hashimid_020 = {
-	name = "Umm Kulthūm" #Umm Kulthūm, Daughter of Prophet Muhammad
+	name = "Umm_Kulthum" #Umm Kulthūm, Daughter of Prophet Muhammad
 	dynasty_house = house_me_banu_hashim
 	female = yes
 	religion = "alb_islam"
@@ -1228,7 +1226,7 @@ me_umayyads_001 = {
 
 ## Banu Taym - Qurashi House
 me_taymi_01 = {
-	name = "Ṣakhr"
+	name = "Sakhr"
 	dynasty_house = house_me_banu_taym # at-Taymī
 	religion = "pagan"
 	culture = "bedouin"
@@ -1244,7 +1242,7 @@ me_taymi_01 = {
 }
 
 me_taymi_02 = {
-	name = "Umm al-Khayr Salma" # Umm al-Khayr, mother of Abu Bakr 'as-Siddiq' the First Sunni Caliph 
+	name = "Umm_al_Khayr_Salma" # Umm al-Khayr, mother of Abu Bakr 'as-Siddiq' the First Sunni Caliph 
 	female = yes
 	dynasty_house = house_me_banu_taym # at-Taymī
 	religion = "ashari"
@@ -1296,7 +1294,7 @@ me_taymi_04 = {
 }
 
 me_taymi_05 = {
-	name = "Umm Farwa Fatima" # Umm Farwa, Great grandaughter of Abu Bakr, Wife of Muhammad al-Baqir, and mother of Ja'far as-Sadiq
+	name = "Umm_Farwa_Fatima" # Umm Farwa, Great grandaughter of Abu Bakr, Wife of Muhammad al-Baqir, and mother of Ja'far as-Sadiq
 	female = yes
 	dynasty_house = house_me_banu_taym # at-Taymī
 	religion = alb_islam
@@ -1329,7 +1327,7 @@ me_taymi_06 = {
 }
 
 me_taymi_07 = {
-	name = "Umm Farwa" # Half-Sister of Abu Bakr al-Siddiq
+	name = "Umm_Farwa" # Half-Sister of Abu Bakr al-Siddiq
 	dynasty_house = house_me_banu_taym # at-Taymī
 	female = yes
 	religion = "ashari"
@@ -1452,7 +1450,7 @@ me_abshami_001 = {
 }
 
 me_abshami_002 = {
-	name = "ar-Rabi'" # ar-Rabīʿ ibn Abdul-Uzza al-ʿAbshamī
+	name = "ar-Rabi_" # ar-Rabīʿ ibn Abdul-Uzza al-ʿAbshamī
 	dynasty_house = house_me_banu_abd_shams # al-'Abshamī
 	religion = "pagan"
 	culture = "bedouin"
@@ -1468,7 +1466,7 @@ me_abshami_002 = {
 }
 
 me_abshami_003 = {
-	name = "Abu al-'As"  # Abū al-ʿĀṣ ibn al-Rabī al-ʿAbshamī, Son-in-law of Prophet Muhammad and Husband of Zainab
+	name = "Abu_al__As"  # Abū al-ʿĀṣ ibn al-Rabī al-ʿAbshamī, Son-in-law of Prophet Muhammad and Husband of Zainab
 	dynasty_house = house_me_banu_abd_shams # al-'Abshamī
 	religion = ashari
 	culture = "bedouin"
@@ -1651,7 +1649,7 @@ me_aghlabid_009 = {
 
 ## Kinda Tribe
 alkindi1 = {
-	name = "Ya'qūb" # Abu Yusuf Ya'qub al-Kindi
+	name = "Ya_qub" # Abu Yusuf Ya'qub al-Kindi
 	dynasty = me_alkindi
 	culture = "levantine"
 	religion = "ashari"
@@ -1674,7 +1672,7 @@ alkindi1 = {
 }
 
 alkindi2 = {
-	name = "Isḥāq"
+	name = "Ishaq"
 	dynasty = me_alkindi
 	culture = "levantine"
 	religion = "ashari"
@@ -1704,7 +1702,7 @@ me_kinda_023 = {
 }
 
 me_kinda_001 = {
-	name = "aṣ-Ṣabbāḥ"
+	name = "as_Sabbah"
 	dynasty = me_alkindi
 	culture = "levantine"
 	religion = "ashari"
@@ -1862,7 +1860,7 @@ me_kinda_010 = {
 }
 
 me_kinda_011 = {
-	name = "'Adi"
+	name = "_Adi"
 	dynasty = me_alkindi
 	culture = "south_arabian"
 	religion = "pagan"
@@ -1907,7 +1905,7 @@ me_kinda_013 = {
 }
 
 me_kinda_014 = {
-	name = "Mu'awaiyah al-'Akramin"
+	name = "Mu_awaiyah_al__Akramin"
 	dynasty = me_alkindi
 	culture = "south_arabian"
 	religion = "pagan"
@@ -1922,7 +1920,7 @@ me_kinda_014 = {
 }
 
 me_kinda_015 = {
-	name = "al-Harith al-Aṣghar"
+	name = "al_Harith_al_Asghar"
 	dynasty = me_alkindi
 	culture = "south_arabian"
 	religion = "pagan"
@@ -1952,7 +1950,7 @@ me_kinda_016 = {
 }
 
 me_kinda_017 = {
-	name = "al-Harith al-Akbar"
+	name = "al_Harith_al_Akbar"
 	dynasty = me_alkindi
 	culture = "south_arabian"
 	religion = "pagan"
@@ -1997,7 +1995,7 @@ me_kinda_019 = {
 }
 
 me_kinda_020 = {
-	name = "Marta'"
+	name = "Marta_"
 	dynasty = me_alkindi
 	culture = "south_arabian"
 	religion = "pagan"

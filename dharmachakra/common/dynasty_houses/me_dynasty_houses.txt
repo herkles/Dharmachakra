@@ -68,7 +68,3 @@ house_sistan_nasrids = {
 	dynasty = 812 #saffarids
 }
 
-me_removed_house = { # For fictional extentions of dynasties to be placed in when they are removed
-	name = "dynn_me_removed"
-	dynasty = me_removed_dynasty
-}
