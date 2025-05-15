@@ -143,7 +143,7 @@
 
 }
 
-# 4840 - MOSUL
+# 4840 - MOSUL c_mosul
 4840 = {	# 4840 - Mosul	
 	# Misc
 	culture = assyrian
@@ -283,7 +283,7 @@
 
 }
 
-# 4853 - RAS_AL-AIN
+# 4853 - RAS_AL-AIN c_upper_khabur
 4853 = {	# 4853 - Ras al-ain, Upper Khabur
 	
 	#Misc
@@ -416,8 +416,8 @@
 	
 	# History
 	1066.1.1 = {
-		culture = culture:syriac
-		religion = faith:orthodox
+		culture = syriac
+		religion = orthodox
 	}
 	1144.1.1 = {
 		culture = levantine

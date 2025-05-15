@@ -7051,10 +7051,10 @@ zartosht_4 = {
 }
 
 me_isfahani_001 = { 
-	name = "Abu al-Fadl" # Abu al-Fadl al-Isfahani
+	name = "Abu_al_Fadl" # Abu al-Fadl al-Isfahani
 	dynasty = me_isfahanid_dynasty
 	give_nickname = nick_isfahanist_mahdi # al-Mahdi al-Isfahani
-	religion = "isfahani"
+	religion = "qarmatian"
 	culture = "persian"
 
 	911.1.1 = {

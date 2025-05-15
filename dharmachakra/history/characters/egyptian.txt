@@ -1,30 +1,30 @@
-﻿144092 = {
-	name = "Al-Mu_izz_Ismail"
-	dynasty = 24000
-	religion = "ashari"
-	culture = "egyptian"
-	father = 32916
-	1168.1.1 = {
-		birth = "1168.1.1"
-	}
-	1202.1.1 = {
-		death = "1202.1.1"
-	}
-}
+﻿# 144092 = {
+# 	name = "Al-Mu_izz_Ismail"
+# 	dynasty = 24000
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 32916
+# 	1168.1.1 = {
+# 		birth = "1168.1.1"
+# 	}
+# 	1202.1.1 = {
+# 		death = "1202.1.1"
+# 	}
+# }
 
-144093 = {
-	name = "An-Nasir"
-	dynasty = 24000
-	religion = "ashari"
-	culture = "egyptian"
-	father = 32916
-	1169.1.1 = {
-		birth = "1169.1.1"
-	}
-	1203.1.1 = {
-		death = "1203.1.1"
-	}
-}
+# 144093 = {
+# 	name = "An-Nasir"
+# 	dynasty = 24000
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 32916
+# 	1169.1.1 = {
+# 		birth = "1169.1.1"
+# 	}
+# 	1203.1.1 = {
+# 		death = "1203.1.1"
+# 	}
+# }
 
 20739 = {
 	name = "Salahaddin"
@@ -506,75 +506,75 @@
 	}
 }
 
-32914 = {
-	name = "ad-Dawla_Turanshah"
-	dynasty = 24000
-	religion = "ashari"
-	culture = "egyptian"
-	father = 226053
-	1146.1.1 = {
-		birth = "1146.1.1"
-	}
-	1184.1.1 = {
-		death = "1184.1.1"
-	}
-}
-32915 = {
-	name = "Abu_Sa_id_Buri"
-	dynasty = 24000
-	religion = "ashari"
-	culture = "egyptian"
-	father = 226053
-	1147.1.1 = {
-		birth = "1147.1.1"
-	}
-	1184.1.1 = {
-		death = "1184.1.1"
-	}
-}
+# 32914 = {
+# 	name = "ad-Dawla_Turanshah"
+# 	dynasty = 24000
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 226053
+# 	1146.1.1 = {
+# 		birth = "1146.1.1"
+# 	}
+# 	1184.1.1 = {
+# 		death = "1184.1.1"
+# 	}
+# }
+# 32915 = {
+# 	name = "Abu_Sa_id_Buri"
+# 	dynasty = 24000
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 226053
+# 	1147.1.1 = {
+# 		birth = "1147.1.1"
+# 	}
+# 	1184.1.1 = {
+# 		death = "1184.1.1"
+# 	}
+# }
 
-32916 = {
-	name = "Tughtekin"
-	dynasty = 24000
-	religion = "ashari"
-	culture = "egyptian"
-	father = 226053
-	1148.1.1 = {
-		birth = "1148.1.1"
-	}
-	1197.1.1 = {
-		death = "1197.1.1"
-	}
-}
+# 32916 = {
+# 	name = "Tughtekin"
+# 	dynasty = 24000
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 226053
+# 	1148.1.1 = {
+# 		birth = "1148.1.1"
+# 	}
+# 	1197.1.1 = {
+# 		death = "1197.1.1"
+# 	}
+# }
 
 
-32917 = {
-	name = "Ghazi"
-	dynasty = 24000
-	religion = "ashari"
-	culture = "egyptian"
-	father = 226000
-	1172.1.1 = {
-		birth = "1172.1.1"
-	}
-	1216.10.8 = {
-		death = "1216.10.8"
-	}
-}
+# 32917 = {
+# 	name = "Ghazi"
+# 	dynasty = 24000
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 226000
+# 	1172.1.1 = {
+# 		birth = "1172.1.1"
+# 	}
+# 	1216.10.8 = {
+# 		death = "1216.10.8"
+# 	}
+# }
 
-32918 = {
-	name = "Khider" #Aleppo
-	dynasty = 24000
-	religion = "ashari"
-	culture = "egyptian"
-	father = 226000
-	1177.1.1 = {
-		birth = "1177.1.1"
-	}
-	1216.10.8 = {
-		death = "1216.10.8"
-	}
-}
+# 32918 = {
+# 	name = "Khider" #Aleppo
+# 	dynasty = 24000
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 226000
+# 	1177.1.1 = {
+# 		birth = "1177.1.1"
+# 	}
+# 	1216.10.8 = {
+# 		death = "1216.10.8"
+# 	}
+# }
 
 32919 = {
 	name = "Da_ud"
@@ -1712,6 +1712,12 @@
 	father = extra_tulunids_5
 	835.9.20 = {
 		birth = "835.9.20"
+		effect = {
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_1
+			}
+		}
 	}
 	884.3.1 = {
 		death = "884.3.1"

@@ -2883,7 +2883,9 @@ d_bahrain = {
 	1020.1.1 = {
 		holder = qarm012 
 	}
-
+	1060.1.1 = {
+		holder = 0 
+	}
 	### The Uyunids
 	1079.1.1 = {
 		government = tribal_government #HFC Bedouin

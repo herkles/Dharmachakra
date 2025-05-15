@@ -215,6 +215,11 @@
  tat_prefix: "Shirvano"
  tat_collective_noun: "Shirvanis"
 
+ udi: "Udi"
+ udi_name: "Udi"
+ udi_prefix: "Udi"
+ udi_collective_noun: "Udis"
+
 # Turkic Culture Group
  khalaj:0 "Khalaj"
  khalaj_name:0 "Khalaj"
@@ -276,6 +281,10 @@
  mandaic_prefix: "Mandeo"
  mandaic_collective_noun: "Mandaics"
 
+ nabati:0 "Nabati"
+ nabati_name:0 "Nabati"
+ nabati_prefix:0 "Nabati"
+ nabati_collective_noun:0 "Nabati"
 
  syriac: "Syriac"
  syriac_name: "Syriac"

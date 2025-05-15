@@ -53,5 +53,6 @@
   # Burmese Languages
     language_pyu_name:0 "Pyu"
     language_mon_name:0 "Mon"
-  # Munda Languages
+  # Other Languages
     language_munda_name:0 "Munda"
+    language_udi_name:0 "Udi"

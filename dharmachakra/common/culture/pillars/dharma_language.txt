@@ -928,11 +928,6 @@ language_palaungic = {
 			LANGUAGE = language_palaungic
 		}
 	}
-	parameters = {
-		language_group_palaungic = yes
-		language_family_austroasiatic = yes
-	}
-
 	ai_will_do = {
 		value = 10
 		if = {
@@ -943,4 +938,21 @@ language_palaungic = {
 
 	color = { 106 91 140 }
 }
+language_udi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_udi
+		}
+	}
 
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_udi }
+			multiply = 10
+		}
+	}
+
+	color = { 106 91 140 }
+}

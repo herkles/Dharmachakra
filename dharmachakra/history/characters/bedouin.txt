@@ -2193,12 +2193,6 @@
 		birth = "820.1.1"
 	}
 	855.1.1 = {
-		effect = {
-			vassal_contract_set_obligation_level = {
-				type = religious_rights
-				level = 1
-			}
-		}
 	}	
 	870.1.1 = {
 		death = "870.1.1"
@@ -9779,7 +9773,7 @@ bedouin0005 = {
 	}
 }
 bedouin0006 = {
-	name = "al-Malik"
+	name = "al_Malik"
 	dynasty = bedouindyn001
 	religion = ashari
 	culture = bedouin
@@ -11066,7 +11060,7 @@ bedouin0092 = {
 	}
 }
 bedouin0093 = {
-	name = "SalI_m"
+	name = "Salim"
 	dynasty = bedouindyn011 #Salim line of Harb
 	religion = "ashari"
 	culture = "bedouin"

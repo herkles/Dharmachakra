@@ -3951,19 +3951,19 @@ me_zirid_pre_1 = {
 	}
 }
 
-#73315 = { # Moved to maghrebi.txt
-#	name = "Abdallah" # Fictional
-#	dynasty = 12241
-#	religion = "ashari"
-#	culture = siqilli
-#	father = 73314
-#	1090.1.1 = {
-#		birth = "1090.1.1"
-#	}
-#	1127.1.1 = {
-#		death = "1127.1.1"
-#	}
-#}
+73315 = { # Moved to maghrebi.txt
+	name = "Abdallah" # Fictional
+	dynasty = 12241
+	religion = "ashari"
+	culture = siqilli
+	father = 73314
+	1090.1.1 = {
+		birth = "1090.1.1"
+	}
+	1127.1.1 = {
+		death = "1127.1.1"
+	}
+}
 
 155000 = {
 	name = "Ibrahim"

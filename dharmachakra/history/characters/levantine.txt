@@ -2705,8 +2705,15 @@
 		add_prestige_level = 2
 		add_piety_level = 2
 		add_gold = 400
-		learn_language_of_culture = culture:kurdish
-		learn_language_of_culture = culture:turkish
+		effect = {
+			learn_language_of_culture = culture:kurdish
+			learn_language_of_culture = culture:turkish
+
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_1
+			}
+		}
 	}
 	1193.3.4 = {
 		death = "1193.3.4"
@@ -5752,7 +5759,7 @@
 	}
 }
 159487 = {
-	name = "Sayf-al-Dawla Sadaqa" #
+	name = "Sayf_al_Dawla_Sadaqa" #
 	dynasty = 587
 	religion = "ismaili"
 	culture = "levantine"

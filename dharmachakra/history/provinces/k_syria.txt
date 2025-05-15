@@ -67,8 +67,8 @@
 	
 	# History
 	1066.1.1 = {
-		culture = culture:syriac
-		religion = faith:orthodox
+		culture = syriac
+		religion = orthodox
 	}
 	1320.1.1 = { culture = levantine }
 
@@ -276,7 +276,7 @@
 
 }
 
-# 5915 - SHAIZAR
+# 5915 - SHAIZAR shayzar
 5915 = {	# 5915 - Shaizar
 	
 	# Misc
@@ -397,7 +397,7 @@
 
 }
 
-# 5926 - BAALBAK
+# 5926 - BAALBAK baalbek
 5926 = {	# 5926 - Baalbak
 	
 	# Misc

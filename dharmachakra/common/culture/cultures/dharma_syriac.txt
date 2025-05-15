@@ -33,6 +33,7 @@ nabati = {
 	heritage = heritage_syriac
 	language = language_aramaic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 
 	traditions = {
 		tradition_agrarian 			# Soraya: Associated strongly with farming, and their culture considered farming the most noble profession
@@ -58,7 +59,8 @@ syriac = {
 	parents = { roman } #+Aramean
 	
 	history_loc_override = syriac_history_loc
-	
+	head_determination = head_determination_domain
+
 	ethos = ethos_spiritual
 	heritage = heritage_syriac
 	language = language_aramaic
@@ -89,7 +91,8 @@ mandaic = {
 	parents = { syriac }
 	
 	history_loc_override = mandaic_history_loc
-	
+	head_determination = head_determination_domain
+
 	ethos = ethos_spiritual
 	heritage = heritage_syriac
 	language = language_aramaic

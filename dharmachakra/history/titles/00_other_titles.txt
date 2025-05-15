@@ -1981,25 +1981,25 @@ d_imami = {
 	}		
 }
 
-d_alawi = {
+# d_alawi = {
 	
-	866.12.1 = { 
-		holder = numayrid1
-	}
-	868.9.15 = {
-		holder = 0
-	}			
-}
+# 	866.12.1 = { 
+# 		holder = numayrid1
+# 	}
+# 	868.9.15 = {
+# 		holder = 0
+# 	}			
+# }
 
-d_ishaqiya = {
+# d_ishaqiya = {
 	
-	866.12.1 = { 
-		holder = ishaaq1
-	}
-	869.1.10 = {
-		holder = 0
-	}			
-}
+# 	866.12.1 = { 
+# 		holder = ishaaq1
+# 	}
+# 	869.1.10 = {
+# 		holder = 0
+# 	}			
+# }
 
 d_shiite = {
 	#610.1.1 = {

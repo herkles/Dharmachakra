@@ -731,8 +731,8 @@
 6003 = {	# 6003 - Niffar
 	
 	#Misc
-		religion = faith:south_mesopotamian_pagan
-		culture = culture:nabati
+		religion = south_mesopotamian_pagan
+		culture = nabati
 	
 	# History
 	1066.1.1 = { 
@@ -756,8 +756,8 @@
 6005 = {	# 6005 - Ar-Rusafa-Iraq
 	
 	# Misc
-	religion = faith:south_mesopotamian_pagan
-	culture = culture:nabati
+	religion = south_mesopotamian_pagan
+	culture = nabati
 	
 	# History
 	1066.1.1 = { 
