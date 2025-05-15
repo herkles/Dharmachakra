@@ -294,6 +294,94 @@ tradition_sengunthar_caste = {# Sengunthar
 		value = 400
 	}
 }
+
+################################
+# Culture Expanded Traditions 
+################################
+tradition_tabari_isolation = {
+	category = regional
+
+	layers = {
+		0 = steward
+ 		1 = mena
+ 		4 = fierce_independence.dds
+	}
+	is_shown = {
+		NOT = { has_cultural_tradition = tradition_forest_folk }
+		NOT = { has_cultural_tradition = tradition_hill_dwellers }
+		NOT = { has_cultural_tradition = tradition_mountain_homes }
+		has_cultural_pillar = heritage_iranian
+		OR = {
+ 			this = culture:mazandarani
+			this = culture:gilani
+			this = culture:taleshi
+			this = culture:daylamite
+ 			any_parent_culture_or_above = {
+ 				this = culture:mazandarani
+				this = culture:gilani
+				this = culture:taleshi
+				this = culture:daylamite
+ 			}
+		}
+	}
+	can_pick = {
+		NOR = { #Cant be taken if already isolationist or outwards looking
+			has_cultural_tradition = tradition_religion_blending
+			has_cultural_tradition = tradition_culture_blending
+			has_cultural_tradition = tradition_xenophilic
+			has_cultural_tradition = tradition_isolationist
+		}
+	}
+
+	parameters = {
+		monolithic_culture_feature = yes
+		harder_to_hybridize = yes
+		harder_to_convert_county_culture_without_heritage = yes
+		logging_camps_building_bonuses = yes
+		mountains_hunt_success_chance = yes
+	}
+	culture_modifier = {
+		cultural_acceptance_gain_mult = -0.1
+	}	
+	county_modifier = {
+		monthly_county_control_decline_factor = 0.15
+	}	
+	character_modifier = {
+		different_culture_opinion = -5
+		opinion_of_liege = -10
+		forest_advantage = 2
+		forest_travel_danger = -30
+		mountains_advantage = 2
+		mountains_travel_danger = -20
+		ai_boldness = 10
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_stoic_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = { value = 100 }
+}
 ################################
 # RICE Traditions 
 ################################

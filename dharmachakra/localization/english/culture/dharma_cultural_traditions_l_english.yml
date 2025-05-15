@@ -30,3 +30,9 @@
 
   tradition_RICE_stepwells_name:0 "Stepwell Builders"
   tradition_RICE_stepwells_desc:0 "Stepwells are sturdy wells with a corridor of steps that descend to the water level, that provide dependable water for agriculture but also serve as places of worship, leisure, and bathing. Though they are built by many cultures from the Indian subcontinent, this culture is known for building many such stepwells, including some of the largest ones in the region."
+
+  # CE Traditions
+
+ tradition_tabari_isolation_name: "Tabari Isolation"
+ tradition_tabari_isolation_desc: "Separated from the rest of Iran by the Alborz Mountain Range, Tabaristan has remained a fiercely independent region where the Iranian traditions of old are being kept alive.\n\nHaving adapted to the uniquely forested and mountainous terrain, the Tabari are ready to preserve or regain their independence from foreign conquerors at any given time."
+

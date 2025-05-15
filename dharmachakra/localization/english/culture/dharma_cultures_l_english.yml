@@ -190,6 +190,31 @@
  turco_hephthalite_collective_noun:0 "Haytals"
  turco_hephthalite_prefix:0 "Haytal"
 
+ semnani: "Semnani"
+ semnani_name: "Semnani"
+ semnani_prefix: "Semnano"
+ semnani_collective_noun: "Semnanis"
+
+ mazandarani: "Mazanderani"
+ mazandarani_name: "Mazanderani"
+ mazandarani_prefix: "Mazanderano"
+ mazandarani_collective_noun: "Mazanderanis"
+
+ gilani: "Gilak"
+ gilani_name: "Gilak"
+ gilani_prefix: "Gilako"
+ gilani_collective_noun: "Gileks"
+
+ adhari: "Adhari"
+ adhari_name: "Adhari"
+ adhari_prefix: "Adhari"
+ adhari_collective_noun: "Adharis"
+ 
+ tat: "Shirvani"
+ tat_name: "Shirvani"
+ tat_prefix: "Shirvano"
+ tat_collective_noun: "Shirvanis"
+
 # Turkic Culture Group
  khalaj:0 "Khalaj"
  khalaj_name:0 "Khalaj"
@@ -245,4 +270,21 @@
  south_arabian_prefix:0 "Mahro"
  south_arabian_collective_noun:0 "Mahris"
  
+# Syriac Cultures
+ mandaic: "Mandaic"
+ mandaic_name: "Mandaic"
+ mandaic_prefix: "Mandeo"
+ mandaic_collective_noun: "Mandaics"
+
+
+ syriac: "Syriac"
+ syriac_name: "Syriac"
+ syriac_prefix: "Syriac"
+ syriac_collective_noun: "Syriacs"
+
+
+
+
+
+
 

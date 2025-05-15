@@ -1,0 +1,116 @@
+﻿assyrian = {
+	color = assyrian
+	
+	ethos = ethos_communal
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_philosopher_culture
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+# New Cultures Iranian.
+nabati = {
+	color = { 100 108 125 }
+	ethos = ethos_stoic # Hard work considered virtuous
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_agrarian 			# Soraya: Associated strongly with farming, and their culture considered farming the most noble profession
+		tradition_isolationist 		# Soraya: Known for being non-adventurous
+		tradition_medicinal_plants 	# Soraya: Medieval Iraq was known for its medicine
+		tradition_religion_blending # Soraya: Local faiths blended pagan and Abrahamic beliefs
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		10 = arab
+	}
+}
+syriac = {
+	color = { 167 97 28 }
+	created = 300.1.1
+	parents = { roman } #+Aramean
+	
+	history_loc_override = syriac_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_dryland_dwellers
+		tradition_loyal_soldiers
+		tradition_city_keepers
+
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		5 = arab
+		10 = turkic_west
+	}
+}
+mandaic = {
+	color = assyrian
+	created = 100.1.1
+	parents = { syriac }
+	
+	history_loc_override = mandaic_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_faith_bound
+		tradition_staunch_traditionalists
+
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		5 = arab
+		10 = turkic_west
+	}
+}

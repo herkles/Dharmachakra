@@ -23,7 +23,7 @@
 	name = "Umayma" # Muhammad's paternal aunt
 	female = yes
 	dynasty_house = house_me_banu_hashim
-	religion = "pagan" #Placeholder
+	religion = "arabic_pagan" #Placeholder
 	trait = quraysh
 
 	culture = "bedouin"
@@ -683,7 +683,7 @@ me_quraysh_001 = {
 	name = "Harb" #Harb ibn Umayyah, Father of Abu Sufyan
 	dynasty = 597 #Umayyad
 	trait = quraysh
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 
 	father = 163017 # Umayyah (exists in bedouin.txt)
@@ -699,7 +699,7 @@ me_quraysh_002 = {
 	name = "Ka'ab" # Ka'ab ibn Lu'ay, the seventh grandfather to Prophet Muhammad
 	dynasty = 7296 # al-Qurashī
 	trait = quraysh
-	religion = "pagan" # Hanifiyah
+	religion = "arabic_pagan" # Hanifiyah
 	culture = "bedouin"
 
 	father = me_quraysh_003
@@ -715,7 +715,7 @@ me_quraysh_003 = {
 	name = "Lu'ay" # Lu'ay ibn Ghalib, the eighth grandfather to Prophet Muhammad
 	dynasty = 7296 # al-Qurashī
 	trait = quraysh
-	religion = "pagan" # Hanifiyah
+	religion = "arabic_pagan" # Hanifiyah
 	culture = "bedouin"
 
 	260.1.1 = { # He was supposedly born in 20 AD and died in 100 AD, but it doesn't fit in with the game's dates
@@ -729,7 +729,7 @@ me_quraysh_003 = {
 me_quraysh_004 = {
 	name = "Abd" # Abd ibn Qusay
 	dynasty = 7296 # al-Qurashī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -745,7 +745,7 @@ me_quraysh_004 = {
 me_quraysh_005 = {
 	name = "Bujayr"
 	dynasty = 7296 # al-Qurashī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -761,7 +761,7 @@ me_quraysh_005 = {
 me_quraysh_006 = {
 	name = "Nuqayd"
 	dynasty = 7296 # al-Qurashī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -1228,7 +1228,7 @@ me_umayyads_001 = {
 me_taymi_01 = {
 	name = "Sakhr"
 	dynasty_house = house_me_banu_taym # at-Taymī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -1436,7 +1436,7 @@ me_adawi_005 = {
 me_abshami_001 = {
 	name = "Abdul-Uzza" # Abdul-Uzza ibn Abd al-Shams
 	dynasty_house = house_me_banu_abd_shams # al-'Abshamī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -1452,7 +1452,7 @@ me_abshami_001 = {
 me_abshami_002 = {
 	name = "ar-Rabi_" # ar-Rabīʿ ibn Abdul-Uzza al-ʿAbshamī
 	dynasty_house = house_me_banu_abd_shams # al-'Abshamī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -1818,7 +1818,7 @@ me_kinda_008 = {
 	name = "Ma'dikarib"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_009
 	530.1.1 = {
@@ -1833,7 +1833,7 @@ me_kinda_009 = {
 	name = "Mu_awiyah"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_010
 	500.1.1 = {
@@ -1848,7 +1848,7 @@ me_kinda_010 = {
 	name = "Jablah"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_011
 	470.1.1 = {
@@ -1863,7 +1863,7 @@ me_kinda_011 = {
 	name = "_Adi"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_012
 	440.1.1 = {
@@ -1878,7 +1878,7 @@ me_kinda_012 = {
 	name = "Rabi'ah"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_013
 	410.1.1 = {
@@ -1893,7 +1893,7 @@ me_kinda_013 = {
 	name = "Rabi'ah"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_014
 	380.1.1 = {
@@ -1908,7 +1908,7 @@ me_kinda_014 = {
 	name = "Mu_awaiyah_al__Akramin"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_015
 	350.1.1 = {
@@ -1923,7 +1923,7 @@ me_kinda_015 = {
 	name = "al_Harith_al_Asghar"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_016
 	320.1.1 = {
@@ -1938,7 +1938,7 @@ me_kinda_016 = {
 	name = "Mu_awiyah"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_017
 	290.1.1 = {
@@ -1953,7 +1953,7 @@ me_kinda_017 = {
 	name = "al_Harith_al_Akbar"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_018
 	260.1.1 = {
@@ -1968,7 +1968,7 @@ me_kinda_018 = {
 	name = "Mu_awiyah"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_019
 	230.1.1 = {
@@ -1983,7 +1983,7 @@ me_kinda_019 = {
 	name = "Thawr"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_020
 	200.1.1 = {
@@ -1998,7 +1998,7 @@ me_kinda_020 = {
 	name = "Marta_"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_021
 	170.1.1 = {
@@ -2013,7 +2013,7 @@ me_kinda_021 = {
 	name = "Mu_awiyah"
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 	father = me_kinda_022
 	140.1.1 = {
@@ -2028,7 +2028,7 @@ me_kinda_022 = {
 	name = "Kindah" # Forefather of the Kinda Tribe
 	dynasty = me_alkindi
 	culture = "south_arabian"
-	religion = "pagan"
+	religion = "arabic_pagan"
 
 #	father = ### Kindah has several disputed lineages
 	110.1.1 = {
@@ -2062,7 +2062,7 @@ me_ibadi_001 = {
 me_ibadi_002 = {
 	name = "Wahb" # Wahb ar-Rasibi, Father of the first Ibadi leader Abdullah ar-Rasibi
 	dynasty = me_ar_rasibi # ar-Rasibi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	550.1.1 = {
 		birth = yes

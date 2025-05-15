@@ -1970,7 +1970,7 @@
 33923 = {
 	name = "Abdullah"
 	dynasty_house = house_me_banu_hashim
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -1985,7 +1985,7 @@
 33924 = {
 	name = "Abd_al_Muttalib_Shaiba" # Abdul Muttalib
 	dynasty_house = house_me_banu_hashim
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -2001,7 +2001,7 @@
 33925 = {
 	name = "Hashim" # Founder of the great Hashemite dynasty
 	dynasty_house = house_me_banu_hashim
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = "twin"
 	trait = quraysh
@@ -2193,7 +2193,6 @@
 		birth = "820.1.1"
 	}
 	855.1.1 = {
-		employer = bedouin00162
 		effect = {
 			vassal_contract_set_obligation_level = {
 				type = religious_rights
@@ -5091,7 +5090,7 @@
 163004 = {
 	name = "Abd_Manaf"
 	dynasty = 7296 # al-Qurashī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5107,7 +5106,7 @@
 163005 = {
 	name = "Qusay"
 	dynasty = 7296 # al-Qurashī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5123,7 +5122,7 @@
 163006 = {
 	name = "Kilab"
 	dynasty = 7296 # al-Qurashī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5139,7 +5138,7 @@
 163007 = {
 	name = "Murrah" # Murrah ibn Ka'ab
 	dynasty = 7296 # al-Qurashī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5155,7 +5154,7 @@
 163008 = {
 	name = "Taym"
 	dynasty_house = house_me_banu_taym # at-Taymī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5172,7 +5171,7 @@
 163009 = {
 	name = "Sa'ad"
 	dynasty_house = house_me_banu_taym # at-Taymī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5188,7 +5187,7 @@
 163010 = {
 	name = "Ka'ab"
 	dynasty_house = house_me_banu_taym # at-Taymī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5204,7 +5203,7 @@
 163011 = {
 	name = "_Amro"
 	dynasty_house = house_me_banu_taym # at-Taymī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5220,7 +5219,7 @@
 163012 = {
 	name = "Amer"
 	dynasty_house = house_me_banu_taym # at-Taymī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -5296,7 +5295,7 @@
 163016 = {
 	name = "Abd_Shams" # Abd al-Shams ibn Abdul-Manaf, brother of Hashim, the great-grandfather of Prophet Muhammad
 	dynasty_house = house_me_banu_abd_shams # al-'Abshamī
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = "twin"
 	trait = quraysh
@@ -5314,7 +5313,7 @@
 	name = "Umayyah"
 	dynasty = 597
 	trait = quraysh
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	father = 163016
 	490.1.1 = {
@@ -5329,7 +5328,7 @@
 	name = "Abu_al-As"
 	dynasty = 597
 	trait = quraysh
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	father = 163017
 	530.1.1 = {
@@ -5359,7 +5358,7 @@
 	name = "Affan"
 	dynasty = 597
 	trait = quraysh
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	father = 163018
 	550.1.1 = {
@@ -6043,7 +6042,7 @@
 159473 = {
 	name = "_Adi" #
 	dynasty_house = house_me_banu_adi # al-Adawi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -6058,7 +6057,7 @@
 159474 = {
 	name = "Razah" #
 	dynasty_house = house_me_banu_adi # al-Adawi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -6073,7 +6072,7 @@
 159475 = {
 	name = "Qurt" #
 	dynasty_house = house_me_banu_adi # al-Adawi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -6088,7 +6087,7 @@
 159476 = {
 	name = "Abdullah" #
 	dynasty_house = house_me_banu_adi # al-Adawi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -6103,7 +6102,7 @@
 159477 = {
 	name = "Riyah" #
 	dynasty_house = house_me_banu_adi # al-Adawi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -6118,7 +6117,7 @@
 159478 = {
 	name = "Abdul-Uzza" #
 	dynasty_house = house_me_banu_adi # al-Adawi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -6133,7 +6132,7 @@
 159479 = {
 	name = "Nufayl" #
 	dynasty_house = house_me_banu_adi # al-Adawi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 
@@ -6148,7 +6147,7 @@
 159480 = {
 	name = "al_Khattab" # al-Khattāb ibn Nufayl, Father of the Second Sunni Caliph Umar ibn al-Khattab
 	dynasty_house = house_me_banu_adi # al-Adawi
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	trait = quraysh
 

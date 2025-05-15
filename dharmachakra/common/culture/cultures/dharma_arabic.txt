@@ -1,5 +1,4 @@
 ﻿# Vanilla Cultures
-
 bedouin = {
 	color = bedouin
 	

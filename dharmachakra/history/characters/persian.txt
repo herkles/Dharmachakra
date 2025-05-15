@@ -7050,7 +7050,23 @@ zartosht_4 = {
 	}
 }
 
+me_isfahani_001 = { 
+	name = "Abu al-Fadl" # Abu al-Fadl al-Isfahani
+	dynasty = me_isfahanid_dynasty
+	give_nickname = nick_isfahanist_mahdi # al-Mahdi al-Isfahani
+	religion = "isfahani"
+	culture = "persian"
 
+	911.1.1 = {
+		birth = yes
+	}
+	931.3.21 = {
+		death = {
+			death_reason = death_execution
+			killer = qarm005 # Abu Tahir Sulayman ibn Hasan al-Jannabi
+		}
+	}
+}
 
 
 

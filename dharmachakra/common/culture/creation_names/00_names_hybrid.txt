@@ -1580,25 +1580,4 @@ mappila = {# Mappila People: Arab + Malayali/Tamil in Kerela
 	}
 	hybrid = yes
 }
-huna = {# Huna People: Central Asian Invaders that stayed in Idia.
-	trigger = {
-		OR = {
-			AND = {
-				scope:culture = { has_cultural_pillar = heritage_indo_aryan }
-				scope:other_culture = culture:saka
-			}
-			AND = {
-				scope:culture = culture:saka
-				scope:other_culture = { has_cultural_pillar = heritage_indo_aryan }
-			}
-		}
-		any_sub_realm_county = {
-			OR = {
-				culture = scope:culture
-				culture = scope:other_culture
-			}
-		}
-	}
-	hybrid = yes
-}
 

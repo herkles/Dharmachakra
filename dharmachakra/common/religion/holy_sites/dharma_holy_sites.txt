@@ -725,7 +725,43 @@ taungbyone = {
 		prowess_per_piety_level = 1
 	}
 }
+#######################################
+# Semitic Holy Sites
+#######################################
+harran = {
+	county = c_harran
+	character_modifier = {
+		name = holy_site_harran_effect_name
+		monthly_lifestyle_xp_gain_mult = 0.05
+		learning = 1
+	}
+}
+giza = {
+	county = c_giza
+	character_modifier = {
+		name = holy_site_giza_effect_name
+		build_gold_cost = -0.15
+	}
+}
+petra = {
+	county = c_negev
+	barony = b_baidha-petra
+	character_modifier = {
+		name = holy_site_petra_effect_name
+		domain_tax_mult = 0.01
+		development_growth_factor = 0.1
+	}
+}
+marib = {
+    county = c_jawf-al-yamani
+	barony = b_baraqish
 
+	character_modifier = {
+		name = holy_site_marib_effect_name
+		build_speed = -0.1
+		monthly_prestige_gain_mult = 0.05
+	}
+}
 #######################################
 # Muslim Holy Sites
 #######################################

@@ -26,10 +26,18 @@
 
 #Holy Sites: Bon
 
-# Holy Sites: Islam
+# Holy Sites: Semitic
+ holy_site_harran_name:1 "Harran"
+ holy_site_harran_effect_name:0 "From [holy_site|E] #weak ($holy_site_harran_name$)#!"
 
+ holy_site_giza_name:1 "Giza"
+ holy_site_giza_effect_name:0 "From [holy_site|E] #weak ($holy_site_giza_name$)#!"
 
+ holy_site_petra_name:1 "Petra"
+ holy_site_petra_effect_name:0 "From [holy_site|E] #weak ($holy_site_petra_name$)#!"
 
+ holy_site_marib_name:0 "Marib"
+ holy_site_marib_effect_name:0 "From [holy_site|E] #weak ($holy_site_marib_name$)#!"
 
 
 

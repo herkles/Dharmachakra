@@ -99,10 +99,12 @@
 
 ###c_damghan
 4026 = {	#Damghan
-	culture = persian
+	culture = semnani
 	religion = mazdayasna	
 	holding = castle_holding
-	1060.1.1 = {
+	
+	1060.1.1 = {#
+		culture = tajik
 		religion = maturidi
 	}
 }

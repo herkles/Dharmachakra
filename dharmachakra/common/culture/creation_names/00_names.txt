@@ -1387,66 +1387,6 @@ maithili = {
 		}
 	}
 }
-dhundari = {
-	trigger = {
-		OR = {
-			capital_county = {
-				title:d_ajmer = {
-					is_de_jure_liege_or_above_target = prev
-				}
-			}
-			has_primary_title = title:d_ajmer
-		}
-		culture = culture:rajput
-		any_sub_realm_county = {
-			culture = culture:rajput
-			duchy = title:d_ajmer
-		}
-	}
-}
-mewari = {
-	trigger = {
-		OR = {
-			capital_county = {
-				title:d_medapata = {
-					is_de_jure_liege_or_above_target = prev
-				}
-			}
-			has_primary_title = title:d_medapata
-		}
-		culture = culture:rajput
-		any_sub_realm_county = {
-			culture = culture:rajput
-			duchy = title:d_medapata
-		}
-	}
-}
-marwari = {
-	trigger = {
-		OR = {
-			capital_county = {
-				title:d_maru = {
-					is_de_jure_liege_or_above_target = prev
-				}
-			}
-			capital_county = {
-				title:d_stravani = {
-					is_de_jure_liege_or_above_target = prev
-				}
-			}
-			has_primary_title = title:d_maru
-			has_primary_title = title:d_stravani
-		}
-		culture = culture:rajput
-		any_sub_realm_county = {
-			culture = culture:rajput
-			OR = {
-				duchy = title:d_maru
-				duchy = title:d_stravani
-			}
-		}
-	}
-}
 nimadi = {
 	trigger = {
 		OR = {
@@ -1484,23 +1424,6 @@ kathiawari = {
 		any_sub_realm_county = {
 			culture = culture:gujarati
 			duchy = title:d_anartta
-		}
-	}
-}
-kumaoni = {# Kumaoni people of Nepal. 
-	trigger = {
-		OR = {
-			capital_county = {
-				title:d_kurmanchal = {
-					is_de_jure_liege_or_above_target = prev
-				}
-			}
-			has_primary_title = title:d_kurmanchal
-		}
-		culture = culture:nepali
-		any_sub_realm_county = {
-			culture = culture:nepali
-			duchy = title:d_kurmanchal
 		}
 	}
 }
@@ -1552,40 +1475,6 @@ tharu = {# Tharu people
 		any_sub_realm_county = {
 			culture = culture:nepali
 			duchy = title:d_tirabhukti
-		}
-	}
-}
-haryanvi = {# Haryanvi people 
-	trigger = {
-		OR = {
-			capital_county = {
-				title:d_haritanaka = {
-					is_de_jure_liege_or_above_target = prev
-				}
-			}
-			has_primary_title = title:d_haritanaka
-		}
-		culture = culture:braj
-		any_sub_realm_county = {
-			culture = culture:braj
-			duchy = title:d_haritanaka
-		}
-	}
-}
-chamka = {# Chamka people also includes the Tanchangya People
-	trigger = {
-		OR = {
-			capital_county = {
-				title:d_arakan = {
-					is_de_jure_liege_or_above_target = prev
-				}
-			}
-			has_primary_title = title:d_arakan
-		}
-		culture = culture:bengali
-		any_sub_realm_county = {
-			culture = culture:bengali
-			duchy = title:d_arakan
 		}
 	}
 }

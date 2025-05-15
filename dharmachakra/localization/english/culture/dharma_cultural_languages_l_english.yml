@@ -35,6 +35,13 @@
     language_kurukh_name:0 "Kurukh"
   # Iranian Languages
     language_pamiri_name:0 "Pamiri"
+    language_mazandarani_name: "Mazandarani"
+    language_semnani_name: "Semnani"
+    language_gilaki_name: "Gilaki"
+    language_adhari_name: "Adhari"
+
+
+
 
   # Tibetan Languages
     language_tani_name:0 "Tani"
@@ -47,4 +54,4 @@
     language_pyu_name:0 "Pyu"
     language_mon_name:0 "Mon"
   # Munda Languages
-  language_munda_name:0 "Munda"
+    language_munda_name:0 "Munda"
