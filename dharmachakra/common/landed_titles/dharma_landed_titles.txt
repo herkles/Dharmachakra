@@ -29,39 +29,32 @@ d_wahbiya = {
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = no
 }
-d_alawi = {
-	color = { 20 10 40 }
-	# color2 = { 20 0 20 }
-	definite_form = yes
-	ruler_uses_title_name = yes
-	no_automatic_claims = no
-	always_follows_primary_heir = yes
-	destroy_if_invalid_heir = no
+d_tayyibi = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 70 102 74 }
+	colored_emblem={
+		color1=black
+		color2=black
+		texture="ce_arabic_ali.dds"
+		instance={ scale={ 0.840000 0.840000 } }
+	}
 }
-d_ishaqiya = {
-	color = { 5 15 55 }
-	# color2 = { 0 20 40 }
-	definite_form = yes
-	ruler_uses_title_name = yes
-	no_automatic_claims = no
-	always_follows_primary_heir = yes
-	destroy_if_invalid_heir = no
-}
+#######################################
+# Landless titles
+#######################################
+# Muslim Landless
+d_laamp_me_karrami = me_karrami_dynasty # Ibn Karram
+d_laamp_me_maghrawa = house_me_khazarids # The Maghrawa Berber clan
+d_laamp_me_kindi = bedouin_kinda # al-Kindi
+d_laamp_me_tujibid = house_me_Tujibid # Grandfather of the scholar Abu Umar al-Kindi
+d_laamp_sevener_caliph = 589 # Fatimid Hidden Imam
+d_laamp_me_idrisid = house_hammudid # Muhammad al-Idrisi's son
+d_laamp_me_ganjavid = me_ganjavid_dynasty # Nizami Ganjavid
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Zoroastrian Landless
+# Jewish Landless
+# Hindu Landless
+# Jain Landless
+# Buddhist Landless
+# Tibetan Landless
 

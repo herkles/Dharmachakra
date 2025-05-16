@@ -341,9 +341,31 @@
  ishaqiya_religious_head_title:0 "Imam"
  ishaqiya_religious_head_title_name:0 "Ishaaqi Imamate"
 
+ mustali_main_name:0 "Schismed Isma'ilism"
+ special_doctrine_mustali_main_name:0 "Schismed Isma'ilism"
+ special_doctrine_mustali_main_desc:0 "The succession of the Caliphate became muddy with the death of al-Amir and disappearance of his son, now the Musta'li Isma'ilis have become divided on who our leaders and guiders should be."
+ doctrine_parameter_mustali_main_effects_active:0 "[faiths|E] with [GetFaithDoctrine('special_doctrine_mustali_schismed_sect').GetBaseName] [doctrine|E] gain [EmptyScope.ScriptValue('mustali_schismed_sect_conversion_bonus_root_value')|=-%0] conversion speed against this [faith|E]"
+ doctrine_parameter_hostility_override_special_doctrine_mustali_schismed_sect:0 "Considers [faiths|E] with [GetFaithDoctrine('special_doctrine_mustali_schismed_sect').GetBaseName] [doctrine|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
 
+ #Musta'li Schism - Sect
+ mustali_schismed_sect_name:0 "The Musta'li Schism"
+ special_doctrine_mustali_schismed_sect_name:0 "The Musta'li Schism"
+ special_doctrine_mustali_schismed_sect_desc:0 "The succession of the Caliphate became muddy with the death of al-Amir and disappearance of his son, now the Musta'li Isma'ilis have become divided on who our leaders and guiders should be."
+ doctrine_parameter_mustali_schismed_sect_effects_active:0 "[EmptyScope.ScriptValue('mustali_schismed_sect_conversion_bonus_root_value')|=+%0] conversion speed against the [GetFaithByKey('ismaili').GetAdjective] [faith|E]"
+ doctrine_parameter_hostility_override_special_doctrine_mustali_main:0 "Considers [faiths|E] with the [GetFaithDoctrine('special_doctrine_mustali_main').GetBaseName] [doctrine|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
 
-
+ #Tayyibism
+ tayyibi:0 "Tayyibism"
+ tayyibi_adj:0 "Tayyibi"
+ tayyibi_adherent:0 "Tayyibi"
+ tayyibi_adherent_plural:0 "Tayyibis"
+ tayyibi_desc:0 "Tayyibism asserts that the true line of succession to the Caliphate is through al-Amir's son, at-Tayyib, who is believed to have been sent into seclusion and that a line of Imams continues through him in hiding, in their absence the Tayyibis are led by the Unrestricted Missionary (ad-Da'i al-Mutlaq) who holds the highest spiritual office."
+ d_tayyibi:0 "Tayyibi Mission"
+ d_tayyibi_adj:0 "Tayyibi"
+ tayyibi_religious_head_title:0 "[CHARACTER.Custom('ME_DaiMutlaq')]"
+ tayyibi_religious_head_title_name:0 "The Tayyibi Mission"
+ dai_mutlaq_male:0 "Da'i al-Mutlaq"
+ dai_mutlaq_female:0 "Da'iah al-Mutlaqah"
 
 
 

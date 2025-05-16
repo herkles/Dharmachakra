@@ -1,0 +1,117 @@
+﻿#######################################
+# Tributaries
+#######################################
+setup_dharma_tributaries_effect = {
+	if = {
+		if = {
+    		limit = { current_date < 1066.9.15 } # so, 867
+    		dharma_867_tributary_setup_effect = yes
+    	}
+    	else_if = {
+    		limit = { current_date = 1066.9.15 }
+        	dharma_1066_tributary_setup_effect = yes
+    	}
+    }
+}
+dharma_867_tributary_setup_effect = {
+	character:190009 = {# Pala Empire's Tributaries
+		save_scope_as = suzerain
+		character:191407 = {# Nagpuri tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:190095 = {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:190047 = {# Mlechha
+		save_scope_as = suzerain
+		character:kachari006 = {# Kachari tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:kachari021 = {# Kachari tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:191587 = {# Kachari tribal lord
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+}
+dharma_1066_tributary_setup_effect = {
+	character:190082 = {# Bhauma Pala King and his tribal lords
+		save_scope_as = suzerain
+		character:kachari020 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:kachari013 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:kachari013 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:kachari027 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:191591 = {# Kachari tribal Lords
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:190209 = {# Cedi Tribal Vassals
+		save_scope_as = suzerain
+		character:191368 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:191347 = {# Haihaya Bhukti Tribal Vassals
+		save_scope_as = suzerain
+		character:gondi007 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:189196 = {# Somavamsi Tribal Vassals
+		save_scope_as = suzerain
+		character:chikiti_ganga_4 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:190017 = {# Pala Tribal Vassals
+		save_scope_as = suzerain
+		character:191075 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+	character:burman001 = {# Burman Tribal Vassals
+		save_scope_as = suzerain
+		character:burman013 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		character:burman011 = {# 
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+}
+#######################################
+# Shia Imamate set up
+#######################################
+shia_imamates_startup_effect = { #Made to keep the history files of these titles gapless
+	title:d_shiite.holder = { destroy_title = title:d_shiite }
+	title:d_imami.holder = { destroy_title = title:d_imami }
+	title:d_laamp_twelver_caliph.holder = { destroy_title = title:d_laamp_twelver_caliph }
+	character:33920 = { # Hussayn 'Abdullah ar-Radi'
+		title:d_laamp_sevener_caliph = { set_title_name = d_hidden_imamate }
+		change_government = landless_adventurer_government
+	}
+	character:163025 = { # Ali 'al-Hadi'
+		death = { death_reason = imam_hide}
+	}
+	character:163026 = { # Hassan 'al-Askari'
+		death = { death_reason = imam_hide}
+	}
+	character:00004447 = { # Narjis
+		death = { death_reason = imam_hide}
+	}
+}
+
+
+
+
+

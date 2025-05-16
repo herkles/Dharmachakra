@@ -1,0 +1,201 @@
+﻿#######################################
+# 867 Landless
+#######################################
+d_laamp_me_karrami = { # Ibn Karram, Founder of the Karramiyya Sect
+	867.1.1 = {
+		liege = 0
+		holder = me_karrami_01 # Ibn Karram
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+d_laamp_me_maghrawa = { # The Maghrawa Berber clan
+	867.1.1 = {
+		liege = 0
+		holder = 1236307 # Khazar ibn Muhammad
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+d_laamp_me_zirid_pre = { # Ziri ibn Manad's Grandfather
+	867.1.1 = {
+		liege = 0
+		holder = me_zirid_pre_1 # Mankush ibn Sanhaj al-Asghar
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+d_laamp_me_kindi = { # al-Kindi
+	867.1.1 = {
+		liege = 0
+		holder = alkindi1 # al-Kindi
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+d_laamp_me_tujibid = { # at-Tujibi
+	867.1.1 = {
+		liege = 0
+		holder = me_tujibid_036 # Ya'qub ibn Ḥafṣ at-Tujibi, Grandfather of the scholar Abu Umar al-Kindi
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+d_laamp_me_ibn_durayd = { # Ibn Durayd
+	867.1.1 = {
+		liege = 0
+		holder = me_azdid_055 # Muhammad 'Ibn Durayd'
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+#######################################
+# 1066 Landless
+#######################################
+d_laamp_me_balnubi = { # al-Balnubi
+	1066.1.1 = {
+		liege = 0
+		holder = me_balnubi_01 # al-Balnubi
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1100.1.1 = {
+		holder = 0
+	}
+}
+d_laamp_me_ibn_al_qatta = { # Ibn al-Qatta' al-Aghlabi
+	1066.6.1 = {
+		liege = 0
+		holder = me_aghlabid_017
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+#######################################
+# 1178 Landless
+#######################################
+d_laamp_me_idrisid = { # Muhammad al-Idrisi's son
+	1178.1.1 = {
+		liege = 0
+		holder = me_idrisid_008 # Abdullah ibn Muhammad al-Idrisi
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+d_laamp_me_ganjavid = { # Nizami Gangavi
+	1178.1.1 = {
+		liege = 0
+		holder = me_ganjavid_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+d_laamp_me_ea_cats = {# Ya'qub 'Qamar ad-Din' Dibyazah
+	1178.1.1 = {
+		liege = 0
+		holder = me_ea_cat_001 # Ya'qub 'Qamar ad-Din' Dibyazah
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	1179.1.1 = {
+		holder = 0
+	}
+}

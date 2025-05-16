@@ -28,6 +28,28 @@ house_me_ziyadid = { # House Ziyadid - Umayyads
 		instance={ position={ 0.500000 0.490000 } scale={ 0.360000 0.360000 } }
 	}
 }
+dynn_Ziyadid = { # House Ziyadid - Umayyads 
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=yellow
+	colored_emblem={
+		color1=yellow
+		color2=black
+		texture="ce_rubh_el_hizb_flower.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.590000 0.590000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_rubh_el_hizb_iranian_frame.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.750000 0.750000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_arabic_allah_kufic.dds"
+		instance={ position={ 0.500000 0.490000 } scale={ 0.360000 0.360000 } }
+	}
+}
 
 7296  = { # Bani Quraysh 
 	pattern = "pattern_solid.dds"
@@ -179,6 +201,34 @@ house_ukhaidhirid = {
 	colored_emblem={
 		color1=white
 		color2=green
+		texture="ce_crescent_mask.dds"
+		instance={ position={ 0.500000 0.530000 } scale={ 0.400000 0.400000 } }
+	}
+}
+dynn_Ukhaidhirid = {
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	colored_emblem={
+		color1=white
+		color2=green
+		texture="ce_circle_mask.dds"
+		instance={ scale={ 0.350000 0.350000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_circle_mask.dds"
+		instance={ scale={ 0.780000 0.780000 } depth=3.010000 }
+	}
+	colored_emblem={
+		color1=green
+		color2=white
+		texture="ce_star_07.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.900000 0.900000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=green
+		color2=white
 		texture="ce_crescent_mask.dds"
 		instance={ position={ 0.500000 0.530000 } scale={ 0.400000 0.400000 } }
 	}

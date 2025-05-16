@@ -23,7 +23,7 @@ house_me_banu_abd_shams = {
 	forced_coa_religiongroup = "muslim"
 }
 
-### Umayyad Houses ###
+## Umayyad Houses ###
 house_me_ziyadid = { # dynasty was known as (1042165)
 	name = "dynn_Ziyadid" # Ziyadid
 	dynasty = 597 # Umayyads
@@ -63,8 +63,8 @@ house_me_uyunids = { # al-Uyuni, The Uyunid Dynasty
 
 ##
 
-house_sistan_nasrids = {
-	name = "dynn_Nasrid"
-	dynasty = 812 #saffarids
-}
+# house_sistan_nasrids = {
+# 	name = "dynn_Nasrid"
+# 	dynasty = 812 #saffarids
+# }
 

@@ -4,7 +4,6 @@
 	}
 }
 
-
 # Like on_game_start, except it is called once the host (or player, in single player) exits the lobby. Good for anything where you need to know who the players are, or what the game rules are
 dharma_setup_after_game_start_on_actions = {
 	events = {
@@ -135,7 +134,196 @@ dharma_setup_after_game_start_on_actions = {
 			}
 	        title:b_lhasa.title_province = { add_special_building = potala_palace_02 } #9237
 		}
-
-
+		# Setting pre-sectarian islamic faiths to non-convertable
+		
+		if = {# Shia imamates and making
+			limit = { game_start_date = 867.1.1 }
+			shia_imamates_startup_effect = yes
+		}
+		if = {# wazir of Uwal set up
+			limit = { game_start_date = 1066.9.15 }
+			title:c_kouga = { set_county_faith = faith:wahbiya }
+			## Setup the Wazir of Uwal
+			character:me_abdulqays_001 = {
+				designate_diarch = character:me_abdulqays_003
+				try_start_diarchy = vizierate
+				set_variable = {
+					name = my_vizier
+					value = character:me_abdulqays_003
+				}
+			}
+			remove_generated_diarch_consequences_effect = {
+				NEW_DIARCH = character:me_abdulqays_003
+				LIEGE = character:me_abdulqays_001
+			}
+		}
+		if = {# Setting up the Ismaili schism 
+			limit = { game_start_date = 1178.10.1 }
+			## Setup for the Musta'li schism
+			faith:ismaili = { add_doctrine = special_doctrine_mustali_main }
+			faith:hafizi = { add_doctrine = special_doctrine_mustali_schismed_sect }
+			faith:tayyibi = { add_doctrine = special_doctrine_mustali_schismed_sect }
+		}
+		if = {# adding cultures and faiths to the Persian Struggle
+			limit = { exists = struggle:persian_struggle }
+			# cultures
+			if = {# turco_hephthalite
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:turco_hephthalite } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:turco_hephthalite }
+			}
+			if = {# hephthalite
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:hephthalite } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:hephthalite }
+			}
+			if = {# Pamiri
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:pamiri } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:pamiri }
+			}
+			if = {# Parsim
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:parsim } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:parsim }
+			}
+			if = {# Bavlim
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:bavlim } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:bavlim }
+			}
+			if = {# Assyrian
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:assyrian } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:assyrian }
+			}
+			if = {# Nabati
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:nabati } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:nabati }
+			}
+			if = {# Mazandarani
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:mazandarani } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:mazandarani }
+			}
+			if = {# Semnani
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:semnani } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:semnani }
+			}			
+			if = {# Adhari
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:adhari } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:adhari }
+			}
+			if = {# Gilani
+				limit = {
+					NOT = { struggle:persian_struggle = { is_culture_involved_in_struggle = culture:gilani } }
+				}
+				struggle:persian_struggle = { set_culture_as_involved = culture:gilani }
+			}
+			# Faiths
+			if = {# karrami
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:karrami } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:karrami }
+			}
+			if = {# Rabbinism
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:rabbinism } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:rabbinism }
+			}
+			if = {# Karaite Judaism
+				limit = {
+					NOT = { struggle:iberian_struggle = { is_faith_involved_in_struggle = faith:karaism } }
+				}
+				struggle:iberian_struggle = { set_faith_as_involved = faith:karaism }
+			}
+			if = {# Zunism
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:zun_pagan } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:zun_pagan }
+			}
+			if = {# Nuristani
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:nuristani_pagan } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:nuristani_pagan }
+			}
+			if = {# Manicheanism
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:manichean } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:manichean }
+			}
+			if = {# Mandeaism
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:mandeaism } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:mandeaism }
+			}
+			if = {# Yazidi
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:yazidi } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:yazidi }
+			}
+			if = {# Meshefaresim
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:meshefaresism } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:meshefaresism }
+			}
+			if = {# kitebacilweism
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:kitebacilweism } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:kitebacilweism }
+			}
+			if = {# Harranian Pagan
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:harranian_pagan } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:harranian_pagan }
+			}
+			if = {# Shamsi Pagan
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:shamsi_pagan } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:shamsi_pagan }
+			}
+			if = {# gayomarthianism
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:gayomarthianism } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:gayomarthianism }
+			}
+			if = {# zurvanism
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:zurvanism } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:zurvanism }
+			}
+			if = {# south_mesopotamian_pagan
+				limit = {
+					NOT = { struggle:persian_struggle = { is_faith_involved_in_struggle = faith:south_mesopotamian_pagan } }
+				}
+				struggle:persian_struggle = { set_faith_as_involved = faith:south_mesopotamian_pagan }
+			}
+		}
 	}
 }

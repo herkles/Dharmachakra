@@ -132,7 +132,34 @@ is_alb_faith = {
 		}
 	}
 }
+#Musta'li Schism doctrines
+mustali_main = { # Added to Isma'ilism to give schism effects
+	group = "special"
+	
+	is_available_on_create = {
+		always = no
+	}
 
+	special_doctrine_mustali_main = {
+		parameters = {
+			hostility_override_special_doctrine_mustali_schismed_sect = 0
+		}
+	}
+}
+
+mustali_schismed_sect = { # Added to Isma'ili sects to give schism effects
+	group = "special"
+	
+	is_available_on_create = {
+		always = no # For now
+	}
+
+	special_doctrine_mustali_schismed_sect = {
+		parameters = {
+			hostility_override_special_doctrine_mustali_main = 0
+		}
+	}
+}
 
 
 

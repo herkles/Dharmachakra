@@ -291,7 +291,15 @@
  syriac_prefix: "Syriac"
  syriac_collective_noun: "Syriacs"
 
+# Other Cultures
 
+ teimani:0 "Teimani"
+ teimani_prefix:0 "Teimani"
+ teimani_collective_noun:0 "Teimanis"
+
+ parsim:0 "Parsim"
+ parsim_prefix:0 "Parsi"
+ parsim_collective_noun:0 "Parsims"
 
 
 
