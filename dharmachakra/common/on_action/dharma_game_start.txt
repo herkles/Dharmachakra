@@ -135,7 +135,6 @@ dharma_setup_after_game_start_on_actions = {
 	        title:b_lhasa.title_province = { add_special_building = potala_palace_02 } #9237
 		}
 		# Setting pre-sectarian islamic faiths to non-convertable
-		
 		if = {# Shia imamates and making
 			limit = { game_start_date = 867.1.1 }
 			shia_imamates_startup_effect = yes
@@ -325,5 +324,8 @@ dharma_setup_after_game_start_on_actions = {
 				struggle:persian_struggle = { set_faith_as_involved = faith:south_mesopotamian_pagan }
 			}
 		}
+
+
+		
 	}
 }

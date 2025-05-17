@@ -96,13 +96,16 @@
 
 }
 
-# 4788 - BADARAYA
+# 4788 - BADARAYA c_badaraya
 4788 = {	#Misc
 	culture = levantine
 	religion = imami
 	
 	# History
-	
+	1066.1.1 = { 
+		religion = imami 
+	}
+
 
 }
 
@@ -208,13 +211,16 @@
 	}		
 }
 
-# 4797 - ISKAF
+# 4797 - ISKAF c_iskaf
 4797 = {	#Misc
 	culture = levantine
 	religion = imami
 	
 	# History
-	
+	1066.1.1 = {
+		religion = imami
+
+	}
 
 }
 
@@ -305,6 +311,7 @@
 	}
 	1066.1.1 = {
 		culture = levantine
+		religion = nestorian
 	}
 }
 
@@ -370,7 +377,7 @@
 
 }
 
-# 4820 - AT-TIB
+# 4820 - AT-TIB c_tib
 4820 = {	#Misc
 	culture = mandaic
 	religion = mandeaism
@@ -379,13 +386,15 @@
 
 }
 
-# 4821 - WASIT
+# 4821 - WASIT c_wasit
 4821 = {	# 4821 - Wasit
 	# Misc
 	culture = mandaic
 	religion = mandeaism
 	
 	# History
+
+
 }
 
 # 4822 - KASKAR
@@ -485,7 +494,7 @@
 
 }
 
-# 4829 - AL-ANBAR
+# 4829 - AL-ANBAR c_anbar
 4829 = {	#Misc
 	culture = assyrian
 	religion = zayidi
@@ -493,16 +502,19 @@
 	# History
 	1066.1.1 = {
 		culture = levantine
+		religion = zayidi
 	}
 }
 
-# 4830 - KARBALA
+# 4830 - KARBALA c_karbala
 4830 = {	#Misc
 	culture = levantine
 	religion = zayidi
 	
 	# History
-	
+	1066.1.1 = {
+		religion = zayidi
+	}
 
 }
 
@@ -604,7 +616,7 @@
 	1066.1.1 = { religion = imami}
 }
 
-# 5993 - AN-NAJAF
+# 5993 - AN-NAJAF c_kufa
 5993 = {	# 5993 - An-Najaf
 	
 	# Misc
@@ -627,7 +639,7 @@
 	}
 }
 
-# 5994 - AL-QADISIYA
+# 5994 - AL-QADISIYA c_qadisiya
 5994 = {	# 5994 - Al-Qadisiya
 	#Misc
 	culture = bedouin
@@ -686,7 +698,7 @@
 
 }
 
-# 6000 - WAQISA
+# 6000 - WAQISA c_waqisa
 6000 = {	# 6000 - Waqisa
 	
 	#Misc
@@ -727,7 +739,7 @@
 
 }
 
-# 6003 - NIFFAR
+# 6003 - NIFFAR c_batiha
 6003 = {	# 6003 - Niffar
 	
 	#Misc
@@ -752,7 +764,7 @@
 
 }
 
-# 6005 - AR-RUSAFA-IRAQ
+# 6005 - AR-RUSAFA-IRAQ c_rusafa
 6005 = {	# 6005 - Ar-Rusafa-Iraq
 	
 	# Misc
@@ -819,7 +831,7 @@
 	}
 }
 
-# 6020 - AL-UBULLA
+# 6020 - AL-UBULLA c_ubulla
 6020 = {	# 6020 - Al-Ubulla
 	# Misc
 	culture = nabati

@@ -55,7 +55,7 @@
 	}
 }
 
-# 1191 - Bannu
+# 1191 - Bannu c_bannu
 1191 = {	# 1191 - Bannu
 	
 	# Misc
@@ -174,7 +174,7 @@
 	
 	# History
 	1000.1.1 = {
-		religion = ismaili
+		religion = imami
 	}
 }
 
@@ -757,7 +757,7 @@
 
 }
 
-# 4521 - Urgun
+# 4521 - Urgun c_urgun
 4521 = {	# 4521 - Urgun
 	
 	# Misc
@@ -804,7 +804,7 @@
 
 }
 
-# 4517 - Loralai
+# 4517 - Loralai c_kalat
 4517 = {# 4517 - Loralai
 	
 	# Misc
@@ -813,7 +813,7 @@
 	
 	# History
 	1000.1.1 = {
-		religion = ashari
+		religion = imami
 	}
 }
 

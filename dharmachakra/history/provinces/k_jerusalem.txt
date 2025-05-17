@@ -273,7 +273,7 @@
 
 }
 
-# 5980 - KERAK
+# 5980 - KERAK c_kerak
 5980 = {	# 5980 - Kerak
 	# Misc
 	culture = bedouin

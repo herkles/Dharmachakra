@@ -253,6 +253,9 @@
 	culture = south_arabian
 	religion = ibadi
 	holding = tribal_holding
+	1066.1.1 = {
+		religion = ibadi
+	}
 }
 
 ###c_socotra
@@ -271,6 +274,7 @@
 	religion = ibadi
 	holding = tribal_holding
 	1066.1.1 = {
+		religion = ibadi
 		holding = castle_holding
 	}
 }

@@ -369,12 +369,21 @@
 
 
 
+ zayidi_religious_head_title:0 "Imam"
+ zayidi_religious_head_title_name:0 "Zayidi Imamate"
 
+ d_ibadi:0 "The Ibadi Imamate"
+ d_ibadi_adj:0 "Ibadi"
+ ibadi_religious_head_title:0 "Imam"
+ ibadi_religious_head_title_name:0 "Ibadi Imamate"
 
+ d_wahbiya:0 "Wahbi Imamate"
+ d_wahbiya_adj:0 "Wahbi"
 
-
-
-
+ d_barghawata:0 "The Barghawata Iserate"
+ d_barghawata_adj:0 "Barghawata"
+ barghawata_religious_head_title:0 "Iser"
+ barghawata_religious_head_title_name:0 "Barghawata Iserate"
 
 
 

@@ -11,16 +11,23 @@
 
 }
 
-# 4811 - NINAWA
+# 4811 - NINAWA c_ninive
 4811 = {	# 4811 - Ninawa, Ninive
 	# Misc
 	culture = assyrian
 	religion = kitebacilweism
 	
 	# History
-	1066.1.1 = { religion = nestorian }
-	1120.1.1 = { religion = ashari }
-	1200.1.1 = { religion = yazidi }
+	1066.1.1 = { 
+		culture = assyrian
+		religion = nestorian 
+	}
+	1178.1.1 = { 
+		religion = nestorian 
+	}
+	1200.1.1 = { 
+		religion = yazidi 
+}
 
 }
 
@@ -151,13 +158,17 @@
 	holding = castle_holding
 	# History
 	1066.1.1 = {
+		culture = assyrian
+		religion = nestorian
 		buildings = {
 			#camel_farms_01
 			regimental_grounds_01
 			pastures_01
 		}
 	}
-	1120.1.1 = { religion = ashari }
+	1120.1.1 = { 
+		religion = nestorian 
+	}
 	1200.1.1 = { religion = yazidi }
 
 }
@@ -198,16 +209,19 @@
 
 }
 
-# 4845 - NASIBIN
+# 4845 - NASIBIN c_nasibin
 4845 = {	# Misc
 	culture = assyrian
 	religion = nestorian
 	
 	# History
 	1066.1.1 = {
+		culture = assyrian
 		religion = nestorian
 	}
-
+	1178.1.1 = {
+		religion = ashari
+	}
 }
 
 # 4846 - DARA
@@ -221,13 +235,14 @@
 
 }
 
-# 4848 - SINJAR
+# 4848 - SINJAR c_sinjar
 4848 = {	#Misc
 	culture = assyrian
 	religion = nestorian
 	
 	# History
 	1066.1.1 = {
+		culture = assyrian
 		religion = nestorian
 	}
 	1120.1.1 = {
@@ -292,6 +307,11 @@
 	
 	# History
 	1066.1.1 = {
+		culture = assyrian
+		religion = orthodox
+	}
+	1178.1.1 = {
+		culture = assyrian
 		religion = orthodox
 	}
 }
@@ -376,7 +396,7 @@
 
 }
 
-# 4867 - AMID
+# 4867 - AMID c_amida
 4867 = {	# 4867 - Amid, Amida
 	# Misc
 	culture = syriac
@@ -384,6 +404,7 @@
 	
 	# History
 	1066.1.1 = { 
+		culture = syriac
 		religion = orthodox
 	}
 	1164.1.1 = {
@@ -408,7 +429,7 @@
 
 }
 
-# 4869 - EDESSA
+# 4869 - EDESSA c_edessa
 4869 = {	# 4869 - Edessa
 	# Misc
 	culture = syriac
@@ -426,13 +447,14 @@
 
 }
 
-# 4870 - HARRAN
+# 4870 - HARRAN c_harran
 4870 = {	# Misc
 	culture = syriac
 	religion = harranian_pagan
 	
 	# History
 	1095.1.1 = {
+		culture = syriac
 		religion = ashari
 	}
 
@@ -503,7 +525,7 @@
 
 }
 
-# 4875 - DAUSAR
+# 4875 - DAUSAR c_dausar
 4875 = {	# 4875 - Dausar
 	
 	# Misc
@@ -512,11 +534,14 @@
 	
 	# History
 	1066.1.1 = { 
+		culture = syriac
 		religion = ashari 
 	}
 
 
-	1120.1.1 = { culture = levantine }
+	1120.1.1 = { 
+		culture = syriac 
+	}
 	1270.1.1 = { religion = ashari }
 
 }
@@ -602,7 +627,7 @@
 
 }
 
-# 4883 - MAKISIN
+# 4883 - MAKISIN c_khabur
 4883 = {	# 4883 - Makisin, Khabur
 	
 	#Misc
@@ -610,6 +635,10 @@
 	religion = nestorian
 	
 	# History
+	1066.1.1 = {
+		culture = assyrian
+		religion = nestorian
+	}
 	1120.1.1 = {
 		culture = levantine
 		religion = ashari
@@ -678,7 +707,7 @@
 
 }
 
-# 4889 - AL-RAHBA
+# 4889 - AL-RAHBA c_rahba
 4889 = {	# Misc
 	culture = levantine
 	religion = ashari

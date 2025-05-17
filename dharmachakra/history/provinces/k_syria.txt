@@ -58,7 +58,7 @@
 
 }
 
-# 4894 - SAMOSATA
+# 4894 - SAMOSATA c_samosata
 4894 = {	# 4894 - Samosata
 	
 	# Misc
@@ -90,7 +90,7 @@
 
 }
 
-# 5900 - AINTAB
+# 5900 - AINTAB c_aintab
 5900 = {	# 5900 - Aintab
 	
 	# Misc
@@ -99,11 +99,9 @@
 	
 	# History
 	1066.1.1 = { 
+		culture = syriac
 		religion = orthodox
 	}
-
-
-
 	1320.1.1 = { culture = levantine }
 }
 
@@ -276,7 +274,7 @@
 
 }
 
-# 5915 - SHAIZAR shayzar
+# 5915 - SHAIZAR c_shayzar
 5915 = {	# 5915 - Shaizar
 	
 	# Misc
@@ -284,11 +282,16 @@
 	religion = orthodox
 	
 	# History
+	1066.1.1 = {
+		culture = syriac
+	}
 	1120.1.1 = {
-		culture = levantine
+		culture = syriac
 		religion = nizari
 	}
-	1271.1.1 = { religion = ashari }
+	1271.1.1 = { 
+		religion = ashari 
+	}
 
 }
 
@@ -316,7 +319,7 @@
 
 }
 
-# 5918 - TRIPOLIS
+# 5918 - TRIPOLIS c_tripoli
 5918 = {	# 5918 - Tripoli
 	
 	# Misc
@@ -331,13 +334,17 @@
 		}
 	}
 	1066.1.1 = {
+		culture = syriac
 		buildings = {
 			common_tradeport_02
 			military_camps_01
 			#watchtowers_01
 		}
 	}
-	1295.1.1 = { religion = ashari }
+	1295.1.1 = { 
+		culture = syriac
+		religion = ashari 
+	}
 
 }
 
@@ -397,7 +404,7 @@
 
 }
 
-# 5926 - BAALBAK baalbek
+# 5926 - BAALBAK c_baalbek
 5926 = {	# 5926 - Baalbak
 	
 	# Misc
@@ -405,8 +412,12 @@
 	religion = orthodox
 	
 	# History
-	867.1.1 = { religion = ashari }
-	1016.1.1 = { religion = druze }
+	867.1.1 = { 
+		culture = syriac
+	}
+	1016.1.1 = { 
+		religion = druze 
+	}
 
 }
 
@@ -433,7 +444,7 @@
 
 }
 
-# 5929 - HIMS
+# 5929 - HIMS c_homs
 5929 = {	# 5929 - Hims
 	
 	# Misc
@@ -487,7 +498,7 @@
 
 }
 
-# 5933 - QINNASRIN
+# 5933 - QINNASRIN c_qinnasrin
 5933 = {	# 5933 - Qinnasrin
 	
 	# Misc
@@ -495,6 +506,10 @@
 	religion = orthodox
 	
 	# History
+	1066.1.1 = { 
+		culture = syriac
+	}
+
 	1120.1.1 = { culture = levantine }
 	1271.1.1 = { religion = ashari }
 
@@ -624,7 +639,7 @@
 
 }
 
-# 5945 - AS-SUKHNA
+# 5945 - AS-SUKHNA c_sukhna
 5945 = {	# 5945 - As-Sukhna
 	
 	# Misc
@@ -658,7 +673,7 @@
 
 }
 
-# 5948 - TADMUR
+# 5948 - TADMUR c_palmyra
 5948 = {	# 5948 - Tadmur
 	# Misc
 	culture = bedouin
@@ -681,7 +696,7 @@
 
 }
 
-# 5950 - AL-QARYATAN
+# 5950 - AL-QARYATAN c_qaryatan
 5950 = {	# 5950 - Al-Qaryatan
 	
 	# Misc
@@ -693,7 +708,7 @@
 
 }
 
-# 5951 - JUWAIR
+# 5951 - JUWAIR c_juwair
 5951 = {	# 5951 - Juwair
 	# Misc
 	culture = bedouin
@@ -736,7 +751,7 @@
 
 }
 
-# 5955 - BUSRA
+# 5955 - BUSRA c_hauran
 5955 = {	# 5955 - Busra
 	
 	# Misc

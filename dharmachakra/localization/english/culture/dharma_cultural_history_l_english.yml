@@ -7,5 +7,5 @@
 
  syriac_history_loc: "Formed from [aramean|E] under [CULTURE.GetName] influence around the year [DATE.GetYear]"
 
- mandaic_history_loc: "Diverged from [chaldean|E] around the year [DATE.GetYear]"
+ mandaic_history_loc: "Diverged from Chaldean around the year [DATE.GetYear]"
 

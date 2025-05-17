@@ -355,7 +355,7 @@
 
 ###c_rasht
 4383 = {	#Rasht
-	culture = pamiri
+	culture = sogdian
 	religion = mahayana
 	holding = castle_holding
 	1000.1.1 = {

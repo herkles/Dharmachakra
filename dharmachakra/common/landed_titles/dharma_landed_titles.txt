@@ -30,27 +30,82 @@ d_wahbiya = {
 	destroy_if_invalid_heir = no
 }
 d_tayyibi = {
-	pattern="pattern_solid.dds"
-	color1=rgb { 70 102 74 }
-	colored_emblem={
-		color1=black
-		color2=black
-		texture="ce_arabic_ali.dds"
-		instance={ scale={ 0.840000 0.840000 } }
-	}
+	color = { 70 102 74 }
+	definite_form = yes
+	ruler_uses_title_name = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = no
 }
 #######################################
 # Landless titles
 #######################################
 # Muslim Landless
-d_laamp_me_karrami = me_karrami_dynasty # Ibn Karram
-d_laamp_me_maghrawa = house_me_khazarids # The Maghrawa Berber clan
-d_laamp_me_kindi = bedouin_kinda # al-Kindi
-d_laamp_me_tujibid = house_me_Tujibid # Grandfather of the scholar Abu Umar al-Kindi
-d_laamp_sevener_caliph = 589 # Fatimid Hidden Imam
-d_laamp_me_idrisid = house_hammudid # Muhammad al-Idrisi's son
-d_laamp_me_ganjavid = me_ganjavid_dynasty # Nizami Ganjavid
+d_laamp_me_karrami = { # Ibn Karram
+	color = { 100 100 100 }
+	capital = c_jerusalem
 
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+d_laamp_me_maghrawa = { # The Maghrawa Berber clan
+	color = { 100 100 100 }
+	capital = c_tlemcen
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+d_laamp_me_kindi = { # al-Kindi
+	color = { 100 100 100 }
+	capital = c_baghdad
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+d_laamp_me_tujibid = { # Grandfather of the scholar Abu Umar al-Kindi
+	color = { 100 100 100 }
+	capital = c_cairo
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+d_laamp_me_idrisid = { # Muhammad al-Idrisi's son
+	color = { 100 100 100 }
+	capital = c_palermo
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
 # Zoroastrian Landless
 # Jewish Landless
 # Hindu Landless

@@ -407,7 +407,9 @@
 	culture = persian
 	religion = ashari
 	holding = castle_holding
-
+	1066.1.1 = {
+		culture = persian
+	}
 	1178.1.1 = {
 		religion = maturidi
 	}
@@ -689,7 +691,9 @@
 		religion = mutazila
 		culture = bedouin
 	}
-	940.1.1 = { religion = imami }
+	940.1.1 = { 
+		religion = imami 
+	}
 	1178.1.1 = {
 		religion = maturidi
 	}
@@ -780,7 +784,9 @@
 	culture = bedouin
 	religion = mutazila
 	holding = castle_holding
-	890.1.1 = { religion = ashari }
+	1066.1.1 = { 
+		religion = imami 
+	}
 	1178.1.1 = {
 		religion = maturidi
 	}
