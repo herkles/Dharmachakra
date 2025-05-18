@@ -361,6 +361,7 @@
 		}
 		religion = maturidi
 	}
+
 }
 5778 = {	#Mingachevir
 	holding = church_holding

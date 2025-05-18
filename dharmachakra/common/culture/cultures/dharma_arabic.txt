@@ -139,7 +139,7 @@ yemeni = {
 	}
 }
 
-# ME added cultures
+# Yemeni cultures
 hadhrami = {
 	color = { 0.25 0.4 0.35 }
 	
@@ -195,6 +195,8 @@ south_arabian = {
 		8 = east_african
 	}
 }
+
+# Other cultures
 siqilli = {
 	color = { 35 232 20 }
 	created = 856.1.1
@@ -225,5 +227,72 @@ siqilli = {
 		6 = arab
 		3 = mediterranean
 		1 = african
+	}
+}
+
+# Egyptian Cultures
+copt = {# pre-islamic egyptian
+	color = { 0.8 0.64 0.3 }
+	created = 100.1.1
+	parents = { ancient_egyptian }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_egyptian
+	language = language_coptic 
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_agrarian
+		tradition_dryland_dwellers
+		tradition_zealous_people
+		tradition_monastic_communities
+		tradition_loyal_soldiers
+	}
+	
+	name_list = name_list_coptic
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		7 = arab
+		2 = mediterranean
+		2 = mediterranean_byzantine
+		2 = east_african
+		1 = african
+	}
+}
+egyptian = {# Islamic Egyptians
+	color = { 0.1 0.6 0.1 }
+
+	created = 640.1.1
+	parents = { bedouin copt }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_dryland_dwellers
+		tradition_zealous_people
+		tradition_mubarizuns
+	}
+	
+	name_list = name_list_egyptian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+	ethnicities = {
+		10 = arab
 	}
 }

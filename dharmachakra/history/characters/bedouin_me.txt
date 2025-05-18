@@ -2072,3 +2072,724 @@ me_ibadi_002 = {
 	}
 }
 
+me_tujibid_001	= {
+	name = "Jafnah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_002
+	540.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_002	= {
+	name = "Qatirah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_003
+	510.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_003	= {
+	name = "Harithah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_004
+	480.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_004	= {
+	name = "Abd-Shams"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_005
+	450.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_005	= {
+	name = "Mu_awiyah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_006
+	410.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_006	= {
+	name = "Ja_far"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_007
+	370.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_007	= {
+	name = "Osama"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_008
+	330.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_008	= {
+	name = "Sa_d"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_kinda_036 # Ashras ibn Shabib al-Kindi
+	mother = me_mudhhaj_001 # Tujib bint Thuban al-Mudhhaji
+	285.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_009	= {
+	name = "Adi"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_kinda_036 # Ashras ibn Shabib al-Kindi
+	mother = me_mudhhaj_001 # Tujib bint Thuban al-Mudhhaji
+	290.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_010 = {
+	name = "Muhammad" # Muhammad ibn Abd-al-Rahman al-Tujibi, Took governance of Egypt after the death of his brother in early 772
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	father = 210021 # Abd-al-Rahman ibn Mu'awiyah ibn Hudayj al-Tujibi (found in egyptian.txt)
+	705.1.1 = {
+		birth = yes
+	}
+	772.9.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_011 = {
+	name = "Hashim" # Hashim ibn Abdullah al-Tujibi, Son of Egypt's governor, took the position of 'Sahib ash-Shurta'
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	father = 210022 # Abdullah ibn Abd-al-Rahman al-Tujibi (found in egyptian.txt)
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_012 = {
+	name = "Habirah" # Grandson of Egypt's governor, took the position of 'Sahib ash-Shurta'
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	father = me_tujibid_011 # Possibly the son of Hashim, though unconfirmed
+	780.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+
+#me_tujibid_013 = { ### Exists in vanilla as andalusian_0001
+#	name = "Ibrahim" # az-Zarqali, Renowned Andalusian astrologer
+#	dynasty_house = house_me_Tujibid # Banu Tujib
+#	give_nickname = nick_az_zarqali # az-Zarqali
+#	religion = "muwalladi"
+#	culture = "andalusian"
+#	trait = education_learning_3
+#	
+#	father = me_tujibid_014
+#	1029.1.1 = {
+#		birth = yes
+#	}
+#	1100.1.1 = {
+#		death = yes
+#	}
+#}
+
+me_tujibid_014 = {
+	name = "Yahya"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "muwalladi"
+	culture = "andalusian"
+	1000.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_015 = {
+	name = "Ishaq"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = andalusian_0001 # az-Zarqali
+	1060.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_016 = {
+	name = "Muhammad" # Ibn Bajjah, Renowned Andalusian polymath
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	give_nickname = nick_ibn_bajjah # Ibn Bajjah
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_3
+	trait = lifestyle_physician 
+	
+	father = me_tujibid_018
+	1085.1.1 = {
+		birth = yes
+	}
+	1114.1.1 = {
+		add_trait_xp = {
+			trait = lifestyle_physician
+			value = {
+				integer_range = {
+					min = medium_lifestyle_random_xp_low
+					max = medium_lifestyle_random_xp_high
+				}
+			}
+		}
+	}
+	1138.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_017 = {
+	name = "Bakr"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_tujibid_016
+	1115.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_018 = {
+	name = "Yahya"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_tujibid_019
+	1055.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_019 = {
+	name = "as-Sa'igh"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_tujibid_020
+	1025.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_020 = {
+	name = "Bajjah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	990.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_021	= {
+	name = "Adah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_009 # Adi ibn Ashras at-Tujibi
+	320.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_022	= {
+	name = "Baddā"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_021
+	350.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_023	= {
+	name = "Mālik"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_022
+	380.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_024	= {
+	name = "Amer"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_023
+	410.1.1 = { # I messed up the dates of this one
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_025	= {
+	name = "Abdul-Aziz"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_024
+	425.1.1 = { # I messed up the dates of this one
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_026	= {
+	name = "Ḍabi'"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_025
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_027	= {
+	name = "'Amis"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_026
+	470.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_028	= {
+	name = "al-Harith"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_027
+	510.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_029	= {
+	name = "Qays"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "pagan"
+	culture = "bedouin"
+	
+	father = me_tujibid_028
+	550.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_030	= {
+	name = "Abdullah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari" # Unknown, but Banu Tujib became Muslims a year before 'Am al-Wafd (around 630)
+	culture = "bedouin"
+	
+	father = me_tujibid_029
+	590.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_031	= {
+	name = "Zayd"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "bedouin"
+	
+	father = me_tujibid_030
+	630.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_032	= {
+	name = "Mu_awiyah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian" # Assuming this branch migrated to Egypt around the same time as Mu'awiyah ibn Hudayj's (210020) decendants
+	
+	father = me_tujibid_031
+	670.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_033	= {
+	name = "Naṣir"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	
+	father = me_tujibid_032
+	710.1.1 = {
+		birth = yes
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_034	= {
+	name = "Yusuf"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	
+	father = me_tujibid_033
+	750.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_035	= {
+	name = "Ḥafṣ"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	
+	father = me_tujibid_034
+	790.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_036	= {
+	name = "Ya_qub"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	
+	father = me_tujibid_035
+	835.1.1 = {
+		birth = yes
+	}
+	895.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_037	= {
+	name = "Yusuf"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	
+	father = me_tujibid_036
+	865.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_038	= {
+	name = "Muhammad" # Abu Umar Muhammad ibn Yousef al-Kindi, prominent historian, genealogist, and hadith scholar
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_learning_4
+	trait = zealous
+	trait = chaste
+	trait = shrewd
+	
+	father = me_tujibid_037
+	897.1.18 = {
+		birth = yes
+	}
+	961.10.16 = {
+		death = yes
+	}
+}
+
+me_tujibid_039	= {
+	name = "Umar"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari"
+	culture = "egyptian"
+	
+	father = me_tujibid_038
+	930.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_040 = {
+	name = "Abdullah" # Abdullah ibn al-Muhajir, Forefather of the Andalusian Tujibids
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = ashari
+	culture = yemeni
+
+	father = me_tujibid_041
+	775.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_041 = {
+	name = "al-Muhajir"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = ashari
+	culture = yemeni
+
+	father = me_tujibid_042
+	730.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_042 = {
+	name = "Umayrah" # Umayrah ibn al-Muhajir, Participated in the conquest of al-Andalus and settled in Saraqustah
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = ashari
+	culture = yemeni
+	trait = education_martial_3
+
+	father = me_tujibid_044
+	685.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_043 = {
+	name = "Abdullah" # Abdullah ibn al-Muhajir, Participated in the conquest of al-Andalus and settled in Saraqustah
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = ashari
+	culture = yemeni
+	trait = education_martial_3
+
+	father = me_tujibid_044
+	687.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_044 = {
+	name = "al-Muhajir"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = ashari
+	culture = yemeni
+
+	father = me_tujibid_045
+	660.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_045 = {
+	name = "Sarih"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = ashari
+	culture = yemeni
+
+	father = me_tujibid_046
+	630.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_046 = {
+	name = "Ḥarmalah"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = ashari
+	culture = yemeni
+
+	father = me_tujibid_047
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+me_tujibid_047 = {
+	name = "Tamim"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = ashari # Unknown, but Banu Tujib became Muslims a year before 'Am al-Wafd (around 630)
+	culture = yemeni
+
+	570.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}

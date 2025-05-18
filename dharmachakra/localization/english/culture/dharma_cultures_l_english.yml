@@ -301,7 +301,26 @@
  parsim_prefix:0 "Parsi"
  parsim_collective_noun:0 "Parsims"
 
+ circassian:0 "Circassian"
+ circassian_prefix:0 "Circassian"
+ circassian_collective_noun:0 "Circassians"
 
+ dagestani:0 "Dagestani"
+ dagestani_prefix:0 "Dagestani"
+ dagestani_collective_noun:0 "Dagestanis"
+
+ abkhaz:0 "Abkhaz"
+ abkhaz_prefix:0 "Abkhaz"
+ abkhaz_collective_noun:0 "Abkhazes"
+
+ lazi:0 "Lazi"
+ lazi_prefix:0 "Lazi"
+ lazi_collective_noun:0 "Lazi"
+
+ # Copts
+ copt: "Copt" 
+ copt_prefix: "Copt"
+ copt_collective_noun: "Copts"
 
 
 

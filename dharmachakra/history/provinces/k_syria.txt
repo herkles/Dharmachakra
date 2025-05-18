@@ -46,7 +46,7 @@
 
 }
 
-# 4893 - MARASH
+# 4893 - MARASH c_marash
 4893 = {	# 4893 - Marash
 	
 	# Misc
@@ -54,6 +54,10 @@
 	religion = armenian_apostolic
 	
 	# History
+	1066.1.1 = { 
+		culture = armenian 
+	}
+
 	1320.1.1 = { culture = levantine }
 
 }
@@ -206,7 +210,7 @@
 
 }
 
-# 5910 - ANTIOCH
+# 5910 - ANTIOCH c_antiocheia
 5910 = {	# 5910 - Antioch
 	
 	# Misc

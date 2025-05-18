@@ -956,3 +956,96 @@ language_udi = {
 
 	color = { 106 91 140 }
 }
+language_circassian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_circassian
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_circassian }
+			multiply = 10
+		}
+	}
+
+	color = { 106 91 140 }
+}
+language_avaric = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_avaric
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_avaric }
+			multiply = 10
+		}
+	}
+
+	color = { 106 91 140 }
+}
+language_abazgi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_abazgi
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_abazgi }
+			multiply = 10
+		}
+	}
+
+	color = { 106 91 140 }
+}
+language_laz = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_laz
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_laz }
+			multiply = 10
+		}
+	}
+
+	color = { 106 91 140 }
+}
+language_coptic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_coptic
+		}
+	}
+
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_coptic }
+			multiply = 10
+		}
+	}
+
+	color = { 106 91 140 }
+}
+
+
+

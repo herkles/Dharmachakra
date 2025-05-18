@@ -109,8 +109,76 @@ shia_imamates_startup_effect = { #Made to keep the history files of these titles
 	character:00004447 = { # Narjis
 		death = { death_reason = imam_hide}
 	}
+	trigger_event = {
+		id = twelver_imam_event.0001
+		days = 2555 # 7 years (1 Jan 874)
+	}
 }
+twelver_mahdi_appears_effect = {
 
+	create_character = {
+		age = 6
+		name = "Muhammad"
+		gender = male
+		faith = faith:imami
+		culture = culture:bedouin
+		father = character:163026 # Hassan 'al-Askari'
+		mother = character:00004447 # Narjis
+		dynasty_house = character:163026.house # Fatimid
+
+		trait = sayyid
+		trait = patient
+		trait = intellect_good_3
+		trait = calm
+		trait = zealous
+		trait = diligent
+		trait = generous
+
+		random_traits = no
+		save_scope_as = twelver_mahdi
+	}
+
+	scope:twelver_mahdi = { give_nickname = nick_me_al_mahdi }
+
+	create_title_and_vassal_change = {
+		type = returned
+		save_scope_as = change
+		add_claim_on_loss = no
+	}
+	title:d_imami = {
+		change_title_holder = {
+			holder = scope:twelver_mahdi
+			change = scope:change
+		}
+	}
+	resolve_title_and_vassal_change = scope:change
+
+	scope:twelver_mahdi = {
+		destroy_title = title:d_imami
+	}
+	scope:twelver_mahdi = {
+		death = { death_reason = death_mahdi}
+	}
+
+	every_player = {
+		limit = { always = yes }
+		trigger_event = { # Beginning of the Major Occulation
+			id = twelver_imam_event.0003
+			days = 24455 # 67 years (941)
+		}
+	}
+	every_player = { # Inform Twelver players 
+		limit = { faith.religious_head_title = title:d_imami }
+		trigger_event = twelver_imam_event.0002
+	}
+}
+twelver_mahdi_appears_again_effect = {
+	scope:twelver_mahdi = { set_age = 73 }
+	every_player = { # Inform Twelver players 
+		limit = { faith.religious_head_title = title:d_imami }
+		trigger_event = twelver_imam_event.0004
+	}
+}
 
 
 

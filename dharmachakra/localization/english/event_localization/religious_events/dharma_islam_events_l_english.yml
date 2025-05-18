@@ -1,0 +1,12 @@
+﻿l_english:
+
+#Twelver Mahdi Appears
+ twelver_imam_event.0002.t:0 "The Mahdi Appears"
+ twelver_imam_event.0002.desc:0 "The great Imam [al_askari.GetFirstName] is dead, leaving behind no heir to claim the Imamate.\n\nOr at least, that what we thought at first. Uthman ibn Sa'id, the man who once represented [al_askari.GetFirstName] and [al_hadi.GetFirstName], has revealed that al-Askari had an infant son named Muhammad, who was proclaimed to be the Mahdi, and was kept hidden from the public in fear of his enemies' persecution.\n\nUthman, along with three other men, have come to represent Muhammad al-Mahdi while he is in his minor ghayba."
+ twelver_imam_event.0002.a:0 "Allahu Akbar!"
+ twelver_imam_event.0002.tt:0 ""
+
+ twelver_imam_event.0004.t:0 "The Great Ghayba"
+ twelver_imam_event.0004.desc:0 "The last of Muhammad al-Mahdi's representatives, Abu al-Hasan, is dead, before his death he received one final letter from al-Mahdi predicting Abu al-Hasan's death and informing him that al-Mahdi will be entering a period of occultation, which will continue until Allah grants him permission to manifest himself again when the earth is filled with tyranny.\n\nNow, all we have to do is await his return so that he may bring justice to the world once more."
+ twelver_imam_event.0004.a:0 "Allahu Akbar!"
+ twelver_imam_event.0004.tt:0 ""

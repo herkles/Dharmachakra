@@ -591,6 +591,7 @@
 	religion = khurmazta
 	holding = castle_holding
 	1060.1.1 = {
+		culture = khwarezmian
 		religion = maturidi
 	}
 

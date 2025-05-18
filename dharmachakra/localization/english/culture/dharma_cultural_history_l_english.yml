@@ -5,7 +5,6 @@
 
   siqilli_history_loc:0 "Formed from $arabic_group$ and $berber_group$ settlers who migrated to [GetTitleByKey('d_sicily').GetNameNoTier]" #in the year 856
 
- syriac_history_loc: "Formed from [aramean|E] under [CULTURE.GetName] influence around the year [DATE.GetYear]"
+  syriac_history_loc: "Formed from [aramean|E] under [CULTURE.GetName] influence around the year [DATE.GetYear]"
 
- mandaic_history_loc: "Diverged from Chaldean around the year [DATE.GetYear]"
-
+  mandaic_history_loc: "Diverged from Chaldean around the year [DATE.GetYear]"

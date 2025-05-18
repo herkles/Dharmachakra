@@ -1,4 +1,8 @@
-﻿
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
 #######################################
 # Muslim titles
 #######################################
@@ -106,6 +110,33 @@ d_laamp_me_idrisid = { # Muhammad al-Idrisi's son
 
 	ai_primary_priority = { add = @never_primary_score }
 }
+d_laamp_me_zirid_pre = { # Ziri ibn Manad's Grandfather
+	color = { 100 100 100 }
+	capital = c_bejaia
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+d_laamp_me_ibn_durayd = { # Muhammad 'Ibn Durayd', Famous Basri philoger, grammarian, and lexicographer
+	color = { 100 100 100 }
+	capital = c_basra
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
 # Zoroastrian Landless
 # Jewish Landless
 # Hindu Landless

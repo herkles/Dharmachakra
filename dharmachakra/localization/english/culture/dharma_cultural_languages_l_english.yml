@@ -39,10 +39,6 @@
     language_semnani_name: "Semnani"
     language_gilaki_name: "Gilaki"
     language_adhari_name: "Adhari"
-
-
-
-
   # Tibetan Languages
     language_tani_name:0 "Tani"
     language_meitei_name:0 "Meitei"
@@ -56,3 +52,8 @@
   # Other Languages
     language_munda_name:0 "Munda"
     language_udi_name:0 "Udi"
+    language_circassian_name:0 "Circassian"
+    language_avaric_name:0 "Avaric"
+    language_abazgi_name:0 "Abazgi"
+    language_laz_name:0 "Lazi"
+    language_coptic_name: "Coptic"

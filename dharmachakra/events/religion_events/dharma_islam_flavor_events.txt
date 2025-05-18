@@ -1,0 +1,67 @@
+﻿namespace = dharma_islam
+
+
+######################################
+#									 #
+#         Islam Flavor Events        #
+#									 #
+######################################
+
+######################################
+# Imami - Twlever Events 
+######################################
+dharma_islam.0001 = {
+	hidden = yes
+	type = empty
+	immediate = {
+		twelver_mahdi_appears_effect = yes
+	}
+}
+dharma_islam.0002 = {
+	title = dharma_islam.0002.t
+	desc = dharma_islam.0002.desc
+	theme = faith
+	background = study
+	
+	left_portrait = {
+		character = scope:twelver_mahdi
+		animation = personality_zealous
+	}
+
+	immediate = {
+		character:163025 = { # Ali 'al-Hadi'
+			save_scope_as = al_hadi
+		}
+		character:163026 = { # Hassan 'al-Askari'
+			save_scope_as = al_askari
+		}
+	}
+
+	option = {
+		name = dharma_islam.0002.a
+		custom_tooltip = dharma_islam.0002.tt
+	}
+}
+dharma_islam.0003 = {
+	hidden = yes
+	type = empty
+	immediate = {
+		twelver_mahdi_appears_again_effect = yes
+	}
+}
+dharma_islam.0004 = {
+	title = dharma_islam.0004.t
+	desc = dharma_islam.0004.desc
+	theme = faith
+	background = study
+	
+	left_portrait = {
+		character = scope:twelver_mahdi
+		animation = personality_zealous
+	}
+
+	option = {
+		name = dharma_islam.0004.a
+		custom_tooltip = dharma_islam.0004.tt
+	}
+}

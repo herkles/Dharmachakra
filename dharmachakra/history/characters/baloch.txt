@@ -186,7 +186,7 @@
 
 302700 = {		#Fictional/Placeholder in southern Makran 867
 	name = "Feraz"
-	religion = azariqa
+	religion = zurvanism
 	culture = jat #FP3 change 
 	847.1.2 = {
 		birth = yes
