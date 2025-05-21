@@ -493,8 +493,8 @@ me_zirid_pre_1 = {
 		birth = yes
 	}
 	867.1.1 = {
-		employer = 163097 #Aflah ibn Abdal-Wahab Rustamid, closest ruler to the county of Bejaia 
-		move_to_pool = yes #Set him wandering
+		# employer = 163097 #Aflah ibn Abdal-Wahab Rustamid, closest ruler to the county of Bejaia 
+		# move_to_pool = yes #Set him wandering
 	}
 	890.1.1 = {
 		death = yes

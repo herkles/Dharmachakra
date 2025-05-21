@@ -8,3 +8,5 @@
   syriac_history_loc: "Formed from [aramean|E] under [CULTURE.GetName] influence around the year [DATE.GetYear]"
 
   mandaic_history_loc: "Diverged from Chaldean around the year [DATE.GetYear]"
+
+  kaikanian_history_loc: "The [CULTURE.GetName] culture of the al-Qiqan highlands"

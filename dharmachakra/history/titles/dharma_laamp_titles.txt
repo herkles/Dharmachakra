@@ -97,6 +97,22 @@ d_laamp_me_ibn_durayd = { # Ibn Durayd
 		holder = 0
 	}
 }
+d_laamp_dharma_sanjan = {# Repersenting the Zoroastrians who traveled to India and formed the Parsi community 
+	867.1.1 = {
+		liege = 0
+		holder = dharma_parsi_01 # Ardeshir Roshan fictional guy
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
+		}
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
 #######################################
 # 1066 Landless
 #######################################
@@ -183,19 +199,4 @@ d_laamp_me_ganjavid = { # Nizami Gangavi
 		holder = 0
 	}
 }
-d_laamp_me_ea_cats = {# Ya'qub 'Qamar ad-Din' Dibyazah
-	1178.1.1 = {
-		liege = 0
-		holder = me_ea_cat_001 # Ya'qub 'Qamar ad-Din' Dibyazah
-		government = landless_adventurer_government
-		succession_laws = { landless_adventurer_succession_law }
-		effect = {
-			create_landless_adventurer_title_history_effect = yes
-			set_variable = { name = adventurer_creation_reason value = flag:historical }
-			destroy_landless_title_no_dlc_effect = { DATE = 867.1.1 }
-		}
-	}
-	1179.1.1 = {
-		holder = 0
-	}
-}
+

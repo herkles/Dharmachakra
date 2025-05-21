@@ -3,8 +3,20 @@
 @always_primary_score = 1000
 @never_primary_score = -1000
 
+
+
+
+
 #######################################
-# Muslim titles
+# New Titles
+#######################################
+k_khwarazm = {
+	color = { 55 155 70 }
+
+	capital = c_gurganj	#	Gurganj
+}
+#######################################
+# Muslim Head of Faith Titles
 #######################################
 d_ibadi = {
 	color = { 90 25 0 }
@@ -136,11 +148,65 @@ d_laamp_me_ibn_durayd = { # Muhammad 'Ibn Durayd', Famous Basri philoger, gramma
 
 	ai_primary_priority = { add = @never_primary_score }
 }
+d_laamp_me_ganjavid = { # Nizami Gangavi
+	color = { 100 100 100 }
+	capital = c_aran
 
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+d_laamp_me_ibn_al_qatta = {
+	color = { 100 100 100 }
+	capital = c_palermo
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+d_laamp_me_balnubi = { # al-Balnubi
+	color = { 100 100 100 }
+	capital = c_alexandria
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
 # Zoroastrian Landless
+d_laamp_dharma_sanjan = {# Repersenting the Zoroastrians who traveled to India and formed the Parsi community 
+	color = { 100 100 100 }
+	capital = c_hormuz
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
 # Jewish Landless
+
 # Hindu Landless
+
 # Jain Landless
+
 # Buddhist Landless
+
 # Tibetan Landless
 

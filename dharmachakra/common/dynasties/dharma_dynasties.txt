@@ -103,4 +103,10 @@ khasid001 = {
     name = "dynn_Sutnga"
     culture = khasi
 }
-
+#######################################
+# Parsi Dynasties
+#######################################
+me_parsi_01_dynasty = {
+    name = "dynn_Roshan"
+    culture = persian
+}

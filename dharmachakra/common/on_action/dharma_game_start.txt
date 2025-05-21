@@ -324,8 +324,27 @@ dharma_setup_after_game_start_on_actions = {
 				struggle:persian_struggle = { set_faith_as_involved = faith:south_mesopotamian_pagan }
 			}
 		}
+		# title de jure changes
+		if = {# 867 de jure title changes
+			limit = { game_start_date = 867.1.1 }
+			title:d_khorezm = { set_de_jure_liege_title = title:k_khwarazm }
+			title:d_uzboy = { set_de_jure_liege_title = title:k_khwarazm }
+			title:k_khwarazm = { set_de_jure_liege_title = title:e_turan }
+		}
+		if = {# 1066 de jure title changes
+			limit = { game_start_date = 1066.1.1 }
+			title:d_khorezm = { set_de_jure_liege_title = title:k_khwarazm }
+			title:d_uzboy = { set_de_jure_liege_title = title:k_khwarazm }
+			title:k_khwarazm = { set_de_jure_liege_title = title:e_turan }
 
 
+		}
+		if = {# 1066 de jure title changes
+			limit = { game_start_date = 1178.1.1 }
+
+
+
+		}
 		
 	}
 }

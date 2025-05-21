@@ -25,7 +25,7 @@ house_me_banu_abd_shams = {
 
 ## Umayyad Houses ###
 house_me_ziyadid = { # dynasty was known as (1042165)
-	name = "dynn_Ziyadid" # Ziyadid
+	name = "house_me_ziyadid" # Ziyadid
 	dynasty = 597 # Umayyads
 }
 
@@ -63,8 +63,21 @@ house_me_uyunids = { # al-Uyuni, The Uyunid Dynasty
 
 ##
 
-# house_sistan_nasrids = {
-# 	name = "dynn_Nasrid"
-# 	dynasty = 812 #saffarids
-# }
+house_me_Tujibid = { # Banu Tujib, A branch of the Kinda tribe
+	name = "dynn_me_Tujibid"
+	dynasty = bedouin_kinda # Kinda Tribe
+}
+
+
+house_me_jibrani = {
+	name = "dynn_me_Jibrani"
+	dynasty = bedouindyn010 # Banu Tayy'
+}
+
+house_me_al_julandi = { # Banu al-Julanda, First Ibadi dynasty of Oman
+	name = "dynn_me_julandi"
+	dynasty = arabic_azd # Azd
+}
+
+
 

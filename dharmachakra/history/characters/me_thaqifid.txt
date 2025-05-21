@@ -1,21 +1,4 @@
-﻿sufyani003 = { # Amina bint Abu Sufyan
-	name = "Amina" 
-	female = yes
-	dynasty = 597
-	culture = "bedouin"
-	religion = "ashari" #Placeholder
-	father = 163028
-	595.3.21 = {
-		birth = 595.3.21
-	}
-	609.1.6 = {
-		add_spouse = thaqifid997
-	}
-	663.12.1 = { 
-		death = 680.12.1
-	}
-}
-########
+﻿########
 ##The above section is for non-thaqifid characters essential for the family tree ^
 ########
 thaqifold7= { #Real Character

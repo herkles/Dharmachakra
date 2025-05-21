@@ -14,13 +14,16 @@ nick_saqr_al_andalus = {}
 nick_falcon_of_al_andalus = {}
 
 ##Miscellaneous Nicknames
-nick_ibn_abihi = {} # ancestor of the Ziyadid Umayyad
+nick_ibn_abihi = {} # Forefather of the Ziyadids 
 nick_sharaf_ud_dawla = {is_prefix = yes} # Uqaylids
 nick_al_ahwal = {} # Najahids
 nick_al_ghaliz = {} # Emirate of Krete
 nick_al_aqta = {} # Umar al-Aqta'
 nick_kaysan = {} # al-Mukhtar 'Kaysan' al-Thaqafi
 nick_al_hasna = {}
+nick_me_jahdha_at_tanburi = {}
+nick_al_waqashi = {}
+nick_me_ibn_wafid = {}
 
 ##Regal Names
 nick_yamin_ad_dawla = {}
@@ -34,6 +37,17 @@ nick_izz_ad_dawla = {}
 nick_qiwam_ad_dawla = {}
 nick_jamal_ad_dawla = {}
 nick_al_mustazhir_billah = {}
+nick_fakr_ad_din = {}
+nick_qamar_ad_din = {}
+nick_diya_ad_dawla = {}
+nick_me_izz_ad_dawla = {is_prefix = yes}
+nick_me_rafi_ad_dawla = {is_prefix = yes}
+nick_me_muizz_ad_dawla = {is_prefix = yes}
+nick_me_al_mutasim_billah = {}
+nick_jamal_ad_din = {is_prefix = yes}
+nick_sanad_ad_dawla = {is_prefix = yes}
+nick_nur_ad_dawla = { is_prefix = yes }
+nick_sayf_ad_dawla = { is_prefix = yes }
 
 ##Hashimids
 nick_me_ibn_al_hanafiyyah = {}
@@ -42,11 +56,42 @@ nick_al_kamil = {}
 nick_me_al_ukhaydir = {}
 nick_me_as_saffak = {}
 nick_me_al_ukhaydir_as_saghir = {}
+nick_me_al_athram = {}
+nick_me_al_ghamr = {}
+nick_me_tabataba = {}
+
+##Idrisids
+nick_me_al_miqdam = {}
+nick_me_al_hajjam = {}
+nick_me_kannun = {}
+nick_me_abul_aysh = {}
+nick_me_al_idrisi = {}
 
 ##Andalusian Umayyads
 nick_ad_dakhil = {}
 nick_ar_ridha_umayyad = {}
 nick_ar_rabdhi = {}
+
+##Abbasids
+nick_me_as_saffah = {}
+nick_me_al_rashid = {}
+nick_me_al_mamuniyyah = {}
+
+##Kinda Tribe
+nick_al_ashath = {}
+nick_akil_al_marar = {}
+nick_al_maqsur = {}
+nick_al_jawn = {}
+nick_al_harrab = {}
+nick_imru_al_qays = {}
+nick_az_zarqali = {}
+nick_ibn_bajjah = {}
+nick_me_al_anqar = {}
+nick_al_walladah = {}
+
+##Azd Tribe
+nick_ma_asama = {}
+nick_ibn_durayd = {}
 
 ##Ghaznavids
 nick_nasir_ad_din_ghaznavid = {}
@@ -66,6 +111,7 @@ nick_sayidda_al_hurra = {is_prefix = yes}
 nick_isfahanist_mahdi = {}
 
 ##Rassids
+nick_me_al_rassi = {}
 nick_hadi_lil_haqq = {is_prefix = yes}
 nick_muhtasib_mujahid = {is_prefix = yes}
 
@@ -75,12 +121,14 @@ nick_al_faruq = {}
 nick_dhu_nurayn = {}
 nick_az-zahra = {}
 nick_al_ashath = {}
+nick_me_an_naqis = {}
 
 ##Shia imams
 nick_me_al_mahdi = {}
 
 ##Ibadi imams
 nick_dhu_thafinat = {}
+nick_talib_al_haqq = {}
 
 ##Barghawata 
 nick_salih_barghawata = {}
@@ -127,6 +175,3 @@ nick_me_al_mawri = {}
 nick_me_ibn_hamdis = {}
 nick_me_al_balnubi = {}
 
-# Exclusively Historical Hindu Nicknames
-nick_adivaraha = {is_prefix = yes}
-nick_mihiradeva = {}

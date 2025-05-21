@@ -903,6 +903,40 @@ jat = { # Pastoralists of Lower Sindh ## credits to soraya
 
 	}
 }
+kaikani = { # Jat culture of Kaikan/ al-Qiqan
+	color = { 0.87 0.32 0.11 }
+		
+	created = 866.1.1
+	parents = { jat }
+
+	history_loc_override = kaikanian_history_loc
+		
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_mountain_homes
+		tradition_warrior_culture # Jats served as mercenaries and had a reputation for being rebellious and hard to conquer.
+		tradition_pastoralists
+		tradition_qiqaniyya
+	}
+
+	name_list = name_list_jat
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = indian
+
+	}
+}
+
 # Eastern Cultures
 oriya = {# Oriya People
 	color = { 253 14 53}

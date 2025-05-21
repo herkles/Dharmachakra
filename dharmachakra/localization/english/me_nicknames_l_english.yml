@@ -7,14 +7,6 @@
 
  #Muslim Nicknames
  
- ##Arabic Kunya
- nick_abu_jafar:0 "Abu Ja'far" 
- nick_abu_jafar_desc:1 "People know and refer to [CHARACTER.GetShortUINameNoTooltipNoFormat|U] by [CharYourHerHis(CHARACTER)] #EMP kunya#! of '$nick_abu_jafar$' (Father of Ja'far)."
- nick_abu_jafar_pre:0 "$nick_abu_jafar$" 
- nick_abu_jafar_pre_desc:1 "$nick_abu_jafar_desc$"
- nick_abut_tami:0 "Abu't-Tami"
- nick_abut_tami_desc:1 "People know and refer to [CHARACTER.GetShortUINameNoTooltipNoFormat|U] by [CharYourHerHis(CHARACTER)] #EMP kunya#! of '$nick_abut_tami$' (Father of at-Tami)."
- 
  ##Decision Nicknames
  nick_saqr_al_andalus:0 "Saqr al-Andalus"
  nick_saqr_al_andalus_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] reunited al-Andalus and created a legacy that rose to rival that of The Falcon of Quraysh, and will forever be remembered as '$nick_saqr_al_andalus$' (The Falcon of al-Andalus)"
@@ -22,20 +14,27 @@
  nick_falcon_of_al_andalus_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] reunited al-Andalus and created a legacy that rose to rival that of The Falcon of Quraysh."
  
  ##Miscellaneous Nicknames
- nick_ibn_abihi:0 "Ibn Abihi" # Ancestor of the Ziyadid Ummayads
+ nick_ibn_abihi:0 "Ibn Abihi" # Ancestor of the Ziyadids
  nick_ibn_abihi_desc:1 "Despite the fact that [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] been acknowledged by [CharYourHerHis(CHARACTER)] half-brother to be the son of Abu Sufyan, many have refused to acknowledge it, and instead refer to [CharYouHerHim(CHARACTER)] as Ziyad '$nick_ibn_abihi$' (The Son of his Father)"
  nick_sharaf_ud_dawla:0 "Sharif ud-Dawla" 
  nick_sharaf_ud_dawla_desc:1 "Common to the medieval Islamic tradition of taking a #EMP laqab#! (arabic epithet), [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] taken the honorific title of '$nick_sharaf_ud_dawla$' (Honour of the State)."
  nick_al_ahwal:0 "al-Ahwal"
- nick_al_ahwal_desc:1 "It seems that [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] deformity is the only thing the world can see about [CharYouHerHim(CHARACTER)], [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] come to be known by the name '$nick_al_ahwal$' (The Cross-eyed)"
-  nick_al_ghaliz:0 "al-Ghaliz"
-  nick_al_ghaliz_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] jowls have been reputed to disgorge whole chicken legs on occasion, and has become known as '$nick_al_ghaliz$' (The Fat)."
+ nick_al_ahwal_desc:1 "It seems that [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] deformity is the only thing the world can see about [CharYouHerHim(CHARACTER)], [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] come to be known by the name '$nick_al_ahwal$' (The Cross-eyed)
+ nick_al_ghaliz:0 "al-Ghaliz"
+ nick_al_ghaliz_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] jowls have been reputed to disgorge whole chicken legs on occasion, and has become known as '$nick_al_ghaliz$' (The Fat)."
  nick_al_aqta:0 "al-Aqta'"
  nick_al_aqta_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] missing arm is such a distinct feature that everyone calls [CharYouHerHim(CHARACTER)] '$nick_al_aqta$' (The One-Handed)."
  nick_kaysan:0 "Kaysan"
  nick_kaysan_desc:1 "Nicknamed 'Kayyis' by Ali ibn Abi Talib for his cunning nature as a young boy, and when he became a man, the people would come to call him '$nick_kaysan$' (The Intelligent)."
  nick_al_hasna:0 "al-Hasna'"
  nick_al_hasna_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] been blessed with a great beaty that is known all across the land, and to the people she is known as '$nick_al_hasna$' (The Beautiful)."
+ nick_me_jahdha_at_tanburi:0 "Jahdha at-Tanburi"
+ nick_me_jahdha_at_tanburi_desc:1 "Praised for his mastery of the lute and ridiculed for his big bulging eyes, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] become famous under the name of '$nick_me_jahdha_at_tanburi$' (Jahdha the Lute Player)"
+ nick_al_waqashi:0 "al-Waqashi"
+ nick_al_waqashi_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] hails from the Andalusian village of Waqash, near Toledo."
+ nick_me_ibn_wafid:0 "Ibn Wafid"
+ nick_me_ibn_wafid_desc:1 "A patronymic that translates to "Son of Wafid", with Wafid being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s great-great-grandfather."
+ 
  
  ##Regal Names
  nick_yamin_ad_dawla:0 "Yamin ud-Dawlah"
@@ -60,6 +59,29 @@
  nick_jamal_ad_dawla_desc:1 "Common to the medieval Islamic tradition of taking a #EMP laqab#! (arabic epithet), [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] taken the honorific title of '$nick_jamal_ad_dawla$' (Beauty of the State)."
  nick_al_mustazhir_billah:0 "al-Mustazhir Billah"
  nick_al_mustazhir_billah_desc:1 "Common to the medieval Islamic tradition of taking a #EMP laqab#! (arabic epithet), [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] taken the honorific title of '$nick_al_mustazhir_billah$' (He, Who Relies Upon God)."
+ nick_fakr_ad_din: "Fakr ad-Dīn"
+ nick_fakr_ad_din_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_fakr_ad_din$ — the Pride of the Faith."
+ nick_qamar_ad_din: "Qamar ad-Dīn"
+ nick_qamar_ad_din_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_qamar_ad_din$ — the Moon of the Faith."
+ nick_diya_ad_dawla: "Diya' ad-Dawlah"
+ nick_diya_ad_dawla_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_diya_ad_dawla$ — the Brightness of the State."
+ nick_me_izz_ad_dawla: "Izz ad-Dawlah"
+ nick_me_izz_ad_dawla_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_me_izz_ad_dawla$ — the Glory of the State."
+ nick_me_rafi_ad_dawla: "Rafi' ad-Dawlah"
+ nick_me_rafi_ad_dawla_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_me_rafi_ad_dawla$ — the Elevator of the State."
+ nick_me_muizz_ad_dawla: "Mu'izz al-Dawlah"
+ nick_me_muizz_ad_dawla_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_me_muizz_ad_dawla$ — the Glorifier of the State."
+ nick_me_al_mutasim_billah: "al-Mu'tasim Billah"
+ nick_me_al_mutasim_billah_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_me_al_mutasim_billah$ — He Who Takes Refuge In God."
+ nick_jamal_ad_din:0 "Jamal ad-Din" 
+ nick_jamal_ad_din_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_jamal_ad_din$ — Beauty of the Faith."
+ nick_sanad_ad_dawla:0 "Sanad ad-Dawlah"
+ nick_sanad_ad_dawla_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_sanad_ad_dawla$ — the Support of the State."
+ nick_nur_ad_dawla:0 "Nur ad-Dawlah"
+ nick_nur_ad_dawla_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_nur_ad_dawla$ — the Light of the State."
+ nick_sayf_ad_dawla:0 "Sayf ad-Dawlah"
+ nick_sayf_ad_dawla_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_sayf_ad_dawla$ — the Sword of the State."
+ 
 
  ##Hashimids
  nick_me_ibn_al_hanafiyyah:0 "ibn al-Hanafiyyah"
@@ -73,24 +95,79 @@
  nick_me_as_saffak_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for [CharYourHerHis(CHARACTER)] bloodthirsty nature, and [CharHaveHas(CHARACTER)] become known as '$nick_me_as_saffak$', [CharYourHerHis(CHARACTER)] nickname comes from the term 'Saffāk ad-Dima'' (The Blood Shedder)."
  nick_me_al_ukhaydir_as_saghir:0 "al-Ukhaydir aṣ-Ṣaghir"
  nick_me_al_ukhaydir_as_saghir_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] been given the same title as [CharYourHerHis(CHARACTER)] father, and [CharHaveHas(CHARACTER)] become known as '$nick_me_al_ukhaydir_as_saghir$' (The Younger Ukhaydir)."
+ nick_me_al_athram:0 "al-Athram"
+ nick_me_al_athram_desc:1 "Known for his firmness, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] become known among the people as '$nick_me_al_athram$' (The Firm)"
+ nick_me_al_ghamr:0 "al-Ghamr"
+ nick_me_al_ghamr_desc:1 "Known to overwhelming people with his kindness and generosity, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] become known among the people as '$nick_me_al_ghamr$' (The One Who Overwhelms With Good)" 
+ nick_me_tabataba:0 "Tabataba"
+ nick_me_tabataba_desc:1 "Due to his peculiar lisp, which would cause him to pronounce the letter #EMP Qaf#! as #EMP Ta'#! and the word 'Qaba' as 'Taba', the people would come to know him as [CHARACTER.GetShortUINameNoTooltipNoFormat|U] '$nick_me_tabataba$'."
+
+ ##Idrisids
+ nick_me_al_miqdam:0 "al-Miqdam"
+ nick_me_al_miqdam_desc:1 "Even the mountains sing of [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] courage, naming [CharYouHerHim(CHARACTER)] '$nick_me_al_miqdam$' (The Courageous)."
+ nick_me_al_hajjam:0 "al-Hajjam"
+ nick_me_al_hajjam_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has practiced the medical art of Hijama (Wet Cupping), granting him the epithet of '$nick_me_al_hajjam$'."
+ nick_me_kannun:0 "Kannun"
+ nick_me_kannun_desc:1 "Friends and Foes across the land know [CHARACTER.GetShortUINameNoTooltipNoFormat|U] as '$nick_me_kannun$'."
+ nick_me_abul_aysh:0 "Abu'l 'Aysh"
+ nick_me_abul_aysh_desc:0 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] generosity has granted [CharYouHerHim(CHARACTER)] the kunya-epithet of '$nick_me_abul_aysh$' (Father of Livelihood)."
+ nick_me_al_idrisi:0 "al-Idrisi"
+ nick_me_al_idrisi_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] decended from the great Sharifi dynasty that once ruled Morocco, with the world knowing [CharYouHerHim(CHARACTER)] as '$nick_me_al_idrisi$'."
+ 
  
  ##Andalusian Umayyads
- nick_ad_dakhil:0 "ad-Dakhil" #Alternate nickname for Abdul-Rahman I, well known in the Arabic world
+nick_ad_dakhil:0 "ad-Dakhil" #Alternate nickname for Abdul-Rahman I, well known in the Arabic world
  nick_ad_dakhil_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] escaped the bloodthirsty swords and spears of the Abbasids who followed [CharYouHerHim(CHARACTER)] across [CharYourHerHis(CHARACTER)] great journey from al-Sham to al-Andalus, where he began [CharYourHerHis(CHARACTER)] dynasty's golden age in [GetTitleByKey('c_cordoba').GetNameNoTier].\n\nFrom that day forward, everyone has known [CharYouHerHim(CHARACTER)] as '$nick_ad_dakhil$' (The Entrant)."
  nick_ar_ridha_umayyad:0 "ar-Riḍah" # ar-Ridha actually means Satisfaction or Contentment
  nick_ar_ridha_umayyad_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] always excelled in his ability to gain the satisfaction of [CharYourHerHis(CHARACTER)] Father and subjects, and so [CharYouSheHe(CHARACTER)] has become known as '$nick_ar_ridha_umayyad$' (The Satisfier)."
  nick_ar_rabdhi:0 "ar-Rabḍi"
  nick_ar_rabdhi_desc:1 "The cruel punishments of crucifixion and exile laid upon the participants of 'The Revolt of ar-Rabḍa' stained [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] name for all of history"
  
+ ##Abbasids
+ nick_me_as_saffah:0 "as-Saffaḥ"
+ nick_me_as_saffah_desc:1 "Having shed the blood of countless members of the Umayyad clan, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] gained a dreadful reputaion as ruthless man, earning him the name of '$nick_me_as_saffah$' (The Blood-Shedder)"
+ nick_me_al_rashid:0 "ar-Rashid"
+ nick_me_al_rashid_desc:1 "With many men attesting to [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s wisdom, courage, and intelligence after his victory over the Byzantines, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s father saw the makings of a great ruler within his son, and decided to honor him by elevating his position and granting him the epithet of '$nick_me_al_rashid$' (The Rightly-Guided)."
+ nick_me_al_mamuniyyah:0 "al-Ma'muniyyah"
+ nick_me_al_mamuniyyah_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] considered to be one of the most famous singer-poets to ever grace Baghdad's court, quickly rising to become the Caliph al-Ma'mun's favourite concubine, and as such she is attributed to him." 
+ 
+ ##Kinda Tribe
+ nick_al_ashath:0 "al-Ash'ath"
+ nick_al_ashath_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s constantly dishevelled appearance has become a mark of distinctiveness, the world has come to know him as '$nick_al_ashath$' (The One with the Dishevelled Hair)"
+ nick_akil_al_marar:0 "Akil al-Marār"
+ nick_akil_al_marar_desc:1 "Either because he was the only one of his companions to survive and stave off hunger by eating bitter thristle, or because he was likened to the Camel which bares it's fangs after eating the bitter plant, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] has become known in Arabian folktales as '$nick_akil_al_marar$' (He Who Eats the Bitter Thristle)"
+ nick_al_maqsur:0 "al-Maqṣūr"
+ nick_al_maqsur_desc:1 "Satisfied with the borders of the Kingdom inherited to him by [CharYourHerHis(CHARACTER)] father, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] has become known among the Arabs as '$nick_al_maqsur$' (The Satisfied)."
+ nick_al_jawn:0 "al-Jawn"
+ nick_al_jawn_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] dark skin sets [CharYouHerHim(CHARACTER)] apart from [CharYourHerHis(CHARACTER)] peers, the world has come to know [CharYouHerHim(CHARACTER)] as '$nick_al_jawn$' (The Dark-Skinned)."
+ nick_al_harrab:0 "al-Ḥarrab"
+ nick_al_harrab_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is known in the Arabian folktales as '$nick_al_harrab$'."
+ nick_imru_al_qays:0 "Imru' al-Qays"
+ nick_imru_al_qays_desc:1 "A famous Pre-Islamic Arabian poet, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s epithet comes from the word 'Imru' which translates to (A man who has fallen upon hard times) and 'al-Qays' which is a Pre-Islamic Arabian diety, hence the nickname '$nick_imru_al_qays$' roughly translates to (The Struggling Man of al-Qays)."
+ nick_az_zarqali:0 "az-Zarqali"
+ nick_az_zarqali_desc:1 "Having chosen the trade of metalsmithing in [CharYourHerHis(CHARACTER)] early life and excelling in the art of engraving, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] would come to be known as '$nick_az_zarqali$' (The Engraver)"
+ nick_ibn_bajjah:0 "Ibn Bajjah"
+ nick_ibn_bajjah_desc:1 "A patronymic that translates to "Son of Bajjah", with Bajjah being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s great-grandfather."
+ nick_me_al_anqar:0 "al-Anqar"
+ nick_me_al_anqar_desc:1 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] remaining eye gets a lot more attention than the pair of them ever did, and the world has come to know [CharYouHerHim(CHARACTER)] as '$nick_me_al_anqar$' (The One-Eyed)."
+ nick_al_walladah:0 "al-Walladah"
+ nick_al_walladah_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] has begotten far too many children to count, giving his the name of '$nick_al_walladah$' (The Birth-Giver)."
+ 
+ ##Azd Tribe
+ nick_ma_asama:0 "Mā' as-Samā'"
+ nick_ma_asama_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] provided the Arabian tribes with rainwater during seven years of drought and famine, since then he became known as '$nick_ma_asama$' (Rainwater)."
+ nick_ibn_durayd:0 "Ibn Durayd"
+ nick_ibn_durayd_desc:1 "A patronymic that translates to "Son of Durayd", with Durayd being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s grandfather."
+ 
  ##Ghaznavids
  nick_nasir_ad_din_ghaznavid:0 "Nāṣīr ad-Dīn"
  nick_nasir_ad_din_ghaznavid_desc:1 "After aiding the Samanid sultan in crushing the rebels in Khorasan, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] earned the nickname of '$nick_nasir_ad_din_ghaznavid$' (Supportor of the Faith)."
  nick_saif_ad_dawla_ghaznavid:0 "Saif ad-Dawlah"
- nick_saif_ad_dawla_ghaznavid_desc:1 "After aiding the Samanid sultan in crushing the rebels in Khorasan alongside his father, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] earned the nickname of '$nick_saif_ad_dawla_ghaznavid$' (Sword of the State)."
+ nick_saif_ad_dawla_ghaznavid_desc:1 "After aiding the Samanid sultan in crushing the rebels in Khorasan alongside [CharYourHerHis(CHARACTER)] father, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] earned the nickname of '$nick_saif_ad_dawla_ghaznavid$' (Sword of the State)."
  
  ##Mirdasids
  nick_asad_al_dawla_mirdasid:0 "Asad ad-Dawla" 
- nick_asad_al_dawla_mirdasid_desc:0 "In order to better his relations with the prestigous leader of the Kilab tribe, the Fatimid Caliph al-Hakim has given [CHARACTER.GetShortUINameNoTooltipNoFormat|U] the honorific title of '$nick_asad_al_dawla_mirdasid$' (Lion of the State)."
+ nick_asad_al_dawla_mirdasid_desc:0 "In order to better [CharYourHerHis(CHARACTER)] relations with the prestigous leader of the Kilab tribe, the Fatimid Caliph al-Hakim has given [CHARACTER.GetShortUINameNoTooltipNoFormat|U] the honorific title of '$nick_asad_al_dawla_mirdasid$' (Lion of the State)."
  nick_shibl_al_dawla_mirdasid:0 "Shibl al-Dawla" 
  nick_shibl_al_dawla_mirdasid_desc:1 "As a  tribute to [CharYourHerHis(CHARACTER)] late father, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] taken the honorific title of '$nick_shibl_al_dawla_mirdasid$' (Lion Cub of the State)."
  
@@ -109,6 +186,8 @@
  nick_isfahanist_mahdi_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] was believed to be 'God Incarnate' and the long awaited Mahdi by the Qarmatian leader Abu Tahir, who would abdicate his realm in favor of the 'Mahdi-Caliph'.\n\n[CHARACTER.GetShortUINameNoTooltipNoFormat|U] however would attempt to revive Zoroastrianism by creating his own sect and executed several nobles and members of Abu Tahir's Family, but soon enough he was ousted as a false Mahdi, which would force Abu Tahir to execute him and retake his postition as leader of the Qarmatians."
  
  ##Rassids
+ nick_me_al_rassi:0 "ar-Rassi"
+ nick_me_al_rassi_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] was raised in the the village of 'Wadi ar-Rass' near Medina, hence he has become attributed to village and recived the #EMP nisba#! of '$nick_me_al_rassi$'."
  nick_hadi_lil_haqq:0 "al-Hādī ilā'l-Ḥaqq"
  nick_hadi_lil_haqq_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] established the Zayidi Imamate in [GetTitleByKey('k_yemen').GetNameNoTier], and [CharHaveHas(CHARACTER)] become known as '$nick_hadi_lil_haqq$' (The Guide to the Truth)."
  nick_muhtasib_mujahid:0 "al-Muhtasib al-Mujahid"
@@ -123,8 +202,10 @@
  nick_dhu_nurayn_desc:1 "No other man has been married to two of the Prophet's daughters, and so Uthman came to be known as '$nick_dhu_nurayn$' (The one with the two lights)."
  nick_az-zahra:0 "az-Zahrā"
  nick_az-zahra_desc:1 "Prophet Muhammad was quoted saying "Fatima blooms for the people of heaven as the stars bloom for the people of the earth", and so he gave his daughter the name '$nick_az-zahra$' (The Blossom)."
- nick_al_ashath:0 "al-Ash'ath"
- nick_al_ashath_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s constantly dishevelled appearance has become a mark of distinctiveness, the world has come to know him as '$nick_al_ashath$' (The One with the Dishevelled Hair)"
+ nick_me_ath_thani:0 "ath-Thani"
+ nick_me_ath_thani_desc:1 "A pious and just ruler, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] was likened in his attributes to his revered great-grandfather Umar ibn al-Khattab, owing him the name [CHARACTER.GetShortUINameNoTooltipNoFormat|U] '$nick_me_ath_thani$' (The Second)."
+ nick_me_an_naqis:0 "an-Naqis"
+ nick_me_an_naqis_desc:1 "Wanting to emulate his great predescessor, Umar ibn Abd al-Aziz, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] would reduce the salaries of the army that would come to resent him and refer to his as '$nick_me_an_naqis$' (The Deficient)"
 
  ##Shia imams
  nick_me_al_mahdi:0 "al-Mahdi"
@@ -133,15 +214,17 @@
  ##Ibadi imams
  nick_dhu_thafinat:0 "Dhu 'a-Thafināt"
  nick_dhu_thafinat_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] prostrated himself in prayer so frequently that [CharYouSheHe(CHARACTER)] developed calluses on [CharYourHerHis(CHARACTER)] forehead, leading to the name '$nick_dhu_thafinat$' (The one with the Calluses)."
+ nick_talib_al_haqq:0 "Talib al-Ḥaqq"
+ nick_talib_al_haqq_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_talib_al_haqq$ — Seeker of the Truth."
  
  ##Barghawata
  nick_salih_barghawata:0 "Ṣāliḥ al-Mu'minin"
  nick_salih_barghawata_desc:1 "Ṣāliḥ was the founder and self-proclaimed prophet of the Barghawata religion, he claimed that his coming was prophesized in the Qur'an by pointing to his newly acquired epithet '$nick_salih_barghawata$' (The best of the believers).\n\nHe kept his and his people's faith hidden, it was not until the reign of his grandson, Yunus, that the Barghwata religion was publicly proclaimed."
  
  ##Ifrinids
- nick_sahib_al_himar:0 "Ṣāhib al-Himār"
+ nick_sahib_al_himar:0 "Ṣāhib al-Ḥimār"
  nick_sahib_al_himar_desc:1 "In order to appear to [CharYourHerHis(CHARACTER)] followers as a humble messianic figure, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] dressed [CharYourHerHimself(CHARACTER)] in rags and prefered riding a donkey to a horse, which gave [CharYouHerHim(CHARACTER)] the nickname '$nick_sahib_al_himar$' (The Man on the Donkey)."
- nick_al_habashi_al_aswad:0 "al-Habashi al-Aswad"
+ nick_al_habashi_al_aswad:0 "al-Ḥabashi al-Aswad"
  nick_al_habashi_al_aswad_desc:1 "A Zenata Berber born from the womb of a Black African slave, [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] dark skin sets [CharYouHerHim(CHARACTER)] apart from [CharYourHerHis(CHARACTER)] people, who have come to know [CharYouHerHim(CHARACTER)] as '$nick_al_habashi_al_aswad$' (The Black Ethiop)."
  nick_al_ama:0 "al-A'ma" 
  nick_al_ama_desc:1 "If [CharYourHerHis(CHARACTER)] blindness isn't enough of a reminder of what [CharYouSheHe(CHARACTER)] lacks, the world has given [CHARACTER.GetShortUINameNoTooltipNoFormat|U] the name '$nick_al_ama$' (The Blind)."
@@ -172,23 +255,23 @@
  
  ## Sicilian Emirs Other
  nick_me_ibn_qurhub:0 "Ibn Qurhub"
- nick_me_ibn_qurhub_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_qurhub$' (Son of Qurhub)."
+ nick_me_ibn_qurhub_desc:1 "A patronymic that translates to "Son of Qurhub", with Qurhub being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s ancestor."
  nick_me_ibn_khinzir:0 "Ibn Abi Khinzīr"
- nick_me_ibn_khinzir_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_khinzir$' (Son of Abi Khinzīr)."
+ nick_me_ibn_khinzir_desc:1 "A patronymic that translates literaly to "Son of the Father of the Pig", with Abi Khinzīr supposedly being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s grandfather."
 
  ## Sicilian Taifa Emirs
  nick_me_ibn_mankud:0 "Ibn Mankud"
- nick_me_ibn_mankud_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_mankud$' (Son of Mankud)."
+ nick_me_ibn_mankud_desc:1 "A patronymic that translates to "Son of Mankud", with Mankud being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s ancestor."
  nick_me_ibn_al_hawwas:0 "Ibn al-Ḥawwās"
- nick_me_ibn_al_hawwas_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_al_hawwas$' (Son of al-Ḥawwās)."
+ nick_me_ibn_al_hawwas_desc:1 "A patronymic that translates to "Son of al-Ḥawwās", with al-Ḥawwās being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s ancestor."
  nick_me_ibn_ath_thumnah:0 "Ibn ath-Thumnah"
- nick_me_ibn_ath_thumnah_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_ath_thumnah$' (Son of ath-Thumnah)."
+ nick_me_ibn_ath_thumnah_desc:1 "A patronymic that translates to "Son of ath-Thumnah", with ath-Thumnah being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s ancestor."
  nick_me_ibn_al_maklati:0 "Ibn al-Maklātī"
- nick_me_ibn_al_maklati_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_al_maklati$' (Son of al-Maklātī)."
+ nick_me_ibn_al_maklati_desc:1 "A patronymic that translates to "Son of al-Maklātī", with al-Maklātī being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s ancestor."
  nick_me_ibn_abbad:0 "Ibn 'Abbād"
- nick_me_ibn_abbad_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_abbad$' (Son of 'Abbād)."
+ nick_me_ibn_abbad_desc:1 "A patronymic that translates to "Son of 'Abbād", with 'Abbād being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s ancestor."
  nick_me_ibn_al_baba:0 "Ibn al-Ba'bā'"
- nick_me_ibn_al_baba_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_al_baba$' (Son of al-Ba'bā')."
+ nick_me_ibn_al_baba_desc:1 "A patronymic that translates to "Son of al-Ba'bā", with al-Ba'bā being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s ancestor."
 
  ## Kalbid Emirs
  nick_me_al_akhal:0 "al-Akḥal"
@@ -202,12 +285,7 @@
  
  ## Siqilli Poets
  nick_me_ibn_hamdis:0 "Ibn Hamdis"
- nick_me_ibn_hamdis_desc:1 "True to Arabic tradition, [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s name has become synonymous with that of his ancestor, the world has come to know him as '$nick_me_ibn_hamdis$' (Son of Hamdis)."
+ nick_me_ibn_hamdis_desc:1 "A patronymic that translates to "Son of Hamdis", with Hamdis being [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s great-grandfather."
  nick_me_al_balnubi:0 "al-Balnubi"
  nick_me_al_balnubi_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] hails from the Sicilian village of Villanova, known in Arabic as #EMP Billanubah#!."
  
- #Hindu Nicknames
- nick_adivaraha:0 "Ādivarāha"
- nick_adivaraha_desc:1 "In order to show [CharYourHerHis(CHARACTER)] devotion to the Hindu god Vishnu, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] gave [CharYourHerHimself(CHARACTER)] the title of 'Srimad-$nick_adivaraha$' (The fortunate primeval boar incarnation of Vishnu)."
- nick_mihiradeva:0 "Mihirādeva"
- nick_mihiradeva_desc:1 "When [CHARACTER.GetShortUINameNoTooltipNoFormat|U] conqured Multan, [CharYouSheHe(CHARACTER)] gave [CharYourHerHimself(CHARACTER)] the Hindu epithet of '$nick_mihiradeva$' (The Sun God)."

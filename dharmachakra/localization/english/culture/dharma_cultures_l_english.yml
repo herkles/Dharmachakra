@@ -118,6 +118,10 @@
  jat_collective_noun:0 "Jats"
  jat_prefix:0 "Jat"
 
+ kaikani: "Kaikani"
+ kaikani_prefix: "Kaikano"
+ kaikani_collective_noun: "Kaikanis"
+
 # New Burman Cultures
  rakhine:0 "Rakhine"
  rakhine_collective_noun:0 "Rakhines"
@@ -219,6 +223,11 @@
  udi_name: "Udi"
  udi_prefix: "Udi"
  udi_collective_noun: "Udis"
+
+ tokhari: "Tokhari"
+ tokhari_name: "Tokhari"
+ tokhari_prefix: "Tokharo"
+ tokhari_collective_noun: "Tokharis"
 
 # Turkic Culture Group
  khalaj:0 "Khalaj"

@@ -112,7 +112,7 @@
 
 ###c_turan
 4479 = {	#Qusdar
-	culture = jat 
+	culture = kaikani 
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -226,10 +226,12 @@
 ##d_sistan ###################################
 ###c_zaranj
 4289 = {	#Zaranj
-	culture = afghan
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
-	860.1.1 = { religion = ashari }
+	860.1.1 = { 
+		religion = ashari 
+	}
 	1178.1.1 = {
 		religion = maturidi
 	}
@@ -249,7 +251,7 @@
 
 ###c_nih
 4283 = {	#Nih
-	culture = afghan
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -274,7 +276,7 @@
 
 ###c_farah
 4299 = {	#Farah
-	culture = afghan
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
 	830.1.1 = {
@@ -299,10 +301,12 @@
 
 ###c_rudbar
 4465 = {	#Rudbar
-	culture = afghan
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
-	860.1.1 = { religion = ashari }
+	860.1.1 = { 
+		religion = ashari 
+	}
 	1178.1.1 = {
 		religion = maturidi
 	}
@@ -322,12 +326,11 @@
 
 ###c_bost
 4484 = {	#Bost
-	culture = turco_hephthalite
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
 	1000.1.1 = { 
 		religion = ashari 
-		culture = afghan
 	}
 	1178.1.1 = {
 		religion = maturidi

@@ -418,7 +418,7 @@
 4513 = {# 4513 - Sibi
 	
 	# Misc
-	culture = jat
+	culture = kaikani
 	religion = khurmazta
 	
 	# History

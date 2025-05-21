@@ -624,9 +624,9 @@ me_karrami_01 = {
 	name = "Muhammad" 
 	dynasty = me_karrami_dynasty
 	religion = "karrami"
-	culture = "bedouin"
+	culture = "persian"
 	trait = education_learning_4
-	trait = shrewd
+	trait = heresiarch
 	trait = gregarious
 	trait = zealous
 
@@ -635,9 +635,9 @@ me_karrami_01 = {
 		birth = yes
 	}
 	866.1.1 = {
-		effect = {
-			learn_language_of_culture = culture:persian
-		}
+		# effect = {
+		# 	learn_language_of_culture = culture:persian
+		# }
 	}
 	868.1.1 = {
 		death = yes
@@ -662,16 +662,16 @@ me_karrami_03 = {
 	name = "Abdullah" 
 	dynasty = me_karrami_dynasty
 	religion = "karrami"
-	culture = "levantine"
+	culture = "persian"
 
 	father = me_karrami_01
 	836.1.1 = {
 		birth = yes
 	}
 	867.1.1 = {
-		effect = {
-			learn_language_of_culture = culture:persian
-		}
+		# effect = {
+		# 	learn_language_of_culture = culture:persian
+		# }
 	}
 	896.1.1 = {
 		death = yes
@@ -790,6 +790,123 @@ me_quraysh_007 = {
 		add_spouse = 163013 # Abu Qaḥāfah Uthman, father of Abu Bakr 'as-Siddiq'
 	}
 	630.1.1 = { # Death and birth dates unconfirmed
+		death = yes
+	}
+}
+
+me_quraysh_008 = {
+	name = "ad_Dahya_" # Sister of Abu Sufyan ibn Harb, firstname is either aṣ-Ṣahba' or aḍ-Ḍahya'
+	female = yes
+	dynasty = 597
+	trait = quraysh
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_quraysh_001 # Harb ibn Umayyah (exists in bedouin_me.txt)
+	565.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		add_spouse = me_kinda_061 # Bishr ibn Abdul-Malik
+	}
+	625.1.1 = {
+		death = yes
+	}
+}
+
+me_quraysh_009 = {
+	name = "az-Zabir" # Great-grandfather of Umar al-Habbari, ruler of Sindh (may have been named ar-Rabi' instead)
+	dynasty = 1043005 # Habbarid
+	religion = "ashari"
+	culture = "levantine"
+	trait = quraysh
+
+	father = me_quraysh_010
+	670.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+me_quraysh_010 = {
+	name = "Abdul-Rahman"
+	dynasty = 1043005 # Habbarid
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = me_quraysh_011
+	640.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+
+me_quraysh_011 = {
+	name = "Habbar"
+	dynasty = 1043005 # Habbarid
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	trait = poet
+
+	father = me_quraysh_012
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+me_quraysh_012 = {
+	name = "al-Aswad" # al-Aswad 'Abi Zam'ah' ibn al-Mutalib, Khadija's uncle and strong opponent to the rise of Islam
+	dynasty = 7296 # al-Qurashī
+	religion = "arabic_pagan"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = me_quraysh_013
+	555.1.1 = {
+		birth = yes
+	}
+	625.1.1 = { # Likely died before Ghazwat Uhud
+		death = yes
+	}
+}
+
+me_quraysh_013 = {
+	name = "Asad"
+	dynasty = 7296 # al-Qurashī
+	religion = "arabic_pagan"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = me_quraysh_014
+	505.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+
+me_quraysh_014 = {
+	name = "Abd_al-Uzzah"
+	dynasty = 7296 # al-Qurashī
+	religion = "arabic_pagan"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = 163005 # Qusay ibn Kilab (exists in bedouin.txt) 
+	450.1.1 = {
+		birth = yes
+	}
+	525.1.1 = {
 		death = yes
 	}
 }
@@ -1205,7 +1322,91 @@ me_fatimid_001 = {
 	}
 }
 
+me_fatimid_002 = {
+	name = "Sa_id" # Sa'id al-Khayr, brother of Abduallah ar-Radi and acting imam after his death
+	dynasty = 589 # Fatimids
+	religion = "ismaili"
+	culture = "bedouin"
+	trait = sayyid
+	trait = ambitious # Attempted to seize the imamate for himself
+
+	father = 33919
+	830.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		employer = 33920 # Abduallah ar-Radi
+	}
+	881.1.1 = {
+		death = yes
+	}
+}
+
 ## Umayyads
+
+sufyani002 = { # al-Farah bint Abu Sufyan
+	name = "al-Farah"
+	female = yes
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = 163028 # Abu Sufyan ibn Harb (exists in bedouin.txt)
+	595.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		add_spouse = asadid023 # Abd 'Abu Ahmad' ibn Jahsh al-Asadi
+	}
+	660.1.1 = { 
+		death = yes
+	}
+}
+sufyani001 = { # Ramlah bint Abu Sufyan, wife of Prophet Muhammad
+	name = "Ramlah"
+	female = yes
+	dynasty = 597 # Umayyad
+	religion = "alb_islam" 
+	culture = "bedouin"
+	trait = quraysh
+	trait = zealous
+	trait = chaste
+
+	father = 163028 # Abu Sufyan ibn Harb (exists in bedouin.txt)
+	589.1.1 = {
+		birth = yes
+	}
+	611.1.1 = {
+		add_spouse = asadid022 # Ubaydullah ibn Jahsh al-Asadi, early Islamic apostate
+	}
+	614.1.1 = {
+		remove_spouse = asadid022 # They seperate after his apostosy
+	}
+	628.1.1 = {
+		add_spouse = 33922 #Prophet Muhammad
+	}
+	664.7.1 = { 
+		death = yes
+	}
+}
+sufyani003 = {
+	name = "Aminah" # Aminah bint Abu Sufyan, wife of Urwah ibn Masud
+	female = yes
+	dynasty = 597 # Umayyad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = 163028  # Abu Sufyan ibn Harb (exists in bedouin.txt)
+	590.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		add_spouse = thaqifid021 # Urwah ibn Masud ath-Thaqafi
+	}
+	655.1.1 = { 
+		death = yes
+	}
+}
 
 me_umayyads_001 = {
 	name = "Abdullah" # Abdullah ibn Uthman ibn Affan, Grandson of the Prophet and Son of Uthman and Ruqayyah
@@ -1220,7 +1421,310 @@ me_umayyads_001 = {
 		birth = "620.1.1"
 	}
 	626.1.1 = {
-		death = "626.1.1"
+		death = yes
+	}
+}
+
+me_umayyads_002 = {
+	name = "_Utbah" # Utbah ibn Abu Sufyan, Sahabi and Governor of Egypt
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	trait = education_diplomacy_4 # 'It is said there is no one among the Umayyads more eloquent than him'
+	trait = hajjaj # Led the annual haj
+	trait = zealous
+	trait = just
+	trait = brave
+
+	father = 163028  # Abu Sufyan ibn Harb (exists in bedouin.txt)
+	615.1.1 = {
+		birth = yes
+	}
+	665.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_003 = {
+	name = "al-Walid" # al-Walid ibn Utbah, Tabi'i and Governor of Medina
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+	trait = education_diplomacy_3
+	trait = hajjaj # Led the annual haj
+	trait = zealous # All qualities that he has been described by
+	trait = generous
+	trait = patient
+
+	father = me_umayyads_002
+	645.1.1 = {
+		birth = yes
+	}
+	684.1.1 = { # Died sometime after Mu'awiyah ibn Yazid
+		death = yes
+	}
+}
+
+me_umayyads_004 = {
+	name = "Muhammad"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = me_umayyads_003
+	680.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_005 = {
+	name = "Isam"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = me_umayyads_004
+	725.1.1 = {
+		birth = yes
+	}
+	785.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_006 = {
+	name = "Imran"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = me_umayyads_005
+	770.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_007 = {
+	name = "al-Mughira"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = me_umayyads_006
+	815.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_008 = {
+	name = "Ahmad"
+	dynasty = 597 # Umayyad
+	religion = "ashari"
+	culture = egyptian
+	trait = quraysh
+
+	father = me_umayyads_007
+	845.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_009 = {
+	name = "Ibrahim"
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	#give_nickname = nick_al_anf # The nose?
+	religion = "ashari"
+	culture = egyptian
+	trait = quraysh
+
+	father = me_umayyads_008
+	880.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_010 = {
+	name = "Muhammad"
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = "ashari"
+	culture = egyptian
+	trait = quraysh
+
+	father = me_umayyads_009
+	925.1.1 = {
+		birth = yes
+	}
+	995.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_011 = {
+	name = "Abi Salama"
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = ismaili
+	culture = egyptian
+	trait = quraysh
+
+	father = me_umayyads_010
+	970.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_012 = {
+	name = "Ibrahim" # Ibtahim ibn Abi Salama, sent as an envoy by the Fatimid caliph to the Sulayhids
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = ismaili
+	culture = egyptian
+	trait = quraysh
+
+	father = me_umayyads_011
+	1015.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 45035 # Ali al-Sulayhi
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_013 = {
+	name = "Ja_far"
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = ismaili
+	culture = egyptian
+	trait = quraysh
+
+	father = me_umayyads_012
+	1045.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 45035 # Ali al-Sulayhi
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_014 = {
+	name = "Muhammad"
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = tayyibi
+	culture = yemeni
+	trait = quraysh
+
+	father = me_umayyads_013
+	1100.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_015 = {
+	name = "Ali" # Ali ibn Muhammad, 5th Tayyibi Da'i al-Mutlaq (1209-1215)
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = tayyibi
+	culture = yemeni
+	trait = quraysh
+	trait = education_learning_4
+	trait = theologian
+
+	father = me_umayyads_014
+	1128.1.1 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = me_tayyibi_006
+	}
+	1215.12.21 = {
+		death = yes
+	}
+}
+
+me_umayyads_016 = {
+	name = "Mubarak"
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = tayyibi
+	culture = yemeni
+	trait = quraysh
+
+	father = me_umayyads_014
+	1130.1.1 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = me_tayyibi_006
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_017 = {
+	name = "Ahmad" # Ahmad ibn Mubarak, 7th Tayyibi Da'i al-Mutlaq (1229-1230)
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = tayyibi
+	culture = yemeni
+	trait = quraysh
+
+	father = me_umayyads_016
+	1160.1.1 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = me_tayyibi_006
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+
+me_umayyads_018 = {
+	name = "al-Husayn" # al-Husayn ibn Ali, 8th Tayyibi Da'i al-Mutlaq (1230-1268)
+	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
+	religion = tayyibi
+	culture = yemeni
+	trait = quraysh
+
+	father = me_umayyads_017
+	1175.1.1 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = me_tayyibi_006
+	}
+	1268.1.1 = {
+		death = yes
 	}
 }
 
@@ -1481,6 +1985,1902 @@ me_abshami_003 = {
 	}
 }
 
+me_abshami_004 = {
+	name = "Sabi_ah" # Sabi'ah bint Abd Shams, mother of Urwah ibn Ma'ud ath-Thaqafi
+	female = yes
+	dynasty_house = house_me_banu_abd_shams # al-'Abshamī
+	religion = "arabic_pagan"
+	culture = "bedouin"
+	trait = quraysh
+
+	father = 163016 # Abd Shams ibn Abdul-Manaf, Qurashite pagan (exists in bedouin.txt)
+	510.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		add_spouse = me_thaqafi_001 # Mas'ud ibn Mu'ttab
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+
+## Banu Asad ibn Khuzaymah
+asadid001 = {
+	name = "Habib" # Habib ibn Madhahir, Companion of Prophet Muhammad, Ali ibn Abi Talib, and al-Husayn, martyred in the Battle of Karbala
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+	trait = zealous
+	trait = brave
+	trait = strong
+
+	father = asadid002
+	605.1.1 = {
+		birth = yes
+	}
+	680.10.10 = {
+	   death = {
+		death_reason = death_karbala
+		}
+	}
+}
+
+asadid002 = {
+	name = "Mudhahir"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = me_al_asadi_008
+	570.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+
+asadid003 = {
+	name = "Muslim" # Abu Hajal Muslim ibn Awsaja, Companion of Prophet Muhammad and his grandson Husayn, martyred in the Battle of Karbala
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+	trait = zealous
+	trait = brave
+	trait = just
+
+	father = asadid004
+	610.1.1 = {
+		birth = yes
+	}
+	680.10.10 = {
+		death = {
+			death_reason = death_karbala
+		}
+	}
+}
+
+asadid004 = {
+	name = "_Awsajah"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+asadid018 = {
+	name = "Jahsh" # Jahsh ibn Ri'ab, Companion of Prophet Muhammad and Umaymah bint Abd-ul-Muttalib's husband
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+	trait = zealous
+	trait = chaste
+
+	father = asadid019
+	570.1.1 = {
+		birth = yes
+	}
+	590.1.1 = {
+		add_spouse = 3390012 # Umaymah bint Abdul-Mutalib
+	}
+	645.1.1 = {
+		death = yes
+	}
+}
+
+asadid019 = {
+	name = "Ri_ab"
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_al_asadi_001
+	545.1.1 = {
+		birth = yes
+	}
+	605.1.1 = {
+		death = yes
+	}
+}
+
+asadid020 = { # Zaynab bint Jahsh, The Prophet Muhammad's wife
+	name = "Zaynab"
+	female = yes
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+	trait = zealous
+	trait = chaste
+
+	father = asadid018
+	mother = 3390012 # Umaymah bint Abdul-Mutalib
+	590.1.1 = {
+		birth = yes
+	}
+	627.3.27 = { #Actual date of Zaynab's wedding to Muhammad
+		add_spouse = 33922 #Prophet Muhammad
+	}
+	641.11.1 = { #Died for sure this year
+		death = yes 
+	}
+}
+
+asadid021 = { # Abdullah ibn Jahsh, Prophet Muhammad's companion and brother-in-law
+	name = "Abdullah"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+	trait = zealous
+
+	father = asadid018
+	mother = 3390012 # Umaymah bint Abdul-Mutalib
+	585.1.1 = {
+		birth = yes
+	}
+	625.3.23 = { #Martyred in the Battle of Uhud by Akhnas ibn Shariq
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+asadid022 = { # Ubaydullah ibn Jahsh, early Islamic apostate
+	name = "Ubaydullah"
+	dynasty = me_banu_asad
+	religion = "coptic" #He converted after migrating to Abyssinia
+	culture = "bedouin"
+
+	father = asadid018
+	mother = 3390012 # Umaymah bint Abdul-Mutalib
+	587.1.1 = {
+		birth = yes
+	}
+	611.1.1 = {
+		add_spouse = sufyani001 # Ramla bint Abu Sufyan
+	}
+	614.1.1 = {
+		remove_spouse = sufyani001 # They seperate after his apostosy
+	}
+	627.7.16 = { 
+		death = yes
+	}
+}
+
+asadid023 = {
+	name = "_Abd" # 'Abd 'Abu Ahmad' ibn Jahsh, Prophet Muhammad's companion and brother-in-law
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "alb_islam"
+	trait = blind
+	trait = zealous
+
+	father = asadid018
+	mother = 3390012 # Umaymah bint Abdul-Mutalib
+	589.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		add_spouse = sufyani002 # # al-Farah bint Abu Sufyan
+	}
+	655.1.1 = { # Died for sure after 641.
+		death = yes 
+	}
+}
+
+asadid024 = {
+	name = "Habibah"  # Habibah bint Jahsh, Prophet Muhammad's companion and sister-in-law
+	female = yes
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+	trait = zealous
+	trait = bleeder #Habiba had a disorder which made her bleed excessively.
+
+	father = asadid018
+	mother = 3390012 # Umaymah bint Abdul-Mutalib
+	592.1.1 = {
+		birth = yes
+	}
+	657.1.1 = { 
+		death = yes
+	}
+}
+
+asadid025 = {
+	name = "Hammanah" # Hammanah bint Jahsh, Prophet Muhammad's companion and sister-in-law
+	female = yes
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+	trait = zealous
+
+	father = asadid018
+	mother = 3390012 # Umaymah bint Abdul-Mutalib
+	594.1.1 = {
+		birth = yes
+	}
+	659.1.1 = { #Died for sure after 641.
+		death = yes
+	}
+}
+
+asadid026 = {
+	name = "Muhammad"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = asadid021
+	620.1.1 = {
+		birth = yes
+	}
+	680.1.1 = { 
+		death = yes
+	}
+}
+
+asadid027 = {
+	name = "Habibah"
+	female = yes
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = asadid022
+	mother = sufyani001 # Ramla bint Abu Sufyan
+	605.1.1 = {
+		birth = yes 
+	}
+	635.1.1 = {
+		add_spouse = thaqifid022 # Dawud ibn Urwah ath-Thaqafi
+	}
+	665.1.1 = { 
+		death = yes
+	}
+}
+
+asadid028 = {
+	name = "Usamah"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = asadid023
+	605.1.1 = {
+		birth = yes
+	}
+	665.1.1 = { 
+		death = yes
+	}
+}
+
+asadid029 = {
+	name = "Abdullah"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = asadid023
+	607.1.1 = {
+		birth = yes
+	}
+	667.1.1 = { 
+		death = yes
+	}
+}
+
+me_al_asadi_001 = {
+	name = "Ya_mur"
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_al_asadi_002
+	500.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_002 = {
+	name = "Sabrah"
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_al_asadi_003
+	455.1.1 = {
+		birth = yes
+	}
+	515.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_003 = {
+	name = "Murrah"
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_al_asadi_004
+	410.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_004 = {
+	name = "Kabir"
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_al_asadi_005
+	365.1.1 = {
+		birth = yes
+	}
+	425.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_005 = {
+	name = "Ghanam"
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_al_asadi_006
+	320.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_006 = {
+	name = "Dudan" # Known aslo as Dhudan
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_al_asadi_007
+	280.1.1 = {
+		birth = yes
+	}
+	340.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_007 = {
+	name = "Asad" # Forefather of the Asad Tribe
+	dynasty = me_banu_asad
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+#	father = ### # Khuzaymah ibn Mudrika, may have lived in the BCE
+	250.1.1 = {
+		birth = yes
+	}
+	310.1.1 = {
+		death = yes
+	}
+}
+
+# Geneology of Habib ibn Mudhahir, sources for it may not be unreliable however
+me_al_asadi_008 = {
+	name = "Riyab"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_009
+	540.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_009 = {
+	name = "al-Ashtar"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_010
+	510.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_010 = {
+	name = "Hajwan"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_011
+	480.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_011 = {
+	name = "Faq_as"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_012
+	450.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_012 = {
+	name = "Tarif"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_013
+	420.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_013 = {
+	name = "_Amr"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_014
+	390.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_014 = {
+	name = "Qa_in"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_015
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_015 = {
+	name = "al-Harith"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_016
+	330.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_016 = {
+	name = "Tha_labah"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_006 # Dudan ibn Asad
+	300.1.1 = {
+		birth = yes
+	}
+	360.1.1 = {
+		death = yes
+	}
+}
+
+# Geneology of the Ashirah of Aal-Buma'rif, an Isma'ili Shi'ite clan of the Asad tribe
+
+me_al_asadi_017 = {
+	name = "Abdullah"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = asadid001 # Habib ibn Madhahir
+	640.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_018 = {
+	name = "Munajiz"
+	dynasty = me_banu_asad
+	religion = "alb_islam_shia"
+	culture = "bedouin"
+
+	father = me_al_asadi_017
+	680.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_019 = {
+	name = "Khaz_al"
+	dynasty = me_banu_asad
+	religion = "alb_islam_shia"
+	culture = "bedouin"
+
+	father = me_al_asadi_018
+	720.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_020 = {
+	name = "Wuhayb"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "bedouin"
+
+	father = me_al_asadi_019
+	760.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_021 = {
+	name = "Mawhub"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "bedouin"
+
+	father = me_al_asadi_020
+	800.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_022 = {
+	name = "Matar"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "bedouin"
+
+	father = me_al_asadi_021
+	830.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_023 = {
+	name = "Matrud"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "bedouin"
+
+	father = me_al_asadi_022
+	860.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_024 = {
+	name = "Mas_ud"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_023
+	900.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_025 = {
+	name = "Mahmud"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_024
+	940.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_026 = {
+	name = "Husayn"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_025
+	980.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_027 = {
+	name = "Ali"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_026
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_028 = {
+	name = "Mudhahir"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_027
+	1050.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_029 = {
+	name = "Aziz"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_028
+	1090.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_030 = {
+	name = "Muslim"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_029
+	1130.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_031 = {
+	name = "Abdullah"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_030
+	1160.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+
+# Ancestors of the Mazyadids
+me_al_asadi_032 = {
+	name = "Marthad"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_033
+	890.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_033 = {
+	name = "Zinji"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_034
+	860.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_034 = {
+	name = "Rayyan"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_035
+	830.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_035 = {
+	name = "_Adni" # It seems he's omited in some geneologies
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_036
+	800.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_036 = {
+	name = "_Adhur"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "levantine"
+
+	father = me_al_asadi_037
+	770.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_037 = {
+	name = "_Adi"
+	dynasty = me_banu_asad
+	religion = "ismaili"
+	culture = "bedouin"
+
+	father = me_al_asadi_038
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_038 = {
+	name = "Jild"
+	dynasty = me_banu_asad
+	religion = "alb_islam_shia"
+	culture = "bedouin"
+
+	father = me_al_asadi_039
+	710.1.1 = {
+		birth = yes
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_039 = {
+	name = "Hayy"
+	dynasty = me_banu_asad
+	religion = "alb_islam_shia"
+	culture = "bedouin"
+
+	father = me_al_asadi_040
+	680.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_040 = {
+	name = "_Amr"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = me_al_asadi_041
+	650.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_041 = {
+	name = "Malik" # Abu Mudhafar Malik
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = me_al_asadi_042
+	610.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_042 = {
+	name = "_Awf"
+	dynasty = me_banu_asad
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = me_al_asadi_043
+	570.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_043 = {
+	name = "Mu_awiyah"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_044
+	530.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_044 = {
+	name = "Kasr"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_045
+	490.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_045 = {
+	name = "Nashirah"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_046
+	450.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_046 = {
+	name = "Sa_d"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_047
+	420.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_047 = {
+	name = "Sawa_ah"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_048
+	380.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_048 = {
+	name = "Malik"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_049
+	350.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+me_al_asadi_049 = {
+	name = "Sa_d"
+	dynasty = me_banu_asad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_al_asadi_016 # Tha'labah ibn Dudan
+	320.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+
+## Banu Thaqif
+thaqifid001 = { # al-Mukhtar 'Kaysan' ath-Thaqafi, whom the Kaysanites are named after
+	name = "al-Mukhtar"
+	dynasty = me_banu_thaqif
+	give_nickname = nick_kaysan # means smart and clever
+	religion = alb_islam_shia
+	culture = "bedouin"
+
+	father = thaqifid002
+	mother = thaqifid011
+	622.1.1 = {
+		birth = yes
+	}
+	687.1.1 = {
+		death = {
+			death_reason = death_battle
+			#killer = 000 # Mus'ab ibn al-Zubayr
+		}
+	}
+}
+
+thaqifid002 = { # Abu Ubayd ibn Mas'ud ath-Thaqafi, Sahabi and Rashidun commander
+	name = "Abu__Ubayd"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_martial_3
+
+	father = thaqifid003
+	580.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		add_spouse = thaqifid011
+	}
+	634.10.25 = { # Killed at the Ma'rakat al-Jisr (Battle of the bridge) 
+		death = {
+			death_reason = death_crushed_by_elephant
+		}
+	}
+}
+
+thaqifid003 = {
+	name = "Mas_ud"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid004
+	540.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid004 = {
+	name = "_Amr"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid005
+	510.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid005 = {
+	name = "_Umayr"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid006
+	480.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid006 = {
+	name = "_Awf"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid007
+	450.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid007 = {
+	name = "Uqda" 
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid008
+	420.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid008 = {
+	name = "Ghiyarah" 
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid009
+	390.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid009 = {
+	name = "_Awf" 
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid010
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid010 = {
+	name = "Thaqif" # Forefather of Banu Thaqif
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	330.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid011 = { # Dawmah bint Amr, mother of al-Mukhtar ath-Thaqafi
+	name = "Dawmah"
+	female = yes
+	dynasty = me_banu_thaqif
+	give_nickname = nick_al_hasna # The Beautiful
+	religion = alb_islam_shia
+	culture = "bedouin"
+	trait = beauty_good_2
+
+	father = thaqifid012
+	600.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		add_spouse = thaqifid002
+	}
+	687.1.1 = { # Supposedly dies with her son al-Mukhtar ath-Thaqafi
+		death = yes
+	}
+}
+
+thaqifid012 = {
+	name = "_Amr"
+	dynasty = me_banu_thaqif
+	religion = "alb_islam"
+	culture = "bedouin"
+
+	father = thaqifid013
+	570.1.1 = {
+		birth = yes
+	}
+	630.1.1 = { 
+		death = yes
+	}
+}
+
+thaqifid013 = {
+	name = "Wahb"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid014
+	540.1.1 = {
+		birth = yes
+	}
+	600.1.1 = { 
+		death = yes
+	}
+}
+
+thaqifid014 = {
+	name = "Mu_ttab"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid015
+	510.1.1 = {
+		birth = yes
+	}
+	570.1.1 = { 
+		death = yes
+	}
+}
+
+thaqifid015 = {
+	name = "Wahb"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid016
+	480.1.1 = {
+		birth = yes
+	}
+	540.1.1 = { 
+		death = yes
+	}
+}
+
+thaqifid016 = {
+	name = "Ka_b"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	450.1.1 = {
+		birth = yes
+	}
+	510.1.1 = { 
+		death = yes
+	}
+}
+
+thaqifid017 = {
+	name = "Abu_Jabr"
+	dynasty = me_banu_thaqif
+	religion = alb_islam # Affiliation unknown
+	culture = "bedouin"
+
+	father = thaqifid002
+#	mother = thaqifid011 # Mother unknown
+	624.1.1 = {
+		birth = yes
+	}
+	685.1.1 = { 
+		death = yes
+	}
+}
+
+thaqifid018 = {
+	name = "Abu_Hakam"
+	dynasty = me_banu_thaqif
+	religion = alb_islam # Affiliation unknown
+	culture = "bedouin"
+
+	father = thaqifid002
+#	mother = thaqifid011 # Mother unknown
+	626.1.1 = {
+		birth = yes
+	}
+	685.1.1 = { 
+		death = yes
+	}
+}
+
+thaqifid019 = {
+	name = "Abu_Umayyah"
+	dynasty = me_banu_thaqif
+	religion = alb_islam # Affiliation unknown
+	culture = "bedouin"
+
+	father = thaqifid002
+#	mother = thaqifid011 # Mother unknown
+	628.1.1 = {
+		birth = yes 
+	}
+	690.1.1 = { 
+		death = yes
+	}
+}
+
+thaqifid020 = {
+	name = "Barzah"
+	female = yes
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = thaqifid003
+	570.1.1 = {
+		birth = yes
+	}
+#	605.1.1 = {
+#		add_spouse = ### # Safwan ibn Umayyah al-Jahmi
+#	}
+	645.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid021 = { # Urwah ibn Mas'ud ath-Thaqafi, Sahabi and leader of Banu Thaqif during his time
+	name = "Urwah"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = zealous
+	trait = brave
+	trait = just
+
+	father = me_thaqafi_001
+	mother = me_abshami_004 # Sabi'ah bint Abd Shams
+	555.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		add_spouse = sufyani003 # Aminah bint Abu Sufyan
+	}
+	630.1.1 = {
+		death = { # Killed by his tribe after he preached Islam to them
+			death_reason = death_murder
+		}
+	}
+}
+
+thaqifid022 = {
+	name = "Dawud"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = thaqifid021
+	mother = sufyani003 # Aminah bint Abu Sufyan
+	615.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		add_spouse = asadid027 # Habibah bint Ubaydullah al-Asadi
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid023 = {
+	name = "al-Mughirah" # al-Mughirah ibn Shu'bah, Sahabi and Rashidun governor of Kufa
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = zealous
+	trait = just
+	trait = hajjaj
+
+	father = thaqifid024
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid024 = {
+	name = "Shu_bah"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = thaqifid025
+	580.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid025 = {
+	name = "Abi__Amer"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_thaqafi_001
+	560.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid026 = {
+	name = "al-Mutarrif" # al-Mutarrif ibn al-Mughirah, Tabi'i and Umayyad governor of al-Mada'in
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = zealous
+
+	father = thaqifid023
+	630.1.1 = {
+		birth = yes
+	}
+	696.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+thaqifid027 = { # 'Urwah ibn al-Mughirah, Tabi'i, Muhadith, and Umayyad governor of Kufa
+	name = "_Urwah"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_learning_3
+	trait = zealous
+
+	father = thaqifid023
+	632.1.1 = {
+		birth = yes
+	}
+	706.1.1 = {
+		death = yes
+	}
+}
+
+thaqifid028 = {
+	name = "Hamzah" # Ḥamzah ibn al-Mughirah, Tabi'i, Muhadith, and Umayyad governor of Hamadan
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_learning_3
+	trait = zealous
+
+	father = thaqifid023
+	635.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_001 = {
+	name = "Mas_ud"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_thaqafi_002
+	530.1.1 = {
+		birth = yes
+	}
+	550.1.1 = {
+		add_spouse = me_abshami_004 # Sabi'ah bint Abd Shams
+	}
+	590.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_002 = {
+	name = "Mu_ttab"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_thaqafi_003
+	500.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_003 = {
+	name = "Malik"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_thaqafi_004
+	470.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_004 = {
+	name = "Ka_b"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_thaqafi_005
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_005 = {
+	name = "_Amr"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_thaqafi_006
+	410.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_006 = {
+	name = "Sa_d"
+	dynasty = me_banu_thaqif
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = thaqifid009
+	380.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+
+
+me_thaqafi_007 = {
+	name = "al-Hajjaj" # al-Hajjaj ibn Yusuf ath-Thaqafi, Infamous Umayyad governor of Iraq
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_martial_4
+	trait = callous
+	trait = wrathful # 'The shedding of blood came as easily to him as breathing air'
+	trait = vengeful # Spitful and envious, as he described himself
+	trait = deceitful # Often used cunning and deception to win wars
+	trait = zealous # Curiously enough, The very same sources that cursed him and called him a disbeliever made great reference to the strength of his faith
+	trait = loyal # He was extremely loyal to al-Walid, who viewed him very favorably
+	trait = poet
+
+	father = me_thaqafi_008
+	mother = me_thaqafi_014
+	661.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+
+	}
+	714.1.1 = {
+		death = { # Died due to an illness, the cause of which is disputed 
+			death_reason = death_ill
+		}
+	}
+}
+
+me_thaqafi_008 = {
+	name = "Yusuf"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_martial_3
+
+	father = me_thaqafi_009
+	630.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		add_spouse = me_thaqafi_014
+	}
+	695.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_009 = {
+	name = "al-Hakam"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_010
+	600.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_010 = {
+	name = "Abi__Uqayl"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_001
+	570.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_011 = {
+	name = "Muhammad"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_007
+	680.1.1 = {
+		birth = yes
+	}
+	710.1.1 = { # It seems he died during al-Hajjaj's lifetime, but i could not find exact dates
+		death = yes
+	}
+}
+
+me_thaqafi_012 = {
+	name = "Aban"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_007
+	685.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_013 = {
+	name = "Hamam"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = thaqifid021
+	590.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_014 = {
+	name = "al_Fari_ah" # Mother of al-Hajjaj
+	female = yes
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_013
+	630.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_015 = {
+	name = "Muhammad" # Brother of al-Hajjaj and governor of San'a
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = callous
+	trait = wrathful # He was known for his cruelty, similar to his brother. He also gathered all the lepers of Yemen to burn them but died before doing so.
+
+	father = me_thaqafi_008
+	665.1.1 = {
+		birth = yes
+	}
+	715.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_016 = {
+	name = "Yusuf" # Nephew of al-Hajjaj and governor of Medina
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = callous
+	trait = wrathful # Similar to his uncle, he was also known for his cruelty
+	trait = torturer # He tortured the previous governor and his brother to death.
+
+	father = me_thaqafi_015
+	695.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_017 = {
+	name = "Umm_al_Hajjaj" # Nephew of al-Hajjaj and governor of Medina
+	female = yes
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_015
+	695.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_018 = {
+	name = "Muhammad" # Relative of al-Hajjaj, conquerer of Sindh and it's first governor 
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_martial_3
+
+	father = me_thaqafi_020
+	692.1.1 = {
+		birth = yes
+	}
+	714.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_019 = {
+	name = "Muhammad" # Relative of al-Hajjaj, conquerer of Sindh and it's first governor 
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+	trait = education_martial_3
+
+	father = me_thaqafi_020
+	692.1.1 = {
+		birth = yes
+	}
+	714.1.1 = {
+		death = {
+			death_reason = death_torture
+		}
+	}
+}
+
+me_thaqafi_020 = {
+	name = "al-Qasim" # Cousin of al-Hajjaj and governor of Basra
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_021
+	660.1.1 = {
+		birth = yes
+	}
+	715.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_021 = {
+	name = "Muhammad"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_009
+	635.1.1 = {
+		birth = yes
+	}
+	695.1.1 = {
+		death = yes
+	}
+}
+
+me_thaqafi_022 = {
+	name = "Yusuf" # Relative of al-Hajjaj and governor of Yemen, Iraq, and Khurasan
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_023
+	685.1.1 = {
+		birth = yes
+	}
+	745.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+me_thaqafi_023 = {
+	name = "Umar"
+	dynasty = me_banu_thaqif
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_thaqafi_021
+	660.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
 ## Banu Tamim - North Arabian Tribe
 me_tamimi_001 = {
 	name = "Salim" # Salim ibn 'Aqal at-Tamīmī
@@ -1647,14 +4047,358 @@ me_aghlabid_009 = {
 	}
 }
 
+me_aghlabid_010 = {
+	name = "Muhammad"
+	dynasty = 807
+	religion = mutazila
+	culture = maghrebi # Banu Tamim tribe
+
+	father = 163146 # Ziyadat-Allah II ibn Muhammad (found in bedouin.txt)
+	840.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+me_aghlabid_011 = {
+	name = "Ahmad"
+	dynasty = 807
+	religion = ashari
+	culture = siqilli
+
+	father = me_aghlabid_010
+	870.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+
+me_aghlabid_012 = {
+	name = "Husayn"
+	dynasty = 807
+	religion = ashari
+	culture = siqilli
+
+	father = me_aghlabid_011
+	900.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+
+me_aghlabid_013 = {
+	name = "Abdullah"
+	dynasty = 807
+	religion = ashari
+	culture = siqilli
+
+	father = me_aghlabid_012
+	930.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+
+me_aghlabid_014 = {
+	name = "Muhammad"
+	dynasty = 807
+	religion = ashari
+	culture = siqilli
+
+	father = me_aghlabid_013
+	960.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}
+
+me_aghlabid_015 = {
+	name = "Ali"
+	dynasty = 807
+	religion = ashari
+	culture = siqilli
+
+	father = me_aghlabid_014
+	990.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+
+me_aghlabid_016 = {
+	name = "Ja_far"
+	dynasty = 807
+	religion = ashari
+	culture = siqilli
+
+	father = me_aghlabid_015
+	1020.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+me_aghlabid_017 = { # Geneology taken from 'Tarikh al-Islam' by Shams ad-Din ath-Thahabi
+	name = "Ali" # Ibn al-Qatta' al-Siqilli, philogist, lexicographer, and anthropologist of the Arabic language
+	dynasty = 807
+	religion = ashari
+	culture = siqilli
+	trait = education_learning_3
+	trait = scholar
+	trait = poet
+
+	father = me_aghlabid_016
+	1041.1.1 = {
+		birth = yes
+	}
+	1121.1.1 = {
+		death = yes
+	}
+}
+
+## Banu Kinanah
+me_kinanah_001 = {
+	name = "Hisham" # al-Waqashi, considered to be a Faqih with a wide and profound knowledge
+	dynasty = 1042120 # Banu Kinanah
+	give_nickname = nick_al_waqashi # al-Waqashi
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_4 # Faqih and Polymath
+	trait = poet
+	
+	father = me_kinanah_003
+	1017.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 3924 # al-Ma'mun, ruler of Tulaytilah
+
+	}
+	1096.1.1 = {
+		death = yes
+	}
+}
+
+me_kinanah_002 = {
+	name = "al-Walid"
+	dynasty = 1042120 # Banu Kinanah
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_kinanah_001
+	1040.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 3924 # al-Ma'mun, ruler of Tulaytilah
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+me_kinanah_003 = {
+	name = "Ahmad"
+	dynasty = 1042120 # Banu Kinanah
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_kinanah_004
+	990.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+
+me_kinanah_004 = {
+	name = "Hisham"
+	dynasty = 1042120 # Banu Kinanah
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_kinanah_005
+	960.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}
+
+me_kinanah_005 = {
+	name = "Khalid"
+	dynasty = 1042120 # Banu Kinanah
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	930.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+
+## Banu Taghlib
+me_taghlib_001 = { # Abu al-Qasim Sa'id al-Andalusi, Qadi of Tulaytilah in 1066
+	name = "Sa_id"
+	dynasty = 1042127 # Banu Taghlib
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_4 # He was a very famous mathematician, scientist, and philosipher
+	trait = zealous
+
+	father = me_taghlib_003
+	1029.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 3924 # al-Ma'mun, ruler of Tulaytilah
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:andalusian_0001 } # az-Zarqali, was taught by Sa'id
+		}
+	}
+	1070.7.6 = {
+		death = yes
+	}
+}
+
+me_taghlib_002 = {
+	name = "al-Qasim"
+	dynasty = 1042127 # Banu Taghlib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_taghlib_001
+	1049.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 3924 # al-Ma'mun, ruler of Tulaytilah
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+
+me_taghlib_003 = {
+	name = "Ahmad" # Abu al-Walid Ahmad, previous Qadi of Tulaytilah
+	dynasty = 1042127 # Banu Taghlib
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_3
+	trait = zealous
+	
+	father = me_taghlib_005
+	1000.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+me_taghlib_004 = {
+	name = "al-Walid"
+	dynasty = 1042127 # Banu Taghlib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_taghlib_003
+	1020.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 3924 # al-Ma'mun, ruler of Tulaytilah
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+me_taghlib_005 = {
+	name = "Abd-al-Rahman" # Abd al-Rahman al-Taghlibi, Qadi of Sidonia during his time
+	dynasty = 1042127 # Banu Taghlib
+	religion = "muwalladi"
+	culture = "andalusian"
+	trait = education_learning_3
+	trait = zealous
+	
+	father = me_taghlib_006
+	970.1.1 = {
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+
+me_taghlib_006 = {
+	name = "Muhammad"
+	dynasty = 1042127 # Banu Taghlib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_taghlib_007
+	940.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+me_taghlib_007 = {
+	name = "Sa_id"
+	dynasty = 1042127 # Banu Taghlib
+	religion = "muwalladi"
+	culture = "andalusian"
+	
+	father = me_taghlib_008
+	910.1.1 = {
+		birth = yes
+	}
+	970.1.1 = {
+		death = yes
+	}
+}
+
+me_taghlib_008 = {
+	name = "Uthman"
+	dynasty = 1042127 # Banu Taghlib
+	religion = "muwalladi"
+	culture = "andalusian"
+
+	870.1.1 = {
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+
 ## Kinda Tribe
 alkindi1 = {
 	name = "Ya_qub" # Abu Yusuf Ya'qub al-Kindi
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "levantine"
 	religion = "ashari"
-
-	learning = 26
 	trait = education_learning_4
 	
 	father = alkindi2
@@ -1673,7 +4417,7 @@ alkindi1 = {
 
 alkindi2 = {
 	name = "Ishaq"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "levantine"
 	religion = "ashari"
 
@@ -1686,24 +4430,9 @@ alkindi2 = {
 	}
 }
 
-me_kinda_023 = { 
-	name = "Yusuf" # Yusuf, son of al-Kindi
-	dynasty = me_alkindi
-	culture = "levantine"
-	religion = "ashari"
-	
-	father = alkindi1 # Ya'qub al-Kindi
-	835.1.1 = {
-		birth = yes
-	}
-	895.1.1 = {
-		death = yes
-	}
-}
-
 me_kinda_001 = {
 	name = "as_Sabbah"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "levantine"
 	religion = "ashari"
 
@@ -1718,7 +4447,7 @@ me_kinda_001 = {
 
 me_kinda_002 = {
 	name = "Imran"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "levantine"
 	religion = "ashari"
 
@@ -1733,7 +4462,7 @@ me_kinda_002 = {
 
 me_kinda_003 = {
 	name = "Isma_il"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "bedouin"
 	religion = "ashari"
 
@@ -1748,7 +4477,7 @@ me_kinda_003 = {
 
 me_kinda_004 = {
 	name = "Abd-al-Rahman" # Abd al-Rahman
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "bedouin"
 	religion = "ashari"
 	trait = education_martial_3
@@ -1764,7 +4493,7 @@ me_kinda_004 = {
 
 me_kinda_005 = {
 	name = "Muhammad" # Muhammad ibn al-Ash'ath
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "bedouin"
 	religion = "ashari"
 	trait = zealous
@@ -1782,8 +4511,8 @@ me_kinda_005 = {
 }
 
 me_kinda_006 = {
-	name = "Ma'dikarib" # al-Ash'ath, companion of the Prophet
-	dynasty = me_alkindi
+	name = "Ma_d_Yakrub" # al-Ash'ath, companion of the Prophet
+	dynasty = bedouin_kinda
 	give_nickname = nick_al_ashath #  'al-Ash'ath', Which means 'The man with the dishevelled hair'
 	culture = "bedouin"
 	religion = "ashari"
@@ -1801,7 +4530,7 @@ me_kinda_006 = {
 
 me_kinda_007 = {
 	name = "Qays"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "rabbinism"
 
@@ -1816,7 +4545,7 @@ me_kinda_007 = {
 
 me_kinda_008 = {
 	name = "Ma'dikarib"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1831,7 +4560,7 @@ me_kinda_008 = {
 
 me_kinda_009 = {
 	name = "Mu_awiyah"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1846,7 +4575,7 @@ me_kinda_009 = {
 
 me_kinda_010 = {
 	name = "Jablah"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1861,7 +4590,7 @@ me_kinda_010 = {
 
 me_kinda_011 = {
 	name = "_Adi"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1876,7 +4605,7 @@ me_kinda_011 = {
 
 me_kinda_012 = {
 	name = "Rabi'ah"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1891,7 +4620,7 @@ me_kinda_012 = {
 
 me_kinda_013 = {
 	name = "Rabi'ah"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1906,7 +4635,7 @@ me_kinda_013 = {
 
 me_kinda_014 = {
 	name = "Mu_awaiyah_al__Akramin"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1921,7 +4650,7 @@ me_kinda_014 = {
 
 me_kinda_015 = {
 	name = "al_Harith_al_Asghar"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1936,7 +4665,7 @@ me_kinda_015 = {
 
 me_kinda_016 = {
 	name = "Mu_awiyah"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1951,7 +4680,7 @@ me_kinda_016 = {
 
 me_kinda_017 = {
 	name = "al_Harith_al_Akbar"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1966,7 +4695,7 @@ me_kinda_017 = {
 
 me_kinda_018 = {
 	name = "Mu_awiyah"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1981,7 +4710,7 @@ me_kinda_018 = {
 
 me_kinda_019 = {
 	name = "Thawr"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -1996,7 +4725,7 @@ me_kinda_019 = {
 
 me_kinda_020 = {
 	name = "Marta_"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -2011,7 +4740,7 @@ me_kinda_020 = {
 
 me_kinda_021 = {
 	name = "Mu_awiyah"
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -2026,7 +4755,7 @@ me_kinda_021 = {
 
 me_kinda_022 = {
 	name = "Kindah" # Forefather of the Kinda Tribe
-	dynasty = me_alkindi
+	dynasty = bedouin_kinda
 	culture = "south_arabian"
 	religion = "arabic_pagan"
 
@@ -2039,31 +4768,389 @@ me_kinda_022 = {
 	}
 }
 
-## Kharjites
-me_ibadi_001 = {
-	name = "Abdullah" # 'Abdullah ibn Wahb ar-Rasibi, The first Kharjite Ibadi Caliph
-	dynasty = me_ar_rasibi # ar-Rasibi
-	give_nickname = nick_dhu_thafinat #  'Dhu ʾa-Thafināt', Which means 'The man with the calluses'
-	religion = "ibadi"
-	culture = "bedouin"
+## The Lineage of the Kindite Kings (As told by al-Isfahani)
+me_kinda_023 = {
+	name = "_Amr"
+	dynasty = bedouin_kinda
+	culture = "yemeni"
+	religion = "arabic_pagan"
 
-	father = me_ibadi_002 # Wahb ar-Rasibi
-	600.1.1 = {
-		birth = yes # Unknown Birthdate
+	father = me_kinda_016 # Mu'awiyah ibn al-Harith al-Akbar
+	325.1.1 = {
+		birth = yes
 	}
-	658.7.17 = {
+	385.1.1 = {
+		death = yes
+	}
+}
+me_kinda_024 = {
+	name = "Hujr" # Hujr 'Akil al-Marār' Ibn 'Amr
+	dynasty = bedouin_kinda
+	give_nickname = nick_akil_al_marar #  'Akil al-Marār', Which means 'He who eats the Thristle'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_023
+	370.1.1 = {
+		birth = yes
+	}
+	445.1.1 = {
+		death = yes
+	}
+}
+me_kinda_025 = {
+	name = "_Amr" # 'Amr 'al-Maqṣūr' ibn Akil al-Marār
+	dynasty = bedouin_kinda
+	give_nickname = nick_al_maqsur #  'al-Maqṣūr', Which means 'The Satisfied One'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+	trait = content
+
+	father = me_kinda_024
+	410.1.1 = {
+		birth = yes
+	}
+	473.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_026 = {
+	name = "Mu_awiyah" # Mu'awiyah 'al-Jawn' ibn Akil al-Marār
+	dynasty = bedouin_kinda
+	give_nickname = nick_al_jawn #  'al-Jawn', Which means 'The Dark-Skinned'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_024
+	415.1.1 = {
+		birth = yes
+	}
+	475.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_027 = {
+	name = "al-Harith" # al-Harith 'al-Harrab' ibn Amr al-Maqṣūr
+	dynasty = bedouin_kinda
+	give_nickname = nick_al_harrab  # al-Harrab
+	culture = "bedouin"
+	religion = "mazdakism"
+
+	father = me_kinda_025
+	445.1.1 = {
+		birth = yes
+	}
+	531.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_028 = {
+	name = "Hujr" # Hujr ibn al-Harith 'al-Harrab'
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_027
+	470.1.1 = {
+		birth = yes
+	}
+	535.1.1 = {
 		death = {
-			death_reason = death_battle
-			killer = 33911 # Ali ibn Abi Talib, Fourth Sunni Caliph and First Shia Caliph
+			death_reason = death_murder
 		}
 	}
 }
 
-me_ibadi_002 = {
-	name = "Wahb" # Wahb ar-Rasibi, Father of the first Ibadi leader Abdullah ar-Rasibi
-	dynasty = me_ar_rasibi # ar-Rasibi
-	religion = "arabic_pagan"
+me_kinda_029 = {
+	name = "Ma_d_Yakrub" # Ma'd-Yakrub ibn al-Harith 'al-Harrab'
+	dynasty = bedouin_kinda
 	culture = "bedouin"
+	religion = "arabic_pagan"
+	trait = poet
+
+	father = me_kinda_027
+	472.1.1 = {
+		birth = yes
+	}
+	545.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_030 = {
+	name = "Shurahbil" # Shuraḥbil ibn al-Harith 'al-Harrab'
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_027
+	474.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = { # Died at the Battle of the first 'Yawm al-Kulab'
+			death_reason = death_battle
+		}
+	}
+}
+
+me_kinda_031 = {
+	name = "Salama" # Salama ibn al-Harith 'al-Harrab'
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_027
+	475.1.1 = {
+		birth = yes
+	}
+	545.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_032 = {
+	name = "Jundah" # Jundah 'Imru' al-Qays' ibn Hujr - Famous Jahiliya poet
+	dynasty = bedouin_kinda
+	give_nickname = nick_imru_al_qays  # Imru' al-Qays, which means 'The Man of al-Qays'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+	trait = poet
+	trait = smallpox
+	trait = vengeful
+
+	father = me_kinda_028
+	501.1.1 = {
+		birth = yes
+	}
+	565.1.1 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+
+me_kinda_033 = {
+	name = "Qays" # Qays ibn Salama
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_031
+	500.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_034 = {
+	name = "_Amr" # Amr ibn Salama
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_031
+	502.1.1 = {
+		birth = yes
+	}
+	562.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_035 = {
+	name = "Yazid" # Yazid ibn Salama
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_031
+	504.1.1 = {
+		birth = yes
+	}
+	564.1.1 = {
+		death = yes
+	}
+}
+
+## Other Kinda branches
+me_kinda_036 = { # Forefather of the Banu Tujib
+	name = "Ashras"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_037
+	250.1.1 = {
+		birth = yes
+	}
+	310.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_037 = {
+	name = "Shabib"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_038
+	220.1.1 = {
+		birth = yes
+	}
+	280.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_038 = {
+	name = "as-Sakun"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_039
+	180.1.1 = {
+		birth = yes
+	}
+	240.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_039 = {
+	name = "Ashras"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_022
+	145.1.1 = {
+		birth = yes
+	}
+	205.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_040 = {
+	name = "as-Saksak"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_039
+	185.1.1 = {
+		birth = yes
+	}
+	245.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_041 = {
+	name = "_Ariq"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_040
+	230.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_042 = {
+	name = "Ma_d_Yakrub"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_041
+	290.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_043 = {
+	name = "al-Muqallad"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_042
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_044 = {
+	name = "Sahil" # Name may either be Sahil or Sabil
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_043
+	390.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_045 = {
+	name = "Qirt"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_044
+	440.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_046 = {
+	name = "Hayy" # Name may either be Ḥayy or Ḥaya
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_045
+	495.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_047 = {
+	name = "Yasar"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_046
 	550.1.1 = {
 		birth = yes
 	}
@@ -2072,10 +5159,363 @@ me_ibadi_002 = {
 	}
 }
 
+me_kinda_048 = {
+	name = "Haywil" # Abi Kabsha, firstname may either be Haywil or Jibril, Hadith narrator
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "ashari"
+	trait = zealous
+	trait = loyal
+
+	father = me_kinda_047
+	600.1.1 = {
+		birth = yes
+	}
+	685.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_049 = {
+	name = "Yazid" # Yazid ibn Abi Kabsha, Umayyad military commander and governor, also a Hadith narrator
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "ashari"
+	trait = education_martial_3
+	trait = zealous
+	trait = loyal
+
+	father = me_kinda_048
+	640.1.1 = {
+		birth = yes
+	}
+	715.8.1 = {
+		death = yes
+	}
+}
+
+me_kinda_050 = {
+	name = "Ziyad"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_kinda_048
+	645.1.1 = {
+		birth = yes
+	}
+	695.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_051 = {
+	name = "Sari" # One of the Pro-Yaman leaders during the third fitna
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_kinda_050
+	680.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_052 = {
+	name = "Shukamah"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_037 # Shabib ibn as-Sakun
+	255.1.1 = {
+		birth = yes
+	}
+	315.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_053 = {
+	name = "Umamah"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_052
+	290.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_054 = {
+	name = "Halawah"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_053
+	320.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_055 = {
+	name = "Mu_awiyah"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_054
+	350.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_056 = {
+	name = "al-Harith"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_055
+	390.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_057 = {
+	name = "A_na"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_056
+	425.1.1 = {
+		birth = yes
+	}
+	485.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_058 = {
+	name = "Abdul-Jinn"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kinda_057
+	460.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_059 = {
+	name = "Abdul-Malik"
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "nestorian" # Assumption, we don't know where down the line they converted to christianity
+
+	father = me_kinda_058
+	500.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_060 = {
+	name = "Ukaydir" # Ukaydir ibn Abdul-Malik, ruler of Dumat al-Jandal during the early Islamic era
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "nestorian"
+
+	father = me_kinda_059
+	545.1.1 = {
+		birth = yes
+	}
+	630.1.1 = {
+		religion = "ashari" # Disputed among scholars, but considering that he rebelled after the death of the Prophet this conversion doesn't seem genuine
+	}
+	633.1.1 = {
+		death = {
+			death_reason = death_execution
+#			killer = ### Khalid ibn al-Walid
+		}
+	}
+}
+
+me_kinda_061 = {
+	name = "Bishr" # Bishr ibn Abdul-Malik, famous pre-islamic calligrapher
+	dynasty = bedouin_kinda
+	culture = "bedouin"
+	religion = "nestorian"
+
+	father = me_kinda_059
+	547.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		add_spouse = me_quraysh_008 # aṣ-Ṣahba'/aḍ-Ḍahya', sister of Abu Sufyan
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_062 = {
+	name = "al-Harith" # al-Harith 'al-Walladah' Ibn 'Amr
+	dynasty = bedouin_kinda
+	give_nickname = nick_al_walladah #  'al-Walladah', named as such because of how many children he had
+	culture = "yemeni"
+	religion = "arabic_pagan"
+
+	father = me_kinda_023 # 'Amr Ibn Mu'awiyah ibn al-Harith al-Akbar
+	365.1.1 = {
+		birth = yes
+	}
+	435.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_063 = {
+	name = "Abdullah" # Abdullah ash-Shaytan (ash-Shaytan was a name used in Pre-Islamic Arabia as it did not have any negative connotations among the pagans, his named changed when the Prophet met with Banu ash-Shaytan and renamed them to Banu Abdullah)
+	dynasty = bedouin_kinda
+	culture = "yemeni"
+	religion = "arabic_pagan"
+
+	father = me_kinda_062
+	415.1.1 = {
+		birth = yes
+	}
+	475.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_064 = {
+	name = "al-Aswad"
+	dynasty = bedouin_kinda
+	culture = "yemeni"
+	religion = "arabic_pagan"
+
+	father = me_kinda_063
+	465.1.1 = {
+		birth = yes
+	}
+	525.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_065 = {
+	name = "_Amr"
+	dynasty = bedouin_kinda
+	culture = "yemeni"
+	religion = "arabic_pagan"
+
+	father = me_kinda_064
+	515.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_066 = {
+	name = "Shurahbil"
+	dynasty = bedouin_kinda
+	culture = "yemeni"
+	religion = "arabic_pagan"
+
+	father = me_kinda_065
+	565.1.1 = {
+		birth = yes
+	}
+	625.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_067 = {
+	name = "_Amr"
+	dynasty = bedouin_kinda
+	culture = "yemeni"
+	religion = "ashari"
+
+	father = me_kinda_066
+	615.1.1 = {
+		birth = yes
+	}
+	675.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_068 = {
+	name = "Yahyah"
+	dynasty = bedouin_kinda
+	culture = "yemeni"
+	religion = "ashari"
+
+	father = me_kinda_067
+	665.1.1 = {
+		birth = yes
+	}
+	725.1.1 = {
+		death = yes
+	}
+}
+
+me_kinda_069 = {
+	name = "Abdullah" # Abdullah 'Talib al-Haqq' al-Kindi, Ibadi Imam and revolutionary who took control of Yemen, Mecca and Medina during the Third Fitna 
+	dynasty = bedouin_kinda
+	give_nickname = nick_talib_al_haqq #  'Talib al-Haqq' - Seeker of the Truth
+	culture = "yemeni"
+	religion = "ibadi"
+	trait = education_learning_3
+	trait = zealous
+
+	father = me_kinda_068
+	709.1.1 = {
+		birth = yes
+	}
+	748.6.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+
+
+
 me_tujibid_001	= {
 	name = "Jafnah"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_002
@@ -2090,7 +5530,7 @@ me_tujibid_001	= {
 me_tujibid_002	= {
 	name = "Qatirah"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_003
@@ -2105,7 +5545,7 @@ me_tujibid_002	= {
 me_tujibid_003	= {
 	name = "Harithah"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_004
@@ -2118,9 +5558,9 @@ me_tujibid_003	= {
 }
 
 me_tujibid_004	= {
-	name = "Abd-Shams"
+	name = "Abd_Shams"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_005
@@ -2135,7 +5575,7 @@ me_tujibid_004	= {
 me_tujibid_005	= {
 	name = "Mu_awiyah"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_006
@@ -2150,7 +5590,7 @@ me_tujibid_005	= {
 me_tujibid_006	= {
 	name = "Ja_far"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_007
@@ -2165,7 +5605,7 @@ me_tujibid_006	= {
 me_tujibid_007	= {
 	name = "Osama"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_008
@@ -2180,7 +5620,7 @@ me_tujibid_007	= {
 me_tujibid_008	= {
 	name = "Sa_d"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_kinda_036 # Ashras ibn Shabib al-Kindi
@@ -2196,7 +5636,7 @@ me_tujibid_008	= {
 me_tujibid_009	= {
 	name = "Adi"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_kinda_036 # Ashras ibn Shabib al-Kindi
@@ -2387,7 +5827,7 @@ me_tujibid_020 = {
 me_tujibid_021	= {
 	name = "Adah"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_009 # Adi ibn Ashras at-Tujibi
@@ -2400,9 +5840,9 @@ me_tujibid_021	= {
 }
 
 me_tujibid_022	= {
-	name = "Baddā"
+	name = "Badda"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_021
@@ -2415,9 +5855,9 @@ me_tujibid_022	= {
 }
 
 me_tujibid_023	= {
-	name = "Mālik"
+	name = "Malik"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_022
@@ -2432,7 +5872,7 @@ me_tujibid_023	= {
 me_tujibid_024	= {
 	name = "Amer"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_023
@@ -2447,7 +5887,7 @@ me_tujibid_024	= {
 me_tujibid_025	= {
 	name = "Abdul-Aziz"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_024
@@ -2460,9 +5900,9 @@ me_tujibid_025	= {
 }
 
 me_tujibid_026	= {
-	name = "Ḍabi'"
+	name = "Dabi_"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_025
@@ -2475,9 +5915,9 @@ me_tujibid_026	= {
 }
 
 me_tujibid_027	= {
-	name = "'Amis"
+	name = "_Amis"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_026
@@ -2492,7 +5932,7 @@ me_tujibid_027	= {
 me_tujibid_028	= {
 	name = "al-Harith"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_027
@@ -2507,7 +5947,7 @@ me_tujibid_028	= {
 me_tujibid_029	= {
 	name = "Qays"
 	dynasty_house = house_me_Tujibid # Banu Tujib
-	religion = "pagan"
+	religion = "arabic_pagan"
 	culture = "bedouin"
 	
 	father = me_tujibid_028
@@ -2565,7 +6005,7 @@ me_tujibid_032	= {
 }
 
 me_tujibid_033	= {
-	name = "Naṣir"
+	name = "Nasir"
 	dynasty_house = house_me_Tujibid # Banu Tujib
 	religion = "ashari"
 	culture = "egyptian"
@@ -2595,7 +6035,7 @@ me_tujibid_034	= {
 }
 
 me_tujibid_035	= {
-	name = "Ḥafṣ"
+	name = "Hafs"
 	dynasty_house = house_me_Tujibid # Banu Tujib
 	religion = "ashari"
 	culture = "egyptian"
@@ -2766,7 +6206,7 @@ me_tujibid_045 = {
 }
 
 me_tujibid_046 = {
-	name = "Ḥarmalah"
+	name = "Harmalah"
 	dynasty_house = house_me_Tujibid # Banu Tujib
 	religion = ashari
 	culture = yemeni
@@ -2790,6 +6230,2627 @@ me_tujibid_047 = {
 		birth = yes
 	}
 	630.1.1 = {
+		death = yes
+	}
+}
+## Banu Mudhḥaj
+me_mudhhaj_001 = { # Foremother of the Banu Tujib
+	name = "Tujib"
+	female = yes
+	dynasty = me_mudhhaj_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_mudhhaj_002
+	250.1.1 = {
+		birth = yes
+	}
+	270.1.1 = {
+		add_spouse = me_kinda_036 # Ashras ibn Shabib al-Kindi
+	}
+	310.1.1 = {
+		death = yes
+	}
+}
+
+me_mudhhaj_002 = {
+	name = "Thuban"
+	dynasty = me_mudhhaj_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_mudhhaj_003
+	220.1.1 = {
+		birth = yes
+	}
+	280.1.1 = {
+		death = yes
+	}
+}
+
+me_mudhhaj_003 = {
+	name = "Salim"
+	dynasty = me_mudhhaj_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_mudhhaj_004
+	190.1.1 = {
+		birth = yes
+	}
+	250.1.1 = {
+		death = yes
+	}
+}
+
+me_mudhhaj_004 = {
+	name = "Ruha_" # May also be known as Dhahl
+	dynasty = me_mudhhaj_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_mudhhaj_005
+	160.1.1 = {
+		birth = yes
+	}
+	220.1.1 = {
+		death = yes
+	}
+}
+
+me_mudhhaj_005 = {
+	name = "Mudhhaj" # Forefather of Banu Mudhḥaj, also known as Malik ibn Add
+	dynasty = me_mudhhaj_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kahlanid_001
+	130.1.1 = {
+		birth = yes
+	}
+	190.1.1 = {
+		death = yes
+	}
+}
+
+## Banu Kahlan - Forefathers of many Qahtanite Arab tribes
+###
+# Banu Kahlan by my estimation most likely lived well into the BCE (If they ever existed, that is) but right now are not disabled
+# His father, Abd Shams, is believed to be the same Toranic figure of Saba'/Sheba, who is also believed to be the forfather of the Sabaeans
+###
+me_kahlanid_001 = {
+	name = "Add"
+	dynasty = me_banu_kahlan_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kahlanid_002
+	100.1.1 = {
+		birth = yes
+	}
+	160.1.1 = {
+		death = yes
+	}
+}
+
+me_kahlanid_002 = {
+	name = "Zayd"
+	dynasty = me_banu_kahlan_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kahlanid_003
+	80.1.1 = {
+		birth = yes
+	}
+	150.1.1 = {
+		death = yes
+	}
+}
+
+me_kahlanid_003 = {
+	name = "Yashjub"
+	dynasty = me_banu_kahlan_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kahlanid_004
+	60.1.1 = {
+		birth = yes
+	}
+	130.1.1 = {
+		death = yes
+	}
+}
+
+me_kahlanid_004 = {
+	name = "_Arib"
+	dynasty = me_banu_kahlan_dynasty
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kahlanid_008 # Zayd ibn Kahlan
+	32.1.1 = {
+		birth = yes
+	}
+	110.1.1 = {
+		death = yes
+	}
+}
+
+me_kahlanid_005 = {
+	name = "al-Ghawth"
+	dynasty = me_banu_kahlan_dynasty
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_kahlanid_006
+	80.1.1 = {
+		birth = yes
+	}
+	150.1.1 = {
+		death = yes
+	}
+}
+
+me_kahlanid_006 = {
+	name = "Nabt"
+	dynasty = me_banu_kahlan_dynasty
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_kahlanid_007
+	60.1.1 = {
+		birth = yes
+	}
+	130.1.1 = {
+		death = yes
+	}
+}
+
+me_kahlanid_007 = {
+	name = "Malik"
+	dynasty = me_banu_kahlan_dynasty
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_kahlanid_008
+	30.1.1 = {
+		birth = yes
+	}
+	100.1.1 = {
+		death = yes
+	}
+}
+
+me_kahlanid_008 = {
+	name = "Zayd"
+	dynasty = me_banu_kahlan_dynasty
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+#	father = ### Kahlan ibn Saba'
+	1.1.1 = {
+		birth = yes
+	}
+	75.1.1 = {
+		death = yes
+	}
+}
+
+## Banu Tayy' - The Ta'ids
+me_tayy_001 = {
+	name = "Hatim" # Hatim at-Ta'i, Famous Arabian poet and Sheikh of the Najdi Tayy' tribe 
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "nestorian" # Monophysite
+	trait = generous
+	trait = gregarious
+	trait = poet
+
+	father = me_tayy_007
+	530.1.1 = {
+		birth = yes
+	}
+	578.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_002 = {
+	name = "Saffanah" # Early Muslim convert and Sahabiyyah, converted her entire tribe to Islam
+	female = yes
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+	trait = zealous
+	trait = chaste
+	trait = generous # Her nickname was 'al-Karimah bint al-Karim'
+
+	father = me_tayy_001
+	570.1.1 = {
+		birth = yes
+	}
+	645.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_003 = {
+	name = "Adi" # Sahabi and Leader of the Najdi Tayy' during his time
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+	trait = zealous
+	trait = education_martial_3
+	trait = poet
+
+	father = me_tayy_001
+	572.1.1 = {
+		birth = yes
+	}
+	687.1.1 = { # Died during the governorship of al-Mukhtar ath-Thaqafi (685-689), which means he lived to be more than 110
+		death = yes
+	}
+}
+
+me_tayy_004 = {
+	name = "Tarif" 
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_003
+	600.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_005 = {
+	name = "Shabib" # Mentioned in some stories
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari" # Assuming he lived to see his tribe convert, and converted with them
+
+	father = me_tayy_001
+	575.1.1 = {
+		birth = yes
+	}
+	635.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_006 = {
+	name = "Abdullah"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari" # Assuming he lived to see his tribe convert, and converted with them
+
+	father = me_tayy_001
+	577.1.1 = {
+		birth = yes
+	}
+	637.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_007 = {
+	name = "Abdullah"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_008
+	500.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_008 = {
+	name = "Sa_d"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_009
+	470.1.1 = {
+		birth = yes
+	}
+	530.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_009 = {
+	name = "al-Hashraji"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_010
+	440.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_010 = {
+	name = "Imru' al-Qays"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_011
+	410.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_011 = {
+	name = "Adi"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_012
+	380.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_012 = {
+	name = "Akhzam"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_013
+	350.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_013 = {
+	name = "Hazumah"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_014
+	320.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_014 = {
+	name = "Rabi_ah"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_015
+	290.1.1 = {
+		birth = yes
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_015 = {
+	name = "Jarwal"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_016
+	260.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_016 = {
+	name = "Thu_al"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_017
+	230.1.1 = {
+		birth = yes
+	}
+	290.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_017 = {
+	name = "_Amr"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_018
+	200.1.1 = {
+		birth = yes
+	}
+	260.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_018 = {
+	name = "al-Ghawth"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_019
+	170.1.1 = {
+		birth = yes
+	}
+	230.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_019 = {
+	name = "Tayyi_" # Forefather of the Bany Tayy', also known as Julhama ibn Add
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_kahlanid_001 # Add ibn Zayd al-Kahlani
+	140.1.1 = {
+		birth = yes
+	}
+	200.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_020 = {
+	name = "Salaman"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_017
+	235.1.1 = {
+		birth = yes
+	}
+	295.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_021 = {
+	name = "_Anin"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_020
+	270.1.1 = {
+		birth = yes
+	}
+	330.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_022 = {
+	name = "_Atud"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_021
+	305.1.1 = {
+		birth = yes
+	}
+	365.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_023 = {
+	name = "Bahtar"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_022
+	340.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_024 = {
+	name = "Tadhul"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_023
+	375.1.1 = {
+		birth = yes
+	}
+	435.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_025 = {
+	name = "Jadi"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_024
+	410.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_026 = {
+	name = "Abi_Haritha" # Can't find his first name
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_025
+	445.1.1 = {
+		birth = yes
+	}
+	505.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_027 = {
+	name = "Hantam"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_026
+	480.1.1 = {
+		birth = yes
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_028 = {
+	name = "al-Harith"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_027
+	515.1.1 = {
+		birth = yes
+	}
+	575.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_029 = {
+	name = "Mashar"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "arabic_pagan"
+
+	father = me_tayy_028
+	550.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_030 = {
+	name = "Salmah"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari" # Assuming he converted with the Najdi Ta'ids
+
+	father = me_tayy_029
+	585.1.1 = {
+		birth = yes
+	}
+	645.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_031 = {
+	name = "Jabir"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_030
+	620.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_032 = {
+	name = "Shamlal"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_031
+	655.1.1 = {
+		birth = yes
+	}
+	715.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_033 = {
+	name = "Ubayd"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_032
+	690.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_034 = {
+	name = "Yahyah"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_033
+	725.1.1 = {
+		birth = yes
+	}
+	785.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_035 = {
+	name = "Ahmad"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_034
+	760.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_036 = {
+	name = "Ali"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_035
+	795.1.1 = {
+		birth = yes
+	}
+	855.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_037 = {
+	name = "Amer"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_036
+	830.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_038 = {
+	name = "Muqallad"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_037
+	865.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_039 = {
+	name = "Salih"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_038
+	905.1.1 = {
+		birth = yes
+	}
+	965.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_040 = {
+	name = "Ahmad"
+	dynasty = bedouindyn010 # Banu Tayy'
+	culture = "bedouin"
+	religion = "ashari"
+
+	father = me_tayy_039
+	945.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_041 = {
+	name = "Muqallad"
+	dynasty_house = house_me_jibrani # al-Jibrani
+	culture = "levantine" # Settled in the Halabi village of Jibrin Qurstayah
+	religion = "ashari"
+
+	father = me_tayy_040
+	985.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_042 = {
+	name = "Sa_d"
+	dynasty_house = house_me_jibrani # al-Jibrani
+	culture = "levantine"
+	religion = "ashari"
+
+	father = me_tayy_041
+	1025.1.1 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_043 = {
+	name = "Sa_id"
+	dynasty_house = house_me_jibrani # al-Jibrani
+	culture = "levantine"
+	religion = "ashari"
+
+	father = me_tayy_042
+	1060.1.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_044 = {
+	name = "Sa'dullah"
+	dynasty_house = house_me_jibrani # al-Jibrani
+	culture = "levantine"
+	religion = "ashari"
+
+	father = me_tayy_043
+	1100.1.1 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_045 = {
+	name = "Hibatullah"
+	dynasty_house = house_me_jibrani # al-Jibrani
+	culture = "levantine"
+	religion = "ashari"
+
+	father = me_tayy_044
+	1135.1.1 = {
+		birth = yes
+	}
+	1195.1.1 = {
+		death = yes
+	}
+}
+
+me_tayy_046 = {
+	name = "Ahmad" # Ibn al-Jibrani, an Arabic linguist and Imam known for his Qira'at
+	dynasty_house = house_me_jibrani # al-Jibrani
+	culture = "levantine"
+	religion = "ashari"
+	trait = zealous
+	trait = chaste
+
+	father = me_tayy_045
+	1166.1.1 = {
+		birth = yes
+	}
+	1182.1.1 = {
+		trait = education_learning_3
+		give_nickname = nick_taj_al_din
+	}
+	1231.7.1 = {
+		death = yes
+	}
+}
+
+me_tayy_047 = {
+	name = "al-Qasim" 
+	dynasty_house = house_me_jibrani # al-Jibrani
+	culture = "levantine"
+	religion = "ashari"
+
+	father = me_tayy_046
+	1195.1.1 = {
+		birth = yes
+	}
+	1255.1.1 = {
+		death = yes
+	}
+}
+
+
+## Ibadi Imams
+me_ibadi_001 = {
+	name = "Abdullah" # 'Abdullah ibn Wahb ar-Rasibi, The first Kharjite Ibadi Caliph
+	dynasty = me_ar_rasibi # ar-Rasibi
+	give_nickname = nick_dhu_thafinat #  'Dhu ʾa-Thafināt', Which means 'The man with the calluses'
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_ibadi_002 # Wahb ar-Rasibi
+	600.1.1 = {
+		birth = yes # Unknown Birthdate
+	}
+	658.7.17 = {
+		death = {
+			death_reason = death_battle
+			killer = 33911 # Ali ibn Abi Talib, Fourth Sunni Caliph and First Shia Caliph
+		}
+	}
+}
+
+me_ibadi_002 = {
+	name = "Wahb"
+	dynasty = me_ar_rasibi # ar-Rasibi
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	550.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+
+## Banu Azd - The Azdids
+# Julandids - First ruling dynasty of Oman
+me_julandi_001 = {
+	name = "Mas_ud"	
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_002
+	610.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+
+me_julandi_002 = {
+	name = "Jayfar"	# Jayfar ibn al-Julanda, Co-ruler of Oman during the times of the Prophet, co-ruled with his brother Abd
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_004
+	598.1.1 = {
+		birth = yes
+	}
+	670.1.1 = {
+		death = yes
+	}
+}
+
+me_julandi_003 = {
+	name = "Abd" # Abd ibn al-Julanda, Co-ruler of Oman during the times of the Prophet, co-ruled with his brother Jayfar
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_004
+	600.1.1 = {
+		birth = yes
+	}
+	672.1.1 = {
+		death = yes
+	}
+}
+
+me_julandi_004 = {
+	name = "al-Julanda"
+	dynasty_house = house_me_al_julandi
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_001
+	550.1.1 = {
+		birth = yes
+	}
+	625.1.1 = {
+		death = yes
+	}
+}
+
+me_julandi_005 = {
+	name = "Abad" # Abad ibn Abd al-Julandi
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_003
+	640.1.1 = {
+		birth = yes
+	}
+	695.1.1 = {
+		death = yes
+	}
+}
+
+me_julandi_006 = {
+	name = "Sa_id" # Co-ruled Oman with his brother
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_005
+	670.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+
+me_julandi_007 = {
+	name = "Sulayman" # Co-ruled Oman with his brother
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_005
+	672.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+
+me_julandi_008 = {
+	name = "Ja_far" # Ja'far ibn Sa'id al-Julandi, Revolted against the first Ibadi Imamate along with his two sons and was executed because he refused to give bay'ah (alligance) to the Imam
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_006
+	690.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 188763 # Imam al-Julanda ibn Mas'ud
+		}
+	}
+}
+
+me_julandi_009 = {
+	name = "an-Nadhar" # an-Nadhar ibn Ja'far al-Julandi, Revolted against the first Ibadi Imamate along with his father and brother
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_008
+	710.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 188763 # Imam al-Julanda ibn Mas'ud
+		}
+	}
+}
+
+me_julandi_010 = {
+	name = "Za_idah" # Za'idah ibn Ja'far al-Julandi, Revolted against the first Ibadi Imamate along with his father and brother
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_008
+	712.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 188763 # Imam al-Julanda ibn Mas'ud
+		}
+	}
+}
+
+me_julandi_011 = {
+	name = "Rashid" # Rashid ibn an-Nadhar, Co-governed Oman with his cousin under the Abbasids
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_009
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = { # Unknown
+		death = yes
+	}
+}
+
+me_julandi_012 = {
+	name = "Muhammad" # Muhammad ibn Za'idah, Co-governed Oman with his cousin under the Abbasids
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_010
+	732.1.1 = {
+		birth = yes
+	}
+	802.1.1 = { # Unknown
+		death = yes
+	}
+}
+
+me_julandi_013 = {
+	name = "as-Saqr" # aṣ-Ṣaqr ibn Muhammad ibn Za'idah, Led an unsuccessful revolt with his brother against the Ibadi Imamate
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_012
+	760.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		death = {
+			death_reason = death_murder_known # Method unknown
+			killer = me_yahmadid_007 # Imam Ghassan ibn Abdullah
+		}
+	}
+}
+
+me_julandi_014 = {
+	name = "Rashid" # Rashid ibn Muhammad ibn Za'idah, Revolted alongside his brother against the Ibadi Imamate
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_012
+	765.1.1 = {
+		birth = yes
+	}
+	822.1.1 = { # Possibly also killed with his brother
+		death = {
+			death_reason = death_murder_known # Method unknown
+			killer = me_yahmadid_007 # Imam Ghassan ibn Abdullah
+		}
+	}
+}
+
+me_julandi_015 = {
+	name = "al-Mughirah" # al-Mughrah ibn Rawshan, last Julandi to attempt a revolt on Oman
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_julandi_016
+	800.1.1 = {
+		birth = yes
+	}
+	851.1.1 = {
+		death = yes
+	}
+}
+
+me_julandi_016 = {
+	name = "Rawshan"
+	dynasty_house = house_me_al_julandi
+	religion = "ashari"
+	culture = "bedouin"
+
+	770.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+# Yaḥmadid clan that ruled the Ibadi Imamate (Unlike many other clans none of the members have a complete geneology that connects them to their forefather)
+me_yahmadid_001 = {
+	name = "al-Yahmad" # Forefather of the Yaḥmadi clan
+	dynasty = 1042182 #Yahmad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_019
+	170.1.1 = {
+		birth = yes
+	}
+	230.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_002 = {
+	name = "Shadi"
+	dynasty = 1042182 #Yahmad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_yahmadid_001
+	200.1.1 = {
+		birth = yes
+	}
+	260.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_003 = {
+	name = "Kharus" # Forefather of the Kharuṣid clan of Yaḥmad
+	dynasty = 1042182 #Yahmad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_yahmadid_002
+	230.1.1 = {
+		birth = yes
+	}
+	290.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_004 = {
+	name = "Bahr" # Forefather of the Baḥrid clan of Yaḥmad
+	dynasty = 1042182 #Yahmad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_yahmadid_002
+	235.1.1 = {
+		birth = yes
+	}
+	295.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_005 = {
+	name = "Ka_ab"
+	dynasty = 1042182 #Yahmad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_yahmadid_001
+	205.1.1 = {
+		birth = yes
+	}
+	265.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_006 = {
+	name = "al-Harith" # Forefather of the Harithid clan of Yaḥmad
+	dynasty = 1042182 #Yahmad
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_yahmadid_005
+	230.1.1 = {
+		birth = yes
+	}
+	290.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_007 = {
+	name = "Ghassan" # Ghassan ibn Abdullah al-Kharuṣi, Ibadi Imam of Oman (808-823)
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_008
+	760.1.1 = {
+		birth = yes
+	}
+	823.4.16 = { # Died 4 days before the end of Dhul-Qi'dah 207AH
+		death = yes
+	}
+}
+
+me_yahmadid_008 = {
+	name = "Abdullah" 
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	730.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_009 = {
+	name = "Abdullah" # Father of Muhammad Ibn Abdullah ibn Abi 'Affan
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = bedouin0144 # Abi Affan (found in bedouin.txt)
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_010 = {
+	name = "al-Warith" # al-Warith ibn Ka'ab al-Kharusi, Imam of Oman (795-807)
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_011 
+	750.1.1 = {
+		birth = yes
+	}
+	807.1.1 = {
+		death = {
+			death_reason = death_drowned
+		}
+	}
+}
+
+me_yahmadid_011 = {
+	name = "Ka_ab"
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	720.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_012 = {
+	name = "al-Mihna" # al-Mihna ibn Jayfar al-Fijḥi, Imam of Oman (840-851)
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_013
+	790.1.1 = {
+		birth = yes
+	}
+	851.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_013 = {
+	name = "Jayfar"
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	760.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_014 = {
+	name = "Bal_arb" # Grandfather of as-Salt ibn Malik
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	760.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_015 = {
+	name = "Shadhan" # Some sources mistakenly call him 'Thabadhan'
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = bedouin0147 # as-Salt ibn Malik
+	880.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_016 = {
+	name = "al-Khalil"
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_015
+	930.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_017 = {
+	name = "Muhammad"
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_016
+	975.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_018 = {
+	name = "Umar"
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_017
+	1020.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = bedouin0153 # Hafs b. Rashid
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_019 = {
+	name = "Abdullah"
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_018
+	1060.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = bedouin0153 # Hafs b. Rashid
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_020 = {
+	name = "al-Khalil" # Don't have any info about him other than he was alive during 1154 and was elected Imam al-Ghayba during that time
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_018
+	1110.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_021 = {
+	name = "Ward" # Taken from the geneology of Ibadi Ullema Ja'd ibn Khamis, although its accuracy is in question
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_016
+	972.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_022 = {
+	name = "Mansur" 
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_021
+	1010.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = bedouin0153 # Hafs b. Rashid
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_023 = {
+	name = "Zayd" 
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_022
+	1040.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = bedouin0153 # Hafs b. Rashid
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_024 = {
+	name = "Ḥayyan" # In some sources is called Hayya
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_023
+	1080.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_025 = {
+	name = "Muhammad" 
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_024
+	1120.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_026 = {
+	name = "Nasr" 
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_025
+	1150.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_027 = {
+	name = "Rashid" # Rashid ibn an-Nadhar, Imam of Oman (886-890)
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_yahmadid_028
+	845.1.1 = {
+		birth = yes
+	}
+	905.1.1 = {
+		death = yes
+	}
+}
+
+me_yahmadid_028 = {
+	name = "an-Nadhar"
+	dynasty = 1042182 #Yahmad
+	religion = "ibadi"
+	culture = "bedouin"
+
+	815.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+
+# General Azdids
+
+me_azdid_001 = {
+	name = "al-Mustakbir"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_002
+	500.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_002 = {
+	name = "al-Harar" # In some sources he's called al-Jaraz
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_003
+	450.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_003 = {
+	name = "Abd_Uzz" # In some sources he's called Abdul-Uzzah
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_004
+	400.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_004 = {
+	name = "Ma_lawah"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_005
+	350.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_005 = {
+	name = "Shams"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_006
+	300.1.1 = {
+		birth = yes
+	}
+	370.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_006 = {
+	name = "_Amr"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_007
+	250.1.1 = {
+		birth = yes
+	}
+	320.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_007 = {
+	name = "Ghanam"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_008
+	200.1.1 = {
+		birth = yes
+	}
+	270.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_008 = {
+	name = "Ghalib"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_009
+	150.1.1 = {
+		birth = yes
+	}
+	220.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_009 = {
+	name = "Uthman"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_010
+	100.1.1 = {
+		birth = yes
+	}
+	170.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_010 = {
+	name = "Nasr"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_011
+	50.1.1 = {
+		birth = yes
+	}
+	120.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_011 = {
+	name = "Zahran"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "yemeni"
+#	father = me_azdid_012
+	1.1.1 = {
+		birth = yes
+	}
+	71.1.1 = {
+		death = yes
+	}
+}
+
+### Disabled after the birthdate revision
+#me_azdid_012 = {
+#	name = "Ka_ab"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_013
+#	220.1.1 = {
+#		birth = yes
+#	}
+#	290.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_013 = {
+#	name = "al-Harith"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_014
+#	200.1.1 = {
+#		birth = yes
+#	}
+#	270.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_014 = {
+#	name = "Ka_ab"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_015
+#	180.1.1 = {
+#		birth = yes
+#	}
+#	250.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_015 = {
+#	name = "Abdullah"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_016
+#	160.1.1 = {
+#		birth = yes
+#	}
+#	230.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_016 = {
+#	name = "Malik"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_017
+#	140.1.1 = {
+#		birth = yes
+#	}
+#	210.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_017 = {
+#	name = "Naṣr"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_018
+#	120.1.1 = {
+#		birth = yes
+#	}
+#	190.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_018 = {
+#	name = "al-Azd" # Forefather of the Azd tribe
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_kahlanid_005 # al-Ghawth ibn Nabt
+#	100.1.1 = {
+#		birth = yes
+#	}
+#	170.1.1 = {
+#		death = yes
+#	}
+#}
+
+me_azdid_019 = {
+	name = "Hama" # Also known as Abdullah
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_009
+	140.1.1 = {
+		birth = yes
+	}
+	210.1.1 = {
+		death = yes
+	}
+}
+
+#me_azdid_020 = {
+#	name = "Mazin"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_018
+#	125.1.1 = {
+#		birth = yes
+#	}
+#	185.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_021 = {
+#	name = "Tha'labah"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_020
+#	150.1.1 = {
+#		birth = yes
+#	}
+#	210.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_022 = {
+#	name = "Imru' al-Qays"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_021
+#	180.1.1 = {
+#		birth = yes
+#	}
+#	240.1.1 = {
+#		death = yes
+#	}
+#}
+#
+#me_azdid_023 = {
+#	name = "Harithah"
+#	dynasty = arabic_azd
+#	religion = "arabic_pagan"
+#	culture = "bedouin"
+#
+#	father = me_azdid_022
+#	210.1.1 = {
+#		birth = yes
+#	}
+#	270.1.1 = {
+#		death = yes
+#	}
+#}
+
+me_azdid_024 = {
+	name = "Amer"
+	give_nickname = nick_ma_asama # Ma' as-Sama' - Rainwater
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+#	father = me_azdid_023
+	2.1.1 = {
+		birth = yes
+	}
+	72.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_025 = {
+	name = "_Amr"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_024
+	30.1.1 = {
+		birth = yes
+	}
+	90.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_026 = {
+	name = "Ali"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_025
+	60.1.1 = {
+		birth = yes
+	}
+	120.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_027 = {
+	name = "Sawdah" # Forefather of Bani Sawdah
+	dynasty = arabic_azd # Banu Sawdah
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_026
+	90.1.1 = {
+		birth = yes
+	}
+	150.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_028 = {
+	name = "Ali"
+	dynasty = arabic_azd # Banu Sawdah
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_027
+	120.1.1 = {
+		birth = yes
+	}
+	180.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_029 = {
+	name = "Abdul-Malik" # Abdul-Malik ibn Humayd, Imam of Oman (824-840)
+	dynasty = arabic_azd # Banu Sawdah
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_azdid_030
+	780.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_030 = {
+	name = "Humayd"
+	dynasty = arabic_azd # Banu Sawdah
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_azdid_031
+	750.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_031 = {
+	name = "Sulayman" 
+	dynasty = arabic_azd # Banu Sawdah
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_azdid_032
+	720.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_032 = {
+	name = "Ali"
+	dynasty = arabic_azd # Banu Sawdah
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_azdid_033
+	680.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_033 = {
+	name = "Humayd"
+	dynasty = arabic_azd # Banu Sawdah
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_azdid_034
+	650.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_034 = {
+	name = "Abdullah"
+	dynasty = arabic_azd # Banu Sawdah
+	religion = "ashari"
+	culture = "bedouin"
+
+	620.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_035 = {
+	name = "Abdullah"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "yemeni"
+
+	father = me_azdid_011
+	20.1.1 = {
+		birth = yes
+	}
+	90.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_036 = {
+	name = "Adthan" # Known in some geneologies as Adnan
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "yemeni"
+
+	father = me_azdid_035
+	40.1.1 = {
+		birth = yes
+	}
+	110.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_037 = {
+	name = "Daws"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "yemeni"
+
+	father = me_azdid_036
+	60.1.1 = {
+		birth = yes
+	}
+	130.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_038 = {
+	name = "Ghanim"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "yemeni"
+
+	father = me_azdid_037
+	80.1.1 = {
+		birth = yes
+	}
+	150.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_039 = {
+	name = "Fahm"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "yemeni"
+
+	father = me_azdid_038
+	100.1.1 = {
+		birth = yes
+	}
+	170.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_040 = {
+	name = "Malik" # Malik ibn Fahm, First ruler of the Tanukhids and the founder of al-Hirah
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "yemeni"
+	 
+
+	father = me_azdid_039
+	120.1.1 = {
+		birth = yes
+	}
+	207.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = me_azdid_064 # Shot by Salima ibn Malik, his son
+		}
+	}
+}
+
+me_azdid_041 = {
+	name = "_Amr"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_040
+	150.1.1 = {
+		birth = yes
+	}
+	210.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_042 = {
+	name = "_Adi"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_041
+	180.1.1 = {
+		birth = yes
+	}
+	240.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_043 = {
+	name = "Asad"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_042
+	210.1.1 = {
+		birth = yes
+	}
+	270.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_044 = {
+	name = "Hasir" # also known as Ḥaḍir 
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_043
+	240.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+
+###
+me_azdid_060 = {
+	name = "Dhalim"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_044
+	290.1.1 = {
+		birth = yes
+	}
+	360.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_061 = {
+	name = "Jashm"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_060
+	340.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_062 = {
+	name = "Hasir"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_061
+	390.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_063 = {
+	name = "Jashm"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_062
+	440.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+###
+
+me_azdid_045 = { 
+	name = "Salamah"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_063
+	490.1.1 = {
+		birth = yes
+	}
+	560.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_046 = {
+	name = "Wahb"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_045
+	540.1.1 = {
+		birth = yes
+	}
+	610.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_047 = {
+	name = "Wasi_"
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_azdid_046
+	590.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_048 = {
+	name = "Jaru"
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_azdid_047
+	630.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_049 = {
+	name = "Hamami"
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_azdid_048
+	660.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_050 = {
+	name = "Hasan"
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_azdid_049
+	690.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_051 = {
+	name = "Hantam"
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_azdid_050
+	720.1.1 = {
+		birth = yes
+	}
+	770.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_052 = {
+	name = "_Atahiyah"
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "bedouin"
+
+	father = me_azdid_051
+	750.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_053 = {
+	name = "Durayd"
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "levantine"
+
+	father = me_azdid_052
+	780.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_054 = {
+	name = "al-Hasan"
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "levantine"
+
+	father = me_azdid_053
+	810.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_055 = {
+	name = "Muhammad" # Muhammad 'Ibn Durayd', Famous Basri philoger, grammarian, and lexicographer
+	dynasty = arabic_azd
+	give_nickname = nick_ibn_durayd # Ibn Durayd
+	religion = "ashari"
+	culture = "levantine"
+	trait = education_diplomacy_4
+	trait = poet
+	trait = drunkard
+
+	father = me_azdid_054
+	837.1.1 = {
+		birth = yes
+	}
+	933.7.19 = {
+		death = yes
+	}
+}
+
+me_azdid_056 = {
+	name = "Bakr" 
+	dynasty = arabic_azd
+	religion = "ashari"
+	culture = "levantine"
+
+	father = me_azdid_055
+	855.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_057 = {
+	name = "Mid_an"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+##	father = me_azdid_016
+	5.1.1 = {
+		birth = yes
+	}
+	75.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_058 = {
+	name = "Malik"
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_057
+	30.1.1 = {
+		birth = yes
+	}
+	90.1.1 = {
+		death = yes
+	}
+}
+
+me_azdid_059 = {
+	name = "Rasib" # Forefather of Banu Rasib
+	dynasty = me_ar_rasibi # ar-Rasibi
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_058
+	60.1.1 = {
+		birth = yes
+	}
+	120.1.1 = {
+		death = yes
+	}
+}
+
+# me_azd_060 - me_azd_063 are taken
+
+me_azdid_064 = {
+	name = "Salima" # Salima ibn Malik, it is believed he killed his father but the stories regarding him are steeped in myths and legends
+	dynasty = arabic_azd
+	religion = "arabic_pagan"
+	culture = "bedouin"
+
+	father = me_azdid_040 # Malik ibn Fahm
+	155.1.1 = {
+		birth = yes
+	}
+	215.1.1 = {
 		death = yes
 	}
 }

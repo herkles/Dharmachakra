@@ -1,4 +1,10 @@
 ﻿l_english:
 
+
+# Landed Titles
+  k_khwarazm: "Khwarazm"
+  k_khwarazm_adj: "Khwarazmian"
+
+
 # Muslim Titles
- d_hidden_imamate:0 "Hidden Imamate"
+  d_hidden_imamate:0 "Hidden Imamate"

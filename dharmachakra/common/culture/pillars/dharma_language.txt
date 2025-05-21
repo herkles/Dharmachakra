@@ -901,6 +901,23 @@ language_adhari_name = {
 
 	color = { 0 0.35 0.6 }
 }
+language_bactrian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bactrian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bactrian }
+			multiply = 10
+		}
+	}
+
+	color = { 0 0.35 0.6 }
+}
 #############################################
 # Other Language
 #############################################

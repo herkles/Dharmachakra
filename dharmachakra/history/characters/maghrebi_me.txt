@@ -1430,3 +1430,141 @@ me_sulaymanid_023 = {
 		death = yes
 	}
 }
+## Rashid, Ex-slave and regent for Idris II
+me_idrisid_regent_001 = {
+	name = "Rashid" 
+	religion = "zayidi"
+	culture = bedouin
+
+	760.1.1 = {
+		birth = yes
+	}
+	801.1.1 = {
+		death = yes
+	}
+}
+## Extra Idrisids
+me_idrisid_001 = {
+	name = "al-Hasan" 
+	dynasty = 1029055 # Idrisid dynasty
+	religion = "zayidi"
+	culture = bedouin
+	trait = sayyid
+
+	father = 159516 # al-Qasim Kannun (Found in berber.txt)
+	905.1.1 = {
+		birth = yes
+	}
+	974.1.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+me_idrisid_002 = {
+	name = "Ubayd-Allah" 
+	dynasty = 1029055 # Idrisid dynasty
+	religion = "zayidi"
+	culture = bedouin
+	trait = sayyid
+
+	father = 159507 # Umar ibn Idris (Found in berber.txt)
+	834.1.1 = {
+		birth = yes
+	}
+	884.1.1 = {
+		death = yes
+	}
+}
+me_idrisid_003 = {
+	name = "Ali" 
+	dynasty = 1029055 # Idrisid dynasty
+	religion = "zayidi"
+	culture = bedouin
+	trait = sayyid
+
+	father = me_idrisid_002
+	864.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+me_idrisid_004 = {
+	name = "Hammud" 
+	dynasty_house = house_hammudid # House Hammudid, Founder
+	religion = "zayidi"
+	culture = bedouin
+	trait = sayyid
+
+	father = me_idrisid_003
+	885.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+me_idrisid_005 = {
+	name = "Abdullah"
+	dynasty_house = house_hammudid # House Hammudid
+	religion = muwalladi
+	culture = maghrebi
+	trait = sayyid
+
+	father = 159498 # Emir Idris II of Rif
+	1050.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+me_idrisid_006 = {
+	name = "Muhammad"
+	dynasty_house = house_hammudid # House Hammudid
+	religion = muwalladi
+	culture = maghrebi
+	trait = sayyid
+
+	father = me_idrisid_005
+	1075.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+me_idrisid_007 = {
+	name = "Muhammad" # Abu Abdullah Muhammad al-Idrisi, Famous geographer who served in the court of King Roger II of Sicily
+	dynasty_house = house_hammudid # House Hammudid
+	give_nickname = nick_me_al_idrisi # al-Idrisi
+	religion = ashari
+	culture = siqilli
+	trait = sayyid
+	trait = education_learning_4
+
+	father = me_idrisid_006
+	1100.1.1 = {
+		birth = yes
+	}
+	1165.1.1 = {
+		death = yes
+	}
+}
+me_idrisid_008 = {
+	name = "Abdullah"
+	dynasty_house = house_hammudid # House Hammudid
+	religion = ashari
+	culture = siqilli
+	trait = sayyid
+
+	father = me_idrisid_007
+	1130.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}

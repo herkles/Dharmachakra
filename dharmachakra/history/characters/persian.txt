@@ -7068,11 +7068,211 @@ me_isfahani_001 = {
 	}
 }
 
+dharma_parsi_01 = {# Fictional Zoroastrian leader for the Parsis
+	name = "Ardeshir"
+	dynasty = me_parsi_01_dynasty
+	religion = "mazdayasna"
+	culture = "persian"
+	825.1.1 = {
+		birth = "855.1.1"
+	}		
+	886.1.1 = {
+		death = "886.1.1"
+	}
+}
+###
+me_persian_001 = { # Mother of Umayyad Caliph Yazid III and Daughter of the would-be Sassanian King Peroz III
+	name = "Shah-i-Afrid"
+	female = yes
+	dynasty = 1029100
+	religion = "ashari"
+	culture = "persian"
 
+	father = 180640 # Peroz III
+	675.1.1 = {
+		birth = yes
+	}
+	735.1.1 = {
+		death = yes
+	}
+}
+me_persian_002 = { # Father of Abu Awn Abd al-Malik al-Khurasani
+	name = "Yazid"
+	dynasty = 1042126 # Khurasanid
+	religion = "ashari"
+	culture = "persian"
+	700.1.1 = {
+		birth = yes
+	}
+	760.1.1 = {
+		death = yes
+	}
+}
+me_persian_003 = { # Son of Abu Awn Abd al-Malik al-Khurasani
+	name = "'Awn"
+	dynasty = 1042126 # Khurasanid
+	religion = "ashari"
+	culture = "persian"
 
+	father = 188650 # Abu Awn Abd al-Malik al-Khurasani
+	750.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+### Nizami Ganjavi, famous persian poet
+me_ganjavid_001 = {
+	name = "Nizami" # Illyas 'Jamal ud-Din' ibn Yusuf, Nizami is his pen-name 
+	dynasty = me_ganjavid_dynasty # Ganjavid
+	give_nickname = nick_jamal_ad_din
+	religion = "maturidi"
+	culture = "persian"
+	trait = education_diplomacy_4
+	trait = poet
 
+	father = me_ganjavid_002
+	mother = me_ganjavid_005
+	1141.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		add_spouse = me_ganjavid_008
+	}
+	1178.1.1 = {
+		effect = {
+			learn_language_of_culture = culture:bedouin
+		}
+	}
+	1209.1.1 = {
+		death = yes
+	}
+}
+me_ganjavid_002 = {
+	name = "Yusuf"
+	religion = "maturidi"
+	culture = "persian"
 
+	father = me_ganjavid_003
+	1110.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+me_ganjavid_003 = {
+	name = "Zakki"
+	religion = "maturidi"
+	culture = "persian"
 
+	1080.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+me_ganjavid_004 = {
+	name = "Umar" # Khawaja Umar, Maternal Uncle of Nizami who took care of him and educated him
+	religion = "maturidi"
+	culture = "kurdish"
+	trait = education_learning_4
 
+	father = me_ganjavid_006
+	1105.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+me_ganjavid_005 = {
+	name = "Ra_isa" # Mother of Nizami
+	female = yes
+	religion = "maturidi"
+	culture = "kurdish"
 
+	father = me_ganjavid_006
+	1110.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+me_ganjavid_006 = {
+	name = "Abdullah" # Fictional grandfather to connect Ra'isa and Umar together
+	religion = "maturidi"
+	culture = "kurdish"
+
+	1080.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+me_ganjavid_007 = {
+	name = "Muhammad" # Muhammad, son of Nazami and his Kipchak wife 
+	dynasty = me_ganjavid_dynasty # Ganjavid
+	religion = "maturidi"
+	culture = "persian"
+
+	father = me_ganjavid_001
+	mother = me_ganjavid_008
+	1173.1.1 = {
+		birth = yes
+	}
+	1235.1.1 = {
+		death = yes
+	}
+}
+me_ganjavid_008 = {
+	name = "Afaq" # Nazami's his Kipchak wife, her name may not be Afaq
+	female = yes
+	religion = "maturidi"
+	culture = "kipchak"
+
+	1150.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+### Barmakids
+me_barmakid_001 = {
+	name = "Sulayman"
+	dynasty = 1042125 # Barmakid
+	religion = "mahayana"
+	culture = "persian"
+	father = 188642
+	707.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		religion = "ashari"
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
+me_barmakid_002 = {
+	name = "al-Hasan"
+	dynasty = 1042125 # Barmakid
+	religion = "mahayana"
+	culture = "persian"
+	father = 188642
+	709.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		religion = "ashari"
+	}
+	790.1.1 = {
+		death = yes
+	}
+}
 

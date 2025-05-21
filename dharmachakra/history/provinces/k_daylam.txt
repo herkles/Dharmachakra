@@ -109,7 +109,9 @@
 	culture = tajik
 	religion = khurramism
 	holding = castle_holding
-	1060.1.1 = { religion = zayidi }
+	1060.1.1 = {
+		religion = zayidi 
+	}
 }
 4028 = {	#Astarabad
 	holding = church_holding

@@ -4,6 +4,25 @@
 @smLysY = 0.26
 @smCross = 0.22
 
+
+
+#######################################
+# New Titles
+#######################################
+k_khwarazm = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=green
+	color3=white
+	colored_emblem={
+		color1=green
+		color2=white
+		texture="ce_per_bend.dds"
+	}
+}
+#######################################
+# Muslim Head of Faith Titles
+#######################################
 d_imami = {
 	pattern = "pattern_solid.dds"
 	color1 = "black"
@@ -91,6 +110,9 @@ d_tayyibi = {
 		instance={ scale={ 0.840000 0.840000 } }
 	}
 }
+#######################################
+# Landless Titles
+#######################################
 d_laamp_me_karrami = me_karrami_dynasty # Ibn Karram
 d_laamp_me_maghrawa = house_me_khazarids # The Maghrawa Berber clan
 d_laamp_me_kindi = bedouin_kinda # al-Kindi

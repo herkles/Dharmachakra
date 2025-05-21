@@ -344,6 +344,38 @@ tat = {
 		10 = turkic_west
 	}
 }
+alan = {
+	color = { 0.1 0.3 0.7 }
+	created = 100.1.1
+
+	history_loc_override = scythian_heritage_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		#tradition_horse_lords
+		tradition_horse_breeder
+		tradition_mountaineers
+		#tradition_steppe_tolerance
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_alan
+	
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	
+	ethnicities = {
+		4 = mediterranean_byzantine
+		7 = mediterranean
+		10 = turkic_west
+	}
+}
 #############################################
 # Eastern Iranian.
 #############################################
@@ -570,9 +602,6 @@ pamiri = {
 		5 = mediterranean_byzantine # mediterranean
 	}
 }
-#############################################
-# Other Iranian
-#############################################
 tocharian = {
 	color = tocharian
 	
@@ -605,36 +634,41 @@ tocharian = {
 		10 = turkic
 	}
 }
-alan = {
-	color = { 0.1 0.3 0.7 }
+saka = {
+	color = { 0.5 0.3 1 }
 	created = 100.1.1
 
 	history_loc_override = scythian_heritage_loc
 	
-	ethos = ethos_communal
+	ethos = ethos_bureaucratic
 	heritage = heritage_iranian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+
 	traditions = {
-		#tradition_horse_lords
-		tradition_horse_breeder
-		tradition_mountaineers
-		#tradition_steppe_tolerance
-		tradition_wedding_ceremonies
+		tradition_caravaneers
+		tradition_language_scholars
+		tradition_dryland_dwellers
+		tradition_artisans
 	}
 	
-	name_list = name_list_alan
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_frontier_warriors
+		requires_dlc_flag = legacy_of_persia
+	}
 	
-	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
+	name_list = name_list_saka
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
 	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { iranian_unit_gfx }
-	
+
 	ethnicities = {
-		4 = mediterranean_byzantine
-		7 = mediterranean
-		10 = turkic_west
+		7 = arab
+		5 = mediterranean
 	}
 }
 huna = {# the various Huna tribes and people.
@@ -752,3 +786,68 @@ turco_hephthalite = {
 		5 = mediterranean_byzantine # mediterranean
 	}
 }
+bactrian = {
+	color = { 0.63 0.42 0.42 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_iranian
+	language = language_bactrian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_xenophilic
+		tradition_city_keepers
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_sogdian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		7 = arab
+		5 = mediterranean
+	}
+}
+tokhari = {
+	color = { 0.34 0.35 0.651 }
+	created = 665.1.1
+	parents = { bactrian hephthalite }
+
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_bactrian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_religion_blending
+		tradition_xenophilic
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+
+	name_list = name_list_sogdian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		7 = arab
+		5 = mediterranean
+	}
+}
+#############################################
+# Other Iranian
+#############################################

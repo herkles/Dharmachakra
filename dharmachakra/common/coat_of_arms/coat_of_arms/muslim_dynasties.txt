@@ -205,34 +205,34 @@ house_ukhaidhirid = {
 		instance={ position={ 0.500000 0.530000 } scale={ 0.400000 0.400000 } }
 	}
 }
-dynn_Ukhaidhirid = {
-	pattern="pattern_solid.dds"
-	color1=green
-	color2=white
-	colored_emblem={
-		color1=white
-		color2=green
-		texture="ce_circle_mask.dds"
-		instance={ scale={ 0.350000 0.350000 } depth=1.010000 }
-	}
-	colored_emblem={
-		color1=white
-		texture="ce_circle_mask.dds"
-		instance={ scale={ 0.780000 0.780000 } depth=3.010000 }
-	}
-	colored_emblem={
-		color1=green
-		color2=white
-		texture="ce_star_07.dds"
-		instance={ position={ 0.500000 0.480000 } scale={ 0.900000 0.900000 } depth=2.010000 }
-	}
-	colored_emblem={
-		color1=green
-		color2=white
-		texture="ce_crescent_mask.dds"
-		instance={ position={ 0.500000 0.530000 } scale={ 0.400000 0.400000 } }
-	}
-}
+# dynn_Ukhaidhirid = {
+# 	pattern="pattern_solid.dds"
+# 	color1=green
+# 	color2=white
+# 	colored_emblem={
+# 		color1=white
+# 		color2=green
+# 		texture="ce_circle_mask.dds"
+# 		instance={ scale={ 0.350000 0.350000 } depth=1.010000 }
+# 	}
+# 	colored_emblem={
+# 		color1=white
+# 		texture="ce_circle_mask.dds"
+# 		instance={ scale={ 0.780000 0.780000 } depth=3.010000 }
+# 	}
+# 	colored_emblem={
+# 		color1=green
+# 		color2=white
+# 		texture="ce_star_07.dds"
+# 		instance={ position={ 0.500000 0.480000 } scale={ 0.900000 0.900000 } depth=2.010000 }
+# 	}
+# 	colored_emblem={
+# 		color1=green
+# 		color2=white
+# 		texture="ce_crescent_mask.dds"
+# 		instance={ position={ 0.500000 0.530000 } scale={ 0.400000 0.400000 } }
+# 	}
+# }
 
 ## Rustamids ##
 808 = {
@@ -1241,6 +1241,7 @@ me_banu_asad = { # Asadids Banu Asad al-Asadi
 	}
 }
 
+## al-Karrami - Ibn Karram ##
 me_karrami_dynasty = {
 	pattern="pattern_solid.dds"
 	color1=brown

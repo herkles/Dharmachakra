@@ -125,3 +125,10 @@
  assyrian_name: "Assyrian"
  assyrian_prefix: "Assyrian"
  assyrian_collective_noun: "Assyrians"
+
+# Iranian Cultures
+  tajik: "Khorasani"
+  tajik_name: "Khorasani"
+  tajik_prefix: "Khorasani"
+  tajik_collective_noun: "Khorasani"
+

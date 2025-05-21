@@ -12,7 +12,6 @@
 ######################################
 dharma_islam.0001 = {
 	hidden = yes
-	type = empty
 	immediate = {
 		twelver_mahdi_appears_effect = yes
 	}
@@ -44,7 +43,6 @@ dharma_islam.0002 = {
 }
 dharma_islam.0003 = {
 	hidden = yes
-	type = empty
 	immediate = {
 		twelver_mahdi_appears_again_effect = yes
 	}
