@@ -7109,7 +7109,7 @@ me_persian_002 = { # Father of Abu Awn Abd al-Malik al-Khurasani
 	}
 }
 me_persian_003 = { # Son of Abu Awn Abd al-Malik al-Khurasani
-	name = "'Awn"
+	name = "_Awn"
 	dynasty = 1042126 # Khurasanid
 	religion = "ashari"
 	culture = "persian"

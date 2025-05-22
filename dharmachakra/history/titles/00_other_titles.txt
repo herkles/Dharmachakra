@@ -1967,9 +1967,6 @@ d_imami = {
 		holder_ignore_head_of_faith_requirement = 163025
 		liege = e_arabia
 	}
-	#	866.12.30 = {
-	#		holder_ignore_head_of_faith_requirement = 0
-	#	}
 	868.1.1 = { #Imam Hassan al-Askari
 		holder_ignore_head_of_faith_requirement = 163026
 	}
@@ -1980,26 +1977,6 @@ d_imami = {
 		holder = 0
 	}		
 }
-
-# d_alawi = {
-	
-# 	866.12.1 = { 
-# 		holder = numayrid1
-# 	}
-# 	868.9.15 = {
-# 		holder = 0
-# 	}			
-# }
-
-# d_ishaqiya = {
-	
-# 	866.12.1 = { 
-# 		holder = ishaaq1
-# 	}
-# 	869.1.10 = {
-# 		holder = 0
-# 	}			
-# }
 
 d_shiite = {
 	#610.1.1 = {
@@ -2059,12 +2036,6 @@ d_shiite = {
 	840.1.1 = {
 		holder = 33920 # Hussayn 'Abdullah ar-Radi'
 	}
-	#	840.1.1 = {
-	#		holder = 0
-	#	}
-	#	868.1.1 = {
-	#		holder = 33920 # Hussayn 'Abdullah ar-Radi'
-	#	}
 	881.1.1 = {
 		holder = 0
 	}

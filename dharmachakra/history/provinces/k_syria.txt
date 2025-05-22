@@ -457,7 +457,9 @@
 	holding = castle_holding
 	# History
 	867.1.1 = { religion = ashari }
+
 	1066.1.1 = {
+		culture = levantine
 		buildings = {
 			cereal_fields_01
 			plantations_01

@@ -393,7 +393,10 @@
 	religion = mandeaism
 	
 	# History
-
+	1178.1.1 = {
+		culture = levantine
+		religion = ashari
+	}
 
 }
 

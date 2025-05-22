@@ -235,7 +235,7 @@
 144147 = {
 	name = "Muhammad"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 144146
 	1100.1.1 = {
@@ -249,7 +249,7 @@
 144148 = {
 	name = "Ali"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 20900
 	1081.1.1 = {
@@ -263,7 +263,7 @@
 144149 = {
 	name = "Hagras"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 144147
 	1120.1.1 = {
@@ -277,7 +277,7 @@
 144150 = {
 	name = "Shaqr"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 144148
 	1101.1.1 = {
@@ -291,7 +291,7 @@
 144151 = {
 	name = "al-Hussein"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 20900
 	1082.1.1 = {
@@ -305,7 +305,7 @@
 144152 = {
 	name = "Hassan"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 144151
 	1102.1.1 = {
@@ -319,7 +319,7 @@
 144153 = {
 	name = "Ahmed"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 144151
 	1103.1.1 = {
@@ -333,7 +333,7 @@
 144154 = {
 	name = "Muhammad"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 144153
 	1143.1.1 = {
@@ -347,7 +347,7 @@
 144560 = {
 	name = "Hafs"
 	dynasty = 100690
-	religion = "ismaili"
+	religion = "ashari"
 	culture = "bedouin"
 	father = 144145
 	1140.1.1 = {
@@ -361,7 +361,7 @@
 144561 = {
 	name = "Muhammad"
 	dynasty = 100690
-	religion = "ismaili"
+	religion = "ashari"
 	culture = "bedouin"
 	father = 144560
 	1190.1.1 = {
@@ -375,7 +375,7 @@
 144562 = {
 	name = "Hilal"
 	dynasty = 100690
-	religion = "ismaili"
+	religion = "ashari"
 	culture = "bedouin"
 	father = 144561
 	1220.1.1 = {
@@ -389,7 +389,7 @@
 144563 = {
 	name = "Khahtan"
 	dynasty = 100690
-	religion = "ismaili"
+	religion = "ashari"
 	culture = "bedouin"
 	father = 144562
 	1250.1.1 = {
@@ -403,7 +403,7 @@
 144564 = {
 	name = "Muhammad"
 	dynasty = 100690
-	religion = "ismaili"
+	religion = "ashari"
 	culture = "bedouin"
 	father = 144563
 	1280.1.1 = {
@@ -1854,8 +1854,8 @@
 	721.1.1 = {
 		birth = "721.1.1"
 	}
-	765.12.14 = {
-		death = "765.12.14"
+	765.1.1 = {
+		death = "775.1.1"
 	}
 }
 
@@ -1909,8 +1909,12 @@
 	dynasty = 589
 	religion = "ismaili"
 	culture = "bedouin"
-	father = 33919
 	trait = sayyid
+	#	trait = me_hidden_imam # Disabled until the hidden imam stuff is finished
+	trait = education_learning_3 # Was known for his knowledge
+	trait = zealous
+
+	father = 33919
 	834.1.1 = {
 		birth = "834.1.1"
 	}
@@ -1920,7 +1924,7 @@
 }
 
 33921 = {
-	name = "Fatimah_bint_Muhammad" # Fatimah az-Zahra', Daughter of the Prophet Muhammad
+	name = "Fatimah" # Fatimah az-Zahra', Daughter of the Prophet Muhammad
 	female = yes
 	sexuality = heterosexual
 	dynasty_house = house_me_banu_hashim # Hashimid
@@ -2063,18 +2067,20 @@
 	690.1.1 = {
 		birth = "690.1.1"
 	}
-	750.1.1 = {
-		death = "750.1.1"
+	743.8.1 = {
+		death = yes
 	}
 }
 
 34001 = {
 	name = "As-Saffah"
 	dynasty_house = house_abbasid
+	give_nickname = nick_me_as_saffah # as-Saffah
 	religion = "ashari"
 	culture = "bedouin"
-	father = 34000
 	trait = quraysh
+	
+	father = 34000
 	721.1.1 = {
 		birth = "721.1.1"
 	}
@@ -3050,7 +3056,7 @@
 34471 = {
 	name = "Fadl"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 144154
 	1160.1.1 = {
@@ -3064,7 +3070,7 @@
 34472 = {
 	name = "Majid"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 144154
 	1162.1.1 = {
@@ -3078,7 +3084,7 @@
 34473 = {
 	name = "Ali"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 34472
 	1182.1.1 = {
@@ -3092,7 +3098,7 @@
 34474 = {
 	name = "Muhammad"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 34472
 	1185.1.1 = {
@@ -3106,7 +3112,7 @@
 34475 = {
 	name = "Masud"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 34472
 	1187.1.1 = {
@@ -3120,7 +3126,7 @@
 34476 = {
 	name = "Muhammad"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 34475
 	1207.1.1 = {
@@ -3134,7 +3140,7 @@
 34477 = {
 	name = "Fadl"
 	dynasty_house = house_me_uyunids # al-Uyuni (original dynasty is 792)
-	religion = "ismaili"
+	religion = "imami"
 	culture = "bedouin"
 	father  = 34476
 	1224.1.1 = {
@@ -5195,7 +5201,7 @@
 }
 
 163011 = {
-	name = "_Amro"
+	name = "_Amr"
 	dynasty_house = house_me_banu_taym # at-Taymī
 	religion = "arabic_pagan"
 	culture = "bedouin"
@@ -5364,7 +5370,7 @@
 }
 
 163021 = {
-	name = "Uthman_ibn_Affan" # Uthman ibn Affan, Third Sunni Caliph
+	name = "Uthman" # Uthman ibn Affan, Third Sunni Caliph
 	dynasty = 597 # Umayyad
 	give_nickname = nick_dhu_nurayn # 'Dhū'n Nurayn' (Possessor of the Two Lights)
 	religion = "ashari"
@@ -5614,6 +5620,9 @@
 	668.1.1 = {
 		birth = "668.1.1"
 	}
+	695.1.1 = {
+		add_spouse = me_persian_001 # Shah-i-Farid, Daughter of the Sassanian Peroz III
+	}
 	715.1.1 = {
 		death = "715.1.1"
 	}
@@ -5649,12 +5658,18 @@
 	}
 }
 
-163035 = {
+163035 = { # Umar ibn Abd al-Aziz, commonly refered to as the Fifth/Sixth Rashidun Caliph
 	name = "Umar"
 	dynasty = 597
-	trait = quraysh
+	give_nickname = nick_me_ath_thani # ath-Thani (The Second), as he was likened to Umar ibn al-Khattab 
 	religion = "ashari"
 	culture = "bedouin"
+	trait = quraysh
+	trait = zealous
+	trait = just
+	trait = calm
+	trait = education_learning_4
+	
 	father = 163034
 	mother = me_adawi_003 # Layla, Grandaughter of Omar ibn al-Khattab (exists in bedouin_me.txt)
 	680.1.1 = {
@@ -5687,6 +5702,7 @@
 	religion = "ashari"
 	culture = "bedouin"
 	father = 163036
+	#mother = me_thaqafi_017 # Umm al-Hajjaj, Niece of al-Hajjaj
 	697.1.1 = {
 		birth = "697.1.1"
 	}
@@ -5698,10 +5714,13 @@
 163038 = {
 	name = "Yazid"
 	dynasty = 597
-	trait = quraysh
+	give_nickname = nick_me_an_naqis # an-Naqis (The Deficient)
 	religion = "ashari"
 	culture = "bedouin"
+	trait = quraysh
+	
 	father = 163032
+	mother = me_persian_001 # Shah-i-Afrid, daughter of the Sassanian Peroz III
 	701.1.1 = {
 		birth = "701.1.1"
 	}
@@ -6157,6 +6176,7 @@
 159393 = {
 	name = "Hussayn" # al-Athram
 	dynasty_house = house_me_banu_hashim
+	give_nickname = nick_me_al_athram
 	religion = "ismaili"
 	culture = "bedouin"
 	trait = sayyid
@@ -6171,10 +6191,11 @@
 159394 = {
 	name = "Ibrahim" #
 	dynasty_house = house_me_banu_hashim
+	give_nickname = nick_me_al_ghamr
 	religion = "ismaili"
 	culture = "bedouin"
 	trait = sayyid
-	father = 159393
+	father = 33927 # al-Hasan al-Muthanna
 	685.1.1 = {
 		birth = "685.1.1" #Unknown
 	}
@@ -6199,6 +6220,7 @@
 159396 = {
 	name = "Ibrahim" #
 	dynasty_house = house_me_banu_hashim
+	give_nickname = nick_me_tabataba
 	religion = "ismaili"
 	culture = "bedouin"
 	trait = sayyid
@@ -6528,7 +6550,7 @@
 	743.1.2 = {
 		birth = yes
 	}
-	793.1.1 = {
+	791.6.1 = {
 		death = yes
 	}
 }
@@ -6676,7 +6698,7 @@
 }
 74038 = {
 	name = "Akin"
-	dynasty = 1042121 # Banu Abd al-Qays (original dynasty is 12278)
+	dynasty = 12278 # Banu Abd al-Qays (original dynasty is 12278)
 
 	culture = "bedouin"
 	religion = "ismaili"
@@ -6896,7 +6918,7 @@
 	840.1.1 = {
 		birth = "840.1.1"
 	}
-	866.1.1 = {
+	863.1.1 = {
 		death = {
 			death_reason = death_smallpox
 		}
@@ -7314,7 +7336,7 @@
 
 188533 = {
 	name = "Hisam"
-	dynasty = 582 # al-Taghlibi
+	dynasty = 1042127 # Banu Taghlib
 	religion = "ashari"
 	culture = "bedouin"
 	father = 188536
@@ -7328,7 +7350,7 @@
 
 188534 = {
 	name = "Sufyah"
-	dynasty = 582 # al-Taghlibi
+	dynasty = 1042127 # Banu Taghlib
 	religion = "ashari"
 	culture = "bedouin"
 	father = 188536
@@ -7342,7 +7364,7 @@
 
 188535 = {
 	name = "Bistam"
-	dynasty = 582 # al-Taghlibi
+	dynasty = 1042127 # Banu Taghlib
 	religion = "ashari"
 	culture = "bedouin"
 	father = 188536
@@ -7356,7 +7378,7 @@
 
 188536 = {
 	name = "Amr"
-	dynasty = 582 # al-Taghlibi
+	dynasty = 1042127 # Banu Taghlib
 	religion = "ashari"
 	culture = "bedouin"
 	700.1.1 = {
@@ -7669,7 +7691,7 @@
 
 188614 = {
 	name = "Mirza" # fictitious
-	dynasty = 1042117 # Banu Tayy
+	dynasty = bedouindyn010 #Banu Tayy'
 	religion = "ashari"
 	culture = "bedouin"
 	700.1.1 = {
@@ -7682,7 +7704,7 @@
 
 188615 = {
 	name = "Ubayd" # fictitious holder of Rafha
-	dynasty = 1042117 # Banu Tayy
+	dynasty = bedouindyn010 #Banu Tayy'
 	religion = "ashari"
 	culture = "bedouin"
 	father = 188614
@@ -7696,7 +7718,7 @@
 
 188616 = {
 	name = "Ghalib" # fictitious holder of Hail
-	dynasty = 1042117 # Banu Tayy
+	dynasty = bedouindyn010 #Banu Tayy'
 	religion = "ashari"
 	culture = "bedouin"
 	father = 188614
@@ -9511,45 +9533,54 @@
 	}
 }
 210019	= {
-	name = "Hudayj_al-Tujibi"
-	dynasty = 1048002 #Tujibid
-	religion = "ashari"
+	name = "Hudayj"
+	dynasty_house = house_me_Tujibid # Banu Tujib
+	religion = "ashari" # Unknown, but Banu Tujib became Muslims a year before 'Am al-Wafd (around 630)
 	culture = "bedouin"
-	640.1.1 = {
-		birth = "640.1.1"
+	
+	father = me_tujibid_001 # Jafnah ibn Qatirah al-Tujabi (Found in bedouin_me.txt) 
+	570.1.1 = {
+		birth = yes
 	}
-	712.1.2 = {
-		death = "712.1.2"
+	630.1.1 = {
+		death = yes
 	}
 }
-210020  = {
+210020  = { # Mu'awiyah ibn Hudayj, Early Islamic commander and governor who aided in the conquest of Egypt, took governance over both Egypt and Ifriqya 
 	name = "Mu_awiyah"
 	dynasty = 1048002 # Tujibid
 	religion = "ashari"
 	culture = "bedouin"
+	trait = education_martial_3
+	trait = zealous
+	
 	father = 210019
-	675.1.1 = {
-		birth = "675.1.1"
-	}
-	730.1.1 = {
-		death = "730.1.1"
-	}
-}
-188763 = {
-	name = "al-Julanda"	
-	dynasty = 1042181
-	religion = "ibadi"
-	culture = "bedouin"
-	711.1.1 = {
+	605.1.1 = {
 		birth = yes
 	}
-	775.1.1 = {
+	670.1.1 = {
 		death = yes
 	}
 }
+188763 = {
+	name = "al-Julanda" # al-Julanda ibn Mas'ud, founder of the first Ibadi Imamate in Oman
+	dynasty_house = house_me_al_julandi
+	religion = "ibadi"
+	culture = "bedouin"
+
+	father = me_julandi_001
+	705.1.1 = {
+		birth = yes
+	}
+	751.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
 194176 = {
-	name = "Muhammad"	
-	dynasty = 1042181
+	name = "Muhammad" # Couldn't find any referance to him, possibly fictional	
+	dynasty_house = house_me_al_julandi
 	religion = "ibadi"
 	culture = "bedouin"
 	father = 188763
@@ -10537,7 +10568,7 @@ bedouin0049 = {
 #}
 #Murra who occupied areas near Medina (Fadak) - Sharaf
 bedouin0053 = {
-	name = "Awf"
+	name = "_Awf"
 	dynasty = bedouindyn008
 	religion = "ashari"
 	culture = "bedouin"
@@ -10800,7 +10831,7 @@ bedouin0072 = {
 	}
 }
 bedouin0073 = {
-	name = "Tayyi_"
+	name = "Abdullah"
 	dynasty = bedouindyn010 #Tayyid
 	religion = "ashari"
 	culture = "bedouin"
@@ -11602,7 +11633,7 @@ bedouin0133 = {
 bedouin0134 = {
 	name = "Muhammad" #al-Fallah
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0135
 	1130.1.1 = {
@@ -11615,7 +11646,7 @@ bedouin0134 = {
 bedouin0135 = {
 	name = "Musa" # b.Abu Ja'far
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0136
 	1095.1.1 = {
@@ -11628,7 +11659,7 @@ bedouin0135 = {
 bedouin0136 = {
 	name = "Abu_Ja_far" #
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0137
 	1062.1.1 = {
@@ -11641,7 +11672,7 @@ bedouin0136 = {
 bedouin0137 = {
 	name = "Ja_far" #fictional
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	1037.1.1 = {
 		birth = yes
@@ -11653,7 +11684,7 @@ bedouin0137 = {
 bedouin0138 = {
 	name = "Sulayman" #fictional
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0134
 	1158.1.1 = {
@@ -11666,7 +11697,7 @@ bedouin0138 = {
 bedouin0139 = {
 	name = "Sulayman" #semi-fictional
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0138
 	1190.1.1 = {
@@ -11679,7 +11710,7 @@ bedouin0139 = {
 bedouin0140 = {
 	name = "Muzaffar" #fictional
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0139
 	1218.1.1 = {
@@ -11692,7 +11723,7 @@ bedouin0140 = {
 bedouin0141 = {
 	name = "Ja_far" #fictional
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0140
 	1248.1.1 = {
@@ -11705,7 +11736,7 @@ bedouin0141 = {
 bedouin0142 = {
 	name = "Nabhan" #
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0141
 	1276.1.1 = {
@@ -11718,7 +11749,7 @@ bedouin0142 = {
 bedouin0143 = {
 	name = "Muhammad" #Ibn Battuta met him in 1330
 	dynasty = 100690 #Nabhanid
-	religion = "ibadi"
+	religion = "ashari"
 	culture = "bedouin"
 	father = bedouin0142
 	1303.1.1 = {
@@ -11735,10 +11766,10 @@ bedouin0144 = {
 	dynasty = 1042182 #Yahmad
 	religion = "ibadi"
 	culture = "bedouin"
-	733.1.1 = {
+	710.1.1 = {
 		birth = yes
 	}
-	792.1.1 = {
+	770.1.1 = {
 		death = yes
 	}
 }
@@ -11747,11 +11778,12 @@ bedouin0145 = {
 	dynasty = 1042182 #Yahmad
 	religion = "ibadi"
 	culture = "bedouin"
-	father = bedouin0144
+
+	father = me_yahmadid_009 # Abdullah ibn 'Abi Affan
 	768.1.1 = {
 		birth = yes
 	}
-	805.1.1 = {
+	809.1.1 = {
 		death = yes
 	}
 }
@@ -11760,11 +11792,11 @@ bedouin0146 = {
 	dynasty = 1042182 #Yahmad
 	religion = "ibadi"
 	culture = "bedouin"
-	father = 188764
-	822.1.1 = {
+	father = me_yahmadid_014
+	790.1.1 = {
 		birth = yes
 	}
-	866.1.1 = {
+	850.1.1 = {
 		death = yes
 	}
 }
@@ -11774,7 +11806,7 @@ bedouin0147 = {
 	religion = "ibadi"
 	culture = "bedouin"
 	father = bedouin0144
-	850.1.1 = {
+	830.1.1 = {
 		birth = yes
 	}
 	890.1.1 = {
@@ -14566,7 +14598,7 @@ fictional_bedouins_0023 = { #padding out the Kinda
 
 extra_bedouins_0016 = { #The Tayy dynasty of an unidentified estate called Nairiz, Azerbaijan
 	name = "Ali"
-	dynasty = 1042117 #Banu Tayy
+	dynasty = bedouindyn010 #Banu Tayy'
 	religion = ashari
 	culture = bedouin
 	father = 188614 #Mirza Banu Tayy
@@ -14582,7 +14614,7 @@ extra_bedouins_0016 = { #The Tayy dynasty of an unidentified estate called Nairi
 
 extra_bedouins_0017 = { #The Tayy dynasty of an unidentified estate called Nairiz, Azerbaijan
 	name = "Murr"
-	dynasty = 1042117 #Banu Tayy
+	dynasty = bedouindyn010 #Banu Tayy'
 	religion = ashari
 	culture = bedouin
 	father = extra_bedouins_0016
@@ -14598,7 +14630,7 @@ extra_bedouins_0017 = { #The Tayy dynasty of an unidentified estate called Nairi
 
 extra_bedouins_0018 = { #The Tayy dynasty of an unidentified estate called Nairiz, Azerbaijan
 	name = "Ali"
-	dynasty = 1042117 #Banu Tayy
+	dynasty = bedouindyn010 #Banu Tayy'
 	religion = ashari
 	culture = bedouin
 	father = extra_bedouins_0017
@@ -14616,7 +14648,7 @@ extra_bedouins_0018 = { #The Tayy dynasty of an unidentified estate called Nairi
 
 fictional_bedouins_0026 = { #The Tayy dynasty of an unidentified estate called Nairiz, Azerbaijan
 	name = "Isa"
-	dynasty = 1042117 #Banu Tayy
+	dynasty = bedouindyn010 #Banu Tayy'
 	religion = ashari
 	culture = bedouin
 	father = extra_bedouins_0017
@@ -14633,7 +14665,7 @@ fictional_bedouins_0026 = { #The Tayy dynasty of an unidentified estate called N
 
 extra_bedouins_0019 = { #The Tayy dynasty of an unidentified estate called Nairiz, Azerbaijan
 	name = "Murr" #historical, but have not been able to find his name. Governor of Azerbaijan in 873. 
-	dynasty = 1042117 #Banu Tayy
+	dynasty = bedouindyn010 #Banu Tayy'
 	religion = ashari
 	culture = bedouin
 	father = fictional_bedouins_0026
@@ -15574,7 +15606,7 @@ mirid_4 = {
 
 jarrahid_11 = {
 	name = "Thabit"
-	dynasty_house = house_fadlid
+	dynasty_house = house_jarrahid
 	religion = ashari
 	culture = bedouin
 	father = jarrahid_1
@@ -15588,7 +15620,7 @@ jarrahid_11 = {
 
 jarrahid_12 = {
 	name = "Daghfal"
-	dynasty_house = house_fadlid
+	dynasty_house = house_jarrahid
 	religion = ashari
 	culture = bedouin
 	father = jarrahid_1
@@ -15605,7 +15637,7 @@ jarrahid_13 = {
 	dynasty_house = house_jarrahid
 	religion = ashari
 	culture = bedouin
-	father = bedouin0076
+	#	father = bedouin0076
 	923.1.1 = {
 		birth = yes
 	}
@@ -15639,6 +15671,9 @@ dabbabid_1 = {
 	intrigue = 3
 	learning = 3
 	trait = education_martial_2
+	trait = ambitious
+	trait = trusting
+	trait = temperate
 	father = dabbabid_2
 	1150.1.1 = {
 		birth = yes
@@ -16098,7 +16133,7 @@ husaynid_29 = {
 	959.1.1 = {
 		birth = yes
 	}
-	1107.1.1 = {
+	1007.1.1 = {
 		death = yes
 	}
 }

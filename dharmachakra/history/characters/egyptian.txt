@@ -790,23 +790,25 @@
 	1096.1.1 = {
 		birth = "1096.1.1"
 	}
-	1130.1.1 = {
-		death = "1130.1.1"
+	1130.10.7 = {
+		death = yes
 	}
 }
 
 32906 = {
-	name = "al-Qasim"
+	name = "at-Tayyib" # at-Tayyib ibn al-Amir, disappeared in infancy and believed by the Tayyibis to have entered concelment
 	dynasty = 589
-	religion = "ismaili"
+	religion = "tayyibi"
 	culture = "egyptian"
 	father = 32905
 	trait = sayyid
-	1126.1.1 = {
-		birth = "1126.1.1"
+	1130.2.1 = {
+		birth = yes
 	}
-	1176.1.1 = {
-		death = "1176.1.1"
+	1131.6.1 = {
+		death = {
+			death_reason = death_me_tayyib
+		}
 	}
 }
 
@@ -819,6 +821,9 @@
 	trait = sayyid
 	1090.1.1 = {
 		birth = "1090.1.1"
+	}
+	1132.1.23 = {
+		religion = "hafizi"
 	}
 	1149.1.1 = {
 		death = "1149.1.1"
@@ -835,6 +840,9 @@
 	1120.1.1 = {
 		birth = "1120.1.1"
 	}
+	1132.1.23 = {
+		religion = "hafizi"
+	}
 	1154.1.1 = {
 		death = "1154.1.1"
 	}
@@ -843,7 +851,7 @@
 32909 = {
 	name = "al-Faiz"
 	dynasty = 589
-	religion = "ismaili"
+	religion = "hafizi"
 	culture = "egyptian"
 	father = 32908
 	trait = sayyid
@@ -936,10 +944,11 @@
 		effect = {
 			remove_short_term_gold = 1000
 			set_designated_heir = character:3098
-		}
-		if = {
-			limit = { has_realm_law = crown_authority_0 }
-			add_realm_law = crown_authority_1
+
+			if = {
+				limit = { has_realm_law = crown_authority_0 }
+				add_realm_law = crown_authority_1
+			}
 		}
 	}
 	1094.1.10 = {
@@ -1102,7 +1111,7 @@
 }
 
 34979 = {
-	name = "al-Afdal_Shahanshah"
+	name = "Shahanshah"
 	dynasty = 101684
 	religion = "ismaili"
 	culture = "armenian"
@@ -1712,6 +1721,7 @@
 	father = extra_tulunids_5
 	835.9.20 = {
 		birth = "835.9.20"
+
 		effect = {
 			if = {
 				limit = { has_realm_law = crown_authority_0 }
@@ -1902,29 +1912,29 @@
 	}
 }
 210021 = {
-	name = "Abderahman"
-	dynasty = 1048002 #Tujibid
+	name = "Abd_ar-Rahman"
+	dynasty_house = house_me_Tujibid # Banu Tujib
 	religion = "ashari"
 	culture = "egyptian"
 	father = 210020
-	700.1.1 = {
-		birth = "700.1.1"
+	650.1.1 = {
+		birth = yes
 	}
-	760.1.1 = {
-		death = "760.1.1"
+	720.1.1 = {
+		death = yes
 	}
 }
 210022 = {
 	name = "Abdullah"
-	dynasty = 1048002 #Tujibid
+	dynasty_house = house_me_Tujibid # Banu Tujib
 	religion = "ashari"
 	culture = "egyptian"
 	father = 210021
-	725.1.1 = {
-		birth = "725.1.1"
+	700.1.1 = {
+		birth = yes
 	}
-	800.1.1 = {
-		death = "800.1.1"
+	772.1.1 = {
+		death = yes
 	}
 }
 210023 = {
@@ -2144,7 +2154,7 @@ extra_tulunids_9 = {
 extra_fatimids_1 = {
 	name = "Daoud"
 	dynasty = 589
-	religion = "ismaili"
+	religion = "hafizi"
 	culture = "egyptian"
 	father = 32910
 	trait = sayyid

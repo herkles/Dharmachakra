@@ -39,10 +39,8 @@
 	760.1.1 = {
 		religion = ashari
 	}
-	1050.1.1 = {
-		culture = baloch #FP3 fix for baloch migration
-	}
 	1178.1.1 = {
+		culture = baloch #FP3 fix for baloch migration
 		religion = maturidi
 	}
 }
@@ -121,10 +119,8 @@
 	880.1.1 = {
 		religion = ashari
 	}
-	1060.1.1 = {
-		culture = baloch 
-	}
 	1178.1.1 = {
+		culture = baloch 
 		religion = maturidi
 	}
 }
@@ -147,7 +143,7 @@
 ##d_jabal_kufs ###################################
 ###c_bampur
 4268 = {	#Bint
-	culture = jat
+	culture = baloch
 	religion = ashari
 	holding = castle_holding
 	1050.1.1 = {
@@ -326,7 +322,7 @@
 
 ###c_bost
 4484 = {	#Bost
-	culture = tajik
+	culture = afghan
 	religion = zun_pagan
 	holding = castle_holding
 	1000.1.1 = { 

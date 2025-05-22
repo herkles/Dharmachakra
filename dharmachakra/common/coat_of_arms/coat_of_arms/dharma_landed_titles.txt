@@ -113,11 +113,128 @@ d_tayyibi = {
 #######################################
 # Landless Titles
 #######################################
-d_laamp_me_karrami = me_karrami_dynasty # Ibn Karram
-d_laamp_me_maghrawa = house_me_khazarids # The Maghrawa Berber clan
-d_laamp_me_kindi = bedouin_kinda # al-Kindi
-d_laamp_me_tujibid = house_me_Tujibid # Grandfather of the scholar Abu Umar al-Kindi
+d_laamp_me_karrami = {
+	pattern="pattern_solid.dds"
+	color1=brown
+	colored_emblem={
+		color1=yellow
+		texture="ce_mena_crescent_outline.dds"
+		instance={ rotation=270 }
+	}
+}
+d_laamp_me_maghrawa = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	colored_emblem={
+		color1=red
+		color2=yellow
+		texture="ce_octogon_plain_frame.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.610000 0.610000 } depth=1.010000 } 
+	}
+	colored_emblem={
+		color1=red
+		color2=red
+		texture="ce_octogon_frame.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.750000 0.750000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_octogon_plain_frame.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.810000 0.810000 } depth=3.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		texture="ce_arabic_allah_kufic.dds"
+		instance={ position={ 0.500000 0.480000 } scale={ 0.650000 0.650000 } }
+	}
+}
+d_laamp_me_kindi = {
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=yellow
+	color2=red
+	colored_emblem={
+		color1=red
+		color2=yellow
+		texture="ce_mena_lion.dds"
+		instance={ scale={ 0.630000 0.630000 } }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=red
+		texture="ce_doted_roundel_frame.dds"
+		instance={ scale={ 0.700000 0.700000 } depth=1.010000 }
+	}
+}
+d_laamp_me_tujibid = {
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=red
+	color2=blue
+	colored_emblem={
+		color1=blue_light
+		color2=blue
+		texture="ce_doted_roundel_frame.dds"
+		instance={ scale={ 0.700000 0.700000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=red
+		color2=blue_light
+		texture="ce_mena_lion.dds"
+		instance={ scale={ 0.630000 0.630000 } }
+	}
+}
+d_laamp_me_idrisid = {
+	pattern="pattern_horizontal_split_01.dds"
+	color1=green
+	color2=green
+	colored_emblem={
+		color1=green
+		color2=white
+		texture="ce_octogon_plain_frame.dds"
+		instance={ scale={ 0.800000 0.800000 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=white
+		color2=black
+		texture="ce_solomon_star_08.dds"
+		instance={ scale={ 0.870000 0.870000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_arabic_allah_kufic.dds"
+		instance={ scale={ 0.480000 0.480000 } }
+	}
+	colored_emblem={
+		color1=black
+		color2=yellow
+		texture="ce_border_circle.dds"
+		instance={ depth=3.010000 }
+	}
+}
+d_laamp_me_ganjavid = {
+	pattern="pattern__solid_designer.dds"
+	color1=green_light
+	color2=white
+	colored_emblem={
+		color1=brown
+		color2=yellow
+		texture="ce_frame_circle_borre_double_knots_03.dds"
+		instance={ scale={ 0.870000 0.870000 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=yellow
+		color2=red
+		texture="ce_fire.dds"
+		instance={ scale={ 0.610000 0.610000 } }
+	}
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_polylobe_circle_frame.dds"
+		instance={ scale={ 0.790000 0.790000 } depth=2.010000 }
+	}
+}
 d_laamp_sevener_caliph = 589 # Fatimid Hidden Imam
-d_laamp_me_idrisid = house_hammudid # Muhammad al-Idrisi's son
-d_laamp_me_ganjavid = me_ganjavid_dynasty # Nizami Ganjavid
 

@@ -235,7 +235,7 @@
 	870.1.1 = {
 		religion = ashari
 	}
-	1050.1.1 = {
+	1178.1.1 = {
 		culture = turkish
 		religion = maturidi
 	}
@@ -362,6 +362,9 @@
 			military_camps_01
 		}
 		religion = maturidi
+	}
+	1178.1.1 = {
+		culture = tat
 	}
 
 }

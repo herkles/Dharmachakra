@@ -615,6 +615,8 @@
 			# Assassins
 			doctrine = doctrine_clerical_function_recruitment
 
+			doctrine = unavailable_doctrine # Doesn't exist before the schism
+
 			#Nizari Names - Includes the list of Generic Shi'ite names with the addition of 'Nizar'
 			reserved_male_names = {
 				Nizar
@@ -756,7 +758,7 @@
 			
 			# Leadership
 			doctrine = doctrine_temporal_head
-
+			doctrine = unavailable_doctrine # Doesn't exist before the schism
 			# Shia
 			doctrine = muhammad_succession_shia_doctrine
 			# Main Doctrines
@@ -795,7 +797,8 @@
 			#DOCTRINES
 			# Jizya
 			doctrine = special_doctrine_jizya
-			
+			doctrine = unavailable_doctrine # Doesn't exist before the schism
+
 			# Leadership
 			doctrine = doctrine_spiritual_head
 

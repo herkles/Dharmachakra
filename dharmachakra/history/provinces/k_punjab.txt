@@ -761,12 +761,11 @@
 4521 = {	# 4521 - Urgun
 	
 	# Misc
-	culture = gandhari
+	culture = afghan
 	religion = suryaism
 	
 	#History
 	1000.1.1 = {
-		culture = khalaj
 		religion = imami
 	}
 }
@@ -808,7 +807,7 @@
 4517 = {# 4517 - Loralai
 	
 	# Misc
-	culture = jat
+	culture = afghan
 	religion = khurmazta
 	
 	# History

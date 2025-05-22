@@ -11,6 +11,7 @@ dharma_setup_after_game_start_on_actions = {
 	}
 
 	effect = {
+		# Faith hiding / unhiding
 		if = {# Lingayatism is active after 1167
 			limit = { game_start_date >= 1150.1.1 }
 			faith:lingayatism = { remove_doctrine = unavailable_doctrine }			
@@ -18,6 +19,15 @@ dharma_setup_after_game_start_on_actions = {
 				name = ligayatism_spawned
 				value = yes
 			}
+		}
+		if = {# Hafizi / Tayyibi schism active 
+			limit = { game_start_date >= 1132.1.1 }
+			faith:hafizi = { remove_doctrine = unavailable_doctrine }			
+			faith:tayyibi = { remove_doctrine = unavailable_doctrine }			
+		}
+		if = {# Nizari schism active 
+			limit = { game_start_date >= 1096.1.1 }
+			faith:nizari = { remove_doctrine = unavailable_doctrine }			
 		}
 		if = {# Saura is in decline in the 12th century
 			limit = {
@@ -30,6 +40,7 @@ dharma_setup_after_game_start_on_actions = {
 				}
 			}
 		}
+		
 		# Title stuff
 		if = {# getting Zun on the map in 867
 			limit = {
@@ -37,6 +48,7 @@ dharma_setup_after_game_start_on_actions = {
 			}	
 			title:c_bost = {
 				set_county_faith = faith:zun_pagan
+				set_county_culture = culture:turco_hephthalite
 			}	
 			title:c_zamindawar = {
 				set_county_faith = faith:zun_pagan
@@ -44,18 +56,17 @@ dharma_setup_after_game_start_on_actions = {
 
 			}	
 			title:c_rukhaj = {
+				set_county_culture = culture:turco_hephthalite
 				set_county_faith = faith:zun_pagan
 			}	
 			title:c_zabulistan = {
 				set_county_faith = faith:zun_pagan
+				set_county_culture = culture:turco_hephthalite
 			}
 		}
 		if = {# Khalaj stuff
 			limit = {
 				game_start_date >= 900.1.1
-			}
-			title:c_bost = {
-				set_county_culture = culture:khalaj
 			}
 			title:c_rukhaj = {
 				set_county_culture = culture:khalaj
@@ -134,10 +145,14 @@ dharma_setup_after_game_start_on_actions = {
 			}
 	        title:b_lhasa.title_province = { add_special_building = potala_palace_02 } #9237
 		}
-		# Setting pre-sectarian islamic faiths to non-convertable
+		# Islamic stuff
 		if = {# Shia imamates and making
 			limit = { game_start_date = 867.1.1 }
 			shia_imamates_startup_effect = yes
+		}
+		if = {
+			limit = { has_ep3_dlc_trigger = yes }
+			title:d_laamp_sevener_caliph = { set_title_name = d_hidden_imamate }
 		}
 		if = {# wazir of Uwal set up
 			limit = { game_start_date = 1066.9.15 }

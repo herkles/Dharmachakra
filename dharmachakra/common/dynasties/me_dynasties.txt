@@ -205,9 +205,10 @@ me_banu_kahlan_dynasty = {
 	culture = "bedouin"
 }
 
-
-
-
+me_awraba_dynasty = {
+	name = "dynn_me_awraba"
+	culture = "baranis"
+}
 
 me_ganjavid_dynasty = {
 	name = "dynn_me_ganjavid"

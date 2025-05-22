@@ -121,6 +121,7 @@ nick_al_faruq = {}
 nick_dhu_nurayn = {}
 nick_az-zahra = {}
 nick_al_ashath = {}
+nick_me_ath_thani = {}
 nick_me_an_naqis = {}
 
 ##Shia imams

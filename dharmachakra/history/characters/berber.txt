@@ -4025,12 +4025,11 @@ me_zirid_pre_1 = {
 	dynasty = 1027006
 	religion = "ashari" #heretic?
 	culture = baranis
-	
-	970.1.1 = {
-		birth = "970.1.1"
+	990.1.1 = {
+		birth = yes
 	}
-	1020.1.1 = {
-		death = "1020.1.1"
+	1050.1.1 = {
+		death = yes
 	}
 }
 
@@ -4041,25 +4040,26 @@ me_zirid_pre_1 = {
 	culture = baranis
 	father = 155004
 	trait = education_martial_2
-	
-	990.1.1 = {
-		birth = "990.1.1"
+	father = 155004
+	1020.1.1 = {
+		birth = yes
 	}
-	1078.10.8 = {
-		death = "1078.10.8" #supposedly ~90!
+	1078.10.8 = { #supposedly ~90!
+		death = {
+			death_reason = death_battle
+		} 
 	}
 }
 
 155006 = {
-	name = "Diya_al-Dawla"
-	#al-Mu'izz-Diya'al-Dawla ibn Suqut
+	name = "al-Mu_izz"  #al-Mu'izz 'Diya'al-Dawlah' ibn Suqut
 	dynasty = 1027006
+	give_nickname = nick_diya_ad_dawla
 	religion = "ashari"
 	culture = baranis
 	father = 155005
-	
-	1060.1.1 = {
-		birth = "1060.1.1"
+	1050.1.1 = {
+		birth = yes
 	}
 	1083.7.1 = {
 		death = "1083.7.1"
@@ -5874,7 +5874,68 @@ me_zirid_pre_1 = {
 		death = "1355.1.1"
 	}
 }
+me_awraba_001 = {
+	name = "Kenza" # Kenza al-Awrabiyyah, Wife of Idris I and Mother of Idris II of the Idrisid dynasty
+	female = yes
+	dynasty = me_awraba_dynasty
+	religion = "zayidi"
+	culture = baranis
 
+	father = me_awraba_002
+	770.1.1 = {
+		birth = yes
+	}
+	790.1.1 = {
+		add_spouse = 159501 # Idris I
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+
+me_awraba_002 = {
+	name = "Ishaq"
+	dynasty = me_awraba_dynasty
+	religion = "zayidi"
+	culture = baranis
+
+	father = me_awraba_003
+	750.1.1 = {
+		birth = yes
+	}
+	809.1.1 = {
+		death = yes
+	}
+}
+
+me_awraba_003 = {
+	name = "Muhammad"
+	dynasty = me_awraba_dynasty
+	religion = "ashari"
+	culture = baranis
+
+	father = me_awraba_004
+	720.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+me_awraba_004 = {
+	name = "Hammid"
+	dynasty = me_awraba_dynasty
+	religion = "ashari"
+	culture = baranis
+
+	690.1.1 = {
+		birth = yes
+	}
+	750.1.1 = {
+		death = yes
+	}
+}
 159502 = {
 	name = "Idris"
 	dynasty = 1029055
@@ -5882,8 +5943,9 @@ me_zirid_pre_1 = {
 	culture = maghrebi
 	trait = sayyid
 	father = 159501
-	791.1.2 = {
-		birth = "791.1.2"
+	mother = me_awraba_001 # Kenza al-Awrabiyyah
+	791.8.1 = {
+		birth = yes
 	}
 	828.1.1 = {
 		death = "828.1.1"
@@ -5951,12 +6013,13 @@ me_zirid_pre_1 = {
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
-	father = 159505
-	846.1.2 = {
-		birth = "846.1.2"
+
+	father = 159502 # Idris II
+	812.1.1 = {
+		birth = yes
 	}
-	863.1.1 = {
-		death = "863.1.1"
+	835.1.1 = {
+		death = yes
 	}
 }
 159508 = {
@@ -5966,11 +6029,11 @@ me_zirid_pre_1 = {
 	culture = maghrebi
 	trait = sayyid
 	father = 159507
-	860.1.2 = {
-		birth = "860.1.2"
+	830.1.1 = {
+		birth = yes
 	}
-	883.1.1 = {
-		death = "883.1.1"
+	880.1.1 = {
+		death = yes
 	}
 }
 159509 = {
@@ -5979,26 +6042,31 @@ me_zirid_pre_1 = {
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
-	father = 159506
-	860.1.2 = {
-		birth = "860.1.2"
+
+	father = 159502 # Idris II
+	815.1.1 = {
+		birth = yes
 	}
-	880.1.1 = {
-		death = "880.1.1"
+	870.1.1 = {
+		death = yes
 	}
 }
 159510 = {
 	name = "Yahya"
 	dynasty = 1029055
+	give_nickname = nick_me_al_miqdam # al-Miqdam
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
+	trait = education_martial_3 # Military commander, saved Fas from a Kharijite rebel
+	trait = brave
+
 	father = 159509
-	875.1.2 = {
-		birth = "875.1.2"
+	840.1.1 = {
+		birth = yes
 	}
-	904.1.1 = {
-		death = "904.1.1"
+	905.1.1 = {
+		death = yes
 	}
 }
 159511 = {
@@ -6008,11 +6076,11 @@ me_zirid_pre_1 = {
 	culture = maghrebi
 	trait = sayyid
 	father = 159507
-	862.1.1 = {
-		birth = "862.1.1"
+	832.1.1 = {
+		birth = yes
 	}
-	900.1.1 = {
-		death = "900.1.1"
+	882.1.1 = {
+		death = yes
 	}
 }
 159512 = {
@@ -6022,11 +6090,11 @@ me_zirid_pre_1 = {
 	culture = maghrebi
 	trait = sayyid
 	father = 159511
-	880.1.2 = {
-		birth = "880.1.2"
+	860.1.1 = {
+		birth = yes
 	}
-	917.1.1 = {
-		death = "917.1.1"
+	946.1.1 = {
+		death = yes
 	}
 }
 159513 = {
@@ -6036,25 +6104,28 @@ me_zirid_pre_1 = {
 	culture = maghrebi
 	trait = sayyid
 	father = 159509
-	885.1.2 = {
-		birth = "885.1.2"
+	845.1.1 = {
+		birth = yes
 	}
-	927.1.1 = {
-		death = "927.1.1"
+	910.1.1 = {
+		death = yes
 	}
 }
 159514 = {
 	name = "Al-Hassan"
 	dynasty = 1029055
+	give_nickname = nick_me_al_hajjam # al-Hajjam, a person who does Hijama (Wet Cupping)
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
+	trait = lifestyle_physician
+
 	father = 159513
-	900.1.2 = {
-		birth = "900.1.2"
+	870.1.1 = {
+		birth = yes
 	}
-	944.1.1 = {
-		death = "944.1.1"
+	930.1.1 = {
+		death = yes
 	}
 }
 159515 = {
@@ -6074,29 +6145,33 @@ me_zirid_pre_1 = {
 159516 = {
 	name = "Al-Qasim_Kannun"
 	dynasty = 1029055
+	give_nickname = nick_me_kannun
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
 	father = 159515
-	920.1.2 = {
-		birth = "920.1.2"
+	875.1.1 = {
+		birth = yes
 	}
-	948.1.1 = {
-		death = "948.1.1"
+	949.1.1 = {
+		death = yes
 	}
 }
 159517 = {
 	name = "Ahmad"
 	dynasty = 1029055
+	give_nickname = nick_me_abul_aysh # Abu'l 'Aysh (Father of Livelihood)
 	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
+	trait = generous
+
 	father = 159516
-	935.1.2 = {
-		birth = "935.1.2"
+	900.1.1 = {
+		birth = yes
 	}
 	954.1.1 = {
-		death = "954.1.1"
+		death = yes
 	}
 }
 159518 = {
@@ -6106,11 +6181,13 @@ me_zirid_pre_1 = {
 	culture = maghrebi
 	trait = sayyid
 	father = 159516
-	935.1.2 = {
-		birth = "935.1.2"
+	905.1.1 = {
+		birth = yes
 	}
-	985.1.1 = {
-		death = "985.1.1"
+	974.1.1 = {
+		death = {
+			death_reason = death_execution
+		}
 	}
 }
 
@@ -7602,7 +7679,7 @@ danis0007 = {
 	trait = zealous 
 	trait = education_intrigue_3
 	
-	831.1.1 = {
+	837.1.1 = {
 		birth = yes
 	}
 	895.1.1 = {
@@ -9036,7 +9113,7 @@ baranis0075 = {
 	name = "Hadiya" # Hadiya, name unknown, bint Ali, wife of Sheik Muhammad ibn al-Qasim of Algeciras (159490)
 	female = yes
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_diplomacy_1
@@ -9054,7 +9131,7 @@ baranis0075 = {
 baranis0076 = {
 	name = "Ali" # Ali ibn Idris
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_2
@@ -9072,7 +9149,7 @@ baranis0076 = {
 baranis0077 = {
 	name = "Hassan" # Hassan ibn Idris
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_diplomacy_1
@@ -9094,8 +9171,8 @@ baranis0078 = {
 	name = "Rahima" # Rahima, name unknown, bint Ali, wife of Emir Hassan ibn Muhammad of Rif (159495)
 	female = yes
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
-	culture = baranis
+	religion = muwalladi
+	culture = maghrebi
 	trait = sayyid
 	trait = education_diplomacy_1
 
@@ -9330,7 +9407,7 @@ baranis0090 = {
 
 	father = baranis0089 # Naib Muhammad ibn Abdallah of Carmona
 
-	1020.1.1 = {
+	1010.1.1 = {
 		birth = yes
 	}
 	1053.1.1 = {
@@ -9744,7 +9821,7 @@ khali0009 = {
 73687 = {
 	name = "Ali" # Ali (I) ibn Yahya, Muwalladi Caliph (1016-1018), Sultan of Andalusia (1016-1018), Walih of Rif (1011-1016),  &Sheik of Ceuta & Tangiers (1011-1016), Cabra, Cordoba, Moura & Niebla (1016-1018)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_2
@@ -9762,14 +9839,14 @@ khali0009 = {
 }
 
 73688 = {
-	name = "Yahya" # Yahya ibn Hammud
+	name = "Hammud" # Hammud ibn Maymun
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
 	trait = education_martial_1
 
-	father = 159493 # Hammud ibn Yahya
+	father = 159493 # Maymun ibn Hammud
 
 	930.1.1 = {
 		birth = yes
@@ -9780,14 +9857,14 @@ khali0009 = {
 }
 
 73689 = {
-	name = "al-Qasim" # al-Qasim [I] ibn Yahya, Muwalladi Caliph (1018-1021 & 1023-1036), Sultan of Andalusia (1018-1021 & 1023), Walih of Seville (1011-1023) & Sheik of Sevilla (1011-1023), Cabra, Cordoba, & Moura (1018-1021 & 1023-1036) & Niebla (1018-1021)
+	name = "al-Qasim" # al-Qasim [I] ibn Hammud, Muwalladi Caliph (1018-1021 & 1023-1036), Sultan of Andalusia (1018-1021 & 1023), Walih of Seville (1011-1023) & Sheik of Sevilla (1011-1023), Cabra, Cordoba, & Moura (1018-1021 & 1023-1036) & Niebla (1018-1021)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_3
 
-	father = 73688 # Yahya ibn Hammud
+	father = 73688 # Hammud ibn Maymun
 
 	961.1.1 = {
 		birth = yes
@@ -9803,7 +9880,7 @@ khali0009 = {
 73690 = {
 	name = "Yahya" # Yahya (I) ibn Ali, Muwalladi Caliph (1021-1023 & 1025-1027), Sultan of Andalusia (1021-1023 & 1025-1027), Emir of Rif (1016-1035), Sheik of Cauta & Tangiers (1016-1018), Algeciras & Malaga (1018-1035), Cabra, Cordoba & Moura (1021-1023 & 1025-1027), Niebla (1021-1023) & Naib of Carmona (1035)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_intrigue_3
@@ -9885,7 +9962,7 @@ khali0009 = {
 159490 = {
 	name = "Muhammad" # Muhammad ibn al-Qasim, Sheik of Algeciras (1035-1048)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_3
@@ -9907,7 +9984,7 @@ khali0009 = {
 	name = "Fatima" # Fatima bint al-Qasim, wife of Caliph Yahya I of Andalusia (73690)
 	female = yes
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_diplomacy_1
@@ -9925,7 +10002,7 @@ khali0009 = {
 159492 = {
 	name = "al-Qasim" # al-Qasim (II) ibn Muhammad, Sheik of Algeciras (1048-1055)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_2
@@ -9944,19 +10021,19 @@ khali0009 = {
 }
 
 159493 = {
-	name = "Hammud" # Hammud ibn Yahya
-	dynasty_house = house_hammudid # House Hammudid, Founder
-	religion = ismaili
+	name = "Maymun" # Maymun ibn Hammud
+	dynasty_house = house_hammudid # House Hammudid
+	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_1
 
-	father = 159512 # Yahya ibn Idris
+	father = me_idrisid_004 # Hammud ibn Ali (Found in maghrebi_me.txt)
 
-	900.1.1 = {
+	905.1.1 = {
 		birth = yes
 	}
-	950.1.1 = {
+	965.1.1 = {
 		death = yes
 	}
 }
@@ -9964,7 +10041,7 @@ khali0009 = {
 159494 = {
 	name = "Idris" # Idris ibn Yahya
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = "zayidi"
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_1
@@ -9982,7 +10059,7 @@ khali0009 = {
 159495 = {
 	name = "Hassan" # Hassan ibn Yahya, Emir of Rif (1039-1042) & Sheik of Ceuta & Tangiers (1035-1040) & Malaga (1040-1042)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_3
@@ -10005,7 +10082,7 @@ khali0009 = {
 159496 = {
 	name = "Yahya" # Yahya (II) ibn Idris, Sheik of Malaga (1035-1040)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_diplomacy_1
@@ -10025,7 +10102,7 @@ khali0009 = {
 159497 = {
 	name = "Idris" # Idris (I) ibn Ali, Emir of Rif (1035-1039) & Sheik of Algeciras & Malaga (1016-1018), Ceuta & Tangiers (1018-1039)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_2
@@ -10045,7 +10122,7 @@ khali0009 = {
 159498 = {
 	name = "Idris" # Idris (II) ibn Yahya, Emir of Rif (1043-1055)&  Sheik Ceuta & Tangiers (1040-1041 & 1043-1053) & Malaga (1043-1046 & 1053-1055)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_diplomacy_1
@@ -10064,7 +10141,7 @@ khali0009 = {
 159499 = {
 	name = "Muhammad" # Muhammad ibn Idris, Sheik of Malaga (1046-1053)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_stewardship_2
@@ -10084,7 +10161,7 @@ khali0009 = {
 159500 = {
 	name = "Yahya" # Yahya ibn Idris
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_diplomacy_1
@@ -10102,7 +10179,7 @@ khali0009 = {
 200233 = {
 	name = "Idris" # Idris (III) ibn Yahya, Sheik of Malaga (1053)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = lunatic_1
 	trait = sayyid
@@ -10124,7 +10201,7 @@ khali0009 = {
 200234 = {
 	name = "Muhammad" # Muhammad ibn Idris, Sheik of Malaga (1055-1058) & Melilla (1064-1073)
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = sayyid
 	trait = education_diplomacy_1
@@ -10143,7 +10220,7 @@ khali0009 = {
 	name = "Rahima" # Rahima bint Idris, wife of Sheik Buluggin ibn Badis of Malaga (32991)
 	female = yes
 	dynasty_house = house_hammudid # House Hammudid
-	religion = ismaili
+	religion = muwalladi
 	culture = maghrebi
 	trait = education_diplomacy_2
 	trait = sayyid
@@ -10821,6 +10898,9 @@ marinid_1 = {
 	intrigue = 3
 	learning = 4
 	trait = education_martial_2
+	trait = ambitious
+	trait = brave
+	trait = patient
 	father = marinid_2
 	1134.1.1 = {
 		birth = yes

@@ -1377,13 +1377,13 @@ sufyani001 = { # Ramlah bint Abu Sufyan, wife of Prophet Muhammad
 		birth = yes
 	}
 	611.1.1 = {
-		add_spouse = asadid022 # Ubaydullah ibn Jahsh al-Asadi, early Islamic apostate
+		#add_spouse = asadid022 # Ubaydullah ibn Jahsh al-Asadi, early Islamic apostate
 	}
 	614.1.1 = {
-		remove_spouse = asadid022 # They seperate after his apostosy
+		#remove_spouse = asadid022 # They seperate after his apostosy
 	}
 	628.1.1 = {
-		add_spouse = 33922 #Prophet Muhammad
+		# add_spouse = 33922 #Prophet Muhammad
 	}
 	664.7.1 = { 
 		death = yes
@@ -1581,7 +1581,7 @@ me_umayyads_010 = {
 }
 
 me_umayyads_011 = {
-	name = "Abi Salama"
+	name = "Abi_Salama"
 	dynasty = me_anfid_dynasty # Banu al-Anf - Umayyad branch
 	religion = ismaili
 	culture = egyptian
@@ -5796,7 +5796,7 @@ me_tujibid_018 = {
 }
 
 me_tujibid_019 = {
-	name = "as-Sa'igh"
+	name = "as_Sa_igh"
 	dynasty_house = house_me_Tujibid # Banu Tujib
 	religion = "muwalladi"
 	culture = "andalusian"
@@ -6430,8 +6430,9 @@ me_kahlanid_008 = {
 	culture = "bedouin"
 
 #	father = ### Kahlan ibn Saba'
-	1.1.1 = {
-		birth = yes
+
+	3.1.1 = {
+		birth = "3.1.1"
 	}
 	75.1.1 = {
 		death = yes
@@ -6585,7 +6586,7 @@ me_tayy_009 = {
 }
 
 me_tayy_010 = {
-	name = "Imru' al-Qays"
+	name = "Imru__al_Qays"
 	dynasty = bedouindyn010 # Banu Tayy'
 	culture = "bedouin"
 	religion = "arabic_pagan"
@@ -7095,7 +7096,7 @@ me_tayy_043 = {
 }
 
 me_tayy_044 = {
-	name = "Sa'dullah"
+	name = "Sa_dullah"
 	dynasty_house = house_me_jibrani # al-Jibrani
 	culture = "levantine"
 	religion = "ashari"
@@ -7808,7 +7809,7 @@ me_yahmadid_023 = {
 }
 
 me_yahmadid_024 = {
-	name = "Ḥayyan" # In some sources is called Hayya
+	name = "Hayyan" # In some sources is called Hayya
 	dynasty = 1042182 #Yahmad
 	religion = "ibadi"
 	culture = "bedouin"
@@ -8038,9 +8039,8 @@ me_azdid_011 = {
 	dynasty = arabic_azd
 	religion = "arabic_pagan"
 	culture = "yemeni"
-#	father = me_azdid_012
-	1.1.1 = {
-		birth = yes
+	3.1.1 = {
+		birth = "3.1.1"
 	}
 	71.1.1 = {
 		death = yes
@@ -8398,8 +8398,8 @@ me_azdid_035 = {
 	dynasty = arabic_azd
 	religion = "arabic_pagan"
 	culture = "yemeni"
-
 	father = me_azdid_011
+
 	20.1.1 = {
 		birth = yes
 	}

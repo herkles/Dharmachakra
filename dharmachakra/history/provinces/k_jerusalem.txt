@@ -280,7 +280,9 @@
 	religion = ashari
 	
 	# History
-
+	1066.1.1 = {
+		culture = levantine
+	}
 }
 
 # 5985 - JARASH

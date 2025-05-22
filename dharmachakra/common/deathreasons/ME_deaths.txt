@@ -10,6 +10,10 @@ imam_hide = {
 	icon = "death_unknown.dds"
 }
 
+death_me_tayyib = {
+	icon = "death_unknown.dds"
+}
+
 death_isa_sijilmasa = {
 	icon = "death_murder.dds"
 }

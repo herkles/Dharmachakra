@@ -66,14 +66,18 @@
 
 }
 
-# 4815 - HAKKARI
+# 4815 - HAKKARI c_hakkari
 4815 = {	# Misc
 	culture = kurdish
 	religion = kitebacilweism
 	
 	# History
-	
-
+	1066.1.1 = {
+		culture = assyrian
+	}
+	1178.1.1 = {
+		culture = assyrian
+	}
 }
 
 # 4816 - SA'IRD
@@ -220,6 +224,7 @@
 		religion = nestorian
 	}
 	1178.1.1 = {
+		culture = kurdish
 		religion = ashari
 	}
 }
@@ -351,12 +356,15 @@
 
 }
 
-# 4859 - MAYYAFARIQIN
+# 4859 - MAYYAFARIQIN c_mayyafariqin
 4859 = {	# Misc
 	culture = assyrian
 	religion = armenian_apostolic
 	
 	# History
+	1066.1.1 = {
+		culture = armenian
+	}
 	1086.1.1 = {
 		culture = kurdish
 		religion = ashari
@@ -546,14 +554,19 @@
 
 }
 
-# 4876 - RAQQA
+# 4876 - RAQQA c_raqqa
 4876 = {	# 4876 - Raqqa	
 	# Misc
 	culture = syriac
 	religion = ashari
 	
 	# History
-
+	1066.1.1 = {
+		culture = levantine
+	}
+	1178.1.1 = {
+		culture = levantine
+	}
 }
 
 # 4877 - BAJARWAN

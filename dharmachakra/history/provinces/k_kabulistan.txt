@@ -7,7 +7,7 @@
 
 	# History
 	1000.1.1 = {
-		culture = khalaj
+		culture = afghan
 		religion = ashari
 	}
 }
@@ -129,13 +129,13 @@
 4500 = {# 4500 - Ghazna
 	
 	# Misc
-	culture = turco_hephthalite
+	culture = afghan
 	religion = khurmazta
 
 	# History
 
 	1000.1.1 = {
-		culture = khalaj
+		culture = afghan
 		religion = imami
 	}
 

@@ -394,11 +394,9 @@ tradition_qiqaniyya = {
 		NOT = { has_cultural_tradition = tradition_mountain_homes }
 		OR = {
  			this = culture:jat
-			this = culture:zutt
 			this = culture:kaikani
  			any_parent_culture_or_above = {
  				this = culture:jat
-				this = culture:zutt
 				this = culture:kaikani
  			}
 		}

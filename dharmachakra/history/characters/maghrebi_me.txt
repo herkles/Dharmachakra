@@ -1008,8 +1008,8 @@ me_balnubi_01 = {
 		birth = yes
 	}
 	1066.1.1 = {
-		employer = 3096 # Fatimid Caliph al-Muntasir
-		move_to_pool = yes
+		# employer = 3096 # Fatimid Caliph al-Muntasir
+		# move_to_pool = yes
 	}
 	1100.1.1 = {
 		death = yes

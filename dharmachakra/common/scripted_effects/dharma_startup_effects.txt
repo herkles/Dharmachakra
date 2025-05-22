@@ -93,9 +93,9 @@ dharma_1066_tributary_setup_effect = {
 # Shia Imamate set up
 #######################################
 shia_imamates_startup_effect = { #Made to keep the history files of these titles gapless
-	title:d_shiite.holder = { destroy_title = title:d_shiite }
-	title:d_imami.holder = { destroy_title = title:d_imami }
-	title:d_laamp_twelver_caliph.holder = { destroy_title = title:d_laamp_twelver_caliph }
+	# title:d_shiite.holder = { destroy_title = title:d_shiite }
+	# title:d_imami.holder = { destroy_title = title:d_imami }
+	# title:d_laamp_twelver_caliph.holder = { destroy_title = title:d_laamp_twelver_caliph }
 	character:33920 = { # Hussayn 'Abdullah ar-Radi'
 		title:d_laamp_sevener_caliph = { set_title_name = d_hidden_imamate }
 		change_government = landless_adventurer_government
@@ -115,27 +115,33 @@ shia_imamates_startup_effect = { #Made to keep the history files of these titles
 	}
 }
 twelver_mahdi_appears_effect = {
-	title:b_samarra = {
-		create_character = {
-			age = 6
-			name = "Muhammad"
-			gender = male
-			faith = faith:imami
-			culture = culture:bedouin
-			father = character:163026 # Hassan 'al-Askari'
-			mother = character:00004447 # Narjis
-			dynasty_house = character:163026.house # Fatimid
-			trait = sayyid
-			trait = patient
-			trait = intellect_good_3
-			trait = calm
-			trait = zealous
-			trait = diligent
-			trait = generous
-			random_traits = no
-			save_scope_as = twelver_mahdi
+		character:163026 = { # Hassan 'al-Askari'
+			save_scope_as = twelth_imam_father
 		}
+		character:00004447 = { # Hassan 'al-Askari'
+			save_scope_as = twelth_imam_mother
+		}
+	create_character = {
+		age = 6
+		name = "Muhammad"
+		gender = male
+		faith = faith:imami
+		location = title:c_samarra.title_province
+		culture = culture:bedouin
+		father = scope:twelth_imam_father
+		mother = scope:twelth_imam_mother
+		dynasty = 589
+		trait = sayyid
+		trait = patient
+		trait = intellect_good_3
+		trait = calm
+		trait = zealous
+		trait = diligent
+		trait = generous
+		random_traits = no
+		save_scope_as = twelver_mahdi
 	}
+
 	scope:twelver_mahdi = { 
 		give_nickname = nick_me_al_mahdi 
 	}
