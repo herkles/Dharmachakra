@@ -364,6 +364,22 @@
 
   dharma_murugan_tonsure_modifier:0 "Murugan Tonsure"
   dharma_murugan_tonsure_modifier_desc:0 "This character has been tonsured when visiting the Dhandayuthapani Swamy Temple at Palani."
+
+
+  dharma_divination_love_modifier:0 "Good Fortune(Love)"
+  dharma_divination_love_modifier_desc:0 "This character has been told that they will have good fortune in matters of love in the year."
+
+  dharma_divination_war_modifier:0 "Good Fortune(War)"
+  dharma_divination_war_modifier_desc:0 "This character has been told that they will have good fortune in matters of war in the year."
+
+  dharma_divination_econ_modifier:0 "Good Fortune(Trade)"
+  dharma_divination_econ_modifier_desc:0 "This character has been told that they will have good fortune in matters of trade in the year."
+
+  dharma_divination_life_modifier:0 "Good Fortune(Life)"
+  dharma_divination_life_modifier_desc:0 "This character has been told that they will have good fortune in the year."
+
+
+
 ###############################################################
 # Hero Stones Modifiers
 ###############################################################

@@ -1,0 +1,67 @@
+﻿l_english:
+
+# Nowruz Festival
+  dharma_zoro.001.t:0 "Nowruz has begun"
+  dharma_zoro.001.desc:0 "It is time for Nowruz! The new year is upon us. The land is filled with joy. The bazaars are filled with abundance as they put out their produce to sell for Nowruz. Houses both rich and poor have decorated for this joyous festival. Musicians and singers, both men and women, can be heard throughout the streets as people are rejoicing in the new year. People are visiting relatives and friends, in their homes and on rooftops. Nowruz is here!"
+  dharma_zoro.001.clean:0 "Nowruz Mobarak!"
+
+  dharma_zoro.002.t:0 "Building the Haft-sin"
+  dharma_zoro.002.zoroastrian.desc:0 "In your palace you have assembled your haft sin. The seven letter goods on your display with various goods to seek prosperity, longevity, and abundance. You got seven candles(Sham), wine(Sharab), nectar(Shahd), syrup(sharbat), sweets(Shirini), boxwood(Shamshad), and anemones(Shaghayegh) that are displayed around your family's haft sin. Within this display you have also put a copy of the Avesta to remind you of its wisdom within it that can guide you in the next year. Coins, Mirrors, painted eggs, various sweets, apples, garlics, and various seeds for your gardens are laid out on the haft sin."
+  dharma_zoro.002.muslim.desc:0 "In your palace you have assembled your haft sin. The seven letter goods on your display with various goods to seek prosperity, longevity, and abundance. You got seven candles(Sham), vinegar(Serkeh), nectar(Shahd), syrup(sharbat), sweets(Shirini), boxwood(Shamshad), and anemones(Shaghayegh) that are displayed around your family's haft sin. Within this display you have also put a copy of the Quran to remind you of its wisdom within it that can guide you in the next year.  Coins, Mirrors, painted eggs, various sweets, apples, garlics, and various seeds for your gardens are laid out on the haft sin."
+  dharma_zoro.002.haftsin:0 "Nowruzetoon Peerooz"
+
+  dharma_zoro.003.t:0 "Ritual Bathing"
+  dharma_zoro.003.desc:0 "One of the celebrations of Nowruz is to visit your baths and have a ritual bath in the bathhouse to cleanse yourself. Aside from getting clean for the new year, it is also just a great relaxing way to start the new year. "
+  dharma_zoro.003.bath:0 "Happy New Year"
+
+  dharma_zoro.004.t:0 "Jumping over fires"
+  dharma_zoro.004.desc:0 "To celebrate the new year, it is common for people to jump over fires. To dance over the flames and let the fire take away the bad of last year. So that you can begin the new year off right. Shall you jump the flames or just watch?"
+  dharma_zoro.004.jump:0 "Jump over the fires!"
+  dharma_zoro.004.no_jump:0 "Just watch the fires"
+
+  dharma_zoro.005.t:0 "Appointing a Nowruzian Ruler"
+  dharma_zoro.005.desc:0 "The local commoners have appointed one of their own as the Mir-e Nowruzi or Nowruzian Ruler who is given a regalia(usually mocking and unseemly), a throne in the town center, with several "court officials" and "troops" where he gets to rule for a few days. after which he will be dethroned. The peasants love this little custom."
+  dharma_zoro.005.ruler:0 "The peasants are having fun."
+
+  dharma_zoro.006.t:0 "Enjoying Good Food"
+  dharma_zoro.006.desc:0 "Nowruz is a time for enjoying good food. Sweets and fresh fruits are sold throughout bazaars, and this year's food is particularly scrumptious with delicacies such as roasted lamb and beef to enjoy."
+  dharma_zoro.006.food:0 "Nowruz wouldn't be complete without good food"
+
+  dharma_zoro.007.t:0 "Words of Wisdom"
+  dharma_zoro.007.zoroastrian.desc:0 "Nowruz is the celebration of the New Year, and as is customary, wisdom proverbs and poetry is often read and sung to provide some inspiration for the new year. The musicians you have hired read and recite poetry from the Avestas and other Persian poetry talking about the wisdom of Zoraster. "
+  dharma_zoro.007.shia.desc:0 "There are several hadiths that go back to Imam al-Sadiq which praise Nowruz, that today is the day to wear ghusl, that it is on this day when the Ghadir Khumm happened when Ali was chosen to succeed the Prophet. As well as making sure to read the Quran and recite various prayers to God."
+  dharma_zoro.007.other.desc:0 "Nowruz is the celebration of the New Year, and as is customary, wisdom proverbs and poetry is often read and sung to provide some inspiration for the new year. The musicians you have hired read and recite poetry from various wisdom literature and poetry that express wisdom that you hope to cultivate in the new year. "
+  dharma_zoro.007.faith:0 "May I rule with wsdom"
+
+  dharma_zoro.008.t:0 "Astrological Divination"
+  dharma_zoro.008.desc:0 "One of your Astrologers has arrived, they have kissed the ground and they want to know what you wish to know about the upcoming year."
+  dharma_zoro.008.a:0 "Tell me about Love."
+  dharma_zoro.008.a.success:0 "You shall have success in matters of love in the next year."
+  dharma_zoro.008.a.success.tt:0 "Good Fortune awaits you."
+  dharma_zoro.008.a.failure:0 "Alas one can not make out what the future shall be for you in the coming year."
+  dharma_zoro.008.b:0 "Tell me about War"
+  dharma_zoro.008.b.success:0 "You shall have success in matters of war in the next year."
+  dharma_zoro.008.b.success.tt:0 "Good Fortune awaits you."
+  dharma_zoro.008.b.failure:0 "Alas one can not make out what the future shall be for you in the coming year."
+  dharma_zoro.008.c:0 "Tell me about trade"
+  dharma_zoro.008.c.success:0 "You shall have success in matters of trade in the next year."
+  dharma_zoro.008.c.success.tt:0 "Good Fortune awaits you."
+  dharma_zoro.008.c.failure:0 "Alas one can not make out what the future shall be for you in the coming year. "
+  dharma_zoro.008.d:0 "just general advice."
+  dharma_zoro.008.d.success:0 "You shall have success in the next year."
+  dharma_zoro.008.d.success.tt:0 "Good Fortune awaits you."
+  dharma_zoro.008.d.failure:0 "Alas one can not make out what the future shall be for you in the coming year."
+
+  dharma_zoro.009.t:0 "Charity for the commoners"
+  dharma_zoro.009.desc:0 "As part of Nowruz, it is common to offer charity to those that need it most, so that all can see your generosity. As a ruler, it is customary to offer charity to your common people on this special time. The question is what sort of charity shall you do for them."
+  dharma_zoro.009.large:0 "A grand Gift for the commoners"
+  dharma_zoro.009.medium:0 "A normal gift for the commoners"
+  dharma_zoro.009.small:0 "A small gift for the commoners"
+
+  dharma_zoro.010.t:0 "Feasting with the Court"
+  dharma_zoro.010.desc:0 "The final celebration is to enjoy a courtly feast, your first of the new year. people are dressed in their new clothes. Musicians have arrived singing poetry and reciting wonderful tales. With that you and your court celebrate with a courtly feast. Your servants bring out plenty of sweets and delicacies for you to enjoy"
+  dharma_zoro.010.feast:0 "What a wonderful feast."
+
+  dharma_zoro.011.t:0 "Nowruz Concludes"
+  dharma_zoro.011.desc:0 "The festivites of Nowruz are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_zoro.011.home:0 "Till next time."

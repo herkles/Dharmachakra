@@ -45,7 +45,6 @@ sacred_grove_level_3 = {
 	icon = piety_positive
 	tax_mult = 0.06
 }
-
 #######################################
 # Jain Modifiers
 #######################################
@@ -391,12 +390,33 @@ dharma_gangaur_market = {
 	county_opinion_add = 10
 	tax_mult = 0.05
 }
-
 dharma_murugan_tonsure_modifier = {
 	icon = letter_positive
 	same_faith_opinion = 5
 	attraction_opinion = -10
 	monthly_piety = 5
+}
+
+dharma_divination_love_modifier = {
+	icon = fertility_positive
+	fertility = 0.25
+	attraction_opinion = 15
+}
+dharma_divination_war_modifier = {
+	icon = martial_positive
+	retreat_losses = -0.25
+	knight_effectiveness_mult = 0.2
+}
+dharma_divination_econ_modifier = {
+	icon = goods_positive
+	monthly_income_mult = 0.1
+	build_gold_cost = -0.05
+	build_speed = -0.05
+}
+dharma_divination_life_modifier = {
+	icon = health_positive
+	stress_loss_mult = 0.2
+	health = 0.3
 }
 ##########################################
 # Hero Stone Modifiers 
@@ -409,7 +429,6 @@ dharma_hero_stone_ancestors_weak = {
 	icon = rock_positive
 	county_opinion_add = 10
 }
-
 ##########################################
 # Irrigation modifiers
 ##########################################

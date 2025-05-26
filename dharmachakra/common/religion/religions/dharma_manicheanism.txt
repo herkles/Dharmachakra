@@ -18,13 +18,13 @@
 	doctrine = doctrine_adultery_men_shunned
 	doctrine = doctrine_adultery_women_shunned
 	doctrine = doctrine_kinslaying_any_dynasty_member_crime
-	doctrine = doctrine_witchcraft_accepted
+	doctrine = doctrine_witchcraft_crime
 	doctrine = doctrine_deviancy_shunned
 
 	# Clerical Functions
 	doctrine = doctrine_clerical_function_taxation
 	doctrine = doctrine_clerical_gender_either
-	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_marriage_disallowed
 	doctrine = doctrine_clerical_succession_spiritual_appointment
 
 	# Allow pilgrimages
@@ -259,7 +259,7 @@
 
 			doctrine = tenet_mendicant_preachers # Manicheans preached very far East
 			doctrine = tenet_adaptive
-			doctrine = tenet_esotericism
+			doctrine = tenet_monasticism
 		}
 	}
 

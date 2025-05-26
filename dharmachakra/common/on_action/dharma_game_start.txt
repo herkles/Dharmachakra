@@ -148,7 +148,7 @@ dharma_setup_after_game_start_on_actions = {
 		# Islamic stuff
 		if = {# Shia imamates and making
 			limit = { game_start_date = 867.1.1 }
-			shia_imamates_startup_effect = yes
+			#shia_imamates_startup_effect = yes
 		}
 		if = {
 			limit = { has_ep3_dlc_trigger = yes }

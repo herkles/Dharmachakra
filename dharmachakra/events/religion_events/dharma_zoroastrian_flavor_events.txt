@@ -1,0 +1,601 @@
+﻿namespace = dharma_zoro
+
+######################################
+#									 #
+#     Zoroastrian Flavor Events      #
+#									 #
+######################################
+
+######################################
+#     	Festival - Nowruz      		 #
+######################################
+dharma_zoro.001 = {# Nowruz Starts
+	type = activity_event
+	title = dharma_zoro.001.t
+	desc = dharma_zoro.001.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = { # Cleaning the palace
+		name = dharma_zoro.001.clean
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.002
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.002 = {# Building the Haft-sin
+	type = activity_event
+	title = dharma_zoro.002.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Zoroastrian - Avesta
+				trigger = { religion = religion:zoroastrianism_religion }
+				desc = dharma_zoro.002.zoroastrian.desc
+			}
+			triggered_desc = {# Muslim - Quran
+				trigger = { religion = religion:islam_religion }
+				desc = dharma_zoro.002.muslim.desc
+			}
+		}
+	}
+	theme = feast_activity
+	override_background = { reference = dharma_festival_nowruz_feast }
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# build the Haft-sin
+		name = dharma_zoro.002.haftsin
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.003
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.003 = {# Ritual Bathing
+	type = activity_event
+	title = dharma_zoro.003.t
+	desc = dharma_zoro.003.desc
+	theme = feast_activity
+	override_background = {
+		reference = bath_house
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	immediate = {
+		add_character_flag = is_naked
+	}
+
+	option = {# Bath in your bath
+		name = dharma_zoro.003.bath
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		if = {
+			limit = { has_character_flag = is_naked }
+			remove_character_flag = is_naked
+		}
+		trigger_event = { 
+			id = dharma_zoro.004
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.004 = {# Jumping over fires
+	type = activity_event
+	title = dharma_zoro.004.t
+	desc = dharma_zoro.004.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_courtyard_night
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Jump over the fires
+		name = dharma_zoro.004.jump
+		add_prestige = miniscule_prestige_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+		}
+	}
+	option = {# Don't jump over the fires
+		name = dharma_zoro.004.no_jump
+		add_prestige = miniscule_prestige_loss
+		stress_impact = {
+			gregarious = miniscule_stress_impact_gain
+			shy = miniscule_stress_impact_loss
+		}
+	}
+
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.005
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.005 = {# Appointing a Nowruzian Ruler; Medieval Custom
+	type = activity_event
+	title = dharma_zoro.005.t
+	desc = dharma_zoro.005.desc
+	theme = feast_activity
+	override_background = {
+		reference = bp2_tavern_mena
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Let the commoners have their Nowruzian Ruler
+		name = dharma_zoro.005.ruler
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.006
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.006 = {# Eating good Nowruz Food
+	type = activity_event
+	title = dharma_zoro.006.t
+	desc = dharma_zoro.006.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_festival_nowruz_feast
+	}
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Enjoying good Food
+		name = dharma_zoro.006.food
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.007
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.007 = {# Religious Teaching 
+	type = activity_event
+	title = dharma_zoro.007.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Zoroastrian
+				trigger = { religion = religion:zoroastrianism_religion }
+				desc = dharma_zoro.007.zoroastrian.desc
+			}
+			triggered_desc = {# Shia Muslim
+				trigger = { faith = { has_doctrine = muhammad_succession_shia_doctrine } }
+				desc = dharma_zoro.007.shia.desc
+			}
+			triggered_desc = {# Other
+				trigger = { 
+					NOT = {
+						religion = religion:zoroastrianism_religion
+						faith = { has_doctrine = muhammad_succession_shia_doctrine }
+					}
+				}
+				desc = dharma_zoro.007.other.desc
+			}
+		}
+	}
+	theme = feast_activity
+	override_background = {
+		reference = dharma_festival_nowruz_feast
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# What a wonderful Story 
+		name = dharma_zoro.007.faith
+		stress_impact = {
+			base = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.008
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.008 = {# Astrological divination
+	type = activity_event
+	title = dharma_zoro.008.t
+	desc = dharma_zoro.008.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_courtyard_night
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Tell me about my love life
+		name = dharma_zoro.008.a
+		random_list = {
+			50 = {
+				desc = dharma_zoro.008.a.success
+				send_interface_toast = {
+					title = dharma_zoro.008.a.success
+					left_icon = root
+					custom_tooltip = dharma_zoro.008.a.success.tt
+					add_character_modifier = {
+						modifier = dharma_divination_love_modifier
+						years = 2
+					}				
+				}
+			}
+			50 = {
+				desc = dharma_zoro.008.a.failure
+				send_interface_toast = {
+					title = dharma_zoro.008.a.failure
+					left_icon = root
+					add_stress = minor_stress_loss
+				}
+			}
+		}
+		stress_impact = {
+			paranoid = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+		}
+	}	
+	option = {# Tell me about war
+		name = dharma_zoro.008.b
+		random_list = {
+			50 = {
+				desc = dharma_zoro.008.b.success
+				send_interface_toast = {
+					title = dharma_zoro.008.b.success
+					left_icon = root
+					add_character_modifier = {
+						modifier = dharma_divination_war_modifier
+						years = 5
+					}
+				}
+			}
+			50 = {
+				desc = dharma_zoro.008.a.failure
+				send_interface_toast = {
+					title = dharma_zoro.008.a.failure
+					left_icon = root
+					add_stress = minor_stress_loss
+				}
+			}
+		}
+		stress_impact = {
+			paranoid = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+		}
+	}	
+	option = {# Tell me about trade
+		name = dharma_zoro.008.c
+		random_list = {
+			50 = {
+				desc = dharma_zoro.008.c.success
+				send_interface_toast = {
+					title = dharma_zoro.008.c.success
+					left_icon = root
+					add_character_modifier = {
+						modifier = dharma_divination_econ_modifier
+						years = 5
+					}
+				}
+			}
+			50 = {
+				desc = dharma_zoro.008.a.failure
+				send_interface_toast = {
+					title = dharma_zoro.008.a.failure
+					left_icon = root
+					add_stress = minor_stress_loss
+				}
+			}
+		}
+		stress_impact = {
+			paranoid = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {# Just tell me about life
+		name = dharma_zoro.008.d
+		random_list = {
+			50 = {
+				desc = dharma_zoro.008.d.success
+				send_interface_toast = {
+					title = dharma_zoro.008.d.success
+					left_icon = root
+					add_character_modifier = {
+						modifier = dharma_divination_life_modifier
+						years = 5
+					}
+				}
+			}
+			50 = {
+				desc = dharma_zoro.008.a.failure
+				send_interface_toast = {
+					title = dharma_zoro.008.a.failure
+					left_icon = root
+					add_stress = minor_stress_loss
+				}
+			}
+		}
+		stress_impact = {
+			paranoid = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.009
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.009 = {# Give Gift to the common people 
+	type = activity_event
+	title = dharma_zoro.009.t
+	desc = dharma_zoro.009.desc
+	theme = feast_activity
+	override_background = {
+		reference = bp2_tavern_mena
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Large Gift to the People 
+		name = dharma_zoro.009.large
+		trigger = {
+			scope:activity = {
+				has_activity_option = {
+					category = special_type
+					option = dharma_festival_nowruz_gift_large
+				}
+			}
+		}
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_zoro.009.medium
+		trigger = {
+			scope:activity = {
+				has_activity_option = {
+					category = special_type
+					option = dharma_festival_nowruz_gift_medium
+				}
+			}
+		}
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_zoro.009.small
+		trigger = {
+			scope:activity = {
+				has_activity_option = {
+					category = special_type
+					option = dharma_festival_nowruz_gift_small
+				}
+			}
+		}
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.010
+			days = 1
+		}
+	}
+}
+dharma_zoro.010 = {# feast with the court 
+	type = activity_event
+	title = dharma_zoro.010.t
+	desc = dharma_zoro.010.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_festival_nowruz_feast
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# It is their due. 
+		name = dharma_zoro.010.feast
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		every_courtier = {
+			custom = yearly.4031.b_every_courtier
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.011
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.011 = {# Nowruz concludes
+	type = activity_event
+	title = dharma_zoro.011.t
+	desc = dharma_zoro.011.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+	
+	option = {# Back Home
+		name = dharma_zoro.011.home
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.012
+			days = 1	
+		}
+	}
+}
+dharma_zoro.012 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_nowruz_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+######################################
+#     	Festival - Mehregan          #
+######################################
+
+######################################
+#     Festival - Farvardinegan       #
+######################################
+
+######################################
+#     Navjote comming of age  		 #
+######################################
+
+######################################
+#	     Cypress of Kashmiar         #
+######################################
+
+######################################
+#       General Flavor Events        #
+######################################

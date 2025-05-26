@@ -1965,7 +1965,9 @@ d_imami = {
 	}
 	835.11.24 = { #Imam Ali al-Hadi
 		holder_ignore_head_of_faith_requirement = 163025
-		liege = e_arabia
+	}
+	866.12.30 = {
+		holder_ignore_head_of_faith_requirement = 0
 	}
 	868.1.1 = { #Imam Hassan al-Askari
 		holder_ignore_head_of_faith_requirement = 163026
@@ -2035,6 +2037,12 @@ d_shiite = {
 	}
 	840.1.1 = {
 		holder = 33920 # Hussayn 'Abdullah ar-Radi'
+	}
+	867.1.1 = {
+		holder = 0 # Prevent startup errors
+	}
+	868.1.1 = {
+		holder = 33920 # Hussayn Rabi Abdullah
 	}
 	881.1.1 = {
 		holder = 0

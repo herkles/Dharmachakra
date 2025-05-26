@@ -7,6 +7,7 @@
 # Fifth Ratha Yatra
 # Sixth Thaipusam
 # Seventh Thingyan
+# Eighth Nowruz
 
 
 ###################################
@@ -54,6 +55,26 @@
   dharma_festival_reputation_intent_header: "Reputation:"
   dharma_festival_reputation_intent: "Reputation"
   dharma_festival_reputation_intent_desc: "You want all to know of your devotion through this offering. Gain an extra [prestige_i|E] #V 50#! when the [activity|E] is done. Lose extra [stress_loss_i|E] [stress|E] if you are [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+
+  dharma_festival_fun_intent_header: "Fun:"
+  dharma_festival_fun_intent_intent: "Fun"
+  dharma_festival_fun_intent_intent_desc: "You want to have a good time. You are guaranteed to lose [stress|E], and lose even more if you are [GetTrait('gregarious').GetName( GetNullCharacter )] or [GetTrait('gluttonous').GetName( GetNullCharacter )]"
+
+  dharma_festival_spectacle_intent_header: "Spectacle:"
+  dharma_festival_spectacle_intent: "Spectacle"
+  dharma_festival_spectacle_intent_desc: "You want to show the majesty and power of your court through Sadeh. [GetTrait('ambitious').GetName( GetNullCharacter )|U], [GetTrait('diligent').GetName( GetNullCharacter )], or [GetTrait('arrogant').GetName( GetNullCharacter )] characters may lose additional [stress|E]. [king|E] and [emperor|E] [rank|E] characters will also gain a small amount of [grandeur|E]."
+ 
+  dharma_festival_poetry_intent_header: "Poetry:"
+  dharma_festival_poetry_intent: "Poetry"
+  dharma_festival_poetry_intent_desc: "You want to be inspired by or write poetry. You are guaranteed to get an event about poetry to gain a beneficial [modifier|E]. You'll also gain [prestige|E] and [piety|E] from this event (normally you would not)."
+ 
+  dharma_festival_zoroastrian_intent_header: "Humata, Hukhta, Huvarshta:"
+  dharma_festival_zoroastrian_intent: "Humata, Hukhta, Huvarshta"
+  dharma_festival_zoroastrian_intent_desc: "You want to focus on good thoughts, good words, and good deeds (#italic humata, hukhta, huvarshta#!) during this important time of year. [GetTrait('zealous').GetName( GetNullCharacter )|U], [GetTrait('just').GetName( GetNullCharacter )], or [GetTrait('honest').GetName( GetNullCharacter )] characters may lose additional [stress|E]. You will also gain [piety_i|E] #V 25#! on top of any other [piety|E] you gain."
+
+
+
+
 ###################################
 # Character Memories
 ###################################
@@ -401,3 +422,64 @@
   dharma_festival_thingyan_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"
   dharma_festival_thingyan_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"
   dharma_festival_thingyan_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"
+
+
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_nowruz: "Celebrate Nowruz"
+  activity_dharma_festival_nowruz_desc: "Nowruz is the new year festival for the Persian people. A festival of joy and water where people enjoy the spring rains and splash water upon themselves and others."
+  activity_dharma_festival_nowruz_selection_tooltip: "Nowruz Marabark \n\n$dharma_festival_nowruz_desc_context_tooltip$"
+  activity_dharma_festival_nowruz_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_nowruz_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_nowruz_province_desc: "This is where you shall invite people for nowruz."
+  activity_dharma_festival_nowruz_destination_selection: "$activity_dharma_festival_nowruz_province_desc$"
+  activity_dharma_festival_nowruz_guest_help_text: "$activity_dharma_festival_nowruz$"
+  activity_dharma_festival_nowruz_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_festival_nowruz_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_nowruz' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_nowruz_month_requirement: "Nowruz takes place around Spring Equeniox in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_nowruz_gift_type: "Gift Size"
+  dharma_festival_nowruz_gift_small: "Small"
+  dharma_festival_nowruz_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_festival_nowruz_gift_medium: "Medium"
+  dharma_festival_nowruz_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_festival_nowruz_gift_large: "Large"
+  dharma_festival_nowruz_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_festival_nowruz_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_nowruz_celebration_phase: "Ceremony"
+  dharma_festival_nowruz_celebration_phase_desc: "You shall celebrate the New Year"
+###################################
+# Character Memories
+###################################
+  dharma_festival_nowruz_completed_log_title: "Nowruz Completed"
+  dharma_festival_nowruz_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Nowruz"
+  TRAVEL_NAME_FOR_activity_dharma_festival_nowruz: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_nowruz$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_nowruz_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_nowruz').GetName]"
+  dharma_festival_nowruz_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_nowruz').GetName]"
+  dharma_festival_nowruz_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_nowruz').GetName]"
+  dharma_festival_nowruz_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_nowruz').GetName]"
+  dharma_festival_nowruz_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_nowruz').GetName]"
+  dharma_festival_nowruz_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_nowruz').GetName]"
+  dharma_festival_nowruz_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_nowruz').GetName]"
+  dharma_festival_nowruz_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_nowruz').GetName]"
+
+
+
+
+
+
