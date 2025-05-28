@@ -390,7 +390,7 @@ dharma_sacred_grove_visit_completed_log_entry_effect = {
 	}
 }
 #######################################
-# Nowruz
+# Persian / Zoroastrian Festivals
 #######################################
 dharma_festival_nowruz_completed_log_entry_effect = {
 	scope:activity = {
@@ -409,7 +409,23 @@ dharma_festival_nowruz_completed_log_entry_effect = {
 		}
 	}
 }
+dharma_festival_mehregan_completed_log_entry_effect = {
+	scope:activity = {
+		add_activity_log_entry = {
+			key = dharma_festival_mehregan_completed_log
+			tags = { completed }
+			# this line below adds the entry to the Effects section of the conclusion UI
+			show_in_conclusion = yes
+			character = root
 
+			every_attending_character = {
+				limit = { NOT = { this = scope:host } }
+				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
+				
+			}	
+		}
+	}
+}
 
 
 

@@ -1141,7 +1141,8 @@
 			doctrine = doctrine_witchcraft_shunned
 			doctrine = doctrine_clerical_gender_either
 			doctrine = doctrine_pilgrimage_forbidden
-
+			doctrine = unavailable_doctrine # Can't convert till it is unlocked
+			
 			#Druze Names - Includes the list of Generic Shi'ite names with a few addition
 			reserved_male_names = {
 				Hakim

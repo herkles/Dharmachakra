@@ -423,7 +423,7 @@
   dharma_festival_thingyan_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"
   dharma_festival_thingyan_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_thingyan').GetName]"
 
-
+# Eigth Nowruz
 
 ###################################
 # Activity itself
@@ -478,6 +478,62 @@
   dharma_festival_nowruz_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_nowruz').GetName]"
   dharma_festival_nowruz_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_nowruz').GetName]"
 
+
+
+# Ninth Mehregan
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_mehregan: "Celebrate Mehregan"
+  activity_dharma_festival_mehregan_desc: "Mehregan is the new year festival for the Persian people. A festival of joy and water where people enjoy the spring rains and splash water upon themselves and others."
+  activity_dharma_festival_mehregan_selection_tooltip: "Mehregan Marabark \n\n$dharma_festival_mehregan_desc_context_tooltip$"
+  activity_dharma_festival_mehregan_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_mehregan_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_mehregan_province_desc: "This is where you shall invite people for mehregan."
+  activity_dharma_festival_mehregan_destination_selection: "$activity_dharma_festival_mehregan_province_desc$"
+  activity_dharma_festival_mehregan_guest_help_text: "$activity_dharma_festival_mehregan$"
+  activity_dharma_festival_mehregan_predicted_cost: "The cost of the celebration depends on what [activity_options|E] you select."
+  activity_dharma_festival_mehregan_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_mehregan' ).GetName] is over. May may actions help bring me karma!"
+
+  dharma_decision_mehregan_month_requirement: "Mehregan takes place around Spring Equeniox in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_mehregan_gift_type: "Gift Size"
+  dharma_festival_mehregan_gift_small: "Small"
+  dharma_festival_mehregan_gift_small_desc: "A small and humble offering shall be offered."
+  dharma_festival_mehregan_gift_medium: "Medium"
+  dharma_festival_mehregan_gift_medium_desc: "A reasonably sized offering shall be offered."
+  dharma_festival_mehregan_gift_large: "Large"
+  dharma_festival_mehregan_gift_large_desc: "A grand offering shall be offered."
+
+  dharma_festival_mehregan_gift_amount: "The size of the Gift that shall be offered."
+###################################
+# Phases
+###################################
+  dharma_festival_mehregan_celebration_phase: "Ceremony"
+  dharma_festival_mehregan_celebration_phase_desc: "You shall celebrate the New Year"
+###################################
+# Character Memories
+###################################
+  dharma_festival_mehregan_completed_log_title: "Mehregan Completed"
+  dharma_festival_mehregan_completed_log: "[CHARACTER.GetShortUIName|U] celebrated Mehregan"
+  TRAVEL_NAME_FOR_activity_dharma_festival_mehregan: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_mehregan$"
+###################################
+# Character Memories
+###################################
+  dharma_festival_mehregan_host_memory: "Celebrated [GetActivityType('activity_dharma_festival_mehregan').GetName]"
+  dharma_festival_mehregan_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_mehregan').GetName]"
+  dharma_festival_mehregan_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_mehregan').GetName]"
+  dharma_festival_mehregan_host_memory_third_perspective: "[owner.GetName] celebrated [GetActivityType('activity_dharma_festival_mehregan').GetName]"
+  dharma_festival_mehregan_guest_memory: "celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_mehregan').GetName]"
+  dharma_festival_mehregan_guest_memory_first_perspective: "I celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_mehregan').GetName]"
+  dharma_festival_mehregan_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_mehregan').GetName]"
+  dharma_festival_mehregan_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_mehregan').GetName]"
 
 
 

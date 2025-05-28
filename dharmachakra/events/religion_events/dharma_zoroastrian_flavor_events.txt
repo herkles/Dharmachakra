@@ -37,13 +37,39 @@ dharma_zoro.002 = {# Building the Haft-sin
 	title = dharma_zoro.002.t
 	desc = {
 		first_valid = {
-			triggered_desc = {# Zoroastrian - Avesta
-				trigger = { religion = religion:zoroastrianism_religion }
-				desc = dharma_zoro.002.zoroastrian.desc
+			triggered_desc = {# wine
+				trigger = { 
+					OR = {
+						religion = religion:zoroastrianism_religion 
+						religion = religion:peristani_religion 
+						religion = religion:christianity_religion 
+						religion = religion:judaism_religion 
+						religion = religion:zunism_religion 
+						religion = religion:hinduism_religion 
+						religion = religion:tengrism_religion 
+						faith = faith:arabic_pagan 
+						faith = faith:south_arabian_pagan 
+						faith = faith:shamsi_pagan 
+						faith = faith:south_mesopotamian_pagan 
+					}				
+				}
+				desc = dharma_zoro.002.wine.desc
 			}
-			triggered_desc = {# Muslim - Quran
-				trigger = { religion = religion:islam_religion }
-				desc = dharma_zoro.002.muslim.desc
+			triggered_desc = {# no wine
+				trigger = { 
+					OR = {
+						religion = religion:islam_religion 
+						faith = faith:zurvanism 
+						religion = religion:yazidi_religion 
+						religion = religion:dualism_religion 
+						religion = religion:jainism_religion
+						religion = religion:manichean_religion 
+						religion = religion:manichean_religion 
+						faith = faith:harranian_pagan 
+						faith = { has_doctrine = tenet_islamic_syncretism } # if you have islamic syncretism then you default to this
+					}				
+				}
+				desc = dharma_zoro.002.no_wine.desc
 			}
 		}
 	}
@@ -395,8 +421,11 @@ dharma_zoro.008 = {# Astrological divination
 		}
 	}
 
-
 	after = {
+		trigger_event = { 
+			id = fp3_yearly.8032
+			days = 1
+		}
 		trigger_event = { 
 			id = dharma_zoro.009
 			days = 1
@@ -583,11 +612,343 @@ dharma_zoro.012 = {# Misc cleanup
 ######################################
 #     	Festival - Mehregan          #
 ######################################
+dharma_zoro.020 = {# Mehregan Starts
+	type = activity_event
+	title = dharma_zoro.020.t
+	desc = dharma_zoro.020.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = { # Cleaning the palace
+		name = dharma_zoro.020.clean
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.021
+			days = 1
+		}
+	}
 
-######################################
-#     Festival - Farvardinegan       #
-######################################
+}
+dharma_zoro.021 = {# Setting up a display for Mehregan
+	type = activity_event
+	title = dharma_zoro.021.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# wine
+				trigger = { 
+					OR = {
+						religion = religion:zoroastrianism_religion 
+						religion = religion:peristani_religion 
+						religion = religion:christianity_religion 
+						religion = religion:judaism_religion 
+						religion = religion:zunism_religion 
+						religion = religion:hinduism_religion 
+						religion = religion:tengrism_religion 
+						faith = faith:arabic_pagan 
+						faith = faith:south_arabian_pagan 
+						faith = faith:shamsi_pagan 
+						faith = faith:south_mesopotamian_pagan 
+					}				
+				}
+				desc = dharma_zoro.021.wine.desc
+			}
+			triggered_desc = {# no wine
+				trigger = { 
+					OR = {
+						religion = religion:islam_religion 
+						faith = faith:zurvanism 
+						religion = religion:yazidi_religion 
+						religion = religion:dualism_religion 
+						religion = religion:jainism_religion
+						religion = religion:manichean_religion 
+						religion = religion:manichean_religion 
+						faith = faith:harranian_pagan 
+						faith = { has_doctrine = tenet_islamic_syncretism } # if you have islamic syncretism then you default to this
+					}				
+				}
+				desc = dharma_zoro.021.no_wine.desc
+			}
+		}
+	}
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = { # Cleaning the palace
+		name = dharma_zoro.021.clean
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.022
+			days = 1
+		}
+	}
 
+}
+dharma_zoro.022 = {# Celebratory Bonfires
+	type = activity_event
+	title = dharma_zoro.022.t
+	desc = dharma_zoro.022.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = {# Jump over the fires
+		name = dharma_zoro.022.jump
+		add_prestige = miniscule_prestige_gain
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+		}
+	}
+	option = {# Don't jump over the fires
+		name = dharma_zoro.022.no_jump
+		add_prestige = miniscule_prestige_loss
+		stress_impact = {
+			gregarious = miniscule_stress_impact_gain
+			shy = miniscule_stress_impact_loss
+		}
+	}
+	
+	after = {
+		if = {
+			limit = {# Zoroastrians get an extra event
+				religion = religion:zoroastrianism_religion
+			}
+			trigger_event = { 
+				id = dharma_zoro.023
+				days = 1
+			}
+		}
+		trigger_event = { 
+			id = dharma_zoro.024
+			days = 3
+		}
+	}
+
+}
+dharma_zoro.023 = {# Honoring Mithras
+	type = activity_event
+	title = dharma_zoro.023.t
+	desc = dharma_zoro.023.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = { # Cleaning the palace
+		name = dharma_zoro.023.faith
+	}
+	
+}
+dharma_zoro.024 = {# Light over Darknes
+	type = activity_event
+	title = dharma_zoro.024.t
+	desc = dharma_zoro.024.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = { # Cleaning the palace
+		name = dharma_zoro.024.fereydun
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.025
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.025 = {# Giving gifts to the commoners
+	type = activity_event
+	title = dharma_zoro.025.t
+	desc = dharma_zoro.025.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = {# Large Gift to the People 
+		name = dharma_zoro.025.large
+		trigger = {
+			scope:activity = {
+				has_activity_option = {
+					category = special_type
+					option = dharma_festival_nowruz_gift_large
+				}
+			}
+		}
+		remove_short_term_gold = major_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_large_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+			improvident = minor_stress_impact_loss
+			just = minor_stress_impact_loss
+			compassionate = minor_stress_impact_loss
+			generous = minor_stress_impact_loss
+		}
+	}
+	option = {# Medium Gift to the People 
+		name = dharma_zoro.025.medium
+		trigger = {
+			scope:activity = {
+				has_activity_option = {
+					category = special_type
+					option = dharma_festival_nowruz_gift_medium
+				}
+			}
+		}
+		remove_short_term_gold = medium_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_medium_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = miniscule_stress_impact_gain
+			improvident = miniscule_stress_impact_loss
+			just = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+		}
+	}
+	option = {# Small Gift to the People 
+		name = dharma_zoro.025.small
+		trigger = {
+			scope:activity = {
+				has_activity_option = {
+					category = special_type
+					option = dharma_festival_nowruz_gift_small
+				}
+			}
+		}
+		remove_short_term_gold = minor_gold_value
+		scope:capital_province = {
+			add_county_modifier = {
+				modifier = dharma_festival_small_gift_modifier
+				days = 365
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_impact_loss
+			improvident = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			generous = minor_stress_impact_gain
+		}
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.026
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.026 = {# feast with the court
+	type = activity_event
+	title = dharma_zoro.026.t
+	desc = dharma_zoro.026.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = {# It is their due. 
+		name = dharma_zoro.026.feast
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		every_courtier = {
+			custom = yearly.4031.b_every_courtier
+			add_opinion = {
+				modifier = feast_pleasant_time_opinion
+				target = root
+				opinion = 5
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.027
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.027 = {# Mehregan ends
+	type = activity_event
+	title = dharma_zoro.027.t
+	desc = dharma_zoro.027.desc
+	theme = feast_activity
+	override_background = {
+		reference = fp3_iranian_throne_room
+	}
+	
+	right_portrait = root
+	
+	option = { # Cleaning the palace
+		name = dharma_zoro.027.home
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.028
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.028 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_festival_mehregan_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
 ######################################
 #     Navjote comming of age  		 #
 ######################################

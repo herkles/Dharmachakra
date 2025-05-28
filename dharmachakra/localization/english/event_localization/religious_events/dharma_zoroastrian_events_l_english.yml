@@ -6,8 +6,8 @@
   dharma_zoro.001.clean:0 "Nowruz Mobarak!"
 
   dharma_zoro.002.t:0 "Building the Haft-sin"
-  dharma_zoro.002.zoroastrian.desc:0 "In your palace you have assembled your haft sin. The seven letter goods on your display with various goods to seek prosperity, longevity, and abundance. You got seven candles(Sham), wine(Sharab), nectar(Shahd), syrup(sharbat), sweets(Shirini), boxwood(Shamshad), and anemones(Shaghayegh) that are displayed around your family's haft sin. Within this display you have also put a copy of the Avesta to remind you of its wisdom within it that can guide you in the next year. Coins, Mirrors, painted eggs, various sweets, apples, garlics, and various seeds for your gardens are laid out on the haft sin."
-  dharma_zoro.002.muslim.desc:0 "In your palace you have assembled your haft sin. The seven letter goods on your display with various goods to seek prosperity, longevity, and abundance. You got seven candles(Sham), vinegar(Serkeh), nectar(Shahd), syrup(sharbat), sweets(Shirini), boxwood(Shamshad), and anemones(Shaghayegh) that are displayed around your family's haft sin. Within this display you have also put a copy of the Quran to remind you of its wisdom within it that can guide you in the next year.  Coins, Mirrors, painted eggs, various sweets, apples, garlics, and various seeds for your gardens are laid out on the haft sin."
+  dharma_zoro.002.wine.desc:0 "In your palace you have assembled your haft sin. The seven letter goods on your display with various goods to seek prosperity, longevity, and abundance. You got seven candles(Sham), wine(Sharab), nectar(Shahd), syrup(sharbat), sweets(Shirini), boxwood(Shamshad), and anemones(Shaghayegh) that are displayed around your family's haft sin. Within this display you have also put a copy of the [ROOT.Char.GetFaith.ReligiousText] to remind you of its wisdom within it that can guide you in the next year. Coins, Mirrors, painted eggs, various sweets, apples, garlic, and various seeds for your gardens are laid out on the haft sin."
+  dharma_zoro.002.no_wine.desc:0 "In your palace you have assembled your haft sin. The seven letter goods on your display with various goods to seek prosperity, longevity, and abundance. You got seven candles(Sham), vinegar(Serkeh), nectar(Shahd), syrup(sharbat), sweets(Shirini), boxwood(Shamshad), and anemones(Shaghayegh) that are displayed around your family's haft sin. Within this display you have also put a copy of the [ROOT.Char.GetFaith.ReligiousText] to remind you of its wisdom within it that can guide you in the next year.  Glasses of Rosewater to share with your guest have been laid out. Coins, Mirrors, painted eggs, various sweets, apples, garlic, and various seeds for your gardens are laid out on the haft sin."
   dharma_zoro.002.haftsin:0 "Nowruzetoon Peerooz"
 
   dharma_zoro.003.t:0 "Ritual Bathing"
@@ -65,3 +65,46 @@
   dharma_zoro.011.t:0 "Nowruz Concludes"
   dharma_zoro.011.desc:0 "The festivites of Nowruz are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
   dharma_zoro.011.home:0 "Till next time."
+
+
+
+
+
+
+
+  dharma_zoro.020.t:0 "Mehregan has begun"
+  dharma_zoro.020.desc:0 "It is time for Mehregan! The fall equinox is now upon us. The land is filled with lights. People are building bonfires, lanterns are being lit. Bazaars are filled with abundance as they put out their fruits of the harvest for people to enjoy. Houses both rich and poor have decorated for this joyous festival. Musicians and singers, both men and women, can be heard throughout the streets as people are rejoicing that the fall equinox is here. People are visiting relatives and friends, in their homes and on rooftops. Mehregan is here!"
+  dharma_zoro.020.clean:0 "Mehregan Mobarak!"
+
+  dharma_zoro.021.t:0 "Setting up your Sofreh"
+  dharma_zoro.021.wine.desc:0 "In your palace you have assembled your sofreh, a ceremonial table that is adorned with various fruits of the harvest to reflect your magnificence and magnanimity. along with the fruits, seeds, and herbs, there is also a mirror for self-reflection, incense burner burning incense, silver coins for prosperity, and a copy of the [ROOT.Char.GetFaith.ReligiousText] to remind you of its wisdom within it that can guide you.  You have various glasses of good wine poured for you and your family and guests to enjoy."
+  dharma_zoro.021.no_wine.desc:0 "In your palace you have assembled your sofreh, a ceremonial table that is adorned with various fruits of the harvest to reflect your magnificence and magnanimity. along with the fruits, seeds, and herbs, there is also a mirror for self-reflection, incense burner burning incense, silver coins for prosperity, and a copy of the [ROOT.Char.GetFaith.ReligiousText] to remind you of its wisdom within it that can guide you.  You have various glasses of good rosewater poured for you and your family and guests to enjoy. "
+  dharma_zoro.021.clean:0 "Mehregan Peerooz!"
+
+  dharma_zoro.022.t:0 "Celebratory Bonfires"
+  dharma_zoro.022.desc:0 "To celebrate Mehregan it is common for people to light bonfires, as a festival of lights and to ward off evil, light is an important symbolic gesture. Lanterns throughout the city have been lit. A common popular activity that both commoner and nobility alike enjoy is to dance around the bonfires and even jump over the fires. Shall you jump or just dance?"
+  dharma_zoro.022.jump:0 "Jump over the fires!"
+  dharma_zoro.022.no_jump:0 "Just dance!"
+
+  dharma_zoro.023.t:0 "Venerating Mithras"
+  dharma_zoro.023.desc:0 "On Merheregan it is customary for us to honor the Yazata, Mithra, a powerful servant of Ahura Mazada. Mithra is the guardian of the harvest, lord of justice, friendship, and protector of covenants and friends. We shall go to the temple and honor Mithra and pray for friendship and to have a good harvest in the coming year. "
+  dharma_zoro.023.faith:0 "Praise be to Mithra"
+
+  dharma_zoro.024.t:0 "Victory of Light over Darknes"
+  dharma_zoro.024.desc:0 "Your court is quiet as a poet sings the tell of Fereydun and Zahak. of the blacksmith who rallied the people to the rightful king's aid: /n/nThere was one called Zahak, Unclean and bereft of good he was, Outside of human flesh, There was nothing that could sustain him,/n He struck the king's head, And said, O king, I am Kāveh the justice-seeker,I am but a humble blacksmith,  But from this king we receive naught but pain,/nIf you are king of seven countries, Why do we all suffer so?/nHe took the leather from his boots, And hastening it onto his spear, Made a flag of it,/nHe mixed red and gold and purple, And thus created the Kavyiani Derafsh,/nAt the age of sixteen,  Fereydun came down from the mountains, He had the beauty and greatness of Jamshid, And his allure was like the sun's,/nLike the wind he came onto Zahak, And brought his bull's head mace, Down onto his head,/nUpon this day of our Mehr month, The royal crown was placed upon Fereydun's head, The worship of Mehregān holiday is his religion, His goal is the growth of his land,/nHe ordered for fire to be brought, And the people burned amber and saffron./n/n"
+  dharma_zoro.024.fereydun:0 "Hail Fereydun defeater of Zahak!"
+
+  dharma_zoro.025.t:0 "Charity for the commoners"
+  dharma_zoro.025.desc:0 "As part of Mehregan, it is common to offer charity to those that need it most, so that all can see your generosity. As a ruler, it is customary to offer charity to your common people on this special time. The question is what sort of charity shall you do for them."
+  dharma_zoro.025.large:0 "A grand Gift for the commoners"
+  dharma_zoro.025.medium:0 "A normal gift for the commoners"
+  dharma_zoro.025.small:0 "A small gift for the commoners"
+
+  dharma_zoro.026.t:0 "Feasting with the Court"
+  dharma_zoro.026.desc:0 "The final celebration is to enjoy a courtly feast, your first of the new year. people are dressed in their new clothes. Musicians have arrived singing poetry and reciting wonderful tales. With that you and your court celebrate with a courtly feast. Your servants bring out plenty of sweets and delicacies for you to enjoy"
+  dharma_zoro.026.feast:0 "What good food."
+
+  dharma_zoro.027.t:0 "Mehregan is Over!"
+  dharma_zoro.027.desc:0 "The festivites of Nowruz are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_zoro.027.home:0 "Till next time"
+

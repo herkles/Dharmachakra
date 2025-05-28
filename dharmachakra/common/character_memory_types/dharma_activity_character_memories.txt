@@ -1175,3 +1175,59 @@ dharma_festival_nowruz_guest_memory = {
 		years = memory_default_duration
 	}
 }
+
+# mehregan
+dharma_festival_mehregan_host_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_mehregan_host_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_mehregan_host_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_mehregan_host_memory_third_perspective
+		}
+	}
+
+	duration = {
+		years = memory_default_duration
+	}
+}
+dharma_festival_mehregan_guest_memory = {
+	categories = { positive minor religious }
+	icon = "dharma_cultural_festival.dds"
+
+	description = {
+		random_valid = {
+			desc = dharma_festival_mehregan_guest_memory_first_perspective
+		}
+	}
+
+	second_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_mehregan_guest_memory_second_perspective
+		}
+	}
+
+	third_perspective_description = {
+		random_valid = {
+			desc = dharma_festival_mehregan_guest_memory_third_perspective
+		}
+	}
+
+	participants = { host }
+
+	duration = {
+		years = memory_default_duration
+	}
+}

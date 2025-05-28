@@ -29,6 +29,10 @@ dharma_setup_after_game_start_on_actions = {
 			limit = { game_start_date >= 1096.1.1 }
 			faith:nizari = { remove_doctrine = unavailable_doctrine }			
 		}
+		if = {# Durze is now active 
+			limit = { game_start_date >= 1018.1.1 }
+			faith:druze = { remove_doctrine = unavailable_doctrine }			
+		}
 		if = {# Saura is in decline in the 12th century
 			limit = {
 				game_start_date >= 1150.1.1

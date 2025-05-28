@@ -103,7 +103,7 @@ faith_conversion = {
 		}
 	}
 	# Don't allow if the faith has the doctrine unavailable as well it is to be unavailable
-	scope:new_faith = { has_doctrine = unavailable_doctrine }
+	NOT = { scope:new_faith = { has_doctrine = unavailable_doctrine } }
 }
 
 # Determines if the mother of a character should spread the house to a bastard.

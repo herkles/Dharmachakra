@@ -1,4 +1,4 @@
-﻿activity_dharma_festival_nowruz = {
+﻿activity_dharma_festival_mehregan = {
 	is_shown = {
 		highest_held_title_tier > tier_barony
 		is_playable_character = yes
@@ -31,8 +31,8 @@
 			}		
 		}
 		custom_description = {
-			text = dharma_decision_nowruz_month_requirement
-			current_month = 03
+			text = dharma_decision_mehregan_month_requirement
+			current_month = 09
 		}
 	}
 
@@ -116,8 +116,8 @@
 	###################
 
 	options = {
-		dharma_festival_nowruz_gift_type = {
-			dharma_festival_nowruz_gift_small = {
+		dharma_festival_mehregan_gift_type = {
+			dharma_festival_mehregan_gift_small = {
 				default = yes
 				ai_will_do = {
 					value = 15
@@ -137,15 +137,15 @@
 					}
 				}
 			}
-			dharma_festival_nowruz_gift_medium = {
+			dharma_festival_mehregan_gift_medium = {
 				cost = { 
 					gold = {
 						add = {
 							value = 0
-							desc = dharma_festival_nowruz_gift_amount
+							desc = dharma_festival_mehregan_gift_amount
 							add = {
 								value = minor_gold_value
-								desc = dharma_festival_nowruz_gift_amount
+								desc = dharma_festival_mehregan_gift_amount
 							}
 						}
 					}
@@ -174,15 +174,15 @@
 					}
 				}
 			}
-			dharma_festival_nowruz_gift_large = {
+			dharma_festival_mehregan_gift_large = {
 				cost = { 
 					gold = {
 						add = {
 							value = 0
-							desc = dharma_festival_nowruz_gift_amount
+							desc = dharma_festival_mehregan_gift_amount
 							add = {
 								value = medium_gold_value
-								desc = dharma_festival_nowruz_gift_amount
+								desc = dharma_festival_mehregan_gift_amount
 							}
 						}
 					}
@@ -219,13 +219,13 @@
 	###################
 
 	phases = {
-		dharma_festival_nowruz_celebration_phase = {
+		dharma_festival_mehregan_celebration_phase = {
 			is_predefined = yes
 			
 			on_phase_active = {
 				if = {
 					limit = { this = scope:host }
-					trigger_event = dharma_zoro.001
+					trigger_event = dharma_zoro.020
 				}		
 			}
 			on_end = {
