@@ -2300,3 +2300,79 @@ sharada_peeth_01 = {# Sharad Peeth in Kashmir
 	flag = travel_point_of_interest_learning
 
 }
+#######################################
+#       Zoroastrian Buildings	      #
+#######################################
+keshmar_sacred_grove_01 = {# the sacred grove itself can be upgraded to a fire temple down the road
+	construction_time = very_slow_construction_time
+	type_icon = "icon_dharma_keshmar_tree.dds" 
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	next_building = keshmar_sacred_grove_02
+
+	cost_gold = 1000
+	
+	character_modifier = {
+		negate_health_penalty_add = 0.1
+		stress_loss_mult = 0.1
+	}
+
+	province_modifier = {
+		monthly_income = 1
+	}
+	
+	county_modifier = {
+		monthly_county_control_growth_add = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+	flag = travel_point_of_interest_religious # religious grove
+}
+keshmar_sacred_grove_02 = {# the sacred grove itself can be upgraded to a fire temple down the road
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_great_fire_temple.dds" 
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = 5000
+	
+	character_modifier = {
+		negate_health_penalty_add = 0.1
+		stress_loss_mult = 0.1
+		same_faith_opinion = 5
+	}
+
+	province_modifier = {
+		monthly_income = 1
+	}
+	
+	county_modifier = {
+		monthly_county_control_growth_add = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+	flag = travel_point_of_interest_religious # religious grove
+}
+#######################################
+#        Islamic Buildings	      	  #
+#######################################

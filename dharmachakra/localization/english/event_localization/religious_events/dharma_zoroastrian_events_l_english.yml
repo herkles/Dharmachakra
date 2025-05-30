@@ -71,7 +71,7 @@
 
 
 
-
+# Mehregan Festival
   dharma_zoro.020.t:0 "Mehregan has begun"
   dharma_zoro.020.desc:0 "It is time for Mehregan! The fall equinox is now upon us. The land is filled with lights. People are building bonfires, lanterns are being lit. Bazaars are filled with abundance as they put out their fruits of the harvest for people to enjoy. Houses both rich and poor have decorated for this joyous festival. Musicians and singers, both men and women, can be heard throughout the streets as people are rejoicing that the fall equinox is here. People are visiting relatives and friends, in their homes and on rooftops. Mehregan is here!"
   dharma_zoro.020.clean:0 "Mehregan Mobarak!"
@@ -107,4 +107,18 @@
   dharma_zoro.027.t:0 "Mehregan is Over!"
   dharma_zoro.027.desc:0 "The festivites of Nowruz are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
   dharma_zoro.027.home:0 "Till next time"
+
+# Keshmar Tree
+  dharma_zoro.030.t:0 "Replanting the Cypress of Keshmar"
+  dharma_zoro.030.desc:0 "In a solemn ceremony you have replanted a seed from the sacred Sarve-e-Abarkuh tree. Prayers to Ahura Mazda and his various yazata including Arshtat, Asman, Chista, Mah, and many other holy beings. You and your court watched as the priests performed the rite. and you planted the seed in the ground. Now that you have done this, some wonder if this should just be a sacred grove or something more."
+  dharma_zoro.030.tree:0 "We shall keep it as a sacred grove."
+  dharma_zoro.030.temple:0 "The sacred grove shall be in the center of a new temple"
+  dharma_zoro.030.holy_site:0 "Dedicate this temple as a pilgrimage spot!"
+  dharma_kashmer_holy_site_desc:0 "Keshmar will become a holy site for Zoroastrian faiths."
+
+
+
+
+
+
 

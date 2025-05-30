@@ -107,3 +107,12 @@
   RICE_india_irrigation_tank_decision_effect_tooltip_2:0 "The strength of these bonuses depends on how much funding is provided"
   RICE_india_irrigation_tank_decision_effect_tooltip_3:0 "Your [culture|E] has a [tradition|E] that reduces the costs of constructing irrigation tanks"
   RICE_india_irrigation_tank_decision_effect_tooltip_4:0 "Your [culture|E] has a [tradition|E] that increases the [prestige|E] and [piety|E] gained from constructing irrigation tanks"
+
+#######################################
+# Zoroastrian Decisions
+#######################################
+  dharma_zoro_keshmar_cypruss: "Replant the Sacred Cypress of Kashmar"
+  dharma_zoro_keshmar_cypruss_name: "Replant the sacred Cypress of Kashmar"
+  dharma_zoro_keshmar_cypruss_desc: "In 861, the caliph Al-Mutawakkil destroyed the sacred cypress of Kashmar. A tree that was planted by the prophet Zoroaster himself, sprung from a branch that came from paradise. Despite the people pleading with the Caliph he still destroyed the sacred tree. Yet another sacred tree still lives, the Sarve-e Abarkuh. With a seed from this sacred tree, a new sacred tree can grow in Kashmar and restore the area to some of the sacredness that Zoroaster gave it."
+  dharma_zoro_keshmar_cypruss_tooltip: "You will decide on how to restore the area to sacredness"
+  dharma_zoro_keshmar_cypruss_confirm: "Plant the tree"

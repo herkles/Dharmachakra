@@ -44,7 +44,31 @@ dharma_setup_after_game_start_on_actions = {
 				}
 			}
 		}
-		
+		# Used for Lakeshore post-reformation flavor decision
+		faith:mazdayasna = {
+			deactivate_holy_site = keshmar_mazdayasna
+		}
+		faith:zurvanism = {
+			deactivate_holy_site = keshmar_zurvanism
+		}		
+		faith:gayomarthianism = {
+			deactivate_holy_site = keshmar_gayomarthianism
+		}		
+		faith:khurmazta = {
+			deactivate_holy_site = keshmar_khurmazta
+		}		
+		faith:mazdakism = {
+			deactivate_holy_site = keshmar_mazdakism
+		}		
+		faith:khurramism = {
+			deactivate_holy_site = keshmar_khurramism
+		}		
+		faith:urartuism = {
+			deactivate_holy_site = keshmar_urartuism
+		}		
+		faith:afridunism = {
+			deactivate_holy_site = keshmar_afridunism
+		}				
 		# Title stuff
 		if = {# getting Zun on the map in 867
 			limit = {

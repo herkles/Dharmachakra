@@ -283,3 +283,15 @@
  building_type_rani_ki_vav_01_desc:0 "located on the banks of Saraswati river, The Rani Ki Vav or Queen's Stepwell is the largest example of a stepwell. Designed as an inverted temple highlighting the sanctity of water, the stepwell is divided into seven levels of stairs with sculptural panels; more than 500 principal sculptures and over a thousand minor ones combine religious, mythological and secular imagery."
  building_rani_ki_vav_01:0 "$building_type_rani_ki_vav_01$"
  building_rani_ki_vav_01_desc:0 "$building_type_rani_ki_vav_01_desc$"
+
+
+# Zoroastrian Buildings
+ building_type_keshmar_sacred_grove_01:0 "Keshmar Grove"
+ building_type_keshmar_sacred_grove_01_desc:0 "While originally destroyed by the abbasid Caliph Al-Mutawakkil. Today the sacred grove of Keshmar has been consecrated and regrown, thanks to the Sarve-e Abarkuh tree. This grove is a tranquil and pleasant place. And while it is not the same tree that Zoroaster is said to have brought from paradise, it does have a calming serene atmosphere to it. A place to reflect on the teachings of Zoroaster and aim for paradise."
+ building_keshmar_sacred_grove_01:0 "$building_type_keshmar_sacred_grove_01$"
+ building_keshmar_sacred_grove_01_desc:0 "$building_type_keshmar_sacred_grove_01_desc$"
+
+ building_type_keshmar_sacred_grove_02:0 "Keshmar Temple"
+ building_type_keshmar_sacred_grove_02_desc:0 "Today the sacred grove of Keshmar has been consecrated and regrown, thanks to the Sarve-e Abarkuh tree. This grove is a tranquil and pleasant place. And while it is not the same tree that Zoroaster is said to have brought from paradise, it does have a calming serene atmosphere to it. A place to reflect on the teachings of Zoroaster and aim for paradise."
+ building_keshmar_sacred_grove_02:0 "$building_type_keshmar_sacred_grove_02$"
+ building_keshmar_sacred_grove_02_desc:0 "$building_type_keshmar_sacred_grove_02_desc$"

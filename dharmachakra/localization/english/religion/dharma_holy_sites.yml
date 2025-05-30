@@ -39,6 +39,30 @@
  holy_site_marib_name:0 "Marib"
  holy_site_marib_effect_name:0 "From [holy_site|E] #weak ($holy_site_marib_name$)#!"
 
+# Keshmar 
+ holy_site_keshmar_mazdayasna_name:0 "Keshmar"
+ holy_site_keshmar_mazdayasna_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_mazdayasna_name$)#!"
 
+ holy_site_keshmar_zurvanism_name:0 "Keshmar"
+ holy_site_keshmar_zurvanism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_zurvanism_name$)#!"
 
+ holy_site_keshmar_gayomarthianism_name:0 "Keshmar"
+ holy_site_keshmar_gayomarthianism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_gayomarthianism_name$)#!"
 
+ holy_site_keshmar_khurmazta_name:0 "Keshmar"
+ holy_site_keshmar_khurmazta_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_khurmazta_name$)#!"
+
+ holy_site_keshmar_mazdakism_name:0 "Keshmar"
+ holy_site_keshmar_mazdakism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_mazdakism_name$)#!"
+
+ holy_site_keshmar_name:0 "Keshmar"
+ holy_site_keshmar_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_name$)#!"
+
+ holy_site_keshmar_khurramism_name:0 "Keshmar"
+ holy_site_keshmar_khurramism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_khurramism_name$)#!"
+
+ holy_site_keshmar_urartuism_name:0 "Keshmar"
+ holy_site_keshmar_urartuism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_urartuism_name$)#!"
+
+ holy_site_keshmar_afridunism_name:0 "Keshmar"
+ holy_site_keshmar_afridunism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_afridunism_name$)#!"

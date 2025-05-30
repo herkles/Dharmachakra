@@ -148,8 +148,6 @@
 		WaterGodHerHis = CHARACTER_HERHIS_HIS
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 
-
-
 		PantheonTerm = zoroastrianism_high_god_name
 		PantheonTerm2 = zoroastrianism_high_god_name_2
 		PantheonTerm3 = zoroastrianism_high_god_name_3
@@ -242,6 +240,7 @@
 			holy_site = takht-i-sangin
 			holy_site = takht-e_soleyman
 			holy_site = yazd
+			holy_site = keshmar_mazdayasna # not active at the start.
 
 			doctrine = tenet_divine_marriage
 			doctrine = tenet_communal_identity
@@ -251,7 +250,6 @@
 			doctrine = doctrine_consanguinity_unrestricted
 			doctrine = doctrine_major_branch_behdin 
 		}
-
 		zurvanism = { # Actually Behafaridism
 			color = { 0.6 0.7 0.2 }
 			icon = zurvanism
@@ -262,6 +260,8 @@
 			holy_site = takht-i-sangin
 			holy_site = takht-e_soleyman
 			holy_site = yazd
+			holy_site = keshmar_zurvanism # not active at the start.
+
 
 			doctrine = tenet_reincarnation 
 			doctrine = tenet_communal_identity
@@ -274,7 +274,6 @@
 			doctrine = doctrine_consanguinity_restricted
 			doctrine = doctrine_heretic_branch_zandik
 		}
-
 		gayomarthianism = {
 			color = { 0.8 0.6 0.2 }
 			icon = gayomarthianism
@@ -285,6 +284,7 @@
 			holy_site = adur_farnbag
 			holy_site = takht-e_soleyman
 			holy_site = adur_burzen_mihr
+			holy_site = keshmar_gayomarthianism # not active at the start.
 
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_communal_identity
@@ -294,7 +294,6 @@
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_major_branch_behdin 
 		}
-
 		khurmazta = {
 			color = { 0.8 0.6 0.1 }
 			icon = khurmazta
@@ -305,8 +304,8 @@
 			holy_site = takht-i-sangin
 			holy_site = dunhuang
 			holy_site = takht-e_soleyman
-
-			
+			holy_site = keshmar_khurmazta # not active at the start.
+	
 			doctrine = tenet_adaptive	
 			doctrine = tenet_ancestor_worship 
 			doctrine = tenet_communal_identity
@@ -342,7 +341,6 @@
 				}
 			}
 		}
-
 		mazdakism = {
 			color = { 0.8 0.7 0.3 }
 			icon = mazdakism
@@ -353,6 +351,7 @@
 			holy_site = balkh 
 			holy_site = takht-e_soleyman
 			holy_site = ctesiphon 
+			holy_site = keshmar_mazdakism # not active at the start.
 
 			doctrine = tenet_communal_possessions
 			doctrine = tenet_gnosticism 
@@ -365,7 +364,6 @@
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_heretic_branch_zandik
 		}
-
 		khurramism = {
 			color = { 1 0.3 0 }
 			icon = khurramism
@@ -376,10 +374,11 @@
 			holy_site = takht-i-sangin
 			holy_site = takht-e_soleyman
 			holy_site = badd
+			holy_site = keshmar_khurramism # not active at the start.
 
 			doctrine = tenet_unrelenting_faith 
 			doctrine = tenet_reincarnation
-			doctrine = tenet_communal_possessions 
+			doctrine = tenet_islamic_syncretism 
 
 			doctrine = doctrine_monogamy
 			doctrine = doctrine_adultery_men_accepted
@@ -399,7 +398,6 @@
 				{ name = "holy_order_red_wearing_ones" }
 			}
 		}
-
 		urartuism = { #Arewordik 
 			color = { 1 0.9 0.5 }
 			icon = urartuism
@@ -410,6 +408,7 @@
 			holy_site = takht-i-sangin
 			holy_site = takht-e_soleyman
 			holy_site = ani
+			holy_site = keshmar_urartuism # not active at the start.
 
 			doctrine = tenet_false_conversion_sanction
 			doctrine = tenet_communal_identity
@@ -444,7 +443,6 @@
 				PriestNeuterPlural = urartuism_priest_male_plural
 			}
 		}
-
 		afridunism = { #Afridunism, Daylamite folk religion 
 			color = { 0.1 0.7 0.2 }
 			icon = afridunism
@@ -454,6 +452,7 @@
 			holy_site = adur_farnbag
 			holy_site = takht-e_soleyman
 			holy_site = mount_damavand
+			holy_site = keshmar_afridunism # not active at the start.
 
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_unreformed_syncretism

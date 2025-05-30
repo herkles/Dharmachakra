@@ -950,13 +950,78 @@ dharma_zoro.028 = {# Misc cleanup
 	}
 }
 ######################################
-#     Navjote comming of age  		 #
-######################################
-
-######################################
 #	     Cypress of Kashmiar         #
 ######################################
+dharma_zoro.030 = {# Planting the sacred tree
+	type = character_event
+	title = dharma_zoro.030.t
+	desc = dharma_zoro.030.desc
+	theme = faith
+	override_background = {
+		reference = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
 
+	immediate = {
+		title:b_keshmar = { save_scope_as = keshmar_tree }
+	}
+
+	option = {# Plant the tree
+		name = dharma_zoro.030.tree
+		scope:keshmar_tree = {
+			hidden_effect = { add_special_building_slot = keshmar_sacred_grove_01 }
+			add_special_building = keshmar_sacred_grove_01					
+		}
+	}
+	option = {# Tree + fire temple
+		name = dharma_zoro.030.temple
+		scope:keshmar_tree = {# make the holding a temple if not temple
+			if = {
+				limit = {
+					NOT = { has_holding_type = church_holding }
+				}
+				set_holding_type = church_holding
+			}
+		}
+		scope:keshmar_tree = {# add the special building
+			hidden_effect = { add_special_building_slot = keshmar_sacred_grove_02 }
+			add_special_building = keshmar_sacred_grove_02					
+		}
+	}
+	option = {# tree + great fire temple(holy site)
+		name = dharma_zoro.030.holy_site
+		scope:keshmar_tree = {# make the holding a temple if not temple
+			if = {
+				limit = {
+					NOT = { has_holding_type = church_holding }
+				}
+				set_holding_type = church_holding
+			}
+		}
+		remove_short_term_gold = major_gold_value # as you are turning it into a holy site
+		scope:keshmar_tree = {# add the special building
+			hidden_effect = { add_special_building_slot = keshmar_sacred_grove_02 }
+			add_special_building = keshmar_sacred_grove_02					
+		}
+		custom_tooltip = dharma_kashmer_holy_site_desc
+		hidden_effect = {# All Zoroastrian faiths get it as a holy site
+			faith:mazdayasna = { activate_holy_site = keshmar_mazdayasna }
+			faith:zurvanism = {	activate_holy_site = keshmar_zurvanism }
+			faith:gayomarthianism = { activate_holy_site = keshmar_gayomarthianism }
+			faith:khurmazta = {	activate_holy_site = keshmar_khurmazta }
+			faith:mazdakism = {	activate_holy_site = keshmar_mazdakism }
+			faith:khurramism = { activate_holy_site = keshmar_khurramism }
+			faith:urartuism = {	activate_holy_site = keshmar_urartuism }
+			faith:afridunism = { activate_holy_site = keshmar_afridunism }
+		}
+	}
+}
 ######################################
 #       General Flavor Events        #
 ######################################
+
+
+

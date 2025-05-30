@@ -614,6 +614,86 @@ dharma_jain_abdication = {# Abdicate and become a monk
 	}
 }
 #######################################
+# Zoroastrian Decisions
+#######################################
+dharma_zoro_keshmar_cypruss = {# Replant the sacred tree
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp3_decision_foundation.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	desc = dharma_zoro_keshmar_cypruss_desc
+	selection_tooltip = dharma_zoro_keshmar_cypruss_tooltip
+
+	is_shown = {
+		religion = religion:zoroastrianism_religion
+		is_landed = yes
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:dharma_zoro_keshmar_cypruss
+			}
+		}
+	}
+
+	is_valid = {
+		# independent
+		is_independent_ruler = yes
+		has_title = title:c_baihaq
+		prestige_level >= 3
+		piety_level >= 3
+		# Keshmar must be Zoroastrian
+		title:c_baihaq = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+		
+
+	is_valid_showing_failures_only = {
+		is_available_at_peace_adult = yes
+	}
+
+	effect = {
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:dharma_zoro_keshmar_cypruss
+		}
+		custom_tooltip = dharma_consecrate_sacred_grove_effect_tooltip_1
+		trigger_event = { id = dharma_zoro.030 }
+	}
+
+	cost = { 
+		gold = dharma_activity_cost
+		prestige = medium_prestige_value
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 20
+		modifier = {
+			add = 10
+			has_trait = zealous
+		}
+		modifier = {
+			add = -10
+			has_trait = cynical
+		}
+		modifier = {
+			add = 10
+			has_trait = ambitious
+		}
+		modifier = {
+			add = -10
+			has_trait = lazy
+		}
+	}
+}
+#######################################
 # RICE Decisions
 #######################################
 dharma_india_irrigation_tank_decision = {

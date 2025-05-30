@@ -807,7 +807,79 @@ tahert = {
 		monthly_county_control_growth_factor = 0.1
 	}
 }
+#######################################
+# Zoroastrian Holy Sites 
+#######################################
+# Keshmar the sacred grove for the Cypress of Keshmar
+keshmar_mazdayasna = {
+	county = c_baihaq
+	barony = b_keshmar
 
+	character_modifier = {
+		name = holy_site_keshmar_mazdayasna_effect_name
+		county_opinion_add = 10
+	}
+}
+keshmar_zurvanism = {
+	county = c_baihaq
+	barony = b_keshmar
 
+	character_modifier = {
+		name = holy_site_keshmar_zurvanism_effect_name
+		county_opinion_add = 10
+	}
+}
+keshmar_gayomarthianism = {
+	county = c_baihaq
+	barony = b_keshmar
 
+	character_modifier = {
+		name = holy_site_keshmar_gayomarthianism_effect_name
+		county_opinion_add = 10
+	}
+}
+keshmar_khurmazta = {
+	county = c_baihaq
+	barony = b_keshmar
 
+	character_modifier = {
+		name = holy_site_keshmar_khurmazta_name
+		county_opinion_add = 10
+	}
+}
+keshmar_mazdakism = {
+	county = c_baihaq
+	barony = b_keshmar
+
+	character_modifier = {
+		name = holy_site_keshmar_mazdakism_effect_name
+		county_opinion_add = 10
+	}
+}
+keshmar_khurramism = {
+	county = c_baihaq
+	barony = b_keshmar
+
+	character_modifier = {
+		name = holy_site_keshmar_khurramism_effect_name
+		county_opinion_add = 10
+	}
+}
+keshmar_urartuism = {
+	county = c_baihaq
+	barony = b_keshmar
+
+	character_modifier = {
+		name = holy_site_keshmar_urartuism_effect_name
+		county_opinion_add = 10
+	}
+}
+keshmar_afridunism = {
+	county = c_baihaq
+	barony = b_keshmar
+
+	character_modifier = {
+		name = holy_site_keshmar_afridunism_effect_name
+		county_opinion_add = 10
+	}
+}
