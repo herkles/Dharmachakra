@@ -60,6 +60,10 @@
 5987 = {	#AL-AZRAQ
 	holding = city_holding
 	#Important oasis hub since ancient times
+	867.1.1 = {
+		special_building_slot = qusayr_amra_01
+		special_building = qusayr_amra_01 
+	}
 }
 
 ###c_maab
@@ -215,7 +219,12 @@
 	holding = none
 	holding = tribal_holding
 
-	#More or less abandonned in late Antiquity
+	# History
+	867.1.1 = {
+		holding = tribal_holding
+		special_building_slot = hejra_01
+		special_building = hejra_01
+	}
 }
 6208 = {	#DHUL-MARWA
 	holding = none
@@ -550,6 +559,8 @@
 	holding = tribal_holding
 	867.1.1 = {
 		religion = ashari
+		special_building_slot = jawatha_mosque_01
+		special_building = jawatha_mosque_01
 	}
 	900.1.1 = {
 		religion = imami

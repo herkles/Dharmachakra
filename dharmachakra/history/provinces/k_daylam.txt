@@ -109,9 +109,13 @@
 	culture = tajik
 	religion = khurramism
 	holding = castle_holding
+		
+	867.1.1 = { special_building_slot = gonbad_e_qavus_01 }
+	1006.1.1 = { special_building = gonbad_e_qavus_01 }
 	1060.1.1 = {
 		religion = zayidi 
 	}
+	
 }
 4028 = {	#Astarabad
 	holding = church_holding
@@ -327,6 +331,10 @@
 	culture = udi
 	religion = mazdayasna
 	holding = castle_holding
+	710.1.1 = { 
+		special_building_slot = juma_mosque_shemakha_01
+		special_building = juma_mosque_shemakha_01
+	}
 	900.1.1 = {
 		religion = ashari
 	}

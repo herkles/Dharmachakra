@@ -515,9 +515,16 @@
 	religion = zayidi
 	
 	# History
+	850.1.1 = {
+		religion = zayidi
+		holding = temple_holding
+		special_building_slot = imam_hussain_shrine_01
+		special_building = imam_hussain_shrine_01
+	}
 	1066.1.1 = {
 		religion = zayidi
 	}
+	
 
 }
 
@@ -585,7 +592,11 @@
 	religion = ashari
 	
 	# History
-	850.1.1 = { religion = ismaili}
+	850.1.1 = { 
+		religion = ismaili
+		special_building_slot = al_ukhaidir_fortress_01
+		special_building = al_ukhaidir_fortress_01
+	}
 
 }
 
@@ -868,7 +879,11 @@
 	religion = ashari
 	holding = city_holding
 	# History
-	850.1.1 = { religion = ismaili }
+	850.1.1 = {
+		religion = ismaili 
+		special_building_slot = me_old_mosque_basra_01
+		special_building = me_old_mosque_basra_01
+	}
 	867.1.1 = {
 		buildings = {
 			orchards_01

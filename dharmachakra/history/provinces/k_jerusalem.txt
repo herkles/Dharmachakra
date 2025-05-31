@@ -169,7 +169,8 @@
 	# History
 	864.1.1 = {
 		holding = castle_holding
-
+		special_building_slot = sanctuary_abraham_01
+		special_building = sanctuary_abraham_01
 	}
 	1066.1.1 = {
 
@@ -188,6 +189,12 @@
 	
 	# History
 	867.1.1 = { religion = ashari }
+	985.1.1 = { # al-Aziz Billah traces it's site (To be changed into an event eventually)
+		special_building_slot = mashad_al_husain_01
+	}
+	1091.1.1 = {
+		special_building = mashad_al_husain_01
+	}
 
 }
 

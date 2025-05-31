@@ -18,6 +18,10 @@
 	religion = kitebacilweism
 	
 	# History
+	867.1.1 = {
+		special_building_slot = holy_site_lalish_shrine_01
+		special_building = holy_site_lalish_shrine_01
+	}
 	1066.1.1 = { 
 		culture = assyrian
 		religion = nestorian 
@@ -411,6 +415,10 @@
 	religion = urartuism
 	
 	# History
+	867.1.1 = {
+		special_building_slot = fortress_amida_01
+		special_building = fortress_amida_01
+	}
 	1066.1.1 = { 
 		culture = syriac
 		religion = orthodox

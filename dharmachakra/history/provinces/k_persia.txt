@@ -432,6 +432,7 @@
 	holding = castle_holding
 	special_building = maharloo_lake_01
 	800.1.1 = { religion = ashari }
+	895.1.1 = { duchy_capital_building = jameh_mosque_atigh_01 }
 	1178.1.1 = {
 		religion = maturidi
 	}

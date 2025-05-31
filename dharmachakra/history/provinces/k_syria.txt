@@ -219,6 +219,7 @@
 	holding = castle_holding
 	# History
 	867.1.1 = {
+		special_building = citadel_antioch_01
 		buildings = {
 			watchtowers_01
 		}
@@ -456,7 +457,10 @@
 	religion = orthodox
 	holding = castle_holding
 	# History
-	867.1.1 = { religion = ashari }
+	867.1.1 = { 
+		religion = ashari 
+		special_building = citadel_homs_01
+	}
 
 	1066.1.1 = {
 		culture = levantine

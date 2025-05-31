@@ -102,7 +102,14 @@
 	culture = semnani
 	religion = mazdayasna	
 	holding = castle_holding
-	
+	867.1.1 = {
+		special_building_slot = tarikhaneh_mosque_01
+		special_building = tarikhaneh_mosque_01
+	}
+	1066.1.1 = {
+		special_building_slot = tarikhaneh_mosque_02
+		special_building = tarikhaneh_mosque_02
+	}
 	1060.1.1 = {#
 		culture = tajik
 		religion = maturidi
@@ -327,6 +334,7 @@
 	religion = azariqa
 	holding = castle_holding
 	867.1.1 = {
+		special_building = citadel_alexander_01
 		buildings = {
 			cereal_fields_01
 		}

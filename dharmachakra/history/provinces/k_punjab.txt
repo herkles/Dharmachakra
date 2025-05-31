@@ -124,6 +124,7 @@
 		religion = suryaism
 		special_building_slot = multan_sun_temple_01
 		special_building = multan_sun_temple_01
+		
 	}
 	1000.1.1 = {
 		religion = ismaili
@@ -569,9 +570,9 @@
 	religion = vaishnavism
 	
 	# History
-	800.1.1 = {
-		special_building_slot = katas_raj_temples_01
-		special_building = katas_raj_temples_01
+	867.1.1 = {
+		special_building_slot = katasraj_temples_01
+		special_building = katasraj_temples_01
 	}
 }
 
@@ -693,9 +694,14 @@
 	# Misc
 	culture = punjabi
 	religion = vajrayana
-	
-	# History
+	holding = city_holding
 
+	# History
+	867.1.1 = {
+		holding = city_holding
+		special_building_slot = mankiala_stupa_01
+		special_building = mankiala_stupa_01
+	}
 }
 
 # 3440 - Shergarh

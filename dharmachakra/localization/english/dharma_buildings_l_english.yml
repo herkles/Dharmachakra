@@ -155,6 +155,15 @@
  building_type_sharada_peeth_01_desc:0 "Sharada Peeth is a temple complex in Kashmir that is dedicated to the Goddess Saraswati. The temple is built in the Kashmir style. The temple complex also functions as one of the most important centers of learning in the region. "
  building_sharada_peeth_01:0 "$building_type_sharada_peeth_01$"
  building_sharada_peeth_01_desc:0 "$building_type_sharada_peeth_01_desc$"
+
+
+ building_type_katasraj_temples_01:0 "Katasraj"
+ building_type_katasraj_temples_01_desc:0 "#F The Katasraj temples are an ancient site established in prehistoric times as a place of religious significance. The Hindu God Krishna is said to have laid the foundations of the temple, with the circular pond in the middle recorded in Hindu sacred texts as being created by the tears of the God Shiva.#!"
+ building_katasraj_temples_01:0 "$building_type_katasraj_temples_01$ Temples"
+ building_katasraj_temples_01_desc:0 "$building_type_katasraj_temples_01_desc$"
+ 
+ building_katasraj_temples_02:0 "$building_type_katasraj_temples_01$ Temple Complex"
+ building_katasraj_temples_02_desc:0 "The Katasraj temple complex has seen massive expansions and improvements since it's days as a mere collection of temples. Now, pilgrims gather here in marvelous numbers in order to see the spectacular architecture and natural beauty which honors the deities Krishna and Shiva."
 # Buddhist Temples 
  building_type_sanchi_01:0 "Sanchi"
  building_type_sanchi_01_desc:0 "Sanchi Stupa is a Buddhist complex, famous for its Great Stupa, on a hilltop at Sanchi Town. The Great Stupa at Sanchi is one of the oldest stone structures in India. It was originally commissioned by the emperor Ashoka in the 3rd century BCE. Its nucleus was a simple hemispherical brick structure built over the relics of the Buddha. It was crowned by the chhatri, a parasol-like structure symbolising high rank, which was intended to honour and shelter the relics."
@@ -216,6 +225,13 @@
  building_sigiriya_01_desc:0 "In 477 CE, Kashyapa I, the king’s son by a non-royal consort, seized the throne from King Dhatusena. The rightful heir, Moggallana, fearing for his life, fled to South India. Afraid of an attack by Moggallana, Kashyapa moved the capital and his residence from the traditional capital of Anuradhapura to the more secure Sigiriya. During King Kashyapa’s reign, Sigiriya was developed into a complex city and fortress. Most of the elaborate constructions on the rock summit and around it, including defensive structures, palaces, and gardens, date from this period."
  building_type_sigiriya_01:0 "$building_sigiriya_01$"
  building_type_sigiriya_01_desc:0 "$building_sigiriya_01_desc$"
+
+ building_type_mankiala_stupa_01:0 "Mankiala Stupa"
+ building_type_mankiala_stupa_01_desc:0 "#F Built centuries ago by ancient Buddhist peoples in the second century after Christ, the Mankiala Stupa was erected to commemorate an incarnation of Prince Sattva, who sacrificed himself on this very spot to feed seven hungry tiger cubs.#!"
+ building_mankiala_stupa_01:0 "$building_type_mankiala_stupa_01$"
+ building_mankiala_stupa_01_desc:0 "$building_type_mankiala_stupa_01_desc$"
+
+
 # Jain Temples
  building_type_palitana_temple_01:0 "Palitana Temples"
  building_type_palitana_temple_01_desc:0 "The Palitana temples of Jainism are located on Shatrunjaya hill by the city of Palitana. The city of the same name, known previously as Padliptapur, has been dubbed "City of Temples". Shatrunjaya means a "place of victory against inner enemies" or "which conquers inner enemies".This site on Shatrunjaya hill is considered sacred by Svetambara Jains. It is said that 23 of 24 Jain Tirthankaras, except Neminatha, sanctified the hill by their visits. There are approximately 863 marble-carved temples on the hills spread mostly in nine clusters, some being vast temple complexes, while most small in size. The main temple is dedicated to Rishabhanatha, the first Tirthankara; it is the holiest shrine for the Svetambara Murtipujaka sect. "
@@ -278,13 +294,86 @@
  building_type_potala_palace_02:0 "$building_potala_palace_02$"
  building_type_potala_palace_02_desc:0 "$building_potala_palace_02_desc$"
 
+ citadel_alexander_01:0 "Citadel of Alexander"
+ building_type_citadel_alexander_01:0 "Citadel of Alexander"
+ citadel_alexander_01_desc:0 "#F Known locally as Qala Iqtiyaruddin, this sprawling citadel was built by the legendary Alexander the Great himself. Overlooking the ancient fertile valley of the Hari River, this citadel, like it's namesake, is truly a force to be reckoned with.#!"
+ building_citadel_alexander_01:0 "$citadel_alexander_01$"
+ building_citadel_alexander_01_desc:0 "$citadel_alexander_01_desc$"
+
+ fortress_amida_01:0 "Fortress of Amida"
+ building_type_fortress_amida_01:0 "Fortress of Amida"
+ fortress_amida_01_desc:0 "#F Established in the city of Amida by the Romans, this remarkable fortress has seen many rulers vying for its dominance. The fortress's greatest assets are it's walls, high, thick, and nearly impenetrable, constructed with resilience and defense in mind.#!"
+ building_fortress_amida_01:0 "$fortress_amida_01$"
+ building_fortress_amida_01_desc:0 "$fortress_amida_01_desc$"
+
+ citadel_homs_01:0 "Citadel of Homs"
+ building_type_citadel_homs_01:0 "Citadel of Homs"
+ citadel_homs_01_desc:0 "#F This impressive citadel has been a constant in the ancient city of Homs, being constructed in the 3rd Millenium before Christ. Once serving as a base of operations for the mighty Roman Empire, this fort still serves it's purpose as the bastion of the city.#!"
+ building_citadel_homs_01:0 "$citadel_homs_01$"
+ building_citadel_homs_01_desc:0 "$citadel_homs_01_desc$"
+
+ citadel_homs_02:0 "Citadel of Homs"
+ building_type_citadel_homs_02:0 "Citadel of Homs"
+ citadel_homs_02_desc:0 "#F This impressive citadel has been a constant in the ancient city of Homs, being constructed in the 3rd Millenium before Christ. Once serving as a base of operations for the mighty Roman Empire, this fort still serves it's purpose as the bastion of the city.#!"
+ building_citadel_homs_02:0 "$citadel_homs_02$"
+ building_citadel_homs_02_desc:0 "$citadel_homs_02_desc$"
+
+ citadel_antioch_01:0 "Citadel of Antioch"
+ building_type_citadel_antioch_01:0 "Citadel of Antioch"
+ citadel_antioch_01_desc:0 "#F Built in the 4th Century before Christ by the legendary Macedonian King Seleucus, this sprawling, ancient defensive complex has served many powers throughout history, each of them leaving their mark on it and turning it into one of the region's most formidable military centers.#!"
+ building_citadel_antioch_01:0 "$citadel_antioch_01$"
+ building_citadel_antioch_01_desc:0 "$citadel_antioch_01_desc$"
+
+ citadel_antioch_02:0 "Citadel of Antioch"
+ building_type_citadel_antioch_02:0 "Citadel of Antioch"
+ citadel_antioch_02_desc:0 "#F Built in the 4th Century before Christ by the legendary Macedonian King Seleucus, this sprawling, ancient defensive complex has served many powers throughout history, each of them leaving their mark on it and turning it into one of the region's most formidable military centers.#!"
+ building_citadel_antioch_02:0 "$citadel_antioch_01$"
+ building_citadel_antioch_02_desc:0 "$citadel_antioch_01_desc$"
+
+ al_ukhaidir_fortress_01:0 "Fortress of al-Ukhaidir"
+ building_type_al_ukhaidir_fortress_01:0 "Fortress of al-Ukhaidir"
+ al_ukhaidir_fortress_01_desc:0 "#F The Fortress of al-Ukhaidir was erected in 775 AD by Isa ibn Musa, nephew of the Abbasid Caliph as-Saffah. It stands tall in the desert, a triumph of Abbasid architecture. Though it possesses all the qualities of a military installation, it also contains luxuries such as courtyards, residence halls, and mosques.#!"
+ building_al_ukhaidir_fortress_01:0 "$al_ukhaidir_fortress_01$"
+ building_al_ukhaidir_fortress_01_desc:0 "$al_ukhaidir_fortress_01_desc$"
+
+ building_type_multan_fort_01:0 "Katochgarh"
+ building_type_multan_fort_01_desc:0 "#F The Fort of Multan, known locally as Katochgarh in honor of the Katoch dynasty that constructed it, is a truly impressive defensive installation with it's 70 foot high walls and a whopping total of 46 bastions to defend itself. The fort is guaranteed to be a huge asset to whoever holds it, as well as a formidable enemy to those who oppose it.#!"
+ building_multan_fort_01:0 "$building_type_multan_fort_01$"
+ building_multan_fort_01_desc:0 "$building_type_multan_fort_01_desc$"
+
 # Other Buildings
  building_type_rani_ki_vav_01:0 "Rani ki vav"
  building_type_rani_ki_vav_01_desc:0 "located on the banks of Saraswati river, The Rani Ki Vav or Queen's Stepwell is the largest example of a stepwell. Designed as an inverted temple highlighting the sanctity of water, the stepwell is divided into seven levels of stairs with sculptural panels; more than 500 principal sculptures and over a thousand minor ones combine religious, mythological and secular imagery."
  building_rani_ki_vav_01:0 "$building_type_rani_ki_vav_01$"
  building_rani_ki_vav_01_desc:0 "$building_type_rani_ki_vav_01_desc$"
 
+ qusayr_amra_01:0 "Qusayr Amra"
+ building_type_qusayr_amra_01:0 "Qusayr Amra"
+ qusayr_amra_01_desc:0 "#F This lavish remnant of the Umayyad Caliphate is a testament to their indulgent practices, complete with baths, erotic tapestries, and theatrical stages. It stands in a relatively isolated area in the desert, where a ruler may decide to stay and get away from the troubles of managing their domain.#!"
+ building_qusayr_amra_01:0 "$qusayr_amra_01$"
+ building_qusayr_amra_01_desc:0 "$qusayr_amra_01_desc$"
 
+ building_type_gonbad_e_qavus_01:0 "Gonbad-e-Qavus"
+ building_type_gonbad_e_qavus_01_desc:0 "#F Gonbad-e-Qavus is an ominous, towering monument that looms over Gurgan. The structure serves as the tomb of the Ziyarid ruler Qabus ibn Wushamgir, and is the most iconic building in the city.#!"
+ building_gonbad_e_qavus_01:0 "$building_type_gonbad_e_qavus_01$"
+ building_gonbad_e_qavus_01_desc:0 "$building_type_gonbad_e_qavus_01_desc$"
+
+ building_type_qila_baltit_01:0 "Qila Baltit"
+ building_type_qila_baltit_01_desc:0 "#F Qila Baltit, otherwise known as the Baltit Fortress, is an exceptionally strategic installment in the beautiful Hunza Valley, serving to defend the lands of Gilgit-Baltistan from foreign invasions. This bastion is intricately decorated with a blend of Kashmiri, Arab, and Punjabi styles, making for a most impressive building.#!"
+ building_qila_baltit_01:0 "$building_type_qila_baltit_01$"
+ building_qila_baltit_01_desc:0 "$building_type_qila_baltit_01_desc$"
+
+ hejra_01:0 "al-Hijr"
+ building_type_hejra_01:0 "al-Hijr"
+ hejra_01_desc:0 "#F The ancient Nabatean cities of al-Hijr, otherwise known as Mada'in Salih, are outstandingly impressive sites boasting amazing Nabatean architecture carved into Arabian cliffs. The reputation of this city, however, is what makes it undesirable, as the Quran mentions God punishing the inhabitants with lightning and tremors due to their idol-worship.#!"
+ building_hejra_01:0 "$hejra_01$"
+ building_hejra_01_desc:0 "$hejra_01_desc$"
+
+ sanctuary_abraham_01:0 "Sanctuary of Abraham"
+ building_type_sanctuary_abraham_01:0 "Sanctuary of Abraham"
+ sanctuary_abraham_01_desc:0 "#F The Sanctuary of Abraham is the holiest site in Hebron, and is venerated by the three great Abrahamic faiths as the cave and land which Abraham purchased as a burial plot. A magnificent mosque is raised on the site. This holy ground continues to attract Muslim, Christian, and Jewish visitors from throughout Palestine and beyond."
+ building_sanctuary_abraham_01:0 "$sanctuary_abraham_01$"
+ building_sanctuary_abraham_01_desc:0 "$sanctuary_abraham_01_desc$"
 # Zoroastrian Buildings
  building_type_keshmar_sacred_grove_01:0 "Keshmar Grove"
  building_type_keshmar_sacred_grove_01_desc:0 "While originally destroyed by the abbasid Caliph Al-Mutawakkil. Today the sacred grove of Keshmar has been consecrated and regrown, thanks to the Sarve-e Abarkuh tree. This grove is a tranquil and pleasant place. And while it is not the same tree that Zoroaster is said to have brought from paradise, it does have a calming serene atmosphere to it. A place to reflect on the teachings of Zoroaster and aim for paradise."
@@ -295,3 +384,123 @@
  building_type_keshmar_sacred_grove_02_desc:0 "Today the sacred grove of Keshmar has been consecrated and regrown, thanks to the Sarve-e Abarkuh tree. This grove is a tranquil and pleasant place. And while it is not the same tree that Zoroaster is said to have brought from paradise, it does have a calming serene atmosphere to it. A place to reflect on the teachings of Zoroaster and aim for paradise."
  building_keshmar_sacred_grove_02:0 "$building_type_keshmar_sacred_grove_02$"
  building_keshmar_sacred_grove_02_desc:0 "$building_type_keshmar_sacred_grove_02_desc$"
+# Islamic Buildings
+ holy_site_lalish_shrine_01:0 "Yazidi Shrine of Lalish"
+ building_type_holy_site_lalish_shrine_01:0 "Yazidi Shrine of Lalish"
+ building_holy_site_lalish_shrine_01_desc:0 "The ancient temple of Lalish is a place dear to the hearts of every Yazidi. At least once in their lifetimes, Yazidis are expected to make a six-day pilgrimage to Lalish to visit the tomb of Şêx Adî and other sacred places. These other sacred places are shrines dedicated to other holy beings. There are two sacred springs called the Zamzam and Kaniya Spî."
+ building_holy_site_lalish_shrine_01:0 "$building_type_holy_site_lalish_shrine_01$"
+ building_holy_site_lalish_shrine_desc:0 "$building_holy_site_lalish_shrine_01_desc$"
+
+ building_type_imam_hussain_shrine_01:0 "Imam Husain Shrine"
+ building_type_imam_hussain_shrine_01_desc:0 "#F The Imam Husain Shrine is a prominent Shia holy site. It is where the grandson of the prophet Imam Husain is buried, along with the 72 martyrs of the Battle of Karbala, in which the Imam and his faithful sacrificed everything to uphold the values of Islam."
+ building_imam_hussain_shrine_01:0 "$building_type_imam_hussain_shrine_01$"
+ building_imam_hussain_shrine_01_desc:0 "$building_type_imam_hussain_shrine_01_desc$"
+
+
+ building_type_tarikhaneh_mosque_01:0 "Tarikhaneh"
+ building_type_tarikhaneh_mosque_01_desc:0 "#F The Tarikhaneh Fire Temple is a site that finds it's origins in the days of the mighty Sassanid Empire, the world's strongest Zoroastrian power. It lies now as a remnant of the former glory of Zoroastrianism. Such a significant site may attract Islamic rulers who would take an interest in converting it...#!"
+ building_tarikhaneh_mosque_01:0 "$building_type_tarikhaneh_mosque_01$ Fire Temple Ruins"
+ building_tarikhaneh_mosque_01_desc:0 "$building_type_tarikhaneh_mosque_01_desc$"
+ building_tarikhaneh_mosque_02:0 "$building_type_tarikhaneh_mosque_01$ Mosque"
+ building_tarikhaneh_mosque_02_desc:0 "The Tarikhaneh Mosque, previously the Tarikhaneh Fire Temple, has come upon a new height of glory, being revitalized by Islamic rulers and seeing the most prosperous years in its history since it's Zoroastrian past. It shines as a symbol of Muslim domination of Persia."
+
+ juma_mosque_shemakha_01:0 "Juma Mosque of Shemakha" 
+ building_type_juma_mosque_shemakha_01:0 "Juma Mosque of Shemakha"
+ juma_mosque_shemakha_01_desc:0 "#F The Juma Mosque of Shemakha is the oldest Mosque in the Caucasus, constructed in the early expansionary phase of Islam under the Umayyad Caliph al-Walid I by his brother Maslama, it's architecture and planning is reminiscent to that of the Umayyad Mosque of Damascus and was run as a base from which Muslim influence could be administered over the region."
+ building_juma_mosque_shemakha_01:0 "$juma_mosque_shemakha_01$"
+ building_juma_mosque_shemakha_01_desc:0 "$juma_mosque_shemakha_01_desc$"
+
+ jameh_mosque_atigh_01:0 "Jameh Mosque of Atigh"
+ building_type_jameh_mosque_atigh_01:0 "Jameh Mosque of Atigh"
+ building_type_jameh_mosque_atigh_01_desc:0 "#F The Jameh Mosque of Atigh is the oldest mosque in Shiraz, and is renown for its beautiful tilework and intricate calligraphic writing. This mosque was built with a Shabestan, a peaceful, ventilated underground hideaway through which the faithful are able to find comfort during the hot summers."
+ jameh_mosque_atigh_01_desc:0 "#F The Jameh Mosque of Atigh is the oldest mosque in Shiraz, and is renown for its beautiful tilework and intricate calligraphic writing. This mosque was built with a Shabestan, a peaceful, ventilated underground hideaway through which the faithful are able to find comfort during the hot summers."
+ building_jameh_mosque_atigh_01:0 "$jameh_mosque_atigh_01$"
+ building_jameh_mosque_atigh_01_desc:0 "$jameh_mosque_atigh_01_desc$"
+
+ jawatha_mosque_01:0 "Jawatha Mosque"
+ building_type_jawatha_mosque_01:0 "Jawatha Mosque"
+ jawatha_mosque_01_desc:0 "#F The Jawatha Mosque is believed to be the first Mosque built in the region of Bahrain, built by the Banu Abd al-Qays tribe around either the 628 or 635 AD, it became a simple yet widely known gem of early Islamic architecture and it's humble appearance aids in its dissemination of Islamic values across the region."
+ building_jawatha_mosque_01:0 "$jawatha_mosque_01$"
+ building_jawatha_mosque_01_desc:0 "$jawatha_mosque_01_desc$"
+
+ me_old_mosque_basra_01:0 "Mosque of Basra"
+ building_type_me_old_mosque_basra_01:0 "Mosque of Basra"
+ me_old_mosque_basra_01_desc:0 "#F The first Mosque to be built near the city of Basra and at one point the city's central Mosque before a flood engulfed the entire city, The  Mosque of Basra now stands as both a historical monument and a Shi'ite pilgrimage site."
+ building_me_old_mosque_basra_01:0 "$me_old_mosque_basra_01$"
+ building_me_old_mosque_basra_01_desc:0 "$me_old_mosque_basra_01_desc$"
+
+ mashad_al_husain_01:0 "Mashhad of Ra's al-Hussain"
+ building_type_mashad_al_husain_01:0 "Mashhad of Ra's al-Hussain"
+ mashad_al_husain_01_desc:0 "#F On a hilltop in Ascalon sits the peaceful yet somber site of the Shrine of al-Hussain. Built by the Isma'ili faithful who, according to them, had secretly snuck the head of Prophet Muhammad's grandson out of the Umayyad Mosque of Damascus and hidden it in Ascalon."
+ building_mashad_al_husain_01:0 "$mashad_al_husain_01$"
+ building_mashad_al_husain_01_desc:0 "$mashad_al_husain_01_desc$"
+
+# Christian Buildings
+
+ building_type_monastery_saint_stepanos_01:0 "Monastery of Saint Stepanos"
+ building_type_monastery_saint_stepanos_01_desc:0 "#F Originally founded by Saint Bartholomew the Apostle under the reign of the great Parthian Empire, this great monastic complex celebrates the first Christian martyr of Armenia and the first of seven deacons to be ordained by the twelve apostles.#!"
+ building_monastery_saint_stepanos_01:0 "$building_type_monastery_saint_stepanos_01$"
+ building_monastery_saint_stepanos_01_desc:0 "$building_type_monastery_saint_stepanos_01_desc$"
+
+ building_type_monastery_saint_thaddeus_01:0 "Monastery of Saint Thaddeus"
+ building_type_monastery_saint_thaddeus_01_desc:0 "#F As one of the oldest Christian churches in the world, this Monastery is an unmissable landmark of the region. It is dedicated to the heroic Armenian apostle, Saint Thaddeus, who first evangelized Armenia and Persia.#!"
+ building_monastery_saint_thaddeus_01:0 "$building_type_monastery_saint_thaddeus_01$"
+ building_monastery_saint_thaddeus_01_desc:0 "$building_type_monastery_saint_thaddeus_01_desc$"
+
+ building_type_chapel_dzordzor_01:0 "Chapel of Dzordzor"
+ building_type_chapel_dzordzor_01_desc:0 "#F This humble Chapel serves as a prominent gathering place for Armenian Christians, and is one of the region's most beloved and popular places of worship among the locals.#!"
+ building_chapel_dzordzor_01:0 "$building_type_chapel_dzordzor_01$"
+ building_chapel_dzordzor_01_desc:0 "$building_type_chapel_dzordzor_01_desc$"
+
+ building_type_etchmiadzin_cathedral_01:0 "Etchmiadzin Cathedral"
+ building_type_etchmiadzin_cathedral_01_desc:0 "#F Built during the advent of the fourth century by Armenia's patron saint Gregory the Illuminator, this cathedral stands as a landmark of Christianity's domination of Armenia, built over an ancient pagan temple. This cathedral represents not just a holy site for Christians, it is a monument to their success.#!"
+ building_etchmiadzin_cathedral_01:0 "$building_type_etchmiadzin_cathedral_01$"
+ building_etchmiadzin_cathedral_01_desc:0 "$building_type_etchmiadzin_cathedral_01_desc$"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

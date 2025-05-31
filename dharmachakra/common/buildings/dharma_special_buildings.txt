@@ -254,44 +254,6 @@ elephanta_caves_01 = {# Elephanta Caves
 	flag = travel_point_of_interest_natural_feature
 
 }
-katas_raj_temples_01 = {# Katas Raj Temples
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_structure_cathedral_indian.dds"
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	
-	is_enabled = {
-		custom_description = {
-			text = buddhas_of_bamian_trigger
-			scope:holder = {
-				religion = { is_in_family = rf_eastern }
-			}
-		}
-	}
-
-	cost_gold = 3000
-
-	character_modifier = {
-		piety_level_impact_mult = 0.5
-	}
-	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.25
-		development_growth = 0.2
-	}
-
-	ai_value = {
-		base = 100
-	}
-	
-	type = special
-
-	flag = travel_point_of_interest_religious
-
-}
 konark_sun_temple_01 = {# Konark Sun Temple
 	construction_time = very_slow_construction_time
 
@@ -1042,7 +1004,7 @@ kedarnath_temple_01 = {# Kedarnath Temple
 	flag = travel_point_of_interest_religious
 
 }
-# Western Temples
+# Eastern Temples
 varanasi_temples_01 = {# Varanasi Temple
 	construction_time = very_slow_construction_time
 
@@ -1264,6 +1226,109 @@ somnath_temple_temple_01 = {# Somnath temple Temple
 	type = special
 	flag = travel_point_of_interest_religious
 
+}
+katasraj_temples_01 = {# Katasraj Temple Complex
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	asset = {
+		type = pdxmesh
+		name = "katasraj1_mesh"
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.5
+		same_faith_opinion = 5
+		monthly_prestige_gain_mult = 0.06
+	}
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	next_building = katasraj_temples_02
+
+	flag = travel_point_of_interest_religious
+}
+katasraj_temples_02 = {# Katasraj Temple Complex
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	asset = {
+		type = pdxmesh
+		name = "katasraj2_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+	
+	cost_gold = 400
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.8
+		monthly_piety = 1
+		same_faith_opinion = 8
+	}
+	county_modifier = {
+	tax_mult = 0.15
+	development_growth_factor = 0.2
+	}
+
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
 }
 #######################################
 #       Buddhist Temples		  	  #
@@ -1713,6 +1778,59 @@ mahamevnaw_01 = {# Mahamevnaw
 	type = special
 	flag = travel_point_of_interest_religious
 
+}
+mankiala_stupa_01 = {# Mankiala Stupa
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_shwedagon_pagoda.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mankiala_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		county_opinion_add = 5
+	}
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	county_modifier = {
+		development_growth = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
 }
 #######################################
 #       	Jain Temples			  #
@@ -2211,6 +2329,280 @@ potala_palace_02 = {# Potala Palace
 	flag = travel_point_of_interest_diplomatic
 
 }
+citadel_alexander_01 = {# Citadel of Alexander
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "alexander_mesh"
+	}
+	max_garrison = good_building_max_garrison_tier_2
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	county_modifier = {
+		supply_limit_mult = 0.05
+		hostile_raid_time = 0.4
+		monthly_county_control_growth_add = 0.5
+	}
+	
+	cost_gold = 3000
+	
+	max_garrison = good_building_max_garrison_tier_3
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+	}
+	
+	ai_value = {
+		base = 100
+        modifier = { # Fill all building slots before going for special buildings
+        	factor = 0
+            free_building_slots > 0
+        }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+fortress_amida_01 = {# Fortress of Amida
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "amida_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_2
+	}
+	max_garrison = good_building_max_garrison_tier_2
+	county_modifier = {
+		supply_limit_mult = 0.05
+		hostile_raid_time = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+citadel_homs_01 = {# Citadel of Homs
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "homs1_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	county_modifier = {
+		supply_limit_mult = 0.25
+		monthly_county_control_growth_add = 0.1
+	}
+	max_garrison = good_building_max_garrison_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_1
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+
+	type = special
+
+	next_building = citadel_homs_02
+
+	flag = travel_point_of_interest_martial
+}
+citadel_homs_02 = {# Citadel of Homs Upgraded
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "homs2_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	county_modifier = {
+		supply_limit_mult = 0.4
+		monthly_county_control_growth_add = 0.2
+	}
+	max_garrison = good_building_max_garrison_tier_4
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+citadel_antioch_01 = {# Citadel of Antioch
+	construction_time = very_slow_construction_time
+
+	type_icon = icon_structure_the_citadel_of_aleppo.dds
+
+	asset = {
+		type = pdxmesh
+		name = "antioch1_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	county_modifier = {
+		development_growth = 0.1
+		tax_mult = 0.05
+	}
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	character_modifier = {
+		monthly_prestige = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+
+	type = special
+
+	next_building = citadel_antioch_02
+
+	flag = travel_point_of_interest_martial
+}
+citadel_antioch_02 = {# Citadel of Antioch Upgraded
+	construction_time = very_slow_construction_time
+
+	type_icon = icon_structure_the_citadel_of_aleppo.dds
+
+	asset = {
+		type = pdxmesh
+		name = "antioch2_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	county_modifier = {
+		development_growth = 0.2
+		tax_mult = 0.08
+	}
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_3
+	}
+	max_garrison = good_building_max_garrison_tier_2
+	character_modifier = {
+		monthly_prestige = 1
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+al_ukhaidir_fortress_01 = {# Al-Ukhaidir Fortress
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+	asset = {
+		type = pdxmesh
+		name = "ukhaidir_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	character_modifier = {
+		monthly_prestige = 0.5
+	}
+	max_garrison = good_building_max_garrison_tier_1
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
 #######################################
 #       Other Unique Buildings	      #
 #######################################
@@ -2300,6 +2692,235 @@ sharada_peeth_01 = {# Sharad Peeth in Kashmir
 	flag = travel_point_of_interest_learning
 
 }
+qusayr_amra_01 = {# Qusayr Amra
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_zoroastric.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "qusayr_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.08
+		stress_loss_mult = 0.1
+
+	}
+	
+	county_modifier = {
+		development_growth = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
+gonbad_e_qavus_01 = {# Gonbad-e-Qavus
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_iron_pillar_of_dhar.dds"
+	asset = {
+		type = pdxmesh
+		name = "gonbad_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_prestige = 1
+	}
+	county_modifier = {
+		development_growth = 0.05
+		development_growth_factor = 0.05
+		monthly_county_control_growth_factor = 0.1
+	}
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+qila_baltit_01 = {# Qila Baltit
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "qila_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+	
+	character_modifier = {
+		monthly_prestige = 0.5
+	}
+	max_garrison = good_building_max_garrison_tier_2
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+	}
+	county_modifier = {
+		hostile_raid_time = 0.3
+	}
+
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+hejra_01 = {# Hejra
+	asset = {
+		type = pdxmesh
+		name = "cliff_coastline_04_mesh"
+	}
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_petra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+		text = muslim_me_building_trigger
+			scope:holder = {
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	county_modifier = {
+		tax_mult = -0.05
+		development_growth = -0.1
+		development_growth_factor = -0.05
+	}
+
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
+sanctuary_abraham_01 = {# Sanctuary of Abraham
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_me_ibrahimi_mosque.dds"
+	
+	asset = {
+		type = pdxmesh
+		name = "ibrahimi_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:islam_religion
+		}
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = holy_site_abrahamic_trigger
+			OR = {
+				scope:holder = {
+					religion = religion:islam_religion
+				}
+				scope:holder = {
+					religion = religion:christianity_religion
+				}
+				scope:holder = {
+					religion = religion:judaism_religion
+				}
+				custom_description = {
+					text = holy_site_building_trigger
+					barony = {
+						is_holy_site_of = scope:holder.faith
+					}
+				}
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.25
+		piety_level_impact_mult = 0.2
+	}
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.1
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 1.5
+	}
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
 #######################################
 #       Zoroastrian Buildings	      #
 #######################################
@@ -2375,4 +2996,692 @@ keshmar_sacred_grove_02 = {# the sacred grove itself can be upgraded to a fire t
 }
 #######################################
 #        Islamic Buildings	      	  #
+#######################################
+holy_site_lalish_shrine_01 = {# Shrine of Lalish
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_zoroastric.dds"
+	asset = {
+		type = pdxmesh
+		name = "lalish_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	is_enabled = {
+		custom_description = {
+		text = yazidi_me_building_trigger
+			scope:holder = {
+				religion = religion:yazidi_religion
+			}
+		}
+	}
+	
+	cost_gold = 800
+
+	character_modifier = {
+		monthly_piety = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+		same_faith_opinion = 5
+	}
+	
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth_factor = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 0.35
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+imam_hussain_shrine_01 = {# Imam Hussain Shrine
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_the_friday_mosque.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "husain_shrine_mesh"
+		soundeffect = { soundeffect = "event:/DLC/FP3/SFX/Ambience/3DMapEmitters/Holdings/fp3_ambience_3D_holdings_imamrezashrine" }
+		
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = shia_and_others_me_building_trigger
+			scope:holder.faith = {
+				OR = {
+					has_doctrine = muhammad_succession_shia_doctrine
+					has_doctrine = muhammad_succession_batriya_doctrine
+					AND = {
+						has_doctrine = muhammad_succession_zandaqa_doctrine
+						NOT = { faith = faith:barghawata }
+					}
+				}
+			}
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.5
+		same_faith_opinion = 5
+	}
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = 0.15
+		development_growth_factor = 0.15
+		monthly_county_control_growth_factor = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+tarikhaneh_mosque_01 = {# Tarikhaneh Mosque
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_zoroastric.dds"
+	asset = {
+		type = pdxmesh
+		name = "tarikhaneh_fire_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = zoroastrian_me_building_trigger
+			scope:holder = {
+				religion = zoroastrianism_religion
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	county_modifier = {
+	tax_mult = 0.1
+	development_growth_factor = 0.05
+	}
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.03
+	}
+
+	next_building = tarikhaneh_mosque_02
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+tarikhaneh_mosque_02 = {# Tarikhaneh Mosque
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_zoroastric.dds"
+	asset = {
+		type = pdxmesh
+		name = "mosque_tarikhaneh_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = muslim_me_building_trigger
+			scope:holder = {
+				religion = religion:islam_religion
+			}
+		}
+	}
+	
+	cost_gold = 2000
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.10
+	}
+	county_modifier = {
+	tax_mult = 0.15
+	development_growth_factor = 0.1
+	}
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.05
+	}
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+juma_mosque_shemakha_01 = {# Juma Mosque of Shemakha
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_temple_in_jerusalem.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mosque_shemakha_mesh"
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = muslim_me_building_trigger
+			scope:holder = {
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.5
+		same_faith_opinion = 5
+	}
+	
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.1
+		development_growth_factor = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+jameh_mosque_atigh_01 = {# Jameh Mosque of Atigh
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_the_friday_mosque.dds"
+
+	is_enabled = {
+		custom_description = {
+			text = muslim_me_building_trigger
+			scope:holder = {
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	can_construct_potential = {
+		barony = title:b_shiraz-farsi
+		scope:holder = {
+			religion = religion:islam_religion
+		}
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_county_control_growth_factor = 0.1
+		same_faith_opinion = 5
+		stress_loss_mult = 0.05
+	}
+	
+	county_modifier = {
+		development_growth = 0.1
+		development_growth_factor = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = duchy_capital
+
+	flag = fully_upgraded_duchy_capital_building
+}
+jawatha_mosque_01 = {# Jawatha Mosque
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_zoroastric.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "jawatha_mesh"
+		soundeffect = { soundeffect = "event:/DLC/FP3/SFX/Ambience/3DMapEmitters/Holdings/fp3_ambience_3D_holdings_imamrezashrine" }
+		
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = muslim_me_building_trigger
+			scope:holder = {
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_county_control_growth_factor = 0.05
+		same_faith_opinion = 5
+	}
+	
+	county_modifier = {
+		#monthly_income = 0.25
+		development_growth = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = 0.25
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+me_old_mosque_basra_01 = {# Old Mosque of Basra
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "mosque_basra_mesh"
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = muslim_me_building_trigger
+			scope:holder = {
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.15
+		monthly_dynasty_prestige_mult = 0.03
+		monthly_county_control_growth_factor = 0.05
+		same_faith_opinion = 5
+	}
+	
+	county_modifier = {
+		#monthly_income = 0.3
+		development_growth = 0.08
+		development_growth_factor = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = 0.3
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+mashad_al_husain_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_alhambra.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "ras_husain_mesh"
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = ismaili_me_building_trigger
+			scope:holder.faith = {
+				has_doctrine = special_doctrine_ubaydi_trait_acceptance
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		custom_description = {
+			text = ismaili_me_building_trigger
+			scope:holder.faith = {
+				has_doctrine = special_doctrine_ubaydi_trait_acceptance
+			}
+		}
+		scope:holder = {
+			culture = {
+				has_innovation = innovation_crop_rotation
+			}
+		}
+	}
+
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.3
+		same_faith_opinion = 5
+	}
+	
+	county_modifier = {
+		#monthly_income = 0.3
+		development_growth = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+#######################################
+#       Christian Buildings	      	  #
+#######################################
+monastery_saint_stepanos_01 = {# Monastery of Saint Stepanos
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_alhambra.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "stepanos_mesh"
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = christian_me_building_trigger
+			scope:holder = {
+				religion = religion:christianity_religion
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		piety_level_impact_mult = 0.2
+		monthly_piety = 0.5
+		build_gold_cost = -0.05
+	}
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.2
+
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+monastery_saint_thaddeus_01 = {# Monastery of Saint Thaddeus
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "thaddeus_mesh"
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = christian_me_building_trigger
+			scope:holder = {
+				religion = religion:christianity_religion
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		piety_level_impact_mult = 0.15
+		monthly_piety = 0.5
+		monthly_dynasty_prestige_mult = 0.08
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth_factor = 0.15
+		development_growth = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+chapel_dzordzor_01 = {# Chapel of Dzordzor
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_nalanda.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "dzordzor_mesh"
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = christian_me_building_trigger
+			scope:holder = {
+				religion = religion:christianity_religion
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.5
+		same_faith_opinion = 10
+		county_opinion_add = 5
+	}
+	
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+etchmiadzin_cathedral_01 = {# Etchmiadzin Cathedral
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_hotin_fortress.dds"
+
+	asset = {
+		type = pdxmesh
+		name = "etchmiadzin_mesh"
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = christian_me_building_trigger
+			scope:holder = {
+				religion = religion:christianity_religion
+			}
+		}
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_county_control_growth_factor = 0.1
+		piety_level_impact_mult = 0.1
+		same_faith_opinion = 3
+		zealot_opinion = 5
+	}
+	
+	county_modifier = {
+		development_growth = 0.1
+	}
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+                modifier = { # Fill all building slots before going for special buildings
+                        factor = 0
+                        free_building_slots > 0
+                }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+#######################################
+#        Jewish Buildings	      	  #
+#######################################
+
+
+#######################################
+#      Semetic Pagan Buildings	      #
+#######################################
+
+
+#######################################
+#        Yazidi Buildings	      	  #
 #######################################
