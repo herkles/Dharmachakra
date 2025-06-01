@@ -354,11 +354,11 @@
 	culture = armenian
 	religion = armenian_apostolic
 	
-	holding = temple_holding
+	holding = church_holding
 	
 	# History
 	867.1.1 = {
-		holding = temple_holding
+		holding = church_holding
 		special_building_slot = monastery_saint_thaddeus_01
 		special_building = monastery_saint_thaddeus_01
 	}

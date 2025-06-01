@@ -3069,7 +3069,6 @@ imam_hussain_shrine_01 = {# Imam Hussain Shrine
 			scope:holder.faith = {
 				OR = {
 					has_doctrine = muhammad_succession_shia_doctrine
-					has_doctrine = muhammad_succession_batriya_doctrine
 					AND = {
 						has_doctrine = muhammad_succession_zandaqa_doctrine
 						NOT = { faith = faith:barghawata }
@@ -3121,7 +3120,7 @@ tarikhaneh_mosque_01 = {# Tarikhaneh Mosque
 		custom_description = {
 			text = zoroastrian_me_building_trigger
 			scope:holder = {
-				religion = zoroastrianism_religion
+				religion = religion:zoroastrianism_religion
 			}
 		}
 	}
@@ -3421,12 +3420,7 @@ mashad_al_husain_01 = {
 	}
 
 	is_enabled = {
-		custom_description = {
-			text = ismaili_me_building_trigger
-			scope:holder.faith = {
-				has_doctrine = special_doctrine_ubaydi_trait_acceptance
-			}
-		}
+
 	}
 
 	can_construct_potential = {
@@ -3434,12 +3428,6 @@ mashad_al_husain_01 = {
 	}
 	
 	can_construct = {
-		custom_description = {
-			text = ismaili_me_building_trigger
-			scope:holder.faith = {
-				has_doctrine = special_doctrine_ubaydi_trait_acceptance
-			}
-		}
 		scope:holder = {
 			culture = {
 				has_innovation = innovation_crop_rotation

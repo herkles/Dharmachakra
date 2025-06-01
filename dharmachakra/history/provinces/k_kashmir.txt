@@ -182,7 +182,7 @@
 	
 	# History
 	867.1.1 = {
-		holding = castle
+		holding = castle_holding
 		special_building_slot = qila_baltit_01
 		special_building = qila_baltit_01
 	}
