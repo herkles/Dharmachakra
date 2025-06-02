@@ -1,0 +1,164 @@
+﻿#####################################
+# Irrigation tank values
+#####################################
+RICE_irrigation_tank_small_cost = {
+	value = 50
+	if = {
+		limit = {
+			culture = { has_cultural_parameter = unlock_rice_wewa_irrigation_tank_effects }
+		}
+		multiply = 0.5
+	}
+}
+RICE_irrigation_tank_medium_cost = {
+	value = 100
+	if = {
+		limit = {
+			culture = { has_cultural_parameter = unlock_rice_wewa_irrigation_tank_effects }
+		}
+		multiply = 0.5
+	}
+}
+RICE_irrigation_tank_large_cost = {
+	value = 150
+	if = {
+		limit = {
+			culture = { has_cultural_parameter = unlock_rice_wewa_irrigation_tank_effects }
+		}
+		multiply = 0.5
+	}
+}
+RICE_irrigation_tank_huge_cost = {
+	value = 200
+	if = {
+		limit = {
+			culture = { has_cultural_parameter = unlock_rice_wewa_irrigation_tank_effects }
+		}
+		multiply = 0.5
+	}
+}
+#####################################
+# Yazata values
+#####################################
+RICE_yazata_pay_bonus_value = {
+	value = 25
+	multiply = {
+		value = root.primary_title.tier
+		subtract = 1
+		min = 1
+	}
+}
+RICE_khwarezm_destroy_cult_center_value = {
+	value = 50
+	if = {
+		limit = {
+			faith = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
+		}
+		every_held_title = {
+			limit = {
+				tier = tier_county
+				OR = {
+					# has_county_modifier = RICE_khwarezm_yazata_cult_center_anahita
+					# has_county_modifier = RICE_khwarezm_yazata_cult_center_bahram
+					# has_county_modifier = RICE_khwarezm_yazata_cult_center_mah
+					# has_county_modifier = RICE_khwarezm_yazata_cult_center_mithra
+					# has_county_modifier = RICE_khwarezm_yazata_cult_center_nana
+					# has_county_modifier = RICE_khwarezm_yazata_cult_center_rashnu
+					# has_county_modifier = RICE_khwarezm_yazata_cult_center_sraosha
+					# has_county_modifier = RICE_khwarezm_yazata_cult_center_tir
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_siyavash
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_wakhsh
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_weshparkar
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_astghik
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_barshamin
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_tork
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_vahagn
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_dali
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_gaim
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_gatsi
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_kopala
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_zaden
+				}
+			}
+			add = 50
+		}
+	}
+	else = {
+		every_held_title = {
+			limit = {
+				tier = tier_county
+				OR = {
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_anahita
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_bahram
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_mah
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_mithra
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_nana
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_rashnu
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_sraosha
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_tir
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_siyavash
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_wakhsh
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_weshparkar
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_astghik
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_barshamin
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_tork
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_vahagn
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_dali
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_gaim
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_gatsi
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_kopala
+					has_county_modifier = RICE_khwarezm_yazata_cult_center_zaden
+				}
+			}
+			add = 50
+		}
+	}
+	min = 50
+}
+#####################################
+# General values
+#####################################
+RICE_activity_cost = {
+	value = 25
+	multiply = {
+		value = root.primary_title.tier
+		subtract = 1
+		min = 1
+	}
+	if = {
+		limit = {
+			root.primary_title.tier > tier_duchy
+		}
+		add = 15
+	}
+	if = {
+		limit = {
+			root= {
+				exists = dynasty
+				dynasty = {
+					has_dynasty_perk = law_legacy_1
+				}
+			}
+		}
+		multiply = law_legacy_cost_reduction_mult
+	}
+	if = {
+		limit = {
+			root= {
+				government_has_flag = government_is_tribal
+			}
+		}
+		multiply = 0.5
+	}
+	# Make it a little easier for smaller realms
+	if = {
+		limit = {
+			root= {
+				sub_realm_size <= 5
+			}
+		}
+		multiply = 0.75
+	}
+	min = 25
+	max = 100
+}

@@ -1020,8 +1020,398 @@ dharma_zoro.030 = {# Planting the sacred tree
 	}
 }
 ######################################
+#	      Worship the Yazata         #
+######################################
+dharma_zoro.040 = {# Worship the Yazata
+	type = character_event
+	title = dharma_zoro.040.t
+	desc = {
+		desc = dharma_zoro.040.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:anahita }
+				desc = dharma_zoro.040.desc.anahita
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:bahram }
+				desc = dharma_zoro.040.desc.bahram
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:mah }
+				desc = dharma_zoro.040.desc.mah
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:mithra }
+				desc = dharma_zoro.040.desc.mithra
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:nana }
+				desc = dharma_zoro.040.desc.nana
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:rashnu }
+				desc = dharma_zoro.040.desc.rashnu
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:sraosha }
+				desc = dharma_zoro.040.desc.sraosha
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:tir }
+				desc = dharma_zoro.040.desc.tir
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:siyavash }
+				desc = dharma_zoro.040.desc.siyavash
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:wakhsh }
+				desc = dharma_zoro.040.desc.wakhsh
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:weshparkar }
+				desc = dharma_zoro.040.desc.weshparkar
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:astghik }
+				desc = dharma_zoro.040.desc.astghik
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:barshamin }
+				desc = dharma_zoro.040.desc.barshamin
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:tork }
+				desc = dharma_zoro.040.desc.tork
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:vahagn }
+				desc = dharma_zoro.040.desc.vahagn
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:dali }
+				desc = dharma_zoro.040.desc.dali
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:gaim }
+				desc = dharma_zoro.040.desc.gaim
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:gatsi }
+				desc = dharma_zoro.040.desc.gatsi
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:kopala }
+				desc = dharma_zoro.040.desc.kopala
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_worship = flag:zaden }
+				desc = dharma_zoro.040.desc.zaden
+			}		
+		}
+		desc = dharma_zoro.040.desc.conclusion
+	}
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	option = { # Ok
+		name = dharma_zoro.040.a
+		trigger = {
+			RICE_qualifies_for_yazata_cult_bonus_trigger = no
+		}
+		add_piety = 50
+		if = {
+			limit = {
+				faith = { has_doctrine_parameter = rice_yazata_pay_for_modifier_upgrade }
+			}
+			add_prestige = 25
+		}
+		RICE_yazata_give_basic_modifier = yes
+	}
+	
+	option = { # Ok
+		name = {
+			trigger = { faith = { has_doctrine_parameter = rice_yazata_pay_for_modifier_upgrade } }
+			text = dharma_zoro.040.b.sassanian
+		}
+		name = {
+			trigger = { faith = { has_doctrine_parameter = rice_unlock_yazata_cult_center }	}
+			text = dharma_zoro.040.b.cult
+		}
+		trigger = {
+			OR = {
+				faith = { has_doctrine_parameter = rice_yazata_pay_for_modifier_upgrade }
+				RICE_qualifies_for_yazata_cult_bonus_trigger = yes
+			}
+		}
+		add_piety = 100
+		add_prestige = 50
+		if = {
+			limit = {
+				faith = { has_doctrine_parameter = rice_yazata_pay_for_modifier_upgrade }
+			}
+			remove_short_term_gold = RICE_yazata_pay_bonus_value
+		}
+		RICE_yazata_give_major_modifier = yes
+	}
+
+	after = {
+		if = {
+			limit = { has_variable = RICE_yazata_worship }
+			remove_variable = RICE_yazata_worship
+		}
+		RICE_remove_planned_activity_flag_effect = yes
+
+	}
+
+}
+######################################
+#	     Set up Cult center		     #
+######################################
+dharma_zoro.041 = {# Establish a cultic center for a Yazata
+	type = character_event
+	title = dharma_zoro.041.t
+	desc = {
+		desc = dharma_zoro.041.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:anahita }
+				desc = dharma_zoro.041.desc.anahita
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:bahram }
+				desc = dharma_zoro.041.desc.bahram
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:mah }
+				desc = dharma_zoro.041.desc.mah
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:mithra }
+				desc = dharma_zoro.041.desc.mithra
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:nana }
+				desc = dharma_zoro.041.desc.nana
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:rashnu }
+				desc = dharma_zoro.041.desc.rashnu
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:sraosha }
+				desc = dharma_zoro.041.desc.sraosha
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:tir }
+				desc = dharma_zoro.041.desc.tir
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:siyavash }
+				desc = dharma_zoro.041.desc.siyavash
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:wakhsh }
+				desc = dharma_zoro.041.desc.wakhsh
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:weshparkar }
+				desc = dharma_zoro.041.desc.weshparkar
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:astghik }
+				desc = dharma_zoro.041.desc.astghik
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:barshamin }
+				desc = dharma_zoro.041.desc.barshamin
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:tork }
+				desc = dharma_zoro.041.desc.tork
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:vahagn }
+				desc = dharma_zoro.041.desc.vahagn
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:dali }
+				desc = dharma_zoro.041.desc.dali
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:gaim }
+				desc = dharma_zoro.041.desc.gaim
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:gatsi }
+				desc = dharma_zoro.041.desc.gatsi
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:kopala }
+				desc = dharma_zoro.041.desc.kopala
+			}		
+			triggered_desc = {
+				trigger = { var:RICE_yazata_cult_center = flag:zaden }
+				desc = dharma_zoro.041.desc.zaden
+			}		
+		}
+		desc = dharma_zoro.041.desc.conclusion
+	}
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	
+	right_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = mx_cue_sacredrite
+		capital_county = {
+			save_scope_as = capital
+		}
+		RICE_yazata_establish_cult_center_effect = yes
+	}
+	
+	option = { # Ok
+		name = dharma_zoro.041.a
+	}
+
+}
+######################################
+#	     Destroy a Cult center		 #
+######################################
+dharma_zoro.042 = {# Destroy a heretical Cult center
+	type = character_event
+	title = dharma_zoro.042.t
+	desc = {
+		desc = dharma_zoro.042.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { religion = religion:zoroastrianism_religion }
+				desc = dharma_zoro.042.desc.zoroastrian
+			}
+			desc = dharma_zoro.042.desc.non_zoroastrian
+		}
+		desc = dharma_zoro.042.desc.conclusion
+	}
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}
+
+	immediate = {
+		play_music_cue = mx_cue_crusade_starts
+		save_scope_as = RICE_yazata_cult_destroyer		
+		religion:zoroastrianism_religion = { save_scope_as = zoroastrianism }
+	}
+	
+	option = { # Ok
+		name = dharma_zoro.042.a
+		add_gold = RICE_khwarezm_destroy_cult_center_value
+		add_piety = RICE_khwarezm_destroy_cult_center_value
+		if = {
+			limit = {
+				faith = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
+			}
+			custom_tooltip = RICE_khwarezm_destroy_cult_center_first_person_sassanian_tooltip
+		}
+		else = {
+			custom_tooltip = RICE_khwarezm_destroy_cult_center_first_person_normal_tooltip
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			RICE_destroy_yazata_cult_centers_effect = yes
+		}
+		every_ruler = {
+			limit = {
+				is_ai = no
+				NOT = { this = scope:RICE_yazata_cult_destroyer }
+				OR = {
+					is_vassal_of = scope:RICE_yazata_cult_destroyer
+					capital_county = {
+						squared_distance = {
+							target = scope:RICE_yazata_cult_destroyer.capital_province
+							value < squared_distance_medium
+						}	
+					}
+				}				
+				#RICE_has_unorthodox_yazatas_trigger = yes
+			}
+			trigger_event = dharma_zoro.043
+		}		
+	}
+
+}
+dharma_zoro.043 = {# Notification for everyone4
+	type = character_event
+	title = dharma_zoro.043.t
+	desc = {
+		desc = dharma_zoro.043.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = { religion = religion:zoroastrianism_religion }
+				desc = dharma_zoro.043.desc.zoroastrian
+			}
+			desc = dharma_zoro.043.desc.non_zoroastrian
+		}
+		desc = dharma_zoro.043.desc.conclusion
+	}
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	
+	right_portrait = {
+		character = scope:RICE_yazata_cult_destroyer
+		animation = war_attacker
+	}
+
+	immediate = {
+		play_music_cue = mx_cue_crusade_starts
+		# scope:RICE_yazata_cult_destroyer = {
+		# 	add_gold = RICE_khwarezm_destroy_cult_center_value
+		# 	add_piety = RICE_khwarezm_destroy_cult_center_value
+		# }
+		if = {
+			limit = {
+				faith = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
+			}
+			custom_tooltip = RICE_khwarezm_destroy_cult_center_third_person_sassanian_tooltip
+		}
+		else = {
+			custom_tooltip = RICE_khwarezm_destroy_cult_center_third_person_normal_tooltip
+		}
+	}
+	
+	option = { # Ok
+		name = {
+			trigger = { RICE_has_unorthodox_yazatas_trigger = yes }
+			text = dharma_zoro.043.a.cult
+		}
+		name = {
+			trigger = { RICE_has_unorthodox_yazatas_trigger = no }
+			text = dharma_zoro.043.a.not_cult
+		}
+	}
+
+}
+######################################
 #       General Flavor Events        #
 ######################################
-
-
 

@@ -248,6 +248,9 @@
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_consanguinity_unrestricted
+
+			# Zoroastrian Doctrine
+			doctrine = rice_zoroastrian_sassanian_doctrine
 			doctrine = doctrine_major_branch_behdin 
 		}
 		zurvanism = { # Actually Behafaridism
@@ -272,7 +275,11 @@
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_consanguinity_restricted
+
+			# Zorastrian Doctrines
 			doctrine = doctrine_heretic_branch_zandik
+			doctrine = rice_zoroastrian_no_yazatas_doctrine
+
 		}
 		gayomarthianism = {
 			color = { 0.8 0.6 0.2 }
@@ -292,6 +299,9 @@
 
 			doctrine = doctrine_witchcraft_shunned
 			doctrine = doctrine_spiritual_head
+
+			# Zoroastrian Doctrine
+			doctrine = rice_zoroastrian_sassanian_doctrine
 			doctrine = doctrine_major_branch_behdin 
 		}
 		khurmazta = {
@@ -312,7 +322,10 @@
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_pluralism_pluralistic
+
+			# Zoroastrian specific Doctrines
 			doctrine = doctrine_major_branch_behdin 
+			doctrine = rice_zoroastrian_eastern_doctrine 
 
 			holy_order_names = {
 				{ name = "holy_order_order_of_waseghn" } # Wēžayn, Sogdian form of Verethragna
@@ -362,7 +375,11 @@
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_spiritual_head
+
+			# Zoroastrian Doctrine
+			doctrine = rice_zoroastrian_sassanian_doctrine
 			doctrine = doctrine_heretic_branch_zandik
+
 		}
 		khurramism = {
 			color = { 1 0.3 0 }
@@ -391,8 +408,11 @@
 			doctrine = doctrine_theocracy_temporal #Change to make the "Destroy the Magi" decision more relevant 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_clerical_gender_either
+			
+			# Zoroastrian Doctrine
+			doctrine = rice_zoroastrian_sassanian_doctrine
 			doctrine = doctrine_heretic_branch_zandik
-
+			
 			holy_order_names = {
 				{ name = "holy_order_peoples_chosen" }
 				{ name = "holy_order_red_wearing_ones" }
@@ -417,7 +437,10 @@
 			doctrine = doctrine_homosexuality_shunned
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_spiritual_head
+
+			# Zorastrian Doctrines
 			doctrine = doctrine_major_branch_behdin 
+			doctrine = rice_zoroastrian_armenian_doctrine 
 
 			localization = {
 				HighGodName = urartuism_high_god_name
@@ -463,8 +486,11 @@
 			doctrine = doctrine_no_head
 			doctrine = doctrine_divorce_disallowed
 			doctrine = doctrine_clerical_gender_either
-			doctrine = doctrine_heretic_branch_zandik
 
+			# Zoroastrian Doctrine
+			doctrine = rice_zoroastrian_sassanian_doctrine
+			doctrine = doctrine_heretic_branch_zandik
+			
 			localization = {
 
 				FertilityGodName = urartuism_fertility_god_name

@@ -38,7 +38,7 @@ is_religious_studies_location = {
 		# Dharmachakra
 		has_building_or_higher = multan_sun_temple_02
 		has_building_or_higher = pattadakal_01
-		has_building_or_higher = katas_raj_temples_01
+		has_building_or_higher = katasraj_temples_01
 		has_building_or_higher = konark_sun_temple_01
 		has_building_or_higher = jal_mandir_temple_01
 		has_building_or_higher = sonagiri_temple_01

@@ -1,0 +1,11 @@
+﻿#######################################
+# Tributaries
+#######################################
+RICE_remove_planned_activity_flag_effect = {
+	if = {
+		limit = {
+			has_character_flag = planning_an_activity
+		}
+		remove_character_flag = planning_an_activity
+	}
+}

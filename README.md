@@ -41,3 +41,4 @@ NOTE: If you are re-installing a mod, delete the old version of the mod first be
 - Community Title Project
 - cultures expanded
 - Muslim Enhancements
+- al-Sami for the special building models

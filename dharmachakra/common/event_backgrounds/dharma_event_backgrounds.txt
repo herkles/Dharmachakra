@@ -92,6 +92,7 @@ dharma_mountain_temple = {# Mountain Temple
 		ambience = "event:/SFX/Events/Backgrounds/temple_generic"
 	}
 }
+
 #######################################
 #         Palace Backgrounds		  #
 #######################################

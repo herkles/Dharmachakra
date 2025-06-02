@@ -23,9 +23,11 @@ pdxmesh = {
 		texture = { file = "building_mediterranean_temple_orthodox_01_unique.dds" index = 5 }
 		shader = "snap_to_terrain_atlas"
 		shader_file = "gfx/FX/pdxmesh.shader"
+	}
 }
 
 entity = {
 	name = "ibrahimi_entity"
 	pdxmesh = "ibrahimi_mesh"
 }
+

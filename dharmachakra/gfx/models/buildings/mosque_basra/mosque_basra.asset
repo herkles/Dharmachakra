@@ -23,6 +23,7 @@ pdxmesh = {
 		texture = { file = "great_mosque_of_samarra_unique.dds" index = 5 }
 		shader = "standard_atlas"
 		shader_file = "gfx/FX/pdxmesh.shader"
+	}
 }
 
 entity = {
