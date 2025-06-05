@@ -30,7 +30,4 @@
 			hostility_others = 2
 		}
 	}
-
-
-
 }

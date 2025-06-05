@@ -6,17 +6,12 @@ This patch updates it for Khans of the steppe. It also includes a new and revise
 
 ## Changelog
 
-- Revamped cultural setup again
-- added some RICE religions and cultures
-- added some new culture traditions
-- cultures in the Thar Desert can get camels now
-- removed khadga puja for now
-- When embarking on the Mahamastakabisheka pilgrimage as a jain ruler, you can pick which Jain vow you wish to take while on the pilgrimage
-- Some special events if you go to a university in south asia
-- 4 new court postions: court guru, chief vajracharya, bhangika, and master of elephants
-- various tribal lords have been made tributaries in 867 and 1066
-- added a 1066 bookmark
-- various bug fixes
+- Updated the cultures and religious layout of the Middle East
+- Added Zorastrian Yazata stuff from RICE
+- Nowruz is now a festival not just an event; also added Mehregan as a festival
+- decision about the Cypress of Keshmar
+- added a bunch of Holy sites around the middle east central asia; models thanks to al-Sami
+
 
 
 ## Manual Installation Steps

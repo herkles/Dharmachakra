@@ -218,6 +218,9 @@
 	culture = persian
 	religion = mazdayasna	
 	holding = castle_holding
+	867.1.1 = {		
+		special_building_slot = atash_e_bahram_01
+	}
 	1060.1.1 = {
 		religion = ashari
 	}
@@ -619,6 +622,11 @@
 }
 4196 = {	#Kariyan	#AKA Karyan
 	holding = none
+	# History
+	867.1.1 = {		
+		special_building_slot = adur_farnbag_temple_01
+		special_building = adur_farnbag_temple_01
+	}
 }
 
 ##d_hormuz ###################################

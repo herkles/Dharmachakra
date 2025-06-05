@@ -179,6 +179,18 @@
   dharma_zoro.043.desc.conclusion:0 "\n\nAs such, [RICE_yazata_cult_destroyer.GetFirstNameNoTooltip] has given the order for offending cult centers in [RICE_yazata_cult_destroyer.GetHerHis] realm to be essentially destroyed. Any religious structures will be dismantled and their riches looted, and locals will be forbidden from engaging in illicit, unorthodox religious practices from here on out."
   dharma_zoro.043.a.cult:0 "This is a dark day…."
   dharma_zoro.043.a.not_cult:0 "Interesting to hear…."
+# Convert the Mosque
+  dharma_zoro.050.t:0 "Rekindling the Tarikhaneh Flames"
+  dharma_zoro.050.desc:0 "When Islam came to the land, not all fire temples were destroyed or left for time to wear them down. Some were converted to mosques like the Tarikhaneh mosque was. Making it one of the oldest mosques in the region. However, today that is no more. Today we have decided to restore it to its original purpose as a holy temple, a holy Zoroastrian temple. Today the fires dedicated to Ahura Mazda burn bright once more."
+  dharma_zoro.050.convert:0 "Let the fires be renkindled!"
+  dharma_zoro.050.convert.vassals:0 "Your muslim vassals are mad that you are converting the mosque."
+  dharma_zoro.050.convert.courtiers:0 "Your muslim courtiers are mad that you are converting the mosque."
+  converted_tarikhaneh_opinion:0 "angry at the conversion of the Tarikhaneh Mosque"
+
+
+
+
+
 
 
 

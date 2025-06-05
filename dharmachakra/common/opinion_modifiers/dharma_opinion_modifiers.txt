@@ -7,3 +7,6 @@ sayyid_opinion_increased = {
 sayyid_opinion_increased_greatly = {
 	opinion = 20
 }
+converted_tarikhaneh_opinion = {
+	opinion = -20
+}

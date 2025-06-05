@@ -1268,10 +1268,10 @@ katasraj_temples_01 = {# Katasraj Temple Complex
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -1320,10 +1320,10 @@ katasraj_temples_02 = {# Katasraj Temple Complex
 
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -1784,11 +1784,6 @@ mankiala_stupa_01 = {# Mankiala Stupa
 
 	type_icon = "icon_structure_shwedagon_pagoda.dds"
 
-	asset = {
-		type = pdxmesh
-		name = "mankiala_mesh"
-	}
-	
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -1822,10 +1817,10 @@ mankiala_stupa_01 = {# Mankiala Stupa
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -2434,10 +2429,10 @@ citadel_homs_01 = {# Citadel of Homs
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 
 	type = special
@@ -2515,10 +2510,10 @@ citadel_antioch_01 = {# Citadel of Antioch
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 
 	type = special
@@ -2558,47 +2553,11 @@ citadel_antioch_02 = {# Citadel of Antioch Upgraded
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
-	type = special
-
-	flag = travel_point_of_interest_martial
-}
-al_ukhaidir_fortress_01 = {# Al-Ukhaidir Fortress
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
-	asset = {
-		type = pdxmesh
-		name = "ukhaidir_mesh"
-	}
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	
-	cost_gold = 3000
-	
-	character_modifier = {
-		monthly_prestige = 0.5
-	}
-	max_garrison = good_building_max_garrison_tier_1
-	province_modifier = {
-		defender_holding_advantage = normal_building_advantage_tier_1
-		fort_level = good_building_fort_level_tier_2
-	}
-	
-	ai_value = {
-		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
-	}
-	
 	type = special
 
 	flag = travel_point_of_interest_martial
@@ -2721,10 +2680,10 @@ qusayr_amra_01 = {# Qusayr Amra
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -2756,10 +2715,10 @@ gonbad_e_qavus_01 = {# Gonbad-e-Qavus
 	}
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -2797,10 +2756,10 @@ qila_baltit_01 = {# Qila Baltit
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -2839,10 +2798,10 @@ hejra_01 = {# Hejra
 
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -2994,59 +2953,606 @@ keshmar_sacred_grove_02 = {# the sacred grove itself can be upgraded to a fire t
 	type = special
 	flag = travel_point_of_interest_religious # religious grove
 }
-#######################################
-#        Islamic Buildings	      	  #
-#######################################
-holy_site_lalish_shrine_01 = {# Shrine of Lalish
+mizdarkan_necropolis_01 = {# Mizdarkan Necropolis
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_zoroastric.dds"
-	asset = {
-		type = pdxmesh
-		name = "lalish_mesh"
-	}
+	type_icon = "icon_structure_great_fire_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	is_enabled = {
+	
+	can_construct = {
 		custom_description = {
-		text = yazidi_me_building_trigger
-			scope:holder = {
-				religion = religion:yazidi_religion
+			text = holy_site_building_trigger
+			barony = {
+				is_holy_site_of = scope:holder.faith
+			}
+		}
+		scope:holder = {
+			culture = {
+				has_innovation = innovation_crop_rotation
 			}
 		}
 	}
 	
-	cost_gold = 800
+	cost_gold = 1000
 
 	character_modifier = {
-		monthly_piety = 0.5
+		close_relative_opinion = 10
 		monthly_dynasty_prestige_mult = 0.05
-		same_faith_opinion = 5
+	}
+
+	province_modifier = {
+		monthly_income = 1
 	}
 	
 	county_modifier = {
-		tax_mult = 0.05
-		development_growth_factor = 0.1
-	}
-	
-	province_modifier = {
-		monthly_income = 0.35
+		monthly_county_control_growth_add = 0.5
 	}
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
 
 	flag = travel_point_of_interest_religious
 }
+
+adur_farnbag_temple_01 = {# Adur Farnbag one of the three sacred fire temples
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_fire_temple.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+	
+	next_building = adur_farnbag_temple_02
+
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.05
+	}
+	
+	county_modifier = {
+		tax_mult = 0.05
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+adur_farnbag_temple_02 = {# Ardur Farnbag; one of the three sacred fire temples now restored to glory
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_fire_temple.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+		scope:holder.faith = {
+			NOT = { has_doctrine = special_doctrine_not_allowed_to_hof }
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_county_control_growth_factor = 0.1
+		zealot_opinion = 5
+		clergy_opinion = 10
+		monthly_county_control_growth_factor = 0.05
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+adur_burzen_mhir_01 = {# Adur Burzen-mhir; one of the three sacred fire temples
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_fire_temple.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}	
+	
+	next_building = adur_burzen_mhir_02
+
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		religious_vassal_opinion = 5
+	}
+	
+	county_modifier = {
+		tax_mult = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+adur_burzen_mhir_02 = {# Adur Burzen-Mhir restored; one of the three sacred fire temples
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_fire_temple.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+		scope:holder.faith = {
+			NOT = { has_doctrine = special_doctrine_not_allowed_to_hof }
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.2
+		monthly_county_control_growth_factor = 0.1
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	province_modifier = {
+		monthly_income = 0.3
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+adur_gushnasp_01 = {# Adur Gushnasp; the most sacred of the three sacred fire temples.
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_fire_temple.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+
+	next_building = adur_gushnasp_02
+	
+	cost_gold = 1000
+	character_modifier = {
+		monthly_piety = 0.05
+	}
+	
+	county_modifier = {
+		tax_mult = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+adur_gushnasp_02 = {# Adur Gushnasp now restored to glory; the most sacred of the three sacred fire temples.
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_fire_temple.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+		scope:holder.faith = {
+			NOT = { has_doctrine = special_doctrine_not_allowed_to_hof }
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.2
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_growth_factor = 0.05
+		monthly_piety_gain_per_happy_powerful_vassal_add = 0.1
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.1
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}	
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+tarikhaneh_fire_temple_01 = {# Tarikhaneh Fire Temple; Oldest Mosque built on the bases of a fire temple.
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_fire_temple.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:zoroastrianism_religion
+		}
+	}
+
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.2
+		negate_health_penalty_add = 0.05
+		domain_tax_different_faith_mult = 0.15
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+atash_e_bahram_01 = {# Atash-e Bahram - the fire temple in Yazd
+
+	asset = {
+		type = entity
+		name = "building_special_cathedral_zoroastrian_01_a_entity"
+	}
+
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = legends_of_the_dead }
+			desc = building_funeral_effect_desc
+		}
+	}
+	
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_great_fire_temple.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		custom_description = {
+			text = holy_site_building_trigger
+			barony = {
+				is_holy_site_of = scope:holder.faith
+			}
+		}
+		scope:holder = {
+			culture = {
+				has_innovation = innovation_crop_rotation
+			}
+		}
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = holy_site_building_trigger
+			barony = {
+				is_holy_site_of = scope:holder.faith
+			}
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.2
+		monthly_dynasty_prestige_mult = 0.05
+		domain_tax_different_faith_mult = 0.15
+		monthly_county_control_growth_factor = 0.05
+	}
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+#######################################
+#        Islamic Buildings	      	  #
+#######################################
 imam_hussain_shrine_01 = {# Imam Hussain Shrine
 	construction_time = very_slow_construction_time
 
@@ -3093,10 +3599,10 @@ imam_hussain_shrine_01 = {# Imam Hussain Shrine
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3140,10 +3646,10 @@ tarikhaneh_mosque_01 = {# Tarikhaneh Mosque
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3187,10 +3693,10 @@ tarikhaneh_mosque_02 = {# Tarikhaneh Mosque
 	}
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3239,10 +3745,10 @@ juma_mosque_shemakha_01 = {# Juma Mosque of Shemakha
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3291,10 +3797,10 @@ jameh_mosque_atigh_01 = {# Jameh Mosque of Atigh
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = duchy_capital
@@ -3345,10 +3851,10 @@ jawatha_mosque_01 = {# Jawatha Mosque
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3399,10 +3905,10 @@ me_old_mosque_basra_01 = {# Old Mosque of Basra
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3453,10 +3959,10 @@ mashad_al_husain_01 = {
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3504,10 +4010,10 @@ monastery_saint_stepanos_01 = {# Monastery of Saint Stepanos
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3552,10 +4058,10 @@ monastery_saint_thaddeus_01 = {# Monastery of Saint Thaddeus
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3599,10 +4105,10 @@ chapel_dzordzor_01 = {# Chapel of Dzordzor
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3650,10 +4156,10 @@ etchmiadzin_cathedral_01 = {# Etchmiadzin Cathedral
 	
 	ai_value = {
 		base = 100
-                modifier = { # Fill all building slots before going for special buildings
-                        factor = 0
-                        free_building_slots > 0
-                }
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
 	}
 	
 	type = special
@@ -3673,3 +4179,55 @@ etchmiadzin_cathedral_01 = {# Etchmiadzin Cathedral
 #######################################
 #        Yazidi Buildings	      	  #
 #######################################
+holy_site_lalish_shrine_01 = {# Shrine of Lalish
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_zoroastric.dds"
+	asset = {
+		type = pdxmesh
+		name = "lalish_mesh"
+	}
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	is_enabled = {
+		custom_description = {
+		text = yazidi_me_building_trigger
+			scope:holder = {
+				religion = religion:yazidi_religion
+			}
+		}
+	}
+	
+	cost_gold = 800
+
+	character_modifier = {
+		monthly_piety = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+		same_faith_opinion = 5
+	}
+	
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth_factor = 0.1
+	}
+	
+	province_modifier = {
+		monthly_income = 0.35
+	}
+	
+	ai_value = {
+		base = 100
+        modifier = { # Fill all building slots before going for special buildings
+        	factor = 0
+            free_building_slots > 0
+        }
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+

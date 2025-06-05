@@ -27,6 +27,10 @@
 }
 4018 = {	#Rivand
 	holding = none
+	867.1.1 = {		
+		special_building_slot = adur_burzen_mhir_01
+		special_building = adur_burzen_mhir_01
+	}
 }
 
 ###c_tus

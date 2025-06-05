@@ -84,7 +84,6 @@ unavailable = {
 	is_available_on_create = { always = no }
 	unavailable_doctrine = { visible = no }
 }
-
 is_sunni_heresy = {# Sunni Heresy for Muzta'lite to reflect their heretical relationship
 	group = "special"
 	
@@ -101,7 +100,6 @@ is_sunni_heresy = {# Sunni Heresy for Muzta'lite to reflect their heretical rela
 		}
 	}
 }
-
 is_ibadi_faith = {# Ibadi faith hostility
 	group = "special"
 	
@@ -146,7 +144,6 @@ mustali_main = { # Added to Isma'ilism to give schism effects
 		}
 	}
 }
-
 mustali_schismed_sect = { # Added to Isma'ili sects to give schism effects
 	group = "special"
 	
@@ -160,14 +157,4 @@ mustali_schismed_sect = { # Added to Isma'ili sects to give schism effects
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
 

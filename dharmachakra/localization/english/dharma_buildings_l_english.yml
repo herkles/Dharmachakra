@@ -384,6 +384,51 @@
  building_type_keshmar_sacred_grove_02_desc:0 "Today the sacred grove of Keshmar has been consecrated and regrown, thanks to the Sarve-e Abarkuh tree. This grove is a tranquil and pleasant place. And while it is not the same tree that Zoroaster is said to have brought from paradise, it does have a calming serene atmosphere to it. A place to reflect on the teachings of Zoroaster and aim for paradise."
  building_keshmar_sacred_grove_02:0 "$building_type_keshmar_sacred_grove_02$"
  building_keshmar_sacred_grove_02_desc:0 "$building_type_keshmar_sacred_grove_02_desc$"
+
+ building_type_mizdarkan_necropolis_01:0 "Mizdarkhan"
+ building_type_mizdarkan_necropolis_01_desc:0 "Mizdarkhan Necropolis has long been a sacred site and a popular place for burial for local lords and rulers. Originally a place with towers of silence as per the Zoroastrian tradition, the coming of Islam has built up there. Locals claim that the burial of Adam is in this great necropolis which has attracted travelers.   "
+ building_mizdarkan_necropolis_01:0 "$building_type_mizdarkan_necropolis_01$"
+ building_mizdarkan_necropolis_01_desc:0 "$building_type_mizdarkan_necropolis_01_desc$"
+
+ building_type_adur_farnbag_temple_01:0 "Adur Farnbag"
+ building_type_adur_farnbag_temple_01_desc:0 "During the time of the Sassanians there were three great fires, also called royal fires, and the temple of Adur Farnbag was one of these royal fire temples. In those days it was where priests were trained. It was said that the fire that burned here came from paradise itself. However with the fall of the Sassanian empire and the rise of Islam, the temple has long fallen into decline. It would take a great amount of work to rebuild it. "
+ building_adur_farnbag_temple_01:0 "$building_type_adur_farnbag_temple_01$"
+ building_adur_farnbag_temple_01_desc:0 "$building_type_adur_farnbag_temple_01_desc$"
+
+ building_type_adur_farnbag_temple_02:0 "Adur Farnbag"
+ building_type_adur_farnbag_temple_02_desc:0 "During the time of the Sassanians there were three great fires, also called royal fires, and the temple of Adur Farnbag was one of these royal fire temples. In those days it was where priests were trained. It was said that the fire that burned here came from paradise itself. With the re-establishment of the Zoroastrian priesthood, this temple has been rebuilt and expanded upon to reflect the glory that it rightfully deserves. "
+ building_adur_farnbag_temple_02:0 "$building_type_adur_farnbag_temple_02$"
+ building_adur_farnbag_temple_02_desc:0 "$building_type_adur_farnbag_temple_02_desc$"
+
+ building_type_adur_burzen_mhir_01:0 "Adur Burzen-mhir"
+ building_type_adur_burzen_mhir_01_desc:0 "During the time of the Sassanians there were three great fires, also called royal fires, and the temple of Adur Burzen-Mihr is one of those role fire temples. It is said that it was at this spot where the great hero Rostam rallied people to his side. It formed one part of the great triad of the Sassanian fire temples. However with the fall of the Sassanian empire it has now fallen into disuse and disrepair. However, it could be restored again."
+ building_adur_burzen_mhir_01:0 "$building_type_adur_burzen_mhir_01$"
+ building_adur_burzen_mhir_01_desc:0 "$building_type_adur_burzen_mhir_01_desc$"
+
+ building_type_adur_burzen_mhir_02:0 "Adur Burzen-mhir"
+ building_type_adur_burzen_mhir_02_desc:0 "During the time of the Sassanians there were three great fires, also called royal fires, and the temple of Adur Burzen-Mihr is one of those role fire temples. It is said that it was at this spot where the great hero Rostam rallied people to his side. It formed one part of the great triad of the Sassanian fire temples. With the re-establishment of the Zoroastrian priesthood, this temple has been rebuilt and expanded upon to reflect the glory that it rightfully deserves. "
+ building_adur_burzen_mhir_02:0 "$building_type_adur_burzen_mhir_02$"
+ building_adur_burzen_mhir_02_desc:0 "$building_type_adur_burzen_mhir_02_desc$"
+
+ building_type_adur_gushnasp_01:0 "Adur Gushnasp"
+ building_type_adur_gushnasp_01_desc:0 "During the time of the Sassanians there were three great fires, also called royal fires, and the temple of Adur Gushnasp is one of those role fire temples. The fire is said to have come from paradise. During the Sassanian period, it attracted much royal patronage and support. It was said that after being crowned that even the great king of kings would walk barefoot to this temple to pay their respects. However with the fall of the Sassanian empire, the temple has fallen into disrepair and ruin, though the fire still burns. "
+ building_adur_gushnasp_01:0 "$building_type_adur_gushnasp_01$"
+ building_adur_gushnasp_01_desc:0 "$building_type_adur_gushnasp_01_desc$"
+
+ building_type_adur_gushnasp_02:0 "Adur Gushnasp"
+ building_type_adur_gushnasp_02_desc:0 "During the time of the Sassanians there were three great fires, also called royal fires, and the temple of Adur Gushnasp is one of those role fire temples. The fire is said to have come from paradise. During the Sassanian period, it attracted much royal patronage and support. It was said that after being crowned that even the great king of kings would walk barefoot to this temple to pay their respects. With the re-establishment of the Zoroastrian priesthood, this temple has been rebuilt and expanded upon to reflect the glory that it rightfully deserves. "
+ building_adur_gushnasp_02:0 "$building_type_adur_gushnasp_02$"
+ building_adur_gushnasp_02_desc:0 "$building_type_adur_gushnasp_02_desc$"
+
+ building_type_tarikhaneh_fire_temple_01:0 "Tarikhaneh Fire Temple"
+ building_type_tarikhaneh_fire_temple_01_desc:0 "The Tarikhaneh Fire temple has been restored to glory, converting one of the oldest mosques back into a Zoroastrian temple. However the mosque's architecture did leave a mark, and it follows a similar syncretic style of design mixing in ancient styles with the newly emerged styles of Persia to create something new. Helping to support the local community, the temple itself has a qanat to help keep water safe."
+ building_tarikhaneh_fire_temple_01:0 "$building_type_tarikhaneh_fire_temple_01$"
+ building_tarikhaneh_fire_temple_01_desc:0 "$building_type_tarikhaneh_fire_temple_01_desc$"
+
+ building_type_atash_e_bahram_01:0 "Atash-e Bahram"
+ building_type_atash_e_bahram_01_desc:0 "The Atas-e Bahram, also known simply as Atash Behram, is the central fire temple in the city of Yazd. The city is an ancient city and it has grown into a prominent city during the time of the Sassanian empire. Following the muslim conquest of the Sassanian empire, the city of Yazd became a refuge for Zoroastrian. With the recent expansion, the ancient fire has been protected and the complex has been expanded, giving pilgrims coming to Yazd and the nearby pirs a place to worship."
+ building_atash_e_bahram_01:0 "$building_type_atash_e_bahram_01$"
+ building_atash_e_bahram_01_desc:0 "$building_type_atash_e_bahram_01_desc$"
 # Islamic Buildings
  holy_site_lalish_shrine_01:0 "Yazidi Shrine of Lalish"
  building_type_holy_site_lalish_shrine_01:0 "Yazidi Shrine of Lalish"
@@ -397,12 +442,13 @@
  building_imam_hussain_shrine_01_desc:0 "$building_type_imam_hussain_shrine_01_desc$"
 
 
- building_type_tarikhaneh_mosque_01:0 "Tarikhaneh"
- building_type_tarikhaneh_mosque_01_desc:0 "#F The Tarikhaneh Fire Temple is a site that finds it's origins in the days of the mighty Sassanid Empire, the world's strongest Zoroastrian power. It lies now as a remnant of the former glory of Zoroastrianism. Such a significant site may attract Islamic rulers who would take an interest in converting it...#!"
+ building_type_tarikhaneh_mosque_01:0 "Tarikhaneh Mosque"
+ building_type_tarikhaneh_mosque_01_desc:0 "Built on what used to be a fire temple of Zoroastrian past, the Tarikhaneh mosque is emblematic of the artistic style that has developed as Islam has come to the land of the Iranians, drawing on both Sasanian and traditional Islamic architecture. It is thus one of the oldest mosques in Persia."
  building_tarikhaneh_mosque_01:0 "$building_type_tarikhaneh_mosque_01$ Fire Temple Ruins"
  building_tarikhaneh_mosque_01_desc:0 "$building_type_tarikhaneh_mosque_01_desc$"
+ 
  building_tarikhaneh_mosque_02:0 "$building_type_tarikhaneh_mosque_01$ Mosque"
- building_tarikhaneh_mosque_02_desc:0 "The Tarikhaneh Mosque, previously the Tarikhaneh Fire Temple, has come upon a new height of glory, being revitalized by Islamic rulers and seeing the most prosperous years in its history since it's Zoroastrian past. It shines as a symbol of Muslim domination of Persia."
+ building_tarikhaneh_mosque_02_desc:0 "The Tarikhaneh Mosque has been expanded upon and built upon, notably with a minaret that stretches over 30 meters into the sky. The expansion further allows more worshipers to come and pray. Helping to support the local community, the mosque itself has a qanat to help keep water safe."
 
  juma_mosque_shemakha_01:0 "Juma Mosque of Shemakha" 
  building_type_juma_mosque_shemakha_01:0 "Juma Mosque of Shemakha"

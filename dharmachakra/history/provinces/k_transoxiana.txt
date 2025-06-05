@@ -740,6 +740,10 @@
 }
 4461 = {	#Mizdahqan
 	holding = city_holding
+	867.1.1 = {		
+		special_building_slot = mizdarkan_necropolis_01
+		special_building = mizdarkan_necropolis_01
+	}
 }
 4462 = {	#North Kurdar
 	holding = none

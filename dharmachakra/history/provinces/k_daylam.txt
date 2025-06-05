@@ -284,6 +284,10 @@
 	culture = kurdish
 	religion = kitebacilweism
 	holding = castle_holding
+	867.1.1 = {		
+		special_building_slot = adur_gushnasp_01
+		special_building = adur_gushnasp_01
+	}
 }
 4770 = {	#Ushnuya
 	holding = none

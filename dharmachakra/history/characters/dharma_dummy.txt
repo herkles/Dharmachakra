@@ -1,0 +1,50 @@
+﻿# File is to try and clear the error log of coat of arm messages.
+dharma_dummy_01 = {# Dummy Ziyadi
+	name = "Ziyad"
+	dynasty = 1042165 # Ziyadi
+	religion = "ashari"
+	culture = "bedouin"
+	1500.1.1 = {
+		birth = yes
+	}
+	1550.1.1 = {
+		death = yes
+	}
+}
+dharma_dummy_02 = {# Dummy Ukhaidhirid
+	name = "Muhammad"
+	dynasty = 1056 # Ukhaidhirid
+	religion = "ashari"
+	culture = "bedouin"
+	1500.1.1 = {
+		birth = yes
+	}
+	1550.1.1 = {
+		death = yes
+	}
+}
+dharma_dummy_03 = {# Dummy dynn_Azd_Umanid
+	name = "Muhammad"
+	dynasty = 1042181 # dynn_Azd_Umanid
+	religion = "ashari"
+	culture = "bedouin"
+	1500.1.1 = {
+		birth = yes
+	}
+	1550.1.1 = {
+		death = yes
+	}
+}
+dharma_dummy_04 = {# Dummy dynn_Banu_Tayy
+	name = "Muhammad"
+	dynasty = 1042117 # dynn_Banu_Tayy
+	religion = "ashari"
+	culture = "bedouin"
+	1500.1.1 = {
+		birth = yes
+	}
+	1550.1.1 = {
+		death = yes
+	}
+}
+

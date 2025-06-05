@@ -883,3 +883,14 @@ keshmar_afridunism = {
 		county_opinion_add = 10
 	}
 }
+
+ctesiphon_mazdayasna = {# If turned into a holy site after rebuilt by mainstream zoroastrian 
+	county = c_baghdad
+	barony = b_an-nahrawan
+
+	character_modifier = {
+		name = holy_site_ctesiphon_mazdayasna_effect_name
+		monthly_prestige_gain_mult = 0.1
+		learning = 1
+	}
+}

@@ -37,6 +37,23 @@ dharma_zoro.002 = {# Building the Haft-sin
 	title = dharma_zoro.002.t
 	desc = {
 		first_valid = {
+			triggered_desc = {# no wine
+				trigger = { 
+					OR = {
+						religion = religion:islam_religion 
+						faith = faith:zurvanism 
+						faith = faith:khurramism 
+						religion = religion:yazidi_religion 
+						religion = religion:dualism_religion 
+						religion = religion:jainism_religion
+						religion = religion:manichean_religion 
+						religion = religion:buddhism_religion 
+						faith = faith:harranian_pagan 
+						faith = { has_doctrine = tenet_islamic_syncretism } # if you have islamic syncretism then you default to this
+					}				
+				}
+				desc = dharma_zoro.002.no_wine.desc
+			}
 			triggered_desc = {# wine
 				trigger = { 
 					OR = {
@@ -51,26 +68,14 @@ dharma_zoro.002 = {# Building the Haft-sin
 						faith = faith:south_arabian_pagan 
 						faith = faith:shamsi_pagan 
 						faith = faith:south_mesopotamian_pagan 
+						religion = { is_in_family = rf_eastern }
+						religion = { is_in_family = rf_abrahamic }
+						religion = { is_in_family = rf_pagan }
 					}				
 				}
 				desc = dharma_zoro.002.wine.desc
 			}
-			triggered_desc = {# no wine
-				trigger = { 
-					OR = {
-						religion = religion:islam_religion 
-						faith = faith:zurvanism 
-						religion = religion:yazidi_religion 
-						religion = religion:dualism_religion 
-						religion = religion:jainism_religion
-						religion = religion:manichean_religion 
-						religion = religion:manichean_religion 
-						faith = faith:harranian_pagan 
-						faith = { has_doctrine = tenet_islamic_syncretism } # if you have islamic syncretism then you default to this
-					}				
-				}
-				desc = dharma_zoro.002.no_wine.desc
-			}
+
 		}
 	}
 	theme = feast_activity
@@ -640,6 +645,23 @@ dharma_zoro.021 = {# Setting up a display for Mehregan
 	title = dharma_zoro.021.t
 	desc = {
 		first_valid = {
+			triggered_desc = {# no wine
+				trigger = { 
+					OR = {
+						religion = religion:islam_religion 
+						faith = faith:zurvanism 
+						faith = faith:khurramism 
+						religion = religion:yazidi_religion 
+						religion = religion:dualism_religion 
+						religion = religion:jainism_religion
+						religion = religion:manichean_religion 
+						religion = religion:buddhism_religion 
+						faith = faith:harranian_pagan 
+						faith = { has_doctrine = tenet_islamic_syncretism } # if you have islamic syncretism then you default to this
+					}				
+				}
+				desc = dharma_zoro.021.no_wine.desc
+			}
 			triggered_desc = {# wine
 				trigger = { 
 					OR = {
@@ -654,26 +676,14 @@ dharma_zoro.021 = {# Setting up a display for Mehregan
 						faith = faith:south_arabian_pagan 
 						faith = faith:shamsi_pagan 
 						faith = faith:south_mesopotamian_pagan 
+						religion = { is_in_family = rf_eastern }
+						religion = { is_in_family = rf_abrahamic }
+						religion = { is_in_family = rf_pagan }
 					}				
 				}
 				desc = dharma_zoro.021.wine.desc
 			}
-			triggered_desc = {# no wine
-				trigger = { 
-					OR = {
-						religion = religion:islam_religion 
-						faith = faith:zurvanism 
-						religion = religion:yazidi_religion 
-						religion = religion:dualism_religion 
-						religion = religion:jainism_religion
-						religion = religion:manichean_religion 
-						religion = religion:manichean_religion 
-						faith = faith:harranian_pagan 
-						faith = { has_doctrine = tenet_islamic_syncretism } # if you have islamic syncretism then you default to this
-					}				
-				}
-				desc = dharma_zoro.021.no_wine.desc
-			}
+
 		}
 	}
 	theme = feast_activity
@@ -986,6 +996,7 @@ dharma_zoro.030 = {# Planting the sacred tree
 				set_holding_type = church_holding
 			}
 		}
+		remove_short_term_gold = medium_gold_value # as you are turning it into a holy site
 		scope:keshmar_tree = {# add the special building
 			hidden_effect = { add_special_building_slot = keshmar_sacred_grove_02 }
 			add_special_building = keshmar_sacred_grove_02					
@@ -1327,10 +1338,10 @@ dharma_zoro.042 = {# Destroy a heretical Cult center
 			limit = {
 				faith = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
 			}
-			custom_tooltip = RICE_khwarezm_destroy_cult_center_first_person_sassanian_tooltip
+			custom_tooltip = dharma_zoro_destroy_cult_center_first_person_sassanian_tooltip
 		}
 		else = {
-			custom_tooltip = RICE_khwarezm_destroy_cult_center_first_person_normal_tooltip
+			custom_tooltip = dharma_zoro_destroy_cult_center_first_person_normal_tooltip
 		}
 	}
 
@@ -1392,10 +1403,10 @@ dharma_zoro.043 = {# Notification for everyone4
 			limit = {
 				faith = { has_doctrine = rice_zoroastrian_sassanian_doctrine }
 			}
-			custom_tooltip = RICE_khwarezm_destroy_cult_center_third_person_sassanian_tooltip
+			custom_tooltip = dharma_zoro_destroy_cult_center_third_person_sassanian_tooltip
 		}
 		else = {
-			custom_tooltip = RICE_khwarezm_destroy_cult_center_third_person_normal_tooltip
+			custom_tooltip = dharma_zoro_destroy_cult_center_third_person_normal_tooltip
 		}
 	}
 	
@@ -1412,6 +1423,84 @@ dharma_zoro.043 = {# Notification for everyone4
 
 }
 ######################################
+#  Converting the tarikhaneh Mosque  #
+######################################
+dharma_zoro.050 = {# Converting the Mosque
+	type = character_event
+	title = dharma_zoro.050.t
+	desc = dharma_zoro.050.desc
+	theme = faith
+	override_background = {
+		reference = tibetan_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+
+	}
+
+	option = {# Convert the mosque
+		name = dharma_zoro.050.convert
+		if = {# Convert the Mosque
+			limit = {
+				title:b_damghan.title_province = { has_building = tarikhaneh_mosque_01 }
+			}
+			title:b_damghan.title_province = { remove_building = tarikhaneh_mosque_01 }
+			remove_short_term_gold = medium_gold_value # cheaper as it hasn't been converted yet
+
+		}
+		else_if = {# Convert the Mosque(if it is updated version)
+			limit = {
+				title:b_damghan.title_province = { has_building = tarikhaneh_mosque_02 }
+			}
+			title:b_damghan.title_province = { remove_building = tarikhaneh_mosque_02 }
+			remove_short_term_gold = medium_gold_value # more expensive as it has been upgraded.
+		}
+		# Next make your muslim vassals, courtiers and guests not like you for this
+		every_vassal = {# Vassals mad
+			limit = {
+				religion = religion:islam_religion 
+			}
+			custom = dharma_zoro.050.convert.vassals
+			add_opinion = {
+				target = root
+				opinion = -20
+				modifier = converted_tarikhaneh_opinion
+			}
+		}
+		every_courtier_or_guest = {# Courtiers and guests mad
+			limit = {
+				religion = religion:islam_religion 
+			}
+			custom = dharma_zoro.050.convert.courtiers
+			add_opinion = {
+				target = root
+				opinion = -20
+				modifier = converted_tarikhaneh_opinion
+			}
+		}
+	}
+
+	after = {
+
+	}
+}
+######################################
 #       General Flavor Events        #
 ######################################
 
+######################################
+#       General Flavor Events        #
+######################################
+
+######################################
+#       General Flavor Events        #
+######################################
+
+######################################
+#       General Flavor Events        #
+######################################
