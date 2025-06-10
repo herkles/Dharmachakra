@@ -51,32 +51,7 @@ dharma_setup_after_game_start_on_actions = {
 			deactivate_holy_site = ctesiphon_mazdayasna
 			
 		}
-		# faith:zurvanism = {
-		# 	deactivate_holy_site = keshmar_zurvanism
-		# }		
-		# faith:gayomarthianism = {
-		# 	deactivate_holy_site = keshmar_gayomarthianism
-		# }		
-		# faith:khurmazta = {
-		# 	deactivate_holy_site = keshmar_khurmazta
-		# }		
-		# faith:mazdakism = {
-		# 	deactivate_holy_site = keshmar_mazdakism
-		# }		
-		# faith:khurramism = {
-		# 	deactivate_holy_site = keshmar_khurramism
-		# }		
-		# faith:urartuism = {
-		# 	deactivate_holy_site = keshmar_urartuism
-		# }		
-		# faith:afridunism = {
-		# 	deactivate_holy_site = keshmar_afridunism
-		# }
-		# Commenting out for now till I can figure this out.		
-		# title:b_keshmar.title_province = {# making sure that there is no fire temple there. 
-		# 	add_building = holy_site_fire_temple_01
-		# 	remove_building = holy_site_fire_temple_01 
-		# } 		
+
 		# Title stuff
 		if = {# getting Zun on the map in 867
 			limit = {

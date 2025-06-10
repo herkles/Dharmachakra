@@ -111,6 +111,22 @@
   dharma_zoro.030.holy_site:0 "Dedicate this temple as a pilgrimage spot!"
   dharma_kashmer_holy_site_desc:0 "Keshmar will become a holy site for Zoroastrian faiths."
 
+  dharma_zoro.031.t:0 "Revenge on Baghdad"
+  dharma_zoro.031.desc:0 "In 861, the caliph Al-Mutawakkil destroyed the sacred cypress of Kashmar. A tree that was planted by the prophet Zoroaster himself, sprung from a branch that came from paradise. Despite the people pleading with the Caliph he still destroyed the sacred tree./n/nNow however, we have captured the city of Baghdad. The city which the sacred tree was destroyed to help build. The question is of course what to do. What sort of revenge shall we deliver."
+  dharma_zoro.031.burn:0 "Burn the palace!"
+  dharma_zoro.031.burn.vassals_zoro:0 "Zealous Zoroastrian vassals are happy that you taking revenge."
+  dharma_zoro.031.burn.courtiers_zoro:0 "Zealous Zoroastrian courtiers are happy that you taking revenge."
+  dharma_zoro.031.burn.vassals:0 "Your muslim vassals are angry that you are sacking the palace"
+  dharma_zoro.031.burn.courtiers:0 "Your muslim vassals are angry that you are sacking the palace"
+
+  dharma_zoro.031.garden:0 "Convert it to a sacred royal garden."
+
+  dharma_zoro.031.keep:0 "The best revenge is that we have conquered them!"
+  dharma_zoro.031.keep.vassals_zoro:0 "Zealous Zoroastrians vassals are mad that you are not taking revenge for the destruction"
+  dharma_zoro.031.keep.courtiers_zoro:0 "Zealous Zoroastrians courtiers are mad that you are not taking revenge for the destruction"
+  dharma_zoro.031.keep.vassals:0 "Your muslim vassals are happy that you are not sacking the palace."
+  dharma_zoro.031.keep.courtiers:0 "Your muslim courtiers are happy that you are not sacking the palace."
+
 # Worship the Yazata
   dharma_zoro.040.t:0 "Worshiping the Yazatas"
   dharma_zoro.040.desc.intro:0 "I have arrived at a [ROOT.Char.GetFaith.HouseOfWorship] to partake in the [ROOT.Char.GetFaith.GetAdjective] worship ritual.\n\nToday, I worship"
@@ -164,6 +180,7 @@
   dharma_zoro.041.desc.zaden:0 "Zaden, the Yazata of Fruitfulness."
   dharma_zoro.041.desc.conclusion:0 "\n\nI have decided that [capital.GetNameNoTierNoTooltip] should be transformed into a major cult center for this Yazata. Local resources will be redirected towards building religious structures, bringing in [ROOT.Char.Custom('DefaultPriestTitlePlural')] and artisans, and, overall, doing what we can to ensure that [capital.GetNameNoTierNoTooltip] becomes a bastion of [ROOT.Char.GetFaith.GetName].\n\nIn doing so, [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] far and wide can come here to worship this divinity who, indeed, is worthy of worship."
   dharma_zoro.041.a:0 "A great sanctuary for a great Yazata!"
+
 # Destroy a cult site
   dharma_zoro.042.t:0 "Destroying the Cult Centers"
   dharma_zoro.042.desc.intro:0 "A number of places in my realm are home to [zoroastrianism.GetAdjective] cult centers, where those who believe in [zoroastrianism.GetNameNoTooltip] come to worship and pray to their so-called Yazatas, who are nothing more than false idols.\n\n"
@@ -179,6 +196,7 @@
   dharma_zoro.043.desc.conclusion:0 "\n\nAs such, [RICE_yazata_cult_destroyer.GetFirstNameNoTooltip] has given the order for offending cult centers in [RICE_yazata_cult_destroyer.GetHerHis] realm to be essentially destroyed. Any religious structures will be dismantled and their riches looted, and locals will be forbidden from engaging in illicit, unorthodox religious practices from here on out."
   dharma_zoro.043.a.cult:0 "This is a dark day…."
   dharma_zoro.043.a.not_cult:0 "Interesting to hear…."
+
 # Convert the Mosque
   dharma_zoro.050.t:0 "Rekindling the Tarikhaneh Flames"
   dharma_zoro.050.desc:0 "When Islam came to the land, not all fire temples were destroyed or left for time to wear them down. Some were converted to mosques like the Tarikhaneh mosque was. Making it one of the oldest mosques in the region. However, today that is no more. Today we have decided to restore it to its original purpose as a holy temple, a holy Zoroastrian temple. Today the fires dedicated to Ahura Mazda burn bright once more."
@@ -188,6 +206,12 @@
   converted_tarikhaneh_opinion:0 "angry at the conversion of the Tarikhaneh Mosque"
 
 
+# Islamic Succession
+  dharma_zoro.060.t:0 "The fate of the movement"
+  dharma_zoro.060.behafadist.desc:0 "Our movement from since Behafarid and Ustadh sis rose in revolt against the cursed Abbasids has had many similarities with our muslims. Now that we have achieved victory, now that we have restored Persia. What is to become of our movement?."
+  dharma_zoro.060.khurramist.desc:0 "Wfad."
+  dharma_zoro.060.struggle:0 "There are some things we can learn."
+  dharma_zoro.060.resistance:0 "We have achieved victory on our terms."
 
 
 

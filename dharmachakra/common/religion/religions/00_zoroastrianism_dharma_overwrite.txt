@@ -230,7 +230,7 @@
 	}
 
 	faiths = {
-		mazdayasna = {
+		mazdayasna = {# Mazdayasna - Mainstream Zoroastrianism
 			color = { 0.8 0.5 0 }
 			icon = zoroastrian
 			religious_head = d_mazdayasna #actually The Magi
@@ -250,13 +250,18 @@
 			holy_site = mount_damavand # mythical Feyodan and chaining of Zahak
 
 			# In active at game start Holy Sites Things to declare later on
-			#holy_site = keshmar_mazdayasna # Sacred tree of Cypress
 			holy_site = ctesiphon_mazdayasna # the ancient capital; if rebuilt can declare it a holy site. 
 
-			doctrine = tenet_divine_marriage
+			# Tenets
+			# Communal identity: The religion is tied to the iranic people, and in India it was close related to the Parsi
+			# Ritual Celebrations: For all the celebrations and festivals
+			# Legalism: Reflecting the Zoroastrian hirearchy after muslim conquests
+
+			doctrine = tenet_legalism
 			doctrine = tenet_communal_identity
 			doctrine = tenet_ritual_celebrations
 
+			# Doctrines 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_consanguinity_unrestricted
 
@@ -264,7 +269,7 @@
 			doctrine = rice_zoroastrian_sassanian_doctrine
 			doctrine = doctrine_major_branch_behdin 
 		}
-		zurvanism = { # Actually Behafaridism
+		zurvanism = {# Behafaridism - Syncretic Zoroastrianism and Islamic movement
 			color = { 0.6 0.7 0.2 }
 			icon = zurvanism
 			religious_head = d_zurvanism
@@ -283,11 +288,16 @@
 			holy_site = nishapur # Birthplace of Behafardi
 
 			# In active Holy sites at the state
-			#holy_site = keshmar_zurvanism # not active at the start.
 
-			doctrine = tenet_reincarnation 
-			doctrine = tenet_communal_identity
+			# Tenets
+			# Islamic Syncretism - they were an Islamic/Zoroastrian syncretic faith
+			# Sun Worship - They prayed towards the sun.
+			# Unrelenting Faith - they lead several revolts
+
 			doctrine = tenet_islamic_syncretism
+			doctrine = tenet_sun_worship
+			doctrine = tenet_unrelenting_faith
+
 
 			doctrine = doctrine_polygamy
 			doctrine = doctrine_clerical_function_alms_and_pacification
@@ -300,7 +310,7 @@
 			doctrine = rice_zoroastrian_no_yazatas_doctrine
 
 		}
-		gayomarthianism = {
+		gayomarthianism = {# Gayomartianism Esoteric Zoroastrianism
 			color = { 0.8 0.6 0.2 }
 			icon = gayomarthianism
 			religious_head = d_mazdayasna
@@ -319,10 +329,14 @@
 			holy_site = mount_damavand # mythical Feyodan and chaining of Zahak
 
 			# In active Holy sites at the state
-			#holy_site = keshmar_gayomarthianism # not active at the start.
+
+			# Tenets
+			# Ritual Celebrations: For all the Zoroastrian Celebrations
+			# Esotericism: As it is an estoric path to find the truth
+			# Astrology: For the divination of the stars.
 
 			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_communal_identity
+			doctrine = tenet_esotericism
 			doctrine = tenet_astrology
 
 			doctrine = doctrine_witchcraft_shunned
@@ -332,31 +346,34 @@
 			doctrine = rice_zoroastrian_sassanian_doctrine
 			doctrine = doctrine_major_branch_behdin 
 		}
-		khurmazta = {
+		khurmazta = {# Khurmazta - Central Asian / Silk Road Zoroastrianism
 			color = { 0.8 0.6 0.1 }
 			icon = khurmazta
 			religious_head = d_mazdayasna
-
 
 			# Holy Sites
 			# The three sacred sassanian temples of Adur Farnbarg, Adur Burzen Mihr, Adur Gushnasp
 			# Balkh as it is the birthplace of Zoraster
 			# Mizdahqan for the sacred Necropolis
-			# Dunhaung for the silk road zoroastrian site
-
+			# Samarkand for the silk road zoroastrian site
+			
 			holy_site = adur_farnbag # Sacred Sassanian Fire temple
 			holy_site = adur_burzen_mihr # Sacred Sassanian Fire temple
 			holy_site = takht-e_soleyman # actually Adur Gushnasp the third of the sacred fire temples
 			holy_site = balkh # Birthplace of Zoroaster according to legend
 			holy_site = mizdahqan # for the sacred Necropolis
-			holy_site = dunhuang # Dunhaung for the silk road community
+			holy_site = samarkand # Dunhaung for the silk road community
 
 			# In active Holy sites at the state
-			#holy_site = keshmar_khurmazta # not active at the start.
-	
+
+			# Tenets
+			# Adapative: Adaptive to the regions of the Silk Road
+			# Legalism: Kept to many traditions of the Zoroastrian community
+			# Hospitality: Hospitality is important along the silk road
+
 			doctrine = tenet_adaptive	
-			doctrine = tenet_ancestor_worship 
-			doctrine = tenet_communal_identity
+			doctrine = tenet_legalism 
+			doctrine = tenet_ritual_hospitality
 
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_pluralism_pluralistic
@@ -392,7 +409,7 @@
 				}
 			}
 		}
-		mazdakism = {
+		mazdakism = {# Mazdakism - The teachings of the Sassanian prophet Mazdak
 			color = { 0.8 0.7 0.3 }
 			icon = mazdakism
 			religious_head = d_mazdakism
@@ -411,10 +428,14 @@
 			holy_site = mount_damavand # mythical Feyodan and chaining of Zahak
 
 			# In active Holy sites at the state
-			#holy_site = keshmar_mazdakism # not active at the start.
+
+			# Tenets
+			# Communal Possesion: They are said to have communal Possessions
+			# Pacifism: They were pacifists. 
+			# Esotericism: They were estoricism movement
 
 			doctrine = tenet_communal_possessions
-			doctrine = tenet_gnosticism 
+			doctrine = tenet_esotericism 
 			doctrine = tenet_pacifism #FP3 note: similar to other gnostic faiths in this regard. A strong case could be made for Esotericism or Asceticism instead, but the faith also had a hedonistic bent that contrasted with the Asceticism of some upper-class people. Pacifism seem to be the best fit. 
 			
 			doctrine = doctrine_polygamy #FP3 note: group marriage claims could bear more investigation, but seem reasonable accurate 
@@ -428,7 +449,7 @@
 			doctrine = doctrine_heretic_branch_zandik
 
 		}
-		khurramism = {
+		khurramism = {# Khurramites - Zoroastrian and Islamic Syncretized rebels against the caliph
 			color = { 1 0.3 0 }
 			icon = khurramism
 			religious_head = d_khurramism
@@ -447,7 +468,11 @@
 			holy_site = mount_damavand # mythical Feyodan and chaining of Zahak
 
 			# In active Holy sites at the state
-			#holy_site = keshmar_khurramism # not active at the start.
+
+			# Tenets
+			# Unrelenting Faith: Lead revolts
+			# Reincarnation: They believed in reincarnation
+			# Islamic Syncretism: They incorporated some islamic influences, including shia ones and are sometimes thought of as a sect of islam. 
 
 			doctrine = tenet_unrelenting_faith 
 			doctrine = tenet_reincarnation
@@ -474,7 +499,7 @@
 				{ name = "holy_order_red_wearing_ones" }
 			}
 		}
-		urartuism = { #Arewordik 
+		urartuism = {# Arewordik - Armenian Zoroastrianism
 			color = { 1 0.9 0.5 }
 			icon = urartuism
 			religious_head = d_urartuism
@@ -493,12 +518,17 @@
 			holy_site = ani
 
 			# In active Holy sites at the state
-			#holy_site = keshmar_urartuism # not active at the start.
 
-			doctrine = tenet_false_conversion_sanction
+			# Tenets
+			# Communal Idenetity: Tied to the Armenian People. 
+			# Christian Syncretism: After christianity was introduced to Armenia, there was syncretism with Christianity.
+			# Cthonic Redoubts: Tied to the various Armenian Mountains.
+
 			doctrine = tenet_communal_identity
-			doctrine = tenet_christian_syncretism 
+			doctrine = tenet_christian_syncretism
+			doctrine = tenet_cthonic_redoubts
 
+			# Doctrines
 			doctrine = doctrine_homosexuality_shunned
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_spiritual_head
@@ -531,7 +561,7 @@
 				PriestNeuterPlural = urartuism_priest_male_plural
 			}
 		}
-		afridunism = { #Afridunism, Daylamite folk religion 
+		afridunism = {# Faridunism - Daylamite folk religion 
 			color = { 0.1 0.7 0.2 }
 			icon = afridunism
 
@@ -550,11 +580,15 @@
 			holy_site = mount_damavand # mythical Feyodan and chaining of Zahak
 
 			# In active at game start Holy Sites Things to declare later on
-			#holy_site = keshmar_afridunism # Sacred tree of Cypress
 
+			# Tenets
+			# Cthonic Redoubts: Based around the Tabriz Mountains
+			# Communal Identity: Tied to the various Daylamites
+			# Unrelenting Faith: Holding off invaders
+
+			doctrine = tenet_cthonic_redoubts
+			doctrine = tenet_communal_identity
 			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_unreformed_syncretism
-			doctrine = tenet_ritual_hospitality
 
 			doctrine = doctrine_homosexuality_shunned
 			doctrine = doctrine_pluralism_pluralistic

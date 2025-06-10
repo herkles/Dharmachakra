@@ -1002,36 +1002,169 @@ dharma_zoro.030 = {# Planting the sacred tree
 			add_special_building = keshmar_sacred_grove_02					
 		}
 	}
-	option = {# tree + great fire temple(holy site)
-		name = dharma_zoro.030.holy_site
-		scope:keshmar_tree = {# make the holding a temple if not temple
-			if = {
-				limit = {
-					NOT = { has_holding_type = church_holding }
+}
+dharma_zoro.031 = {# Control Baghdad, take revenge, yes or no
+	type = character_event
+	title = dharma_zoro.031.t
+	desc = dharma_zoro.031.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		religion = religion:zoroastrianism_religion # Open to any Zoroastrian
+		completely_controls = title:c_baghdad # controls Baghdad
+		is_at_war = no # After the war.
+		is_landed = yes # Obviously got to hold power.	
+		NOT = { 
+			has_global_variable = dharma_zoro_kashmar_revenge
+		}
+
+	}
+
+	immediate = {
+		set_global_variable = {# can only happen once.
+			name = dharma_zoro_kashmar_revenge
+			value = yes
+		}
+		title:c_baghdad = { save_scope_as = baghdad_county }
+
+	}
+
+	option = {# Revenge Burn down the Palace
+		name = dharma_zoro.031.burn
+		scope:baghdad_county = {# You sack the palace and the city
+			change_county_control = -10
+			change_development_progress = medium_development_progress_loss
+
+		}
+		root.capital_county = {# Bring the bounty back to your capital
+			change_development_progress = minor_development_progress_gain
+		} 
+
+		# Your zealous Zoroastrian members of court are  happy you have taken revenge on baghdad		
+		every_vassal = {# Vassals pleased
+			limit = {
+				AND = {
+					has_vassal_stance = zealot
+					religion = religion:zoroastrianism_religion
 				}
-				set_holding_type = church_holding
+			}
+			custom = dharma_zoro.031.burn.vassals_zoro
+			add_opinion = {
+				target = root
+				opinion = 15
+				modifier = pleased_opinion
 			}
 		}
-		remove_short_term_gold = major_gold_value # as you are turning it into a holy site
-		scope:keshmar_tree = {# add the special building
-			hidden_effect = { add_special_building_slot = keshmar_sacred_grove_02 }
-			add_special_building = keshmar_sacred_grove_02					
+		every_courtier_or_guest = {# Courtiers and Guests pleased
+			limit = {
+				AND = {
+					has_vassal_stance = zealot
+					religion = religion:zoroastrianism_religion
+				}
+			}
+			custom = dharma_zoro.031.burn.courtiers_zoro
+			add_opinion = {
+				target = root
+				opinion = 15
+				modifier = pleased_opinion
+			}
 		}
-		custom_tooltip = dharma_kashmer_holy_site_desc
-		hidden_effect = {# All Zoroastrian faiths get it as a holy site
-			faith:mazdayasna = { activate_holy_site = keshmar_mazdayasna }
-			faith:zurvanism = {	activate_holy_site = keshmar_zurvanism }
-			faith:gayomarthianism = { activate_holy_site = keshmar_gayomarthianism }
-			faith:khurmazta = {	activate_holy_site = keshmar_khurmazta }
-			faith:mazdakism = {	activate_holy_site = keshmar_mazdakism }
-			faith:khurramism = { activate_holy_site = keshmar_khurramism }
-			faith:urartuism = {	activate_holy_site = keshmar_urartuism }
-			faith:afridunism = { activate_holy_site = keshmar_afridunism }
+		# Your muslim members of court are happy you haven't taken revenge on baghdad		
+		every_vassal = {# Vassals are angry
+			limit = {
+				religion = religion:islam_religion 
+			}
+			custom = dharma_zoro.031.burn.vassals
+			add_opinion = {
+				target = root
+				opinion = -20
+				modifier = angry_opinion
+			}
+		}
+		every_courtier_or_guest = {# Courtiers and Guests are angry
+			limit = {
+				religion = religion:islam_religion 
+			}
+			custom = dharma_zoro.031.burn.courtiers
+			add_opinion = {
+				target = root
+				opinion = -20
+				modifier = angry_opinion
+			}
+		}
+	}
+	option = {# Turn the area into a Garden.
+		name = dharma_zoro.031.garden
+		title:b_baghdad.title_province = { add_building = royal_garden_01 }
+		scope:baghdad_county = { change_county_control = 5 } # People are pleased you are not turning it to a fire temple
+		remove_short_term_gold = medium_gold_value
+	}
+	option = {# Keep the Palace, it is useful.
+		name = dharma_zoro.031.keep
+		scope:baghdad_county = { change_county_control = 15 } # You aren't changing the city
+		# Your zealous Zoroastrian members of court are not happy you haven't taken revenge on baghdad		
+		every_vassal = {# Vassals pleased
+			limit = {
+				AND = {
+					has_vassal_stance = zealot
+					religion = religion:zoroastrianism_religion
+				}
+			}
+			custom = dharma_zoro.031.keep.vassals_zoro
+			add_opinion = {
+				target = root
+				opinion = -10
+				modifier = disapproval_opinion
+			}
+		}
+		every_courtier_or_guest = {# Courtiers and Guests pleased
+			limit = {
+				AND = {
+					has_vassal_stance = zealot
+					religion = religion:zoroastrianism_religion
+				}
+			}
+			custom = dharma_zoro.031.keep.courtiers_zoro
+			add_opinion = {
+				target = root
+				opinion = -10
+				modifier = disapproval_opinion
+			}
+		}
+		# Your muslim members of court are happy you haven't taken revenge on baghdad		
+		every_vassal = {# Vassals pleased
+			limit = {
+				religion = religion:islam_religion 
+			}
+			custom = dharma_zoro.031.keep.vassals
+			add_opinion = {
+				target = root
+				opinion = 10
+				modifier = pleased_opinion
+			}
+		}
+		every_courtier_or_guest = {# Courtiers and Guests pleased
+			limit = {
+				religion = religion:islam_religion 
+			}
+			custom = dharma_zoro.031.keep.courtiers
+			add_opinion = {
+				target = root
+				opinion = 10
+				modifier = pleased_opinion
+			}
 		}
 	}
 }
 ######################################
-#	      Worship the Yazata         #
+#       Zoroastrian Worship          #
 ######################################
 dharma_zoro.040 = {# Worship the Yazata
 	type = character_event
@@ -1182,9 +1315,6 @@ dharma_zoro.040 = {# Worship the Yazata
 	}
 
 }
-######################################
-#	     Set up Cult center		     #
-######################################
 dharma_zoro.041 = {# Establish a cultic center for a Yazata
 	type = character_event
 	title = dharma_zoro.041.t
@@ -1297,9 +1427,6 @@ dharma_zoro.041 = {# Establish a cultic center for a Yazata
 	}
 
 }
-######################################
-#	     Destroy a Cult center		 #
-######################################
 dharma_zoro.042 = {# Destroy a heretical Cult center
 	type = character_event
 	title = dharma_zoro.042.t
@@ -1369,7 +1496,7 @@ dharma_zoro.042 = {# Destroy a heretical Cult center
 	}
 
 }
-dharma_zoro.043 = {# Notification for everyone4
+dharma_zoro.043 = {# Notification for everyone
 	type = character_event
 	title = dharma_zoro.043.t
 	desc = {
@@ -1431,11 +1558,11 @@ dharma_zoro.050 = {# Converting the Mosque
 	desc = dharma_zoro.050.desc
 	theme = faith
 	override_background = {
-		reference = tibetan_temple
+		reference = fp3_zoroastrian_temple
 	}
 	left_portrait = {
 		character = root
-		animation = personality_rational
+		animation = personality_zealous
 	}
 
 	immediate = {
@@ -1460,6 +1587,7 @@ dharma_zoro.050 = {# Converting the Mosque
 			title:b_damghan.title_province = { remove_building = tarikhaneh_mosque_02 }
 			remove_short_term_gold = medium_gold_value # more expensive as it has been upgraded.
 		}
+		title:b_damghan.title_province = { add_special_building = tarikhaneh_fire_temple_01	}
 		# Next make your muslim vassals, courtiers and guests not like you for this
 		every_vassal = {# Vassals mad
 			limit = {
@@ -1490,15 +1618,72 @@ dharma_zoro.050 = {# Converting the Mosque
 	}
 }
 ######################################
+#     Islamic Syncretism Events      #
+######################################
+dharma_zoro.060 = {# Behafardism or khurramism has united persia
+	type = character_event
+	title = dharma_zoro.060.t
+	desc = {
+		first_valid = {
+			triggered_desc = {# Behafadist revolt wins!
+				trigger = { faith = faith:zurvanism }
+				desc = dharma_zoro.060.behafadist.desc
+			}
+			triggered_desc = {# Khurramist revolt wins!
+				trigger = { faith = faith:khurramism }
+				desc = dharma_zoro.060.khurramist.desc
+			}
+		}
+	}
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	trigger = {
+		OR = {# Got to be one of the revolter faiths
+			faith = faith:khurramism
+			faith = faith:zurvanism
+		}
+		NOT = { 
+			has_global_variable = dharma_zoro_revolt_units_persia
+		}
+		OR = {# Either must have persia kingdom or persia empire
+			has_title = title:k_persia
+			has_title = title:e_persia
+		}
+		is_independent_ruler = yes # have to manage to manage to secure independence.
+		is_landed = yes # Obviously got to hold power.	
+	}
+
+	immediate = {
+		set_global_variable = {
+			name = dharma_zoro_revolt_units_persia
+			value = yes
+		}
+	}
+
+	option = {# Struggle and Submission
+		name = dharma_zoro.060.struggle
+		faith = {# we bow to Ahura Mazda!
+			remove_doctrine = tenet_unrelenting_faith
+			add_doctrine = tenet_struggle_submission
+		}
+	}
+	option = {# We fight on!
+		name = dharma_zoro.060.resistance
+	}
+}
+######################################
 #       General Flavor Events        #
 ######################################
 
 ######################################
-#       General Flavor Events        #
-######################################
-
-######################################
-#       General Flavor Events        #
+#  	  Being a secret zoro Events     #
 ######################################
 
 ######################################

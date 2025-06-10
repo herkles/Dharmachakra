@@ -48,7 +48,15 @@ dharma_events_yearly_pulse = {
 		#######################################
 		# Hindu Flavor Events
 		#######################################
-		# Hindu rites of passage
+
+		#######################################
+		# Islamic Flavor Events
+		#######################################
+
+		#######################################
+		# Zoroastrian Flavor Events
+		#######################################
+
 	}
 }
 #######################################
@@ -70,15 +78,14 @@ dharma_events_tri_yearly_pulse = {
 		#######################################
 		10 = dharma_elephants.100	# Peasants need elephants for clearing forest
 		20 = dharma_jainism.006		# Non-Indian Merchants upset about naked Jain ascetics
-
 		#######################################
 		# Buddhist Flavor Events
 		#######################################
-		20 = dharma_buddhism.001		# Buddhist Monk comes to visit.
-		20 = dharma_buddhism.019		# Donating to the Local Monks
-		20 = dharma_buddhism.020		# Life Release
-		20 = dharma_buddhism.021		# Donating to the Poor
-		20 = dharma_buddhism.023		# First Harvest Offerings
+		20 = dharma_buddhism.001	# Buddhist Monk comes to visit.
+		20 = dharma_buddhism.019	# Donating to the Local Monks
+		20 = dharma_buddhism.020	# Life Release
+		20 = dharma_buddhism.021	# Donating to the Poor
+		20 = dharma_buddhism.023	# First Harvest Offerings
 		#######################################
 		# Jain Flavor Events
 		#######################################
@@ -109,13 +116,13 @@ dharma_events_tri_yearly_pulse = {
 		# Hindu Flavor Events
 		#######################################
 		# Hindu temples and Ascetics
-		20 = dharma_hinduism.001		# A Hindu Ascetic comes to Visit
+		20 = dharma_hinduism.001	# A Hindu Ascetic comes to Visit
 		# General Flavor
-		20 = dharma_hinduism.006		# Hindu Temple asks for Donations
-		20 = dharma_hinduism.007		# Local Hindu Temple wants a new Murti statue
-		20 = dharma_hinduism.008		# Recieving Prasada
-		20 = dharma_hinduism.009		# Chanting the Gods mantras
-		20 = dharma_hinduism.010		# Studying the Vedas at the Temple		
+		20 = dharma_hinduism.006	# Hindu Temple asks for Donations
+		20 = dharma_hinduism.007	# Local Hindu Temple wants a new Murti statue
+		20 = dharma_hinduism.008	# Recieving Prasada
+		20 = dharma_hinduism.009	# Chanting the Gods mantras
+		20 = dharma_hinduism.010	# Studying the Vedas at the Temple		
 	}
 }
 #######################################
@@ -135,17 +142,15 @@ dharma_events_five_yearly_pulse = {
 		#######################################
 		# General Flavor Events
 		#######################################
-		
 		# Elephants
-		20 = dharma_elephants.101		# Crazed Elephant runs amok
-		30 = dharma_elephants.106		# Temple Elephants are dying
-		
+		20 = dharma_elephants.101	# Crazed Elephant runs amok
+		30 = dharma_elephants.106	# Temple Elephants are dying
 		#######################################
 		# Buddhist Flavor Events
 		#######################################
-		30 = dharma_buddhism.063		# Buddhist school monk maintance
-		30 = dharma_buddhism.052		# Your chief monk follows a different school then you do
-		30 = dharma_buddhism.053		# Your chief monk encourges you to follow the teachings of his/her school
+		30 = dharma_buddhism.063	# Buddhist school monk maintance
+		30 = dharma_buddhism.052	# Your chief monk follows a different school then you do
+		30 = dharma_buddhism.053	# Your chief monk encourges you to follow the teachings of his/her school
 
 		#######################################
 		# Jain Flavor Events
@@ -156,7 +161,12 @@ dharma_events_five_yearly_pulse = {
 		#######################################
 		# Hindu Flavor Events
 		#######################################
-		
+
+		#######################################
+		# Zoroastrian Flavor Flavor Events
+		#######################################
+		20 = dharma_zoro.060 		# Behafardism or khurramism has united persia
+		20 = dharma_zoro.031		# Zoroastrian ruler has captured Baghdad.
 	}
 }
 #######################################
@@ -171,14 +181,14 @@ dharma_events_historical_pulse = {# for Historical Events
 		1000 = 0
 		
 		# Hindu Philosophy Founded		
-		100 = dharma_hinduism.052		# Ramanuja creates the Vishishtadvaita 
-		100 = dharma_hinduism.053		# Madhvacharya creates the Dvaita Vedanta
+		100 = dharma_hinduism.052	# Ramanuja creates the Vishishtadvaita 
+		100 = dharma_hinduism.053	# Madhvacharya creates the Dvaita Vedanta
 
 		# Buddhist School Founders		
-		100 = dharma_buddhism.054		# The Mahasiddha Naropa 
-		100 = dharma_buddhism.055		# Atisa Arrives in a Tibetan Buddhist Kingdom 
-		100 = dharma_buddhism.057		# Drogmi returns from India 
-		100 = dharma_buddhism.060		# Marpa sets up his seat in a Tibetan Monastary 
+		100 = dharma_buddhism.054	# The Mahasiddha Naropa 
+		100 = dharma_buddhism.055	# Atisa Arrives in a Tibetan Buddhist Kingdom 
+		100 = dharma_buddhism.057	# Drogmi returns from India 
+		100 = dharma_buddhism.060	# Marpa sets up his seat in a Tibetan Monastary 
 
 	}
 }
@@ -187,7 +197,7 @@ dharma_events_historical_pulse = {# for Historical Events
 #######################################
 on_title_gain = {
 	events = {
-		dharma_dravidian.003	# FP1: new holder of a county with a runestone
+		dharma_dravidian.003		# new holder of a county with a Herostone
 	}
 }
 #######################################
@@ -198,47 +208,5 @@ on_death = {
 		dharma_dravidian.004
 	}
 }
-#######################################
-# Buddhist retreat
-#######################################
-# dharma_buddhist_retreat_events = {
-# 	trigger = {
-# 		exists = involved_activity
-# 		involved_activity = {
-# 			has_activity_type = activity_dharma_buddhist_retreat
-# 			activity_host = root
-# 		}
-# 	}
-# 	random_events = {
-# 		# Generic Pilgrimage Events
-# 		100 = dharma_buddhist_retreat.002 # Back to basics
-# 		100 = dharma_buddhist_retreat.003 # monastic food
-# 		100 = dharma_buddhist_retreat.004 # Meditate with eyes shut
-# 		100 = dharma_buddhist_retreat.005 # Uncomfortable robes!
-# 		100 = dharma_buddhist_retreat.006 # Numb legs
-# 		25 = dharma_buddhist_retreat.007  # Mystical learning
-# 		25 = dharma_buddhist_retreat.008  # Medical learning
-# 		100 = dharma_buddhist_retreat.009 # Master's Wisdoms
-# 		100 = dharma_buddhist_retreat.010 # Distract self or not?
-# 		100 = dharma_buddhist_retreat.011 # Whack!
-# 		100 = dharma_buddhist_retreat.012 # Energized!
-# 		100 = dharma_buddhist_retreat.013 # Going outside
-# 		100 = dharma_buddhist_retreat.014 # Questions and Answers
-# 		100 = dharma_buddhist_retreat.015 # Heightened Senses
-# 		25 = dharma_buddhist_retreat.016 # Dealing with Boredom
-# 		25 = dharma_buddhist_retreat.017 # Dealing with no pleasure
-# 		100 = dharma_buddhist_retreat.018 # Doing Chores
-# 		100 = dharma_buddhist_retreat.019 # Questions and Answers
-# 		100 = dharma_buddhist_retreat.020 # Meditating by myself
-# 		25 = dharma_buddhist_retreat.021 # Gardening
-# 		100 = dharma_buddhist_retreat.022 # Chant names of Buddhas and Bodhisattvas
-# 		100 = dharma_buddhist_retreat.023 # Buddhist Mantras
-# 		100 = dharma_buddhist_retreat.024 # Walking Meditation
-# 		100 = dharma_buddhist_retreat.025 # Buddha visualization
-# 		75 = dharma_buddhist_retreat.026 # Calmness and self-control
-# 		100 = dharma_buddhist_retreat.027 # Meditating on Food
-# 		50 = dharma_buddhist_retreat.028 # An insect
-# 		100 = dharma_buddhist_retreat.029 # Lotus Position
-# 	}
-# }
+
 

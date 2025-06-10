@@ -3016,7 +3016,6 @@ mizdarkan_necropolis_01 = {# Mizdarkan Necropolis
 
 	flag = travel_point_of_interest_religious
 }
-
 adur_farnbag_temple_01 = {# Adur Farnbag one of the three sacred fire temples
 
 	asset = {
@@ -3148,7 +3147,6 @@ adur_farnbag_temple_02 = {# Ardur Farnbag; one of the three sacred fire temples 
 
 	flag = travel_point_of_interest_religious
 }
-
 adur_burzen_mhir_01 = {# Adur Burzen-mhir; one of the three sacred fire temples
 
 	asset = {
@@ -3278,7 +3276,6 @@ adur_burzen_mhir_02 = {# Adur Burzen-Mhir restored; one of the three sacred fire
 
 	flag = travel_point_of_interest_religious
 }
-
 adur_gushnasp_01 = {# Adur Gushnasp; the most sacred of the three sacred fire temples.
 
 	asset = {
@@ -3408,7 +3405,6 @@ adur_gushnasp_02 = {# Adur Gushnasp now restored to glory; the most sacred of th
 
 	flag = travel_point_of_interest_religious
 }
-
 tarikhaneh_fire_temple_01 = {# Tarikhaneh Fire Temple; Oldest Mosque built on the bases of a fire temple.
 
 	asset = {
