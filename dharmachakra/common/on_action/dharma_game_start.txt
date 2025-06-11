@@ -59,28 +59,16 @@ dharma_setup_after_game_start_on_actions = {
 			}	
 			title:c_bost = {
 				set_county_faith = faith:zun_pagan
-				set_county_culture = culture:turco_hephthalite
 			}	
 			title:c_zamindawar = {
 				set_county_faith = faith:zun_pagan
-				set_county_culture = culture:turco_hephthalite
 
 			}	
 			title:c_rukhaj = {
-				set_county_culture = culture:turco_hephthalite
 				set_county_faith = faith:zun_pagan
 			}	
 			title:c_zabulistan = {
 				set_county_faith = faith:zun_pagan
-				set_county_culture = culture:turco_hephthalite
-			}
-		}
-		if = {# Khalaj stuff
-			limit = {
-				game_start_date >= 900.1.1
-			}
-			title:c_rukhaj = {
-				set_county_culture = culture:khalaj
 			}
 		}
 		setup_dharma_tributaries_effect = yes 

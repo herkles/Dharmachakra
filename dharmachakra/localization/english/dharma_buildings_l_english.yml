@@ -164,6 +164,59 @@
  
  building_katasraj_temples_02:0 "$building_type_katasraj_temples_01$ Temple Complex"
  building_katasraj_temples_02_desc:0 "The Katasraj temple complex has seen massive expansions and improvements since it's days as a mere collection of temples. Now, pilgrims gather here in marvelous numbers in order to see the spectacular architecture and natural beauty which honors the deities Krishna and Shiva."
+
+
+
+ building_type_ayodhya_temple_complex_01:0 "Ayodha Temple Complex"
+ building_type_ayodhya_temple_complex_01_desc:0 "The holy city of Ayodyha is the birthplace of Lord Rama. Numerous temples devoted to him dot the city, including several grand ones. Beyond Lord Rama, other deities have temples dedicated to them in the city. Further there is the Ram Ki Paidi, which are a series of ghats along the bank of the Saryu river to bath and be cleansed and purified within the sacred waters. "
+ building_ayodhya_temple_complex_01:0 "$building_type_ayodhya_temple_complex_01$"
+ building_ayodhya_temple_complex_01_desc:0 "$building_type_ayodhya_temple_complex_01_desc$"
+ 
+ building_type_unakoti_01:0 "Unakoti"
+ building_type_unakoti_01_desc:0 "Unakoti is an ancient Shavite site. Numerous rock carvings of Lord Shiva dot the landscape along with several other deities such as Maa Durga and Lord Gensaha, as well as the sacred Nandi Bull are here. The locals have a number of legends about how Lord Shiva spent time here."
+ building_unakoti_01:0 "$building_type_unakoti_01$"
+ building_unakoti_01_desc:0 "$building_type_unakoti_01_desc$"
+
+ building_type_halesi_maratika_caves_01:0 "Halesi-Maratika Caves"
+ building_type_halesi_maratika_caves_01_desc:0 "The Halesie Maratika caves, also known as the Haleshi Mahadev temple, is a sacred set of caves for Buddhists, Hindus and the Kirati. For Hindus this is a place where Mahadeva, one of Lord Shiva's incarnations hid from the demon Bhasmasur. For Buddhists the caves are associated with Padmasambhava, the Guru Rinpoche, where he meditated and sought wisdom from Amitabha. While for the Kirati they associate it with Halesi as one of their ancestral deities. Regardless of the reason, the site attracts local pilgrims and ascetics who seek the caves to meditate."
+ building_halesi_maratika_caves_01:0 "$building_type_halesi_maratika_caves_01$"
+ building_halesi_maratika_caves_01_desc:0 "$building_type_halesi_maratika_caves_01_desc$"
+
+ building_type_udayagiri_caves_01:0 "Udayagiri Caves"
+ building_type_udayagiri_caves_01_desc:0 "The Udayagiri Caves are twenty rock-cut caves devoted to various Hindu divinities, mostly Lord Shiva and Lord Vishnu. Built during the time of the Gupta empire. These caves hold carvings of many divinities, the various avatars of Lord Vishnu, Shakti, and Lord Shiva. Several small shrines and temples are built into the caves for worshipers to pray and offer their respects."
+ building_udayagiri_caves_01:0 "$building_type_udayagiri_caves_01$"
+ building_udayagiri_caves_01_desc:0 "$building_type_udayagiri_caves_01_desc$"
+ 
+ building_type_namtso_lake_01:0 "Lake Namtso"
+ building_type_namtso_lake_01_desc:0 "Lake Namtso is also known as the heavenly lake. It is one of the highest saltwater lakes in the world, and one of the largest lakes in the Tibetan Plateau. Many legends about Lake Namtso exist both buddhist and bon and as such attracts pilgrims. The lake freezes over in the winter allowing herds and people to move across it. The Lake is strongly associated with the year of the sheep and it is said that walking around it during that time will bring good fortune."
+ building_namtso_lake_01:0 "$building_type_namtso_lake_01$"
+ building_namtso_lake_01_desc:0 "$building_type_namtso_lake_01_desc$"
+ 
+ building_type_kangchenjunga_mountain_01:0 "Kangchenjunga Mountain"
+ building_type_kangchenjunga_mountain_01_desc:0 "One of the highest mountains in the world Kangchenjunga, it is sacred to the various people that live beneath its mighty summit. More than a few of the local communities claim that they descend from people who originated from the mountain top, or that fierce deities and gods live there. Regardless of the legend, it is considered a sacred mountain. "
+ building_kangchenjunga_mountain_01:0 "$building_type_kangchenjunga_mountain_01$"
+ building_kangchenjunga_mountain_01_desc:0 "$building_type_kangchenjunga_mountain_01_desc$"
+ 
+ building_type_mount_kailash_01:0 "Mount Kailash"
+ building_type_mount_kailash_01_desc:0 "Mount Kailash is one of the highest mountains in the world. It is sacred to many people in the region, Jains, Buddhists, Bon, and Hindu all claim it as a sacred mountain. For Hinduism this is where Lord Shiva is said to live with his wife Parvati and their children. For Jainism the first Tirthankar, Rishabhadeva attained moksha on the mountain. Many Buddhist texts link Mount Kailash with Mount Meru and further it is associated with Padmasambhava. While for the Bon it is believed to be the home of the sky goddess Sipaimen. Unsurprisingly, it is a pilgrimage site and many temples and shrines dot the mountain landscape. "
+ building_mount_kailash_01:0 "$building_type_mount_kailash_01$"
+ building_mount_kailash_01_desc:0 "$building_type_mount_kailash_01_desc$"
+ 
+ building_type_nava_vihara_stupa_01:0 "Nava Vihara Stupas"
+ building_type_nava_vihara_stupa_01_desc:0 "Said to be founded by the Kushan emperor Kaniska, the Nava Vihara Stupas are stupas that became a center of Buddhism within the region. When Xuanzang came to the region he reported that there were a hundred viharas and over thirty thousand monks here. The coming of Islam and the Arab conquests have greatly weakened the site from its height as reported by Xuanzang."
+ building_nava_vihara_stupa_01:0 "$building_type_nava_vihara_stupa_01$"
+ building_nava_vihara_stupa_01_desc:0 "$building_type_nava_vihara_stupa_01_desc$"
+
+ building_type_parinirvana_stupa_01:0 "Parinirvana Stupa"
+ building_type_parinirvana_stupa_01_desc:0 "The Parinirvana Stuppa is built where the Buddha is said to have died. The great Mauryan emperor Ashoka was said to have visited this very site and started the first stupas here. Later during the Kushan empire and Gupta Empire it would be expanded and patronized. As the place where the Buddha gave his last words to his disciples and attained Parinirvana, this site has long attracted pilgrims. "
+ building_parinirvana_stupa_01:0 "$building_type_parinirvana_stupa_01$"
+ building_parinirvana_stupa_01_desc:0 "$building_type_parinirvana_stupa_01_desc$"
+
+ building_type_boudha_stupa_01:0 "Boudha Stupa"
+ building_type_boudha_stupa_01_desc:0 "The Boudha Stupa is designed to be a massive mandala. Built originally by the Nepalese kings of the Licchivi dynasty, the place is strongly associated with Nang Chos and Tantric Buddhism. It was here where the Padmasambhava helped to explain the teachings of Tantric Buddhism and Tibetan Buddhism in his dharma talks. Since then and as Buddhism has expanded throughout the Tibetan plateau, this site has attracted numerous pilgrims. "
+ building_boudha_stupa_01:0 "$building_type_boudha_stupa_01$"
+ building_boudha_stupa_01_desc:0 "$building_type_boudha_stupa_01_desc$"
+
 # Buddhist Temples 
  building_type_sanchi_01:0 "Sanchi"
  building_type_sanchi_01_desc:0 "Sanchi Stupa is a Buddhist complex, famous for its Great Stupa, on a hilltop at Sanchi Town. The Great Stupa at Sanchi is one of the oldest stone structures in India. It was originally commissioned by the emperor Ashoka in the 3rd century BCE. Its nucleus was a simple hemispherical brick structure built over the relics of the Buddha. It was crowned by the chhatri, a parasol-like structure symbolising high rank, which was intended to honour and shelter the relics."

@@ -1022,10 +1022,10 @@
  magyar_pagan_old_adherent_plural:1 "Old $magyar_pagan_adherent_plural$"
 
  #Bon
- bon_religion:1 "Tibetan"
- bon_religion_adj:1 "Tibetan"
- bon_religion_adherent:1 "Tibetan"
- bon_religion_adherent_plural:1 "Tibetans"
+ bon_religion:1 "Bön"
+ bon_religion_adj:1 "Bönpo"
+ bon_religion_adherent:1 "Bönpo"
+ bon_religion_adherent_plural:1 "Bönpos"
  bon_religion_desc:1 "Bön is an ancient shamanistic religion indigenous to the region of Tibet. It is characterized by meditation, mystical rituals, and a strong belief in animistic spiritualism."
 
  bon_high_god_name:0 "Sangpo Bumtri"
@@ -1121,11 +1121,11 @@
  kinnaur_pagan_desc:0 "There are many deities in this world, particularly the powerful spirits of the mountains. Local deities are often honored through idols placed in the village temple, and these idols are brought out in palanquins during various ceremonies. Every house hold has a #italic Kimshu#!, or personal protective spirit, who must be worshipped regularly."
 
  #Zunism
- zunism_religion:1 "Zunbil"
- zunism_religion_adj:1 "Zunbil"
- zunism_religion_adherent:1 "Zunbil"
- zunism_religion_adherent_plural:1 "Zunbils"
- zunism_religion_desc:0 "Established by the Zunbil dynasty, Zunists revere and praise the sun for bestowing its bounty upon the surface of the earth."
+ zunism_religion:1 "Zunist"
+ zunism_religion_adj:1 "Zunist"
+ zunism_religion_adherent:1 "Zunist"
+ zunism_religion_adherent_plural:1 "Zunists"
+ zunism_religion_desc:0 "Zunists revere the sun deity Zun, who was originally a Hephthalite or Hunnic deity and whose worship is now syncretized with local Indo-Iranian traditions."
 
  zunism_high_god_name:0 "Zun"
  zunism_high_god_name_2:0 "$zunism_high_god_name$" # Optional translation alt

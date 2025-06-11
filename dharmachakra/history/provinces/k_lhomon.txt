@@ -20,6 +20,10 @@
 	holding = tribal_holding
 	
 	# History
+	500.1.1 = {
+		special_building_slot = kangchenjunga_mountain_01
+		special_building = kangchenjunga_mountain_01
+	}
 }
 
 # 9133 - Chungthang

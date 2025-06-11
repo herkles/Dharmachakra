@@ -80,96 +80,6 @@ multan_sun_temple_02 = {# Multan rebuilt Temple
 	flag = travel_point_of_interest_religious
 
 }
-ellora_caves_01 = {# Ellora Caves
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_siro_ellora_caves.dds"
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	
-	is_enabled = {
-		custom_description = {
-			text = buddhas_of_bamian_trigger
-			scope:holder = {
-				religion = { is_in_family = rf_eastern }
-			}
-		}
-	}
-
-	cost_gold = 3000
-
-	character_modifier = {
-		different_faith_opinion = 5
-		different_culture_opinion = 5
-		monthly_lifestyle_xp_gain_mult = 0.1
-		monthly_dynasty_prestige_mult = 0.05
-	}
-	
-	county_modifier = {
-				monthly_county_control_growth_factor = 0.05
-
-		monthly_county_control_growth_factor = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.2
-	}
-	
-	province_modifier = {
-		hostile_raid_time = 1.5
-	}
-	
-	ai_value = {
-		base = 100
-	}
-	
-	type = special
-	flag = travel_point_of_interest_natural_feature
-
-}
-ajanta_caves_01 = {# Ajanta Caves
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_siro_ajanta_caves.dds"
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	
-	is_enabled = {
-		custom_description = {
-			text = buddhas_of_bamian_trigger
-			scope:holder = {
-				religion = { is_in_family = rf_eastern }
-			}
-		}
-	}
-
-	cost_gold = 3000
-
-	character_modifier = {
-		stress_gain_mult = -0.25
-		cultural_head_fascination_mult = 0.25
-		max_hostile_schemes_add = 1
-		monthly_dynasty_prestige_mult = 0.05
-	}	
-	
-	county_modifier = {
-		county_opinion_add = 25
-	}
-	
-	province_modifier = {
-		hostile_raid_time = 1.5
-	}
-		
-	ai_value = {
-		base = 100
-	}
-	
-	type = special
-	flag = travel_point_of_interest_natural_feature
-
-}
 pattadakal_01 = {# The Temple Complex of Pattadakal
 	construction_time = very_slow_construction_time
 
@@ -214,45 +124,6 @@ pattadakal_01 = {# The Temple Complex of Pattadakal
 	
 	type = special
 	flag = travel_point_of_interest_religious
-}
-elephanta_caves_01 = {# Elephanta Caves
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_structure_cathedral_indian.dds"
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	
-	is_enabled = {
-		custom_description = {
-			text = buddhas_of_bamian_trigger
-			scope:holder = {
-				religion = { is_in_family = rf_eastern }
-			}
-		}
-	}
-
-	cost_gold = 3000
-
-	character_modifier = {
-		monthly_piety_gain_mult = 0.1
-		diplomacy_per_piety_level = 1
-	}
-	county_modifier = {
-		tax_mult = 0.1
-		development_growth = 0.2
-		development_growth_factor = 0.75
-	}
-	
-
-	ai_value = {
-		base = 100
-	}
-	
-	type = special
-	flag = travel_point_of_interest_natural_feature
-
 }
 konark_sun_temple_01 = {# Konark Sun Temple
 	construction_time = very_slow_construction_time
@@ -1004,6 +875,49 @@ kedarnath_temple_01 = {# Kedarnath Temple
 	flag = travel_point_of_interest_religious
 
 }
+ayodhya_temple_complex_01 = {# Ayodha Temple complex - the various differnet temples
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		different_faith_opinion = 5
+		religious_vassal_opinion = 10
+		different_faith_county_opinion_mult = -0.15
+		monthly_county_control_growth_factor = 0.05
+	}	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}	
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_religious
+
+}
 # Eastern Temples
 varanasi_temples_01 = {# Varanasi Temple
 	construction_time = very_slow_construction_time
@@ -1329,6 +1243,411 @@ katasraj_temples_02 = {# Katasraj Temple Complex
 	type = special
 
 	flag = travel_point_of_interest_religious
+}
+# Other
+unakoti_01 = {# Unakoti
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_buddhas_of_bamiyan.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		diplomacy_per_piety_level = 1
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth = 0.3
+		development_growth_factor = 0.75
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+#######################################
+#        Natural Features		  	  #
+#######################################
+# Caves and other rocks
+elephanta_caves_01 = {# Elephanta Caves
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		diplomacy_per_piety_level = 1
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth = 0.2
+		development_growth_factor = 0.75
+	}
+	
+
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_natural_feature
+
+}
+ellora_caves_01 = {# Ellora Caves
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_siro_ellora_caves.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		different_faith_opinion = 5
+		different_culture_opinion = 5
+		monthly_lifestyle_xp_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	county_modifier = {
+		monthly_county_control_growth_factor = 0.05
+		monthly_county_control_growth_factor = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+	
+	province_modifier = {
+		hostile_raid_time = 1.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_natural_feature
+
+}
+ajanta_caves_01 = {# Ajanta Caves
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_siro_ajanta_caves.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		stress_gain_mult = -0.25
+		cultural_head_fascination_mult = 0.25
+		max_hostile_schemes_add = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}	
+	
+	county_modifier = {
+		county_opinion_add = 25
+	}
+	
+	province_modifier = {
+		hostile_raid_time = 1.5
+	}
+		
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_natural_feature
+
+}
+halesi_maratika_caves_01 = {# Halesi-Maratika Caves
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_siro_ajanta_caves.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		stress_gain_mult = -0.25
+		cultural_head_fascination_mult = 0.25
+		max_hostile_schemes_add = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}	
+	
+	county_modifier = {
+		county_opinion_add = 25
+	}
+	
+	province_modifier = {
+		hostile_raid_time = 1.5
+	}
+		
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_natural_feature
+
+}
+udayagiri_caves_01 = {# Udayagiri Caves
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_siro_ajanta_caves.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = buddhas_of_bamian_trigger
+			scope:holder = {
+				religion = { is_in_family = rf_eastern }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		stress_gain_mult = -0.25
+		cultural_head_fascination_mult = 0.25
+		max_hostile_schemes_add = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}	
+	
+	county_modifier = {
+		county_opinion_add = 25
+	}
+	
+	province_modifier = {
+		hostile_raid_time = 1.5
+	}
+		
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_natural_feature
+
+}
+# Sacred Lakes
+namtso_lake_01 = {# Lake Namtso
+
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_special_maharloo_lake_01_a_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_maharloo_lake.dds" 
+	
+	can_construct_potential = {
+	}
+	
+	cost_gold = 300
+	
+	character_modifier = {
+		learning = 1 
+		stress_loss_mult = 0.1
+	}
+
+	county_modifier = {
+		county_opinion_add = 5
+		development_growth = 0.1
+		development_growth_factor = 0.6
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # lake
+}
+# Sacred Mountains
+kangchenjunga_mountain_01 = {# Kangchenjunga Mountain
+
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_special_mount_damavand_01_a_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_mount_damavand.dds" 
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings 
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		mountains_travel_danger = -10
+	}
+
+	county_holder_character_modifier = {
+	}
+	
+	county_modifier = {
+		mountains_levy_size = 0.5
+		travel_danger = -30
+		development_growth_factor = 0.3
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountain
+}
+mount_kailash_01 = {# Mount Kailash
+
+	asset = {
+		type = pdxmesh
+		name = "fp3_building_special_mount_damavand_01_a_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_mount_damavand.dds" 
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings 
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		stress_loss_mult = 0.1
+		mountains_travel_danger = -10
+		different_faith_opinion = 5
+		different_faith_county_opinion_mult = -0.2
+	}
+
+	county_holder_character_modifier = {
+
+	}
+	
+	county_modifier = {
+		mountains_levy_size = 0.5
+		travel_danger = -30
+		development_growth_factor = 0.3
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_natural_feature # mountain
 }
 #######################################
 #       Buddhist Temples		  	  #
@@ -1826,6 +2145,133 @@ mankiala_stupa_01 = {# Mankiala Stupa
 	type = special
 
 	flag = travel_point_of_interest_religious
+}
+
+nava_vihara_stupa_01 = {# Nava Vihara Stupa
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.2
+		different_faith_opinion = 5
+		monthly_county_control_growth_factor = 0.05
+	}	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.1
+		development_growth = 0.1
+	}	
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_religious
+
+}
+parinirvana_stupa_01 = {# Parinirvana Stupa
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_piety = 0.25
+		different_faith_opinion = 5
+		different_faith_county_opinion_mult = -0.15
+		monthly_county_control_growth_factor = 0.05
+	}	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.1
+		development_growth = 0.1
+	}	
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_religious
+
+}
+boudha_stupa_01 = {# Boudha Stupa
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_indian.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	is_enabled = {
+		custom_description = {
+			text = sanchi_trigger
+			scope:holder = {
+				faith = { religion_tag = buddhism_religion }
+			}
+		}
+	}
+
+	cost_gold = 3000
+
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	county_modifier = {
+		development_growth_factor = 0.15
+		county_opinion_add = 25
+	}
+	character_modifier = {
+		health = 0.25
+		monthly_prestige = 1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+	flag = travel_point_of_interest_religious
+
 }
 #######################################
 #       	Jain Temples			  #

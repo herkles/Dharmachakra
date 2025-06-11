@@ -63,6 +63,10 @@
 	terrain = jungle
 	
 	# History
+	867.1.1 = {
+		special_building_slot = udayagiri_caves_01
+		special_building = udayagiri_caves_01
+	}
 	1066.1.1 = {
 		religion = smartism
 	}

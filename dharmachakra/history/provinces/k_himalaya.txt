@@ -366,6 +366,10 @@
 	holding = castle_holding
 	
 	# History
+	867.1.1 = {
+		special_building_slot = boudha_stupa_01
+		special_building = boudha_stupa_01
+	}
 }
 
 # 9117 - Bhaktapur
@@ -414,6 +418,10 @@
 	holding = tribal_holding
 	
 	# History
+	867.1.1 = {
+		special_building_slot = halesi_maratika_caves_01
+		special_building = halesi_maratika_caves_01
+	}
 }
 
 # 9121 - Bhojpur

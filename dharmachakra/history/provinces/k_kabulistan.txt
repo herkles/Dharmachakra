@@ -2,12 +2,12 @@
 4489 = {# 4489 - Zamindawar
 	
 	# Misc
-	culture = turco_hephthalite
+	culture = tajik
 	religion = zun_pagan
 
 	# History
 	1000.1.1 = {
-		culture = afghan
+		culture = khalaj
 		religion = ashari
 	}
 }
@@ -127,15 +127,14 @@
 }
 ####### Zabulistan ########
 4500 = {# 4500 - Ghazna
-	
 	# Misc
-	culture = afghan
+	culture = turco_hephthalite
 	religion = khurmazta
 
 	# History
 
 	1000.1.1 = {
-		culture = afghan
+		culture = khalaj
 		religion = imami
 	}
 
@@ -221,7 +220,7 @@
 4343 = {# 4343 - Bamiyan
 	
 	# Misc
-	culture = afghan
+	culture = turco_hephthalite
 	religion = mahayana
 	
 	# History
@@ -265,7 +264,7 @@
 4504 = {# 4504 - Kabul
 	
 	# Misc
-	culture = afghan
+	culture = gandhari
 	religion = khurmazta
 	
 	# History

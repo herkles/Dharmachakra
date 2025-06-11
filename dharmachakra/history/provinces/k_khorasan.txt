@@ -443,6 +443,10 @@
 	religion = khurramism 
 	holding = castle_holding
 	867.1.1 = {
+		special_building_slot = nava_vihara_stupa_01
+		special_building = nava_vihara_stupa_01
+	}
+	867.1.1 = {
 		buildings = {
 			watchtowers_01
 		}

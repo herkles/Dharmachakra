@@ -93,9 +93,13 @@
 	# Misc
 	culture = kannauji
 	religion = vaishnavism
-
 	# History
-
+	867.1.1 = {
+		special_building_slot = ayodhya_temple_complex_01
+	}
+	1178.1.1 = {
+		special_building = ayodhya_temple_complex_01
+	}
 }
 
 # 1274 - Damoh

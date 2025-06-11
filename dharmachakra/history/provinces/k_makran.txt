@@ -321,11 +321,12 @@
 }
 
 ###c_bost
-4484 = {	#Bost
-	culture = afghan
+4484 = { # Bost 
+	culture = tajik
 	religion = zun_pagan
 	holding = castle_holding
 	1000.1.1 = { 
+		culture = afghan
 		religion = ashari 
 	}
 	1178.1.1 = {

@@ -363,7 +363,10 @@
 	holding = city_holding
 	
 	# History
-
+	867.1.1 = {
+		special_building_slot = unakoti_01
+		special_building = unakoti_01
+	}
 }
 
 # 857 - Pandua

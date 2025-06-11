@@ -767,7 +767,7 @@
 4521 = {	# 4521 - Urgun
 	
 	# Misc
-	culture = afghan
+	culture = gandhari
 	religion = suryaism
 	
 	#History

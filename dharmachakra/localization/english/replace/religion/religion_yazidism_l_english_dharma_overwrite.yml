@@ -72,6 +72,7 @@
  meshefaresism_holy_text_2:0 "$meshefaresism_holy_text$" # Optional translation alt
  meshefaresism_holy_text_3:0 "$meshefaresism_holy_text$" # Optional translation alt
 
+ # Yarsani - mostly taken from pengoyo's post here: 
  yarsani_high_god_name:0 "Sultan Sahak"
  yarsani_high_god_name_possessive:0 "Sultan Sahak's"
  yarsani_high_god_name_alternate:0 "The Divine Essence"
@@ -93,16 +94,30 @@
  yarsani_positive_afterlife_2:0 "$yarsani_positive_afterlife$" # Optional translation alt
  yarsani_positive_afterlife_3:0 "$yarsani_positive_afterlife$" # Optional translation alt
 
+ kitebacilweism:0 "Mehrism"
+ kitebacilweism_adj:0 "Mehrist"
+ kitebacilweism_adherent:0 "Mehrist"
+ kitebacilweism_adherent_plural:0 "Mehrists"
+ kitebacilweism_desc:0 "The Northwest Iranians' old religious beliefs are related to but distinct from orthodox Zoroastrianism, with which it may have coexisted during the Sassanids' heyday. Veneration of nature is prominent, and the old Iranian deity Mithra, or Mehr, plays an key cosmological role as the demiurge and common object of worship – a role that might have inspired the Roman Cult of Mithras centuries before."
+ kitebacilweism_holy_text_2:0 "$kurdish_pagan_religious_text$" # Optional translation alt
+ kitebacilweism_holy_text_3:0 "$kurdish_pagan_religious_text$" # Optional translation alt
 
-
- kitebacilweism:0 "Kitêbacilweism"
- kitebacilweism_adj:0 "Kitêbacilweist"
- kitebacilweism_adherent:0 "Kitêbacilweist"
- kitebacilweism_adherent_plural:0 "Kitêbacilweists"
- kitebacilweism_desc:0 "Followers of the Book of Revelation, which tells of Xwedê's greatness."
- kitebacilweism_holy_text:0 "Kitêba Cilwe"
- kitebacilweism_holy_text_2:0 "$kitebacilweism_holy_text$" # Optional translation alt
- kitebacilweism_holy_text_3:0 "$kitebacilweism_holy_text$" # Optional translation alt
+ yazidi_high_god_name:0 "[GetPlayer.Custom('yazidi_high_god')]"
+ yazidi_high_god_name_2:0 "[GetPlayer.Custom('yazidi_high_god')]" # Optional translation alt
+ yazidi_high_god_name_possessive:0 "[GetPlayer.Custom('yazidi_high_god_possessive')]"
+ yazidi_high_god_name_alternate:0 "[GetPlayer.Custom('yazidi_high_god_alternative')]"
+ yazidi_high_god_name_alternate_possessive:0 "[GetPlayer.Custom('yazidi_high_god_alternative_possessive')]"
+ yazidi_creator_god_name:0 "[GetPlayer.Custom('yazidi_creator_god')]"
+ yazidi_creator_god_name_possessive:0 "[GetPlayer.Custom('yazidi_creator_god')]'s"
+ yazidi_house_of_worship:0 "[GetPlayer.Custom('yazidi_house_of_worship_loc')]"
+ yazidi_religious_symbol:0 "[GetPlayer.Custom('yazidi_religious_symbol_loc')]"
+ yazidi_religious_text:0 "[GetPlayer.Custom('yazidi_religious_text_loc')]"
+ yazidi_priest:0 "[GetPlayer.Custom('yazidi_priest_loc')]"
+ yazidi_priest_plural:0 "[GetPlayer.Custom('yazidi_priest_plural_loc')]"
+ yazidi_bishop:0 "[GetPlayer.Custom('yazidi_bishop_loc')]"
+ yazidi_bishop_plural:0 "[GetPlayer.Custom('yazidi_bishop_plural_loc')]"
+ yazidi_positive_afterlife:0 "[GetPlayer.Custom('yazidi_positive_afterlife_loc')]"
+ yazidi_house_of_worship:0 "[GetPlayer.Custom('yazidi_house_of_worship_loc')]"
 
  kurdish_pagan_high_god_name:0 "Mithra"
  kurdish_pagan_high_god_name_possessive:0 "Mithra's"
