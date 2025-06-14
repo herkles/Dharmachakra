@@ -255,9 +255,9 @@
 			# Tenets
 			# Communal identity: The religion is tied to the iranic people, and in India it was close related to the Parsi
 			# Ritual Celebrations: For all the celebrations and festivals
-			# Legalism: Reflecting the Zoroastrian hirearchy after muslim conquests
+			# Religious Law: Zoroastrian Priests authority on matters
 
-			doctrine = tenet_legalism
+			doctrine = tenet_religious_legal_pronouncements
 			doctrine = tenet_communal_identity
 			doctrine = tenet_ritual_celebrations
 

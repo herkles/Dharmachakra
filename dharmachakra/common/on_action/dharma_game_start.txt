@@ -53,7 +53,7 @@ dharma_setup_after_game_start_on_actions = {
 		}
 
 		# Title stuff
-		if = {# getting Zun on the map in 867
+		if = {# Setting up cultures and faiths in 867
 			limit = {
 				game_start_date < 900.1.1
 			}	
@@ -62,13 +62,35 @@ dharma_setup_after_game_start_on_actions = {
 			}	
 			title:c_zamindawar = {
 				set_county_faith = faith:zun_pagan
-
+				set_county_culture = culture:turco_hephthalite
+			}
+			title:c_ghazna = {
+				set_county_culture = culture:turco_hephthalite
 			}	
 			title:c_rukhaj = {
 				set_county_faith = faith:zun_pagan
+				set_county_culture = culture:afghan
 			}	
 			title:c_zabulistan = {
 				set_county_faith = faith:zun_pagan
+				set_county_culture = culture:afghan
+			}
+		}
+		if = {# Setting up cultures and faiths in 867
+			limit = {
+				game_start_date > 1066.1.1
+			}
+			title:c_rukhaj = {
+				set_county_culture = culture:afghan
+			}	
+			title:c_zabulistan = {
+				set_county_culture = culture:afghan
+			}			
+			title:c_ghazna = {
+				set_county_culture = culture:khalaj
+			}	
+			title:c_zamindawar = {
+				set_county_culture = culture:khalaj
 			}
 		}
 		setup_dharma_tributaries_effect = yes 

@@ -287,7 +287,15 @@
   RICE_yazata_zaden_option_desc: "The [yazata|E] of Fruitfulness"
   RICE_yazata_zaden_option_tooltip: "Basic [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_zaden').GetNameWithTooltip]\nUpgraded [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_zaden_major').GetNameWithTooltip]"
 
-
+  dharma_zoro_change_xwedodah: "Resolve the Issue of Xwedodah"
+  dharma_zoro_change_xwedodah_zurvanite: "$dharma_zoro_change_xwedodah$"
+  dharma_zoro_change_xwedodah_tooltip: "Convene with others to resolve the debates around this practice for the [ROOT.Char.GetFaith.GetName] [faith|E]"
+  dharma_zoro_change_xwedodah_zurvanite_tooltip: "$dharma_zoro_change_xwedodah_tooltip$"
+  dharma_zoro_change_xwedodah_desc: "#V Xwedodah#! is one of the greatest deeds any [ROOT.Char.GetFaith.GetAdherentName] can do. While this has been our indisputable belief for centuries, there have been debates as to what it means. Does it truly refer to close-kin marriage? Some claim that it should be defined as cousin marriage instead. To resolve these debates once and for all, I wish to convene some scholars and [ROOT.Char.Custom('DefaultPriestTitlePlural')]."
+  dharma_zoro_change_xwedodah_effect_tooltip_1: "#V Reinterpret#! the [xwedodah_resolver.GetFaith.ReligiousText] to change the $doctrine_consanguinity_name$ [doctrine|E] of [xwedodah_resolver.GetFaith.GetName] to allow only cousin marriage, or #V reinforce#! the traditional views that it refers to close-kin marriage - either choice will be #V permanent!#!"
+  dharma_zoro_change_xwedodah_effect_tooltip_2: "If this [decision|E] is not taken by any sufficiently powerful [xwedodah_resolver.GetFaith.GetAdjective] ruler by the 14th or 15th century, then a change #italic may#! be triggered randomly via event at that time"
+  dharma_zoro_change_xwedodah_effect_tooltip_3: "The [GetFaithDoctrine('tenet_divine_marriage').GetBaseName] [core_tenet|E] of [xwedodah_resolver.GetFaith.GetName] is changed to [GetFaithDoctrine('tenet_communal_identity').GetBaseName]"
+  dharma_zoro_change_xwedodah_confirm: "For the glory of [ROOT.Char.GetFaith.HighGodName]!"
 
 
 

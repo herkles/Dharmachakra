@@ -691,7 +691,6 @@ dharma_zoro_keshmar_cypruss = {# Replant the sacred tree
 		}
 	}
 }
-
 dharma_zoro_tarikhaneh_conversion = {# Convert the Mosque to a fire temple
 	picture = {	reference = "gfx/interface/illustrations/decisions/fp3_decision_foundation.dds" }
 	decision_group_type = major
@@ -2277,5 +2276,84 @@ dharma_zoro_worship_yazata = {
 		}
 	}
 }
+dharma_zoro_change_xwedodah = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_iranian_court.dds" }
+	decision_group_type = major
+	desc = dharma_zoro_change_xwedodah_desc
 
+	ai_check_interval = 120
+
+	is_shown = {
+		is_RICE_loaded = no
+		is_landed = yes
+		NOR = {
+			has_global_variable = RICE_zoroastrian_xwedodah_incest_changed
+			has_global_variable = RICE_zoroastrian_xwedodah_incest_kept					
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:dharma_zoro_change_xwedodah_flag
+			}
+		}
+		has_faith = faith:mazdayasna
+	}
+
+	is_valid = {
+		OR = {
+			highest_held_title_tier > tier_duchy
+			piety_level >= 5
+			has_trait = saoshyant
+		}
+		OR = {
+			AND = {
+				piety_level >= 4
+				prestige_level >= 3			
+			}
+			has_trait = saoshyant
+		}	
+		culture = {
+			has_cultural_era_or_later = culture_era_high_medieval
+		}
+		has_faith = faith:mazdayasna
+		# Not tribal - vanilla localization is bugged atm
+		custom_description = {
+			text = RICE_not_tribal_government_req
+			NOT = { government_has_flag = government_is_tribal }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		is_available = yes
+		is_independent_ruler = yes
+	}
+
+	cost = { 
+		gold = { value = major_gold_value }
+		prestige = { value = major_prestige_value }
+	}	
+
+	ai_potential = {
+		short_term_gold > major_gold_value
+	}
+
+	effect = {
+		#Can only happen once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:dharma_zoro_change_xwedodah_flag
+		}
+		save_scope_as = xwedodah_resolver
+		show_as_tooltip = {
+			add_piety = 250
+		}
+		custom_tooltip = dharma_zoro_change_xwedodah_effect_tooltip_1
+		trigger_event = dharma_zoro.070
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
 

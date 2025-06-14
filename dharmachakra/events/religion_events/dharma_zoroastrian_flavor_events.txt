@@ -1679,9 +1679,167 @@ dharma_zoro.060 = {# Behafardism or khurramism has united persia
 	}
 }
 ######################################
-#       General Flavor Events        #
+#   Decide the fate of Xwedodah      #
 ######################################
+dharma_zoro.070 = {# Start the debate!
+	type = character_event
+	title = dharma_zoro.070.t
+	desc = dharma_zoro.070.desc
+	theme = faith
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	
+	immediate = {
+		play_music_cue = mx_cue_sacredrite
+	}
+	
+	option = { # ok
+		name = dharma_zoro.070.a
+		add_piety = 250
+		every_player = {
+			limit = {
+				is_ai = no
+			}
+			trigger_event = dharma_zoro.071
+		}
+		trigger_event = {
+			id = dharma_zoro.072
+			days = { 10 30 }
+		}
+	}
+}
+dharma_zoro.071 = {# Xwedodah debate started - notify other rulers
+	type = character_event
+	title = dharma_zoro.071.t
+	desc = dharma_zoro.071.desc
+	theme = faith
+	
+	left_portrait = {
+		character = scope:xwedodah_resolver
+		animation = personality_zealous
+	}
+	
+	option = { # ok
+		name = dharma_zoro.071.a
+	}
+}
+dharma_zoro.072 = {# Decide the fate of Xwedodah
 
+	type = character_event
+	title = dharma_zoro.072.t
+	desc = dharma_zoro.072.desc
+	theme = faith
+	
+	right_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"	
+	}
+	
+	option = { # Cousins!
+		name = dharma_zoro.072.a
+		
+		RICE_yazd_change_xwedodah_to_cousins_effect = yes
+		custom_tooltip = RICE_yazd_change_xwedodah_warning_tooltip
+		
+		set_global_variable = {
+			name = RICE_zoroastrian_xwedodah_incest_changed
+			value = yes
+		}
+			
+
+		
+		# AI is more likely to choose this to make it more historical
+		ai_chance = {
+			base = 40
+		}
+	}
+	
+	option = { # family
+		name = dharma_zoro.072.b
+		
+		custom_tooltip = RICE_yazd_keep_xwedodah_tooltip_1
+		custom_tooltip = RICE_yazd_keep_xwedodah_tooltip_2
+		custom_tooltip = RICE_yazd_change_xwedodah_warning_tooltip
+		
+		set_global_variable = {
+			name = RICE_zoroastrian_xwedodah_incest_kept
+			value = yes
+		}
+		
+		# AI is less likely to choose this, but it's still possible
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	after = {
+		every_player = {
+			limit = {
+				is_ai = no
+			}
+			trigger_event = dharma_zoro.073
+		}	
+	}
+}
+dharma_zoro.073 = {# The fate of Xwedodah has been decided - notify other rulers
+	type = character_event
+	title = dharma_zoro.073.t
+	desc = {
+		desc = dharma_zoro.073.desc.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_global_variable = RICE_zoroastrian_xwedodah_incest_changed
+				}
+				desc = dharma_zoro.073.desc.no_incest
+			}
+			triggered_desc = {
+				trigger = {
+					has_global_variable = RICE_zoroastrian_xwedodah_incest_kept
+				}
+				desc = dharma_zoro.073.desc.yes_incest
+			}
+		}
+		desc = dharma_zoro.073.desc.conclusion
+	}
+	theme = faith
+	
+	left_portrait = {
+		character = scope:xwedodah_resolver
+		animation = personality_zealous
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"	
+	}
+	
+	option = { # ok
+		name = dharma_zoro.073.a
+		if = {
+			limit = {
+				has_global_variable = RICE_zoroastrian_xwedodah_incest_changed
+			}
+			show_as_tooltip = {
+				RICE_yazd_change_xwedodah_to_cousins_effect = yes
+			}
+		}
+		if = {
+			limit = {
+				has_global_variable = RICE_zoroastrian_xwedodah_incest_kept
+			}
+			custom_tooltip = RICE_yazd_keep_xwedodah_tooltip_1
+			custom_tooltip = RICE_yazd_keep_xwedodah_tooltip_2
+		}
+		custom_tooltip = dharma_zoro.073.tooltip
+	}
+}
 ######################################
 #  	  Being a secret zoro Events     #
 ######################################

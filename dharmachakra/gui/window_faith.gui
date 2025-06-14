@@ -137,7 +137,10 @@ window = {
 							margin_bottom = 4
 							margin_left = 25
 							spacing = 1
-
+							spacer = {
+								visible = "[ObjectsEqual( GetPlayer.GetFaith, Faith.Self )]"
+								size = {0 40}
+							}
 							text_single = {
 								name = "your_faith"
 								visible = "[ObjectsEqual( GetPlayer.GetFaith, Faith.Self )]"
@@ -442,11 +445,15 @@ window = {
 								layoutstretchfactor_horizontal = 1
 							}
 						}
-
+						spacer = {
+                            size = {0 15}
+                        }
+						widget = {
+							layoutpolicy_horizontal = expanding
+							minimumsize = { 100 200 }
 						vbox = {
 							layoutpolicy_horizontal = expanding
 							spacing = 8
-
 							margin_bottom = -8
 
 							text_label_center = {
@@ -454,21 +461,29 @@ window = {
 								text = "FAITH_DOCTRINES_IMPORTANT"
 								default_format = "#low"
 							}
-
+								scrollbox = {
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = expanding
+									blockoverride "scrollbox_content"
+									{
+										scrollarea = {
+											scrollbar_horizontal = {
+												using = Scrollbar_Horizontal
+											}
+											layoutpolicy_horizontal = expanding
+											layoutpolicy_vertical = expanding
+											scrollwidget = {
 							hbox = {
 								layoutpolicy_horizontal = expanding
-
 								hbox = {
 									name = "important_doctrines"
 									datamodel = "[FaithWindow.GetGroupingHelper( 'main_group' ).GetGrouping]"
 									#spacing = 15
-									layoutpolicy_vertical = expanding
-									minimumsize = { 0 108 }
 
 									item = {
 										vbox = {
-											layoutpolicy_vertical = expanding
 											minimumsize = { 100 0 }
+																margin_top = -50
 											name = "doctrine_list_item"
 											datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
 											visible = "[FaithDoctrine.IsVisible]"
@@ -489,12 +504,18 @@ window = {
 												default_format = "#high"
 												multiline = yes
 												max_width = 101   ##### minimum in order to look good in german
-											}
+																}
+															}
+														}
+													}
+												}
 
-											expand = {}
+											}
 										}
-									}
-								}
+									}	
+									
+								}	
+								
 							}
 						}
 
@@ -742,6 +763,7 @@ window = {
 							}
 
 							expand = {}
+
 						}
 					}
 
@@ -817,7 +839,6 @@ window = {
 							layoutpolicy_horizontal = expanding
 							datacontext = "[Faith.GetReligiousHeadTitle]"
 							visible = "[Title.IsValid]"
-							margin_left = -5
 							spacing = 5
 
 							coa_title_tiny_crown = {
@@ -844,7 +865,7 @@ window = {
 			}
 
 			hbox = {
-				spacing = 10
+				#spacing = 10
 				margin_bottom = 8
 				margin_top = 8
 				layoutpolicy_horizontal = expanding
@@ -1521,4 +1542,69 @@ types FaithWindow
 			}
 		}
 	}
+	##### Changed from Vanilla vvvvv
+	#For doctrines where each icon is unique
+	type widget_doctrine_item_unique = widget {
+		size = { 210 53 }
+		block "wdi_context"
+		{
+			datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
+			datacontext = "[GuiFaithDoctrineItem.GetFaith]"
+		}
+
+		block "background" {
+			background = {
+				using = Background_Area
+				margin = { 5 5 }
+			}
+		}
+
+		hbox = {
+			name = "faith_list_item"
+			block "tooltip" { #### current solution as to not display 2 different tooltips for special doctrines
+				tooltip = "FAITH_WINDOW_DOCTRINE_TOOLTIP_WITH_FAITH"
+			}
+			spacing = 8
+
+			using = tooltip_ne
+
+			block "doctrine_icon"
+			{
+				icon_doctrine = {
+					name = "doctrine_group_icon"
+					size = { 50 50 }
+
+					texture = "[FaithDoctrine.GetIcon]"
+				}
+			}
+
+			vbox = {
+				layoutpolicy_horizontal = expanding
+
+				text_single = {
+					name = "doctrine_group_name"
+					layoutpolicy_horizontal = expanding
+					align = left
+					autoresize = no
+					fontsize_min = 12
+					# default_format = "#low"
+					block "text_title"
+					{ text = "[FaithDoctrine.GetGroup.GetName( Faith.Self )]" }
+				}
+
+				text_single = {
+					name = "faith_name"
+					layoutpolicy_horizontal = expanding
+					elide = right
+					autoresize = no
+					fontsize_min = 12
+					align = left
+					default_format = "#high"
+					block "text_desc"
+					{ text = "[FaithDoctrine.GetNameNoTooltip( Faith.Self )]" }
+				}
+			}
+		}
+	}
+	##### Changed from Vanilla ^^^^^
 }

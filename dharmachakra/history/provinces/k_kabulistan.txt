@@ -2,7 +2,7 @@
 4489 = {# 4489 - Zamindawar
 	
 	# Misc
-	culture = tajik
+	culture = turco_hephthalite
 	religion = zun_pagan
 
 	# History

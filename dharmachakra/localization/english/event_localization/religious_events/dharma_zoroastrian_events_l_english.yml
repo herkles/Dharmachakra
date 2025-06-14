@@ -214,7 +214,29 @@
   dharma_zoro.060.resistance:0 "We have achieved victory on our terms."
 
 
-
+  dharma_zoro.070.t:0 "The Issue of [xwedodah_resolver.GetFaith.GetAdjective] Xwedodah"
+  dharma_zoro.070.desc:0 "Any well-educated [ROOT.Char.GetFaith.GetAdherentName] knows that #italic Xwedodah#! is truly one of the greatest deeds any person can do. There are even those who claim that [ROOT.Char.GetFaith.DevilName] told [ROOT.Char.GetFaith.DevilHerHis] minions to avoid any couple who has completed an act of #italic Xwedodah#!, for their holiness is too mighty.\n\nFor a long while now, there has been considerable debate on what exactly #italic Xwedodah#! means. Traditionally, many of us have understood it to mean marriage between next of kin - parent with child, or sibling with sibling. Some, however, contest this, and argue our current understanding is flawed; the true, original teachings, they say, referred to marriages between cousins.\n\nAs one of the more powerful [ROOT.Char.GetFaith.GetAdjective] leaders in the world, I have decided to convene a council of various scholars and [ROOT.Char.Custom('DefaultPriestTitlePlural')] to discuss this matter. Perhaps we can resolve this debate once and for all, to ensure unity among us all."
+  dharma_zoro.070.a:0 "Let us start hearing the arguments on both sides."
+  
+  dharma_zoro.071.t:0 "The Issue of [xwedodah_resolver.GetFaith.GetAdjective] Xwedodah"
+  dharma_zoro.071.desc:0 "For generations, if not centuries, followers of the [xwedodah_resolver.GetFaith.GetAdjective] faith have engaged in so-called #italic Xwedodah#!, or marriage between next of kin, which they see as a sacred act, and one that pleases [xwedodah_resolver.GetFaith.HighGodName]. Indeed, followers of every other faith have lampooned them for this, mocking or condemning them for these supposedly degenerate customs.\n\nYet, not every [xwedodah_resolver.GetFaith.GetAdherentName] is comfortable with this interpretation of #italic Xwedodah#!. There have always been some who argue it stood for cousin marriage. As such, [xwedodah_resolver.GetTitledFirstName], a noted [xwedodah_resolver.GetFaith.GetAdjective] ruler, has convened a council of prominent scholars and [xwedodah_resolver.Custom('DefaultPriestTitlePlural')] to debate whether #italic Xwedodah#! entails marriage between close kin or cousin marriages, and resolve this matter once and for all."
+  dharma_zoro.071.a:0 "And so it is."
+  dharma_zoro.072.t:0 "The Ruling on [ROOT.Char.GetFaith.GetAdjective] Xwedodah"
+  
+  dharma_zoro.072.desc:0 "After much excellent discussion - which got heated at times - the council I convened to examine the matter of #italic Xwedodah#! has formulated a ruling on the question at hand: does #italic Xwedodah#! refer to marriage between next of kin, or between cousins?\n\nWhile not a unanimous ruling, it had the support of many present. Though it will take time for the [ROOT.Char.GetFaith.GetAdjective] community around the world to hear of what happened here, hopefully this will resolve debates about #italic Xwedodah#! once and for all, so that we may focus on encouraging good thoughts, good words, and good deeds.\n\n#Bold Therefore, let it be known that we have concluded that [ROOT.Char.GetFaith.HighGodName] intended for #italic Xwedodah#! to be between:#!"
+  dharma_zoro.072.a:0 "Cousins, as [ROOT.Char.GetFaith.HighGodNamePossessive] intentions were misinterpreted for centuries"
+  dharma_zoro.072.b:0 "Close kin, as [ROOT.Char.GetFaith.HighGodNamePossessive] desires for it to be a way to guide humanity"
+  RICE_yazd_change_xwedodah_warning_tooltip:0 "#X This decision to determine the $doctrine_consanguinity_name$ [doctrine|E] of [xwedodah_resolver.GetFaith.GetNameNoTooltip] is #bold permanent#!, and cannot be reversed!#!"
+  RICE_yazd_keep_xwedodah_tooltip_1:0 "[GetFaithDoctrine('doctrine_consanguinity_unrestricted').GetBaseName] continues to be the $doctrine_consanguinity_name$ [doctrine|E] of [xwedodah_resolver.GetFaith.GetName]"
+  RICE_yazd_keep_xwedodah_tooltip_2:0 "[GetFaithDoctrine('tenet_divine_marriage').GetBaseName] remains as a [core_tenet|E] of [xwedodah_resolver.GetFaith.GetName]"
+  
+  dharma_zoro.073.t:0 "The Ruling on [xwedodah_resolver.GetFaith.GetAdjective] Xwedodah"
+  dharma_zoro.073.desc.intro:0 "Recently, [xwedodah_resolver.GetTitledFirstName] convened a council of scholars and [xwedodah_resolver.Custom('DefaultPriestTitlePlural')] to debate whether the current [xwedodah_resolver.GetFaith.GetAdjective] understanding of #italic Xwedodah#! was correct or not. The core question they debated was whether it referred to the practice of marriage between close kin or between cousins. Followers of other faiths have long denounced [xwedodah_resolver.GetFaith.GetAdherentNamePlural] for this, and it had been a matter of contention within their own community for some time now. Anyways, the council eventually came to a ruling."
+  dharma_zoro.073.desc.no_incest:0 "\n\nBased on various evidence and reasoning, they argue #italic Xwedodah#! actually refers to cousin marriage. As such, close kin marriage is a later corruption and a misunderstanding of the [xwedodah_resolver.GetFaith.ReligiousText] and the practices of the original, early [xwedodah_resolver.GetFaith.GetAdjective] community."
+  dharma_zoro.073.desc.yes_incest:0 "\n\nBased on various evidence and reasoning, they argue #italic Xwedodah#! does indeed refer to close kin marriage, such as that between parent and child or sibling and sibling. As such, the manner in which it is currently practiced is accurate and in accordance with the teachings found in the [xwedodah_resolver.GetFaith.ReligiousText]."
+  dharma_zoro.073.desc.conclusion:0 "\n\nThough this ruling is not necessarily binding nor absolute, due to the prominence of those involved, it will likely be heeded by many [xwedodah_resolver.GetFaith.GetAdherentNamePlural]."
+  dharma_zoro.073.a:0 "What will the [xwedodah_resolver.GetFaith.GetAdjectiveNoTooltip] community think of this?"
+  dharma_zoro.073.tooltip:0 "This change to the $doctrine_consanguinity_name$ [doctrine|E] of [xwedodah_resolver.GetFaith.GetName] is #bold permanent#!, and cannot be reversed."
 
 
 
