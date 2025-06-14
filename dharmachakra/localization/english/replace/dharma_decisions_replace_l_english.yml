@@ -1,0 +1,10 @@
+﻿l_english:
+
+# Saoshayant
+  become_saoshyant_decision:0 "Declare yourself the Saoshyant"
+  become_saoshyant_decision_confirm:0 "Destroy the lies Ahriman!"
+  become_saoshyant_decision_desc:0 "The Avesta and the Gathas teach of the Saoshayant, a great benefactor who will fight the forces of Ahriman and bring benefit to the world by teaching and some say restoring Zoroaster's teachings. The holy texts teach of several Saoshyanats, including Zoroaster. In the future it is said there are to be three heroic Saoshayants to usher in Frashokereti, the final renovation of the world. "
+  become_saoshyant_decision_tooltip:0 "Declare yourself the Saoshyant."
+  become_saoshyant_decision_effect_tooltip:0 "Become the Saoshyant"
+  become_saoshyant_decision_decendant_trait_tooltip:0 "Your descendants will gain the [trait|E] [GetTrait('saoshyant_descendant').GetName( GetNullCharacter )|LV]"
+

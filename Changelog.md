@@ -1,17 +1,26 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.7.0 "Hayagriva" (Released 05/09/2025)
+## Latest Version: 1.7.0 "Zarathustra" (Released 05/09/2025)
 
-This patch updates it for Khans of the steppe. It also includes a new and revised cultural set up. Hopefully the last before All under heaven comes out and I need to revise things again with the rest of asia. I have also added a bookmark for 1066 for the Ghaznavids and their invansion into India.
+This update expands the mod to the Middle East. It overhauls Zoroastrianism with new holy sites, tenets, decisions. Further the religious and cultural layout for the region has been overhauled. Several new faiths for islam reflecting the Ismaili schism, and the aftermath of the Minha, drawing from the great ME. 
 
 ## Changelog
 
 - Updated the cultures and religious layout of the Middle East
+- Added the Iranic Religious family which has the following religions: Zoroastrianism, Yazidism, Manicheanism, Zunism
+- Updated the holy sites of Zoroastrian faiths
+- Updated the zoroastrian tenets for zoroastrian faiths
 - Added Zorastrian Yazata stuff from RICE
+- Added Zoroastrian Xwedadohah(Incest) decision from RICE
 - Nowruz is now a festival not just an event; also added Mehregan as a festival
 - decision about the Cypress of Keshmar
-- added a bunch of Holy sites around the middle east central asia; models thanks to al-Sami
-
+- new Zoroastrian landless character
+- Behfaridist and Khurramites can decide between keeping righteous rebellion or switching it for struggle and submission if they unite persia
+- The Saoshayant can change doctrines of their faith
+- added more holy sites throughout west, central, and south asia. With some models thanks to Al-Sami.
+- added various Muslim Enhancement islamic faiths
+- Added various RICE pagan faiths for the Middle East
+- updated the character histories for the middle east, drawing from Muslim Enhancements
 
 
 ## Manual Installation Steps

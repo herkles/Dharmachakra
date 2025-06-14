@@ -118,9 +118,6 @@ dharma_zoro.003 = {# Ritual Bathing
 
 	option = {# Bath in your bath
 		name = dharma_zoro.003.bath
-		stress_impact = {
-			base = miniscule_stress_impact_loss
-		}
 	}
 
 	after = {
@@ -191,14 +188,6 @@ dharma_zoro.005 = {# Appointing a Nowruzian Ruler; Medieval Custom
 
 	option = {# Let the commoners have their Nowruzian Ruler
 		name = dharma_zoro.005.ruler
-		stress_impact = {
-			gregarious = miniscule_stress_impact_loss
-			zealous = miniscule_stress_impact_loss
-			humble = miniscule_stress_impact_loss
-			shy = miniscule_stress_impact_gain
-			cynical = miniscule_stress_impact_gain
-			reclusive = miniscule_stress_impact_gain
-		}
 	}
 
 	after = {
@@ -273,9 +262,6 @@ dharma_zoro.007 = {# Religious Teaching
 
 	option = {# What a wonderful Story 
 		name = dharma_zoro.007.faith
-		stress_impact = {
-			base = minor_stress_impact_loss
-		}
 	}
 
 	after = {
@@ -1612,10 +1598,6 @@ dharma_zoro.050 = {# Converting the Mosque
 			}
 		}
 	}
-
-	after = {
-
-	}
 }
 ######################################
 #     Islamic Syncretism Events      #
@@ -1664,6 +1646,11 @@ dharma_zoro.060 = {# Behafardism or khurramism has united persia
 		set_global_variable = {
 			name = dharma_zoro_revolt_units_persia
 			value = yes
+		}
+		# set your faith as Behidin
+		faith = {
+			remove_doctrine = doctrine_heretic_branch_zandik
+			add_doctrine = doctrine_major_branch_behdin
 		}
 	}
 
@@ -1841,9 +1828,333 @@ dharma_zoro.073 = {# The fate of Xwedodah has been decided - notify other rulers
 	}
 }
 ######################################
-#  	  Being a secret zoro Events     #
+#		  Saoshayant Events          #
 ######################################
+dharma_zoro.080 = {# Do you wish to change the faith?
+	type = character_event
+	title = dharma_zoro.080.t
+	desc = dharma_zoro.080.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
 
+	option = {# Let me address some points
+		name = dharma_zoro.080.change
+		trigger_event = { 
+			id = dharma_zoro.081
+			days = 1
+		}
+	}
+	option = {# The faith is good
+		name = dharma_zoro.080.no_change
+	}
+}
+dharma_zoro.081 = {# Communal or Missionary?
+	type = character_event
+	title = dharma_zoro.081.t
+	desc = dharma_zoro.080.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# Communal
+		name = dharma_zoro.081.communal
+
+	}
+	option = {# Universal
+		name = dharma_zoro.081.universal
+		faith = {
+			remove_doctrine = tenet_communal_identity
+			add_doctrine = tenet_mendicant_preachers
+		}
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.082
+			days = 1
+		}
+	}	
+
+}
+dharma_zoro.082 = {# Religious Policy
+	type = character_event
+	title = dharma_zoro.082.t
+	desc = dharma_zoro.082.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# Fundementalist
+		name = dharma_zoro.082.fundementalist
+		faith = {# Our Path is the true Path
+			remove_doctrine = doctrine_pluralism_righteous
+			add_doctrine = doctrine_pluralism_fundamentalist
+		}
+	}
+	option = {# Righteous
+		name = dharma_zoro.082.righteous
+	}	
+	option = {# Pluralist
+		name = dharma_zoro.082.pluralist
+		faith = {# Our Path is the true Path
+			remove_doctrine = doctrine_pluralism_righteous
+			add_doctrine = doctrine_pluralism_fundamentalist
+		}
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.083
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.083 = {# Marriage Policy
+	type = character_event
+	title = dharma_zoro.083.t
+	desc = dharma_zoro.083.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+
+	option = {# Monogamous
+		name = dharma_zoro.083.monogamous
+		faith = {# One man and one Wife
+			remove_doctrine = doctrine_concubines
+			add_doctrine = doctrine_monogamy
+		}
+	}
+	option = {# Polygamous
+		name = dharma_zoro.083.polygamous
+		faith = {# Many Wives
+			remove_doctrine = doctrine_concubines
+			add_doctrine = doctrine_polygamy
+		}
+	}
+	option = {# Concubines
+		name = dharma_zoro.083.concubines
+	}
+		
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.084
+			days = 1
+		}
+	}
+
+
+}
+dharma_zoro.084 = {# Yazata Worship
+	type = character_event
+	title = dharma_zoro.084.t
+	desc = dharma_zoro.084.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# The Yazatas are worthy of Worship
+		name = dharma_zoro.084.yazata
+
+	}
+	option = {# We shall only worship Ahura Mazada!
+		name = dharma_zoro.084.no_yazata
+		faith = {
+			remove_doctrine = rice_zoroastrian_sassanian_doctrine
+			add_doctrine = rice_zoroastrian_no_yazatas_doctrine
+		}
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.085
+			days = 1
+		}
+	}	
+
+}
+dharma_zoro.085 = {# Status of Women
+	type = character_event
+	title = dharma_zoro.085.t
+	desc = dharma_zoro.085.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# Male Dominated
+		name = dharma_zoro.085.men
+	}
+	option = {# Equal
+		name = dharma_zoro.085.equal
+		faith = {
+			remove_doctrine = doctrine_gender_male_dominated
+			add_doctrine = doctrine_gender_equal
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.086
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.086 = {# Clergy gender?
+	type = character_event
+	title = dharma_zoro.086.t
+	desc = dharma_zoro.086.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# Only Men
+		name = dharma_zoro.086.men
+	}
+	option = {# Both Men and Women
+		name = dharma_zoro.086.equal
+		faith = {
+			remove_doctrine = doctrine_clerical_gender_male_only
+			add_doctrine = doctrine_clerical_gender_either
+		}
+	}
+	
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.087
+			days = 1
+		}
+	}
+
+}
+dharma_zoro.087 = {# Clergy Role
+	type = character_event
+	title = dharma_zoro.087.t
+	desc = dharma_zoro.087.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# Control
+		name = dharma_zoro.087.control
+	}
+	option = {# alms
+		name = dharma_zoro.087.alms
+		faith = {
+			remove_doctrine = doctrine_clerical_function_taxation
+			add_doctrine = doctrine_clerical_function_alms_and_pacification
+		}
+	}
+	option = {# Recruitment
+		name = dharma_zoro.087.recruitment
+		faith = {
+			remove_doctrine = doctrine_clerical_function_taxation
+			add_doctrine = doctrine_clerical_function_recruitment
+		}
+	}
+		
+	after = {
+		trigger_event = { 
+			id = dharma_zoro.088
+			days = 1
+		}
+	}	
+}
+dharma_zoro.088 = {# The Saoshayant has spoken
+	type = character_event
+	title = dharma_zoro.088.t
+	desc = dharma_zoro.088.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# Let the faithful hear the true teachings of Zoroaster!
+		name = dharma_zoro.088.hear
+	}
+		
+	after = {
+		every_player = {
+			limit = {
+				religion = religion:zoroastrianism_religion
+				is_ai = no
+			}
+			trigger_event = { 
+				id = dharma_zoro.089
+				days = 1
+			}
+		}
+	}
+}
+dharma_zoro.089 = {# Message from the Saoshayant
+	type = character_event
+	title = dharma_zoro.089.t
+	desc = dharma_zoro.089.desc
+	theme = faith
+	override_background = {
+		reference = fp3_zoroastrian_temple
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {# We fight on!
+		name = dharma_zoro.089.neat
+	}
+}
 ######################################
 #       General Flavor Events        #
 ######################################
+
+
+
+
+
+

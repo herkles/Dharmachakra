@@ -642,6 +642,7 @@ dharma_zoro_keshmar_cypruss = {# Replant the sacred tree
 		# independent
 		is_independent_ruler = yes
 		has_title = title:c_baihaq
+		has_title = title:c_yazd
 		prestige_level >= 3
 		piety_level >= 3
 		# Keshmar must be Zoroastrian

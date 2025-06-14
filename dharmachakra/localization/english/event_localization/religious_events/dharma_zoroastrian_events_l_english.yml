@@ -213,7 +213,7 @@
   dharma_zoro.060.struggle:0 "There are some things we can learn."
   dharma_zoro.060.resistance:0 "We have achieved victory on our terms."
 
-
+# xwedodah Resolving
   dharma_zoro.070.t:0 "The Issue of [xwedodah_resolver.GetFaith.GetAdjective] Xwedodah"
   dharma_zoro.070.desc:0 "Any well-educated [ROOT.Char.GetFaith.GetAdherentName] knows that #italic Xwedodah#! is truly one of the greatest deeds any person can do. There are even those who claim that [ROOT.Char.GetFaith.DevilName] told [ROOT.Char.GetFaith.DevilHerHis] minions to avoid any couple who has completed an act of #italic Xwedodah#!, for their holiness is too mighty.\n\nFor a long while now, there has been considerable debate on what exactly #italic Xwedodah#! means. Traditionally, many of us have understood it to mean marriage between next of kin - parent with child, or sibling with sibling. Some, however, contest this, and argue our current understanding is flawed; the true, original teachings, they say, referred to marriages between cousins.\n\nAs one of the more powerful [ROOT.Char.GetFaith.GetAdjective] leaders in the world, I have decided to convene a council of various scholars and [ROOT.Char.Custom('DefaultPriestTitlePlural')] to discuss this matter. Perhaps we can resolve this debate once and for all, to ensure unity among us all."
   dharma_zoro.070.a:0 "Let us start hearing the arguments on both sides."
@@ -238,5 +238,55 @@
   dharma_zoro.073.a:0 "What will the [xwedodah_resolver.GetFaith.GetAdjectiveNoTooltip] community think of this?"
   dharma_zoro.073.tooltip:0 "This change to the $doctrine_consanguinity_name$ [doctrine|E] of [xwedodah_resolver.GetFaith.GetName] is #bold permanent#!, and cannot be reversed."
 
+# Saoshayant Doctrine changing
+  dharma_zoro.080.t:0 "Teachings of the Saoshayant?"
+  dharma_zoro.080.desc:0 "You have declared yourself the Saoshayant, and with this comes an opportunity to clarify the teachings of Zoroaster for the faithful around the world. Is there anything you wish to clarify on?"
+  dharma_zoro.080.change:0 "I have some things to say"
+  dharma_zoro.080.no_change:0 "No need to change anything."
 
+  dharma_zoro.081.t:0 "Communal or Universal?"
+  dharma_zoro.081.desc:0 "For centuries the Zoroastrian faithful have been tied to the culture of the Persian Empire. With it being an ethnic religion of the Iranian peoples. Is this teaching true or is it time to spread the message of Zoroaster to all corners of the globe?"
+  dharma_zoro.081.communal:0 "You can not separate it from Iranian culture."
+  dharma_zoro.081.universal:0 "Spread the Teachings of Zoroaster!"
+
+  dharma_zoro.082.t:0 "Policy towards other faiths"
+  dharma_zoro.082.desc:0 "There are many other religious traditions, but how are they to be treated? Is the teachings of Zoroaster the one true teachings and everyone else is unwittingly a servant of Angru Maiyu? or is there some truth in other teachings? or perhaps even they also had teachers who knew the truth of Ahura Mazda? "
+  dharma_zoro.082.fundementalist:0 "Zoroaster's teachings are the one true teachings!"
+  dharma_zoro.082.righteous:0 "Zoroaster's Teachings are the right ones to follow!"
+  dharma_zoro.082.pluralist:0 "Many prophets preached the word of Ahura Mazda!"
+
+  dharma_zoro.083.t:0 "Marriage Policy"
+  dharma_zoro.083.desc:0 "There are conflicting traditions and teachings of marriage within the community. What are the teachings of the Saoshayant?"
+  dharma_zoro.083.monogamous:0 "One man and one wif!"
+  dharma_zoro.083.polygamous:0 "Polygamy is holy!"
+  dharma_zoro.083.concubines:0 "Concubines are allowed"
+
+  dharma_zoro.084.t:0 "Yazata Worship"
+  dharma_zoro.084.desc:0 "Ever since the Islamic conquest there has been a lot of debate over the nature of the Yazata. Many venerate and worship them, while others believe that they distract from the worship of Ahura Mazda. What shall the teachings of the Saoshayant be?"
+  dharma_zoro.084.yazata:0 "Yazatas are worthy of Worship"
+  dharma_zoro.084.no_yazata:0 "We worship only Ahura Mazda"
+
+  dharma_zoro.085.t:0 "Status of Women"
+  dharma_zoro.085.desc:0 "There are debates as to what is the status of women within the Zoroastrian Community and what Zoroaster taught. Most believe that men should be in charge. However some believe that Zoroaster taught equality for men and women. "
+  dharma_zoro.085.men:0 "Men are to guide women"
+  dharma_zoro.085.equal:0 "Men and Women are equal"
+
+  dharma_zoro.086.t:0 "The Clergy's gender"
+  dharma_zoro.086.desc:0 "While for centuries the priesthood has long been male only, ever since the Islamic conquest and the destruction of many fire temples and priests, a number of communities have allowed pious women to officiate religious ceremonies. Some point to teachings from the Avesta that say that both men and women can be priests, others point to the Avesta to refute it. Thus many look to the Saoshayant to clarify matters."
+  dharma_zoro.086.men:0 "Male Priesthood"
+  dharma_zoro.086.equal:0 "Women can join the priesthood"
+
+  dharma_zoro.087.t:0 "Role of the Clergy"
+  dharma_zoro.087.desc:0 "The final matter brought to your attention is the nature of the priesthood. Is it to focus just on the rites and rituals that Zoroaster has taught and you have clarified? or is it to ensure that the people have welfare? or is it to defend the people from the forces of Arihman?"
+  dharma_zoro.087.convert:0 "Proper Rituals"
+  dharma_zoro.087.convert:0 "Welfare for the People"
+  dharma_zoro.087.convert:0 "Defending the People"
+
+  dharma_zoro.088.t:0 "The Saoshayant has spoken"
+  dharma_zoro.088.desc:0 "Now that you have clarified things you are drafting documents so that the world can know the true teachings of Zoroaster and ensure that the faith is on the right course."
+  dharma_zoro.088.convert:0 "Let the people know!"
+
+  dharma_zoro.089.t:0 "The Saoshayant has spoken"
+  dharma_zoro.089.desc:0 "You have received a missive from the Saoshayant who has informed you that they have come to a decision on a number of matters clarifying matters of the Faith. With their guidance the faith shall be restored."
+  dharma_zoro.089.convert:0 "Interesting"
 
