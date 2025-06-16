@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.7.5 "Zarathustra" (Released 05/09/2025)
+## Latest Version: 1.7.5 "Zarathustra" (Released 06/16/2025)
 
 This update expands the mod to the Middle East. It overhauls Zoroastrianism with new holy sites, tenets, decisions. Further the religious and cultural layout for the region has been overhauled. Several new faiths for islam reflecting the Ismaili schism, and the aftermath of the Minha, drawing from the great ME. 
 
