@@ -2,7 +2,7 @@
 
 ## Latest Version: 1.7.5 "Zarathustra" (Released 06/16/2025)
 
-This update expands the mod to the Middle East. It overhauls Zoroastrianism with new holy sites, tenets, decisions. Further the religious and cultural layout for the region has been overhauled. Several new faiths for islam reflecting the Ismaili schism, and the aftermath of the Minha, drawing from the great ME. 
+This update expands the mod to the Middle East. It overhauls Zoroastrianism with new holy sites, tenets, decisions. Further the religious and cultural layout for the region has been overhauled. New Islamic Faiths, along with new various middle eastern pagan faiths. Many new special buildings have been added throughout the region. New persian actvities have also been added. 
 
 ## Changelog
 
