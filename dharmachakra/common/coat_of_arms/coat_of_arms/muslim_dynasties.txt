@@ -436,21 +436,6 @@ house_me_atiyyids = { # Maghrawavids of Banu 'Aṭiyya
 	}
 }
 
-## Barghawata ##
-9576 ={
-	pattern="pattern__solid_designer.dds"
-	color1=rgb { 26 117 74 }
-	color2=black
-	color3=green
-	colored_emblem={ color1=white texture="ce_star_hexagram.dds" }
-	colored_emblem={
-		color1=black
-		color2=rgb { 43 164 107 }
-		texture="ce_octogon_plain_frame.dds"
-		instance={ scale={ 0.860000 0.860000 } depth=1.010000 }
-	}
-}
-
 
 ## Sicily Dynasties ##
 12241 = { #al-Madani

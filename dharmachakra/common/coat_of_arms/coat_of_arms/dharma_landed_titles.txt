@@ -77,29 +77,6 @@ d_nukkari = {
 		instance={ position={ 0.500000 0.520000 } scale={ 0.660000 0.660000 } }
 	}
 }
-d_barghawata = {
-	pattern="pattern__solid_designer.dds"
-	color1=rgb { 26 117 74 }
-	color2=black
-	color3=green
-	colored_emblem={
-		color1=black
-		color2=rgb { 43 164 107 }
-		texture="ce_octogon_plain_frame.dds"
-		instance={ scale={ 0.860000 0.860000 } depth=3.010000 }
-	}
-	colored_emblem={
-		color1=white
-		texture="ce_block_04.dds"
-		instance={ scale={ 1.000000 0.520000 } rotation=90 }
-	}
-	colored_emblem={
-		color1=white
-		texture="ce_tamgha_turkic_01.dds"
-		instance={ position={ 0.500000 0.350000 } scale={ 0.680000 0.680000 } depth=1.010000 }
-		instance={ position={ 0.500000 0.650000 } scale={ 0.660000 -0.660000 } depth=2.010000 }
-	}
-}
 d_tayyibi = {
 	pattern="pattern_solid.dds"
 	color1=rgb { 70 102 74 }

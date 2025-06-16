@@ -131,8 +131,6 @@ nick_me_al_mahdi = {}
 nick_dhu_thafinat = {}
 nick_talib_al_haqq = {}
 
-##Barghawata 
-nick_salih_barghawata = {}
 
 ##Ifrinids
 nick_sahib_al_himar = {}

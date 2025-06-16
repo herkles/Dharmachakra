@@ -482,8 +482,9 @@ window = {
 
 									item = {
 										vbox = {
+											layoutpolicy_vertical = expanding
 											minimumsize = { 100 0 }
-																margin_top = -50
+											margin_top = -50
 											name = "doctrine_list_item"
 											datacontext = "[GuiFaithDoctrineItem.GetDoctrine]"
 											visible = "[FaithDoctrine.IsVisible]"

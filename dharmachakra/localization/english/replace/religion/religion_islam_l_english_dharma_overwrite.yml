@@ -267,56 +267,8 @@
  wahbiya_adherent_plural:0 "Wahbis"
  wahbiya_desc:0 "The Wahbiyya are the followers of the North African branch of Ibadi Islam, they have their own leaders seperate from the distant imams in Oman, and eventually it's followers started to develop their own seperate teachings, taking the name 'al-Wahbiyya' from the Imam Abdul-Wahab Rustamid in Tahret."
 
- barghawata:0 "Barghawata"
- barghawata_adj:0 "Barghawatian"
- barghawata_adherent:0 "Barghawatian"
- barghawata_adherent_plural:0 "Barghawatians"
- barghawata_desc:0 "Founded by the self-proclaimed mahdi and prophet Ṣāliḥ ibn Tarīf, Barghawatism is a heavily altered and berberized form of the Islam mixed in with traditional Berber mythology, it's adherants refer to God by his berber name, Yakush, and have their own Qur'an called 'The Tira' which written in the Berber language and includes an additional 80 chapters."
-
- muhammad_succession_berberist_doctrine_name:0 "Barghawata"
- muhammad_succession_berberist_doctrine_desc:0 "We acknowledge neither the views of the Sunnis nor the Shia, to us, the true successor to Muhammad is the Barghawatian Mahdi-Prophet Salih ibn Tarif."
- doctrine_parameter_hostility_override_muhammad_succession_berberist_doctrine:0 ""
-
- ##Berber name for god used by the Barghwata
- barghawata_high_god_name:0 "Yakush" ## Other names include Akush, Yush, and Ayush
- barghawata_high_god_name_2:0 "$barghawata_high_god_name$" # Optional translation alt
- barghawata_high_god_name_3:0 "$barghawata_high_god_name$" # Optional translation alt
- barghawata_high_god_name_possessive:0 "Yakush's"
- barghawata_creator_god_name:0 "$barghawata_high_god_name$"
- barghawata_creator_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_health_god_name:0 "$barghawata_high_god_name$"
- barghawata_health_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_fertility_god_name:0 "$barghawata_high_god_name$"
- barghawata_fertility_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_wealth_god_name:0 "$barghawata_high_god_name$"
- barghawata_wealth_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_household_god_name:0 "$barghawata_high_god_name$"
- barghawata_household_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_fate_god_name:0 "$barghawata_high_god_name$"
- barghawata_fate_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_knowledge_god_name:0 "$barghawata_high_god_name$"
- barghawata_knowledge_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_war_god_name:0 "$barghawata_high_god_name$"
- barghawata_war_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_night_god_name:0 "$barghawata_high_god_name$"
- barghawata_night_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- barghawata_water_god_name:0 "$barghawata_high_god_name$"
- barghawata_water_god_name_possessive:0 "$barghawata_high_god_name_possessive$"
- 
- barghawata_religious_text:0 "Tira"
- barghawata_religious_text_2:0 "$barghawata_religious_text$" # Optional translation alt
- barghawata_religious_text_3:0 "$barghawata_religious_text$" # Optional translation alt
-
- barghawata_good_god_the_prophet:0 "The Iser" #Berber Barghwata word for 'Prophet'
- barghawata_devil_name:0 "Adaymun" #Berber Barghwata word for 'Devil'
- barghawata_devil_name_possessive:0 "Adaymun's"
- barghawata_good_god_salih:0 "Salih"
- 
- barghawata_priest:0 "amusnaw"
- barghawata_priest_plural:0 "imusnawen"
 
  holy_order_servants_of_yakush:0 "Servants of Yakush"
- holy_order_champions_of_islam:0 "Champions of the Barghawata"
 
 
  holy_site_karbala_name:0 "Karbala"
@@ -379,11 +331,3 @@
 
  d_wahbiya:0 "Wahbi Imamate"
  d_wahbiya_adj:0 "Wahbi"
-
- d_barghawata:0 "The Barghawata Iserate"
- d_barghawata_adj:0 "Barghawata"
- barghawata_religious_head_title:0 "Iser"
- barghawata_religious_head_title_name:0 "Barghawata Iserate"
-
-
-

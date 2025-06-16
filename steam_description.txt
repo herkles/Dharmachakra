@@ -3,28 +3,24 @@ Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the n
 [h2]Overview of features[/h2]
 These are some of the features of the mod.
 [list]
-    [*] Improvements for the various Dharmic faiths of south asia
-    [*] Improvements for the various cultures of south asia
-    [*] New Hindu Sects of Trika Shaivism, Suyraism, Ganaptaya, Kaumaram, and Shrautism​; as well as Lingayatism in 1178
-    [*] new activities for the various pilgrimages Hinduism
-    [*] activities for various festivals
-    [*] revised history of provinces and characters
-    [*] A bunch of special buildings for the various temples and other holy sites throughout south asia
-    [*] 2 867 bookmarks, one for tibet and one for india
-    [*] 1 1178 bookmark for South Asia
-    [*] various new events for south asia
-    [*] various new decisions
-    [*] Bald Buddhist Monks and Nuns​
-    [*] Buddhist and Jain temple holders and court chaplains are monks​
-[/list]
-
-[h2]Tenet changes[/h2]
-[list]
-    [*]Digamabara Jains: Vows of Poverty, Dharmic Pacifism, Ritual Hospitality
-    [*]Yapaniya: Ritual Hospitality, Dharmic Pacifism, Sallekhana(Consolamentum)
-    [*]Svetemabara Jains: Adaptive, Dharmic Pacifism, Vows of Poverty
-    [*]Shrautism: Ritual Hospitality, Legalism, and Esotericism
-    [*]Sauraism: Sun Worship, Esotericism, and Inner Journey
+    [*]New cultural and religious setup for West, Central and south asia along Tibet
+    [*]New Cultural Tenets
+    [*]New Hindu Faiths of Trika Shaivism, Saura, Ganaptaya, Kaumaram, Sarnaism, Koyapunem, and Shrautism​; as well as Lingayatism in 1178
+    [*]New Buddhist sect of: pudgalavada
+    [*]New Islamic faiths of: tayyibi, wahbiya, karrami
+    [*]New Bon faith: kinnaur
+    [*]New Religious Family:Iranian that is for Yazidis, Zoroastrianism, and Manicheanism
+    [*]New Pagan faiths of: Burmic, Khasi, Sanamahi, nuristani, minaro
+    [*]New Pilgrimage activities
+    [*]Cultural Festivals as activities from Nowruz to Losar to Pongal and many more
+    [*]Animal sacrifices for different Hindu Branches
+    [*]New Bookmarks focusing on South Asian history from the Tripartite struggle in 867 to the Ghazanavids in 1066 and the Ghurids in 1178
+    [*]Numerous new holy sites throughout the map
+    [*]Various new decisions 
+    [*]New Flavor Events
+    [*]Bald Buddhist Monks and Nuns
+    [*]Jain and Buddhist clergy are now required to be monks or nuns
+    [*]changed history for a lot of south asian characters
 [/list]
 
 I welcome any and all feedback. So please let me know if you encounter any bugs, find things imbalanced, if you have any suggestions, or anything else about the mod. I hope to add more decisions, events, and mechanics with future updates to the mod.
@@ -38,4 +34,7 @@ Feel free to use my work in your mods - all I ask is that I am credited and (if 
     [*]Rajas of Asia
     [*]Cybrxkhan
     [*]Community Title Project
+    [*]cultures expanded
+    [*]Muslim Enhancements
+    [*]al-Sami for the special building models
 [/list]

@@ -217,10 +217,6 @@ nick_ad_dakhil:0 "ad-Dakhil" #Alternate nickname for Abdul-Rahman I, well known 
  nick_talib_al_haqq:0 "Talib al-Ḥaqq"
  nick_talib_al_haqq_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] assumed or received the honorific $nick_talib_al_haqq$ — Seeker of the Truth."
  
- ##Barghawata
- nick_salih_barghawata:0 "Ṣāliḥ al-Mu'minin"
- nick_salih_barghawata_desc:1 "Ṣāliḥ was the founder and self-proclaimed prophet of the Barghawata religion, he claimed that his coming was prophesized in the Qur'an by pointing to his newly acquired epithet '$nick_salih_barghawata$' (The best of the believers).\n\nHe kept his and his people's faith hidden, it was not until the reign of his grandson, Yunus, that the Barghwata religion was publicly proclaimed."
- 
  ##Ifrinids
  nick_sahib_al_himar:0 "Ṣāhib al-Ḥimār"
  nick_sahib_al_himar_desc:1 "In order to appear to [CharYourHerHis(CHARACTER)] followers as a humble messianic figure, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] dressed [CharYourHerHimself(CHARACTER)] in rags and prefered riding a donkey to a horse, which gave [CharYouHerHim(CHARACTER)] the nickname '$nick_sahib_al_himar$' (The Man on the Donkey)."

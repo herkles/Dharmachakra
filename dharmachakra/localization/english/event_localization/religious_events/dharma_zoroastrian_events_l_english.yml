@@ -278,15 +278,15 @@
 
   dharma_zoro.087.t:0 "Role of the Clergy"
   dharma_zoro.087.desc:0 "The final matter brought to your attention is the nature of the priesthood. Is it to focus just on the rites and rituals that Zoroaster has taught and you have clarified? or is it to ensure that the people have welfare? or is it to defend the people from the forces of Arihman?"
-  dharma_zoro.087.convert:0 "Proper Rituals"
-  dharma_zoro.087.convert:0 "Welfare for the People"
-  dharma_zoro.087.convert:0 "Defending the People"
+  dharma_zoro.087.control:0 "Proper Rituals"
+  dharma_zoro.087.alms:0 "Welfare for the People"
+  dharma_zoro.087.recruitment:0 "Defending the People"
 
   dharma_zoro.088.t:0 "The Saoshayant has spoken"
   dharma_zoro.088.desc:0 "Now that you have clarified things you are drafting documents so that the world can know the true teachings of Zoroaster and ensure that the faith is on the right course."
-  dharma_zoro.088.convert:0 "Let the people know!"
+  dharma_zoro.088.hear:0 "Let the people know!"
 
   dharma_zoro.089.t:0 "The Saoshayant has spoken"
   dharma_zoro.089.desc:0 "You have received a missive from the Saoshayant who has informed you that they have come to a decision on a number of matters clarifying matters of the Faith. With their guidance the faith shall be restored."
-  dharma_zoro.089.convert:0 "Interesting"
+  dharma_zoro.089.neat:0 "Interesting"
 
