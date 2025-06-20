@@ -1,102 +1,85 @@
 ﻿l_english:
 #Holy sites: Bathouism
- holy_site_srihatta_name:0 "Srihatta"
- holy_site_srihatta_effect_name:0 "From [holy_site|E] #weak ($holy_site_srihatta_name$)#!" 
- holy_site_goalpara_name:0 "Goalpara"
- holy_site_goalpara_effect_name:0 "From [holy_site|E] #weak ($holy_site_goalpara_name$)#!" 
- holy_site_manikuta_name:0 "Manikuta"
- holy_site_manikuta_effect_name:0 "From [holy_site|E] #weak ($holy_site_manikuta_name$)#!" 
+ holy_site_srihatta_name: "Srihatta"
+ holy_site_srihatta_effect_name: "From [holy_site|E] #weak ($holy_site_srihatta_name$)#!" 
+ holy_site_goalpara_name: "Goalpara"
+ holy_site_goalpara_effect_name: "From [holy_site|E] #weak ($holy_site_goalpara_name$)#!" 
+ holy_site_manikuta_name: "Manikuta"
+ holy_site_manikuta_effect_name: "From [holy_site|E] #weak ($holy_site_manikuta_name$)#!" 
 
 #Holy sites: Sanamahism
- holy_site_tripura_name:0 "Tripura"
- holy_site_tripura_effect_name:0 "From [holy_site|E] #weak ($holy_site_tripura_name$)#!" 
- holy_site_unakoti_name:0 "Unakoti"
- holy_site_unakoti_effect_name:0 "From [holy_site|E] #weak ($holy_site_manikuta_name$)#!" 
- holy_site_homalin_name:0 "Homalin"
- holy_site_homalin_effect_name:0 "From [holy_site|E] #weak ($holy_site_homalin_name$)#!" 
+ holy_site_tripura_name: "Tripura"
+ holy_site_tripura_effect_name: "From [holy_site|E] #weak ($holy_site_tripura_name$)#!" 
+ holy_site_unakoti_name: "Unakoti"
+ holy_site_unakoti_effect_name: "From [holy_site|E] #weak ($holy_site_manikuta_name$)#!" 
+ holy_site_homalin_name: "Homalin"
+ holy_site_homalin_effect_name: "From [holy_site|E] #weak ($holy_site_homalin_name$)#!" 
 
 #Holy sites: Mundhum
- holy_site_darjeeling_name:0 "Darjeeling"
- holy_site_darjeeling_effect_name:0 "From [holy_site|E] #weak ($holy_site_darjeeling_name$)#!"
+ holy_site_darjeeling_name: "Darjeeling"
+ holy_site_darjeeling_effect_name: "From [holy_site|E] #weak ($holy_site_darjeeling_name$)#!"
 
- holy_site_khotang_name:0 "Khotang"
- holy_site_khotang_effect_name:0 "From [holy_site|E] #weak ($holy_site_khotang_name$)#!"
+ holy_site_khotang_name: "Khotang"
+ holy_site_khotang_effect_name: "From [holy_site|E] #weak ($holy_site_khotang_name$)#!"
  
 #Holy sites: Qiangic/Hsexje
 
 #Holy Sites: Bon
 
 # Holy Sites: Semitic
- holy_site_harran_name:1 "Harran"
- holy_site_harran_effect_name:0 "From [holy_site|E] #weak ($holy_site_harran_name$)#!"
+ holy_site_harran_name: "Harran"
+ holy_site_harran_effect_name: "From [holy_site|E] #weak ($holy_site_harran_name$)#!"
 
- holy_site_giza_name:1 "Giza"
- holy_site_giza_effect_name:0 "From [holy_site|E] #weak ($holy_site_giza_name$)#!"
+ holy_site_giza_name: "Giza"
+ holy_site_giza_effect_name: "From [holy_site|E] #weak ($holy_site_giza_name$)#!"
 
- holy_site_petra_name:1 "Petra"
- holy_site_petra_effect_name:0 "From [holy_site|E] #weak ($holy_site_petra_name$)#!"
+ holy_site_petra_name: "Petra"
+ holy_site_petra_effect_name: "From [holy_site|E] #weak ($holy_site_petra_name$)#!"
 
- holy_site_marib_name:0 "Marib"
- holy_site_marib_effect_name:0 "From [holy_site|E] #weak ($holy_site_marib_name$)#!"
+ holy_site_marib_name: "Marib"
+ holy_site_marib_effect_name: "From [holy_site|E] #weak ($holy_site_marib_name$)#!"
 
 # Keshmar 
- holy_site_keshmar_mazdayasna_name:0 "Keshmar"
- holy_site_keshmar_mazdayasna_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_mazdayasna_name$)#!"
+ holy_site_keshmar_mazdayasna_name: "Keshmar"
+ holy_site_keshmar_mazdayasna_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_mazdayasna_name$)#!"
 
- holy_site_keshmar_zurvanism_name:0 "Keshmar"
- holy_site_keshmar_zurvanism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_zurvanism_name$)#!"
+ holy_site_keshmar_zurvanism_name: "Keshmar"
+ holy_site_keshmar_zurvanism_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_zurvanism_name$)#!"
 
- holy_site_keshmar_gayomarthianism_name:0 "Keshmar"
- holy_site_keshmar_gayomarthianism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_gayomarthianism_name$)#!"
+ holy_site_keshmar_gayomarthianism_name: "Keshmar"
+ holy_site_keshmar_gayomarthianism_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_gayomarthianism_name$)#!"
 
- holy_site_keshmar_khurmazta_name:0 "Keshmar"
- holy_site_keshmar_khurmazta_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_khurmazta_name$)#!"
+ holy_site_keshmar_khurmazta_name: "Keshmar"
+ holy_site_keshmar_khurmazta_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_khurmazta_name$)#!"
 
- holy_site_keshmar_mazdakism_name:0 "Keshmar"
- holy_site_keshmar_mazdakism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_mazdakism_name$)#!"
+ holy_site_keshmar_mazdakism_name: "Keshmar"
+ holy_site_keshmar_mazdakism_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_mazdakism_name$)#!"
 
- holy_site_keshmar_name:0 "Keshmar"
- holy_site_keshmar_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_name$)#!"
+ holy_site_keshmar_name: "Keshmar"
+ holy_site_keshmar_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_name$)#!"
 
- holy_site_keshmar_khurramism_name:0 "Keshmar"
- holy_site_keshmar_khurramism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_khurramism_name$)#!"
+ holy_site_keshmar_khurramism_name: "Keshmar"
+ holy_site_keshmar_khurramism_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_khurramism_name$)#!"
 
- holy_site_keshmar_urartuism_name:0 "Keshmar"
- holy_site_keshmar_urartuism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_urartuism_name$)#!"
+ holy_site_keshmar_urartuism_name: "Keshmar"
+ holy_site_keshmar_urartuism_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_urartuism_name$)#!"
 
- holy_site_keshmar_afridunism_name:0 "Keshmar"
- holy_site_keshmar_afridunism_effect_name:0 "From [holy_site|E] #weak ($holy_site_keshmar_afridunism_name$)#!"
+ holy_site_keshmar_afridunism_name: "Keshmar"
+ holy_site_keshmar_afridunism_effect_name: "From [holy_site|E] #weak ($holy_site_keshmar_afridunism_name$)#!"
 
- holy_site_ctesiphon_mazdayasna_name:0 "Ctesiphon"
- holy_site_ctesiphon_mazdayasna_effect_name:0 "From [holy_site|E] #weak ($holy_site_ctesiphon_mazdayasna_name$)#!"
+ holy_site_ctesiphon_mazdayasna_name: "Ctesiphon"
+ holy_site_ctesiphon_mazdayasna_effect_name: "From [holy_site|E] #weak ($holy_site_ctesiphon_mazdayasna_name$)#!"
 
+#Holy sites: Burmic
 
+ holy_site_popa_effect_name_name: "Popa"
+ holy_site_popa_effect_name_effect_name: "From [holy_site|E] #weak ($holy_site_popa_effect_name_name$)#!"
 
+ holy_site_zwegabin_effect_name_name: "Zwegabin"
+ holy_site_zwegabin_effect_name_effect_name: "From [holy_site|E] #weak ($holy_site_zwegabin_effect_name_name$)#!"
 
+ holy_site_myitsone_effect_name_name: "Myitsone"
+ holy_site_myitsone_effect_name_effect_name: "From [holy_site|E] #weak ($holy_site_myitsone_effect_name_name$)#!"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ holy_site_taungbyone_effect_name_name: "Taungbyone"
+ holy_site_taungbyone_effect_name_effect_name: "From [holy_site|E] #weak ($holy_site_taungbyone_effect_name_name$)#!"

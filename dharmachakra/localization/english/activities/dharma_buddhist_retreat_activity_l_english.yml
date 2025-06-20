@@ -1,4 +1,10 @@
 ﻿l_english:
+
+###################################
+# a/an title stuff itself
+###################################
+  activity_dharma_buddhist_retreat_host_an_a: "$dharma_festival_host_activity_a$"
+
 ###################################
 # Activity itself
 ###################################

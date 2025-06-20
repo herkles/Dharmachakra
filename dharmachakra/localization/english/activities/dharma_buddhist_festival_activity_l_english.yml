@@ -1,8 +1,15 @@
 ﻿l_english:
+
+
+###################################
+# a/an title stuff itself
+###################################
+  activity_dharma_buddhist_festival_vesak_host_an_a: "$dharma_festival_host_activity_a$"
+
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_buddhist_festival_vesak: "Celebrate Vesak"
+  activity_dharma_buddhist_festival_vesak: "Vesak Celebration"
   activity_dharma_buddhist_festival_vesak_desc: "Vesak is the time to celebrate the Buddha's birth, enlightenment, and death. It is one of the most sacred times of the year for Buddhists. "
   activity_dharma_buddhist_festival_vesak_selection_tooltip: "It is time to celebrate Vesak.\n\n$dharma_buddhist_festival_vesak_desc_context_tooltip$"
   activity_dharma_buddhist_festival_vesak_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"

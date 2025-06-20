@@ -4,12 +4,17 @@
 # Second Shakta Pithas
 # Third Abodes of Murugan
 # Forth Jyotirlingas
-
+###################################
+# a/an title stuff itself
+###################################
+  activity_dharma_pilgrimage_char_dham_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_pilgrimage_shakta_pithas_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_pilgrimage_jyotirlingas_host_an_a: "$dharma_festival_host_activity_a$"
 
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_pilgrimage_char_dham: "Visit one of the Char Dhams"
+  activity_dharma_pilgrimage_char_dham: "Char Dhams Pilgrimage"
   activity_dharma_pilgrimage_char_dham_desc: "Adi Shankara, the great sage, established four of the most holy locations in India to be one of the Char Dhams. One for each direction, north, south, east, and west. Each Dham represents one of the four yugas. Which one shall you visit?"
   activity_dharma_pilgrimage_char_dham_selection_tooltip: "Go and visit a holy temple \n\n$dharma_pilgrimage_char_dham_desc_context_tooltip$"
   activity_dharma_pilgrimage_char_dham_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"

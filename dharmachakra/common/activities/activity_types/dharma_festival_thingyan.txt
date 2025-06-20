@@ -5,10 +5,10 @@
 		custom_description = {
 			text = dharma_decision_thingyan_culture_requirement
 			OR = {
-				has_culture = culture:bodpa
-				has_culture = culture:zhangzhung
-				has_culture = culture:sumpa
-				has_culture = culture:tsangpa
+				has_culture = culture:burmese
+				has_culture = culture:mon
+				has_culture = culture:rakhine
+				has_culture = culture:pyu
 			}
 		}
 		trigger_if = {
@@ -29,10 +29,10 @@
 		custom_description = {
 			text = dharma_decision_thingyan_culture_requirement
 			OR = {
-				has_culture = culture:bodpa
-				has_culture = culture:zhangzhung
-				has_culture = culture:sumpa
-				has_culture = culture:tsangpa
+				has_culture = culture:burmese
+				has_culture = culture:mon
+				has_culture = culture:rakhine
+				has_culture = culture:pyu
 			}
 		}
 	}

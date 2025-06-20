@@ -4,6 +4,14 @@
 # second Paryushana
 # Third Mahavir Janma Kalyanak
 
+
+###################################
+# a/an title stuff itself
+###################################
+  activity_dharma_jain_festival_mahamastakabhisheka_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_jain_festival_paryushana_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_jain_festival_mahavir_janma_kalyanak_host_an_a: "$dharma_festival_host_activity_a$"
+
 ###################################
 # Activity Options - shared
 ###################################
@@ -18,7 +26,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_jain_festival_mahamastakabhisheka: "Celebrate Mahamastakabhisheka"
+  activity_dharma_jain_festival_mahamastakabhisheka: "Mahamastakabhisheka Celebration"
   activity_dharma_jain_festival_mahamastakabhisheka_desc: "The Mahamastakabhisheka celebrates Bahubali, otherwise known as Gommateshwara. People travel to Shravenbelagola to visit the great statue of Bahubali every twelve years. Should I make a pilgrimage?"
   activity_dharma_jain_festival_mahamastakabhisheka_selection_tooltip: "Go and pay respects to Bahubali. \n\n$dharma_jain_festival_mahamastakabhisheka_desc_context_tooltip$"
   activity_dharma_jain_festival_mahamastakabhisheka_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -81,7 +89,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_jain_festival_paryushana: "Celebrate Paryushana"
+  activity_dharma_jain_festival_paryushana: "Paryushana Celebration"
   activity_dharma_jain_festival_paryushana_desc: "The Paryushana Festival, or the Das Lakshana among the Digambara, is the holiest of festivals where Jains come together to study and fast. Where the teachings of the tirthankaras are focused upon and the five great vows of Jainism are emphasized."
   activity_dharma_jain_festival_paryushana_selection_tooltip: "Let us come together. \n\n$dharma_jain_festival_paryushana_desc_context_tooltip$"
   activity_dharma_jain_festival_paryushana_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -140,7 +148,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_jain_festival_mahavir_janma_kalyanak: "Celebrate Mahavir Janma Kalyanak"
+  activity_dharma_jain_festival_mahavir_janma_kalyanak: "Mahavir Janma Kalyanak Celebration"
   activity_dharma_jain_festival_mahavir_janma_kalyanak_desc: "Mahavir Janma Kalyanak celebrates the birth of the twenty-fourth and last Tirthankara of this cycle, Mahavira. It is thus a holy time of the year to celebrate the great teacher of Jainism."
   activity_dharma_jain_festival_mahavir_janma_kalyanak_selection_tooltip: "Let us remember Mahavira.\n\n$dharma_jain_festival_mahavir_janma_kalyanak_desc_context_tooltip$"
   activity_dharma_jain_festival_mahavir_janma_kalyanak_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"

@@ -4,9 +4,15 @@
 # second Navaratri
 
 ###################################
+# a/an title stuff itself
+###################################
+  activity_dharma_hindu_festival_diwali_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_hindu_festival_navaratri_host_an_a: "$dharma_festival_host_activity_a$"
+
+###################################
 # Activity itself
 ###################################
-  activity_dharma_hindu_festival_diwali: "Celebrate Diwali"
+  activity_dharma_hindu_festival_diwali: "Diwali Celebration"
   activity_dharma_hindu_festival_diwali_desc: "Diwali is the festival of Lights. It celebrates the victory of good over and light over darkness. It is one of the more special times of the year for Hindus."
   activity_dharma_hindu_festival_diwali_selection_tooltip: "Celebrate the festival of lights. \n\n$dharma_hindu_festival_diwali_desc_context_tooltip$"
   activity_dharma_hindu_festival_diwali_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -71,7 +77,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_hindu_festival_navaratri: "Celebrate Navaratri"
+  activity_dharma_hindu_festival_navaratri: "Navaratri Celebration"
   activity_dharma_hindu_festival_navaratri_desc: "The Navaratri Festival is a holy festival that honors the goddess Durga and her incarnations, including Parvati. Called Nine Nights, as it traditionally lasts over nine nights. Shall you began to make preparations for the festival?"
   activity_dharma_hindu_festival_navaratri_selection_tooltip: "To Maa Durga. \n\n$dharma_hindu_festival_navaratri_desc_context_tooltip$"
   activity_dharma_hindu_festival_navaratri_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"

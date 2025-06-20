@@ -9,14 +9,31 @@
 # Seventh Thingyan
 # Eighth Nowruz
 
+###################################
+# a/an title stuff itself
+###################################
+  dharma_festival_host_activity_a: "a"
+  dharma_festival_host_activity_an: "an"
+  activity_dharma_festival_chhath_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_festival_gangaur_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_festival_losar_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_festival_pongal_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_festival_ratha_yatra_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_festival_thaipusam_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_festival_thingyan_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_festival_nowruz_host_an_a: "$dharma_festival_host_activity_a$"
+  activity_dharma_festival_mehregan_host_an_a: "$dharma_festival_host_activity_a$"
+
+
 
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_festival_chhath: "Celebrate Chhath"
+  activity_dharma_festival_chhath: "Chhath Celebration"
   activity_dharma_festival_chhath_desc: "Chhath is a festival dedicated to Lord Surya that the various people in around the foothills of the Himilyas in Bihar celebrate. "
   activity_dharma_festival_chhath_selection_tooltip: "Celebrate Lord Surya. \n\n$dharma_festival_chhath_desc_context_tooltip$"
   activity_dharma_festival_chhath_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+
 ###################################
 # Starting the Activity
 ###################################
@@ -98,7 +115,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_festival_gangaur: "Celebrate Gangaur"
+  activity_dharma_festival_gangaur: "Gangaur Celebration"
   activity_dharma_festival_gangaur_desc: "Gangaur is a festival that celebrates Gauri and Gana, the divine couple, local names for Lord Shiva and Parvati. This is a colorful spring festival that honors marital bliss, fertility and motherhood."
   activity_dharma_festival_gangaur_selection_tooltip: "May Shiva and Parvati bless me. \n\n$dharma_festival_gangaur_desc_context_tooltip$"
   activity_dharma_festival_gangaur_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -153,7 +170,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_festival_losar: "Celebrate Losar"
+  activity_dharma_festival_losar: "Losar Celebration"
   activity_dharma_festival_losar_desc: "Losar is the new year celebration in the Tibetan Calendar. It is one of the most popular celebrations of the Tibetan people."
   activity_dharma_festival_losar_selection_tooltip: "Lets welcome in the New Year. \n\n$dharma_festival_losar_desc_context_tooltip$"
   activity_dharma_festival_losar_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -208,7 +225,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_festival_pongal: "Celebrate Pongal"
+  activity_dharma_festival_pongal: "Pongal Celebration"
   activity_dharma_festival_pongal_desc: "Pongal is the harvest celebration of the Tamil people. Throughout Tamilakam the festivities attracts both the elite and the commoners to enjoy the joyful times."
   activity_dharma_festival_pongal_selection_tooltip: "Let us come together. \n\n$dharma_festival_pongal_desc_context_tooltip$"
   activity_dharma_festival_pongal_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -263,7 +280,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_festival_ratha_yatra: "Celebrate Ratha Yatra"
+  activity_dharma_festival_ratha_yatra: "Ratha Yatra Celebration"
   activity_dharma_festival_ratha_yatra_desc: "Ratha Yatra is a chariot festival dedicated to Lord Jagganath, an avatar of Lord Vishnu. The chariot of Lord Jagganath and his brother Balabhadra and sister Subhadra are drawn throughout the city in a grand procession."
   activity_dharma_festival_ratha_yatra_selection_tooltip: "To Lord Jagganath.\n\n$dharma_festival_ratha_yatra_desc_context_tooltip$"
   activity_dharma_festival_ratha_yatra_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -318,7 +335,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_festival_thaipusam: "Celebrate Thaipusam"
+  activity_dharma_festival_thaipusam: "Thaipusam Celebration"
   activity_dharma_festival_thaipusam_desc: "Thaipusam is a sacred festival dedicated to Lord Murugan. Honoring the fact that his mother, Parvati gave him the Vel Spear."
   activity_dharma_festival_thaipusam_selection_tooltip: "Celebrate the festival of lights. \n\n$dharma_festival_thaipusam_desc_context_tooltip$"
   activity_dharma_festival_thaipusam_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -371,9 +388,9 @@
 # Seventh Thingyan
 
 ###################################
-# Activity itself
+# Activity itself activity_dharma_festival_thingyan_host
 ###################################
-  activity_dharma_festival_thingyan: "Celebrate Thingyan"
+  activity_dharma_festival_thingyan: "Thingyan Celebration"
   activity_dharma_festival_thingyan_desc: "Thingyan is the new year festival for the Burmese people. A festival of joy and water where people enjoy the spring rains and splash water upon themselves and others."
   activity_dharma_festival_thingyan_selection_tooltip: "To Maa Durga. \n\n$dharma_festival_thingyan_desc_context_tooltip$"
   activity_dharma_festival_thingyan_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -428,7 +445,7 @@
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_festival_nowruz: "Celebrate Nowruz"
+  activity_dharma_festival_nowruz: "Nowruz Celebration"
   activity_dharma_festival_nowruz_desc: "Nowruz is the new year festival for the Persian people. A festival of joy and water where people enjoy the spring rains and splash water upon themselves and others."
   activity_dharma_festival_nowruz_selection_tooltip: "Nowruz Marabark \n\n$dharma_festival_nowruz_desc_context_tooltip$"
   activity_dharma_festival_nowruz_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
@@ -478,14 +495,12 @@
   dharma_festival_nowruz_guest_memory_second_perspective: "you celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_nowruz').GetName]"
   dharma_festival_nowruz_guest_memory_third_perspective: "[owner.GetName] celebrated the [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_nowruz').GetName]"
 
-
-
 # Ninth Mehregan
 
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_festival_mehregan: "Celebrate Mehregan"
+  activity_dharma_festival_mehregan: "Mehregan Celebration"
   activity_dharma_festival_mehregan_desc: "Mehregan is the new year festival for the Persian people. A festival of joy and water where people enjoy the spring rains and splash water upon themselves and others."
   activity_dharma_festival_mehregan_selection_tooltip: "Mehregan Marabark \n\n$dharma_festival_mehregan_desc_context_tooltip$"
   activity_dharma_festival_mehregan_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"

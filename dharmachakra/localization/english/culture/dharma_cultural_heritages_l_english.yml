@@ -1,20 +1,10 @@
 ﻿l_english:
  # Heritage
- munda_group:0 "Munda"
- munda_group_collective_noun:0 "Mundas"
+ munda_group: "Munda"
+ munda_group_collective_noun: "Mundas"
+ heritage_munda_name: "Munda"
+ heritage_munda_collective_noun: "Mundas"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ # Khasi
+ heritage_palaungic_name: "Palaungic"
+ heritage_palaungic_collective_noun: "Palaungics"

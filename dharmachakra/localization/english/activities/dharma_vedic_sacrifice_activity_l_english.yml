@@ -1,8 +1,14 @@
 ﻿l_english:
+
+###################################
+# a/an title stuff itself
+###################################
+  activity_dharma_vedic_sacrifice_host_an_a: "$dharma_buddhist_host_activity_a$"
+
 ###################################
 # Activity itself
 ###################################
-  activity_dharma_vedic_sacrifice: "Animal Sacrifice"
+  activity_dharma_vedic_sacrifice: "Mahabali celebration"
   activity_dharma_vedic_sacrifice_desc: "We seek the blessings of the gods, and the way to do so is through sacrificing animals to the Divine."
   activity_dharma_vedic_sacrifice_selection_tooltip: "Sacrifice Animals to [GetPlayer.GetFaith.PantheonTerm].\n\n$dharma_vedic_sacrifice_desc_context_tooltip$"
   activity_dharma_vedic_sacrifice_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"

@@ -6,21 +6,13 @@ This update expands the mod to the Middle East. It overhauls Zoroastrianism with
 
 ## Changelog
 
-- Updated the cultures and religious layout of the Middle East
-- Added the Iranic Religious family which has the following religions: Zoroastrianism, Yazidism, Manicheanism, Zunism
-- Updated the holy sites of Zoroastrian faiths
-- Updated the zoroastrian tenets for zoroastrian faiths
-- Added Zorastrian Yazata stuff from RICE
-- Added Zoroastrian Xwedadohah(Incest) decision from RICE
-- Nowruz is now a festival not just an event; also added Mehregan as a festival
-- decision about the Cypress of Keshmar
-- new Zoroastrian landless character
-- Behfaridist and Khurramites can decide between keeping righteous rebellion or switching it for struggle and submission if they unite persia
-- The Saoshayant can change doctrines of their faith
-- added more holy sites throughout west, central, and south asia. With some models thanks to Al-Sami.
-- added various Muslim Enhancement islamic faiths
-- Added various RICE pagan faiths for the Middle East
-- updated the character histories for the middle east, drawing from Muslim Enhancements
+- Thaipusam is now properly celebrated by the Tamil people, not the tibetans
+- Thingyan is now properly celebrated by the Burmese People, not the Tibetans
+- Hindu rulers can build a religious sites(inspired by the RICE christian site feature)
+- Activities now have proper header titles
+- Munda and Khasi heritages are now localized
+- Burmese paganism now has its icon
+- Burmese Paganism now has its holy sites properly localized
 
 
 ## Manual Installation Steps

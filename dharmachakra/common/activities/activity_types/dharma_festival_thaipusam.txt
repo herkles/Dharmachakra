@@ -5,10 +5,8 @@
 		custom_description = {
 			text = dharma_decision_thaipusam_culture_requirement
 			OR = {
-				has_culture = culture:bodpa
-				has_culture = culture:zhangzhung
-				has_culture = culture:sumpa
-				has_culture = culture:tsangpa
+				has_culture = culture:tamil
+				has_culture = culture:malayali
 			}
 		}
 		trigger_if = {
@@ -29,10 +27,8 @@
 		custom_description = {
 			text = dharma_decision_thaipusam_culture_requirement
 			OR = {
-				has_culture = culture:bodpa
-				has_culture = culture:zhangzhung
-				has_culture = culture:sumpa
-				has_culture = culture:tsangpa
+				has_culture = culture:tamil
+				has_culture = culture:malayali
 			}
 		}
 	}
