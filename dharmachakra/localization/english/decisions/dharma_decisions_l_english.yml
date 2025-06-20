@@ -70,6 +70,37 @@
   dharma_pick_hindu_philosophy_tooltip: "Look into one of the Astikas."
   dharma_pick_hindu_philosophy_confirm: "Look into one of the Astikas."
 
+  dharma_build_minor_hindu_holy_building: "Build a Local Hindu Religious Building"
+  dharma_build_minor_hindu_holy_building_tooltip: "Build a [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] religious site in your [capital|E]"
+  dharma_build_minor_hindu_holy_building_desc: "As a [ROOT.Char.GetTitleAsNameNoTooltip] who wishes to show my devotion to [ROOT.Char.GetFaith.HighGodName], I wish to donate funds to construct a new [ROOT.Char.GetFaith.GetAdjective] religious building in my [domain|E]. The local community will spiritually benefit from this new structure, and everyone will know of my piety!" # [ROOT.Char.GetFaith.HighGodNameAlternate]
+  dharma_build_minor_hindu_holy_building_effect_tooltip_1: "You will choose whether to build a Shrine, Temple, or Monastery, which nets different boons of [piety|E], [prestige|E], and [dynasty_prestige|E], and a matching [character_modifier|E] as well as a [county_modifier|E] for your [realm_capital|E]"
+  dharma_build_minor_hindu_holy_building_effect_tooltip_2: "You will not receive these bonuses immediately, as the construction process will take anywhere from a year to two years"
+  dharma_build_minor_hindu_holy_building_confirm: "For the glory of [ROOT.Char.GetFaith.HighGodNameAlternate]!"
+  dharma_build_minor_hindu_holy_building_county_req: "Your [realm_capital|E] does not have a [county_modifier|E] indicating a Hindu religious site was recently built there"
+  dharma_build_minor_hindu_holy_building_current_req: "Is not in the process of building a Hindu religious site"
+
+  dharma_minor_hindu_building_type: "What shall we build?"
+  dharma_minor_hindu_building_type_gui: "Choose what kind of [GetPlayer.GetFaith.GetAdjective] Site to Build"
+  dharma_build_hindu_site_shrine_option: "#Bold Shrine#!"
+  dharma_build_hindu_site_shrine_option_desc: "A small Shrine"
+  dharma_build_hindu_site_shrine_option_tooltip: "Cost: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('dharma_build_small_holy_site_cost')|0]#!#!\n\n$EFFECT_LIST_BULLET$You get [prestige_i|E]50 and [piety_i|E]50\n$EFFECT_LIST_BULLET$You receive the [GetModifier('dharma_built_hindu_shrine').GetNameWithTooltip] [character_modifier|E] for #V 10#! years\n$EFFECT_LIST_BULLET$Your [capital|E] receives the [GetModifier('dharma_built_hindu_shrine_county').GetNameWithTooltip] [county_modifier|E] for #V 10#! years"
+  dharma_build_hindu_site_small_temple_option: "#Bold Small Temple#!"
+  dharma_build_hindu_site_small_temple_option_desc: "A modest temple"
+  dharma_build_hindu_site_small_temple_option_tooltip: "Cost: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('dharma_build_medium_holy_site_cost')|0]#!#!\n\n$EFFECT_LIST_BULLET$You get [prestige_i|E]150 and [piety_i|E]50\n$EFFECT_LIST_BULLET$You receive the [GetModifier('dharma_built_hindu_small_temple').GetNameWithTooltip] [character_modifier|E] for #V 10#! years\n$EFFECT_LIST_BULLET$Your [capital|E] receives the [GetModifier('dharma_built_hindu_small_temple_county').GetNameWithTooltip] [county_modifier|E] for #V 10#! years"
+  dharma_build_hindu_site_small_monastery_option: "#Bold Small Monastery#!"
+  dharma_build_hindu_site_small_monastery_option_desc: "A modest Monastery"
+  dharma_build_hindu_site_small_monastery_option_tooltip: "Cost: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('dharma_build_medium_holy_site_cost')|0]#!#!\n\n$EFFECT_LIST_BULLET$You get [prestige_i|E]50 and [piety_i|E]150\n$EFFECT_LIST_BULLET$You receive the [GetModifier('dharma_built_hindu_small_monastery').GetNameWithTooltip] [character_modifier|E] for #V 10#! years\n$EFFECT_LIST_BULLET$Your [capital|E] receives the [GetModifier('dharma_built_hindu_small_monastery_county').GetNameWithTooltip] [county_modifier|E] for #V 10#! years"
+  dharma_build_hindu_site_large_temple_option: "#Bold Large Temple#!"
+  dharma_build_hindu_site_large_temple_option_desc: "A sizeable Temple"
+  dharma_build_hindu_site_large_temple_option_tooltip: "Cost: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('dharma_build_large_holy_site_cost')|0]#!#!\n\n$EFFECT_LIST_BULLET$You get [prestige_i|E]200 and [piety_i|E]100\n$EFFECT_LIST_BULLET$Your [dynasty|E] gets [dynasty_prestige_i]25 for each [piety_level|E] you have\n$EFFECT_LIST_BULLET$You receive the [GetModifier('dharma_built_hindu_large_temple').GetNameWithTooltip] [character_modifier|E] for #V 10#! years\n$EFFECT_LIST_BULLET$Your [capital|E] receives the [GetModifier('dharma_built_hindu_large_temple_county').GetNameWithTooltip] [county_modifier|E] for #V 10#! years"
+  dharma_build_hindu_site_large_monastery_option: "#Bold Large Monastery#!"
+  dharma_build_hindu_site_large_monastery_option_desc: "A sizeable Monastery"
+  dharma_build_hindu_site_large_monastery_option_tooltip: "Cost: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('dharma_build_large_holy_site_cost')|0]#!#!\n\n$EFFECT_LIST_BULLET$You get [prestige_i|E]100 and [piety_i|E]200\n$EFFECT_LIST_BULLET$Your [dynasty|E] gets [dynasty_prestige_i]25 for each [piety_level|E] you have\n$EFFECT_LIST_BULLET$You receive the [GetModifier('dharma_built_hindu_large_monastery').GetNameWithTooltip] [character_modifier|E] for #V 10#! years\n$EFFECT_LIST_BULLET$Your [capital|E] receives the [GetModifier('dharma_built_hindu_large_monastery_county').GetNameWithTooltip] [county_modifier|E] for #V 10#! years"
+
+
+
+
+
 #######################################
 # Dravidian Decisions
 #######################################
@@ -127,9 +158,9 @@
   dharma_zoro_destroy_cult_center: "Suppress a Heretical Zoroastrian Cult Center"
   dharma_zoro_destroy_cult_center_tooltip: "[zoroastrian_cult_centers|E] in our [realm|E] are an insult to our [faith|E]!"
   dharma_zoro_destroy_cult_center_desc: "There are several [zoroastrian_cult_centers|E] dedicated to false gods in my [domain|E]. We must discourage people from engaging in these heathen practices, even if it means destroying their temples!"
-  dharma_zoro_destroy_cult_center_effect_tooltip_1:1 "All [counties|E] in your [domain|E] with a [zoroastrian_cult_center|E] will lose their relevant [county_modifier|E]"
-  dharma_zoro_destroy_cult_center_effect_tooltip_2:1 "All [counties|E] in your [domain|E] with a [zoroastrian_cult_center|E] that does not follow your [yazata|E] [doctrine|E] will lose their relevant [county_modifier|E]"
-  dharma_zoro_destroy_cult_center_effect_tooltip_3:1 "You will gain #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('dharma_zoro_destroy_cult_center_value')|0]#! and #V [piety_i|E] [GetPlayer.MakeScope.ScriptValue('dharma_zoro_destroy_cult_center_value')|0]#! from doing this."
+  dharma_zoro_destroy_cult_center_effect_tooltip_1: "All [counties|E] in your [domain|E] with a [zoroastrian_cult_center|E] will lose their relevant [county_modifier|E]"
+  dharma_zoro_destroy_cult_center_effect_tooltip_2: "All [counties|E] in your [domain|E] with a [zoroastrian_cult_center|E] that does not follow your [yazata|E] [doctrine|E] will lose their relevant [county_modifier|E]"
+  dharma_zoro_destroy_cult_center_effect_tooltip_3: "You will gain #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('dharma_zoro_destroy_cult_center_value')|0]#! and #V [piety_i|E] [GetPlayer.MakeScope.ScriptValue('dharma_zoro_destroy_cult_center_value')|0]#! from doing this."
 
 
   dharma_zoro_destroy_cult_center_confirm: "Tear down the false idols!"
@@ -145,9 +176,9 @@
   dharma_zoro_establish_cult_center: "Establish a Local Zoroastrian Cult Center"
   dharma_zoro_establish_cult_center_tooltip: "Our [capital|E] could be home to a [zoroastrian_cult_centers|E]"
   dharma_zoro_establish_cult_center_desc: "There are many [yazatas|E] worthy of worship, but there is one I believe should be worshipped more fervently in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]. I thus wish to transform this region into a [zoroastrian_cult_center_short|E] for a particular [yazata|E]."
-  dharma_zoro_establish_cult_center_effect_tooltip_1:1 "You will select one [yazata|E] to serve as the focus of this new [zoroastrian_cult_center_short|E]"
-  dharma_zoro_establish_cult_center_effect_tooltip_2:1 "A corresponding #P beneficial#! [county_modifier|E] will be placed in [THIS.Char.GetCapitalLocation.GetTitle.GetNameNoTier]"
-  dharma_zoro_establish_cult_center_effect_tooltip_3:1 "[THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E] of this [zoroastrian_cult_center_short|E] will gain extra boons when taking the [decision|E] to Worship the [yazatas|E] if they select the [yazata|E] of this [zoroastrian_cult_center_short|E] and if they have the right [yazata|E] [doctrine|E]"
+  dharma_zoro_establish_cult_center_effect_tooltip_1: "You will select one [yazata|E] to serve as the focus of this new [zoroastrian_cult_center_short|E]"
+  dharma_zoro_establish_cult_center_effect_tooltip_2: "A corresponding #P beneficial#! [county_modifier|E] will be placed in [THIS.Char.GetCapitalLocation.GetTitle.GetNameNoTier]"
+  dharma_zoro_establish_cult_center_effect_tooltip_3: "[THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E] of this [zoroastrian_cult_center_short|E] will gain extra boons when taking the [decision|E] to Worship the [yazatas|E] if they select the [yazata|E] of this [zoroastrian_cult_center_short|E] and if they have the right [yazata|E] [doctrine|E]"
   dharma_zoro_establish_cult_center_confirm: "Establish the Cult Center"
   dharma_zoro_establish_cult_center_context_tooltip: "#emphasis Historical Context:#! The varieties of Zoroastrianism practiced on the periphery of the Iranian world, like in Sogdia and Khwarezm, was much more decentralized than in the Sassanid heartlands, revolving around specific city-states and petty kingdoms in a manner reminiscent of the polytheistic cults of the ancient Greek city-states. For example, Nana was the patron goddess of the major Sogdian city of Panjikent, and in some ways even more prominent than Ahura Mazda there. These cultic practices were unable to survive the massive political and cultural upheaval that came with the Arab Conquests, in contrast to the more centralized, organized Sassanian orthodoxy."
   dharma_zoro_establish_cult_center_type: "Select a Yazata to establish a cult center for"
@@ -217,11 +248,11 @@
   dharma_zoro_worship_yazata: "Worship a Yazata"
   dharma_zoro_worship_yazata_tooltip: "Venerate the [yazatas|E] and gain a useful [character_modifier|E]"
   dharma_zoro_worship_yazata_desc: "Though we consider [ROOT.Char.GetFaith.HighGodName] the supreme deity, it is also important for pious [ROOT.Char.GetFaith.GetAdherentNamePlural] to venerate the [yazatas|E] in religious rituals as well. Indeed, the word [yazata|E] itself means "worthy of worship.""
-  dharma_zoro_worship_yazata_effect_tooltip_1:1 "You will select from several [yazata|E] to worship, depending on your [faithpossessive|E] [yazata|E] [doctrine|E]."
-  dharma_zoro_worship_yazata_effect_tooltip_2:1 "Besides a [piety|E] bonus, you will gain a #P beneficial#! [character_modifier|E] for #V 10#! years depending on which [yazata|E] you worship"
-  dharma_zoro_worship_yazata_effect_tooltip_3:1 "As your [faith|E] has the $rice_zoroastrian_sassanian_doctrine_name$ [doctrine|E], you will also gain some [prestige|E], and can pay #V @gold_icon! [GetPlayer.MakeScope.ScriptValue('RICE_yazata_pay_bonus_value')|0]#! to gain a better version of the [modifier|E]"
-  dharma_zoro_worship_yazata_effect_tooltip_4:1 "As your [faith|E] has the $rice_zoroastrian_armenian_doctrine_name$ [doctrine|E], you can get extra [prestige|E] and a better version of the [modifier|E] #bold if#! you have the right [zoroastrian_cult_centers|E] in your [domain|E]"
-  dharma_zoro_worship_yazata_effect_tooltip_5:1 "As your [faith|E] has the $rice_zoroastrian_eastern_doctrine_name$ [doctrine|E], you can get extra [prestige|E] and a better version of the [modifier|E] #bold if#! you have the right [zoroastrian_cult_centers|E] in your [domain|E]"
+  dharma_zoro_worship_yazata_effect_tooltip_1: "You will select from several [yazata|E] to worship, depending on your [faithpossessive|E] [yazata|E] [doctrine|E]."
+  dharma_zoro_worship_yazata_effect_tooltip_2: "Besides a [piety|E] bonus, you will gain a #P beneficial#! [character_modifier|E] for #V 10#! years depending on which [yazata|E] you worship"
+  dharma_zoro_worship_yazata_effect_tooltip_3: "As your [faith|E] has the $rice_zoroastrian_sassanian_doctrine_name$ [doctrine|E], you will also gain some [prestige|E], and can pay #V @gold_icon! [GetPlayer.MakeScope.ScriptValue('RICE_yazata_pay_bonus_value')|0]#! to gain a better version of the [modifier|E]"
+  dharma_zoro_worship_yazata_effect_tooltip_4: "As your [faith|E] has the $rice_zoroastrian_armenian_doctrine_name$ [doctrine|E], you can get extra [prestige|E] and a better version of the [modifier|E] #bold if#! you have the right [zoroastrian_cult_centers|E] in your [domain|E]"
+  dharma_zoro_worship_yazata_effect_tooltip_5: "As your [faith|E] has the $rice_zoroastrian_eastern_doctrine_name$ [doctrine|E], you can get extra [prestige|E] and a better version of the [modifier|E] #bold if#! you have the right [zoroastrian_cult_centers|E] in your [domain|E]"
   dharma_zoro_worship_yazata_confirm: "Prepare for the rituals!"
   dharma_zoro_worship_yazata_context_tooltip: "#emphasis Historical Context:#! In Zoroastrianism, "Yazatas" refer to those who are considered "worthy of worship." They are gods in a polytheistic context, and angels or emanations of the supreme god in a monotheistic context. Historically, worship of these beings was important not only for religious reasons, but politically as well."
   dharma_zoro_worship_yazata_type: "Select a Yazata to worship"

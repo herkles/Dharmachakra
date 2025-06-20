@@ -29,3 +29,14 @@ dharma_sacred_grove_visit_activity_allowed_trigger = {
 				has_cultural_tradition = tradition_sacred_groves
 			}
 }
+dharma_donate_holy_site_req_trigger = {
+	capital_county = {
+		NOR = {
+			has_county_modifier = dharma_built_hindu_shrine_county
+			has_county_modifier = dharma_built_hindu_small_temple_county
+			has_county_modifier = dharma_built_hindu_small_monastery_county
+			has_county_modifier = dharma_built_hindu_large_temple_county
+			has_county_modifier = dharma_built_hindu_large_monastery_county
+		}
+	}		
+}

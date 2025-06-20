@@ -484,3 +484,63 @@ dharma_irrigation_tank_constructed_grand = {
 	tax_mult = 0.10
 	county_opinion_add = 8
 }
+##########################################
+# Hindu religious site
+##########################################
+dharma_built_hindu_shrine = {
+	icon = piety_positive
+	monthly_piety = 0.2
+	monthly_prestige = 0.2
+}
+dharma_built_hindu_shrine_county = {
+	icon = piety_positive
+	county_opinion_add = 6
+}
+
+dharma_built_hindu_small_temple = {
+	icon = piety_positive
+	monthly_piety = 0.2
+	monthly_prestige = 0.4
+	christianity_religion_opinion = 5
+}
+dharma_built_hindu_small_temple_county = {
+	icon = piety_positive
+	county_opinion_add = 6
+	monthly_county_control_growth_add = 0.2
+}
+
+dharma_built_hindu_small_monastery = {
+	icon = piety_positive
+	monthly_piety = 0.4
+	monthly_prestige = 0.2
+	monthly_lifestyle_xp_gain_mult = 0.04
+}
+dharma_built_hindu_small_monastery_county = {
+	icon = piety_positive
+	county_opinion_add = 6
+	development_growth = 0.1
+}
+
+dharma_built_hindu_large_temple = {
+	icon = piety_positive
+	monthly_piety = 0.3
+	monthly_prestige = 0.5
+	christianity_religion_opinion = 10
+}
+dharma_built_hindu_large_temple_county = {
+	icon = piety_positive
+	county_opinion_add = 9
+	monthly_county_control_growth_add = 0.4
+}
+
+dharma_built_hindu_large_monastery = {
+	icon = piety_positive
+	monthly_piety = 0.5
+	monthly_prestige = 0.3
+	monthly_lifestyle_xp_gain_mult = 0.08
+}
+dharma_built_hindu_large_monastery_county = {
+	icon = piety_positive
+	county_opinion_add = 9
+	development_growth = 0.2
+}
