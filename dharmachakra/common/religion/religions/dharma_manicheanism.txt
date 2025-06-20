@@ -1,5 +1,7 @@
 ﻿manichean_religion = {
 	family = rf_iranic
+	doctrine = iranian_hostility_doctrine
+	graphical_faith = zoroastrian_gfx
 
 	# Main Group
 	doctrine = doctrine_gender_male_dominated

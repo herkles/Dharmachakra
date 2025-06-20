@@ -1,5 +1,5 @@
 ######################################################
-################### feudal FAITH WINDOW #####################
+################### FAITH WINDOW #####################
 ######################################################
 
 window = {
@@ -479,6 +479,8 @@ window = {
 									name = "important_doctrines"
 									datamodel = "[FaithWindow.GetGroupingHelper( 'main_group' ).GetGrouping]"
 									#spacing = 15
+									layoutpolicy_vertical = expanding
+									minimumsize = { 0 108 }
 
 									item = {
 										vbox = {

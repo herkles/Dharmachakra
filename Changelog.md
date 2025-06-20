@@ -13,7 +13,7 @@ This update expands the mod to the Middle East. It overhauls Zoroastrianism with
 - Munda and Khasi heritages are now localized
 - Burmese paganism now has its icon
 - Burmese Paganism now has its holy sites properly localized
-
+- Manicheanism now properly has their hostility. No more seeing the world as righteous.
 
 ## Manual Installation Steps
 
