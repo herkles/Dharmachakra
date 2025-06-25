@@ -649,7 +649,7 @@ dharma_samyukta = {# Sanyukta
 	father = 190220
 	trait = beauty_good_3 # a bewitching beauty
 	trait = stubborn # Known to be rather Headstrong
-	1172.1.1 = {
+	1168.1.1 = {
 		birth = yes # somewhere between 1162 and 1168
 	}
 	1194.1.1 = {

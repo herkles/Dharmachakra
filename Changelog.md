@@ -14,6 +14,7 @@ This update expands the mod to the Middle East. It overhauls Zoroastrianism with
 - Burmese paganism now has its icon
 - Burmese Paganism now has its holy sites properly localized
 - Manicheanism now properly has their hostility. No more seeing the world as righteous.
+- Tridé Yumten is now rivals with his brother and has the disputed heritage trait. He does have a decision to get rid of it. 
 
 ## Manual Installation Steps
 

@@ -89,3 +89,134 @@ dharma_1066_tributary_setup_effect = {
 		}
 	}
 }
+#######################################
+# Introduction Event
+#######################################
+dharma_intro_events_effect = {
+	if = {# 867 characters
+		limit = {
+			OR = {
+				game_start_date = 867.1.1
+				game_start_date = 867.1.2
+			}
+		}
+		character:188008 = {# Bhoja Pratihara
+			trigger_event = {
+				id = dharma_intro.001
+				days = { 1 2 }
+			}
+		}
+		character:175030 = {# Amoghavarsha Rashtrakuta
+			trigger_event = {
+				id = dharma_intro.002
+				days = { 1 2 }
+			}
+		}		
+		character:190009 = {# Narayanapala Pala
+			trigger_event = {
+				id = dharma_intro.003
+				days = { 1 2 }
+			}
+		}
+		character:166681 = {# Vikarma Vijaya
+			trigger_event = {
+				id = dharma_intro.004
+				days = { 1 2 }
+			}
+		}
+		character:302972 = {# Bokut Bilga
+			trigger_event = {
+				id = dharma_intro.005
+				days = { 1 2 }
+			}
+		}
+		character:244004 = {# Zhang Huaishen
+			trigger_event = {
+				id = dharma_intro.006
+				days = { 1 2 }
+			}
+		}
+		character:247131 = {# Namdé Ösung
+			trigger_event = {
+				id = dharma_intro.007
+				days = { 1 2 }
+			}
+		}
+		character:247132 = {# Tride Yumten
+			trigger_event = {
+				id = dharma_intro.008
+				days = { 1 2 }
+			}
+		}
+	}
+	if = {# 1066 characters
+		limit = {
+			game_start_date = 1066.9.15
+		}
+		character:144133 = {# Ibrahim Ghaznavid
+			trigger_event = {
+				id = dharma_intro.050
+				days = { 1 2 }
+			}
+		}
+		character:190209 = {# Karnadeva
+			trigger_event = {
+				id = dharma_intro.051
+				days = { 1 2 }
+			}
+		}
+		character:190017 = {# Vigrahapala
+			trigger_event = {
+				id = dharma_intro.052
+				days = { 1 2 }
+			}
+		}
+		character:74441 = {# Somesvara
+			trigger_event = {
+				id = dharma_intro.053
+				days = { 1 2 }
+			}
+		}
+	}
+	if = {# 1178 characters
+		limit = {
+			game_start_date = 1178.10.1
+		}
+		character:144141 = {# Muhammad II of the Ghurids
+			trigger_event = {
+				id = dharma_intro.100
+				days = { 1 2 }
+			}
+		}
+		character:144139 = {# Khusraw of the Ghaznavids
+			trigger_event = {
+				id = dharma_intro.101
+				days = { 1 2 }
+			}
+		}
+		character:189121 = {# Kulothung of the Chola
+			trigger_event = {
+				id = dharma_intro.102
+				days = { 1 2 }
+			}
+		}
+		character:188142 = {# Prithviraj of Chauhan
+			trigger_event = {
+				id = dharma_intro.103
+				days = { 1 2 }
+			}
+		}
+		character:190220 = {# Jayachandra of Gahadvala
+			trigger_event = {
+				id = dharma_intro.104
+				days = { 1 2 }
+			}
+		}
+	}
+}
+
+
+
+
+
+

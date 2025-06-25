@@ -98,9 +98,6 @@
   dharma_build_hindu_site_large_monastery_option_tooltip: "Cost: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('dharma_build_large_holy_site_cost')|0]#!#!\n\n$EFFECT_LIST_BULLET$You get [prestige_i|E]100 and [piety_i|E]200\n$EFFECT_LIST_BULLET$Your [dynasty|E] gets [dynasty_prestige_i]25 for each [piety_level|E] you have\n$EFFECT_LIST_BULLET$You receive the [GetModifier('dharma_built_hindu_large_monastery').GetNameWithTooltip] [character_modifier|E] for #V 10#! years\n$EFFECT_LIST_BULLET$Your [capital|E] receives the [GetModifier('dharma_built_hindu_large_monastery_county').GetNameWithTooltip] [county_modifier|E] for #V 10#! years"
 
 
-
-
-
 #######################################
 # Dravidian Decisions
 #######################################
@@ -328,5 +325,13 @@
   dharma_zoro_change_xwedodah_effect_tooltip_3: "The [GetFaithDoctrine('tenet_divine_marriage').GetBaseName] [core_tenet|E] of [xwedodah_resolver.GetFaith.GetName] is changed to [GetFaithDoctrine('tenet_communal_identity').GetBaseName]"
   dharma_zoro_change_xwedodah_confirm: "For the glory of [ROOT.Char.GetFaith.HighGodName]!"
 
+
+#######################################
+# Character decisions
+#######################################
+  dharma_tibet_yumten_legitimacy: "Prove your legitimacy"
+  dharma_tibet_yumten_legitimacy_tooltip: "You shall lose the [GetTrait(disputed_heritage).GetName( GetPlayer )] trait."
+  dharma_tibet_yumten_legitimacy_desc: "For as long as you know, your half-brother has spread a vile rumor that you are a beggar that was propped up by your mother. You have always known the truth that you are your father's son while it is your half-brother who allies himself with his father's killers. You shall prove to everyone that these rumors are lies and that you are your father's son."
+  dharma_tibet_yumten_legitimacy_confirm: "put an end to the lie!"
 
 

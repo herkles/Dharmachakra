@@ -8101,13 +8101,13 @@ character_location_exterior = {
 		}
 	}
 }
-#######################################
-# Religious interior
-#######################################
-religion_interior = {
-	########################################
+
+### Religious interior - Character Scope
+character_religion_interior = { 
+
+	####
 	# hagia sophia
-	########################################
+	####
 	texture = { # Hagia Sophia
 		reference = "event_scenes/ep3_hagia_sophia.dds"
 		trigger = {
@@ -8121,6 +8121,7 @@ religion_interior = {
 			}
 		}
 	}
+
 	environment = { # Hagia Sophia
 		reference = "environment_ep3_hagia_sophia"
 		trigger = {
@@ -8135,65 +8136,66 @@ religion_interior = {
 			is_character_window_main_character = yes
 		}
 	}
-	########################################
+
 	# FP3
-	########################################
+
 	texture = { 
 		trigger = { religion = religion:zoroastrianism_religion }
 		reference = "event_scenes/fp3_temple.dds"
 	}
+
 	environment = {
 		trigger = { religion = religion:zoroastrianism_religion }
 		reference = "environment_event_fp3_temple"
 	}
-	########################################
+
 	# Christianity
-	########################################
+
 	texture = {
 		trigger = {
-			OR = {
-				this = faith:mozarabic_church
-				this = faith:muwalladi
-			}
+			liege.culture ?= { has_building_gfx = iberian_building_gfx }
 		}
 		reference = "event_scenes/fp2_temple.dds"
 	}
 
 	environment = {
 		trigger = {
-			OR = {
-				this = faith:mozarabic_church
-				this = faith:muwalladi
-			}
+			liege.culture ?= { has_building_gfx = iberian_building_gfx }
 		}
 		reference = "environment_event_fp2_temple"
 	}
+
+	# Christianity
+
 	texture = {
 		trigger = { religion = religion:christianity_religion }
 		reference = "event_scenes/church.dds"
 	}
+
 	environment = {
 		trigger = { religion = religion:christianity_religion }
 		reference = "environment_event_church"
 	}
-	########################################
+
 	# Islam
-	########################################	
+
 	texture = {
 		trigger = { religion = religion:islam_religion }
 		reference = "event_scenes/mosque.dds"
 	}
+
 	environment = {
 		trigger = {	religion = religion:islam_religion }
 		reference = "environment_event_mosque"
 	}
-	########################################
+
 	# FP1
-	########################################
+
 	texture = { # FP1
 		trigger = { religion = religion:germanic_religion }
 		reference = "event_scenes/fp1_tribal_temple.dds"
 	}
+
 	environment = { # FP1
 		trigger = { religion = religion:germanic_religion }
 		reference = "environment_event_fp1_tribal_temple"

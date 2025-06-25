@@ -1,0 +1,257 @@
+﻿l_english:
+
+#######################################
+# 867 Intro events
+#######################################
+ dharma_intro.001.t: "The glory of the Pratihara"
+ dharma_intro.001.desc: "Mihra-Bhoja is the Ruler of the great Pratihara Empire, one of the most powerful empires in India. He traces his ancestry back all the way to Lakshmana, one of the heroes of the Ramayana. Mihra Bhoja claims the title of Adivaraha linking himself to the Varahra. Since coming to power he has dealt with rebellions and succession wars among his vassals. He rules from the great city of Kannauj that so many rivals seek to take.\n\nAnd of his rivals none are greater than the Palas to his east and the Rashtrakutas to the south. The three have long been fighting one another for control over the Gangetic Plain and the city of Kannauj in particular. His armies are ready and prepared should they try to invade.\n\nHowever to the west lies the Islamic Caliphate. While it is currently in a period of crisis as the persians are fighting in the [persian_struggle|E], Mihra Bhoja has fought plenty of battles with the muslim lords. It might be a good idea to keep an eye on the west, just in case the caliphate experiences a resurgence.  "
+ dharma_intro.001.a: "May Varahra grant me victory!"
+
+ dharma_intro.002.t: "The aging king"
+ dharma_intro.002.desc: "Amoghavarsha has ruled his empire in the south for fifty two years. His realm is one of peace, where he has mediated between his vassals who have fought one another. A great patron of the arts, the man himself is a great poet and has written his own poems on Kannada poetry. While a devoted Jain, he is also a patron of many Hindu and Buddhist temples. Some scholars compare him to the great Mauryan King Ashoka. \n\nHowever, he is getting up in age. It will soon become time to ensure a smooth transition of power, to ensure that when he dies, his empire does not die with him. His empire which has brought peace and prosperity to the Deccan could survive him, or it could crumble into infighting. So he has begun to look to ensure that it can survive him. "
+ dharma_intro.002.a: "May my wisdom survive me"
+
+ dharma_intro.003.t: "The Shaivist-Buddhist King"
+ dharma_intro.003.desc: "Narayanapala is the seventh emperor of the Pala empire that rules in Gauda. He suffered a defeat at the hands of Mihira Bhoja of the Pratihara empire, as the great king in the west extended his empire.\n\nEven though Narayanapala is devoted to the worship of Lord Shiva, he is also a devoted patron of the Buddha's teachings and Buddhism has flourished under his realm. Under his stewardship the great Nalanda thrives and prospers. \n\nNarayanapala reels from his defeat with the Pratihara emperor. The question now lies how he shall recover from this defeat."
+ dharma_intro.003.a: "I shall recover from this."
+
+ dharma_intro.004.t: "The newly freed king"
+ dharma_intro.004.desc: "Freedom. That is what Vijaya has desired and now he has. With the struggling brothers squabbling over the throne of the Tibetan Empire, Vijaya has decided that he no longer owes loyalty to the Tibetans. Now it is the time for the kingdom of Khotan to rise. \n\nHowever he sits in the middle of a dangerous location. To the south lies Tibet. And should either brother win the succession, they will probably turn their attention towards Khotan to put it back under their control and force tributary payments. To the north lies the great steppe and numerous nomads. Some come for trade, but many more might seek to raid. To the east lay the riches of China, but riches that have faltered and to the west lays the Islamic emirates.\n\nWealth flows through his lands, wealth that he wants to cultivate, and wealth that he will need to defend his kingdom from all the threats around him. "
+ dharma_intro.004.a: "Freedom is ours!"
+
+ dharma_intro.005.t: "The Uyghur Kingdom"
+ dharma_intro.005.desc: "The Uyghur khanate has collapsed thanks to many enemies, the Chinese and Tibetans in particular. To the west the Uyghurs then were forced to go to seek a place to rebuild. Here Bokut Bilga, the second Iduqut of Qocho. There are many threats all around the kingdom of Qocho, threats that Bokut Bilga will have to deal with. \n\nHowever in the west, in the lands where the great prophet Mani first preached, great persecutions of our faithful have been reported, and travellers have come to the court of Bokut to seek refuge. Here perhaps a new home for the Manicheans can begin, a new and greater chapter for the faith. Of course Bokut must not forget that Qocho is a land of many faiths, with many also practicing Buddhism and Tengri. "
+ dharma_intro.005.a: "May Mani's wisdom guide us"
+
+ dharma_intro.006.t: "The gateway to China"
+ dharma_intro.006.desc: "Hauishen's uncle Zhang Yichao, liberated the Dunhuang from the rule of the Tibetan empire. Yichao fought many battles but his bravery and skill in war emerged victorious. Now he has been called to the capital in Chang'an and has left his nephew in charge of Guyi and the gateway to China. \n\nHuaishen's role is to defend Great Tang from western barbarians. Barbarians that the Zhang family has personal experience in fighting. The Tibetan emperor's sons squabble over the throne, but the Zhang's know the Tibetans will return and it is best to be prepared. Then there are the nomads such as the Uyghurs who raid from Qocho and seek to restore their khanate. \n\nBut the Tang are growing weaker and weaker by the day. Courtiers around Zhang Huaishen whisper what will happen if the capital can not provide them aid. Many whisper ideas in Huaishen's court, but which one he will take is up to him. "
+ dharma_intro.006.a: "I shall guard the Empire"
+
+ dharma_intro.007.t: "The Tibetan Prince"
+ dharma_intro.007.desc: "The rightful son of his father, Namde Osung, rules the lands of Guge that know who should be the true heir to the Tibetan Empire. It is not that beggar boy in Ü. Some have said that he is your half-brother. No, his mother picked up some beggar and put him on the throne so that she could hold power. To hold on power and put a stop to the teachings of Buddhism.\n\nEven though Namde and his father did not get along, for his father persecuted buddhist monks and nuns and Namde has taken refuge in the three jewels of Buddhism, his legitimacy is not in doubt. Namde is his father's son. He was forced to seek refuge in the western lands of Guge to build his powerbase to restore tibet. and to put that pretender down. "
+ dharma_intro.007.a: "Tibet belongs to me!"
+
+ dharma_intro.008.t: "The Tibetan Prince"
+ dharma_intro.008.desc: "To the east his half-brother claims that he is not his father's son. That he is a beggar that his mother Nanamsa installed to hold onto power. A lie. A falsehood that he is spreading in order to deny the rightful kingship of Tride Yumten his rightful throne. However a lie that has given his despicable half-brother power, and forced him to seek allies and refuge with his mother's family and the lords of Central Ü. A lie to put distance between him and the fact that his allies the Buddhists were the reason for Langdarma's death.  \n\nWith his supporters, and the allies of his mother's family. Tride Yumten seeks to reclaim his throne, to restore his rightful place as the emperor of Tibet. His half-brother must pay for what he has done. For the lies he spread. "
+ dharma_intro.008.a: "Tibet belongs to me!"
+
+ dharma_intro.009.t: "Conversion"
+ dharma_intro.009.desc: "gdfgadfg"
+ dharma_intro.009.a: "Aadsfadsfe"
+
+ dharma_intro.010.t: "Conversion"
+ dharma_intro.010.desc: "gdfgadfg"
+ dharma_intro.010.a: "Aadsfadsfe"
+
+ dharma_intro.011.t: "Conversion"
+ dharma_intro.011.desc: "gdfgadfg"
+ dharma_intro.011.a: "Aadsfadsfe"
+
+ dharma_intro.012.t: "Conversion"
+ dharma_intro.012.desc: "gdfgadfg"
+ dharma_intro.012.a: "Aadsfadsfe"
+
+ dharma_intro.013.t: "Conversion"
+ dharma_intro.013.desc: "gdfgadfg"
+ dharma_intro.013.a: "Aadsfadsfe"
+
+ dharma_intro.014.t: "Conversion"
+ dharma_intro.014.desc: "gdfgadfg"
+ dharma_intro.014.a: "Aadsfadsfe"
+
+ dharma_intro.015.t: "Conversion"
+ dharma_intro.015.desc: "gdfgadfg"
+ dharma_intro.015.a: "Aadsfadsfe"
+
+ dharma_intro.016.t: "Conversion"
+ dharma_intro.016.desc: "gdfgadfg"
+ dharma_intro.016.a: "Aadsfadsfe"
+
+ dharma_intro.017.t: "Conversion"
+ dharma_intro.017.desc: "gdfgadfg"
+ dharma_intro.017.a: "Aadsfadsfe"
+
+#######################################
+# 1066 Intro events
+#######################################
+ dharma_intro.050.t: "The Lucky sultan"
+ dharma_intro.050.desc: "Ten years ago the slave-soldier Toghrul took power and usurped his father's throne. Toghrul then went on to invade the Seljuk lands, even fighting with the famous Alp Arslen. However he would later be executed and his head paraded around Ghazna. Then Farrukh-Zad, Ibrahim's brother, took power where he was kept in the fortress of Nay. For six years he studied, famously copying the Quran and sending it as a gift to the Caliph. Then Farrukh-zad died in 1059, and as the last remaining Ghaznavid. He now had his kingdom. \n\nHe has since done his best to build on the work of his brother to build peace and prosperity. To repair ties with the Seljuk's which have been severed thanks to Toghrul. He has dealt with rebellious vassals. After seven years on the throne he looks to the east. The riches of India await..."
+ dharma_intro.050.a: "India awaits!"
+
+ dharma_intro.051.t: "The Chakravatin of Chedi"
+ dharma_intro.051.desc: "Chakravatin is the title that Karanadeva uses within his realm. He believes he is the rightful ruler of all India. To that end he has played off the various princes in North India off of one another. and just a decade ago he defeated the great bhoja of the Paranamara dynasty. He has helped to his dynastic ties by a marriage to Avalla-devi, a Huna noble lady. \n\nStill the other rajas plot and scheme and they do not bow to him. They do not recognize his claim to be the rightful ruler of the world. But Karnadeva is ambitious and he shall make sure that they bow to him, if by force if necessary. "
+ dharma_intro.051.a: "They shall kneel before me"
+
+ dharma_intro.052.t: "The Pala emperor"
+ dharma_intro.052.desc: "The pala empire is not the state of which it once was. Its fortunes have fallen into decline and territories have been lost. Bloody conflicts with other princes have been happening. His father Narayapala had to deal with a particularly bloody conflict with Karnadeva that only got resolved thanks to the mediation of the great buddhist monk, Atiśa. \n\nRaids keep happening. All his neighbors vie to steal the wealth of the Pala empire for themselves. and rumors bring to his court of the Ghaznavids who seek to dominate all of northern India. \n\nTo add on to things is family drama. His sons are locked in a bitter rivalry with one another, and courtiers have begun to ally with one son or another. Once Vigrahapala dies the knives will come out. But perhaps things can be put right to avoid that bloodshed. "
+ dharma_intro.052.a: "May Lord shiva give my son's some sense!"
+
+ dharma_intro.053.t: "The Lord of the Deccan"
+ dharma_intro.053.desc: "Under his leadership the Chalukya empire has managed to become a great power in the region. He has fought countless battles with the Cholas. A bloody war for the deccan that he has managed to secure for the Kalyani Chalukya, sometimes he has lost and sometimes he has won. Through the spilling of so much blood he has ensured some victory. \n\nNow however, he is an old man. And the cholas are still there. It is only a matter of time before they raid again. He must prepare to ensure that the next war with them won't be one to undo all that he has achieved. "
+ dharma_intro.053.a: "I shall prepare for war."
+
+ dharma_intro.054.t: "Conversion"
+ dharma_intro.054.desc: "gdfgadfg"
+ dharma_intro.055.a: "Aadsfadsfe"
+
+ dharma_intro.056.t: "Conversion"
+ dharma_intro.056.desc: "gdfgadfg"
+ dharma_intro.056.a: "Aadsfadsfe"
+
+ dharma_intro.057.t: "Conversion"
+ dharma_intro.057.desc: "gdfgadfg"
+ dharma_intro.057.a: "Aadsfadsfe"
+
+ dharma_intro.058.t: "Conversion"
+ dharma_intro.058.desc: "gdfgadfg"
+ dharma_intro.058.a: "Aadsfadsfe"
+
+ dharma_intro.059.t: "Conversion"
+ dharma_intro.059.desc: "gdfgadfg"
+ dharma_intro.059.a: "Aadsfadsfe"
+
+ dharma_intro.060.t: "Conversion"
+ dharma_intro.060.desc: "gdfgadfg"
+ dharma_intro.060.a: "Aadsfadsfe"
+
+ dharma_intro.061.t: "Conversion"
+ dharma_intro.061.desc: "gdfgadfg"
+ dharma_intro.061.a: "Aadsfadsfe"
+
+ dharma_intro.062.t: "Conversion"
+ dharma_intro.062.desc: "gdfgadfg"
+ dharma_intro.062.a: "Aadsfadsfe"
+
+ dharma_intro.063.t: "Conversion"
+ dharma_intro.063.desc: "gdfgadfg"
+ dharma_intro.063.a: "Aadsfadsfe"
+
+ dharma_intro.064.t: "Conversion"
+ dharma_intro.064.desc: "gdfgadfg"
+ dharma_intro.064.a: "Aadsfadsfe"
+
+ dharma_intro.065.t: "Conversion"
+ dharma_intro.065.desc: "gdfgadfg"
+ dharma_intro.065.a: "Aadsfadsfe"
+
+ dharma_intro.066.t: "Conversion"
+ dharma_intro.066.desc: "gdfgadfg"
+ dharma_intro.066.a: "Aadsfadsfe"
+
+ dharma_intro.067.t: "Conversion"
+ dharma_intro.067.desc: "gdfgadfg"
+ dharma_intro.067.a: "Aadsfadsfe"
+
+ dharma_intro.068.t: "Conversion"
+ dharma_intro.068.desc: "gdfgadfg"
+ dharma_intro.068.a: "Aadsfadsfe"
+
+ dharma_intro.069.t: "Conversion"
+ dharma_intro.069.desc: "gdfgadfg"
+ dharma_intro.069.a: "Aadsfadsfe"
+
+ dharma_intro.070.t: "Conversion"
+ dharma_intro.070.desc: "gdfgadfg"
+ dharma_intro.070.a: "Aadsfadsfe"
+
+#######################################
+# 1178 Intro events
+#######################################
+ dharma_intro.100.t: "Sikander al-Thani"
+ dharma_intro.100.desc: "People have told stories of the Great Sikander, who is known in the west as Alexander the great. Muhammad of Ghor sees himself as being the second Alexander. He has conquered Multan and subdued the Orghuz Turks and brought the rebellious in line. \n\nHowever unlike the famous Alexander, Muhammad has suffered a major defeat at the Battle of Kasahrada where a number of the lords of the northwest banded together to defeat him. Yet this defeat has not dulled his ambitions. He may have suffered one defeat but he is rebuilding his armies. He is preparing for an even grander campaign to conquer India. "
+ dharma_intro.100.a: "India will be mine!"
+
+ dharma_intro.101.t: "The Ghaznavid Prince"
+ dharma_intro.101.desc: "Khusraw now stands facing down a titan, Muhammad of Ghor. For the Ghaznavid sultan stands in his way of conquest of India. The ancient city of Ghazni that is the origin of the Ghaznavids no longer is in his control. Much of the empire is now under the control of the Ghurids and he has been forced to move east to Lahore in order to build up a position of strength. \n\nAs the Ghaznavids look to be fading and a new sun is rising. Khusraw has to decide how he plans on dealing with the Ghurids. For they are coming again and he will need to muster all he can and more in order to defeat them. "
+ dharma_intro.101.a: "I shall restore my family's glory!"
+
+ dharma_intro.102.t: "The Chola Emperor"
+ dharma_intro.102.desc: "It was only this year that Kulothunga's brother Rajadhiraja died and left the throne to him. During his brother's reign civil wars in vassal kingdoms began to grow more and more frequent and loyalty and bonds began to fray. And above all there are the Pandyas who have begun to once again grow in power and influence and threaten the Chola empire.\n\nNow Kulothunga has taken the throne and is facing all these threats. Kulothunga is a man of great ambition. He wishes to restore the glory and might of the Chola empire. He wishes to be remembered as a great king who saved the chola dynasty. "
+ dharma_intro.102.a: "Long live the Cholas!"
+
+ dharma_intro.103.t: "The Young Raja"
+ dharma_intro.103.desc: "Prithviraj is but a child, and  a council of regents led by his mother rules in his name. The 11 year old king is being educated by his tutors and trained in the ways of war. The young prince has shown a favorite towards the bow. All around him are rival rajas. Including the Chaulukyas whom his father was engaging in war not long before he died and the throne passed to him. \n\nAs his mother Karpuradevi guides the realm of state during his regency. North India is on the cusp of change. Both his council and Prithviraj must prepare for war. From his neighbors who see a young prince as an easy target. There are also the Ghurids in the west that one must be on guard.\n\nHis mother has considered some matches and some have suggested perhaps one of the daughters of Jayachandra of Gahadvala might be worth keeping an eye on as Prithviraj grows up. "
+ dharma_intro.103.a: "I shall become a great ruler!"
+
+ dharma_intro.104.t: "Lord of Kannauj"
+ dharma_intro.104.desc: "Jayachandra is the lord of Kannauj and from this ancient seat he rules one of the dominating polities in northern India. His father helped to rally people to fend off the Ghaznavids when they invaded during his life. Where he fought and led men to victory in 1168.\n\nNow however his father is dead. The rivalries with the Sena dynasty are heating up. And in the west Muhammad of Ghor is raising a host to invade the Gangetic Plain once again. He is well aware of his father's exploits, but can he replicate that achievement? To that end his courtiers have suggested looking to his neighbors who he could ally with or crush should it come to that.\n\nAnd when it comes to family matters, his young daughter Sanyukta has already earned a reputation for being a head strong young girl. She may find her own path in life that threatens what he is building."
+ dharma_intro.104.a: "This is my time!"
+
+ dharma_intro.105.t: "Conversion"
+ dharma_intro.105.desc: "gdfgadfg"
+ dharma_intro.105.a: "Aadsfadsfe"
+
+ dharma_intro.106.t: "Conversion"
+ dharma_intro.106.desc: "gdfgadfg"
+ dharma_intro.106.a: "Aadsfadsfe"
+
+ dharma_intro.107.t: "Conversion"
+ dharma_intro.107.desc: "gdfgadfg"
+ dharma_intro.107.a: "Aadsfadsfe"
+
+ dharma_intro.108.t: "Conversion"
+ dharma_intro.108.desc: "gdfgadfg"
+ dharma_intro.108.a: "Aadsfadsfe"
+
+ dharma_intro.109.t: "Conversion"
+ dharma_intro.109.desc: "gdfgadfg"
+ dharma_intro.109.a: "Aadsfadsfe"
+
+ dharma_intro.110.t: "Conversion"
+ dharma_intro.110.desc: "gdfgadfg"
+ dharma_intro.110.a: "Aadsfadsfe"
+
+ dharma_intro.111.t: "Conversion"
+ dharma_intro.111.desc: "gdfgadfg"
+ dharma_intro.111.a: "Aadsfadsfe"
+
+ dharma_intro.112.t: "Conversion"
+ dharma_intro.112.desc: "gdfgadfg"
+ dharma_intro.112.a: "Aadsfadsfe"
+
+ dharma_intro.113.t: "Conversion"
+ dharma_intro.113.desc: "gdfgadfg"
+ dharma_intro.113.a: "Aadsfadsfe"
+
+ dharma_intro.114.t: "Conversion"
+ dharma_intro.114.desc: "gdfgadfg"
+ dharma_intro.114.a: "Aadsfadsfe"
+
+ dharma_intro.115.t: "Conversion"
+ dharma_intro.115.desc: "gdfgadfg"
+ dharma_intro.115.a: "Aadsfadsfe"
+
+ dharma_intro.116.t: "Conversion"
+ dharma_intro.116.desc: "gdfgadfg"
+ dharma_intro.116.a: "Aadsfadsfe"
+
+ dharma_intro.117.t: "Conversion"
+ dharma_intro.117.desc: "gdfgadfg"
+ dharma_intro.117.a: "Aadsfadsfe"
+
+ dharma_intro.118.t: "Conversion"
+ dharma_intro.118.desc: "gdfgadfg"
+ dharma_intro.118.a: "Aadsfadsfe"
+
+ dharma_intro.119.t: "Conversion"
+ dharma_intro.119.desc: "gdfgadfg"
+ dharma_intro.119.a: "Aadsfadsfe"
+
+ dharma_intro.120.t: "Conversion"
+ dharma_intro.120.desc: "gdfgadfg"
+ dharma_intro.120.a: "Aadsfadsfe"
+
+ dharma_intro.121.t: "Conversion"
+ dharma_intro.121.desc: "gdfgadfg"
+ dharma_intro.121.a: "Aadsfadsfe"
+
+ dharma_intro.122.t: "Conversion"
+ dharma_intro.122.desc: "gdfgadfg"
+ dharma_intro.122.a: "Aadsfadsfe"
+
+
+
+
+
+
+

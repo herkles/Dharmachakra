@@ -112,7 +112,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 
 		animation = personality_honorable
 	}
-	character = {# Mande Osung of Guge
+	character = {# Nande Osung of Guge
 		name = "bookmark_sea_tibet_guge"
 		dynasty = 105800
 		dynasty_splendor_level = 5
@@ -141,7 +141,7 @@ bm_867_sea_tibet = {# Era of Fragmentation
 		history_id = 247132
 		position = { 1200 700 }
 
-		animation = personality_rational
+		animation = personality_vengeful
 	}
 }
 #########################################

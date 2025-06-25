@@ -94,6 +94,7 @@ dharma_setup_after_game_start_on_actions = {
 			}
 		}
 		setup_dharma_tributaries_effect = yes 
+		dharma_intro_events_effect = yes 
 		# Language Breaking up for start dates
 		if = {# Konkani Language forming
 			limit = { game_start_date >= 1100.1.1 }

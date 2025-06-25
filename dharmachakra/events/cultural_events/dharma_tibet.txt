@@ -1,0 +1,35 @@
+﻿namespace = dharma_tibet
+
+##################################################
+# Tibetan characters
+##################################################
+dharma_tibet.001 = {# Tridé Yumten's heritage is proven
+	type = character_event
+	title = dharma_tibet.001.t
+	desc = dharma_tibet.001.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {# Your father happy
+		character = character:6392
+		animation = personality_content
+	}
+
+	immediate = {
+		character:6392 = {# for localization
+			save_scope_as = tibet_emperor
+		}
+	}
+
+	option = {# 
+		name = dharma_tibet.001.a
+		# first you lose the trait
+		remove_trait = disputed_heritage
+		# then you get some dynasty stuff
+		dynasty = { add_dynasty_prestige = minor_dynasty_prestige_gain }
+	}	
+
+}

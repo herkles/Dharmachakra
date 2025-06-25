@@ -970,6 +970,61 @@ dharma_zoro_tarikhaneh_conversion = {# Convert the Mosque to a fire temple
 	}
 }
 #######################################
+# Character Decisions
+#######################################
+dharma_tibet_yumten_legitimacy = {# Yumten proves he is his father's son
+	picture = {	reference = "gfx/interface/illustrations/decisions/decision_tibet_castle.dds" }
+	decision_group_type = major	
+	desc = dharma_tibet_yumten_legitimacy_desc
+	selection_tooltip = dharma_tibet_yumten_legitimacy_tooltip
+
+	is_shown = {
+		# Have to be Yumten and must have disputed heritage
+		this = character:247132
+		has_trait = disputed_heritage
+		NOT = {# Can only happen once
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:dharma_yumten_decision
+			}
+		}
+	}
+
+	is_valid = {
+		completely_controls = title:k_guge
+		completely_controls = title:k_u
+		character:247131 = {# His brother must be dead
+			is_alive = no
+		}
+		is_independent_ruler = yes # Your father was an emperor and you shall not kneel
+		# have to have decent legitimacy and prestige to prove you worthy
+		legitimacy_level >= 3
+		prestige_level >= 3
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:dharma_yumten_decision
+		}
+		trigger_event = dharma_tibet.001
+	}
+
+	ai_check_interval = 96
+
+	ai_potential = {
+		piety >= major_piety_value
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+#######################################
 # RICE Decisions
 #######################################
 dharma_india_irrigation_tank_decision = {
