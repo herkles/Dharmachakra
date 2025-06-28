@@ -15,6 +15,13 @@ This update expands the mod to the Middle East. It overhauls Zoroastrianism with
 - Burmese Paganism now has its holy sites properly localized
 - Manicheanism now properly has their hostility. No more seeing the world as righteous.
 - Tridé Yumten is now rivals with his brother and has the disputed heritage trait. He does have a decision to get rid of it. 
+- The Ghurid brothers are now co-sultans as they were in history
+- The Correct ghurid sultan gets the bookmark description in the bookmark.
+- King Anata in Kashmir know has his wife
+- King Anata has Haladhara as his chief advisor as is historical.
+- Various intro events for historical characters
+- decision to found the city of Delhi
+- Delhi is renamed Srinivaspuri before the city is founded.
 
 ## Manual Installation Steps
 

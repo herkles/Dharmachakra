@@ -1,0 +1,39 @@
+﻿
+#######################################
+# Found Delhi Effect
+#######################################
+dharma_found_delhi_city_effect = {
+	custom_tooltip = {
+		text = dharma_found_delhi_city_county_name_tooltip
+		title:c_delhi = {
+			set_title_name = delhi_county
+		}
+	}
+	custom_tooltip = {
+		text = dharma_found_delhi_city_kingdom_name_tooltip
+		title:k_delhi = {
+			set_title_name = delhi_kingdom
+		}
+	}
+	custom_tooltip = {
+		text = dharma_found_delhi_city_province_name_tooltip
+		title:b_indraprastha = {
+			set_title_name = delhi_province
+		}
+	}
+	add_prestige = 200
+	dynasty = { add_dynasty_prestige = 200 }
+	title:c_granada = {
+		change_development_level = 3
+		add_county_modifier = {
+			modifier = dharma_founded_delhi
+			years = 30
+		}
+	}
+}
+
+
+
+
+
+

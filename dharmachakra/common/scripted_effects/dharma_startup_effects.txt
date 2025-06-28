@@ -148,6 +148,25 @@ dharma_intro_events_effect = {
 				days = { 1 2 }
 			}
 		}
+
+		character:175010 = {# Sena II
+			trigger_event = {
+				id = dharma_intro.009
+				days = { 1 2 }
+			}
+		}
+		character:175070 = {# Nandivarman III
+			trigger_event = {
+				id = dharma_intro.010
+				days = { 1 2 }
+			}
+		}
+		character:earlyburman001 = {# Pyinbya of Pagan
+			trigger_event = {
+				id = dharma_intro.011
+				days = { 1 2 }
+			}
+		}
 	}
 	if = {# 1066 characters
 		limit = {
@@ -174,6 +193,48 @@ dharma_intro_events_effect = {
 		character:74441 = {# Somesvara
 			trigger_event = {
 				id = dharma_intro.053
+				days = { 1 2 }
+			}
+		}
+		character:burman001 = {# Anawrahta of Pagan
+			trigger_event = {
+				id = dharma_intro.054
+				days = { 1 2 }
+			}
+		}
+		character:189042 = {# Virarajendra Chola
+			trigger_event = {
+				id = dharma_intro.055
+				days = { 1 2 }
+			}
+		}
+		character:189030 = {# Vijayabahu of Lanka
+			trigger_event = {
+				id = dharma_intro.056
+				days = { 1 2 }
+			}
+		}
+		character:188185 = {# Jayasimha of Malwa
+			trigger_event = {
+				id = dharma_intro.057
+				days = { 1 2 }
+			}
+		}
+		character:188089 = {# Karna I
+			trigger_event = {
+				id = dharma_intro.058
+				days = { 1 2 }
+			}
+		}
+		character:170174 = {# Anangpal Tomar
+			trigger_event = {
+				id = dharma_intro.059
+				days = { 1 2 }
+			}
+		}
+		character:188414 = {# Ananta King of Kashmir
+			trigger_event = {
+				id = dharma_intro.060
 				days = { 1 2 }
 			}
 		}
@@ -212,6 +273,18 @@ dharma_intro_events_effect = {
 				days = { 1 2 }
 			}
 		}
+		character:154004 = {# Ballala Sena
+			trigger_event = {
+				id = dharma_intro.105
+				days = { 1 2 }
+			}
+		}
+		character:144142 = {# Muhammad of Ghor
+			trigger_event = {
+				id = dharma_intro.106
+				days = { 1 2 }
+			}
+		}		
 	}
 }
 

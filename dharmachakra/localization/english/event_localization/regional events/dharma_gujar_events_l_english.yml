@@ -1,7 +1,24 @@
 ﻿l_english:
-  dharma_gujar.001.t:0 "Irrigation Tanks"
-  dharma_gujar.001.desc:0 "Irrigation tanks are carefully engineered systems of artificial reservoirs in [GetGeographicalRegion('world_india').GetName] that have provided a reliable source of water for centuries.\n\nI wish to work with local religious institutions and other prominent members of the community to build one such irrigation tank. It will provide for the needs of the locals, including agriculture, bathing, religious rituals, and more. The irrigation tank will, of course, also be adorned with artwork glorifying [ROOT.Char.GetFaith.HighGodName] and the sponsors, including myself.\n\nNow, how big should this irrigation tank be?"
-  dharma_gujar.001.a:0 "Small"
-  dharma_gujar.001.b:0 "Medium"
-  dharma_gujar.001.c:0 "Large"
-  dharma_gujar.001.d:0 "Grand"
+  dharma_gujar.001.t: "Irrigation Tanks"
+  dharma_gujar.001.desc: "Irrigation tanks are carefully engineered systems of artificial reservoirs in [GetGeographicalRegion('world_india').GetName] that have provided a reliable source of water for centuries.\n\nI wish to work with local religious institutions and other prominent members of the community to build one such irrigation tank. It will provide for the needs of the locals, including agriculture, bathing, religious rituals, and more. The irrigation tank will, of course, also be adorned with artwork glorifying [ROOT.Char.GetFaith.HighGodName] and the sponsors, including myself.\n\nNow, how big should this irrigation tank be?"
+  dharma_gujar.001.a: "Small"
+  dharma_gujar.001.b: "Medium"
+  dharma_gujar.001.c: "Large"
+  dharma_gujar.001.d: "Grand"
+# Delhi Founding
+  dharma_gujar.002.t: "The City of Delhi"
+  dharma_gujar.002.desc: "The area around Indraprastha and Srinivaspuri have seen plenty of raids, and more then a few ruined settlements here. However, I have laid the groundwork for a new and grand city here to be built. A city that shall be known throughout the world as Delhi. From here a new and rich chapter of Indian History shall be written. "
+  dharma_gujar.002.a: "This will be a grand city!"
+
+  dharma_gujar.003.t: "Move the Iron Pillar"
+  dharma_gujar.003.desc: "Since it was built centuries ago, the Iron Pillar of Udayagiri by Chandragupta, the Iron Pillar has stood as a reminder of the greatness of Indian realms. With my new capital. Perhaps it is time to move the pillar to Delhi and let it be known as the Iron Pillar of Delhi?"
+  dharma_gujar.003.a: "Move the Pillar!"
+  dharma_gujar.003.b: "Do not Move the Pillar!"
+
+  dharma_gujar.004.t: "The Iron Pillar of Delhi"
+  dharma_gujar.004.desc: "It has taken some time but at long last the Iron Pillar of Delhi is now located in the city of Delhi. This pillar shall remind everyone of the city's glory."
+  dharma_gujar.004.a: "Let people see the city's pillar"
+
+  dharma_gujar.005.t: "Irdfnks"
+  dharma_gujar.005.desc: "Iadfadsf"
+  dharma_gujar.005.a: "dfadf"

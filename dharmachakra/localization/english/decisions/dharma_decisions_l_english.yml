@@ -334,4 +334,20 @@
   dharma_tibet_yumten_legitimacy_desc: "For as long as you know, your half-brother has spread a vile rumor that you are a beggar that was propped up by your mother. You have always known the truth that you are your father's son while it is your half-brother who allies himself with his father's killers. You shall prove to everyone that these rumors are lies and that you are your father's son."
   dharma_tibet_yumten_legitimacy_confirm: "put an end to the lie!"
 
+#######################################
+# City founding decisions
+#######################################
+  dharma_found_delhi_city: "Found the city of Delhi"
+  dharma_found_delhi_city_tooltip: "You will found the city of Delhi."
+  dharma_found_delhi_city_desc: "The area around Indraprastha and Srinivaspuri have seen plenty of raids, and more than a few ruined settlements here. This area would be a perfect spot to found a new and grander city."
+  dharma_found_delhi_city_confirm: "Let us build a new city"
+  dharma_found_delhi_city_effect_tooltip_1: "If you own [GetTitleByKey(c_vidisa).GetNameNoTier] then you can move the Iron Pillar to Delhi."
+  dharma_found_delhi_city_county_name_tooltip: "The [delhi_county.GetName] changes name to #high $delhi_county$#!"
+  dharma_found_delhi_city_kingdom_name_tooltip: "The [delhi_kingdom.GetName] changes name to #high $delhi_kingdom$#!"
+  dharma_found_delhi_city_province_name_tooltip: "The [delhi_province.GetName] changes name to #high $delhi_province$#!"
+
+
+
+
+
 

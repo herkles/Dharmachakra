@@ -45,13 +45,11 @@ dharma_setup_after_game_start_on_actions = {
 			}
 		}
 		# Used for Cypress of Keshmar Decision
-
 		faith:mazdayasna = {
 			#deactivate_holy_site = keshmar_mazdayasna
 			deactivate_holy_site = ctesiphon_mazdayasna
 			
 		}
-
 		# Title stuff
 		if = {# Setting up cultures and faiths in 867
 			limit = {
@@ -94,7 +92,7 @@ dharma_setup_after_game_start_on_actions = {
 			}
 		}
 		setup_dharma_tributaries_effect = yes 
-		dharma_intro_events_effect = yes 
+		dharma_intro_events_effect = yes
 		# Language Breaking up for start dates
 		if = {# Konkani Language forming
 			limit = { game_start_date >= 1100.1.1 }
@@ -144,7 +142,6 @@ dharma_setup_after_game_start_on_actions = {
 			}
 	        title:b_vatapi.title_province = { add_special_building = pattadakal_01 } #9237
 			title:b_konarak.title_province = { add_special_building_slot = konark_sun_temple_01 } #9237
-
 		}
 		if = {# Konark Sun Temple
 			limit = {
@@ -166,6 +163,22 @@ dharma_setup_after_game_start_on_actions = {
 				game_start_date >= 1066.1.1
 			}
 	        title:b_lhasa.title_province = { add_special_building = potala_palace_02 } #9237
+		}
+		# Delhi Pillar
+		if = {# It is only the Iron Pillar of Delhi After Delhi is founded
+			limit = {
+				game_start_date >= 1050.1.1
+			}
+	        title:b_vidisa.title_province = {# Remove the original Iron Pillar
+				remove_building = iron_pillar_of_delhi_01 
+			}
+	        title:b_indraprastha.title_province = {# and move it to Delhi
+				add_special_building = iron_pillar_of_delhi_02
+			}
+			set_global_variable = {
+				name = dharma_found_delhi_city_flag
+				value = yes
+			}
 		}
 		# Islamic stuff
 		if = {# Shia imamates and making
@@ -382,6 +395,28 @@ dharma_setup_after_game_start_on_actions = {
 
 
 		}
+		# Co King set up
+		if = {# 1178 Co-Kings
+			limit = { game_start_date = 1178.10.1 }
+			# The Ghurid brother's are co-sultans
+			character:144141 = {
+				designate_diarch = character:144142
+				try_start_diarchy = co_monarchy
+				set_designated_heir = character:144142
+			}
+		}
+		# Court Positions
+		if = {# 1066 court position
+			limit = { game_start_date = 1066.9.15 }
+			# The whole mess with Anata and Kalasa
+			character:188414 = {
+				appoint_court_position = {
+					recipient = character:haladhara
+					court_position = seneschal_court_position
+				}
+			}
+		}
+
 		
 	}
 }

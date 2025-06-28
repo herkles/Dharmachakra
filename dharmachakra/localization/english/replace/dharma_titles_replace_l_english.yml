@@ -1,7 +1,16 @@
 ﻿l_english:
 
 # South Asian Titles
- k_bihar:0 "Magadha"
- k_bihar_adj:0 "Magadhi"
- k_bengal:0 "Gauda"
- k_bengal_adj:0 "Gaudi"
+ k_bihar: "Magadha"
+ k_bihar_adj: "Magadhi"
+ k_bengal: "Gauda"
+ k_bengal_adj: "Gaudi"
+
+ # Delhi before it was founded
+ c_delhi: "Srinivaspuri"
+ c_delhi_adj: "Srinivaspurian"
+
+ k_delhi: "Srinivaspuri"
+ k_delhi_adj: "Srinivaspurian"
+
+ b_dhilika: "Srinivaspuri"

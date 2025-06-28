@@ -185,6 +185,69 @@ dharma_consecrate_sacred_grove = {# Consencrate a Sacred Grove
 		}
 	}
 }
+dharma_found_delhi_city = {# found the city of Delhi
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_moorish_decor.dds" }
+	decision_group_type = major
+	desc = dharma_found_delhi_city_desc
+
+	ai_check_interval = 48
+
+	is_shown = {
+		is_landed = yes
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:dharma_found_delhi_city_flag
+			}
+		}
+		has_title = title:c_delhi
+	}
+	is_valid = {
+		has_title = title:c_delhi
+		highest_held_title_tier >= tier_duchy
+		prestige_level >= 3
+		culture = {	has_innovation = innovation_development_03 }
+
+	}
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = { 
+		gold = { value = major_gold_value }
+		prestige = { value = major_prestige_value }
+	}	
+
+	ai_potential = {
+		short_term_gold > major_gold_value
+		prestige >= major_prestige_value
+	}
+
+	effect = {
+		title:c_delhi = {
+			save_scope_as = delhi_county
+		}
+		title:k_delhi = {
+			save_scope_as = delhi_kingdom
+		}
+		title:b_indraprastha = {
+			save_scope_as = delhi_province
+		}
+		save_scope_as = delhi_city_founder
+		#Can only happen once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:dharma_found_delhi_city_flag
+		}
+		show_as_tooltip = {	dharma_found_delhi_city_effect = yes }
+		custom_tooltip = dharma_found_delhi_city_effect_tooltip_1 # Let Players know they can move the Iron Pillar if they own the caves.
+		trigger_event = dharma_gujar.002
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
 #######################################
 # Select Personal diety
 #######################################

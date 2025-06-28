@@ -1,0 +1,12 @@
+﻿l_english:
+
+# Iron Pillar of Delhi
+  building_type_iron_pillar_of_delhi_01: "Iron Pillar of Udayagiri"
+  building_type_iron_pillar_of_delhi_01_desc: "The mighty Iron Pillar of Udayagiri stands as a symbol to the glory of King Chandragupta II, though subsequent rulers have also etched their names into it. Despite having stood for a long time, there's no trace of rust – a testament to the skill of Indian ironsmiths!"
+  building_iron_pillar_of_delhi_01: "$building_type_iron_pillar_of_delhi_01$"
+  building_iron_pillar_of_delhi_01_desc: "$building_type_iron_pillar_of_delhi_01_desc$"
+
+  building_type_iron_pillar_of_delhi_02: "Iron Pillar of Delhi"
+  building_type_iron_pillar_of_delhi_02_desc: "The mighty Iron Pillar of Delhi stands as a symbol to the glory of King Chandragupta II, though subsequent rulers have also etched their names into it. Despite having stood for a long time, there's no trace of rust – a testament to the skill of Indian ironsmiths!"
+  building_iron_pillar_of_delhi_02: "$building_type_iron_pillar_of_delhi_01$"
+  building_iron_pillar_of_delhi_02_desc: "$building_type_iron_pillar_of_delhi_01_desc$"

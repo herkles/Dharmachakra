@@ -137,3 +137,106 @@ dharma_gujar.001 = {
 		}
 	}
 }
+##################################################
+# Founding of Delhi
+##################################################
+dharma_gujar.002 = {# found the city of delhi
+	type = character_event
+	title = dharma_gujar.002.t
+	desc = dharma_gujar.002.desc
+	theme = realm
+	override_background = {
+		reference = dharma_city_entrence
+	}
+
+	left_portrait = {
+		character = scope:delhi_city_founder
+		animation = writing
+	}	
+	immediate = {
+		play_music_cue = "mx_Struggle_Opening"	
+		title:c_delhi = {
+			save_scope_as = delhi_county
+		}
+		title:k_delhi = {
+			save_scope_as = delhi_kingdom
+		}
+		title:b_indraprastha = {
+			save_scope_as = delhi_province
+		}
+	}
+	
+	option = { # Small
+		name = dharma_gujar.002.a
+		dharma_found_delhi_city_effect = yes
+
+	}
+
+	after = {
+		if = {# Option to move the pillar
+			limit = {
+				has_title = title:c_vidisa
+			}
+			trigger_event = dharma_gujar.003
+		}
+	}
+}
+dharma_gujar.003 = {# do you want to move the iron pillar?
+	type = character_event
+	title = dharma_gujar.003.t
+	desc = dharma_gujar.003.desc
+	theme = realm
+	override_background = {
+		reference = dharma_city_entrence
+	}
+
+	left_portrait = {
+		character = scope:delhi_city_founder
+		animation = writing
+	}
+
+	option = {# It will be better in Delhi
+		name = dharma_gujar.003.a
+		ai_chance = { base = 90	}
+		title:b_vidisa.title_province = {# Remove the original Iron Pillar
+			remove_building = iron_pillar_of_delhi_01 
+		}
+	}	
+	option = {# It will be better where it is.
+		name = dharma_gujar.003.a
+		ai_chance = { base = 10	}
+
+	}
+
+	after = {
+		trigger_event = {# It will be moved in this time
+			id = dharma_gujar.004
+			days = { 60 360 }
+		}
+	}
+}
+dharma_gujar.004 = {# Iron Pillar has been moved
+	type = character_event
+	title = dharma_gujar.004.t
+	desc = dharma_gujar.004.desc
+	theme = realm
+	override_background = {
+		reference = dharma_city_entrence
+	}
+	left_portrait = {
+		character = scope:delhi_city_founder
+		animation = writing
+	}
+
+	immediate = {
+		title:b_indraprastha.title_province = {# and move it to Delhi
+			add_special_building = iron_pillar_of_delhi_02
+		}
+	}
+	
+	option = {# Woo!
+		name = dharma_gujar.004.a
+	}	
+}
+
+

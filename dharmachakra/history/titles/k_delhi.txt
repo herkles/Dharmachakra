@@ -2,7 +2,9 @@ k_delhi = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 	1178.1.1 = { change_development_level = 14 }
-	
+	1051.7.19 = {# Anangpal founds Delhi
+		name = delhi_kingdom
+	}
 	1192.1.1 = {
 		holder = 170190 #Mu'izz al-Din conquered Delhi and made Qutb-ud-din Aibak governor
 		liege = e_rajastan
@@ -201,7 +203,6 @@ c_delhi = {
 	867.1.1 = { change_development_level = 14 }
 	1066.1.1 = { change_development_level = 22 }
 	1178.1.1 = { change_development_level = 39 }
-	
 	736.3.1 = {
 		liege = d_kuru
 		holder = 170151 #Anangpal Tomar
@@ -250,6 +251,13 @@ c_delhi = {
 	}
 	1051.6.17 = {
 		holder = 170174 #Anangpal II Tomar
+		name = delhi_county
+		effect = {
+			set_global_variable = {
+				name = dharma_found_delhi_city_flag
+				value = yes
+			}
+		}
 	}
 	1081.1.5 = {
 		holder = 170182 #Tejpal Tomar
@@ -259,6 +267,7 @@ c_delhi = {
 	}
 	1151.7.19 = {
 		holder = 170184 #Anangpal III Tomar
+
 	}
 	1192.1.1 = {
 		holder = 170190 #Mu'izz al-Din conquered Delhi and made Qutb-ud-din Aibak governor
@@ -323,7 +332,11 @@ c_delhi = {
 		holder = 170258 #Muhammad
 	}
 }
-
+b_indraprastha = {
+	1051.7.19 = {# renaming the province to Delhi
+		name = delhi_province
+	}
+}
 
 c_hastinapura = {
 	736.3.1 = {

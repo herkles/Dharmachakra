@@ -544,3 +544,21 @@ dharma_built_hindu_large_monastery_county = {
 	county_opinion_add = 9
 	development_growth = 0.2
 }
+##########################################
+# City Founding
+##########################################
+dharma_founded_delhi = {
+	icon = county_modifier_development_positive
+	development_growth_factor = 0.3
+	build_gold_cost = -0.15
+	build_piety_cost = -0.15
+	build_prestige_cost = -0.15
+}
+
+
+
+
+
+
+
+

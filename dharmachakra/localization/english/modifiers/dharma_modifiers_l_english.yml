@@ -45,7 +45,7 @@
 
   buddhist_deity_vajrayogini: "Devoted to Vajrayogini"
   buddhist_deity_vajrayogini_desc: "This character's Yidam is Vajrayogini, the dakini of all Buddhas"
-####### Ari Deities #######
+  # Ari Deities 
   nat_ari_thagyamin: "Devoted to thagyamin"
   nat_ari_thagyamin_desc: "this character's personal Nat is Thagyamin, The King of the Gods"
 
@@ -63,7 +63,7 @@
 
   nat_ari_shwe_nabay: "Devoted to Shwe Nabay"
   nat_ari_shwe_nabay_desc: "this character's personal Nat is Shwe Nabay, the Attractive Wife."
-  ####### Therevade Burmese Deities #######
+  # Therevade Burmese Deities #
   nat_therevada_thurathadi: "Devoted to Thurathadi"
   nat_therevada_thurathadi_desc: "this character's personal Nat is Thurathadi, Nat of Eloquance"
 
@@ -129,6 +129,9 @@
 
   dharma_happy_clergy_festival: "Unhappy Monks"
   dharma_happy_clergy_festivals_desc: "At the local festival, the character was generious with giving out donations, making the local clergy happy."
+
+  dharma_founded_delhi: "Founded the city of Delhi"
+  dharma_founded_delhi_desc: "A new city has been founded around the area around the settlements of Indraprastha and Srinivaspuri. This city of Delhi is more defensible and local authorities have begun to transfer the local seat of power to this new delhi."
 
 #######################################
 # Visiting Monks 

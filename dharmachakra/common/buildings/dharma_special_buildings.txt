@@ -1287,6 +1287,41 @@ unakoti_01 = {# Unakoti
 
 	flag = travel_point_of_interest_religious
 }
+iron_pillar_of_delhi_02 = {# when Delhi is founded it is then called Iron Pillar of Delhi
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_iron_pillar_of_delhi.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 3000
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		army_maintenance_mult = -0.05
+		heavy_infantry_toughness_mult = 0.1
+		heavy_cavalry_toughness_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_wonder
+}
 #######################################
 #        Natural Features		  	  #
 #######################################

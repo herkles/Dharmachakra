@@ -7,6 +7,8 @@
 	religion = "theravada"
 	culture = "sinhala"
 	father = 189011
+	# Trait 
+	trait = zealous # pious buddhist
 	830.1.1 = {
 		birth = yes
 	}

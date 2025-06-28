@@ -6,6 +6,14 @@
   k_khwarazm: "Khwarazm"
   k_khwarazm_adj: "Khwarazmian"
 
+  # Delhi after it is founded
+  delhi_kingdom: "Delhi"
+  delhi_kingdom_adj: "Delhian"
+
+  delhi_county: "Delhi"
+  delhi_county_adj: "Delhian"
+
+  delhi_province: "Delhi"
 
 # Muslim Titles
-  d_hidden_imamate:0 "Hidden Imamate"
+  d_hidden_imamate: "Hidden Imamate"

@@ -158,6 +158,61 @@ dharma_intro.008 = {# Tride Yumten
 	}	
 
 }
+dharma_intro.009 = {# Sena II
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
+dharma_intro.010 = {# Nandivarman III
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	lower_left_portrait =  {# Your son
+		character = character:pallava001
+		animation = personality_honorable
+	}
+	lower_right_portrait = {# Your son
+		character = character:189071
+		animation = personality_honorable
+	}
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
+dharma_intro.011 = {# Pyinbya of Pagan
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
 #######################################
 # 1066 Intro events
 #######################################
@@ -225,6 +280,142 @@ dharma_intro.053 = {# Somesvara
 	}	
 
 }
+dharma_intro.054 = {# Anawrahta of Pagan
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
+dharma_intro.055 = {# Virarajendra Chola
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
+dharma_intro.056 = {# Vijayabahu of Lanka
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = aggressive_spear
+	}
+	right_portrait = {# Your opressor!
+		character = character:189042
+		animation = disbelief
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}
+
+}
+dharma_intro.057 = {# Jayasimha of Malwa
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {# Your Uncle
+		character = character:188186
+		animation = personality_vengeful
+	}
+	lower_left_portrait = {# Your father
+		character = character:188184
+		animation = celebrate_sword
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
+dharma_intro.058 = {# Karna I
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	right_portrait = {# Your Father
+		character = character:188081
+		animation = personality_content
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
+dharma_intro.059 = {# Anangpal Tomar
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
+dharma_intro.060 = {# Ananta King of Kashmir
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_coward
+	}
+	right_portrait = {# Your Son
+		character = character:188419
+		animation = personality_vengeful
+	}
+	lower_left_portrait = {# Your wife
+		character = character:katoch_daughter_suryamati
+		animation = personality_forgiving
+	}
+
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
 #######################################
 # 1178 Intro events
 #######################################
@@ -238,9 +429,9 @@ dharma_intro.100 = {# Muhammad II of the Ghurids
 		character = root
 		animation = personality_bold
 	}
-	right_portrait = {# Your father happy
-		character = character:6392
-		animation = personality_content
+	right_portrait = {# Your Brother
+		character = character:144142
+		animation = personality_bold
 	}
 
 	option = {# 
@@ -328,6 +519,43 @@ dharma_intro.104 = {# Jayachandra of Gahadvala
 	}	
 
 }
+dharma_intro.105 = {# Ballala Sena
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {# Your son
+		character = character:154005
+		animation = personality_bold
+	}
 
+	option = {# 
+		name = dharma_intro.008.a
+	}	
 
+}
+dharma_intro.106 = {# Muhammad of Ghor
+	type = character_event
+	title = dharma_intro.008.t
+	desc = dharma_intro.008.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {# Your Brother
+		character = character:144141
+		animation = personality_bold
+	}
 
+	option = {# 
+		name = dharma_intro.008.a
+	}	
+
+}
