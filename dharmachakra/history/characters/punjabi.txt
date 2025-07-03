@@ -610,8 +610,11 @@
 	1020.1.1 = {
 		birth = yes
 	}
-	1055.1.1 = {
+	1047.1.1 = {
 		add_spouse = katoch_daughter_suryamati
+	}
+	1063.1.1 = {
+		set_relation_potential_rival = character:188419
 	}
 	1081.1.1 = {
 		death = yes
@@ -676,7 +679,7 @@
 	culture = "kashmiri"
 	father = 188414
 	mother = katoch_daughter_suryamati
-	1055.1.1 = {
+	1048.1.1 = {
 		birth = yes
 	}
 	1089.1.1 = {
@@ -689,7 +692,7 @@
 	religion = "vaishnavism"
 	culture = "kashmiri"
 	father = 188419
-	1073.1.1 = {
+	1068.1.1 = {
 		birth = yes
 	}
 	1101.1.1 = {
@@ -728,7 +731,7 @@
 	religion = "vaishnavism"
 	culture = "kashmiri"
 	father = 188420
-	1091.1.1 = {
+	1088.1.1 = {
 		birth = yes
 	}
 	1110.1.1 = {
@@ -741,7 +744,7 @@
 	religion = "vaishnavism"
 	culture = "kashmiri"
 	father = 188423
-	1109.1.1 = {
+	1104.1.1 = {
 		birth = yes
 	}
 	1130.1.1 = {
@@ -1758,8 +1761,8 @@ katoch_45 = {
 	dynasty=punjabi_katoch_dynasty #Katoch
 	religion="shaivism"
 	culture="punjabi"
-	father=katoch_44
-	1019.1.1={
+	father=katoch_43
+	1005.1.1={
 		birth=yes
 	}
 	1081.1.1={
@@ -1788,7 +1791,7 @@ katoch_daughter_suryamati = {
 	female = yes
 	# Traits 
 	trait = education_stewardship_3 # She had to repair the damage done by corrupt courtiers and her brother
-	1037.1.1={
+	1029.1.1={
 		birth=yes
 	}
 	1124.1.1={

@@ -396,6 +396,15 @@ dharma_setup_after_game_start_on_actions = {
 
 		}
 		# Co King set up
+		if = {# 1066 Co-Kings
+			limit = { game_start_date = 1066.9.15 }
+			# Ananta and Kalasa's odd situation
+			character:188414 = {
+				designate_diarch = character:188419
+				try_start_diarchy = co_monarchy
+				set_designated_heir = character:188419
+			}
+		}
 		if = {# 1178 Co-Kings
 			limit = { game_start_date = 1178.10.1 }
 			# The Ghurid brother's are co-sultans

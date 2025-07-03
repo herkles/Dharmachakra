@@ -160,8 +160,8 @@ dharma_intro.008 = {# Tride Yumten
 }
 dharma_intro.009 = {# Sena II
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.009.t
+	desc = dharma_intro.009.desc
 	theme = realm
 	
 	left_portrait = {
@@ -170,14 +170,14 @@ dharma_intro.009 = {# Sena II
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.009.a
 	}	
 
 }
 dharma_intro.010 = {# Nandivarman III
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.010.t
+	desc = dharma_intro.010.desc
 	theme = realm
 	
 	left_portrait = {
@@ -193,14 +193,14 @@ dharma_intro.010 = {# Nandivarman III
 		animation = personality_honorable
 	}
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.010.a
 	}	
 
 }
 dharma_intro.011 = {# Pyinbya of Pagan
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.011.t
+	desc = dharma_intro.011.desc
 	theme = realm
 	
 	left_portrait = {
@@ -209,7 +209,7 @@ dharma_intro.011 = {# Pyinbya of Pagan
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.011.a
 	}	
 
 }
@@ -282,8 +282,8 @@ dharma_intro.053 = {# Somesvara
 }
 dharma_intro.054 = {# Anawrahta of Pagan
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.054.t
+	desc = dharma_intro.054.desc
 	theme = realm
 	
 	left_portrait = {
@@ -292,14 +292,14 @@ dharma_intro.054 = {# Anawrahta of Pagan
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.054.a
 	}	
 
 }
 dharma_intro.055 = {# Virarajendra Chola
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.055.t
+	desc = dharma_intro.055.desc
 	theme = realm
 	
 	left_portrait = {
@@ -308,14 +308,14 @@ dharma_intro.055 = {# Virarajendra Chola
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.055.a
 	}	
 
 }
 dharma_intro.056 = {# Vijayabahu of Lanka
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.056.t
+	desc = dharma_intro.056.desc
 	theme = realm
 	
 	left_portrait = {
@@ -328,14 +328,14 @@ dharma_intro.056 = {# Vijayabahu of Lanka
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.056.a
 	}
 
 }
 dharma_intro.057 = {# Jayasimha of Malwa
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.057.t
+	desc = dharma_intro.057.desc
 	theme = realm
 	
 	left_portrait = {
@@ -352,14 +352,14 @@ dharma_intro.057 = {# Jayasimha of Malwa
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.057.a
 	}	
 
 }
 dharma_intro.058 = {# Karna I
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.058.t
+	desc = dharma_intro.058.desc
 	theme = realm
 	
 	left_portrait = {
@@ -372,14 +372,14 @@ dharma_intro.058 = {# Karna I
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.058.a
 	}	
 
 }
 dharma_intro.059 = {# Anangpal Tomar
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.059.t
+	desc = dharma_intro.059.desc
 	theme = realm
 	
 	left_portrait = {
@@ -388,14 +388,14 @@ dharma_intro.059 = {# Anangpal Tomar
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.059.a
 	}	
 
 }
 dharma_intro.060 = {# Ananta King of Kashmir
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.060.t
+	desc = dharma_intro.060.desc
 	theme = realm
 	
 	left_portrait = {
@@ -412,8 +412,17 @@ dharma_intro.060 = {# Ananta King of Kashmir
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
-	}	
+		name = dharma_intro.060.a
+	}
+
+	after = {
+		character:188419 = {
+			trigger_event = {
+				id = dharma_kashmir.001
+				days = { 30 60 }
+			}
+		}
+	}
 
 }
 #######################################
@@ -521,8 +530,8 @@ dharma_intro.104 = {# Jayachandra of Gahadvala
 }
 dharma_intro.105 = {# Ballala Sena
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.105.t
+	desc = dharma_intro.105.desc
 	theme = realm
 	
 	left_portrait = {
@@ -535,14 +544,14 @@ dharma_intro.105 = {# Ballala Sena
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.105.a
 	}	
 
 }
 dharma_intro.106 = {# Muhammad of Ghor
 	type = character_event
-	title = dharma_intro.008.t
-	desc = dharma_intro.008.desc
+	title = dharma_intro.106.t
+	desc = dharma_intro.106.desc
 	theme = realm
 	
 	left_portrait = {
@@ -555,7 +564,7 @@ dharma_intro.106 = {# Muhammad of Ghor
 	}
 
 	option = {# 
-		name = dharma_intro.008.a
+		name = dharma_intro.106.a
 	}	
 
 }

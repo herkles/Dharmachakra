@@ -1,0 +1,347 @@
+﻿namespace = dharma_kashmir
+
+##################################################
+# The Ananata king situation
+##################################################
+dharma_kashmir.001 = {# Kalasa gets his father's response
+	type = character_event
+	title = dharma_kashmir.001.t
+	desc = dharma_kashmir.001.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_vengeful
+	}
+	right_portrait = {# Your father remorseful
+		character = character:188414
+		animation = personality_forgiving
+	}
+
+	trigger = {
+		# Father and Son must be alive
+		character:188414 = { is_alive = yes }
+		character:188419 = { is_alive = yes }
+	}
+
+	option = {# Reconcile with your father
+		name = dharma_kashmir.001.a
+		ai_chance = { base = 1 }
+		hidden_effect = {
+			character:188414 = {
+				trigger_event = {
+					id = dharma_kashmir.002
+					days = { 20 30 }
+				}
+			}
+		}
+	}
+	option = {# I am supposed to be the king. 
+		name = dharma_kashmir.001.b
+		ai_chance = { base = 99 }
+		hidden_effect = {
+			character:188414 = {
+				trigger_event = {
+					id = dharma_kashmir.003
+					days = { 20 30 }
+				}
+			}
+		}
+	}	
+}
+dharma_kashmir.002 = {# Father and Son Reconcilled
+	type = character_event
+	title = dharma_kashmir.002.t
+	desc = dharma_kashmir.002.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = personality_forgiving
+	}
+	right_portrait = {# Your son happy
+		character = character:188419
+		animation = personality_forgiving
+	}
+
+	trigger = {
+		# Father and Son must be alive
+		character:188414 = { is_alive = yes }
+		character:188419 = { is_alive = yes }
+	}
+
+	option = {# finally this fued is over
+		name = dharma_kashmir.002.a
+		remove_relation_potential_rival = character:188419
+	}	
+
+}
+dharma_kashmir.003 = {# The feud continues
+	type = character_event
+	title = dharma_kashmir.003.t
+	desc = dharma_kashmir.003.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_vengeful
+	}
+	right_portrait = {# Your son is vengeful
+		character = character:188419
+		animation = personality_vengeful
+	}
+
+	trigger = {
+		character:188414 = { is_alive = yes }
+		character:188419 = { is_alive = yes }
+	}
+
+	option = {# That impetious boy
+		name = dharma_kashmir.003.a
+	}
+	
+	after = {
+		character:188419 = {
+			trigger_event = {
+				id = dharma_kashmir.004
+				months = { 30 60 }
+			}
+		}
+	}
+
+}
+dharma_kashmir.004 = {# March to the temple
+	type = character_event
+	title = dharma_kashmir.004.t
+	desc = dharma_kashmir.004.desc
+	theme = realm
+	override_background = {
+		reference = bp1_courtyard_indian
+	}
+
+	left_portrait = {
+		character = root
+		animation = aggressive_sword
+	}
+
+
+	trigger = {
+		character:188414 = { is_alive = yes }
+		character:188419 = { is_alive = yes }
+		NOT = {
+			is_at_war_with = root
+		}
+	}
+
+	option = {# I am supposed to be king!
+		name = dharma_kashmir.004.a
+	}
+	
+	after = {
+		character:188414 = {
+			trigger_event = {
+				id = dharma_kashmir.005
+				days = { 30 60 }
+			}
+		}
+	}
+
+}
+dharma_kashmir.005 = {# Your son is marching on the temple
+	type = character_event
+	title = dharma_kashmir.005.t
+	desc = dharma_kashmir.005.desc
+	theme = realm
+	override_background = {
+		reference = ep2_holy_site_indian
+	}	
+
+	left_portrait = {
+		character = root
+		animation = anger
+	}
+	right_portrait = {# Your father happy
+		character = character:188419
+		animation = aggressive_sword
+	}
+
+	trigger = {
+		# Father and Son must be alive
+		character:188414 = { is_alive = yes }
+		character:188419 = { is_alive = yes }
+	}
+
+	option = {# I shall become a monk(abdicate)
+		name = dharma_kashmir.005.a
+		ai_chance = { base = 1 }
+		add_trait = devoted
+		depose = yes
+		add_character_flag = {
+			flag = abdicated_from_throne
+			days = 30
+		}
+		hidden_effect = {
+			character:188419 = {
+				trigger_event = {
+					id = dharma_kashmir.006
+					days = { 10 20 }
+				}
+			}
+		}
+	}	
+	option = {# I shall speak with him
+		name = dharma_kashmir.005.b
+		ai_chance = { base = 99 }
+		hidden_effect = {
+			character:188419 = {
+				trigger_event = {
+					id = dharma_kashmir.007
+					days = { 20 30 }
+				}
+			}
+		}
+	}	
+}
+dharma_kashmir.006 = {# Father abdicates and becomes a monastic
+	type = character_event
+	title = dharma_kashmir.006.t
+	desc = dharma_kashmir.006.desc
+	theme = realm
+	override_background = {
+		reference = ep2_holy_site_indian
+	}	
+
+	left_portrait = {
+		character = root
+		animation = personality_forgiving
+	}
+	right_portrait = {# Your father happy
+		character = character:188414
+		animation = personality_compassionate
+	}
+
+	trigger = {
+		# Father and Son must be alive
+		character:188414 = { is_alive = yes }
+		character:188419 = { is_alive = yes }
+	}
+
+	option = {# I am sorry it came to this father.
+		name = dharma_kashmir.006.a
+		remove_relation_potential_rival = character:188414
+	}
+}
+dharma_kashmir.007 = {# Confrontation with your father
+	type = character_event
+	title = dharma_kashmir.007.t
+	desc = dharma_kashmir.007.desc
+	theme = realm
+	override_background = {
+		reference = ep2_holy_site_indian
+	}
+
+	left_portrait = {
+		character = root
+		animation = personality_vengeful
+	}
+	right_portrait = {# Your father happy
+		character = character:188414
+		animation = personality_vengeful
+	}
+
+	trigger = {
+		# Father and Son must be alive
+		character:188414 = { is_alive = yes }
+		character:188419 = { is_alive = yes }
+	}
+
+	option = {# The throne is mine!
+		name = dharma_kashmir.007.a
+	}	
+
+	after = {
+		character:188414 = {
+			trigger_event = {
+				id = dharma_kashmir.009
+				days = { 1 2 }
+			}
+		}
+	}
+
+}
+dharma_kashmir.008 = {# Ananata's suicide
+	type = character_event
+	title = dharma_kashmir.008.t
+	desc = dharma_kashmir.008.desc
+	theme = realm
+	override_background = {
+		reference = ep2_holy_site_indian
+	}
+
+	left_portrait = {
+		character = root
+		animation = grief
+	}
+	right_portrait = {# Your wife
+		character = character:katoch_daughter_suryamati
+		animation = grief
+	}
+
+	trigger = {
+		# Father and Son must be alive
+		character:188414 = { is_alive = yes }
+		character:188419 = { is_alive = yes }
+	}
+
+	option = {# Let this dagger end this fued.
+		name = dharma_kashmir.008.a
+		# You and your wife commite suicide instead of fighting your son
+		death = { death_reason = death_suicide }
+		character:katoch_daughter_suryamati = { death = { death_reason = death_suicide } }
+	}
+
+	after = {
+		character:188419 = {
+			trigger_event = {
+				id = dharma_kashmir.009
+				days = { 1 2 }
+			}
+		}
+	}
+
+}
+dharma_kashmir.009 = {# Father and Mother are dead
+	type = character_event
+	title = dharma_kashmir.009.t
+	desc = dharma_kashmir.009.desc
+	theme = realm
+	override_background = {
+		reference = ep2_holy_site_indian
+	}	
+	left_portrait = {
+		character = root
+		animation = grief
+	}
+	right_portrait = {# Your father dead
+		character = character:188414
+		animation = sadness
+	}
+	lower_left_portrait = {# Your father dead
+		character = character:katoch_daughter_suryamati
+		animation = sadness
+	}
+
+	trigger = {
+		is_at_war = no
+		religion = religion:buddhism_religion
+		is_landed = yes	
+	}
+
+	option = {# Why! Why did it have to come to this!
+		name = dharma_kashmir.009.a
+
+	}
+
+}
+
+
