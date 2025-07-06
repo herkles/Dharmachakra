@@ -17,11 +17,17 @@ This update expands the mod to the Middle East. It overhauls Zoroastrianism with
 - Tridé Yumten is now rivals with his brother and has the disputed heritage trait. He does have a decision to get rid of it. 
 - The Ghurid brothers are now co-sultans as they were in history
 - The Correct ghurid sultan gets the bookmark description in the bookmark.
-- King Anata in Kashmir know has his wife
-- King Anata has Haladhara as his chief advisor as is historical.
+- King Ananata in Kashmir know has his wife
+- King Ananata has Haladhara as his chief advisor as is historical.
+- small event chain about King Ananata and his son's feud
+- King Ananata is rivals with his son
+- King Ananata is set up as co-rulers with his son
 - Various intro events for historical characters
 - decision to found the city of Delhi
 - Delhi is renamed Srinivaspuri before the city is founded.
+- Kosali is spelled correctly, and not Kolasi.
+- Haytal has the turkish heritage being that they are Turco-Hephthalites
+- made sure that dna for characters actually was there and not just for bookmarks.
 
 ## Manual Installation Steps
 

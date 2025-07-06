@@ -332,11 +332,6 @@ c_delhi = {
 		holder = 170258 #Muhammad
 	}
 }
-b_indraprastha = {
-	1051.7.19 = {# renaming the province to Delhi
-		name = delhi_province
-	}
-}
 
 c_hastinapura = {
 	736.3.1 = {

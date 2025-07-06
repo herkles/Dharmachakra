@@ -1446,6 +1446,7 @@
 247131 = {
 	name="NamdE__O_sung"
 	dynasty=105800 #Purgyal
+	dna = "nande_osung_dna"
 	religion="old_bon"
 	culture="bodpa"
 	trait="child_of_concubine_female"
@@ -1464,6 +1465,7 @@
 
 247132 = {
 	name="TridE__Yumten"
+	dna = "tride_yumten_dna"
 	dynasty=105800 #Purgyal
 	religion="old_bon"
 	culture="bodpa"

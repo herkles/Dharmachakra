@@ -138,6 +138,7 @@
 }
 188008 = {# Mihira Bhoja
 	name = "Bhoja"
+	dna = "bhoja_pratihara_dna"
 	# Mihira Bhoja I Pratihara
 	dynasty = 1042066
 	religion = "vaishnavism"

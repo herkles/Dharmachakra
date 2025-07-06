@@ -179,6 +179,9 @@ dharma_setup_after_game_start_on_actions = {
 				name = dharma_found_delhi_city_flag
 				value = yes
 			}
+			title:b_indraprastha = {# just putting this here for the barony to be renamed to Delhi
+				set_title_name = delhi_province
+			}
 		}
 		# Islamic stuff
 		if = {# Shia imamates and making

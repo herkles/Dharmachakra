@@ -1191,6 +1191,7 @@ paramara_branch_off = { #While we can be reasonably sure he existed all circumst
 }
 190209 = {# Karnadeva
 	name = "Karnadeva"
+	dna = "karnadeva_1066_cedi_dna"
 	dynasty = 1044019 #Cedi
 	religion = "shaivism"
 	culture = "malvi"

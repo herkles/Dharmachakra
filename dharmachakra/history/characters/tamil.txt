@@ -1276,6 +1276,7 @@ chola_daughters_5 = {# Maturantikiyalvar
 }
 189121 = {# Kulothunga
 	name = "KulO_ttunka" # Kulothunga III Chola
+	dna = "kulothunga_chola_dna"
 	dynasty_house = house_chalukya_chola
 	religion = "shaivism"
 	culture = "tamil"

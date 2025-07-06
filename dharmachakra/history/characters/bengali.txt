@@ -134,6 +134,7 @@
 	}
 	190009 = {# Narayanapala
 		name = "Narayanapala"
+		dna = "narayanapala_pala_dna"
 		dynasty = 1043000
 		religion = "shaivism"
 		culture = "bengali"
@@ -244,6 +245,7 @@
 	}
 	190017 = {# Vigrahapala
 		name = "Vigrahapala"
+		dna = "Vigrahapala_1066_pala_dna"
 		dynasty = 1043000
 		religion = "shaivism"
 		culture = "bengali"

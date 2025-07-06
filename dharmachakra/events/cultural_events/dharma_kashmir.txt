@@ -262,7 +262,7 @@ dharma_kashmir.007 = {# Confrontation with your father
 	after = {
 		character:188414 = {
 			trigger_event = {
-				id = dharma_kashmir.009
+				id = dharma_kashmir.008
 				days = { 1 2 }
 			}
 		}

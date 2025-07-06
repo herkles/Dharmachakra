@@ -1188,6 +1188,7 @@ rashtrakuta003 = { # Asagavve
 }
 74441 = {# Somesvara
 	name = "Somesvara" #Somesvara I of Western Chalukya
+	dna = "Somesvara_1066_kalyani_chalukya_dna"
 	dynasty_house = 12319
 	religion = "shaivism"
 	culture = "kannada"
@@ -1816,6 +1817,7 @@ chalukya_queen_2 = {# Sangappai
 }
 74465 = {# Sankama
 	name = "Sankama" #Sankama of Kalachuri
+	dna = "sankama_kalachuri_dna"
 	dynasty = 12320
 	religion = "shaivism"
 	culture = "kannada"

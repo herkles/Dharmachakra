@@ -604,6 +604,7 @@
 }
 190220 = {# Jayacandra
 	name = "Jayacandra"
+	dna = "jayachandra_gahadvala_dna"
 	dynasty = 1044030 #Gahadvala
 	religion = "vaishnavism"
 	culture = "kannauji"
