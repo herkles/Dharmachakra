@@ -4,7 +4,7 @@
 multan_sun_temple_01 = {# Multan Temple in ruins
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_konark_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -36,7 +36,7 @@ multan_sun_temple_01 = {# Multan Temple in ruins
 multan_sun_temple_02 = {# Multan rebuilt Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_alhambra.dds"
+	type_icon = "icon_structure_konark_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -83,7 +83,7 @@ multan_sun_temple_02 = {# Multan rebuilt Temple
 pattadakal_01 = {# The Temple Complex of Pattadakal
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_pattadakal.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -128,7 +128,7 @@ pattadakal_01 = {# The Temple Complex of Pattadakal
 konark_sun_temple_01 = {# Konark Sun Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_konark_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -503,7 +503,7 @@ alampur_jogulamba_temple_01 = {# Alampur_Jogulamba Temple
 mallikarjuna_temple_01 = {# Mallikarjuna Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_mallikarjuna_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -547,7 +547,7 @@ mallikarjuna_temple_01 = {# Mallikarjuna Temple
 mahalakshmi_temple_01 = {# Mahalakshmi Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_mahalakshmi_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -801,7 +801,7 @@ har_ki_pauri_temple_01 = {# Har Ki Pauri
 badrinath_temple_01 = {# Badrinath Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_badrinath_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -842,7 +842,7 @@ badrinath_temple_01 = {# Badrinath Temple
 kedarnath_temple_01 = {# Kedarnath Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_kedarnath_temple.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1100,7 +1100,7 @@ dwarkadhish_temple_01 = {# Dwarkadhish Temple
 	flag = travel_point_of_interest_religious
 
 }
-somnath_temple_temple_01 = {# Somnath temple Temple
+somnath_temple_temple_01 = {# Somnath Temple
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_cathedral_indian.dds"
@@ -1329,7 +1329,7 @@ iron_pillar_of_delhi_02 = {# when Delhi is founded it is then called Iron Pillar
 elephanta_caves_01 = {# Elephanta Caves
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_ellora_caves.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1730,7 +1730,7 @@ sanchi_01 = {# Sanchi
 takht_i_bahi_01 = {# The ruins of Takht-i-bahi
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_ruins_of_ctesiphon.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1762,7 +1762,7 @@ takht_i_bahi_01 = {# The ruins of Takht-i-bahi
 takht_i_bahi_02 = {# Takht-i-bahi rebuilt
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_sanchi_stupa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1809,7 +1809,7 @@ takht_i_bahi_02 = {# Takht-i-bahi rebuilt
 dambulla_cave_temple_01 = {# Dambulla Cave Temples
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_ajanta_caves.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1847,7 +1847,7 @@ dambulla_cave_temple_01 = {# Dambulla Cave Temples
 pabonka_hermitage_01 = {# Pabonka Hermitage
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_nalanda.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1888,7 +1888,7 @@ pabonka_hermitage_01 = {# Pabonka Hermitage
 maya_devi_temple_01 = {# Maya Devi Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_nalanda.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1931,7 +1931,7 @@ maya_devi_temple_01 = {# Maya Devi Temple
 sravasti_01 = {# Shravasti
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_sanchi_stupa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -1974,7 +1974,7 @@ sravasti_01 = {# Shravasti
 sankassa_01 = {# Sankassa
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_sanchi_stupa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2013,7 +2013,7 @@ sankassa_01 = {# Sankassa
 ratnagiri_01 = {# Ratnagiri
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_nalanda.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2052,7 +2052,7 @@ ratnagiri_01 = {# Ratnagiri
 amaravati_stupa_01 = {# Amaravati_Stupa
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_sanchi_stupa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2095,7 +2095,7 @@ amaravati_stupa_01 = {# Amaravati_Stupa
 mahamevnaw_01 = {# Mahamevnaw
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_nalanda.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2181,11 +2181,10 @@ mankiala_stupa_01 = {# Mankiala Stupa
 
 	flag = travel_point_of_interest_religious
 }
-
 nava_vihara_stupa_01 = {# Nava Vihara Stupa
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_siro_sanchi_stupa.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2227,7 +2226,7 @@ nava_vihara_stupa_01 = {# Nava Vihara Stupa
 parinirvana_stupa_01 = {# Parinirvana Stupa
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_nalanda.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2270,7 +2269,7 @@ parinirvana_stupa_01 = {# Parinirvana Stupa
 boudha_stupa_01 = {# Boudha Stupa
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_nalanda.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2431,7 +2430,7 @@ girnar_jain_temples_01 = {# Girnar Jain
 girnar_jain_temples_02 = {# Neminath Temple
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_alhambra.dds"
+	type_icon = "icon_structure_cathedral_indian.dds"
 	
 	
 	can_construct = {# This should be built by a jain ruler. 
@@ -2611,7 +2610,7 @@ sonagiri_temple_01 = {# Sonagiri Temple
 chittorgarh_01 = {# Chittorgarh Fort
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_patras_castle.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2653,7 +2652,7 @@ chittorgarh_01 = {# Chittorgarh Fort
 ranthambore_01 = {# Ranthambore
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_structure_visegrad_castle.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2692,7 +2691,7 @@ ranthambore_01 = {# Ranthambore
 gwalior_fort_01 = {# Gwalior Fort
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_gwalior_fort.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -3049,7 +3048,7 @@ citadel_antioch_02 = {# Citadel of Antioch Upgraded
 rani_ki_vav_01 = {# Rani Ki Vav
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_cathedral_indian.dds"
+	type_icon = "icon_rani_ki_vav_01.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -4545,7 +4544,7 @@ monastery_saint_thaddeus_01 = {# Monastery of Saint Thaddeus
 chapel_dzordzor_01 = {# Chapel of Dzordzor
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_nalanda.dds"
+	type_icon = "icon_structure_ani_cathedral.dds"
 
 	asset = {
 		type = pdxmesh
