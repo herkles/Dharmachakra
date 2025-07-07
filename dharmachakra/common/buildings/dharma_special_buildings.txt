@@ -3090,7 +3090,7 @@ rani_ki_vav_01 = {# Rani Ki Vav
 sharada_peeth_01 = {# Sharad Peeth in Kashmir
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_nalanda.dds"
+	type_icon = "icon_structure_somapura_university.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -3449,7 +3449,7 @@ mizdarkan_necropolis_01 = {# Mizdarkan Necropolis
 	
 	construction_time = very_slow_construction_time
 
-	type_icon = "icon_structure_great_fire_temple.dds"
+	type_icon = "icon_building_graveyard.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no

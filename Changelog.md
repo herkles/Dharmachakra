@@ -28,6 +28,7 @@ This update expands the mod to the Middle East. It overhauls Zoroastrianism with
 - Kosali is spelled correctly, and not Kolasi.
 - Haytal has the turkish heritage being that they are Turco-Hephthalites
 - made sure that dna for characters actually was there and not just for bookmarks.
+- Updated the various special building icons with different and some new icons.
 
 ## Manual Installation Steps
 
