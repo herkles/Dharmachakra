@@ -5771,7 +5771,6 @@ character_view_bg = {
 						trigger_else = {
 							culture = { has_building_gfx = iberian_building_gfx }
 						}
-						religion = religion:zoroastrianism_religion
 					}
 				}
 			}
@@ -5900,6 +5899,313 @@ character_view_bg = {
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
 						religion = religion:germanic_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}	
+	# Chinese - guyi/silk road
+	texture = { # Taoism
+		reference = "event_scenes/dharma_asian_temple.dds"
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:taoism_religion
+			exists = capital_province
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:taoism_religion
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:taoism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:taoism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:taoism_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	# Buddhism
+	texture = { # Buddhism
+		reference = "interior/dharma_temple_buddhism.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:buddhism_religion
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:buddhism_religion
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:buddhism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:buddhism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:buddhism_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	# Buddhism - Nangchos
+	texture = { # Buddhism - Nangchos
+		reference = "interior/dharma_temple_tibet.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			faith = faith:lamaism
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			faith = faith:lamaism
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					faith = faith:lamaism
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					faith = faith:lamaism
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						faith = faith:lamaism
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}		
+	# Hinduism - Vaishavism
+	texture = { # Viashaivism
+		reference = "interior/dharma_temple_vishnu.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			faith = faith:vaishnavism
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			faith = faith:vaishnavism
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					faith = faith:vaishnavism
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					faith = faith:vaishnavism
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						faith = faith:vaishnavism
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}	
+	# Hinduism - Shaktism
+	texture = { # Shaktism
+		reference = "interior/dharma_temple_shakti.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			OR = {
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
+			}
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			OR = {
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
+			}
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					OR = {
+						faith = faith:srikula_shaktism
+						faith = faith:kalikula_shaktism
+					}
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					OR = {
+						faith = faith:srikula_shaktism
+						faith = faith:kalikula_shaktism
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						OR = {
+							faith = faith:srikula_shaktism
+							faith = faith:kalikula_shaktism
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}	
+	# Hinduism - General
+	texture = { # Zoroastrian
+		reference = "interior/dharma_temple_interior.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:hinduism_religion
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:hinduism_religion
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:hinduism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:hinduism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:hinduism_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}	
+	# Jainism 
+	texture = { # Jainism
+		reference = "interior/dharma_temple_interior.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:jainism_religion
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:jainism_religion
+			is_character_window_main_character = yes
+		}
+	}
+	environment = {
+		reference = "environment_event_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:jainism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:jainism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:jainism_religion
 					}
 				}
 			}
@@ -8205,13 +8511,13 @@ character_religion_interior = {
 	########################################
 	texture = {# Dharma Indian Temple
 		trigger = {
-			this = faith:ganaptism
+			faith = faith:ganaptism
 		}
 		reference = "interior/dharma_temple_ganesha.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
-			this = faith:ganaptism
+			faith = faith:ganaptism
 		}
 		reference = "environment_event_dharma_temple_ganesha"
 	}
@@ -8221,8 +8527,8 @@ character_religion_interior = {
 	texture = {# Dharma Indian Temple
 		trigger = { 
 			OR = {
-				this = faith:srikula_shaktism
-				this = faith:kalikula_shaktism
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
 			}
 		}
 		reference = "interior/dharma_temple_shakti.dds"
@@ -8230,8 +8536,8 @@ character_religion_interior = {
 	environment = {# Dharma Indian Temple
 		trigger = { 
 			OR = {
-				this = faith:srikula_shaktism
-				this = faith:kalikula_shaktism
+				faith = faith:srikula_shaktism
+				faith = faith:kalikula_shaktism
 			}
 		}
 		reference = "environment_event_dharma_temple_shakti"
@@ -8243,7 +8549,7 @@ character_religion_interior = {
 		trigger = { 
 			OR = {
 				religion = religion:bon_religion
-				this = faith:lamaism
+				faith = faith:lamaism
 			}
 		}
 		reference = "interior/dharma_temple_tibet.dds"
@@ -8252,7 +8558,7 @@ character_religion_interior = {
 		trigger = { 
 			OR = {
 				religion = religion:bon_religion
-				this = faith:lamaism
+				faith = faith:lamaism
 			}
 		}
 		reference = "environment_event_dharma_temple_tibetan"
@@ -8270,8 +8576,8 @@ character_religion_interior = {
 				religion = religion:khasi_religion
 				religion = religion:sanamahism_religion
 				religion = religion:qiangic_religion
-				this = faith:sarnaism
-				this = faith:koyapunem
+				faith = faith:sarnaism
+				faith = faith:koyapunem
 			}
 		}
 		reference = "interior/dharma_temple_tribal.dds"
@@ -8286,8 +8592,8 @@ character_religion_interior = {
 				religion = religion:khasi_religion
 				religion = religion:sanamahism_religion
 				religion = religion:qiangic_religion
-				this = faith:sarnaism
-				this = faith:koyapunem
+				faith = faith:sarnaism
+				faith = faith:koyapunem
 			}
 		}
 		reference = "environment_event_dharma_temple_tribal"
@@ -8297,13 +8603,13 @@ character_religion_interior = {
 	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
-			this = faith:krishnaism
+			faith = faith:krishnaism
 		}
 		reference = "interior/dharma_temple_krishna.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
-			this = faith:krishnaism
+			faith = faith:krishnaism
 		}
 		reference = "environment_event_dharma_temple_krishna"
 	}
@@ -8312,13 +8618,13 @@ character_religion_interior = {
 	#######################################
 	texture = {# Dharma Indian Temple
 		trigger = { 
-			this = faith:vaishnavism
+			faith = faith:vaishnavism
 		}
 		reference = "interior/dharma_temple_vishnu.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 
-			this = faith:vaishnavism
+			faith = faith:vaishnavism
 		}
 		reference = "environment_event_dharma_temple_vishnu"
 	}
@@ -8380,7 +8686,7 @@ religion_holding = {
 		trigger = {
 			OR = {
 				religion = religion:bon_religion
-				this = faith:lamaism
+				faith = faith:lamaism
 			}
 		}
 		reference = "holding_types/temple_tibet.dds"
