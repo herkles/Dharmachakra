@@ -276,6 +276,10 @@
 
 	
 	# History
+	867.1.1 = {
+		special_building_slot = chand_baori_01
+		special_building = chand_baori_01
+	}
 	1066.1.1 = {
 		religion = smartism
 	}

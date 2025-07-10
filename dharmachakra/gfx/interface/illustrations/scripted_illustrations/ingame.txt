@@ -5991,7 +5991,7 @@ character_view_bg = {
 	}
 	# Buddhism - Nangchos
 	texture = { # Buddhism - Nangchos
-		reference = "interior/dharma_temple_tibet.dds"
+		reference = "event_scenes/tibetan_monastary.dds"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
@@ -8545,14 +8545,14 @@ character_religion_interior = {
 	#######################################
 	# Tibetan Temple Interior
 	#######################################
-	texture = {# Dharma Indian Temple
+	texture = {# Dharma Tibetan Temple
 		trigger = { 
 			OR = {
 				religion = religion:bon_religion
 				faith = faith:lamaism
 			}
 		}
-		reference = "interior/dharma_temple_tibet.dds"
+		reference = "event_scenes/tibetan_monastary.dds"
 	}
 	environment = {# Dharma Indian Temple
 		trigger = { 

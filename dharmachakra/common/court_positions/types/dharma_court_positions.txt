@@ -77,6 +77,7 @@ master_of_elephants_court_position = {
 	}
 
 	is_shown = {
+		culture = {	has_innovation = innovation_elephantry }
 		is_landed_or_landless_administrative = yes
 		NOT = { government_has_flag = government_is_nomadic }
 		trigger_if = {
@@ -90,6 +91,7 @@ master_of_elephants_court_position = {
 
 	# Is this an available position for this court? (root is court owner)
 	valid_position = {
+		culture = {	has_innovation = innovation_elephantry }
 		is_landed_or_landless_administrative = yes
 		highest_held_title_tier >= tier_duchy
 	}
@@ -354,15 +356,6 @@ master_of_elephants_court_position = {
 		add = court_position_debt_considerations_value
 	}
 }
-
-
-
-
-
-
-
-
-
 court_guru_court_position = {
 	sort_order = 233
 	max_available_positions = 1

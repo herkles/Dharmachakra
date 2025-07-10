@@ -400,6 +400,12 @@
  building_rani_ki_vav_01:0 "$building_type_rani_ki_vav_01$"
  building_rani_ki_vav_01_desc:0 "$building_type_rani_ki_vav_01_desc$"
 
+ building_type_chand_baori_01:0 "Chand Baori"
+ building_type_chand_baori_01_desc:0 "Chand Baori is one of the deepest and largest stepwells in all of India with over 3,500 steps and cascading 13 stories to the bottom. Built in an upside down pyramid shape, the name of the stepwell comes from one of the local rajas Chanda. Due to the arid climate of the region, this stepwell is designed to ensure that the people of the area have access to water even during the driest of times. "
+ building_chand_baori_01:0 "$building_type_chand_baori_01$"
+ building_chand_baori_01_desc:0 "$building_type_chand_baori_01_desc$"
+
+
  qusayr_amra_01:0 "Qusayr Amra"
  building_type_qusayr_amra_01:0 "Qusayr Amra"
  qusayr_amra_01_desc:0 "#F This lavish remnant of the Umayyad Caliphate is a testament to their indulgent practices, complete with baths, erotic tapestries, and theatrical stages. It stands in a relatively isolated area in the desert, where a ruler may decide to stay and get away from the troubles of managing their domain.#!"
