@@ -43,6 +43,11 @@ This update contains mostly bug fixes that have been reported to me and I have f
 - Updated the various special building icons with different and some new icons.
 - Updated some background images for clergy
 
+### Compatibility Updates
+
+- updated Event background and theme refering to RICE for compatability with RICE
+
+
 ## Manual Installation Steps
 
 DO NOT manually download the master branch unless you know what you're doing as it is the WIP version that is constantly being updated!

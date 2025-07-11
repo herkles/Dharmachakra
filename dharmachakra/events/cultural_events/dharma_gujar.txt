@@ -8,7 +8,7 @@ dharma_gujar.001 = {
 	type = character_event
 	title = dharma_gujar.001.t
 	desc = dharma_gujar.001.desc
-	theme = RICE_theme_irrigation_tank
+	theme = dharma_RICE_theme_irrigation_tank
 	
 	left_portrait = root
 	
