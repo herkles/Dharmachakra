@@ -1,6 +1,6 @@
 # Dharmachakra for CK3
 
-## Latest Version: 1.7.5 "Zarathustra" (Released 06/16/2025)
+## Latest Version: 1.7.6 "Ananata" (Released 07/11/2025)
 
 Dharmachakra is a flavor mod for CK3 focused on the Indian Subcontient and the neighboring regions of Burma and Tibet, as well as the Dharmic Religions of Buddhism, Jainism, and Hinduism and religions influenced by them.
 
