@@ -252,12 +252,12 @@ c_delhi = {
 	1051.6.17 = {
 		holder = 170174 #Anangpal II Tomar
 		name = delhi_county
-		effect = {
-			set_global_variable = {
-				name = dharma_found_delhi_city_flag
-				value = yes
-			}
-		}
+		# effect = {
+		# 	set_global_variable = {
+		# 		name = dharma_found_delhi_city_flag
+		# 		value = yes
+		# 	}
+		# }
 	}
 	1081.1.5 = {
 		holder = 170182 #Tejpal Tomar

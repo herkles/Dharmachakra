@@ -5551,18 +5551,20 @@ character_view_bg = {
 
 		trigger = {
 			has_graphical_tibet_region_trigger = yes
+			NOT = { has_council_position = councillor_court_chaplain }
 		}
 	}
 	environment = {
-		reference = "environment_cw_tibet_main"
+		reference = "environment_event_throneroom_tibet_main"
 
 		trigger = {
 			is_character_window_main_character = yes
 			has_graphical_tibet_region_trigger = yes
+			NOT = { has_council_position = councillor_court_chaplain }
 		}
 	}
 	environment = {
-		reference = "environment_cw_tibet_spouse"
+		reference = "environment_event_throneroom_tibet_spouse"
 
 		trigger = {
 			OR = {
@@ -5570,12 +5572,14 @@ character_view_bg = {
 					exists = primary_spouse
 					primary_spouse = {
 						has_graphical_tibet_region_trigger = yes
+						NOT = { has_council_position = councillor_court_chaplain }
 					}
 				}
 				AND = {
 					exists = betrothed
 					betrothed = {
 						has_graphical_tibet_region_trigger = yes
+						NOT = { has_council_position = councillor_court_chaplain }
 					}
 				}
 			}
@@ -5911,11 +5915,10 @@ character_view_bg = {
 		trigger = {
 			should_use_temple_character_background_trigger = yes
 			religion = religion:taoism_religion
-			exists = capital_province
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_china"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
@@ -5924,7 +5927,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_china"
 
 		trigger = {
 			OR = {
@@ -5954,35 +5957,40 @@ character_view_bg = {
 		trigger = {
 			should_use_temple_character_background_trigger = yes
 			religion = religion:buddhism_religion
+			NOT = { faith = faith:lamaism }
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_buddhism"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
 			religion = religion:buddhism_religion
+			NOT = { faith = faith:lamaism }
 			is_character_window_main_character = yes
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_buddhism"
 
 		trigger = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
 					religion = religion:buddhism_religion
+					NOT = { faith = faith:lamaism }
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
 					religion = religion:buddhism_religion
+					NOT = { faith = faith:lamaism }
 				}
 				AND = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
 						religion = religion:buddhism_religion
+						NOT = { faith = faith:lamaism }
 					}
 				}
 			}
@@ -5995,36 +6003,51 @@ character_view_bg = {
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			faith = faith:lamaism
+			OR = {
+				faith = faith:lamaism
+				religion = religion:bon_religion
+			}
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_tibetan"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
-			faith = faith:lamaism
+			OR = {
+				faith = faith:lamaism
+				religion = religion:bon_religion
+			}
 			is_character_window_main_character = yes
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_tibetan"
 
 		trigger = {
 			OR = {
 				primary_spouse ?= {
 					should_use_temple_character_background_trigger = yes
-					faith = faith:lamaism
+					OR = {
+						faith = faith:lamaism
+						religion = religion:bon_religion
+					}
 				}
 				betrothed ?= {
 					should_use_temple_character_background_trigger = yes
-					faith = faith:lamaism
+					OR = {
+						faith = faith:lamaism
+						religion = religion:bon_religion
+					}
 				}
 				AND = {
 					liege.diarch ?= this
 					liege ?= {
 						should_use_temple_character_background_trigger = yes
-						faith = faith:lamaism
+						OR = {
+							faith = faith:lamaism
+							religion = religion:bon_religion
+						}
 					}
 				}
 			}
@@ -6041,7 +6064,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_vishnu"
 		trigger = {
 			should_use_temple_character_background_trigger = yes
 			faith = faith:vaishnavism
@@ -6049,7 +6072,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_vishnu"
 		trigger = {
 			OR = {
 				primary_spouse ?= {
@@ -6084,7 +6107,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_shakti"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
@@ -6096,7 +6119,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_shakti"
 
 		trigger = {
 			OR = {
@@ -6129,7 +6152,7 @@ character_view_bg = {
 		}
 	}	
 	# Hinduism - General
-	texture = { # Zoroastrian
+	texture = { # General Hinduism
 		reference = "interior/dharma_temple_interior.dds"
 
 		trigger = {
@@ -6138,7 +6161,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_general"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
@@ -6147,7 +6170,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_general"
 
 		trigger = {
 			OR = {
@@ -6180,7 +6203,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_general"
 
 		trigger = {
 			should_use_temple_character_background_trigger = yes
@@ -6189,7 +6212,7 @@ character_view_bg = {
 		}
 	}
 	environment = {
-		reference = "environment_event_temple"
+		reference = "environment_event_dharma_temple_general"
 
 		trigger = {
 			OR = {
@@ -7917,7 +7940,10 @@ character_view_bg = {
 		trigger = {
 			exists = primary_title
 			primary_title.tier >= tier_empire
-			has_graphical_india_region_trigger = yes
+			OR = {
+				has_graphical_india_region_trigger = yes
+				has_graphical_burma_region_trigger = yes
+			}
 		}
 	}
 	environment = {
@@ -7926,7 +7952,10 @@ character_view_bg = {
 		trigger = {
 			exists = primary_title
 			primary_title.tier >= tier_empire
-			has_graphical_india_region_trigger = yes
+			OR = {
+				has_graphical_india_region_trigger = yes
+				has_graphical_burma_region_trigger = yes
+			}
 			is_character_window_main_character = yes
 		}
 	}
@@ -7940,7 +7969,10 @@ character_view_bg = {
 					primary_spouse = {
 						exists = primary_title
 						primary_title.tier >= tier_empire
-						has_graphical_india_region_trigger = yes
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}
 					}
 				}
 				AND = {
@@ -7948,7 +7980,10 @@ character_view_bg = {
 					betrothed = {
 						exists = primary_title
 						primary_title.tier >= tier_empire
-						has_graphical_india_region_trigger = yes
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}
 					}
 				}
 				AND = {
@@ -7956,7 +7991,10 @@ character_view_bg = {
 					liege ?= {
 						exists = primary_title
 						primary_title.tier >= tier_empire
-						has_graphical_india_region_trigger = yes
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}						
 					}
 				}
 			}
@@ -7972,7 +8010,12 @@ character_view_bg = {
 				limit = { is_in_prison_type = house_arrest }
 				imprisoner = { has_graphical_india_region_trigger = yes }
 			}
-			trigger_else = { has_graphical_india_region_trigger = yes }
+			trigger_else = { 
+				OR = {
+					has_graphical_india_region_trigger = yes
+					has_graphical_burma_region_trigger = yes
+				}
+			}
 		}
 	}
 	environment = {
@@ -7983,7 +8026,12 @@ character_view_bg = {
 				limit = { is_in_prison_type = house_arrest }
 				imprisoner = { has_graphical_india_region_trigger = yes }
 			}
-			trigger_else = { has_graphical_india_region_trigger = yes }
+			trigger_else = { 
+				OR = {
+					has_graphical_india_region_trigger = yes
+					has_graphical_burma_region_trigger = yes
+				}
+			}
 			is_character_window_main_character = yes
 		}
 	}
@@ -7997,14 +8045,25 @@ character_view_bg = {
 						limit = { is_in_prison_type = house_arrest }
 						imprisoner = { has_graphical_india_region_trigger = yes }
 					}
-					trigger_else = { has_graphical_india_region_trigger = yes }
+					trigger_else = { 
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}
+					}
 				}
 				betrothed ?= {
 					trigger_if = {
 						limit = { is_in_prison_type = house_arrest }
 						imprisoner = { has_graphical_india_region_trigger = yes }
 					}
-					trigger_else = { has_graphical_india_region_trigger = yes }
+					
+					trigger_else = { 
+						OR = {
+							has_graphical_india_region_trigger = yes
+							has_graphical_burma_region_trigger = yes
+						}
+					}
 				}
 				AND = {
 					liege.diarch ?= this
@@ -8013,7 +8072,12 @@ character_view_bg = {
 							limit = { is_in_prison_type = house_arrest }
 							imprisoner = { has_graphical_india_region_trigger = yes }
 						}
-						trigger_else = { has_graphical_india_region_trigger = yes }
+						trigger_else = { 
+							OR = {
+								has_graphical_india_region_trigger = yes
+								has_graphical_burma_region_trigger = yes
+							}
+						}
 					}
 				}
 			}
@@ -8505,6 +8569,22 @@ character_religion_interior = {
 	environment = { # FP1
 		trigger = { religion = religion:germanic_religion }
 		reference = "environment_event_fp1_tribal_temple"
+	}
+
+	########################################
+	# Taoist Temple Interior
+	########################################
+	texture = {# Dharma Taoist Temple
+		trigger = {
+			religion = religion:taoism_religion
+		}
+		reference = "interior/dharma_asian_temple.dds"
+	}
+	environment = {# Dharma Taoist Temple
+		trigger = { 
+			religion = religion:taoism_religion
+		}
+		reference = "environment_event_dharma_temple_china"
 	}
 	########################################
 	# Ganesha Temple Interior
@@ -9337,16 +9417,3 @@ character_private = {
 		reference = "environment_event_temple"
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

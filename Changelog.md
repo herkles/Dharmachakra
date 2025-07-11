@@ -29,6 +29,8 @@ This update expands the mod to the Middle East. It overhauls Zoroastrianism with
 - Haytal has the turkish heritage being that they are Turco-Hephthalites
 - made sure that dna for characters actually was there and not just for bookmarks.
 - Updated the various special building icons with different and some new icons.
+- Updated some background images for clergy
+- added Chand Baori as a special building in Rajasthan
 
 ## Manual Installation Steps
 
