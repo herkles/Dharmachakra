@@ -24,9 +24,10 @@ rajput = {# Renamed to Marwari
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_17
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 mewari = {# Mewari People
@@ -36,6 +37,7 @@ mewari = {# Mewari People
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_warrior_culture
@@ -53,7 +55,7 @@ mewari = {# Mewari People
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 dhundhari = {# Dhundhari People
@@ -64,6 +66,7 @@ dhundhari = {# Dhundhari People
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_warrior_culture
@@ -81,7 +84,7 @@ dhundhari = {# Dhundhari People
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 gujarati = {# Gujarati People
@@ -92,6 +95,7 @@ gujarati = {# Gujarati People
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_RICE_stepwells
@@ -109,7 +113,7 @@ gujarati = {# Gujarati People
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 malvi = {# Malvi People
@@ -120,6 +124,7 @@ malvi = {# Malvi People
 	language = language_rajasthani
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_fervent_temple_builders
@@ -136,7 +141,7 @@ malvi = {# Malvi People
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 # Bihari Cultures
@@ -147,6 +152,7 @@ bihari = {# Bhojpuri
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_music_theory	
@@ -163,7 +169,7 @@ bihari = {# Bhojpuri
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 magadhi = {# Magadhi
@@ -173,6 +179,7 @@ magadhi = {# Magadhi
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_music_theory			# Magadha was renowned for its bards, and many poets in the Pala court came from Magadha (originally Amorous Arts suggestion)
@@ -189,7 +196,7 @@ magadhi = {# Magadhi
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 maithili = {# Maithili
@@ -199,6 +206,7 @@ maithili = {# Maithili
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {	
 		tradition_agrarian
@@ -215,7 +223,7 @@ maithili = {# Maithili
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 # Maharastra Cultures		
@@ -226,6 +234,7 @@ marathi = {# Marathi People
 	language = language_marathi
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_hill_dwellers
@@ -242,7 +251,7 @@ marathi = {# Marathi People
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }	
 konkani = {# Konkani
@@ -252,6 +261,7 @@ konkani = {# Konkani
 	language = language_marathi
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_hill_dwellers
@@ -268,7 +278,7 @@ konkani = {# Konkani
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 # Northern Cultures
@@ -279,6 +289,7 @@ haryanvi = {# Haryanvi
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_agrarian
@@ -294,7 +305,7 @@ haryanvi = {# Haryanvi
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 awadhi = {# Awadhi renamed to Bagheli
@@ -304,6 +315,7 @@ awadhi = {# Awadhi renamed to Bagheli
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		
@@ -321,7 +333,7 @@ awadhi = {# Awadhi renamed to Bagheli
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 braj = {# braj
@@ -331,6 +343,7 @@ braj = {# braj
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_agrarian
@@ -348,7 +361,7 @@ braj = {# braj
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 kannauji = {# Kannauji
@@ -358,6 +371,7 @@ kannauji = {# Kannauji
 	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_agrarian
@@ -376,7 +390,7 @@ kannauji = {# Kannauji
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 hindustani_proper = {# Hindustani 
@@ -389,6 +403,7 @@ hindustani_proper = {# Hindustani
 	language = language_hindi
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		
@@ -407,7 +422,7 @@ hindustani_proper = {# Hindustani
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian		
+		100 = indian		
 	}
 }
 # Tribal Cultures			
@@ -419,6 +434,7 @@ bhil = {# bhil
 	language = language_bhil
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_mystical_ancestors
@@ -434,7 +450,7 @@ bhil = {# bhil
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 sambalpuri = {# Kolasi 
@@ -445,6 +461,7 @@ sambalpuri = {# Kolasi
 	language = language_chhattisgarhi
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_mystical_ancestors
@@ -461,7 +478,7 @@ sambalpuri = {# Kolasi
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 nagpuri = {# nagpuri
@@ -471,6 +488,7 @@ nagpuri = {# nagpuri
 	language = language_nagpuri
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {	
 		tradition_pastoralists
@@ -486,7 +504,7 @@ nagpuri = {# nagpuri
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 # Himilayan Cultures
@@ -498,6 +516,7 @@ nepali = {# Khasa People
 	language = language_khasa
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_himalayan_settlers
@@ -514,8 +533,7 @@ nepali = {# Khasa People
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		6 = indian
-		4 = asian
+		100 = asian_tibetan
 	}
 }			
 pahari = {# pahari
@@ -526,6 +544,7 @@ pahari = {# pahari
 	language = language_khasa
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		
@@ -542,7 +561,7 @@ pahari = {# pahari
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 newar = {# Newar People
@@ -553,6 +572,7 @@ newar = {# Newar People
 	language = language_newar
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_himalayan_settlers
@@ -569,8 +589,7 @@ newar = {# Newar People
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		6 = indian
-		4 = asian
+		100 = asian_tibetan
 	}
 }
 garwhali = {# Garwhali People
@@ -581,6 +600,7 @@ garwhali = {# Garwhali People
 	language = language_khasa
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_himalayan_settlers
@@ -597,8 +617,7 @@ garwhali = {# Garwhali People
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		6 = indian
-		4 = asian
+		100 = asian_tibetan
 	}
 }
 kuamoni = {#  Kuamoni
@@ -609,6 +628,7 @@ kuamoni = {#  Kuamoni
 	language = language_khasa
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_ancient_miners
@@ -625,8 +645,7 @@ kuamoni = {#  Kuamoni
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		6 = indian
-		4 = asian
+		100 = asian_tibetan
 	}
 }
 # Dardic Cultures
@@ -638,6 +657,7 @@ kashmiri = {# Kashmiri
 	language = language_kashmiri
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		
@@ -655,8 +675,8 @@ kashmiri = {# Kashmiri
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
-		1 = asian
+		91 = indian
+		9 = asian_tibetan
 	}
 }
 shina = {# Shina
@@ -666,6 +686,7 @@ shina = {# Shina
 	language = language_shina
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_himalayan_settlers
@@ -681,8 +702,8 @@ shina = {# Shina
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
-		1 = asian
+		91 = indian
+		9 = asian_tibetan
 	}
 }
 chitrali = {# Chitrali
@@ -692,6 +713,7 @@ chitrali = {# Chitrali
 	language = language_chitrali
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_himalayan_settlers
@@ -707,8 +729,8 @@ chitrali = {# Chitrali
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
-		1 = asian
+		91 = indian
+		9 = asian_tibetan
 	}
 }
 nuristani = {# Nuristani
@@ -719,6 +741,7 @@ nuristani = {# Nuristani
 	language = language_nuristani
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_himalayan_settlers
@@ -734,9 +757,9 @@ nuristani = {# Nuristani
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = arab
-		10 = indian
+		80 = indian
 		10 = mediterranean
+		10 = arab
 	}
 }
 gandhari = {# Gandhari
@@ -747,6 +770,7 @@ gandhari = {# Gandhari
 	language = language_kashmiri
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_philosopher_culture
@@ -763,9 +787,9 @@ gandhari = {# Gandhari
 	unit_gfx = { indian_unit_gfx }
 
 	ethnicities = {
-		5 = arab
-		10 = indian
-		5 = mediterranean_byzantine # mediterranean
+		80 = indian
+		10 = mediterranean
+		10 = arab
 	}
 }
 brokpa = {# Brokpa and others in Lakadh
@@ -776,6 +800,7 @@ brokpa = {# Brokpa and others in Lakadh
 	language = language_minaro
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_himalayan_settlers
@@ -791,9 +816,9 @@ brokpa = {# Brokpa and others in Lakadh
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = arab
-		10 = indian
+		80 = indian
 		10 = mediterranean
+		10 = arab
 	}
 }
 # Western Cultures
@@ -804,6 +829,7 @@ sindhi = {# Sindhi
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		
@@ -820,7 +846,7 @@ sindhi = {# Sindhi
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 punjabi = {# Renamed to Madraka
@@ -830,6 +856,7 @@ punjabi = {# Renamed to Madraka
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {	
 		tradition_khadga_puja
@@ -846,7 +873,7 @@ punjabi = {# Renamed to Madraka
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 multani = {# Multani
@@ -856,6 +883,7 @@ multani = {# Multani
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_caravaneers
@@ -872,7 +900,7 @@ multani = {# Multani
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 jat = { # Pastoralists of Lower Sindh ## credits to soraya
@@ -883,6 +911,7 @@ jat = { # Pastoralists of Lower Sindh ## credits to soraya
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_pastoralists # This was their main occupation in the first half of CK3's time period.
@@ -899,7 +928,7 @@ jat = { # Pastoralists of Lower Sindh ## credits to soraya
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 
 	}
 }
@@ -916,6 +945,7 @@ kaikani = { # Jat culture of Kaikan/ al-Qiqan
 	language = language_vrachada
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_mountain_homes
@@ -932,7 +962,7 @@ kaikani = { # Jat culture of Kaikan/ al-Qiqan
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 
 	}
 }
@@ -946,6 +976,7 @@ oriya = {# Oriya People
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_culinary_art
@@ -962,7 +993,7 @@ oriya = {# Oriya People
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 bengali = {# Renamed to Gaudiya to reflect what it was called in this era
@@ -972,6 +1003,7 @@ bengali = {# Renamed to Gaudiya to reflect what it was called in this era
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_philosopher_culture
@@ -989,7 +1021,7 @@ bengali = {# Renamed to Gaudiya to reflect what it was called in this era
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }	
 kamarupi = {# kamarupi
@@ -1000,6 +1032,7 @@ kamarupi = {# kamarupi
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		
@@ -1017,7 +1050,7 @@ kamarupi = {# kamarupi
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }
 # Southern Cultures
@@ -1029,6 +1062,7 @@ sinhala = {# Sinhala People
 	language = language_sinhalese
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
+	house_coa_frame = house_frame_17
 
 	traditions = {
 		tradition_religious_patronage
@@ -1045,6 +1079,6 @@ sinhala = {# Sinhala People
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		100 = indian
 	}
 }

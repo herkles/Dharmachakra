@@ -10,19 +10,32 @@
 	name_list = name_list_burmese
 	
 	coa_gfx = { burman_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { malay_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_18
 	
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_burman_royal_army
 		tradition_fervent_temple_builders
-		tradition_festivities
-		tradition_religion_blending
+		tradition_agrarian
+	}
+	
+	dlc_tradition = {
+		trait = tradition_tgp_hydraulic_builders
+		requires_dlc_flag = all_under_heaven
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_fortified_strongholds
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_castle_keepers
 	}
 
 	ethnicities = {
-		10 = southeast_asian_burmese_1
+		91 = asian_malay
+		9 = indian
 	}
 }
 mon = {# Mon
@@ -49,7 +62,67 @@ mon = {# Mon
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = southeast_asian_mon_1
+		91 = asian_malay
+		9 = indian
+	}
+}
+karen = {
+	color = { 0.1 0.4 0.2 }
+
+	ethos = ethos_communal
+	heritage = heritage_burman
+	language = language_burmese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_jungle_warriors
+		tradition_medicinal_plants
+		tradition_religion_blending
+	}
+
+	name_list = name_list_burmese
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_18
+
+	ethnicities = {
+		100 = asian_malay
+	}
+}
+kachin = {
+	color = { 0.15 0.3 0.5 }
+
+	ethos = ethos_communal
+	heritage = heritage_burman
+	language = language_burmese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_sacred_groves #Numshang
+		tradition_storytellers
+	}
+
+	dlc_tradition = {
+		trait = tradition_tgp_rice_cultivators
+		requires_dlc_flag = all_under_heaven
+		fallback = tradition_agrarian
+	}
+
+	name_list = name_list_burmese
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_18
+
+	ethnicities = {
+		100 = asian_malay
 	}
 }
 ############ New Dharmachakra cultures ############
@@ -79,8 +152,8 @@ rakhine = {# Rakhine
 	}
 
 	ethnicities = {
-		10 = southeast_asian_burmese_1
-		5 = indian
+		91 = asian_malay
+		9 = indian
 	}
 }
 pyu = {# Rakhine
@@ -107,7 +180,8 @@ pyu = {# Rakhine
 	}
 
 	ethnicities = {
-		10 = southeast_asian_burmese_1
+		91 = asian_malay
+		9 = indian
 	}
 }
 

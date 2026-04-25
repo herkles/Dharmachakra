@@ -21,11 +21,15 @@ bedouin = {
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
+
 levantine = {
 	color = { 0.3 0.95 0.3 }
 	created = 650.1.1
@@ -50,14 +54,20 @@ levantine = {
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
 
 	ethnicities = {
-		10 = arab
+		100 = arab
 	}
 }
+
 egyptian = {
 	color = { 0.1 0.6 0.1 }
-	
+	created = 640.1.1
+	parents = { bedouin copt }
+
 	ethos = ethos_spiritual
 	heritage = heritage_arabic
 	language = language_arabic
@@ -76,9 +86,15 @@ egyptian = {
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_10
+	house_coa_mask_offset = { 0.0 -0.06 }
+	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = arab
+		80 = arab
+		15 = mediterranean_byzantine
+		3 = mediterranean
+		2 = east_african
 	}
 }
 maghrebi = {
@@ -105,12 +121,16 @@ maghrebi = {
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_10
+	house_coa_mask_offset = { 0.0 -0.06 }
+	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		10 = arab
-		1 = african
+		91 = arab
+		9 = african
 	}
 }
+
 yemeni = {
 	color = { 0.2 0.6 0.2 }
 	
@@ -132,10 +152,13 @@ yemeni = {
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
 
 	ethnicities = {
-		10 = arab
-		6 = east_african
+		62 = arab
+		38 = east_african
 	}
 }
 
@@ -162,9 +185,13 @@ hadhrami = {
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 	
 
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
 	ethnicities = {
-		10 = arab
-		8 = east_african
+		62 = arab
+		38 = east_african
 	}
 }
 south_arabian = {
@@ -190,9 +217,13 @@ south_arabian = {
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 	
 
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
 	ethnicities = {
-		10 = arab
-		8 = east_african
+		62 = arab
+		38 = east_african
 	}
 }
 
@@ -222,11 +253,13 @@ siqilli = {
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 
+	house_coa_frame = house_frame_10
+	house_coa_mask_offset = { 0.0 -0.06 }
+	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
-		6 = arab
-		3 = mediterranean
-		1 = african
+		91 = arab
+		9 = african
 	}
 }
 
@@ -256,43 +289,14 @@ copt = {# pre-islamic egyptian
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 
-
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
 	ethnicities = {
-		7 = arab
-		2 = mediterranean
-		2 = mediterranean_byzantine
+		80 = arab
+		15 = mediterranean_byzantine
+		3 = mediterranean
 		2 = east_african
-		1 = african
 	}
 }
-egyptian = {# Islamic Egyptians
-	color = { 0.1 0.6 0.1 }
 
-	created = 640.1.1
-	parents = { bedouin copt }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_arabic
-	language = language_arabic
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-
-	traditions = {
-		tradition_philosopher_culture
-		tradition_agrarian
-		tradition_dryland_dwellers
-		tradition_zealous_people
-		tradition_mubarizuns
-	}
-	
-	name_list = name_list_egyptian
-
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 	
-
-	ethnicities = {
-		10 = arab
-	}
-}

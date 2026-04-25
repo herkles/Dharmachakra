@@ -4,20 +4,29 @@
 #Become Chakravarti
 #Become Lord/Lady of the Sacred River
 #Declare Bene Israel
+#Found the Empire of Hindustan
 ##
 
 
 ##########
 #Become Chakravarti
 # by Petter Vilberg
+### Become Chakravarti ###
 become_chakravarti_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+		reference = "gfx/interface/illustrations/decisions/hindu_ruler.dds"
 	}
 	decision_group_type = major
 	desc = become_chakravarti_decision_desc
 
-	ai_check_interval = 120
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
 
 	is_shown = {
 		OR = {
@@ -49,7 +58,7 @@ become_chakravarti_decision = {
 		is_landed = yes
 		is_adult = yes
 		is_available = yes
-		is_independent_ruler = yes
+		top_liege = this
 	}
 
 	cost = {
@@ -57,7 +66,22 @@ become_chakravarti_decision = {
 			value = massive_piety_value
 		}
 		gold = {
-			value = massive_gold_value
+			value = 0
+			if = {
+				limit = {
+					has_treasury = no
+				}
+				add = massive_gold_value
+			}
+		}
+		treasury = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = yes
+				}
+				add = massive_gold_value
+			}
 		}
 	}
 
@@ -125,12 +149,20 @@ become_chakravarti_decision = {
 ##########
 #Become Lord/Lady of the Sacred River
 # by Petter Vilberg
+### Take Stewardship of the Sacred River ###
 take_stewardship_of_the_sacred_river_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+		reference = "gfx/interface/illustrations/decisions/hindu_religious.dds"
 	}
 	decision_group_type = major
-	ai_check_interval = 120
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 120
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
 
 	desc = take_stewardship_of_the_sacred_river_decision_desc
 
@@ -138,6 +170,11 @@ take_stewardship_of_the_sacred_river_decision = {
 		religion = religion:hinduism_religion
 		highest_held_title_tier >= tier_duchy
 		NOT = { has_character_modifier = ruler_of_the_ganges_modifier }
+		#Only if the Hindu Mandala already has their capital in the area
+		trigger_if = {
+			limit = { government_has_flag = government_is_mandala }
+			capital_province = { geographical_region = custom_ganges_plain }
+		}
 	}
 
 	is_valid = {
@@ -159,11 +196,9 @@ take_stewardship_of_the_sacred_river_decision = {
 			custom_description = {
 				text = capital_province_in_ganges_region
 				NOR = {
-					AND = {
-						global_var:ruler_of_ganges = {
-							is_alive = yes
-							target_is_liege_or_above = root
-						}
+					global_var:ruler_of_ganges = {
+						is_alive = yes
+						target_is_liege_or_above = root
 					}
 					AND = {
 						global_var:ruler_of_ganges = { is_alive = yes }
@@ -179,7 +214,22 @@ take_stewardship_of_the_sacred_river_decision = {
 			value = major_prestige_value
 		}
 		gold = {
-			value = major_gold_value
+			value = 0
+			if = {
+				limit = {
+					has_treasury = no
+				}
+				add = major_gold_value
+			}
+		}
+		treasury = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = yes
+				}
+				add = major_gold_value
+			}
 		}
 	}
 
@@ -239,6 +289,7 @@ take_stewardship_of_the_sacred_river_decision = {
 ##########
 #Declare Bene Israel
 # by James Beaumont
+### Consolidate Bene Israel ###
 form_bene_israel_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_found_kingdom.dds"
@@ -248,7 +299,14 @@ form_bene_israel_decision = {
 	desc = form_bene_israel_decision_desc
 	selection_tooltip = form_bene_israel_decision_tooltip
 
-	ai_check_interval = 120
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 120
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
 
 	is_shown = {
 		is_ruler = yes
@@ -282,7 +340,7 @@ form_bene_israel_decision = {
 		is_landed = yes
 		is_adult = yes
 		is_available = yes
-		is_independent_ruler = yes
+		top_liege = this
 	}
 
 	cost = {
@@ -290,7 +348,22 @@ form_bene_israel_decision = {
 			value = medium_piety_value
 		}
 		gold = {
-			value = medium_gold_value
+			value = 0
+			if = {
+				limit = {
+					has_treasury = no
+				}
+				add = medium_gold_value
+			}
+		}
+		treasury = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = yes
+				}
+				add = medium_gold_value
+			}
 		}
 	}
 
@@ -311,7 +384,7 @@ form_bene_israel_decision = {
 		
 		every_player = {
 			limit = {
-				NOT = { this = scope:founder }
+				this != scope:founder
 				top_liege = {
 					OR = {
 						this = scope:founder
@@ -335,9 +408,10 @@ form_bene_israel_decision = {
 ##			in memory of RDH		##
 ######################################
 
+### Spread the [ROOT.Char.GetFaith.GetNameNoTooltip] Faith ###
 spread_theravada_faith_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+		reference = "gfx/interface/illustrations/decisions/hindu_religious.dds"
 	}
 	decision_group_type = major
 	title = spread_theravada_faith_decision
@@ -345,7 +419,14 @@ spread_theravada_faith_decision = {
 	confirm_text = spread_theravada_faith_decision_confirm # had to use an override for some reason
 	selection_tooltip = spread_theravada_faith_decision_tooltip # same here
 
-	ai_check_interval = 120
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 120
+		empire = 120
+		hegemony = 120
+	}
 	cooldown = { days = 365 }
 
 	is_shown = {
@@ -390,7 +471,22 @@ spread_theravada_faith_decision = {
 			value = major_piety_value
 		}
 		gold = {
-			value = medium_gold_value
+			value = 0
+			if = {
+				limit = {
+					has_treasury = no
+				}
+				add = medium_gold_value
+			}
+		}
+		treasury = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = yes
+				}
+				add = medium_gold_value
+			}
 		}
 		prestige = {
 			value = massive_prestige_value
@@ -419,13 +515,21 @@ spread_theravada_faith_decision = {
 ##			by Henrik Lohmander		##
 ######################################
 
+### Found the Empire of Hindustan ###
 found_the_empire_of_hindustan_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_sunder.dds"
 	}
 	decision_group_type = major
 
-	ai_check_interval = 12
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 12
+		empire = 12
+		hegemony = 0
+	}
 
 	is_shown = {
 		is_landed_or_landless_administrative = yes
@@ -505,6 +609,7 @@ found_the_empire_of_hindustan_decision = {
 		trigger_if = {
 			limit = {
 				is_ai = no
+				exists = faith.religious_head
 			}
 			OR = {
 				faith.religious_head = {	#And they have to actually like you enough to want to invest you.
@@ -529,11 +634,11 @@ found_the_empire_of_hindustan_decision = {
 			found_empire_of_hindustan_scripted_effect = yes
 		}
 		gain_heroic_legend_seed_tooltip_effect = yes
-		faith.religious_head = { save_scope_as = founder_hof }
 		if = {
 			limit = {
-				faith.religious_head = { is_playable_character = yes }
+				faith.religious_head ?= { is_playable_character = yes }
 			}
+			faith.religious_head = { save_scope_as = founder_hof }
 			faith.religious_head.capital_province = { save_scope_as = ceremony_locale }
 		}
 		else = {
@@ -561,8 +666,20 @@ found_the_empire_of_hindustan_decision = {
 
 	cost = {
 		gold = {
+			value = 0
 			if = {
 				limit = {
+					has_treasury = no
+					is_ai = no
+				}
+				add = 500
+			}
+		}
+		treasury = {
+			value = 0
+			if = {
+				limit = {
+					has_treasury = yes
 					is_ai = no
 				}
 				add = 500
@@ -579,4 +696,3 @@ found_the_empire_of_hindustan_decision = {
 		base = 100
 	}
 }
-
