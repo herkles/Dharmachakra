@@ -3,7 +3,9 @@ graphical_india = {
 	graphical = yes
 	color = { 0 255 0 }
 	regions = {
-		world_india
+		world_india world_tibet world_burma world_asia_southeast_islands
+		# Asia Southeast Mainland
+		world_asia_thailand world_asia_cambodia world_asia_malaysia
 	}
 }
 world_innovation_camels = {

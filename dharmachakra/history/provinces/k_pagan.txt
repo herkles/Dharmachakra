@@ -6,7 +6,7 @@
 	culture = burmese
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	867.1.1 = {
@@ -20,21 +20,22 @@
 	}
 }
 9551 = {	# 9551 - Popa
-	
+	#Note: Often mentioned as a place of worship, pilgrimage, and various religious festivals.
 	# Misc
 	culture = burmese
 	religion = ari
-	
 	holding = church_holding
-	
 	# History
+	special_building_slot = generic_university
+	1080.1.1 = { #Vat Phou
+		special_building = generic_university
+	}
 	1056.1.1 = {
 		religion = theravada
 	}
 
 }
-9552 = {	# 9552 - Nyaung_U / Nyaung U
-	
+9552 = {	# Nyaung_U / Nyaung U
 	# Misc
 	culture = burmese
 	religion = ari
@@ -97,7 +98,7 @@
 	culture = burmese
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	1056.1.1 = {
@@ -142,7 +143,7 @@
 	culture = pyu
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	873.1.1 = {
@@ -187,7 +188,7 @@
 	culture = pyu
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	882.1.1 = {
@@ -241,7 +242,7 @@
 	culture = burmese
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	1056.1.1 = {
@@ -287,7 +288,7 @@
 	culture = pyu
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	933.1.1 = {
@@ -306,7 +307,7 @@
 	culture = pyu
 	religion = ari
 
-	holding = castle_holding
+	holding = temple_citadel_holding
 	882.1.1 = {
 		culture = burmese
 	}
@@ -356,7 +357,7 @@
 	culture = pyu
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	1056.1.1 = {
@@ -373,7 +374,7 @@
 	culture = rakhine
 	religion = mahayana
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	920.1.1 = {
@@ -439,7 +440,7 @@
 	culture = rakhine
 	religion = mahayana
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	920.1.1 = {
@@ -466,7 +467,7 @@
 	culture = chakma
 	religion = theravada
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 
@@ -490,7 +491,7 @@
 	culture = rakhine
 	religion = mahayana
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	920.1.1 = {
@@ -528,7 +529,7 @@
 	culture = pyu
 	religion = theravada
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	1193.1.1 = {
@@ -572,7 +573,7 @@
 	culture = mon
 	religion = theravada
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	
@@ -596,7 +597,7 @@
 	culture = pyu
 	religion = mahayana
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	882.1.1 = {
@@ -644,7 +645,7 @@
 	culture = mon
 	religion = theravada
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 
@@ -669,7 +670,7 @@
 	culture = mon
 	religion = theravada
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	867.1.1 = {
@@ -773,7 +774,7 @@
 	culture = mon
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 
@@ -830,7 +831,7 @@
 	culture = mon
 	religion = theravada
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 
@@ -897,7 +898,7 @@
 	culture = mon
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 
@@ -938,7 +939,7 @@
 	culture = burmese
 	religion = ari
 	
-	holding = castle_holding
+	holding = temple_citadel_holding
 	
 	# History
 	1056.1.1 = {

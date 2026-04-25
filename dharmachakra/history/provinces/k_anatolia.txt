@@ -1,5 +1,5 @@
 ﻿
-# 736 - Lykandos c_lycandus
+# 736 - Lykandos
 736 = {	# 736 - Lykandos
 	
 	# Misc
@@ -12,7 +12,7 @@
 
 }
 
-# 754 - Sozopolis c_pisidia
+# 754 - Sozopolis
 754 = {	# 754 - Sozopolis
 	
 	# Misc

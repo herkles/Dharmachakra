@@ -85,7 +85,7 @@ fp3_decision.0001 = {
 
 		add_piety = massive_piety_loss
 
-		dynasty = { add_dynasty_prestige = medium_dynasty_prestige_value }
+		dynasty ?= { add_dynasty_prestige = medium_dynasty_prestige_value }
 
 		add_character_modifier = {
 			modifier = fp3_royal_fire_modifier 
@@ -732,7 +732,7 @@ fp3_decision.0014 = {
 			triggered_desc = {
 				trigger = { 
 					exists = root.faith.religious_head 
-					NOT = { this = root.faith.religious_head }
+					this != root.faith.religious_head
 				}
 				desc = fp3_decision.0014_there_is_caliph.desc
 			}
@@ -884,7 +884,7 @@ fp3_decision.0015 = {
 						has_trait = fp3_struggle_detractor
 					}
 					liege ?= {
-						NOT = { this = root }
+						this != root
 						OR = {
 							has_trait = fp3_struggle_supporter
 							has_trait = fp3_struggle_detractor
@@ -988,7 +988,7 @@ fp3_decision.0015 = {
 		## Do we have a suitable liege?
 		if = {
 			limit = {
-				is_independent_ruler = no
+				top_liege != this
 				liege = {
 					OR = {
 						has_trait = fp3_struggle_supporter
@@ -1002,7 +1002,7 @@ fp3_decision.0015 = {
 			title:d_sunni.holder = {
 				if = {
 					limit = {
-						NOT = { this = root.liege }
+						this != root.liege
 					}
 					save_scope_as = lower_centre_portrait
 				}
@@ -1013,7 +1013,7 @@ fp3_decision.0015 = {
 			title:d_sunni.holder = { save_scope_as = right_portrait }
 			# If we still have a liege, we put them in the bottom slot as they're mentioned in the copy — even though it's for not much caring.
 			if = {
-				limit = { is_independent_ruler = no }
+				limit = { top_liege != this }
 				liege = { save_scope_as = lower_centre_portrait }
 			}
 		}
