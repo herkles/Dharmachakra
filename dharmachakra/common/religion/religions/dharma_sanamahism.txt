@@ -6,6 +6,7 @@
 	pagan_roots = yes
 
 	#Main Group
+	doctrine = doctrine_polytheist
 	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_pluralistic
@@ -37,6 +38,8 @@
 	#Funeral tradition
 	doctrine = doctrine_funeral_cremation
 
+	#Coronation tradition
+	doctrine = doctrine_no_anointment
 
 	traits = {
 		virtues = { temperate content honest forgiving }

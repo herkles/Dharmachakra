@@ -1,4 +1,4 @@
-version="1.7.6"
+version="1.8.0"
 tags={
 	"Historical"
 	"Religion"
@@ -7,5 +7,5 @@ tags={
 }
 name="Dharmachakra"
 picture="thumbnail.png"
-supported_version="1.16.*"
+supported_version="1.19.*"
 path="mod/dharmachakra"
