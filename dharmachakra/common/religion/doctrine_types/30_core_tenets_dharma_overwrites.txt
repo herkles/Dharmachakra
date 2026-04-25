@@ -109,6 +109,7 @@
 
 	tenet_aniconism = {
 		icon = core_tenet_aniconism
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -157,6 +158,7 @@
 
 	tenet_alexandrian_catechism = {
 		icon = core_tenet_alexandrian_catechism
+
 		piety_cost = {
 			value = faith_tenet_cost_mid
 
@@ -170,7 +172,9 @@
 		name = {
 			first_valid = {
 				triggered_desc = {
-					trigger = {	religion_tag = christianity_religion }
+				trigger = {
+					religion_tag = christianity_religion
+				}
 					desc = tenet_alexandrian_catechism_name
 				}
 				desc = tenet_islamic_rationalism_name
@@ -180,7 +184,9 @@
 		desc = {
 			first_valid = {
 				triggered_desc = {
-					trigger = {	religion_tag = christianity_religion }
+				trigger = {
+					religion_tag = christianity_religion
+				}
 					desc = tenet_alexandrian_catechism_desc
 				}
 				desc = tenet_islamic_rationalism_desc
@@ -213,6 +219,7 @@
 
 	tenet_armed_pilgrimages = {
 		icon = core_tenet_armed_pilgrimages
+
 		piety_cost = {
 			if = {
 				limit = { religion_tag = christianity_religion }
@@ -257,6 +264,7 @@
 			ghw_no_hof_conversion_buffs_active = yes
 			pilgrimage_decision_active = yes
 		}
+
 		character_modifier = {
 			accolade_glory_gain_mult = 0.1
 		}
@@ -264,6 +272,7 @@
 
 	tenet_carnal_exaltation = {
 		icon = core_tenet_carnal_exaltation
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -312,6 +321,7 @@
 
 	tenet_communal_identity = {
 		icon = core_tenet_communal_identity
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -375,6 +385,7 @@
 
 	tenet_communion = {
 		icon = core_tenet_communion
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -401,6 +412,7 @@
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
+
 		can_pick = {
 			custom_description = {
 				text = doctrine_requires_head_of_faith_trigger
@@ -421,6 +433,7 @@
 			seek_indulgences_active_2 = yes
 			excommunication_active = yes
 		}
+
 		traits = {
 			virtues = { honest }
 			sins = { deceitful }
@@ -506,6 +519,7 @@
 
 	tenet_divine_marriage = {
 		icon = core_tenet_divine_marriage
+
 		name = {
 			first_valid = {
 				triggered_desc = {
@@ -517,6 +531,7 @@
 				desc = tenet_divine_marriage_name
 			}
 		}
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -540,7 +555,6 @@
 			}
 		}
 
-
 		can_pick = {
 			custom_description = {
 				text = doctrine_unrestricted_consanguinity_trigger
@@ -554,12 +568,16 @@
 		}
 
 		traits = {
-			virtues = { pure_blooded = 2 }
+		virtues = {
+			pure_blooded = 2
+			incestuous
+		}
 		}
 	}
 
 	tenet_gnosticism = {
 		icon = core_tenet_gnosticism
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -624,6 +642,7 @@
 
 	tenet_mendicant_preachers = {
 		icon = core_tenet_mendicant_preachers
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -669,6 +688,7 @@
 			pilgrimage_decision_active = yes
 			unlock_voluntary_laampdom_faith = yes
 		}
+
 		traits = {
 			virtues = { temperate }
 			sins = { gluttonous }
@@ -677,6 +697,7 @@
 
 	tenet_monasticism = {
 		icon = core_tenet_monasticism
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -719,6 +740,7 @@
 		parameters = {
 			take_vows_active = yes
 		}
+
 		traits = {
 			virtues = { temperate }
 			sins = { gluttonous }
@@ -727,6 +749,7 @@
 
 	tenet_pacifism = {
 		icon = core_tenet_pacifism
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -798,6 +821,7 @@
 
 	tenet_pentarchy = {
 		icon = core_tenet_pentarchy
+
 		name = {
 			first_valid = {
 				triggered_desc = {
@@ -847,6 +871,7 @@
 
 	tenet_unrelenting_faith = {
 		icon = core_tenet_unrelenting_faith
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -983,6 +1008,7 @@
 		is_shown = {
 			religion_tag = christianity_religion
 		}
+
 		can_pick = {
 			custom_description = {
 				text = doctrine_no_head_of_faith_trigger
@@ -1015,8 +1041,7 @@
 			opinion_of_different_faith_liege = 10
 		}
 
-		traits = {
-		}
+	traits = {}
 	}
 	
 	tenet_rite = {
@@ -1212,6 +1237,7 @@
 		}
 
 		icon = core_tenet_adaptive
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -1268,12 +1294,12 @@
 
 	tenet_esotericism = {
 		icon = core_tenet_esotericism
+
 		piety_cost = {
 			if = {
 				limit = {
-					OR = {
-						religion_tag = christianity_religion
-					}
+					religion_tag = christianity_religion
+
 				}
 				value = faith_tenet_cost_high
 			}
@@ -1336,6 +1362,7 @@
 
 	tenet_legalism = {
 		icon = core_tenet_legalism
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -1384,6 +1411,7 @@
 
 	tenet_literalism = {
 		icon = core_tenet_literalism
+
 			piety_cost = {
 			if = {
 				limit = {
@@ -1419,6 +1447,10 @@
 				scholar
 			}
 		}
+	
+		character_modifier = {
+			monthly_merit_mult = 0.1
+		}
 
 		parameters = {
 			literalist_debate_enabled = yes
@@ -1427,12 +1459,12 @@
 
 	tenet_reincarnation = {
 		icon = core_tenet_reincarnation
+
 		piety_cost = {
 			if = {
 				limit = {
-					OR = {
 						religion_tag = islam_religion
-					}
+
 				}
 				value = faith_tenet_cost_high
 			}
@@ -1500,6 +1532,7 @@
 
 	tenet_religious_legal_pronouncements = {
 		icon = core_tenet_legal_pronouncements
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -1534,6 +1567,10 @@
 
 		name = {
 			first_valid = {
+			triggered_desc = {
+				trigger = { this = faith:quranist }
+				desc = tenet_religious_legal_pronouncements_hisbah
+			}
 				triggered_desc = {
 					trigger = {
 						religion_tag = islam_religion
@@ -1558,6 +1595,7 @@
 
 	tenet_struggle_submission = {
 		icon = core_tenet_struggle_submission
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -1594,6 +1632,7 @@
 
 	tenet_false_conversion_sanction = {
 		icon = core_tenet_false_conversion_sanction
+
 		name = {
 			first_valid = {
 				triggered_desc = {
@@ -1626,9 +1665,8 @@
 			}
 			else_if = {
 				limit = {
-					OR = {
 						religion_tag = zoroastrianism_religion
-					}
+
 				}
 				value = faith_tenet_cost_low
 			}
@@ -1654,6 +1692,7 @@
 
 	tenet_tax_nonbelievers = {
 		icon = core_tenet_tax_nonbelievers
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -1718,6 +1757,7 @@
 
 	tenet_asceticism = {
 		icon = core_tenet_asceticism
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -1750,8 +1790,6 @@
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
-
-		
 
 		parameters = {
 			meditation_mechanics_active = yes
@@ -1795,6 +1833,8 @@
 	}
 
 	tenet_bhakti = {
+	icon = core_tenet_bhakti
+
 		name = {
 			first_valid = {
 				triggered_desc = {
@@ -1804,7 +1844,6 @@
 				desc = tenet_bhakti_patron_god_name
 			}
 		}
-		icon = core_tenet_bhakti
 
 		piety_cost = faith_tenet_cost_mid
 
@@ -1826,6 +1865,7 @@
 
 	tenet_dharmic_pacifism = { #Mix of reincarnation and pacifism rites
 		icon = core_tenet_dharmic_pacifism
+
 		is_shown = {
 			has_doctrine = eastern_hostility_doctrine
 			NOT = { religion_tag = zoroastrianism_religion }
@@ -1875,6 +1915,7 @@
 			holy_wars_forbidden = yes
 			pacifist_opinion_active = yes
 			opinion_of_pacifist_opinion_active = 10
+			hostility_same_religion = 1
 		}
 
 		traits = {
@@ -1919,6 +1960,7 @@
 
 	tenet_ritual_hospitality = {
 		icon = core_tenet_ritual_hospitality
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -1998,6 +2040,10 @@
 			OR = {
 			religion_tag = west_african_bori_religion
 				religion_tag = akom_religion
+			religion_tag = muism_religion
+			religion_tag = dab_qhuas_religion
+			religion_tag = shamanism_religion
+			has_doctrine = tenet_adorcism #If you already have it
 			}
 		}
 
@@ -2006,7 +2052,7 @@
 		}
 
 		traits = {
-			virtues = { possessed = 2 }
+		virtues = { possessed_1 = 2 possessed_genetic = 2 }
 		}
 	}
 
@@ -2041,6 +2087,7 @@
 
 	tenet_astrology = {
 		icon = core_tenet_astrology
+
 		name = { #FP3
 			first_valid = {
 				triggered_desc = {
@@ -2113,6 +2160,7 @@
 
 	tenet_hedonistic = {
 		icon = core_tenet_hedonistic
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -2135,9 +2183,8 @@
 			}
 			else_if = {
 				limit = {
-					OR = {
-						religion_tag = hinduism_religion
-					}
+					religion_tag = hinduism_religion
+
 				}
 				value = faith_tenet_cost_low
 			}
@@ -2169,6 +2216,7 @@
 
 		parameters = {
 			piety_from_feasts_active = yes
+			piety_from_festivals_active = yes
 		}
 
 		traits = {
@@ -2183,6 +2231,7 @@
 
 	tenet_human_sacrifice = {
 		icon = core_tenet_human_sacrifice
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -2270,7 +2319,10 @@
 		}
 
 		is_shown = {
+		OR = {
 			religion_tag = magyar_religion
+			has_doctrine = tenet_mystical_birthright #If you already have it
+		}
 		}
 
 		parameters = {
@@ -2314,6 +2366,7 @@
 
 		parameters = {
 			piety_from_feasts_active = yes
+		piety_from_festivals_active = yes
 			mandatory_feast_attendance = yes
 			allows_brewery = yes
 		}
@@ -2326,6 +2379,7 @@
 
 	tenet_sacred_childbirth = {
 		icon = core_tenet_sacred_childbirth
+
 		name = {
 			first_valid = {
 				triggered_desc = {
@@ -2369,17 +2423,15 @@
 		piety_cost = {
 			if = {
 				limit = {
-					OR = {
 						religion_tag = hinduism_religion
-					}
+
 				}
 				value = faith_tenet_cost_high
 			}
 			else_if = {
 				limit = {
-					OR = {
 						has_doctrine = pagan_hostility_doctrine
-					}
+
 				}
 				value = faith_tenet_cost_low
 			}
@@ -2406,12 +2458,16 @@
 
 		character_modifier = {
 			forest_advantage = 5
-			forest_attrition_mult = -0.25
+			forest_development_growth_factor = 0.1
+			forest_levy_size = 0.2
 			taiga_advantage = 5
-			taiga_attrition_mult = -0.25
+			taiga_development_growth_factor = 0.15
+			taiga_levy_size = 0.2
 			jungle_advantage = 5
-			jungle_attrition_mult = -0.25
-			build_gold_cost = 0.1
+			jungle_development_growth_factor = 0.3
+			jungle_levy_size = 0.2
+			holding_build_gold_cost = 0.25
+			holding_build_speed = 0.25
 			county_opinion_add = 5
 		}
 	}
@@ -2456,6 +2512,7 @@
 
 	tenet_warmonger = {
 		icon = core_tenet_warmonger
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -2514,6 +2571,8 @@
 	}
 
 	tenet_gruesome_festivals = {
+		icon = core_tenet_gruesome_festivals
+
 		name = {
 			first_valid = {
 				triggered_desc = {
@@ -2523,8 +2582,6 @@
 				desc = tenet_gruesome_festivals_name
 			}
 		}
-
-		icon = core_tenet_gruesome_festivals
 
 		piety_cost = {
 			# If you've already got human sacrifice, this is a nice and easy jump.
@@ -2717,8 +2774,6 @@
 			different_faith_county_opinion_mult = -0.1
 			levy_reinforcement_rate_same_faith = 0.25
 			faith_conversion_piety_cost_mult = -0.15
-			# TODO_CD_EP3: Uncomment when this no longer causes startup errors (TIT-53560)
-			# christianity_religion_opinion = -20
 		}
 
 		traits = {
@@ -2730,8 +2785,77 @@
 	# Syncretic Faith Tenets	#
 	#############################
 
+	tenet_sinitic_syncretism = {
+		icon = core_tenet_harmonious_society
+
+		piety_cost = {
+			if = {
+				limit = {
+					OR = {
+						religion_tag = buddhism_religion
+						has_doctrine = pagan_hostility_doctrine
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion_tag = islam_religion
+				}
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_sinitic_syncretism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			OR = {
+				has_doctrine = abrahamic_hostility_doctrine
+				has_doctrine = pagan_hostility_doctrine
+				has_doctrine = eastern_hostility_doctrine
+			}
+		}
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_gnosticism_trigger
+				NOT = {
+					doctrine:tenet_gnosticism = { is_in_list = selected_doctrines }
+				}
+			}
+			custom_description = {
+				text = incompatible_tenet_other_syncretism_trigger
+				NOR = {
+					doctrine:tenet_eastern_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_unreformed_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_christian_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_islamic_syncretism = { is_in_list = selected_doctrines }
+					doctrine:tenet_jewish_syncretism = { is_in_list = selected_doctrines }
+				}
+			}
+		}
+		parameters = {
+			hostility_override_sinitic_hostility_doctrine = 1
+			#For loc:
+			is_sinitic_faith_bilateral_loc_override = 1
+			sinitic_syncretic_actor_opinion_active = yes
+			opinion_of_sinitic_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+		}
+		traits = {
+			virtues = { honest }
+			sins = { wrathful }
+		}
+	}
+
 	tenet_eastern_syncretism = {
 		icon = core_tenet_eastern_syncretism
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -2763,6 +2887,7 @@
 			OR = {
 				has_doctrine = abrahamic_hostility_doctrine
 				has_doctrine = pagan_hostility_doctrine
+			has_doctrine = sinitic_hostility_doctrine
 			}
 		}
 		can_pick = {
@@ -2798,6 +2923,7 @@
 
 	tenet_unreformed_syncretism = {
 		icon = core_tenet_unreformed_syncretism 
+
 		piety_cost = {
 			if = {
 				limit = { doctrine:doctrine_pluralism_pluralistic = {is_in_list = selected_doctrines} }
@@ -2930,6 +3056,7 @@
 		is_shown = {
 			NOT = { religion_tag = islam_religion }
 		}
+
 		can_pick = {
 			custom_description = {
 				text = incompatible_tenet_other_syncretism_trigger
@@ -3039,9 +3166,8 @@
 			}
 			else_if = {
 				limit = {
-					OR = {
 						religion_tag = hinduism_religion
-					}
+
 				}
 				value = faith_tenet_cost_high
 			}
@@ -3065,6 +3191,7 @@
 		traits = {
 			virtues = {
 				sadistic
+				flagellant
 			}
 			sins = {
 				compassionate
@@ -3148,9 +3275,8 @@
 			}
 			else_if = {
 				limit = {
-					OR = {
 						religion_tag = judaism_religion
-					}
+
 				}
 				value = faith_tenet_cost_high
 			}
@@ -3241,9 +3367,8 @@
 		piety_cost = {
 			if = {
 				limit = {
-					OR = {
 						has_doctrine = pagan_hostility_doctrine
-					}
+
 				}
 				value = faith_tenet_cost_mid
 			}
@@ -3290,6 +3415,7 @@
 
 	tenet_polyamory = {
 		icon = core_tenet_polyamory
+
 		piety_cost = {
 			if = {
 				limit = {
@@ -3467,7 +3593,7 @@
 	}
 
 	#############################
-	# Empty Template Tenet 		#
+	# FP3 Tenets 		#        
 	#############################
 
 	tenet_fp3_fedayeen = {
@@ -3559,7 +3685,9 @@
 
 	tenet_communal_possessions = {
 		icon = core_tenet_communism
+
 		is_shown = {}
+
 		can_pick = {
 			always = yes
 		}
@@ -3603,4 +3731,604 @@
 			sins = { arrogant }
 		}
 	}
+	############################
+	# TGP Tenets				#
+	############################
+
+	tenet_pure_land = {
+		icon = core_tenet_pure_land
+
+		piety_cost = {
+			if = {
+				limit = {
+					religion_tag = buddhism_religion
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					has_doctrine = pagan_hostility_doctrine
+				}
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_pure_land }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		name = tenet_pure_land_name
+		
+		is_shown = {
+		}
+
+		parameters = {
+			sanctioned_false_conversion = yes
+			peasant_and_populist_factions_more_common = yes
+		}
+
+		character_modifier = {
+			different_faith_opinion = -10
+			stress_loss_per_prestige_level = -0.1
+			stress_loss_mult = 0.35
+		}
+
+		traits = {
+			sins = {
+				greedy
+			}
+		}
+	}
+
+	tenet_no_mind = { # Zen
+		icon = core_tenet_no_mind
+
+		piety_cost = {
+			if = {
+				limit = {
+					OR = {
+						religion_tag = buddhism_religion
+						religion_tag = taoism_religion
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					has_doctrine = pagan_hostility_doctrine
+				}
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+		}
+
+		name = tenet_no_mind_name
+		
+		is_shown = {
+		}
+
+		parameters = {
+			better_artifacts = yes
+			less_likely_to_become_infirm = yes
+		}
+
+		character_modifier = {
+			negate_prowess_penalty_add = 5
+			stress_gain_mult = -0.1
+		}
+	}
+
+	tenet_mountain_worship = {
+		icon = core_tenet_mountain_worship
+
+		piety_cost = {
+			if = {
+				limit = {
+					religion_tag = shintoism_religion
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					has_doctrine = pagan_hostility_doctrine
+				}
+				value = faith_tenet_cost_mid
+			}
+			else = {
+				value = faith_tenet_cost_high
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_mountain_worship }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		is_shown = {
+		}
+
+		parameters = {
+			mountain_trait_bonuses = yes
+			piety_from_hills_and_mountains_pilgrimages = yes
+		}
+
+		character_modifier = {
+			mountains_holding_construction_gold_cost = -0.35
+			desert_mountains_holding_construction_gold_cost = -0.35
+		}
+	}
+
+	tenet_extinction_of_dharma = {
+		icon = core_tenet_extinction_of_dharma
+
+		is_shown = {
+			religion_tag = buddhism_religion
+			has_tgp_dlc_trigger = yes
+		}
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_pacifism_trigger
+				NOT = { doctrine:tenet_pacifism = { is_in_list = selected_doctrines } }
+			}
+			custom_description = {
+				text = incompatible_tenet_dharmic_pacifism_trigger
+				NOT = { doctrine:tenet_dharmic_pacifism = { is_in_list = selected_doctrines } }
+			}
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					always = no
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_massive
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_extinction_of_dharma }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		parameters = {
+			hostility_same_religion = 3
+			destroying_artifacts_is_pious = yes
+			awaiting_the_maitreya_savior = yes
+			killing_buddhists_is_pious = yes
+		}
+
+		character_modifier = {
+			monthly_piety_gain_mult = -1
+		}
+	}
+
+	tenet_cranial_trophies = {
+		icon = core_tenet_cranial_trophies
+
+		is_shown = {
+			has_tgp_dlc_trigger = yes
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					always = no
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_massive
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_cranial_trophies }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		parameters = {
+			killing_bestows_heads = yes
+			decapitation_steals_prestige_as_piety = yes
+		}
+
+		character_modifier = {
+			jungle_advantage = 5
+			jungle_attrition_mult = -0.25
+			jungle_min_combat_roll = 1
+			monthly_piety_gain_per_dread_add = 0.01
+			prowess = 3
+		}
+	}
+
+	tenet_pursuit_of_knowledge = {
+		icon = core_tenet_pursuit_of_knowledge
+
+		is_shown = {
+			has_tgp_dlc_trigger = yes
+			religion = {
+				OR = {
+					this = religion:buddhism_religion
+					is_in_family = rf_sinitic
+				}
+			}
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					religion = religion:confucianism_religion
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion = {
+						is_in_family = rf_sinitic
+					}
+				}
+				value = faith_tenet_cost_mid
+			}
+			else_if = {
+				limit = {
+					religion = religion:buddhism_religion
+				}
+				value = faith_tenet_cost_mid
+			}
+			else = {
+				value = faith_tenet_cost_high
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_pursuit_of_knowledge }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		traits = {
+			virtues = {
+				education_learning_3
+				education_learning_4
+				education_learning_5
+				scholar
+				confucian_education
+			}
+		}
+
+		parameters = {
+			better_study_scheme = yes
+		}
+
+		character_modifier = {
+			monthly_learning_lifestyle_xp_gain_mult = 0.2
+		}
+	}
+
+	tenet_benevolent_governance = {
+		icon = core_tenet_benevolent_governance
+
+		is_shown = {
+			has_tgp_dlc_trigger = yes
+			religion = {
+				OR = {
+					this = religion:buddhism_religion
+					is_in_family = rf_sinitic
+				}
+			}
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					religion = religion:confucianism_religion
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion = {
+						is_in_family = rf_sinitic
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion = religion:buddhism_religion
+				}
+				value = faith_tenet_cost_mid
+			}
+			else = {
+				value = faith_tenet_cost_high
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_benevolent_governance }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		parameters = {
+			inspections_unlocked_and_costs_piety = yes
+			inspection_gives_devotion = yes
+		}
+
+		character_modifier = {
+			dread_gain_mult = -0.75
+		}
+
+		traits = {
+			virtues = { loyal }
+			sins = { disloyal }
+		}
+	}
+
+	tenet_filial_piety = {
+		icon = core_tenet_filial_piety 
+
+		is_shown = {
+			has_tgp_dlc_trigger = yes
+			religion = {
+				OR = {
+					this = religion:buddhism_religion
+					is_in_family = rf_sinitic
+				}
+			}
+		}
+
+		can_pick = {
+			always = yes
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					religion = religion:confucianism_religion
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion = {
+						is_in_family = rf_sinitic
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion = religion:buddhism_religion
+				}
+				value = faith_tenet_cost_mid
+			}
+			else = {
+				value = faith_tenet_cost_high
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_filial_piety }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		parameters = {
+			parents_get_hooks_on_children = yes
+			children_less_likely_to_be_burdened = yes
+		}
+
+		character_modifier = {
+			opinion_of_parents = 20
+		}
+	}
+
+	tenet_harmonious_society = {
+		icon = core_tenet_harmonious_society
+
+		is_shown = {
+			has_tgp_dlc_trigger = yes
+			religion = {
+				OR = {
+					this = religion:buddhism_religion
+					is_in_family = rf_sinitic
+				}
+			}
+		}
+
+		can_pick = {
+			always = yes
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					religion = religion:confucianism_religion
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion = {
+						is_in_family = rf_sinitic
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = {
+					religion = religion:buddhism_religion
+				}
+				value = faith_tenet_cost_mid
+			}
+			else = {
+				value = faith_tenet_cost_massive
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_harmonious_society }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		parameters = {
+			sway_scheme_better = yes
+			sway_scheme_piety = yes
+			more_often_zealots = yes
+		}
+		
+		traits = {
+			virtues = { temperate }
+			sins = { gluttonous }
+		}
+	}
+
+	tenet_sacred_destruction = {
+		icon = core_tenet_sacred_destruction
+
+		piety_cost = {
+			if = {
+				limit = { has_doctrine = tenet_warmonger }
+				value = faith_tenet_cost_mid
+			}
+			else = {
+				value = faith_tenet_cost_high
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_sacred_destruction }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			religion_tag = hinduism_religion
+		}
+
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_pacifism_trigger
+				NOT = { doctrine:tenet_pacifism = { is_in_list = selected_doctrines } }
+			}
+			custom_description = {
+				text = incompatible_tenet_dharmic_pacifism_trigger
+				NOT = { doctrine:tenet_dharmic_pacifism = { is_in_list = selected_doctrines } }
+			}
+			custom_description = {
+				text = incompatible_tenet_tenet_preservation_trigger
+				NOT = { doctrine:tenet_preservation = { is_in_list = selected_doctrines } }
+			}
+		}
+
+		character_modifier = {
+			prowess_per_piety_level = 1
+			maa_damage_mult = 0.1
+		}
+		
+		parameters = {
+			successful_sieges_give_piety = yes
+		}
+		
+		traits = {
+			virtues = { wrathful }
+		}
+	}
+
+	tenet_preservation = {
+		icon = core_tenet_preservation
+
+		piety_cost = {
+			if = {
+				limit = { has_doctrine = tenet_sanctity_of_nature }
+				value = faith_tenet_cost_massive
+			}
+			else = {
+				value = faith_tenet_cost_high
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_preservation }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			religion_tag = hinduism_religion
+		}
+
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_tenet_sacred_destruction_trigger
+				NOT = { doctrine:tenet_sacred_destruction = { is_in_list = selected_doctrines } }
+			}
+		}
+
+		character_modifier = {
+			church_holding_build_gold_cost = -0.15
+			church_holding_holding_build_speed = -0.15
+			temple_citadel_holding_build_gold_cost = -0.15
+			temple_citadel_holding_holding_build_speed = -0.15
+		}
+		
+		parameters = {
+			building_temples_gives_development = yes
+			monastic_schools_allowed_in_every_holding_type = yes
+		}
+		
+		traits = {
+			virtues = { architect }
+		}
+	}
+
+	tenet_takamin = {
+		icon = core_tenet_bear
+
+		is_shown = {
+			has_tgp_dlc_trigger = yes
+			has_doctrine = pagan_hostility_doctrine
+		}
+		can_pick = {}
+
+		piety_cost = {
+			value = faith_tenet_cost_high
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_takamin }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		character_modifier = {
+			taiga_travel_danger = taiga_high_danger_reduction
+		}
+		
+		parameters = {
+			frequent_bear_sightings = yes
+			efficient_hunt_cornering = yes
+			allows_bear_sacrifice = yes
+			chance_to_gain_prowess_during_bear_hunts = yes
+		}
+		
+		traits = {
+			virtues = { lifestyle_hunter }
+		}
+	}
 }
+

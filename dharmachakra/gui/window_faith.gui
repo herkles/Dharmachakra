@@ -1424,11 +1424,11 @@ types FaithWindow
 							name = "show_faith_info"
 							size = { 0 80 }
 							layoutpolicy_horizontal = expanding
-							tooltipwidget = { faith_tooltip_click = {} }
-							visible = "[Not( Faith.HasDoctrineByKey( 'unavailable_doctrine' ) )]"
-							onclick = "[PdxGuiTriggerAllAnimations('faith_view_refresh')]"
+							# tooltipwidget = { faith_tooltip_click = {} }
+							# visible = "[Not( Faith.HasDoctrineByKey( 'unavailable_doctrine' ) )]"
+							# onclick = "[PdxGuiTriggerAllAnimations('faith_view_refresh')]"
 
-							using = tooltip_es
+							# using = tooltip_es
 
 							state = {
 								name = _mouse_click

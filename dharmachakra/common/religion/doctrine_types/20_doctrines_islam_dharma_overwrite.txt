@@ -40,6 +40,8 @@
 		}
 	}	
 	muhammad_succession_muhakkima_doctrine = {
+	icon = "muhammad_succession_muhakkima_doctrine"
+
 		piety_cost = {
 			value = faith_doctrine_cost_low
 			if = {
@@ -54,6 +56,8 @@
 		}
 	}
 	muhammad_succession_zandaqa_doctrine = {
+	icon = "muhammad_succession_zandaqa_doctrine"
+
 		piety_cost = {
 			value = faith_doctrine_cost_low
 			if = {

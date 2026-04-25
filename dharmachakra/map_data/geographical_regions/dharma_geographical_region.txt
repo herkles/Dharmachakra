@@ -1,19 +1,19 @@
 ﻿# Geographical regions
-graphical_tibet = {
-	graphical = yes
-	color = { 0 255 0 }
-	regions = {
-		world_tibet
-	}
-}
+# graphical_tibet = {
+# 	graphical = yes
+# 	color = { 0 255 0 }
+# 	regions = {
+# 		world_tibet
+# 	}
+# }
 
-graphical_burma = {
-	graphical = yes
-	color = { 0 255 0 }
-	regions = {
-		world_burma
-	}
-}
+# graphical_burma = {
+# 	graphical = yes
+# 	color = { 0 255 0 }
+# 	regions = {
+# 		world_burma
+# 	}
+# }
 
 # Custom regions
 world_india_kashmir = {
