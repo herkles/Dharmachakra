@@ -852,7 +852,7 @@ me_quraysh_011 = {
 	religion = "ashari"
 	culture = "bedouin"
 	trait = quraysh
-	trait = poet
+	trait = lifestyle_poet
 
 	father = me_quraysh_012
 	600.1.1 = {
@@ -3607,7 +3607,7 @@ me_thaqafi_007 = {
 	trait = deceitful # Often used cunning and deception to win wars
 	trait = zealous # Curiously enough, The very same sources that cursed him and called him a disbeliever made great reference to the strength of his faith
 	trait = loyal # He was extremely loyal to al-Walid, who viewed him very favorably
-	trait = poet
+	trait = lifestyle_poet
 
 	father = me_thaqafi_008
 	mother = me_thaqafi_014
@@ -4159,7 +4159,7 @@ me_aghlabid_017 = { # Geneology taken from 'Tarikh al-Islam' by Shams ad-Din ath
 	culture = siqilli
 	trait = education_learning_3
 	trait = scholar
-	trait = poet
+	trait = lifestyle_poet
 
 	father = me_aghlabid_016
 	1041.1.1 = {
@@ -4178,7 +4178,7 @@ me_kinanah_001 = {
 	religion = "muwalladi"
 	culture = "andalusian"
 	trait = education_learning_4 # Faqih and Polymath
-	trait = poet
+	trait = lifestyle_poet
 	
 	father = me_kinanah_003
 	1017.1.1 = {
@@ -4869,7 +4869,7 @@ me_kinda_029 = {
 	dynasty = bedouin_kinda
 	culture = "bedouin"
 	religion = "arabic_pagan"
-	trait = poet
+	trait = lifestyle_poet
 
 	father = me_kinda_027
 	472.1.1 = {
@@ -4918,7 +4918,7 @@ me_kinda_032 = {
 	give_nickname = nick_imru_al_qays  # Imru' al-Qays, which means 'The Man of al-Qays'
 	culture = "bedouin"
 	religion = "arabic_pagan"
-	trait = poet
+	trait = lifestyle_poet
 	trait = smallpox
 	trait = vengeful
 
@@ -6447,7 +6447,7 @@ me_tayy_001 = {
 	religion = "nestorian" # Monophysite
 	trait = generous
 	trait = gregarious
-	trait = poet
+	trait = lifestyle_poet
 
 	father = me_tayy_007
 	530.1.1 = {
@@ -6484,7 +6484,7 @@ me_tayy_003 = {
 	religion = "ashari"
 	trait = zealous
 	trait = education_martial_3
-	trait = poet
+	trait = lifestyle_poet
 
 	father = me_tayy_001
 	572.1.1 = {
@@ -8766,7 +8766,7 @@ me_azdid_055 = {
 	religion = "ashari"
 	culture = "levantine"
 	trait = education_diplomacy_4
-	trait = poet
+	trait = lifestyle_poet
 	trait = drunkard
 
 	father = me_azdid_054

@@ -1,0 +1,81 @@
+﻿# Hinduism Doctrines
+is_hinduism_faith = {
+	category = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_hinduism_faith
+	}
+
+	doctrine_types = {
+		special_doctrine_is_hinduism_faith
+	}
+}
+dharma_vedic_sacrifice_doctrine = {
+	category = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
+	}
+
+	doctrine_types = {
+		special_doctrine_dharma_doctrine_vedic_sacrifice
+	}
+}
+doctrine_sampradaya = {
+	category = "main_group"
+
+	is_available_on_create = {
+		religion_tag = hinduism_religion
+	}
+
+	doctrine_types = {
+		sampradaya_vaishnavism_doctrine
+		sampradaya_shaivism_doctrine
+		sampradaya_shaktism_doctrine
+		sampradaya_smartism_doctrine
+		sampradaya_saurism_doctrine
+		sampradaya_ganapatism_doctrine
+		sampradaya_kaumaram_doctrine
+		sampradaya_shrautism_doctrine
+	}
+}
+# Buddhist Doctrines
+is_buddhist_faith = {
+	category = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_buddhist_faith
+	}
+
+	doctrine_types = {
+		special_doctrine_is_buddhist_faith
+	}
+}
+# Jainism Doctrines
+special_doctrine_is_jainism_faith = {
+	category = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_buddhist_faith
+	}
+
+	doctrine_types = {
+		special_doctrine_is_jainism_faith
+	}
+}
+# Zoroastrian Doctrines
+rice_doctrine_zoroastrian_yazatas = {
+	category = "main_group"
+
+	is_available_on_create = {
+        religion_tag = zoroastrianism_religion
+	}
+
+	doctrine_types = {
+		rice_zoroastrian_sassanian_doctrine
+		rice_zoroastrian_armenian_doctrine
+		rice_zoroastrian_georgian_doctrine
+		rice_zoroastrian_eastern_doctrine
+		rice_zoroastrian_no_yazatas_doctrine
+	}
+}

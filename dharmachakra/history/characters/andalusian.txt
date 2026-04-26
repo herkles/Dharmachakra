@@ -303,7 +303,7 @@
 	stewardship = 7
 	religion = muwalladi
 	culture = andalusian
-	trait = poet
+	trait = lifestyle_poet
 	trait = education_stewardship_3
 	sexuality = homosexual
 
@@ -6096,7 +6096,7 @@ surunbaqi0001 = {
 	female = yes
 	religion = muwalladi
 	culture = andalusian
-	trait = poet
+	trait = lifestyle_poet
 	trait = education_stewardship_3
 
 	1045.1.1 = {
@@ -6678,7 +6678,7 @@ andalusian_0004 = { # Ibn Zaydun
 	father = andalusian_0005
 
 	trait = education_diplomacy_5
-	trait = poet
+	trait = lifestyle_poet
 	trait = depressed_1
 	trait = intellect_good_2
 	trait = lifestyle_traveler

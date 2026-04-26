@@ -831,6 +831,7 @@ yearly_global_pulse = {
 	
 	on_actions = {
 		inspiration_maintenance_global_pulse
+		natural_disaster_maintenance_global_pulse
 	}
 }
 
@@ -944,6 +945,19 @@ yearly_playable_pulse = {
 					is_knight = yes
 				}
 				knight_increase_prowess_chance_effect = yes
+			}
+		}
+		# Independent rulers
+		if = {
+			limit = {
+				this = top_liege
+			}
+			# Treasury update for governments with a treasury
+			if = {
+				limit = {
+					has_treasury = yes
+				}
+				trigger_event = tgp_china_ministry.0100
 			}
 		}
 		# Assign or level up court type trait for courtiers in a royal court
@@ -1102,6 +1116,7 @@ yearly_playable_pulse = {
 					limit = { is_ai = yes }
 					is_available = yes
 				}
+				NOT = { has_government = celestial_government }
 			}
 			random = {
 				chance = {

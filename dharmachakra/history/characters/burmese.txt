@@ -1036,3 +1036,25 @@ arakan007 = {# Sritaingchandra
 		death = yes
 	}
 }
+upali_1 = { # Landless Scholar/Monk adventurer
+	name = "Upali"
+	dynasty = hchar_upali
+	religion = theravada
+	culture = mon
+	trait = education_learning_2
+	trait = physique_good_1
+	trait = brave
+	trait = patient
+	trait = humble
+	trait = devoted
+	835.1.1 = {
+		birth = yes
+		effect = {
+			set_culture = culture:burmese
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	903.1.1 = {
+		death = yes
+	}
+}

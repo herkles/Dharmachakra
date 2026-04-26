@@ -939,7 +939,7 @@ me_hamdis_01 = {
 	give_nickname = nick_me_ibn_hamdis # Ibn Hamdis*
 	religion = "ashari"
 	culture = siqilli
-	trait = poet
+	trait = lifestyle_poet
 
 	father = me_hamdis_02 
 	1055.1.1 = {
@@ -1001,7 +1001,7 @@ me_balnubi_01 = {
 	give_nickname = nick_me_al_balnubi # al-Balnubi
 	religion = "ismaili" ## I'm assuming he's a Shi'ite because his name is Ali and his son's name is al-Hasan, he also lived most of his life in Fatimid egypt.
 	culture = siqilli
-	trait = poet
+	trait = lifestyle_poet
 
 	father = me_balnubi_03
 	1030.1.1 = {

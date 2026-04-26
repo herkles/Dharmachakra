@@ -1,41 +1,40 @@
-﻿	special_doctrine_is_hinduism_faith = {
-		parameters = {
-			reincarnation_resistance_to_conversion = yes
-			reincarnation_events_active = yes
-			select_personal_god_active = yes
-		}
+﻿special_doctrine_is_hinduism_faith = {
+	parameters = {
+		reincarnation_resistance_to_conversion = yes
+		reincarnation_events_active = yes
+		select_personal_god_active = yes
 	}
-
-	special_doctrine_is_jainism_faith = {
-		parameters = {
-			take_vows_active = yes
-			reincarnation_events_active = yes
-		}
+}
+special_doctrine_is_jainism_faith = {
+	parameters = {
+		take_vows_active = yes
+		reincarnation_events_active = yes
 	}
-	special_doctrine_is_buddhist_faith = {
-		parameters = {
-			take_vows_active = yes
-			reincarnation_events_active = yes
-		}
+}
+special_doctrine_is_buddhist_faith = {
+	parameters = {
+		take_vows_active = yes
+		reincarnation_events_active = yes
 	}
-	cultural_religion = {
-		visible = no
-		parameters = {
-			other_culture_conversion_penalty_active = yes
-		}
+}
+cultural_religion = {
+	visible = no
+	parameters = {
+		other_culture_conversion_penalty_active = yes
 	}
-	tribal_religion = {
-		visible = no
-		parameters = {
-			other_culture_conversion_penalty_active = yes
-			tenet_adaptive_conversion_resistance = yes
-		}
+}
+tribal_religion = {
+	visible = no
+	parameters = {
+		other_culture_conversion_penalty_active = yes
+		tenet_adaptive_conversion_resistance = yes
 	}
-	special_doctrine_dharma_doctrine_vedic_sacrifice = {
-		parameters = {
-			dharma_parameter_unlock_vedic_sacrifice = yes
-		}
+}
+special_doctrine_dharma_doctrine_vedic_sacrifice = {
+	parameters = {
+		dharma_parameter_unlock_vedic_sacrifice = yes
 	}
+}
 
 unavailable_doctrine = {
 	visible = no

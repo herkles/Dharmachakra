@@ -128,123 +128,123 @@ restore_badd_fortress_decision = { #This allows a ruler with a Zandik or Chthoni
 }
 
 ### Reform the [ROOT.Char.GetFaith.random_AltPriestTermPlural] ###
-destroy_the_magi_decision = { #This allows a ruler with sufficient piety and control of holy sites to reform the Zoroastrian priesthood's hierarchy. 
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_strength.dds"
-	}
-	title = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					AND = {
-						religion = religion:zoroastrianism_religion
-						OR = {
-							has_faith = faith:mazdakism
-							has_faith = faith:zurvanism 
-						}
-					}
-				}
-				desc = destroy_the_magi_decision_alternate 
-			}
-			desc = destroy_the_magi_decision
-		}
-	}
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					AND = {
-						religion = religion:zoroastrianism_religion
-						OR = {
-							has_faith = faith:mazdakism
-							has_faith = faith:zurvanism 
-						}
-					}
-				}
-				desc = destroy_the_magi_decision_alternate_desc
-			}
-			desc = destroy_the_magi_decision_desc
-		}
-	}
+# destroy_the_magi_decision = { #This allows a ruler with sufficient piety and control of holy sites to reform the Zoroastrian priesthood's hierarchy. 
+# 	picture = {
+# 		reference = "gfx/interface/illustrations/decisions/fp3/fp3_decision_strength.dds"
+# 	}
+# 	title = {
+# 		first_valid = {
+# 			triggered_desc = {
+# 				trigger = {
+# 					AND = {
+# 						religion = religion:zoroastrianism_religion
+# 						OR = {
+# 							has_faith = faith:mazdakism
+# 							has_faith = faith:zurvanism 
+# 						}
+# 					}
+# 				}
+# 				desc = destroy_the_magi_decision_alternate 
+# 			}
+# 			desc = destroy_the_magi_decision
+# 		}
+# 	}
+# 	desc = {
+# 		first_valid = {
+# 			triggered_desc = {
+# 				trigger = {
+# 					AND = {
+# 						religion = religion:zoroastrianism_religion
+# 						OR = {
+# 							has_faith = faith:mazdakism
+# 							has_faith = faith:zurvanism 
+# 						}
+# 					}
+# 				}
+# 				desc = destroy_the_magi_decision_alternate_desc
+# 			}
+# 			desc = destroy_the_magi_decision_desc
+# 		}
+# 	}
 	
-	selection_tooltip = destroy_the_magi_decision_tooltip
-	decision_group_type = major
-	sort_order = 70
-	ai_check_interval = 0
+# 	selection_tooltip = destroy_the_magi_decision_tooltip
+# 	decision_group_type = major
+# 	sort_order = 70
+# 	ai_check_interval = 0
 
-	is_shown = { #this is a decision for religious underdogs that have risen to prominence
-		faith = { 
-			AND = {
-				has_doctrine = doctrine_heretic_branch_zandik 
-				has_doctrine = doctrine_theocracy_temporal #you need to still have this doctrine for it to work 
-				has_doctrine = doctrine_spiritual_head #you need to still have this doctrine for it to work 
-			}
-		}
+# 	is_shown = { #this is a decision for religious underdogs that have risen to prominence
+# 		faith = { 
+# 			AND = {
+# 				has_doctrine = doctrine_heretic_branch_zandik 
+# 				has_doctrine = doctrine_theocracy_temporal #you need to still have this doctrine for it to work 
+# 				has_doctrine = doctrine_spiritual_head #you need to still have this doctrine for it to work 
+# 			}
+# 		}
 
-		NOT = { exists = root.faith.religious_head } #if you have restored the Zoroastrian priesthood, you wouldn't wanna destroy it 
+# 		NOT = { exists = root.faith.religious_head } #if you have restored the Zoroastrian priesthood, you wouldn't wanna destroy it 
 
-		is_ai = no #we don't want the AI to complicate things here 
-		is_playable_character = yes 
-		exists = dynasty #just for sanity 
+# 		is_ai = no #we don't want the AI to complicate things here 
+# 		is_playable_character = yes 
+# 		exists = dynasty #just for sanity 
 
-		#Not repeatable.
-		NOT = {
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:destroyed_the_magi #so it can't happen twice
-			}
-		}
-	}
+# 		#Not repeatable.
+# 		NOT = {
+# 			is_target_in_global_variable_list = {
+# 				name = unavailable_unique_decisions
+# 				target = flag:destroyed_the_magi #so it can't happen twice
+# 			}
+# 		}
+# 	}
 
-	is_valid = {
+# 	is_valid = {
 		
-		piety_level >= high_piety_level
+# 		piety_level >= high_piety_level
 		
-		faith = { has_doctrine = doctrine_heretic_branch_zandik }
+# 		faith = { has_doctrine = doctrine_heretic_branch_zandik }
 		
-		custom_description = {
-			text = "restore_high_priesthood_holy_sites"
-			faith = {
-				any_holy_site = {
-					OR = {
-						county.holder = root
-						county.holder.top_liege = { this = root }
-					}
-					count >= 3
-				}
-			}
-		}
-	}
+# 		custom_description = {
+# 			text = "restore_high_priesthood_holy_sites"
+# 			faith = {
+# 				any_holy_site = {
+# 					OR = {
+# 						county.holder = root
+# 						county.holder.top_liege = { this = root }
+# 					}
+# 					count >= 3
+# 				}
+# 			}
+# 		}
+# 	}
 
-	is_valid_showing_failures_only = {
-		is_landed = yes
-		is_capable_adult = yes
-		is_imprisoned = no
-		top_liege = this
-		is_at_war = no
-	}
+# 	is_valid_showing_failures_only = {
+# 		is_landed = yes
+# 		is_capable_adult = yes
+# 		is_imprisoned = no
+# 		top_liege = this
+# 		is_at_war = no
+# 	}
 
-	effect = {
-		show_as_tooltip = { destroy_the_magi_scripted_effect = yes }
-		trigger_event = fp3_decision.0004
+# 	effect = {
+# 		show_as_tooltip = { destroy_the_magi_scripted_effect = yes }
+# 		trigger_event = fp3_decision.0004
 	
 
-		hidden_effect = {
-			add_to_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:destroyed_the_magi 
-			}
-		}
-	}
+# 		hidden_effect = {
+# 			add_to_global_variable_list = {
+# 				name = unavailable_unique_decisions
+# 				target = flag:destroyed_the_magi 
+# 			}
+# 		}
+# 	}
 
-	cost = {
-		piety = 1000
-	}
+# 	cost = {
+# 		piety = 1000
+# 	}
 
-	ai_will_do = {
-		base = 0
-	}
-}
+# 	ai_will_do = {
+# 		base = 0
+# 	}
+# }
 
 ### Kindle Royal Fire ###
 kindle_royal_fire_decision = {

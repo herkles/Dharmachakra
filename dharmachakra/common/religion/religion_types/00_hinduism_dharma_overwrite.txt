@@ -1,5 +1,5 @@
 ﻿hinduism_religion = {
-	family = rf_eastern
+	family = rf_eastern #Dharmic
 	graphical_faith = dharmic_gfx
 	doctrine = eastern_hostility_doctrine
 
@@ -254,11 +254,13 @@
 			holy_site = kanchipuram
 			holy_site = ujjayini
 			holy_site = dwarka
-
+			
+			# Tenets
 			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_monasticism
 			doctrine = tenet_esotericism
-
+			
+			# Doctrines
 			doctrine = sampradaya_vaishnavism_doctrine
 
 			localization = {
@@ -668,7 +670,7 @@
 				}
 			}		
 		}
-		# Smartism faiths
+		# Smartism faithS
 		smartism = {
 			color = { 255 0 0 }
 			icon = smartism
