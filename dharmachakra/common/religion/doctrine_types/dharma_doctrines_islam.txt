@@ -1,0 +1,28 @@
+﻿special_doctrine_is_sunni_heresy = {
+	parameters = {
+		hostility_override_muhammad_succession_sunni_doctrine = 1
+		hostility_override_special_doctrine_is_sunni_heresy = 1
+	}
+}
+special_doctrine_is_ibadi_faith = {
+	parameters = {
+		hostility_override_special_doctrine_is_ibadi_faith = 0
+	}
+}
+special_doctrine_is_alb_faith = {
+	parameters = {
+		hostility_override_special_doctrine_is_islamic_faith = 0
+		hostility_override_tenet_islamic_syncretism = 2
+	}
+}
+#Musta'li Schism doctrines
+special_doctrine_mustali_main = {
+	parameters = {
+		hostility_override_special_doctrine_mustali_schismed_sect = 0
+	}
+}
+special_doctrine_mustali_schismed_sect = {
+	parameters = {
+		hostility_override_special_doctrine_mustali_main = 0
+	}
+}

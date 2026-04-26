@@ -1,23 +1,9 @@
-﻿is_hinduism_faith = {# Teaching of the Vedas
-	group = "special"
-	
-	is_available_on_create = {
-		has_doctrine = special_doctrine_is_hinduism_faith
-	}
-
-	special_doctrine_is_hinduism_faith = {
+﻿	special_doctrine_is_hinduism_faith = {
 		parameters = {
 			reincarnation_resistance_to_conversion = yes
 			reincarnation_events_active = yes
 			select_personal_god_active = yes
 		}
-	}
-}
-is_jainism_faith = {# Teaching of Mahavira
-	group = "special"
-	
-	is_available_on_create = {
-		has_doctrine = special_doctrine_is_jainism_faith
 	}
 
 	special_doctrine_is_jainism_faith = {
@@ -26,37 +12,17 @@ is_jainism_faith = {# Teaching of Mahavira
 			reincarnation_events_active = yes
 		}
 	}
-}
-is_buddhist_faith = {# Teaching of Gautama Buddha
-	group = "special"
-	
-	is_available_on_create = {
-		has_doctrine = special_doctrine_is_buddhist_faith
-	}
-
 	special_doctrine_is_buddhist_faith = {
 		parameters = {
 			take_vows_active = yes
 			reincarnation_events_active = yes
 		}
 	}
-}
-doctrine_cultural_religion = {# Cultural Religion 
-	group = "special"
-	is_available_on_create = {
-		has_doctrine = cultural_religion
-	}
 	cultural_religion = {
 		visible = no
 		parameters = {
 			other_culture_conversion_penalty_active = yes
 		}
-	}
-}
-doctrine_tribal_religion = {# Tribal Religion
-	group = "special"
-	is_available_on_create = {
-		has_doctrine = tribal_religion
 	}
 	tribal_religion = {
 		visible = no
@@ -65,96 +31,14 @@ doctrine_tribal_religion = {# Tribal Religion
 			tenet_adaptive_conversion_resistance = yes
 		}
 	}
-}
-dharma_doctrine_vedic_sacrifice = {# Vedic Animal Sacrifice
-	group = "special"
-	
-	is_available_on_create = {
-		has_doctrine = special_doctrine_dharma_doctrine_vedic_sacrifice
-	}
-
 	special_doctrine_dharma_doctrine_vedic_sacrifice = {
 		parameters = {
 			dharma_parameter_unlock_vedic_sacrifice = yes
 		}
 	}
-}
-unavailable = {
-	group = "special"
-	is_available_on_create = { always = no }
-	unavailable_doctrine = { visible = no }
-}
-is_sunni_heresy = {# Sunni Heresy for Muzta'lite to reflect their heretical relationship
-	group = "special"
-	
-	is_available_on_create = {
-		AND = { # Must be Zandaqa or else it wouldn't make sense
-			has_doctrine = special_doctrine_is_sunni_heresy
-			has_doctrine = muhammad_succession_zandaqa_doctrine
-		}
-	}
-	special_doctrine_is_sunni_heresy = {
-		parameters = {
-			hostility_override_muhammad_succession_sunni_doctrine = 1
-			hostility_override_special_doctrine_is_sunni_heresy = 1
-		}
-	}
-}
-is_ibadi_faith = {# Ibadi faith hostility
-	group = "special"
-	
-	is_available_on_create = {
-		AND = { # Must be Muhakkima or else it wouldn't make sense
-			has_doctrine = special_doctrine_is_ibadi_faith
-			has_doctrine = muhammad_succession_muhakkima_doctrine
-		}
-	}
 
-	special_doctrine_is_ibadi_faith = {
-		parameters = {
-			hostility_override_special_doctrine_is_ibadi_faith = 0
-		}
-	}
+unavailable_doctrine = {
+	visible = no
 }
-is_alb_faith = {
-	group = "special"
-	
-	is_available_on_create = {
-		has_doctrine = special_doctrine_is_alb_faith
-	}
 
-	special_doctrine_is_alb_faith = {
-		parameters = {
-			hostility_override_special_doctrine_is_islamic_faith = 0
-			hostility_override_tenet_islamic_syncretism = 2
-		}
-	}
-}
-#Musta'li Schism doctrines
-mustali_main = { # Added to Isma'ilism to give schism effects
-	group = "special"
-	
-	is_available_on_create = {
-		always = no
-	}
-
-	special_doctrine_mustali_main = {
-		parameters = {
-			hostility_override_special_doctrine_mustali_schismed_sect = 0
-		}
-	}
-}
-mustali_schismed_sect = { # Added to Isma'ili sects to give schism effects
-	group = "special"
-	
-	is_available_on_create = {
-		always = no # For now
-	}
-
-	special_doctrine_mustali_schismed_sect = {
-		parameters = {
-			hostility_override_special_doctrine_mustali_main = 0
-		}
-	}
-}
 

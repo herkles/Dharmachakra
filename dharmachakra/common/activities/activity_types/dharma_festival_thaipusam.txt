@@ -260,8 +260,6 @@
 
 	ai_check_interval = 60
 
-	ai_check_interval = 60
-
 	ai_will_select_province = {
 		value = 10
 		if = {

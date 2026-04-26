@@ -553,7 +553,7 @@
 			doctrine = tenet_religious_legal_pronouncements
 			doctrine = tenet_dhammavicaya	
 		}
-	pundarika = {
+		pundarika = {
 			color = { 255 115 30 }
 			icon = tiantai
 
@@ -582,7 +582,6 @@
 			# Special
 			doctrine = special_doctrine_immaterial_harmony
 		}
-
 		mantrayana = {
 			color = { 255 25 5 }
 			icon = mantrayana
@@ -612,7 +611,6 @@
 			# Special
 			doctrine = special_doctrine_immaterial_harmony
 		}
-
 		dhyana = {
 			color = { 170 37 28 }
 			icon = dhyana
@@ -639,7 +637,6 @@
 			# Special
 			doctrine = special_doctrine_immaterial_harmony
 		}
-
 		sukhavati = {
 			color = { 139 64 21 }
 			icon = sukhavati
@@ -818,7 +815,5 @@
 			# Special
 			doctrine = special_doctrine_immaterial_harmony
 		}
-
-
 	}
 }
