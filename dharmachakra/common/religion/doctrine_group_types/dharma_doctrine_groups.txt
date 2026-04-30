@@ -10,7 +10,7 @@ is_hinduism_faith = {
 		special_doctrine_is_hinduism_faith
 	}
 }
-dharma_vedic_sacrifice_doctrine = {
+dharma_doctrine_vedic_sacrifice = {
 	category = "special"
 	
 	is_available_on_create = {
