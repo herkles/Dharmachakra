@@ -51,6 +51,17 @@ is_buddhist_faith = {
 		special_doctrine_is_buddhist_faith
 	}
 }
+is_buddhist_influenced = {
+	category = "special"
+	
+	is_available_on_create = {
+		has_doctrine = special_doctrine_is_buddhist_influenced
+	}
+
+	doctrine_types = {
+		special_doctrine_is_buddhist_influenced
+	}
+}
 # Jainism Doctrines
 special_doctrine_is_jainism_faith = {
 	category = "special"

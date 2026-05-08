@@ -1,5 +1,5 @@
 ﻿burmic_religion = { # Folk religions of Burmese peoples
-	family = rf_eastern
+	family = rf_pagan
 	doctrine = eastern_hostility_doctrine
 	graphical_faith = dharmic_gfx
 

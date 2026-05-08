@@ -1,24 +1,58 @@
 ﻿l_english:
 ####### NEW TENETS #######
- tenet_dhammavicaya_name:0 "Dhamma Vicaya"
- tenet_dhammavicaya_desc:0 "This concept implies applying discernment to body-mind phenomena in order to apply right effort, giving way to entry into the first jhana. Through analysis, debate, and meditation we can better understand the path to enlightenment."
+  tenet_dhammavicaya_name: "Dhamma Vicaya"
+  tenet_dhammavicaya_desc: "This concept implies applying discernment to body-mind phenomena in order to apply right effort, giving way to entry into the first jhana. Through analysis, debate, and meditation we can better understand the path to enlightenment."
 
- tenet_iranian_syncretism_name:0 "Iranian Syncretism"
- tenet_iranian_syncretism_desc:0 "There is something to be said of the wisdom of the various Iranian prophets like Zoraster and Mani. Their wisdom and teachings are wise and just and maybe it would be good to heed some of their teachings.."
- doctrine_parameter_hostility_override_iranian_hostility_doctrine:1 "Iranian [faiths|E] are considered only [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
- #Instead, add these doctrine parameters to appropriate tenets (presently Iranian Syncretism).
+  tenet_iranian_syncretism_name: "Iranian Syncretism"
+  tenet_iranian_syncretism_desc: "There is something to be said of the wisdom of the various Iranian prophets like Zoraster and Mani. Their wisdom and teachings are wise and just and maybe it would be good to heed some of their teachings.."
+  doctrine_parameter_hostility_override_iranian_hostility_doctrine: "Iranian [faiths|E] are considered only [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+  #Instead, add these doctrine parameters to appropriate tenets (presently Iranian Syncretism).
 
- doctrine_parameter_is_iranian_faith_bilateral_loc_override:0 "Considers Iranian [faiths|E], and is considered by Iranian $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
- doctrine_parameter_hostility_override_special_doctrine_is_iranian_faith:0 "Considers iranian [faiths|E], and is considered by Iranian $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+  doctrine_parameter_is_iranian_faith_bilateral_loc_override: "Considers Iranian [faiths|E], and is considered by Iranian $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+  doctrine_parameter_hostility_override_special_doctrine_is_iranian_faith: "Considers iranian [faiths|E], and is considered by Iranian $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
 
- doctrine_parameter_iranian_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Iranian [faiths|E]"
- doctrine_parameter_iranian_syncretic_recipient_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_iranian_syncretism_name$ [core_tenet|E]"
- doctrine_parameter_opinion_of_iranian_syncretic_recipient_opinion_active:0 ""
+  doctrine_parameter_iranian_syncretic_actor_opinion_active: "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Iranian [faiths|E]"
+  doctrine_parameter_iranian_syncretic_recipient_opinion_active: "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_iranian_syncretism_name$ [core_tenet|E]"
+  doctrine_parameter_opinion_of_iranian_syncretic_recipient_opinion_active: ""
 
 
-####### ADDITIONS FOR OLD TENETS #######
-  tenet_consolamentum_jain_name:0 "Sallekhana"
-  tenet_adaptive_jain_name:0 "Anekantavada"
-  tenet_faqr_name:0 "Faqr"
+####### NEW NAMES AND DESCRIPTIONS FOR OLD TENETS #######
+  tenet_consolamentum_jain_name: "Sallekhana"
+  tenet_adaptive_jain_name: "Anekantavada"
+  tenet_faqr_name: "Faqr"
+  tenet_yoga_name: "Yoga"
+  tenet_tantra_name: "Tantra"
+
+  tenet_asteya_name: "Asteya"
+  tenet_asteya_desc: "Prompting a person to steal, or prompting him through another or approving of the theft, is the first transgression. The second is receiving stolen goods from a person, whose action has neither been prompted nor approved by the recipient. Receiving or buying goods otherwise than by lawful and just means is an irregularity or a transgression. An attempt to buy precious things very cheaply in a disordered state is the third transgression. Cheating others by the use of false weights and measures in order to obtain more from others and give less to others, is the fourth transgression. Deceiving others with artificial gold, synthetic diamonds and so on, is the fifth transgression. These five are the transgressions of the vow of non-stealing."
+
+  tenet_ahimsa_name: "Ahimsa"
+  tenet_ahimsa_desc: "Ahimsa is the highest Dharma, Ahimsa is the highest self-control, Ahimsa is the greatest gift, Ahimsa is the best practice, Ahimsa is the highest sacrifice, Ahimsa is the finest strength, Ahimsa is the greatest friend, Ahimsa is the greatest happiness, Ahimsa is the highest truth, and Ahimsa is the greatest teaching."
+
+  tenet_atithi_devo_bhava_name: "Athithi Devo Bhava"
+  tenet_atithi_devo_bhava_desc: "Be one for whom the Mother is God, be one for whom the Friend is God, be one for whom the Father is God, be one for whom the Child is God, be one for whom the Teacher is God, and be one for whom the Guest is God."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

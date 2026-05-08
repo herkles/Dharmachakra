@@ -1,5 +1,5 @@
 ﻿peristani_religion = {
-	family = rf_eastern
+	family = rf_pagan
 	graphical_faith = "dharmic_gfx"
 	doctrine = eastern_hostility_doctrine
 	pagan_roots = yes

@@ -65,9 +65,7 @@
 		name = {
 			first_valid = {
 				triggered_desc = {
-				trigger = {
-					religion_tag = christianity_religion
-				}
+					trigger = {	religion_tag = christianity_religion}
 					desc = tenet_alexandrian_catechism_name
 				}
 				desc = tenet_islamic_rationalism_name
@@ -827,11 +825,35 @@
 		icon = core_tenet_vows_of_poverty
 		name = {
 			first_valid = {
-				triggered_desc = {
+				triggered_desc = {# Islamic Vow of Poverty
 					trigger = { religion_tag = islam_religion }
 					desc = tenet_faqr_name
 				}
+				triggered_desc = {# Hindu and Jain Value of Asteya
+					trigger = { 
+						OR = {
+							religion_tag = hinduism_religion
+							religion_tag = jainism_religion
+						}
+					}
+					desc = tenet_asteya_name
+				}				
 				desc = tenet_vows_of_poverty_name
+			}
+		}
+
+		desc = {
+			first_valid = {
+				triggered_desc = {
+					trigger = {
+						OR = {
+							religion_tag = hinduism_religion
+							religion_tag = jainism_religion
+						}					
+					}
+					desc = tenet_asteya_desc
+				}
+				desc = tenet_vows_of_poverty_desc
 			}
 		}
 
@@ -1096,9 +1118,9 @@
 			religious_head_opinion = -10
 		}
 	}
-	############################
-	#	Muslim Faith Tenets	#
-	############################
+############################
+#	Muslim Faith Tenets	#
+############################
 	tenet_adaptive = {
 		name = {
 			first_valid = {
@@ -1169,6 +1191,15 @@
 	}
 	tenet_esotericism = {
 		icon = core_tenet_esotericism
+		name = {
+			first_valid = {
+				triggered_desc = {
+					trigger = { is_in_family = rf_eastern }
+					desc = tenet_tantra_name
+				}
+				desc = tenet_esotericism_name
+			}
+		}
 
 		piety_cost = {
 			if = {
@@ -1618,9 +1649,9 @@
 			NOT = { has_doctrine = special_doctrine_jizya }
 		}
 	}
-	#############################
-	# Eastern Faith tenets 		#
-	#############################
+#############################
+# Eastern Faith tenets 		#
+#############################
 	tenet_asceticism = {
 		icon = core_tenet_asceticism
 
@@ -1697,7 +1728,7 @@
 			}
 		}
 	}
-	tenet_bhakti = {
+	tenet_bhakti = {# patron Gods
 		icon = core_tenet_bhakti
 
 		name = {
@@ -1727,9 +1758,11 @@
 			select_personal_god_active = yes
 		}
 	}
-	tenet_dharmic_pacifism = { #Mix of reincarnation and pacifism rites
+	tenet_dharmic_pacifism = {# Ahimsa
 		icon = core_tenet_dharmic_pacifism
-
+		name = tenet_ahimsa_name
+		desc = tenet_ahimsa_desc		
+		
 		is_shown = {
 			has_doctrine = eastern_hostility_doctrine
 			NOT = { religion_tag = zoroastrianism_religion }
@@ -1795,7 +1828,16 @@
 	}
 	tenet_inner_journey = {
 		icon = core_tenet_inner_journey
-
+		name = {
+			first_valid = {
+				triggered_desc = {
+					trigger = { is_in_family = rf_eastern }
+					desc = tenet_yoga_name
+				}
+				desc = tenet_inner_journey_name
+			}
+		}
+	
 		is_shown = {
 			has_doctrine = eastern_hostility_doctrine
 			NOT = { religion_tag = zoroastrianism_religion }
@@ -1854,14 +1896,21 @@
 		name = {
 			first_valid = {
 				triggered_desc = {
-					trigger = {
-						religion_tag = hinduism_religion
-					}
-					desc = tenet_ritual_hospitality_alternate_name
+					trigger = { is_in_family = rf_eastern }
+					desc = tenet_atithi_devo_bhava_name
 				}
 				desc = tenet_ritual_hospitality_name
 			}
 		}
+		desc = {
+			first_valid = {
+				triggered_desc = {
+					trigger = { is_in_family = rf_eastern }
+					desc = tenet_atithi_devo_bhava_desc
+				}
+				desc = tenet_ritual_hospitality_desc
+			}
+		}		
 
 		parameters = {
 			host_honored_guests_active = yes
@@ -1880,9 +1929,9 @@
 			monthly_piety_gain_per_happy_powerful_vassal_add = 0.3
 		}
 	}	
-	############################
-	# Pagan Faith Tenets  		#
-	############################
+############################
+# Pagan Faith Tenets  	   #
+############################
 	tenet_adorcism = {
 		icon = core_tenet_adorcism
 
@@ -2338,13 +2387,9 @@
 
 		is_shown = {
 			OR = {
-			religion_tag = zunism_religion
+				religion_tag = zunism_religion
 				has_doctrine = tenet_sun_worship #If you already have it
-				AND = {
-					religion_tag = hinduism_religion
-					this = faith:saura #If you're into Saurism
-				}
-				
+				has_doctrine = sampradaya_saurism_doctrine # If you are venerating Surya as the supreme god you can see it. 
 			}
 		}
 
@@ -2627,9 +2672,9 @@
 			virtues = { augustus born_in_the_purple }
 		}
 	}
-	#############################
-	# Syncretic Faith Tenets	#
-	#############################
+#############################
+# Syncretic Faith Tenets	#
+#############################
 	tenet_sinitic_syncretism = {
 		icon = core_tenet_harmonious_society
 
@@ -2979,9 +3024,9 @@
 			sins = { cynical greedy }
 		}
 	}
-	#############################
-	# Custom Faith Tenets		#
-	#############################
+#############################
+# Custom Faith Tenets		#
+#############################
 	tenet_exaltation_of_pain = {
 		icon = core_tenet_human_sacrifice
 
@@ -3417,9 +3462,9 @@
 			hills_advantage = 5
 		}
 	}
-	#############################
-	# FP3 Tenets 		#        
-	#############################
+#############################
+# FP3 Tenets 		        #        
+#############################
 	tenet_fp3_fedayeen = {
 		icon = core_tenet_assassin
 
@@ -3554,9 +3599,11 @@
 			sins = { arrogant }
 		}
 	}
-	############################
-	# TGP Tenets				#
-	############################
+
+
+############################
+# TGP Tenets			   #
+############################
 	tenet_pure_land = {
 		icon = core_tenet_pure_land
 
@@ -4141,48 +4188,3 @@
 			virtues = { lifestyle_hunter }
 		}
 	}
-#############################
-# Empty Template Tenet 		#
-#############################
-
-#tenets = {
-#	icon = ""
-#
-#	is_shown = {
-#		always = no
-#	}
-#	can_pick = {
-#		always = yes
-#	}
-
-#	piety_cost = {
-#		if = {
-#			limit = {
-#				always = no
-#			}
-#			value = faith_tenet_cost_low
-#		}
-#		else = {
-#			value = faith_tenet_cost_massive
-#		}
-
-#		# Multiplier for keeping same tenet
-#		if = {
-#			limit = { has_doctrine = tenets }
-#			multiply = faith_unchanged_doctrine_cost_mult
-#		}
-#	}
-
-#	parameters = {
-#		tenets_active = yes
-#	}
-
-#	character_modifier = {
-
-#	}
-
-#	traits = {
-#		virtues = { brave = 2}
-#		sins = { craven = 2}
-#	}
-#}

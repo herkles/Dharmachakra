@@ -1,7 +1,7 @@
 ﻿bon_religion = {
-	family = rf_eastern
+	family = rf_pagan
 	graphical_faith = dharmic_gfx
-	doctrine = eastern_hostility_doctrine
+	doctrine = pagan_hostility_doctrine
 
 	pagan_roots = yes
 	
@@ -240,9 +240,13 @@
 			holy_site = sagya # 1
 			holy_site = purang # 11
 
+			# Tenets
 			doctrine = tenet_esotericism
 			doctrine = tenet_monasticism
 			doctrine = tenet_mountain_worship
+
+			# Doctrines
+			doctrine = special_doctrine_is_buddhist_influenced
 		}
 		old_bon = {
 			color = { 0.03 0.45 0.42 }
