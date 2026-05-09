@@ -862,3 +862,5 @@ RICE_yazd_change_xwedodah_to_cousins_effect = {
 		add_doctrine = tenet_religious_legal_pronouncements
 	}
 }
+
+

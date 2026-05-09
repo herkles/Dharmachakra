@@ -1191,15 +1191,6 @@
 	}
 	tenet_esotericism = {
 		icon = core_tenet_esotericism
-		name = {
-			first_valid = {
-				triggered_desc = {
-					trigger = { is_in_family = rf_eastern }
-					desc = tenet_tantra_name
-				}
-				desc = tenet_esotericism_name
-			}
-		}
 
 		piety_cost = {
 			if = {
@@ -1239,6 +1230,10 @@
 
 		name = {
 			first_valid = {
+				triggered_desc = {
+					trigger = { is_in_family = rf_eastern }
+					desc = tenet_tantra_name
+				}
 				triggered_desc = {
 					trigger = {
 						religion_tag = judaism_religion

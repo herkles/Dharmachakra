@@ -93,6 +93,7 @@ dharma_setup_after_game_start_on_actions = {
 		}
 		setup_dharma_tributaries_effect = yes 
 		dharma_intro_events_effect = yes
+		dharma_startup_culture_faith_effect = yes
 		# Language Breaking up for start dates
 		if = {# Konkani Language forming
 			limit = { game_start_date >= 1100.1.1 }
@@ -133,22 +134,31 @@ dharma_setup_after_game_start_on_actions = {
 			# }
 			culture:garwhali = { set_culture_pillar = language_garwhali }
 			culture:kuamoni = { set_culture_pillar = language_kumaoni }
-		}
+		}		
 		# Special buildings if you don't own the monument dlc
 		if = {# special buildings - 867
 			limit = {
 				has_cp3_dlc_trigger = no
 				game_start_date >= 867.1.1
 			}
-	        title:b_vatapi.title_province = { add_special_building = pattadakal_01 } #9237
-			title:b_konarak.title_province = { add_special_building_slot = konark_sun_temple_01 } #9237
+	        title:b_vatapi.title_province = { add_special_building = pattadakal_01 }
+			title:b_konarak.title_province = { add_special_building_slot = konark_sun_temple_01 }
 		}
+		if = {# Removing monument DLC
+			limit = {
+				has_cp6_dlc_trigger = yes
+			}
+	        title:b_kathmandu.title_province = { remove_building = boudha_stupa_01 }
+			title:b_sanchi.title_province = { remove_building = holy_site_buddhist_grand_temple_01 }
+			title:b_yazd.title_province = { remove_building = atash_e_bahram_01 }
+
+		}		
 		if = {# Konark Sun Temple
 			limit = {
 				has_cp3_dlc_trigger = no
 				game_start_date >= 1250.1.1
 			}
-	        title:b_konarak.title_province = { add_special_building = konark_sun_temple_01 } #9237
+	        title:b_konarak.title_province = { add_special_building = konark_sun_temple_01 }
 		}
 		if = {# Upgradable special buildings
 			limit = {
@@ -164,6 +174,15 @@ dharma_setup_after_game_start_on_actions = {
 			}
 	        title:b_lhasa.title_province = { add_special_building = potala_palace_02 } #9237
 		}
+		if = { # removing the Iron Pilar of Delhi and the qu
+			limit = { game_start_date > 1050.1.1 }
+			title:b_indraprastha.title_province = { remove_building = iron_pillar_of_delhi_01 }
+		}
+		if = {# remove the Qutb Minar
+			limit = { has_cp6_dlc_trigger = yes }
+			title:b_indraprastha.title_province = { remove_building = qutb_minar_01 } 
+		}
+
 		# Delhi Pillar
 		if = {# It is only the Iron Pillar of Delhi After Delhi is founded
 			limit = {

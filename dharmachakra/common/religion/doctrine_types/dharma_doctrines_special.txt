@@ -51,3 +51,13 @@ special_doctrine_is_buddhist_influenced = {
 		sins = { wrathful }
 	}	
 }
+
+special_doctrine_dharma_is_austroasiatic_faith = {
+	parameters = {
+		hostility_override_special_doctrine_dharma_is_austroasiatic_faith = 1
+	}
+
+	character_modifier = {
+			jungle_development_growth_factor = 0.05
+	}
+}

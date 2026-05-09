@@ -30,8 +30,13 @@
   is_buddhist_influenced_name: "$special_doctrine_is_buddhist_faith_name$"
   special_doctrine_is_buddhist_influenced_desc: "This spiritual tradition has been influenced by the practices and teachings of the Buddhist Sangha. While not Buddhist themselves, this influence has brought the traditions together."
 
-
   fervor_gain_new_philosophy: "New Philosophy developed"
+
+  special_doctrine_dharma_is_austroasiatic_faith_name: "Austroasiatic Roots"
+  dharma_is_austroasiatic_faith_name: "$special_doctrine_dharma_is_austroasiatic_faith_name$"
+  special_doctrine_dharma_is_austroasiatic_faith_desc: "Though greatly separated by distance, physically and chronologically, the Austroasiatic-speaking peoples, and those influenced by them, share a number of remarkably similar religious beliefs, such as worship or fear of the Tiger Deity and Rice deity."
+  doctrine_parameter_hostility_override_special_doctrine_dharma_is_austroasiatic_faith: "[faiths|E] with the $special_doctrine_dharma_is_austroasiatic_faith_name$ [doctrine|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_hostile_tooltippable$ or $hostility_evil_tooltippable$"
+
 
  # Vedic Animal Sacrifice
   special_doctrine_dharma_doctrine_vedic_sacrifice_name: "Mahabali"
@@ -62,7 +67,6 @@
   special_doctrine_is_ibadi_faith_desc: "The distance between our communities may have forced us to adopt different leaders but our core teachings and identity remain the same, it does not matter where we are and who we follow, for in the end we are all Ahl al-Istiqama!"
   doctrine_parameter_hostility_override_special_doctrine_is_ibadi_faith: "Considers and is considered by [faiths|E] with the [GetFaithDoctrine('special_doctrine_is_ibadi_faith').GetBaseName] [doctrine|E], to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
 
-
  # Zoroastrian Yazatas
   rice_doctrine_zoroastrian_yazatas_name: "Yazatas"
   rice_doctrine_zoroastrian_yazatas_desc: "$game_concept_yazatas_desc$"
@@ -84,11 +88,5 @@
   doctrine_parameter_rice_unlock_destroy_cult_centers: "Can take the [decision|E] to Suppress [zoroastrian_cult_centers|E] of "[yazatas|E]" not adhering to your [yazata|E] [doctrine|E]"
   doctrine_parameter_rice_unlock_yazata_cult_center: "Can take the [decision|E] to Establish a [zoroastrian_cult_center|E] in the [capital|E]"
   doctrine_parameter_rice_no_yazatas: "Disables the [decision|E] to Worship the [yazatas|E]"
-
-
-
-
-
-
 
 

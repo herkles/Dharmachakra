@@ -287,9 +287,443 @@ dharma_intro_events_effect = {
 		}		
 	}
 }
+#######################################
+# Character change set up
+#######################################
+dharma_startup_culture_faith_effect = {
+	every_county_in_region = {# Changing vietnamese
+		region = custom_viet_lands
+		holder = {
+			every_courtier_or_guest = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_viet }
+                    is_lowborn = yes
+                }
+                random_list = {
+                    50 = { }
+					25 = { set_character_faith = faith:viet_pagan }
+					25 = { set_character_faith = faith:sukhavati }
+                }
+                random_list = {
+                    70 = { }
+					20 = { set_culture = culture:muong }
+					10 = { set_culture = culture:han }
+                }
+			}
+		}		
+	}
+	every_ruler = {# Making Kuy characters Kuy
+		limit = {
+			culture_has_southeast_asian_heritage_pillar_trigger = yes
+			NOT = { culture = culture:kuy }
+			capital_county ?= {
+				culture = culture:kuy
+			}
+		}
+		if = {
+			limit = {
+				highest_held_title_tier = tier_county
+			}
+			every_spouse = {
+				limit = {
+					NOT = { culture = culture:kuy }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:kuy
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					NOT = { culture = culture:kuy }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:kuy
+			}
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:kuy }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:kuy
+			}
+			set_culture = culture:kuy
+			set_character_faith = faith:kuy_animism
+			if = {
+				limit = {
+					capital_county ?= {
+						faith = faith:kuy_animism
+					}					
+				}
+				every_spouse = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:kuy_animism
+				}
+				every_close_or_extended_family_member = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:kuy_animism
+				}
+				every_courtier_or_guest = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:kuy_animism
+				}
+				set_character_faith = faith:kuy_animism
+			}
+		}
+		else = {
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:kuy }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 30
+					set_culture = culture:kuy
+					set_character_faith = faith:kuy_animism
+				}
+			}		
+		}
+
+	}
+	every_county_in_region = {# Give Khmu paganism to Khmu rulers
+		region = world_asia
+		limit = {
+			culture = culture:khmu
+		}
+		set_county_faith = faith:khmu_pagan
+		holder = {
+			if = {
+				limit = {
+					culture = culture:khmu
+				}
+				set_character_faith = faith:khmu_pagan
+			}
+			every_courtier_or_guest = {
+				limit = {
+					culture = culture:khmu
+				}
+				set_character_faith = faith:khmu_pagan
+			}
+		}
+	}
+	every_ruler = {# Bahnar People
+		limit = {
+			culture_has_southeast_asian_heritage_pillar_trigger = yes
+			NOT = { culture = culture:bahnar }
+			capital_county ?= {
+				culture = culture:bahnar
+			}
+		}
+		if = {
+			limit = {
+				highest_held_title_tier = tier_county
+			}
+			every_spouse = {
+				limit = {
+					NOT = { culture = culture:bahnar }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:bahnar				
+				set_character_faith = faith:bahnar_pagan
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					NOT = { culture = culture:bahnar }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:bahnar	
+				set_character_faith = faith:bahnar_pagan
+			}
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:bahnar }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:bahnar	
+				set_character_faith = faith:bahnar_pagan
+			}
+			set_culture = culture:bahnar	
+			set_character_faith = faith:bahnar_pagan
+		}
+		else = {
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:bahnar }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 30
+					set_culture = culture:bahnar	
+					set_character_faith = faith:bahnar_pagan
+				}
+			}		
+		}
+
+	}
+	every_ruler = {# Chong People
+		limit = {
+			culture_has_southeast_asian_heritage_pillar_trigger = yes
+			NOT = { culture = culture:chong }
+			capital_county ?= {
+				culture = culture:chong
+			}
+		}
+		if = {
+			limit = {
+				highest_held_title_tier = tier_county
+			}
+			every_spouse = {
+				limit = {
+					NOT = { culture = culture:chong }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:chong
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					NOT = { culture = culture:chong }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:chong
+			}
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:chong }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:chong
+			}
+			set_culture = culture:chong
+			if = {
+				limit = {
+					capital_county ?= {
+						faith = faith:samre_pagan
+					}					
+				}
+				every_spouse = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:samre_pagan
+				}
+				every_close_or_extended_family_member = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:samre_pagan
+				}
+				every_courtier_or_guest = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:samre_pagan
+				}
+				set_character_faith = faith:samre_pagan
+			}
+		}
+		else = {
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:chong }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 30
+					set_culture = culture:chong
+					set_character_faith = faith:samre_pagan
+				}
+			}		
+		}
+
+	}	
+	every_ruler = {# Wa People
+		limit = {
+			culture_has_southeast_asian_heritage_pillar_trigger = yes
+			NOT = { culture = culture:wa }
+			capital_county ?= {
+				culture = culture:wa
+			}
+		}
+		if = {
+			limit = {
+				highest_held_title_tier = tier_county
+			}
+			every_spouse = {
+				limit = {
+					NOT = { culture = culture:wa }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:wa
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					NOT = { culture = culture:wa }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:wa
+			}
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:wa }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+				}
+				set_culture = culture:wa
+			}
+			set_culture = culture:wa
+			if = {
+				limit = {
+					capital_county ?= {
+						faith = faith:wa_animism
+					}				
+				}
+				every_spouse = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:wa_animism
+				}
+				every_close_or_extended_family_member = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:wa_animism
+				}
+				every_courtier_or_guest = {
+					limit = {
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+					}
+					set_character_faith = faith:wa_animism
+				}
+				set_character_faith = faith:wa_animism
+			}
+		}
+		else = {
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:wa }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 30
+					set_culture = culture:wa
+					random = {
+						chance = 40
+						set_character_faith = faith:wa_animism
+					}
+				}
+			}		
+		}
+
+	}
+
+
+	# Titles
+	title:c_yongchang_jingmadian = {
+		holder = {
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:wa }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 25
+					set_culture = culture:wa
+					set_character_faith = faith:wa_animism
+				}
+			}			
+		}
+	}	
+	title:c_phetchabun = {
+		holder = {
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:wa }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 25
+					set_culture = culture:wa
+					random = {
+						chance = 40
+						set_character_faith = faith:wa_animism
+					}
+				}
+			}			
+		}
+	}
+	title:c_chakangrao = {
+		holder = {
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:wa }
+					culture_has_southeast_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 25
+					set_culture = culture:wa
+					random = {
+						chance = 40
+						set_character_faith = faith:wa_animism
+					}
+				}
+			}			
+		}
+	}
+	if = {
+		limit = { game_start_date <= 1000.1.1 }
+		title:c_dong_si_mahosot = {
+			holder = {
+				every_courtier_or_guest = {
+					limit = {
+						NOT = { culture = culture:chong }
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+						is_lowborn = yes
+					}
+					random = {
+						chance = 25
+						set_culture = culture:chong
+						set_character_faith = faith:samre_pagan
+					}
+				}			
+			}
+		}
+		title:c_mueang_phra_rot = {
+			holder = {
+				every_courtier_or_guest = {
+					limit = {
+						NOT = { culture = culture:chong }
+						culture_has_southeast_asian_heritage_pillar_trigger = yes
+						is_lowborn = yes
+					}
+					random = {
+						chance = 25
+						set_culture = culture:chong
+						set_character_faith = faith:samre_pagan
+					}
+				}			
+			}
+		}
+	}
 
 
 
+
+
+
+
+
+}
 
 
 

@@ -1063,6 +1063,141 @@ language_coptic = {
 
 	color = { 106 91 140 }
 }
-
+language_katuic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_katuic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_katuic }
+			multiply = 10
+		}
+	}
+	
+	color = { 128 158 188 }
+}
+language_bahnaric = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bahnaric
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bahnaric }
+			multiply = 10
+		}
+	}
+	
+	color = { 33 44 69 }
+}
+language_chong = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_chong
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_chong }
+			multiply = 10
+		}
+	}
+	
+	color = { 8 169 88 }
+}
+language_lampung = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_lampung
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_lampung }
+			multiply = 10
+		}
+	}
+	
+	color = { 181 69 44 }
+}
+language_malay = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_malay
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_malay }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.8 0.4 0.0 }
+}
+language_ngaju = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ngaju
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ngaju }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.2 0.4 0.9 }
+}
+language_moklen = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_moklen
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_moklen }
+			multiply = 10
+		}
+	}
+	
+	color = { 58 58 22 }
+}
+language_batak = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_batak
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_batak }
+			multiply = 10
+		}
+	}
+	
+	color = { 202 58 58 }
+}
 
 
