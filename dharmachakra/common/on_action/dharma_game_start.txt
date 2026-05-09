@@ -146,10 +146,21 @@ dharma_setup_after_game_start_on_actions = {
 		}
 		if = {# Removing monument DLC
 			limit = {
-				has_cp6_dlc_trigger = yes
+				has_cp6_dlc_trigger = no
 			}
-	        title:b_kathmandu.title_province = { remove_building = boudha_stupa_01 }
-			title:b_sanchi.title_province = { remove_building = holy_site_buddhist_grand_temple_01 }
+			title:b_kathmandu.title_province = {# Boudha Stupa
+				add_special_building = boudha_stupa_01
+				add_special_building_slot = boudha_stupa_01
+			}
+			title:b_sanchi.title_province = { 
+				add_special_building = sanchi_01
+				add_special_building_slot = sanchi_01
+			}
+			title:b_yazd.title_province = { 
+				add_special_building_slot = atash_e_bahram_01
+			}
+
+
 			title:b_yazd.title_province = { remove_building = atash_e_bahram_01 }
 
 		}		
@@ -173,10 +184,6 @@ dharma_setup_after_game_start_on_actions = {
 				game_start_date >= 1066.1.1
 			}
 	        title:b_lhasa.title_province = { add_special_building = potala_palace_02 } #9237
-		}
-		if = { # removing the Iron Pilar of Delhi and the qu
-			limit = { game_start_date > 1050.1.1 }
-			title:b_indraprastha.title_province = { remove_building = iron_pillar_of_delhi_01 }
 		}
 		if = {# remove the Qutb Minar
 			limit = { has_cp6_dlc_trigger = yes }

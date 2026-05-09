@@ -104,8 +104,6 @@
 	# History
 	769.1.1 = {
 		holding = castle_holding
-		# Only here to be removed via the event for the error log
-		special_building = iron_pillar_of_delhi_01
 	}
 	1153.1.1 = {
 		special_building = iron_pillar_of_delhi_02

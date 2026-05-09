@@ -405,10 +405,10 @@
 	holding = church_holding
 	
 	# History
-	800.1.1 = {
-		special_building_slot = sanchi_01
-		special_building = sanchi_01
-	}
+	# 800.1.1 = {
+	# 	special_building_slot = sanchi_01
+	# 	special_building = sanchi_01
+	# }
 	1066.1.1 = {
 		religion = smartism
 	}
