@@ -78,7 +78,7 @@
 
 ###c_nan_asia
 12502 = { #b_nan
-	culture = wa
+	culture = lawa
 	religion = wa_animism
 	holding = tribal_holding
 }
@@ -105,7 +105,7 @@
 ##d_sukhothai ###################################
 ###c_chakangrao
 12504 = { #b_chakangrao
-	culture = wa
+	culture = lawa
 	religion = wa_animism
 	holding = temple_citadel_holding
 	1000.1.1 = {
@@ -121,7 +121,7 @@
 
 ###c_phetchabun
 10956 = { #b_phetchabun
-	culture = wa
+	culture = lawa
 	religion = wa_animism
 	holding = temple_citadel_holding
 	1000.1.1 = {
@@ -140,7 +140,7 @@
 
 ###c_sukhothai
 10961 = { #b_sukhothai
-	culture = wa
+	culture = lawa
 	religion = wa_animism
 	holding = temple_citadel_holding
 	1000.1.1 = {
@@ -159,7 +159,7 @@
 
 ###c_lampang
 10952 = { #b_lampang
-	culture = wa
+	culture = lawa
 	religion = wa_animism
 	holding = temple_citadel_holding
 	1066.1.1 = {
@@ -241,7 +241,7 @@
 
 ###c_haripunjaya
 11441 = {
-	culture = wa
+	culture = lawa
 	religion = mahayana
 	holding = temple_citadel_holding
 }
