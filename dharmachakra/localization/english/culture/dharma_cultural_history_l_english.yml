@@ -1,12 +1,16 @@
 ﻿l_english:
 
   huna_history_loc: "Formed from [CULTURE.GetName] and various Indo-Aryan cultures around the year [DATE.GetYear]"
-  iranian_hun_history_loc:0 "Formed from various cultures of $iranian_group$ and $turkic_group$ [heritage|E] in the year [DATE.GetYear]"
+  iranian_hun_history_loc: "Formed from various cultures of $iranian_group$ and $turkic_group$ [heritage|E] in the year [DATE.GetYear]"
 
-  siqilli_history_loc:0 "Formed from $arabic_group$ and $berber_group$ settlers who migrated to [GetTitleByKey('d_sicily').GetNameNoTier]" #in the year 856
+  siqilli_history_loc: "Formed from $arabic_group$ and $berber_group$ settlers who migrated to [GetTitleByKey('d_sicily').GetNameNoTier]" #in the year 856
 
   syriac_history_loc: "Formed from [aramean|E] under [CULTURE.GetName] influence around the year [DATE.GetYear]"
 
   mandaic_history_loc: "Diverged from Chaldean around the year [DATE.GetYear]"
 
   kaikanian_history_loc: "The [CULTURE.GetName] culture of the al-Qiqan highlands"
+
+  RICE_kutai_history_loc: "Formed from Dayaks in eastern Borneo with some foreign influences"
+
+

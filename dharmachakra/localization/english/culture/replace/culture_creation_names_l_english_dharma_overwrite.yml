@@ -1,27 +1,27 @@
 ﻿l_english:
 #New Dravidian Cultures
- malayali:0 "Malayali"
- malayali_collective_noun:1 "Malayalis"
+  malayali: "Malayali"
+  malayali_collective_noun: "Malayalis"
 
 # New Indo Aryan Cultures
- hindustani_proper:0 "Hindavi"
- hindustani_proper_collective_noun:0 "Hindavis"
- hindustani_proper_prefix:0 "Hindavi"
+  hindustani_proper: "Hindavi"
+  hindustani_proper_collective_noun: "Hindavis"
+  hindustani_proper_prefix: "Hindavi"
 
- bihari:0 "Bhojpuri"
- bihari_name:0 "Bhojpuri"
- bihari_collective_noun:0 "Bhojpuris"
- bihari_prefix:0 "Bhojpuri"
+  bihari: "Bhojpuri"
+  bihari_name: "Bhojpuri"
+  bihari_collective_noun: "Bhojpuris"
+  bihari_prefix: "Bhojpuri"
 
- maithili:0 "Maithili"
- maithili_name:0 "Maithili"
- maithili_collective_noun:0 "Maithilis"
- maithili_prefix:0 "Maithili"
+  maithili: "Maithili"
+  maithili_name: "Maithili"
+  maithili_collective_noun: "Maithilis"
+  maithili_prefix: "Maithili"
 
- mewari:0 "Mewari"
- mewari_name:0 "Mewari"
- mewari_collective_noun:0 "Mewaris"
- mewari_prefix:0 "Mewari"
+  mewari: "Mewari"
+  mewari_name: "Mewari"
+  mewari_collective_noun: "Mewaris"
+  mewari_prefix: "Mewari"
 
 
 # New Burman Cultures
@@ -31,14 +31,14 @@
 # Nuristani Culture Group
 
 # Munda Culture Group
- munda:0 "Munda"
- munda_name:0 "Munda"
- munda_collective_noun:0 "Mundas"
- munda_prefix:0 "Munda"
+  munda: "Munda"
+  munda_name: "Munda"
+  munda_collective_noun: "Mundas"
+  munda_prefix: "Munda"
 
 # Other Cultures
-  parsi:0 "Parsi"
-  parsi_name:0 "Parsi"
-  parsi_collective_noun:0 "Parsis"
-  parsi_prefix:0 "Parsi"
+  parsi: "Parsi"
+  parsi_name: "Parsi"
+  parsi_collective_noun: "Parsis"
+  parsi_prefix: "Parsi"
 # Divergent Cultures

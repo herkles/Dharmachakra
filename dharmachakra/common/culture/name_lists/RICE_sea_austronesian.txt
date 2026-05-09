@@ -580,3 +580,65 @@ name_list_sunda = {
 	mat_grm_name_chance = 20
 	mother_name_chance = 10
 }
+name_list_malagasy = {
+
+	cadet_dynasty_names = {
+		"dynn_Fani-Kayode"
+		"dynn_Jaona"
+		"dynn_Mahasampo"
+		"dynn_Mokae"
+		"dynn_Mukurob"
+		"dynn_Rakatondrabe"
+		"dynn_Rakotaorimanana"
+		"dynn_Rakotobearison"
+		"dynn_Rakotondrabe"
+		"dynn_Rakotozafy"
+		"dynn_Ramalallanarina"
+		"dynn_Ramanantsoa"
+		"dynn_Ramanatsoa"
+		"dynn_Randriantefy"
+		"dynn_Ratsimandrava"
+		"dynn_Ratsiraka"
+		"dynn_Ratsirika"
+		"dynn_Ravaonirina"
+		"dynn_Razanamasy"
+		"dynn_Toyin"
+		"dynn_Tsirinana"
+		"dynn_Warungu"
+		"dynn_Zakes"
+	}
+	
+	dynasty_names = {
+		"dynn_Fani-Kayode"
+		"dynn_Jaona"
+		"dynn_Mahasampo"
+		"dynn_Mokae"
+		"dynn_Mukurob"
+		"dynn_Rakatondrabe"
+		"dynn_Rakotaorimanana"
+		"dynn_Rakotobearison"
+		"dynn_Rakotondrabe"
+		"dynn_Rakotozafy"
+		"dynn_Ramalallanarina"
+		"dynn_Ramanantsoa"
+		"dynn_Ramanatsoa"
+		"dynn_Randriantefy"
+		"dynn_Ratsimandrava"
+		"dynn_Ratsiraka"
+		"dynn_Ratsirika"
+		"dynn_Ravaonirina"
+		"dynn_Razanamasy"
+		"dynn_Toyin"
+		"dynn_Tsirinana"
+		"dynn_Warungu"
+		"dynn_Zakes"
+	}
+
+	male_names = {
+		Andriama Andriamihaja Andrianampoinaimerina Fankanonikaka Mihanta Monja Potrafanton Radama Rakohaja Rakota Rakotobe Ravetoson Vavalana Zanahary
+	}
+	female_names = {
+		Bomfomtabellilaba Lalao Lantoniaina Rabodo Ranavalona Rasoherina Rivasoa Tandra 
+	}
+
+}

@@ -623,7 +623,556 @@ dharma_startup_culture_faith_effect = {
 		}
 
 	}
+	every_ruler = {# Malay people
+		limit = {
+			culture = culture:malay
+			capital_county ?= {
+				faith = faith:malayic
+			}
+		}
 
+		if = {
+			limit = {
+				highest_held_title_tier = tier_county
+			}
+			every_spouse = {
+				limit = {
+					culture = culture:malay
+				}
+				set_character_faith = faith:malayic
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					culture = culture:malay
+				}
+				set_character_faith = faith:malayic
+			}
+			every_courtier_or_guest = {
+				limit = {
+					culture = culture:malay
+				}
+				set_character_faith = faith:malayic
+			}
+			set_character_faith = faith:malayic
+		}
+		else = {
+			every_courtier_or_guest = {
+				limit = {
+					culture_has_south_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 40
+					set_character_faith = faith:malayic
+				}
+			}		
+		}
+	}
+	every_ruler = {# Javanese faith
+		limit = {
+			culture = culture:javanese
+			capital_county ?= {
+				culture = culture:javanese
+			}
+		}
+
+		if = {
+			limit = {
+				highest_held_title_tier = tier_county
+			}
+			every_spouse = {
+				limit = {
+					culture = culture:javanese
+				}
+				set_character_faith = faith:javanist
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					culture = culture:javanese
+				}
+				set_character_faith = faith:javanist
+			}
+			every_courtier_or_guest = {
+				limit = {
+					culture = culture:javanese
+				}
+				set_character_faith = faith:javanist
+			}
+			set_character_faith = faith:javanist
+		}
+		else = {
+			every_courtier_or_guest = {
+				limit = {
+					culture_has_south_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 40
+					set_character_faith = faith:javanist
+				}
+			}		
+		}
+	}
+	every_ruler = {# Ngaju people
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:ngaju }
+			capital_county ?= {
+				culture = culture:ngaju
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:ngaju }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:ngaju
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:ngaju }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:ngaju
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:ngaju }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:ngaju
+		}
+		set_culture = culture:ngaju
+	}
+	every_ruler = {# Kadazan People
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:kadazan }
+			capital_county ?= {
+				culture = culture:kadazan
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:kadazan }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:kadazan
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:kadazan }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:kadazan
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:kadazan }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:kadazan
+		}
+		set_culture = culture:kadazan
+	}
+	every_ruler = {# bidayuh People
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:bidayuh }
+			capital_county ?= {
+				culture = culture:bidayuh
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:bidayuh }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:bidayuh
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:bidayuh }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:bidayuh
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:bidayuh }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:bidayuh
+		}
+		set_culture = culture:bidayuh
+	}
+	every_ruler = {# kutai
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:kutai }
+			capital_county ?= {
+				culture = culture:kutai
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:kutai }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:kutai
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:kutai }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:kutai
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:kutai }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:kutai
+		}
+		set_culture = culture:kutai
+	}
+	every_ruler = {# gorontalo
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:gorontalo }
+			capital_county ?= {
+				culture = culture:gorontalo
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:gorontalo }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:gorontalo
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:gorontalo }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:gorontalo
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:gorontalo }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:gorontalo
+		}
+		set_culture = culture:gorontalo
+	}
+	every_ruler = {# tolaki
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:tolaki }
+			capital_county ?= {
+				culture = culture:tolaki
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:tolaki }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:tolaki
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:tolaki }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:tolaki
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:tolaki }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:tolaki
+		}
+		set_culture = culture:tolaki
+	}
+	every_ruler = {# danao
+		limit = {
+			is_landed = yes
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:danao }
+			capital_county ?= {
+				culture = culture:danao
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:danao }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:danao
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:danao }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:danao
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:danao }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:danao
+		}
+		set_culture = culture:danao
+	}
+	every_ruler = {# sumba
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:sumba }
+			capital_county ?= {
+				culture = culture:sumba
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:sumba }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:sumba
+			set_character_faith = faith:marapu
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:sumba }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:sumba
+			set_character_faith = faith:marapu
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:sumba }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:sumba
+			set_character_faith = faith:marapu
+		}
+		set_culture = culture:sumba
+		set_character_faith = faith:marapu
+	}
+	every_ruler = {# timor
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:timor }
+			capital_county ?= {
+				culture = culture:timor
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:timor }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:timor
+			set_character_faith = faith:timor_pagan
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:timor }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:timor
+			set_character_faith = faith:timor_pagan
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:timor }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:timor
+			set_character_faith = faith:timor_pagan
+		}
+		set_culture = culture:timor
+		set_character_faith = faith:timor_pagan
+	}
+	every_ruler = {# seletar
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:seletar }
+			capital_county ?= {
+				culture = culture:seletar
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:seletar }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:seletar
+			set_character_faith = faith:umboh
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:seletar }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:seletar
+			set_character_faith = faith:umboh
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:seletar }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:seletar
+			set_character_faith = faith:umboh
+		}
+		set_culture = culture:seletar
+		set_character_faith = faith:umboh
+	}
+	every_ruler = {# sunda
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:sunda }
+			capital_county ?= {
+				culture = culture:sunda
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:sunda }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:sunda
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:sunda }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:sunda
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:sunda }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:sunda
+		}
+		set_culture = culture:sunda
+		if = {
+			limit = {
+				highest_held_title_tier = tier_county
+			}
+			every_spouse = {
+				limit = {
+					culture_has_south_asian_heritage_pillar_trigger = yes
+				}
+				set_character_faith = faith:jatisunda
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					culture_has_south_asian_heritage_pillar_trigger = yes
+				}
+				set_character_faith = faith:jatisunda
+			}
+			every_courtier_or_guest = {
+				limit = {
+					culture_has_south_asian_heritage_pillar_trigger = yes
+				}
+				set_character_faith = faith:jatisunda
+			}
+			set_character_faith = faith:jatisunda
+		}
+		else = {
+			every_courtier_or_guest = {
+				limit = {
+					culture_has_south_asian_heritage_pillar_trigger = yes
+					is_lowborn = yes
+				}
+				random = {
+					chance = 40
+					set_character_faith = faith:jatisunda
+				}
+			}		
+		}
+	}
+	every_ruler = {# lampung
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:lampung }
+			capital_county ?= {
+				culture = culture:lampung
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:lampung }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:lampung
+			set_character_faith = faith:malayic
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:lampung }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:lampung
+			set_character_faith = faith:malayic
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:lampung }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:lampung
+			set_character_faith = faith:malayic
+		}
+		set_culture = culture:lampung
+		set_character_faith = faith:malayic
+	}
+	every_ruler = {# batak
+		limit = {
+			culture = { has_cultural_pillar = heritage_austronesian }
+			NOT = { culture = culture:batak }
+			capital_county ?= {
+				culture = culture:batak
+			}
+		}
+		every_spouse = {
+			limit = {
+				NOT = { culture = culture:batak }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:batak
+			set_character_faith = faith:batak_animism
+		}
+		every_close_or_extended_family_member = {
+			limit = {
+				NOT = { culture = culture:batak }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:batak
+			set_character_faith = faith:batak_animism
+		}
+		every_courtier_or_guest = {
+			limit = {
+				NOT = { culture = culture:batak }
+				culture = { has_cultural_pillar = heritage_austronesian }
+			}
+			set_culture = culture:batak
+			set_character_faith = faith:batak_animism
+		}
+		set_culture = culture:batak
+		set_character_faith = faith:batak_animism
+	}
 
 	# Titles
 	title:c_yongchang_jingmadian = {
@@ -715,13 +1264,66 @@ dharma_startup_culture_faith_effect = {
 			}
 		}
 	}
-
-
-
-
-
-
-
+	title:c_nias = {
+		holder = {
+			every_spouse = {
+				limit = {
+					NOT = { culture = culture:batak }
+					culture = { has_cultural_pillar = heritage_austronesian }
+				}
+				set_culture = culture:batak
+				set_character_faith = faith:nias_animism
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					NOT = { culture = culture:batak }
+					culture = { has_cultural_pillar = heritage_austronesian }
+				}
+				set_culture = culture:batak
+				set_character_faith = faith:nias_animism
+			}
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:batak }
+					culture = { has_cultural_pillar = heritage_austronesian }
+				}
+				set_culture = culture:batak
+				set_character_faith = faith:nias_animism
+			}
+			set_culture = culture:batak
+			set_character_faith = faith:nias_animism
+		}
+	}
+	title:c_mentawai = {
+		holder = {
+			every_spouse = {
+				limit = {
+					NOT = { culture = culture:batak }
+					culture = { has_cultural_pillar = heritage_austronesian }
+				}
+				set_culture = culture:batak
+				set_character_faith = faith:mentawai_animism
+			}
+			every_close_or_extended_family_member = {
+				limit = {
+					NOT = { culture = culture:batak }
+					culture = { has_cultural_pillar = heritage_austronesian }
+				}
+				set_culture = culture:batak
+				set_character_faith = faith:mentawai_animism
+			}
+			every_courtier_or_guest = {
+				limit = {
+					NOT = { culture = culture:batak }
+					culture = { has_cultural_pillar = heritage_austronesian }
+				}
+				set_culture = culture:batak
+				set_character_faith = faith:mentawai_animism
+			}
+			set_culture = culture:batak
+			set_character_faith = faith:mentawai_animism
+		}
+	}
 
 }
 

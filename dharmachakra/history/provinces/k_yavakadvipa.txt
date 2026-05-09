@@ -52,7 +52,7 @@
 ###c_JAV_janggala
 11356 = {	#b_JAV_Kahuripan
 	culture = javanese
-	religion = shaivism
+	religion = javanist
 	holding = castle_holding
 	1166.1.1 = {
 		holding = temple_citadel_holding
@@ -77,7 +77,7 @@
 ###c_JAV_lumajang
 11359 = {	#b_JAV_Blambangan
 	culture = javanese
-	religion = shaivism
+	religion = javanist
 	holding = temple_citadel_holding
 }
 11360 = {	#b_JAV_Situbondo
@@ -93,8 +93,8 @@
 ##d_JAV_taruma ###################################
 ###c_JAV_sunda
 11330 = {	#b_JAV_Pakuan_Pajajaran
-	culture = javanese
-	religion = shaivism
+	culture = sunda
+	religion = jatisunda
 	holding = temple_citadel_holding
 }
 11326 = {	#b_JAV_Banten
@@ -115,8 +115,8 @@
 
 ###c_JAV_galuh
 11337 = {	#b_JAV_Kawali
-	culture = javanese
-	religion = shaivism
+	culture = sunda
+	religion = jatisunda
 	holding = temple_citadel_holding
 }
 11336 = {	#b_JAV_Cirebon
@@ -134,8 +134,8 @@
 
 ###c_JAV_cimanuk
 11335 = {	#b_JAV_Cimanuk
-	culture = javanese
-	religion = shaivism
+	culture = sunda
+	religion = jatisunda
 	holding = castle_holding
 }
 11333 = {	#b_JAV_Batujaya
@@ -149,7 +149,7 @@
 ###c_IDO_bali
 11366 = {	#b_IDO_Bedulu
 	culture = javanese
-	religion = shaivism
+	religion = javanist
 	holding = temple_citadel_holding
 	1040.1.1 = {
 		religion = vaishnavism
@@ -171,7 +171,7 @@
 ###c_JAV_madura
 11361 = {	#b_JAV_Sampang
 	culture = javanese
-	religion = shaivism
+	religion = javanist
 	holding = temple_citadel_holding
 }
 11362 = {	#b_JAV_Sumenep

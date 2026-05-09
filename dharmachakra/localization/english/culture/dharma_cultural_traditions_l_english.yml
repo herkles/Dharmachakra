@@ -1,35 +1,35 @@
 ﻿l_english:
   # Dharmachakra Traditions
-  tradition_caste_system_name:0 "Caste System"
-  tradition_caste_system_desc:1 "This Indian Caste system is integrated into society at every level. There are the four-fold Varnas and the numerous Jati that intermingle and make up the complex nature of the Caste System. Its strictness might wax and wane, but its presence is always there and the pillar of society for this culture. "
+  tradition_caste_system_name: "Caste System"
+  tradition_caste_system_desc: "This Indian Caste system is integrated into society at every level. There are the four-fold Varnas and the numerous Jati that intermingle and make up the complex nature of the Caste System. Its strictness might wax and wane, but its presence is always there and the pillar of society for this culture. "
 
-  tradition_tamil_thai_name:0 "Tamiltay"
-  tradition_tamil_thai_desc:1 "The Tamil Language holds a special place within the heart of the Tamil People. The Tamil take great pride in their literature and poetry which goes back to the Ancient Sangam period. "
+  tradition_tamil_thai_name: "Tamiltay"
+  tradition_tamil_thai_desc: "The Tamil Language holds a special place within the heart of the Tamil People. The Tamil take great pride in their literature and poetry which goes back to the Ancient Sangam period. "
 
-  tradition_lords_of_the_thar_name:0 "Lords of the Thar"
-  tradition_lords_of_the_thar_desc:1 "This culture lives and fights in the Thar desert and they know how to survive in the harsh thar desert and how to fight."
+  tradition_lords_of_the_thar_name: "Lords of the Thar"
+  tradition_lords_of_the_thar_desc: "This culture lives and fights in the Thar desert and they know how to survive in the harsh thar desert and how to fight."
 
-  dharma_culture_in_thar_desert_desc:1 "The [culture|E] has at least #V 4#! of its [counties|E] in [GetGeographicalRegion('dharma_thar_desert').GetName] [region|E]"
-  dharma_thar_desert:0 "Thar Desert"
-  culture_parameter_unlock_maa_shrivamsha:0 "Can recruit [GetMaA('shrivamsha').GetName] as [men_at_arms|E]"
+  dharma_culture_in_thar_desert_desc: "The [culture|E] has at least #V 4#! of its [counties|E] in [GetGeographicalRegion('dharma_thar_desert').GetName] [region|E]"
+  dharma_thar_desert: "Thar Desert"
+  culture_parameter_unlock_maa_shrivamsha: "Can recruit [GetMaA('shrivamsha').GetName] as [men_at_arms|E]"
 
 
 
-  tradition_sengunthar_caste_name:0 "Sengunthars"
-  tradition_sengunthar_caste_desc:1 "Among the Tamil people the Sengunthars are a caste of warrior-artisan people. A people that the Chola have come to rely upon both for the skill in weaving and silk production but also in battle. It is from this caste that the Kaikola units of the Chola come from and many Mudaliar claim to come from them."
-  culture_parameter_unlock_maa_kaikola:0 "Can recruit [GetMaA('kaikola').GetName] as [men_at_arms|E]"
+  tradition_sengunthar_caste_name: "Sengunthars"
+  tradition_sengunthar_caste_desc: "Among the Tamil people the Sengunthars are a caste of warrior-artisan people. A people that the Chola have come to rely upon both for the skill in weaving and silk production but also in battle. It is from this caste that the Kaikola units of the Chola come from and many Mudaliar claim to come from them."
+  culture_parameter_unlock_maa_kaikola: "Can recruit [GetMaA('kaikola').GetName] as [men_at_arms|E]"
 
 
 
   # RICE Traditions for compatibility
-  tradition_RICE_wewas_name:0 "Wewa Systems"
-  tradition_RICE_wewas_desc:0 "This culture, which has origins or influence from Sri Lanka, has refined the techniques used to create irrigation tanks throughout the Indian subcontinent. In Sri Lanka, these tanks, known as wewas, are constructed in large numbers and with a high level of engineering and administrative sophistication."
+  tradition_RICE_wewas_name: "Wewa Systems"
+  tradition_RICE_wewas_desc: "This culture, which has origins or influence from Sri Lanka, has refined the techniques used to create irrigation tanks throughout the Indian subcontinent. In Sri Lanka, these tanks, known as wewas, are constructed in large numbers and with a high level of engineering and administrative sophistication."
 
-  RICE_culture_in_sri_lanka_desc:1 "The [culture|E] has at least #V 4#! of its [counties|E] in [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E]"
-  RICE_sri_lanka_struggle_region:0 "Sri Lanka"
+  RICE_culture_in_sri_lanka_desc: "The [culture|E] has at least #V 4#! of its [counties|E] in [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E]"
+  RICE_sri_lanka_struggle_region: "Sri Lanka"
 
-  tradition_RICE_stepwells_name:0 "Stepwell Builders"
-  tradition_RICE_stepwells_desc:0 "Stepwells are sturdy wells with a corridor of steps that descend to the water level, that provide dependable water for agriculture but also serve as places of worship, leisure, and bathing. Though they are built by many cultures from the Indian subcontinent, this culture is known for building many such stepwells, including some of the largest ones in the region."
+  tradition_RICE_stepwells_name: "Stepwell Builders"
+  tradition_RICE_stepwells_desc: "Stepwells are sturdy wells with a corridor of steps that descend to the water level, that provide dependable water for agriculture but also serve as places of worship, leisure, and bathing. Though they are built by many cultures from the Indian subcontinent, this culture is known for building many such stepwells, including some of the largest ones in the region."
 
   # CE Traditions
   tradition_tabari_isolation_name: "Tabari Isolation"

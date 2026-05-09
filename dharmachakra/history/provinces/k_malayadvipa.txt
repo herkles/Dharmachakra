@@ -24,8 +24,8 @@
 
 ###c_SUM_lampung
 11306 = {	#b_SUM_Tulangbawang
-	culture = malay
-	religion = shaivism
+	culture = lampung
+	religion = malayic
 	holding = temple_citadel_holding
 }
 11307 = {	#b_SUM_Mengala
@@ -44,8 +44,8 @@
 
 ###c_SUM_bangka-belitung
 11322 = {	#b_SUM_Kota_Kapur
-	culture = malay
-	religion = mahayana
+	culture = seletar
+	religion = umboh
 	holding = temple_citadel_holding
 }
 11323 = {	#b_SUM_Bangka
@@ -57,8 +57,8 @@
 
 ###c_SUM_pasemah
 11300 = {	#b_SUM_Batu_Brak
-	culture = malay
-	religion = shaivism
+	culture = lampung
+	religion = malayic
 	holding = tribal_holding
 }
 11299 = {	#b_SUM_Tanah_Abang
@@ -70,8 +70,8 @@
 
 ###c_SUM_east_sumatra
 11305 = {	#b_SUM_Mesuji
-	culture = malay
-	religion = hantuism
+	culture = lampung
+	religion = malayic
 	holding = tribal_holding
 }
 11304 = {	#b_SUM_FIC_Rawatimur
@@ -131,8 +131,8 @@
 
 ###c_SUM_lingga
 11278 = {	#b_SUM_Lingga
-	culture = malay
-	religion = mahayana
+	culture = seletar
+	religion = umboh
 	holding = temple_citadel_holding
 }
 11279 = {	#b_SUM_Kampe
@@ -145,7 +145,7 @@
 ###c_SUM_karang_brahi
 11291 = {	#b_SUM_Karang_Brahi
 	culture = malay
-	religion = mahayana
+	religion = malayic
 	holding = tribal_holding
 }
 11290 = {	#b_SUM_Teba
@@ -190,8 +190,8 @@
 
 ###c_SUM_rokan
 11267 = {	#b_SUM_Rokan
-	culture = malay
-	religion = vajrayana
+	culture = batak
+	religion = batak_animism
 	holding = tribal_holding
 	1166.1.1 = {
 		holding = temple_citadel_holding
@@ -206,8 +206,8 @@
 
 ###c_SUM_pekanbaru
 11269 = {	#b_SUM_Pekanbaru
-	culture = malay
-	religion = vajrayana
+	culture = batak
+	religion = batak_animism
 	holding = tribal_holding
 }
 11265 = {	#b_SUM_Rokan_Hilir
@@ -216,8 +216,8 @@
 
 ###c_SUM_meranti
 11274 = {	#b_SUM_Suir
-	culture = malay
-	religion = mahayana
+	culture = seletar
+	religion = umboh
 	holding = tribal_holding
 }
 11275 = {	#b_SUM_Selat_Panjang
@@ -269,8 +269,8 @@
 
 ###c_SUM_panai
 11263 = {	#b_SUM_Panai
-	culture = malay
-	religion = vajrayana
+	culture = batak
+	religion = batak_animism
 	holding = temple_citadel_holding
 }
 11261 = {	#b_SUM_Kemang
@@ -307,7 +307,7 @@
 ###c_SUM_minangkabau
 11315 = {	#b_SUM_Padang
 	culture = malay
-	religion = mahayana
+	religion = malayic
 	holding = tribal_holding
 	1078.1.1 = {
 		holding = temple_citadel_holding
@@ -325,8 +325,8 @@
 
 #c_mentawai
 12824 = {	#b_siberut
-	culture = nakkavaram #Austronesian
-	religion = bilikuism #Austronesian
+	culture = batak #Austronesian
+	religion = nias_animism #Austronesian
 	holding = tribal_holding
 }
 12825 = { #b_sipura
@@ -335,8 +335,8 @@
 
 #c_nias
 11251 = {	#b_nias
-	culture = nakkavaram #Austronesian
-	religion = bilikuism #Austronesian
+	culture = batak #Austronesian
+	religion = nias_animism #Austronesian
 	holding = tribal_holding
 }
 11252 = { #b_simeulue
@@ -346,7 +346,7 @@
 ###c_SUM_bengkulu
 11312 = {	#b_SUM_Bengkulu
 	culture = malay
-	religion = hantuism
+	religion = malayic
 	holding = tribal_holding
 }
 11311 = {	#b_SUM_Andalas
@@ -356,7 +356,7 @@
 ###c_SUM_riak_nan_berbedur
 11314 = {	#b_SUM_Inderajati
 	culture = malay
-	religion = hantuism
+	religion = malayic
 	holding = tribal_holding
 }
 11313 = {	#b_SUM_Muko_Muko

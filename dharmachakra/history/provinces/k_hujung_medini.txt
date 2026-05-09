@@ -141,8 +141,8 @@
 
 ###c_riau
 12526 = {	#b_riau
-	culture = malay
-	religion = mahayana
+	culture = seletar
+	religion = umboh
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = temple_citadel_holding

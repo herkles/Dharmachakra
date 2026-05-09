@@ -385,14 +385,30 @@
   malagasy: "Malagasy"
   malagasy_prefix: "Malagasy"
   malagasy_collective_noun: "Malagasy"
-
-
-
-
-
-
-
-
+  bidayuh: "Bidayuh"
+  bidayuh_collective_noun: "Bidayuhs"
+  bidayuh_prefix: "Bidayuh"
+  kadazan: "Kadazan-Dusun"
+  kadazan_collective_noun: "Kadazan-Dusuns"
+  kadazan_prefix: "Kadazan-Dusun"
+  kutai: "Kutai"
+  kutai_collective_noun: "Kutais"
+  kutai_prefix: "Kutai"
+  ngaju: "Ngaju"
+  ngaju_collective_noun: "Ngajus"
+  ngaju_prefix: "Ngaju"
+  danao: "Danao"
+  danao_collective_noun: "Danao"
+  danao_prefix: "Danao"
+  tolaki: "Tolaki"
+  tolaki_prefix: "Tolaki"
+  tolaki_collective_noun:1 "Tolaki"
+  bungku: "Bungku"
+  bungku_collective_noun: "Bungku"
+  bungku_prefix: "Bungku"
+  gorontalo: "Gorontalo"
+  gorontalo_collective_noun: "Gorontalo"
+  gorontalo_prefix: "Gorontalo"
 
 
 

@@ -1199,5 +1199,77 @@ language_batak = {
 	
 	color = { 202 58 58 }
 }
+language_filipino = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_filipino
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_filipino }
+			multiply = 10
+		}
+	}
+	
+	color = { 0.4 0.3 0.7 }
+}
+language_timor = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_timor
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_timor }
+			multiply = 10
+		}
+	}
+	
+	color = { 8 99 69 }
+}
+language_bugis = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bugis
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bugis }
+			multiply = 10
+		}
+	}
+	
+	color = { 0 105 146 }
+}
+language_tomini = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_tomini
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tomini }
+			multiply = 10
+		}
+	}
+	
+	color = { 16 48 69 }
+}
+
+
+
+
 
 
