@@ -25,7 +25,6 @@
   activity_dharma_festival_mehregan_host_an_a: "$dharma_festival_host_activity_a$"
 
 
-
 ###################################
 # Activity itself
 ###################################
@@ -50,11 +49,11 @@
 ###################################
   dharma_festival_chhath_gift_type: "Gift Size"
   dharma_festival_chhath_gift_small: "Small"
-  dharma_festival_chhath_gift_small_desc: "A small and humble offering shall be offered on your pilgrimage."
+  dharma_festival_chhath_gift_small_desc: "A small and humble Gift shall be offered."
   dharma_festival_chhath_gift_medium: "Medium"
-  dharma_festival_chhath_gift_medium_desc: "A reasonably sized offering shall be offered on your pilgrimage."
+  dharma_festival_chhath_gift_medium_desc: "A reasonably sized Gift shall be offered."
   dharma_festival_chhath_gift_large: "Large"
-  dharma_festival_chhath_gift_large_desc: "A grand offering shall be offered on your pilgrimage."
+  dharma_festival_chhath_gift_large_desc: "A grand Gift shall be offered."
 
   dharma_festival_chhath_gift_amount: "The size of the Gift that shall be offered."
 ###################################
@@ -88,9 +87,6 @@
   dharma_festival_zoroastrian_intent_header: "Humata, Hukhta, Huvarshta:"
   dharma_festival_zoroastrian_intent: "Humata, Hukhta, Huvarshta"
   dharma_festival_zoroastrian_intent_desc: "You want to focus on good thoughts, good words, and good deeds (#italic humata, hukhta, huvarshta#!) during this important time of year. [GetTrait('zealous').GetName( GetNullCharacter )|U], [GetTrait('just').GetName( GetNullCharacter )], or [GetTrait('honest').GetName( GetNullCharacter )] characters may lose additional [stress|E]. You will also gain [piety_i|E] #V 25#! on top of any other [piety|E] you gain."
-
-
-
 
 ###################################
 # Character Memories
@@ -355,11 +351,11 @@
 ###################################
   dharma_festival_thaipusam_gift_type: "Gift Size"
   dharma_festival_thaipusam_gift_small: "Small"
-  dharma_festival_thaipusam_gift_small_desc: "A small and humble offering shall be offered on your pilgrimage."
+  dharma_festival_thaipusam_gift_small_desc: "A small and humble offering shall be offered."
   dharma_festival_thaipusam_gift_medium: "Medium"
-  dharma_festival_thaipusam_gift_medium_desc: "A reasonably sized offering shall be offered on your pilgrimage."
+  dharma_festival_thaipusam_gift_medium_desc: "A reasonably sized offering shall be offered."
   dharma_festival_thaipusam_gift_large: "Large"
-  dharma_festival_thaipusam_gift_large_desc: "A grand offering shall be offered on your pilgrimage."
+  dharma_festival_thaipusam_gift_large_desc: "A grand offering shall be offered."
 
   dharma_festival_thaipusam_gift_amount: "The size of the Gift that shall be offered."
 ###################################

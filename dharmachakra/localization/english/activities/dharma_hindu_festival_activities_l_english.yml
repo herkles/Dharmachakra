@@ -32,11 +32,11 @@
 ###################################
   dharma_hindu_festival_diwali_gift_type: "Gift Size"
   dharma_hindu_festival_diwali_gift_small: "Small"
-  dharma_hindu_festival_diwali_gift_small_desc: "A small and humble offering shall be offered on your pilgrimage."
+  dharma_hindu_festival_diwali_gift_small_desc: "A small and humble offering shall be offered."
   dharma_hindu_festival_diwali_gift_medium: "Medium"
-  dharma_hindu_festival_diwali_gift_medium_desc: "A reasonably sized offering shall be offered on your pilgrimage."
+  dharma_hindu_festival_diwali_gift_medium_desc: "A reasonably sized offering shall be offered."
   dharma_hindu_festival_diwali_gift_large: "Large"
-  dharma_hindu_festival_diwali_gift_large_desc: "A grand offering shall be offered on your pilgrimage."
+  dharma_hindu_festival_diwali_gift_large_desc: "A grand offering shall be offered."
 
   dharma_hindu_festival_diwali_gift_amount: "The size of the Gift that shall be offered."
 ###################################

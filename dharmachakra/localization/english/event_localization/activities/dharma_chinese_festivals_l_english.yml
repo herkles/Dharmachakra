@@ -1,0 +1,38 @@
+﻿l_english:
+
+# Ratha Yatra 
+  dharma_chinese_festivals.001.t: "The Spring Festival is here!"
+  dharma_chinese_festivals.001.desc: "The New Year has arrived and with it so has the Spring Festival. People are already lining the streets with kites and people putting up paper mache of fishes and dragons. Shops are selling trinkets for the festival. The New Year has arrived. "
+  dharma_chinese_festivals.001.a: "This is quite the sight."
+
+  dharma_chinese_festivals.002.t: "Honoring my Ancestors"
+  dharma_chinese_festivals.002.desc: "The family shrine has been swept clean and the local deities that we revere have been given their offerings. We have placed bowls of rice and other food at the shrine to honor ancestors. Incense has been lit."
+  dharma_chinese_festivals.002.a: "I shall conduct the ritual"
+
+  dharma_chinese_festivals.003.t: "Going to the Temple"
+  dharma_chinese_festivals.003.desc: "After honoring our ancestors we are going to the temple to honor the Gods. In particular the temple that is dedicated to Caishen, the lord of wealth. You and your household follow the priests to the temple to pay respect to the lord and hope to receive his blessings for the new year."
+  dharma_chinese_festivals.003.a: "Cai Shen dao!"
+
+  dharma_chinese_festivals.004.t: "A parade through the city"
+  dharma_chinese_festivals.004.desc: "The city is filled with parades and music as people parade through the city. People both rich and poor came out to watch the celebrations as musicians and people in colorful lion and dragon costumes. It is a wonderful day as you watch from the balcony as the people parade through the city."
+  dharma_chinese_festivals.004.a: "What a Joyous day"
+
+  dharma_chinese_festivals.005.t: "Family Feast"
+  dharma_chinese_festivals.005.desc: "After the procession of the idols through the city. In contrast to many other festivals, the idols are made from wood and straw and following the procession they along with the chariots are burned and used for fuel to help the temples cook food for your court and the people. /n/nThus later on in the evening, you are in your courtyard with your courtiers and family as your servants bring you food to enjoy together."
+  dharma_chinese_festivals.005.a: "Good food with family and friends"
+
+  dharma_chinese_festivals.006.t: "Gifts for your relatives"
+  dharma_chinese_festivals.006.desc: "During Navaratri it is common to buy gifts for relatives and loved ones. Of your many relatives whom shall you get a gift for? "
+  dharma_chinese_festivals.006.everyone: "All my relatives"
+  dharma_chinese_festivals.006.elders: "My Parents"
+  dharma_chinese_festivals.006.spouses: "My spouse"
+  dharma_chinese_festivals.006.siblings: "My Siblings"
+  dharma_chinese_festivals.006.children: "My Children"
+
+  dharma_chinese_festivals.007.t: "Light Procession"
+  dharma_chinese_festivals.007.desc: "The last day of the New Years celebration is here and the city is adorned with kites and lanterns as the Lantern Festival part of the new year celebration is now ongoing. The city is filled with lights from paper lanterns and shows as people are enjoying the last day of the new years."
+  dharma_chinese_festivals.007.a: "Good food with family and friends"
+
+  dharma_chinese_festivals.008.t: "New Year Festivities concludes"
+  dharma_chinese_festivals.008.desc: "The festivites of the New Years are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
+  dharma_chinese_festivals.008.a: "Till next time!"

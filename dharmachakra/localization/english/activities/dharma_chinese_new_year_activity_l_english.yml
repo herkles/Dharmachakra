@@ -1,0 +1,62 @@
+﻿l_english:
+
+
+###################################
+# a/an title stuff itself
+###################################
+  activity_dharma_festival_chinese_new_year_host_an_a: "$dharma_festival_host_activity_a$"
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_chinese_new_year: "Spring Festival Celebration"
+  activity_dharma_festival_chinese_new_year_desc: "The Spring Festival or New Year in the Chinese calendar is the time to welcome in the new year and celebrate with friends and family."
+  activity_dharma_festival_chinese_new_year_selection_tooltip: "It is time to celebrate Spring Festival.\n\n$dharma_festival_chinese_new_year_desc_context_tooltip$"
+  activity_dharma_festival_chinese_new_year_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_chinese_new_year_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_chinese_new_year_province_desc: "We shall host the Spring Festival Celebrations here"
+  activity_dharma_festival_chinese_new_year_destination_selection: "$activity_dharma_festival_chinese_new_year_province_desc$"
+  activity_dharma_festival_chinese_new_year_guest_help_text: "$activity_dharma_festival_chinese_new_year$"
+  activity_dharma_festival_chinese_new_year_predicted_cost: "The cost of the celebration will determine by how much you [activity_options|E] you select."
+  activity_dharma_festival_chinese_new_year_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_chinese_new_year' ).GetName] is over. May [GetPlayer.GetFaith.PantheonTerm] be pleased with the purity of these goats!"
+  dharma_decision_chinese_new_year_month_requirement: "Spring Festival takes on the first year of the Chinese calendar around January or February in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_chinese_new_year_gift_type: "Gift Size"
+  dharma_festival_chinese_new_year_gift_small: "Small"
+  dharma_festival_chinese_new_year_gift_small_desc: "A small and humble gift shall be given."
+  dharma_festival_chinese_new_year_gift_medium: "Medium"
+  dharma_festival_chinese_new_year_gift_medium_desc: "A reasonably sized gift shall be given."
+  dharma_festival_chinese_new_year_gift_large: "Large"
+  dharma_festival_chinese_new_year_gift_large_desc: "A grand gift shall be given."
+  dharma_festival_chinese_new_year_gift_amount: "The size of the Gift that shall be given."
+###################################
+# Phases
+###################################
+  dharma_festival_chinese_new_year_phase: "Celebration"
+  dharma_festival_chinese_new_year_phase_desc: "You will celebrate Spring Festival and welcome in the new year."
+###################################
+# Intents
+###################################
+
+###################################
+# Character Memories
+###################################
+  dharma_festival_chinese_new_year_completed_log_title: "Spring Festival Completed"
+  dharma_festival_chinese_new_year_completed_log: "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Spring Festival"
+  TRAVEL_NAME_FOR_activity_dharma_festival_chinese_new_year: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_chinese_new_year$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_chinese_new_year_host_memory: "celbrated [GetActivityType('activity_dharma_festival_chinese_new_year').GetName]"
+  dharma_festival_chinese_new_year_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_chinese_new_year').GetName]"
+  dharma_festival_chinese_new_year_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_chinese_new_year').GetName]"
+  dharma_festival_chinese_new_year_host_memory_third_perspective: "[owner.GetName] performed a [GetActivityType('activity_dharma_festival_chinese_new_year').GetName]"
+  dharma_festival_chinese_new_year_guest_memory: "participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_chinese_new_year').GetName]"
+  dharma_festival_chinese_new_year_guest_memory_first_perspective: "I participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_chinese_new_year').GetName]"
+  dharma_festival_chinese_new_year_guest_memory_second_perspective: "you participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_chinese_new_year').GetName]"
+  dharma_festival_chinese_new_year_guest_memory_third_perspective: "[owner.GetName] participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_chinese_new_year').GetName]"

@@ -1,0 +1,383 @@
+﻿namespace = dharma_chinese_festivals
+
+#######################################
+# Chinese New Year / Spring Festival
+#######################################
+dharma_chinese_festivals.001 = {# Spring Festival begins
+	type = activity_event
+	title = dharma_chinese_festivals.001.t
+	desc = dharma_chinese_festivals.001.desc
+	theme = friendly
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Spring Festival begins
+		name = dharma_chinese_festivals.001.a
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_chinese_festivals.002
+			days = 1
+		}
+	}
+
+}
+dharma_chinese_festivals.002 = {# Honoring my Ancestors
+	type = activity_event
+	title = dharma_chinese_festivals.002.t
+	desc = dharma_chinese_festivals.002.desc
+	theme = feast_activity
+	override_background = {
+		reference = feast
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Honoring your family
+		name = dharma_chinese_festivals.002.a
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_chinese_festivals.003
+			days = 1
+		}
+	}
+
+}
+dharma_chinese_festivals.003 = {# Peachwood Blessings
+	type = activity_event
+	title = dharma_chinese_festivals.003.t
+	desc = dharma_chinese_festivals.003.desc
+	theme = feast_activity
+	override_background = {
+		reference = asian_temple
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# nice blessings
+		name = dharma_chinese_festivals.003.a
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_chinese_festivals.004
+			days = 1
+		}
+	}
+
+}
+dharma_chinese_festivals.004 = {# Parades through the streets
+	type = activity_event
+	title = dharma_chinese_festivals.004.t
+	desc = dharma_chinese_festivals.004.desc
+	theme = feast_activity
+	override_background = {
+		reference = asian_temple
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Parade
+		name = dharma_chinese_festivals.004.a
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_chinese_festivals.005
+			days = 1
+		}
+	}
+
+}
+dharma_chinese_festivals.005 = {# Family Feast
+	type = activity_event
+	title = dharma_chinese_festivals.005.t
+	desc = dharma_chinese_festivals.005.desc
+	theme = friendly
+	override_background = {
+		reference = feast
+	}
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# Feast with Family
+		name = dharma_chinese_festivals.005.a
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_chinese_festivals.006
+			days = 1
+		}
+	}
+
+}
+dharma_chinese_festivals.006 = {# Giving gifts to your family
+	type = activity_event
+	title = dharma_chinese_festivals.006.t
+	desc = dharma_chinese_festivals.006.desc
+	theme = feast_activity
+	override_background = {
+		reference = bp2_indian_garden
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+
+	option = {# Equal Gifts to all your family
+		name = dharma_chinese_festivals.006.everyone
+		add_prestige = major_prestige_gain
+		remove_short_term_gold = major_gold_value
+		every_close_or_extended_family_member = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	option = {# Favor your spouse(s)
+		trigger = {# have to have a spouse
+			any_spouse = { count >= 1 }
+		}
+		name = dharma_chinese_festivals.006.spouses
+		add_prestige = medium_prestige_gain
+		remove_short_term_gold = medium_gold_value
+		every_spouse = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	option = {# Give gifts to your elders
+		name = dharma_chinese_festivals.006.elders
+		add_prestige = medium_prestige_gain
+		remove_short_term_gold = medium_gold_value
+		every_close_or_extended_family_member = {
+			limit = { 
+				is_alive = yes 
+				OR = {
+					is_grandparent_of = root
+					is_parent_of = root
+					is_great_grandparent_of = root
+				}
+			}			
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	option = {# Give gifts to your siblings
+		trigger = {# have to have a sibling
+			any_sibling = { count >= 1 }
+		}
+		name = dharma_chinese_festivals.006.siblings
+		add_prestige = medium_prestige_gain
+		remove_short_term_gold = medium_gold_value
+		every_sibling = {
+			limit = { is_alive = yes }
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+	option = {# Give gifts to your children
+		trigger = {# have to have a child
+			any_child = { count >= 1 }
+		}	
+		name = dharma_chinese_festivals.006.children
+		add_prestige = medium_prestige_gain
+		remove_short_term_gold = medium_gold_value
+		every_close_or_extended_family_member = {
+			limit = { 
+				is_alive = yes 
+				OR = {
+					is_child_of = root
+					is_grandchild_of = root
+					is_great_grandchild_of = root
+				}
+			}
+			add_gold = minor_gold_value
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 15
+			}
+		}
+		stress_impact = {
+			base = miniscule_stress_impact_loss
+			family_first = minor_stress_impact_loss
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_chinese_festivals.007
+			days = 1
+		}
+	}
+
+}
+dharma_chinese_festivals.007 = {# Light Procession
+	type = activity_event
+	title = dharma_chinese_festivals.007.t
+	desc = dharma_chinese_festivals.007.desc
+	theme = feast_activity
+	override_background = {
+		reference = dharma_tibet_temple_interior
+	}
+	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {# light procession
+		name = dharma_chinese_festivals.007.a
+		stress_impact = {
+			gregarious = miniscule_stress_impact_loss
+			zealous = miniscule_stress_impact_loss
+			humble = miniscule_stress_impact_loss
+			shy = miniscule_stress_impact_gain
+			cynical = miniscule_stress_impact_gain
+			reclusive = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_chinese_festivals.008
+			days = 1
+		}
+	}
+
+}
+dharma_chinese_festivals.008 = {# Spring Festival concludes
+	type = activity_event
+	title = dharma_chinese_festivals.008.t
+	desc = dharma_chinese_festivals.008.desc
+	theme = faith
+	override_background = {
+		reference = throne_room
+	}	
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+	
+	option = {# Back Home
+		name = dharma_chinese_festivals.008.a
+		if = {# if you have NAME INTENT get a bonus
+			limit = { }
+		}
+		if = {# if you have NAME INTENT get a bonus
+			limit = { }
+		}
+		if = {# if you have NAME INTENT get a bonus
+			limit = { }
+		}
+	}
+
+	after = {
+		trigger_event = { 
+			id = dharma_chinese_festivals.009
+			days = 1	
+		}
+	}
+}
+dharma_chinese_festivals.009 = {# Misc cleanup
+	hidden = yes	
+	immediate = {
+		dharma_buddhist_festival_vesak_completed_log_entry_effect = yes
+		scope:activity = {
+			hidden_effect = { skip_activity_phase = yes }
+		}
+	}
+}
+#######################################
+# Qingming Festival
+#######################################
+
+#######################################
+# Dragon Boat Festival
+#######################################
+
+#######################################
+# Moon Festival
+#######################################
