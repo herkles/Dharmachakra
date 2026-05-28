@@ -57,7 +57,7 @@ dharma_chinese_festivals.002 = {# Honoring my Ancestors
 	}
 
 }
-dharma_chinese_festivals.003 = {# Peachwood Blessings
+dharma_chinese_festivals.003 = {# Going to the temple
 	type = activity_event
 	title = dharma_chinese_festivals.003.t
 	desc = dharma_chinese_festivals.003.desc

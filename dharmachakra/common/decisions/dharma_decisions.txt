@@ -1088,6 +1088,10 @@ dharma_tibet_yumten_legitimacy = {# Yumten proves he is his father's son
 	}
 }
 #######################################
+# Title decisions
+#######################################
+
+#######################################
 # RICE Decisions
 #######################################
 dharma_india_irrigation_tank_decision = {
