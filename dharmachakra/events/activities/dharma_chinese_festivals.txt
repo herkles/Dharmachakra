@@ -8,7 +8,9 @@ dharma_chinese_festivals.001 = {# Spring Festival begins
 	title = dharma_chinese_festivals.001.t
 	desc = dharma_chinese_festivals.001.desc
 	theme = friendly
-	
+	override_background = {
+		reference = tgp_courtyard_asia
+	}
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -35,7 +37,7 @@ dharma_chinese_festivals.002 = {# Honoring my Ancestors
 	desc = dharma_chinese_festivals.002.desc
 	theme = feast_activity
 	override_background = {
-		reference = feast
+		reference = asian_temple
 	}
 	
 	left_portrait = {
@@ -61,7 +63,7 @@ dharma_chinese_festivals.003 = {# Peachwood Blessings
 	desc = dharma_chinese_festivals.003.desc
 	theme = feast_activity
 	override_background = {
-		reference = asian_temple
+		reference = tgp_holysite_asia
 	}
 	
 	left_portrait = {
@@ -95,7 +97,7 @@ dharma_chinese_festivals.004 = {# Parades through the streets
 	desc = dharma_chinese_festivals.004.desc
 	theme = feast_activity
 	override_background = {
-		reference = asian_temple
+		reference = dharma_chinese_city_street
 	}
 	
 	left_portrait = {
@@ -129,7 +131,7 @@ dharma_chinese_festivals.005 = {# Family Feast
 	desc = dharma_chinese_festivals.005.desc
 	theme = friendly
 	override_background = {
-		reference = feast
+		reference = tgp_feast_asia
 	}
 	left_portrait = {
 		character = root
@@ -162,7 +164,7 @@ dharma_chinese_festivals.006 = {# Giving gifts to your family
 	desc = dharma_chinese_festivals.006.desc
 	theme = feast_activity
 	override_background = {
-		reference = bp2_indian_garden
+		reference = tgp_feast_asia
 	}
 	
 	left_portrait = {
@@ -300,7 +302,7 @@ dharma_chinese_festivals.007 = {# Light Procession
 	desc = dharma_chinese_festivals.007.desc
 	theme = feast_activity
 	override_background = {
-		reference = dharma_tibet_temple_interior
+		reference = moon_festival_night_japan
 	}
 	
 	left_portrait = {
@@ -334,7 +336,7 @@ dharma_chinese_festivals.008 = {# Spring Festival concludes
 	desc = dharma_chinese_festivals.008.desc
 	theme = faith
 	override_background = {
-		reference = throne_room
+		reference = tgp_courtyard_asia
 	}	
 	left_portrait = {
 		character = root

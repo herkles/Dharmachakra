@@ -92,7 +92,20 @@ dharma_mountain_temple = {# Mountain Temple
 		ambience = "event:/SFX/Events/Backgrounds/temple_generic"
 	}
 }
-
+dharma_chinese_buddhist_interior = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/dharma_asian_buddhist_interior.dds"
+		environment = "environment_tgp_temple_asia"
+		ambience = "event:/DLC/EP4/SFX/Events/Event_Backgrounds/tgp_temple_asia"
+	}
+}
+dharma_temple_asia_exterior = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/dharma_asian_shrine.dds"
+		environment = "environment_tgp_holysite_asia"
+		ambience = "event:/DLC/EP4/SFX/Events/Event_Backgrounds/tgp_holysite_asia"
+	}
+}
 #######################################
 #         Palace Backgrounds		  #
 #######################################
@@ -136,6 +149,20 @@ dharma_india_balcony = {# Palace Balcony
 		reference = "gfx/interface/illustrations/event_scenes/dharma_india_balcony.dds"
 		environment = "environment_frontend_india_main"
 		ambience = "event:/SFX/Events/Backgrounds/castle_courtyard_western"
+	}
+}
+dharma_asian_noble_estate_exterior = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/dharma_asian_noble_estate.dds"
+		environment = "environment_tgp_courtyard_asia"
+		ambience = "event:/DLC/EP4/SFX/Events/Event_Backgrounds/tgp_courtyard_asia"
+	}
+}
+dharma_asian_noble_estate_interior = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/dharma_asian_courtyard.dds"
+		environment = "environment_tgp_chinese_corridor_day" 
+		ambience = "event:/DLC/EP4/SFX/Events/Event_Backgrounds/tgp_chinese_corridor_day"
 	}
 }
 #######################################
@@ -193,6 +220,13 @@ dharma_india_pyre = {# City Pyre
 		ambience = "event:/SFX/Events/Backgrounds/city_alley_day_western"
 	}
 }
+dharma_chinese_city_street = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/dharma_asian_street.dds"
+		environment = "environment_tgp_chinese_city"
+		ambience = "event:/DLC/EP4/SFX/Events/Event_Backgrounds/tgp_chinese_city"
+	}
+}
 #######################################
 #       Festival Backgrounds	  	  #
 #######################################
@@ -236,7 +270,9 @@ dharma_festival_nowruz_feast = {
 		ambience = "event:/DLC/EP2/SFX/Events/Backgrounds/evn_background_feast_mena"
 	}
 }
-
+#######################################
+#        Other Backgrounds	  	  	  #
+#######################################
 dharma_RICE_background_india_irrigation_tank = {
 	background = { # North India
 		trigger = {
