@@ -185,11 +185,6 @@ dharma_setup_after_game_start_on_actions = {
 			}
 	        title:b_lhasa.title_province = { add_special_building = potala_palace_02 } #9237
 		}
-		if = {# remove the Qutb Minar
-			limit = { has_cp6_dlc_trigger = yes }
-			title:b_indraprastha.title_province = { remove_building = qutb_minar_01 } 
-		}
-
 		# Delhi Pillar
 		if = {# It is only the Iron Pillar of Delhi After Delhi is founded
 			limit = {
@@ -454,7 +449,5 @@ dharma_setup_after_game_start_on_actions = {
 				}
 			}
 		}
-
-		
 	}
 }
