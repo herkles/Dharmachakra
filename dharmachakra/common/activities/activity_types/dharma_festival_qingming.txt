@@ -120,105 +120,6 @@
 	# OPTIONS
 	###################
 
-	options = {
-		dharma_festival_chinese_qingming_gift_type = {
-			dharma_festival_qingming_gift_small = {
-				default = yes
-				ai_will_do = {
-					value = 15
-					if = {
-						limit = {
-							short_term_gold <= 100
-						}
-						add = {
-							value = 10
-						}
-					}
-					if = {
-						limit = {
-							has_trait = greedy
-						}
-						add = 10
-					}
-				}
-			}
-			dharma_festival_qingming_gift_medium = {
-				cost = { 
-					gold = {
-						add = {
-							value = 0
-							desc = dharma_festival_qingming_gift_amount
-							add = {
-								value = minor_gold_value
-								desc = dharma_festival_qingming_gift_amount
-							}
-						}
-					}
-				}			
-				ai_will_do = {
-					value = 30
-					if = {
-						limit = {
-							short_term_gold <= minor_gold_value
-						}
-						subtract = {
-							value = 30
-						}
-					}
-					if = {
-						limit = {
-							has_trait = ambitious
-						}
-						add = 5
-					}
-					if = {
-						limit = {
-							has_trait = arrogant
-						}
-						add = 5
-					}
-				}
-			}
-			dharma_festival_qingming_gift_large = {
-				cost = { 
-					gold = {
-						add = {
-							value = 0
-							desc = dharma_festival_qingming_gift_amount
-							add = {
-								value = medium_gold_value
-								desc = dharma_festival_qingming_gift_amount
-							}
-						}
-					}
-				}			
-				ai_will_do = {
-					value = 15
-					if = {
-						limit = {
-							short_term_gold <= medium_gold_value
-						}
-						subtract = {
-							value = 15
-						}
-					}
-					if = {
-						limit = {
-							has_trait = ambitious
-						}
-						add = 5
-					}
-					if = {
-						limit = {
-							has_trait = arrogant
-						}
-						add = 5
-					}
-				}
-			}
-		}
-	}
-
 	###################
 	# PHASES
 	###################
@@ -230,7 +131,7 @@
 			on_phase_active = {
 				if = {
 					limit = { this = scope:host }
-					trigger_event = dharma_chinese_festivals.001
+					trigger_event = dharma_chinese_festivals.020
 				}		
 			}
 			on_end = {
@@ -327,7 +228,7 @@
 	}
 
 	on_enter_passive_state = {
-		trigger_event = dharma_chinese_festivals.001
+		trigger_event = dharma_chinese_festivals.020
 	}
 
 	###################

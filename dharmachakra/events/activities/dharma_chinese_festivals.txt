@@ -457,7 +457,6 @@ dharma_chinese_festivals.022 = {# Visting the tombs with the family
 		}
 	}
 
-	desc = dharma_chinese_festivals.022.desc
 	theme = feast_activity
 	override_background = {
 		reference = tgp_asia_estate
