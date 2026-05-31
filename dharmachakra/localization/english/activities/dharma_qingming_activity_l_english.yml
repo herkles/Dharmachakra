@@ -1,0 +1,65 @@
+﻿l_english:
+
+###################################
+# a/an title stuff itself
+###################################
+  activity_dharma_festival_qingming_host_an_a: "$dharma_festival_host_activity_a$"
+
+###################################
+# Activity itself
+###################################
+  activity_dharma_festival_qingming: "Qingming Celebration"
+  activity_dharma_festival_qingming_desc: "Qingming is the tomb sweeping festival to honor our departed ancestors and rejoice with our living family."
+  activity_dharma_festival_qingming_selection_tooltip: "It is time to celebrate Qingming.\n\n$dharma_festival_qingming_desc_context_tooltip$"
+  activity_dharma_festival_qingming_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$Change of gaining #P beneficial#! [character_modifiers|E] depending on your [virtues|E] and [sins|E], and the [activity_options|E] you select"
+###################################
+# Starting the Activity
+###################################
+  activity_dharma_festival_qingming_guest_desc: "Gain [piety_i] [piety|E]"
+  activity_dharma_festival_qingming_province_desc: "We shall host the Qingming Celebrations here"
+  activity_dharma_festival_qingming_destination_selection: "$activity_dharma_festival_qingming_province_desc$"
+  activity_dharma_festival_qingming_guest_help_text: "$activity_dharma_festival_qingming$"
+  activity_dharma_festival_qingming_predicted_cost: "The cost of the celebration will determine by how much you [activity_options|E] you select."
+  activity_dharma_festival_qingming_conclusion_desc: "The [GetActivityType( 'activity_dharma_festival_qingming' ).GetName] is over. May [GetPlayer.GetFaith.PantheonTerm] be pleased with the purity of these goats!"
+  dharma_decision_qingming_month_requirement: "Qingming takes place around the spring equinox or April in the Gregorian Calendar."
+###################################
+# Activity Options
+###################################
+  dharma_festival_qingming_gift_type: "Gift Size"
+  dharma_festival_qingming_gift_small: "Small"
+  dharma_festival_qingming_gift_small_desc: "A small and humble gift shall be given."
+  dharma_festival_qingming_gift_medium: "Medium"
+  dharma_festival_qingming_gift_medium_desc: "A reasonably sized gift shall be given."
+  dharma_festival_qingming_gift_large: "Large"
+  dharma_festival_qingming_gift_large_desc: "A grand gift shall be given."
+  dharma_festival_qingming_gift_amount: "The size of the Gift that shall be given."
+###################################
+# Phases
+###################################
+  dharma_festival_qingming_phase: "Celebration"
+  dharma_festival_qingming_phase_desc: "You will celebrate Qingming and honor your family."
+###################################
+# Intents
+###################################
+  dharma_qingming_mourn_intent: "Mourning"
+  dharma_qingming_mourn_intent_desc: "You want to process your grief for your family."
+
+  dharma_filieal_piety_intent: "Filieal Piety"
+  dharma_filieal_piety_intent_desc: "You want to focus on the value of Filieal Piety."
+###################################
+# Character Memories
+###################################
+  dharma_festival_qingming_completed_log_title: "Qingming Completed"
+  dharma_festival_qingming_completed_log: "[CHARACTER.GetShortUIName|U] completed [CHARACTER.GetHerHis] Qingming"
+  TRAVEL_NAME_FOR_activity_dharma_festival_qingming: "[Character.GetFirstNamePossessiveNoTooltip] $activity_dharma_festival_qingming$"
+ ###################################
+# Character Memories
+###################################
+  dharma_festival_qingming_host_memory: "celbrated [GetActivityType('activity_dharma_festival_qingming').GetName]"
+  dharma_festival_qingming_host_memory_first_perspective: "I celebrated [GetActivityType('activity_dharma_festival_qingming').GetName]"
+  dharma_festival_qingming_host_memory_second_perspective: "you celebrated [GetActivityType('activity_dharma_festival_qingming').GetName]"
+  dharma_festival_qingming_host_memory_third_perspective: "[owner.GetName] performed a [GetActivityType('activity_dharma_festival_qingming').GetName]"
+  dharma_festival_qingming_guest_memory: "participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_qingming').GetName]"
+  dharma_festival_qingming_guest_memory_first_perspective: "I participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_qingming').GetName]"
+  dharma_festival_qingming_guest_memory_second_perspective: "you participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_qingming').GetName]"
+  dharma_festival_qingming_guest_memory_third_perspective: "[owner.GetName] participated in [host.GetTitledFirstNamePossessive] [GetActivityType('activity_dharma_festival_qingming').GetName]"

@@ -36,3 +36,30 @@
   dharma_chinese_festivals.008.t: "New Year Festivities concludes"
   dharma_chinese_festivals.008.desc: "The festivites of the New Years are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
   dharma_chinese_festivals.008.a: "Till next time!"
+
+# Qingming 
+  dharma_chinese_festivals.020.t: "Qingming is here!"
+  dharma_chinese_festivals.020.desc: "The spring equinox has arrived and that means it is time to celebrate the festival of Qingming. This is a time to honor the family, both those that have passed on and those still living with us."
+  dharma_chinese_festivals.020.a: "May our ancestors rest in peace"
+
+  dharma_chinese_festivals.021.t: "Having the Graves Sweapt"
+  dharma_chinese_festivals.021.desc: "Qingming is the festival of tomb sweeping and so it is only right that we sweep our family's tomb and ensure that they are well taken care of. You have plenty of servants that could do this for you, or shall you decide to do the sweeping yourself?"
+  dharma_chinese_festivals.021.a: "I shall make sure the shrine is cared for personally"
+  dharma_chinese_festivals.021.b: "That is what servants are for."
+
+  dharma_chinese_festivals.022.t: "Visting the Tombs"
+  dharma_chinese_festivals.022.desc.not_mourning: "My family went to visit our family tombs. There we burnt incense for them, provided food that they would enjoy, and burnt paper mache with the designs of money on them so they can have nice things in the afterlife. "
+  dharma_chinese_festivals.022.desc.mourning: "My family went to visit our family tombs. There we burnt incense for them, provided food that they would enjoy, and burnt paper mache with the designs of money on them for our family. During that time I could not help it and let tears fall down my face as I grieved my family who has passed away. "
+  dharma_chinese_festivals.022.a: "Csdfa!"
+
+  dharma_chinese_festivals.023.t: "Spring Outing"
+  dharma_chinese_festivals.023.desc: "After visiting the family tombs, we have the opportunity to enjoy time in the parks and gardens of the estate. Sometimes it is the time to fly kites, others to walk and enjoy the outdoors, but it is a good time to celebrate with the family."
+  dharma_chinese_festivals.023.a: "What a Joyous day"
+
+  dharma_chinese_festivals.024.t: "Family Feast"
+  dharma_chinese_festivals.024.desc: "After spending time honoring your ancestors, and enjoying the outdoors, it now culminates with a feast for you and your family. Your servants have brought a number of  delicies for you and your family to enjoy on this auspicious day. "
+  dharma_chinese_festivals.024.a: "Food unites the family"
+
+  dharma_chinese_festivals.025.t: "Qingming concludes"
+  dharma_chinese_festivals.025.desc: "The festivites of Qingming are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
+  dharma_chinese_festivals.025.a: "Till next time!"
