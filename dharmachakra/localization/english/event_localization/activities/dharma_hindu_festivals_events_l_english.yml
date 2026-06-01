@@ -11,15 +11,15 @@
   dharma_hindu_festivals.002.first_spouse: "I shall get my first wife something nice."
   dharma_hindu_festivals.002.first_spouse.tooltip: "This will anger your other wives"
   dharma_hindu_festivals.002.lover: "I will get my lover something instead."
-  dharma_hindu_festivals.002.lover.tooltip: "This will anger your wives whom are not your lover."
+  dharma_hindu_festivals.002.lover.tooltip: "This will anger your wives who are not your lover."
   dharma_hindu_festivals.002.spouses: "I will get all my wives something"
 
   dharma_hindu_festivals.003.t: "Naraka Chaturdashi"
-  dharma_hindu_festivals.003.desc: "Naraka Chaturdashi is the second day of Diwali. It celebrates the victory of Krishna over the demon Narakasura, some also attribute the killing of the demon to Kali. On this day, it is customary to get cleaned early, and to wear new clothes as we do Poja. Later in the day, one can see effigies of Narakasura being burned in the courtyard."
+  dharma_hindu_festivals.003.desc: "Naraka Chaturdashi is the second day of Diwali. It celebrates the victory of Krishna over the demon Narakasura; some also attribute the killing of the demon to Kali. On this day, it is customary to get cleaned early, and to wear new clothes as we do Poja. Later in the day, one can see effigies of Narakasura being burned in the courtyard."
   dharma_hindu_festivals.003.diwali: "Take that Narakasura"
 
   dharma_hindu_festivals.004.t: "Lakshmi Puja"
-  dharma_hindu_festivals.004.desc: "On Lakshmi Puja, the third day of Diwali, the festival of lights start early in the morning by letting in as much light as one can. As you go to the temple to make honor the Goddess Lakshmi, you see you servants preparing for the feast later tonight."
+  dharma_hindu_festivals.004.desc: "On Lakshmi Puja, the third day of Diwali, the festival of lights starts early in the morning by letting in as much light as one can. As you go to the temple to honor the Goddess Lakshmi, you see your servants preparing for the feast later tonight."
   dharma_hindu_festivals.004.lakshmi: "Om Shreem Maha Lakshmiyei Namaha"
 
   dharma_hindu_festivals.005.t: "Family Feast"
@@ -38,9 +38,9 @@
   dharma_hindu_festivals.006.lover: "I am glad [lover.GetFirstName], loves it."
 
   dharma_hindu_festivals.007.t: "Balipratipada"
-  dharma_hindu_festivals.007.desc: "The fourth day of Diwali is dedicated to Mahabali, who was a mangamious king and companion to Lord Vishnu's avatar of Vamana. Along with continuing to burn lights, it is also common on this day to be a charitable and practice Dana and give to the commoners and try and be like Bali. "
+  dharma_hindu_festivals.007.desc: "The fourth day of Diwali is dedicated to Mahabali, who was a magnanimous king and companion to Lord Vishnu's avatar of Vamana. Along with continuing to burn lights, it is also common on this day to be a charitable and practice Dana and give to the commoners and try to be like Bali. "
   dharma_hindu_festivals.007.large: "A grand denotion to the people"
-  dharma_hindu_festivals.007.medium: "A large denotion to the people"
+  dharma_hindu_festivals.007.medium: "A large denotation to the people"
   dharma_hindu_festivals.007.small: "A small denotion to the people"
 
   dharma_hindu_festivals.008.t: "Play Pachikalu"
@@ -53,13 +53,13 @@
   dharma_hindu_festivals.008.dont_play: "I will sit the game out"
 
   dharma_hindu_festivals.009.t: "Bhai Dooj"
-  dharma_hindu_festivals.009.desc.sister: "Today is Bahi Dooj, the day final day of Diwali. Today I have my servants prepare a meal for my brother, [brother.GetFirstName], of his favorite sweets and food. Today is a time for praying for [brother.GetFirstName] and ensuring his success and in turn my own. Before the feast, I place a red tilka mark upon his forhead. After the feast, I recieve a small gift. "
-  dharma_hindu_festivals.009.desc.brother: "Today is Bhai Dooj, the final day of Diwali. On this day my sister, [sister.GetFirstName], has had the servants serve me a meal of my favorite meal while praying for success and for me to protect her. After she places a red Tilka upon my forhead, I decide to give her a small gift to celebrate the day."
+  dharma_hindu_festivals.009.desc.sister: "Today is Bhai Dooj, the final day of Diwali. Today I have my servants prepare a meal for my brother, [brother.GetFirstName], of his favorite sweets and food. Today is a time for praying for [brother.GetFirstName] and ensuring his success and in turn my own. Before the feast, I place a red tikka mark upon his forehead. After the feast, I received a small gift. "
+  dharma_hindu_festivals.009.desc.brother: "Today is Bhai Dooj, the final day of Diwali. On this day my sister, [sister.GetFirstName], has had the servants serve me a meal of my favorite meal while praying for success and for me to protect her. After she places a red Tilka upon my forehead, I decide to give her a small gift to celebrate the day."
   dharma_hindu_festivals.009.sister: "What a wonderful brother, [brother.GetFirstName] is"
   dharma_hindu_festivals.009.brother: "What a wonderful Sister, [sister.GetFirstName] is"
 
   dharma_hindu_festivals.010.t: "Diwali concludes"
-  dharma_hindu_festivals.010.desc: "The festivites of Diwali are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_hindu_festivals.010.desc: "The festivities of Diwali are now finally over, and the happy mood of the festival continues on for many days. Yet still every good thing must come to an end."
   dharma_hindu_festivals.010.home: "Till next time!"
 
 
@@ -116,26 +116,9 @@
   dharma_hindu_festivals.030.garba: "What a wonderful display."
 
   dharma_hindu_festivals.031.t: "Durga Puja"
-  dharma_hindu_festivals.031.desc: "Throughout your capital numerous Pandals have been built containing statues of the Goddess Durga. As the days of the festival progress, you have brought your idol to the river bank to be bathed in the water. Here you immerse the idol of the Goddess into the water where it will disolve and symbolic of her return to the Divine Cosmos and her home on mount Kailash. "
+  dharma_hindu_festivals.031.desc: "Throughout your capital numerous Pandals have been built containing statues of the Goddess Durga. As the days of the festival progress, you have brought your idol to the river bank to be bathed in the water. Here you immerse the idol of the Goddess into the water where it will dissolve and symbolise her return to the Divine Cosmos and her home on Mount Kailash. "
   dharma_hindu_festivals.031.durga: "A great time."
 
   dharma_hindu_festivals.032.t: "Navaratri concludes"
-  dharma_hindu_festivals.032.desc: "The festivites of Navaratri are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_hindu_festivals.032.desc: "The festivities of Navaratri are now finally over, and the happy mood of the festival continues on for many days. Yet still every good thing must come to an end."
   dharma_hindu_festivals.032.home: "Till next time!"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

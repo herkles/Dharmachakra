@@ -6,7 +6,7 @@
   dharma_festivals.001.chariot: "This is quite the sight."
 
   dharma_festivals.002.t: "Chhera Pahara"
-  dharma_festivals.002.desc: "One of the big rites of the Ratha Yatra, is where the host will sweep the street before the chariots with a specially made golden handled broom while sprinkling sandlewood water and powder. Shall you conduct the rite, or shall you delegate the task to someone else."
+  dharma_festivals.002.desc: "One of the big rites of the Ratha Yatra, is where the host will sweep the street before the chariots with a specially made golden handled broom while sprinkling sandalwood water and powder. Shall you conduct the rite, or shall you delegate the task to someone else."
   dharma_festivals.002.sweep: "I shall conduct the ritual"
   dharma_festivals.002.no_sweep: "A King does not sweep!"
 
@@ -25,13 +25,13 @@
   dharma_festivals.005.small: "A small gift for the people"
 
   dharma_festivals.006.t: "Ratha Yatra concludes"
-  dharma_festivals.006.desc: "The festivites of Ratha Yatra are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
+  dharma_festivals.006.desc: "The festivities of Ratha Yatra are now finally over, and the happy mood of the festival continues on for many days. Yet still every good thing must come to an end"
   dharma_festivals.006.home: "Till next time!"
 # Thingyan 
   dharma_festivals.010.t: "a-kyo nei"
-  dharma_festivals.010.desc: "Thingyan is almost here, today is A-Kyo Nei, which is Thingyan Eve. A number of prayers and rituals preparing one for the festivals occures today, including taking the Buddhist eight precepts."
-  dharma_festivals.010.eight: "Eight Precipts"
-  dharma_festivals.010.five: "Five Precipts"
+  dharma_festivals.010.desc: "Thingyan is almost here, today is A-Kyo Nei, which is Thingyan Eve. A number of prayers and rituals preparing one for the festivals occurs today, including taking the Buddhist eight precepts."
+  dharma_festivals.010.eight: "Eight Precipits"
+  dharma_festivals.010.five: "Five Precipits"
 
   dharma_festivals.011.t: "a-kya nei"
   dharma_festivals.011.desc: "Today is A-kya Nei, when Thingyan begins. It is the day when Thagya Min makes his descent from the heavens. It is also the time when people come together to throw water at one another and have fun splashing in the water. "
@@ -48,7 +48,7 @@
   dharma_festivals.013.small: "A token gift for the commoners"
 
   dharma_festivals.014.t: "A-Tet Nei"
-  dharma_festivals.014.desc: "After the days of throwing water at one another and fun, a-tet nei arrives which marks the stopping of throwing water. "
+  dharma_festivals.014.desc: "After the days of throwing water at one another and having fun, a-tet nei arrives which marks the stopping of throwing water. "
   dharma_festivals.014.water: "Till next time"
 
   dharma_festivals.015.t: "Hair Washing ritual"
@@ -56,11 +56,11 @@
   dharma_festivals.015.hair: "I feel cleansed. "
 
   dharma_festivals.016.t: "Hnit hsan Ta Yet Nei"
-  dharma_festivals.016.desc: "The last day of Thingyan, which marks the new year actually begining, culimanates with a feast for you and your court. Your servants have brought out a number of traditional delicies and food for you, your family and cour to enjoy."
+  dharma_festivals.016.desc: "The last day of Thingyan, which marks the new year actually beginning, culminates with a feast for you and your court. Your servants have brought out a number of traditional delicacies and food for you, your family and court to enjoy."
   dharma_festivals.016.feast: "Good food and good times"
 
   dharma_festivals.017.t: "Thingyan Ends"
-  dharma_festivals.017.desc: "The festivites of Thingyan are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_festivals.017.desc: "The festivities of Thingyan are now finally over, and the happy mood of the festival continues on for many days. Yet still every good thing must come to an end."
   dharma_festivals.017.home: "Till next time"
 # Chhath 
   dharma_festivals.031.t: "Nahaye Khaye"
@@ -72,7 +72,7 @@
   dharma_festivals.032.fast: "Not even a glass of water!"
 
   dharma_festivals.033.t: "Sandhya Arghya"
-  dharma_festivals.033.desc: "Today is the third day of Chhath, where you continue fasting as the day before. However, this evening during the twilight hours, you prepare a bamboo basket decorated with fruits, rice laddus, and thekua which you offer to Lord Surya, leading your family and court in the rituals. After the rituals are done sung, and tales of Lord Surya are recited."
+  dharma_festivals.033.desc: "Today is the third day of Chhath, where you continue fasting as the day before. However, this evening during the twilight hours, you prepare a bamboo basket decorated with fruits, rice laddus, and thekua which you offer to Lord Surya, leading your family and court in the rituals. After the rituals are done, sung, and tales of Lord Surya are recited."
   dharma_festivals.033.honor: "Om Surya Devay Namah"
 
   dharma_festivals.034.t: "Usha Arghya"
@@ -86,11 +86,11 @@
   dharma_festivals.035.small: "A small gift for the People"
 
   dharma_festivals.036.t: "Chhath concludes"
-  dharma_festivals.036.desc: "The festivites of Chhath are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end"
+  dharma_festivals.036.desc: "The festivities of Chhath are now finally over, and the happy mood of the festival continues on for many days. Yet still every good thing must come to an end"
   dharma_festivals.036.home: "Till next year!"
 # Gangaur 
   dharma_festivals.040.t: "Gangaur begins"
-  dharma_festivals.040.desc.male: "The time for Gangaur is now here, the women in your family and your court have begun to worship the divine couple. The festivites for Gangaur have now begun."
+  dharma_festivals.040.desc.male: "The time for Gangaur is now here, the women in your family and your court have begun to worship the divine couple. The festivities for Gangaur have now begun."
   dharma_festivals.040.desc.female: "The time for Ganguar is now upon you. You and the rest of the ladies of the court have begun to worship the divine couple, with you leading the rest of the ladies in the court. One of the important customs that you begin is a fast, where you eat only one meal per day during the festivals."
   dharma_festivals.040.gangaur: "To Maa Gana and Lord Gaur"
 
@@ -119,7 +119,7 @@
 
   dharma_festivals.045.t: "Giving the gift to your loved ones"
   dharma_festivals.045.desc.spouse: "During the festivities you have presented your [spouse.Custom('WifeHusband')] with new clothes and gifts for [spouse.GetHerHim], including a new sari which she wears along with decorating her arms and hands with mehndi. To which [spouse.GetSheHe] is thankful for the gifts. "
-  dharma_festivals.045.desc.spouses: "During the festivities you have presented your spouses with new clothes and gifts for your wives, including new saris which they wears along with decorating their arms and hands with mehndi. To which they are thankful for the gifts."
+  dharma_festivals.045.desc.spouses: "During the festivities you have presented your spouses with new clothes and gifts for your wives, including new saris which they wear along with decorating their arms and hands with mehndi. To which they are thankful for the gifts."
   dharma_festivals.045.desc.first_spouse: "Your first wife [first_spouse.GetFirstName], reacted with joy at the gift that you gave her, and she showed off the new sari to the court, along with decorating her hands and arms in elaborate mehndi. However your other wives are annoyed at the attention she got instead of them. "
   dharma_festivals.045.desc.lover_not_wife: "Your lover [lover.GetFirstName], reacted with joy at the gift that you gave her, she showed off the new sari to the court, along with decorating her hands and arms in elaborate mehndi. However your wife,[spouse.GetFirstName], is annoyed at the attention she got instead of her."
   dharma_festivals.045.desc.lover_wife: "Your lover [lover.GetFirstName], reacted with joy at the gift that you gave her, she showed off the new sari to the court, along with decorating her hands and arms in elaborate mehndi. However your other wives were annoyed at the attention she got instead of them, particularly your first wife, [first_spouse.GetFirstName]"
@@ -130,7 +130,7 @@
 
   dharma_festivals.046.t: "Praying for love and fertility"
   dharma_festivals.046.desc.male_wife: "Your wife has been praying lately to Maa Parvati for health, fertility and for your strength to protect her from harm. It is good that you have such a devoted wife, like [spouse.GetFirstName]."
-  dharma_festivals.046.desc.male_wives: "Your wives has been praying lately to Maa Parvati for health, fertility and for your strength to protect her from harm. It is good that you have such devoted wives, like [first_spouse.GetFirstName]."
+  dharma_festivals.046.desc.male_wives: "Your wives have been praying lately to Maa Parvati for health, fertility and for your strength to protect her from harm. It is good that you have such devoted wives, like [first_spouse.GetFirstName]."
   dharma_festivals.046.desc.female_married: "Today you pray for Love, health, wellness and fertility from Ma Parvati. Along with strength and power for your Husband."
   dharma_festivals.046.desc.female_unmarried: "Today you pray for Love, health, wellness and fertility from Ma Parvati. Along with the Goddess to bless you with a loving, powerful, and handsome man as your husband."
   dharma_festivals.046.blessing: "Thank you Maa Parvati"
@@ -140,20 +140,20 @@
   dharma_festivals.047.puppet: "What a wonderful Show"
 
   dharma_festivals.048.t: "Gangaur Procession"
-  dharma_festivals.048.desc: "The finaly days of Ganguar end with an elaborate procession throughout the capital starting from your palace and passing through the markets, by passing temples, theaters and more as it proceeds throughout the city. The procession is an elaborate demonstration of the Divine couple's grace and demonstrates your power."
+  dharma_festivals.048.desc: "The final days of Ganguar end with an elaborate procession throughout the capital starting from your palace and passing through the markets, by passing temples, theaters and more as it proceeds throughout the city. The procession is an elaborate demonstration of the Divine couple's grace and demonstrates your power."
   dharma_festivals.048.procession: "A wonderful procession"
 
   dharma_festivals.049.t: "Courtly Feast"
-  dharma_festivals.049.desc.male: "As the procession comes to an end so does the fast that the women of your court have been performing. With that you and your court celebrate with a courtly feast. Your servants bring out plenty of sweets and delicacies for you to enjoy"
-  dharma_festivals.049.desc.female: "As the procession comes to an end so does your fast. With that you and your court celebrate with a courtly feast. Your servants bring out plenty of sweets and delicacies for you to enjoy."
+  dharma_festivals.049.desc.male: "As the procession comes to an end, so does the fast that the women of your court have been performing. With that you and your court celebrate with a courtly feast. Your servants bring out plenty of sweets and delicacies for you to enjoy"
+  dharma_festivals.049.desc.female: "As the procession comes to an end, so does your fast. With that you and your court celebrate with a courtly feast. Your servants bring out plenty of sweets and delicacies for you to enjoy."
   dharma_festivals.049.feast: "To a wonderful Gangaur!"
 
   dharma_festivals.050.t: "Gangaur concludes"
-  dharma_festivals.050.desc: "The festivites of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_festivals.050.desc: "The festivities of Gangaur are now finally over, and the happy mood of the festival continues on for many days. Yet still every good thing must come to an end."
   dharma_festivals.050.home: "Till next time!"
 # Losar 
   dharma_festivals.060.t: "Losar Begins!"
-  dharma_festivals.060.desc: "Your servants have informed everyone that the new year festival is now underway. People both great and small are cleaning out their homes, and servants have begun to make guthok and other food. "
+  dharma_festivals.060.desc: "Your servants have informed everyone that the new year festival is now underway. People both great and small are cleaning out their homes, and servants have begun to make guthuk and other food. "
   dharma_festivals.060.clean: "Kra Shis Bde Legs Phun Sum Tshogs"
 
   dharma_festivals.061.t: "Lama Losar"
@@ -161,37 +161,37 @@
   dharma_festivals.061.guru: "Tashi Delek"
 
   dharma_festivals.062.t: "King Losar"
-  dharma_festivals.062.desc: "The second day of Losar is King Losar. Here your servants and courtiers pay homage to you and give gifts to you. As you sit in your palace, you recieve numerous guests who have come to offer to you. Some of them have even given gifts to you."
+  dharma_festivals.062.desc: "The second day of Losar is King Losar. Here your servants and courtiers pay homage to you and give gifts to you. As you sit in your palace, you receive numerous guests who have come to offer to you. Some of them have even given gifts to you."
   dharma_festivals.062.king: "Losar Bey Tashi Delek"
 
   dharma_festivals.063.t: "Gifts for the common people"
-  dharma_festivals.063.desc: "It is not just the king who recieves a gift on the second day. It is also customary for you to give gifts to the common people to demonstrate your benevolance and genorsity and show how great you are. "
+  dharma_festivals.063.desc: "It is not just the king who receives a gift on the second day. It is also customary for you to give gifts to the common people to demonstrate your benevolence and generosity and show how great you are. "
   dharma_festivals.063.large: "A grand gift for the people"
   dharma_festivals.063.medium: "A large gift for the people"
   dharma_festivals.063.small: "A small gift for the people"
 
   dharma_festivals.064.t: "Choe-Kyong Losar"
-  dharma_festivals.064.desc: "The third day of Losar is Choe-Kyong Losar, where people go to the Monastaries and temples to offer prayers to [ROOT.Char.GetFaith.HighGodName], [ROOT.Char.GetFaith.random_GoodGodNames], [ROOT.Char.GetFaith.random_GoodGodNames], and other Deities. While people put up prayer flags around the palace and monastaries. Incense is burned to bring prosparity in the new year."
+  dharma_festivals.064.desc: "The third day of Losar is Choe-Kyong Losar, where people go to the Monasteries and temples to offer prayers to [ROOT.Char.GetFaith.HighGodName], [ROOT.Char.GetFaith.random_GoodGodNames], [ROOT.Char.GetFaith.random_GoodGodNames], and other Deities. While people put up prayer flags around the palace and monasteries. Incense is burned to bring prosperity in the new year."
   dharma_festivals.064.prayers: "Tashi Delek!"
 
   dharma_festivals.065.t: "The Dances and Plays"
-  dharma_festivals.065.desc: "After the prayers and religious services at the monastary and temples comes the dances and plays. Here people dressed in elaborate masks and costumes dance and tell stories."
+  dharma_festivals.065.desc: "After the prayers and religious services at the monastery and temples comes the dances and plays. Here people dressed in elaborate masks and costumes dance and tell stories."
   dharma_festivals.065.dance: "What a show"
 
   dharma_festivals.066.t: "Feast with the Family and court"
-  dharma_festivals.066.desc: "Following the dances at the monastary, it is tradition to have a feast with the family and court. The servants come and serve you Guthuk, serving chang beer, and plenty of delicacies. "
+  dharma_festivals.066.desc: "Following the dances at the monastery, it is tradition to have a feast with the family and court. The servants come and serve you Guthuk, serving chang beer, and plenty of delicacies. "
   dharma_festivals.066.feast: "Prosperity and good Fortune!"
 
   dharma_festivals.067.t: "Losar concludes"
-  dharma_festivals.067.desc: "The festivites of Losar are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end. "
+  dharma_festivals.067.desc: "The festivities of Losar are now finally over, and the happy mood of the festival continues on for many days. Yet still every good thing must come to an end. "
   dharma_festivals.067.home: "The festivities are now concluded."
 # Pongal 
   dharma_festivals.070.t: "Bhogi Pongal"
-  dharma_festivals.070.desc: "The first day of Pongal is Bhogi Pongal. This is the day dedicated to cleaning out one's house or palace of unwanted things. The day begins with a nice relaxing bath for yourself, while the kolam is drawn outside the palace letting everyone know that the festival is begining. In the center of the courtyard a grand bonfire has been built where old items that need to be thrown out can be burned as you make way for the new year."
+  dharma_festivals.070.desc: "The first day of Pongal is Bhogi Pongal. This is the day dedicated to cleaning out one's house or palace of unwanted things. The day begins with a nice relaxing bath for yourself, while the kolam is drawn outside the palace letting everyone know that the festival is beginning. In the center of the courtyard a grand bonfire has been built where old items that need to be thrown out can be burned as you make way for the new year."
   dharma_festivals.070.bonfire: "Lerations"
 
   dharma_festivals.071.t: "Surya Pongal"
-  dharma_festivals.071.desc: "Surya Pongal is the second day of Pongal, it is this day where the famous rice dish and where the festival gets its name comes from. The family comes together to watch the rice boil over in the special prpeared pot which is often decorated. As the host you are the first to blow the conch horn while others shout Pongalo Pongal as once the rice boils over it symbolically means greater fortunes in the new year. "
+  dharma_festivals.071.desc: "Surya Pongal is the second day of Pongal, it is this day where the famous rice dish and where the festival gets its name comes from. The family comes together to watch the rice boil over in the special prepared pot which is often decorated. As the host you are the first to blow the conch horn while others shout Pongalo Pongal as once the rice boils over it symbolically means greater fortunes in the new year. "
   dharma_festivals.071.surya: "Pongalo Pongal, Pongalo Pongal."
 
   dharma_festivals.072.t: "Sugarcane Market"
@@ -204,10 +204,10 @@
   dharma_festivals.073.mattu: "What great beasts they are."
 
   dharma_festivals.074.t: "Jallikattu Performance"
-  dharma_festivals.074.desc: "On Mattu Pongal, in addition to honoring cattle and visiting Temples, it is also customary to go and watch a game of Jallikattu. Jallikattu involves releasing a bull into an enclosed area and trying to grab a hold of the humb and bring it to a full stop. The person who can do so the longest wins. You can participate in the activity or you can just watch. "
+  dharma_festivals.074.desc: "On Mattu Pongal, in addition to honoring cattle and visiting Temples, it is also customary to go and watch a game of Jallikattu. Jallikattu involves releasing a bull into an enclosed area and trying to grab a hold of the hump and bring it to a full stop. The person who can do so the longest wins. You can participate in the activity or you can just watch. "
   dharma_festivals.074.participate: "I shall Participate"
   dharma_festivals.074.participate.success: "You impress everyone by holding onto the Bull the longest."
-  dharma_festivals.074.participate.success_title: "You succed at holding onto the Bull."
+  dharma_festivals.074.participate.success_title: "You succeed at holding onto the Bull."
   dharma_festivals.074.participate.failure: "You try to hold onto the Bull but you fail to do so, and fall onto the ground during the games. "
   dharma_festivals.074.participate.failure_title: "You fail to hold onto the Bull."
   dharma_festivals.074.participate.critical_failure: "You try to hold onto the Bull, but fail to do so and as you fall to the ground, you find yourself being injured by the beast."
@@ -227,27 +227,27 @@
   dharma_festivals.076.children: "I will give a gift to my children."
 
   dharma_festivals.077.t: "A gift for your commoners and servants?"
-  dharma_festivals.077.desc: "Another custom of Pongal is for rulers to give gifts to their servants and the common people. This way one can see the benevolance and greatness of their ruler. What sort of gift shall you give them?"
+  dharma_festivals.077.desc: "Another custom of Pongal is for rulers to give gifts to their servants and the common people. This way one can see the benevolence and greatness of their ruler. What sort of gift shall you give them?"
   dharma_festivals.077.large: "A grand gesture shall do"
   dharma_festivals.077.medium: "A normal gift shall do"
   dharma_festivals.077.small: "A token gift shall do"
 
   dharma_festivals.078.t: "Pongal concludes"
-  dharma_festivals.078.desc: "The festivites of Pongal are now finally over, and the happy mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_festivals.078.desc: "The festivities of Pongal are now finally over, and the happy mood of the festival continues on for many days. Yet still every good thing must come to an end."
   dharma_festivals.078.home: "Till next time!"
 # Thaipusam 
   dharma_festivals.080.t: "Fasting and Preparation"
   dharma_festivals.080.desc: "Thaipusam will be tomorrow and to prepare yourself you have begun to fast and pray as you prepare yourself mentally and spiritually for tomorrow."
-  dharma_festivals.080.fast: "Lets begin the Preprations"
+  dharma_festivals.080.fast: "Lets begin the Preparations"
 
-  dharma_festivals.081.t: "Shall you peirce yourself?"
-  dharma_festivals.081.desc: "One of the distinctive elements of Thaipusam is the peiricings that many devotees have to show their devotion to Lord Murugan and to ask for forgiveness and blessings. These body mortificatiosn can range from skewing the cheeks with a small trident or val to many peiricings."
+  dharma_festivals.081.t: "Shall you pierce yourself?"
+  dharma_festivals.081.desc: "One of the distinctive elements of Thaipusam is the piercings that many devotees have to show their devotion to Lord Murugan and to ask for forgiveness and blessings. These body mortifications can range from skewing the cheeks with a small trident or val to many piercings."
   dharma_festivals.081.peirce: "I shall peirce myself for Lord Murugan"
-  dharma_festivals.081.no_peirce: "I have better things to do.."
+  dharma_festivals.081.no_peirce: "This is not for me."
 
   dharma_festivals.082.t: "Procession to the Temple"
-  dharma_festivals.082.desc.peircing: "You proceed to the temple, in a trance like state as you proceed to the Temple of Lord Murugan. Your body skewed with peiricings as you proceed down the street. Along the way you see others carrying pots of milk and dancing as the procession makes their way to the temple."
-  dharma_festivals.082.desc.normal: "You proceed to the Temple of Lord Muruugan. As you proceed carrying your offerings, you see numerous people with peiricings and skewers showing their faith. You see other people carrying pots of milk and dancing as the procession makes their way to the temple."
+  dharma_festivals.082.desc.peircing: "You proceed to the temple, in a trance-like state as you proceed to the Temple of Lord Murugan. Your body is skewed with piercings as you proceed down the street. Along the way you see others carrying pots of milk and dancing as the procession makes their way to the temple."
+  dharma_festivals.082.desc.normal: "You proceed to the Temple of Lord Muruugan. As you proceed carrying your offerings, you see numerous people with piercings and skewers showing their faith. You see other people carrying pots of milk and dancing as the procession makes their way to the temple."
   dharma_festivals.082.procession: "Om Skandaya Namaha"
 
   dharma_festivals.083.t: "Offering to Lord Murugan"
@@ -260,12 +260,11 @@
   dharma_festivals.083.wisdom: "Wisdom and enlightenment"
 
   dharma_festivals.084.t: "Charity for Murugan"
-  dharma_festivals.084.desc: "On Thaipusam it is not uncommon to see people donate and give charity to honor Lord Murugan. What sort of offering shall you give to honor Lord Murugan."
+  dharma_festivals.084.desc: "On Thaipusam it is not uncommon to see people donate and give charity to honor Lord Murugan. What sort of donation shall you give to honor Lord Murugan."
   dharma_festivals.084.large: "A grand donation"
   dharma_festivals.084.medium: "A large donation"
   dharma_festivals.084.small: "A small donation"
 
   dharma_festivals.085.t: "Thaipusam concludes"
-  dharma_festivals.085.desc: "The festivites of Thaipusam are now finally over, and the spiritual mood of the festival continue on for many days. Yet still every good thing must come to an end."
+  dharma_festivals.085.desc: "The festivities of Thaipusam are now finally over, and the spiritual mood of the festival continues on for many days. Yet still every good thing must come to an end."
   dharma_festivals.085.home: "Till next Year!"
-

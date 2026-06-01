@@ -9,13 +9,13 @@
   dharma_jain_festivals.001.a: "Now to climb the grand Staircase"
 
   dharma_jain_festivals.002.t: "The grand Anointing of the Statue"
-  dharma_jain_festivals.002.desc: "Now comes the main part of the procession where the offerings of purified water, sandalwood paste milk, sugarcane juice, saffron paste, sandalwood, turmeric, and vermilion. \n\nI can lead the ceremony by climbing the 700 steps to the top to pour the various offerings, or help the monks carry 1008 vessals to the top, alternatively I could stay at the base of the statue and offer at the bottom."
+  dharma_jain_festivals.002.desc: "Now comes the main part of the procession where the offerings of purified water, sandalwood paste milk, sugarcane juice, saffron paste, sandalwood, turmeric, and vermilion. \n\nI can lead the ceremony by climbing the 700 steps to the top to pour the various offerings, or help the monks carry 1008 vessels to the top, alternatively I could stay at the base of the statue and offer at the bottom."
   dharma_jain_festivals.002.lead: "I will lead the procession"
   dharma_jain_festivals.002.help: "I shall help the monks"
   dharma_jain_festivals.002.participate: "I shall give my offerings at the base"
 
   dharma_jain_festivals.003.t: "Meditating on Bahubali's teachings"
-  dharma_jain_festivals.003.desc: "After the Anointing of the Statue of Bahubali, a number of monks are leading talks on compassion and and non-violence. I chose to listen to the monks speaking about Bahubali's..."
+  dharma_jain_festivals.003.desc: "After the Anointing of the Statue of Bahubali, a number of monks are leading talks on compassion and non-violence. I chose to listen to the monks speaking about Bahubali's..."
   dharma_jain_festivals.003.compassion: "Compassion"
   dharma_jain_festivals.003.ahimsa: "Non-Violence"
 
@@ -51,13 +51,13 @@
   dharma_jain_festivals.009.brahmacarya: "Brahamacarya"
 
   dharma_jain_festivals.010.t: "Sugandh Dashami"
-  dharma_jain_festivals.010.svetembara.desc: "As part of the Paryushana celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder infront of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul. "
-  dharma_jain_festivals.010.digambara.desc: "As part of the Das Lakshana Dharma celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder infront of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul."
+  dharma_jain_festivals.010.svetembara.desc: "As part of the Paryushana celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder in front of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul. "
+  dharma_jain_festivals.010.digambara.desc: "As part of the Das Lakshana Dharma celebrations, on the sixth day of the festivities it is customary to visit the Jain temple and light incense to burn Dhoop or dried incense powder in front of the idols of the Tirthankara. This will help to burn the karma away and help to liberate my soul."
   dharma_jain_festivals.010.a: "burn my karma away."
 
   dharma_jain_festivals.011.t: "Asking for Forgiveness"
-  dharma_jain_festivals.011.svetembara.desc: "The final day of Paryushana is Samvatsari. This is the day where we ask our communities, our neighbors and all living beings to forgive us of the actions that we have done in the past year."
-  dharma_jain_festivals.011.digambara.desc: "The final day of Das Lakshana Dharma is a day of forgiveness. This is the day where we ask our communities, our neighbors and all living beings to forgive us of the actions that we have done in the past year."
+  dharma_jain_festivals.011.svetembara.desc: "The final day of Paryushana is Samvatsari. This is the day where we ask our communities, our neighbors and all living beings to forgive us for the actions that we have done in the past year."
+  dharma_jain_festivals.011.digambara.desc: "The final day of Das Lakshana Dharma is a day of forgiveness. This is the day where we ask our communities, our neighbors and all living beings to forgive us for the actions that we have done in the past year."
   dharma_jain_festivals.011.a: "May all souls forgive me"
 
   dharma_jain_festivals.012.svetembara.title: "Paryushana concludes"
@@ -73,16 +73,16 @@
   dharma_jain_festivals.014.a: "Om Namah Siddhanam"
 
   dharma_jain_festivals.015.t: "Visiting the Temple"
-  dharma_jain_festivals.015.desc: "You arrive to the Temple for the first part of the festivities of Mahavir Jhanma Kalyanak. The local monks are to give a talk on the nature of Ahimsa, Compassion and living a good life. Reading and reciting from the sacred scriptures is also being done."
+  dharma_jain_festivals.015.desc: "You arrive at the Temple for the first part of the festivities of Mahavir Jhanma Kalyanak. The local monks are to give a talk on the nature of Ahimsa, Compassion and living a good life. Reading and reciting from the sacred scriptures is also being done."
   dharma_jain_festivals.015.a: "A good Speech"
 
   dharma_jain_festivals.016.t: "Meditating on Mahavira's teachings"
-  dharma_jain_festivals.016.desc: "After the Monks gave their speeches, it is time for meditation. As you take your place with the others. As I sit on the floor meditating, the question is what will I meditate on?"
+  dharma_jain_festivals.016.desc: "After the Monks gave their speeches, it was time for meditation. As you take your place with the others. As I sit on the floor meditating, the question is what will I meditate on?"
   dharma_jain_festivals.016.ahimsa: "Ahimsa"
   dharma_jain_festivals.016.compassion: "Compassion"
 
-  dharma_jain_festivals.017.t: "Annointing the idol"
-  dharma_jain_festivals.017.desc: "After the meditation, the monks lead through the annointing of the statue of Mahavira. I watch as the monks ceremonially bath the statue, before placing the idol upon a palanquin."
+  dharma_jain_festivals.017.t: "Anointing the idol"
+  dharma_jain_festivals.017.desc: "After the meditation, the monks lead through the anointing of the statue of Mahavira. I watch as the monks ceremonially bathe the statue, before placing the idol upon a palanquin."
   dharma_jain_festivals.017.a: "Namo Loe Savva Sahunam"
 
   dharma_jain_festivals.018.t: "The procession of Mahavira's Idol"
@@ -104,3 +104,4 @@
   dharma_jain_festivals.021.t: "Mahavir Janma Kalyanak concludes"
   dharma_jain_festivals.021.desc: "Mahavir Janma Kalyanak has come to an end.It has been a grand time celebrating the festivities, but all things must come to an end. With its end also marks the end of the fast. "
   dharma_jain_festivals.021.a: "And, of all auspicious mantras, it is indeed the foremost auspicious one."
+
