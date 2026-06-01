@@ -375,7 +375,7 @@ arakan026 = {
 arakan_minor_1 = {
 	name = "Ananthiri" #Fictional
 	religion = theravada
-	culture = rakhine
+	culture = chakma
 	
 	830.1.1 = {
 		birth = yes
@@ -387,7 +387,7 @@ arakan_minor_1 = {
 arakan_minor_2 = { #Fictional
 	name = "Silhamega"
 	religion = theravada
-	culture = rakhine
+	culture = chakma
 	
 	1030.1.1 = {
 		birth = yes

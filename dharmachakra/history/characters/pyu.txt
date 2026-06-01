@@ -14,3 +14,14 @@ burman014 = {# Thumondari
 		death = yes
 	}
 }
+pagan_tributary_02 = { 
+	name = "Thihathu"
+	religion = "ari"
+	culture = "pyu"
+	830.1.1 = {
+		birth = yes
+	}
+	899.1.1 = {
+		death = yes
+	}
+}

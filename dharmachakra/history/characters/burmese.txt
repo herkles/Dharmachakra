@@ -899,17 +899,7 @@ pagan_tributary_01 = {
 		death = yes
 	}
 }
-pagan_tributary_02 = { 
-	name = "Thihathu"
-	religion = "ari"
-	culture = "burmese"
-	830.1.1 = {
-		birth = yes
-	}
-	899.1.1 = {
-		death = yes
-	}
-}
+
 pagan_tributary_03 = { 
 	name = "Kyawswa"
 	religion = "ari"
