@@ -125,7 +125,7 @@
 
 	options = {
 		dharma_festival_chinese_new_year_gift_type = {
-			dharma_festival_mehregan_gift_small = {
+			dharma_festival_chinese_new_year_gift_small = {
 				default = yes
 				ai_will_do = {
 					value = 15
@@ -145,15 +145,15 @@
 					}
 				}
 			}
-			dharma_festival_mehregan_gift_medium = {
+			dharma_festival_chinese_new_year_gift_medium = {
 				cost = { 
 					gold = {
 						add = {
 							value = 0
-							desc = dharma_festival_mehregan_gift_amount
+							desc = dharma_festival_chinese_new_year_gift_amount
 							add = {
 								value = minor_gold_value
-								desc = dharma_festival_mehregan_gift_amount
+								desc = dharma_festival_chinese_new_year_gift_amount
 							}
 						}
 					}
@@ -182,15 +182,15 @@
 					}
 				}
 			}
-			dharma_festival_mehregan_gift_large = {
+			dharma_festival_chinese_new_year_gift_large = {
 				cost = { 
 					gold = {
 						add = {
 							value = 0
-							desc = dharma_festival_mehregan_gift_amount
+							desc = dharma_festival_chinese_new_year_gift_amount
 							add = {
 								value = medium_gold_value
-								desc = dharma_festival_mehregan_gift_amount
+								desc = dharma_festival_chinese_new_year_gift_amount
 							}
 						}
 					}
